@@ -1,5 +1,5 @@
-# Vocabulary - Supply Chain Domain
-Standard vocabularies for the supply chain and procurement business domain
+# Vocabulary - trade Domain
+Standard vocabularies for the international trade and procurement business domain
 
 ## Links
 
