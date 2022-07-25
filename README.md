@@ -3,10 +3,10 @@ Standard vocabularies for the international trade and procurement business domai
 
 ## Links
 
-[GitHub](https://github.com/uncefact/vocab-supplyChain)
+[GitHub](https://github.com/uncefact/vocab-trade)
 
-[Issues](https://github.com/uncefact/vocab-supplyChain/issues)
+[Issues](https://github.com/uncefact/vocab-trade/issues)
 
-[Models](https://jargon.sh/user/unece/vocab-supplyChain)
+[Models](https://jargon.sh/user/unece/vocab-trade)
 
-[Chat](https://uncefact.slack.com/archives/C03KZNWAFLJ) / [Join](https://join.slack.com/t/uncefact/shared_invite/zt-1b4qajh9d-dMCc7brWqHDToDrh195EZA)
+[Chat](https://uncefact.slack.com/archives/C03KZNWAFLJ) / [Join](https://join.slack.com/t/uncefact/shared_invite/zt-1d7hd0js1-sS1Xgk8DawQD9VgRvy1QHQ)
