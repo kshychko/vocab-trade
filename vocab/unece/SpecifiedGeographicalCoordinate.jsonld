@@ -1,0 +1,26 @@
+
+{
+    "@context": {
+        "unece": "https://service.unece.org/trade/uncefact/vocabulary/unece#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "cefact": "https://service.unece.org/trade/uncefact/vocabulary/cefact#"
+    },
+    "@graph": [
+        {
+            "@id": "unece:SpecifiedGeographicalCoordinate",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "The latitude and longitude of a specified place, by which its relative situation on the globe is known. The height above the sea level constitutes a third coordinate.",
+            "rdfs:label": "SpecifiedGeographicalCoordinate",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Specified_GeographicalCoordinate.Details",
+                    "@type": "unece:AggregateBIE",
+                    "unece:cefactUNId": "UN01002026",
+                    "rdfs:comment": "The latitude and longitude of a specified place, by which its relative situation on the globe is known. The height above the sea level constitutes a third coordinate.",
+                    "unece:cefactBusinessProcess": "In All Contexts"
+                }
+            ]
+        }
+    ]
+}

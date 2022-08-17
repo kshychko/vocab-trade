@@ -1,0 +1,41 @@
+
+{
+    "@context": {
+        "unece": "https://service.unece.org/trade/uncefact/vocabulary/unece#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "cefact": "https://service.unece.org/trade/uncefact/vocabulary/cefact#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "schema": "http://schema.org/",
+        "unece:cefactBieDomainClass": {
+            "@type": "@id"
+        }
+    },
+    "@graph": [
+        {
+            "@id": "unece:haulageInstructions",
+            "schema:rangeIncludes": {
+                "@id": "unece:Instructions"
+            },
+            "@type": [
+                "rdf:Property",
+                "owl:ObjectProperty"
+            ],
+            "schema:domainIncludes": {
+                "@id": "unece:Consignment"
+            },
+            "rdfs:comment": "Haulage instructions for this supply chain consignment.",
+            "rdfs:label": "haulageInstructions",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:SupplyChain_Consignment.Haulage.Haulage_Instructions",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01004249",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "Haulage instructions for this supply chain consignment."
+                }
+            ]
+        }
+    ]
+}

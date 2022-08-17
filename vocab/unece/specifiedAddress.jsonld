@@ -1,0 +1,41 @@
+
+{
+    "@context": {
+        "unece": "https://service.unece.org/trade/uncefact/vocabulary/unece#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "cefact": "https://service.unece.org/trade/uncefact/vocabulary/cefact#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "schema": "http://schema.org/",
+        "unece:cefactBieDomainClass": {
+            "@type": "@id"
+        }
+    },
+    "@graph": [
+        {
+            "@id": "unece:specifiedAddress",
+            "schema:rangeIncludes": {
+                "@id": "unece:Address"
+            },
+            "@type": [
+                "rdf:Property",
+                "owl:ObjectProperty"
+            ],
+            "schema:domainIncludes": {
+                "@id": "unece:Person"
+            },
+            "rdfs:comment": "The birth address specified for this contact person.",
+            "rdfs:label": "specifiedAddress",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Contact_Person.Specified.Birth_Address",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01013204",
+                    "unece:cefactBieDomainClass": "cefact:Contact_Person.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The birth address specified for this contact person."
+                }
+            ]
+        }
+    ]
+}

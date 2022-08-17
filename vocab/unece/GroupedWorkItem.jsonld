@@ -1,0 +1,26 @@
+
+{
+    "@context": {
+        "unece": "https://service.unece.org/trade/uncefact/vocabulary/unece#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "cefact": "https://service.unece.org/trade/uncefact/vocabulary/cefact#"
+    },
+    "@graph": [
+        {
+            "@id": "unece:GroupedWorkItem",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A grouping of related work items.",
+            "rdfs:label": "GroupedWorkItem",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Grouped_WorkItem.Details",
+                    "@type": "unece:AggregateBIE",
+                    "unece:cefactUNId": "UN01000043",
+                    "rdfs:comment": "A grouping of related work items.",
+                    "unece:cefactBusinessProcess": "In All Contexts"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+
+{
+    "@context": {
+        "unece": "https://service.unece.org/trade/uncefact/vocabulary/unece#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "cefact": "https://service.unece.org/trade/uncefact/vocabulary/cefact#"
+    },
+    "@graph": [
+        {
+            "@id": "unece:SubordinateTradeLineItem",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A collection of information specific to a subordinate item being used or reported on for trade purposes.",
+            "rdfs:label": "SubordinateTradeLineItem",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Subordinate_TradeLineItem.Details",
+                    "@type": "unece:AggregateBIE",
+                    "unece:cefactUNId": "UN01004098",
+                    "rdfs:comment": "A collection of information specific to a subordinate item being used or reported on for trade purposes.",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay"
+                }
+            ]
+        }
+    ]
+}

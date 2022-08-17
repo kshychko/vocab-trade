@@ -1,0 +1,57 @@
+
+{
+    "@context": {
+        "unece": "https://service.unece.org/trade/uncefact/vocabulary/unece#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "cefact": "https://service.unece.org/trade/uncefact/vocabulary/cefact#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "schema": "http://schema.org/",
+        "unece:cefactBieDomainClass": {
+            "@type": "@id"
+        }
+    },
+    "@graph": [
+        {
+            "@id": "unece:deliveryInstructions",
+            "schema:rangeIncludes": {
+                "@id": "unece:Instructions"
+            },
+            "@type": [
+                "rdf:Property",
+                "owl:ObjectProperty"
+            ],
+            "schema:domainIncludes": [
+                {
+                    "@id": "unece:Consignment"
+                },
+                {
+                    "@id": "unece:TransportEquipment"
+                }
+            ],
+            "rdfs:comment": [
+                "Delivery instructions for this piece of logistics transport equipment.",
+                "Delivery instructions for this supply chain consignment."
+            ],
+            "rdfs:label": "deliveryInstructions",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:SupplyChain_Consignment.Delivery.Delivery_Instructions",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01009004",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
+                    "unece:cefactBusinessProcess": "Cross-Border",
+                    "rdfs:comment": "Delivery instructions for this supply chain consignment."
+                },
+                {
+                    "@id": "cefact:Logistics_TransportEquipment.Delivery.Delivery_Instructions",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01003790",
+                    "unece:cefactBieDomainClass": "cefact:Logistics_TransportEquipment.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "Delivery instructions for this piece of logistics transport equipment."
+                }
+            ]
+        }
+    ]
+}

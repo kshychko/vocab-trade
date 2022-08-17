@@ -1,0 +1,26 @@
+
+{
+    "@context": {
+        "unece": "https://service.unece.org/trade/uncefact/vocabulary/unece#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "cefact": "https://service.unece.org/trade/uncefact/vocabulary/cefact#"
+    },
+    "@graph": [
+        {
+            "@id": "unece:StoresItemInventory",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A stores item, such as for onboard use during a journey.",
+            "rdfs:label": "StoresItemInventory",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:StoresItem_Inventory.Details",
+                    "@type": "unece:AggregateBIE",
+                    "unece:cefactUNId": "UN01013189",
+                    "rdfs:comment": "A stores item, such as for onboard use during a journey.",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay"
+                }
+            ]
+        }
+    ]
+}

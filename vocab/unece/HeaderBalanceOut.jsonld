@@ -1,0 +1,26 @@
+
+{
+    "@context": {
+        "unece": "https://service.unece.org/trade/uncefact/vocabulary/unece#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "cefact": "https://service.unece.org/trade/uncefact/vocabulary/cefact#"
+    },
+    "@graph": [
+        {
+            "@id": "unece:HeaderBalanceOut",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Offset header information to ensure that debits and credits are equal for a transaction.",
+            "rdfs:label": "HeaderBalanceOut",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Header_BalanceOut.Details",
+                    "@type": "unece:AggregateBIE",
+                    "unece:cefactUNId": "UN01011539",
+                    "rdfs:comment": "Offset header information to ensure that debits and credits are equal for a transaction.",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay"
+                }
+            ]
+        }
+    ]
+}

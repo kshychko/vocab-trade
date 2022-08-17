@@ -1,0 +1,26 @@
+
+{
+    "@context": {
+        "unece": "https://service.unece.org/trade/uncefact/vocabulary/unece#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "cefact": "https://service.unece.org/trade/uncefact/vocabulary/cefact#"
+    },
+    "@graph": [
+        {
+            "@id": "unece:AppliedAllowanceCharge",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "The applied allowance or charge component of pricing.",
+            "rdfs:label": "AppliedAllowanceCharge",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Applied_AllowanceCharge.Details",
+                    "@type": "unece:AggregateBIE",
+                    "unece:cefactUNId": "UN01000188",
+                    "rdfs:comment": "The applied allowance or charge component of pricing.",
+                    "unece:cefactBusinessProcess": "Pricing"
+                }
+            ]
+        }
+    ]
+}

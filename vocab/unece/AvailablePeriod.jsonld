@@ -1,0 +1,26 @@
+
+{
+    "@context": {
+        "unece": "https://service.unece.org/trade/uncefact/vocabulary/unece#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "cefact": "https://service.unece.org/trade/uncefact/vocabulary/cefact#"
+    },
+    "@graph": [
+        {
+            "@id": "unece:AvailablePeriod",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A specific period of time such as the length of time between two known date/time points, from a start date onwards, or up to an end date for which something is available.",
+            "rdfs:label": "AvailablePeriod",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Available_Period.Details",
+                    "@type": "unece:AggregateBIE",
+                    "unece:cefactUNId": "UN01005108",
+                    "rdfs:comment": "A specific period of time such as the length of time between two known date/time points, from a start date onwards, or up to an end date for which something is available.",
+                    "unece:cefactBusinessProcess": "In All Contexts"
+                }
+            ]
+        }
+    ]
+}

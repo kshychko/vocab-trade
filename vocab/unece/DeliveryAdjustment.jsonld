@@ -1,0 +1,26 @@
+
+{
+    "@context": {
+        "unece": "https://service.unece.org/trade/uncefact/vocabulary/unece#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "cefact": "https://service.unece.org/trade/uncefact/vocabulary/cefact#"
+    },
+    "@graph": [
+        {
+            "@id": "unece:DeliveryAdjustment",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A correction or modification to reflect actual delivery conditions.",
+            "rdfs:label": "DeliveryAdjustment",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Delivery_Adjustment.Details",
+                    "@type": "unece:AggregateBIE",
+                    "unece:cefactUNId": "UN01003498",
+                    "rdfs:comment": "A correction or modification to reflect actual delivery conditions.",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay"
+                }
+            ]
+        }
+    ]
+}

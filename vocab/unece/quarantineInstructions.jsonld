@@ -1,0 +1,57 @@
+
+{
+    "@context": {
+        "unece": "https://service.unece.org/trade/uncefact/vocabulary/unece#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "cefact": "https://service.unece.org/trade/uncefact/vocabulary/cefact#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "schema": "http://schema.org/",
+        "unece:cefactBieDomainClass": {
+            "@type": "@id"
+        }
+    },
+    "@graph": [
+        {
+            "@id": "unece:quarantineInstructions",
+            "schema:rangeIncludes": {
+                "@id": "unece:Instructions"
+            },
+            "@type": [
+                "rdf:Property",
+                "owl:ObjectProperty"
+            ],
+            "schema:domainIncludes": [
+                {
+                    "@id": "unece:ConsignmentItem"
+                },
+                {
+                    "@id": "unece:TransportEquipment"
+                }
+            ],
+            "rdfs:comment": [
+                "Quarantine instructions for this piece of logistics transport equipment.",
+                "Quarantine instructions for this supply chain consignment item."
+            ],
+            "rdfs:label": "quarantineInstructions",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:SupplyChain_ConsignmentItem.Quarantine.Quarantine_Instructions",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01004133",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_ConsignmentItem.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "Quarantine instructions for this supply chain consignment item."
+                },
+                {
+                    "@id": "cefact:Logistics_TransportEquipment.Quarantine.Quarantine_Instructions",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01003788",
+                    "unece:cefactBieDomainClass": "cefact:Logistics_TransportEquipment.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "Quarantine instructions for this piece of logistics transport equipment."
+                }
+            ]
+        }
+    ]
+}
