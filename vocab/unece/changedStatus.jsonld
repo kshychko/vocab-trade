@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://service.unece.org/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://service.unece.org/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
         "unece:cefactBieDomainClass": {
@@ -15,7 +15,7 @@
         {
             "@id": "unece:changedStatus",
             "schema:rangeIncludes": {
-                "@id": "unece:Status"
+                "@id": "unece:RecordedStatus"
             },
             "@type": [
                 "rdf:Property",
@@ -41,6 +41,14 @@
             "rdfs:label": "changedStatus",
             "unece:cefactElementMetadata": [
                 {
+                    "@id": "cefact:Grouped_WorkItem.Changed.Recorded_Status",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01007513",
+                    "unece:cefactBieDomainClass": "cefact:Grouped_WorkItem.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "A changed recorded status for this grouped work item."
+                },
+                {
                     "@id": "cefact:Basic_WorkItem.Changed.Recorded_Status",
                     "@type": "unece:AssociationBIE",
                     "unece:cefactUNId": "UN01007492",
@@ -55,14 +63,6 @@
                     "unece:cefactBieDomainClass": "cefact:Valuation_BreakdownStatement.Details",
                     "unece:cefactBusinessProcess": "Invoicing",
                     "rdfs:comment": "A changed recorded status for this valuation breakdown statement."
-                },
-                {
-                    "@id": "cefact:Grouped_WorkItem.Changed.Recorded_Status",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01007513",
-                    "unece:cefactBieDomainClass": "cefact:Grouped_WorkItem.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A changed recorded status for this grouped work item."
                 },
                 {
                     "@id": "cefact:WorkItem_QuantityAnalysis.Changed.Recorded_Status",

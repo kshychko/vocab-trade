@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://service.unece.org/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://service.unece.org/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
         "unece:cefactBieDomainClass": {
@@ -36,20 +36,20 @@
             "rdfs:label": "subordinateCountrySubDivision",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Trade_CountrySub-Division.Subordinate.Trade_CountrySub-Division",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01002567",
-                    "unece:cefactBieDomainClass": "cefact:Trade_CountrySubDivision.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A subordinate country sub-division within this trade country sub-division."
-                },
-                {
                     "@id": "cefact:Trade_Country.Subordinate.Trade_CountrySub-Division",
                     "@type": "unece:AssociationBIE",
                     "unece:cefactUNId": "UN01002555",
                     "unece:cefactBieDomainClass": "cefact:Trade_Country.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
                     "rdfs:comment": "A trade country sub-division that is subordinate to this trade country, such as a state, a county, a canton, a province."
+                },
+                {
+                    "@id": "cefact:Trade_CountrySub-Division.Subordinate.Trade_CountrySub-Division",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01002567",
+                    "unece:cefactBieDomainClass": "cefact:Trade_CountrySubDivision.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "A subordinate country sub-division within this trade country sub-division."
                 }
             ]
         }

@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://service.unece.org/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://service.unece.org/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
         "unece:cefactBieDomainClass": {
@@ -48,20 +48,20 @@
                     "rdfs:comment": "A distinguishing material feature applicable to this trade product instance."
                 },
                 {
-                    "@id": "cefact:Trade_Product.Applicable.Material_GoodsCharacteristic",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01004695",
-                    "unece:cefactBieDomainClass": "cefact:Trade_Product.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A material goods characteristic applicable to this trade product."
-                },
-                {
                     "@id": "cefact:SupplyChain_Packaging.Applicable.Material_GoodsCharacteristic",
                     "@type": "unece:AssociationBIE",
                     "unece:cefactUNId": "UN01008490",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_Packaging.Details",
                     "unece:cefactBusinessProcess": "Supply Chain",
                     "rdfs:comment": "Material goods characteristic applicable to this supply chain packaging."
+                },
+                {
+                    "@id": "cefact:Trade_Product.Applicable.Material_GoodsCharacteristic",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01004695",
+                    "unece:cefactBieDomainClass": "cefact:Trade_Product.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A material goods characteristic applicable to this trade product."
                 }
             ]
         }

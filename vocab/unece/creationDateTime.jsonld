@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://service.unece.org/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://service.unece.org/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
@@ -24,10 +24,16 @@
             ],
             "schema:domainIncludes": [
                 {
+                    "@id": "unece:AcknowledgementDocument"
+                },
+                {
                     "@id": "unece:BreakdownStatement"
                 },
                 {
-                    "@id": "unece:Document"
+                    "@id": "unece:ExchangedDocument"
+                },
+                {
+                    "@id": "unece:FinancingRequestDocument"
                 }
             ],
             "rdfs:comment": [
@@ -39,20 +45,12 @@
             "rdfs:label": "creationDateTime",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:FinancingRequest_Document.Creation.DateTime",
+                    "@id": "cefact:Exchanged_Document.Creation.DateTime",
                     "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01013232",
-                    "unece:cefactBieDomainClass": "cefact:FinancingRequest_Document.Details",
+                    "unece:cefactUNId": "UN01012584",
+                    "unece:cefactBieDomainClass": "cefact:Exchanged_Document.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The date, time, date time or other date time value for the creation of this financing request document."
-                },
-                {
-                    "@id": "cefact:Valuation_BreakdownStatement.Creation.DateTime",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01007550",
-                    "unece:cefactBieDomainClass": "cefact:Valuation_BreakdownStatement.Details",
-                    "unece:cefactBusinessProcess": "Invoicing",
-                    "rdfs:comment": "The date, time, date time, or other date time value of the creation of this valuation breakdown statement."
+                    "rdfs:comment": "The date, time, date time, or other date time value of a creation of this exchanged document."
                 },
                 {
                     "@id": "cefact:Acknowledgement_Document.Creation.DateTime",
@@ -63,12 +61,20 @@
                     "rdfs:comment": "The date or date time value of the creation of this acknowledgement document."
                 },
                 {
-                    "@id": "cefact:Exchanged_Document.Creation.DateTime",
+                    "@id": "cefact:Valuation_BreakdownStatement.Creation.DateTime",
                     "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01012584",
-                    "unece:cefactBieDomainClass": "cefact:Exchanged_Document.Details",
+                    "unece:cefactUNId": "UN01007550",
+                    "unece:cefactBieDomainClass": "cefact:Valuation_BreakdownStatement.Details",
+                    "unece:cefactBusinessProcess": "Invoicing",
+                    "rdfs:comment": "The date, time, date time, or other date time value of the creation of this valuation breakdown statement."
+                },
+                {
+                    "@id": "cefact:FinancingRequest_Document.Creation.DateTime",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01013232",
+                    "unece:cefactBieDomainClass": "cefact:FinancingRequest_Document.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The date, time, date time, or other date time value of a creation of this exchanged document."
+                    "rdfs:comment": "The date, time, date time or other date time value for the creation of this financing request document."
                 }
             ]
         }

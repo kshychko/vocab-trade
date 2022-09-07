@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://service.unece.org/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://service.unece.org/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
         "unece:cefactBieDomainClass": {
@@ -21,9 +21,17 @@
                 "rdf:Property",
                 "owl:ObjectProperty"
             ],
-            "schema:domainIncludes": {
-                "@id": "unece:Document"
-            },
+            "schema:domainIncludes": [
+                {
+                    "@id": "unece:Document"
+                },
+                {
+                    "@id": "unece:ExchangedDocument"
+                },
+                {
+                    "@id": "unece:FinancingRequestDocument"
+                }
+            ],
             "rdfs:comment": [
                 "A contractual clause of this exchanged document.",
                 "A contractual clause of this referenced document.",
@@ -31,14 +39,6 @@
             ],
             "rdfs:label": "contractualClause",
             "unece:cefactElementMetadata": [
-                {
-                    "@id": "cefact:FinancingRequest_Document.Contractual.Document_Clause",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01013243",
-                    "unece:cefactBieDomainClass": "cefact:FinancingRequest_Document.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A contractual document clause specified for this financing request document."
-                },
                 {
                     "@id": "cefact:Referenced_Document.Contractual.Document_Clause",
                     "@type": "unece:AssociationBIE",
@@ -54,6 +54,14 @@
                     "unece:cefactBieDomainClass": "cefact:Exchanged_Document.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
                     "rdfs:comment": "A contractual clause of this exchanged document."
+                },
+                {
+                    "@id": "cefact:FinancingRequest_Document.Contractual.Document_Clause",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01013243",
+                    "unece:cefactBieDomainClass": "cefact:FinancingRequest_Document.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A contractual document clause specified for this financing request document."
                 }
             ]
         }

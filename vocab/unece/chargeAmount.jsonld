@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://service.unece.org/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://service.unece.org/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
@@ -24,10 +24,16 @@
             ],
             "schema:domainIncludes": [
                 {
-                    "@id": "unece:Price"
+                    "@id": "unece:CalculatedPrice"
+                },
+                {
+                    "@id": "unece:ReferencePrice"
                 },
                 {
                     "@id": "unece:Service"
+                },
+                {
+                    "@id": "unece:TradePrice"
                 }
             ],
             "rdfs:comment": [
@@ -55,20 +61,20 @@
                     "rdfs:comment": "The monetary value of the charge for this transport service."
                 },
                 {
-                    "@id": "cefact:Calculated_Price.Charge.Amount",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01000181",
-                    "unece:cefactBieDomainClass": "cefact:Calculated_Price.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A monetary value of the calculated price to be charged."
-                },
-                {
                     "@id": "cefact:Trade_Price.Charge.Amount",
                     "@type": "unece:BasicBIE",
                     "unece:cefactUNId": "UN01001679",
                     "unece:cefactBieDomainClass": "cefact:Trade_Price.Details",
                     "unece:cefactBusinessProcess": "Trade",
                     "rdfs:comment": "A monetary value of the trade price charge."
+                },
+                {
+                    "@id": "cefact:Calculated_Price.Charge.Amount",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01000181",
+                    "unece:cefactBieDomainClass": "cefact:Calculated_Price.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "A monetary value of the calculated price to be charged."
                 }
             ]
         }

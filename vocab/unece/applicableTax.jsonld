@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://service.unece.org/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://service.unece.org/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
         "unece:cefactBieDomainClass": {
@@ -15,7 +15,7 @@
         {
             "@id": "unece:applicableTax",
             "schema:rangeIncludes": {
-                "@id": "unece:Tax"
+                "@id": "unece:TradeTax"
             },
             "@type": [
                 "rdf:Property",
@@ -23,10 +23,19 @@
             ],
             "schema:domainIncludes": [
                 {
+                    "@id": "unece:HeaderTradeSettlement"
+                },
+                {
+                    "@id": "unece:LineTradeSettlement"
+                },
+                {
+                    "@id": "unece:PaymentTradeSettlement"
+                },
+                {
                     "@id": "unece:RegulatoryProcedure"
                 },
                 {
-                    "@id": "unece:TradeSettlement"
+                    "@id": "unece:SubordinateLineTradeSettlement"
                 }
             ],
             "rdfs:comment": [
@@ -39,12 +48,12 @@
             "rdfs:label": "applicableTax",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:SubordinateLine_TradeSettlement.Applicable.Trade_Tax",
+                    "@id": "cefact:Header_TradeSettlement.Applicable.Trade_Tax",
                     "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01011855",
-                    "unece:cefactBieDomainClass": "cefact:SubordinateLine_TradeSettlement.Details",
+                    "unece:cefactUNId": "UN01011672",
+                    "unece:cefactBieDomainClass": "cefact:Header_TradeSettlement.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A tax applicable to this subordinate line trade settlement."
+                    "rdfs:comment": "A tax applicable to this header trade settlement."
                 },
                 {
                     "@id": "cefact:Line_TradeSettlement.Applicable.Trade_Tax",
@@ -53,6 +62,14 @@
                     "unece:cefactBieDomainClass": "cefact:Line_TradeSettlement.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
                     "rdfs:comment": "A tax applicable to this line trade settlement."
+                },
+                {
+                    "@id": "cefact:SubordinateLine_TradeSettlement.Applicable.Trade_Tax",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01011855",
+                    "unece:cefactBieDomainClass": "cefact:SubordinateLine_TradeSettlement.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A tax applicable to this subordinate line trade settlement."
                 },
                 {
                     "@id": "cefact:Cross-Border_RegulatoryProcedure.Applicable.Trade_Tax",
@@ -69,14 +86,6 @@
                     "unece:cefactBieDomainClass": "cefact:Payment_TradeSettlement.Details",
                     "unece:cefactBusinessProcess": "Trade",
                     "rdfs:comment": "The tax applicable to this payment trade settlement."
-                },
-                {
-                    "@id": "cefact:Header_TradeSettlement.Applicable.Trade_Tax",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01011672",
-                    "unece:cefactBieDomainClass": "cefact:Header_TradeSettlement.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A tax applicable to this header trade settlement."
                 }
             ]
         }

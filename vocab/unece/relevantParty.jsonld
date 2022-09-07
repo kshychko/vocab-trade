@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://service.unece.org/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://service.unece.org/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
         "unece:cefactBieDomainClass": {
@@ -15,7 +15,7 @@
         {
             "@id": "unece:relevantParty",
             "schema:rangeIncludes": {
-                "@id": "unece:Party"
+                "@id": "unece:TradeParty"
             },
             "@type": [
                 "rdf:Property",
@@ -23,10 +23,13 @@
             ],
             "schema:domainIncludes": [
                 {
-                    "@id": "unece:TradeAgreement"
+                    "@id": "unece:HeaderTradeAgreement"
                 },
                 {
-                    "@id": "unece:TradeSettlement"
+                    "@id": "unece:HeaderTradeSettlement"
+                },
+                {
+                    "@id": "unece:LineTradeAgreement"
                 }
             ],
             "rdfs:comment": [
@@ -36,6 +39,14 @@
             ],
             "rdfs:label": "relevantParty",
             "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Line_TradeAgreement.Relevant.Trade_Party",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01013416",
+                    "unece:cefactBieDomainClass": "cefact:Line_TradeAgreement.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A party relevant for this line trade agreement."
+                },
                 {
                     "@id": "cefact:Header_TradeAgreement.Relevant.Trade_Party",
                     "@type": "unece:AssociationBIE",
@@ -51,14 +62,6 @@
                     "unece:cefactBieDomainClass": "cefact:Header_TradeSettlement.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
                     "rdfs:comment": "A relevant party for this header trade settlement."
-                },
-                {
-                    "@id": "cefact:Line_TradeAgreement.Relevant.Trade_Party",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01013416",
-                    "unece:cefactBieDomainClass": "cefact:Line_TradeAgreement.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A party relevant for this line trade agreement."
                 }
             ]
         }

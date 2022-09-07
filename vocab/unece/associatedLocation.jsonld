@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://service.unece.org/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://service.unece.org/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
         "unece:cefactBieDomainClass": {
@@ -15,7 +15,7 @@
         {
             "@id": "unece:associatedLocation",
             "schema:rangeIncludes": {
-                "@id": "unece:Location"
+                "@id": "unece:LogisticsLocation"
             },
             "@type": [
                 "rdf:Property",
@@ -48,6 +48,14 @@
             "rdfs:label": "associatedLocation",
             "unece:cefactElementMetadata": [
                 {
+                    "@id": "cefact:Specified_GeographicalGrid.Associated.Logistics_Location",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01013624",
+                    "unece:cefactBieDomainClass": "cefact:Specified_GeographicalGrid.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "A logistics location associated with this specified geographical grid."
+                },
+                {
                     "@id": "cefact:Specified_Circle.Associated.Logistics_Location",
                     "@type": "unece:AssociationBIE",
                     "unece:cefactUNId": "UN01013581",
@@ -62,14 +70,6 @@
                     "unece:cefactBieDomainClass": "cefact:Specified_GeographicalLine.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
                     "rdfs:comment": "A logistics location associated with this specified geographical line."
-                },
-                {
-                    "@id": "cefact:Specified_GeographicalGrid.Associated.Logistics_Location",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01013624",
-                    "unece:cefactBieDomainClass": "cefact:Specified_GeographicalGrid.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A logistics location associated with this specified geographical grid."
                 },
                 {
                     "@id": "cefact:Specified_Polygon.Associated.Logistics_Location",

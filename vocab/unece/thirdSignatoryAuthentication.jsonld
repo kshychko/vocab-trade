@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://service.unece.org/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://service.unece.org/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
         "unece:cefactBieDomainClass": {
@@ -22,7 +22,7 @@
                 "owl:ObjectProperty"
             ],
             "schema:domainIncludes": {
-                "@id": "unece:Document"
+                "@id": "unece:ExchangedDocument"
             },
             "rdfs:comment": "The third signature, also known as the second counter signature, that has been authenticated on this exchanged document indicating where appropriate the authentication party.",
             "rdfs:label": "thirdSignatoryAuthentication",

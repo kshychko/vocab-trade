@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://service.unece.org/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://service.unece.org/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
@@ -38,20 +38,20 @@
             "rdfs:label": "comment",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Grouped_WorkItem.Comment.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01000049",
-                    "unece:cefactBieDomainClass": "cefact:Grouped_WorkItem.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A comment, expressed as text, for this work item group. Industry context value changed from \"Construction\" to \"In All Contexts\"."
-                },
-                {
                     "@id": "cefact:Valuation_BreakdownStatement.Comment.Text",
                     "@type": "unece:BasicBIE",
                     "unece:cefactUNId": "UN01007553",
                     "unece:cefactBieDomainClass": "cefact:Valuation_BreakdownStatement.Details",
                     "unece:cefactBusinessProcess": "Invoicing",
                     "rdfs:comment": "A comment, expressed as text, for this valuation breakdown statement."
+                },
+                {
+                    "@id": "cefact:Grouped_WorkItem.Comment.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01000049",
+                    "unece:cefactBieDomainClass": "cefact:Grouped_WorkItem.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "A comment, expressed as text, for this work item group. Industry context value changed from \"Construction\" to \"In All Contexts\"."
                 },
                 {
                     "@id": "cefact:Basic_WorkItem.Comment.Text",

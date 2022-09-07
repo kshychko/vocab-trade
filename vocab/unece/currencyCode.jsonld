@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://service.unece.org/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://service.unece.org/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
@@ -24,13 +24,22 @@
             ],
             "schema:domainIncludes": [
                 {
-                    "@id": "unece:Document"
+                    "@id": "unece:CreditorFinancialAccount"
                 },
                 {
-                    "@id": "unece:FinancialAccount"
+                    "@id": "unece:DebtorFinancialAccount"
                 },
                 {
-                    "@id": "unece:Tax"
+                    "@id": "unece:FinancingFinancialAccount"
+                },
+                {
+                    "@id": "unece:FinancingRequestDocument"
+                },
+                {
+                    "@id": "unece:RegisteredTax"
+                },
+                {
+                    "@id": "unece:TradeTax"
                 }
             ],
             "rdfs:comment": [
@@ -44,20 +53,20 @@
             "rdfs:label": "currencyCode",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Financing_FinancialAccount.Currency.Code",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01013259",
-                    "unece:cefactBieDomainClass": "cefact:Financing_FinancialAccount.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The code specifying the currency of this financing financial account."
-                },
-                {
                     "@id": "cefact:FinancingRequest_Document.Currency.Code",
                     "@type": "unece:BasicBIE",
                     "unece:cefactUNId": "UN01013236",
                     "unece:cefactBieDomainClass": "cefact:FinancingRequest_Document.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
                     "rdfs:comment": "The code specifying the currency in this financing request document."
+                },
+                {
+                    "@id": "cefact:Debtor_FinancialAccount.Currency.Code",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01003291",
+                    "unece:cefactBieDomainClass": "cefact:Debtor_FinancialAccount.Details",
+                    "unece:cefactBusinessProcess": "Customer to bank payment initiation",
+                    "rdfs:comment": "The code specifying the currency of this debtor financial account (Reference ISO 4217 codes)."
                 },
                 {
                     "@id": "cefact:Registered_Tax.Currency.Code",
@@ -77,20 +86,20 @@
                     "rdfs:comment": "The code specifying the currency for this trade related tax, levy or duty [UNCL 6345]."
                 },
                 {
+                    "@id": "cefact:Financing_FinancialAccount.Currency.Code",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01013259",
+                    "unece:cefactBieDomainClass": "cefact:Financing_FinancialAccount.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The code specifying the currency of this financing financial account."
+                },
+                {
                     "@id": "cefact:Creditor_FinancialAccount.Currency.Code",
                     "@type": "unece:BasicBIE",
                     "unece:cefactUNId": "UN01003354",
                     "unece:cefactBieDomainClass": "cefact:Creditor_FinancialAccount.Details",
                     "unece:cefactBusinessProcess": "Customer to bank payment initiation",
                     "rdfs:comment": "The code specifying the currency of this creditor financial account (Reference ISO 4217 codes)."
-                },
-                {
-                    "@id": "cefact:Debtor_FinancialAccount.Currency.Code",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01003291",
-                    "unece:cefactBieDomainClass": "cefact:Debtor_FinancialAccount.Details",
-                    "unece:cefactBusinessProcess": "Customer to bank payment initiation",
-                    "rdfs:comment": "The code specifying the currency of this debtor financial account (Reference ISO 4217 codes)."
                 }
             ]
         }

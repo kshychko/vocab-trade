@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://service.unece.org/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://service.unece.org/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
         "unece:cefactBieDomainClass": {
@@ -15,7 +15,7 @@
         {
             "@id": "unece:postalAddress",
             "schema:rangeIncludes": {
-                "@id": "unece:Address"
+                "@id": "unece:TradeAddress"
             },
             "@type": [
                 "rdf:Property",
@@ -23,13 +23,16 @@
             ],
             "schema:domainIncludes": [
                 {
-                    "@id": "unece:Location"
+                    "@id": "unece:LocationParty"
+                },
+                {
+                    "@id": "unece:LogisticsLocation"
                 },
                 {
                     "@id": "unece:Organization"
                 },
                 {
-                    "@id": "unece:Party"
+                    "@id": "unece:TradeParty"
                 }
             ],
             "rdfs:comment": [
@@ -41,20 +44,20 @@
             "rdfs:label": "postalAddress",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Legal_Organization.Postal.Trade_Address",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01003646",
-                    "unece:cefactBieDomainClass": "cefact:Legal_Organization.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A postal address for this legally set up organization."
-                },
-                {
                     "@id": "cefact:Trade_Party.Postal.Trade_Address",
                     "@type": "unece:AssociationBIE",
                     "unece:cefactUNId": "UN01004603",
                     "unece:cefactBieDomainClass": "cefact:Trade_Party.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
                     "rdfs:comment": "The postal address for this trade party."
+                },
+                {
+                    "@id": "cefact:Legal_Organization.Postal.Trade_Address",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01003646",
+                    "unece:cefactBieDomainClass": "cefact:Legal_Organization.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "A postal address for this legally set up organization."
                 },
                 {
                     "@id": "cefact:Logistics_Location.Postal.Trade_Address",

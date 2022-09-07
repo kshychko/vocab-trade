@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://service.unece.org/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://service.unece.org/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
@@ -42,14 +42,6 @@
             "rdfs:label": "actualDateTime",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Delivery_Adjustment.Actual.DateTime",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01003503",
-                    "unece:cefactBieDomainClass": "cefact:Delivery_Adjustment.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The actual date, time, date time, or other date time value of this delivery adjustment."
-                },
-                {
                     "@id": "cefact:Document_Authentication.Actual.DateTime",
                     "@type": "unece:BasicBIE",
                     "unece:cefactUNId": "UN01002641",
@@ -64,6 +56,14 @@
                     "unece:cefactBieDomainClass": "cefact:Financial_Adjustment.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
                     "rdfs:comment": "The actual date, time, date time, or other date time value of this financial adjustment."
+                },
+                {
+                    "@id": "cefact:Delivery_Adjustment.Actual.DateTime",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01003503",
+                    "unece:cefactBieDomainClass": "cefact:Delivery_Adjustment.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The actual date, time, date time, or other date time value of this delivery adjustment."
                 },
                 {
                     "@id": "cefact:Financial_Booking.Actual.DateTime",

@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://service.unece.org/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://service.unece.org/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
@@ -30,9 +30,6 @@
                     "@id": "unece:Accreditation"
                 },
                 {
-                    "@id": "unece:Address"
-                },
-                {
                     "@id": "unece:BreakdownStatement"
                 },
                 {
@@ -48,10 +45,16 @@
                     "@id": "unece:Chemical"
                 },
                 {
+                    "@id": "unece:CommunicationEvent"
+                },
+                {
                     "@id": "unece:Condition"
                 },
                 {
                     "@id": "unece:ConsignmentItem"
+                },
+                {
+                    "@id": "unece:ControlSettingParameter"
                 },
                 {
                     "@id": "unece:CountrySubDivision"
@@ -66,16 +69,13 @@
                     "@id": "unece:Equipment"
                 },
                 {
-                    "@id": "unece:Event"
-                },
-                {
                     "@id": "unece:Feature"
                 },
                 {
-                    "@id": "unece:FinancialAccount"
+                    "@id": "unece:FinancialCard"
                 },
                 {
-                    "@id": "unece:FinancialCard"
+                    "@id": "unece:FinancingFinancialAccount"
                 },
                 {
                     "@id": "unece:GeopoliticalRegion"
@@ -84,13 +84,16 @@
                     "@id": "unece:GoodsCharacteristic"
                 },
                 {
+                    "@id": "unece:GovernmentRegistration"
+                },
+                {
                     "@id": "unece:IOTDevice"
                 },
                 {
                     "@id": "unece:Inventory"
                 },
                 {
-                    "@id": "unece:LogisticsPackage"
+                    "@id": "unece:LegalRegistration"
                 },
                 {
                     "@id": "unece:Material"
@@ -102,6 +105,9 @@
                     "@id": "unece:Measurement"
                 },
                 {
+                    "@id": "unece:OperationalParameter"
+                },
+                {
                     "@id": "unece:Organization"
                 },
                 {
@@ -109,12 +115,6 @@
                 },
                 {
                     "@id": "unece:Packaging"
-                },
-                {
-                    "@id": "unece:Parameter"
-                },
-                {
-                    "@id": "unece:Party"
                 },
                 {
                     "@id": "unece:PersonalEffects"
@@ -135,7 +135,7 @@
                     "@id": "unece:Range"
                 },
                 {
-                    "@id": "unece:Registration"
+                    "@id": "unece:RequestingParty"
                 },
                 {
                     "@id": "unece:Schedule"
@@ -150,13 +150,22 @@
                     "@id": "unece:Sensor"
                 },
                 {
-                    "@id": "unece:SupplyChainConsignmentItem"
+                    "@id": "unece:SupplyChainEvent"
+                },
+                {
+                    "@id": "unece:TradeAddress"
                 },
                 {
                     "@id": "unece:TradeLineItem"
                 },
                 {
+                    "@id": "unece:TradeParty"
+                },
+                {
                     "@id": "unece:TradeTransaction"
+                },
+                {
+                    "@id": "unece:TransportEvent"
                 },
                 {
                     "@id": "unece:WorkItem"
@@ -219,6 +228,15 @@
             "rdfs:label": "typeCode",
             "unece:cefactElementMetadata": [
                 {
+                    "@id": "cefact:Cross-Border_CustomsValuation.Type.Code",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "5509",
+                    "unece:cefactUNId": "UN01008956",
+                    "unece:cefactBieDomainClass": "cefact:Cross-Border_CustomsValuation.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The code specifying the type of cross-border customs valuation."
+                },
+                {
                     "@id": "cefact:Monitoring_IOTDevice.Type.Code",
                     "@type": "unece:BasicBIE",
                     "unece:cefactUNId": "UN01013477",
@@ -227,20 +245,28 @@
                     "rdfs:comment": "The code specifying the type of monitoring IOT device."
                 },
                 {
-                    "@id": "cefact:OEM_Equipment.Type.Code",
+                    "@id": "cefact:Material_GoodsCharacteristic.Type.Code",
                     "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01013555",
-                    "unece:cefactBieDomainClass": "cefact:OEM_Equipment.Details",
+                    "unece:cefactUNId": "UN01003886",
+                    "unece:cefactBieDomainClass": "cefact:Material_GoodsCharacteristic.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A code specifying a type of OEM equipment."
+                    "rdfs:comment": "The code specifying the type of material goods characteristic."
                 },
                 {
-                    "@id": "cefact:Government_Registration.Type.Code",
+                    "@id": "cefact:Trade_GeopoliticalRegion.Type.Code",
                     "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01011031",
-                    "unece:cefactBieDomainClass": "cefact:Government_Registration.Details",
+                    "unece:cefactUNId": "UN01004589",
+                    "unece:cefactBieDomainClass": "cefact:Trade_GeopoliticalRegion.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A code specifying a type of government registration."
+                    "rdfs:comment": "The code specifying the type of trade geopolitical region."
+                },
+                {
+                    "@id": "cefact:Legal_Organization.Type.Code",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01003643",
+                    "unece:cefactBieDomainClass": "cefact:Legal_Organization.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "A code specifying a type of legally set up organization."
                 },
                 {
                     "@id": "cefact:Valuation_BreakdownStatement.Type.Code",
@@ -251,12 +277,28 @@
                     "rdfs:comment": "A code specifying the type of valuation breakdown statement."
                 },
                 {
-                    "@id": "cefact:Trade_CountrySub-Division.Type.Code",
+                    "@id": "cefact:Grouped_WorkItem.Type.Code",
                     "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01004574",
-                    "unece:cefactBieDomainClass": "cefact:Trade_CountrySubDivision.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A code specifying a type of country sub-division for trade purposes."
+                    "unece:cefactUNId": "UN01000048",
+                    "unece:cefactBieDomainClass": "cefact:Grouped_WorkItem.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "A code specifying the type of this work item group. Industry context value changed from \"Construction\" to \"In All Contexts\"."
+                },
+                {
+                    "@id": "cefact:ControlSetting_Parameter.Type.Code",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01013504",
+                    "unece:cefactBieDomainClass": "cefact:ControlSetting_Parameter.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The code specifying a type of parameter for this control setting parameter."
+                },
+                {
+                    "@id": "cefact:Section_Segment.Type.Code",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01012737",
+                    "unece:cefactBieDomainClass": "cefact:Section_Segment.Details",
+                    "unece:cefactBusinessProcess": "Cross Industry Trade",
+                    "rdfs:comment": "The code specifying the type of section segment."
                 },
                 {
                     "@id": "cefact:Referenced_SupplyChain_ConsignmentItem.Type.Code",
@@ -268,44 +310,12 @@
                     "rdfs:comment": "The code specifying the type of referenced supply chain consignment item."
                 },
                 {
-                    "@id": "cefact:Specified_PersonalEffects.Type.Code",
+                    "@id": "cefact:TradeSettlement_FinancialCard.Type.Code",
                     "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01013187",
-                    "unece:cefactBieDomainClass": "cefact:Specified_PersonalEffects.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A code specifying a type of specified personal effects."
-                },
-                {
-                    "@id": "cefact:Basic_WorkItem.Type.Code",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01000031",
-                    "unece:cefactBieDomainClass": "cefact:Basic_WorkItem.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A code specifying the type of basic work item. Industry context value changed from \"Construction\" to \"In All Contexts\"."
-                },
-                {
-                    "@id": "cefact:StoresItem_Inventory.Type.Code",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01013191",
-                    "unece:cefactBieDomainClass": "cefact:StoresItem_Inventory.Details",
+                    "unece:cefactUNId": "UN01004496",
+                    "unece:cefactBieDomainClass": "cefact:TradeSettlement_FinancialCard.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A code specifying the type of stores inventory item."
-                },
-                {
-                    "@id": "cefact:ControlSetting_Parameter.Type.Code",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01013504",
-                    "unece:cefactBieDomainClass": "cefact:ControlSetting_Parameter.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The code specifying a type of parameter for this control setting parameter."
-                },
-                {
-                    "@id": "cefact:Calculated_Emission.Type.Code",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01010052",
-                    "unece:cefactBieDomainClass": "cefact:Calculated_Emission.Details",
-                    "unece:cefactBusinessProcess": "Transport",
-                    "rdfs:comment": "The code specifying the type of this calculated emission."
+                    "rdfs:comment": "The code specifying the type of this trade settlement financial card, such as debit or credit."
                 },
                 {
                     "@id": "cefact:Legal_Registration.Type.Code",
@@ -314,46 +324,6 @@
                     "unece:cefactBieDomainClass": "cefact:Legal_Registration.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
                     "rdfs:comment": "A code specifying the type of this legal registration."
-                },
-                {
-                    "@id": "cefact:Trade_AccountingAccount.Type.Code",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01004525",
-                    "unece:cefactBieDomainClass": "cefact:Trade_AccountingAccount.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The code specifying the type of trade accounting account, such as general (main), secondary, cost accounting or budget account."
-                },
-                {
-                    "@id": "cefact:Product_Certificate.Type.Code",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01012488",
-                    "unece:cefactBieDomainClass": "cefact:Product_Certificate.Details",
-                    "unece:cefactBusinessProcess": "Traceability",
-                    "rdfs:comment": "A code specifying the type of product certificate."
-                },
-                {
-                    "@id": "cefact:Specification_Query.Type.Code",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01000075",
-                    "unece:cefactBieDomainClass": "cefact:Specification_Query.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The code specifying the type of specification query."
-                },
-                {
-                    "@id": "cefact:Distinct_Chemical.Type.Code",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01002178",
-                    "unece:cefactBieDomainClass": "cefact:Distinct_Chemical.Details",
-                    "unece:cefactBusinessProcess": "MSDS Reporting",
-                    "rdfs:comment": "The code specifying the type of distinct chemical."
-                },
-                {
-                    "@id": "cefact:Specified_Range.Type.Code",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01013525",
-                    "unece:cefactBieDomainClass": "cefact:Specified_Range.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The code specifying a type of this specified range."
                 },
                 {
                     "@id": "cefact:Transport_Event.Type.Code",
@@ -365,201 +335,44 @@
                     "rdfs:comment": "The code specifying the type of transport event."
                 },
                 {
-                    "@id": "cefact:Requesting_Party.Type.Code",
+                    "@id": "cefact:StoresItem_Inventory.Type.Code",
                     "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01002019",
-                    "unece:cefactBieDomainClass": "cefact:Requesting_Party.Details",
-                    "unece:cefactBusinessProcess": "Project Management",
-                    "rdfs:comment": "The code specifying the type of requesting party."
+                    "unece:cefactUNId": "UN01013191",
+                    "unece:cefactBieDomainClass": "cefact:StoresItem_Inventory.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A code specifying the type of stores inventory item."
                 },
                 {
-                    "@id": "cefact:Product_Characteristic.Type.Code",
+                    "@id": "cefact:Transport_Cargo.Type.Code",
                     "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01003973",
-                    "unece:cefactBieDomainClass": "cefact:Product_Characteristic.Details",
+                    "unece:cefactUNId": "UN01004758",
+                    "unece:cefactBieDomainClass": "cefact:Transport_Cargo.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A code specifying a type of product characteristic."
+                    "rdfs:comment": "The code, such as UNECE Recommendation 21 single digit codes, specifying the type of transported cargo."
                 },
                 {
-                    "@id": "cefact:Material_GoodsCharacteristic.Type.Code",
+                    "@id": "cefact:Distinct_Chemical.Type.Code",
                     "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01003886",
-                    "unece:cefactBieDomainClass": "cefact:Material_GoodsCharacteristic.Details",
+                    "unece:cefactUNId": "UN01002178",
+                    "unece:cefactBieDomainClass": "cefact:Distinct_Chemical.Details",
+                    "unece:cefactBusinessProcess": "MSDS Reporting",
+                    "rdfs:comment": "The code specifying the type of distinct chemical."
+                },
+                {
+                    "@id": "cefact:Specification_Query.Type.Code",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01000075",
+                    "unece:cefactBieDomainClass": "cefact:Specification_Query.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The code specifying the type of material goods characteristic."
+                    "rdfs:comment": "The code specifying the type of specification query."
                 },
                 {
-                    "@id": "cefact:SupplyChain_Packaging.Type.Code",
+                    "@id": "cefact:Procuring_Project.Type.Code",
                     "@type": "unece:BasicBIE",
-                    "unece:tded": "7065",
-                    "unece:cefactUNId": "UN01004313",
-                    "unece:cefactBieDomainClass": "cefact:SupplyChain_Packaging.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The code specifying the type of supply chain packaging."
-                },
-                {
-                    "@id": "cefact:WorkItem_QuantityAnalysis.Type.Code",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01000021",
-                    "unece:cefactBieDomainClass": "cefact:WorkItem_QuantityAnalysis.Details",
+                    "unece:cefactUNId": "UN01000377",
+                    "unece:cefactBieDomainClass": "cefact:Procuring_Project.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The code specifying the type of work item quantity analysis."
-                },
-                {
-                    "@id": "cefact:ProductCharacteristic_Condition.Type.Code",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01008313",
-                    "unece:cefactBieDomainClass": "cefact:ProductCharacteristic_Condition.Details",
-                    "unece:cefactBusinessProcess": "Supply Chain",
-                    "rdfs:comment": "The code specifying the type of product characteristic condition."
-                },
-                {
-                    "@id": "cefact:Section_Segment.Type.Code",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01012737",
-                    "unece:cefactBieDomainClass": "cefact:Section_Segment.Details",
-                    "unece:cefactBusinessProcess": "Cross Industry Trade",
-                    "rdfs:comment": "The code specifying the type of section segment."
-                },
-                {
-                    "@id": "cefact:Trade_GeopoliticalRegion.Type.Code",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01004589",
-                    "unece:cefactBieDomainClass": "cefact:Trade_GeopoliticalRegion.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The code specifying the type of trade geopolitical region."
-                },
-                {
-                    "@id": "cefact:Trade_Product.Type.Code",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01004690",
-                    "unece:cefactBieDomainClass": "cefact:Trade_Product.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A code specifying the type of trade product."
-                },
-                {
-                    "@id": "cefact:Certified_Accreditation.Type.Code",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01010058",
-                    "unece:cefactBieDomainClass": "cefact:Certified_Accreditation.Details",
-                    "unece:cefactBusinessProcess": "Transport",
-                    "rdfs:comment": "The code specifying the type of this certified accreditation, such as a type of driving license."
-                },
-                {
-                    "@id": "cefact:Cross-Border_CustomsValuation.Type.Code",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "5509",
-                    "unece:cefactUNId": "UN01008956",
-                    "unece:cefactBieDomainClass": "cefact:Cross-Border_CustomsValuation.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The code specifying the type of cross-border customs valuation."
-                },
-                {
-                    "@id": "cefact:Operational_Parameter.Type.Code",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01013515",
-                    "unece:cefactBieDomainClass": "cefact:Operational_Parameter.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The code specifying the type of this operational parameter."
-                },
-                {
-                    "@id": "cefact:Radioactive_Material.Type.Code",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01006196",
-                    "unece:cefactBieDomainClass": "cefact:Radioactive_Material.Details",
-                    "unece:cefactBusinessProcess": "Cross-Border",
-                    "rdfs:comment": "The code specifying the type of this radioactive material."
-                },
-                {
-                    "@id": "cefact:Communication_Event.Type.Code",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "9171",
-                    "unece:cefactUNId": "UN01013563",
-                    "unece:cefactBieDomainClass": "cefact:Communication_Event.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The code specifying the type of communication event."
-                },
-                {
-                    "@id": "cefact:SupplyChain_TradeTransaction.Type.Code",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01004478",
-                    "unece:cefactBieDomainClass": "cefact:SupplyChain_TradeTransaction.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The code specifying the type of supply chain trade transaction."
-                },
-                {
-                    "@id": "cefact:Financing_FinancialAccount.Type.Code",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01013257",
-                    "unece:cefactBieDomainClass": "cefact:Financing_FinancialAccount.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The code specifying the type of financing financial account."
-                },
-                {
-                    "@id": "cefact:Measurement.Type.Code",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01003895",
-                    "unece:cefactBieDomainClass": "cefact:Measurement.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A code specifying a type of measurement."
-                },
-                {
-                    "@id": "cefact:SupplyChain_Schedule.Type.Code",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01012982",
-                    "unece:cefactBieDomainClass": "cefact:SupplyChain_Schedule.Details",
-                    "unece:cefactBusinessProcess": "Supply Chain",
-                    "rdfs:comment": "A code specifying the type of supply chain schedule."
-                },
-                {
-                    "@id": "cefact:TransportWaste_MaterialComponent.Type.Code",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01013153",
-                    "unece:cefactBieDomainClass": "cefact:TransportWaste_MaterialComponent.Details",
-                    "unece:cefactBusinessProcess": "Transport",
-                    "rdfs:comment": "A code specifying a type of transport waste material component."
-                },
-                {
-                    "@id": "cefact:Trade_Address.Type.Code",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01013131",
-                    "unece:cefactBieDomainClass": "cefact:Trade_Address.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A code specifying the type of this trade address, such as business address or home address."
-                },
-                {
-                    "@id": "cefact:Grouped_WorkItem.Type.Code",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01000048",
-                    "unece:cefactBieDomainClass": "cefact:Grouped_WorkItem.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A code specifying the type of this work item group. Industry context value changed from \"Construction\" to \"In All Contexts\"."
-                },
-                {
-                    "@id": "cefact:SupplyChain_TradeLineItem.Type.Code",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "7357",
-                    "unece:cefactUNId": "UN01004421",
-                    "unece:cefactBieDomainClass": "cefact:SupplyChain_TradeLineItem.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The code specifying the type of supply chain trade line item."
-                },
-                {
-                    "@id": "cefact:SupplyChain_Event.Type.Code",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "9171",
-                    "unece:cefactUNId": "UN01004294",
-                    "unece:cefactBieDomainClass": "cefact:SupplyChain_Event.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A code specifying the type of supply chain event."
-                },
-                {
-                    "@id": "cefact:Product_SecurityTag.Type.Code",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01007302",
-                    "unece:cefactBieDomainClass": "cefact:Product_SecurityTag.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The code specifying the type of this product security tag."
+                    "rdfs:comment": "The code specifying the type of procuring project, such as goods, works and service."
                 },
                 {
                     "@id": "cefact:SupplyChain_ConsignmentItem.Type.Code",
@@ -571,6 +384,30 @@
                     "rdfs:comment": "The code specifying the type of supply chain consignment item."
                 },
                 {
+                    "@id": "cefact:Specified_PersonalEffects.Type.Code",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01013187",
+                    "unece:cefactBieDomainClass": "cefact:Specified_PersonalEffects.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "A code specifying a type of specified personal effects."
+                },
+                {
+                    "@id": "cefact:Calculated_Emission.Type.Code",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01010052",
+                    "unece:cefactBieDomainClass": "cefact:Calculated_Emission.Details",
+                    "unece:cefactBusinessProcess": "Transport",
+                    "rdfs:comment": "The code specifying the type of this calculated emission."
+                },
+                {
+                    "@id": "cefact:TransportWaste_MaterialComponent.Type.Code",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01013153",
+                    "unece:cefactBieDomainClass": "cefact:TransportWaste_MaterialComponent.Details",
+                    "unece:cefactBusinessProcess": "Transport",
+                    "rdfs:comment": "A code specifying a type of transport waste material component."
+                },
+                {
                     "@id": "cefact:Trade_Party.Type.Code",
                     "@type": "unece:BasicBIE",
                     "unece:cefactUNId": "UN01004597",
@@ -579,12 +416,20 @@
                     "rdfs:comment": "A code specifying the type of trade party that is independent of its role."
                 },
                 {
-                    "@id": "cefact:Procuring_Project.Type.Code",
+                    "@id": "cefact:WorkItem_QuantityAnalysis.Type.Code",
                     "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01000377",
-                    "unece:cefactBieDomainClass": "cefact:Procuring_Project.Details",
+                    "unece:cefactUNId": "UN01000021",
+                    "unece:cefactBieDomainClass": "cefact:WorkItem_QuantityAnalysis.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The code specifying the type of procuring project, such as goods, works and service."
+                    "rdfs:comment": "The code specifying the type of work item quantity analysis."
+                },
+                {
+                    "@id": "cefact:SupplyChain_Schedule.Type.Code",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01012982",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_Schedule.Details",
+                    "unece:cefactBusinessProcess": "Supply Chain",
+                    "rdfs:comment": "A code specifying the type of supply chain schedule."
                 },
                 {
                     "@id": "cefact:Monitoring_Sensor.Type.Code",
@@ -595,21 +440,20 @@
                     "rdfs:comment": "The code specifying a type of monitoring sensor."
                 },
                 {
-                    "@id": "cefact:Referenced_Logistics_Package.Type.Code",
+                    "@id": "cefact:Specified_Range.Type.Code",
                     "@type": "unece:BasicBIE",
-                    "unece:tded": "7065",
-                    "unece:cefactUNId": "UN01006793",
-                    "unece:cefactBieDomainClass": "cefact:Referenced_Logistics_Package.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The code specifying the type of referenced logistics package."
+                    "unece:cefactUNId": "UN01013525",
+                    "unece:cefactBieDomainClass": "cefact:Specified_Range.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The code specifying a type of this specified range."
                 },
                 {
-                    "@id": "cefact:Transport_Cargo.Type.Code",
+                    "@id": "cefact:Trade_Product.Type.Code",
                     "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01004758",
-                    "unece:cefactBieDomainClass": "cefact:Transport_Cargo.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The code, such as UNECE Recommendation 21 single digit codes, specifying the type of transported cargo."
+                    "unece:cefactUNId": "UN01004690",
+                    "unece:cefactBieDomainClass": "cefact:Trade_Product.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A code specifying the type of trade product."
                 },
                 {
                     "@id": "cefact:TradeProduct_Feature.Type.Code",
@@ -620,12 +464,30 @@
                     "rdfs:comment": "The code specifying the type of trade product feature."
                 },
                 {
-                    "@id": "cefact:TradeSettlement_FinancialCard.Type.Code",
+                    "@id": "cefact:Communication_Event.Type.Code",
                     "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01004496",
-                    "unece:cefactBieDomainClass": "cefact:TradeSettlement_FinancialCard.Details",
+                    "unece:tded": "9171",
+                    "unece:cefactUNId": "UN01013563",
+                    "unece:cefactBieDomainClass": "cefact:Communication_Event.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The code specifying the type of communication event."
+                },
+                {
+                    "@id": "cefact:SupplyChain_Packaging.Type.Code",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "7065",
+                    "unece:cefactUNId": "UN01004313",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_Packaging.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The code specifying the type of this trade settlement financial card, such as debit or credit."
+                    "rdfs:comment": "The code specifying the type of supply chain packaging."
+                },
+                {
+                    "@id": "cefact:ProductCharacteristic_Condition.Type.Code",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01008313",
+                    "unece:cefactBieDomainClass": "cefact:ProductCharacteristic_Condition.Details",
+                    "unece:cefactBusinessProcess": "Supply Chain",
+                    "rdfs:comment": "The code specifying the type of product characteristic condition."
                 },
                 {
                     "@id": "cefact:Logistics_Package.Type.Code",
@@ -637,12 +499,159 @@
                     "rdfs:comment": "A code specifying the type of logistics package."
                 },
                 {
-                    "@id": "cefact:Legal_Organization.Type.Code",
+                    "@id": "cefact:Product_Characteristic.Type.Code",
                     "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01003643",
-                    "unece:cefactBieDomainClass": "cefact:Legal_Organization.Details",
+                    "unece:cefactUNId": "UN01003973",
+                    "unece:cefactBieDomainClass": "cefact:Product_Characteristic.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A code specifying a type of legally set up organization."
+                    "rdfs:comment": "A code specifying a type of product characteristic."
+                },
+                {
+                    "@id": "cefact:SupplyChain_TradeTransaction.Type.Code",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01004478",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_TradeTransaction.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The code specifying the type of supply chain trade transaction."
+                },
+                {
+                    "@id": "cefact:Trade_CountrySub-Division.Type.Code",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01004574",
+                    "unece:cefactBieDomainClass": "cefact:Trade_CountrySubDivision.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A code specifying a type of country sub-division for trade purposes."
+                },
+                {
+                    "@id": "cefact:SupplyChain_TradeLineItem.Type.Code",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "7357",
+                    "unece:cefactUNId": "UN01004421",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_TradeLineItem.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The code specifying the type of supply chain trade line item."
+                },
+                {
+                    "@id": "cefact:Operational_Parameter.Type.Code",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01013515",
+                    "unece:cefactBieDomainClass": "cefact:Operational_Parameter.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The code specifying the type of this operational parameter."
+                },
+                {
+                    "@id": "cefact:Trade_AccountingAccount.Type.Code",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01004525",
+                    "unece:cefactBieDomainClass": "cefact:Trade_AccountingAccount.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The code specifying the type of trade accounting account, such as general (main), secondary, cost accounting or budget account."
+                },
+                {
+                    "@id": "cefact:Radioactive_Material.Type.Code",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01006196",
+                    "unece:cefactBieDomainClass": "cefact:Radioactive_Material.Details",
+                    "unece:cefactBusinessProcess": "Cross-Border",
+                    "rdfs:comment": "The code specifying the type of this radioactive material."
+                },
+                {
+                    "@id": "cefact:Product_SecurityTag.Type.Code",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01007302",
+                    "unece:cefactBieDomainClass": "cefact:Product_SecurityTag.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The code specifying the type of this product security tag."
+                },
+                {
+                    "@id": "cefact:Government_Registration.Type.Code",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01011031",
+                    "unece:cefactBieDomainClass": "cefact:Government_Registration.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A code specifying a type of government registration."
+                },
+                {
+                    "@id": "cefact:Referenced_Logistics_Package.Type.Code",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "7065",
+                    "unece:cefactUNId": "UN01006793",
+                    "unece:cefactBieDomainClass": "cefact:Referenced_Logistics_Package.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The code specifying the type of referenced logistics package."
+                },
+                {
+                    "@id": "cefact:Measurement.Type.Code",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01003895",
+                    "unece:cefactBieDomainClass": "cefact:Measurement.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "A code specifying a type of measurement."
+                },
+                {
+                    "@id": "cefact:Trade_Address.Type.Code",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01013131",
+                    "unece:cefactBieDomainClass": "cefact:Trade_Address.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A code specifying the type of this trade address, such as business address or home address."
+                },
+                {
+                    "@id": "cefact:Requesting_Party.Type.Code",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01002019",
+                    "unece:cefactBieDomainClass": "cefact:Requesting_Party.Details",
+                    "unece:cefactBusinessProcess": "Project Management",
+                    "rdfs:comment": "The code specifying the type of requesting party."
+                },
+                {
+                    "@id": "cefact:SupplyChain_Event.Type.Code",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "9171",
+                    "unece:cefactUNId": "UN01004294",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_Event.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A code specifying the type of supply chain event."
+                },
+                {
+                    "@id": "cefact:Financing_FinancialAccount.Type.Code",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01013257",
+                    "unece:cefactBieDomainClass": "cefact:Financing_FinancialAccount.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The code specifying the type of financing financial account."
+                },
+                {
+                    "@id": "cefact:Certified_Accreditation.Type.Code",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01010058",
+                    "unece:cefactBieDomainClass": "cefact:Certified_Accreditation.Details",
+                    "unece:cefactBusinessProcess": "Transport",
+                    "rdfs:comment": "The code specifying the type of this certified accreditation, such as a type of driving license."
+                },
+                {
+                    "@id": "cefact:OEM_Equipment.Type.Code",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01013555",
+                    "unece:cefactBieDomainClass": "cefact:OEM_Equipment.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "A code specifying a type of OEM equipment."
+                },
+                {
+                    "@id": "cefact:Product_Certificate.Type.Code",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01012488",
+                    "unece:cefactBieDomainClass": "cefact:Product_Certificate.Details",
+                    "unece:cefactBusinessProcess": "Traceability",
+                    "rdfs:comment": "A code specifying the type of product certificate."
+                },
+                {
+                    "@id": "cefact:Basic_WorkItem.Type.Code",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01000031",
+                    "unece:cefactBieDomainClass": "cefact:Basic_WorkItem.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "A code specifying the type of basic work item. Industry context value changed from \"Construction\" to \"In All Contexts\"."
                 }
             ]
         }

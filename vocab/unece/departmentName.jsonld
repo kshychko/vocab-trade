@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://service.unece.org/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://service.unece.org/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
@@ -24,10 +24,13 @@
             ],
             "schema:domainIncludes": [
                 {
-                    "@id": "unece:Address"
+                    "@id": "unece:Contact"
                 },
                 {
-                    "@id": "unece:Contact"
+                    "@id": "unece:FinancialInstitutionAddress"
+                },
+                {
+                    "@id": "unece:TradeAddress"
                 }
             ],
             "rdfs:comment": [
@@ -38,6 +41,14 @@
             "rdfs:label": "departmentName",
             "unece:cefactElementMetadata": [
                 {
+                    "@id": "cefact:FinancialInstitution_Address.DepartmentName.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01004891",
+                    "unece:cefactBieDomainClass": "cefact:FinancialInstitution_Address.Details",
+                    "unece:cefactBusinessProcess": "Customer to bank payment initiation",
+                    "rdfs:comment": "The name, expressed as text, of a department within this financial institution address."
+                },
+                {
                     "@id": "cefact:Trade_Contact.DepartmentName.Text",
                     "@type": "unece:BasicBIE",
                     "unece:tded": "3412",
@@ -45,14 +56,6 @@
                     "unece:cefactBieDomainClass": "cefact:Trade_Contact.Details",
                     "unece:cefactBusinessProcess": "Trade",
                     "rdfs:comment": "The name, expressed as text, of the department to which this trade contact belongs within an organization."
-                },
-                {
-                    "@id": "cefact:FinancialInstitution_Address.DepartmentName.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01004891",
-                    "unece:cefactBieDomainClass": "cefact:FinancialInstitution_Address.Details",
-                    "unece:cefactBusinessProcess": "Customer to bank payment initiation",
-                    "rdfs:comment": "The name, expressed as text, of a department within this financial institution address."
                 },
                 {
                     "@id": "cefact:Trade_Address.DepartmentName.Text",

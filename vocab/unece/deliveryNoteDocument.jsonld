@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://service.unece.org/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://service.unece.org/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
         "unece:cefactBieDomainClass": {
@@ -23,10 +23,13 @@
             ],
             "schema:domainIncludes": [
                 {
-                    "@id": "unece:SupplyPlan"
+                    "@id": "unece:HeaderTradeDelivery"
                 },
                 {
-                    "@id": "unece:TradeDelivery"
+                    "@id": "unece:LineTradeDelivery"
+                },
+                {
+                    "@id": "unece:SupplyPlan"
                 }
             ],
             "rdfs:comment": [
@@ -45,20 +48,20 @@
                     "rdfs:comment": "The delivery note document, at line level, referenced for this trade delivery."
                 },
                 {
-                    "@id": "cefact:Header_TradeDelivery.DeliveryNote.Referenced_Document",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01011634",
-                    "unece:cefactBieDomainClass": "cefact:Header_TradeDelivery.Details",
-                    "unece:cefactBusinessProcess": "Trade",
-                    "rdfs:comment": "The delivery note document, at header level, referenced for this trade delivery."
-                },
-                {
                     "@id": "cefact:SupplyChain_SupplyPlan.DeliveryNote.Referenced_Document",
                     "@type": "unece:AssociationBIE",
                     "unece:cefactUNId": "UN01011861",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_SupplyPlan.Details",
                     "unece:cefactBusinessProcess": "Trade",
                     "rdfs:comment": "A delivery note document referenced by this supply chain supply plan."
+                },
+                {
+                    "@id": "cefact:Header_TradeDelivery.DeliveryNote.Referenced_Document",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01011634",
+                    "unece:cefactBieDomainClass": "cefact:Header_TradeDelivery.Details",
+                    "unece:cefactBusinessProcess": "Trade",
+                    "rdfs:comment": "The delivery note document, at header level, referenced for this trade delivery."
                 }
             ]
         }

@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://service.unece.org/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://service.unece.org/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
@@ -30,10 +30,16 @@
                     "@id": "unece:Accreditation"
                 },
                 {
-                    "@id": "unece:Address"
+                    "@id": "unece:AcknowledgementDocument"
                 },
                 {
                     "@id": "unece:AllowanceCharge"
+                },
+                {
+                    "@id": "unece:AssociatedTransportEquipment"
+                },
+                {
+                    "@id": "unece:AttachedTransportEquipment"
                 },
                 {
                     "@id": "unece:Authentication"
@@ -43,6 +49,9 @@
                 },
                 {
                     "@id": "unece:BinaryFile"
+                },
+                {
+                    "@id": "unece:BranchFinancialInstitution"
                 },
                 {
                     "@id": "unece:BreakdownStatement"
@@ -57,6 +66,9 @@
                     "@id": "unece:Clause"
                 },
                 {
+                    "@id": "unece:CommunicationEvent"
+                },
+                {
                     "@id": "unece:Consignment"
                 },
                 {
@@ -64,6 +76,9 @@
                 },
                 {
                     "@id": "unece:Contact"
+                },
+                {
+                    "@id": "unece:ControlSettingParameter"
                 },
                 {
                     "@id": "unece:CoordinateSourceSystem"
@@ -84,19 +99,25 @@
                     "@id": "unece:Document"
                 },
                 {
+                    "@id": "unece:DocumentContextParameter"
+                },
+                {
+                    "@id": "unece:DocumentLineDocument"
+                },
+                {
+                    "@id": "unece:EmployerIdentity"
+                },
+                {
                     "@id": "unece:Equipment"
                 },
                 {
-                    "@id": "unece:Event"
+                    "@id": "unece:ExchangedDocument"
                 },
                 {
                     "@id": "unece:Feature"
                 },
                 {
                     "@id": "unece:FinancialCard"
-                },
-                {
-                    "@id": "unece:FinancialInstitution"
                 },
                 {
                     "@id": "unece:GeographicalCoordinate"
@@ -114,22 +135,37 @@
                     "@id": "unece:GeopoliticalRegion"
                 },
                 {
+                    "@id": "unece:GovernmentRegistration"
+                },
+                {
+                    "@id": "unece:HandlingInstructions"
+                },
+                {
+                    "@id": "unece:HeaderTradeAgreement"
+                },
+                {
+                    "@id": "unece:HeaderTradeDelivery"
+                },
+                {
                     "@id": "unece:IOTDevice"
-                },
-                {
-                    "@id": "unece:Identity"
-                },
-                {
-                    "@id": "unece:Instructions"
                 },
                 {
                     "@id": "unece:Label"
                 },
                 {
-                    "@id": "unece:Location"
+                    "@id": "unece:LegalRegistration"
                 },
                 {
-                    "@id": "unece:LogisticsPackage"
+                    "@id": "unece:LineTradeAgreement"
+                },
+                {
+                    "@id": "unece:LineTradeDelivery"
+                },
+                {
+                    "@id": "unece:LocationParty"
+                },
+                {
+                    "@id": "unece:LogisticsLocation"
                 },
                 {
                     "@id": "unece:LogisticsTransportEquipment"
@@ -147,22 +183,16 @@
                     "@id": "unece:Observation"
                 },
                 {
+                    "@id": "unece:OperationalParameter"
+                },
+                {
                     "@id": "unece:Organization"
                 },
                 {
                     "@id": "unece:Package"
                 },
                 {
-                    "@id": "unece:Parameter"
-                },
-                {
-                    "@id": "unece:Party"
-                },
-                {
                     "@id": "unece:Period"
-                },
-                {
-                    "@id": "unece:Person"
                 },
                 {
                     "@id": "unece:Product"
@@ -177,13 +207,16 @@
                     "@id": "unece:Project"
                 },
                 {
+                    "@id": "unece:ProprietaryIdentity"
+                },
+                {
                     "@id": "unece:QuantityAnalysis"
                 },
                 {
                     "@id": "unece:Query"
                 },
                 {
-                    "@id": "unece:Registration"
+                    "@id": "unece:RequestingParty"
                 },
                 {
                     "@id": "unece:Response"
@@ -216,22 +249,34 @@
                     "@id": "unece:Standard"
                 },
                 {
-                    "@id": "unece:SupplyChainConsignment"
+                    "@id": "unece:SubordinateLocation"
                 },
                 {
-                    "@id": "unece:TradeAgreement"
+                    "@id": "unece:SubordinateSubordinateLocation"
                 },
                 {
-                    "@id": "unece:TradeDelivery"
+                    "@id": "unece:SupplyChainEvent"
+                },
+                {
+                    "@id": "unece:TaxRegistration"
+                },
+                {
+                    "@id": "unece:TradeAddress"
                 },
                 {
                     "@id": "unece:TradeLineItem"
                 },
                 {
+                    "@id": "unece:TradeLocation"
+                },
+                {
+                    "@id": "unece:TradeParty"
+                },
+                {
                     "@id": "unece:TradeTransaction"
                 },
                 {
-                    "@id": "unece:TransportEquipment"
+                    "@id": "unece:TransportEvent"
                 },
                 {
                     "@id": "unece:TransportMeans"
@@ -240,7 +285,10 @@
                     "@id": "unece:TransportMovement"
                 },
                 {
-                    "@id": "unece:TransportService"
+                    "@id": "unece:TransportPerson"
+                },
+                {
+                    "@id": "unece:TransportServiceLocation"
                 },
                 {
                     "@id": "unece:Version"
@@ -359,146 +407,21 @@
             "rdfs:label": "id",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Referenced_TransportMeans.Identification.Identifier",
+                    "@id": "cefact:Referenced_Logistics_TransportEquipment.Identification.Identifier",
                     "@type": "unece:BasicBIE",
-                    "unece:tded": "8213",
-                    "unece:cefactUNId": "UN01004052",
-                    "unece:cefactBieDomainClass": "cefact:Referenced_TransportMeans.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "An identifier of this referenced transport means, such as the International Maritime Organization number for a vessel."
-                },
-                {
-                    "@id": "cefact:Referenced_Logistics_Package.Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "1438",
-                    "unece:cefactUNId": "UN01006795",
-                    "unece:cefactBieDomainClass": "cefact:Referenced_Logistics_Package.Details",
+                    "unece:tded": "8260",
+                    "unece:cefactUNId": "UN01004023",
+                    "unece:cefactBieDomainClass": "cefact:Referenced_Logistics_TransportEquipment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The identifier for this referenced logistics package."
+                    "rdfs:comment": "The unique identifier for this referenced piece of logistics transport equipment, such as a number, mark or name."
                 },
                 {
-                    "@id": "cefact:Branch_FinancialInstitution.Identification.Identifier",
+                    "@id": "cefact:Referenced_Standard.Identification.Identifier",
                     "@type": "unece:BasicBIE",
-                    "unece:tded": "3433",
-                    "unece:cefactUNId": "UN01003139",
-                    "unece:cefactBieDomainClass": "cefact:Branch_FinancialInstitution.Details",
-                    "unece:cefactBusinessProcess": "Customer to bank payment initiation",
-                    "rdfs:comment": "The unique identifier for this branch of a financial institution."
-                },
-                {
-                    "@id": "cefact:Document_Clause.Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "4069",
-                    "unece:cefactUNId": "UN01002647",
-                    "unece:cefactBieDomainClass": "cefact:Document_Clause.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The unique identifier of this document clause."
-                },
-                {
-                    "@id": "cefact:Trade_AccountingAccount.Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01004523",
-                    "unece:cefactBieDomainClass": "cefact:Trade_AccountingAccount.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The unique identifier for this trade accounting account."
-                },
-                {
-                    "@id": "cefact:Communication_Event.Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "1007",
-                    "unece:cefactUNId": "UN01013561",
-                    "unece:cefactBieDomainClass": "cefact:Communication_Event.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The identifier for this communication event."
-                },
-                {
-                    "@id": "cefact:Monitoring_Sensor.Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01013540",
-                    "unece:cefactBieDomainClass": "cefact:Monitoring_Sensor.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "An identifier of this monitoring sensor."
-                },
-                {
-                    "@id": "cefact:Grouped_WorkItem.Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01000044",
-                    "unece:cefactBieDomainClass": "cefact:Grouped_WorkItem.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The unique identifier for this work item group. Industry context value changed from \"Construction\" to \"In All Contexts\"."
-                },
-                {
-                    "@id": "cefact:Product_Characteristic.Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01003972",
-                    "unece:cefactBieDomainClass": "cefact:Product_Characteristic.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A unique identifier for this product characteristic."
-                },
-                {
-                    "@id": "cefact:Operational_Parameter.Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01013514",
-                    "unece:cefactBieDomainClass": "cefact:Operational_Parameter.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The identifier of this operational parameter."
-                },
-                {
-                    "@id": "cefact:Specified_Period.Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01001279",
-                    "unece:cefactBieDomainClass": "cefact:Specified_Period.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The unique identifier of this specified period."
-                },
-                {
-                    "@id": "cefact:Valuation_BreakdownStatement.Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01007546",
-                    "unece:cefactBieDomainClass": "cefact:Valuation_BreakdownStatement.Details",
-                    "unece:cefactBusinessProcess": "Invoicing",
-                    "rdfs:comment": "The unique identifier for this valuation breakdown statement."
-                },
-                {
-                    "@id": "cefact:Handling_Instructions.Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01012760",
-                    "unece:cefactBieDomainClass": "cefact:Handling_Instructions.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The identifier of this handling instructions."
-                },
-                {
-                    "@id": "cefact:Trade_WorkflowObject.Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01011931",
-                    "unece:cefactBieDomainClass": "cefact:Trade_WorkflowObject.Details",
-                    "unece:cefactBusinessProcess": "Trade",
-                    "rdfs:comment": "The identifier of this trade workflow object."
-                },
-                {
-                    "@id": "cefact:Specified_Observation.Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01012571",
-                    "unece:cefactBieDomainClass": "cefact:Specified_Observation.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The identifier for this specified observation."
-                },
-                {
-                    "@id": "cefact:Basic_WorkItem.Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01000027",
-                    "unece:cefactBieDomainClass": "cefact:Basic_WorkItem.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The unique identifier for this basic work item. Industry context value changed from \"Construction\" to \"In All Contexts\"."
-                },
-                {
-                    "@id": "cefact:Logistics_Location.Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "3225",
-                    "unece:cefactUNId": "UN01003680",
-                    "unece:cefactBieDomainClass": "cefact:Logistics_Location.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A unique identifier for this logistics related location, such as a United Nations Location Code (UNLOCODE) or GS1 Global Location Number (GLN)."
+                    "unece:cefactUNId": "UN01008541",
+                    "unece:cefactBieDomainClass": "cefact:Referenced_Standard.Details",
+                    "unece:cefactBusinessProcess": "Supply Chain",
+                    "rdfs:comment": "The identifier of this referenced standard."
                 },
                 {
                     "@id": "cefact:Section_Segment.Identification.Identifier",
@@ -507,6 +430,14 @@
                     "unece:cefactBieDomainClass": "cefact:Section_Segment.Details",
                     "unece:cefactBusinessProcess": "Cross Industry Trade",
                     "rdfs:comment": "The identifier of this section segment."
+                },
+                {
+                    "@id": "cefact:Product_Certificate.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01012484",
+                    "unece:cefactBieDomainClass": "cefact:Product_Certificate.Details",
+                    "unece:cefactBusinessProcess": "Traceability",
+                    "rdfs:comment": "The identifier for this product certificate."
                 },
                 {
                     "@id": "cefact:SupplyChain_TradeTransaction.Identification.Identifier",
@@ -518,519 +449,12 @@
                     "rdfs:comment": "A unique identifier for this supply chain trade transaction."
                 },
                 {
-                    "@id": "cefact:Acknowledgement_Document.Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "1004",
-                    "unece:cefactUNId": "UN01002073",
-                    "unece:cefactBieDomainClass": "cefact:Acknowledgement_Document.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The unique identifier of this acknowledgement document."
-                },
-                {
-                    "@id": "cefact:Payment_BalanceOut.Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01011830",
-                    "unece:cefactBieDomainClass": "cefact:Payment_BalanceOut.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The identifier for this payment balance out."
-                },
-                {
-                    "@id": "cefact:Logistics_TransportEquipment.Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "8260",
-                    "unece:cefactUNId": "UN01003758",
-                    "unece:cefactBieDomainClass": "cefact:Logistics_TransportEquipment.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The unique identifier of this piece of logistics transport equipment."
-                },
-                {
-                    "@id": "cefact:DocumentLine_Document.Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "1004",
-                    "unece:cefactUNId": "UN01011477",
-                    "unece:cefactBieDomainClass": "cefact:DocumentLine_Document.Details",
-                    "unece:cefactBusinessProcess": "Supply Chain",
-                    "rdfs:comment": "The identifier of this document line document."
-                },
-                {
-                    "@id": "cefact:SubordinateSubordinate_Location.Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "3225",
-                    "unece:cefactUNId": "UN01004088",
-                    "unece:cefactBieDomainClass": "cefact:SubordinateSubordinate_Location.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The unique identifier for this subordinate of a subordinate location, such as a United Nations Location Code (UNLOCODE) or GS1 Global Location Number (GLN)."
-                },
-                {
-                    "@id": "cefact:Logistics_ServiceCharge.Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "8023",
-                    "unece:cefactUNId": "UN01003722",
-                    "unece:cefactBieDomainClass": "cefact:Logistics_ServiceCharge.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The unique identifier for this logistics service charge."
-                },
-                {
-                    "@id": "cefact:Logistics_Package.Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "1438",
-                    "unece:cefactUNId": "UN01003700",
-                    "unece:cefactBieDomainClass": "cefact:Logistics_Package.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The unique identifier for this logistics package."
-                },
-                {
-                    "@id": "cefact:Exchanged_Document.Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "1004",
-                    "unece:cefactUNId": "UN01002488",
-                    "unece:cefactBieDomainClass": "cefact:Exchanged_Document.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The unique identifier of this exchanged document."
-                },
-                {
-                    "@id": "cefact:TradeProduct_Feature.Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01007471",
-                    "unece:cefactBieDomainClass": "cefact:TradeProduct_Feature.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The unique identifier for this trade product feature."
-                },
-                {
-                    "@id": "cefact:Trade_Country.Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "3207",
-                    "unece:cefactUNId": "UN01002553",
-                    "unece:cefactBieDomainClass": "cefact:Trade_Country.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A unique identifier for this trade country."
-                },
-                {
-                    "@id": "cefact:Specification_Response.Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "4345",
-                    "unece:cefactUNId": "UN01000078",
-                    "unece:cefactBieDomainClass": "cefact:Specification_Response.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The unique identifier for this specification response."
-                },
-                {
-                    "@id": "cefact:Header_TradeAgreement.Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01013408",
-                    "unece:cefactBieDomainClass": "cefact:Header_TradeAgreement.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "An identifier for this header trade agreement."
-                },
-                {
-                    "@id": "cefact:Referenced_Product.Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "7135",
-                    "unece:cefactUNId": "UN01004028",
-                    "unece:cefactBieDomainClass": "cefact:Referenced_Product.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A unique identifier for this referenced product."
-                },
-                {
-                    "@id": "cefact:Trade_Address.Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01004534",
-                    "unece:cefactBieDomainClass": "cefact:Trade_Address.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A unique identifier for this trade address."
-                },
-                {
-                    "@id": "cefact:Proprietary_Identity.Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01013287",
-                    "unece:cefactBieDomainClass": "cefact:Proprietary_Identity.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A proprietary identifier."
-                },
-                {
-                    "@id": "cefact:Specified_BinaryFile.Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01006015",
-                    "unece:cefactBieDomainClass": "cefact:Specified_BinaryFile.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A unique identifier for this specified binary file."
-                },
-                {
-                    "@id": "cefact:Line_TradeAgreement.Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01013412",
-                    "unece:cefactBieDomainClass": "cefact:Line_TradeAgreement.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "An identifier for this line trade agreement."
-                },
-                {
-                    "@id": "cefact:Trade_Party.Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "3039",
-                    "unece:cefactUNId": "UN01004595",
-                    "unece:cefactBieDomainClass": "cefact:Trade_Party.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A unique identifier of this trade party."
-                },
-                {
-                    "@id": "cefact:Trade_Contact.Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "3413",
-                    "unece:cefactUNId": "UN01001641",
-                    "unece:cefactBieDomainClass": "cefact:Trade_Contact.Details",
-                    "unece:cefactBusinessProcess": "Trade",
-                    "rdfs:comment": "The unique identifier for this trade contact."
-                },
-                {
-                    "@id": "cefact:Legal_Organization.Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01003641",
-                    "unece:cefactBieDomainClass": "cefact:Legal_Organization.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A unique identifier for this legally set up organization."
-                },
-                {
-                    "@id": "cefact:Line_TradeDelivery.Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "1065",
-                    "unece:cefactUNId": "UN01013438",
-                    "unece:cefactBieDomainClass": "cefact:Line_TradeDelivery.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "An identifier, at line level, for this trade delivery."
-                },
-                {
-                    "@id": "cefact:Header_BalanceOut.Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01011540",
-                    "unece:cefactBieDomainClass": "cefact:Header_BalanceOut.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The identifier for this header balance out."
-                },
-                {
-                    "@id": "cefact:Geographical_CoordinateSourceSystem.Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01013572",
-                    "unece:cefactBieDomainClass": "cefact:Geographical_CoordinateSourceSystem.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The identifier for this geographical coordinate source system."
-                },
-                {
-                    "@id": "cefact:ReferencedTransport_Service.Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01010075",
-                    "unece:cefactBieDomainClass": "cefact:ReferencedTransport_Service.Details",
-                    "unece:cefactBusinessProcess": "Transport",
-                    "rdfs:comment": "An identifier of this referenced transport service."
-                },
-                {
-                    "@id": "cefact:Specified_Marketplace.Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01009953",
-                    "unece:cefactBieDomainClass": "cefact:Specified_Marketplace.Details",
-                    "unece:cefactBusinessProcess": "Invoicing",
-                    "rdfs:comment": "The identifier for this specified marketplace."
-                },
-                {
-                    "@id": "cefact:Subordinate_Location.Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "3225",
-                    "unece:cefactUNId": "UN01004093",
-                    "unece:cefactBieDomainClass": "cefact:Subordinate_Location.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The unique identifier for this subordinate location, such as a United Nations Location Code (UNLOCODE) or GS1 Global Location Number (GLN)."
-                },
-                {
-                    "@id": "cefact:Logistics_TransportMovement.Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "8028",
-                    "unece:cefactUNId": "UN01003841",
-                    "unece:cefactBieDomainClass": "cefact:Logistics_TransportMovement.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The unique identifier for this logistics transport movement, such as a voyage number, flight number, or trip number."
-                },
-                {
-                    "@id": "cefact:WorkItem_Dimension.Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01000057",
-                    "unece:cefactBieDomainClass": "cefact:WorkItem_Dimension.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The unique identifier for this work item dimension. Industry context value changed from \"Construction\" to \"In All Contexts\"."
-                },
-                {
-                    "@id": "cefact:Trade_ProductGroup.Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01011923",
-                    "unece:cefactBieDomainClass": "cefact:Trade_ProductGroup.Details",
-                    "unece:cefactBusinessProcess": "Trade",
-                    "rdfs:comment": "An identifier for this trade product group."
-                },
-                {
-                    "@id": "cefact:Specified_GeographicalGrid.Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01012204",
-                    "unece:cefactBieDomainClass": "cefact:Specified_GeographicalGrid.Details",
-                    "unece:cefactBusinessProcess": "Agricultural",
-                    "rdfs:comment": "An identifier for this geographical grid."
-                },
-                {
-                    "@id": "cefact:SupplyChain_Event.Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "1007",
-                    "unece:cefactUNId": "UN01004292",
-                    "unece:cefactBieDomainClass": "cefact:SupplyChain_Event.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The unique identifier for this supply chain event."
-                },
-                {
-                    "@id": "cefact:Logistics_Seal.Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "9308",
-                    "unece:cefactUNId": "UN01003714",
-                    "unece:cefactBieDomainClass": "cefact:Logistics_Seal.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A unique identifier for this logistics seal."
-                },
-                {
                     "@id": "cefact:WorkItem_QuantityAnalysis.Identification.Identifier",
                     "@type": "unece:BasicBIE",
                     "unece:cefactUNId": "UN01000016",
                     "unece:cefactBieDomainClass": "cefact:WorkItem_QuantityAnalysis.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
                     "rdfs:comment": "The unique identifier for this work item quantity analysis."
-                },
-                {
-                    "@id": "cefact:Transport_Service.Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01004838",
-                    "unece:cefactBieDomainClass": "cefact:Transport_Service.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The unique identifier of this transport service."
-                },
-                {
-                    "@id": "cefact:Tax_Registration.Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01004487",
-                    "unece:cefactBieDomainClass": "cefact:Tax_Registration.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The unique identifier for this tax registration."
-                },
-                {
-                    "@id": "cefact:Exchanged_Declaration.Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "1426",
-                    "unece:cefactUNId": "UN01011007",
-                    "unece:cefactBieDomainClass": "cefact:Exchanged_Declaration.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "An identifier for this exchanged declaration."
-                },
-                {
-                    "@id": "cefact:Trade_Product.Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "7135",
-                    "unece:cefactUNId": "UN01004680",
-                    "unece:cefactBieDomainClass": "cefact:Trade_Product.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A unique identifier for this trade product."
-                },
-                {
-                    "@id": "cefact:Trade_CountrySub-Division.Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "3229",
-                    "unece:cefactUNId": "UN01002562",
-                    "unece:cefactBieDomainClass": "cefact:Trade_CountrySubDivision.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The unique identifier for this trade country sub-division."
-                },
-                {
-                    "@id": "cefact:Referenced_Standard.Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01008541",
-                    "unece:cefactBieDomainClass": "cefact:Referenced_Standard.Details",
-                    "unece:cefactBusinessProcess": "Supply Chain",
-                    "rdfs:comment": "The identifier of this referenced standard."
-                },
-                {
-                    "@id": "cefact:Certified_Accreditation.Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01010062",
-                    "unece:cefactBieDomainClass": "cefact:Certified_Accreditation.Details",
-                    "unece:cefactBusinessProcess": "Transport",
-                    "rdfs:comment": "An identifier for this certified accreditation."
-                },
-                {
-                    "@id": "cefact:SupplyChain_ConsignmentItem.Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01004104",
-                    "unece:cefactBieDomainClass": "cefact:SupplyChain_ConsignmentItem.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A unique identifier for this supply chain consignment item."
-                },
-                {
-                    "@id": "cefact:Associated_TransportEquipment.Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "8260",
-                    "unece:cefactUNId": "UN01004884",
-                    "unece:cefactBieDomainClass": "cefact:Associated_TransportEquipment.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A unique number, mark or name which identifies this associated piece of transport equipment."
-                },
-                {
-                    "@id": "cefact:DocumentContext_Parameter.Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01004853",
-                    "unece:cefactBieDomainClass": "cefact:DocumentContext_Parameter.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The unique identifier of this document context parameter."
-                },
-                {
-                    "@id": "cefact:Spatial_Dimension.Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01004082",
-                    "unece:cefactBieDomainClass": "cefact:Spatial_Dimension.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The unique identifier of this spatial dimension."
-                },
-                {
-                    "@id": "cefact:Document_Authentication.Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01003520",
-                    "unece:cefactBieDomainClass": "cefact:Document_Authentication.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A unique identifier for this document authentication."
-                },
-                {
-                    "@id": "cefact:SupplyChain_Consignment.Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "1202",
-                    "unece:cefactUNId": "UN01004160",
-                    "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A unique identifier for this supply chain consignment."
-                },
-                {
-                    "@id": "cefact:Trade_Location.Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "3225",
-                    "unece:cefactUNId": "UN01001661",
-                    "unece:cefactBieDomainClass": "cefact:Trade_Location.Details",
-                    "unece:cefactBusinessProcess": "Trade",
-                    "rdfs:comment": "The unique identifier for this location used or referenced in trade."
-                },
-                {
-                    "@id": "cefact:Transport_Event.Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "1007",
-                    "unece:cefactUNId": "UN01004792",
-                    "unece:cefactBieDomainClass": "cefact:Transport_Event.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The unique identifier for this transport event."
-                },
-                {
-                    "@id": "cefact:Transport_Route.Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01004823",
-                    "unece:cefactBieDomainClass": "cefact:Transport_Route.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The unique identifier of this transport route."
-                },
-                {
-                    "@id": "cefact:Subordinate_TradeLineItem.Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "7140",
-                    "unece:cefactUNId": "UN01004099",
-                    "unece:cefactBieDomainClass": "cefact:Subordinate_TradeLineItem.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A unique identifier for this subordinate trade line item."
-                },
-                {
-                    "@id": "cefact:Specified_GeographicalFeature.Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01013615",
-                    "unece:cefactBieDomainClass": "cefact:Specified_GeographicalFeature.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The identifier for this specified geographical feature."
-                },
-                {
-                    "@id": "cefact:GeographicalCoordinate.Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01003623",
-                    "unece:cefactBieDomainClass": "cefact:GeographicalCoordinate.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The unique identifier for this geographical coordinate."
-                },
-                {
-                    "@id": "cefact:Trade_AllowanceCharge.Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "1230",
-                    "unece:cefactUNId": "UN01001633",
-                    "unece:cefactBieDomainClass": "cefact:Trade_AllowanceCharge.Details",
-                    "unece:cefactBusinessProcess": "Trade",
-                    "rdfs:comment": "The unique identifier for this trade allowance charge."
-                },
-                {
-                    "@id": "cefact:Calibrated_Measurement.Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01013532",
-                    "unece:cefactBieDomainClass": "cefact:Calibrated_Measurement.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The identifier for this calibrated measurement."
-                },
-                {
-                    "@id": "cefact:Government_Registration.Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01011029",
-                    "unece:cefactBieDomainClass": "cefact:Government_Registration.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "An identifier for this government registration."
-                },
-                {
-                    "@id": "cefact:Requesting_Party.Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "3039",
-                    "unece:cefactUNId": "UN01002018",
-                    "unece:cefactBieDomainClass": "cefact:Requesting_Party.Details",
-                    "unece:cefactBusinessProcess": "Project Management",
-                    "rdfs:comment": "The unique identifier for this requesting party."
-                },
-                {
-                    "@id": "cefact:Goods_Production.Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01012677",
-                    "unece:cefactBieDomainClass": "cefact:Goods_Production.Details",
-                    "unece:cefactBusinessProcess": "Cross Industry",
-                    "rdfs:comment": "The identifier for this production of goods."
-                },
-                {
-                    "@id": "cefact:OEM_Equipment.Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01013554",
-                    "unece:cefactBieDomainClass": "cefact:OEM_Equipment.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "An identifier of this OEM equipment."
-                },
-                {
-                    "@id": "cefact:Employer_Identity.Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01003024",
-                    "unece:cefactBieDomainClass": "cefact:Employer_Identity.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The unique identifier for this employer identity."
-                },
-                {
-                    "@id": "cefact:Trade_GeopoliticalRegion.Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01004588",
-                    "unece:cefactBieDomainClass": "cefact:Trade_GeopoliticalRegion.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The unique identifier for this trade geopolitical region."
-                },
-                {
-                    "@id": "cefact:SupplyChain_Schedule.Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01012980",
-                    "unece:cefactBieDomainClass": "cefact:SupplyChain_Schedule.Details",
-                    "unece:cefactBusinessProcess": "Supply Chain",
-                    "rdfs:comment": "An identifier of this supply chain schedule."
                 },
                 {
                     "@id": "cefact:Header_TradeDelivery.Identification.Identifier",
@@ -1042,72 +466,28 @@
                     "rdfs:comment": "The identifier, at header level, for this trade delivery."
                 },
                 {
-                    "@id": "cefact:Label_Section.Identification.Identifier",
+                    "@id": "cefact:Specified_Marketplace.Identification.Identifier",
                     "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01012732",
-                    "unece:cefactBieDomainClass": "cefact:Label_Section.Details",
-                    "unece:cefactBusinessProcess": "Cross Industry Trade",
-                    "rdfs:comment": "The identifier of this label section."
+                    "unece:cefactUNId": "UN01009953",
+                    "unece:cefactBieDomainClass": "cefact:Specified_Marketplace.Details",
+                    "unece:cefactBusinessProcess": "Invoicing",
+                    "rdfs:comment": "The identifier for this specified marketplace."
                 },
                 {
-                    "@id": "cefact:Logistics_Label.Identification.Identifier",
+                    "@id": "cefact:Legal_Organization.Identification.Identifier",
                     "@type": "unece:BasicBIE",
-                    "unece:tded": "7402",
-                    "unece:cefactUNId": "UN01003676",
-                    "unece:cefactBieDomainClass": "cefact:Logistics_Label.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The unique identifier of this logistics label."
-                },
-                {
-                    "@id": "cefact:Referenced_Logistics_TransportEquipment.Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "8260",
-                    "unece:cefactUNId": "UN01004023",
-                    "unece:cefactBieDomainClass": "cefact:Referenced_Logistics_TransportEquipment.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The unique identifier for this referenced piece of logistics transport equipment, such as a number, mark or name."
-                },
-                {
-                    "@id": "cefact:Product_Certificate.Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01012484",
-                    "unece:cefactBieDomainClass": "cefact:Product_Certificate.Details",
-                    "unece:cefactBusinessProcess": "Traceability",
-                    "rdfs:comment": "The identifier for this product certificate."
-                },
-                {
-                    "@id": "cefact:Attached_TransportEquipment.Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "8260",
-                    "unece:cefactUNId": "UN01003417",
-                    "unece:cefactBieDomainClass": "cefact:Attached_TransportEquipment.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A unique identifier of this piece of attached transport equipment."
-                },
-                {
-                    "@id": "cefact:Transport_Person.Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01004816",
-                    "unece:cefactBieDomainClass": "cefact:Transport_Person.Details",
+                    "unece:cefactUNId": "UN01003641",
+                    "unece:cefactBieDomainClass": "cefact:Legal_Organization.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The unique identifier for this transport person."
+                    "rdfs:comment": "A unique identifier for this legally set up organization."
                 },
                 {
-                    "@id": "cefact:Note.Identification.Identifier",
+                    "@id": "cefact:Transport_Service.Identification.Identifier",
                     "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01002524",
-                    "unece:cefactBieDomainClass": "cefact:Note.Details",
+                    "unece:cefactUNId": "UN01004838",
+                    "unece:cefactBieDomainClass": "cefact:Transport_Service.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A unique identifier for this note."
-                },
-                {
-                    "@id": "cefact:TransportService_Location.Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "3225",
-                    "unece:cefactUNId": "UN01010087",
-                    "unece:cefactBieDomainClass": "cefact:TransportService_Location.Details",
-                    "unece:cefactBusinessProcess": "Transport",
-                    "rdfs:comment": "An identifier for this transport service location, such as a United Nations Location Code (UNLOCODE) or GS1 Global Location Number (GLN)."
+                    "rdfs:comment": "The unique identifier of this transport service."
                 },
                 {
                     "@id": "cefact:Referenced_Document.Identification.Identifier",
@@ -1119,29 +499,21 @@
                     "rdfs:comment": "A unique identifier for this referenced document."
                 },
                 {
-                    "@id": "cefact:ControlSetting_Parameter.Identification.Identifier",
+                    "@id": "cefact:Government_Registration.Identification.Identifier",
                     "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01013503",
-                    "unece:cefactBieDomainClass": "cefact:ControlSetting_Parameter.Details",
+                    "unece:cefactUNId": "UN01011029",
+                    "unece:cefactBieDomainClass": "cefact:Government_Registration.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "An identifier for this government registration."
+                },
+                {
+                    "@id": "cefact:Referenced_TransportMeans.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "8213",
+                    "unece:cefactUNId": "UN01004052",
+                    "unece:cefactBieDomainClass": "cefact:Referenced_TransportMeans.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The identifier of this control setting parameter."
-                },
-                {
-                    "@id": "cefact:SupplyChain_TradeLineItem.Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "7140",
-                    "unece:cefactUNId": "UN01004418",
-                    "unece:cefactBieDomainClass": "cefact:SupplyChain_TradeLineItem.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The unique identifier for this supply chain trade line item."
-                },
-                {
-                    "@id": "cefact:TradeSettlement_FinancialCard.Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01004495",
-                    "unece:cefactBieDomainClass": "cefact:TradeSettlement_FinancialCard.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The unique identifier, commonly known as the card number, of this trade settlement financial card."
+                    "rdfs:comment": "An identifier of this referenced transport means, such as the International Maritime Organization number for a vessel."
                 },
                 {
                     "@id": "cefact:Logistics_TransportMeans.Identification.Identifier",
@@ -1153,28 +525,131 @@
                     "rdfs:comment": "An identifier of this logistics means of transport, such as the International Maritime Organization number of a vessel."
                 },
                 {
-                    "@id": "cefact:Procuring_Project.Identification.Identifier",
+                    "@id": "cefact:Specified_GeographicalFeature.Identification.Identifier",
                     "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01000372",
-                    "unece:cefactBieDomainClass": "cefact:Procuring_Project.Details",
+                    "unece:cefactUNId": "UN01013615",
+                    "unece:cefactBieDomainClass": "cefact:Specified_GeographicalFeature.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The unique identifier of this procuring project."
+                    "rdfs:comment": "The identifier for this specified geographical feature."
                 },
                 {
-                    "@id": "cefact:Legal_Registration.Identification.Identifier",
+                    "@id": "cefact:Specified_Period.Identification.Identifier",
                     "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01003651",
-                    "unece:cefactBieDomainClass": "cefact:Legal_Registration.Details",
+                    "unece:cefactUNId": "UN01001279",
+                    "unece:cefactBieDomainClass": "cefact:Specified_Period.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A unique identifier for this legal registration."
+                    "rdfs:comment": "The unique identifier of this specified period."
                 },
                 {
-                    "@id": "cefact:Monitoring_IOTDevice.Identification.Identifier",
+                    "@id": "cefact:Trade_CountrySub-Division.Identification.Identifier",
                     "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01013476",
-                    "unece:cefactBieDomainClass": "cefact:Monitoring_IOTDevice.Details",
+                    "unece:tded": "3229",
+                    "unece:cefactUNId": "UN01002562",
+                    "unece:cefactBieDomainClass": "cefact:Trade_CountrySubDivision.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The unique identifier for this trade country sub-division."
+                },
+                {
+                    "@id": "cefact:Handling_Instructions.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01012760",
+                    "unece:cefactBieDomainClass": "cefact:Handling_Instructions.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The identifier of this handling instructions."
+                },
+                {
+                    "@id": "cefact:SupplyChain_TradeLineItem.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "7140",
+                    "unece:cefactUNId": "UN01004418",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_TradeLineItem.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "An identifier for this monitoring IOT device."
+                    "rdfs:comment": "The unique identifier for this supply chain trade line item."
+                },
+                {
+                    "@id": "cefact:Payment_BalanceOut.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01011830",
+                    "unece:cefactBieDomainClass": "cefact:Payment_BalanceOut.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The identifier for this payment balance out."
+                },
+                {
+                    "@id": "cefact:Logistics_TransportMovement.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "8028",
+                    "unece:cefactUNId": "UN01003841",
+                    "unece:cefactBieDomainClass": "cefact:Logistics_TransportMovement.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The unique identifier for this logistics transport movement, such as a voyage number, flight number, or trip number."
+                },
+                {
+                    "@id": "cefact:GeographicalCoordinate.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01003623",
+                    "unece:cefactBieDomainClass": "cefact:GeographicalCoordinate.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The unique identifier for this geographical coordinate."
+                },
+                {
+                    "@id": "cefact:SubordinateSubordinate_Location.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "3225",
+                    "unece:cefactUNId": "UN01004088",
+                    "unece:cefactBieDomainClass": "cefact:SubordinateSubordinate_Location.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The unique identifier for this subordinate of a subordinate location, such as a United Nations Location Code (UNLOCODE) or GS1 Global Location Number (GLN)."
+                },
+                {
+                    "@id": "cefact:Specified_GeographicalGrid.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01012204",
+                    "unece:cefactBieDomainClass": "cefact:Specified_GeographicalGrid.Details",
+                    "unece:cefactBusinessProcess": "Agricultural",
+                    "rdfs:comment": "An identifier for this geographical grid."
+                },
+                {
+                    "@id": "cefact:Operational_Parameter.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01013514",
+                    "unece:cefactBieDomainClass": "cefact:Operational_Parameter.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The identifier of this operational parameter."
+                },
+                {
+                    "@id": "cefact:Employer_Identity.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01003024",
+                    "unece:cefactBieDomainClass": "cefact:Employer_Identity.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The unique identifier for this employer identity."
+                },
+                {
+                    "@id": "cefact:Location_Party.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "3039",
+                    "unece:cefactUNId": "UN01003662",
+                    "unece:cefactBieDomainClass": "cefact:Location_Party.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "A unique identifier of this location party."
+                },
+                {
+                    "@id": "cefact:Document_Clause.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "4069",
+                    "unece:cefactUNId": "UN01002647",
+                    "unece:cefactBieDomainClass": "cefact:Document_Clause.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The unique identifier of this document clause."
+                },
+                {
+                    "@id": "cefact:Referenced_Logistics_Package.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "1438",
+                    "unece:cefactUNId": "UN01006795",
+                    "unece:cefactBieDomainClass": "cefact:Referenced_Logistics_Package.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The identifier for this referenced logistics package."
                 },
                 {
                     "@id": "cefact:Specification_Query.Identification.Identifier",
@@ -1185,12 +660,374 @@
                     "rdfs:comment": "The unique identifier for this specification query."
                 },
                 {
-                    "@id": "cefact:Specified_GeographicalObjectCharacteristic.Identification.Identifier",
+                    "@id": "cefact:Tax_Registration.Identification.Identifier",
                     "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01012369",
-                    "unece:cefactBieDomainClass": "cefact:Specified_GeographicalObjectCharacteristic.Details",
-                    "unece:cefactBusinessProcess": "Agricultural",
-                    "rdfs:comment": "The identifier for this geographical object characteristic."
+                    "unece:cefactUNId": "UN01004487",
+                    "unece:cefactBieDomainClass": "cefact:Tax_Registration.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The unique identifier for this tax registration."
+                },
+                {
+                    "@id": "cefact:Basic_WorkItem.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01000027",
+                    "unece:cefactBieDomainClass": "cefact:Basic_WorkItem.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The unique identifier for this basic work item. Industry context value changed from \"Construction\" to \"In All Contexts\"."
+                },
+                {
+                    "@id": "cefact:Logistics_ServiceCharge.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "8023",
+                    "unece:cefactUNId": "UN01003722",
+                    "unece:cefactBieDomainClass": "cefact:Logistics_ServiceCharge.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The unique identifier for this logistics service charge."
+                },
+                {
+                    "@id": "cefact:Trade_Country.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "3207",
+                    "unece:cefactUNId": "UN01002553",
+                    "unece:cefactBieDomainClass": "cefact:Trade_Country.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "A unique identifier for this trade country."
+                },
+                {
+                    "@id": "cefact:Referenced_Product.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "7135",
+                    "unece:cefactUNId": "UN01004028",
+                    "unece:cefactBieDomainClass": "cefact:Referenced_Product.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "A unique identifier for this referenced product."
+                },
+                {
+                    "@id": "cefact:Subordinate_Location.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "3225",
+                    "unece:cefactUNId": "UN01004093",
+                    "unece:cefactBieDomainClass": "cefact:Subordinate_Location.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The unique identifier for this subordinate location, such as a United Nations Location Code (UNLOCODE) or GS1 Global Location Number (GLN)."
+                },
+                {
+                    "@id": "cefact:Logistics_Label.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "7402",
+                    "unece:cefactUNId": "UN01003676",
+                    "unece:cefactBieDomainClass": "cefact:Logistics_Label.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The unique identifier of this logistics label."
+                },
+                {
+                    "@id": "cefact:Trade_Party.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "3039",
+                    "unece:cefactUNId": "UN01004595",
+                    "unece:cefactBieDomainClass": "cefact:Trade_Party.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A unique identifier of this trade party."
+                },
+                {
+                    "@id": "cefact:Certified_Accreditation.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01010062",
+                    "unece:cefactBieDomainClass": "cefact:Certified_Accreditation.Details",
+                    "unece:cefactBusinessProcess": "Transport",
+                    "rdfs:comment": "An identifier for this certified accreditation."
+                },
+                {
+                    "@id": "cefact:Valuation_BreakdownStatement.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01007546",
+                    "unece:cefactBieDomainClass": "cefact:Valuation_BreakdownStatement.Details",
+                    "unece:cefactBusinessProcess": "Invoicing",
+                    "rdfs:comment": "The unique identifier for this valuation breakdown statement."
+                },
+                {
+                    "@id": "cefact:Trade_AllowanceCharge.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "1230",
+                    "unece:cefactUNId": "UN01001633",
+                    "unece:cefactBieDomainClass": "cefact:Trade_AllowanceCharge.Details",
+                    "unece:cefactBusinessProcess": "Trade",
+                    "rdfs:comment": "The unique identifier for this trade allowance charge."
+                },
+                {
+                    "@id": "cefact:Spatial_Dimension.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01004082",
+                    "unece:cefactBieDomainClass": "cefact:Spatial_Dimension.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The unique identifier of this spatial dimension."
+                },
+                {
+                    "@id": "cefact:SupplyChain_Event.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "1007",
+                    "unece:cefactUNId": "UN01004292",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_Event.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The unique identifier for this supply chain event."
+                },
+                {
+                    "@id": "cefact:Attached_TransportEquipment.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "8260",
+                    "unece:cefactUNId": "UN01003417",
+                    "unece:cefactBieDomainClass": "cefact:Attached_TransportEquipment.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A unique identifier of this piece of attached transport equipment."
+                },
+                {
+                    "@id": "cefact:Trade_Address.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01004534",
+                    "unece:cefactBieDomainClass": "cefact:Trade_Address.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A unique identifier for this trade address."
+                },
+                {
+                    "@id": "cefact:DocumentLine_Document.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "1004",
+                    "unece:cefactUNId": "UN01011477",
+                    "unece:cefactBieDomainClass": "cefact:DocumentLine_Document.Details",
+                    "unece:cefactBusinessProcess": "Supply Chain",
+                    "rdfs:comment": "The identifier of this document line document."
+                },
+                {
+                    "@id": "cefact:Specification_Response.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "4345",
+                    "unece:cefactUNId": "UN01000078",
+                    "unece:cefactBieDomainClass": "cefact:Specification_Response.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The unique identifier for this specification response."
+                },
+                {
+                    "@id": "cefact:Transport_Route.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01004823",
+                    "unece:cefactBieDomainClass": "cefact:Transport_Route.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The unique identifier of this transport route."
+                },
+                {
+                    "@id": "cefact:Specified_Observation.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01012571",
+                    "unece:cefactBieDomainClass": "cefact:Specified_Observation.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The identifier for this specified observation."
+                },
+                {
+                    "@id": "cefact:TradeProduct_Feature.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01007471",
+                    "unece:cefactBieDomainClass": "cefact:TradeProduct_Feature.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The unique identifier for this trade product feature."
+                },
+                {
+                    "@id": "cefact:Trade_ProductGroup.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01011923",
+                    "unece:cefactBieDomainClass": "cefact:Trade_ProductGroup.Details",
+                    "unece:cefactBusinessProcess": "Trade",
+                    "rdfs:comment": "An identifier for this trade product group."
+                },
+                {
+                    "@id": "cefact:Product_Characteristic.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01003972",
+                    "unece:cefactBieDomainClass": "cefact:Product_Characteristic.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "A unique identifier for this product characteristic."
+                },
+                {
+                    "@id": "cefact:Monitoring_IOTDevice.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01013476",
+                    "unece:cefactBieDomainClass": "cefact:Monitoring_IOTDevice.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "An identifier for this monitoring IOT device."
+                },
+                {
+                    "@id": "cefact:Specified_BinaryFile.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01006015",
+                    "unece:cefactBieDomainClass": "cefact:Specified_BinaryFile.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "A unique identifier for this specified binary file."
+                },
+                {
+                    "@id": "cefact:Associated_TransportEquipment.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "8260",
+                    "unece:cefactUNId": "UN01004884",
+                    "unece:cefactBieDomainClass": "cefact:Associated_TransportEquipment.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A unique number, mark or name which identifies this associated piece of transport equipment."
+                },
+                {
+                    "@id": "cefact:Note.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01002524",
+                    "unece:cefactBieDomainClass": "cefact:Note.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "A unique identifier for this note."
+                },
+                {
+                    "@id": "cefact:Legal_Registration.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01003651",
+                    "unece:cefactBieDomainClass": "cefact:Legal_Registration.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "A unique identifier for this legal registration."
+                },
+                {
+                    "@id": "cefact:Exchanged_Declaration.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "1426",
+                    "unece:cefactUNId": "UN01011007",
+                    "unece:cefactBieDomainClass": "cefact:Exchanged_Declaration.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "An identifier for this exchanged declaration."
+                },
+                {
+                    "@id": "cefact:Proprietary_Identity.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01013287",
+                    "unece:cefactBieDomainClass": "cefact:Proprietary_Identity.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A proprietary identifier."
+                },
+                {
+                    "@id": "cefact:Label_Section.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01012732",
+                    "unece:cefactBieDomainClass": "cefact:Label_Section.Details",
+                    "unece:cefactBusinessProcess": "Cross Industry Trade",
+                    "rdfs:comment": "The identifier of this label section."
+                },
+                {
+                    "@id": "cefact:Logistics_Package.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "1438",
+                    "unece:cefactUNId": "UN01003700",
+                    "unece:cefactBieDomainClass": "cefact:Logistics_Package.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The unique identifier for this logistics package."
+                },
+                {
+                    "@id": "cefact:TransportService_Location.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "3225",
+                    "unece:cefactUNId": "UN01010087",
+                    "unece:cefactBieDomainClass": "cefact:TransportService_Location.Details",
+                    "unece:cefactBusinessProcess": "Transport",
+                    "rdfs:comment": "An identifier for this transport service location, such as a United Nations Location Code (UNLOCODE) or GS1 Global Location Number (GLN)."
+                },
+                {
+                    "@id": "cefact:TradeSettlement_FinancialCard.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01004495",
+                    "unece:cefactBieDomainClass": "cefact:TradeSettlement_FinancialCard.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The unique identifier, commonly known as the card number, of this trade settlement financial card."
+                },
+                {
+                    "@id": "cefact:Transport_Person.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01004816",
+                    "unece:cefactBieDomainClass": "cefact:Transport_Person.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The unique identifier for this transport person."
+                },
+                {
+                    "@id": "cefact:Branch_FinancialInstitution.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "3433",
+                    "unece:cefactUNId": "UN01003139",
+                    "unece:cefactBieDomainClass": "cefact:Branch_FinancialInstitution.Details",
+                    "unece:cefactBusinessProcess": "Customer to bank payment initiation",
+                    "rdfs:comment": "The unique identifier for this branch of a financial institution."
+                },
+                {
+                    "@id": "cefact:SupplyChain_Consignment.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "1202",
+                    "unece:cefactUNId": "UN01004160",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A unique identifier for this supply chain consignment."
+                },
+                {
+                    "@id": "cefact:Line_TradeAgreement.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01013412",
+                    "unece:cefactBieDomainClass": "cefact:Line_TradeAgreement.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "An identifier for this line trade agreement."
+                },
+                {
+                    "@id": "cefact:ControlSetting_Parameter.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01013503",
+                    "unece:cefactBieDomainClass": "cefact:ControlSetting_Parameter.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The identifier of this control setting parameter."
+                },
+                {
+                    "@id": "cefact:Calibrated_Measurement.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01013532",
+                    "unece:cefactBieDomainClass": "cefact:Calibrated_Measurement.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The identifier for this calibrated measurement."
+                },
+                {
+                    "@id": "cefact:Acknowledgement_Document.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "1004",
+                    "unece:cefactUNId": "UN01002073",
+                    "unece:cefactBieDomainClass": "cefact:Acknowledgement_Document.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The unique identifier of this acknowledgement document."
+                },
+                {
+                    "@id": "cefact:Trade_GeopoliticalRegion.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01004588",
+                    "unece:cefactBieDomainClass": "cefact:Trade_GeopoliticalRegion.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The unique identifier for this trade geopolitical region."
+                },
+                {
+                    "@id": "cefact:Document_Authentication.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01003520",
+                    "unece:cefactBieDomainClass": "cefact:Document_Authentication.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "A unique identifier for this document authentication."
+                },
+                {
+                    "@id": "cefact:Header_BalanceOut.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01011540",
+                    "unece:cefactBieDomainClass": "cefact:Header_BalanceOut.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The identifier for this header balance out."
+                },
+                {
+                    "@id": "cefact:Trade_WorkflowObject.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01011931",
+                    "unece:cefactBieDomainClass": "cefact:Trade_WorkflowObject.Details",
+                    "unece:cefactBusinessProcess": "Trade",
+                    "rdfs:comment": "The identifier of this trade workflow object."
                 },
                 {
                     "@id": "cefact:Referenced_SupplyChain_Consignment.Identification.Identifier",
@@ -1202,6 +1039,32 @@
                     "rdfs:comment": "A unique identifier for this referenced supply chain consignment."
                 },
                 {
+                    "@id": "cefact:Trade_Contact.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "3413",
+                    "unece:cefactUNId": "UN01001641",
+                    "unece:cefactBieDomainClass": "cefact:Trade_Contact.Details",
+                    "unece:cefactBusinessProcess": "Trade",
+                    "rdfs:comment": "The unique identifier for this trade contact."
+                },
+                {
+                    "@id": "cefact:Communication_Event.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "1007",
+                    "unece:cefactUNId": "UN01013561",
+                    "unece:cefactBieDomainClass": "cefact:Communication_Event.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The identifier for this communication event."
+                },
+                {
+                    "@id": "cefact:ReferencedTransport_Service.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01010075",
+                    "unece:cefactBieDomainClass": "cefact:ReferencedTransport_Service.Details",
+                    "unece:cefactBusinessProcess": "Transport",
+                    "rdfs:comment": "An identifier of this referenced transport service."
+                },
+                {
                     "@id": "cefact:Document_Version.Identification.Identifier",
                     "@type": "unece:BasicBIE",
                     "unece:cefactUNId": "UN01003591",
@@ -1210,13 +1073,198 @@
                     "rdfs:comment": "The unique identifier for this document version."
                 },
                 {
-                    "@id": "cefact:Location_Party.Identification.Identifier",
+                    "@id": "cefact:Trade_Location.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "3225",
+                    "unece:cefactUNId": "UN01001661",
+                    "unece:cefactBieDomainClass": "cefact:Trade_Location.Details",
+                    "unece:cefactBusinessProcess": "Trade",
+                    "rdfs:comment": "The unique identifier for this location used or referenced in trade."
+                },
+                {
+                    "@id": "cefact:Subordinate_TradeLineItem.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "7140",
+                    "unece:cefactUNId": "UN01004099",
+                    "unece:cefactBieDomainClass": "cefact:Subordinate_TradeLineItem.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A unique identifier for this subordinate trade line item."
+                },
+                {
+                    "@id": "cefact:Grouped_WorkItem.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01000044",
+                    "unece:cefactBieDomainClass": "cefact:Grouped_WorkItem.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The unique identifier for this work item group. Industry context value changed from \"Construction\" to \"In All Contexts\"."
+                },
+                {
+                    "@id": "cefact:Line_TradeDelivery.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "1065",
+                    "unece:cefactUNId": "UN01013438",
+                    "unece:cefactBieDomainClass": "cefact:Line_TradeDelivery.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "An identifier, at line level, for this trade delivery."
+                },
+                {
+                    "@id": "cefact:Exchanged_Document.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "1004",
+                    "unece:cefactUNId": "UN01002488",
+                    "unece:cefactBieDomainClass": "cefact:Exchanged_Document.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The unique identifier of this exchanged document."
+                },
+                {
+                    "@id": "cefact:Logistics_Location.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "3225",
+                    "unece:cefactUNId": "UN01003680",
+                    "unece:cefactBieDomainClass": "cefact:Logistics_Location.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A unique identifier for this logistics related location, such as a United Nations Location Code (UNLOCODE) or GS1 Global Location Number (GLN)."
+                },
+                {
+                    "@id": "cefact:SupplyChain_ConsignmentItem.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01004104",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_ConsignmentItem.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A unique identifier for this supply chain consignment item."
+                },
+                {
+                    "@id": "cefact:Logistics_TransportEquipment.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "8260",
+                    "unece:cefactUNId": "UN01003758",
+                    "unece:cefactBieDomainClass": "cefact:Logistics_TransportEquipment.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The unique identifier of this piece of logistics transport equipment."
+                },
+                {
+                    "@id": "cefact:Logistics_Seal.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "9308",
+                    "unece:cefactUNId": "UN01003714",
+                    "unece:cefactBieDomainClass": "cefact:Logistics_Seal.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A unique identifier for this logistics seal."
+                },
+                {
+                    "@id": "cefact:Specified_GeographicalObjectCharacteristic.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01012369",
+                    "unece:cefactBieDomainClass": "cefact:Specified_GeographicalObjectCharacteristic.Details",
+                    "unece:cefactBusinessProcess": "Agricultural",
+                    "rdfs:comment": "The identifier for this geographical object characteristic."
+                },
+                {
+                    "@id": "cefact:Geographical_CoordinateSourceSystem.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01013572",
+                    "unece:cefactBieDomainClass": "cefact:Geographical_CoordinateSourceSystem.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The identifier for this geographical coordinate source system."
+                },
+                {
+                    "@id": "cefact:Goods_Production.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01012677",
+                    "unece:cefactBieDomainClass": "cefact:Goods_Production.Details",
+                    "unece:cefactBusinessProcess": "Cross Industry",
+                    "rdfs:comment": "The identifier for this production of goods."
+                },
+                {
+                    "@id": "cefact:Header_TradeAgreement.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01013408",
+                    "unece:cefactBieDomainClass": "cefact:Header_TradeAgreement.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "An identifier for this header trade agreement."
+                },
+                {
+                    "@id": "cefact:Trade_AccountingAccount.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01004523",
+                    "unece:cefactBieDomainClass": "cefact:Trade_AccountingAccount.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The unique identifier for this trade accounting account."
+                },
+                {
+                    "@id": "cefact:SupplyChain_Schedule.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01012980",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_Schedule.Details",
+                    "unece:cefactBusinessProcess": "Supply Chain",
+                    "rdfs:comment": "An identifier of this supply chain schedule."
+                },
+                {
+                    "@id": "cefact:Monitoring_Sensor.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01013540",
+                    "unece:cefactBieDomainClass": "cefact:Monitoring_Sensor.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "An identifier of this monitoring sensor."
+                },
+                {
+                    "@id": "cefact:Transport_Event.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "1007",
+                    "unece:cefactUNId": "UN01004792",
+                    "unece:cefactBieDomainClass": "cefact:Transport_Event.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The unique identifier for this transport event."
+                },
+                {
+                    "@id": "cefact:Requesting_Party.Identification.Identifier",
                     "@type": "unece:BasicBIE",
                     "unece:tded": "3039",
-                    "unece:cefactUNId": "UN01003662",
-                    "unece:cefactBieDomainClass": "cefact:Location_Party.Details",
+                    "unece:cefactUNId": "UN01002018",
+                    "unece:cefactBieDomainClass": "cefact:Requesting_Party.Details",
+                    "unece:cefactBusinessProcess": "Project Management",
+                    "rdfs:comment": "The unique identifier for this requesting party."
+                },
+                {
+                    "@id": "cefact:WorkItem_Dimension.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01000057",
+                    "unece:cefactBieDomainClass": "cefact:WorkItem_Dimension.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A unique identifier of this location party."
+                    "rdfs:comment": "The unique identifier for this work item dimension. Industry context value changed from \"Construction\" to \"In All Contexts\"."
+                },
+                {
+                    "@id": "cefact:DocumentContext_Parameter.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01004853",
+                    "unece:cefactBieDomainClass": "cefact:DocumentContext_Parameter.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The unique identifier of this document context parameter."
+                },
+                {
+                    "@id": "cefact:Trade_Product.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "7135",
+                    "unece:cefactUNId": "UN01004680",
+                    "unece:cefactBieDomainClass": "cefact:Trade_Product.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A unique identifier for this trade product."
+                },
+                {
+                    "@id": "cefact:Procuring_Project.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01000372",
+                    "unece:cefactBieDomainClass": "cefact:Procuring_Project.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The unique identifier of this procuring project."
+                },
+                {
+                    "@id": "cefact:OEM_Equipment.Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01013554",
+                    "unece:cefactBieDomainClass": "cefact:OEM_Equipment.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "An identifier of this OEM equipment."
                 }
             ]
         }

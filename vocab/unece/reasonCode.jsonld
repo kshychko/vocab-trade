@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://service.unece.org/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://service.unece.org/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
@@ -30,10 +30,10 @@
                     "@id": "unece:BalanceOut"
                 },
                 {
-                    "@id": "unece:Event"
+                    "@id": "unece:CommunicationEvent"
                 },
                 {
-                    "@id": "unece:Status"
+                    "@id": "unece:FinancingStatus"
                 }
             ],
             "rdfs:comment": [
@@ -46,12 +46,12 @@
             "rdfs:label": "reasonCode",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Payment_BalanceOut.Reason.Code",
+                    "@id": "cefact:Financing_Status.Reason.Code",
                     "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01011832",
-                    "unece:cefactBieDomainClass": "cefact:Payment_BalanceOut.Details",
+                    "unece:cefactUNId": "UN01013264",
+                    "unece:cefactBieDomainClass": "cefact:Financing_Status.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The code specifying the reason for this payment balance out."
+                    "rdfs:comment": "The code specifying the reason for this financing status."
                 },
                 {
                     "@id": "cefact:Header_BalanceOut.Reason.Code",
@@ -62,20 +62,12 @@
                     "rdfs:comment": "The code specifying the reason for this header balance out."
                 },
                 {
-                    "@id": "cefact:Financing_Status.Reason.Code",
+                    "@id": "cefact:Payment_BalanceOut.Reason.Code",
                     "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01013264",
-                    "unece:cefactBieDomainClass": "cefact:Financing_Status.Details",
+                    "unece:cefactUNId": "UN01011832",
+                    "unece:cefactBieDomainClass": "cefact:Payment_BalanceOut.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The code specifying the reason for this financing status."
-                },
-                {
-                    "@id": "cefact:Communication_Event.Reason.Code",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01013566",
-                    "unece:cefactBieDomainClass": "cefact:Communication_Event.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The code specifying a reason for this communication event."
+                    "rdfs:comment": "The code specifying the reason for this payment balance out."
                 },
                 {
                     "@id": "cefact:Financial_Adjustment.Reason.Code",
@@ -85,6 +77,14 @@
                     "unece:cefactBieDomainClass": "cefact:Financial_Adjustment.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
                     "rdfs:comment": "A code specifying a reason for this financial adjustment."
+                },
+                {
+                    "@id": "cefact:Communication_Event.Reason.Code",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01013566",
+                    "unece:cefactBieDomainClass": "cefact:Communication_Event.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The code specifying a reason for this communication event."
                 }
             ]
         }

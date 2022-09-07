@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://service.unece.org/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://service.unece.org/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
         "unece:cefactBieDomainClass": {
@@ -26,7 +26,7 @@
                     "@id": "unece:DangerousGoods"
                 },
                 {
-                    "@id": "unece:TradeDelivery"
+                    "@id": "unece:LineTradeDelivery"
                 },
                 {
                     "@id": "unece:TradeTransaction"
@@ -40,12 +40,12 @@
             "rdfs:label": "specifiedPackage",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:SupplyChain_TradeTransaction.Specified.Logistics_Package",
+                    "@id": "cefact:Line_TradeDelivery.Specified.Logistics_Package",
                     "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01004485",
-                    "unece:cefactBieDomainClass": "cefact:SupplyChain_TradeTransaction.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A logistics package specified for this supply chain trade transaction."
+                    "unece:cefactUNId": "UN01012125",
+                    "unece:cefactBieDomainClass": "cefact:Line_TradeDelivery.Details",
+                    "unece:cefactBusinessProcess": "Trade",
+                    "rdfs:comment": "A logistics package, at line level, specified for this trade delivery."
                 },
                 {
                     "@id": "cefact:Transport_DangerousGoods.Specified.Logistics_Package",
@@ -56,12 +56,12 @@
                     "rdfs:comment": "A logistics package specified for these transported dangerous goods."
                 },
                 {
-                    "@id": "cefact:Line_TradeDelivery.Specified.Logistics_Package",
+                    "@id": "cefact:SupplyChain_TradeTransaction.Specified.Logistics_Package",
                     "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01012125",
-                    "unece:cefactBieDomainClass": "cefact:Line_TradeDelivery.Details",
-                    "unece:cefactBusinessProcess": "Trade",
-                    "rdfs:comment": "A logistics package, at line level, specified for this trade delivery."
+                    "unece:cefactUNId": "UN01004485",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_TradeTransaction.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A logistics package specified for this supply chain trade transaction."
                 }
             ]
         }

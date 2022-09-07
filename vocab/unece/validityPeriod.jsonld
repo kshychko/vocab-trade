@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://service.unece.org/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://service.unece.org/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
         "unece:cefactBieDomainClass": {
@@ -23,13 +23,16 @@
             ],
             "schema:domainIncludes": [
                 {
-                    "@id": "unece:Price"
+                    "@id": "unece:DocumentStatus"
                 },
                 {
-                    "@id": "unece:Registration"
+                    "@id": "unece:GovernmentRegistration"
                 },
                 {
-                    "@id": "unece:Status"
+                    "@id": "unece:LogisticsStatus"
+                },
+                {
+                    "@id": "unece:TradePrice"
                 }
             ],
             "rdfs:comment": [
@@ -41,12 +44,12 @@
             "rdfs:label": "validityPeriod",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Document_Status.Validity.Specified_Period",
+                    "@id": "cefact:Logistics_Status.Validity.Specified_Period",
                     "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01013129",
-                    "unece:cefactBieDomainClass": "cefact:Document_Status.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A specified validity period for this document status."
+                    "unece:cefactUNId": "UN01010092",
+                    "unece:cefactBieDomainClass": "cefact:Logistics_Status.Details",
+                    "unece:cefactBusinessProcess": "Transport",
+                    "rdfs:comment": "A specific validity period for this logistics status."
                 },
                 {
                     "@id": "cefact:Trade_Price.Validity.Specified_Period",
@@ -57,20 +60,20 @@
                     "rdfs:comment": "A specified period for which this trade price is valid."
                 },
                 {
-                    "@id": "cefact:Logistics_Status.Validity.Specified_Period",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01010092",
-                    "unece:cefactBieDomainClass": "cefact:Logistics_Status.Details",
-                    "unece:cefactBusinessProcess": "Transport",
-                    "rdfs:comment": "A specific validity period for this logistics status."
-                },
-                {
                     "@id": "cefact:Government_Registration.Validity.Specified_Period",
                     "@type": "unece:AssociationBIE",
                     "unece:cefactUNId": "UN01011038",
                     "unece:cefactBieDomainClass": "cefact:Government_Registration.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
                     "rdfs:comment": "The period of time during which this government registration is valid."
+                },
+                {
+                    "@id": "cefact:Document_Status.Validity.Specified_Period",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01013129",
+                    "unece:cefactBieDomainClass": "cefact:Document_Status.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "A specified validity period for this document status."
                 }
             ]
         }

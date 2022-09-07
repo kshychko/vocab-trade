@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://service.unece.org/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://service.unece.org/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
@@ -27,6 +27,15 @@
                     "@id": "unece:AccountingAccount"
                 },
                 {
+                    "@id": "unece:AcknowledgementDocument"
+                },
+                {
+                    "@id": "unece:AuthoritativeSignatoryPerson"
+                },
+                {
+                    "@id": "unece:BranchFinancialInstitution"
+                },
+                {
                     "@id": "unece:BreakdownStatement"
                 },
                 {
@@ -36,10 +45,19 @@
                     "@id": "unece:Condition"
                 },
                 {
+                    "@id": "unece:ControlSettingParameter"
+                },
+                {
                     "@id": "unece:Country"
                 },
                 {
                     "@id": "unece:CountrySubDivision"
+                },
+                {
+                    "@id": "unece:CreditorFinancialInstitution"
+                },
+                {
+                    "@id": "unece:DebtorFinancialInstitution"
                 },
                 {
                     "@id": "unece:DirectPosition"
@@ -51,10 +69,10 @@
                     "@id": "unece:Document"
                 },
                 {
-                    "@id": "unece:Feature"
+                    "@id": "unece:ExchangedDocument"
                 },
                 {
-                    "@id": "unece:FinancialInstitution"
+                    "@id": "unece:Feature"
                 },
                 {
                     "@id": "unece:GeographicalFeature"
@@ -69,25 +87,22 @@
                     "@id": "unece:Keyword"
                 },
                 {
-                    "@id": "unece:Location"
+                    "@id": "unece:LocationParty"
+                },
+                {
+                    "@id": "unece:LogisticsLocation"
                 },
                 {
                     "@id": "unece:Marketplace"
                 },
                 {
+                    "@id": "unece:OperationalParameter"
+                },
+                {
                     "@id": "unece:Organization"
                 },
                 {
-                    "@id": "unece:Parameter"
-                },
-                {
-                    "@id": "unece:Party"
-                },
-                {
                     "@id": "unece:Period"
-                },
-                {
-                    "@id": "unece:Person"
                 },
                 {
                     "@id": "unece:Product"
@@ -102,13 +117,31 @@
                     "@id": "unece:Qualification"
                 },
                 {
+                    "@id": "unece:RequestingParty"
+                },
+                {
                     "@id": "unece:Service"
+                },
+                {
+                    "@id": "unece:SubordinateLocation"
+                },
+                {
+                    "@id": "unece:SubordinateSubordinateLocation"
+                },
+                {
+                    "@id": "unece:TradeLocation"
+                },
+                {
+                    "@id": "unece:TradeParty"
                 },
                 {
                     "@id": "unece:TransportMeans"
                 },
                 {
                     "@id": "unece:TransportMovement"
+                },
+                {
+                    "@id": "unece:TransportServiceLocation"
                 },
                 {
                     "@id": "unece:Version"
@@ -162,70 +195,21 @@
             "rdfs:label": "name",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Acknowledgement_Document.Name.Text",
+                    "@id": "cefact:TransportService_Location.Name.Text",
                     "@type": "unece:BasicBIE",
-                    "unece:tded": "1000",
-                    "unece:cefactUNId": "UN01002106",
-                    "unece:cefactBieDomainClass": "cefact:Acknowledgement_Document.Details",
+                    "unece:tded": "3224",
+                    "unece:cefactUNId": "UN01010088",
+                    "unece:cefactBieDomainClass": "cefact:TransportService_Location.Details",
+                    "unece:cefactBusinessProcess": "Transport",
+                    "rdfs:comment": "A name, expressed as text, of this transport service location."
+                },
+                {
+                    "@id": "cefact:Keyword.Name.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01007300",
+                    "unece:cefactBieDomainClass": "cefact:Keyword.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The name, expressed as text, for this acknowledgement document."
-                },
-                {
-                    "@id": "cefact:Academic_Qualification.Name.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01002517",
-                    "unece:cefactBieDomainClass": "cefact:Academic_Qualification.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A name, expressed as text, of this academic qualification."
-                },
-                {
-                    "@id": "cefact:TradeProduct_Feature.Name.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01007473",
-                    "unece:cefactBieDomainClass": "cefact:TradeProduct_Feature.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A name, expressed as text, for this trade product feature."
-                },
-                {
-                    "@id": "cefact:Trade_AccountingAccount.Name.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01004528",
-                    "unece:cefactBieDomainClass": "cefact:Trade_AccountingAccount.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The name, expressed as text, of this trade accounting account."
-                },
-                {
-                    "@id": "cefact:Legal_Organization.Name.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01003640",
-                    "unece:cefactBieDomainClass": "cefact:Legal_Organization.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A name, expressed as text, of this legally set up organization."
-                },
-                {
-                    "@id": "cefact:Location_Party.Name.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "3036",
-                    "unece:cefactUNId": "UN01003664",
-                    "unece:cefactBieDomainClass": "cefact:Location_Party.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A name, expressed as text, for this location party."
-                },
-                {
-                    "@id": "cefact:Specified_DirectPositionList.Name.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01012473",
-                    "unece:cefactBieDomainClass": "cefact:Specified_DirectPositionList.Details",
-                    "unece:cefactBusinessProcess": "Agricultural",
-                    "rdfs:comment": "The name, expressed as text, of this specified direct position list."
-                },
-                {
-                    "@id": "cefact:Specified_Marketplace.Name.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01009954",
-                    "unece:cefactBieDomainClass": "cefact:Specified_Marketplace.Details",
-                    "unece:cefactBusinessProcess": "Invoicing",
-                    "rdfs:comment": "The name, expressed as text, for this specified marketplace."
+                    "rdfs:comment": "A name, expressed as text, for this keyword."
                 },
                 {
                     "@id": "cefact:Trade_Location.Name.Text",
@@ -237,15 +221,6 @@
                     "rdfs:comment": "The name, expressed as text, of this location used or referenced in trade."
                 },
                 {
-                    "@id": "cefact:Exchanged_Document.Name.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "1000",
-                    "unece:cefactUNId": "UN01002489",
-                    "unece:cefactBieDomainClass": "cefact:Exchanged_Document.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A name, expressed as text, of this exchanged document."
-                },
-                {
                     "@id": "cefact:Document_Version.Name.Text",
                     "@type": "unece:BasicBIE",
                     "unece:cefactUNId": "UN01003592",
@@ -254,80 +229,12 @@
                     "rdfs:comment": "The name, expressed as text, of this document version."
                 },
                 {
-                    "@id": "cefact:Trade_Party.Name.Text",
+                    "@id": "cefact:Legal_Organization.Name.Text",
                     "@type": "unece:BasicBIE",
-                    "unece:tded": "3036",
-                    "unece:cefactUNId": "UN01004598",
-                    "unece:cefactBieDomainClass": "cefact:Trade_Party.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The name, expressed as text, for this trade party."
-                },
-                {
-                    "@id": "cefact:Procuring_Project.Name.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01000374",
-                    "unece:cefactBieDomainClass": "cefact:Procuring_Project.Details",
+                    "unece:cefactUNId": "UN01003640",
+                    "unece:cefactBieDomainClass": "cefact:Legal_Organization.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The name, expressed as text, of this procuring project."
-                },
-                {
-                    "@id": "cefact:ControlSetting_Parameter.Name.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01013507",
-                    "unece:cefactBieDomainClass": "cefact:ControlSetting_Parameter.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The name, expressed as text, of this control setting parameter."
-                },
-                {
-                    "@id": "cefact:Branch_FinancialInstitution.Name.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "3432",
-                    "unece:cefactUNId": "UN01003140",
-                    "unece:cefactBieDomainClass": "cefact:Branch_FinancialInstitution.Details",
-                    "unece:cefactBusinessProcess": "Customer to bank payment initiation",
-                    "rdfs:comment": "The name, expressed as text, for this branch of a financial institution."
-                },
-                {
-                    "@id": "cefact:AuthoritativeSignatory_Person.Name.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "3412",
-                    "unece:cefactUNId": "UN01002514",
-                    "unece:cefactBieDomainClass": "cefact:AuthoritativeSignatory_Person.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The name, expressed as text, of this authoritative signatory person."
-                },
-                {
-                    "@id": "cefact:Operational_Parameter.Name.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01013518",
-                    "unece:cefactBieDomainClass": "cefact:Operational_Parameter.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The name, expressed as text, of this operational parameter."
-                },
-                {
-                    "@id": "cefact:Specified_Period.Name.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01004083",
-                    "unece:cefactBieDomainClass": "cefact:Specified_Period.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A name, expressed as text, of this specified period."
-                },
-                {
-                    "@id": "cefact:Keyword.Name.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01007300",
-                    "unece:cefactBieDomainClass": "cefact:Keyword.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A name, expressed as text, for this keyword."
-                },
-                {
-                    "@id": "cefact:Creditor_FinancialInstitution.Name.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "3432",
-                    "unece:cefactUNId": "UN01002999",
-                    "unece:cefactBieDomainClass": "cefact:Creditor_FinancialInstitution.Details",
-                    "unece:cefactBusinessProcess": "Customer to bank payment initiation",
-                    "rdfs:comment": "The name, expressed as text, for this creditor financial institution."
+                    "rdfs:comment": "A name, expressed as text, of this legally set up organization."
                 },
                 {
                     "@id": "cefact:Valuation_BreakdownStatement.Name.Text",
@@ -338,39 +245,12 @@
                     "rdfs:comment": "The name, expressed as text, for this valuation breakdown statement."
                 },
                 {
-                    "@id": "cefact:Referenced_TransportMeans.Name.Text",
+                    "@id": "cefact:Specified_Marketplace.Name.Text",
                     "@type": "unece:BasicBIE",
-                    "unece:tded": "8212",
-                    "unece:cefactUNId": "UN01004053",
-                    "unece:cefactBieDomainClass": "cefact:Referenced_TransportMeans.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The name, expressed as text, of this referenced transport means, such as the vessel name."
-                },
-                {
-                    "@id": "cefact:Trade_Country.Name.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "3206",
-                    "unece:cefactUNId": "UN01002554",
-                    "unece:cefactBieDomainClass": "cefact:Trade_Country.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A name, expressed as text, of this trade country."
-                },
-                {
-                    "@id": "cefact:Referenced_Document.Name.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "1000",
-                    "unece:cefactUNId": "UN01003994",
-                    "unece:cefactBieDomainClass": "cefact:Referenced_Document.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A name, expressed as text, for this referenced document."
-                },
-                {
-                    "@id": "cefact:Specified_GeographicalObjectCharacteristic.Name.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01012372",
-                    "unece:cefactBieDomainClass": "cefact:Specified_GeographicalObjectCharacteristic.Details",
-                    "unece:cefactBusinessProcess": "Agricultural",
-                    "rdfs:comment": "The name, expressed as text, for this geographical object characteristic."
+                    "unece:cefactUNId": "UN01009954",
+                    "unece:cefactBieDomainClass": "cefact:Specified_Marketplace.Details",
+                    "unece:cefactBusinessProcess": "Invoicing",
+                    "rdfs:comment": "The name, expressed as text, for this specified marketplace."
                 },
                 {
                     "@id": "cefact:Subordinate_Location.Name.Text",
@@ -382,37 +262,30 @@
                     "rdfs:comment": "The name, expressed as text, of this subordinate location."
                 },
                 {
-                    "@id": "cefact:Trade_ProductGroup.Name.Text",
+                    "@id": "cefact:Procuring_Project.Name.Text",
                     "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01011924",
-                    "unece:cefactBieDomainClass": "cefact:Trade_ProductGroup.Details",
-                    "unece:cefactBusinessProcess": "Trade",
-                    "rdfs:comment": "The name, expressed as text, for this trade product group."
+                    "unece:cefactUNId": "UN01000374",
+                    "unece:cefactBieDomainClass": "cefact:Procuring_Project.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The name, expressed as text, of this procuring project."
                 },
                 {
-                    "@id": "cefact:Logistics_TransportMeans.Name.Text",
+                    "@id": "cefact:Trade_Product.Name.Text",
                     "@type": "unece:BasicBIE",
-                    "unece:tded": "8212",
-                    "unece:cefactUNId": "UN01003823",
-                    "unece:cefactBieDomainClass": "cefact:Logistics_TransportMeans.Details",
+                    "unece:tded": "7134",
+                    "unece:cefactUNId": "UN01004687",
+                    "unece:cefactBieDomainClass": "cefact:Trade_Product.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The name, expressed as text, of this logistics means of transport."
+                    "rdfs:comment": "A name, expressed as text, for this trade product."
                 },
                 {
-                    "@id": "cefact:Logistics_TransportMovement.Name.Text",
+                    "@id": "cefact:Exchanged_Document.Name.Text",
                     "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01013604",
-                    "unece:cefactBieDomainClass": "cefact:Logistics_TransportMovement.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The name, expressed as text, for this logistics transport movement."
-                },
-                {
-                    "@id": "cefact:Specified_GeographicalFeature.Name.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01012170",
-                    "unece:cefactBieDomainClass": "cefact:Specified_GeographicalFeature.Details",
-                    "unece:cefactBusinessProcess": "Agricultural",
-                    "rdfs:comment": "The name, expressed as text, of this specified geographical feature."
+                    "unece:tded": "1000",
+                    "unece:cefactUNId": "UN01002489",
+                    "unece:cefactBieDomainClass": "cefact:Exchanged_Document.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "A name, expressed as text, of this exchanged document."
                 },
                 {
                     "@id": "cefact:SubordinateSubordinate_Location.Name.Text",
@@ -424,32 +297,6 @@
                     "rdfs:comment": "The name, expressed as text, of this subordinate of a subordinate location."
                 },
                 {
-                    "@id": "cefact:Referenced_Product.Name.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "7134",
-                    "unece:cefactUNId": "UN01004034",
-                    "unece:cefactBieDomainClass": "cefact:Referenced_Product.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A name, expressed as text, for this referenced product."
-                },
-                {
-                    "@id": "cefact:ProductCharacteristic_Condition.Name.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01008314",
-                    "unece:cefactBieDomainClass": "cefact:ProductCharacteristic_Condition.Details",
-                    "unece:cefactBusinessProcess": "Supply Chain",
-                    "rdfs:comment": "A name, expressed as text, for this product characteristic condition."
-                },
-                {
-                    "@id": "cefact:Logistics_Location.Name.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "3224",
-                    "unece:cefactUNId": "UN01003681",
-                    "unece:cefactBieDomainClass": "cefact:Logistics_Location.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A name, expressed as text, of this logistics related location."
-                },
-                {
                     "@id": "cefact:Transport_Service.Name.Text",
                     "@type": "unece:BasicBIE",
                     "unece:cefactUNId": "UN01004840",
@@ -458,38 +305,13 @@
                     "rdfs:comment": "The name, expressed as text, of this transport service."
                 },
                 {
-                    "@id": "cefact:Applied_ChemicalTreatment.Name.Text",
+                    "@id": "cefact:Acknowledgement_Document.Name.Text",
                     "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01009025",
-                    "unece:cefactBieDomainClass": "cefact:Applied_ChemicalTreatment.Details",
+                    "unece:tded": "1000",
+                    "unece:cefactUNId": "UN01002106",
+                    "unece:cefactBieDomainClass": "cefact:Acknowledgement_Document.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A name, expressed as text, of this applied chemical treatment."
-                },
-                {
-                    "@id": "cefact:Requesting_Party.Name.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "3036",
-                    "unece:cefactUNId": "UN01002020",
-                    "unece:cefactBieDomainClass": "cefact:Requesting_Party.Details",
-                    "unece:cefactBusinessProcess": "Project Management",
-                    "rdfs:comment": "The name, expressed as text, for this requesting party."
-                },
-                {
-                    "@id": "cefact:Specified_DirectPosition.Name.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01010467",
-                    "unece:cefactBieDomainClass": "cefact:Specified_DirectPosition.Details",
-                    "unece:cefactBusinessProcess": "Laboratory Observation",
-                    "rdfs:comment": "The name, expressed as text, of the reference for this specified direct position."
-                },
-                {
-                    "@id": "cefact:TransportService_Location.Name.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "3224",
-                    "unece:cefactUNId": "UN01010088",
-                    "unece:cefactBieDomainClass": "cefact:TransportService_Location.Details",
-                    "unece:cefactBusinessProcess": "Transport",
-                    "rdfs:comment": "A name, expressed as text, of this transport service location."
+                    "rdfs:comment": "The name, expressed as text, for this acknowledgement document."
                 },
                 {
                     "@id": "cefact:Trade_GeopoliticalRegion.Name.Text",
@@ -498,15 +320,6 @@
                     "unece:cefactBieDomainClass": "cefact:Trade_GeopoliticalRegion.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
                     "rdfs:comment": "The name, expressed as text, of this trade geopolitical region."
-                },
-                {
-                    "@id": "cefact:Debtor_FinancialInstitution.Name.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "3432",
-                    "unece:cefactUNId": "UN01002864",
-                    "unece:cefactBieDomainClass": "cefact:Debtor_FinancialInstitution.Details",
-                    "unece:cefactBusinessProcess": "Customer to bank payment initiation",
-                    "rdfs:comment": "The name, expressed as text, for this debtor financial institution."
                 },
                 {
                     "@id": "cefact:Trade_CountrySub-Division.Name.Text",
@@ -518,13 +331,233 @@
                     "rdfs:comment": "A name, expressed as text, of this trade country sub-division."
                 },
                 {
-                    "@id": "cefact:Trade_Product.Name.Text",
+                    "@id": "cefact:Referenced_Product.Name.Text",
                     "@type": "unece:BasicBIE",
                     "unece:tded": "7134",
-                    "unece:cefactUNId": "UN01004687",
-                    "unece:cefactBieDomainClass": "cefact:Trade_Product.Details",
+                    "unece:cefactUNId": "UN01004034",
+                    "unece:cefactBieDomainClass": "cefact:Referenced_Product.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "A name, expressed as text, for this referenced product."
+                },
+                {
+                    "@id": "cefact:Specified_GeographicalFeature.Name.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01012170",
+                    "unece:cefactBieDomainClass": "cefact:Specified_GeographicalFeature.Details",
+                    "unece:cefactBusinessProcess": "Agricultural",
+                    "rdfs:comment": "The name, expressed as text, of this specified geographical feature."
+                },
+                {
+                    "@id": "cefact:TradeProduct_Feature.Name.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01007473",
+                    "unece:cefactBieDomainClass": "cefact:TradeProduct_Feature.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A name, expressed as text, for this trade product."
+                    "rdfs:comment": "A name, expressed as text, for this trade product feature."
+                },
+                {
+                    "@id": "cefact:ControlSetting_Parameter.Name.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01013507",
+                    "unece:cefactBieDomainClass": "cefact:ControlSetting_Parameter.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The name, expressed as text, of this control setting parameter."
+                },
+                {
+                    "@id": "cefact:Logistics_TransportMeans.Name.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "8212",
+                    "unece:cefactUNId": "UN01003823",
+                    "unece:cefactBieDomainClass": "cefact:Logistics_TransportMeans.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The name, expressed as text, of this logistics means of transport."
+                },
+                {
+                    "@id": "cefact:Requesting_Party.Name.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "3036",
+                    "unece:cefactUNId": "UN01002020",
+                    "unece:cefactBieDomainClass": "cefact:Requesting_Party.Details",
+                    "unece:cefactBusinessProcess": "Project Management",
+                    "rdfs:comment": "The name, expressed as text, for this requesting party."
+                },
+                {
+                    "@id": "cefact:ProductCharacteristic_Condition.Name.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01008314",
+                    "unece:cefactBieDomainClass": "cefact:ProductCharacteristic_Condition.Details",
+                    "unece:cefactBusinessProcess": "Supply Chain",
+                    "rdfs:comment": "A name, expressed as text, for this product characteristic condition."
+                },
+                {
+                    "@id": "cefact:Referenced_Document.Name.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "1000",
+                    "unece:cefactUNId": "UN01003994",
+                    "unece:cefactBieDomainClass": "cefact:Referenced_Document.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "A name, expressed as text, for this referenced document."
+                },
+                {
+                    "@id": "cefact:Referenced_TransportMeans.Name.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "8212",
+                    "unece:cefactUNId": "UN01004053",
+                    "unece:cefactBieDomainClass": "cefact:Referenced_TransportMeans.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The name, expressed as text, of this referenced transport means, such as the vessel name."
+                },
+                {
+                    "@id": "cefact:Operational_Parameter.Name.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01013518",
+                    "unece:cefactBieDomainClass": "cefact:Operational_Parameter.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The name, expressed as text, of this operational parameter."
+                },
+                {
+                    "@id": "cefact:Specified_DirectPosition.Name.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01010467",
+                    "unece:cefactBieDomainClass": "cefact:Specified_DirectPosition.Details",
+                    "unece:cefactBusinessProcess": "Laboratory Observation",
+                    "rdfs:comment": "The name, expressed as text, of the reference for this specified direct position."
+                },
+                {
+                    "@id": "cefact:Specified_DirectPositionList.Name.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01012473",
+                    "unece:cefactBieDomainClass": "cefact:Specified_DirectPositionList.Details",
+                    "unece:cefactBusinessProcess": "Agricultural",
+                    "rdfs:comment": "The name, expressed as text, of this specified direct position list."
+                },
+                {
+                    "@id": "cefact:Specified_GeographicalObjectCharacteristic.Name.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01012372",
+                    "unece:cefactBieDomainClass": "cefact:Specified_GeographicalObjectCharacteristic.Details",
+                    "unece:cefactBusinessProcess": "Agricultural",
+                    "rdfs:comment": "The name, expressed as text, for this geographical object characteristic."
+                },
+                {
+                    "@id": "cefact:Location_Party.Name.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "3036",
+                    "unece:cefactUNId": "UN01003664",
+                    "unece:cefactBieDomainClass": "cefact:Location_Party.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "A name, expressed as text, for this location party."
+                },
+                {
+                    "@id": "cefact:Debtor_FinancialInstitution.Name.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "3432",
+                    "unece:cefactUNId": "UN01002864",
+                    "unece:cefactBieDomainClass": "cefact:Debtor_FinancialInstitution.Details",
+                    "unece:cefactBusinessProcess": "Customer to bank payment initiation",
+                    "rdfs:comment": "The name, expressed as text, for this debtor financial institution."
+                },
+                {
+                    "@id": "cefact:Trade_ProductGroup.Name.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01011924",
+                    "unece:cefactBieDomainClass": "cefact:Trade_ProductGroup.Details",
+                    "unece:cefactBusinessProcess": "Trade",
+                    "rdfs:comment": "The name, expressed as text, for this trade product group."
+                },
+                {
+                    "@id": "cefact:Trade_Country.Name.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "3206",
+                    "unece:cefactUNId": "UN01002554",
+                    "unece:cefactBieDomainClass": "cefact:Trade_Country.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "A name, expressed as text, of this trade country."
+                },
+                {
+                    "@id": "cefact:Applied_ChemicalTreatment.Name.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01009025",
+                    "unece:cefactBieDomainClass": "cefact:Applied_ChemicalTreatment.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "A name, expressed as text, of this applied chemical treatment."
+                },
+                {
+                    "@id": "cefact:Trade_AccountingAccount.Name.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01004528",
+                    "unece:cefactBieDomainClass": "cefact:Trade_AccountingAccount.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The name, expressed as text, of this trade accounting account."
+                },
+                {
+                    "@id": "cefact:Academic_Qualification.Name.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01002517",
+                    "unece:cefactBieDomainClass": "cefact:Academic_Qualification.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "A name, expressed as text, of this academic qualification."
+                },
+                {
+                    "@id": "cefact:Creditor_FinancialInstitution.Name.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "3432",
+                    "unece:cefactUNId": "UN01002999",
+                    "unece:cefactBieDomainClass": "cefact:Creditor_FinancialInstitution.Details",
+                    "unece:cefactBusinessProcess": "Customer to bank payment initiation",
+                    "rdfs:comment": "The name, expressed as text, for this creditor financial institution."
+                },
+                {
+                    "@id": "cefact:Specified_Period.Name.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01004083",
+                    "unece:cefactBieDomainClass": "cefact:Specified_Period.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "A name, expressed as text, of this specified period."
+                },
+                {
+                    "@id": "cefact:Trade_Party.Name.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "3036",
+                    "unece:cefactUNId": "UN01004598",
+                    "unece:cefactBieDomainClass": "cefact:Trade_Party.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The name, expressed as text, for this trade party."
+                },
+                {
+                    "@id": "cefact:AuthoritativeSignatory_Person.Name.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "3412",
+                    "unece:cefactUNId": "UN01002514",
+                    "unece:cefactBieDomainClass": "cefact:AuthoritativeSignatory_Person.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The name, expressed as text, of this authoritative signatory person."
+                },
+                {
+                    "@id": "cefact:Logistics_TransportMovement.Name.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01013604",
+                    "unece:cefactBieDomainClass": "cefact:Logistics_TransportMovement.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The name, expressed as text, for this logistics transport movement."
+                },
+                {
+                    "@id": "cefact:Logistics_Location.Name.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "3224",
+                    "unece:cefactUNId": "UN01003681",
+                    "unece:cefactBieDomainClass": "cefact:Logistics_Location.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A name, expressed as text, of this logistics related location."
+                },
+                {
+                    "@id": "cefact:Branch_FinancialInstitution.Name.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "3432",
+                    "unece:cefactUNId": "UN01003140",
+                    "unece:cefactBieDomainClass": "cefact:Branch_FinancialInstitution.Details",
+                    "unece:cefactBusinessProcess": "Customer to bank payment initiation",
+                    "rdfs:comment": "The name, expressed as text, for this branch of a financial institution."
                 }
             ]
         }

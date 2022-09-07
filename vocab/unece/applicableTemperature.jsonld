@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://service.unece.org/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://service.unece.org/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
         "unece:cefactBieDomainClass": {
@@ -15,7 +15,7 @@
         {
             "@id": "unece:applicableTemperature",
             "schema:rangeIncludes": {
-                "@id": "unece:Temperature"
+                "@id": "unece:SpecifiedTemperature"
             },
             "@type": [
                 "rdf:Property",
@@ -26,7 +26,7 @@
                     "@id": "unece:ChemicalTreatment"
                 },
                 {
-                    "@id": "unece:Instructions"
+                    "@id": "unece:HandlingInstructions"
                 }
             ],
             "rdfs:comment": [
@@ -36,20 +36,20 @@
             "rdfs:label": "applicableTemperature",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Applied_ChemicalTreatment.Applicable.Specified_Temperature",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01009031",
-                    "unece:cefactBieDomainClass": "cefact:Applied_ChemicalTreatment.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The specified temperature applicable for this applied chemical treatment."
-                },
-                {
                     "@id": "cefact:Handling_Instructions.Applicable.TransportSetting_Temperature",
                     "@type": "unece:AssociationBIE",
                     "unece:cefactUNId": "UN01007180",
                     "unece:cefactBieDomainClass": "cefact:Handling_Instructions.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
                     "rdfs:comment": "A transport related temperature setting applicable to these handling instructions."
+                },
+                {
+                    "@id": "cefact:Applied_ChemicalTreatment.Applicable.Specified_Temperature",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01009031",
+                    "unece:cefactBieDomainClass": "cefact:Applied_ChemicalTreatment.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The specified temperature applicable for this applied chemical treatment."
                 }
             ]
         }

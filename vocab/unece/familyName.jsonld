@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://service.unece.org/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://service.unece.org/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
@@ -27,7 +27,10 @@
                     "@id": "unece:Chemical"
                 },
                 {
-                    "@id": "unece:Person"
+                    "@id": "unece:ContactPerson"
+                },
+                {
+                    "@id": "unece:TransportPerson"
                 }
             ],
             "rdfs:comment": [
@@ -37,15 +40,6 @@
             ],
             "rdfs:label": "familyName",
             "unece:cefactElementMetadata": [
-                {
-                    "@id": "cefact:Contact_Person.FamilyName.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "3500",
-                    "unece:cefactUNId": "UN01005150",
-                    "unece:cefactBieDomainClass": "cefact:Contact_Person.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The name, expressed as text, that this contact person shares with members of his/her family."
-                },
                 {
                     "@id": "cefact:Distinct_Chemical.Family_Name.Text",
                     "@type": "unece:BasicBIE",
@@ -62,6 +56,15 @@
                     "unece:cefactBieDomainClass": "cefact:Transport_Person.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
                     "rdfs:comment": "A family name, expressed as text, for this transport person."
+                },
+                {
+                    "@id": "cefact:Contact_Person.FamilyName.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "3500",
+                    "unece:cefactUNId": "UN01005150",
+                    "unece:cefactBieDomainClass": "cefact:Contact_Person.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The name, expressed as text, that this contact person shares with members of his/her family."
                 }
             ]
         }

@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://service.unece.org/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://service.unece.org/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
         "unece:cefactBieDomainClass": {
@@ -15,20 +15,15 @@
         {
             "@id": "unece:consignorParty",
             "schema:rangeIncludes": {
-                "@id": "unece:Party"
+                "@id": "unece:TradeParty"
             },
             "@type": [
                 "rdf:Property",
                 "owl:ObjectProperty"
             ],
-            "schema:domainIncludes": [
-                {
-                    "@id": "unece:Consignment"
-                },
-                {
-                    "@id": "unece:SupplyChainConsignment"
-                }
-            ],
+            "schema:domainIncludes": {
+                "@id": "unece:Consignment"
+            },
             "rdfs:comment": [
                 "The consignor party for this referenced supply chain consignment.",
                 "The consignor party for this supply chain consignment."

@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://service.unece.org/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://service.unece.org/trade/uncefact/vocabulary/cefact#"
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#"
     },
     "@graph": [
         {
@@ -17,17 +17,17 @@
             "rdfs:label": "LogisticsTransportEquipment",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Referenced_Logistics_TransportEquipment.Details",
-                    "@type": "unece:AggregateBIE",
-                    "unece:cefactUNId": "UN01004022",
-                    "rdfs:comment": "A referenced piece of equipment used to hold, protect or secure cargo for logistics purposes.",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay"
-                },
-                {
                     "@id": "cefact:Logistics_TransportEquipment.Details",
                     "@type": "unece:AggregateBIE",
                     "unece:cefactUNId": "UN01003757",
                     "rdfs:comment": "A piece of equipment used to hold, protect or secure cargo for logistics purposes.",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay"
+                },
+                {
+                    "@id": "cefact:Referenced_Logistics_TransportEquipment.Details",
+                    "@type": "unece:AggregateBIE",
+                    "unece:cefactUNId": "UN01004022",
+                    "rdfs:comment": "A referenced piece of equipment used to hold, protect or secure cargo for logistics purposes.",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay"
                 }
             ]

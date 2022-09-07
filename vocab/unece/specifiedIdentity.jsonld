@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://service.unece.org/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://service.unece.org/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
         "unece:cefactBieDomainClass": {
@@ -15,7 +15,7 @@
         {
             "@id": "unece:specifiedIdentity",
             "schema:rangeIncludes": {
-                "@id": "unece:Identity"
+                "@id": "unece:EmployerIdentity"
             },
             "@type": [
                 "rdf:Property",
@@ -23,16 +23,19 @@
             ],
             "schema:domainIncludes": [
                 {
-                    "@id": "unece:FinancialInstitution"
+                    "@id": "unece:ContactPerson"
                 },
                 {
-                    "@id": "unece:Identity"
+                    "@id": "unece:CreditorFinancialInstitution"
                 },
                 {
-                    "@id": "unece:Party"
+                    "@id": "unece:PersonIdentity"
                 },
                 {
-                    "@id": "unece:Person"
+                    "@id": "unece:RequestingParty"
+                },
+                {
+                    "@id": "unece:TradeParty"
                 }
             ],
             "rdfs:comment": [
@@ -46,30 +49,6 @@
             ],
             "rdfs:label": "specifiedIdentity",
             "unece:cefactElementMetadata": [
-                {
-                    "@id": "cefact:Creditor_FinancialInstitution.Specified.Proprietary_Identity",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01013210",
-                    "unece:cefactBieDomainClass": "cefact:Creditor_FinancialInstitution.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A proprietary identity specified for this creditor financial institution."
-                },
-                {
-                    "@id": "cefact:Contact_Person.Specified.Person_Identity",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01013206",
-                    "unece:cefactBieDomainClass": "cefact:Contact_Person.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The person identity specified for this contact person."
-                },
-                {
-                    "@id": "cefact:Requesting_Party.Specified.Proprietary_Identity",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01013292",
-                    "unece:cefactBieDomainClass": "cefact:Requesting_Party.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A proprietary identity specified for this requesting party."
-                },
                 {
                     "@id": "cefact:Trade_Party.Specified.Proprietary_Identity",
                     "@type": "unece:AssociationBIE",
@@ -87,12 +66,12 @@
                     "rdfs:comment": "A proprietary Identity specified for this person."
                 },
                 {
-                    "@id": "cefact:Contact_Person.Specified.Employer_Identity",
+                    "@id": "cefact:Contact_Person.Specified.Person_Identity",
                     "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01013205",
+                    "unece:cefactUNId": "UN01013206",
                     "unece:cefactBieDomainClass": "cefact:Contact_Person.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "An employer identity specified for this contact person."
+                    "rdfs:comment": "The person identity specified for this contact person."
                 },
                 {
                     "@id": "cefact:Trade_Party.Specified.Financial_Identity",
@@ -101,6 +80,30 @@
                     "unece:cefactBieDomainClass": "cefact:Trade_Party.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
                     "rdfs:comment": "The financial identity specified for this trade party."
+                },
+                {
+                    "@id": "cefact:Creditor_FinancialInstitution.Specified.Proprietary_Identity",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01013210",
+                    "unece:cefactBieDomainClass": "cefact:Creditor_FinancialInstitution.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A proprietary identity specified for this creditor financial institution."
+                },
+                {
+                    "@id": "cefact:Requesting_Party.Specified.Proprietary_Identity",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01013292",
+                    "unece:cefactBieDomainClass": "cefact:Requesting_Party.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A proprietary identity specified for this requesting party."
+                },
+                {
+                    "@id": "cefact:Contact_Person.Specified.Employer_Identity",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01013205",
+                    "unece:cefactBieDomainClass": "cefact:Contact_Person.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "An employer identity specified for this contact person."
                 }
             ]
         }

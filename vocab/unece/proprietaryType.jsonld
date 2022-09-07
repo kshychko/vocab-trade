@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://service.unece.org/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://service.unece.org/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
@@ -24,10 +24,16 @@
             ],
             "schema:domainIncludes": [
                 {
+                    "@id": "unece:CreditorFinancialAccount"
+                },
+                {
+                    "@id": "unece:DebtorFinancialAccount"
+                },
+                {
                     "@id": "unece:Document"
                 },
                 {
-                    "@id": "unece:FinancialAccount"
+                    "@id": "unece:FinancingFinancialAccount"
                 }
             ],
             "rdfs:comment": [
@@ -39,20 +45,20 @@
             "rdfs:label": "proprietaryType",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Creditor_FinancialAccount.Proprietary_Type.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01003353",
-                    "unece:cefactBieDomainClass": "cefact:Creditor_FinancialAccount.Details",
-                    "unece:cefactBusinessProcess": "Customer to bank payment initiation",
-                    "rdfs:comment": "The proprietary type, expressed as text, of this creditor financial account, such as the nature or use of the creditor account."
-                },
-                {
                     "@id": "cefact:Debtor_FinancialAccount.Proprietary_Type.Text",
                     "@type": "unece:BasicBIE",
                     "unece:cefactUNId": "UN01003290",
                     "unece:cefactBieDomainClass": "cefact:Debtor_FinancialAccount.Details",
                     "unece:cefactBusinessProcess": "Customer to bank payment initiation",
                     "rdfs:comment": "The proprietary type, expressed as text, of this debtor financial account, such as the nature or use of the debtor account."
+                },
+                {
+                    "@id": "cefact:Creditor_FinancialAccount.Proprietary_Type.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01003353",
+                    "unece:cefactBieDomainClass": "cefact:Creditor_FinancialAccount.Details",
+                    "unece:cefactBusinessProcess": "Customer to bank payment initiation",
+                    "rdfs:comment": "The proprietary type, expressed as text, of this creditor financial account, such as the nature or use of the creditor account."
                 },
                 {
                     "@id": "cefact:Financing_FinancialAccount.Proprietary_Type.Text",

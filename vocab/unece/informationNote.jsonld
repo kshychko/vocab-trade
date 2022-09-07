@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://service.unece.org/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://service.unece.org/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
         "unece:cefactBieDomainClass": {
@@ -23,10 +23,13 @@
             ],
             "schema:domainIncludes": [
                 {
-                    "@id": "unece:Product"
+                    "@id": "unece:HeaderTradeDelivery"
                 },
                 {
-                    "@id": "unece:TradeDelivery"
+                    "@id": "unece:LineTradeDelivery"
+                },
+                {
+                    "@id": "unece:Product"
                 }
             ],
             "rdfs:comment": [
@@ -36,6 +39,14 @@
             ],
             "rdfs:label": "informationNote",
             "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Line_TradeDelivery.Information.Note",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01013012",
+                    "unece:cefactBieDomainClass": "cefact:Line_TradeDelivery.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A note with information, at line level, for this trade delivery."
+                },
                 {
                     "@id": "cefact:Trade_Product.Information.Note",
                     "@type": "unece:AssociationBIE",
@@ -51,14 +62,6 @@
                     "unece:cefactBieDomainClass": "cefact:Header_TradeDelivery.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
                     "rdfs:comment": "A note with information, at header level, for this trade delivery."
-                },
-                {
-                    "@id": "cefact:Line_TradeDelivery.Information.Note",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01013012",
-                    "unece:cefactBieDomainClass": "cefact:Line_TradeDelivery.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A note with information, at line level, for this trade delivery."
                 }
             ]
         }

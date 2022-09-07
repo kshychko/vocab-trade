@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://service.unece.org/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://service.unece.org/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
@@ -37,6 +37,14 @@
             "rdfs:label": "transportEquipmentQuantity",
             "unece:cefactElementMetadata": [
                 {
+                    "@id": "cefact:Logistics_TransportMovement.TransportEquipment.Quantity",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01003851",
+                    "unece:cefactBieDomainClass": "cefact:Logistics_TransportMovement.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The number of pieces of transport equipment for this logistics transport movement."
+                },
+                {
                     "@id": "cefact:SupplyChain_Consignment.TransportEquipment.Quantity",
                     "@type": "unece:BasicBIE",
                     "unece:tded": "8046",
@@ -44,14 +52,6 @@
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
                     "rdfs:comment": "A number of pieces of transport equipment, such as containers or similar unit load devices, in this supply chain consignment."
-                },
-                {
-                    "@id": "cefact:Logistics_TransportMovement.TransportEquipment.Quantity",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01003851",
-                    "unece:cefactBieDomainClass": "cefact:Logistics_TransportMovement.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The number of pieces of transport equipment for this logistics transport movement."
                 }
             ]
         }

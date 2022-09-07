@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://service.unece.org/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://service.unece.org/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
@@ -27,13 +27,16 @@
                     "@id": "unece:BinaryFile"
                 },
                 {
-                    "@id": "unece:Communication"
-                },
-                {
                     "@id": "unece:Document"
                 },
                 {
+                    "@id": "unece:EmailCommunication"
+                },
+                {
                     "@id": "unece:Standard"
+                },
+                {
+                    "@id": "unece:UniversalCommunication"
                 }
             ],
             "rdfs:comment": [
@@ -45,23 +48,6 @@
             ],
             "rdfs:label": "uRIId",
             "unece:cefactElementMetadata": [
-                {
-                    "@id": "cefact:Email_Communication.URI.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "3148",
-                    "unece:cefactUNId": "UN01002839",
-                    "unece:cefactBieDomainClass": "cefact:Email_Communication.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The Uniform Resource Identifier (URI) for this email communication."
-                },
-                {
-                    "@id": "cefact:Specified_BinaryFile.URI.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01006020",
-                    "unece:cefactBieDomainClass": "cefact:Specified_BinaryFile.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The unique Uniform Resource Identifier (URI) for this specified binary file."
-                },
                 {
                     "@id": "cefact:Universal_Communication.URI.Identifier",
                     "@type": "unece:BasicBIE",
@@ -80,6 +66,14 @@
                     "rdfs:comment": "The Uniform Resource Identifier (URI) for this referenced standard."
                 },
                 {
+                    "@id": "cefact:Specified_BinaryFile.URI.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01006020",
+                    "unece:cefactBieDomainClass": "cefact:Specified_BinaryFile.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The unique Uniform Resource Identifier (URI) for this specified binary file."
+                },
+                {
                     "@id": "cefact:Referenced_Document.URI_Identification.Identifier",
                     "@type": "unece:BasicBIE",
                     "unece:tded": "1004",
@@ -87,6 +81,15 @@
                     "unece:cefactBieDomainClass": "cefact:Referenced_Document.Details",
                     "unece:cefactBusinessProcess": "Trade",
                     "rdfs:comment": "The unique Uniform Resource Identifier (URI) for this referenced document."
+                },
+                {
+                    "@id": "cefact:Email_Communication.URI.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "3148",
+                    "unece:cefactUNId": "UN01002839",
+                    "unece:cefactBieDomainClass": "cefact:Email_Communication.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The Uniform Resource Identifier (URI) for this email communication."
                 }
             ]
         }

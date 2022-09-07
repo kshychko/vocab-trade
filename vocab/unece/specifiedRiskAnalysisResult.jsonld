@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://service.unece.org/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://service.unece.org/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
         "unece:cefactBieDomainClass": {
@@ -26,13 +26,10 @@
                     "@id": "unece:Consignment"
                 },
                 {
-                    "@id": "unece:Party"
+                    "@id": "unece:LogisticsTransportEquipment"
                 },
                 {
-                    "@id": "unece:SupplyChainConsignment"
-                },
-                {
-                    "@id": "unece:TransportEquipment"
+                    "@id": "unece:TradeParty"
                 },
                 {
                     "@id": "unece:TransportMovement"
@@ -48,20 +45,12 @@
             "rdfs:label": "specifiedRiskAnalysisResult",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Trade_Party.Specified.Logistics_RiskAnalysisResult",
+                    "@id": "cefact:Logistics_TransportEquipment.Specified.Logistics_RiskAnalysisResult",
                     "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01013054",
-                    "unece:cefactBieDomainClass": "cefact:Trade_Party.Details",
+                    "unece:cefactUNId": "UN01013051",
+                    "unece:cefactBieDomainClass": "cefact:Logistics_TransportEquipment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A result of a logistics risk analysis calculation specified for this trade party."
-                },
-                {
-                    "@id": "cefact:Logistics_TransportMovement.Specified.Logistics_RiskAnalysisResult",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01013052",
-                    "unece:cefactBieDomainClass": "cefact:Logistics_TransportMovement.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A result of a logistics risk analysis calculation specified for this transport movement."
+                    "rdfs:comment": "A result of a logistics risk analysis calculation specified for this transport equipment."
                 },
                 {
                     "@id": "cefact:Referenced_SupplyChain_Consignment.Specified.Logistics_RiskAnalysisResult",
@@ -80,12 +69,20 @@
                     "rdfs:comment": "A result of a logistics risk analysis calculation specified for this supply chain consignment."
                 },
                 {
-                    "@id": "cefact:Logistics_TransportEquipment.Specified.Logistics_RiskAnalysisResult",
+                    "@id": "cefact:Trade_Party.Specified.Logistics_RiskAnalysisResult",
                     "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01013051",
-                    "unece:cefactBieDomainClass": "cefact:Logistics_TransportEquipment.Details",
+                    "unece:cefactUNId": "UN01013054",
+                    "unece:cefactBieDomainClass": "cefact:Trade_Party.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A result of a logistics risk analysis calculation specified for this transport equipment."
+                    "rdfs:comment": "A result of a logistics risk analysis calculation specified for this trade party."
+                },
+                {
+                    "@id": "cefact:Logistics_TransportMovement.Specified.Logistics_RiskAnalysisResult",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01013052",
+                    "unece:cefactBieDomainClass": "cefact:Logistics_TransportMovement.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A result of a logistics risk analysis calculation specified for this transport movement."
                 }
             ]
         }

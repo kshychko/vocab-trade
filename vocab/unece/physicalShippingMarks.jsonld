@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://service.unece.org/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://service.unece.org/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
         "unece:cefactBieDomainClass": {
@@ -29,13 +29,7 @@
                     "@id": "unece:ConsignmentItem"
                 },
                 {
-                    "@id": "unece:LogisticsPackage"
-                },
-                {
                     "@id": "unece:Package"
-                },
-                {
-                    "@id": "unece:SupplyChainConsignmentItem"
                 }
             ],
             "rdfs:comment": [
@@ -48,6 +42,14 @@
             "rdfs:label": "physicalShippingMarks",
             "unece:cefactElementMetadata": [
                 {
+                    "@id": "cefact:SupplyChain_Consignment.Physical.Logistics_ShippingMarks",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01004247",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "Physical logistics shipping marks and barcoding information related to this supply chain consignment."
+                },
+                {
                     "@id": "cefact:Referenced_Logistics_Package.Physical.Logistics_ShippingMarks",
                     "@type": "unece:AssociationBIE",
                     "unece:cefactUNId": "UN01013107",
@@ -56,20 +58,12 @@
                     "rdfs:comment": "Physical logistics shipping marks in this referenced logistics package."
                 },
                 {
-                    "@id": "cefact:SupplyChain_ConsignmentItem.Physical.Logistics_ShippingMarks",
+                    "@id": "cefact:Logistics_Package.Physical.Logistics_ShippingMarks",
                     "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01004135",
-                    "unece:cefactBieDomainClass": "cefact:SupplyChain_ConsignmentItem.Details",
+                    "unece:cefactUNId": "UN01003705",
+                    "unece:cefactBieDomainClass": "cefact:Logistics_Package.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "Physical logistics shipping marks and barcode information for this supply chain consignment item."
-                },
-                {
-                    "@id": "cefact:SupplyChain_Consignment.Physical.Logistics_ShippingMarks",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01004247",
-                    "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "Physical logistics shipping marks and barcoding information related to this supply chain consignment."
+                    "rdfs:comment": "Physical shipping marks and barcode information for this logistics package."
                 },
                 {
                     "@id": "cefact:Referenced_SupplyChain_ConsignmentItem.Physical.Logistics_ShippingMarks",
@@ -80,12 +74,12 @@
                     "rdfs:comment": "Physical logistics shipping marks and barcode information for this referenced supply chain consignment item."
                 },
                 {
-                    "@id": "cefact:Logistics_Package.Physical.Logistics_ShippingMarks",
+                    "@id": "cefact:SupplyChain_ConsignmentItem.Physical.Logistics_ShippingMarks",
                     "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01003705",
-                    "unece:cefactBieDomainClass": "cefact:Logistics_Package.Details",
+                    "unece:cefactUNId": "UN01004135",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_ConsignmentItem.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "Physical shipping marks and barcode information for this logistics package."
+                    "rdfs:comment": "Physical logistics shipping marks and barcode information for this supply chain consignment item."
                 }
             ]
         }

@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://service.unece.org/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://service.unece.org/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
         "unece:cefactBieDomainClass": {
@@ -15,7 +15,7 @@
         {
             "@id": "unece:issueLocation",
             "schema:rangeIncludes": {
-                "@id": "unece:Location"
+                "@id": "unece:LogisticsLocation"
             },
             "@type": [
                 "rdf:Property",
@@ -27,6 +27,9 @@
                 },
                 {
                     "@id": "unece:Document"
+                },
+                {
+                    "@id": "unece:ExchangedDocument"
                 }
             ],
             "rdfs:comment": [
@@ -36,6 +39,14 @@
             ],
             "rdfs:label": "issueLocation",
             "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Exchanged_Document.Issue.Logistics_Location",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01003580",
+                    "unece:cefactBieDomainClass": "cefact:Exchanged_Document.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The location where this exchanged document has been issued."
+                },
                 {
                     "@id": "cefact:Referenced_Document.Issue.Logistics_Location",
                     "@type": "unece:AssociationBIE",
@@ -51,14 +62,6 @@
                     "unece:cefactBieDomainClass": "cefact:Document_Authentication.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
                     "rdfs:comment": "The issue location for this document authentication."
-                },
-                {
-                    "@id": "cefact:Exchanged_Document.Issue.Logistics_Location",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01003580",
-                    "unece:cefactBieDomainClass": "cefact:Exchanged_Document.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The location where this exchanged document has been issued."
                 }
             ]
         }

@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://service.unece.org/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://service.unece.org/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
@@ -27,7 +27,10 @@
                     "@id": "unece:Document"
                 },
                 {
-                    "@id": "unece:Person"
+                    "@id": "unece:ExchangedDocument"
+                },
+                {
+                    "@id": "unece:TransportPerson"
                 }
             ],
             "rdfs:comment": [
@@ -47,15 +50,6 @@
                     "rdfs:comment": "A unique identifier of a language related to this transport person, such as their spoken or correspondence language."
                 },
                 {
-                    "@id": "cefact:Exchanged_Document.Language.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "3453",
-                    "unece:cefactUNId": "UN01003554",
-                    "unece:cefactBieDomainClass": "cefact:Exchanged_Document.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A unique identifier for a language used in this exchanged document."
-                },
-                {
                     "@id": "cefact:Referenced_Document.Language.Identifier",
                     "@type": "unece:BasicBIE",
                     "unece:tded": "3453",
@@ -63,6 +57,15 @@
                     "unece:cefactBieDomainClass": "cefact:Referenced_Document.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
                     "rdfs:comment": "An identifier for a language used in this referenced document."
+                },
+                {
+                    "@id": "cefact:Exchanged_Document.Language.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "3453",
+                    "unece:cefactUNId": "UN01003554",
+                    "unece:cefactBieDomainClass": "cefact:Exchanged_Document.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "A unique identifier for a language used in this exchanged document."
                 }
             ]
         }

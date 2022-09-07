@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://service.unece.org/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://service.unece.org/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
         "unece:cefactBieDomainClass": {
@@ -15,7 +15,7 @@
         {
             "@id": "unece:ownerParty",
             "schema:rangeIncludes": {
-                "@id": "unece:Party"
+                "@id": "unece:TradeParty"
             },
             "@type": [
                 "rdf:Property",
@@ -48,20 +48,20 @@
                     "rdfs:comment": "The party owning this logistics means of transport."
                 },
                 {
-                    "@id": "cefact:Monitoring_IOTDevice.Owner.Trade_Party",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01013487",
-                    "unece:cefactBieDomainClass": "cefact:Monitoring_IOTDevice.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The owner party of this monitoring IOT device."
-                },
-                {
                     "@id": "cefact:Monitoring_Sensor.Owner.Trade_Party",
                     "@type": "unece:AssociationBIE",
                     "unece:cefactUNId": "UN01013545",
                     "unece:cefactBieDomainClass": "cefact:Monitoring_Sensor.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
                     "rdfs:comment": "The owner party of this monitoring sensor."
+                },
+                {
+                    "@id": "cefact:Monitoring_IOTDevice.Owner.Trade_Party",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01013487",
+                    "unece:cefactBieDomainClass": "cefact:Monitoring_IOTDevice.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The owner party of this monitoring IOT device."
                 }
             ]
         }

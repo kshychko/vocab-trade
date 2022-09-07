@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://service.unece.org/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://service.unece.org/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
@@ -27,10 +27,13 @@
                     "@id": "unece:AllowanceCharge"
                 },
                 {
-                    "@id": "unece:Price"
+                    "@id": "unece:ReferencePrice"
                 },
                 {
-                    "@id": "unece:Tax"
+                    "@id": "unece:TradePrice"
+                },
+                {
+                    "@id": "unece:TradeTax"
                 }
             ],
             "rdfs:comment": [
@@ -41,6 +44,14 @@
             ],
             "rdfs:label": "basisQuantity",
             "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Trade_AllowanceCharge.Basis.Quantity",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01001637",
+                    "unece:cefactBieDomainClass": "cefact:Trade_AllowanceCharge.Details",
+                    "unece:cefactBusinessProcess": "Trade",
+                    "rdfs:comment": "The quantity on which this trade allowance charge is based."
+                },
                 {
                     "@id": "cefact:Reference_Price.Basis.Quantity",
                     "@type": "unece:BasicBIE",
@@ -66,14 +77,6 @@
                     "unece:cefactBieDomainClass": "cefact:Trade_Price.Details",
                     "unece:cefactBusinessProcess": "Trade",
                     "rdfs:comment": "The quantity on which the trade price is based."
-                },
-                {
-                    "@id": "cefact:Trade_AllowanceCharge.Basis.Quantity",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01001637",
-                    "unece:cefactBieDomainClass": "cefact:Trade_AllowanceCharge.Details",
-                    "unece:cefactBusinessProcess": "Trade",
-                    "rdfs:comment": "The quantity on which this trade allowance charge is based."
                 }
             ]
         }

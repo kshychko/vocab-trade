@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://service.unece.org/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://service.unece.org/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
@@ -33,16 +33,19 @@
                     "@id": "unece:Document"
                 },
                 {
-                    "@id": "unece:Person"
+                    "@id": "unece:ExchangedDocument"
                 },
                 {
-                    "@id": "unece:Registration"
+                    "@id": "unece:GovernmentRegistration"
                 },
                 {
                     "@id": "unece:RegulatoryProcedure"
                 },
                 {
                     "@id": "unece:RiskAnalysisResult"
+                },
+                {
+                    "@id": "unece:TransportPerson"
                 }
             ],
             "rdfs:comment": [
@@ -58,30 +61,12 @@
             "rdfs:label": "categoryCode",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Referenced_Document.Category.Code",
+                    "@id": "cefact:Logistics_RiskAnalysisResult.Category.Code",
                     "@type": "unece:BasicBIE",
-                    "unece:tded": "1003",
-                    "unece:cefactUNId": "UN01004013",
-                    "unece:cefactBieDomainClass": "cefact:Referenced_Document.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The code specifying the category of this referenced document."
-                },
-                {
-                    "@id": "cefact:Exchanged_Document.Category.Code",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "1003",
-                    "unece:cefactUNId": "UN01004856",
-                    "unece:cefactBieDomainClass": "cefact:Exchanged_Document.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The code specifying a category for this exchanged document."
-                },
-                {
-                    "@id": "cefact:Document_Authentication.Category.Code",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01012809",
-                    "unece:cefactBieDomainClass": "cefact:Document_Authentication.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A code specifying a category for this document authentication."
+                    "unece:cefactUNId": "UN01013044",
+                    "unece:cefactBieDomainClass": "cefact:Logistics_RiskAnalysisResult.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The code specifying the category for this logistics risk analysis result."
                 },
                 {
                     "@id": "cefact:Cross-Border_RegulatoryProcedure.Category.Code",
@@ -100,12 +85,13 @@
                     "rdfs:comment": "The code specifying the category of this certified accreditation, such as driving or academic."
                 },
                 {
-                    "@id": "cefact:Government_Registration.Category.Code",
+                    "@id": "cefact:Referenced_Document.Category.Code",
                     "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01011032",
-                    "unece:cefactBieDomainClass": "cefact:Government_Registration.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A code specifying a category of this government registration."
+                    "unece:tded": "1003",
+                    "unece:cefactUNId": "UN01004013",
+                    "unece:cefactBieDomainClass": "cefact:Referenced_Document.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The code specifying the category of this referenced document."
                 },
                 {
                     "@id": "cefact:Transport_Person.Category.Code",
@@ -116,12 +102,29 @@
                     "rdfs:comment": "A code specifying a category for this transport person, such as a member of crew or passenger."
                 },
                 {
-                    "@id": "cefact:Logistics_RiskAnalysisResult.Category.Code",
+                    "@id": "cefact:Document_Authentication.Category.Code",
                     "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01013044",
-                    "unece:cefactBieDomainClass": "cefact:Logistics_RiskAnalysisResult.Details",
+                    "unece:cefactUNId": "UN01012809",
+                    "unece:cefactBieDomainClass": "cefact:Document_Authentication.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "A code specifying a category for this document authentication."
+                },
+                {
+                    "@id": "cefact:Exchanged_Document.Category.Code",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "1003",
+                    "unece:cefactUNId": "UN01004856",
+                    "unece:cefactBieDomainClass": "cefact:Exchanged_Document.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The code specifying a category for this exchanged document."
+                },
+                {
+                    "@id": "cefact:Government_Registration.Category.Code",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01011032",
+                    "unece:cefactBieDomainClass": "cefact:Government_Registration.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The code specifying the category for this logistics risk analysis result."
+                    "rdfs:comment": "A code specifying a category of this government registration."
                 }
             ]
         }

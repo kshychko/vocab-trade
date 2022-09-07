@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://service.unece.org/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://service.unece.org/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
         "unece:cefactBieDomainClass": {
@@ -15,7 +15,7 @@
         {
             "@id": "unece:shipFromParty",
             "schema:rangeIncludes": {
-                "@id": "unece:Party"
+                "@id": "unece:TradeParty"
             },
             "@type": [
                 "rdf:Property",
@@ -26,7 +26,10 @@
                     "@id": "unece:Consignment"
                 },
                 {
-                    "@id": "unece:TradeDelivery"
+                    "@id": "unece:HeaderTradeDelivery"
+                },
+                {
+                    "@id": "unece:LineTradeDelivery"
                 }
             ],
             "rdfs:comment": [
@@ -36,6 +39,14 @@
             ],
             "rdfs:label": "shipFromParty",
             "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:SupplyChain_Consignment.ShipFrom.Trade_Party",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01004221",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The ship from party for this supply chain consignment."
+                },
                 {
                     "@id": "cefact:Line_TradeDelivery.ShipFrom.Trade_Party",
                     "@type": "unece:AssociationBIE",
@@ -51,14 +62,6 @@
                     "unece:cefactBieDomainClass": "cefact:Header_TradeDelivery.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
                     "rdfs:comment": "The ship from party, at header level, for this trade delivery."
-                },
-                {
-                    "@id": "cefact:SupplyChain_Consignment.ShipFrom.Trade_Party",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01004221",
-                    "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The ship from party for this supply chain consignment."
                 }
             ]
         }

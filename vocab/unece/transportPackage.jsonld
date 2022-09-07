@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://service.unece.org/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://service.unece.org/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
         "unece:cefactBieDomainClass": {
@@ -27,12 +27,6 @@
                 },
                 {
                     "@id": "unece:ConsignmentItem"
-                },
-                {
-                    "@id": "unece:SupplyChainConsignment"
-                },
-                {
-                    "@id": "unece:SupplyChainConsignmentItem"
                 }
             ],
             "rdfs:comment": [
@@ -52,20 +46,20 @@
                     "rdfs:comment": "Transport packages for this referenced supply chain consignment."
                 },
                 {
-                    "@id": "cefact:Referenced_SupplyChain_ConsignmentItem.Transport.Logistics_Package",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01011043",
-                    "unece:cefactBieDomainClass": "cefact:Referenced_SupplyChain_ConsignmentItem.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A transport package for this referenced supply chain consignment item."
-                },
-                {
                     "@id": "cefact:SupplyChain_Consignment.Transport.Logistics_Package",
                     "@type": "unece:AssociationBIE",
                     "unece:cefactUNId": "UN01004290",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
                     "rdfs:comment": "Transport packages for this supply chain consignment."
+                },
+                {
+                    "@id": "cefact:Referenced_SupplyChain_ConsignmentItem.Transport.Logistics_Package",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01011043",
+                    "unece:cefactBieDomainClass": "cefact:Referenced_SupplyChain_ConsignmentItem.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A transport package for this referenced supply chain consignment item."
                 },
                 {
                     "@id": "cefact:SupplyChain_ConsignmentItem.Transport.Logistics_Package",

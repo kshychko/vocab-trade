@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://service.unece.org/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://service.unece.org/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
@@ -42,14 +42,6 @@
             "rdfs:label": "calculationPercent",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Applied_AllowanceCharge.Calculation.Percent",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01000192",
-                    "unece:cefactBieDomainClass": "cefact:Applied_AllowanceCharge.Details",
-                    "unece:cefactBusinessProcess": "Pricing",
-                    "rdfs:comment": "The percentage used to calculate the applied allowance charge."
-                },
-                {
                     "@id": "cefact:Trade_AllowanceCharge.Calculation.Percent",
                     "@type": "unece:BasicBIE",
                     "unece:cefactUNId": "UN01001635",
@@ -64,6 +56,14 @@
                     "unece:cefactBieDomainClass": "cefact:Trade_PaymentPenaltyTerms.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
                     "rdfs:comment": "The percent applied to calculate these trade payment penalty terms."
+                },
+                {
+                    "@id": "cefact:Applied_AllowanceCharge.Calculation.Percent",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01000192",
+                    "unece:cefactBieDomainClass": "cefact:Applied_AllowanceCharge.Details",
+                    "unece:cefactBusinessProcess": "Pricing",
+                    "rdfs:comment": "The percentage used to calculate the applied allowance charge."
                 },
                 {
                     "@id": "cefact:Trade_PaymentDiscountTerms.Calculation.Percent",

@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://service.unece.org/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://service.unece.org/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
@@ -24,10 +24,13 @@
             ],
             "schema:domainIncludes": [
                 {
-                    "@id": "unece:MonetarySummation"
+                    "@id": "unece:HeaderTradeSettlement"
                 },
                 {
-                    "@id": "unece:TradeSettlement"
+                    "@id": "unece:TradeSettlementHeaderMonetarySummation"
+                },
+                {
+                    "@id": "unece:TradeSettlementLineMonetarySummation"
                 }
             ],
             "rdfs:comment": [
@@ -37,6 +40,14 @@
             ],
             "rdfs:label": "duePayableAmount",
             "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:TradeSettlementHeader_MonetarySummation.DuePayable.Amount",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01011883",
+                    "unece:cefactBieDomainClass": "cefact:TradeSettlementHeader_MonetarySummation.Details",
+                    "unece:cefactBusinessProcess": "Supply Chain",
+                    "rdfs:comment": "A monetary value that is an amount due and payable for this trade settlement header monetary summation, such as the amount due to the creditor."
+                },
                 {
                     "@id": "cefact:Header_TradeSettlement.DuePayable.Amount",
                     "@type": "unece:BasicBIE",
@@ -52,14 +63,6 @@
                     "unece:cefactBieDomainClass": "cefact:TradeSettlementLine_MonetarySummation.Details",
                     "unece:cefactBusinessProcess": "Supply Chain",
                     "rdfs:comment": "A monetary value that is an amount due and payable for this trade settlement line monetary summation, such as the amount due to the creditor."
-                },
-                {
-                    "@id": "cefact:TradeSettlementHeader_MonetarySummation.DuePayable.Amount",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01011883",
-                    "unece:cefactBieDomainClass": "cefact:TradeSettlementHeader_MonetarySummation.Details",
-                    "unece:cefactBusinessProcess": "Supply Chain",
-                    "rdfs:comment": "A monetary value that is an amount due and payable for this trade settlement header monetary summation, such as the amount due to the creditor."
                 }
             ]
         }

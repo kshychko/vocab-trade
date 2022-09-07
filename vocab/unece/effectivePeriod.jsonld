@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://service.unece.org/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://service.unece.org/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
         "unece:cefactBieDomainClass": {
@@ -26,6 +26,12 @@
                     "@id": "unece:Document"
                 },
                 {
+                    "@id": "unece:DocumentLineDocument"
+                },
+                {
+                    "@id": "unece:ExchangedDocument"
+                },
+                {
                     "@id": "unece:Service"
                 }
             ],
@@ -38,20 +44,12 @@
             "rdfs:label": "effectivePeriod",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Referenced_Document.Effective.Specified_Period",
+                    "@id": "cefact:DocumentLine_Document.Effective.Specified_Period",
                     "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01004014",
-                    "unece:cefactBieDomainClass": "cefact:Referenced_Document.Details",
+                    "unece:cefactUNId": "UN01007177",
+                    "unece:cefactBieDomainClass": "cefact:DocumentLine_Document.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The specified period within which this referenced document is effective."
-                },
-                {
-                    "@id": "cefact:Exchanged_Document.Effective.Specified_Period",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01003578",
-                    "unece:cefactBieDomainClass": "cefact:Exchanged_Document.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The specified period within which this exchanged document is effective."
+                    "rdfs:comment": "The period within which this document line is effective."
                 },
                 {
                     "@id": "cefact:Transport_Service.Effective.Specified_Period",
@@ -62,12 +60,20 @@
                     "rdfs:comment": "The specified period during which this transport service is effective."
                 },
                 {
-                    "@id": "cefact:DocumentLine_Document.Effective.Specified_Period",
+                    "@id": "cefact:Exchanged_Document.Effective.Specified_Period",
                     "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01007177",
-                    "unece:cefactBieDomainClass": "cefact:DocumentLine_Document.Details",
+                    "unece:cefactUNId": "UN01003578",
+                    "unece:cefactBieDomainClass": "cefact:Exchanged_Document.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The period within which this document line is effective."
+                    "rdfs:comment": "The specified period within which this exchanged document is effective."
+                },
+                {
+                    "@id": "cefact:Referenced_Document.Effective.Specified_Period",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01004014",
+                    "unece:cefactBieDomainClass": "cefact:Referenced_Document.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The specified period within which this referenced document is effective."
                 }
             ]
         }

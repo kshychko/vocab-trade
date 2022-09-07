@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://service.unece.org/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://service.unece.org/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
         "unece:cefactBieDomainClass": {
@@ -15,7 +15,7 @@
         {
             "@id": "unece:telephoneCommunication",
             "schema:rangeIncludes": {
-                "@id": "unece:Communication"
+                "@id": "unece:UniversalCommunication"
             },
             "@type": [
                 "rdf:Property",
@@ -26,10 +26,13 @@
                     "@id": "unece:Contact"
                 },
                 {
-                    "@id": "unece:Party"
+                    "@id": "unece:ContactPerson"
                 },
                 {
-                    "@id": "unece:Person"
+                    "@id": "unece:LocationParty"
+                },
+                {
+                    "@id": "unece:TradeParty"
                 }
             ],
             "rdfs:comment": [
@@ -41,12 +44,12 @@
             "rdfs:label": "telephoneCommunication",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Trade_Contact.Telephone.Universal_Communication",
+                    "@id": "cefact:Contact_Person.Telephone.Telecommunication_Communication",
                     "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01004564",
-                    "unece:cefactBieDomainClass": "cefact:Trade_Contact.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "Telephone communication information for this trade contact."
+                    "unece:cefactUNId": "UN01005153",
+                    "unece:cefactBieDomainClass": "cefact:Contact_Person.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "Telephone communication information for this contact person."
                 },
                 {
                     "@id": "cefact:Trade_Party.Telephone.Universal_Communication",
@@ -57,20 +60,20 @@
                     "rdfs:comment": "A telephone communication for this trade party."
                 },
                 {
+                    "@id": "cefact:Trade_Contact.Telephone.Universal_Communication",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01004564",
+                    "unece:cefactBieDomainClass": "cefact:Trade_Contact.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "Telephone communication information for this trade contact."
+                },
+                {
                     "@id": "cefact:Location_Party.Telephone.Universal_Communication",
                     "@type": "unece:AssociationBIE",
                     "unece:cefactUNId": "UN01003671",
                     "unece:cefactBieDomainClass": "cefact:Location_Party.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
                     "rdfs:comment": "Telephone communication information for this location party."
-                },
-                {
-                    "@id": "cefact:Contact_Person.Telephone.Telecommunication_Communication",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01005153",
-                    "unece:cefactBieDomainClass": "cefact:Contact_Person.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "Telephone communication information for this contact person."
                 }
             ]
         }

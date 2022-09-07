@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://service.unece.org/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://service.unece.org/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
@@ -27,9 +27,6 @@
                     "@id": "unece:ConsignmentItem"
                 },
                 {
-                    "@id": "unece:SupplyChainConsignmentItem"
-                },
-                {
                     "@id": "unece:TradeLineItem"
                 }
             ],
@@ -41,15 +38,6 @@
             "rdfs:label": "typeExtensionCode",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Referenced_SupplyChain_ConsignmentItem.TypeExtension.Code",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "7361",
-                    "unece:cefactUNId": "UN01004038",
-                    "unece:cefactBieDomainClass": "cefact:Referenced_SupplyChain_ConsignmentItem.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The code used as an extension to the type code for further specifying the type of referenced supply chain consignment item."
-                },
-                {
                     "@id": "cefact:SupplyChain_TradeLineItem.TypeExtension.Code",
                     "@type": "unece:BasicBIE",
                     "unece:tded": "7361",
@@ -57,6 +45,15 @@
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_TradeLineItem.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
                     "rdfs:comment": "The code used as an extension to the type code for further specifying a type of supply chain trade line item."
+                },
+                {
+                    "@id": "cefact:Referenced_SupplyChain_ConsignmentItem.TypeExtension.Code",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "7361",
+                    "unece:cefactUNId": "UN01004038",
+                    "unece:cefactBieDomainClass": "cefact:Referenced_SupplyChain_ConsignmentItem.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The code used as an extension to the type code for further specifying the type of referenced supply chain consignment item."
                 },
                 {
                     "@id": "cefact:SupplyChain_ConsignmentItem.TypeExtension.Code",

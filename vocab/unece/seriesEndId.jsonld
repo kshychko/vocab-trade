@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://service.unece.org/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://service.unece.org/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
@@ -27,9 +27,6 @@
                     "@id": "unece:Label"
                 },
                 {
-                    "@id": "unece:LogisticsPackage"
-                },
-                {
                     "@id": "unece:Package"
                 }
             ],
@@ -40,15 +37,6 @@
             ],
             "rdfs:label": "seriesEndId",
             "unece:cefactElementMetadata": [
-                {
-                    "@id": "cefact:Referenced_Logistics_Package.SeriesEnd_Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "1438",
-                    "unece:cefactUNId": "UN01006799",
-                    "unece:cefactBieDomainClass": "cefact:Referenced_Logistics_Package.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The identifier of the end of a series of packages within this referenced logistics package."
-                },
                 {
                     "@id": "cefact:Logistics_Label.SeriesEnd.Identifier",
                     "@type": "unece:BasicBIE",
@@ -65,6 +53,15 @@
                     "unece:cefactBieDomainClass": "cefact:Logistics_Package.Details",
                     "unece:cefactBusinessProcess": "Cross-Border",
                     "rdfs:comment": "The unique identifier of the end of a series of packages within this logistics package."
+                },
+                {
+                    "@id": "cefact:Referenced_Logistics_Package.SeriesEnd_Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "1438",
+                    "unece:cefactUNId": "UN01006799",
+                    "unece:cefactBieDomainClass": "cefact:Referenced_Logistics_Package.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The identifier of the end of a series of packages within this referenced logistics package."
                 }
             ]
         }

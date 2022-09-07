@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://service.unece.org/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://service.unece.org/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
         "unece:cefactBieDomainClass": {
@@ -15,15 +15,23 @@
         {
             "@id": "unece:locationAddress",
             "schema:rangeIncludes": {
-                "@id": "unece:Address"
+                "@id": "unece:FinancialInstitutionAddress"
             },
             "@type": [
                 "rdf:Property",
                 "owl:ObjectProperty"
             ],
-            "schema:domainIncludes": {
-                "@id": "unece:FinancialInstitution"
-            },
+            "schema:domainIncludes": [
+                {
+                    "@id": "unece:BranchFinancialInstitution"
+                },
+                {
+                    "@id": "unece:CreditorFinancialInstitution"
+                },
+                {
+                    "@id": "unece:DebtorFinancialInstitution"
+                }
+            ],
             "rdfs:comment": [
                 "The location address for this branch of a financial institution.",
                 "The location address for this creditor financial institution.",
@@ -31,14 +39,6 @@
             ],
             "rdfs:label": "locationAddress",
             "unece:cefactElementMetadata": [
-                {
-                    "@id": "cefact:Branch_FinancialInstitution.Location.FinancialInstitution_Address",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01003141",
-                    "unece:cefactBieDomainClass": "cefact:Branch_FinancialInstitution.Details",
-                    "unece:cefactBusinessProcess": "Customer to bank payment initiation",
-                    "rdfs:comment": "The location address for this branch of a financial institution."
-                },
                 {
                     "@id": "cefact:Debtor_FinancialInstitution.Location.FinancialInstitution_Address",
                     "@type": "unece:AssociationBIE",
@@ -54,6 +54,14 @@
                     "unece:cefactBieDomainClass": "cefact:Creditor_FinancialInstitution.Details",
                     "unece:cefactBusinessProcess": "Customer to bank payment initiation",
                     "rdfs:comment": "The location address for this creditor financial institution."
+                },
+                {
+                    "@id": "cefact:Branch_FinancialInstitution.Location.FinancialInstitution_Address",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01003141",
+                    "unece:cefactBieDomainClass": "cefact:Branch_FinancialInstitution.Details",
+                    "unece:cefactBusinessProcess": "Customer to bank payment initiation",
+                    "rdfs:comment": "The location address for this branch of a financial institution."
                 }
             ]
         }

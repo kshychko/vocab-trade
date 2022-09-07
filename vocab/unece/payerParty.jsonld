@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://service.unece.org/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://service.unece.org/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
         "unece:cefactBieDomainClass": {
@@ -15,15 +15,23 @@
         {
             "@id": "unece:payerParty",
             "schema:rangeIncludes": {
-                "@id": "unece:Party"
+                "@id": "unece:TradeParty"
             },
             "@type": [
                 "rdf:Property",
                 "owl:ObjectProperty"
             ],
-            "schema:domainIncludes": {
-                "@id": "unece:TradeSettlement"
-            },
+            "schema:domainIncludes": [
+                {
+                    "@id": "unece:HeaderTradeSettlement"
+                },
+                {
+                    "@id": "unece:LineTradeSettlement"
+                },
+                {
+                    "@id": "unece:PaymentTradeSettlement"
+                }
+            ],
             "rdfs:comment": [
                 "The payer party for this header trade settlement.",
                 "The payer party for this line trade settlement.",
@@ -31,6 +39,14 @@
             ],
             "rdfs:label": "payerParty",
             "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Payment_TradeSettlement.Payer.Trade_Party",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01011838",
+                    "unece:cefactBieDomainClass": "cefact:Payment_TradeSettlement.Details",
+                    "unece:cefactBusinessProcess": "Trade",
+                    "rdfs:comment": "The payer party for this payment trade settlement."
+                },
                 {
                     "@id": "cefact:Line_TradeSettlement.Payer.Trade_Party",
                     "@type": "unece:AssociationBIE",
@@ -46,14 +62,6 @@
                     "unece:cefactBieDomainClass": "cefact:Header_TradeSettlement.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
                     "rdfs:comment": "The payer party for this header trade settlement."
-                },
-                {
-                    "@id": "cefact:Payment_TradeSettlement.Payer.Trade_Party",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01011838",
-                    "unece:cefactBieDomainClass": "cefact:Payment_TradeSettlement.Details",
-                    "unece:cefactBusinessProcess": "Trade",
-                    "rdfs:comment": "The payer party for this payment trade settlement."
                 }
             ]
         }

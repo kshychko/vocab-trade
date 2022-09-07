@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://service.unece.org/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://service.unece.org/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
         "unece:cefactBieDomainClass": {
@@ -15,20 +15,15 @@
         {
             "@id": "unece:settingTemperature",
             "schema:rangeIncludes": {
-                "@id": "unece:Temperature"
+                "@id": "unece:TransportSettingTemperature"
             },
             "@type": [
                 "rdf:Property",
                 "owl:ObjectProperty"
             ],
-            "schema:domainIncludes": [
-                {
-                    "@id": "unece:LogisticsTransportEquipment"
-                },
-                {
-                    "@id": "unece:TransportEquipment"
-                }
-            ],
+            "schema:domainIncludes": {
+                "@id": "unece:LogisticsTransportEquipment"
+            },
             "rdfs:comment": [
                 "A temperature setting for this piece of logistics transport equipment, such as storage temperature or operational temperature.",
                 "A temperature setting for this piece of referenced logistics transport equipment, such as storage temperature or operational temperature."

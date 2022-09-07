@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://service.unece.org/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://service.unece.org/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
@@ -61,15 +61,6 @@
                     "rdfs:comment": "Content, expressed as text, for this work item complex description. Industry context value changed from \"Construction\" to \"In All Contexts\"."
                 },
                 {
-                    "@id": "cefact:Specification_Query.Content.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "4056",
-                    "unece:cefactUNId": "UN01000076",
-                    "unece:cefactBieDomainClass": "cefact:Specification_Query.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The content, expressed as text, of this specification query."
-                },
-                {
                     "@id": "cefact:Document_Clause.Content.Text",
                     "@type": "unece:BasicBIE",
                     "unece:tded": "4068",
@@ -79,13 +70,12 @@
                     "rdfs:comment": "Content, expressed as text, of this document clause."
                 },
                 {
-                    "@id": "cefact:Specification_Response.Content.Text",
+                    "@id": "cefact:Packaging_Marking.Content.Text",
                     "@type": "unece:BasicBIE",
-                    "unece:tded": "4344",
-                    "unece:cefactUNId": "UN01000081",
-                    "unece:cefactBieDomainClass": "cefact:Specification_Response.Details",
+                    "unece:cefactUNId": "UN01003921",
+                    "unece:cefactBieDomainClass": "cefact:Packaging_Marking.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The content, expressed as text, of this specification response."
+                    "rdfs:comment": "Content, expressed as text, of this packaging marking."
                 },
                 {
                     "@id": "cefact:Note.Content.Text",
@@ -97,12 +87,22 @@
                     "rdfs:comment": "A content, expressed as text, of this note."
                 },
                 {
-                    "@id": "cefact:Packaging_Marking.Content.Text",
+                    "@id": "cefact:Specification_Response.Content.Text",
                     "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01003921",
-                    "unece:cefactBieDomainClass": "cefact:Packaging_Marking.Details",
+                    "unece:tded": "4344",
+                    "unece:cefactUNId": "UN01000081",
+                    "unece:cefactBieDomainClass": "cefact:Specification_Response.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "Content, expressed as text, of this packaging marking."
+                    "rdfs:comment": "The content, expressed as text, of this specification response."
+                },
+                {
+                    "@id": "cefact:Specification_Query.Content.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "4056",
+                    "unece:cefactUNId": "UN01000076",
+                    "unece:cefactBieDomainClass": "cefact:Specification_Query.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The content, expressed as text, of this specification query."
                 }
             ]
         }

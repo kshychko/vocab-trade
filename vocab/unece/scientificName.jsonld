@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://service.unece.org/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://service.unece.org/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
@@ -37,14 +37,6 @@
             "rdfs:label": "scientificName",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Distinct_Chemical.Scientific_Name.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01002173",
-                    "unece:cefactBieDomainClass": "cefact:Distinct_Chemical.Details",
-                    "unece:cefactBusinessProcess": "MSDS Reporting",
-                    "rdfs:comment": "The scientific name, expressed as text, for this distinct chemical."
-                },
-                {
                     "@id": "cefact:Trade_Product.Scientific_Name.Text",
                     "@type": "unece:BasicBIE",
                     "unece:tded": "7134",
@@ -52,6 +44,14 @@
                     "unece:cefactBieDomainClass": "cefact:Trade_Product.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
                     "rdfs:comment": "A scientific name, expressed as text, for this trade product."
+                },
+                {
+                    "@id": "cefact:Distinct_Chemical.Scientific_Name.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01002173",
+                    "unece:cefactBieDomainClass": "cefact:Distinct_Chemical.Details",
+                    "unece:cefactBusinessProcess": "MSDS Reporting",
+                    "rdfs:comment": "The scientific name, expressed as text, for this distinct chemical."
                 }
             ]
         }
