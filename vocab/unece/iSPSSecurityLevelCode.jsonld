@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01010109",
                     "unece:cefactBieDomainClass": "cefact:Logistics_TransportMeans.Details",
                     "unece:cefactBusinessProcess": "Transport",
-                    "rdfs:comment": "The code specifying the International Ship and Port facility Security (ISPS) level assigned to this logistics means of transport."
+                    "rdfs:comment": "The code specifying the International Ship and Port facility Security (ISPS) level assigned to this logistics means of transport.",
+                    "unece:domainName": "TransportMeans"
                 }
             ]
         }

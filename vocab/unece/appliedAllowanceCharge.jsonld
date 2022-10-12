@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01001682",
                     "unece:cefactBieDomainClass": "cefact:Trade_Price.Details",
                     "unece:cefactBusinessProcess": "Trade",
-                    "rdfs:comment": "An allowance or charge applied to the trade price."
+                    "rdfs:comment": "An allowance or charge applied to the trade price.",
+                    "unece:domainName": "TradePrice"
                 }
             ]
         }

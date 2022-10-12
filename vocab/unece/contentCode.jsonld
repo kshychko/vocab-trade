@@ -42,7 +42,8 @@
                     "unece:cefactUNId": "UN01008444",
                     "unece:cefactBieDomainClass": "cefact:Packaging_Marking.Details",
                     "unece:cefactBusinessProcess": "Supply Chain",
-                    "rdfs:comment": "Content, expressed as a code, of this packaging marking."
+                    "rdfs:comment": "Content, expressed as a code, of this packaging marking.",
+                    "unece:domainName": "Marking"
                 },
                 {
                     "@id": "cefact:Note.Content.Code",
@@ -51,7 +52,8 @@
                     "unece:cefactUNId": "UN01002521",
                     "unece:cefactBieDomainClass": "cefact:Note.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A code specifying the content of this note."
+                    "rdfs:comment": "A code specifying the content of this note.",
+                    "unece:domainName": "Note"
                 }
             ]
         }

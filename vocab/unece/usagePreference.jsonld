@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01002051",
                     "unece:cefactBieDomainClass": "cefact:Telecommunication_Communication.Details",
                     "unece:cefactBusinessProcess": "Project Management",
-                    "rdfs:comment": "The specified preference for the usage of this telecommunication method."
+                    "rdfs:comment": "The specified preference for the usage of this telecommunication method.",
+                    "unece:domainName": "TelecommunicationCommunication"
                 }
             ]
         }

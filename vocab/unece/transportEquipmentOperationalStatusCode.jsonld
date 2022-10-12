@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01003772",
                     "unece:cefactBieDomainClass": "cefact:Logistics_TransportEquipment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The code specifying the operational status for this piece of logistics transport equipment, such as to be repaired or to be shifted."
+                    "rdfs:comment": "The code specifying the operational status for this piece of logistics transport equipment, such as to be repaired or to be shifted.",
+                    "unece:domainName": "LogisticsTransportEquipment"
                 }
             ]
         }

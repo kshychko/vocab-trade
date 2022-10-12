@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01008859",
                     "unece:cefactBieDomainClass": "cefact:Trade_AllowanceCharge.Details",
                     "unece:cefactBusinessProcess": "Trade",
-                    "rdfs:comment": "The code specifying the type of this trade allowance charge."
+                    "rdfs:comment": "The code specifying the type of this trade allowance charge.",
+                    "unece:domainName": "AllowanceCharge"
                 }
             ]
         }

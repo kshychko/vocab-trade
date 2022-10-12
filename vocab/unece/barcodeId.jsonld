@@ -35,7 +35,8 @@
                     "unece:cefactUNId": "UN01004420",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_TradeLineItem.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A unique barcode identifier for this supply chain trade line item."
+                    "rdfs:comment": "A unique barcode identifier for this supply chain trade line item.",
+                    "unece:domainName": "TradeLineItem"
                 }
             ]
         }

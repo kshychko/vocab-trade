@@ -35,7 +35,8 @@
                     "unece:cefactUNId": "UN01006154",
                     "unece:cefactBieDomainClass": "cefact:CrossBorder_RegulatoryProcedure.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The monetary value of the basis on which the valuation is, or will be, calculated for this cross-border regulatory procedure."
+                    "rdfs:comment": "The monetary value of the basis on which the valuation is, or will be, calculated for this cross-border regulatory procedure.",
+                    "unece:domainName": "RegulatoryProcedure"
                 }
             ]
         }

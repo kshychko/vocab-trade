@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01007241",
                     "unece:cefactBieDomainClass": "cefact:Trade_Product.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "An identifier for a tracking system of this trade product."
+                    "rdfs:comment": "An identifier for a tracking system of this trade product.",
+                    "unece:domainName": "Product"
                 }
             ]
         }

@@ -37,20 +37,22 @@
             "rdfs:label": "changeableIndicator",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:ControlSetting_Parameter.Changeable.Indicator",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01013511",
-                    "unece:cefactBieDomainClass": "cefact:ControlSetting_Parameter.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The indication whether or not this control setting parameter is changeable."
-                },
-                {
                     "@id": "cefact:Operational_Parameter.Changeable.Indicator",
                     "@type": "unece:BasicBIE",
                     "unece:cefactUNId": "UN01013522",
                     "unece:cefactBieDomainClass": "cefact:Operational_Parameter.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The indication whether or not this operational parameter is changeable."
+                    "rdfs:comment": "The indication whether or not this operational parameter is changeable.",
+                    "unece:domainName": "OperationalParameter"
+                },
+                {
+                    "@id": "cefact:ControlSetting_Parameter.Changeable.Indicator",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01013511",
+                    "unece:cefactBieDomainClass": "cefact:ControlSetting_Parameter.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The indication whether or not this control setting parameter is changeable.",
+                    "unece:domainName": "ControlSettingParameter"
                 }
             ]
         }

@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01012666",
                     "unece:cefactBieDomainClass": "cefact:Header_TradeAgreement.Details",
                     "unece:cefactBusinessProcess": "Invoicing",
-                    "rdfs:comment": "The logistics location applicable to the pricing base for this header trade agreement."
+                    "rdfs:comment": "The logistics location applicable to the pricing base for this header trade agreement.",
+                    "unece:domainName": "HeaderTradeAgreement"
                 }
             ]
         }

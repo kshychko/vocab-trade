@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01010143",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
                     "unece:cefactBusinessProcess": "Transport",
-                    "rdfs:comment": "An invoicee trade party associated with this supply chain consignment."
+                    "rdfs:comment": "An invoicee trade party associated with this supply chain consignment.",
+                    "unece:domainName": "Consignment"
                 }
             ]
         }

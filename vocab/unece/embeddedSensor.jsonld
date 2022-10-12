@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01013494",
                     "unece:cefactBieDomainClass": "cefact:Monitoring_IOTDevice.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "An embedded sensor of this monitoring IOT device."
+                    "rdfs:comment": "An embedded sensor of this monitoring IOT device.",
+                    "unece:domainName": "IOTDevice"
                 }
             ]
         }

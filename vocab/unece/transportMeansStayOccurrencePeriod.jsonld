@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01004805",
                     "unece:cefactBieDomainClass": "cefact:Transport_Event.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The specified period during which the transport means is held at a location."
+                    "rdfs:comment": "The specified period during which the transport means is held at a location.",
+                    "unece:domainName": "TransportEvent"
                 }
             ]
         }

@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01000080",
                     "unece:cefactBieDomainClass": "cefact:Specification_Response.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The code specifying the type of this specification response."
+                    "rdfs:comment": "The code specifying the type of this specification response.",
+                    "unece:domainName": "Response"
                 }
             ]
         }

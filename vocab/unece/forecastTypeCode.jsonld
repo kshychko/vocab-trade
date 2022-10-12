@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01004301",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_ForecastTerms.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The code specifying the forecast type in these supply chain forecast terms."
+                    "rdfs:comment": "The code specifying the forecast type in these supply chain forecast terms.",
+                    "unece:domainName": "ForecastTerms"
                 }
             ]
         }

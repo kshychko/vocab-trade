@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01005304",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_Inventory.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A disposition document referenced in this supply chain inventory."
+                    "rdfs:comment": "A disposition document referenced in this supply chain inventory.",
+                    "unece:domainName": "Inventory"
                 }
             ]
         }

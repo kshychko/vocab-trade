@@ -37,20 +37,22 @@
             "rdfs:label": "exemptionReasonCode",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Registered_Tax.ExemptionReason.Code",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01004059",
-                    "unece:cefactBieDomainClass": "cefact:Registered_Tax.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The code specifying the exemption reason for this registered tax."
-                },
-                {
                     "@id": "cefact:Trade_Tax.ExemptionReason.Code",
                     "@type": "unece:BasicBIE",
                     "unece:cefactUNId": "UN01004723",
                     "unece:cefactBieDomainClass": "cefact:Trade_Tax.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A code specifying a reason for exemption from this trade related tax, levy or duty."
+                    "rdfs:comment": "A code specifying a reason for exemption from this trade related tax, levy or duty.",
+                    "unece:domainName": "TradeTax"
+                },
+                {
+                    "@id": "cefact:Registered_Tax.ExemptionReason.Code",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01004059",
+                    "unece:cefactBieDomainClass": "cefact:Registered_Tax.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The code specifying the exemption reason for this registered tax.",
+                    "unece:domainName": "RegisteredTax"
                 }
             ]
         }

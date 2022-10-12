@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01003174",
                     "unece:cefactBieDomainClass": "cefact:FinancialInstitution_Address.Details",
                     "unece:cefactBusinessProcess": "Customer to bank payment initiation",
-                    "rdfs:comment": "The code specifying the type of financial institution address."
+                    "rdfs:comment": "The code specifying the type of financial institution address.",
+                    "unece:domainName": "FinancialInstitutionAddress"
                 }
             ]
         }

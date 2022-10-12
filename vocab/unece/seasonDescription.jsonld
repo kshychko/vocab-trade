@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01008520",
                     "unece:cefactBieDomainClass": "cefact:Trade_Product.Details",
                     "unece:cefactBusinessProcess": "Cataloguing",
-                    "rdfs:comment": "A season description, expressed as text, for this trade product."
+                    "rdfs:comment": "A season description, expressed as text, for this trade product.",
+                    "unece:domainName": "Product"
                 }
             ]
         }

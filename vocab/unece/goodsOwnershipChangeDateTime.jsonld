@@ -42,7 +42,8 @@
                     "unece:cefactUNId": "UN01013423",
                     "unece:cefactBieDomainClass": "cefact:Header_TradeDelivery.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The date, time, date time, or other date time value, at header level, when the goods ownership of this trade delivery changed."
+                    "rdfs:comment": "The date, time, date time, or other date time value, at header level, when the goods ownership of this trade delivery changed.",
+                    "unece:domainName": "HeaderTradeDelivery"
                 },
                 {
                     "@id": "cefact:Line_TradeDelivery.GoodsOwnershipChange.DateTime",
@@ -50,7 +51,8 @@
                     "unece:cefactUNId": "UN01013454",
                     "unece:cefactBieDomainClass": "cefact:Line_TradeDelivery.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The date, time, date time, or other date time value for the goods ownership change, at line level, for this trade delivery."
+                    "rdfs:comment": "The date, time, date time, or other date time value for the goods ownership change, at line level, for this trade delivery.",
+                    "unece:domainName": "LineTradeDelivery"
                 }
             ]
         }

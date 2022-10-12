@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01008443",
                     "unece:cefactBieDomainClass": "cefact:Packaging_Marking.Details",
                     "unece:cefactBusinessProcess": "Supply Chain",
-                    "rdfs:comment": "A code specifying an automatic data capture method type for this packaging marking."
+                    "rdfs:comment": "A code specifying an automatic data capture method type for this packaging marking.",
+                    "unece:domainName": "Marking"
                 }
             ]
         }

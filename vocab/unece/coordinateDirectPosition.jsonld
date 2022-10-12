@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01010474",
                     "unece:cefactBieDomainClass": "cefact:Specified_LinearRing.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The specified direct position of a coordinate for this linear ring."
+                    "rdfs:comment": "The specified direct position of a coordinate for this linear ring.",
+                    "unece:domainName": "LinearRing"
                 }
             ]
         }

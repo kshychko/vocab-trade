@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01004806",
                     "unece:cefactBieDomainClass": "cefact:Transport_Event.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A specified period of time during which this transport event is delayed."
+                    "rdfs:comment": "A specified period of time during which this transport event is delayed.",
+                    "unece:domainName": "TransportEvent"
                 }
             ]
         }

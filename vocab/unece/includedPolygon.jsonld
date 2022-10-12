@@ -40,20 +40,13 @@
             "rdfs:label": "includedPolygon",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Specified_GeographicalFeature.Included.Specified_Polygon",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01012178",
-                    "unece:cefactBieDomainClass": "cefact:Specified_GeographicalFeature.Details",
-                    "unece:cefactBusinessProcess": "Agricultural",
-                    "rdfs:comment": "The polygon included in this geographical feature."
-                },
-                {
                     "@id": "cefact:Specified_GeographicalMulti-Surface.Included.Specified_Polygon",
                     "@type": "unece:AssociationBIE",
                     "unece:cefactUNId": "UN01012198",
                     "unece:cefactBieDomainClass": "cefact:Specified_GeographicalMultiSurface.Details",
                     "unece:cefactBusinessProcess": "Agricultural",
-                    "rdfs:comment": "A polygon included in this geographical multi-surface."
+                    "rdfs:comment": "A polygon included in this geographical multi-surface.",
+                    "unece:domainName": "GeographicalMultiSurface"
                 },
                 {
                     "@id": "cefact:Specified_GeographicalSurface.Included.Specified_Polygon",
@@ -61,7 +54,17 @@
                     "unece:cefactUNId": "UN01012201",
                     "unece:cefactBieDomainClass": "cefact:Specified_GeographicalSurface.Details",
                     "unece:cefactBusinessProcess": "Agricultural",
-                    "rdfs:comment": "The polygon included in this geographical surface."
+                    "rdfs:comment": "The polygon included in this geographical surface.",
+                    "unece:domainName": "GeographicalSurface"
+                },
+                {
+                    "@id": "cefact:Specified_GeographicalFeature.Included.Specified_Polygon",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01012178",
+                    "unece:cefactBieDomainClass": "cefact:Specified_GeographicalFeature.Details",
+                    "unece:cefactBusinessProcess": "Agricultural",
+                    "rdfs:comment": "The polygon included in this geographical feature.",
+                    "unece:domainName": "GeographicalFeature"
                 }
             ]
         }

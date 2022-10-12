@@ -42,28 +42,22 @@
             "rdfs:label": "actualDateTime",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Financial_Booking.Actual.DateTime",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01013214",
-                    "unece:cefactBieDomainClass": "cefact:Financial_Booking.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "An actual date, time, date time, or other date time value of this financial booking."
-                },
-                {
-                    "@id": "cefact:Document_Authentication.Actual.DateTime",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01002641",
-                    "unece:cefactBieDomainClass": "cefact:Document_Authentication.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The actual date, time, date time, or other date time value of this document authentication."
-                },
-                {
                     "@id": "cefact:Delivery_Adjustment.Actual.DateTime",
                     "@type": "unece:BasicBIE",
                     "unece:cefactUNId": "UN01003503",
                     "unece:cefactBieDomainClass": "cefact:Delivery_Adjustment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The actual date, time, date time, or other date time value of this delivery adjustment."
+                    "rdfs:comment": "The actual date, time, date time, or other date time value of this delivery adjustment.",
+                    "unece:domainName": "Adjustment"
+                },
+                {
+                    "@id": "cefact:Financial_Booking.Actual.DateTime",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01013214",
+                    "unece:cefactBieDomainClass": "cefact:Financial_Booking.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "An actual date, time, date time, or other date time value of this financial booking.",
+                    "unece:domainName": "Booking"
                 },
                 {
                     "@id": "cefact:Financial_Adjustment.Actual.DateTime",
@@ -71,7 +65,17 @@
                     "unece:cefactUNId": "UN01003599",
                     "unece:cefactBieDomainClass": "cefact:Financial_Adjustment.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The actual date, time, date time, or other date time value of this financial adjustment."
+                    "rdfs:comment": "The actual date, time, date time, or other date time value of this financial adjustment.",
+                    "unece:domainName": "Adjustment"
+                },
+                {
+                    "@id": "cefact:Document_Authentication.Actual.DateTime",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01002641",
+                    "unece:cefactBieDomainClass": "cefact:Document_Authentication.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The actual date, time, date time, or other date time value of this document authentication.",
+                    "unece:domainName": "Authentication"
                 }
             ]
         }

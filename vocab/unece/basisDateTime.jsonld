@@ -42,7 +42,8 @@
                     "unece:cefactUNId": "UN01004618",
                     "unece:cefactBieDomainClass": "cefact:Trade_PaymentDiscountTerms.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The date, time, date time, or other date time value used as the basis to calculate the discount in the trade payment discount terms."
+                    "rdfs:comment": "The date, time, date time, or other date time value used as the basis to calculate the discount in the trade payment discount terms.",
+                    "unece:domainName": "PaymentDiscountTerms"
                 },
                 {
                     "@id": "cefact:Trade_PaymentPenaltyTerms.Basis.DateTime",
@@ -50,7 +51,8 @@
                     "unece:cefactUNId": "UN01004627",
                     "unece:cefactBieDomainClass": "cefact:Trade_PaymentPenaltyTerms.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The date, time, date time, or other date time value used as the basis to calculate these trade payment penalty terms."
+                    "rdfs:comment": "The date, time, date time, or other date time value used as the basis to calculate these trade payment penalty terms.",
+                    "unece:domainName": "PaymentPenaltyTerms"
                 }
             ]
         }

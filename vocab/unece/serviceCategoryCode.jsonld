@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01003728",
                     "unece:cefactBieDomainClass": "cefact:Logistics_ServiceCharge.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The code specifying the category of service for this logistics service charge."
+                    "rdfs:comment": "The code specifying the category of service for this logistics service charge.",
+                    "unece:domainName": "ServiceCharge"
                 }
             ]
         }

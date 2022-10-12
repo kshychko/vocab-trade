@@ -41,7 +41,8 @@
                     "unece:cefactUNId": "UN01011668",
                     "unece:cefactBieDomainClass": "cefact:Header_TradeSettlement.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The currency exchange applicable to the invoice in this header trade settlement."
+                    "rdfs:comment": "The currency exchange applicable to the invoice in this header trade settlement.",
+                    "unece:domainName": "HeaderTradeSettlement"
                 },
                 {
                     "@id": "cefact:SupplyChain_Consignment.Invoice_Applicable.Trade_CurrencyExchange",
@@ -49,7 +50,8 @@
                     "unece:cefactUNId": "UN01004280",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A currency exchange applicable to the invoice for this supply chain consignment."
+                    "rdfs:comment": "A currency exchange applicable to the invoice for this supply chain consignment.",
+                    "unece:domainName": "Consignment"
                 }
             ]
         }

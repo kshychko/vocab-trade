@@ -41,7 +41,8 @@
                     "unece:cefactUNId": "UN01004602",
                     "unece:cefactBieDomainClass": "cefact:Trade_Party.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A trade contact defined for this trade party."
+                    "rdfs:comment": "A trade contact defined for this trade party.",
+                    "unece:domainName": "TradeParty"
                 },
                 {
                     "@id": "cefact:Location_Party.Defined.Trade_Contact",
@@ -49,7 +50,8 @@
                     "unece:cefactUNId": "UN01003669",
                     "unece:cefactBieDomainClass": "cefact:Location_Party.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A trade contact defined for this location party."
+                    "rdfs:comment": "A trade contact defined for this location party.",
+                    "unece:domainName": "LocationParty"
                 }
             ]
         }

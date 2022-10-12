@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01013490",
                     "unece:cefactBieDomainClass": "cefact:Monitoring_IOTDevice.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "An interface between an OEM (Original Equipment Manufacturer) equipment and this monitoring IOT device."
+                    "rdfs:comment": "An interface between an OEM (Original Equipment Manufacturer) equipment and this monitoring IOT device.",
+                    "unece:domainName": "IOTDevice"
                 }
             ]
         }

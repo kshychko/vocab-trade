@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01004855",
                     "unece:cefactBieDomainClass": "cefact:DocumentContext_Parameter.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The document version specified for this document context parameter."
+                    "rdfs:comment": "The document version specified for this document context parameter.",
+                    "unece:domainName": "DocumentContextParameter"
                 }
             ]
         }

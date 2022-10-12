@@ -31,20 +31,22 @@
             "rdfs:label": "includedConsignmentItem",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Referenced_SupplyChain_Consignment.Included.Referenced_SupplyChain_ConsignmentItem",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01004048",
-                    "unece:cefactBieDomainClass": "cefact:ReferencedSupplyChain_Consignment.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A referenced consignment item included in this referenced supply chain consignment."
-                },
-                {
                     "@id": "cefact:SupplyChain_Consignment.Included.SupplyChain_ConsignmentItem",
                     "@type": "unece:AssociationBIE",
                     "unece:cefactUNId": "UN01004258",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A consignment item included in this supply chain consignment."
+                    "rdfs:comment": "A consignment item included in this supply chain consignment.",
+                    "unece:domainName": "Consignment"
+                },
+                {
+                    "@id": "cefact:Referenced_SupplyChain_Consignment.Included.Referenced_SupplyChain_ConsignmentItem",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01004048",
+                    "unece:cefactBieDomainClass": "cefact:ReferencedSupplyChain_Consignment.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A referenced consignment item included in this referenced supply chain consignment.",
+                    "unece:domainName": "Consignment"
                 }
             ]
         }

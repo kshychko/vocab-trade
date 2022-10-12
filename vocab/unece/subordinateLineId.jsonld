@@ -43,7 +43,8 @@
                     "unece:cefactUNId": "UN01013361",
                     "unece:cefactBieDomainClass": "cefact:DocumentLine_Document.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "An identifier of a subordinate line of this document line."
+                    "rdfs:comment": "An identifier of a subordinate line of this document line.",
+                    "unece:domainName": "DocumentLineDocument"
                 },
                 {
                     "@id": "cefact:Referenced_Document.SubordinateLine.Identifier",
@@ -51,7 +52,8 @@
                     "unece:cefactUNId": "UN01012962",
                     "unece:cefactBieDomainClass": "cefact:Referenced_Document.Details",
                     "unece:cefactBusinessProcess": "Supply Chain",
-                    "rdfs:comment": "The identifier of the subordinate line of this referenced document."
+                    "rdfs:comment": "The identifier of the subordinate line of this referenced document.",
+                    "unece:domainName": "Document"
                 }
             ]
         }

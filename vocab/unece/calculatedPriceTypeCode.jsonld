@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01000180",
                     "unece:cefactBieDomainClass": "cefact:Calculated_Price.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A code specifying the type of calculated price."
+                    "rdfs:comment": "A code specifying the type of calculated price.",
+                    "unece:domainName": "CalculatedPrice"
                 }
             ]
         }

@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01010116",
                     "unece:cefactBieDomainClass": "cefact:Logistics_TransportMeans.Details",
                     "unece:cefactBusinessProcess": "Transport",
-                    "rdfs:comment": "The owner agent trade party for this logistics means of transport."
+                    "rdfs:comment": "The owner agent trade party for this logistics means of transport.",
+                    "unece:domainName": "TransportMeans"
                 }
             ]
         }

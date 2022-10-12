@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01004857",
                     "unece:cefactBieDomainClass": "cefact:ProductHandling_Process.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The specified period of completion for this product handling process."
+                    "rdfs:comment": "The specified period of completion for this product handling process.",
+                    "unece:domainName": "Process"
                 }
             ]
         }

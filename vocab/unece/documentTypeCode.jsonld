@@ -44,22 +44,24 @@
             "rdfs:label": "documentTypeCode",
             "unece:cefactElementMetadata": [
                 {
+                    "@id": "cefact:Acknowledgement_Document.Type.Code",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "1001",
+                    "unece:cefactUNId": "UN01002105",
+                    "unece:cefactBieDomainClass": "cefact:Acknowledgement_Document.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "A code specifying a type of acknowledgement document.",
+                    "unece:domainName": "AcknowledgementDocument"
+                },
+                {
                     "@id": "cefact:Exchanged_Document.Type.Code",
                     "@type": "unece:BasicBIE",
                     "unece:tded": "1001",
                     "unece:cefactUNId": "UN01002491",
                     "unece:cefactBieDomainClass": "cefact:Exchanged_Document.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The code specifying the type of exchanged document."
-                },
-                {
-                    "@id": "cefact:Exchanged_Declaration.Type.Code",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "1001",
-                    "unece:cefactUNId": "UN01011013",
-                    "unece:cefactBieDomainClass": "cefact:Exchanged_Declaration.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The code specifying the type of this exchanged declaration."
+                    "rdfs:comment": "The code specifying the type of exchanged document.",
+                    "unece:domainName": "ExchangedDocument"
                 },
                 {
                     "@id": "cefact:Referenced_Document.Type.Code",
@@ -68,16 +70,18 @@
                     "unece:cefactUNId": "UN01001577",
                     "unece:cefactBieDomainClass": "cefact:Referenced_Document.Details",
                     "unece:cefactBusinessProcess": "Trade",
-                    "rdfs:comment": "The code specifying the type of referenced document."
+                    "rdfs:comment": "The code specifying the type of referenced document.",
+                    "unece:domainName": "Document"
                 },
                 {
-                    "@id": "cefact:Acknowledgement_Document.Type.Code",
+                    "@id": "cefact:Exchanged_Declaration.Type.Code",
                     "@type": "unece:BasicBIE",
                     "unece:tded": "1001",
-                    "unece:cefactUNId": "UN01002105",
-                    "unece:cefactBieDomainClass": "cefact:Acknowledgement_Document.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A code specifying a type of acknowledgement document."
+                    "unece:cefactUNId": "UN01011013",
+                    "unece:cefactBieDomainClass": "cefact:Exchanged_Declaration.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The code specifying the type of this exchanged declaration.",
+                    "unece:domainName": "Declaration"
                 }
             ]
         }

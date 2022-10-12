@@ -35,7 +35,8 @@
                     "unece:cefactUNId": "UN01012565",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_Event.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A time value of an occurrence of this supply chain event."
+                    "rdfs:comment": "A time value of an occurrence of this supply chain event.",
+                    "unece:domainName": "SupplyChainEvent"
                 }
             ]
         }

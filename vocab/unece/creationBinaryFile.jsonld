@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01011934",
                     "unece:cefactBieDomainClass": "cefact:Valuation_BreakdownStatement.Details",
                     "unece:cefactBusinessProcess": "Invoicing",
-                    "rdfs:comment": "A specified binary file used to create this valuation breakdown statement."
+                    "rdfs:comment": "A specified binary file used to create this valuation breakdown statement.",
+                    "unece:domainName": "BreakdownStatement"
                 }
             ]
         }

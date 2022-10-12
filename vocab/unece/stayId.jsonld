@@ -35,7 +35,8 @@
                     "unece:cefactUNId": "UN01003845",
                     "unece:cefactBieDomainClass": "cefact:Logistics_TransportMovement.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The unique identifier of a stay in a port, airport or other place of service for this logistics transport movement."
+                    "rdfs:comment": "The unique identifier of a stay in a port, airport or other place of service for this logistics transport movement.",
+                    "unece:domainName": "TransportMovement"
                 }
             ]
         }

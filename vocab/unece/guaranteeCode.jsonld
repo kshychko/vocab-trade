@@ -37,22 +37,24 @@
             "rdfs:label": "guaranteeCode",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Trade_Tax.Guarantee.Code",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "4377",
-                    "unece:cefactUNId": "UN01004738",
-                    "unece:cefactBieDomainClass": "cefact:Trade_Tax.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The code specifying an undertaking given in cash, bond or as a written guarantee to ensure that an obligation will be fulfilled for this trade related tax, levy or duty."
-                },
-                {
                     "@id": "cefact:Cross-Border_RegulatoryProcedure.Guarantee.Code",
                     "@type": "unece:BasicBIE",
                     "unece:tded": "4377",
                     "unece:cefactUNId": "UN01006151",
                     "unece:cefactBieDomainClass": "cefact:CrossBorder_RegulatoryProcedure.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The code specifying an undertaking given in cash, bond or as a written guarantee to ensure that an obligation will be fulfilled for this cross-border regulatory procedure."
+                    "rdfs:comment": "The code specifying an undertaking given in cash, bond or as a written guarantee to ensure that an obligation will be fulfilled for this cross-border regulatory procedure.",
+                    "unece:domainName": "RegulatoryProcedure"
+                },
+                {
+                    "@id": "cefact:Trade_Tax.Guarantee.Code",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "4377",
+                    "unece:cefactUNId": "UN01004738",
+                    "unece:cefactBieDomainClass": "cefact:Trade_Tax.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The code specifying an undertaking given in cash, bond or as a written guarantee to ensure that an obligation will be fulfilled for this trade related tax, levy or duty.",
+                    "unece:domainName": "TradeTax"
                 }
             ]
         }

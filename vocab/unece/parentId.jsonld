@@ -38,7 +38,8 @@
                     "unece:cefactUNId": "UN01006797",
                     "unece:cefactBieDomainClass": "cefact:ReferencedLogistics_Package.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The parent identifier for this referenced logistics package."
+                    "rdfs:comment": "The parent identifier for this referenced logistics package.",
+                    "unece:domainName": "Package"
                 },
                 {
                     "@id": "cefact:Logistics_Package.Parent_Identification.Identifier",
@@ -47,7 +48,8 @@
                     "unece:cefactUNId": "UN01003702",
                     "unece:cefactBieDomainClass": "cefact:Logistics_Package.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The unique parent identifier for this logistics package."
+                    "rdfs:comment": "The unique parent identifier for this logistics package.",
+                    "unece:domainName": "Package"
                 }
             ]
         }

@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01013212",
                     "unece:cefactBieDomainClass": "cefact:Financial_Adjustment.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The code specifying whether the financial adjustment must be subtracted or added."
+                    "rdfs:comment": "The code specifying whether the financial adjustment must be subtracted or added.",
+                    "unece:domainName": "Adjustment"
                 }
             ]
         }

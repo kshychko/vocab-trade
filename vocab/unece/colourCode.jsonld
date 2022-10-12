@@ -43,15 +43,8 @@
                     "unece:cefactUNId": "UN01012741",
                     "unece:cefactBieDomainClass": "cefact:ReferencedLogistics_Package.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The code specifying the colour of this referenced logistics package."
-                },
-                {
-                    "@id": "cefact:Trade_Product.Colour.Code",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01007262",
-                    "unece:cefactBieDomainClass": "cefact:Trade_Product.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The code specifying the colour for this trade product."
+                    "rdfs:comment": "The code specifying the colour of this referenced logistics package.",
+                    "unece:domainName": "Package"
                 },
                 {
                     "@id": "cefact:Logistics_Package.Colour.Code",
@@ -59,7 +52,17 @@
                     "unece:cefactUNId": "UN01012758",
                     "unece:cefactBieDomainClass": "cefact:Logistics_Package.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The code specifying the colour of this logistics package."
+                    "rdfs:comment": "The code specifying the colour of this logistics package.",
+                    "unece:domainName": "Package"
+                },
+                {
+                    "@id": "cefact:Trade_Product.Colour.Code",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01007262",
+                    "unece:cefactBieDomainClass": "cefact:Trade_Product.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The code specifying the colour for this trade product.",
+                    "unece:domainName": "Product"
                 }
             ]
         }

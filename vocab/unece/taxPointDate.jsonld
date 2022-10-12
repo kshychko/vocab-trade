@@ -44,7 +44,8 @@
                     "unece:cefactBieDomainClass": "cefact:Applied_Tax.Details",
                     "unece:cefactBusinessProcess": "Trade",
                     "rdfs:comment": "The date of the tax point when taxes, such as VAT, are to be applied. Deprecated - Use Tax. Specified Tax Point. Date Time instead.",
-                    "unece:status": "deprecated"
+                    "unece:status": "deprecated",
+                    "unece:domainName": "AppliedTax"
                 },
                 {
                     "@id": "cefact:Trade_Tax.TaxPoint.Date",
@@ -53,7 +54,8 @@
                     "unece:cefactBieDomainClass": "cefact:Trade_Tax.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
                     "rdfs:comment": "The date of the tax point when this trade related tax, levy or duty becomes applicable. Deprecated - Use Tax. Specified Tax Point. Date Time instead.",
-                    "unece:status": "deprecated"
+                    "unece:status": "deprecated",
+                    "unece:domainName": "TradeTax"
                 }
             ]
         }

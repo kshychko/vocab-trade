@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01004058",
                     "unece:cefactBieDomainClass": "cefact:Registered_Tax.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The code specifying the type of registered tax."
+                    "rdfs:comment": "The code specifying the type of registered tax.",
+                    "unece:domainName": "RegisteredTax"
                 }
             ]
         }

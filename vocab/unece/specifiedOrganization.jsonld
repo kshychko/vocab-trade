@@ -41,7 +41,8 @@
                     "unece:cefactUNId": "UN01002024",
                     "unece:cefactBieDomainClass": "cefact:Requesting_Party.Details",
                     "unece:cefactBusinessProcess": "Project Management",
-                    "rdfs:comment": "The project organization, such as a business or government body, for this requesting party."
+                    "rdfs:comment": "The project organization, such as a business or government body, for this requesting party.",
+                    "unece:domainName": "RequestingParty"
                 },
                 {
                     "@id": "cefact:Trade_Party.Specified.Legal_Organization",
@@ -49,7 +50,8 @@
                     "unece:cefactUNId": "UN01004601",
                     "unece:cefactBieDomainClass": "cefact:Trade_Party.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The legally constituted organization specified for this trade party."
+                    "rdfs:comment": "The legally constituted organization specified for this trade party.",
+                    "unece:domainName": "TradeParty"
                 }
             ]
         }

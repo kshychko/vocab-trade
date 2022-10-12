@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01001277",
                     "unece:cefactBieDomainClass": "cefact:Specified_Period.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The indication of whether or not an entity is open during this specified period."
+                    "rdfs:comment": "The indication of whether or not an entity is open during this specified period.",
+                    "unece:domainName": "Period"
                 }
             ]
         }

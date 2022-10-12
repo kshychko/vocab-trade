@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01013352",
                     "unece:cefactBieDomainClass": "cefact:Exchanged_Document.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "An urgency, expressed as text, of this exchanged document."
+                    "rdfs:comment": "An urgency, expressed as text, of this exchanged document.",
+                    "unece:domainName": "ExchangedDocument"
                 }
             ]
         }

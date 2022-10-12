@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01013464",
                     "unece:cefactBieDomainClass": "cefact:Line_TradeAgreement.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A mission project program for this line trade agreement."
+                    "rdfs:comment": "A mission project program for this line trade agreement.",
+                    "unece:domainName": "LineTradeAgreement"
                 }
             ]
         }

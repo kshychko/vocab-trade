@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01012761",
                     "unece:cefactBieDomainClass": "cefact:ExchangedDocument_Context.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The date, time, date time, or other date time value of the processing of a transaction for this exchanged document context."
+                    "rdfs:comment": "The date, time, date time, or other date time value of the processing of a transaction for this exchanged document context.",
+                    "unece:domainName": "Context"
                 }
             ]
         }

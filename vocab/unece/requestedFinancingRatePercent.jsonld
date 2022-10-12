@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01013268",
                     "unece:cefactBieDomainClass": "cefact:Header_TradeSettlement.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The financing rate, expressed as a percentage, requested for this header trade settlement."
+                    "rdfs:comment": "The financing rate, expressed as a percentage, requested for this header trade settlement.",
+                    "unece:domainName": "HeaderTradeSettlement"
                 }
             ]
         }

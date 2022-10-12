@@ -35,7 +35,8 @@
                     "unece:cefactUNId": "UN01007178",
                     "unece:cefactBieDomainClass": "cefact:Handling_Instructions.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The maximum stackability weight applicable to these handling instructions."
+                    "rdfs:comment": "The maximum stackability weight applicable to these handling instructions.",
+                    "unece:domainName": "HandlingInstructions"
                 }
             ]
         }

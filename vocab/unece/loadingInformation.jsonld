@@ -35,7 +35,8 @@
                     "unece:cefactUNId": "UN01004207",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "Loading information, expressed as text, for this supply chain consignment, such as advice and instructions."
+                    "rdfs:comment": "Loading information, expressed as text, for this supply chain consignment, such as advice and instructions.",
+                    "unece:domainName": "Consignment"
                 }
             ]
         }

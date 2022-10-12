@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01010094",
                     "unece:cefactBieDomainClass": "cefact:Logistics_Status.Details",
                     "unece:cefactBusinessProcess": "Transport",
-                    "rdfs:comment": "A transport departure event reported for this logistics status."
+                    "rdfs:comment": "A transport departure event reported for this logistics status.",
+                    "unece:domainName": "LogisticsStatus"
                 }
             ]
         }

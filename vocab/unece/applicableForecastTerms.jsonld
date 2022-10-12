@@ -41,7 +41,8 @@
                     "unece:cefactUNId": "UN01012562",
                     "unece:cefactBieDomainClass": "cefact:Line_TradeAgreement.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The supply chain forecast terms applicable to this line trade agreement."
+                    "rdfs:comment": "The supply chain forecast terms applicable to this line trade agreement.",
+                    "unece:domainName": "LineTradeAgreement"
                 },
                 {
                     "@id": "cefact:Header_TradeAgreement.Applicable.SupplyChain_ForecastTerms",
@@ -49,7 +50,8 @@
                     "unece:cefactUNId": "UN01011562",
                     "unece:cefactBieDomainClass": "cefact:Header_TradeAgreement.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The supply chain forecast terms applicable to this header trade agreement."
+                    "rdfs:comment": "The supply chain forecast terms applicable to this header trade agreement.",
+                    "unece:domainName": "HeaderTradeAgreement"
                 }
             ]
         }

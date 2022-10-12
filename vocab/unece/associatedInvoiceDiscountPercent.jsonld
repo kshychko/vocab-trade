@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01004191",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A percent that is a discount on an invoice amount associated with this supply chain consignment."
+                    "rdfs:comment": "A percent that is a discount on an invoice amount associated with this supply chain consignment.",
+                    "unece:domainName": "Consignment"
                 }
             ]
         }

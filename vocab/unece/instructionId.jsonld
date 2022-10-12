@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01008868",
                     "unece:cefactBieDomainClass": "cefact:TradeSettlement_Payment.Details",
                     "unece:cefactBusinessProcess": "Trade",
-                    "rdfs:comment": "The unique identifier of the instruction for this trade settlement payment."
+                    "rdfs:comment": "The unique identifier of the instruction for this trade settlement payment.",
+                    "unece:domainName": "TradeSettlementPayment"
                 }
             ]
         }

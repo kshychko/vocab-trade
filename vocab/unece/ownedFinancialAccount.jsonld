@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01013304",
                     "unece:cefactBieDomainClass": "cefact:Trade_Party.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The creditor financial account owned by this trade party."
+                    "rdfs:comment": "The creditor financial account owned by this trade party.",
+                    "unece:domainName": "TradeParty"
                 }
             ]
         }

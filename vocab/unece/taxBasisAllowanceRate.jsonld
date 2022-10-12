@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01004724",
                     "unece:cefactBieDomainClass": "cefact:Trade_Tax.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The rate of the tax basis allowance (deduction or discount) used to calculate the trade related tax, levy or duty."
+                    "rdfs:comment": "The rate of the tax basis allowance (deduction or discount) used to calculate the trade related tax, levy or duty.",
+                    "unece:domainName": "TradeTax"
                 }
             ]
         }

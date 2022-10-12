@@ -35,7 +35,8 @@
                     "unece:cefactUNId": "UN01003558",
                     "unece:cefactBieDomainClass": "cefact:Exchanged_Document.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The number of copies required of this exchanged document."
+                    "rdfs:comment": "The number of copies required of this exchanged document.",
+                    "unece:domainName": "ExchangedDocument"
                 }
             ]
         }

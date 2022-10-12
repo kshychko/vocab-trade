@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01003782",
                     "unece:cefactBieDomainClass": "cefact:Logistics_TransportEquipment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The number of power supply connectors for this piece of logistics transport equipment."
+                    "rdfs:comment": "The number of power supply connectors for this piece of logistics transport equipment.",
+                    "unece:domainName": "LogisticsTransportEquipment"
                 }
             ]
         }

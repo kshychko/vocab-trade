@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01009957",
                     "unece:cefactBieDomainClass": "cefact:Specified_Marketplace.Details",
                     "unece:cefactBusinessProcess": "Invoicing",
-                    "rdfs:comment": "The code specifying a sales method, such as an auction clock or mediation, for this specified marketplace."
+                    "rdfs:comment": "The code specifying a sales method, such as an auction clock or mediation, for this specified marketplace.",
+                    "unece:domainName": "Marketplace"
                 }
             ]
         }

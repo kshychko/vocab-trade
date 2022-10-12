@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01010015",
                     "unece:cefactBieDomainClass": "cefact:Subordinate_TradeLineItem.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A product applicable for this subordinate trade line item."
+                    "rdfs:comment": "A product applicable for this subordinate trade line item.",
+                    "unece:domainName": "TradeLineItem"
                 }
             ]
         }

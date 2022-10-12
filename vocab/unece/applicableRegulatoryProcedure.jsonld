@@ -45,20 +45,13 @@
             "rdfs:label": "applicableRegulatoryProcedure",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Header_TradeAgreement.Applicable.Cross-Border_RegulatoryProcedure",
+                    "@id": "cefact:Referenced_SupplyChain_Consignment.Applicable.Cross-Border_RegulatoryProcedure",
                     "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01012123",
-                    "unece:cefactBieDomainClass": "cefact:Header_TradeAgreement.Details",
-                    "unece:cefactBusinessProcess": "Trade",
-                    "rdfs:comment": "A cross-border regulatory procedure applicable to this header trade agreement."
-                },
-                {
-                    "@id": "cefact:SupplyChain_Consignment.Applicable.Cross-Border_RegulatoryProcedure",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01006189",
-                    "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
+                    "unece:cefactUNId": "UN01011064",
+                    "unece:cefactBieDomainClass": "cefact:ReferencedSupplyChain_Consignment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A cross-border regulatory procedure applicable to this supply chain consignment."
+                    "rdfs:comment": "A cross-border regulatory procedure applicable to this referenced supply chain consignment.",
+                    "unece:domainName": "Consignment"
                 },
                 {
                     "@id": "cefact:Logistics_TransportMovement.Applicable.Cross-Border_RegulatoryProcedure",
@@ -66,7 +59,17 @@
                     "unece:cefactUNId": "UN01006187",
                     "unece:cefactBieDomainClass": "cefact:Logistics_TransportMovement.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A cross-border regulatory procedure applicable to this logistics transport movement."
+                    "rdfs:comment": "A cross-border regulatory procedure applicable to this logistics transport movement.",
+                    "unece:domainName": "TransportMovement"
+                },
+                {
+                    "@id": "cefact:Header_TradeAgreement.Applicable.Cross-Border_RegulatoryProcedure",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01012123",
+                    "unece:cefactBieDomainClass": "cefact:Header_TradeAgreement.Details",
+                    "unece:cefactBusinessProcess": "Trade",
+                    "rdfs:comment": "A cross-border regulatory procedure applicable to this header trade agreement.",
+                    "unece:domainName": "HeaderTradeAgreement"
                 },
                 {
                     "@id": "cefact:SupplyChain_ConsignmentItem.Applicable.Cross-Border_RegulatoryProcedure",
@@ -74,15 +77,17 @@
                     "unece:cefactUNId": "UN01006188",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_ConsignmentItem.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A cross-border regulatory procedure applicable to this supply chain consignment item."
+                    "rdfs:comment": "A cross-border regulatory procedure applicable to this supply chain consignment item.",
+                    "unece:domainName": "ConsignmentItem"
                 },
                 {
-                    "@id": "cefact:Referenced_SupplyChain_Consignment.Applicable.Cross-Border_RegulatoryProcedure",
+                    "@id": "cefact:SupplyChain_Consignment.Applicable.Cross-Border_RegulatoryProcedure",
                     "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01011064",
-                    "unece:cefactBieDomainClass": "cefact:ReferencedSupplyChain_Consignment.Details",
+                    "unece:cefactUNId": "UN01006189",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A cross-border regulatory procedure applicable to this referenced supply chain consignment."
+                    "rdfs:comment": "A cross-border regulatory procedure applicable to this supply chain consignment.",
+                    "unece:domainName": "Consignment"
                 }
             ]
         }

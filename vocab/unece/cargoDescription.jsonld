@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01010120",
                     "unece:cefactBieDomainClass": "cefact:Logistics_TransportMovement.Details",
                     "unece:cefactBusinessProcess": "Transport",
-                    "rdfs:comment": "The textual description of the cargo for this logistics transport movement."
+                    "rdfs:comment": "The textual description of the cargo for this logistics transport movement.",
+                    "unece:domainName": "TransportMovement"
                 }
             ]
         }

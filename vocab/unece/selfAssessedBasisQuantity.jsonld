@@ -35,7 +35,8 @@
                     "unece:cefactUNId": "UN01004732",
                     "unece:cefactBieDomainClass": "cefact:Trade_Tax.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The quantity on which this trade related tax, levy or duty has been calculated on a self-assessment basis."
+                    "rdfs:comment": "The quantity on which this trade related tax, levy or duty has been calculated on a self-assessment basis.",
+                    "unece:domainName": "TradeTax"
                 }
             ]
         }

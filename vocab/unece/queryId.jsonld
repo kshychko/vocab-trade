@@ -35,7 +35,8 @@
                     "unece:cefactUNId": "UN01000079",
                     "unece:cefactBieDomainClass": "cefact:Specification_Response.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The unique identifier for the query to which this response refers."
+                    "rdfs:comment": "The unique identifier for the query to which this response refers.",
+                    "unece:domainName": "Response"
                 }
             ]
         }

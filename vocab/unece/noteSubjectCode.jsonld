@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01002523",
                     "unece:cefactBieDomainClass": "cefact:Note.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A code specifying the subject of this note."
+                    "rdfs:comment": "A code specifying the subject of this note.",
+                    "unece:domainName": "Note"
                 }
             ]
         }

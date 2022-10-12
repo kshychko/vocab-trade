@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01001276",
                     "unece:cefactBieDomainClass": "cefact:Specified_Period.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The date, time, date time or other date time value for a complete specified period of time expressed as a specific month, a specific week, etc."
+                    "rdfs:comment": "The date, time, date time or other date time value for a complete specified period of time expressed as a specific month, a specific week, etc.",
+                    "unece:domainName": "Period"
                 }
             ]
         }

@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01004274",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A re-export country for this supply chain consignment."
+                    "rdfs:comment": "A re-export country for this supply chain consignment.",
+                    "unece:domainName": "Consignment"
                 }
             ]
         }

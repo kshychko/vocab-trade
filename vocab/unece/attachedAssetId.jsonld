@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01013484",
                     "unece:cefactBieDomainClass": "cefact:Monitoring_IOTDevice.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The identifier for the asset, such as a container, to which this monitoring IOT device is attached."
+                    "rdfs:comment": "The identifier for the asset, such as a container, to which this monitoring IOT device is attached.",
+                    "unece:domainName": "IOTDevice"
                 }
             ]
         }

@@ -36,7 +36,8 @@
                     "unece:cefactUNId": "UN01013180",
                     "unece:cefactBieDomainClass": "cefact:ReferencedLogistics_TransportEquipment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A seal affixed to this piece of referenced logistics transport equipment."
+                    "rdfs:comment": "A seal affixed to this piece of referenced logistics transport equipment.",
+                    "unece:domainName": "LogisticsTransportEquipment"
                 },
                 {
                     "@id": "cefact:Logistics_TransportEquipment.Affixed.Logistics_Seal",
@@ -44,7 +45,8 @@
                     "unece:cefactUNId": "UN01003795",
                     "unece:cefactBieDomainClass": "cefact:Logistics_TransportEquipment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A seal affixed to this piece of logistics transport equipment."
+                    "rdfs:comment": "A seal affixed to this piece of logistics transport equipment.",
+                    "unece:domainName": "LogisticsTransportEquipment"
                 }
             ]
         }

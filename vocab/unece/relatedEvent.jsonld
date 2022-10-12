@@ -41,7 +41,8 @@
                     "unece:cefactUNId": "UN01013594",
                     "unece:cefactBieDomainClass": "cefact:Logistics_TransportEquipment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A communication event related to this piece of logistics transport equipment."
+                    "rdfs:comment": "A communication event related to this piece of logistics transport equipment.",
+                    "unece:domainName": "LogisticsTransportEquipment"
                 },
                 {
                     "@id": "cefact:Monitoring_IOTDevice.Related.Communication_Event",
@@ -49,7 +50,8 @@
                     "unece:cefactUNId": "UN01013492",
                     "unece:cefactBieDomainClass": "cefact:Monitoring_IOTDevice.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A communication event related to this monitoring IOT device."
+                    "rdfs:comment": "A communication event related to this monitoring IOT device.",
+                    "unece:domainName": "IOTDevice"
                 }
             ]
         }

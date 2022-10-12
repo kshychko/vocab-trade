@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01007549",
                     "unece:cefactBieDomainClass": "cefact:Valuation_BreakdownStatement.Details",
                     "unece:cefactBusinessProcess": "Invoicing",
-                    "rdfs:comment": "A unique identifier of a method of measurement for this valuation breakdown statement."
+                    "rdfs:comment": "A unique identifier of a method of measurement for this valuation breakdown statement.",
+                    "unece:domainName": "BreakdownStatement"
                 }
             ]
         }

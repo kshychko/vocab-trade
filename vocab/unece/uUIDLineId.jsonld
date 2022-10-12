@@ -35,7 +35,8 @@
                     "unece:cefactUNId": "UN01003515",
                     "unece:cefactBieDomainClass": "cefact:DocumentLine_Document.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The universally unique identifier (UUID) of this document line."
+                    "rdfs:comment": "The universally unique identifier (UUID) of this document line.",
+                    "unece:domainName": "DocumentLineDocument"
                 }
             ]
         }

@@ -35,7 +35,8 @@
                     "unece:cefactUNId": "UN01004770",
                     "unece:cefactBieDomainClass": "cefact:Transport_DangerousGoods.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The unique TRansport EMergency (TREM) card identifier for these transported dangerous goods."
+                    "rdfs:comment": "The unique TRansport EMergency (TREM) card identifier for these transported dangerous goods.",
+                    "unece:domainName": "DangerousGoods"
                 }
             ]
         }

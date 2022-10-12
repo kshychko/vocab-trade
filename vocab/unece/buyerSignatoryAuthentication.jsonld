@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01013397",
                     "unece:cefactBieDomainClass": "cefact:Exchanged_Document.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The buyer signature that authenticates this exchanged document."
+                    "rdfs:comment": "The buyer signature that authenticates this exchanged document.",
+                    "unece:domainName": "ExchangedDocument"
                 }
             ]
         }

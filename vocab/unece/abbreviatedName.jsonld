@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01002518",
                     "unece:cefactBieDomainClass": "cefact:Academic_Qualification.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The abbreviated name, expressed as text, of this academic qualification."
+                    "rdfs:comment": "The abbreviated name, expressed as text, of this academic qualification.",
+                    "unece:domainName": "Qualification"
                 }
             ]
         }

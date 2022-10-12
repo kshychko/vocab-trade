@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01004646",
                     "unece:cefactBieDomainClass": "cefact:Trade_Price.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A reason, expressed as text, for a change of this trade price."
+                    "rdfs:comment": "A reason, expressed as text, for a change of this trade price.",
+                    "unece:domainName": "TradePrice"
                 }
             ]
         }

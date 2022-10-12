@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01004774",
                     "unece:cefactBieDomainClass": "cefact:Transport_DangerousGoods.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The code specifying the level of danger that the packaging of these dangerous goods must cover for transport purposes."
+                    "rdfs:comment": "The code specifying the level of danger that the packaging of these dangerous goods must cover for transport purposes.",
+                    "unece:domainName": "DangerousGoods"
                 }
             ]
         }

@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01013234",
                     "unece:cefactBieDomainClass": "cefact:FinancingRequest_Document.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "An authorization, expressed as text, for this financing request document."
+                    "rdfs:comment": "An authorization, expressed as text, for this financing request document.",
+                    "unece:domainName": "FinancingRequestDocument"
                 }
             ]
         }

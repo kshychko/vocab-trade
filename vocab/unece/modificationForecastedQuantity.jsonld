@@ -37,20 +37,22 @@
             "rdfs:label": "modificationForecastedQuantity",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Header_TradeDelivery.Modification_Forecasted.Quantity",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01011611",
-                    "unece:cefactBieDomainClass": "cefact:Header_TradeDelivery.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The modification of a previously forecasted quantity, at header level, for this trade delivery."
-                },
-                {
                     "@id": "cefact:Line_TradeDelivery.Modification_Forecasted.Quantity",
                     "@type": "unece:BasicBIE",
                     "unece:cefactUNId": "UN01013007",
                     "unece:cefactBieDomainClass": "cefact:Line_TradeDelivery.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The modification of a forecasted quantity, at line level, for this trade delivery."
+                    "rdfs:comment": "The modification of a forecasted quantity, at line level, for this trade delivery.",
+                    "unece:domainName": "LineTradeDelivery"
+                },
+                {
+                    "@id": "cefact:Header_TradeDelivery.Modification_Forecasted.Quantity",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01011611",
+                    "unece:cefactBieDomainClass": "cefact:Header_TradeDelivery.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The modification of a previously forecasted quantity, at header level, for this trade delivery.",
+                    "unece:domainName": "HeaderTradeDelivery"
                 }
             ]
         }

@@ -38,7 +38,8 @@
                     "unece:cefactUNId": "UN01004045",
                     "unece:cefactBieDomainClass": "cefact:ReferencedSupplyChain_Consignment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The unique identifier assigned by the freight forwarder to this referenced supply chain consignment."
+                    "rdfs:comment": "The unique identifier assigned by the freight forwarder to this referenced supply chain consignment.",
+                    "unece:domainName": "Consignment"
                 },
                 {
                     "@id": "cefact:SupplyChain_Consignment.FreightForwarderAssigned.Identifier",
@@ -47,7 +48,8 @@
                     "unece:cefactUNId": "UN01004165",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The unique identifier assigned by the freight forwarder to this supply chain consignment."
+                    "rdfs:comment": "The unique identifier assigned by the freight forwarder to this supply chain consignment.",
+                    "unece:domainName": "Consignment"
                 }
             ]
         }

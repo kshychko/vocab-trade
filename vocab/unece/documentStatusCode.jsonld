@@ -36,22 +36,24 @@
             "rdfs:label": "documentStatusCode",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Exchanged_Document.Status.Code",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "1373",
-                    "unece:cefactUNId": "UN01002492",
-                    "unece:cefactBieDomainClass": "cefact:Exchanged_Document.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The code specifying the status of this exchanged document."
-                },
-                {
                     "@id": "cefact:Referenced_Document.Status.Code",
                     "@type": "unece:BasicBIE",
                     "unece:tded": "1373",
                     "unece:cefactUNId": "UN01001573",
                     "unece:cefactBieDomainClass": "cefact:Referenced_Document.Details",
                     "unece:cefactBusinessProcess": "Trade",
-                    "rdfs:comment": "The code specifying the status for this referenced document."
+                    "rdfs:comment": "The code specifying the status for this referenced document.",
+                    "unece:domainName": "Document"
+                },
+                {
+                    "@id": "cefact:Exchanged_Document.Status.Code",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "1373",
+                    "unece:cefactUNId": "UN01002492",
+                    "unece:cefactBieDomainClass": "cefact:Exchanged_Document.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The code specifying the status of this exchanged document.",
+                    "unece:domainName": "ExchangedDocument"
                 }
             ]
         }

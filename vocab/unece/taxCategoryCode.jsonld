@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01004719",
                     "unece:cefactBieDomainClass": "cefact:Trade_Tax.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The code specifying the category to which this trade related tax, levy or duty applies, such as codes for \"Exempt from Tax\", \"Standard Rate\", \"Free Export Item - Tax Not Charged\" [Reference United Nations Code List (UNCL) 5305]."
+                    "rdfs:comment": "The code specifying the category to which this trade related tax, levy or duty applies, such as codes for \"Exempt from Tax\", \"Standard Rate\", \"Free Export Item - Tax Not Charged\" [Reference United Nations Code List (UNCL) 5305].",
+                    "unece:domainName": "TradeTax"
                 }
             ]
         }

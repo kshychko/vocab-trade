@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01010114",
                     "unece:cefactBieDomainClass": "cefact:Logistics_TransportMeans.Details",
                     "unece:cefactBusinessProcess": "Transport",
-                    "rdfs:comment": "A registration event of this logistics transport means."
+                    "rdfs:comment": "A registration event of this logistics transport means.",
+                    "unece:domainName": "TransportMeans"
                 }
             ]
         }

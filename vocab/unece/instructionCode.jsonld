@@ -37,20 +37,22 @@
             "rdfs:label": "instructionCode",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:SupplyChain_Packaging.Instruction.Code",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01005307",
-                    "unece:cefactBieDomainClass": "cefact:SupplyChain_Packaging.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A code specifying an instruction for this supply chain packaging."
-                },
-                {
                     "@id": "cefact:Trade_PaymentTerms.Instruction.Code",
                     "@type": "unece:BasicBIE",
                     "unece:cefactUNId": "UN01005363",
                     "unece:cefactBieDomainClass": "cefact:Trade_PaymentTerms.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A code specifying an instruction for these trade payment terms."
+                    "rdfs:comment": "A code specifying an instruction for these trade payment terms.",
+                    "unece:domainName": "PaymentTerms"
+                },
+                {
+                    "@id": "cefact:SupplyChain_Packaging.Instruction.Code",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01005307",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_Packaging.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "A code specifying an instruction for this supply chain packaging.",
+                    "unece:domainName": "Packaging"
                 }
             ]
         }

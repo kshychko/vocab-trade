@@ -41,13 +41,14 @@
             "rdfs:label": "countrySubDivisionName",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:FinancialInstitution_Address.CountrySub-DivisionName.Text",
+                    "@id": "cefact:Birth_Address.CountrySub-DivisionName.Text",
                     "@type": "unece:BasicBIE",
                     "unece:tded": "3228",
-                    "unece:cefactUNId": "UN01004894",
-                    "unece:cefactBieDomainClass": "cefact:FinancialInstitution_Address.Details",
+                    "unece:cefactUNId": "UN01003170",
+                    "unece:cefactBieDomainClass": "cefact:Birth_Address.Details",
                     "unece:cefactBusinessProcess": "Customer to bank payment initiation",
-                    "rdfs:comment": "The name, expressed as text, of a country sub-division within this financial institution address."
+                    "rdfs:comment": "The name, expressed as text, of the sub-division of a country for this birth address.",
+                    "unece:domainName": "BirthAddress"
                 },
                 {
                     "@id": "cefact:Trade_Address.CountrySub-DivisionName.Text",
@@ -56,16 +57,18 @@
                     "unece:cefactUNId": "UN01004549",
                     "unece:cefactBieDomainClass": "cefact:Trade_Address.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A name, expressed as text, of the sub-division of a country for this trade address."
+                    "rdfs:comment": "A name, expressed as text, of the sub-division of a country for this trade address.",
+                    "unece:domainName": "TradeAddress"
                 },
                 {
-                    "@id": "cefact:Birth_Address.CountrySub-DivisionName.Text",
+                    "@id": "cefact:FinancialInstitution_Address.CountrySub-DivisionName.Text",
                     "@type": "unece:BasicBIE",
                     "unece:tded": "3228",
-                    "unece:cefactUNId": "UN01003170",
-                    "unece:cefactBieDomainClass": "cefact:Birth_Address.Details",
+                    "unece:cefactUNId": "UN01004894",
+                    "unece:cefactBieDomainClass": "cefact:FinancialInstitution_Address.Details",
                     "unece:cefactBusinessProcess": "Customer to bank payment initiation",
-                    "rdfs:comment": "The name, expressed as text, of the sub-division of a country for this birth address."
+                    "rdfs:comment": "The name, expressed as text, of a country sub-division within this financial institution address.",
+                    "unece:domainName": "FinancialInstitutionAddress"
                 }
             ]
         }

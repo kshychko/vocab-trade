@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01004524",
                     "unece:cefactBieDomainClass": "cefact:Trade_AccountingAccount.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A code specifying a set trigger for this trade accounting account to be used in response to a specific event or a set of events."
+                    "rdfs:comment": "A code specifying a set trigger for this trade accounting account to be used in response to a specific event or a set of events.",
+                    "unece:domainName": "AccountingAccount"
                 }
             ]
         }

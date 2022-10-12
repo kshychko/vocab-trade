@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01004760",
                     "unece:cefactBieDomainClass": "cefact:Transport_Cargo.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The code specifying the operational category for this transport cargo, such as obnoxious or military."
+                    "rdfs:comment": "The code specifying the operational category for this transport cargo, such as obnoxious or military.",
+                    "unece:domainName": "Cargo"
                 }
             ]
         }

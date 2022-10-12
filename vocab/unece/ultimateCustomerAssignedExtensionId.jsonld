@@ -35,7 +35,8 @@
                     "unece:cefactUNId": "UN01013467",
                     "unece:cefactBieDomainClass": "cefact:Trade_Product.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "An ultimate customer assigned extension identifier for this trade product."
+                    "rdfs:comment": "An ultimate customer assigned extension identifier for this trade product.",
+                    "unece:domainName": "Product"
                 }
             ]
         }

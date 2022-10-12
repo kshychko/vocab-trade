@@ -41,7 +41,8 @@
                     "unece:cefactUNId": "UN01007282",
                     "unece:cefactBieDomainClass": "cefact:Trade_Product.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "An included product referenced from this trade product."
+                    "rdfs:comment": "An included product referenced from this trade product.",
+                    "unece:domainName": "Product"
                 },
                 {
                     "@id": "cefact:Line_TradeTransaction.Included.Trade_Product",
@@ -49,7 +50,8 @@
                     "unece:cefactUNId": "UN01011827",
                     "unece:cefactBieDomainClass": "cefact:Line_TradeTransaction.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A trade product included in this line trade transaction."
+                    "rdfs:comment": "A trade product included in this line trade transaction.",
+                    "unece:domainName": "TradeTransaction"
                 }
             ]
         }

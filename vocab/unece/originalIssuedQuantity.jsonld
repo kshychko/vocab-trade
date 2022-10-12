@@ -35,7 +35,8 @@
                     "unece:cefactUNId": "UN01003559",
                     "unece:cefactBieDomainClass": "cefact:Exchanged_Document.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The number of originals issued of this exchanged document."
+                    "rdfs:comment": "The number of originals issued of this exchanged document.",
+                    "unece:domainName": "ExchangedDocument"
                 }
             ]
         }

@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01004423",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_TradeLineItem.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The consignment item within which this supply chain trade line item is included."
+                    "rdfs:comment": "The consignment item within which this supply chain trade line item is included.",
+                    "unece:domainName": "TradeLineItem"
                 }
             ]
         }

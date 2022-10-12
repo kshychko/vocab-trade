@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01013174",
                     "unece:cefactBieDomainClass": "cefact:Logistics_TransportMovement.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A person onboard this logistics transport movement."
+                    "rdfs:comment": "A person onboard this logistics transport movement.",
+                    "unece:domainName": "TransportMovement"
                 }
             ]
         }

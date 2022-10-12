@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01004519",
                     "unece:cefactBieDomainClass": "cefact:TradeSettlement_PaymentMeans.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A creditor financial account of the payee party for this trade settlement payment means."
+                    "rdfs:comment": "A creditor financial account of the payee party for this trade settlement payment means.",
+                    "unece:domainName": "PaymentMeans"
                 }
             ]
         }

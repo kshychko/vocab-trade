@@ -41,7 +41,8 @@
                     "unece:cefactUNId": "UN01004250",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "Loading instructions for this supply chain consignment."
+                    "rdfs:comment": "Loading instructions for this supply chain consignment.",
+                    "unece:domainName": "Consignment"
                 },
                 {
                     "@id": "cefact:Logistics_TransportEquipment.Loading.Transport_Instructions",
@@ -49,7 +50,8 @@
                     "unece:cefactUNId": "UN01003791",
                     "unece:cefactBieDomainClass": "cefact:Logistics_TransportEquipment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "Loading instructions for this piece of logistics transport equipment."
+                    "rdfs:comment": "Loading instructions for this piece of logistics transport equipment.",
+                    "unece:domainName": "LogisticsTransportEquipment"
                 }
             ]
         }

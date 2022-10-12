@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01013616",
                     "unece:cefactBieDomainClass": "cefact:Specified_GeographicalFeature.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The indication of whether or not this specified geographical feature is a collection of features."
+                    "rdfs:comment": "The indication of whether or not this specified geographical feature is a collection of features.",
+                    "unece:domainName": "GeographicalFeature"
                 }
             ]
         }

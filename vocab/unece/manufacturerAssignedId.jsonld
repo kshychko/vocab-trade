@@ -38,7 +38,8 @@
                     "unece:cefactUNId": "UN01004032",
                     "unece:cefactBieDomainClass": "cefact:Referenced_Product.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A unique manufacturer assigned identifier for this referenced product."
+                    "rdfs:comment": "A unique manufacturer assigned identifier for this referenced product.",
+                    "unece:domainName": "Product"
                 },
                 {
                     "@id": "cefact:Trade_Product.ManufacturerAssigned_Identification.Identifier",
@@ -47,7 +48,8 @@
                     "unece:cefactUNId": "UN01004684",
                     "unece:cefactBieDomainClass": "cefact:Trade_Product.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A unique manufacturer assigned identifier for this trade product."
+                    "rdfs:comment": "A unique manufacturer assigned identifier for this trade product.",
+                    "unece:domainName": "Product"
                 }
             ]
         }

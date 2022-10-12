@@ -36,7 +36,8 @@
                     "unece:cefactUNId": "UN01011868",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_TradeTransaction.Details",
                     "unece:cefactBusinessProcess": "Trade",
-                    "rdfs:comment": "A trade agreement header applicable to this supply chain trade transaction, such as payment or delivery terms."
+                    "rdfs:comment": "A trade agreement header applicable to this supply chain trade transaction, such as payment or delivery terms.",
+                    "unece:domainName": "TradeTransaction"
                 },
                 {
                     "@id": "cefact:Line_TradeTransaction.Applicable.Line_TradeAgreement",
@@ -44,7 +45,8 @@
                     "unece:cefactUNId": "UN01011825",
                     "unece:cefactBieDomainClass": "cefact:Line_TradeTransaction.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A trade agreement applicable to this line trade transaction, such as payment or delivery terms."
+                    "rdfs:comment": "A trade agreement applicable to this line trade transaction, such as payment or delivery terms.",
+                    "unece:domainName": "TradeTransaction"
                 }
             ]
         }

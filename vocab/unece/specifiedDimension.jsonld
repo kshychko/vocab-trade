@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01010110",
                     "unece:cefactBieDomainClass": "cefact:Logistics_TransportMeans.Details",
                     "unece:cefactBusinessProcess": "Transport",
-                    "rdfs:comment": "Spatial dimensions specified for this logistics means of transport."
+                    "rdfs:comment": "Spatial dimensions specified for this logistics means of transport.",
+                    "unece:domainName": "TransportMeans"
                 }
             ]
         }

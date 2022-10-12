@@ -37,20 +37,22 @@
             "rdfs:label": "lineItemQuantity",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:SupplyChain_TradeTransaction.LineItem.Quantity",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01004902",
-                    "unece:cefactBieDomainClass": "cefact:SupplyChain_TradeTransaction.Details",
-                    "unece:cefactBusinessProcess": "Cross-Border",
-                    "rdfs:comment": "The number of line items for this supply chain trade transaction."
-                },
-                {
                     "@id": "cefact:Exchanged_Document.Line_Item.Quantity",
                     "@type": "unece:BasicBIE",
                     "unece:cefactUNId": "UN01003568",
                     "unece:cefactBieDomainClass": "cefact:Exchanged_Document.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The number of line items in this exchanged document."
+                    "rdfs:comment": "The number of line items in this exchanged document.",
+                    "unece:domainName": "ExchangedDocument"
+                },
+                {
+                    "@id": "cefact:SupplyChain_TradeTransaction.LineItem.Quantity",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01004902",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_TradeTransaction.Details",
+                    "unece:cefactBusinessProcess": "Cross-Border",
+                    "rdfs:comment": "The number of line items for this supply chain trade transaction.",
+                    "unece:domainName": "TradeTransaction"
                 }
             ]
         }

@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01012573",
                     "unece:cefactBieDomainClass": "cefact:Specified_Observation.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A binary file related to this specified observation."
+                    "rdfs:comment": "A binary file related to this specified observation.",
+                    "unece:domainName": "Observation"
                 }
             ]
         }

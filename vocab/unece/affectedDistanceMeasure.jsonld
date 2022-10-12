@@ -35,7 +35,8 @@
                     "unece:cefactUNId": "UN01010053",
                     "unece:cefactBieDomainClass": "cefact:Calculated_Emission.Details",
                     "unece:cefactBusinessProcess": "Transport",
-                    "rdfs:comment": "The affected distance over which this calculated emission is measured."
+                    "rdfs:comment": "The affected distance over which this calculated emission is measured.",
+                    "unece:domainName": "Emission"
                 }
             ]
         }

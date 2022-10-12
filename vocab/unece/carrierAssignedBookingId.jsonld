@@ -38,7 +38,8 @@
                     "unece:cefactUNId": "UN01010137",
                     "unece:cefactBieDomainClass": "cefact:ReferencedLogistics_TransportEquipment.Details",
                     "unece:cefactBusinessProcess": "Transport",
-                    "rdfs:comment": "A carrier assigned booking identifier for this piece of referenced logistics transport equipment."
+                    "rdfs:comment": "A carrier assigned booking identifier for this piece of referenced logistics transport equipment.",
+                    "unece:domainName": "LogisticsTransportEquipment"
                 },
                 {
                     "@id": "cefact:Logistics_TransportEquipment.CarrierAssignedBooking_Identification.Identifier",
@@ -47,7 +48,8 @@
                     "unece:cefactUNId": "UN01010099",
                     "unece:cefactBieDomainClass": "cefact:Logistics_TransportEquipment.Details",
                     "unece:cefactBusinessProcess": "Transport",
-                    "rdfs:comment": "A carrier assigned booking identifier for this piece of logistics transport equipment."
+                    "rdfs:comment": "A carrier assigned booking identifier for this piece of logistics transport equipment.",
+                    "unece:domainName": "LogisticsTransportEquipment"
                 }
             ]
         }

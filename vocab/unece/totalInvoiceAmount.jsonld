@@ -35,7 +35,8 @@
                     "unece:cefactUNId": "UN01012993",
                     "unece:cefactBieDomainClass": "cefact:Header_TradeSettlement.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A monetary value of the total invoice on which this header trade settlement is calculated."
+                    "rdfs:comment": "A monetary value of the total invoice on which this header trade settlement is calculated.",
+                    "unece:domainName": "HeaderTradeSettlement"
                 }
             ]
         }

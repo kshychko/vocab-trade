@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01012492",
                     "unece:cefactBieDomainClass": "cefact:Product_Certificate.Details",
                     "unece:cefactBusinessProcess": "Traceability",
-                    "rdfs:comment": "A code specifying an object, such as item, animal, person or organization applicable for this product certificate."
+                    "rdfs:comment": "A code specifying an object, such as item, animal, person or organization applicable for this product certificate.",
+                    "unece:domainName": "Certificate"
                 }
             ]
         }

@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01012209",
                     "unece:cefactBieDomainClass": "cefact:Specified_GeographicalGrid.Details",
                     "unece:cefactBusinessProcess": "Agricultural",
-                    "rdfs:comment": "An axis name, expressed as text, for this geographical grid."
+                    "rdfs:comment": "An axis name, expressed as text, for this geographical grid.",
+                    "unece:domainName": "GeographicalGrid"
                 }
             ]
         }

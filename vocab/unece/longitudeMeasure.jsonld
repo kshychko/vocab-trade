@@ -32,22 +32,24 @@
             "rdfs:label": "longitudeMeasure",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Specified_GeographicalCoordinate.Longitude.Measure",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "6002",
-                    "unece:cefactUNId": "UN01002029",
-                    "unece:cefactBieDomainClass": "cefact:Specified_GeographicalCoordinate.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The measure of the longitude as an angular distance east or west from the Greenwich meridian to the meridian of a specific place for this specified geographical coordinate. (Reference ISO 6709)."
-                },
-                {
                     "@id": "cefact:GeographicalCoordinate.Longitude.Measure",
                     "@type": "unece:BasicBIE",
                     "unece:tded": "6002",
                     "unece:cefactUNId": "UN01003619",
                     "unece:cefactBieDomainClass": "cefact:GeographicalCoordinate.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The measure of the longitude as an angular distance east or west from the Greenwich meridian to the meridian of a specific place (Reference ISO 6709)."
+                    "rdfs:comment": "The measure of the longitude as an angular distance east or west from the Greenwich meridian to the meridian of a specific place (Reference ISO 6709).",
+                    "unece:domainName": "GeographicalCoordinate"
+                },
+                {
+                    "@id": "cefact:Specified_GeographicalCoordinate.Longitude.Measure",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "6002",
+                    "unece:cefactUNId": "UN01002029",
+                    "unece:cefactBieDomainClass": "cefact:Specified_GeographicalCoordinate.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The measure of the longitude as an angular distance east or west from the Greenwich meridian to the meridian of a specific place for this specified geographical coordinate. (Reference ISO 6709).",
+                    "unece:domainName": "GeographicalCoordinate"
                 }
             ]
         }

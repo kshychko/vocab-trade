@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01004488",
                     "unece:cefactBieDomainClass": "cefact:Tax_Registration.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The registered tax associated with this tax registration."
+                    "rdfs:comment": "The registered tax associated with this tax registration.",
+                    "unece:domainName": "TaxRegistration"
                 }
             ]
         }

@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01013606",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The type of booking, expressed as text, related to this supply chain consignment."
+                    "rdfs:comment": "The type of booking, expressed as text, related to this supply chain consignment.",
+                    "unece:domainName": "Consignment"
                 }
             ]
         }

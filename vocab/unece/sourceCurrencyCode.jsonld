@@ -35,7 +35,8 @@
                     "unece:cefactUNId": "UN01004577",
                     "unece:cefactBieDomainClass": "cefact:Trade_CurrencyExchange.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The code specifying the source currency of a trade related currency conversion."
+                    "rdfs:comment": "The code specifying the source currency of a trade related currency conversion.",
+                    "unece:domainName": "CurrencyExchange"
                 }
             ]
         }

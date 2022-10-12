@@ -35,7 +35,8 @@
                     "unece:cefactUNId": "UN01007284",
                     "unece:cefactBieDomainClass": "cefact:Trade_Tax.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The percent of trade tax applicable, such as to an object or an activity."
+                    "rdfs:comment": "The percent of trade tax applicable, such as to an object or an activity.",
+                    "unece:domainName": "TradeTax"
                 }
             ]
         }

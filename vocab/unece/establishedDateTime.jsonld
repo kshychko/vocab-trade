@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01003644",
                     "unece:cefactBieDomainClass": "cefact:Legal_Organization.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The date, time, date time, or other date time value when this legally set up organization was established."
+                    "rdfs:comment": "The date, time, date time, or other date time value when this legally set up organization was established.",
+                    "unece:domainName": "Organization"
                 }
             ]
         }

@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01006202",
                     "unece:cefactBieDomainClass": "cefact:Radioactive_Material.Details",
                     "unece:cefactBusinessProcess": "Cross-Border",
-                    "rdfs:comment": "The indication of whether or not this radioactive material is a fissile exception."
+                    "rdfs:comment": "The indication of whether or not this radioactive material is a fissile exception.",
+                    "unece:domainName": "Material"
                 }
             ]
         }

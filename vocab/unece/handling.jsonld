@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01003506",
                     "unece:cefactBieDomainClass": "cefact:Delivery_Instructions.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "Delivery handling instructions expressed as text."
+                    "rdfs:comment": "Delivery handling instructions expressed as text.",
+                    "unece:domainName": "DeliveryInstructions"
                 }
             ]
         }

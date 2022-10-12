@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01004551",
                     "unece:cefactBieDomainClass": "cefact:Trade_Address.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The name, expressed as text, of a person or organization at this trade address to whom incoming mail is marked with words such as 'care of' or 'C/O'."
+                    "rdfs:comment": "The name, expressed as text, of a person or organization at this trade address to whom incoming mail is marked with words such as 'care of' or 'C/O'.",
+                    "unece:domainName": "TradeAddress"
                 }
             ]
         }

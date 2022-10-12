@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01010055",
                     "unece:cefactBieDomainClass": "cefact:Calculated_Emission.Details",
                     "unece:cefactBusinessProcess": "Transport",
-                    "rdfs:comment": "A measure of the pollution calculated for this emission."
+                    "rdfs:comment": "A measure of the pollution calculated for this emission.",
+                    "unece:domainName": "Emission"
                 }
             ]
         }

@@ -37,20 +37,22 @@
             "rdfs:label": "remainingBatteryChargePercent",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Monitoring_IOTDevice.RemainingBatteryCharge.Percent",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01013482",
-                    "unece:cefactBieDomainClass": "cefact:Monitoring_IOTDevice.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The percentage of the remaining battery charge of this monitoring IOT device."
-                },
-                {
                     "@id": "cefact:Monitoring_Sensor.RemainingBatteryCharge.Percent",
                     "@type": "unece:BasicBIE",
                     "unece:cefactUNId": "UN01013544",
                     "unece:cefactBieDomainClass": "cefact:Monitoring_Sensor.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The percentage of the remaining battery charge of this monitoring sensor."
+                    "rdfs:comment": "The percentage of the remaining battery charge of this monitoring sensor.",
+                    "unece:domainName": "Sensor"
+                },
+                {
+                    "@id": "cefact:Monitoring_IOTDevice.RemainingBatteryCharge.Percent",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01013482",
+                    "unece:cefactBieDomainClass": "cefact:Monitoring_IOTDevice.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The percentage of the remaining battery charge of this monitoring IOT device.",
+                    "unece:domainName": "IOTDevice"
                 }
             ]
         }

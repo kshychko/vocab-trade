@@ -41,7 +41,8 @@
                     "unece:cefactUNId": "UN01004270",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The destination country for this supply chain consignment."
+                    "rdfs:comment": "The destination country for this supply chain consignment.",
+                    "unece:domainName": "Consignment"
                 },
                 {
                     "@id": "cefact:SupplyChain_ConsignmentItem.Destination.Trade_Country",
@@ -49,7 +50,8 @@
                     "unece:cefactUNId": "UN01004141",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_ConsignmentItem.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The destination country for this supply chain consignment item."
+                    "rdfs:comment": "The destination country for this supply chain consignment item.",
+                    "unece:domainName": "ConsignmentItem"
                 }
             ]
         }

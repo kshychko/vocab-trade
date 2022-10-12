@@ -37,7 +37,8 @@
                     "unece:cefactUNId": "UN01000194",
                     "unece:cefactBieDomainClass": "cefact:Applied_AllowanceCharge.Details",
                     "unece:cefactBusinessProcess": "Pricing",
-                    "rdfs:comment": "The indication of whether or not the applied allowance charge is a charge."
+                    "rdfs:comment": "The indication of whether or not the applied allowance charge is a charge.",
+                    "unece:domainName": "AllowanceCharge"
                 },
                 {
                     "@id": "cefact:Trade_AllowanceCharge.Charge.Indicator",
@@ -45,7 +46,8 @@
                     "unece:cefactUNId": "UN01001632",
                     "unece:cefactBieDomainClass": "cefact:Trade_AllowanceCharge.Details",
                     "unece:cefactBusinessProcess": "Trade",
-                    "rdfs:comment": "The indication of whether or not the trade allowance charge is a charge."
+                    "rdfs:comment": "The indication of whether or not the trade allowance charge is a charge.",
+                    "unece:domainName": "AllowanceCharge"
                 }
             ]
         }

@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01003542",
                     "unece:cefactBieDomainClass": "cefact:ExchangedDocument_Context.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A business process context parameter specified for this exchanged document context."
+                    "rdfs:comment": "A business process context parameter specified for this exchanged document context.",
+                    "unece:domainName": "Context"
                 }
             ]
         }

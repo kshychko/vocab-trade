@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01004227",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A connecting carrier party for this supply chain consignment."
+                    "rdfs:comment": "A connecting carrier party for this supply chain consignment.",
+                    "unece:domainName": "Consignment"
                 }
             ]
         }

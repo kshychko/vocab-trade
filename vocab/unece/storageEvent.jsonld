@@ -41,7 +41,8 @@
                     "unece:cefactUNId": "UN01004255",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A storage event for this supply chain consignment."
+                    "rdfs:comment": "A storage event for this supply chain consignment.",
+                    "unece:domainName": "Consignment"
                 },
                 {
                     "@id": "cefact:Logistics_TransportEquipment.Storage.Transport_Event",
@@ -49,7 +50,8 @@
                     "unece:cefactUNId": "UN01003804",
                     "unece:cefactBieDomainClass": "cefact:Logistics_TransportEquipment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A storage event specifying when and where this piece of logistics transport equipment will be, or has been, stored."
+                    "rdfs:comment": "A storage event specifying when and where this piece of logistics transport equipment will be, or has been, stored.",
+                    "unece:domainName": "LogisticsTransportEquipment"
                 }
             ]
         }

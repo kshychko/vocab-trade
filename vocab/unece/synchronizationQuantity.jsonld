@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01005311",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_SupplyPlan.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The value specifying the quantity for a synchronization of this supply chain supply plan."
+                    "rdfs:comment": "The value specifying the quantity for a synchronization of this supply chain supply plan.",
+                    "unece:domainName": "SupplyPlan"
                 }
             ]
         }

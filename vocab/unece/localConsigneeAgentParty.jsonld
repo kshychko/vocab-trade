@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01005288",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The local party authorized to act for or on behalf of the consignee for this supply chain consignment."
+                    "rdfs:comment": "The local party authorized to act for or on behalf of the consignee for this supply chain consignment.",
+                    "unece:domainName": "Consignment"
                 }
             ]
         }

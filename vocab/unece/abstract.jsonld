@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01000068",
                     "unece:cefactBieDomainClass": "cefact:WorkItem_ComplexDescription.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A textual abstract of the content of the work item complex description. Industry context value changed from \"Construction\" to \"In All Contexts\"."
+                    "rdfs:comment": "A textual abstract of the content of the work item complex description. Industry context value changed from \"Construction\" to \"In All Contexts\".",
+                    "unece:domainName": "ComplexDescription"
                 }
             ]
         }

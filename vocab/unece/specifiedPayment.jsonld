@@ -15,7 +15,7 @@
         {
             "@id": "unece:specifiedPayment",
             "schema:rangeIncludes": {
-                "@id": "unece:AdvancePayment"
+                "@id": "unece:InstalmentPayment"
             },
             "@type": [
                 "rdf:Property",
@@ -36,20 +36,22 @@
             "rdfs:label": "specifiedPayment",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Payment_InstalmentPlan.Specified.Instalment_Payment",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01013278",
-                    "unece:cefactBieDomainClass": "cefact:Payment_InstalmentPlan.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "An instalment payment specified for this instalment plan."
-                },
-                {
                     "@id": "cefact:Header_TradeSettlement.Specified.Advance_Payment",
                     "@type": "unece:AssociationBIE",
                     "unece:cefactUNId": "UN01011691",
                     "unece:cefactBieDomainClass": "cefact:Header_TradeSettlement.Details",
                     "unece:cefactBusinessProcess": "Supply Chain",
-                    "rdfs:comment": "An advance payment specified in this header trade settlement."
+                    "rdfs:comment": "An advance payment specified in this header trade settlement.",
+                    "unece:domainName": "HeaderTradeSettlement"
+                },
+                {
+                    "@id": "cefact:Payment_InstalmentPlan.Specified.Instalment_Payment",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01013278",
+                    "unece:cefactBieDomainClass": "cefact:Payment_InstalmentPlan.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "An instalment payment specified for this instalment plan.",
+                    "unece:domainName": "InstalmentPlan"
                 }
             ]
         }

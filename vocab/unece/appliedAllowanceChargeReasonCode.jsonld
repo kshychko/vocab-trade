@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01000191",
                     "unece:cefactBieDomainClass": "cefact:Applied_AllowanceCharge.Details",
                     "unece:cefactBusinessProcess": "Pricing",
-                    "rdfs:comment": "The code specifying the reason for this applied allowance charge."
+                    "rdfs:comment": "The code specifying the reason for this applied allowance charge.",
+                    "unece:domainName": "AllowanceCharge"
                 }
             ]
         }

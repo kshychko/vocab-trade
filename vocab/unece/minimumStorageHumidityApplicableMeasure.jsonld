@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01008432",
                     "unece:cefactBieDomainClass": "cefact:Handling_Instructions.Details",
                     "unece:cefactBusinessProcess": "Supply Chain",
-                    "rdfs:comment": "The measure of the minimum storage humidity applicable to these handling instructions."
+                    "rdfs:comment": "The measure of the minimum storage humidity applicable to these handling instructions.",
+                    "unece:domainName": "HandlingInstructions"
                 }
             ]
         }

@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01003777",
                     "unece:cefactBieDomainClass": "cefact:Logistics_TransportEquipment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A damage remark, expressed as text, for this piece of logistics transport equipment."
+                    "rdfs:comment": "A damage remark, expressed as text, for this piece of logistics transport equipment.",
+                    "unece:domainName": "LogisticsTransportEquipment"
                 }
             ]
         }

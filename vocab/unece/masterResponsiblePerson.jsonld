@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01003854",
                     "unece:cefactBieDomainClass": "cefact:Logistics_TransportMovement.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The person legally responsible for the operation of the means of transport used for this logistics transport movement."
+                    "rdfs:comment": "The person legally responsible for the operation of the means of transport used for this logistics transport movement.",
+                    "unece:domainName": "TransportMovement"
                 }
             ]
         }

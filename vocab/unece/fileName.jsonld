@@ -35,7 +35,8 @@
                     "unece:cefactBieDomainClass": "cefact:Specified_BinaryFile.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
                     "rdfs:comment": "The file name, expressed as text, of this specified binary file. Deprecated - Use Binary File. Name. Text instead.",
-                    "unece:status": "deprecated"
+                    "unece:status": "deprecated",
+                    "unece:domainName": "BinaryFile"
                 }
             ]
         }

@@ -41,7 +41,8 @@
                     "unece:cefactUNId": "UN01004133",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_ConsignmentItem.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "Quarantine instructions for this supply chain consignment item."
+                    "rdfs:comment": "Quarantine instructions for this supply chain consignment item.",
+                    "unece:domainName": "ConsignmentItem"
                 },
                 {
                     "@id": "cefact:Logistics_TransportEquipment.Quarantine.Quarantine_Instructions",
@@ -49,7 +50,8 @@
                     "unece:cefactUNId": "UN01003788",
                     "unece:cefactBieDomainClass": "cefact:Logistics_TransportEquipment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "Quarantine instructions for this piece of logistics transport equipment."
+                    "rdfs:comment": "Quarantine instructions for this piece of logistics transport equipment.",
+                    "unece:domainName": "LogisticsTransportEquipment"
                 }
             ]
         }

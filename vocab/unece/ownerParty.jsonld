@@ -40,12 +40,22 @@
             "rdfs:label": "ownerParty",
             "unece:cefactElementMetadata": [
                 {
+                    "@id": "cefact:Monitoring_IOTDevice.Owner.Trade_Party",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01013487",
+                    "unece:cefactBieDomainClass": "cefact:Monitoring_IOTDevice.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The owner party of this monitoring IOT device.",
+                    "unece:domainName": "IOTDevice"
+                },
+                {
                     "@id": "cefact:Logistics_TransportMeans.Owner.Trade_Party",
                     "@type": "unece:AssociationBIE",
                     "unece:cefactUNId": "UN01003836",
                     "unece:cefactBieDomainClass": "cefact:Logistics_TransportMeans.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The party owning this logistics means of transport."
+                    "rdfs:comment": "The party owning this logistics means of transport.",
+                    "unece:domainName": "TransportMeans"
                 },
                 {
                     "@id": "cefact:Monitoring_Sensor.Owner.Trade_Party",
@@ -53,15 +63,8 @@
                     "unece:cefactUNId": "UN01013545",
                     "unece:cefactBieDomainClass": "cefact:Monitoring_Sensor.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The owner party of this monitoring sensor."
-                },
-                {
-                    "@id": "cefact:Monitoring_IOTDevice.Owner.Trade_Party",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01013487",
-                    "unece:cefactBieDomainClass": "cefact:Monitoring_IOTDevice.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The owner party of this monitoring IOT device."
+                    "rdfs:comment": "The owner party of this monitoring sensor.",
+                    "unece:domainName": "Sensor"
                 }
             ]
         }

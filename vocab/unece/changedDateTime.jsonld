@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01007519",
                     "unece:cefactBieDomainClass": "cefact:Recorded_Status.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The date, time, date time, or other date time value when this recorded status changed."
+                    "rdfs:comment": "The date, time, date time, or other date time value when this recorded status changed.",
+                    "unece:domainName": "RecordedStatus"
                 }
             ]
         }

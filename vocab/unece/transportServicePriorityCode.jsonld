@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01004844",
                     "unece:cefactBieDomainClass": "cefact:Transport_Service.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The code specifying the priority of this transport service."
+                    "rdfs:comment": "The code specifying the priority of this transport service.",
+                    "unece:domainName": "Service"
                 }
             ]
         }

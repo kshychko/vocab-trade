@@ -35,7 +35,8 @@
                     "unece:cefactUNId": "UN01006158",
                     "unece:cefactBieDomainClass": "cefact:CrossBorder_RegulatoryProcedure.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A date, time, date time, or other date time value on which this cross-border regulatory procedure was, or will be, performed."
+                    "rdfs:comment": "A date, time, date time, or other date time value on which this cross-border regulatory procedure was, or will be, performed.",
+                    "unece:domainName": "RegulatoryProcedure"
                 }
             ]
         }

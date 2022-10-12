@@ -14,17 +14,17 @@
             "rdfs:label": "WorkItem",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Basic_WorkItem.Details",
-                    "@type": "unece:AggregateBIE",
-                    "unece:cefactUNId": "UN01000026",
-                    "rdfs:comment": "A basic item of work.",
-                    "unece:cefactBusinessProcess": "In All Contexts"
-                },
-                {
                     "@id": "cefact:Grouped_WorkItem.Details",
                     "@type": "unece:AggregateBIE",
                     "unece:cefactUNId": "UN01000043",
                     "rdfs:comment": "A grouping of related work items.",
+                    "unece:cefactBusinessProcess": "In All Contexts"
+                },
+                {
+                    "@id": "cefact:Basic_WorkItem.Details",
+                    "@type": "unece:AggregateBIE",
+                    "unece:cefactUNId": "UN01000026",
+                    "rdfs:comment": "A basic item of work.",
                     "unece:cefactBusinessProcess": "In All Contexts"
                 }
             ]

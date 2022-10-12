@@ -35,7 +35,8 @@
                     "unece:cefactUNId": "UN01003485",
                     "unece:cefactBieDomainClass": "cefact:CrossBorder_CustomsValuation.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The monetary value of the adjustment deducted for this cross-border customs valuation."
+                    "rdfs:comment": "The monetary value of the adjustment deducted for this cross-border customs valuation.",
+                    "unece:domainName": "CustomsValuation"
                 }
             ]
         }

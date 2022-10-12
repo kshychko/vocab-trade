@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01006176",
                     "unece:cefactBieDomainClass": "cefact:CrossBorder_RegulatoryProcedure.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A document referenced by this cross-border regulatory procedure."
+                    "rdfs:comment": "A document referenced by this cross-border regulatory procedure.",
+                    "unece:domainName": "RegulatoryProcedure"
                 }
             ]
         }

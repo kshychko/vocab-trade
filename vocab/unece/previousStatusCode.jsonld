@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01011933",
                     "unece:cefactBieDomainClass": "cefact:Trade_WorkflowObject.Details",
                     "unece:cefactBusinessProcess": "Trade",
-                    "rdfs:comment": "The code specifying the previous status of this trade workflow object."
+                    "rdfs:comment": "The code specifying the previous status of this trade workflow object.",
+                    "unece:domainName": "WorkflowObject"
                 }
             ]
         }

@@ -54,31 +54,8 @@
                     "unece:cefactUNId": "UN01011731",
                     "unece:cefactBieDomainClass": "cefact:Line_TradeAgreement.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A carrier party for this line trade agreement."
-                },
-                {
-                    "@id": "cefact:Referenced_SupplyChain_Consignment.Carrier.Trade_Party",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01011059",
-                    "unece:cefactBieDomainClass": "cefact:ReferencedSupplyChain_Consignment.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The carrier party for this referenced supply chain consignment."
-                },
-                {
-                    "@id": "cefact:Header_TradeAgreement.Carrier.Trade_Party",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01013407",
-                    "unece:cefactBieDomainClass": "cefact:Header_TradeAgreement.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The carrier party, at header level, for this trade agreement."
-                },
-                {
-                    "@id": "cefact:SupplyChain_Consignment.Carrier.Trade_Party",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01004214",
-                    "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The carrier party for this supply chain consignment."
+                    "rdfs:comment": "A carrier party for this line trade agreement.",
+                    "unece:domainName": "LineTradeAgreement"
                 },
                 {
                     "@id": "cefact:Logistics_TransportEquipment.Carrier.Trade_Party",
@@ -86,7 +63,35 @@
                     "unece:cefactUNId": "UN01003812",
                     "unece:cefactBieDomainClass": "cefact:Logistics_TransportEquipment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A carrier party for this piece of logistics transport equipment."
+                    "rdfs:comment": "A carrier party for this piece of logistics transport equipment.",
+                    "unece:domainName": "LogisticsTransportEquipment"
+                },
+                {
+                    "@id": "cefact:Referenced_SupplyChain_Consignment.Carrier.Trade_Party",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01011059",
+                    "unece:cefactBieDomainClass": "cefact:ReferencedSupplyChain_Consignment.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The carrier party for this referenced supply chain consignment.",
+                    "unece:domainName": "Consignment"
+                },
+                {
+                    "@id": "cefact:Header_TradeAgreement.Carrier.Trade_Party",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01013407",
+                    "unece:cefactBieDomainClass": "cefact:Header_TradeAgreement.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The carrier party, at header level, for this trade agreement.",
+                    "unece:domainName": "HeaderTradeAgreement"
+                },
+                {
+                    "@id": "cefact:SupplyChain_Consignment.Carrier.Trade_Party",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01004214",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The carrier party for this supply chain consignment.",
+                    "unece:domainName": "Consignment"
                 },
                 {
                     "@id": "cefact:Logistics_TransportMovement.Carrier.Trade_Party",
@@ -94,7 +99,8 @@
                     "unece:cefactUNId": "UN01003863",
                     "unece:cefactBieDomainClass": "cefact:Logistics_TransportMovement.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A carrier party for this logistics transport movement."
+                    "rdfs:comment": "A carrier party for this logistics transport movement.",
+                    "unece:domainName": "TransportMovement"
                 }
             ]
         }

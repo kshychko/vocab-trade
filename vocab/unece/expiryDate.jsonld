@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01004498",
                     "unece:cefactBieDomainClass": "cefact:TradeSettlement_FinancialCard.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The date of expiry up to which this trade settlement financial card is valid."
+                    "rdfs:comment": "The date of expiry up to which this trade settlement financial card is valid.",
+                    "unece:domainName": "FinancialCard"
                 }
             ]
         }

@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01011773",
                     "unece:cefactBieDomainClass": "cefact:Line_TradeDelivery.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "Inventory available, at line level, for this trade delivery."
+                    "rdfs:comment": "Inventory available, at line level, for this trade delivery.",
+                    "unece:domainName": "LineTradeDelivery"
                 }
             ]
         }

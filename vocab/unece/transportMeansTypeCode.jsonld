@@ -37,7 +37,8 @@
                     "unece:cefactUNId": "UN01003820",
                     "unece:cefactBieDomainClass": "cefact:Logistics_TransportMeans.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The code specifying the type of logistics means of transport (Reference UNECE Recommendation 28)."
+                    "rdfs:comment": "The code specifying the type of logistics means of transport (Reference UNECE Recommendation 28).",
+                    "unece:domainName": "TransportMeans"
                 },
                 {
                     "@id": "cefact:Referenced_TransportMeans.Type.Code",
@@ -46,7 +47,8 @@
                     "unece:cefactUNId": "UN01004050",
                     "unece:cefactBieDomainClass": "cefact:Referenced_TransportMeans.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The code specifying the type of referenced transport means [Reference UNECE Recommendation 28]."
+                    "rdfs:comment": "The code specifying the type of referenced transport means [Reference UNECE Recommendation 28].",
+                    "unece:domainName": "TransportMeans"
                 }
             ]
         }

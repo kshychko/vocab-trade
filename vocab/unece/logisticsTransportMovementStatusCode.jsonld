@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01011524",
                     "unece:cefactBieDomainClass": "cefact:Logistics_TransportMovement.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The code specifying a status for the logistics transport movement, such as estimated or final."
+                    "rdfs:comment": "The code specifying a status for the logistics transport movement, such as estimated or final.",
+                    "unece:domainName": "TransportMovement"
                 }
             ]
         }

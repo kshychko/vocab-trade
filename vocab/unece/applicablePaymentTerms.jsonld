@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01011561",
                     "unece:cefactBieDomainClass": "cefact:Header_TradeAgreement.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The payment terms applicable to this header trade agreement."
+                    "rdfs:comment": "The payment terms applicable to this header trade agreement.",
+                    "unece:domainName": "HeaderTradeAgreement"
                 }
             ]
         }

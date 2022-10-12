@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01012678",
                     "unece:cefactBieDomainClass": "cefact:Goods_Production.Details",
                     "unece:cefactBusinessProcess": "Cross Industry",
-                    "rdfs:comment": "A textual description of the manufacturing process for this goods production."
+                    "rdfs:comment": "A textual description of the manufacturing process for this goods production.",
+                    "unece:domainName": "Production"
                 }
             ]
         }

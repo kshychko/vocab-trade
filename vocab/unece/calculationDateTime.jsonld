@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01004307",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_Inventory.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The date, time, date time, or other date time value of the calculation of this supply chain inventory."
+                    "rdfs:comment": "The date, time, date time, or other date time value of the calculation of this supply chain inventory.",
+                    "unece:domainName": "Inventory"
                 }
             ]
         }

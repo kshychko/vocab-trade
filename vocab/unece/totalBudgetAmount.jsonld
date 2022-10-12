@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01000379",
                     "unece:cefactBieDomainClass": "cefact:Procuring_Project.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The monetary value of the total budget which includes net amount, taxes, and material and instalment costs for this procuring project. It includes all expenses, for example, the construction amount, tax and instalment costs for the supplier’s service as well as material costs paid by the owner institution, because construction materials can be ordered separately from the construction service itself."
+                    "rdfs:comment": "The monetary value of the total budget which includes net amount, taxes, and material and instalment costs for this procuring project. It includes all expenses, for example, the construction amount, tax and instalment costs for the supplier’s service as well as material costs paid by the owner institution, because construction materials can be ordered separately from the construction service itself.",
+                    "unece:domainName": "Project"
                 }
             ]
         }

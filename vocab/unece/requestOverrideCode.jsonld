@@ -35,7 +35,8 @@
                     "unece:cefactUNId": "UN01006150",
                     "unece:cefactBieDomainClass": "cefact:CrossBorder_RegulatoryProcedure.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A code specifying a request, including a reason, to override previously submitted information for this cross-border regulatory procedure, such as due to an error condition."
+                    "rdfs:comment": "A code specifying a request, including a reason, to override previously submitted information for this cross-border regulatory procedure, such as due to an error condition.",
+                    "unece:domainName": "RegulatoryProcedure"
                 }
             ]
         }

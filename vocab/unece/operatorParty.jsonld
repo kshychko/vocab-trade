@@ -40,20 +40,22 @@
             "rdfs:label": "operatorParty",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Monitoring_IOTDevice.Operator.Trade_Party",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01013488",
-                    "unece:cefactBieDomainClass": "cefact:Monitoring_IOTDevice.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The operator party, such as terminal operator, service provider, network operator of this monitoring IOT device."
-                },
-                {
                     "@id": "cefact:Logistics_TransportMeans.Operator.Trade_Party",
                     "@type": "unece:AssociationBIE",
                     "unece:cefactUNId": "UN01003835",
                     "unece:cefactBieDomainClass": "cefact:Logistics_TransportMeans.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The party operating this logistics means of transport."
+                    "rdfs:comment": "The party operating this logistics means of transport.",
+                    "unece:domainName": "TransportMeans"
+                },
+                {
+                    "@id": "cefact:Monitoring_IOTDevice.Operator.Trade_Party",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01013488",
+                    "unece:cefactBieDomainClass": "cefact:Monitoring_IOTDevice.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The operator party, such as terminal operator, service provider, network operator of this monitoring IOT device.",
+                    "unece:domainName": "IOTDevice"
                 },
                 {
                     "@id": "cefact:ProductHandling_Process.Operator.Trade_Party",
@@ -61,7 +63,8 @@
                     "unece:cefactUNId": "UN01003970",
                     "unece:cefactBieDomainClass": "cefact:ProductHandling_Process.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A trade party who is an operator of this product handling process."
+                    "rdfs:comment": "A trade party who is an operator of this product handling process.",
+                    "unece:domainName": "Process"
                 }
             ]
         }

@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01012210",
                     "unece:cefactBieDomainClass": "cefact:Specified_GeographicalGrid.Details",
                     "unece:cefactBusinessProcess": "Agricultural",
-                    "rdfs:comment": "The direct position list associated with the origin of this geographical grid."
+                    "rdfs:comment": "The direct position list associated with the origin of this geographical grid.",
+                    "unece:domainName": "GeographicalGrid"
                 }
             ]
         }

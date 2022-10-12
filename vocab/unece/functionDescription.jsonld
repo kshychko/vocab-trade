@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01011927",
                     "unece:cefactBieDomainClass": "cefact:Trade_Product.Details",
                     "unece:cefactBusinessProcess": "Trade",
-                    "rdfs:comment": "A textual description of a function for this trade product."
+                    "rdfs:comment": "A textual description of a function for this trade product.",
+                    "unece:domainName": "Product"
                 }
             ]
         }

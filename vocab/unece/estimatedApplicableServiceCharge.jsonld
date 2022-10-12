@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01004286",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "An estimated logistics service charge applicable to this supply chain consignment, such as freight or insurance charges."
+                    "rdfs:comment": "An estimated logistics service charge applicable to this supply chain consignment, such as freight or insurance charges.",
+                    "unece:domainName": "Consignment"
                 }
             ]
         }

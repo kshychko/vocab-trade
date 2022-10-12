@@ -42,7 +42,8 @@
                     "unece:cefactUNId": "UN01013499",
                     "unece:cefactBieDomainClass": "cefact:Communication_Pairing.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The code specifying the method of this communication pairing."
+                    "rdfs:comment": "The code specifying the method of this communication pairing.",
+                    "unece:domainName": "Pairing"
                 },
                 {
                     "@id": "cefact:Cross-Border_CustomsValuation.Method.Code",
@@ -51,7 +52,8 @@
                     "unece:cefactUNId": "UN01003488",
                     "unece:cefactBieDomainClass": "cefact:CrossBorder_CustomsValuation.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The code specifying the method by which this cross-border customs valuation is determined."
+                    "rdfs:comment": "The code specifying the method by which this cross-border customs valuation is determined.",
+                    "unece:domainName": "CustomsValuation"
                 }
             ]
         }

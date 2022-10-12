@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01010108",
                     "unece:cefactBieDomainClass": "cefact:Logistics_TransportMeans.Details",
                     "unece:cefactBusinessProcess": "Transport",
-                    "rdfs:comment": "The indication of whether or not there is a helipad on this logistics means of transport."
+                    "rdfs:comment": "The indication of whether or not there is a helipad on this logistics means of transport.",
+                    "unece:domainName": "TransportMeans"
                 }
             ]
         }

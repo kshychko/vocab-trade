@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01004228",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The party responsible for providing the dangerous goods notification in accordance with the dangerous goods regulations relevant for this supply chain consignment."
+                    "rdfs:comment": "The party responsible for providing the dangerous goods notification in accordance with the dangerous goods regulations relevant for this supply chain consignment.",
+                    "unece:domainName": "Consignment"
                 }
             ]
         }

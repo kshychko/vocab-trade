@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01012729",
                     "unece:cefactBieDomainClass": "cefact:Logistics_Label.Details",
                     "unece:cefactBusinessProcess": "Cross Industry Trade",
-                    "rdfs:comment": "The code specifying the size of this logistics label."
+                    "rdfs:comment": "The code specifying the size of this logistics label.",
+                    "unece:domainName": "Label"
                 }
             ]
         }

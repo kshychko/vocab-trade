@@ -43,7 +43,8 @@
                     "unece:cefactUNId": "UN01002045",
                     "unece:cefactBieDomainClass": "cefact:Telecommunication_Communication.Details",
                     "unece:cefactBusinessProcess": "Project Management",
-                    "rdfs:comment": "The text string of characters that make up the complete number for this telecommunication."
+                    "rdfs:comment": "The text string of characters that make up the complete number for this telecommunication.",
+                    "unece:domainName": "TelecommunicationCommunication"
                 },
                 {
                     "@id": "cefact:Universal_Communication.CompleteNumber.Text",
@@ -52,7 +53,8 @@
                     "unece:cefactUNId": "UN01001256",
                     "unece:cefactBieDomainClass": "cefact:Universal_Communication.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The text string of characters that make up the complete number for this universal communication."
+                    "rdfs:comment": "The text string of characters that make up the complete number for this universal communication.",
+                    "unece:domainName": "UniversalCommunication"
                 }
             ]
         }

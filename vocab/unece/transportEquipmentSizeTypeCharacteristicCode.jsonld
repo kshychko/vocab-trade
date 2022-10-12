@@ -43,7 +43,8 @@
                     "unece:cefactUNId": "UN01004025",
                     "unece:cefactBieDomainClass": "cefact:ReferencedLogistics_TransportEquipment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The code specifying the characteristics, such as size and type, of this referenced piece of logistics transport equipment."
+                    "rdfs:comment": "The code specifying the characteristics, such as size and type, of this referenced piece of logistics transport equipment.",
+                    "unece:domainName": "LogisticsTransportEquipment"
                 },
                 {
                     "@id": "cefact:Logistics_TransportEquipment.Characteristic.Code",
@@ -52,7 +53,8 @@
                     "unece:cefactUNId": "UN01003768",
                     "unece:cefactBieDomainClass": "cefact:Logistics_TransportEquipment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The code specifying the characteristic or characteristics of this piece of logistics transport equipment, such as the ISO 6346 transport equipment size and type code."
+                    "rdfs:comment": "The code specifying the characteristic or characteristics of this piece of logistics transport equipment, such as the ISO 6346 transport equipment size and type code.",
+                    "unece:domainName": "LogisticsTransportEquipment"
                 },
                 {
                     "@id": "cefact:Attached_TransportEquipment.Characteristic.Code",
@@ -61,7 +63,8 @@
                     "unece:cefactUNId": "UN01003419",
                     "unece:cefactBieDomainClass": "cefact:Attached_TransportEquipment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The code specifying the characteristics, i.e. size and type, of this piece of attached transport equipment."
+                    "rdfs:comment": "The code specifying the characteristics, i.e. size and type, of this piece of attached transport equipment.",
+                    "unece:domainName": "AttachedTransportEquipment"
                 }
             ]
         }

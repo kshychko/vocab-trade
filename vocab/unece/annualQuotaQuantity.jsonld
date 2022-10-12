@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01006173",
                     "unece:cefactBieDomainClass": "cefact:CrossBorder_RegulatoryProcedure.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The annual quota quantity under this cross-border regulatory procedure."
+                    "rdfs:comment": "The annual quota quantity under this cross-border regulatory procedure.",
+                    "unece:domainName": "RegulatoryProcedure"
                 }
             ]
         }

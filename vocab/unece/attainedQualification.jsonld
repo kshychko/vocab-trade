@@ -41,7 +41,8 @@
                     "unece:cefactUNId": "UN01013142",
                     "unece:cefactBieDomainClass": "cefact:Transport_Person.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "An academic qualification attained by this transport person."
+                    "rdfs:comment": "An academic qualification attained by this transport person.",
+                    "unece:domainName": "TransportPerson"
                 },
                 {
                     "@id": "cefact:AuthoritativeSignatory_Person.Attained.Academic_Qualification",
@@ -49,7 +50,8 @@
                     "unece:cefactUNId": "UN01002515",
                     "unece:cefactBieDomainClass": "cefact:AuthoritativeSignatory_Person.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "An academic qualification attained by this authoritative signatory person."
+                    "rdfs:comment": "An academic qualification attained by this authoritative signatory person.",
+                    "unece:domainName": "AuthoritativeSignatoryPerson"
                 }
             ]
         }

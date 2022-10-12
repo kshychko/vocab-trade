@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01011699",
                     "unece:cefactBieDomainClass": "cefact:Line_TradeAgreement.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The indication of whether or not, according to this line trade agreement, the product is manufactured, built or customized only after receipt of order."
+                    "rdfs:comment": "The indication of whether or not, according to this line trade agreement, the product is manufactured, built or customized only after receipt of order.",
+                    "unece:domainName": "LineTradeAgreement"
                 }
             ]
         }

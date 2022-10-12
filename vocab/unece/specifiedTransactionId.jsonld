@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01003541",
                     "unece:cefactBieDomainClass": "cefact:ExchangedDocument_Context.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The identifier of a specified transaction in this exchanged document context."
+                    "rdfs:comment": "The identifier of a specified transaction in this exchanged document context.",
+                    "unece:domainName": "Context"
                 }
             ]
         }

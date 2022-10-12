@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01012958",
                     "unece:cefactBieDomainClass": "cefact:DocumentLine_Document.Details",
                     "unece:cefactBusinessProcess": "Supply Chain",
-                    "rdfs:comment": "A reason, expressed as text, for the line status in this document line."
+                    "rdfs:comment": "A reason, expressed as text, for the line status in this document line.",
+                    "unece:domainName": "DocumentLineDocument"
                 }
             ]
         }

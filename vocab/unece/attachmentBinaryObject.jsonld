@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01003996",
                     "unece:cefactBieDomainClass": "cefact:Referenced_Document.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A binary object that is attached or otherwise appended to this referenced document."
+                    "rdfs:comment": "A binary object that is attached or otherwise appended to this referenced document.",
+                    "unece:domainName": "Document"
                 }
             ]
         }

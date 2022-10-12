@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01006016",
                     "unece:cefactBieDomainClass": "cefact:Specified_BinaryFile.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A title, expressed as text, for this specified binary file."
+                    "rdfs:comment": "A title, expressed as text, for this specified binary file.",
+                    "unece:domainName": "BinaryFile"
                 }
             ]
         }

@@ -35,7 +35,8 @@
                     "unece:cefactUNId": "UN01004169",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The date, time, date time or other date time value when this supply chain consignment is due to be available."
+                    "rdfs:comment": "The date, time, date time or other date time value when this supply chain consignment is due to be available.",
+                    "unece:domainName": "Consignment"
                 }
             ]
         }

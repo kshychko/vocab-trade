@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01004712",
                     "unece:cefactBieDomainClass": "cefact:Trade_Tax.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The code specifying the type of trade related tax, levy or duty, such as a code for a Value Added Tax (VAT) [Reference United Nations Code List (UNCL) 5153]."
+                    "rdfs:comment": "The code specifying the type of trade related tax, levy or duty, such as a code for a Value Added Tax (VAT) [Reference United Nations Code List (UNCL) 5153].",
+                    "unece:domainName": "TradeTax"
                 }
             ]
         }

@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01004492",
                     "unece:cefactBieDomainClass": "cefact:TemperatureSetting_Instructions.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The code specifying a description of these temperature setting instructions."
+                    "rdfs:comment": "The code specifying a description of these temperature setting instructions.",
+                    "unece:domainName": "TemperatureSettingInstructions"
                 }
             ]
         }

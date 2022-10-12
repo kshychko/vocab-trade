@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01011662",
                     "unece:cefactBieDomainClass": "cefact:Header_TradeSettlement.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The party issuing the invoice for this header trade settlement."
+                    "rdfs:comment": "The party issuing the invoice for this header trade settlement.",
+                    "unece:domainName": "HeaderTradeSettlement"
                 }
             ]
         }

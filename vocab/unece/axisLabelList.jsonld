@@ -42,7 +42,8 @@
                     "unece:cefactUNId": "UN01012475",
                     "unece:cefactBieDomainClass": "cefact:Specified_DirectPositionList.Details",
                     "unece:cefactBusinessProcess": "Agricultural",
-                    "rdfs:comment": "An ordered list of axis labels, expressed as text, for this specified direct position list."
+                    "rdfs:comment": "An ordered list of axis labels, expressed as text, for this specified direct position list.",
+                    "unece:domainName": "DirectPositionList"
                 },
                 {
                     "@id": "cefact:Specified_DirectPosition.Axis_LabelList.Text",
@@ -50,7 +51,8 @@
                     "unece:cefactUNId": "UN01010469",
                     "unece:cefactBieDomainClass": "cefact:Specified_DirectPosition.Details",
                     "unece:cefactBusinessProcess": "Laboratory Observation",
-                    "rdfs:comment": "An ordered list of axis labels, expressed as text, for this specified direct position."
+                    "rdfs:comment": "An ordered list of axis labels, expressed as text, for this specified direct position.",
+                    "unece:domainName": "DirectPosition"
                 }
             ]
         }

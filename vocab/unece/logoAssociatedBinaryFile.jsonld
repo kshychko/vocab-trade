@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01006723",
                     "unece:cefactBieDomainClass": "cefact:Trade_Party.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A file containing a specified binary representation of a logo associated with this trade party."
+                    "rdfs:comment": "A file containing a specified binary representation of a logo associated with this trade party.",
+                    "unece:domainName": "TradeParty"
                 }
             ]
         }

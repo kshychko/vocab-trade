@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01013281",
                     "unece:cefactBieDomainClass": "cefact:Person_Identity.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The social security identifier for this person."
+                    "rdfs:comment": "The social security identifier for this person.",
+                    "unece:domainName": "PersonIdentity"
                 }
             ]
         }

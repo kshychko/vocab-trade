@@ -32,22 +32,24 @@
             "rdfs:label": "loadedPackageQuantity",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Logistics_TransportEquipment.LoadedPackage.Quantity",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "7228",
-                    "unece:cefactUNId": "UN01003765",
-                    "unece:cefactBieDomainClass": "cefact:Logistics_TransportEquipment.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The number of packages loaded into or onto this piece of logistics transport equipment."
-                },
-                {
                     "@id": "cefact:Referenced_Logistics_TransportEquipment.LoadedPackage.Quantity",
                     "@type": "unece:BasicBIE",
                     "unece:tded": "7228",
                     "unece:cefactUNId": "UN01008991",
                     "unece:cefactBieDomainClass": "cefact:ReferencedLogistics_TransportEquipment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The number of packages loaded into or onto this piece of referenced logistics transport equipment."
+                    "rdfs:comment": "The number of packages loaded into or onto this piece of referenced logistics transport equipment.",
+                    "unece:domainName": "LogisticsTransportEquipment"
+                },
+                {
+                    "@id": "cefact:Logistics_TransportEquipment.LoadedPackage.Quantity",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "7228",
+                    "unece:cefactUNId": "UN01003765",
+                    "unece:cefactBieDomainClass": "cefact:Logistics_TransportEquipment.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The number of packages loaded into or onto this piece of logistics transport equipment.",
+                    "unece:domainName": "LogisticsTransportEquipment"
                 }
             ]
         }

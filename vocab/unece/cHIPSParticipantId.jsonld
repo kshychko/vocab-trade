@@ -37,22 +37,24 @@
             "rdfs:label": "cHIPSParticipantId",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Debtor_FinancialInstitution.CHIPSParticipant_Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "3433",
-                    "unece:cefactUNId": "UN01002847",
-                    "unece:cefactBieDomainClass": "cefact:Debtor_FinancialInstitution.Details",
-                    "unece:cefactBusinessProcess": "Customer to bank payment initiation",
-                    "rdfs:comment": "The unique (United States) Clearing House Interbank Payment System (CHIPS) Participant Identifier (ID) as assigned by the New York Clearing House for this debtor financial institution."
-                },
-                {
                     "@id": "cefact:Creditor_FinancialInstitution.CHIPSParticipant_Identification.Identifier",
                     "@type": "unece:BasicBIE",
                     "unece:tded": "3433",
                     "unece:cefactUNId": "UN01002982",
                     "unece:cefactBieDomainClass": "cefact:Creditor_FinancialInstitution.Details",
                     "unece:cefactBusinessProcess": "Customer to bank payment initiation",
-                    "rdfs:comment": "The unique (United States) Clearing House Interbank Payment System (CHIPS) Participant Identifier (ID) as assigned by the New York Clearing House for this creditor financial institution."
+                    "rdfs:comment": "The unique (United States) Clearing House Interbank Payment System (CHIPS) Participant Identifier (ID) as assigned by the New York Clearing House for this creditor financial institution.",
+                    "unece:domainName": "CreditorFinancialInstitution"
+                },
+                {
+                    "@id": "cefact:Debtor_FinancialInstitution.CHIPSParticipant_Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "3433",
+                    "unece:cefactUNId": "UN01002847",
+                    "unece:cefactBieDomainClass": "cefact:Debtor_FinancialInstitution.Details",
+                    "unece:cefactBusinessProcess": "Customer to bank payment initiation",
+                    "rdfs:comment": "The unique (United States) Clearing House Interbank Payment System (CHIPS) Participant Identifier (ID) as assigned by the New York Clearing House for this debtor financial institution.",
+                    "unece:domainName": "DebtorFinancialInstitution"
                 }
             ]
         }

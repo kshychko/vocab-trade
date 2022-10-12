@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01012179",
                     "unece:cefactBieDomainClass": "cefact:Specified_GeographicalFeature.Details",
                     "unece:cefactBusinessProcess": "Agricultural",
-                    "rdfs:comment": "The geographical grid included in this geographical feature."
+                    "rdfs:comment": "The geographical grid included in this geographical feature.",
+                    "unece:domainName": "GeographicalFeature"
                 }
             ]
         }

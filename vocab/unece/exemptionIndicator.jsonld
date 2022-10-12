@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01004876",
                     "unece:cefactBieDomainClass": "cefact:Trade_Tax.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The indication of whether or not there is an exemption from this trade tax."
+                    "rdfs:comment": "The indication of whether or not there is an exemption from this trade tax.",
+                    "unece:domainName": "TradeTax"
                 }
             ]
         }

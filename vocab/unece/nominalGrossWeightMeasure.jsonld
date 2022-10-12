@@ -38,7 +38,8 @@
                     "unece:cefactUNId": "UN01003692",
                     "unece:cefactBieDomainClass": "cefact:Logistics_Package.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The measure of the nominal gross weight (mass) of this logistics package and its contents."
+                    "rdfs:comment": "The measure of the nominal gross weight (mass) of this logistics package and its contents.",
+                    "unece:domainName": "Package"
                 },
                 {
                     "@id": "cefact:Referenced_Logistics_Package.Nominal_GrossWeight.Measure",
@@ -47,7 +48,8 @@
                     "unece:cefactUNId": "UN01013100",
                     "unece:cefactBieDomainClass": "cefact:ReferencedLogistics_Package.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The measure of the nominal gross weight (mass) of this referenced logistics package and its contents."
+                    "rdfs:comment": "The measure of the nominal gross weight (mass) of this referenced logistics package and its contents.",
+                    "unece:domainName": "Package"
                 }
             ]
         }

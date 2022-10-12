@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01002177",
                     "unece:cefactBieDomainClass": "cefact:Distinct_Chemical.Details",
                     "unece:cefactBusinessProcess": "MSDS Reporting",
-                    "rdfs:comment": "The measure of the molecular weight (in grams) for this distinct chemical."
+                    "rdfs:comment": "The measure of the molecular weight (in grams) for this distinct chemical.",
+                    "unece:domainName": "Chemical"
                 }
             ]
         }

@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01006036",
                     "unece:cefactBieDomainClass": "cefact:Referenced_Document.Details",
                     "unece:cefactBusinessProcess": "Trade",
-                    "rdfs:comment": "The code specifying the reference type of this referenced document."
+                    "rdfs:comment": "The code specifying the reference type of this referenced document.",
+                    "unece:domainName": "Document"
                 }
             ]
         }

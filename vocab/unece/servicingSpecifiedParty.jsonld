@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01003688",
                     "unece:cefactBieDomainClass": "cefact:Logistics_Location.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A servicing party specified for this logistics related location."
+                    "rdfs:comment": "A servicing party specified for this logistics related location.",
+                    "unece:domainName": "LogisticsLocation"
                 }
             ]
         }

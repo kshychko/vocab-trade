@@ -35,7 +35,8 @@
                     "unece:cefactUNId": "UN01004780",
                     "unece:cefactBieDomainClass": "cefact:Transport_DangerousGoods.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The unique identifier of a hazard class applicable to these transported dangerous goods as defined by the relevant governing regulation authority."
+                    "rdfs:comment": "The unique identifier of a hazard class applicable to these transported dangerous goods as defined by the relevant governing regulation authority.",
+                    "unece:domainName": "DangerousGoods"
                 }
             ]
         }

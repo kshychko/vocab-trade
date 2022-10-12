@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01012487",
                     "unece:cefactBieDomainClass": "cefact:Product_Certificate.Details",
                     "unece:cefactBusinessProcess": "Traceability",
-                    "rdfs:comment": "The code specifying the reason why this product certificate was issued."
+                    "rdfs:comment": "The code specifying the reason why this product certificate was issued.",
+                    "unece:domainName": "Certificate"
                 }
             ]
         }

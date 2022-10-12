@@ -31,20 +31,22 @@
             "rdfs:label": "settingTemperature",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Logistics_TransportEquipment.Setting.TransportSetting_Temperature",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01003800",
-                    "unece:cefactBieDomainClass": "cefact:Logistics_TransportEquipment.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A temperature setting for this piece of logistics transport equipment, such as storage temperature or operational temperature."
-                },
-                {
                     "@id": "cefact:Referenced_Logistics_TransportEquipment.Setting.TransportSetting_Temperature",
                     "@type": "unece:AssociationBIE",
                     "unece:cefactUNId": "UN01013181",
                     "unece:cefactBieDomainClass": "cefact:ReferencedLogistics_TransportEquipment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A temperature setting for this piece of referenced logistics transport equipment, such as storage temperature or operational temperature."
+                    "rdfs:comment": "A temperature setting for this piece of referenced logistics transport equipment, such as storage temperature or operational temperature.",
+                    "unece:domainName": "LogisticsTransportEquipment"
+                },
+                {
+                    "@id": "cefact:Logistics_TransportEquipment.Setting.TransportSetting_Temperature",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01003800",
+                    "unece:cefactBieDomainClass": "cefact:Logistics_TransportEquipment.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A temperature setting for this piece of logistics transport equipment, such as storage temperature or operational temperature.",
+                    "unece:domainName": "LogisticsTransportEquipment"
                 }
             ]
         }

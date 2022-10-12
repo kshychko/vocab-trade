@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01013534",
                     "unece:cefactBieDomainClass": "cefact:Calibrated_Measurement.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The code specifying a quantification type for this calibrated measurement, such as measured, calculated, or estimated."
+                    "rdfs:comment": "The code specifying a quantification type for this calibrated measurement, such as measured, calculated, or estimated.",
+                    "unece:domainName": "Measurement"
                 }
             ]
         }

@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01007260",
                     "unece:cefactBieDomainClass": "cefact:Trade_Product.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The indication of whether or not this trade product is marked with a serial number."
+                    "rdfs:comment": "The indication of whether or not this trade product is marked with a serial number.",
+                    "unece:domainName": "Product"
                 }
             ]
         }

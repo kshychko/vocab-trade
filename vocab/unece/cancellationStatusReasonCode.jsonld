@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01013198",
                     "unece:cefactBieDomainClass": "cefact:Cancellation_Status.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The code specifying the reason for this cancellation status."
+                    "rdfs:comment": "The code specifying the reason for this cancellation status.",
+                    "unece:domainName": "CancellationStatus"
                 }
             ]
         }

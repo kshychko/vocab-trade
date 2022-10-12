@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01003783",
                     "unece:cefactBieDomainClass": "cefact:Logistics_TransportEquipment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The indication of whether or not this piece of logistics transport equipment is accompanied, such as by a transport means."
+                    "rdfs:comment": "The indication of whether or not this piece of logistics transport equipment is accompanied, such as by a transport means.",
+                    "unece:domainName": "LogisticsTransportEquipment"
                 }
             ]
         }

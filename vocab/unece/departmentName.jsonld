@@ -41,21 +41,23 @@
             "rdfs:label": "departmentName",
             "unece:cefactElementMetadata": [
                 {
+                    "@id": "cefact:Trade_Address.DepartmentName.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01006206",
+                    "unece:cefactBieDomainClass": "cefact:Trade_Address.Details",
+                    "unece:cefactBusinessProcess": "Cross-Border",
+                    "rdfs:comment": "The name, expressed as text, of a department for this trade address.",
+                    "unece:domainName": "TradeAddress"
+                },
+                {
                     "@id": "cefact:Trade_Contact.DepartmentName.Text",
                     "@type": "unece:BasicBIE",
                     "unece:tded": "3412",
                     "unece:cefactUNId": "UN01001643",
                     "unece:cefactBieDomainClass": "cefact:Trade_Contact.Details",
                     "unece:cefactBusinessProcess": "Trade",
-                    "rdfs:comment": "The name, expressed as text, of the department to which this trade contact belongs within an organization."
-                },
-                {
-                    "@id": "cefact:Trade_Address.DepartmentName.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01006206",
-                    "unece:cefactBieDomainClass": "cefact:Trade_Address.Details",
-                    "unece:cefactBusinessProcess": "Cross-Border",
-                    "rdfs:comment": "The name, expressed as text, of a department for this trade address."
+                    "rdfs:comment": "The name, expressed as text, of the department to which this trade contact belongs within an organization.",
+                    "unece:domainName": "Contact"
                 },
                 {
                     "@id": "cefact:FinancialInstitution_Address.DepartmentName.Text",
@@ -63,7 +65,8 @@
                     "unece:cefactUNId": "UN01004891",
                     "unece:cefactBieDomainClass": "cefact:FinancialInstitution_Address.Details",
                     "unece:cefactBusinessProcess": "Customer to bank payment initiation",
-                    "rdfs:comment": "The name, expressed as text, of a department within this financial institution address."
+                    "rdfs:comment": "The name, expressed as text, of a department within this financial institution address.",
+                    "unece:domainName": "FinancialInstitutionAddress"
                 }
             ]
         }

@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01002179",
                     "unece:cefactBieDomainClass": "cefact:Distinct_Chemical.Details",
                     "unece:cefactBusinessProcess": "MSDS Reporting",
-                    "rdfs:comment": "The textual description of the formula for this distinct chemical."
+                    "rdfs:comment": "The textual description of the formula for this distinct chemical.",
+                    "unece:domainName": "Chemical"
                 }
             ]
         }

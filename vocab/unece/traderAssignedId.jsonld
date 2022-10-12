@@ -35,7 +35,8 @@
                     "unece:cefactUNId": "UN01003569",
                     "unece:cefactBieDomainClass": "cefact:Exchanged_Document.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A unique trader assigned identifier for this exchanged document."
+                    "rdfs:comment": "A unique trader assigned identifier for this exchanged document.",
+                    "unece:domainName": "ExchangedDocument"
                 }
             ]
         }

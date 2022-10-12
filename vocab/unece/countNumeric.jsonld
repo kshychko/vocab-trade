@@ -42,7 +42,8 @@
                     "unece:cefactUNId": "UN01010471",
                     "unece:cefactBieDomainClass": "cefact:Specified_DirectPosition.Details",
                     "unece:cefactBusinessProcess": "Laboratory Observation",
-                    "rdfs:comment": "A count for this specified direct position."
+                    "rdfs:comment": "A count for this specified direct position.",
+                    "unece:domainName": "DirectPosition"
                 },
                 {
                     "@id": "cefact:Specified_DirectPositionList.Count.Numeric",
@@ -50,7 +51,8 @@
                     "unece:cefactUNId": "UN01012477",
                     "unece:cefactBieDomainClass": "cefact:Specified_DirectPositionList.Details",
                     "unece:cefactBusinessProcess": "Agricultural",
-                    "rdfs:comment": "A count for this specified direct position list."
+                    "rdfs:comment": "A count for this specified direct position list.",
+                    "unece:domainName": "DirectPositionList"
                 }
             ]
         }

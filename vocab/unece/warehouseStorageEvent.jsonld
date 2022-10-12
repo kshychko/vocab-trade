@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01011068",
                     "unece:cefactBieDomainClass": "cefact:ReferencedSupplyChain_Consignment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A warehouse storage event for this referenced supply chain consignment."
+                    "rdfs:comment": "A warehouse storage event for this referenced supply chain consignment.",
+                    "unece:domainName": "Consignment"
                 }
             ]
         }

@@ -37,20 +37,22 @@
             "rdfs:label": "streetName",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Trade_Address.StreetName.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01004543",
-                    "unece:cefactBieDomainClass": "cefact:Trade_Address.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A name, expressed as text, of a street or thoroughfare for this trade address."
-                },
-                {
                     "@id": "cefact:FinancialInstitution_Address.StreetName.Text",
                     "@type": "unece:BasicBIE",
                     "unece:cefactUNId": "UN01003180",
                     "unece:cefactBieDomainClass": "cefact:FinancialInstitution_Address.Details",
                     "unece:cefactBusinessProcess": "Customer to bank payment initiation",
-                    "rdfs:comment": "The name, expressed as text, of the street or thoroughfare for this financial institution address."
+                    "rdfs:comment": "The name, expressed as text, of the street or thoroughfare for this financial institution address.",
+                    "unece:domainName": "FinancialInstitutionAddress"
+                },
+                {
+                    "@id": "cefact:Trade_Address.StreetName.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01004543",
+                    "unece:cefactBieDomainClass": "cefact:Trade_Address.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A name, expressed as text, of a street or thoroughfare for this trade address.",
+                    "unece:domainName": "TradeAddress"
                 }
             ]
         }

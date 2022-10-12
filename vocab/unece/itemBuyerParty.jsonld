@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01011751",
                     "unece:cefactBieDomainClass": "cefact:Line_TradeAgreement.Details",
                     "unece:cefactBusinessProcess": "Invoicing",
-                    "rdfs:comment": "The item buyer party for this line trade agreement."
+                    "rdfs:comment": "The item buyer party for this line trade agreement.",
+                    "unece:domainName": "LineTradeAgreement"
                 }
             ]
         }

@@ -42,7 +42,8 @@
                     "unece:cefactUNId": "UN01004721",
                     "unece:cefactBieDomainClass": "cefact:Trade_Tax.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A jurisdiction, expressed as text, to which this trade related tax, levy or duty applies."
+                    "rdfs:comment": "A jurisdiction, expressed as text, to which this trade related tax, levy or duty applies.",
+                    "unece:domainName": "TradeTax"
                 },
                 {
                     "@id": "cefact:Registered_Tax.Jurisdiction.Text",
@@ -50,7 +51,8 @@
                     "unece:cefactUNId": "UN01004062",
                     "unece:cefactBieDomainClass": "cefact:Registered_Tax.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A jurisdiction, expressed as text, for this registered tax."
+                    "rdfs:comment": "A jurisdiction, expressed as text, for this registered tax.",
+                    "unece:domainName": "RegisteredTax"
                 }
             ]
         }

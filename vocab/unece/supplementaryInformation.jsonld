@@ -35,7 +35,8 @@
                     "unece:cefactUNId": "UN01006208",
                     "unece:cefactBieDomainClass": "cefact:Transport_DangerousGoods.Details",
                     "unece:cefactBusinessProcess": "Cross-Border",
-                    "rdfs:comment": "Supplementary information, expressed as text, concerning the transport of these dangerous goods."
+                    "rdfs:comment": "Supplementary information, expressed as text, concerning the transport of these dangerous goods.",
+                    "unece:domainName": "DangerousGoods"
                 }
             ]
         }

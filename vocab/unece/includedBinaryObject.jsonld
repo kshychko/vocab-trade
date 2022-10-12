@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01006024",
                     "unece:cefactBieDomainClass": "cefact:Specified_BinaryFile.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A binary object included in this specified binary file."
+                    "rdfs:comment": "A binary object included in this specified binary file.",
+                    "unece:domainName": "BinaryFile"
                 }
             ]
         }

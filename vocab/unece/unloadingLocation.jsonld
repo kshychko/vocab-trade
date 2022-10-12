@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01013113",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The logistics location where the supply chain consignment is unloaded."
+                    "rdfs:comment": "The logistics location where the supply chain consignment is unloaded.",
+                    "unece:domainName": "Consignment"
                 }
             ]
         }

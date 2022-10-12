@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01007269",
                     "unece:cefactBieDomainClass": "cefact:Trade_Product.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The number of content units of products included in this trade product."
+                    "rdfs:comment": "The number of content units of products included in this trade product.",
+                    "unece:domainName": "Product"
                 }
             ]
         }

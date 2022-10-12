@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01004578",
                     "unece:cefactBieDomainClass": "cefact:Trade_CurrencyExchange.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The numeric unit basis of the source currency used in this trade related currency exchange rate calculation."
+                    "rdfs:comment": "The numeric unit basis of the source currency used in this trade related currency exchange rate calculation.",
+                    "unece:domainName": "CurrencyExchange"
                 }
             ]
         }

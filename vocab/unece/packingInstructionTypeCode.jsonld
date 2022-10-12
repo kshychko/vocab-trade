@@ -35,7 +35,8 @@
                     "unece:cefactUNId": "UN01004776",
                     "unece:cefactBieDomainClass": "cefact:Transport_DangerousGoods.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The code specifying a type of packing instruction for these transported dangerous goods."
+                    "rdfs:comment": "The code specifying a type of packing instruction for these transported dangerous goods.",
+                    "unece:domainName": "DangerousGoods"
                 }
             ]
         }

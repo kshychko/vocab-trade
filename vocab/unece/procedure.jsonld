@@ -37,20 +37,22 @@
             "rdfs:label": "procedure",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Handling_Instructions.Procedure.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01003629",
-                    "unece:cefactBieDomainClass": "cefact:Handling_Instructions.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A procedure, expressed as text, for these handling instructions."
-                },
-                {
                     "@id": "cefact:TemperatureSetting_Instructions.Procedure.Text",
                     "@type": "unece:BasicBIE",
                     "unece:cefactUNId": "UN01004490",
                     "unece:cefactBieDomainClass": "cefact:TemperatureSetting_Instructions.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A procedure, expressed as text, for these temperature setting instructions."
+                    "rdfs:comment": "A procedure, expressed as text, for these temperature setting instructions.",
+                    "unece:domainName": "TemperatureSettingInstructions"
+                },
+                {
+                    "@id": "cefact:Handling_Instructions.Procedure.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01003629",
+                    "unece:cefactBieDomainClass": "cefact:Handling_Instructions.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "A procedure, expressed as text, for these handling instructions.",
+                    "unece:domainName": "HandlingInstructions"
                 }
             ]
         }

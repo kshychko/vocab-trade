@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01013612",
                     "unece:cefactBieDomainClass": "cefact:GeographicalCoordinate.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "An alternative source system identifier for this geographical coordinate."
+                    "rdfs:comment": "An alternative source system identifier for this geographical coordinate.",
+                    "unece:domainName": "GeographicalCoordinate"
                 }
             ]
         }

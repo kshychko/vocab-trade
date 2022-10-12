@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01011913",
                     "unece:cefactBieDomainClass": "cefact:TradeSettlementPayment_MonetarySummation.Details",
                     "unece:cefactBusinessProcess": "Supply Chain",
-                    "rdfs:comment": "A monetary value transferred as an equivalent amount in the credit transfer payment in this trade settlement payment monetary summation, such as the amount transferred between debtor and creditor, before deduction of charges, expressed in the currency of the debtor's account, and transferred into a different currency."
+                    "rdfs:comment": "A monetary value transferred as an equivalent amount in the credit transfer payment in this trade settlement payment monetary summation, such as the amount transferred between debtor and creditor, before deduction of charges, expressed in the currency of the debtor's account, and transferred into a different currency.",
+                    "unece:domainName": "TradeSettlementPaymentMonetarySummation"
                 }
             ]
         }

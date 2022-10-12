@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01003543",
                     "unece:cefactBieDomainClass": "cefact:ExchangedDocument_Context.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A Business Information Master (BIM) context parameter specified for this exchanged document context."
+                    "rdfs:comment": "A Business Information Master (BIM) context parameter specified for this exchanged document context.",
+                    "unece:domainName": "Context"
                 }
             ]
         }

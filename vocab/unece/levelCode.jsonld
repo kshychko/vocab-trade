@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01013050",
                     "unece:cefactBieDomainClass": "cefact:Logistics_RiskAnalysisResult.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The code specifying the level for this logistics risk analysis result."
+                    "rdfs:comment": "The code specifying the level for this logistics risk analysis result.",
+                    "unece:domainName": "RiskAnalysisResult"
                 }
             ]
         }

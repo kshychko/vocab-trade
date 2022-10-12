@@ -35,7 +35,8 @@
                     "unece:cefactUNId": "UN01004769",
                     "unece:cefactBieDomainClass": "cefact:Transport_DangerousGoods.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The unique transport emergency procedure (EMS) identifier applicable for these transported dangerous goods."
+                    "rdfs:comment": "The unique transport emergency procedure (EMS) identifier applicable for these transported dangerous goods.",
+                    "unece:domainName": "DangerousGoods"
                 }
             ]
         }

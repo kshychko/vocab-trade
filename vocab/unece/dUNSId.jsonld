@@ -35,7 +35,8 @@
                     "unece:cefactUNId": "UN01006091",
                     "unece:cefactBieDomainClass": "cefact:Trade_Party.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The unique nine-digit Data Universal Numbering System (DUNS) identifier for this trade party."
+                    "rdfs:comment": "The unique nine-digit Data Universal Numbering System (DUNS) identifier for this trade party.",
+                    "unece:domainName": "TradeParty"
                 }
             ]
         }

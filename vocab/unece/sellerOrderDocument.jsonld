@@ -45,7 +45,8 @@
                     "unece:cefactUNId": "UN01011712",
                     "unece:cefactBieDomainClass": "cefact:Line_TradeAgreement.Details",
                     "unece:cefactBusinessProcess": "Trade",
-                    "rdfs:comment": "The seller generated order document referenced in this line trade agreement."
+                    "rdfs:comment": "The seller generated order document referenced in this line trade agreement.",
+                    "unece:domainName": "LineTradeAgreement"
                 },
                 {
                     "@id": "cefact:SubordinateLine_TradeAgreement.Seller_Order.Referenced_Document",
@@ -53,7 +54,8 @@
                     "unece:cefactUNId": "UN01011844",
                     "unece:cefactBieDomainClass": "cefact:SubordinateLine_TradeAgreement.Details",
                     "unece:cefactBusinessProcess": "Trade",
-                    "rdfs:comment": "The seller generated order document referenced in this subordinate line trade agreement."
+                    "rdfs:comment": "The seller generated order document referenced in this subordinate line trade agreement.",
+                    "unece:domainName": "SubordinateLineTradeAgreement"
                 },
                 {
                     "@id": "cefact:Header_TradeAgreement.Seller_Order.Referenced_Document",
@@ -61,7 +63,8 @@
                     "unece:cefactUNId": "UN01011563",
                     "unece:cefactBieDomainClass": "cefact:Header_TradeAgreement.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The seller generated order document referenced in this header trade agreement."
+                    "rdfs:comment": "The seller generated order document referenced in this header trade agreement.",
+                    "unece:domainName": "HeaderTradeAgreement"
                 }
             ]
         }

@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01004809",
                     "unece:cefactBieDomainClass": "cefact:Transport_Event.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A location of a conveyance facility related to this transport event."
+                    "rdfs:comment": "A location of a conveyance facility related to this transport event.",
+                    "unece:domainName": "TransportEvent"
                 }
             ]
         }

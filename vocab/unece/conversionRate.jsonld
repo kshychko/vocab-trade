@@ -35,7 +35,8 @@
                     "unece:cefactUNId": "UN01004582",
                     "unece:cefactBieDomainClass": "cefact:Trade_CurrencyExchange.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The rate factor used for conversion from the source currency to the target currency for trade purposes."
+                    "rdfs:comment": "The rate factor used for conversion from the source currency to the target currency for trade purposes.",
+                    "unece:domainName": "CurrencyExchange"
                 }
             ]
         }

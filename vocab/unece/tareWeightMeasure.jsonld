@@ -37,21 +37,23 @@
             "rdfs:label": "tareWeightMeasure",
             "unece:cefactElementMetadata": [
                 {
+                    "@id": "cefact:Logistics_TransportMeans.TareWeight.Measure",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01013600",
+                    "unece:cefactBieDomainClass": "cefact:Logistics_TransportMeans.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The measure of the tare weight (mass) of this logistics means of transport which is the weight (mass) including permanent equipment but excluding goods and loose accessories.",
+                    "unece:domainName": "TransportMeans"
+                },
+                {
                     "@id": "cefact:Logistics_TransportEquipment.TareWeight.Measure",
                     "@type": "unece:BasicBIE",
                     "unece:tded": "6411",
                     "unece:cefactUNId": "UN01003761",
                     "unece:cefactBieDomainClass": "cefact:Logistics_TransportEquipment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The measure of the tare weight (mass) of this piece of logistics transport equipment which is the weight (mass) including permanent equipment but excluding goods and loose accessories."
-                },
-                {
-                    "@id": "cefact:Logistics_TransportMeans.TareWeight.Measure",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01013600",
-                    "unece:cefactBieDomainClass": "cefact:Logistics_TransportMeans.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The measure of the tare weight (mass) of this logistics means of transport which is the weight (mass) including permanent equipment but excluding goods and loose accessories."
+                    "rdfs:comment": "The measure of the tare weight (mass) of this piece of logistics transport equipment which is the weight (mass) including permanent equipment but excluding goods and loose accessories.",
+                    "unece:domainName": "LogisticsTransportEquipment"
                 }
             ]
         }

@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01004885",
                     "unece:cefactBieDomainClass": "cefact:Trade_AllowanceCharge.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The actual trade currency exchange for this trade allowance charge."
+                    "rdfs:comment": "The actual trade currency exchange for this trade allowance charge.",
+                    "unece:domainName": "AllowanceCharge"
                 }
             ]
         }

@@ -66,42 +66,8 @@
                     "unece:cefactUNId": "UN01013102",
                     "unece:cefactBieDomainClass": "cefact:ReferencedLogistics_Package.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The measure of the gross volume of this referenced logistics package."
-                },
-                {
-                    "@id": "cefact:Referenced_Logistics_TransportEquipment.GrossVolume.Measure",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "6411",
-                    "unece:cefactUNId": "UN01009016",
-                    "unece:cefactBieDomainClass": "cefact:ReferencedLogistics_TransportEquipment.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The measure of the gross volume of this piece of referenced logistics transport equipment."
-                },
-                {
-                    "@id": "cefact:Logistics_TransportEquipment.GrossVolume.Measure",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "6411",
-                    "unece:cefactUNId": "UN01003764",
-                    "unece:cefactBieDomainClass": "cefact:Logistics_TransportEquipment.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The measure of the gross volume of this piece of logistics transport equipment."
-                },
-                {
-                    "@id": "cefact:Transport_DangerousGoods.GrossVolume.Measure",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01004783",
-                    "unece:cefactBieDomainClass": "cefact:Transport_DangerousGoods.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The measure of the gross volume, normally calculated by multiplying the maximum length, width and height dimensions of these transported dangerous goods."
-                },
-                {
-                    "@id": "cefact:Referenced_SupplyChain_Consignment.GrossVolume.Measure",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "6422",
-                    "unece:cefactUNId": "UN01011050",
-                    "unece:cefactBieDomainClass": "cefact:ReferencedSupplyChain_Consignment.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A measure of the gross volume, normally calculated by multiplying the maximum length, width and height, of this referenced supply chain consignment."
+                    "rdfs:comment": "The measure of the gross volume of this referenced logistics package.",
+                    "unece:domainName": "Package"
                 },
                 {
                     "@id": "cefact:SupplyChain_ConsignmentItem.GrossVolume.Measure",
@@ -110,7 +76,28 @@
                     "unece:cefactUNId": "UN01004124",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_ConsignmentItem.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A measure of the gross volume, normally calculated by multiplying the maximum length, width and height of this supply chain consignment item."
+                    "rdfs:comment": "A measure of the gross volume, normally calculated by multiplying the maximum length, width and height of this supply chain consignment item.",
+                    "unece:domainName": "ConsignmentItem"
+                },
+                {
+                    "@id": "cefact:Referenced_Logistics_TransportEquipment.GrossVolume.Measure",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "6411",
+                    "unece:cefactUNId": "UN01009016",
+                    "unece:cefactBieDomainClass": "cefact:ReferencedLogistics_TransportEquipment.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The measure of the gross volume of this piece of referenced logistics transport equipment.",
+                    "unece:domainName": "LogisticsTransportEquipment"
+                },
+                {
+                    "@id": "cefact:Logistics_TransportEquipment.GrossVolume.Measure",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "6411",
+                    "unece:cefactUNId": "UN01003764",
+                    "unece:cefactBieDomainClass": "cefact:Logistics_TransportEquipment.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The measure of the gross volume of this piece of logistics transport equipment.",
+                    "unece:domainName": "LogisticsTransportEquipment"
                 },
                 {
                     "@id": "cefact:Logistics_Package.GrossVolume.Measure",
@@ -119,15 +106,18 @@
                     "unece:cefactUNId": "UN01003694",
                     "unece:cefactBieDomainClass": "cefact:Logistics_Package.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The measure of the gross volume of this logistics package."
+                    "rdfs:comment": "The measure of the gross volume of this logistics package.",
+                    "unece:domainName": "Package"
                 },
                 {
-                    "@id": "cefact:Trade_Product.GrossVolume.Measure",
+                    "@id": "cefact:Referenced_SupplyChain_Consignment.GrossVolume.Measure",
                     "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01005382",
-                    "unece:cefactBieDomainClass": "cefact:Trade_Product.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A measure of the gross volume for this trade product."
+                    "unece:tded": "6422",
+                    "unece:cefactUNId": "UN01011050",
+                    "unece:cefactBieDomainClass": "cefact:ReferencedSupplyChain_Consignment.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A measure of the gross volume, normally calculated by multiplying the maximum length, width and height, of this referenced supply chain consignment.",
+                    "unece:domainName": "Consignment"
                 },
                 {
                     "@id": "cefact:SupplyChain_Consignment.GrossVolume.Measure",
@@ -136,7 +126,17 @@
                     "unece:cefactUNId": "UN01004175",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A measure of the gross volume, normally calculated by multiplying the maximum length, width and height of this supply chain consignment."
+                    "rdfs:comment": "A measure of the gross volume, normally calculated by multiplying the maximum length, width and height of this supply chain consignment.",
+                    "unece:domainName": "Consignment"
+                },
+                {
+                    "@id": "cefact:Trade_Product.GrossVolume.Measure",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01005382",
+                    "unece:cefactBieDomainClass": "cefact:Trade_Product.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "A measure of the gross volume for this trade product.",
+                    "unece:domainName": "Product"
                 },
                 {
                     "@id": "cefact:Line_TradeDelivery.GrossVolume.Measure",
@@ -145,7 +145,17 @@
                     "unece:cefactUNId": "UN01011771",
                     "unece:cefactBieDomainClass": "cefact:Line_TradeDelivery.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The measure, at line level, of the gross volume of this trade delivery."
+                    "rdfs:comment": "The measure, at line level, of the gross volume of this trade delivery.",
+                    "unece:domainName": "LineTradeDelivery"
+                },
+                {
+                    "@id": "cefact:Transport_DangerousGoods.GrossVolume.Measure",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01004783",
+                    "unece:cefactBieDomainClass": "cefact:Transport_DangerousGoods.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The measure of the gross volume, normally calculated by multiplying the maximum length, width and height dimensions of these transported dangerous goods.",
+                    "unece:domainName": "DangerousGoods"
                 }
             ]
         }

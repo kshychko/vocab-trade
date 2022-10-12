@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01003771",
                     "unece:cefactBieDomainClass": "cefact:Logistics_TransportEquipment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The code specifying the used capacity of this piece of logistics transport equipment, such as full or empty."
+                    "rdfs:comment": "The code specifying the used capacity of this piece of logistics transport equipment, such as full or empty.",
+                    "unece:domainName": "LogisticsTransportEquipment"
                 }
             ]
         }

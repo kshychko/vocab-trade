@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01008296",
                     "unece:cefactBieDomainClass": "cefact:TradeProduct_Certification.Details",
                     "unece:cefactBusinessProcess": "Trade",
-                    "rdfs:comment": "The standard, expressed as text, for this trade product certification."
+                    "rdfs:comment": "The standard, expressed as text, for this trade product certification.",
+                    "unece:domainName": "Certification"
                 }
             ]
         }

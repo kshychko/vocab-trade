@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01005303",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_Event.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The code specifying a frequency for this supply chain event."
+                    "rdfs:comment": "The code specifying a frequency for this supply chain event.",
+                    "unece:domainName": "SupplyChainEvent"
                 }
             ]
         }

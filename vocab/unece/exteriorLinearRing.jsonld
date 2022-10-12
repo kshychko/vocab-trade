@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01010477",
                     "unece:cefactBieDomainClass": "cefact:Specified_Polygon.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The exterior linear specified ring for this polygon."
+                    "rdfs:comment": "The exterior linear specified ring for this polygon.",
+                    "unece:domainName": "Polygon"
                 }
             ]
         }

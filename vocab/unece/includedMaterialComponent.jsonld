@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01013165",
                     "unece:cefactBieDomainClass": "cefact:TransportWaste_Material.Details",
                     "unece:cefactBusinessProcess": "Transport",
-                    "rdfs:comment": "A material component included in this transport waste."
+                    "rdfs:comment": "A material component included in this transport waste.",
+                    "unece:domainName": "Material"
                 }
             ]
         }

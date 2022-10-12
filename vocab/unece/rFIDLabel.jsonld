@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01003745",
                     "unece:cefactBieDomainClass": "cefact:Logistics_ShippingMarks.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A Radio Frequency Identification (RFID) label that is a part of these logistics shipping marks."
+                    "rdfs:comment": "A Radio Frequency Identification (RFID) label that is a part of these logistics shipping marks.",
+                    "unece:domainName": "ShippingMarks"
                 }
             ]
         }

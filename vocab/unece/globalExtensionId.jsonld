@@ -35,7 +35,8 @@
                     "unece:cefactUNId": "UN01004912",
                     "unece:cefactBieDomainClass": "cefact:Trade_Product.Details",
                     "unece:cefactBusinessProcess": "Cross-Border",
-                    "rdfs:comment": "A global extension identifier for this trade product, such as a prefix or a suffix."
+                    "rdfs:comment": "A global extension identifier for this trade product, such as a prefix or a suffix.",
+                    "unece:domainName": "Product"
                 }
             ]
         }

@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01004328",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_SupplyPlan.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The quantity of tolerance from the planned quantity in this supply chain supply plan."
+                    "rdfs:comment": "The quantity of tolerance from the planned quantity in this supply chain supply plan.",
+                    "unece:domainName": "SupplyPlan"
                 }
             ]
         }

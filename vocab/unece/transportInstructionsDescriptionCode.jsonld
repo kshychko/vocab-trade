@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01004814",
                     "unece:cefactBieDomainClass": "cefact:Transport_Instructions.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The code specifying a description of these transport instructions."
+                    "rdfs:comment": "The code specifying a description of these transport instructions.",
+                    "unece:domainName": "TransportInstructions"
                 }
             ]
         }

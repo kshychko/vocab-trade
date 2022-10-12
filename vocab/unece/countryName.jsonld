@@ -45,20 +45,13 @@
             "rdfs:label": "countryName",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Trade_Location.CountryName.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01001660",
-                    "unece:cefactBieDomainClass": "cefact:Trade_Location.Details",
-                    "unece:cefactBusinessProcess": "Trade",
-                    "rdfs:comment": "The name, expressed as text, of a country location used or referenced in trade."
-                },
-                {
                     "@id": "cefact:Trade_Address.CountryName.Text",
                     "@type": "unece:BasicBIE",
                     "unece:cefactUNId": "UN01004547",
                     "unece:cefactBieDomainClass": "cefact:Trade_Address.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A name, expressed as text, of the country for this trade address."
+                    "rdfs:comment": "A name, expressed as text, of the country for this trade address.",
+                    "unece:domainName": "TradeAddress"
                 },
                 {
                     "@id": "cefact:Logistics_Location.CountryName.Text",
@@ -66,7 +59,8 @@
                     "unece:cefactUNId": "UN01004896",
                     "unece:cefactBieDomainClass": "cefact:Logistics_Location.Details",
                     "unece:cefactBusinessProcess": "Cross-Border",
-                    "rdfs:comment": "The country name, expressed as text, of this logistics location."
+                    "rdfs:comment": "The country name, expressed as text, of this logistics location.",
+                    "unece:domainName": "LogisticsLocation"
                 },
                 {
                     "@id": "cefact:FinancialInstitution_Address.CountryName.Text",
@@ -74,7 +68,17 @@
                     "unece:cefactUNId": "UN01004895",
                     "unece:cefactBieDomainClass": "cefact:FinancialInstitution_Address.Details",
                     "unece:cefactBusinessProcess": "Customer to bank payment initiation",
-                    "rdfs:comment": "The name, expressed as text, of the country within this financial institution address."
+                    "rdfs:comment": "The name, expressed as text, of the country within this financial institution address.",
+                    "unece:domainName": "FinancialInstitutionAddress"
+                },
+                {
+                    "@id": "cefact:Trade_Location.CountryName.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01001660",
+                    "unece:cefactBieDomainClass": "cefact:Trade_Location.Details",
+                    "unece:cefactBusinessProcess": "Trade",
+                    "rdfs:comment": "The name, expressed as text, of a country location used or referenced in trade.",
+                    "unece:domainName": "TradeLocation"
                 }
             ]
         }

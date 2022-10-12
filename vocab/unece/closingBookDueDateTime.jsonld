@@ -37,21 +37,23 @@
             "rdfs:label": "closingBookDueDateTime",
             "unece:cefactElementMetadata": [
                 {
+                    "@id": "cefact:Header_TradeSettlement.ClosingBook_Due.DateTime",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01012135",
+                    "unece:cefactBieDomainClass": "cefact:Header_TradeSettlement.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The date, time, date time or other date time value when the book closing is due for this header trade settlement.",
+                    "unece:domainName": "HeaderTradeSettlement"
+                },
+                {
                     "@id": "cefact:TradeSettlement_Payment.ClosingBook_Due.DateTime",
                     "@type": "unece:BasicBIE",
                     "unece:tded": "2481",
                     "unece:cefactUNId": "UN01011125",
                     "unece:cefactBieDomainClass": "cefact:TradeSettlement_Payment.Details",
                     "unece:cefactBusinessProcess": "Trade",
-                    "rdfs:comment": "A date, time, date time or other date time value of a closing book due date for this trade settlement payment."
-                },
-                {
-                    "@id": "cefact:Header_TradeSettlement.ClosingBook_Due.DateTime",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01012135",
-                    "unece:cefactBieDomainClass": "cefact:Header_TradeSettlement.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The date, time, date time or other date time value when the book closing is due for this header trade settlement."
+                    "rdfs:comment": "A date, time, date time or other date time value of a closing book due date for this trade settlement payment.",
+                    "unece:domainName": "TradeSettlementPayment"
                 }
             ]
         }

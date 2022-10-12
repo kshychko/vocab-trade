@@ -37,22 +37,24 @@
             "rdfs:label": "italianDomesticId",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Creditor_FinancialInstitution.ItalianDomestic_Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "3433",
-                    "unece:cefactUNId": "UN01002987",
-                    "unece:cefactBieDomainClass": "cefact:Creditor_FinancialInstitution.Details",
-                    "unece:cefactBusinessProcess": "Customer to bank payment initiation",
-                    "rdfs:comment": "The unique Italian Domestic Identification Code identifier as assigned by the Associazione Bancaria Italiana (ABI) for this creditor financial institution."
-                },
-                {
                     "@id": "cefact:Debtor_FinancialInstitution.ItalianDomestic_Identification.Identifier",
                     "@type": "unece:BasicBIE",
                     "unece:tded": "3433",
                     "unece:cefactUNId": "UN01002852",
                     "unece:cefactBieDomainClass": "cefact:Debtor_FinancialInstitution.Details",
                     "unece:cefactBusinessProcess": "Customer to bank payment initiation",
-                    "rdfs:comment": "The unique Italian Domestic Identification Code identifier as assigned by the Associazione Bancaria Italiana (ABI) for this debtor financial institution."
+                    "rdfs:comment": "The unique Italian Domestic Identification Code identifier as assigned by the Associazione Bancaria Italiana (ABI) for this debtor financial institution.",
+                    "unece:domainName": "DebtorFinancialInstitution"
+                },
+                {
+                    "@id": "cefact:Creditor_FinancialInstitution.ItalianDomestic_Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "3433",
+                    "unece:cefactUNId": "UN01002987",
+                    "unece:cefactBieDomainClass": "cefact:Creditor_FinancialInstitution.Details",
+                    "unece:cefactBusinessProcess": "Customer to bank payment initiation",
+                    "rdfs:comment": "The unique Italian Domestic Identification Code identifier as assigned by the Associazione Bancaria Italiana (ABI) for this creditor financial institution.",
+                    "unece:domainName": "CreditorFinancialInstitution"
                 }
             ]
         }

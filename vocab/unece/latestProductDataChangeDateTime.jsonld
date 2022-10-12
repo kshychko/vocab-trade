@@ -35,7 +35,8 @@
                     "unece:cefactUNId": "UN01011529",
                     "unece:cefactBieDomainClass": "cefact:Trade_Product.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The formatted date, time, date time, or other date time value of the latest change in the product data for this trade product."
+                    "rdfs:comment": "The formatted date, time, date time, or other date time value of the latest change in the product data for this trade product.",
+                    "unece:domainName": "Product"
                 }
             ]
         }

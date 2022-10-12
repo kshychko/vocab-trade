@@ -35,7 +35,8 @@
                     "unece:cefactUNId": "UN01004647",
                     "unece:cefactBieDomainClass": "cefact:Trade_Price.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The value used as the factor to convert the order unit into the price unit for this trade price."
+                    "rdfs:comment": "The value used as the factor to convert the order unit into the price unit for this trade price.",
+                    "unece:domainName": "TradePrice"
                 }
             ]
         }

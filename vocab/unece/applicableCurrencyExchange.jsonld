@@ -45,15 +45,8 @@
                     "unece:cefactUNId": "UN01004279",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A currency exchange applicable to this supply chain consignment."
-                },
-                {
-                    "@id": "cefact:Cross-Border_RegulatoryProcedure.Applicable.Trade_CurrencyExchange",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01006185",
-                    "unece:cefactBieDomainClass": "cefact:CrossBorder_RegulatoryProcedure.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The applicable currency exchange for this cross-border regulatory procedure."
+                    "rdfs:comment": "A currency exchange applicable to this supply chain consignment.",
+                    "unece:domainName": "Consignment"
                 },
                 {
                     "@id": "cefact:Cross-Border_CustomsValuation.Applicable.Trade_CurrencyExchange",
@@ -61,7 +54,17 @@
                     "unece:cefactUNId": "UN01003497",
                     "unece:cefactBieDomainClass": "cefact:CrossBorder_CustomsValuation.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The trade related currency exchange applicable to this cross-border customs valuation."
+                    "rdfs:comment": "The trade related currency exchange applicable to this cross-border customs valuation.",
+                    "unece:domainName": "CustomsValuation"
+                },
+                {
+                    "@id": "cefact:Cross-Border_RegulatoryProcedure.Applicable.Trade_CurrencyExchange",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01006185",
+                    "unece:cefactBieDomainClass": "cefact:CrossBorder_RegulatoryProcedure.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The applicable currency exchange for this cross-border regulatory procedure.",
+                    "unece:domainName": "RegulatoryProcedure"
                 }
             ]
         }

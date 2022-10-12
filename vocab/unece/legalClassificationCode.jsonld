@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01003639",
                     "unece:cefactBieDomainClass": "cefact:Legal_Organization.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The code specifying the legal classification of this organization, such as Incorporated (Inc), Limited Liability Corporation (LLC) or non-profit."
+                    "rdfs:comment": "The code specifying the legal classification of this organization, such as Incorporated (Inc), Limited Liability Corporation (LLC) or non-profit.",
+                    "unece:domainName": "Organization"
                 }
             ]
         }

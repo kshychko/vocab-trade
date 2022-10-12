@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01013156",
                     "unece:cefactBieDomainClass": "cefact:TransportWaste_MaterialComponent.Details",
                     "unece:cefactBusinessProcess": "Transport",
-                    "rdfs:comment": "The estimated measure for this generated transport waste material component."
+                    "rdfs:comment": "The estimated measure for this generated transport waste material component.",
+                    "unece:domainName": "MaterialComponent"
                 }
             ]
         }

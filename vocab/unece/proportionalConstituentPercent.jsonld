@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01003887",
                     "unece:cefactBieDomainClass": "cefact:Material_GoodsCharacteristic.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The percentage presence of the material within the goods for this material goods characteristic."
+                    "rdfs:comment": "The percentage presence of the material within the goods for this material goods characteristic.",
+                    "unece:domainName": "GoodsCharacteristic"
                 }
             ]
         }

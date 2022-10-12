@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01008437",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_Inventory.Details",
                     "unece:cefactBusinessProcess": "Supply Chain",
-                    "rdfs:comment": "The planned stock quantity for this supply chain inventory."
+                    "rdfs:comment": "The planned stock quantity for this supply chain inventory.",
+                    "unece:domainName": "Inventory"
                 }
             ]
         }

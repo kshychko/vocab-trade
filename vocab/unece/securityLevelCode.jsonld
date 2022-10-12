@@ -42,7 +42,8 @@
                     "unece:cefactUNId": "UN01013151",
                     "unece:cefactBieDomainClass": "cefact:Transport_Route.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A code specifying a security level for this transport route."
+                    "rdfs:comment": "A code specifying a security level for this transport route.",
+                    "unece:domainName": "Route"
                 },
                 {
                     "@id": "cefact:Transport_Event.SecurityLevel.Code",
@@ -50,7 +51,8 @@
                     "unece:cefactUNId": "UN01013132",
                     "unece:cefactBieDomainClass": "cefact:Transport_Event.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A security level code for this transport event."
+                    "rdfs:comment": "A security level code for this transport event.",
+                    "unece:domainName": "TransportEvent"
                 }
             ]
         }

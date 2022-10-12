@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01013273",
                     "unece:cefactBieDomainClass": "cefact:Instalment_Payment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The sequence identifier for this instalment payment."
+                    "rdfs:comment": "The sequence identifier for this instalment payment.",
+                    "unece:domainName": "InstalmentPayment"
                 }
             ]
         }

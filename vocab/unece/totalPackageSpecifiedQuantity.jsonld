@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01011010",
                     "unece:cefactBieDomainClass": "cefact:Exchanged_Declaration.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The total package quantity specified in this exchanged declaration."
+                    "rdfs:comment": "The total package quantity specified in this exchanged declaration.",
+                    "unece:domainName": "Declaration"
                 }
             ]
         }

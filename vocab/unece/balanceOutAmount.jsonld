@@ -42,7 +42,8 @@
                     "unece:cefactUNId": "UN01011893",
                     "unece:cefactBieDomainClass": "cefact:TradeSettlementHeader_MonetarySummation.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A monetary value that is an amount balanced out for this trade settlement header monetary summation."
+                    "rdfs:comment": "A monetary value that is an amount balanced out for this trade settlement header monetary summation.",
+                    "unece:domainName": "TradeSettlementHeaderMonetarySummation"
                 },
                 {
                     "@id": "cefact:TradeSettlementPayment_MonetarySummation.BalanceOut.Amount",
@@ -50,7 +51,8 @@
                     "unece:cefactUNId": "UN01011915",
                     "unece:cefactBieDomainClass": "cefact:TradeSettlementPayment_MonetarySummation.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A monetary value that is an amount balanced out for this trade settlement payment monetary summation."
+                    "rdfs:comment": "A monetary value that is an amount balanced out for this trade settlement payment monetary summation.",
+                    "unece:domainName": "TradeSettlementPaymentMonetarySummation"
                 }
             ]
         }

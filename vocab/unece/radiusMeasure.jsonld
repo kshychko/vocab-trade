@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01013578",
                     "unece:cefactBieDomainClass": "cefact:Specified_Circle.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The measure of the radius for this specified circle."
+                    "rdfs:comment": "The measure of the radius for this specified circle.",
+                    "unece:domainName": "Circle"
                 }
             ]
         }

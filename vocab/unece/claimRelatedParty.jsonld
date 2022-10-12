@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01009705",
                     "unece:cefactBieDomainClass": "cefact:Financial_Adjustment.Details",
                     "unece:cefactBusinessProcess": "Invoicing",
-                    "rdfs:comment": "The claim related party for this financial adjustment."
+                    "rdfs:comment": "The claim related party for this financial adjustment.",
+                    "unece:domainName": "Adjustment"
                 }
             ]
         }

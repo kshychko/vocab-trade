@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01013169",
                     "unece:cefactBieDomainClass": "cefact:Logistics_TransportMeans.Details",
                     "unece:cefactBusinessProcess": "Transport",
-                    "rdfs:comment": "The indication of whether or not there is an approved security plan onboard this logistics transport means."
+                    "rdfs:comment": "The indication of whether or not there is an approved security plan onboard this logistics transport means.",
+                    "unece:domainName": "TransportMeans"
                 }
             ]
         }

@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01011033",
                     "unece:cefactBieDomainClass": "cefact:Government_Registration.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The identifier of a licence for this government registration."
+                    "rdfs:comment": "The identifier of a licence for this government registration.",
+                    "unece:domainName": "GovernmentRegistration"
                 }
             ]
         }

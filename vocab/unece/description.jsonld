@@ -242,38 +242,58 @@
             "rdfs:label": "description",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Available_Period.Description.Text",
+                    "@id": "cefact:Product_Certificate.Description.Text",
                     "@type": "unece:BasicBIE",
-                    "unece:tded": "2118",
-                    "unece:cefactUNId": "UN01005111",
-                    "unece:cefactBieDomainClass": "cefact:Available_Period.Details",
+                    "unece:cefactUNId": "UN01012491",
+                    "unece:cefactBieDomainClass": "cefact:Product_Certificate.Details",
+                    "unece:cefactBusinessProcess": "Traceability",
+                    "rdfs:comment": "A textual description of this product certificate.",
+                    "unece:domainName": "Certificate"
+                },
+                {
+                    "@id": "cefact:Certified_Accreditation.Description.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01010061",
+                    "unece:cefactBieDomainClass": "cefact:Certified_Accreditation.Details",
+                    "unece:cefactBusinessProcess": "Transport",
+                    "rdfs:comment": "The textual description of this certified accreditation.",
+                    "unece:domainName": "Accreditation"
+                },
+                {
+                    "@id": "cefact:Specified_Observation.Description.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01012572",
+                    "unece:cefactBieDomainClass": "cefact:Specified_Observation.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The textual description of this available period."
+                    "rdfs:comment": "The textual description for this specified observation.",
+                    "unece:domainName": "Observation"
                 },
                 {
-                    "@id": "cefact:Specified_BinaryFile.Description.Text",
+                    "@id": "cefact:Specified_PersonalEffects.Description.Text",
                     "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01006026",
-                    "unece:cefactBieDomainClass": "cefact:Specified_BinaryFile.Details",
+                    "unece:cefactUNId": "UN01013186",
+                    "unece:cefactBieDomainClass": "cefact:Specified_PersonalEffects.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A textual description of this specified binary file."
+                    "rdfs:comment": "A textual description of these specified personal effects.",
+                    "unece:domainName": "PersonalEffects"
                 },
                 {
-                    "@id": "cefact:Delivery_Instructions.Description.Text",
+                    "@id": "cefact:SupplyChain_Event.Description.Text",
                     "@type": "unece:BasicBIE",
-                    "unece:tded": "4400",
-                    "unece:cefactUNId": "UN01003511",
-                    "unece:cefactBieDomainClass": "cefact:Delivery_Instructions.Details",
+                    "unece:cefactUNId": "UN01004295",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_Event.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A textual description of these delivery instructions."
+                    "rdfs:comment": "A textual description of this supply chain event.",
+                    "unece:domainName": "SupplyChainEvent"
                 },
                 {
-                    "@id": "cefact:TradeProduct_Feature.Description.Text",
+                    "@id": "cefact:Trade_Product.Description.Text",
                     "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01007472",
-                    "unece:cefactBieDomainClass": "cefact:TradeProduct_Feature.Details",
+                    "unece:cefactUNId": "UN01004689",
+                    "unece:cefactBieDomainClass": "cefact:Trade_Product.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A textual description of this trade product feature."
+                    "rdfs:comment": "A textual description for this trade product.",
+                    "unece:domainName": "Product"
                 },
                 {
                     "@id": "cefact:Logistics_Status.Description.Text",
@@ -282,303 +302,8 @@
                     "unece:cefactUNId": "UN01003750",
                     "unece:cefactBieDomainClass": "cefact:Logistics_Status.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The textual description of this logistics status."
-                },
-                {
-                    "@id": "cefact:Haulage_Instructions.Description.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "4400",
-                    "unece:cefactUNId": "UN01003635",
-                    "unece:cefactBieDomainClass": "cefact:Haulage_Instructions.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The textual description of these haulage instructions."
-                },
-                {
-                    "@id": "cefact:Payment_BalanceOut.Description.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01011831",
-                    "unece:cefactBieDomainClass": "cefact:Payment_BalanceOut.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A textual description of this payment balance out."
-                },
-                {
-                    "@id": "cefact:Transport_Route.Description.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01004824",
-                    "unece:cefactBieDomainClass": "cefact:Transport_Route.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The textual description of this transport route."
-                },
-                {
-                    "@id": "cefact:Product_Certificate.Description.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01012491",
-                    "unece:cefactBieDomainClass": "cefact:Product_Certificate.Details",
-                    "unece:cefactBusinessProcess": "Traceability",
-                    "rdfs:comment": "A textual description of this product certificate."
-                },
-                {
-                    "@id": "cefact:Trade_Party.Description.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01010146",
-                    "unece:cefactBieDomainClass": "cefact:Trade_Party.Details",
-                    "unece:cefactBusinessProcess": "Transport",
-                    "rdfs:comment": "A textual description of this trade party."
-                },
-                {
-                    "@id": "cefact:Requesting_Party.Description.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01002021",
-                    "unece:cefactBieDomainClass": "cefact:Requesting_Party.Details",
-                    "unece:cefactBusinessProcess": "Project Management",
-                    "rdfs:comment": "The textual description of this requesting party."
-                },
-                {
-                    "@id": "cefact:Identified_Fault.Description.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01010066",
-                    "unece:cefactBieDomainClass": "cefact:Identified_Fault.Details",
-                    "unece:cefactBusinessProcess": "Transport",
-                    "rdfs:comment": "A textual description of this identified fault."
-                },
-                {
-                    "@id": "cefact:Referenced_Product.Description.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01007189",
-                    "unece:cefactBieDomainClass": "cefact:Referenced_Product.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A textual description for this referenced product."
-                },
-                {
-                    "@id": "cefact:Specified_GeographicalObjectCharacteristic.Description.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01012370",
-                    "unece:cefactBieDomainClass": "cefact:Specified_GeographicalObjectCharacteristic.Details",
-                    "unece:cefactBusinessProcess": "Agricultural",
-                    "rdfs:comment": "The textual description for this geographical object characteristic."
-                },
-                {
-                    "@id": "cefact:Registered_Tax.Description.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01004063",
-                    "unece:cefactBieDomainClass": "cefact:Registered_Tax.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A textual description of this registered tax."
-                },
-                {
-                    "@id": "cefact:Logistics_Location.Description.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01003683",
-                    "unece:cefactBieDomainClass": "cefact:Logistics_Location.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A textual description of this logistics related location."
-                },
-                {
-                    "@id": "cefact:Handling_Instructions.Description.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "4400",
-                    "unece:cefactUNId": "UN01003632",
-                    "unece:cefactBieDomainClass": "cefact:Handling_Instructions.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A textual description of these handling instructions."
-                },
-                {
-                    "@id": "cefact:TradeSettlement_FinancialCard.Description.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01009967",
-                    "unece:cefactBieDomainClass": "cefact:TradeSettlement_FinancialCard.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The textual description of this trade settlement financial card."
-                },
-                {
-                    "@id": "cefact:Trade_DeliveryTerms.Description.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "4052",
-                    "unece:cefactUNId": "UN01001656",
-                    "unece:cefactBieDomainClass": "cefact:Trade_DeliveryTerms.Details",
-                    "unece:cefactBusinessProcess": "Trade",
-                    "rdfs:comment": "A textual description of these trade delivery terms."
-                },
-                {
-                    "@id": "cefact:Specified_Period.Description.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "2118",
-                    "unece:cefactUNId": "UN01001273",
-                    "unece:cefactBieDomainClass": "cefact:Specified_Period.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A textual description of this specified period of time."
-                },
-                {
-                    "@id": "cefact:Transport_Instructions.Description.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "4400",
-                    "unece:cefactUNId": "UN01004813",
-                    "unece:cefactBieDomainClass": "cefact:Transport_Instructions.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A textual description of these transport instructions."
-                },
-                {
-                    "@id": "cefact:TransportWaste_MaterialComponent.Description.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01013154",
-                    "unece:cefactBieDomainClass": "cefact:TransportWaste_MaterialComponent.Details",
-                    "unece:cefactBusinessProcess": "Transport",
-                    "rdfs:comment": "A textual description for this transport waste material component."
-                },
-                {
-                    "@id": "cefact:Header_TradeSettlement.Description.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01012991",
-                    "unece:cefactBieDomainClass": "cefact:Header_TradeSettlement.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A textual description of this header trade settlement."
-                },
-                {
-                    "@id": "cefact:Specified_GeographicalFeature.Description.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01012169",
-                    "unece:cefactBieDomainClass": "cefact:Specified_GeographicalFeature.Details",
-                    "unece:cefactBusinessProcess": "Agricultural",
-                    "rdfs:comment": "The textual description of this specified geographical feature."
-                },
-                {
-                    "@id": "cefact:Specified_PersonalEffects.Description.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01013186",
-                    "unece:cefactBieDomainClass": "cefact:Specified_PersonalEffects.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A textual description of these specified personal effects."
-                },
-                {
-                    "@id": "cefact:Exchanged_Document.Description.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "4142",
-                    "unece:cefactUNId": "UN01002490",
-                    "unece:cefactBieDomainClass": "cefact:Exchanged_Document.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A textual description of this exchanged document."
-                },
-                {
-                    "@id": "cefact:SupplyChain_Schedule.Description.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01012979",
-                    "unece:cefactBieDomainClass": "cefact:SupplyChain_Schedule.Details",
-                    "unece:cefactBusinessProcess": "Supply Chain",
-                    "rdfs:comment": "A textual description of this supply chain schedule."
-                },
-                {
-                    "@id": "cefact:Applied_AllowanceCharge.Description.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01000190",
-                    "unece:cefactBieDomainClass": "cefact:Applied_AllowanceCharge.Details",
-                    "unece:cefactBusinessProcess": "Pricing",
-                    "rdfs:comment": "The textual description of the applied allowance charge."
-                },
-                {
-                    "@id": "cefact:Measurement.Description.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01003896",
-                    "unece:cefactBieDomainClass": "cefact:Measurement.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A textual description of this measurement."
-                },
-                {
-                    "@id": "cefact:Certified_Accreditation.Description.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01010061",
-                    "unece:cefactBieDomainClass": "cefact:Certified_Accreditation.Details",
-                    "unece:cefactBusinessProcess": "Transport",
-                    "rdfs:comment": "The textual description of this certified accreditation."
-                },
-                {
-                    "@id": "cefact:Communication_Event.Description.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01013564",
-                    "unece:cefactBieDomainClass": "cefact:Communication_Event.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A textual description of this communication event."
-                },
-                {
-                    "@id": "cefact:Quarantine_Instructions.Description.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "4400",
-                    "unece:cefactUNId": "UN01003989",
-                    "unece:cefactBieDomainClass": "cefact:Quarantine_Instructions.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The textual description of these quarantine instructions."
-                },
-                {
-                    "@id": "cefact:Spatial_Dimension.Description.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01004078",
-                    "unece:cefactBieDomainClass": "cefact:Spatial_Dimension.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A textual description of this spatial dimension."
-                },
-                {
-                    "@id": "cefact:Trade_Product.Description.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01004689",
-                    "unece:cefactBieDomainClass": "cefact:Trade_Product.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A textual description for this trade product."
-                },
-                {
-                    "@id": "cefact:Material_GoodsCharacteristic.Description.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01003885",
-                    "unece:cefactBieDomainClass": "cefact:Material_GoodsCharacteristic.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A textual description of this material goods characteristic."
-                },
-                {
-                    "@id": "cefact:WorkItem_Dimension.Description.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01000059",
-                    "unece:cefactBieDomainClass": "cefact:WorkItem_Dimension.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The textual description of this work item dimension. Industry context value changed from \"Construction\" to \"In All Contexts\"."
-                },
-                {
-                    "@id": "cefact:Logistics_RiskAnalysisResult.Description.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01013049",
-                    "unece:cefactBieDomainClass": "cefact:Logistics_RiskAnalysisResult.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The textual description of this logistics risk analysis result."
-                },
-                {
-                    "@id": "cefact:Transport_Event.Description.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01004794",
-                    "unece:cefactBieDomainClass": "cefact:Transport_Event.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The textual description of this transport event."
-                },
-                {
-                    "@id": "cefact:SupplyChain_Packaging.Description.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01004315",
-                    "unece:cefactBieDomainClass": "cefact:SupplyChain_Packaging.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A textual description of this supply chain packaging."
-                },
-                {
-                    "@id": "cefact:Operational_Parameter.Description.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01013517",
-                    "unece:cefactBieDomainClass": "cefact:Operational_Parameter.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A textual description of this operational parameter."
-                },
-                {
-                    "@id": "cefact:Document_Status.Description.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "4404",
-                    "unece:cefactUNId": "UN01013123",
-                    "unece:cefactBieDomainClass": "cefact:Document_Status.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The textual description of this document status."
+                    "rdfs:comment": "The textual description of this logistics status.",
+                    "unece:domainName": "LogisticsStatus"
                 },
                 {
                     "@id": "cefact:Product_Characteristic.Description.Text",
@@ -587,106 +312,8 @@
                     "unece:cefactUNId": "UN01003974",
                     "unece:cefactBieDomainClass": "cefact:Product_Characteristic.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A textual description of this product characteristic."
-                },
-                {
-                    "@id": "cefact:Valuation_BreakdownStatement.Description.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01007548",
-                    "unece:cefactBieDomainClass": "cefact:Valuation_BreakdownStatement.Details",
-                    "unece:cefactBusinessProcess": "Invoicing",
-                    "rdfs:comment": "A textual description of this valuation breakdown statement."
-                },
-                {
-                    "@id": "cefact:WorkItem_QuantityAnalysis.Description.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01000018",
-                    "unece:cefactBieDomainClass": "cefact:WorkItem_QuantityAnalysis.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The textual description of this work item quantity analysis."
-                },
-                {
-                    "@id": "cefact:Logistics_Package.Description.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01003703",
-                    "unece:cefactBieDomainClass": "cefact:Logistics_Package.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A textual description of this logistics package."
-                },
-                {
-                    "@id": "cefact:SupplyChain_Event.Description.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01004295",
-                    "unece:cefactBieDomainClass": "cefact:SupplyChain_Event.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A textual description of this supply chain event."
-                },
-                {
-                    "@id": "cefact:ControlSetting_Parameter.Description.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01013506",
-                    "unece:cefactBieDomainClass": "cefact:ControlSetting_Parameter.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A textual description of this control setting parameter."
-                },
-                {
-                    "@id": "cefact:Disposal_Instructions.Description.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "4400",
-                    "unece:cefactUNId": "UN01008429",
-                    "unece:cefactBieDomainClass": "cefact:Disposal_Instructions.Details",
-                    "unece:cefactBusinessProcess": "Supply Chain",
-                    "rdfs:comment": "A textual description of these disposal instructions."
-                },
-                {
-                    "@id": "cefact:Header_BalanceOut.Description.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01011541",
-                    "unece:cefactBieDomainClass": "cefact:Header_BalanceOut.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A textual description of this header balance out."
-                },
-                {
-                    "@id": "cefact:TemperatureSetting_Instructions.Description.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "4400",
-                    "unece:cefactUNId": "UN01004491",
-                    "unece:cefactBieDomainClass": "cefact:TemperatureSetting_Instructions.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A textual description of these temperature setting instructions."
-                },
-                {
-                    "@id": "cefact:Procuring_Project.Description.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01000373",
-                    "unece:cefactBieDomainClass": "cefact:Procuring_Project.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The textual description of this procuring project."
-                },
-                {
-                    "@id": "cefact:Logistics_ServiceCharge.Description.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "8022",
-                    "unece:cefactUNId": "UN01003723",
-                    "unece:cefactBieDomainClass": "cefact:Logistics_ServiceCharge.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A textual description of this logistics service charge."
-                },
-                {
-                    "@id": "cefact:StoresItem_Inventory.Description.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01013192",
-                    "unece:cefactBieDomainClass": "cefact:StoresItem_Inventory.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A textual description of this stores inventory item."
-                },
-                {
-                    "@id": "cefact:Referenced_Logistics_Package.Description.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01013104",
-                    "unece:cefactBieDomainClass": "cefact:ReferencedLogistics_Package.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A textual description of this referenced logistics package."
+                    "rdfs:comment": "A textual description of this product characteristic.",
+                    "unece:domainName": "Characteristic"
                 },
                 {
                     "@id": "cefact:Trade_PaymentTerms.Description.Text",
@@ -695,7 +322,177 @@
                     "unece:cefactUNId": "UN01004631",
                     "unece:cefactBieDomainClass": "cefact:Trade_PaymentTerms.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A textual description of these trade payment terms."
+                    "rdfs:comment": "A textual description of these trade payment terms.",
+                    "unece:domainName": "PaymentTerms"
+                },
+                {
+                    "@id": "cefact:Specified_Period.Description.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "2118",
+                    "unece:cefactUNId": "UN01001273",
+                    "unece:cefactBieDomainClass": "cefact:Specified_Period.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "A textual description of this specified period of time.",
+                    "unece:domainName": "Period"
+                },
+                {
+                    "@id": "cefact:Material_GoodsCharacteristic.Description.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01003885",
+                    "unece:cefactBieDomainClass": "cefact:Material_GoodsCharacteristic.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "A textual description of this material goods characteristic.",
+                    "unece:domainName": "GoodsCharacteristic"
+                },
+                {
+                    "@id": "cefact:Procuring_Project.Description.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01000373",
+                    "unece:cefactBieDomainClass": "cefact:Procuring_Project.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The textual description of this procuring project.",
+                    "unece:domainName": "Project"
+                },
+                {
+                    "@id": "cefact:Transport_Instructions.Description.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "4400",
+                    "unece:cefactUNId": "UN01004813",
+                    "unece:cefactBieDomainClass": "cefact:Transport_Instructions.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "A textual description of these transport instructions.",
+                    "unece:domainName": "TransportInstructions"
+                },
+                {
+                    "@id": "cefact:Logistics_Package.Description.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01003703",
+                    "unece:cefactBieDomainClass": "cefact:Logistics_Package.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A textual description of this logistics package.",
+                    "unece:domainName": "Package"
+                },
+                {
+                    "@id": "cefact:Specified_BinaryFile.Description.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01006026",
+                    "unece:cefactBieDomainClass": "cefact:Specified_BinaryFile.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "A textual description of this specified binary file.",
+                    "unece:domainName": "BinaryFile"
+                },
+                {
+                    "@id": "cefact:Identified_Fault.Description.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01010066",
+                    "unece:cefactBieDomainClass": "cefact:Identified_Fault.Details",
+                    "unece:cefactBusinessProcess": "Transport",
+                    "rdfs:comment": "A textual description of this identified fault.",
+                    "unece:domainName": "Fault"
+                },
+                {
+                    "@id": "cefact:Exchanged_Document.Description.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "4142",
+                    "unece:cefactUNId": "UN01002490",
+                    "unece:cefactBieDomainClass": "cefact:Exchanged_Document.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "A textual description of this exchanged document.",
+                    "unece:domainName": "ExchangedDocument"
+                },
+                {
+                    "@id": "cefact:Referenced_Logistics_Package.Description.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01013104",
+                    "unece:cefactBieDomainClass": "cefact:ReferencedLogistics_Package.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A textual description of this referenced logistics package.",
+                    "unece:domainName": "Package"
+                },
+                {
+                    "@id": "cefact:Delivery_Instructions.Description.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "4400",
+                    "unece:cefactUNId": "UN01003511",
+                    "unece:cefactBieDomainClass": "cefact:Delivery_Instructions.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A textual description of these delivery instructions.",
+                    "unece:domainName": "DeliveryInstructions"
+                },
+                {
+                    "@id": "cefact:WorkItem_QuantityAnalysis.Description.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01000018",
+                    "unece:cefactBieDomainClass": "cefact:WorkItem_QuantityAnalysis.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The textual description of this work item quantity analysis.",
+                    "unece:domainName": "QuantityAnalysis"
+                },
+                {
+                    "@id": "cefact:Document_Status.Description.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "4404",
+                    "unece:cefactUNId": "UN01013123",
+                    "unece:cefactBieDomainClass": "cefact:Document_Status.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The textual description of this document status.",
+                    "unece:domainName": "DocumentStatus"
+                },
+                {
+                    "@id": "cefact:Requesting_Party.Description.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01002021",
+                    "unece:cefactBieDomainClass": "cefact:Requesting_Party.Details",
+                    "unece:cefactBusinessProcess": "Project Management",
+                    "rdfs:comment": "The textual description of this requesting party.",
+                    "unece:domainName": "RequestingParty"
+                },
+                {
+                    "@id": "cefact:Measurement.Description.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01003896",
+                    "unece:cefactBieDomainClass": "cefact:Measurement.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "A textual description of this measurement.",
+                    "unece:domainName": "Measurement"
+                },
+                {
+                    "@id": "cefact:Payment_BalanceOut.Description.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01011831",
+                    "unece:cefactBieDomainClass": "cefact:Payment_BalanceOut.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A textual description of this payment balance out.",
+                    "unece:domainName": "BalanceOut"
+                },
+                {
+                    "@id": "cefact:Quarantine_Instructions.Description.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "4400",
+                    "unece:cefactUNId": "UN01003989",
+                    "unece:cefactBieDomainClass": "cefact:Quarantine_Instructions.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The textual description of these quarantine instructions.",
+                    "unece:domainName": "QuarantineInstructions"
+                },
+                {
+                    "@id": "cefact:Referenced_Product.Description.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01007189",
+                    "unece:cefactBieDomainClass": "cefact:Referenced_Product.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "A textual description for this referenced product.",
+                    "unece:domainName": "Product"
+                },
+                {
+                    "@id": "cefact:Disposal_Instructions.Description.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "4400",
+                    "unece:cefactUNId": "UN01008429",
+                    "unece:cefactBieDomainClass": "cefact:Disposal_Instructions.Details",
+                    "unece:cefactBusinessProcess": "Supply Chain",
+                    "rdfs:comment": "A textual description of these disposal instructions.",
+                    "unece:domainName": "DisposalInstructions"
                 },
                 {
                     "@id": "cefact:Transport_Service.Description.Text",
@@ -703,15 +500,275 @@
                     "unece:cefactUNId": "UN01004839",
                     "unece:cefactBieDomainClass": "cefact:Transport_Service.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The textual description of this transport service."
+                    "rdfs:comment": "The textual description of this transport service.",
+                    "unece:domainName": "Service"
                 },
                 {
-                    "@id": "cefact:Specified_Observation.Description.Text",
+                    "@id": "cefact:Specified_GeographicalFeature.Description.Text",
                     "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01012572",
-                    "unece:cefactBieDomainClass": "cefact:Specified_Observation.Details",
+                    "unece:cefactUNId": "UN01012169",
+                    "unece:cefactBieDomainClass": "cefact:Specified_GeographicalFeature.Details",
+                    "unece:cefactBusinessProcess": "Agricultural",
+                    "rdfs:comment": "The textual description of this specified geographical feature.",
+                    "unece:domainName": "GeographicalFeature"
+                },
+                {
+                    "@id": "cefact:Handling_Instructions.Description.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "4400",
+                    "unece:cefactUNId": "UN01003632",
+                    "unece:cefactBieDomainClass": "cefact:Handling_Instructions.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The textual description for this specified observation."
+                    "rdfs:comment": "A textual description of these handling instructions.",
+                    "unece:domainName": "HandlingInstructions"
+                },
+                {
+                    "@id": "cefact:TransportWaste_MaterialComponent.Description.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01013154",
+                    "unece:cefactBieDomainClass": "cefact:TransportWaste_MaterialComponent.Details",
+                    "unece:cefactBusinessProcess": "Transport",
+                    "rdfs:comment": "A textual description for this transport waste material component.",
+                    "unece:domainName": "MaterialComponent"
+                },
+                {
+                    "@id": "cefact:TemperatureSetting_Instructions.Description.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "4400",
+                    "unece:cefactUNId": "UN01004491",
+                    "unece:cefactBieDomainClass": "cefact:TemperatureSetting_Instructions.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "A textual description of these temperature setting instructions.",
+                    "unece:domainName": "TemperatureSettingInstructions"
+                },
+                {
+                    "@id": "cefact:Communication_Event.Description.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01013564",
+                    "unece:cefactBieDomainClass": "cefact:Communication_Event.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "A textual description of this communication event.",
+                    "unece:domainName": "CommunicationEvent"
+                },
+                {
+                    "@id": "cefact:Transport_Route.Description.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01004824",
+                    "unece:cefactBieDomainClass": "cefact:Transport_Route.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The textual description of this transport route.",
+                    "unece:domainName": "Route"
+                },
+                {
+                    "@id": "cefact:Header_BalanceOut.Description.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01011541",
+                    "unece:cefactBieDomainClass": "cefact:Header_BalanceOut.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A textual description of this header balance out.",
+                    "unece:domainName": "BalanceOut"
+                },
+                {
+                    "@id": "cefact:ControlSetting_Parameter.Description.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01013506",
+                    "unece:cefactBieDomainClass": "cefact:ControlSetting_Parameter.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "A textual description of this control setting parameter.",
+                    "unece:domainName": "ControlSettingParameter"
+                },
+                {
+                    "@id": "cefact:SupplyChain_Schedule.Description.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01012979",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_Schedule.Details",
+                    "unece:cefactBusinessProcess": "Supply Chain",
+                    "rdfs:comment": "A textual description of this supply chain schedule.",
+                    "unece:domainName": "Schedule"
+                },
+                {
+                    "@id": "cefact:Logistics_ServiceCharge.Description.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "8022",
+                    "unece:cefactUNId": "UN01003723",
+                    "unece:cefactBieDomainClass": "cefact:Logistics_ServiceCharge.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A textual description of this logistics service charge.",
+                    "unece:domainName": "ServiceCharge"
+                },
+                {
+                    "@id": "cefact:Logistics_Location.Description.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01003683",
+                    "unece:cefactBieDomainClass": "cefact:Logistics_Location.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A textual description of this logistics related location.",
+                    "unece:domainName": "LogisticsLocation"
+                },
+                {
+                    "@id": "cefact:Spatial_Dimension.Description.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01004078",
+                    "unece:cefactBieDomainClass": "cefact:Spatial_Dimension.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "A textual description of this spatial dimension.",
+                    "unece:domainName": "Dimension"
+                },
+                {
+                    "@id": "cefact:Applied_AllowanceCharge.Description.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01000190",
+                    "unece:cefactBieDomainClass": "cefact:Applied_AllowanceCharge.Details",
+                    "unece:cefactBusinessProcess": "Pricing",
+                    "rdfs:comment": "The textual description of the applied allowance charge.",
+                    "unece:domainName": "AllowanceCharge"
+                },
+                {
+                    "@id": "cefact:Available_Period.Description.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "2118",
+                    "unece:cefactUNId": "UN01005111",
+                    "unece:cefactBieDomainClass": "cefact:Available_Period.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The textual description of this available period.",
+                    "unece:domainName": "Period"
+                },
+                {
+                    "@id": "cefact:Valuation_BreakdownStatement.Description.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01007548",
+                    "unece:cefactBieDomainClass": "cefact:Valuation_BreakdownStatement.Details",
+                    "unece:cefactBusinessProcess": "Invoicing",
+                    "rdfs:comment": "A textual description of this valuation breakdown statement.",
+                    "unece:domainName": "BreakdownStatement"
+                },
+                {
+                    "@id": "cefact:StoresItem_Inventory.Description.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01013192",
+                    "unece:cefactBieDomainClass": "cefact:StoresItem_Inventory.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A textual description of this stores inventory item.",
+                    "unece:domainName": "Inventory"
+                },
+                {
+                    "@id": "cefact:Trade_DeliveryTerms.Description.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "4052",
+                    "unece:cefactUNId": "UN01001656",
+                    "unece:cefactBieDomainClass": "cefact:Trade_DeliveryTerms.Details",
+                    "unece:cefactBusinessProcess": "Trade",
+                    "rdfs:comment": "A textual description of these trade delivery terms.",
+                    "unece:domainName": "DeliveryTerms"
+                },
+                {
+                    "@id": "cefact:Transport_Event.Description.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01004794",
+                    "unece:cefactBieDomainClass": "cefact:Transport_Event.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The textual description of this transport event.",
+                    "unece:domainName": "TransportEvent"
+                },
+                {
+                    "@id": "cefact:Specified_GeographicalObjectCharacteristic.Description.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01012370",
+                    "unece:cefactBieDomainClass": "cefact:Specified_GeographicalObjectCharacteristic.Details",
+                    "unece:cefactBusinessProcess": "Agricultural",
+                    "rdfs:comment": "The textual description for this geographical object characteristic.",
+                    "unece:domainName": "GeographicalObjectCharacteristic"
+                },
+                {
+                    "@id": "cefact:Header_TradeSettlement.Description.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01012991",
+                    "unece:cefactBieDomainClass": "cefact:Header_TradeSettlement.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A textual description of this header trade settlement.",
+                    "unece:domainName": "HeaderTradeSettlement"
+                },
+                {
+                    "@id": "cefact:TradeProduct_Feature.Description.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01007472",
+                    "unece:cefactBieDomainClass": "cefact:TradeProduct_Feature.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A textual description of this trade product feature.",
+                    "unece:domainName": "Feature"
+                },
+                {
+                    "@id": "cefact:SupplyChain_Packaging.Description.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01004315",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_Packaging.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A textual description of this supply chain packaging.",
+                    "unece:domainName": "Packaging"
+                },
+                {
+                    "@id": "cefact:Operational_Parameter.Description.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01013517",
+                    "unece:cefactBieDomainClass": "cefact:Operational_Parameter.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "A textual description of this operational parameter.",
+                    "unece:domainName": "OperationalParameter"
+                },
+                {
+                    "@id": "cefact:TradeSettlement_FinancialCard.Description.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01009967",
+                    "unece:cefactBieDomainClass": "cefact:TradeSettlement_FinancialCard.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The textual description of this trade settlement financial card.",
+                    "unece:domainName": "FinancialCard"
+                },
+                {
+                    "@id": "cefact:Registered_Tax.Description.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01004063",
+                    "unece:cefactBieDomainClass": "cefact:Registered_Tax.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "A textual description of this registered tax.",
+                    "unece:domainName": "RegisteredTax"
+                },
+                {
+                    "@id": "cefact:WorkItem_Dimension.Description.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01000059",
+                    "unece:cefactBieDomainClass": "cefact:WorkItem_Dimension.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The textual description of this work item dimension. Industry context value changed from \"Construction\" to \"In All Contexts\".",
+                    "unece:domainName": "Dimension"
+                },
+                {
+                    "@id": "cefact:Trade_Party.Description.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01010146",
+                    "unece:cefactBieDomainClass": "cefact:Trade_Party.Details",
+                    "unece:cefactBusinessProcess": "Transport",
+                    "rdfs:comment": "A textual description of this trade party.",
+                    "unece:domainName": "TradeParty"
+                },
+                {
+                    "@id": "cefact:Haulage_Instructions.Description.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "4400",
+                    "unece:cefactUNId": "UN01003635",
+                    "unece:cefactBieDomainClass": "cefact:Haulage_Instructions.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The textual description of these haulage instructions.",
+                    "unece:domainName": "HaulageInstructions"
+                },
+                {
+                    "@id": "cefact:Logistics_RiskAnalysisResult.Description.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01013049",
+                    "unece:cefactBieDomainClass": "cefact:Logistics_RiskAnalysisResult.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The textual description of this logistics risk analysis result.",
+                    "unece:domainName": "RiskAnalysisResult"
                 }
             ]
         }

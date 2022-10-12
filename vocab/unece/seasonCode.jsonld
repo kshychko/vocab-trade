@@ -37,20 +37,22 @@
             "rdfs:label": "seasonCode",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Trade_Product.Season.Code",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01008538",
-                    "unece:cefactBieDomainClass": "cefact:Trade_Product.Details",
-                    "unece:cefactBusinessProcess": "Supply Chain",
-                    "rdfs:comment": "A code specifying a season for this trade product."
-                },
-                {
                     "@id": "cefact:Specified_Period.Season.Code",
                     "@type": "unece:BasicBIE",
                     "unece:cefactUNId": "UN01001278",
                     "unece:cefactBieDomainClass": "cefact:Specified_Period.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The code specifying the season for this specified period."
+                    "rdfs:comment": "The code specifying the season for this specified period.",
+                    "unece:domainName": "Period"
+                },
+                {
+                    "@id": "cefact:Trade_Product.Season.Code",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01008538",
+                    "unece:cefactBieDomainClass": "cefact:Trade_Product.Details",
+                    "unece:cefactBusinessProcess": "Supply Chain",
+                    "rdfs:comment": "A code specifying a season for this trade product.",
+                    "unece:domainName": "Product"
                 }
             ]
         }

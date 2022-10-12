@@ -53,31 +53,8 @@
                     "unece:cefactUNId": "UN01011806",
                     "unece:cefactBieDomainClass": "cefact:Line_TradeSettlement.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A tax applicable to this line trade settlement."
-                },
-                {
-                    "@id": "cefact:SubordinateLine_TradeSettlement.Applicable.Trade_Tax",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01011855",
-                    "unece:cefactBieDomainClass": "cefact:SubordinateLine_TradeSettlement.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A tax applicable to this subordinate line trade settlement."
-                },
-                {
-                    "@id": "cefact:Header_TradeSettlement.Applicable.Trade_Tax",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01011672",
-                    "unece:cefactBieDomainClass": "cefact:Header_TradeSettlement.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A tax applicable to this header trade settlement."
-                },
-                {
-                    "@id": "cefact:Payment_TradeSettlement.Applicable.Trade_Tax",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01011842",
-                    "unece:cefactBieDomainClass": "cefact:Payment_TradeSettlement.Details",
-                    "unece:cefactBusinessProcess": "Trade",
-                    "rdfs:comment": "The tax applicable to this payment trade settlement."
+                    "rdfs:comment": "A tax applicable to this line trade settlement.",
+                    "unece:domainName": "LineTradeSettlement"
                 },
                 {
                     "@id": "cefact:Cross-Border_RegulatoryProcedure.Applicable.Trade_Tax",
@@ -85,7 +62,35 @@
                     "unece:cefactUNId": "UN01006177",
                     "unece:cefactBieDomainClass": "cefact:CrossBorder_RegulatoryProcedure.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A tax, levy or duty applicable to this cross-border regulatory procedure."
+                    "rdfs:comment": "A tax, levy or duty applicable to this cross-border regulatory procedure.",
+                    "unece:domainName": "RegulatoryProcedure"
+                },
+                {
+                    "@id": "cefact:Payment_TradeSettlement.Applicable.Trade_Tax",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01011842",
+                    "unece:cefactBieDomainClass": "cefact:Payment_TradeSettlement.Details",
+                    "unece:cefactBusinessProcess": "Trade",
+                    "rdfs:comment": "The tax applicable to this payment trade settlement.",
+                    "unece:domainName": "PaymentTradeSettlement"
+                },
+                {
+                    "@id": "cefact:Header_TradeSettlement.Applicable.Trade_Tax",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01011672",
+                    "unece:cefactBieDomainClass": "cefact:Header_TradeSettlement.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A tax applicable to this header trade settlement.",
+                    "unece:domainName": "HeaderTradeSettlement"
+                },
+                {
+                    "@id": "cefact:SubordinateLine_TradeSettlement.Applicable.Trade_Tax",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01011855",
+                    "unece:cefactBieDomainClass": "cefact:SubordinateLine_TradeSettlement.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A tax applicable to this subordinate line trade settlement.",
+                    "unece:domainName": "SubordinateLineTradeSettlement"
                 }
             ]
         }

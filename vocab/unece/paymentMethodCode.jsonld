@@ -42,7 +42,8 @@
                     "unece:cefactUNId": "UN01004516",
                     "unece:cefactBieDomainClass": "cefact:TradeSettlement_PaymentMeans.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The code specifying the method by which a payment may be made for this trade settlement payment means."
+                    "rdfs:comment": "The code specifying the method by which a payment may be made for this trade settlement payment means.",
+                    "unece:domainName": "PaymentMeans"
                 },
                 {
                     "@id": "cefact:Trade_Tax.PaymentMethod.Code",
@@ -51,7 +52,8 @@
                     "unece:cefactUNId": "UN01004729",
                     "unece:cefactBieDomainClass": "cefact:Trade_Tax.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The code specifying the payment method for this trade related tax, levy or duty."
+                    "rdfs:comment": "The code specifying the payment method for this trade related tax, levy or duty.",
+                    "unece:domainName": "TradeTax"
                 }
             ]
         }

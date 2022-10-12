@@ -37,22 +37,24 @@
             "rdfs:label": "birthDateTime",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Transport_Person.Birth.DateTime",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "2491",
-                    "unece:cefactUNId": "UN01004818",
-                    "unece:cefactBieDomainClass": "cefact:Transport_Person.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The birth date of this transport person."
-                },
-                {
                     "@id": "cefact:Contact_Person.Birth.DateTime",
                     "@type": "unece:BasicBIE",
                     "unece:tded": "2491",
                     "unece:cefactUNId": "UN01012119",
                     "unece:cefactBieDomainClass": "cefact:Contact_Person.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The date, time, date time or other date time value which specifies the birth date for this contact person."
+                    "rdfs:comment": "The date, time, date time or other date time value which specifies the birth date for this contact person.",
+                    "unece:domainName": "ContactPerson"
+                },
+                {
+                    "@id": "cefact:Transport_Person.Birth.DateTime",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "2491",
+                    "unece:cefactUNId": "UN01004818",
+                    "unece:cefactBieDomainClass": "cefact:Transport_Person.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The birth date of this transport person.",
+                    "unece:domainName": "TransportPerson"
                 }
             ]
         }

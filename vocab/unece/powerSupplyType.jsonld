@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01003781",
                     "unece:cefactBieDomainClass": "cefact:Logistics_TransportEquipment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The type of power supply, expressed as text, for this piece of logistics transport equipment, such as diesel fuel or electricity."
+                    "rdfs:comment": "The type of power supply, expressed as text, for this piece of logistics transport equipment, such as diesel fuel or electricity.",
+                    "unece:domainName": "LogisticsTransportEquipment"
                 }
             ]
         }

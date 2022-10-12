@@ -37,7 +37,8 @@
                     "unece:cefactUNId": "UN01006792",
                     "unece:cefactBieDomainClass": "cefact:ReferencedLogistics_Package.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The code specifying the level of this referenced logistics package."
+                    "rdfs:comment": "The code specifying the level of this referenced logistics package.",
+                    "unece:domainName": "Package"
                 },
                 {
                     "@id": "cefact:Logistics_Package.Level.Code",
@@ -46,7 +47,8 @@
                     "unece:cefactUNId": "UN01003696",
                     "unece:cefactBieDomainClass": "cefact:Logistics_Package.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The code specifying the level of this logistics package."
+                    "rdfs:comment": "The code specifying the level of this logistics package.",
+                    "unece:domainName": "Package"
                 }
             ]
         }

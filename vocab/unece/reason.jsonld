@@ -58,38 +58,13 @@
             "rdfs:label": "reason",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Document_Status.Reason.Text",
+                    "@id": "cefact:Delivery_Adjustment.Reason.Text",
                     "@type": "unece:BasicBIE",
-                    "unece:tded": "9012",
-                    "unece:cefactUNId": "UN01013127",
-                    "unece:cefactBieDomainClass": "cefact:Document_Status.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A reason, expressed as text, for this document status."
-                },
-                {
-                    "@id": "cefact:Trade_AllowanceCharge.Reason.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01004557",
-                    "unece:cefactBieDomainClass": "cefact:Trade_AllowanceCharge.Details",
+                    "unece:cefactUNId": "UN01003500",
+                    "unece:cefactBieDomainClass": "cefact:Delivery_Adjustment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The reason, expressed as text, for this trade allowance charge."
-                },
-                {
-                    "@id": "cefact:Cancellation_Status.Reason.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "9012",
-                    "unece:cefactUNId": "UN01013199",
-                    "unece:cefactBieDomainClass": "cefact:Cancellation_Status.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A reason, expressed as text, for this cancellation status."
-                },
-                {
-                    "@id": "cefact:Financial_Adjustment.Reason.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01003596",
-                    "unece:cefactBieDomainClass": "cefact:Financial_Adjustment.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A reason, expressed as text, for this financial adjustment."
+                    "rdfs:comment": "A reason, expressed as text, for this delivery adjustment.",
+                    "unece:domainName": "Adjustment"
                 },
                 {
                     "@id": "cefact:Financing_Status.Reason.Text",
@@ -98,7 +73,17 @@
                     "unece:cefactUNId": "UN01013265",
                     "unece:cefactBieDomainClass": "cefact:Financing_Status.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A reason, expressed as text, for this financing status."
+                    "rdfs:comment": "A reason, expressed as text, for this financing status.",
+                    "unece:domainName": "FinancingStatus"
+                },
+                {
+                    "@id": "cefact:Financial_Adjustment.Reason.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01003596",
+                    "unece:cefactBieDomainClass": "cefact:Financial_Adjustment.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "A reason, expressed as text, for this financial adjustment.",
+                    "unece:domainName": "Adjustment"
                 },
                 {
                     "@id": "cefact:Validation_Status.Reason.Text",
@@ -107,7 +92,8 @@
                     "unece:cefactUNId": "UN01013308",
                     "unece:cefactBieDomainClass": "cefact:Validation_Status.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A reason, expressed as text, for this validation status."
+                    "rdfs:comment": "A reason, expressed as text, for this validation status.",
+                    "unece:domainName": "ValidationStatus"
                 },
                 {
                     "@id": "cefact:Logistics_Status.Reason.Text",
@@ -116,15 +102,37 @@
                     "unece:cefactUNId": "UN01003752",
                     "unece:cefactBieDomainClass": "cefact:Logistics_Status.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A reason, expressed as text, for this logistics status."
+                    "rdfs:comment": "A reason, expressed as text, for this logistics status.",
+                    "unece:domainName": "LogisticsStatus"
                 },
                 {
-                    "@id": "cefact:Delivery_Adjustment.Reason.Text",
+                    "@id": "cefact:Cancellation_Status.Reason.Text",
                     "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01003500",
-                    "unece:cefactBieDomainClass": "cefact:Delivery_Adjustment.Details",
+                    "unece:tded": "9012",
+                    "unece:cefactUNId": "UN01013199",
+                    "unece:cefactBieDomainClass": "cefact:Cancellation_Status.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A reason, expressed as text, for this delivery adjustment."
+                    "rdfs:comment": "A reason, expressed as text, for this cancellation status.",
+                    "unece:domainName": "CancellationStatus"
+                },
+                {
+                    "@id": "cefact:Document_Status.Reason.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "9012",
+                    "unece:cefactUNId": "UN01013127",
+                    "unece:cefactBieDomainClass": "cefact:Document_Status.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "A reason, expressed as text, for this document status.",
+                    "unece:domainName": "DocumentStatus"
+                },
+                {
+                    "@id": "cefact:Trade_AllowanceCharge.Reason.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01004557",
+                    "unece:cefactBieDomainClass": "cefact:Trade_AllowanceCharge.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The reason, expressed as text, for this trade allowance charge.",
+                    "unece:domainName": "AllowanceCharge"
                 }
             ]
         }

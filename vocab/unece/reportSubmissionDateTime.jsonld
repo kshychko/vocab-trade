@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01002108",
                     "unece:cefactBieDomainClass": "cefact:Acknowledgement_Document.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The date, time, date time or other date time value of the submission of the report being acknowledged by this acknowledgment document."
+                    "rdfs:comment": "The date, time, date time or other date time value of the submission of the report being acknowledged by this acknowledgment document.",
+                    "unece:domainName": "AcknowledgementDocument"
                 }
             ]
         }

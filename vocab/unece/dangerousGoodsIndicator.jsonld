@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01010121",
                     "unece:cefactBieDomainClass": "cefact:Logistics_TransportMovement.Details",
                     "unece:cefactBusinessProcess": "Transport",
-                    "rdfs:comment": "The indication of whether or not dangerous goods are carried for this logistics transport movement."
+                    "rdfs:comment": "The indication of whether or not dangerous goods are carried for this logistics transport movement.",
+                    "unece:domainName": "TransportMovement"
                 }
             ]
         }

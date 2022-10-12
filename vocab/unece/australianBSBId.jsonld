@@ -43,7 +43,8 @@
                     "unece:cefactUNId": "UN01002860",
                     "unece:cefactBieDomainClass": "cefact:Debtor_FinancialInstitution.Details",
                     "unece:cefactBusinessProcess": "Customer to bank payment initiation",
-                    "rdfs:comment": "The unique Australian Bank State Branch (BSB) Code identifier as assigned by the Australian Payments Clearing Association (APCA) for this debtor financial institution."
+                    "rdfs:comment": "The unique Australian Bank State Branch (BSB) Code identifier as assigned by the Australian Payments Clearing Association (APCA) for this debtor financial institution.",
+                    "unece:domainName": "DebtorFinancialInstitution"
                 },
                 {
                     "@id": "cefact:Creditor_FinancialInstitution.AustralianBSB_Identification.Identifier",
@@ -52,7 +53,8 @@
                     "unece:cefactUNId": "UN01002995",
                     "unece:cefactBieDomainClass": "cefact:Creditor_FinancialInstitution.Details",
                     "unece:cefactBusinessProcess": "Customer to bank payment initiation",
-                    "rdfs:comment": "The unique Australian Bank State Branch (BSB) Code identifier as assigned by the Australian Payments Clearing Association (APCA) for this creditor financial institution."
+                    "rdfs:comment": "The unique Australian Bank State Branch (BSB) Code identifier as assigned by the Australian Payments Clearing Association (APCA) for this creditor financial institution.",
+                    "unece:domainName": "CreditorFinancialInstitution"
                 }
             ]
         }

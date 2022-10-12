@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01008428",
                     "unece:cefactBieDomainClass": "cefact:Disposal_Instructions.Details",
                     "unece:cefactBusinessProcess": "Supply Chain",
-                    "rdfs:comment": "A code describing recycling in these disposal instructions."
+                    "rdfs:comment": "A code describing recycling in these disposal instructions.",
+                    "unece:domainName": "DisposalInstructions"
                 }
             ]
         }

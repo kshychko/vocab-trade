@@ -35,7 +35,8 @@
                     "unece:cefactUNId": "UN01008516",
                     "unece:cefactBieDomainClass": "cefact:Trade_Product.Details",
                     "unece:cefactBusinessProcess": "Cataloguing",
-                    "rdfs:comment": "The promotional variant identifier for this trade product."
+                    "rdfs:comment": "The promotional variant identifier for this trade product.",
+                    "unece:domainName": "Product"
                 }
             ]
         }

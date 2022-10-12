@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01008517",
                     "unece:cefactBieDomainClass": "cefact:Trade_Product.Details",
                     "unece:cefactBusinessProcess": "Cataloguing",
-                    "rdfs:comment": "A consumer age description, expressed as text, for this trade product."
+                    "rdfs:comment": "A consumer age description, expressed as text, for this trade product.",
+                    "unece:domainName": "Product"
                 }
             ]
         }

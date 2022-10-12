@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01004659",
                     "unece:cefactBieDomainClass": "cefact:Trade_ProductInstance.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The unique supplier assigned serial identifier for this trade product instance."
+                    "rdfs:comment": "The unique supplier assigned serial identifier for this trade product instance.",
+                    "unece:domainName": "ProductInstance"
                 }
             ]
         }

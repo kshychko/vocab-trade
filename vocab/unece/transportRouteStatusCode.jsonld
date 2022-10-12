@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01011530",
                     "unece:cefactBieDomainClass": "cefact:Transport_Route.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The code specifying a status for a transport route, such as planned or actual."
+                    "rdfs:comment": "The code specifying a status for a transport route, such as planned or actual.",
+                    "unece:domainName": "Route"
                 }
             ]
         }

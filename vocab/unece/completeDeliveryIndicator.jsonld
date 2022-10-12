@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01013161",
                     "unece:cefactBieDomainClass": "cefact:TransportWaste_Material.Details",
                     "unece:cefactBusinessProcess": "Transport",
-                    "rdfs:comment": "The indication of whether or not a transport waste material delivery is complete."
+                    "rdfs:comment": "The indication of whether or not a transport waste material delivery is complete.",
+                    "unece:domainName": "Material"
                 }
             ]
         }

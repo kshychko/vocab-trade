@@ -37,20 +37,22 @@
             "rdfs:label": "onboardQuantity",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Specified_PersonalEffects.Onboard.Quantity",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01013188",
-                    "unece:cefactBieDomainClass": "cefact:Specified_PersonalEffects.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "An onboard number of these specified personal effects."
-                },
-                {
                     "@id": "cefact:StoresItem_Inventory.Onboard.Quantity",
                     "@type": "unece:BasicBIE",
                     "unece:cefactUNId": "UN01013193",
                     "unece:cefactBieDomainClass": "cefact:StoresItem_Inventory.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "An onboard quantity for this stores inventory item."
+                    "rdfs:comment": "An onboard quantity for this stores inventory item.",
+                    "unece:domainName": "Inventory"
+                },
+                {
+                    "@id": "cefact:Specified_PersonalEffects.Onboard.Quantity",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01013188",
+                    "unece:cefactBieDomainClass": "cefact:Specified_PersonalEffects.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "An onboard number of these specified personal effects.",
+                    "unece:domainName": "PersonalEffects"
                 }
             ]
         }

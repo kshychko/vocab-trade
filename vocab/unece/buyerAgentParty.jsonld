@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01011577",
                     "unece:cefactBieDomainClass": "cefact:Header_TradeAgreement.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The buyer agent party for this header trade agreement."
+                    "rdfs:comment": "The buyer agent party for this header trade agreement.",
+                    "unece:domainName": "HeaderTradeAgreement"
                 }
             ]
         }

@@ -41,12 +41,22 @@
             "rdfs:label": "notifiedParty",
             "unece:cefactElementMetadata": [
                 {
+                    "@id": "cefact:SupplyChain_Consignment.Notified.Trade_Party",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01004223",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A party who has been or will be notified about this supply chain consignment.",
+                    "unece:domainName": "Consignment"
+                },
+                {
                     "@id": "cefact:Logistics_TransportMovement.Notified.Trade_Party",
                     "@type": "unece:AssociationBIE",
                     "unece:cefactUNId": "UN01003873",
                     "unece:cefactBieDomainClass": "cefact:Logistics_TransportMovement.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A party to be notified about this logistics transport movement."
+                    "rdfs:comment": "A party to be notified about this logistics transport movement.",
+                    "unece:domainName": "TransportMovement"
                 },
                 {
                     "@id": "cefact:Logistics_TransportEquipment.Notified.Trade_Party",
@@ -54,7 +64,8 @@
                     "unece:cefactUNId": "UN01003813",
                     "unece:cefactBieDomainClass": "cefact:Logistics_TransportEquipment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A party who has been or will be notified about this piece of logistics transport equipment."
+                    "rdfs:comment": "A party who has been or will be notified about this piece of logistics transport equipment.",
+                    "unece:domainName": "LogisticsTransportEquipment"
                 },
                 {
                     "@id": "cefact:Referenced_SupplyChain_Consignment.Notified.Trade_Party",
@@ -62,15 +73,8 @@
                     "unece:cefactUNId": "UN01011058",
                     "unece:cefactBieDomainClass": "cefact:ReferencedSupplyChain_Consignment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A party who has been or will be notified about this referenced supply chain consignment."
-                },
-                {
-                    "@id": "cefact:SupplyChain_Consignment.Notified.Trade_Party",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01004223",
-                    "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A party who has been or will be notified about this supply chain consignment."
+                    "rdfs:comment": "A party who has been or will be notified about this referenced supply chain consignment.",
+                    "unece:domainName": "Consignment"
                 }
             ]
         }

@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01004308",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_Inventory.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The measure of the minimum stock level for this supply chain inventory."
+                    "rdfs:comment": "The measure of the minimum stock level for this supply chain inventory.",
+                    "unece:domainName": "Inventory"
                 }
             ]
         }

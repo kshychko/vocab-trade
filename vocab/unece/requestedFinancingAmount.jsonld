@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01013267",
                     "unece:cefactBieDomainClass": "cefact:Header_TradeSettlement.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A financing monetary value requested for this header trade settlement."
+                    "rdfs:comment": "A financing monetary value requested for this header trade settlement.",
+                    "unece:domainName": "HeaderTradeSettlement"
                 }
             ]
         }

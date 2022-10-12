@@ -37,20 +37,22 @@
             "rdfs:label": "buildingNumber",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:FinancialInstitution_Address.BuildingNumber.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01003181",
-                    "unece:cefactBieDomainClass": "cefact:FinancialInstitution_Address.Details",
-                    "unece:cefactBusinessProcess": "Customer to bank payment initiation",
-                    "rdfs:comment": "The number, expressed as text, of the building on a street for this financial institution address."
-                },
-                {
                     "@id": "cefact:Trade_Address.BuildingNumber.Text",
                     "@type": "unece:BasicBIE",
                     "unece:cefactUNId": "UN01006053",
                     "unece:cefactBieDomainClass": "cefact:Trade_Address.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The building number, expressed as text, in this trade address."
+                    "rdfs:comment": "The building number, expressed as text, in this trade address.",
+                    "unece:domainName": "TradeAddress"
+                },
+                {
+                    "@id": "cefact:FinancialInstitution_Address.BuildingNumber.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01003181",
+                    "unece:cefactBieDomainClass": "cefact:FinancialInstitution_Address.Details",
+                    "unece:cefactBusinessProcess": "Customer to bank payment initiation",
+                    "rdfs:comment": "The number, expressed as text, of the building on a street for this financial institution address.",
+                    "unece:domainName": "FinancialInstitutionAddress"
                 }
             ]
         }

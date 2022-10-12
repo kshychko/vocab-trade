@@ -37,7 +37,8 @@
                     "unece:cefactUNId": "UN01011069",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_ConsignmentItem.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The number of trade line items in this supply chain consignment item."
+                    "rdfs:comment": "The number of trade line items in this supply chain consignment item.",
+                    "unece:domainName": "ConsignmentItem"
                 },
                 {
                     "@id": "cefact:Referenced_SupplyChain_ConsignmentItem.TradeLineItem.Quantity",
@@ -45,7 +46,8 @@
                     "unece:cefactUNId": "UN01011042",
                     "unece:cefactBieDomainClass": "cefact:ReferencedSupplyChain_ConsignmentItem.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The number of trade line items in this referenced supply chain consignment item."
+                    "rdfs:comment": "The number of trade line items in this referenced supply chain consignment item.",
+                    "unece:domainName": "ConsignmentItem"
                 }
             ]
         }

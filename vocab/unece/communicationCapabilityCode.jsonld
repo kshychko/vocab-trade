@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01013479",
                     "unece:cefactBieDomainClass": "cefact:Monitoring_IOTDevice.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The code specifying the communication capability of this monitoring IOT device."
+                    "rdfs:comment": "The code specifying the communication capability of this monitoring IOT device.",
+                    "unece:domainName": "IOTDevice"
                 }
             ]
         }

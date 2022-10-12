@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01013557",
                     "unece:cefactBieDomainClass": "cefact:OEM_Equipment.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The measure of the polling rate for this OEM equipment."
+                    "rdfs:comment": "The measure of the polling rate for this OEM equipment.",
+                    "unece:domainName": "Equipment"
                 }
             ]
         }

@@ -35,7 +35,8 @@
                     "unece:cefactUNId": "UN01010059",
                     "unece:cefactBieDomainClass": "cefact:Certified_Accreditation.Details",
                     "unece:cefactBusinessProcess": "Transport",
-                    "rdfs:comment": "The date, time, date time or other date time value when this certified accreditation was obtained."
+                    "rdfs:comment": "The date, time, date time or other date time value when this certified accreditation was obtained.",
+                    "unece:domainName": "Accreditation"
                 }
             ]
         }

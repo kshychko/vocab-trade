@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01003638",
                     "unece:cefactBieDomainClass": "cefact:Legal_Organization.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A code specifying the type of business of this legally set up organization."
+                    "rdfs:comment": "A code specifying the type of business of this legally set up organization.",
+                    "unece:domainName": "Organization"
                 }
             ]
         }

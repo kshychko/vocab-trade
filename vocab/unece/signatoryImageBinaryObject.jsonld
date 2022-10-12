@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01012687",
                     "unece:cefactBieDomainClass": "cefact:Document_Authentication.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The signatory image, expressed as a binary object, for this document authentication."
+                    "rdfs:comment": "The signatory image, expressed as a binary object, for this document authentication.",
+                    "unece:domainName": "Authentication"
                 }
             ]
         }

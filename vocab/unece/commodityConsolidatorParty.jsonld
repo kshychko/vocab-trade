@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01003867",
                     "unece:cefactBieDomainClass": "cefact:Logistics_TransportMovement.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The commodity consolidator party for this logistics transport movement."
+                    "rdfs:comment": "The commodity consolidator party for this logistics transport movement.",
+                    "unece:domainName": "TransportMovement"
                 }
             ]
         }

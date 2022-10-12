@@ -35,7 +35,8 @@
                     "unece:cefactUNId": "UN01002564",
                     "unece:cefactBieDomainClass": "cefact:Trade_CountrySubDivision.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The code specifying the hierarchical level of this trade country sub-division."
+                    "rdfs:comment": "The code specifying the hierarchical level of this trade country sub-division.",
+                    "unece:domainName": "CountrySubDivision"
                 }
             ]
         }

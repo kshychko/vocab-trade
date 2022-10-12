@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01003633",
                     "unece:cefactBieDomainClass": "cefact:Handling_Instructions.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A code specifying a description of these handling instructions."
+                    "rdfs:comment": "A code specifying a description of these handling instructions.",
+                    "unece:domainName": "HandlingInstructions"
                 }
             ]
         }

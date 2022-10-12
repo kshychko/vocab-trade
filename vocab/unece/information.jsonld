@@ -86,99 +86,14 @@
             "rdfs:label": "information",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Exchanged_Document.Information.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "4142",
-                    "unece:cefactUNId": "UN01003563",
-                    "unece:cefactBieDomainClass": "cefact:Exchanged_Document.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "Information, expressed as text, for this exchanged document."
-                },
-                {
-                    "@id": "cefact:SupplyChain_ConsignmentItem.Information.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01004128",
-                    "unece:cefactBieDomainClass": "cefact:SupplyChain_ConsignmentItem.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "Information, expressed as text, for this supply chain consignment item."
-                },
-                {
-                    "@id": "cefact:SupplyChain_Consignment.Information.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "4070",
-                    "unece:cefactUNId": "UN01004203",
-                    "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "Information, expressed as text, for this supply chain consignment."
-                },
-                {
-                    "@id": "cefact:Section_Segment.Information.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01012738",
-                    "unece:cefactBieDomainClass": "cefact:Section_Segment.Details",
-                    "unece:cefactBusinessProcess": "Cross Industry Trade",
-                    "rdfs:comment": "Information, expressed as text, in this section segment."
-                },
-                {
-                    "@id": "cefact:Referenced_Document.Information.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "4142",
-                    "unece:cefactUNId": "UN01004008",
-                    "unece:cefactBieDomainClass": "cefact:Referenced_Document.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "Information, expressed as text, for this referenced document."
-                },
-                {
-                    "@id": "cefact:Referenced_Logistics_Package.Information.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "4150",
-                    "unece:cefactUNId": "UN01013105",
-                    "unece:cefactBieDomainClass": "cefact:ReferencedLogistics_Package.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "Information, expressed as text, for this referenced logistics package."
-                },
-                {
-                    "@id": "cefact:TradeSettlement_PaymentMeans.Information.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01004910",
-                    "unece:cefactBieDomainClass": "cefact:TradeSettlement_PaymentMeans.Details",
-                    "unece:cefactBusinessProcess": "Cross-Border",
-                    "rdfs:comment": "Information, expressed as text, for this trade settlement payment means."
-                },
-                {
                     "@id": "cefact:Logistics_TransportMovement.Information.Text",
                     "@type": "unece:BasicBIE",
                     "unece:tded": "4032",
                     "unece:cefactUNId": "UN01006193",
                     "unece:cefactBieDomainClass": "cefact:Logistics_TransportMovement.Details",
                     "unece:cefactBusinessProcess": "Cross-Border",
-                    "rdfs:comment": "Information, expressed as text, for this logistics transport movement."
-                },
-                {
-                    "@id": "cefact:SupplyChain_TradeTransaction.Information.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01004479",
-                    "unece:cefactBieDomainClass": "cefact:SupplyChain_TradeTransaction.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "Information, expressed as text, for this supply chain trade transaction."
-                },
-                {
-                    "@id": "cefact:Logistics_Package.Information.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "4150",
-                    "unece:cefactUNId": "UN01003704",
-                    "unece:cefactBieDomainClass": "cefact:Logistics_Package.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "Information, expressed as text, for this logistics package."
-                },
-                {
-                    "@id": "cefact:Logistics_TransportEquipment.Information.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "4014",
-                    "unece:cefactUNId": "UN01003778",
-                    "unece:cefactBieDomainClass": "cefact:Logistics_TransportEquipment.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "Information, expressed as text, for this piece of logistics transport equipment."
+                    "rdfs:comment": "Information, expressed as text, for this logistics transport movement.",
+                    "unece:domainName": "TransportMovement"
                 },
                 {
                     "@id": "cefact:Transport_DangerousGoods.Information.Text",
@@ -187,23 +102,66 @@
                     "unece:cefactUNId": "UN01004768",
                     "unece:cefactBieDomainClass": "cefact:Transport_DangerousGoods.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "Information, expressed as text, concerning the transport of these dangerous goods."
+                    "rdfs:comment": "Information, expressed as text, concerning the transport of these dangerous goods.",
+                    "unece:domainName": "DangerousGoods"
                 },
                 {
-                    "@id": "cefact:Document_Authentication.Information.Text",
+                    "@id": "cefact:SupplyChain_ConsignmentItem.Information.Text",
                     "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01003522",
-                    "unece:cefactBieDomainClass": "cefact:Document_Authentication.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "Information, expressed as text, for this document authentication."
+                    "unece:cefactUNId": "UN01004128",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_ConsignmentItem.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "Information, expressed as text, for this supply chain consignment item.",
+                    "unece:domainName": "ConsignmentItem"
                 },
                 {
-                    "@id": "cefact:Transport_Service.Information.Text",
+                    "@id": "cefact:Referenced_Logistics_Package.Information.Text",
                     "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01004846",
-                    "unece:cefactBieDomainClass": "cefact:Transport_Service.Details",
+                    "unece:tded": "4150",
+                    "unece:cefactUNId": "UN01013105",
+                    "unece:cefactBieDomainClass": "cefact:ReferencedLogistics_Package.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "Information, expressed as text, for this referenced logistics package.",
+                    "unece:domainName": "Package"
+                },
+                {
+                    "@id": "cefact:Referenced_Document.Information.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "4142",
+                    "unece:cefactUNId": "UN01004008",
+                    "unece:cefactBieDomainClass": "cefact:Referenced_Document.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "Information, expressed as text, for this transport service."
+                    "rdfs:comment": "Information, expressed as text, for this referenced document.",
+                    "unece:domainName": "Document"
+                },
+                {
+                    "@id": "cefact:Section_Segment.Information.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01012738",
+                    "unece:cefactBieDomainClass": "cefact:Section_Segment.Details",
+                    "unece:cefactBusinessProcess": "Cross Industry Trade",
+                    "rdfs:comment": "Information, expressed as text, in this section segment.",
+                    "unece:domainName": "Segment"
+                },
+                {
+                    "@id": "cefact:Logistics_Package.Information.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "4150",
+                    "unece:cefactUNId": "UN01003704",
+                    "unece:cefactBieDomainClass": "cefact:Logistics_Package.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "Information, expressed as text, for this logistics package.",
+                    "unece:domainName": "Package"
+                },
+                {
+                    "@id": "cefact:Logistics_TransportEquipment.Information.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "4014",
+                    "unece:cefactUNId": "UN01003778",
+                    "unece:cefactBieDomainClass": "cefact:Logistics_TransportEquipment.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "Information, expressed as text, for this piece of logistics transport equipment.",
+                    "unece:domainName": "LogisticsTransportEquipment"
                 },
                 {
                     "@id": "cefact:Document_Status.Information.Text",
@@ -211,7 +169,64 @@
                     "unece:cefactUNId": "UN01013128",
                     "unece:cefactBieDomainClass": "cefact:Document_Status.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "Information, expressed as text, for this document status."
+                    "rdfs:comment": "Information, expressed as text, for this document status.",
+                    "unece:domainName": "DocumentStatus"
+                },
+                {
+                    "@id": "cefact:SupplyChain_Consignment.Information.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "4070",
+                    "unece:cefactUNId": "UN01004203",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "Information, expressed as text, for this supply chain consignment.",
+                    "unece:domainName": "Consignment"
+                },
+                {
+                    "@id": "cefact:Exchanged_Document.Information.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "4142",
+                    "unece:cefactUNId": "UN01003563",
+                    "unece:cefactBieDomainClass": "cefact:Exchanged_Document.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "Information, expressed as text, for this exchanged document.",
+                    "unece:domainName": "ExchangedDocument"
+                },
+                {
+                    "@id": "cefact:Transport_Service.Information.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01004846",
+                    "unece:cefactBieDomainClass": "cefact:Transport_Service.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "Information, expressed as text, for this transport service.",
+                    "unece:domainName": "Service"
+                },
+                {
+                    "@id": "cefact:TradeSettlement_PaymentMeans.Information.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01004910",
+                    "unece:cefactBieDomainClass": "cefact:TradeSettlement_PaymentMeans.Details",
+                    "unece:cefactBusinessProcess": "Cross-Border",
+                    "rdfs:comment": "Information, expressed as text, for this trade settlement payment means.",
+                    "unece:domainName": "PaymentMeans"
+                },
+                {
+                    "@id": "cefact:Document_Authentication.Information.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01003522",
+                    "unece:cefactBieDomainClass": "cefact:Document_Authentication.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "Information, expressed as text, for this document authentication.",
+                    "unece:domainName": "Authentication"
+                },
+                {
+                    "@id": "cefact:SupplyChain_TradeTransaction.Information.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01004479",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_TradeTransaction.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "Information, expressed as text, for this supply chain trade transaction.",
+                    "unece:domainName": "TradeTransaction"
                 }
             ]
         }

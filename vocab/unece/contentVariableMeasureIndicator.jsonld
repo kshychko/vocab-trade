@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01011928",
                     "unece:cefactBieDomainClass": "cefact:Trade_Product.Details",
                     "unece:cefactBusinessProcess": "Trade",
-                    "rdfs:comment": "The indication of whether or not instances of this trade product have a content variable measure, such as weight, length or volume."
+                    "rdfs:comment": "The indication of whether or not instances of this trade product have a content variable measure, such as weight, length or volume.",
+                    "unece:domainName": "Product"
                 }
             ]
         }

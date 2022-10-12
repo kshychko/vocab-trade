@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01013307",
                     "unece:cefactBieDomainClass": "cefact:Validation_Status.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The code specifying the reason for this validation status."
+                    "rdfs:comment": "The code specifying the reason for this validation status.",
+                    "unece:domainName": "ValidationStatus"
                 }
             ]
         }

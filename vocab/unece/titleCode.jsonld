@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01013202",
                     "unece:cefactBieDomainClass": "cefact:Contact_Person.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The code specifying the title of this contact person, such as Ms., Doctor, Mister."
+                    "rdfs:comment": "The code specifying the title of this contact person, such as Ms., Doctor, Mister.",
+                    "unece:domainName": "ContactPerson"
                 }
             ]
         }

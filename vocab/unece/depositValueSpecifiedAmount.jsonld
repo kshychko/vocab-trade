@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01008864",
                     "unece:cefactBieDomainClass": "cefact:ReturnableAsset_Instructions.Details",
                     "unece:cefactBusinessProcess": "Supply Chain",
-                    "rdfs:comment": "A deposit value specified in these returnable asset instructions."
+                    "rdfs:comment": "A deposit value specified in these returnable asset instructions.",
+                    "unece:domainName": "ReturnableAssetInstructions"
                 }
             ]
         }

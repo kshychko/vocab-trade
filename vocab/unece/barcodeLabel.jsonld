@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01003744",
                     "unece:cefactBieDomainClass": "cefact:Logistics_ShippingMarks.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A barcode label that is a part of these logistics shipping marks."
+                    "rdfs:comment": "A barcode label that is a part of these logistics shipping marks.",
+                    "unece:domainName": "ShippingMarks"
                 }
             ]
         }

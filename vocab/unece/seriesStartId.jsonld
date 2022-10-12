@@ -38,21 +38,14 @@
             "rdfs:label": "seriesStartId",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Logistics_Label.SeriesStart.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01003677",
-                    "unece:cefactBieDomainClass": "cefact:Logistics_Label.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The unique identifier of the start of a series of logistics labels."
-                },
-                {
                     "@id": "cefact:Logistics_Package.SeriesStart_Identification.Identifier",
                     "@type": "unece:BasicBIE",
                     "unece:tded": "1438",
                     "unece:cefactUNId": "UN01004898",
                     "unece:cefactBieDomainClass": "cefact:Logistics_Package.Details",
                     "unece:cefactBusinessProcess": "Cross-Border",
-                    "rdfs:comment": "The unique start identifier of a series of packages within this logistics package."
+                    "rdfs:comment": "The unique start identifier of a series of packages within this logistics package.",
+                    "unece:domainName": "Package"
                 },
                 {
                     "@id": "cefact:Referenced_Logistics_Package.SeriesStart_Identification.Identifier",
@@ -61,7 +54,17 @@
                     "unece:cefactUNId": "UN01006798",
                     "unece:cefactBieDomainClass": "cefact:ReferencedLogistics_Package.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The identifier of the start of a series of packages within this referenced logistics package."
+                    "rdfs:comment": "The identifier of the start of a series of packages within this referenced logistics package.",
+                    "unece:domainName": "Package"
+                },
+                {
+                    "@id": "cefact:Logistics_Label.SeriesStart.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01003677",
+                    "unece:cefactBieDomainClass": "cefact:Logistics_Label.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The unique identifier of the start of a series of logistics labels.",
+                    "unece:domainName": "Label"
                 }
             ]
         }

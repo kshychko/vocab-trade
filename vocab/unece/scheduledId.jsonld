@@ -35,7 +35,8 @@
                     "unece:cefactUNId": "UN01003842",
                     "unece:cefactBieDomainClass": "cefact:Logistics_TransportMovement.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A unique identifier for this logistics transport movement, such as a voyage number, flight number, or trip number, as stated in a schedule."
+                    "rdfs:comment": "A unique identifier for this logistics transport movement, such as a voyage number, flight number, or trip number, as stated in a schedule.",
+                    "unece:domainName": "TransportMovement"
                 }
             ]
         }

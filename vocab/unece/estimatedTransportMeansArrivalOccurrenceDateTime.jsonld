@@ -35,7 +35,8 @@
                     "unece:cefactUNId": "UN01004801",
                     "unece:cefactBieDomainClass": "cefact:Transport_Event.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The date, time, date time, or other date time value when the arrival of a means of transport at the location of this transport event is estimated to occur."
+                    "rdfs:comment": "The date, time, date time, or other date time value when the arrival of a means of transport at the location of this transport event is estimated to occur.",
+                    "unece:domainName": "TransportEvent"
                 }
             ]
         }

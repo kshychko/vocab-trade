@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01006028",
                     "unece:cefactBieDomainClass": "cefact:Specified_BinaryFile.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The specified period when access to this binary file is available."
+                    "rdfs:comment": "The specified period when access to this binary file is available.",
+                    "unece:domainName": "BinaryFile"
                 }
             ]
         }

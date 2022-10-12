@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01000025",
                     "unece:cefactBieDomainClass": "cefact:WorkItem_QuantityAnalysis.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A quantity analysis breakdown of this work item quantity analysis."
+                    "rdfs:comment": "A quantity analysis breakdown of this work item quantity analysis.",
+                    "unece:domainName": "QuantityAnalysis"
                 }
             ]
         }

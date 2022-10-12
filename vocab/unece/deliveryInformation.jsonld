@@ -35,7 +35,8 @@
                     "unece:cefactUNId": "UN01009001",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
                     "unece:cefactBusinessProcess": "Cross-Border",
-                    "rdfs:comment": "The delivery information, expressed as text, for this supply chain consignment."
+                    "rdfs:comment": "The delivery information, expressed as text, for this supply chain consignment.",
+                    "unece:domainName": "Consignment"
                 }
             ]
         }

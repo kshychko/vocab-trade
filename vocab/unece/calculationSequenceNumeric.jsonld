@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01004715",
                     "unece:cefactBieDomainClass": "cefact:Trade_Tax.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A numeric expression of the sequence in which this trade related tax is to be or has been applied when multiple taxes are applicable per calculation, such as first \"Value Added Tax (VAT)\", second \"Transfer\"."
+                    "rdfs:comment": "A numeric expression of the sequence in which this trade related tax is to be or has been applied when multiple taxes are applicable per calculation, such as first \"Value Added Tax (VAT)\", second \"Transfer\".",
+                    "unece:domainName": "TradeTax"
                 }
             ]
         }

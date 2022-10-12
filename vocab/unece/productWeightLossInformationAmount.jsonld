@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01011911",
                     "unece:cefactBieDomainClass": "cefact:TradeSettlementLine_MonetarySummation.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A monetary value of the loss of weight of a product, such as fresh goods, stated for information purposes in this trade settlement line monetary summation."
+                    "rdfs:comment": "A monetary value of the loss of weight of a product, such as fresh goods, stated for information purposes in this trade settlement line monetary summation.",
+                    "unece:domainName": "TradeSettlementLineMonetarySummation"
                 }
             ]
         }

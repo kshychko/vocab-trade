@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01013209",
                     "unece:cefactBieDomainClass": "cefact:Creditor_FinancialInstitution.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "An additional clearing system identifier for this creditor financial institution."
+                    "rdfs:comment": "An additional clearing system identifier for this creditor financial institution.",
+                    "unece:domainName": "CreditorFinancialInstitution"
                 }
             ]
         }

@@ -35,7 +35,8 @@
                     "unece:cefactUNId": "UN01011011",
                     "unece:cefactBieDomainClass": "cefact:Exchanged_Declaration.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The date, time, date time or other date time value when the items which are a subject of this exchanged declaration enter a jurisdiction, such as the actual date of arrival of a means of transport."
+                    "rdfs:comment": "The date, time, date time or other date time value when the items which are a subject of this exchanged declaration enter a jurisdiction, such as the actual date of arrival of a means of transport.",
+                    "unece:domainName": "Declaration"
                 }
             ]
         }

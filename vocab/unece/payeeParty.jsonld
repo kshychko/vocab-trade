@@ -40,20 +40,22 @@
             "rdfs:label": "payeeParty",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Header_TradeSettlement.Payee.Trade_Party",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01011664",
-                    "unece:cefactBieDomainClass": "cefact:Header_TradeSettlement.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A payee party for this header trade settlement."
-                },
-                {
                     "@id": "cefact:Payment_TradeSettlement.Payee.Trade_Party",
                     "@type": "unece:AssociationBIE",
                     "unece:cefactUNId": "UN01011837",
                     "unece:cefactBieDomainClass": "cefact:Payment_TradeSettlement.Details",
                     "unece:cefactBusinessProcess": "Trade",
-                    "rdfs:comment": "The payee party for this payment trade settlement."
+                    "rdfs:comment": "The payee party for this payment trade settlement.",
+                    "unece:domainName": "PaymentTradeSettlement"
+                },
+                {
+                    "@id": "cefact:Header_TradeSettlement.Payee.Trade_Party",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01011664",
+                    "unece:cefactBieDomainClass": "cefact:Header_TradeSettlement.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A payee party for this header trade settlement.",
+                    "unece:domainName": "HeaderTradeSettlement"
                 },
                 {
                     "@id": "cefact:Trade_PaymentTerms.Payee.Trade_Party",
@@ -61,7 +63,8 @@
                     "unece:cefactUNId": "UN01009067",
                     "unece:cefactBieDomainClass": "cefact:Trade_PaymentTerms.Details",
                     "unece:cefactBusinessProcess": "Supply Chain",
-                    "rdfs:comment": "A payee party in these trade payment terms."
+                    "rdfs:comment": "A payee party in these trade payment terms.",
+                    "unece:domainName": "PaymentTerms"
                 }
             ]
         }

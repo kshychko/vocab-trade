@@ -42,15 +42,8 @@
                     "unece:cefactUNId": "UN01011062",
                     "unece:cefactBieDomainClass": "cefact:ReferencedSupplyChain_Consignment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The vanning event (the loading of this consignment at the place of its original despatch) for this referenced supply chain consignment."
-                },
-                {
-                    "@id": "cefact:SupplyChain_ConsignmentItem.Vanning.Transport_Event",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01004158",
-                    "unece:cefactBieDomainClass": "cefact:SupplyChain_ConsignmentItem.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The vanning event for this supply chain consignment item, i.e. the loading of this consignment item at the place of original despatch."
+                    "rdfs:comment": "The vanning event (the loading of this consignment at the place of its original despatch) for this referenced supply chain consignment.",
+                    "unece:domainName": "Consignment"
                 },
                 {
                     "@id": "cefact:SupplyChain_Consignment.Vanning.Transport_Event",
@@ -58,7 +51,17 @@
                     "unece:cefactUNId": "UN01004257",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The vanning event for this supply chain consignment, i.e. the loading of this consignment at the place of original despatch."
+                    "rdfs:comment": "The vanning event for this supply chain consignment, i.e. the loading of this consignment at the place of original despatch.",
+                    "unece:domainName": "Consignment"
+                },
+                {
+                    "@id": "cefact:SupplyChain_ConsignmentItem.Vanning.Transport_Event",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01004158",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_ConsignmentItem.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The vanning event for this supply chain consignment item, i.e. the loading of this consignment item at the place of original despatch.",
+                    "unece:domainName": "ConsignmentItem"
                 }
             ]
         }

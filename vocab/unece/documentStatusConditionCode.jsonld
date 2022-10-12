@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01013125",
                     "unece:cefactBieDomainClass": "cefact:Document_Status.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The code specifying the condition of this document status."
+                    "rdfs:comment": "The code specifying the condition of this document status.",
+                    "unece:domainName": "DocumentStatus"
                 }
             ]
         }

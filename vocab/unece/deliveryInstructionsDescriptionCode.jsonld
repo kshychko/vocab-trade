@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01003512",
                     "unece:cefactBieDomainClass": "cefact:Delivery_Instructions.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The code specifying a description of these delivery instructions."
+                    "rdfs:comment": "The code specifying a description of these delivery instructions.",
+                    "unece:domainName": "DeliveryInstructions"
                 }
             ]
         }

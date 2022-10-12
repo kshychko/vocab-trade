@@ -40,20 +40,13 @@
             "rdfs:label": "associatedGeographicalFeature",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Transport_Event.Associated.Specified_GeographicalFeature",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01013587",
-                    "unece:cefactBieDomainClass": "cefact:Transport_Event.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A geographical feature associated with this transport event."
-                },
-                {
                     "@id": "cefact:Logistics_Location.Associated.Specified_GeographicalFeature",
                     "@type": "unece:AssociationBIE",
                     "unece:cefactUNId": "UN01013608",
                     "unece:cefactBieDomainClass": "cefact:Logistics_Location.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A geographical feature associated with this logistics location."
+                    "rdfs:comment": "A geographical feature associated with this logistics location.",
+                    "unece:domainName": "LogisticsLocation"
                 },
                 {
                     "@id": "cefact:Communication_Event.Associated.Specified_GeographicalFeature",
@@ -61,7 +54,17 @@
                     "unece:cefactUNId": "UN01013570",
                     "unece:cefactBieDomainClass": "cefact:Communication_Event.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A geographical feature associated with this communication event."
+                    "rdfs:comment": "A geographical feature associated with this communication event.",
+                    "unece:domainName": "CommunicationEvent"
+                },
+                {
+                    "@id": "cefact:Transport_Event.Associated.Specified_GeographicalFeature",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01013587",
+                    "unece:cefactBieDomainClass": "cefact:Transport_Event.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A geographical feature associated with this transport event.",
+                    "unece:domainName": "TransportEvent"
                 }
             ]
         }

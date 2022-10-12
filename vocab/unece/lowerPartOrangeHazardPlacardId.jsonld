@@ -35,7 +35,8 @@
                     "unece:cefactUNId": "UN01004772",
                     "unece:cefactBieDomainClass": "cefact:Transport_DangerousGoods.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The unique lower part of the orange hazard placard identifier for these transported dangerous goods."
+                    "rdfs:comment": "The unique lower part of the orange hazard placard identifier for these transported dangerous goods.",
+                    "unece:domainName": "DangerousGoods"
                 }
             ]
         }

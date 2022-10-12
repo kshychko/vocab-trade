@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01004556",
                     "unece:cefactBieDomainClass": "cefact:Trade_AllowanceCharge.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The code specifying the reason for this trade allowance charge."
+                    "rdfs:comment": "The code specifying the reason for this trade allowance charge.",
+                    "unece:domainName": "AllowanceCharge"
                 }
             ]
         }

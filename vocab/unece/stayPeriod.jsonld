@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01013166",
                     "unece:cefactBieDomainClass": "cefact:Logistics_Location.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A period of stay at this logistics location."
+                    "rdfs:comment": "A period of stay at this logistics location.",
+                    "unece:domainName": "LogisticsLocation"
                 }
             ]
         }

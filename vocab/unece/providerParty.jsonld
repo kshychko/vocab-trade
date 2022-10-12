@@ -37,20 +37,22 @@
             "rdfs:label": "providerParty",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Monitoring_IOTDevice.Provider.Trade_Party",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01013489",
-                    "unece:cefactBieDomainClass": "cefact:Monitoring_IOTDevice.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The provider party for this monitoring IOT device."
-                },
-                {
                     "@id": "cefact:Document_Authentication.Provider.Trade_Party",
                     "@type": "unece:AssociationBIE",
                     "unece:cefactUNId": "UN01003526",
                     "unece:cefactBieDomainClass": "cefact:Document_Authentication.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The trade party providing this document authentication."
+                    "rdfs:comment": "The trade party providing this document authentication.",
+                    "unece:domainName": "Authentication"
+                },
+                {
+                    "@id": "cefact:Monitoring_IOTDevice.Provider.Trade_Party",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01013489",
+                    "unece:cefactBieDomainClass": "cefact:Monitoring_IOTDevice.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The provider party for this monitoring IOT device.",
+                    "unece:domainName": "IOTDevice"
                 },
                 {
                     "@id": "cefact:Document_Authentication.Provider.Referenced_Party",
@@ -58,7 +60,8 @@
                     "unece:cefactUNId": "UN01002642",
                     "unece:cefactBieDomainClass": "cefact:Document_Authentication.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The referenced party providing this document authentication."
+                    "rdfs:comment": "The referenced party providing this document authentication.",
+                    "unece:domainName": "Authentication"
                 }
             ]
         }

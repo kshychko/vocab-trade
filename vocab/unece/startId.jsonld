@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01013526",
                     "unece:cefactBieDomainClass": "cefact:Specified_Range.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The identifier of the start of this specified range."
+                    "rdfs:comment": "The identifier of the start of this specified range.",
+                    "unece:domainName": "Range"
                 }
             ]
         }

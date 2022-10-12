@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01011828",
                     "unece:cefactBieDomainClass": "cefact:Logistics_Package.Details",
                     "unece:cefactBusinessProcess": "Trade",
-                    "rdfs:comment": "A despatch note associated with this logistics package."
+                    "rdfs:comment": "A despatch note associated with this logistics package.",
+                    "unece:domainName": "Package"
                 }
             ]
         }

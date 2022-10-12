@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01013495",
                     "unece:cefactBieDomainClass": "cefact:Monitoring_IOTDevice.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A remote sensor of this monitoring IOT device."
+                    "rdfs:comment": "A remote sensor of this monitoring IOT device.",
+                    "unece:domainName": "IOTDevice"
                 }
             ]
         }

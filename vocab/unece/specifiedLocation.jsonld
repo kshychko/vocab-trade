@@ -45,36 +45,13 @@
             "rdfs:label": "specifiedLocation",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:SupplyChain_SupplyPlan.Specified.Logistics_Location",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01004331",
-                    "unece:cefactBieDomainClass": "cefact:SupplyChain_SupplyPlan.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A location specified for this supply chain supply plan."
-                },
-                {
-                    "@id": "cefact:Logistics_Status.Specified.Logistics_Location",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01003755",
-                    "unece:cefactBieDomainClass": "cefact:Logistics_Status.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A location specified for this logistics status."
-                },
-                {
                     "@id": "cefact:SupplyChain_Inventory.Specified.Logistics_Location",
                     "@type": "unece:AssociationBIE",
                     "unece:cefactUNId": "UN01004310",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_Inventory.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The location specified for this supply chain inventory."
-                },
-                {
-                    "@id": "cefact:Trade_Party.Specified.Logistics_Location",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01004610",
-                    "unece:cefactBieDomainClass": "cefact:Trade_Party.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A logistics related location or place specified for this trade party."
+                    "rdfs:comment": "The location specified for this supply chain inventory.",
+                    "unece:domainName": "Inventory"
                 },
                 {
                     "@id": "cefact:StoresItem_Inventory.Specified.Logistics_Location",
@@ -82,7 +59,35 @@
                     "unece:cefactUNId": "UN01013194",
                     "unece:cefactBieDomainClass": "cefact:StoresItem_Inventory.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A location specified for this stores inventory item."
+                    "rdfs:comment": "A location specified for this stores inventory item.",
+                    "unece:domainName": "Inventory"
+                },
+                {
+                    "@id": "cefact:SupplyChain_SupplyPlan.Specified.Logistics_Location",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01004331",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_SupplyPlan.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A location specified for this supply chain supply plan.",
+                    "unece:domainName": "SupplyPlan"
+                },
+                {
+                    "@id": "cefact:Trade_Party.Specified.Logistics_Location",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01004610",
+                    "unece:cefactBieDomainClass": "cefact:Trade_Party.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A logistics related location or place specified for this trade party.",
+                    "unece:domainName": "TradeParty"
+                },
+                {
+                    "@id": "cefact:Logistics_Status.Specified.Logistics_Location",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01003755",
+                    "unece:cefactBieDomainClass": "cefact:Logistics_Status.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A location specified for this logistics status.",
+                    "unece:domainName": "LogisticsStatus"
                 }
             ]
         }

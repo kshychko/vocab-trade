@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01009003",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
                     "unece:cefactBusinessProcess": "Cross-Border",
-                    "rdfs:comment": "Border clearance instructions provided by the consignor for this supply chain consignment."
+                    "rdfs:comment": "Border clearance instructions provided by the consignor for this supply chain consignment.",
+                    "unece:domainName": "Consignment"
                 }
             ]
         }

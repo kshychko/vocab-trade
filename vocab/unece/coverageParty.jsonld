@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01004756",
                     "unece:cefactBieDomainClass": "cefact:Transport_CargoInsurance.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The coverage party for this transport cargo insurance."
+                    "rdfs:comment": "The coverage party for this transport cargo insurance.",
+                    "unece:domainName": "CargoInsurance"
                 }
             ]
         }

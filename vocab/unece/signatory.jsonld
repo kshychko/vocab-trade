@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01006191",
                     "unece:cefactBieDomainClass": "cefact:Document_Authentication.Details",
                     "unece:cefactBusinessProcess": "Cross-Border",
-                    "rdfs:comment": "The signatory, expressed as text, for this document authentication."
+                    "rdfs:comment": "The signatory, expressed as text, for this document authentication.",
+                    "unece:domainName": "Authentication"
                 }
             ]
         }

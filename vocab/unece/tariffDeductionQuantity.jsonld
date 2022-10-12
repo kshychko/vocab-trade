@@ -37,22 +37,24 @@
             "rdfs:label": "tariffDeductionQuantity",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Cross-Border_RegulatoryProcedure.TariffDeduction.Quantity",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "6032",
-                    "unece:cefactUNId": "UN01006157",
-                    "unece:cefactBieDomainClass": "cefact:CrossBorder_RegulatoryProcedure.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A quantity to be deducted from the tariff quantity for this cross-border regulatory procedure."
-                },
-                {
                     "@id": "cefact:Trade_Tax.TariffDeduction.Quantity",
                     "@type": "unece:BasicBIE",
                     "unece:tded": "6032",
                     "unece:cefactUNId": "UN01004740",
                     "unece:cefactBieDomainClass": "cefact:Trade_Tax.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A quantity to be deducted from the tariff quantity for the calculation of this trade related tax, duty or levy."
+                    "rdfs:comment": "A quantity to be deducted from the tariff quantity for the calculation of this trade related tax, duty or levy.",
+                    "unece:domainName": "TradeTax"
+                },
+                {
+                    "@id": "cefact:Cross-Border_RegulatoryProcedure.TariffDeduction.Quantity",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "6032",
+                    "unece:cefactUNId": "UN01006157",
+                    "unece:cefactBieDomainClass": "cefact:CrossBorder_RegulatoryProcedure.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A quantity to be deducted from the tariff quantity for this cross-border regulatory procedure.",
+                    "unece:domainName": "RegulatoryProcedure"
                 }
             ]
         }

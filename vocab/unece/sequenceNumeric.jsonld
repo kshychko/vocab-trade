@@ -76,115 +76,24 @@
             "rdfs:label": "sequenceNumeric",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Referenced_Logistics_Package.Sequence.Numeric",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "7070",
-                    "unece:cefactUNId": "UN01006794",
-                    "unece:cefactBieDomainClass": "cefact:ReferencedLogistics_Package.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The sequence number of this referenced logistics package."
-                },
-                {
-                    "@id": "cefact:Specified_Period.Sequence.Numeric",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01004084",
-                    "unece:cefactBieDomainClass": "cefact:Specified_Period.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A sequence number for this specified period."
-                },
-                {
                     "@id": "cefact:Referenced_SupplyChain_ConsignmentItem.Sequence.Numeric",
                     "@type": "unece:BasicBIE",
                     "unece:tded": "1496",
                     "unece:cefactUNId": "UN01004036",
                     "unece:cefactBieDomainClass": "cefact:ReferencedSupplyChain_ConsignmentItem.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The sequence number for this referenced supply chain consignment item."
+                    "rdfs:comment": "The sequence number for this referenced supply chain consignment item.",
+                    "unece:domainName": "ConsignmentItem"
                 },
                 {
-                    "@id": "cefact:Logistics_TransportEquipment.Sequence.Numeric",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "1492",
-                    "unece:cefactUNId": "UN01003779",
-                    "unece:cefactBieDomainClass": "cefact:Logistics_TransportEquipment.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The sequence number differentiating this piece of logistics transport equipment from others in a set of transport equipment."
-                },
-                {
-                    "@id": "cefact:SupplyChain_Consignment.Sequence.Numeric",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "1490",
-                    "unece:cefactUNId": "UN01004167",
-                    "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A sequence number for this supply chain consignment."
-                },
-                {
-                    "@id": "cefact:Logistics_Package.Sequence.Numeric",
+                    "@id": "cefact:Referenced_Logistics_Package.Sequence.Numeric",
                     "@type": "unece:BasicBIE",
                     "unece:tded": "7070",
-                    "unece:cefactUNId": "UN01003699",
-                    "unece:cefactBieDomainClass": "cefact:Logistics_Package.Details",
+                    "unece:cefactUNId": "UN01006794",
+                    "unece:cefactBieDomainClass": "cefact:ReferencedLogistics_Package.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The sequence number of this logistics package."
-                },
-                {
-                    "@id": "cefact:Logistics_Status.Sequence.Numeric",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01003753",
-                    "unece:cefactBieDomainClass": "cefact:Logistics_Status.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The sequence number of this logistics status, such as within a status report."
-                },
-                {
-                    "@id": "cefact:Specified_PersonalEffects.Sequence.Numeric",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01013185",
-                    "unece:cefactBieDomainClass": "cefact:Specified_PersonalEffects.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A sequence number for these specified personal effects."
-                },
-                {
-                    "@id": "cefact:Referenced_SupplyChain_Consignment.Sequence.Numeric",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "1490",
-                    "unece:cefactUNId": "UN01004046",
-                    "unece:cefactBieDomainClass": "cefact:ReferencedSupplyChain_Consignment.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The sequence number for this referenced supply chain consignment."
-                },
-                {
-                    "@id": "cefact:StoresItem_Inventory.Sequence.Numeric",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01013190",
-                    "unece:cefactBieDomainClass": "cefact:StoresItem_Inventory.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A sequence number for this stores inventory item."
-                },
-                {
-                    "@id": "cefact:Logistics_TransportMeans.Sequence.Numeric",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01010101",
-                    "unece:cefactBieDomainClass": "cefact:Logistics_TransportMeans.Details",
-                    "unece:cefactBusinessProcess": "Transport",
-                    "rdfs:comment": "The sequence number differentiating this logistics transport means from others."
-                },
-                {
-                    "@id": "cefact:Trade_AllowanceCharge.Sequence.Numeric",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01001634",
-                    "unece:cefactBieDomainClass": "cefact:Trade_AllowanceCharge.Details",
-                    "unece:cefactBusinessProcess": "Trade",
-                    "rdfs:comment": "The sequence number for applying this trade allowance charge."
-                },
-                {
-                    "@id": "cefact:SupplyChain_TradeLineItem.Sequence.Numeric",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "1082",
-                    "unece:cefactUNId": "UN01009005",
-                    "unece:cefactBieDomainClass": "cefact:SupplyChain_TradeLineItem.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A sequence number for this supply chain trade line item."
+                    "rdfs:comment": "The sequence number of this referenced logistics package.",
+                    "unece:domainName": "Package"
                 },
                 {
                     "@id": "cefact:SupplyChain_ConsignmentItem.Sequence.Numeric",
@@ -193,7 +102,112 @@
                     "unece:cefactUNId": "UN01004105",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_ConsignmentItem.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The sequence number for this supply chain consignment item."
+                    "rdfs:comment": "The sequence number for this supply chain consignment item.",
+                    "unece:domainName": "ConsignmentItem"
+                },
+                {
+                    "@id": "cefact:Trade_AllowanceCharge.Sequence.Numeric",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01001634",
+                    "unece:cefactBieDomainClass": "cefact:Trade_AllowanceCharge.Details",
+                    "unece:cefactBusinessProcess": "Trade",
+                    "rdfs:comment": "The sequence number for applying this trade allowance charge.",
+                    "unece:domainName": "AllowanceCharge"
+                },
+                {
+                    "@id": "cefact:Referenced_SupplyChain_Consignment.Sequence.Numeric",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "1490",
+                    "unece:cefactUNId": "UN01004046",
+                    "unece:cefactBieDomainClass": "cefact:ReferencedSupplyChain_Consignment.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The sequence number for this referenced supply chain consignment.",
+                    "unece:domainName": "Consignment"
+                },
+                {
+                    "@id": "cefact:StoresItem_Inventory.Sequence.Numeric",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01013190",
+                    "unece:cefactBieDomainClass": "cefact:StoresItem_Inventory.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A sequence number for this stores inventory item.",
+                    "unece:domainName": "Inventory"
+                },
+                {
+                    "@id": "cefact:Logistics_Package.Sequence.Numeric",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "7070",
+                    "unece:cefactUNId": "UN01003699",
+                    "unece:cefactBieDomainClass": "cefact:Logistics_Package.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The sequence number of this logistics package.",
+                    "unece:domainName": "Package"
+                },
+                {
+                    "@id": "cefact:SupplyChain_Consignment.Sequence.Numeric",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "1490",
+                    "unece:cefactUNId": "UN01004167",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A sequence number for this supply chain consignment.",
+                    "unece:domainName": "Consignment"
+                },
+                {
+                    "@id": "cefact:Logistics_TransportMeans.Sequence.Numeric",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01010101",
+                    "unece:cefactBieDomainClass": "cefact:Logistics_TransportMeans.Details",
+                    "unece:cefactBusinessProcess": "Transport",
+                    "rdfs:comment": "The sequence number differentiating this logistics transport means from others.",
+                    "unece:domainName": "TransportMeans"
+                },
+                {
+                    "@id": "cefact:Logistics_Status.Sequence.Numeric",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01003753",
+                    "unece:cefactBieDomainClass": "cefact:Logistics_Status.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The sequence number of this logistics status, such as within a status report.",
+                    "unece:domainName": "LogisticsStatus"
+                },
+                {
+                    "@id": "cefact:Specified_PersonalEffects.Sequence.Numeric",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01013185",
+                    "unece:cefactBieDomainClass": "cefact:Specified_PersonalEffects.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "A sequence number for these specified personal effects.",
+                    "unece:domainName": "PersonalEffects"
+                },
+                {
+                    "@id": "cefact:Logistics_TransportEquipment.Sequence.Numeric",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "1492",
+                    "unece:cefactUNId": "UN01003779",
+                    "unece:cefactBieDomainClass": "cefact:Logistics_TransportEquipment.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The sequence number differentiating this piece of logistics transport equipment from others in a set of transport equipment.",
+                    "unece:domainName": "LogisticsTransportEquipment"
+                },
+                {
+                    "@id": "cefact:SupplyChain_TradeLineItem.Sequence.Numeric",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "1082",
+                    "unece:cefactUNId": "UN01009005",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_TradeLineItem.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A sequence number for this supply chain trade line item.",
+                    "unece:domainName": "TradeLineItem"
+                },
+                {
+                    "@id": "cefact:Specified_Period.Sequence.Numeric",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01004084",
+                    "unece:cefactBieDomainClass": "cefact:Specified_Period.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "A sequence number for this specified period.",
+                    "unece:domainName": "Period"
                 }
             ]
         }

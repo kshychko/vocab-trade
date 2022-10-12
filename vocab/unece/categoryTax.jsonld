@@ -36,7 +36,8 @@
                     "unece:cefactUNId": "UN01004558",
                     "unece:cefactBieDomainClass": "cefact:Trade_AllowanceCharge.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A tax category of this trade allowance charge."
+                    "rdfs:comment": "A tax category of this trade allowance charge.",
+                    "unece:domainName": "AllowanceCharge"
                 },
                 {
                     "@id": "cefact:Applied_AllowanceCharge.Category.Applied_Tax",
@@ -44,7 +45,8 @@
                     "unece:cefactUNId": "UN01000195",
                     "unece:cefactBieDomainClass": "cefact:Applied_AllowanceCharge.Details",
                     "unece:cefactBusinessProcess": "Pricing",
-                    "rdfs:comment": "The applied tax category of this applied allowance charge."
+                    "rdfs:comment": "The applied tax category of this applied allowance charge.",
+                    "unece:domainName": "AllowanceCharge"
                 }
             ]
         }

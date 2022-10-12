@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01002048",
                     "unece:cefactBieDomainClass": "cefact:Telecommunication_Communication.Details",
                     "unece:cefactBusinessProcess": "Project Management",
-                    "rdfs:comment": "The code specifying the area number for this telecommunication."
+                    "rdfs:comment": "The code specifying the area number for this telecommunication.",
+                    "unece:domainName": "TelecommunicationCommunication"
                 }
             ]
         }

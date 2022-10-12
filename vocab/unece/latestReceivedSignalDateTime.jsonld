@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01013483",
                     "unece:cefactBieDomainClass": "cefact:Monitoring_IOTDevice.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The date, time, date time or other date time value of the latest received signal for this monitoring IOT device, from the perspective of the receiver."
+                    "rdfs:comment": "The date, time, date time or other date time value of the latest received signal for this monitoring IOT device, from the perspective of the receiver.",
+                    "unece:domainName": "IOTDevice"
                 }
             ]
         }

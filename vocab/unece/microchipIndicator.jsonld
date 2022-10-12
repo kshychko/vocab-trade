@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01004494",
                     "unece:cefactBieDomainClass": "cefact:TradeSettlement_FinancialCard.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The indication of whether or not this trade settlement financial card has a microchip."
+                    "rdfs:comment": "The indication of whether or not this trade settlement financial card has a microchip.",
+                    "unece:domainName": "FinancialCard"
                 }
             ]
         }

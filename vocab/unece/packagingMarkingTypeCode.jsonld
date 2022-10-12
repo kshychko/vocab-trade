@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01003920",
                     "unece:cefactBieDomainClass": "cefact:Packaging_Marking.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A code specifying a type of packaging marking."
+                    "rdfs:comment": "A code specifying a type of packaging marking.",
+                    "unece:domainName": "Marking"
                 }
             ]
         }

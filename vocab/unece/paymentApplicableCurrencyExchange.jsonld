@@ -36,20 +36,22 @@
             "rdfs:label": "paymentApplicableCurrencyExchange",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Payment_TradeSettlement.Payment_Applicable.Trade_CurrencyExchange",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01011839",
-                    "unece:cefactBieDomainClass": "cefact:Payment_TradeSettlement.Details",
-                    "unece:cefactBusinessProcess": "Trade",
-                    "rdfs:comment": "The currency exchange applicable to this payment trade settlement."
-                },
-                {
                     "@id": "cefact:Header_TradeSettlement.Payment_Applicable.Trade_CurrencyExchange",
                     "@type": "unece:AssociationBIE",
                     "unece:cefactUNId": "UN01011670",
                     "unece:cefactBieDomainClass": "cefact:Header_TradeSettlement.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The currency exchange applicable to the payment in this header trade settlement."
+                    "rdfs:comment": "The currency exchange applicable to the payment in this header trade settlement.",
+                    "unece:domainName": "HeaderTradeSettlement"
+                },
+                {
+                    "@id": "cefact:Payment_TradeSettlement.Payment_Applicable.Trade_CurrencyExchange",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01011839",
+                    "unece:cefactBieDomainClass": "cefact:Payment_TradeSettlement.Details",
+                    "unece:cefactBusinessProcess": "Trade",
+                    "rdfs:comment": "The currency exchange applicable to this payment trade settlement.",
+                    "unece:domainName": "PaymentTradeSettlement"
                 }
             ]
         }

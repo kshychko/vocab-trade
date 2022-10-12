@@ -43,7 +43,8 @@
                     "unece:cefactUNId": "UN01000030",
                     "unece:cefactBieDomainClass": "cefact:Basic_WorkItem.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A code specifying an alternative classification for this basic work item. Industry context value changed from \"Construction\" to \"In All Contexts\"."
+                    "rdfs:comment": "A code specifying an alternative classification for this basic work item. Industry context value changed from \"Construction\" to \"In All Contexts\".",
+                    "unece:domainName": "WorkItem"
                 },
                 {
                     "@id": "cefact:Grouped_WorkItem.Alternative_Classification.Code",
@@ -51,7 +52,8 @@
                     "unece:cefactUNId": "UN01000046",
                     "unece:cefactBieDomainClass": "cefact:Grouped_WorkItem.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A code specifying an alternative classification for this work item group. Industry context value changed from \"Construction\" to \"In All Contexts\"."
+                    "rdfs:comment": "A code specifying an alternative classification for this work item group. Industry context value changed from \"Construction\" to \"In All Contexts\".",
+                    "unece:domainName": "WorkItem"
                 },
                 {
                     "@id": "cefact:WorkItem_QuantityAnalysis.Alternative_Classification.Code",
@@ -59,7 +61,8 @@
                     "unece:cefactUNId": "UN01000023",
                     "unece:cefactBieDomainClass": "cefact:WorkItem_QuantityAnalysis.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A code specifying an alternative classification value for this work item quantity analysis."
+                    "rdfs:comment": "A code specifying an alternative classification value for this work item quantity analysis.",
+                    "unece:domainName": "QuantityAnalysis"
                 }
             ]
         }

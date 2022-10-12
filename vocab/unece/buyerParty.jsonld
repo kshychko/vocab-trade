@@ -41,7 +41,8 @@
                     "unece:cefactUNId": "UN01012561",
                     "unece:cefactBieDomainClass": "cefact:Line_TradeAgreement.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The buyer party for this line trade agreement."
+                    "rdfs:comment": "The buyer party for this line trade agreement.",
+                    "unece:domainName": "LineTradeAgreement"
                 },
                 {
                     "@id": "cefact:Header_TradeAgreement.Buyer.Trade_Party",
@@ -49,7 +50,8 @@
                     "unece:cefactUNId": "UN01011552",
                     "unece:cefactBieDomainClass": "cefact:Header_TradeAgreement.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The buyer party for this header trade agreement."
+                    "rdfs:comment": "The buyer party for this header trade agreement.",
+                    "unece:domainName": "HeaderTradeAgreement"
                 }
             ]
         }

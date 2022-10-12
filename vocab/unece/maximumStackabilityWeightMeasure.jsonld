@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01006750",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_Packaging.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The measure of the maximum stackability weight of this supply chain packaging."
+                    "rdfs:comment": "The measure of the maximum stackability weight of this supply chain packaging.",
+                    "unece:domainName": "Packaging"
                 }
             ]
         }

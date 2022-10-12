@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01013163",
                     "unece:cefactBieDomainClass": "cefact:TransportWaste_Material.Details",
                     "unece:cefactBusinessProcess": "Transport",
-                    "rdfs:comment": "A next delivery event for this transport waste material."
+                    "rdfs:comment": "A next delivery event for this transport waste material.",
+                    "unece:domainName": "Material"
                 }
             ]
         }

@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01004264",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A border crossing logistics transport movement for this supply chain consignment."
+                    "rdfs:comment": "A border crossing logistics transport movement for this supply chain consignment.",
+                    "unece:domainName": "Consignment"
                 }
             ]
         }

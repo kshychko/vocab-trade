@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01002113",
                     "unece:cefactBieDomainClass": "cefact:Acknowledgement_Document.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A code specifying an acknowledgment status for this acknowledgement document."
+                    "rdfs:comment": "A code specifying an acknowledgment status for this acknowledgement document.",
+                    "unece:domainName": "AcknowledgementDocument"
                 }
             ]
         }

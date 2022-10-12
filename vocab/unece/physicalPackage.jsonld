@@ -31,20 +31,22 @@
             "rdfs:label": "physicalPackage",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:SupplyChain_TradeLineItem.Physical.Logistics_Package",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01005348",
-                    "unece:cefactBieDomainClass": "cefact:SupplyChain_TradeLineItem.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A physical logistics package for this supply chain trade line item."
-                },
-                {
                     "@id": "cefact:SupplyChain_TradeLineItem.Physical.Referenced_Logistics_Package",
                     "@type": "unece:AssociationBIE",
                     "unece:cefactUNId": "UN01011865",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_TradeLineItem.Details",
                     "unece:cefactBusinessProcess": "Trade",
-                    "rdfs:comment": "A physical logistics package referenced for this supply chain trade line item."
+                    "rdfs:comment": "A physical logistics package referenced for this supply chain trade line item.",
+                    "unece:domainName": "TradeLineItem"
+                },
+                {
+                    "@id": "cefact:SupplyChain_TradeLineItem.Physical.Logistics_Package",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01005348",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_TradeLineItem.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "A physical logistics package for this supply chain trade line item.",
+                    "unece:domainName": "TradeLineItem"
                 }
             ]
         }

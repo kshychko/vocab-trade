@@ -42,15 +42,8 @@
                     "unece:cefactUNId": "UN01011537",
                     "unece:cefactBieDomainClass": "cefact:Basic_WorkItem.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A specified binary file referenced by this basic work item."
-                },
-                {
-                    "@id": "cefact:Valuation_BreakdownStatement.Referenced.Specified_BinaryFile",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01011936",
-                    "unece:cefactBieDomainClass": "cefact:Valuation_BreakdownStatement.Details",
-                    "unece:cefactBusinessProcess": "Invoicing",
-                    "rdfs:comment": "A specified binary file referenced by this valuation breakdown statement."
+                    "rdfs:comment": "A specified binary file referenced by this basic work item.",
+                    "unece:domainName": "WorkItem"
                 },
                 {
                     "@id": "cefact:Grouped_WorkItem.Referenced.Specified_BinaryFile",
@@ -58,7 +51,17 @@
                     "unece:cefactUNId": "UN01011538",
                     "unece:cefactBieDomainClass": "cefact:Grouped_WorkItem.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A specified binary file referenced by this grouped work item."
+                    "rdfs:comment": "A specified binary file referenced by this grouped work item.",
+                    "unece:domainName": "WorkItem"
+                },
+                {
+                    "@id": "cefact:Valuation_BreakdownStatement.Referenced.Specified_BinaryFile",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01011936",
+                    "unece:cefactBieDomainClass": "cefact:Valuation_BreakdownStatement.Details",
+                    "unece:cefactBusinessProcess": "Invoicing",
+                    "rdfs:comment": "A specified binary file referenced by this valuation breakdown statement.",
+                    "unece:domainName": "BreakdownStatement"
                 }
             ]
         }

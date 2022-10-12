@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01011707",
                     "unece:cefactBieDomainClass": "cefact:Line_TradeAgreement.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The indication of whether or not the use of the information provided in this line trade agreement is restricted."
+                    "rdfs:comment": "The indication of whether or not the use of the information provided in this line trade agreement is restricted.",
+                    "unece:domainName": "LineTradeAgreement"
                 }
             ]
         }

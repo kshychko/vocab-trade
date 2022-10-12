@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01001254",
                     "unece:cefactBieDomainClass": "cefact:Universal_Communication.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The code specifying the channel or manner in which a universal communication can be made, such as telephone or email."
+                    "rdfs:comment": "The code specifying the channel or manner in which a universal communication can be made, such as telephone or email.",
+                    "unece:domainName": "UniversalCommunication"
                 }
             ]
         }

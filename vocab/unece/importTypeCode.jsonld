@@ -35,7 +35,8 @@
                     "unece:cefactUNId": "UN01004112",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_ConsignmentItem.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The code specifying the import type of supply chain consignment item."
+                    "rdfs:comment": "The code specifying the import type of supply chain consignment item.",
+                    "unece:domainName": "ConsignmentItem"
                 }
             ]
         }

@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01003732",
                     "unece:cefactBieDomainClass": "cefact:Logistics_ServiceCharge.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The code specifying the role of the party responsible for paying this logistics service charge."
+                    "rdfs:comment": "The code specifying the role of the party responsible for paying this logistics service charge.",
+                    "unece:domainName": "ServiceCharge"
                 }
             ]
         }

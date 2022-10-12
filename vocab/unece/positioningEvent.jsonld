@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01003806",
                     "unece:cefactBieDomainClass": "cefact:Logistics_TransportEquipment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A positioning event specifying when and where this piece of logistics transport equipment will be, or has been, positioned, i.e. delivered and available for pick-up."
+                    "rdfs:comment": "A positioning event specifying when and where this piece of logistics transport equipment will be, or has been, positioned, i.e. delivered and available for pick-up.",
+                    "unece:domainName": "LogisticsTransportEquipment"
                 }
             ]
         }

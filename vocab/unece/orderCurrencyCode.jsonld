@@ -35,7 +35,8 @@
                     "unece:cefactUNId": "UN01011651",
                     "unece:cefactBieDomainClass": "cefact:Header_TradeSettlement.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The code specifying the currency of the order for this header trade settlement."
+                    "rdfs:comment": "The code specifying the currency of the order for this header trade settlement.",
+                    "unece:domainName": "HeaderTradeSettlement"
                 }
             ]
         }

@@ -37,22 +37,24 @@
             "rdfs:label": "spanishDomesticInterbankingId",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Debtor_FinancialInstitution.SpanishDomesticInterbanking_Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "3433",
-                    "unece:cefactUNId": "UN01002857",
-                    "unece:cefactBieDomainClass": "cefact:Debtor_FinancialInstitution.Details",
-                    "unece:cefactBusinessProcess": "Customer to bank payment initiation",
-                    "rdfs:comment": "The unique Spanish Domestic Interbanking Code identifier as assigned by the Centro de Cooperacion Interbancaria (CCI) for this debtor financial institution."
-                },
-                {
                     "@id": "cefact:Creditor_FinancialInstitution.SpanishDomesticInterbanking_Identification.Identifier",
                     "@type": "unece:BasicBIE",
                     "unece:tded": "3433",
                     "unece:cefactUNId": "UN01002992",
                     "unece:cefactBieDomainClass": "cefact:Creditor_FinancialInstitution.Details",
                     "unece:cefactBusinessProcess": "Customer to bank payment initiation",
-                    "rdfs:comment": "The unique Spanish Domestic Interbanking Code identifier as assigned by the Centro de Cooperacion Interbancaria (CCI) for this creditor financial institution."
+                    "rdfs:comment": "The unique Spanish Domestic Interbanking Code identifier as assigned by the Centro de Cooperacion Interbancaria (CCI) for this creditor financial institution.",
+                    "unece:domainName": "CreditorFinancialInstitution"
+                },
+                {
+                    "@id": "cefact:Debtor_FinancialInstitution.SpanishDomesticInterbanking_Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "3433",
+                    "unece:cefactUNId": "UN01002857",
+                    "unece:cefactBieDomainClass": "cefact:Debtor_FinancialInstitution.Details",
+                    "unece:cefactBusinessProcess": "Customer to bank payment initiation",
+                    "rdfs:comment": "The unique Spanish Domestic Interbanking Code identifier as assigned by the Centro de Cooperacion Interbancaria (CCI) for this debtor financial institution.",
+                    "unece:domainName": "DebtorFinancialInstitution"
                 }
             ]
         }

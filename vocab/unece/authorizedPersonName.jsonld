@@ -35,7 +35,8 @@
                     "unece:cefactUNId": "UN01013395",
                     "unece:cefactBieDomainClass": "cefact:Trade_Contact.Details",
                     "unece:cefactBusinessProcess": "Trade",
-                    "rdfs:comment": "The name, expressed as text, of the authorized person for this trade contact."
+                    "rdfs:comment": "The name, expressed as text, of the authorized person for this trade contact.",
+                    "unece:domainName": "Contact"
                 }
             ]
         }

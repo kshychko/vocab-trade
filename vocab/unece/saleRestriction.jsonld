@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01012694",
                     "unece:cefactBieDomainClass": "cefact:CrossBorder_CustomsValuation.Details",
                     "unece:cefactBusinessProcess": "Cross Industry Trade",
-                    "rdfs:comment": "A restriction, expressed as text, imposed on the sale of the goods for this cross-border customs valuation."
+                    "rdfs:comment": "A restriction, expressed as text, imposed on the sale of the goods for this cross-border customs valuation.",
+                    "unece:domainName": "CustomsValuation"
                 }
             ]
         }

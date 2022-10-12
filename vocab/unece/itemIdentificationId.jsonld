@@ -35,7 +35,8 @@
                     "unece:cefactUNId": "UN01002114",
                     "unece:cefactBieDomainClass": "cefact:Acknowledgement_Document.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The unique identifier of an item in this acknowledgement document."
+                    "rdfs:comment": "The unique identifier of an item in this acknowledgement document.",
+                    "unece:domainName": "AcknowledgementDocument"
                 }
             ]
         }

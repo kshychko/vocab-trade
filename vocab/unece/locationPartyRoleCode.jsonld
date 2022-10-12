@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01003666",
                     "unece:cefactBieDomainClass": "cefact:Location_Party.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A code specifying a role of this location party."
+                    "rdfs:comment": "A code specifying a role of this location party.",
+                    "unece:domainName": "LocationParty"
                 }
             ]
         }

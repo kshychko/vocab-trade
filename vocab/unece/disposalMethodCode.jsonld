@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01004317",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_Packaging.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A code specifying the disposal method of this supply chain packaging."
+                    "rdfs:comment": "A code specifying the disposal method of this supply chain packaging.",
+                    "unece:domainName": "Packaging"
                 }
             ]
         }

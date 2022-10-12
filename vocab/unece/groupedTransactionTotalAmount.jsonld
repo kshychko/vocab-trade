@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01013231",
                     "unece:cefactBieDomainClass": "cefact:FinancingRequest_Document.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A total monetary value of grouped transactions in this financing request document."
+                    "rdfs:comment": "A total monetary value of grouped transactions in this financing request document.",
+                    "unece:domainName": "FinancingRequestDocument"
                 }
             ]
         }

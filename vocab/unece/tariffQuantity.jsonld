@@ -42,7 +42,8 @@
                     "unece:cefactUNId": "UN01009962",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_ConsignmentItem.Details",
                     "unece:cefactBusinessProcess": "Invoicing",
-                    "rdfs:comment": "The tariff quantity in this supply chain consignment item."
+                    "rdfs:comment": "The tariff quantity in this supply chain consignment item.",
+                    "unece:domainName": "ConsignmentItem"
                 },
                 {
                     "@id": "cefact:Cross-Border_RegulatoryProcedure.Tariff.Quantity",
@@ -51,7 +52,8 @@
                     "unece:cefactUNId": "UN01006156",
                     "unece:cefactBieDomainClass": "cefact:CrossBorder_RegulatoryProcedure.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A tariff quantity for this cross-border regulatory procedure."
+                    "rdfs:comment": "A tariff quantity for this cross-border regulatory procedure.",
+                    "unece:domainName": "RegulatoryProcedure"
                 }
             ]
         }

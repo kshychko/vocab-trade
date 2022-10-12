@@ -41,7 +41,8 @@
                     "unece:cefactUNId": "UN01004665",
                     "unece:cefactBieDomainClass": "cefact:Trade_ProductInstance.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A location of origin for this supply chain product instance."
+                    "rdfs:comment": "A location of origin for this supply chain product instance.",
+                    "unece:domainName": "ProductInstance"
                 },
                 {
                     "@id": "cefact:Trade_Product.Origin.Logistics_Location",
@@ -49,7 +50,8 @@
                     "unece:cefactUNId": "UN01006145",
                     "unece:cefactBieDomainClass": "cefact:Trade_Product.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A location of origin for this trade product."
+                    "rdfs:comment": "A location of origin for this trade product.",
+                    "unece:domainName": "Product"
                 }
             ]
         }

@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01004142",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_ConsignmentItem.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The importation country for this supply chain consignment item."
+                    "rdfs:comment": "The importation country for this supply chain consignment item.",
+                    "unece:domainName": "ConsignmentItem"
                 }
             ]
         }

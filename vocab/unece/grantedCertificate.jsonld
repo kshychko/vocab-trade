@@ -36,20 +36,22 @@
             "rdfs:label": "grantedCertificate",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Monitoring_Sensor.Granted.Product_Certificate",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01013549",
-                    "unece:cefactBieDomainClass": "cefact:Monitoring_Sensor.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A product certificate granted for this monitoring sensor."
-                },
-                {
                     "@id": "cefact:Monitoring_IOTDevice.Granted.Product_Certificate",
                     "@type": "unece:AssociationBIE",
                     "unece:cefactUNId": "UN01013485",
                     "unece:cefactBieDomainClass": "cefact:Monitoring_IOTDevice.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A product certificate granted for this monitoring IOT device."
+                    "rdfs:comment": "A product certificate granted for this monitoring IOT device.",
+                    "unece:domainName": "IOTDevice"
+                },
+                {
+                    "@id": "cefact:Monitoring_Sensor.Granted.Product_Certificate",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01013549",
+                    "unece:cefactBieDomainClass": "cefact:Monitoring_Sensor.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A product certificate granted for this monitoring sensor.",
+                    "unece:domainName": "Sensor"
                 }
             ]
         }

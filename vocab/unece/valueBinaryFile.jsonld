@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01008307",
                     "unece:cefactBieDomainClass": "cefact:Product_Characteristic.Details",
                     "unece:cefactBusinessProcess": "Supply Chain",
-                    "rdfs:comment": "The value for this product characteristic expressed in a binary file."
+                    "rdfs:comment": "The value for this product characteristic expressed in a binary file.",
+                    "unece:domainName": "Characteristic"
                 }
             ]
         }

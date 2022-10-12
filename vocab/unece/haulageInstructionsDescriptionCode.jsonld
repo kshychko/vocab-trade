@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01003636",
                     "unece:cefactBieDomainClass": "cefact:Haulage_Instructions.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The code specifying the description of these haulage instructions."
+                    "rdfs:comment": "The code specifying the description of these haulage instructions.",
+                    "unece:domainName": "HaulageInstructions"
                 }
             ]
         }

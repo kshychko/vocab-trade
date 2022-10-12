@@ -37,7 +37,8 @@
                     "unece:cefactUNId": "UN01010147",
                     "unece:cefactBieDomainClass": "cefact:Transport_Event.Details",
                     "unece:cefactBusinessProcess": "Transport",
-                    "rdfs:comment": "The date, time, date time or other date time value of the scheduled arrival related to this transport event."
+                    "rdfs:comment": "The date, time, date time or other date time value of the scheduled arrival related to this transport event.",
+                    "unece:domainName": "TransportEvent"
                 },
                 {
                     "@id": "cefact:Referenced_Transport_Event.ScheduledArrival_Related.DateTime",
@@ -46,7 +47,8 @@
                     "unece:cefactUNId": "UN01010082",
                     "unece:cefactBieDomainClass": "cefact:ReferencedTransport_Event.Details",
                     "unece:cefactBusinessProcess": "Transport",
-                    "rdfs:comment": "The date, time, date time or other date time value of the scheduled arrival related to this referenced transport event."
+                    "rdfs:comment": "The date, time, date time or other date time value of the scheduled arrival related to this referenced transport event.",
+                    "unece:domainName": "TransportEvent"
                 }
             ]
         }

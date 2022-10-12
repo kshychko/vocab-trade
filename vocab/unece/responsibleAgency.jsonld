@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01008294",
                     "unece:cefactBieDomainClass": "cefact:TradeProduct_Certification.Details",
                     "unece:cefactBusinessProcess": "Trade",
-                    "rdfs:comment": "The agency, expressed as text, responsible for this trade product certification."
+                    "rdfs:comment": "The agency, expressed as text, responsible for this trade product certification.",
+                    "unece:domainName": "Certification"
                 }
             ]
         }

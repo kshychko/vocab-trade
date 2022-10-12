@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01009011",
                     "unece:cefactBieDomainClass": "cefact:Trade_Tax.Details",
                     "unece:cefactBusinessProcess": "Cross Industry Trade",
-                    "rdfs:comment": "The seller refundable tax specified accounting account for this trade related tax, levy or duty."
+                    "rdfs:comment": "The seller refundable tax specified accounting account for this trade related tax, levy or duty.",
+                    "unece:domainName": "TradeTax"
                 }
             ]
         }

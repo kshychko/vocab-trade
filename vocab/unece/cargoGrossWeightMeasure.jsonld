@@ -35,7 +35,8 @@
                     "unece:cefactUNId": "UN01003828",
                     "unece:cefactBieDomainClass": "cefact:Logistics_TransportMeans.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The measure of the total gross weight (mass) of all cargo loaded onto this logistics means of transport, including packaging but excluding any associated transport equipment."
+                    "rdfs:comment": "The measure of the total gross weight (mass) of all cargo loaded onto this logistics means of transport, including packaging but excluding any associated transport equipment.",
+                    "unece:domainName": "TransportMeans"
                 }
             ]
         }

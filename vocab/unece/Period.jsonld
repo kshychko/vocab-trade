@@ -14,17 +14,17 @@
             "rdfs:label": "Period",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Available_Period.Details",
-                    "@type": "unece:AggregateBIE",
-                    "unece:cefactUNId": "UN01005108",
-                    "rdfs:comment": "A specific period of time such as the length of time between two known date/time points, from a start date onwards, or up to an end date for which something is available.",
-                    "unece:cefactBusinessProcess": "In All Contexts"
-                },
-                {
                     "@id": "cefact:Specified_Period.Details",
                     "@type": "unece:AggregateBIE",
                     "unece:cefactUNId": "UN01001270",
                     "rdfs:comment": "A specified period of time.",
+                    "unece:cefactBusinessProcess": "In All Contexts"
+                },
+                {
+                    "@id": "cefact:Available_Period.Details",
+                    "@type": "unece:AggregateBIE",
+                    "unece:cefactUNId": "UN01005108",
+                    "rdfs:comment": "A specific period of time such as the length of time between two known date/time points, from a start date onwards, or up to an end date for which something is available.",
                     "unece:cefactBusinessProcess": "In All Contexts"
                 }
             ]

@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01004829",
                     "unece:cefactBieDomainClass": "cefact:Transport_Route.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "An itinerary stop event for this transport route, such as a port call in a vessel schedule."
+                    "rdfs:comment": "An itinerary stop event for this transport route, such as a port call in a vessel schedule.",
+                    "unece:domainName": "Route"
                 }
             ]
         }

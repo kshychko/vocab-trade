@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01001638",
                     "unece:cefactBieDomainClass": "cefact:Trade_AllowanceCharge.Details",
                     "unece:cefactBusinessProcess": "Trade",
-                    "rdfs:comment": "The indication of whether or not this trade allowance charge is prepaid."
+                    "rdfs:comment": "The indication of whether or not this trade allowance charge is prepaid.",
+                    "unece:domainName": "AllowanceCharge"
                 }
             ]
         }

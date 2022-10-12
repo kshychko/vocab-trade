@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01002044",
                     "unece:cefactBieDomainClass": "cefact:Telecommunication_Communication.Details",
                     "unece:cefactBusinessProcess": "Project Management",
-                    "rdfs:comment": "The communication number, expressed as text and not including country access code or the area number code, for this telecommunication."
+                    "rdfs:comment": "The communication number, expressed as text and not including country access code or the area number code, for this telecommunication.",
+                    "unece:domainName": "TelecommunicationCommunication"
                 }
             ]
         }

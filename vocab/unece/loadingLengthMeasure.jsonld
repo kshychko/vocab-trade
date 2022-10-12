@@ -41,22 +41,14 @@
             "rdfs:label": "loadingLengthMeasure",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:SupplyChain_ConsignmentItem.LoadingLength.Measure",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "6411",
-                    "unece:cefactUNId": "UN01008996",
-                    "unece:cefactBieDomainClass": "cefact:SupplyChain_ConsignmentItem.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The measure of the loading length of this supply chain consignment item."
-                },
-                {
                     "@id": "cefact:SupplyChain_Consignment.LoadingLength.Measure",
                     "@type": "unece:BasicBIE",
                     "unece:tded": "6044",
                     "unece:cefactUNId": "UN01004176",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A measure of the loading length which is the length along a means of transport over which the complete width and height is needed for loading all the goods items in this supply chain consignment."
+                    "rdfs:comment": "A measure of the loading length which is the length along a means of transport over which the complete width and height is needed for loading all the goods items in this supply chain consignment.",
+                    "unece:domainName": "Consignment"
                 },
                 {
                     "@id": "cefact:Logistics_TransportEquipment.LoadingLength.Measure",
@@ -65,7 +57,18 @@
                     "unece:cefactUNId": "UN01003762",
                     "unece:cefactBieDomainClass": "cefact:Logistics_TransportEquipment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The measure of the loading length of this piece of logistics transport equipment."
+                    "rdfs:comment": "The measure of the loading length of this piece of logistics transport equipment.",
+                    "unece:domainName": "LogisticsTransportEquipment"
+                },
+                {
+                    "@id": "cefact:SupplyChain_ConsignmentItem.LoadingLength.Measure",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "6411",
+                    "unece:cefactUNId": "UN01008996",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_ConsignmentItem.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The measure of the loading length of this supply chain consignment item.",
+                    "unece:domainName": "ConsignmentItem"
                 }
             ]
         }

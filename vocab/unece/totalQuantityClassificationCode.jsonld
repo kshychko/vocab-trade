@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01000034",
                     "unece:cefactBieDomainClass": "cefact:Basic_WorkItem.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The code specifying the classification of the total quantity for this basic work item. Industry context value changed from \"Construction\" to \"In All Contexts\"."
+                    "rdfs:comment": "The code specifying the classification of the total quantity for this basic work item. Industry context value changed from \"Construction\" to \"In All Contexts\".",
+                    "unece:domainName": "WorkItem"
                 }
             ]
         }

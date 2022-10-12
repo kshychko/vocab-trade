@@ -40,20 +40,13 @@
             "rdfs:label": "occurrenceLocation",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Communication_Event.Occurrence.Logistics_Location",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01013569",
-                    "unece:cefactBieDomainClass": "cefact:Communication_Event.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The logistics location where this communication event will occur or has occurred."
-                },
-                {
                     "@id": "cefact:SupplyChain_Event.Occurrence.Logistics_Location",
                     "@type": "unece:AssociationBIE",
                     "unece:cefactUNId": "UN01004299",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_Event.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A logistics location where this supply chain event occurs."
+                    "rdfs:comment": "A logistics location where this supply chain event occurs.",
+                    "unece:domainName": "SupplyChainEvent"
                 },
                 {
                     "@id": "cefact:Transport_Event.Occurrence.Logistics_Location",
@@ -61,7 +54,17 @@
                     "unece:cefactUNId": "UN01004803",
                     "unece:cefactBieDomainClass": "cefact:Transport_Event.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The logistics location where this transport event occurs."
+                    "rdfs:comment": "The logistics location where this transport event occurs.",
+                    "unece:domainName": "TransportEvent"
+                },
+                {
+                    "@id": "cefact:Communication_Event.Occurrence.Logistics_Location",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01013569",
+                    "unece:cefactBieDomainClass": "cefact:Communication_Event.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The logistics location where this communication event will occur or has occurred.",
+                    "unece:domainName": "CommunicationEvent"
                 }
             ]
         }

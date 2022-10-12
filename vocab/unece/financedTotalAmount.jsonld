@@ -37,20 +37,22 @@
             "rdfs:label": "financedTotalAmount",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:FinancingSummary_Document.Financed_Total.Amount",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01013248",
-                    "unece:cefactBieDomainClass": "cefact:FinancingSummary_Document.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A financed total monetary value in this financing summary document."
-                },
-                {
                     "@id": "cefact:FinancingRequestResult_Document.Financed_Total.Amount",
                     "@type": "unece:BasicBIE",
                     "unece:cefactUNId": "UN01013225",
                     "unece:cefactBieDomainClass": "cefact:FinancingRequestResult_Document.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A monetary value of the financed total amount in this financing request result document."
+                    "rdfs:comment": "A monetary value of the financed total amount in this financing request result document.",
+                    "unece:domainName": "FinancingRequestResultDocument"
+                },
+                {
+                    "@id": "cefact:FinancingSummary_Document.Financed_Total.Amount",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01013248",
+                    "unece:cefactBieDomainClass": "cefact:FinancingSummary_Document.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A financed total monetary value in this financing summary document.",
+                    "unece:domainName": "FinancingSummaryDocument"
                 }
             ]
         }

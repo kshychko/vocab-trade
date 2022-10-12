@@ -37,7 +37,8 @@
                     "unece:cefactUNId": "UN01007509",
                     "unece:cefactBieDomainClass": "cefact:Grouped_WorkItem.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The index, expressed as text, to be used for this grouped work item."
+                    "rdfs:comment": "The index, expressed as text, to be used for this grouped work item.",
+                    "unece:domainName": "WorkItem"
                 },
                 {
                     "@id": "cefact:Basic_WorkItem.Index.Text",
@@ -45,7 +46,8 @@
                     "unece:cefactUNId": "UN01007488",
                     "unece:cefactBieDomainClass": "cefact:Basic_WorkItem.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The index, expressed as text, to be used for this basic work item."
+                    "rdfs:comment": "The index, expressed as text, to be used for this basic work item.",
+                    "unece:domainName": "WorkItem"
                 }
             ]
         }

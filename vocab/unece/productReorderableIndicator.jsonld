@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01011698",
                     "unece:cefactBieDomainClass": "cefact:Line_TradeAgreement.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The indication of whether or not the product can be reordered according to this line trade agreement."
+                    "rdfs:comment": "The indication of whether or not the product can be reordered according to this line trade agreement.",
+                    "unece:domainName": "LineTradeAgreement"
                 }
             ]
         }

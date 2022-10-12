@@ -41,13 +41,13 @@
             "rdfs:label": "familyName",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Transport_Person.FamilyName.Text",
+                    "@id": "cefact:Distinct_Chemical.Family_Name.Text",
                     "@type": "unece:BasicBIE",
-                    "unece:tded": "3500",
-                    "unece:cefactUNId": "UN01013138",
-                    "unece:cefactBieDomainClass": "cefact:Transport_Person.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A family name, expressed as text, for this transport person."
+                    "unece:cefactUNId": "UN01002176",
+                    "unece:cefactBieDomainClass": "cefact:Distinct_Chemical.Details",
+                    "unece:cefactBusinessProcess": "MSDS Reporting",
+                    "rdfs:comment": "The family name expressed as text for this distinct chemical.",
+                    "unece:domainName": "Chemical"
                 },
                 {
                     "@id": "cefact:Contact_Person.FamilyName.Text",
@@ -56,15 +56,18 @@
                     "unece:cefactUNId": "UN01005150",
                     "unece:cefactBieDomainClass": "cefact:Contact_Person.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The name, expressed as text, that this contact person shares with members of his/her family."
+                    "rdfs:comment": "The name, expressed as text, that this contact person shares with members of his/her family.",
+                    "unece:domainName": "ContactPerson"
                 },
                 {
-                    "@id": "cefact:Distinct_Chemical.Family_Name.Text",
+                    "@id": "cefact:Transport_Person.FamilyName.Text",
                     "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01002176",
-                    "unece:cefactBieDomainClass": "cefact:Distinct_Chemical.Details",
-                    "unece:cefactBusinessProcess": "MSDS Reporting",
-                    "rdfs:comment": "The family name expressed as text for this distinct chemical."
+                    "unece:tded": "3500",
+                    "unece:cefactUNId": "UN01013138",
+                    "unece:cefactBieDomainClass": "cefact:Transport_Person.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "A family name, expressed as text, for this transport person.",
+                    "unece:domainName": "TransportPerson"
                 }
             ]
         }

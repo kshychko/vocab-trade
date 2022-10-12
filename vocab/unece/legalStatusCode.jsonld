@@ -35,7 +35,8 @@
                     "unece:cefactUNId": "UN01003774",
                     "unece:cefactBieDomainClass": "cefact:Logistics_TransportEquipment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The code specifying the legal status of this piece of logistics transport equipment with respect to a specific law such as the \"Container Convention Code\"."
+                    "rdfs:comment": "The code specifying the legal status of this piece of logistics transport equipment with respect to a specific law such as the \"Container Convention Code\".",
+                    "unece:domainName": "LogisticsTransportEquipment"
                 }
             ]
         }

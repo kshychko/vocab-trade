@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01005310",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_SupplyPlan.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A date, time, date time, or other date time value of a synchronization of the supply chain supply plan. The max occurences allow the reporting of time and date as separate instances."
+                    "rdfs:comment": "A date, time, date time, or other date time value of a synchronization of the supply chain supply plan. The max occurences allow the reporting of time and date as separate instances.",
+                    "unece:domainName": "SupplyPlan"
                 }
             ]
         }

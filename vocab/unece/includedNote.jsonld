@@ -40,12 +40,13 @@
             "rdfs:label": "includedNote",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:DocumentLine_Document.Included.Note",
+                    "@id": "cefact:Referenced_Document.Included.Note",
                     "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01003519",
-                    "unece:cefactBieDomainClass": "cefact:DocumentLine_Document.Details",
+                    "unece:cefactUNId": "UN01012756",
+                    "unece:cefactBieDomainClass": "cefact:Referenced_Document.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A note included in this document line."
+                    "rdfs:comment": "A note included in this referenced document.",
+                    "unece:domainName": "Document"
                 },
                 {
                     "@id": "cefact:Exchanged_Document.Included.Note",
@@ -53,15 +54,17 @@
                     "unece:cefactUNId": "UN01002497",
                     "unece:cefactBieDomainClass": "cefact:Exchanged_Document.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A note included in this exchanged document."
+                    "rdfs:comment": "A note included in this exchanged document.",
+                    "unece:domainName": "ExchangedDocument"
                 },
                 {
-                    "@id": "cefact:Referenced_Document.Included.Note",
+                    "@id": "cefact:DocumentLine_Document.Included.Note",
                     "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01012756",
-                    "unece:cefactBieDomainClass": "cefact:Referenced_Document.Details",
+                    "unece:cefactUNId": "UN01003519",
+                    "unece:cefactBieDomainClass": "cefact:DocumentLine_Document.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A note included in this referenced document."
+                    "rdfs:comment": "A note included in this document line.",
+                    "unece:domainName": "DocumentLineDocument"
                 }
             ]
         }

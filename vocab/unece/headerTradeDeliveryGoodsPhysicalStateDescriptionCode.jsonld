@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01013426",
                     "unece:cefactBieDomainClass": "cefact:Header_TradeDelivery.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The code specifying a description for the physical state of the goods, at header level, for this trade delivery."
+                    "rdfs:comment": "The code specifying a description for the physical state of the goods, at header level, for this trade delivery.",
+                    "unece:domainName": "HeaderTradeDelivery"
                 }
             ]
         }

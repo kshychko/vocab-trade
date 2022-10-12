@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01004517",
                     "unece:cefactBieDomainClass": "cefact:TradeSettlement_PaymentMeans.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A financial card applicable to this trade settlement payment means."
+                    "rdfs:comment": "A financial card applicable to this trade settlement payment means.",
+                    "unece:domainName": "PaymentMeans"
                 }
             ]
         }

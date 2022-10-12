@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01013144",
                     "unece:cefactBieDomainClass": "cefact:Transport_Person.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A disembarkation location for this transport person."
+                    "rdfs:comment": "A disembarkation location for this transport person.",
+                    "unece:domainName": "TransportPerson"
                 }
             ]
         }

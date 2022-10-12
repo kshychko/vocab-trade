@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01007196",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_Packaging.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The total number of units in a layer of this supply chain packaging."
+                    "rdfs:comment": "The total number of units in a layer of this supply chain packaging.",
+                    "unece:domainName": "Packaging"
                 }
             ]
         }

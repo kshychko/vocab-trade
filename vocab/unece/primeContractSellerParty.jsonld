@@ -41,7 +41,8 @@
                     "unece:cefactUNId": "UN01013415",
                     "unece:cefactBieDomainClass": "cefact:Line_TradeAgreement.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The seller party acting as the prime contractor for this line trade agreement."
+                    "rdfs:comment": "The seller party acting as the prime contractor for this line trade agreement.",
+                    "unece:domainName": "LineTradeAgreement"
                 },
                 {
                     "@id": "cefact:Header_TradeAgreement.PrimeContract_Seller.Trade_Party",
@@ -49,7 +50,8 @@
                     "unece:cefactUNId": "UN01013411",
                     "unece:cefactBieDomainClass": "cefact:Header_TradeAgreement.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The seller party acting as the prime contractor for this header trade agreement."
+                    "rdfs:comment": "The seller party acting as the prime contractor for this header trade agreement.",
+                    "unece:domainName": "HeaderTradeAgreement"
                 }
             ]
         }

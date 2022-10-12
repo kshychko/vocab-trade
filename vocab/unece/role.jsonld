@@ -41,12 +41,22 @@
             "rdfs:label": "role",
             "unece:cefactElementMetadata": [
                 {
+                    "@id": "cefact:Contact_Person.Role.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01013201",
+                    "unece:cefactBieDomainClass": "cefact:Contact_Person.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "A role, expressed as text, for this contact person.",
+                    "unece:domainName": "ContactPerson"
+                },
+                {
                     "@id": "cefact:Transport_Person.Role.Text",
                     "@type": "unece:BasicBIE",
                     "unece:cefactUNId": "UN01004820",
                     "unece:cefactBieDomainClass": "cefact:Transport_Person.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A role, expressed as text, of this transport person."
+                    "rdfs:comment": "A role, expressed as text, of this transport person.",
+                    "unece:domainName": "TransportPerson"
                 },
                 {
                     "@id": "cefact:Trade_Party.Role.Text",
@@ -54,15 +64,8 @@
                     "unece:cefactUNId": "UN01013115",
                     "unece:cefactBieDomainClass": "cefact:Trade_Party.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A role, expressed as text, for this trade party."
-                },
-                {
-                    "@id": "cefact:Contact_Person.Role.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01013201",
-                    "unece:cefactBieDomainClass": "cefact:Contact_Person.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A role, expressed as text, for this contact person."
+                    "rdfs:comment": "A role, expressed as text, for this trade party.",
+                    "unece:domainName": "TradeParty"
                 }
             ]
         }

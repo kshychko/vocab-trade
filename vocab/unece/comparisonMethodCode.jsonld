@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01008503",
                     "unece:cefactBieDomainClass": "cefact:Reference_Price.Details",
                     "unece:cefactBusinessProcess": "Cataloguing",
-                    "rdfs:comment": "The code specifying the comparison method for this reference price."
+                    "rdfs:comment": "The code specifying the comparison method for this reference price.",
+                    "unece:domainName": "ReferencePrice"
                 }
             ]
         }

@@ -35,7 +35,8 @@
                     "unece:cefactUNId": "UN01002612",
                     "unece:cefactBieDomainClass": "cefact:Product_Classification.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A class name, expressed as text, for this product classification."
+                    "rdfs:comment": "A class name, expressed as text, for this product classification.",
+                    "unece:domainName": "Classification"
                 }
             ]
         }

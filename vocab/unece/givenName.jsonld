@@ -43,7 +43,8 @@
                     "unece:cefactUNId": "UN01013137",
                     "unece:cefactBieDomainClass": "cefact:Transport_Person.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A given name, expressed as text, for this transport person."
+                    "rdfs:comment": "A given name, expressed as text, for this transport person.",
+                    "unece:domainName": "TransportPerson"
                 },
                 {
                     "@id": "cefact:Contact_Person.GivenName.Text",
@@ -52,7 +53,8 @@
                     "unece:cefactUNId": "UN01005147",
                     "unece:cefactBieDomainClass": "cefact:Contact_Person.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The name, expressed as text, given to this contact person, usually by parents at birth."
+                    "rdfs:comment": "The name, expressed as text, given to this contact person, usually by parents at birth.",
+                    "unece:domainName": "ContactPerson"
                 }
             ]
         }

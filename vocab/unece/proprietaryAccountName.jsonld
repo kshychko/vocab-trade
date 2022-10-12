@@ -43,7 +43,8 @@
                     "unece:cefactBieDomainClass": "cefact:Debtor_FinancialAccount.Details",
                     "unece:cefactBusinessProcess": "Customer to bank payment initiation",
                     "rdfs:comment": "The proprietary account name, expressed as text, of this debtor financial account. Deprecated.",
-                    "unece:status": "deprecated"
+                    "unece:status": "deprecated",
+                    "unece:domainName": "DebtorFinancialAccount"
                 },
                 {
                     "@id": "cefact:Creditor_FinancialAccount.Proprietary_AccountName.Text",
@@ -52,7 +53,8 @@
                     "unece:cefactBieDomainClass": "cefact:Creditor_FinancialAccount.Details",
                     "unece:cefactBusinessProcess": "Customer to bank payment initiation",
                     "rdfs:comment": "The proprietary account name, expressed as text, of this creditor financial account. Deprecated.",
-                    "unece:status": "deprecated"
+                    "unece:status": "deprecated",
+                    "unece:domainName": "CreditorFinancialAccount"
                 }
             ]
         }

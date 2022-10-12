@@ -43,7 +43,8 @@
                     "unece:cefactUNId": "UN01004892",
                     "unece:cefactBieDomainClass": "cefact:FinancialInstitution_Address.Details",
                     "unece:cefactBusinessProcess": "Customer to bank payment initiation",
-                    "rdfs:comment": "The post office box, expressed as text, for this financial institution address."
+                    "rdfs:comment": "The post office box, expressed as text, for this financial institution address.",
+                    "unece:domainName": "FinancialInstitutionAddress"
                 },
                 {
                     "@id": "cefact:Trade_Address.PostOfficeBox.Text",
@@ -52,7 +53,8 @@
                     "unece:cefactUNId": "UN01004536",
                     "unece:cefactBieDomainClass": "cefact:Trade_Address.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The unique identifier, expressed as text, of a container commonly referred to as a box, in a post office or other postal service location, assigned to a person or organization, where postal items may be kept for this trade address."
+                    "rdfs:comment": "The unique identifier, expressed as text, of a container commonly referred to as a box, in a post office or other postal service location, assigned to a person or organization, where postal items may be kept for this trade address.",
+                    "unece:domainName": "TradeAddress"
                 }
             ]
         }

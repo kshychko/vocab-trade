@@ -36,7 +36,8 @@
                     "unece:cefactUNId": "UN01004213",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The consignee party for this supply chain consignment."
+                    "rdfs:comment": "The consignee party for this supply chain consignment.",
+                    "unece:domainName": "Consignment"
                 },
                 {
                     "@id": "cefact:Referenced_SupplyChain_Consignment.Consignee.Trade_Party",
@@ -44,7 +45,8 @@
                     "unece:cefactUNId": "UN01011055",
                     "unece:cefactBieDomainClass": "cefact:ReferencedSupplyChain_Consignment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The consignee party for this referenced supply chain consignment."
+                    "rdfs:comment": "The consignee party for this referenced supply chain consignment.",
+                    "unece:domainName": "Consignment"
                 }
             ]
         }

@@ -35,7 +35,8 @@
                     "unece:cefactUNId": "UN01003733",
                     "unece:cefactBieDomainClass": "cefact:Logistics_ServiceCharge.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The code specifying a basis on which this logistics service charge is to be calculated, such as by volume or per unit."
+                    "rdfs:comment": "The code specifying a basis on which this logistics service charge is to be calculated, such as by volume or per unit.",
+                    "unece:domainName": "ServiceCharge"
                 }
             ]
         }

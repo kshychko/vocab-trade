@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01004583",
                     "unece:cefactBieDomainClass": "cefact:Trade_CurrencyExchange.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The date, time, date time or other date time value of the conversion rate for this trade related currency exchange."
+                    "rdfs:comment": "The date, time, date time or other date time value of the conversion rate for this trade related currency exchange.",
+                    "unece:domainName": "CurrencyExchange"
                 }
             ]
         }

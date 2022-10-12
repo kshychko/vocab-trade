@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01009966",
                     "unece:cefactBieDomainClass": "cefact:TradeSettlement_FinancialCard.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The issuing company name, expressed as text, for this trade settlement financial card."
+                    "rdfs:comment": "The issuing company name, expressed as text, for this trade settlement financial card.",
+                    "unece:domainName": "FinancialCard"
                 }
             ]
         }

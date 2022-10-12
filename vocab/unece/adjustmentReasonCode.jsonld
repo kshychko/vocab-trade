@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01003499",
                     "unece:cefactBieDomainClass": "cefact:Delivery_Adjustment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The code specifying a reason for this delivery adjustment."
+                    "rdfs:comment": "The code specifying a reason for this delivery adjustment.",
+                    "unece:domainName": "Adjustment"
                 }
             ]
         }

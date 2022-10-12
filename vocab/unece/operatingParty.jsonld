@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01003808",
                     "unece:cefactBieDomainClass": "cefact:Logistics_TransportEquipment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The party that operates this piece of logistics transport equipment."
+                    "rdfs:comment": "The party that operates this piece of logistics transport equipment.",
+                    "unece:domainName": "LogisticsTransportEquipment"
                 }
             ]
         }

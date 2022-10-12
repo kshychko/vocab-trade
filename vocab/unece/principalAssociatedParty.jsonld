@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01011025",
                     "unece:cefactBieDomainClass": "cefact:Exchanged_Declaration.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A principal trade party associated with this exchanged declaration."
+                    "rdfs:comment": "A principal trade party associated with this exchanged declaration.",
+                    "unece:domainName": "Declaration"
                 }
             ]
         }

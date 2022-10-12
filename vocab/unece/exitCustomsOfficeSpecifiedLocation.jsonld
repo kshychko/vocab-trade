@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01008973",
                     "unece:cefactBieDomainClass": "cefact:CrossBorder_RegulatoryProcedure.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The location of the specified customs office at which the goods which are subject to this cross-border regulatory procedure leave the customs territory of destination."
+                    "rdfs:comment": "The location of the specified customs office at which the goods which are subject to this cross-border regulatory procedure leave the customs territory of destination.",
+                    "unece:domainName": "RegulatoryProcedure"
                 }
             ]
         }

@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01004845",
                     "unece:cefactBieDomainClass": "cefact:Transport_Service.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A code specifying a service requirement for this transport service."
+                    "rdfs:comment": "A code specifying a service requirement for this transport service.",
+                    "unece:domainName": "Service"
                 }
             ]
         }

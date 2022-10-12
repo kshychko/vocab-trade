@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01007307",
                     "unece:cefactBieDomainClass": "cefact:Reference_Price.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "An indication of whether or not the reference price is a net price."
+                    "rdfs:comment": "An indication of whether or not the reference price is a net price.",
+                    "unece:domainName": "ReferencePrice"
                 }
             ]
         }

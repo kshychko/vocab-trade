@@ -35,7 +35,8 @@
                     "unece:cefactUNId": "UN01003892",
                     "unece:cefactBieDomainClass": "cefact:Measurement.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "An actual measure for this measurement."
+                    "rdfs:comment": "An actual measure for this measurement.",
+                    "unece:domainName": "Measurement"
                 }
             ]
         }

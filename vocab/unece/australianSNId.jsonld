@@ -35,7 +35,8 @@
                     "unece:cefactUNId": "UN01013208",
                     "unece:cefactBieDomainClass": "cefact:Creditor_FinancialInstitution.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The Australian Small Network (SN) identifier as assigned by the Australian Payments Clearing Association (APCA) for this creditor financial institution."
+                    "rdfs:comment": "The Australian Small Network (SN) identifier as assigned by the Australian Payments Clearing Association (APCA) for this creditor financial institution.",
+                    "unece:domainName": "CreditorFinancialInstitution"
                 }
             ]
         }

@@ -15,7 +15,7 @@
         {
             "@id": "unece:attachedTransportEquipment",
             "schema:rangeIncludes": {
-                "@id": "unece:LogisticsTransportEquipment"
+                "@id": "unece:AttachedTransportEquipment"
             },
             "@type": [
                 "rdf:Property",
@@ -36,20 +36,22 @@
             "rdfs:label": "attachedTransportEquipment",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Logistics_TransportEquipment.Attached.Attached_TransportEquipment",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01003797",
-                    "unece:cefactBieDomainClass": "cefact:Logistics_TransportEquipment.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "Transport equipment attached to this piece of logistics transport equipment, such as ropes or refrigeration units."
-                },
-                {
                     "@id": "cefact:Logistics_TransportMeans.Attached.Logistics_TransportEquipment",
                     "@type": "unece:AssociationBIE",
                     "unece:cefactUNId": "UN01003831",
                     "unece:cefactBieDomainClass": "cefact:Logistics_TransportMeans.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A piece of logistics transport equipment attached to this logistics means of transport."
+                    "rdfs:comment": "A piece of logistics transport equipment attached to this logistics means of transport.",
+                    "unece:domainName": "TransportMeans"
+                },
+                {
+                    "@id": "cefact:Logistics_TransportEquipment.Attached.Attached_TransportEquipment",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01003797",
+                    "unece:cefactBieDomainClass": "cefact:Logistics_TransportEquipment.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "Transport equipment attached to this piece of logistics transport equipment, such as ropes or refrigeration units.",
+                    "unece:domainName": "LogisticsTransportEquipment"
                 }
             ]
         }

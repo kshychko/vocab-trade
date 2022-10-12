@@ -41,7 +41,8 @@
                     "unece:cefactUNId": "UN01003581",
                     "unece:cefactBieDomainClass": "cefact:Exchanged_Document.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The location where this exchanged document has been lodged."
+                    "rdfs:comment": "The location where this exchanged document has been lodged.",
+                    "unece:domainName": "ExchangedDocument"
                 },
                 {
                     "@id": "cefact:Referenced_Document.Lodgement.Logistics_Location",
@@ -49,7 +50,8 @@
                     "unece:cefactUNId": "UN01004019",
                     "unece:cefactBieDomainClass": "cefact:Referenced_Document.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The logistics related location where this referenced document has been lodged."
+                    "rdfs:comment": "The logistics related location where this referenced document has been lodged.",
+                    "unece:domainName": "Document"
                 }
             ]
         }

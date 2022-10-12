@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01008304",
                     "unece:cefactBieDomainClass": "cefact:Product_Characteristic.Details",
                     "unece:cefactBusinessProcess": "Supply Chain",
-                    "rdfs:comment": "The code specifying the value of this product characteristic."
+                    "rdfs:comment": "The code specifying the value of this product characteristic.",
+                    "unece:domainName": "Characteristic"
                 }
             ]
         }

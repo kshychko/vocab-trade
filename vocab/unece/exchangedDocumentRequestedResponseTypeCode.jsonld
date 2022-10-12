@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01006746",
                     "unece:cefactBieDomainClass": "cefact:Exchanged_Document.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A code specifying a type of response requested for this exchanged document."
+                    "rdfs:comment": "A code specifying a type of response requested for this exchanged document.",
+                    "unece:domainName": "ExchangedDocument"
                 }
             ]
         }

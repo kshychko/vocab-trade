@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01009066",
                     "unece:cefactBieDomainClass": "cefact:Trade_PaymentTerms.Details",
                     "unece:cefactBusinessProcess": "Supply Chain",
-                    "rdfs:comment": "A monetary value of a partial payment in these trade payment terms."
+                    "rdfs:comment": "A monetary value of a partial payment in these trade payment terms.",
+                    "unece:domainName": "PaymentTerms"
                 }
             ]
         }

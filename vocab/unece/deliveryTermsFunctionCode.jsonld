@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01009006",
                     "unece:cefactBieDomainClass": "cefact:Trade_DeliveryTerms.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A code specifying a function of these trade delivery terms."
+                    "rdfs:comment": "A code specifying a function of these trade delivery terms.",
+                    "unece:domainName": "DeliveryTerms"
                 }
             ]
         }

@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01008436",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_Inventory.Details",
                     "unece:cefactBusinessProcess": "Supply Chain",
-                    "rdfs:comment": "The date, time, date time, or other date time value of the planned stock calculation of this supply chain inventory."
+                    "rdfs:comment": "The date, time, date time, or other date time value of the planned stock calculation of this supply chain inventory.",
+                    "unece:domainName": "Inventory"
                 }
             ]
         }

@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01011207",
                     "unece:cefactBieDomainClass": "cefact:Specified_LinearRing.Details",
                     "unece:cefactBusinessProcess": "FLUX",
-                    "rdfs:comment": "Geographical coordinate information specified for this linear ring. If used, linear ring must contain a minimum of 3 geographical coordinate points"
+                    "rdfs:comment": "Geographical coordinate information specified for this linear ring. If used, linear ring must contain a minimum of 3 geographical coordinate points",
+                    "unece:domainName": "LinearRing"
                 }
             ]
         }

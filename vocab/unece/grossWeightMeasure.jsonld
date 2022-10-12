@@ -64,22 +64,14 @@
             "rdfs:label": "grossWeightMeasure",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Referenced_SupplyChain_Consignment.GrossWeight.Measure",
+                    "@id": "cefact:Referenced_Logistics_Package.GrossWeight.Measure",
                     "@type": "unece:BasicBIE",
-                    "unece:tded": "6012",
-                    "unece:cefactUNId": "UN01011048",
-                    "unece:cefactBieDomainClass": "cefact:ReferencedSupplyChain_Consignment.Details",
+                    "unece:tded": "6022",
+                    "unece:cefactUNId": "UN01013099",
+                    "unece:cefactBieDomainClass": "cefact:ReferencedLogistics_Package.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A measure of the gross weight (mass) of this referenced supply chain consignment which includes the weight of packaging but which excludes the weight of any transport equipment."
-                },
-                {
-                    "@id": "cefact:Logistics_TransportEquipment.GrossWeight.Measure",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "6411",
-                    "unece:cefactUNId": "UN01003759",
-                    "unece:cefactBieDomainClass": "cefact:Logistics_TransportEquipment.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The measure of the gross weight (mass) of this piece of logistics transport equipment which is the weight (mass) including loaded goods, packing and transport equipment."
+                    "rdfs:comment": "The measure of the gross weight (mass) of this referenced logistics package and its contents.",
+                    "unece:domainName": "Package"
                 },
                 {
                     "@id": "cefact:Logistics_TransportMeans.GrossWeight.Measure",
@@ -88,51 +80,28 @@
                     "unece:cefactUNId": "UN01003824",
                     "unece:cefactBieDomainClass": "cefact:Logistics_TransportMeans.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The measure of the gross weight (mass) of this logistics means of transport including cargo, such as the measure of the overall size of a vessel determined in accordance with the provisions of the International Convention on Tonnage Measurement of Ships, 1969."
+                    "rdfs:comment": "The measure of the gross weight (mass) of this logistics means of transport including cargo, such as the measure of the overall size of a vessel determined in accordance with the provisions of the International Convention on Tonnage Measurement of Ships, 1969.",
+                    "unece:domainName": "TransportMeans"
                 },
                 {
-                    "@id": "cefact:Trade_Product.GrossWeight.Measure",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01004692",
-                    "unece:cefactBieDomainClass": "cefact:Trade_Product.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A measure of the gross weight (mass) of this trade product."
-                },
-                {
-                    "@id": "cefact:SupplyChain_ConsignmentItem.GrossWeight.Measure",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "6292",
-                    "unece:cefactUNId": "UN01004121",
-                    "unece:cefactBieDomainClass": "cefact:SupplyChain_ConsignmentItem.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A measure of the gross weight (mass) of this supply chain consignment item which includes packaging but excludes any transport equipment."
-                },
-                {
-                    "@id": "cefact:Logistics_Package.GrossWeight.Measure",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "6022",
-                    "unece:cefactUNId": "UN01003691",
-                    "unece:cefactBieDomainClass": "cefact:Logistics_Package.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The measure of the gross weight (mass) of this logistics package and its contents."
-                },
-                {
-                    "@id": "cefact:Transport_DangerousGoods.GrossWeight.Measure",
+                    "@id": "cefact:Logistics_TransportEquipment.GrossWeight.Measure",
                     "@type": "unece:BasicBIE",
                     "unece:tded": "6411",
-                    "unece:cefactUNId": "UN01004778",
-                    "unece:cefactBieDomainClass": "cefact:Transport_DangerousGoods.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The measure of the weight (mass) of these transported dangerous goods including packaging but excluding the transport equipment."
+                    "unece:cefactUNId": "UN01003759",
+                    "unece:cefactBieDomainClass": "cefact:Logistics_TransportEquipment.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The measure of the gross weight (mass) of this piece of logistics transport equipment which is the weight (mass) including loaded goods, packing and transport equipment.",
+                    "unece:domainName": "LogisticsTransportEquipment"
                 },
                 {
-                    "@id": "cefact:Referenced_Logistics_Package.GrossWeight.Measure",
+                    "@id": "cefact:Referenced_SupplyChain_Consignment.GrossWeight.Measure",
                     "@type": "unece:BasicBIE",
-                    "unece:tded": "6022",
-                    "unece:cefactUNId": "UN01013099",
-                    "unece:cefactBieDomainClass": "cefact:ReferencedLogistics_Package.Details",
+                    "unece:tded": "6012",
+                    "unece:cefactUNId": "UN01011048",
+                    "unece:cefactBieDomainClass": "cefact:ReferencedSupplyChain_Consignment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The measure of the gross weight (mass) of this referenced logistics package and its contents."
+                    "rdfs:comment": "A measure of the gross weight (mass) of this referenced supply chain consignment which includes the weight of packaging but which excludes the weight of any transport equipment.",
+                    "unece:domainName": "Consignment"
                 },
                 {
                     "@id": "cefact:Line_TradeDelivery.GrossWeight.Measure",
@@ -141,16 +110,18 @@
                     "unece:cefactUNId": "UN01011768",
                     "unece:cefactBieDomainClass": "cefact:Line_TradeDelivery.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The measure, at line level, of the gross weight (mass) of this line trade delivery."
+                    "rdfs:comment": "The measure, at line level, of the gross weight (mass) of this line trade delivery.",
+                    "unece:domainName": "LineTradeDelivery"
                 },
                 {
-                    "@id": "cefact:Referenced_Logistics_TransportEquipment.GrossWeight.Measure",
+                    "@id": "cefact:SupplyChain_ConsignmentItem.GrossWeight.Measure",
                     "@type": "unece:BasicBIE",
-                    "unece:tded": "6294",
-                    "unece:cefactUNId": "UN01008993",
-                    "unece:cefactBieDomainClass": "cefact:ReferencedLogistics_TransportEquipment.Details",
+                    "unece:tded": "6292",
+                    "unece:cefactUNId": "UN01004121",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_ConsignmentItem.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The measure of the gross weight (mass) of this piece of referenced logistics transport equipment which is the weight (mass) including loaded goods, packing and transport equipment."
+                    "rdfs:comment": "A measure of the gross weight (mass) of this supply chain consignment item which includes packaging but excludes any transport equipment.",
+                    "unece:domainName": "ConsignmentItem"
                 },
                 {
                     "@id": "cefact:SupplyChain_Consignment.GrossWeight.Measure",
@@ -159,7 +130,47 @@
                     "unece:cefactUNId": "UN01004173",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A measure of the gross weight (mass) of this supply chain consignment which includes the weight of packaging but which excludes the weight of any transport equipment."
+                    "rdfs:comment": "A measure of the gross weight (mass) of this supply chain consignment which includes the weight of packaging but which excludes the weight of any transport equipment.",
+                    "unece:domainName": "Consignment"
+                },
+                {
+                    "@id": "cefact:Logistics_Package.GrossWeight.Measure",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "6022",
+                    "unece:cefactUNId": "UN01003691",
+                    "unece:cefactBieDomainClass": "cefact:Logistics_Package.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The measure of the gross weight (mass) of this logistics package and its contents.",
+                    "unece:domainName": "Package"
+                },
+                {
+                    "@id": "cefact:Trade_Product.GrossWeight.Measure",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01004692",
+                    "unece:cefactBieDomainClass": "cefact:Trade_Product.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A measure of the gross weight (mass) of this trade product.",
+                    "unece:domainName": "Product"
+                },
+                {
+                    "@id": "cefact:Transport_DangerousGoods.GrossWeight.Measure",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "6411",
+                    "unece:cefactUNId": "UN01004778",
+                    "unece:cefactBieDomainClass": "cefact:Transport_DangerousGoods.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The measure of the weight (mass) of these transported dangerous goods including packaging but excluding the transport equipment.",
+                    "unece:domainName": "DangerousGoods"
+                },
+                {
+                    "@id": "cefact:Referenced_Logistics_TransportEquipment.GrossWeight.Measure",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "6294",
+                    "unece:cefactUNId": "UN01008993",
+                    "unece:cefactBieDomainClass": "cefact:ReferencedLogistics_TransportEquipment.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The measure of the gross weight (mass) of this piece of referenced logistics transport equipment which is the weight (mass) including loaded goods, packing and transport equipment.",
+                    "unece:domainName": "LogisticsTransportEquipment"
                 }
             ]
         }

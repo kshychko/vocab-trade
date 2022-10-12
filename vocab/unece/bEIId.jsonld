@@ -37,21 +37,23 @@
             "rdfs:label": "bEIId",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Financial_Identity.BEI_Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01013220",
-                    "unece:cefactBieDomainClass": "cefact:Financial_Identity.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The Business Entity Identifier (BEI) as defined by ISO 9362 (Banking telecommunication messages, Bank Identifier Codes) for this financial identity."
-                },
-                {
                     "@id": "cefact:Requesting_Party.BEI_Identification.Identifier",
                     "@type": "unece:BasicBIE",
                     "unece:tded": "3039",
                     "unece:cefactUNId": "UN01013291",
                     "unece:cefactBieDomainClass": "cefact:Requesting_Party.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The unique Business Entity Identifier (BEI) as defined by ISO 9362 (Banking telecommunication messages, Bank Identifier Codes) for this requesting party."
+                    "rdfs:comment": "The unique Business Entity Identifier (BEI) as defined by ISO 9362 (Banking telecommunication messages, Bank Identifier Codes) for this requesting party.",
+                    "unece:domainName": "RequestingParty"
+                },
+                {
+                    "@id": "cefact:Financial_Identity.BEI_Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01013220",
+                    "unece:cefactBieDomainClass": "cefact:Financial_Identity.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The Business Entity Identifier (BEI) as defined by ISO 9362 (Banking telecommunication messages, Bank Identifier Codes) for this financial identity.",
+                    "unece:domainName": "FinancialIdentity"
                 }
             ]
         }

@@ -32,22 +32,24 @@
             "rdfs:label": "itemQuantity",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Logistics_Package.Item.Quantity",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "7224",
-                    "unece:cefactUNId": "UN01003690",
-                    "unece:cefactBieDomainClass": "cefact:Logistics_Package.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The number of logistics packages at this level."
-                },
-                {
                     "@id": "cefact:Referenced_Logistics_Package.Item.Quantity",
                     "@type": "unece:BasicBIE",
                     "unece:tded": "7224",
                     "unece:cefactUNId": "UN01006791",
                     "unece:cefactBieDomainClass": "cefact:ReferencedLogistics_Package.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The number of referenced logistics packages at this level."
+                    "rdfs:comment": "The number of referenced logistics packages at this level.",
+                    "unece:domainName": "Package"
+                },
+                {
+                    "@id": "cefact:Logistics_Package.Item.Quantity",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "7224",
+                    "unece:cefactUNId": "UN01003690",
+                    "unece:cefactBieDomainClass": "cefact:Logistics_Package.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The number of logistics packages at this level.",
+                    "unece:domainName": "Package"
                 }
             ]
         }

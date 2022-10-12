@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01006217",
                     "unece:cefactBieDomainClass": "cefact:Transport_DangerousGoods.Details",
                     "unece:cefactBusinessProcess": "Cross-Border",
-                    "rdfs:comment": "The number of the Q-Value for these transported dangerous goods."
+                    "rdfs:comment": "The number of the Q-Value for these transported dangerous goods.",
+                    "unece:domainName": "DangerousGoods"
                 }
             ]
         }

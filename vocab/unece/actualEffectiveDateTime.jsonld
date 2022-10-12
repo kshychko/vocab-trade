@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01012490",
                     "unece:cefactBieDomainClass": "cefact:Product_Certificate.Details",
                     "unece:cefactBusinessProcess": "Traceability",
-                    "rdfs:comment": "The actual effective date, time, date time or other date time value for this product certificate."
+                    "rdfs:comment": "The actual effective date, time, date time or other date time value for this product certificate.",
+                    "unece:domainName": "Certificate"
                 }
             ]
         }

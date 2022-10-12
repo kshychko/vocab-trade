@@ -40,12 +40,13 @@
             "rdfs:label": "examinationEvent",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:SupplyChain_Consignment.Examination.Transport_Event",
+                    "@id": "cefact:Cross-Border_RegulatoryProcedure.Examination.Transport_Event",
                     "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01004253",
-                    "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
+                    "unece:cefactUNId": "UN01008969",
+                    "unece:cefactBieDomainClass": "cefact:CrossBorder_RegulatoryProcedure.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "An examination event for this supply chain consignment."
+                    "rdfs:comment": "An examination event for this cross-border regulatory procedure.",
+                    "unece:domainName": "RegulatoryProcedure"
                 },
                 {
                     "@id": "cefact:SupplyChain_ConsignmentItem.Examination.Transport_Event",
@@ -53,15 +54,17 @@
                     "unece:cefactUNId": "UN01004157",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_ConsignmentItem.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "An examination event for this supply chain consignment item."
+                    "rdfs:comment": "An examination event for this supply chain consignment item.",
+                    "unece:domainName": "ConsignmentItem"
                 },
                 {
-                    "@id": "cefact:Cross-Border_RegulatoryProcedure.Examination.Transport_Event",
+                    "@id": "cefact:SupplyChain_Consignment.Examination.Transport_Event",
                     "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01008969",
-                    "unece:cefactBieDomainClass": "cefact:CrossBorder_RegulatoryProcedure.Details",
+                    "unece:cefactUNId": "UN01004253",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "An examination event for this cross-border regulatory procedure."
+                    "rdfs:comment": "An examination event for this supply chain consignment.",
+                    "unece:domainName": "Consignment"
                 }
             ]
         }

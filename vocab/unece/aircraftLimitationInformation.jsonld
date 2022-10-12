@@ -35,7 +35,8 @@
                     "unece:cefactUNId": "UN01006219",
                     "unece:cefactBieDomainClass": "cefact:Transport_DangerousGoods.Details",
                     "unece:cefactBusinessProcess": "Cross-Border",
-                    "rdfs:comment": "Aircraft limitation information, expressed as text, for these transported dangerous goods."
+                    "rdfs:comment": "Aircraft limitation information, expressed as text, for these transported dangerous goods.",
+                    "unece:domainName": "DangerousGoods"
                 }
             ]
         }

@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01002049",
                     "unece:cefactBieDomainClass": "cefact:Telecommunication_Communication.Details",
                     "unece:cefactBusinessProcess": "Project Management",
-                    "rdfs:comment": "Access information, expressed as text, for the internal access telecommunication number, such as the United States Defense Network Service number."
+                    "rdfs:comment": "Access information, expressed as text, for the internal access telecommunication number, such as the United States Defense Network Service number.",
+                    "unece:domainName": "TelecommunicationCommunication"
                 }
             ]
         }

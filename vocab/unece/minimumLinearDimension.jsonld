@@ -36,20 +36,22 @@
             "rdfs:label": "minimumLinearDimension",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Trade_Product.Minimum_Linear.Spatial_Dimension",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01004706",
-                    "unece:cefactBieDomainClass": "cefact:Trade_Product.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "Minimum linear spatial dimensions of this trade product."
-                },
-                {
                     "@id": "cefact:SupplyChain_Packaging.Minimum_Linear.Spatial_Dimension",
                     "@type": "unece:AssociationBIE",
                     "unece:cefactUNId": "UN01004321",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_Packaging.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The minimum linear spatial dimensions of this supply chain packaging."
+                    "rdfs:comment": "The minimum linear spatial dimensions of this supply chain packaging.",
+                    "unece:domainName": "Packaging"
+                },
+                {
+                    "@id": "cefact:Trade_Product.Minimum_Linear.Spatial_Dimension",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01004706",
+                    "unece:cefactBieDomainClass": "cefact:Trade_Product.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "Minimum linear spatial dimensions of this trade product.",
+                    "unece:domainName": "Product"
                 }
             ]
         }

@@ -37,7 +37,8 @@
                     "unece:cefactUNId": "UN01002031",
                     "unece:cefactBieDomainClass": "cefact:Specified_GeographicalCoordinate.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The indication of whether the longitude as a compass direction from the Greenwich meridian to the meridian of a specific place is East (+) or West (-) for this specified geographical coordinate. (Reference ISO 6709)."
+                    "rdfs:comment": "The indication of whether the longitude as a compass direction from the Greenwich meridian to the meridian of a specific place is East (+) or West (-) for this specified geographical coordinate. (Reference ISO 6709).",
+                    "unece:domainName": "GeographicalCoordinate"
                 },
                 {
                     "@id": "cefact:GeographicalCoordinate.LongitudeDirection.Indicator",
@@ -45,7 +46,8 @@
                     "unece:cefactUNId": "UN01003621",
                     "unece:cefactBieDomainClass": "cefact:GeographicalCoordinate.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The indication of whether the longitude as a compass direction from the Greenwich meridian to the meridian of a specific place is East (+) or West (-) for this geographical coordinate (Reference ISO 6709)."
+                    "rdfs:comment": "The indication of whether the longitude as a compass direction from the Greenwich meridian to the meridian of a specific place is East (+) or West (-) for this geographical coordinate (Reference ISO 6709).",
+                    "unece:domainName": "GeographicalCoordinate"
                 }
             ]
         }

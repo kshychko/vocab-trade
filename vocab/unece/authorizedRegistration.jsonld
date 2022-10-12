@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01003647",
                     "unece:cefactBieDomainClass": "cefact:Legal_Organization.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A legal registration authorized for this legally set up organization."
+                    "rdfs:comment": "A legal registration authorized for this legally set up organization.",
+                    "unece:domainName": "Organization"
                 }
             ]
         }

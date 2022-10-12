@@ -37,22 +37,24 @@
             "rdfs:label": "acceptanceDateTime",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Referenced_Document.Acceptance.DateTime",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "2097",
-                    "unece:cefactUNId": "UN01004001",
-                    "unece:cefactBieDomainClass": "cefact:Referenced_Document.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The date, time, date time, or other date time value of the acceptance of this referenced document."
-                },
-                {
                     "@id": "cefact:Exchanged_Document.Acceptance.DateTime",
                     "@type": "unece:BasicBIE",
                     "unece:tded": "2097",
                     "unece:cefactUNId": "UN01003556",
                     "unece:cefactBieDomainClass": "cefact:Exchanged_Document.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The date, time, date time, or other date time value for the acceptance of this exchanged document."
+                    "rdfs:comment": "The date, time, date time, or other date time value for the acceptance of this exchanged document.",
+                    "unece:domainName": "ExchangedDocument"
+                },
+                {
+                    "@id": "cefact:Referenced_Document.Acceptance.DateTime",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "2097",
+                    "unece:cefactUNId": "UN01004001",
+                    "unece:cefactBieDomainClass": "cefact:Referenced_Document.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The date, time, date time, or other date time value of the acceptance of this referenced document.",
+                    "unece:domainName": "Document"
                 }
             ]
         }

@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01011640",
                     "unece:cefactBieDomainClass": "cefact:Header_TradeDelivery.Details",
                     "unece:cefactBusinessProcess": "Supply Chain",
-                    "rdfs:comment": "The ultimate ship to delivery event, at header level, for this trade delivery."
+                    "rdfs:comment": "The ultimate ship to delivery event, at header level, for this trade delivery.",
+                    "unece:domainName": "HeaderTradeDelivery"
                 }
             ]
         }

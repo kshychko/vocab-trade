@@ -37,22 +37,24 @@
             "rdfs:label": "paidAmount",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Instalment_Payment.Paid.Amount",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "5082",
-                    "unece:cefactUNId": "UN01013274",
-                    "unece:cefactBieDomainClass": "cefact:Instalment_Payment.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A monetary value paid or to be paid for this instalment payment."
-                },
-                {
                     "@id": "cefact:Advance_Payment.Paid.Amount",
                     "@type": "unece:BasicBIE",
                     "unece:tded": "5082",
                     "unece:cefactUNId": "UN01001296",
                     "unece:cefactBieDomainClass": "cefact:Advance_Payment.Details",
                     "unece:cefactBusinessProcess": "Trade",
-                    "rdfs:comment": "The monetary value of the funds or securities paid in this advance payment."
+                    "rdfs:comment": "The monetary value of the funds or securities paid in this advance payment.",
+                    "unece:domainName": "AdvancePayment"
+                },
+                {
+                    "@id": "cefact:Instalment_Payment.Paid.Amount",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "5082",
+                    "unece:cefactUNId": "UN01013274",
+                    "unece:cefactBieDomainClass": "cefact:Instalment_Payment.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A monetary value paid or to be paid for this instalment payment.",
+                    "unece:domainName": "InstalmentPayment"
                 }
             ]
         }

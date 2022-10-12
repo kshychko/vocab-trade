@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01012754",
                     "unece:cefactBieDomainClass": "cefact:Logistics_TransportMovement.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The cycle, as expressed as text, of this logistics transport movement, such as twice a day."
+                    "rdfs:comment": "The cycle, as expressed as text, of this logistics transport movement, such as twice a day.",
+                    "unece:domainName": "TransportMovement"
                 }
             ]
         }

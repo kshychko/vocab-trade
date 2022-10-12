@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01003743",
                     "unece:cefactBieDomainClass": "cefact:Logistics_ShippingMarks.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A code specifying a marking instruction for these logistics shipping marks."
+                    "rdfs:comment": "A code specifying a marking instruction for these logistics shipping marks.",
+                    "unece:domainName": "ShippingMarks"
                 }
             ]
         }

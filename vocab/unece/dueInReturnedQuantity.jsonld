@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01013002",
                     "unece:cefactBieDomainClass": "cefact:Line_TradeDelivery.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The due in returned quantity, at line level, for this trade delivery."
+                    "rdfs:comment": "The due in returned quantity, at line level, for this trade delivery.",
+                    "unece:domainName": "LineTradeDelivery"
                 }
             ]
         }

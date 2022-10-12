@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01005280",
                     "unece:cefactBieDomainClass": "cefact:Logistics_ServiceCharge.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A code specifying a type of freight invoice of this logistics service charge."
+                    "rdfs:comment": "A code specifying a type of freight invoice of this logistics service charge.",
+                    "unece:domainName": "ServiceCharge"
                 }
             ]
         }

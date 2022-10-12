@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01004545",
                     "unece:cefactBieDomainClass": "cefact:Trade_Address.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A name, expressed as text, of a sub-division of a city for this trade address, for example a district or borough."
+                    "rdfs:comment": "A name, expressed as text, of a sub-division of a city for this trade address, for example a district or borough.",
+                    "unece:domainName": "TradeAddress"
                 }
             ]
         }

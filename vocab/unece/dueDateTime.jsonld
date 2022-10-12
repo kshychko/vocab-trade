@@ -47,7 +47,8 @@
                     "unece:cefactUNId": "UN01013275",
                     "unece:cefactBieDomainClass": "cefact:Instalment_Payment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The due date for this instalment payment."
+                    "rdfs:comment": "The due date for this instalment payment.",
+                    "unece:domainName": "InstalmentPayment"
                 },
                 {
                     "@id": "cefact:SupplyChain_Event.Due.DateTime",
@@ -55,7 +56,17 @@
                     "unece:cefactUNId": "UN01013373",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_Event.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The due date, time, date time, or other date time value of this supply chain event."
+                    "rdfs:comment": "The due date, time, date time, or other date time value of this supply chain event.",
+                    "unece:domainName": "SupplyChainEvent"
+                },
+                {
+                    "@id": "cefact:Trade_PaymentTerms.Due.DateTime",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01012587",
+                    "unece:cefactBieDomainClass": "cefact:Trade_PaymentTerms.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The date, time, date time, or other date time value of the due date specified by these trade payment terms.",
+                    "unece:domainName": "PaymentTerms"
                 },
                 {
                     "@id": "cefact:Trade_PaymentTerms.DueDate.DateTime",
@@ -64,15 +75,8 @@
                     "unece:cefactBieDomainClass": "cefact:Trade_PaymentTerms.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
                     "rdfs:comment": "The date, time, date time, or other date time value for a due date specified by these trade payment terms. Deprecated - Use Trade_ Payment Terms. Due. Date Time instead.",
-                    "unece:status": "deprecated"
-                },
-                {
-                    "@id": "cefact:Trade_PaymentTerms.Due.DateTime",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01012587",
-                    "unece:cefactBieDomainClass": "cefact:Trade_PaymentTerms.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The date, time, date time, or other date time value of the due date specified by these trade payment terms."
+                    "unece:status": "deprecated",
+                    "unece:domainName": "PaymentTerms"
                 }
             ]
         }

@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01009041",
                     "unece:cefactBieDomainClass": "cefact:Document_Clause.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A measurement associated with this document clause."
+                    "rdfs:comment": "A measurement associated with this document clause.",
+                    "unece:domainName": "Clause"
                 }
             ]
         }

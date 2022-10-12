@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01013222",
                     "unece:cefactBieDomainClass": "cefact:Financial_Identity.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The agent assigned customer identifier for this financial identity."
+                    "rdfs:comment": "The agent assigned customer identifier for this financial identity.",
+                    "unece:domainName": "FinancialIdentity"
                 }
             ]
         }

@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01012685",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_TradeLineItem.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A production of goods specified for this supply chain trade line Item."
+                    "rdfs:comment": "A production of goods specified for this supply chain trade line Item.",
+                    "unece:domainName": "TradeLineItem"
                 }
             ]
         }

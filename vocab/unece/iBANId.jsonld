@@ -41,13 +41,24 @@
             "rdfs:label": "iBANId",
             "unece:cefactElementMetadata": [
                 {
+                    "@id": "cefact:Creditor_FinancialAccount.IBAN_Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "3492",
+                    "unece:cefactUNId": "UN01003348",
+                    "unece:cefactBieDomainClass": "cefact:Creditor_FinancialAccount.Details",
+                    "unece:cefactBusinessProcess": "Customer to bank payment initiation",
+                    "rdfs:comment": "The unique International Bank Account Number (IBAN) identifier for this creditor financial account.",
+                    "unece:domainName": "CreditorFinancialAccount"
+                },
+                {
                     "@id": "cefact:Financing_FinancialAccount.IBAN_Identification.Identifier",
                     "@type": "unece:BasicBIE",
                     "unece:tded": "3492",
                     "unece:cefactUNId": "UN01013254",
                     "unece:cefactBieDomainClass": "cefact:Financing_FinancialAccount.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The unique International Bank Account Number (IBAN) identifier for this financing financial account."
+                    "rdfs:comment": "The unique International Bank Account Number (IBAN) identifier for this financing financial account.",
+                    "unece:domainName": "FinancingFinancialAccount"
                 },
                 {
                     "@id": "cefact:Debtor_FinancialAccount.IBAN_Identification.Identifier",
@@ -56,16 +67,8 @@
                     "unece:cefactUNId": "UN01003285",
                     "unece:cefactBieDomainClass": "cefact:Debtor_FinancialAccount.Details",
                     "unece:cefactBusinessProcess": "Customer to bank payment initiation",
-                    "rdfs:comment": "The unique International Bank Account Number (IBAN) identifier for this debtor financial account."
-                },
-                {
-                    "@id": "cefact:Creditor_FinancialAccount.IBAN_Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "3492",
-                    "unece:cefactUNId": "UN01003348",
-                    "unece:cefactBieDomainClass": "cefact:Creditor_FinancialAccount.Details",
-                    "unece:cefactBusinessProcess": "Customer to bank payment initiation",
-                    "rdfs:comment": "The unique International Bank Account Number (IBAN) identifier for this creditor financial account."
+                    "rdfs:comment": "The unique International Bank Account Number (IBAN) identifier for this debtor financial account.",
+                    "unece:domainName": "DebtorFinancialAccount"
                 }
             ]
         }

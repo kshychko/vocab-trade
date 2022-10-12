@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01007182",
                     "unece:cefactBieDomainClass": "cefact:Packaging_Marking.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "Content, expressed as a monetary amount, for this packaging marking."
+                    "rdfs:comment": "Content, expressed as a monetary amount, for this packaging marking.",
+                    "unece:domainName": "Marking"
                 }
             ]
         }

@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01004210",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The indication of whether or not the goods in this supply chain consignment are split across more than one piece of transport equipment."
+                    "rdfs:comment": "The indication of whether or not the goods in this supply chain consignment are split across more than one piece of transport equipment.",
+                    "unece:domainName": "Consignment"
                 }
             ]
         }

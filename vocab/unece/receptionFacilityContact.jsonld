@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01013164",
                     "unece:cefactBieDomainClass": "cefact:TransportWaste_Material.Details",
                     "unece:cefactBusinessProcess": "Transport",
-                    "rdfs:comment": "A reception facility contact for this transport waste material."
+                    "rdfs:comment": "A reception facility contact for this transport waste material.",
+                    "unece:domainName": "Material"
                 }
             ]
         }

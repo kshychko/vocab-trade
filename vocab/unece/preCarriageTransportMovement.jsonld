@@ -36,7 +36,8 @@
                     "unece:cefactUNId": "UN01004262",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A pre-carriage logistics transport movement for this supply chain consignment."
+                    "rdfs:comment": "A pre-carriage logistics transport movement for this supply chain consignment.",
+                    "unece:domainName": "Consignment"
                 },
                 {
                     "@id": "cefact:Referenced_SupplyChain_Consignment.Pre-Carriage.Logistics_TransportMovement",
@@ -44,7 +45,8 @@
                     "unece:cefactUNId": "UN01011066",
                     "unece:cefactBieDomainClass": "cefact:ReferencedSupplyChain_Consignment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A pre-carriage logistics transport movement for this referenced supply chain consignment."
+                    "rdfs:comment": "A pre-carriage logistics transport movement for this referenced supply chain consignment.",
+                    "unece:domainName": "Consignment"
                 }
             ]
         }

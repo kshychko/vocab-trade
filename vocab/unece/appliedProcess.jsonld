@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01004667",
                     "unece:cefactBieDomainClass": "cefact:Trade_ProductInstance.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A product handling process applied to this trade product instance, such as manufacturing or storage."
+                    "rdfs:comment": "A product handling process applied to this trade product instance, such as manufacturing or storage.",
+                    "unece:domainName": "ProductInstance"
                 }
             ]
         }

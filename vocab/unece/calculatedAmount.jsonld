@@ -42,28 +42,13 @@
             "rdfs:label": "calculatedAmount",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Applied_Tax.Calculated.Amount",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01000184",
-                    "unece:cefactBieDomainClass": "cefact:Applied_Tax.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The monetary value resulting from the calculation of the applied tax."
-                },
-                {
                     "@id": "cefact:Payment_BalanceOut.Calculated.Amount",
                     "@type": "unece:BasicBIE",
                     "unece:cefactUNId": "UN01011835",
                     "unece:cefactBieDomainClass": "cefact:Payment_BalanceOut.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A monetary value calculated for this payment balance out."
-                },
-                {
-                    "@id": "cefact:Header_BalanceOut.Calculated.Amount",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01011545",
-                    "unece:cefactBieDomainClass": "cefact:Header_BalanceOut.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A monetary value calculated for this header balance out."
+                    "rdfs:comment": "A monetary value calculated for this payment balance out.",
+                    "unece:domainName": "BalanceOut"
                 },
                 {
                     "@id": "cefact:Trade_Tax.Calculated.Amount",
@@ -71,7 +56,26 @@
                     "unece:cefactUNId": "UN01004711",
                     "unece:cefactBieDomainClass": "cefact:Trade_Tax.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A monetary value resulting from the calculation of this trade related tax, levy or duty."
+                    "rdfs:comment": "A monetary value resulting from the calculation of this trade related tax, levy or duty.",
+                    "unece:domainName": "TradeTax"
+                },
+                {
+                    "@id": "cefact:Applied_Tax.Calculated.Amount",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01000184",
+                    "unece:cefactBieDomainClass": "cefact:Applied_Tax.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The monetary value resulting from the calculation of the applied tax.",
+                    "unece:domainName": "AppliedTax"
+                },
+                {
+                    "@id": "cefact:Header_BalanceOut.Calculated.Amount",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01011545",
+                    "unece:cefactBieDomainClass": "cefact:Header_BalanceOut.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A monetary value calculated for this header balance out.",
+                    "unece:domainName": "BalanceOut"
                 }
             ]
         }

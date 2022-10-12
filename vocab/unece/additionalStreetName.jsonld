@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01008282",
                     "unece:cefactBieDomainClass": "cefact:Trade_Address.Details",
                     "unece:cefactBusinessProcess": "Supply Chain",
-                    "rdfs:comment": "The additional name of a street, expressed as text, for this trade address."
+                    "rdfs:comment": "The additional name of a street, expressed as text, for this trade address.",
+                    "unece:domainName": "TradeAddress"
                 }
             ]
         }

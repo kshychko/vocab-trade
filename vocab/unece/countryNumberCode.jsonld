@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01002046",
                     "unece:cefactBieDomainClass": "cefact:Telecommunication_Communication.Details",
                     "unece:cefactBusinessProcess": "Project Management",
-                    "rdfs:comment": "The country access code for this telecommunication number."
+                    "rdfs:comment": "The country access code for this telecommunication number.",
+                    "unece:domainName": "TelecommunicationCommunication"
                 }
             ]
         }

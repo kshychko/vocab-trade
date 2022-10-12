@@ -37,20 +37,22 @@
             "rdfs:label": "reasonInformation",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Financing_Status.Reason_Information.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01013266",
-                    "unece:cefactBieDomainClass": "cefact:Financing_Status.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "Information, expressed as text, related to the reason for this financing status."
-                },
-                {
                     "@id": "cefact:Cancellation_Status.Reason_Information.Text",
                     "@type": "unece:BasicBIE",
                     "unece:cefactUNId": "UN01013200",
                     "unece:cefactBieDomainClass": "cefact:Cancellation_Status.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "Information, expressed as text, related to the reason for this cancellation status."
+                    "rdfs:comment": "Information, expressed as text, related to the reason for this cancellation status.",
+                    "unece:domainName": "CancellationStatus"
+                },
+                {
+                    "@id": "cefact:Financing_Status.Reason_Information.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01013266",
+                    "unece:cefactBieDomainClass": "cefact:Financing_Status.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "Information, expressed as text, related to the reason for this financing status.",
+                    "unece:domainName": "FinancingStatus"
                 }
             ]
         }

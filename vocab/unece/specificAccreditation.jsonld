@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01010155",
                     "unece:cefactBieDomainClass": "cefact:Transport_Person.Details",
                     "unece:cefactBusinessProcess": "Transport",
-                    "rdfs:comment": "A certified accreditation specific to this transport person."
+                    "rdfs:comment": "A certified accreditation specific to this transport person.",
+                    "unece:domainName": "TransportPerson"
                 }
             ]
         }

@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01012171",
                     "unece:cefactBieDomainClass": "cefact:Specified_GeographicalFeature.Details",
                     "unece:cefactBusinessProcess": "Agricultural",
-                    "rdfs:comment": "The identifier of the coordinate reference system for this geographical feature."
+                    "rdfs:comment": "The identifier of the coordinate reference system for this geographical feature.",
+                    "unece:domainName": "GeographicalFeature"
                 }
             ]
         }

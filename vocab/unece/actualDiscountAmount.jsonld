@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01004871",
                     "unece:cefactBieDomainClass": "cefact:Trade_PaymentDiscountTerms.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A monetary value of the actual discount in these trade payment discount terms."
+                    "rdfs:comment": "A monetary value of the actual discount in these trade payment discount terms.",
+                    "unece:domainName": "PaymentDiscountTerms"
                 }
             ]
         }

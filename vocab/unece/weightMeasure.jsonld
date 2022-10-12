@@ -42,7 +42,8 @@
                     "unece:cefactUNId": "UN01004319",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_Packaging.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A measure of the weight of this supply chain packaging."
+                    "rdfs:comment": "A measure of the weight of this supply chain packaging.",
+                    "unece:domainName": "Packaging"
                 },
                 {
                     "@id": "cefact:Calculated_Emission.Weight.Measure",
@@ -51,7 +52,8 @@
                     "unece:cefactUNId": "UN01010054",
                     "unece:cefactBieDomainClass": "cefact:Calculated_Emission.Details",
                     "unece:cefactBusinessProcess": "Transport",
-                    "rdfs:comment": "A weight for which this calculated emission is measured."
+                    "rdfs:comment": "A weight for which this calculated emission is measured.",
+                    "unece:domainName": "Emission"
                 }
             ]
         }

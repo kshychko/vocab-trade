@@ -35,7 +35,8 @@
                     "unece:cefactUNId": "UN01007551",
                     "unece:cefactBieDomainClass": "cefact:Valuation_BreakdownStatement.Details",
                     "unece:cefactBusinessProcess": "Invoicing",
-                    "rdfs:comment": "The code specifying the default currency for this valuation breakdown statement."
+                    "rdfs:comment": "The code specifying the default currency for this valuation breakdown statement.",
+                    "unece:domainName": "BreakdownStatement"
                 }
             ]
         }

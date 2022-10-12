@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01010122",
                     "unece:cefactBieDomainClass": "cefact:Logistics_TransportMovement.Details",
                     "unece:cefactBusinessProcess": "Transport",
-                    "rdfs:comment": "The indication of whether or not the manifest for this logistics transport movement is onboard."
+                    "rdfs:comment": "The indication of whether or not the manifest for this logistics transport movement is onboard.",
+                    "unece:domainName": "TransportMovement"
                 }
             ]
         }

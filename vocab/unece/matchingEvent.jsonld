@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01013501",
                     "unece:cefactBieDomainClass": "cefact:Communication_Pairing.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A matching event for this communication pairing."
+                    "rdfs:comment": "A matching event for this communication pairing.",
+                    "unece:domainName": "Pairing"
                 }
             ]
         }

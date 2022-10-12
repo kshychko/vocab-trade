@@ -35,7 +35,8 @@
                     "unece:cefactUNId": "UN01013237",
                     "unece:cefactBieDomainClass": "cefact:FinancingRequest_Document.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "Agreement information, expressed as text, in this financing request document, such as a collection mandate."
+                    "rdfs:comment": "Agreement information, expressed as text, in this financing request document, such as a collection mandate.",
+                    "unece:domainName": "FinancingRequestDocument"
                 }
             ]
         }

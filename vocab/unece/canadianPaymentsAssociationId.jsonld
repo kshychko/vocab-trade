@@ -43,7 +43,8 @@
                     "unece:cefactUNId": "UN01002989",
                     "unece:cefactBieDomainClass": "cefact:Creditor_FinancialInstitution.Details",
                     "unece:cefactBusinessProcess": "Customer to bank payment initiation",
-                    "rdfs:comment": "The unique Canadian Payments Association Routing Number identifier for this creditor financial institution."
+                    "rdfs:comment": "The unique Canadian Payments Association Routing Number identifier for this creditor financial institution.",
+                    "unece:domainName": "CreditorFinancialInstitution"
                 },
                 {
                     "@id": "cefact:Debtor_FinancialInstitution.CanadianPaymentsAssociation_Identification.Identifier",
@@ -52,7 +53,8 @@
                     "unece:cefactUNId": "UN01002854",
                     "unece:cefactBieDomainClass": "cefact:Debtor_FinancialInstitution.Details",
                     "unece:cefactBusinessProcess": "Customer to bank payment initiation",
-                    "rdfs:comment": "The unique Canadian Payments Association Routing Number identifier for this debtor financial institution."
+                    "rdfs:comment": "The unique Canadian Payments Association Routing Number identifier for this debtor financial institution.",
+                    "unece:domainName": "DebtorFinancialInstitution"
                 }
             ]
         }

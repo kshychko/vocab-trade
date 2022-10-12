@@ -32,22 +32,24 @@
             "rdfs:label": "industryAssignedId",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Trade_Product.IndustryAssigned_Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "7135",
-                    "unece:cefactUNId": "UN01004685",
-                    "unece:cefactBieDomainClass": "cefact:Trade_Product.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A unique industry assigned identifier for this product."
-                },
-                {
                     "@id": "cefact:Referenced_Product.IndustryAssigned_Identification.Identifier",
                     "@type": "unece:BasicBIE",
                     "unece:tded": "7135",
                     "unece:cefactUNId": "UN01004033",
                     "unece:cefactBieDomainClass": "cefact:Referenced_Product.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A unique industry assigned identifier for this referenced product."
+                    "rdfs:comment": "A unique industry assigned identifier for this referenced product.",
+                    "unece:domainName": "Product"
+                },
+                {
+                    "@id": "cefact:Trade_Product.IndustryAssigned_Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "7135",
+                    "unece:cefactUNId": "UN01004685",
+                    "unece:cefactBieDomainClass": "cefact:Trade_Product.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A unique industry assigned identifier for this product.",
+                    "unece:domainName": "Product"
                 }
             ]
         }

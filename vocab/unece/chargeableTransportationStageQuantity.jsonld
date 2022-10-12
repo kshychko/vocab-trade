@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01004199",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The number of separately chargeable transportation stages to be covered by this supply chain consignment."
+                    "rdfs:comment": "The number of separately chargeable transportation stages to be covered by this supply chain consignment.",
+                    "unece:domainName": "Consignment"
                 }
             ]
         }

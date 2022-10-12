@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01012579",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The indication of whether or not transshipment is permitted for this supply chain consignment."
+                    "rdfs:comment": "The indication of whether or not transshipment is permitted for this supply chain consignment.",
+                    "unece:domainName": "Consignment"
                 }
             ]
         }

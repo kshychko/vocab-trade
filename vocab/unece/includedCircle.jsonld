@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01013621",
                     "unece:cefactBieDomainClass": "cefact:Specified_GeographicalFeature.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A circle included in this specified geographical feature."
+                    "rdfs:comment": "A circle included in this specified geographical feature.",
+                    "unece:domainName": "GeographicalFeature"
                 }
             ]
         }

@@ -32,22 +32,24 @@
             "rdfs:label": "carrierAssignedId",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:SupplyChain_Consignment.CarrierAssigned.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "1016",
-                    "unece:cefactUNId": "UN01004164",
-                    "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The unique identifier assigned by the carrier to this supply chain consignment, such as a booking reference number when cargo space is reserved prior to loading."
-                },
-                {
                     "@id": "cefact:Referenced_SupplyChain_Consignment.CarrierAssigned.Identifier",
                     "@type": "unece:BasicBIE",
                     "unece:tded": "1016",
                     "unece:cefactUNId": "UN01004044",
                     "unece:cefactBieDomainClass": "cefact:ReferencedSupplyChain_Consignment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The unique identifier assigned by the carrier to this referenced supply chain consignment, such as a booking reference number when cargo space is reserved prior to loading."
+                    "rdfs:comment": "The unique identifier assigned by the carrier to this referenced supply chain consignment, such as a booking reference number when cargo space is reserved prior to loading.",
+                    "unece:domainName": "Consignment"
+                },
+                {
+                    "@id": "cefact:SupplyChain_Consignment.CarrierAssigned.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "1016",
+                    "unece:cefactUNId": "UN01004164",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The unique identifier assigned by the carrier to this supply chain consignment, such as a booking reference number when cargo space is reserved prior to loading.",
+                    "unece:domainName": "Consignment"
                 }
             ]
         }

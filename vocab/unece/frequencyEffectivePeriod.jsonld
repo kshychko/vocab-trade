@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01004832",
                     "unece:cefactBieDomainClass": "cefact:Transport_Route.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A specified period of time for which a frequency is effective for this transport route."
+                    "rdfs:comment": "A specified period of time for which a frequency is effective for this transport route.",
+                    "unece:domainName": "Route"
                 }
             ]
         }

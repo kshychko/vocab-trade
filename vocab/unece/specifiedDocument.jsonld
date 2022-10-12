@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01013276",
                     "unece:cefactBieDomainClass": "cefact:Instalment_Payment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The financing request result document specified for this instalment payment."
+                    "rdfs:comment": "The financing request result document specified for this instalment payment.",
+                    "unece:domainName": "InstalmentPayment"
                 }
             ]
         }

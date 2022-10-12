@@ -35,7 +35,8 @@
                     "unece:cefactUNId": "UN01010070",
                     "unece:cefactBieDomainClass": "cefact:Logistics_Convoy.Details",
                     "unece:cefactBusinessProcess": "Transport",
-                    "rdfs:comment": "The overall length measure of this logistics convoy."
+                    "rdfs:comment": "The overall length measure of this logistics convoy.",
+                    "unece:domainName": "Convoy"
                 }
             ]
         }

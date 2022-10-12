@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01004570",
                     "unece:cefactBieDomainClass": "cefact:Trade_Contact.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "Telegraphy (Telex) communication information for this trade contact."
+                    "rdfs:comment": "Telegraphy (Telex) communication information for this trade contact.",
+                    "unece:domainName": "Contact"
                 }
             ]
         }

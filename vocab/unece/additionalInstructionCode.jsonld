@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01012708",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_Packaging.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A code specifying an additional instruction for this supply chain packaging."
+                    "rdfs:comment": "A code specifying an additional instruction for this supply chain packaging.",
+                    "unece:domainName": "Packaging"
                 }
             ]
         }

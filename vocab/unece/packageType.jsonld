@@ -37,22 +37,24 @@
             "rdfs:label": "packageType",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:SupplyChain_Consignment.PackageType.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "7014",
-                    "unece:cefactUNId": "UN01010142",
-                    "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
-                    "unece:cefactBusinessProcess": "Transport",
-                    "rdfs:comment": "A type of package, expressed as text, for this supply chain consignment."
-                },
-                {
                     "@id": "cefact:SupplyChain_ConsignmentItem.PackageType.Text",
                     "@type": "unece:BasicBIE",
                     "unece:tded": "7064",
                     "unece:cefactUNId": "UN01010140",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_ConsignmentItem.Details",
                     "unece:cefactBusinessProcess": "Transport",
-                    "rdfs:comment": "A package type, expressed as text, for this supply chain consignment item."
+                    "rdfs:comment": "A package type, expressed as text, for this supply chain consignment item.",
+                    "unece:domainName": "ConsignmentItem"
+                },
+                {
+                    "@id": "cefact:SupplyChain_Consignment.PackageType.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "7014",
+                    "unece:cefactUNId": "UN01010142",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
+                    "unece:cefactBusinessProcess": "Transport",
+                    "rdfs:comment": "A type of package, expressed as text, for this supply chain consignment.",
+                    "unece:domainName": "Consignment"
                 }
             ]
         }

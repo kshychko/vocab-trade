@@ -17,17 +17,17 @@
             "rdfs:label": "LogisticsTransportEquipment",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Logistics_TransportEquipment.Details",
-                    "@type": "unece:AggregateBIE",
-                    "unece:cefactUNId": "UN01003757",
-                    "rdfs:comment": "A piece of equipment used to hold, protect or secure cargo for logistics purposes.",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay"
-                },
-                {
                     "@id": "cefact:Referenced_Logistics_TransportEquipment.Details",
                     "@type": "unece:AggregateBIE",
                     "unece:cefactUNId": "UN01004022",
                     "rdfs:comment": "A referenced piece of equipment used to hold, protect or secure cargo for logistics purposes.",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay"
+                },
+                {
+                    "@id": "cefact:Logistics_TransportEquipment.Details",
+                    "@type": "unece:AggregateBIE",
+                    "unece:cefactUNId": "UN01003757",
+                    "rdfs:comment": "A piece of equipment used to hold, protect or secure cargo for logistics purposes.",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay"
                 }
             ]

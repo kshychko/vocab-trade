@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01001657",
                     "unece:cefactBieDomainClass": "cefact:Trade_DeliveryTerms.Details",
                     "unece:cefactBusinessProcess": "Trade",
-                    "rdfs:comment": "The trade location relevant for these trade delivery terms."
+                    "rdfs:comment": "The trade location relevant for these trade delivery terms.",
+                    "unece:domainName": "DeliveryTerms"
                 }
             ]
         }

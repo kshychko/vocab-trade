@@ -35,7 +35,8 @@
                     "unece:cefactUNId": "UN01004662",
                     "unece:cefactBieDomainClass": "cefact:Trade_ProductInstance.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The date, time, date time, or other date time value before which it is best to consume the items contained in this trade product instance."
+                    "rdfs:comment": "The date, time, date time, or other date time value before which it is best to consume the items contained in this trade product instance.",
+                    "unece:domainName": "ProductInstance"
                 }
             ]
         }

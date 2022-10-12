@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01012208",
                     "unece:cefactBieDomainClass": "cefact:Specified_GeographicalGrid.Details",
                     "unece:cefactBusinessProcess": "Agricultural",
-                    "rdfs:comment": "The dimension, expressed as a number, of this geographical grid."
+                    "rdfs:comment": "The dimension, expressed as a number, of this geographical grid.",
+                    "unece:domainName": "GeographicalGrid"
                 }
             ]
         }

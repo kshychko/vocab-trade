@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01004826",
                     "unece:cefactBieDomainClass": "cefact:Transport_Route.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "Binary object data that is the map of this transport route."
+                    "rdfs:comment": "Binary object data that is the map of this transport route.",
+                    "unece:domainName": "Route"
                 }
             ]
         }

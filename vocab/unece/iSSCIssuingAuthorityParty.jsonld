@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01010117",
                     "unece:cefactBieDomainClass": "cefact:Logistics_TransportMeans.Details",
                     "unece:cefactBusinessProcess": "Transport",
-                    "rdfs:comment": "The trade party authorized to issue the International Ship Security Certificate (ISSC) for this logistics means of transport."
+                    "rdfs:comment": "The trade party authorized to issue the International Ship Security Certificate (ISSC) for this logistics means of transport.",
+                    "unece:domainName": "TransportMeans"
                 }
             ]
         }

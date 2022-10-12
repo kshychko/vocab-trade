@@ -37,22 +37,24 @@
             "rdfs:label": "lineId",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:DocumentLine_Document.Line.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "1156",
-                    "unece:cefactUNId": "UN01003514",
-                    "unece:cefactBieDomainClass": "cefact:DocumentLine_Document.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The unique identifier of this document line."
-                },
-                {
                     "@id": "cefact:Referenced_Document.Line.Identifier",
                     "@type": "unece:BasicBIE",
                     "unece:tded": "1156",
                     "unece:cefactUNId": "UN01001575",
                     "unece:cefactBieDomainClass": "cefact:Referenced_Document.Details",
                     "unece:cefactBusinessProcess": "Trade",
-                    "rdfs:comment": "The unique identifier of a line in this referenced document."
+                    "rdfs:comment": "The unique identifier of a line in this referenced document.",
+                    "unece:domainName": "Document"
+                },
+                {
+                    "@id": "cefact:DocumentLine_Document.Line.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "1156",
+                    "unece:cefactUNId": "UN01003514",
+                    "unece:cefactBieDomainClass": "cefact:DocumentLine_Document.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The unique identifier of this document line.",
+                    "unece:domainName": "DocumentLineDocument"
                 }
             ]
         }

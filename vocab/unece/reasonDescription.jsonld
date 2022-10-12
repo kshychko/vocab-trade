@@ -37,7 +37,8 @@
                     "unece:cefactUNId": "UN01011543",
                     "unece:cefactBieDomainClass": "cefact:Header_BalanceOut.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A textual description of the reason for this header balance out."
+                    "rdfs:comment": "A textual description of the reason for this header balance out.",
+                    "unece:domainName": "BalanceOut"
                 },
                 {
                     "@id": "cefact:Payment_BalanceOut.ReasonDescription.Text",
@@ -45,7 +46,8 @@
                     "unece:cefactUNId": "UN01011833",
                     "unece:cefactBieDomainClass": "cefact:Payment_BalanceOut.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A textual description of the reason for this payment balance out."
+                    "rdfs:comment": "A textual description of the reason for this payment balance out.",
+                    "unece:domainName": "BalanceOut"
                 }
             ]
         }

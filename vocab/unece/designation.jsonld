@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01008537",
                     "unece:cefactBieDomainClass": "cefact:Trade_Product.Details",
                     "unece:cefactBusinessProcess": "Supply Chain",
-                    "rdfs:comment": "A designation, expressed as text, for this trade product."
+                    "rdfs:comment": "A designation, expressed as text, for this trade product.",
+                    "unece:domainName": "Product"
                 }
             ]
         }

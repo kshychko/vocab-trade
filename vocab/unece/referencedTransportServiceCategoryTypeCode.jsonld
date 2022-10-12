@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01010077",
                     "unece:cefactBieDomainClass": "cefact:ReferencedTransport_Service.Details",
                     "unece:cefactBusinessProcess": "Transport",
-                    "rdfs:comment": "A code specifying the category type of this referenced transport service."
+                    "rdfs:comment": "A code specifying the category type of this referenced transport service.",
+                    "unece:domainName": "Service"
                 }
             ]
         }

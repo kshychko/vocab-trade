@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01006749",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_Packaging.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The number of units of this type of supply chain packaging which can be stacked on top of each other."
+                    "rdfs:comment": "The number of units of this type of supply chain packaging which can be stacked on top of each other.",
+                    "unece:domainName": "Packaging"
                 }
             ]
         }

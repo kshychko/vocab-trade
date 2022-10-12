@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01005376",
                     "unece:cefactBieDomainClass": "cefact:Trade_Product.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A unique identifier for a product group for this trade product."
+                    "rdfs:comment": "A unique identifier for a product group for this trade product.",
+                    "unece:domainName": "Product"
                 }
             ]
         }

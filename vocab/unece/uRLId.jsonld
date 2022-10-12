@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01013211",
                     "unece:cefactBieDomainClass": "cefact:Document_Clause.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The Uniform Resource Locator (URL) for this document clause."
+                    "rdfs:comment": "The Uniform Resource Locator (URL) for this document clause.",
+                    "unece:domainName": "Clause"
                 }
             ]
         }

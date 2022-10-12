@@ -47,7 +47,17 @@
                     "unece:cefactUNId": "UN01002841",
                     "unece:cefactBieDomainClass": "cefact:Debtor_FinancialInstitution.Details",
                     "unece:cefactBusinessProcess": "Customer to bank payment initiation",
-                    "rdfs:comment": "The unique Bank Identification Code (BIC) as defined in ISO 9362 for this debtor financial institution."
+                    "rdfs:comment": "The unique Bank Identification Code (BIC) as defined in ISO 9362 for this debtor financial institution.",
+                    "unece:domainName": "DebtorFinancialInstitution"
+                },
+                {
+                    "@id": "cefact:Financial_Identity.BIC_Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01013218",
+                    "unece:cefactBieDomainClass": "cefact:Financial_Identity.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The Bank Identifier Code (BIC) as defined by ISO 9362 (Banking telecommunication messages, Bank Identifier Codes) for this financial identity.",
+                    "unece:domainName": "FinancialIdentity"
                 },
                 {
                     "@id": "cefact:Creditor_FinancialInstitution.BIC.Identifier",
@@ -56,15 +66,8 @@
                     "unece:cefactUNId": "UN01002976",
                     "unece:cefactBieDomainClass": "cefact:Creditor_FinancialInstitution.Details",
                     "unece:cefactBusinessProcess": "Customer to bank payment initiation",
-                    "rdfs:comment": "The unique Bank Identification Code (BIC) as defined in ISO 9362 for this creditor financial institution."
-                },
-                {
-                    "@id": "cefact:Financial_Identity.BIC_Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01013218",
-                    "unece:cefactBieDomainClass": "cefact:Financial_Identity.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The Bank Identifier Code (BIC) as defined by ISO 9362 (Banking telecommunication messages, Bank Identifier Codes) for this financial identity."
+                    "rdfs:comment": "The unique Bank Identification Code (BIC) as defined in ISO 9362 for this creditor financial institution.",
+                    "unece:domainName": "CreditorFinancialInstitution"
                 }
             ]
         }

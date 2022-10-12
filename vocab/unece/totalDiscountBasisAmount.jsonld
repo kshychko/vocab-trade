@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01011885",
                     "unece:cefactBieDomainClass": "cefact:TradeSettlementHeader_MonetarySummation.Details",
                     "unece:cefactBusinessProcess": "Remittance",
-                    "rdfs:comment": "A monetary value of a total discount basis reported in this trade settlement header monetary summation."
+                    "rdfs:comment": "A monetary value of a total discount basis reported in this trade settlement header monetary summation.",
+                    "unece:domainName": "TradeSettlementHeaderMonetarySummation"
                 }
             ]
         }

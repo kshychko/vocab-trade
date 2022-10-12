@@ -59,22 +59,14 @@
             "rdfs:label": "type",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Referenced_Logistics_Package.Type.Text",
+                    "@id": "cefact:SupplyChain_Packaging.Type.Text",
                     "@type": "unece:BasicBIE",
                     "unece:tded": "7064",
-                    "unece:cefactUNId": "UN01013098",
-                    "unece:cefactBieDomainClass": "cefact:ReferencedLogistics_Package.Details",
+                    "unece:cefactUNId": "UN01004314",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_Packaging.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A type, expressed as text, of this referenced logistics package."
-                },
-                {
-                    "@id": "cefact:Trade_Tax.Type.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "5152",
-                    "unece:cefactUNId": "UN01004727",
-                    "unece:cefactBieDomainClass": "cefact:Trade_Tax.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The type, expressed as text, of this trade related tax, levy or duty."
+                    "rdfs:comment": "The type, expressed as text, of supply chain packaging.",
+                    "unece:domainName": "Packaging"
                 },
                 {
                     "@id": "cefact:Transport_Route.Type.Text",
@@ -82,33 +74,8 @@
                     "unece:cefactUNId": "UN01013605",
                     "unece:cefactBieDomainClass": "cefact:Transport_Route.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A type, expressed as text for this transport route."
-                },
-                {
-                    "@id": "cefact:SupplyChain_Packaging.Type.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "7064",
-                    "unece:cefactUNId": "UN01004314",
-                    "unece:cefactBieDomainClass": "cefact:SupplyChain_Packaging.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The type, expressed as text, of supply chain packaging."
-                },
-                {
-                    "@id": "cefact:Logistics_TransportMovement.Type.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01012753",
-                    "unece:cefactBieDomainClass": "cefact:Logistics_TransportMovement.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The type, as expressed as text, of the logistics transport movement."
-                },
-                {
-                    "@id": "cefact:Referenced_TransportMeans.Type.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "8178",
-                    "unece:cefactUNId": "UN01004051",
-                    "unece:cefactBieDomainClass": "cefact:Referenced_TransportMeans.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The type, expressed as text, of this referenced transport means."
+                    "rdfs:comment": "A type, expressed as text for this transport route.",
+                    "unece:domainName": "Route"
                 },
                 {
                     "@id": "cefact:Logistics_TransportMeans.Type.Text",
@@ -117,7 +84,8 @@
                     "unece:cefactUNId": "UN01003821",
                     "unece:cefactBieDomainClass": "cefact:Logistics_TransportMeans.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The type, expressed as text, of this logistics means of transport."
+                    "rdfs:comment": "The type, expressed as text, of this logistics means of transport.",
+                    "unece:domainName": "TransportMeans"
                 },
                 {
                     "@id": "cefact:Trade_Price.Type.Text",
@@ -125,7 +93,18 @@
                     "unece:cefactUNId": "UN01013365",
                     "unece:cefactBieDomainClass": "cefact:Trade_Price.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A type, expressed as text, for this trade price."
+                    "rdfs:comment": "A type, expressed as text, for this trade price.",
+                    "unece:domainName": "TradePrice"
+                },
+                {
+                    "@id": "cefact:Trade_Tax.Type.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "5152",
+                    "unece:cefactUNId": "UN01004727",
+                    "unece:cefactBieDomainClass": "cefact:Trade_Tax.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The type, expressed as text, of this trade related tax, levy or duty.",
+                    "unece:domainName": "TradeTax"
                 },
                 {
                     "@id": "cefact:Logistics_Package.Type.Text",
@@ -134,7 +113,37 @@
                     "unece:cefactUNId": "UN01003698",
                     "unece:cefactBieDomainClass": "cefact:Logistics_Package.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A type, expressed as text, of this logistics package."
+                    "rdfs:comment": "A type, expressed as text, of this logistics package.",
+                    "unece:domainName": "Package"
+                },
+                {
+                    "@id": "cefact:Referenced_Logistics_Package.Type.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "7064",
+                    "unece:cefactUNId": "UN01013098",
+                    "unece:cefactBieDomainClass": "cefact:ReferencedLogistics_Package.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A type, expressed as text, of this referenced logistics package.",
+                    "unece:domainName": "Package"
+                },
+                {
+                    "@id": "cefact:Referenced_TransportMeans.Type.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "8178",
+                    "unece:cefactUNId": "UN01004051",
+                    "unece:cefactBieDomainClass": "cefact:Referenced_TransportMeans.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The type, expressed as text, of this referenced transport means.",
+                    "unece:domainName": "TransportMeans"
+                },
+                {
+                    "@id": "cefact:Logistics_TransportMovement.Type.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01012753",
+                    "unece:cefactBieDomainClass": "cefact:Logistics_TransportMovement.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The type, as expressed as text, of the logistics transport movement.",
+                    "unece:domainName": "TransportMovement"
                 }
             ]
         }

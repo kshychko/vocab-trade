@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01013310",
                     "unece:cefactBieDomainClass": "cefact:Referenced_Document.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A monetary value included in this referenced document."
+                    "rdfs:comment": "A monetary value included in this referenced document.",
+                    "unece:domainName": "Document"
                 }
             ]
         }

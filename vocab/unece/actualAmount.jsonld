@@ -39,12 +39,22 @@
             "rdfs:label": "actualAmount",
             "unece:cefactElementMetadata": [
                 {
+                    "@id": "cefact:Trade_AllowanceCharge.Actual.Amount",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01002069",
+                    "unece:cefactBieDomainClass": "cefact:Trade_AllowanceCharge.Details",
+                    "unece:cefactBusinessProcess": "Trade",
+                    "rdfs:comment": "An actual monetary value of the trade allowance charge.",
+                    "unece:domainName": "AllowanceCharge"
+                },
+                {
                     "@id": "cefact:Delivery_Adjustment.Actual.Amount",
                     "@type": "unece:BasicBIE",
                     "unece:cefactUNId": "UN01003501",
                     "unece:cefactBieDomainClass": "cefact:Delivery_Adjustment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "An actual monetary value added or subtracted as a result of this delivery adjustment."
+                    "rdfs:comment": "An actual monetary value added or subtracted as a result of this delivery adjustment.",
+                    "unece:domainName": "Adjustment"
                 },
                 {
                     "@id": "cefact:Applied_AllowanceCharge.Actual.Amount",
@@ -52,15 +62,8 @@
                     "unece:cefactUNId": "UN01000189",
                     "unece:cefactBieDomainClass": "cefact:Applied_AllowanceCharge.Details",
                     "unece:cefactBusinessProcess": "Pricing",
-                    "rdfs:comment": "The actual monetary value of the applied allowance charge."
-                },
-                {
-                    "@id": "cefact:Trade_AllowanceCharge.Actual.Amount",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01002069",
-                    "unece:cefactBieDomainClass": "cefact:Trade_AllowanceCharge.Details",
-                    "unece:cefactBusinessProcess": "Trade",
-                    "rdfs:comment": "An actual monetary value of the trade allowance charge."
+                    "rdfs:comment": "The actual monetary value of the applied allowance charge.",
+                    "unece:domainName": "AllowanceCharge"
                 },
                 {
                     "@id": "cefact:Financial_Adjustment.Actual.Amount",
@@ -68,7 +71,8 @@
                     "unece:cefactUNId": "UN01003597",
                     "unece:cefactBieDomainClass": "cefact:Financial_Adjustment.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "An actual monetary value added or subtracted as a result of this financial adjustment."
+                    "rdfs:comment": "An actual monetary value added or subtracted as a result of this financial adjustment.",
+                    "unece:domainName": "Adjustment"
                 }
             ]
         }

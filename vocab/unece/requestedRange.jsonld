@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01013512",
                     "unece:cefactBieDomainClass": "cefact:ControlSetting_Parameter.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A requested range specified for this control setting parameter."
+                    "rdfs:comment": "A requested range specified for this control setting parameter.",
+                    "unece:domainName": "ControlSettingParameter"
                 }
             ]
         }

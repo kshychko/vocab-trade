@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01004674",
                     "unece:cefactBieDomainClass": "cefact:Trade_ProductInstance.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The production event for this trade product instance."
+                    "rdfs:comment": "The production event for this trade product instance.",
+                    "unece:domainName": "ProductInstance"
                 }
             ]
         }

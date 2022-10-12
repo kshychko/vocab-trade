@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01003877",
                     "unece:cefactBieDomainClass": "cefact:Logistics_TransportMovement.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A route in the itinerary of this logistics transport movement."
+                    "rdfs:comment": "A route in the itinerary of this logistics transport movement.",
+                    "unece:domainName": "TransportMovement"
                 }
             ]
         }

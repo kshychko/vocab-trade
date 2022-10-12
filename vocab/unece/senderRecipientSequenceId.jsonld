@@ -35,7 +35,8 @@
                     "unece:cefactUNId": "UN01013297",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_TradeTransaction.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The sender-recipient sequence identifier for this supply chain trade transaction."
+                    "rdfs:comment": "The sender-recipient sequence identifier for this supply chain trade transaction.",
+                    "unece:domainName": "TradeTransaction"
                 }
             ]
         }

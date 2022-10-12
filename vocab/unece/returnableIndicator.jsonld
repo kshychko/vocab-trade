@@ -46,7 +46,8 @@
                     "unece:cefactUNId": "UN01006751",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_Packaging.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The indication of whether or not this supply chain packaging is returnable."
+                    "rdfs:comment": "The indication of whether or not this supply chain packaging is returnable.",
+                    "unece:domainName": "Packaging"
                 },
                 {
                     "@id": "cefact:Logistics_TransportEquipment.Returnable.Indicator",
@@ -54,7 +55,8 @@
                     "unece:cefactUNId": "UN01012583",
                     "unece:cefactBieDomainClass": "cefact:Logistics_TransportEquipment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The indication of whether or not this piece of logistics transport equipment is returnable."
+                    "rdfs:comment": "The indication of whether or not this piece of logistics transport equipment is returnable.",
+                    "unece:domainName": "LogisticsTransportEquipment"
                 },
                 {
                     "@id": "cefact:Logistics_Package.Returnable.Indicator",
@@ -62,7 +64,8 @@
                     "unece:cefactUNId": "UN01012566",
                     "unece:cefactBieDomainClass": "cefact:Logistics_Package.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The indication of whether or not this logistics package is returnable."
+                    "rdfs:comment": "The indication of whether or not this logistics package is returnable.",
+                    "unece:domainName": "Package"
                 }
             ]
         }

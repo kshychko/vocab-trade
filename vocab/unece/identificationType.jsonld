@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01013288",
                     "unece:cefactBieDomainClass": "cefact:Proprietary_Identity.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "An identifier type, expressed as text, for this proprietary identity."
+                    "rdfs:comment": "An identifier type, expressed as text, for this proprietary identity.",
+                    "unece:domainName": "ProprietaryIdentity"
                 }
             ]
         }

@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01004015",
                     "unece:cefactBieDomainClass": "cefact:Referenced_Document.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The specified period within which this referenced document may be accepted."
+                    "rdfs:comment": "The specified period within which this referenced document may be accepted.",
+                    "unece:domainName": "Document"
                 }
             ]
         }

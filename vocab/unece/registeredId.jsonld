@@ -35,7 +35,8 @@
                     "unece:cefactUNId": "UN01013041",
                     "unece:cefactBieDomainClass": "cefact:Trade_Party.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A registered identifier of this trade party."
+                    "rdfs:comment": "A registered identifier of this trade party.",
+                    "unece:domainName": "TradeParty"
                 }
             ]
         }

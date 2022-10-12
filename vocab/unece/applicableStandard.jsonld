@@ -41,7 +41,8 @@
                     "unece:cefactUNId": "UN01008311",
                     "unece:cefactBieDomainClass": "cefact:Product_Classification.Details",
                     "unece:cefactBusinessProcess": "Supply Chain",
-                    "rdfs:comment": "The referenced standard that is applicable to this product classification."
+                    "rdfs:comment": "The referenced standard that is applicable to this product classification.",
+                    "unece:domainName": "Classification"
                 },
                 {
                     "@id": "cefact:Product_Characteristic.Applicable.Referenced_Standard",
@@ -49,7 +50,8 @@
                     "unece:cefactUNId": "UN01008309",
                     "unece:cefactBieDomainClass": "cefact:Product_Characteristic.Details",
                     "unece:cefactBusinessProcess": "Supply Chain",
-                    "rdfs:comment": "The referenced standard that is applicable to this product characteristic."
+                    "rdfs:comment": "The referenced standard that is applicable to this product characteristic.",
+                    "unece:domainName": "Characteristic"
                 }
             ]
         }

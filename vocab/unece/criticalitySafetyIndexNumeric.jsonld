@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01006201",
                     "unece:cefactBieDomainClass": "cefact:Radioactive_Material.Details",
                     "unece:cefactBusinessProcess": "Cross-Border",
-                    "rdfs:comment": "The criticality safety index number of this radioactive material."
+                    "rdfs:comment": "The criticality safety index number of this radioactive material.",
+                    "unece:domainName": "Material"
                 }
             ]
         }

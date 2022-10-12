@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01003775",
                     "unece:cefactBieDomainClass": "cefact:Logistics_TransportEquipment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The code specifying the arrangement for the haulage of this piece of logistics transport equipment."
+                    "rdfs:comment": "The code specifying the arrangement for the haulage of this piece of logistics transport equipment.",
+                    "unece:domainName": "LogisticsTransportEquipment"
                 }
             ]
         }

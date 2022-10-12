@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01007274",
                     "unece:cefactBieDomainClass": "cefact:Trade_Product.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "An additional referenced document for this trade product, such as a manual or a certificate."
+                    "rdfs:comment": "An additional referenced document for this trade product, such as a manual or a certificate.",
+                    "unece:domainName": "Product"
                 }
             ]
         }

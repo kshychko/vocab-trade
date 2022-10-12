@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01013239",
                     "unece:cefactBieDomainClass": "cefact:FinancingRequest_Document.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The creditor financial institution specified as the intermediary in this financing request document."
+                    "rdfs:comment": "The creditor financial institution specified as the intermediary in this financing request document.",
+                    "unece:domainName": "FinancingRequestDocument"
                 }
             ]
         }

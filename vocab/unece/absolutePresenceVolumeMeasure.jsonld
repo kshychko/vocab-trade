@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01003889",
                     "unece:cefactBieDomainClass": "cefact:Material_GoodsCharacteristic.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The volume measure of the absolute presence of this material goods characteristic."
+                    "rdfs:comment": "The volume measure of the absolute presence of this material goods characteristic.",
+                    "unece:domainName": "GoodsCharacteristic"
                 }
             ]
         }

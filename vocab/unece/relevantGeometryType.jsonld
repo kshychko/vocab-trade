@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01013622",
                     "unece:cefactBieDomainClass": "cefact:Specified_GeographicalObjectCharacteristic.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The type of geometry, expressed as text, relevant for this geographical object characteristic."
+                    "rdfs:comment": "The type of geometry, expressed as text, relevant for this geographical object characteristic.",
+                    "unece:domainName": "GeographicalObjectCharacteristic"
                 }
             ]
         }

@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01003827",
                     "unece:cefactBieDomainClass": "cefact:Logistics_TransportMeans.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The measure of the draught level of this logistics means of transport."
+                    "rdfs:comment": "The measure of the draught level of this logistics means of transport.",
+                    "unece:domainName": "TransportMeans"
                 }
             ]
         }

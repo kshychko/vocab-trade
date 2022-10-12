@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01011556",
                     "unece:cefactBieDomainClass": "cefact:Header_TradeAgreement.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The party assigned as an accountant by the seller for this header trade agreement."
+                    "rdfs:comment": "The party assigned as an accountant by the seller for this header trade agreement.",
+                    "unece:domainName": "HeaderTradeAgreement"
                 }
             ]
         }

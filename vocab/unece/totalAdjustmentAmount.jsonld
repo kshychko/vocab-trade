@@ -42,7 +42,8 @@
                     "unece:cefactUNId": "UN01012994",
                     "unece:cefactBieDomainClass": "cefact:Header_TradeSettlement.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A monetary value of the total adjustment for this header trade settlement."
+                    "rdfs:comment": "A monetary value of the total adjustment for this header trade settlement.",
+                    "unece:domainName": "HeaderTradeSettlement"
                 },
                 {
                     "@id": "cefact:Line_TradeSettlement.Total_Adjustment.Amount",
@@ -50,7 +51,8 @@
                     "unece:cefactUNId": "UN01011939",
                     "unece:cefactBieDomainClass": "cefact:Line_TradeSettlement.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The monetary value of the total adjustment for this line trade settlement."
+                    "rdfs:comment": "The monetary value of the total adjustment for this line trade settlement.",
+                    "unece:domainName": "LineTradeSettlement"
                 }
             ]
         }

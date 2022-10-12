@@ -41,7 +41,8 @@
                     "unece:cefactUNId": "UN01008971",
                     "unece:cefactBieDomainClass": "cefact:CrossBorder_RegulatoryProcedure.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "Border clearance instructions for this cross-border regulatory procedure."
+                    "rdfs:comment": "Border clearance instructions for this cross-border regulatory procedure.",
+                    "unece:domainName": "RegulatoryProcedure"
                 },
                 {
                     "@id": "cefact:SupplyChain_ConsignmentItem.BorderClearance.Transport_Instructions",
@@ -49,7 +50,8 @@
                     "unece:cefactUNId": "UN01009000",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_ConsignmentItem.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "Border clearance instructions for this supply chain consignment item."
+                    "rdfs:comment": "Border clearance instructions for this supply chain consignment item.",
+                    "unece:domainName": "ConsignmentItem"
                 }
             ]
         }

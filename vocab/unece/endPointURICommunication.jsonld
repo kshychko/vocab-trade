@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01004613",
                     "unece:cefactBieDomainClass": "cefact:Trade_Party.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The communication address of the end point URI for this trade party."
+                    "rdfs:comment": "The communication address of the end point URI for this trade party.",
+                    "unece:domainName": "TradeParty"
                 }
             ]
         }

@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01012578",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "Cargo insurance instructions, expressed as text, for this supply chain consignment."
+                    "rdfs:comment": "Cargo insurance instructions, expressed as text, for this supply chain consignment.",
+                    "unece:domainName": "Consignment"
                 }
             ]
         }

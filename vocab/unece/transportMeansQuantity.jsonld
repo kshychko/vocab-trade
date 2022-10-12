@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01010069",
                     "unece:cefactBieDomainClass": "cefact:Logistics_Convoy.Details",
                     "unece:cefactBusinessProcess": "Transport",
-                    "rdfs:comment": "The number of means of transport in this logistics convoy."
+                    "rdfs:comment": "The number of means of transport in this logistics convoy.",
+                    "unece:domainName": "Convoy"
                 }
             ]
         }

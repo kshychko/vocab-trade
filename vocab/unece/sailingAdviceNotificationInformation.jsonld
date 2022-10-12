@@ -35,7 +35,8 @@
                     "unece:cefactUNId": "UN01003853",
                     "unece:cefactBieDomainClass": "cefact:Logistics_TransportMovement.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "Sailing advice notification information, expressed as text, for this logistics transport movement."
+                    "rdfs:comment": "Sailing advice notification information, expressed as text, for this logistics transport movement.",
+                    "unece:domainName": "TransportMovement"
                 }
             ]
         }

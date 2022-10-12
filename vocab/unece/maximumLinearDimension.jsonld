@@ -41,7 +41,8 @@
                     "unece:cefactUNId": "UN01004707",
                     "unece:cefactBieDomainClass": "cefact:Trade_Product.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "Maximum linear spatial dimensions of this trade product."
+                    "rdfs:comment": "Maximum linear spatial dimensions of this trade product.",
+                    "unece:domainName": "Product"
                 },
                 {
                     "@id": "cefact:SupplyChain_Packaging.Maximum_Linear.Spatial_Dimension",
@@ -49,7 +50,8 @@
                     "unece:cefactUNId": "UN01004322",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_Packaging.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The maximum linear spatial dimensions of this supply chain packaging."
+                    "rdfs:comment": "The maximum linear spatial dimensions of this supply chain packaging.",
+                    "unece:domainName": "Packaging"
                 }
             ]
         }

@@ -32,22 +32,24 @@
             "rdfs:label": "consigneeAssignedId",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:SupplyChain_Consignment.ConsigneeAssigned.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "1362",
-                    "unece:cefactUNId": "UN01004162",
-                    "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The unique identifier assigned by the consignee to this supply chain consignment."
-                },
-                {
                     "@id": "cefact:Referenced_SupplyChain_Consignment.ConsigneeAssigned.Identifier",
                     "@type": "unece:BasicBIE",
                     "unece:tded": "1362",
                     "unece:cefactUNId": "UN01004043",
                     "unece:cefactBieDomainClass": "cefact:ReferencedSupplyChain_Consignment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The unique identifier assigned by the consignee to this referenced supply chain consignment."
+                    "rdfs:comment": "The unique identifier assigned by the consignee to this referenced supply chain consignment.",
+                    "unece:domainName": "Consignment"
+                },
+                {
+                    "@id": "cefact:SupplyChain_Consignment.ConsigneeAssigned.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "1362",
+                    "unece:cefactUNId": "UN01004162",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The unique identifier assigned by the consignee to this supply chain consignment.",
+                    "unece:domainName": "Consignment"
                 }
             ]
         }

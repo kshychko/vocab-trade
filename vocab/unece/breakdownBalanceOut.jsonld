@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01011546",
                     "unece:cefactBieDomainClass": "cefact:Header_BalanceOut.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A balance out breakdown of this header balance out."
+                    "rdfs:comment": "A balance out breakdown of this header balance out.",
+                    "unece:domainName": "BalanceOut"
                 }
             ]
         }

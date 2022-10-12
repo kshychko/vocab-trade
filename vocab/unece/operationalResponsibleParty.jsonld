@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01013568",
                     "unece:cefactBieDomainClass": "cefact:Communication_Event.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The operational responsible party for this communication event."
+                    "rdfs:comment": "The operational responsible party for this communication event.",
+                    "unece:domainName": "CommunicationEvent"
                 }
             ]
         }

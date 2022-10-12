@@ -42,12 +42,13 @@
             "rdfs:label": "perPackageUnitQuantity",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Logistics_Package.PerPackage_Unit.Quantity",
+                    "@id": "cefact:Line_TradeDelivery.PerPackage_Unit.Quantity",
                     "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01012961",
-                    "unece:cefactBieDomainClass": "cefact:Logistics_Package.Details",
-                    "unece:cefactBusinessProcess": "Supply Chain",
-                    "rdfs:comment": "A number of units per package in this logistics package."
+                    "unece:cefactUNId": "UN01011766",
+                    "unece:cefactBieDomainClass": "cefact:Line_TradeDelivery.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The number of units per package, at line level, in this trade delivery.",
+                    "unece:domainName": "LineTradeDelivery"
                 },
                 {
                     "@id": "cefact:Referenced_Logistics_Package.PerPackage_Unit.Quantity",
@@ -55,15 +56,8 @@
                     "unece:cefactUNId": "UN01013106",
                     "unece:cefactBieDomainClass": "cefact:ReferencedLogistics_Package.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A number of units per package in this referenced logistics package."
-                },
-                {
-                    "@id": "cefact:Line_TradeDelivery.PerPackage_Unit.Quantity",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01011766",
-                    "unece:cefactBieDomainClass": "cefact:Line_TradeDelivery.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The number of units per package, at line level, in this trade delivery."
+                    "rdfs:comment": "A number of units per package in this referenced logistics package.",
+                    "unece:domainName": "Package"
                 },
                 {
                     "@id": "cefact:SubordinateLine_TradeDelivery.PerPackage_Unit.Quantity",
@@ -71,7 +65,17 @@
                     "unece:cefactUNId": "UN01011852",
                     "unece:cefactBieDomainClass": "cefact:SubordinateLine_TradeDelivery.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The number of units per package in this subordinate line trade delivery."
+                    "rdfs:comment": "The number of units per package in this subordinate line trade delivery.",
+                    "unece:domainName": "SubordinateLineTradeDelivery"
+                },
+                {
+                    "@id": "cefact:Logistics_Package.PerPackage_Unit.Quantity",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01012961",
+                    "unece:cefactBieDomainClass": "cefact:Logistics_Package.Details",
+                    "unece:cefactBusinessProcess": "Supply Chain",
+                    "rdfs:comment": "A number of units per package in this logistics package.",
+                    "unece:domainName": "Package"
                 }
             ]
         }

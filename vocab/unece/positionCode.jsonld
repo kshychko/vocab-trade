@@ -42,7 +42,8 @@
                     "unece:cefactUNId": "UN01013480",
                     "unece:cefactBieDomainClass": "cefact:Monitoring_IOTDevice.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The code specifying the position of this monitoring IOT device."
+                    "rdfs:comment": "The code specifying the position of this monitoring IOT device.",
+                    "unece:domainName": "IOTDevice"
                 },
                 {
                     "@id": "cefact:Monitoring_Sensor.Position.Code",
@@ -50,7 +51,8 @@
                     "unece:cefactUNId": "UN01013542",
                     "unece:cefactBieDomainClass": "cefact:Monitoring_Sensor.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The code specifying a position of this monitoring sensor."
+                    "rdfs:comment": "The code specifying a position of this monitoring sensor.",
+                    "unece:domainName": "Sensor"
                 }
             ]
         }

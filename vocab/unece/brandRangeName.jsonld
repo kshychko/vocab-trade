@@ -35,7 +35,8 @@
                     "unece:cefactUNId": "UN01008522",
                     "unece:cefactBieDomainClass": "cefact:Trade_Product.Details",
                     "unece:cefactBusinessProcess": "Cataloguing",
-                    "rdfs:comment": "The brand range name, expressed as text, for this trade product."
+                    "rdfs:comment": "The brand range name, expressed as text, for this trade product.",
+                    "unece:domainName": "Product"
                 }
             ]
         }

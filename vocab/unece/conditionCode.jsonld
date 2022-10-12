@@ -42,7 +42,8 @@
                     "unece:cefactUNId": "UN01013263",
                     "unece:cefactBieDomainClass": "cefact:Financing_Status.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The code specifying the condition of this financing status."
+                    "rdfs:comment": "The code specifying the condition of this financing status.",
+                    "unece:domainName": "FinancingStatus"
                 },
                 {
                     "@id": "cefact:SupplyChain_Packaging.Condition.Code",
@@ -50,7 +51,8 @@
                     "unece:cefactUNId": "UN01004316",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_Packaging.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A code specifying the condition of this supply chain packaging."
+                    "rdfs:comment": "A code specifying the condition of this supply chain packaging.",
+                    "unece:domainName": "Packaging"
                 }
             ]
         }

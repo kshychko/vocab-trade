@@ -43,7 +43,8 @@
                     "unece:cefactUNId": "UN01003622",
                     "unece:cefactBieDomainClass": "cefact:GeographicalCoordinate.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The unique identifier of the reference system used for measuring a geographical coordinate."
+                    "rdfs:comment": "The unique identifier of the reference system used for measuring a geographical coordinate.",
+                    "unece:domainName": "GeographicalCoordinate"
                 },
                 {
                     "@id": "cefact:Product_Classification.System.Identifier",
@@ -52,7 +53,8 @@
                     "unece:cefactUNId": "UN01002609",
                     "unece:cefactBieDomainClass": "cefact:Product_Classification.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The unique identifier of the classification system for this product classification."
+                    "rdfs:comment": "The unique identifier of the classification system for this product classification.",
+                    "unece:domainName": "Classification"
                 },
                 {
                     "@id": "cefact:Specified_GeographicalCoordinate.System.Identifier",
@@ -60,7 +62,8 @@
                     "unece:cefactUNId": "UN01002032",
                     "unece:cefactBieDomainClass": "cefact:Specified_GeographicalCoordinate.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The unique identifier of the system used for measuring this specified geographical coordinate."
+                    "rdfs:comment": "The unique identifier of the system used for measuring this specified geographical coordinate.",
+                    "unece:domainName": "GeographicalCoordinate"
                 }
             ]
         }

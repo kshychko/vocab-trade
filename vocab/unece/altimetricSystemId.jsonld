@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01003624",
                     "unece:cefactBieDomainClass": "cefact:GeographicalCoordinate.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The unique identifier of the system used for measuring the altitude."
+                    "rdfs:comment": "The unique identifier of the system used for measuring the altitude.",
+                    "unece:domainName": "GeographicalCoordinate"
                 }
             ]
         }

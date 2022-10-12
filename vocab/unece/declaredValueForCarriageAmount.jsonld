@@ -37,22 +37,24 @@
             "rdfs:label": "declaredValueForCarriageAmount",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:SupplyChain_ConsignmentItem.DeclaredValueForCarriage.Amount",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "5036",
-                    "unece:cefactUNId": "UN01004114",
-                    "unece:cefactBieDomainClass": "cefact:SupplyChain_ConsignmentItem.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The monetary value of this supply chain consignment item as declared by the shipper or his agent for the purpose of varying the carrier's level of liability from that provided in the contract of carriage, in case of loss or damage to goods or delayed delivery."
-                },
-                {
                     "@id": "cefact:SupplyChain_Consignment.DeclaredValueForCarriage.Amount",
                     "@type": "unece:BasicBIE",
                     "unece:tded": "5036",
                     "unece:cefactUNId": "UN01006138",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The monetary value of this supply chain consignment as declared by the shipper or his agent for the purpose of varying the carrier's level of liability from that provided in the contract of carriage, in case of loss or damage to goods or delayed delivery."
+                    "rdfs:comment": "The monetary value of this supply chain consignment as declared by the shipper or his agent for the purpose of varying the carrier's level of liability from that provided in the contract of carriage, in case of loss or damage to goods or delayed delivery.",
+                    "unece:domainName": "Consignment"
+                },
+                {
+                    "@id": "cefact:SupplyChain_ConsignmentItem.DeclaredValueForCarriage.Amount",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "5036",
+                    "unece:cefactUNId": "UN01004114",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_ConsignmentItem.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The monetary value of this supply chain consignment item as declared by the shipper or his agent for the purpose of varying the carrier's level of liability from that provided in the contract of carriage, in case of loss or damage to goods or delayed delivery.",
+                    "unece:domainName": "ConsignmentItem"
                 }
             ]
         }

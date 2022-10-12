@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01004827",
                     "unece:cefactBieDomainClass": "cefact:Transport_Route.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A means of transport, expressed as text, for this transport route."
+                    "rdfs:comment": "A means of transport, expressed as text, for this transport route.",
+                    "unece:domainName": "Route"
                 }
             ]
         }

@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01006030",
                     "unece:cefactBieDomainClass": "cefact:Trade_AccountingAccount.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The cost reference dimension pattern, expressed as text, for this trade accounting account."
+                    "rdfs:comment": "The cost reference dimension pattern, expressed as text, for this trade accounting account.",
+                    "unece:domainName": "AccountingAccount"
                 }
             ]
         }

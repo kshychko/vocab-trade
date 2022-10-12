@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01010073",
                     "unece:cefactBieDomainClass": "cefact:Logistics_Convoy.Details",
                     "unece:cefactBusinessProcess": "Transport",
-                    "rdfs:comment": "A means of transport not actively powering this logistics convoy."
+                    "rdfs:comment": "A means of transport not actively powering this logistics convoy.",
+                    "unece:domainName": "Convoy"
                 }
             ]
         }

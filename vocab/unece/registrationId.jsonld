@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01007239",
                     "unece:cefactBieDomainClass": "cefact:Trade_ProductInstance.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A unique registration identifier, such as a vehicle licence plate identification, for this trade product instance."
+                    "rdfs:comment": "A unique registration identifier, such as a vehicle licence plate identification, for this trade product instance.",
+                    "unece:domainName": "ProductInstance"
                 }
             ]
         }

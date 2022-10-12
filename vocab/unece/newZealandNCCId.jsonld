@@ -37,22 +37,24 @@
             "rdfs:label": "newZealandNCCId",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Debtor_FinancialInstitution.NewZealandNCC_Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "3433",
-                    "unece:cefactUNId": "UN01002844",
-                    "unece:cefactBieDomainClass": "cefact:Debtor_FinancialInstitution.Details",
-                    "unece:cefactBusinessProcess": "Customer to bank payment initiation",
-                    "rdfs:comment": "The unique New Zealand National Clearing Code (NCC) identifier as assigned by the New Zealand Bankers' Association (NZBA) for this debtor financial institution."
-                },
-                {
                     "@id": "cefact:Creditor_FinancialInstitution.NewZealandNCC_Identification.Identifier",
                     "@type": "unece:BasicBIE",
                     "unece:tded": "3433",
                     "unece:cefactUNId": "UN01002979",
                     "unece:cefactBieDomainClass": "cefact:Creditor_FinancialInstitution.Details",
                     "unece:cefactBusinessProcess": "Customer to bank payment initiation",
-                    "rdfs:comment": "The unique New Zealand National Clearing Code (NCC) identifier as assigned by the New Zealand Bankers' Association (NZBA) for this creditor financial institution."
+                    "rdfs:comment": "The unique New Zealand National Clearing Code (NCC) identifier as assigned by the New Zealand Bankers' Association (NZBA) for this creditor financial institution.",
+                    "unece:domainName": "CreditorFinancialInstitution"
+                },
+                {
+                    "@id": "cefact:Debtor_FinancialInstitution.NewZealandNCC_Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "3433",
+                    "unece:cefactUNId": "UN01002844",
+                    "unece:cefactBieDomainClass": "cefact:Debtor_FinancialInstitution.Details",
+                    "unece:cefactBusinessProcess": "Customer to bank payment initiation",
+                    "rdfs:comment": "The unique New Zealand National Clearing Code (NCC) identifier as assigned by the New Zealand Bankers' Association (NZBA) for this debtor financial institution.",
+                    "unece:domainName": "DebtorFinancialInstitution"
                 }
             ]
         }

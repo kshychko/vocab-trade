@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01010124",
                     "unece:cefactBieDomainClass": "cefact:Logistics_TransportMovement.Details",
                     "unece:cefactBusinessProcess": "Transport",
-                    "rdfs:comment": "The convoy associated with this logistics transport movement."
+                    "rdfs:comment": "The convoy associated with this logistics transport movement.",
+                    "unece:domainName": "TransportMovement"
                 }
             ]
         }

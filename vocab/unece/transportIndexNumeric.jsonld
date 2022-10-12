@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01006200",
                     "unece:cefactBieDomainClass": "cefact:Radioactive_Material.Details",
                     "unece:cefactBusinessProcess": "Cross-Border",
-                    "rdfs:comment": "The transport index number of this radioactive material."
+                    "rdfs:comment": "The transport index number of this radioactive material.",
+                    "unece:domainName": "Material"
                 }
             ]
         }

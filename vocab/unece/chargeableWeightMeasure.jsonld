@@ -46,15 +46,8 @@
                     "unece:cefactUNId": "UN01012997",
                     "unece:cefactBieDomainClass": "cefact:Line_TradeDelivery.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The measure of the chargeable weight, at line level, for this trade delivery."
-                },
-                {
-                    "@id": "cefact:SupplyChain_Consignment.ChargeableWeight.Measure",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01004177",
-                    "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A measure of a chargeable weight of this supply chain consignment."
+                    "rdfs:comment": "The measure of the chargeable weight, at line level, for this trade delivery.",
+                    "unece:domainName": "LineTradeDelivery"
                 },
                 {
                     "@id": "cefact:SupplyChain_ConsignmentItem.ChargeableWeight.Measure",
@@ -62,7 +55,17 @@
                     "unece:cefactUNId": "UN01004123",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_ConsignmentItem.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A measure of the supply chain consignment item weight on which charges are to be based."
+                    "rdfs:comment": "A measure of the supply chain consignment item weight on which charges are to be based.",
+                    "unece:domainName": "ConsignmentItem"
+                },
+                {
+                    "@id": "cefact:SupplyChain_Consignment.ChargeableWeight.Measure",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01004177",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A measure of a chargeable weight of this supply chain consignment.",
+                    "unece:domainName": "Consignment"
                 }
             ]
         }

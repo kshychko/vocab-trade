@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01001675",
                     "unece:cefactBieDomainClass": "cefact:Trade_PaymentTerms.Details",
                     "unece:cefactBusinessProcess": "Trade",
-                    "rdfs:comment": "The measure of the number of settlement periods from this trade payment term time reference to the latest payment date, such as 30 days, 3 months."
+                    "rdfs:comment": "The measure of the number of settlement periods from this trade payment term time reference to the latest payment date, such as 30 days, 3 months.",
+                    "unece:domainName": "PaymentTerms"
                 }
             ]
         }

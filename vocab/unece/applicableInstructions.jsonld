@@ -15,7 +15,7 @@
         {
             "@id": "unece:applicableInstructions",
             "schema:rangeIncludes": {
-                "@id": "unece:DisposalInstructions"
+                "@id": "unece:ReturnableAssetInstructions"
             },
             "@type": [
                 "rdf:Property",
@@ -37,12 +37,22 @@
             "rdfs:label": "applicableInstructions",
             "unece:cefactElementMetadata": [
                 {
+                    "@id": "cefact:Trade_Product.Applicable.Disposal_Instructions",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01008515",
+                    "unece:cefactBieDomainClass": "cefact:Trade_Product.Details",
+                    "unece:cefactBusinessProcess": "Trade",
+                    "rdfs:comment": "Disposal instructions applicable to this trade product.",
+                    "unece:domainName": "Product"
+                },
+                {
                     "@id": "cefact:SupplyChain_Packaging.Applicable.Disposal_Instructions",
                     "@type": "unece:AssociationBIE",
                     "unece:cefactUNId": "UN01008491",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_Packaging.Details",
                     "unece:cefactBusinessProcess": "Supply Chain",
-                    "rdfs:comment": "Disposal instructions for this supply chain packaging."
+                    "rdfs:comment": "Disposal instructions for this supply chain packaging.",
+                    "unece:domainName": "Packaging"
                 },
                 {
                     "@id": "cefact:SupplyChain_Packaging.Applicable.ReturnableAsset_Instructions",
@@ -50,15 +60,8 @@
                     "unece:cefactUNId": "UN01008492",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_Packaging.Details",
                     "unece:cefactBusinessProcess": "Supply Chain",
-                    "rdfs:comment": "Returnable asset instructions for this supply chain packaging."
-                },
-                {
-                    "@id": "cefact:Trade_Product.Applicable.Disposal_Instructions",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01008515",
-                    "unece:cefactBieDomainClass": "cefact:Trade_Product.Details",
-                    "unece:cefactBusinessProcess": "Trade",
-                    "rdfs:comment": "Disposal instructions applicable to this trade product."
+                    "rdfs:comment": "Returnable asset instructions for this supply chain packaging.",
+                    "unece:domainName": "Packaging"
                 }
             ]
         }

@@ -35,7 +35,8 @@
                     "unece:cefactUNId": "UN01004755",
                     "unece:cefactBieDomainClass": "cefact:Transport_CargoInsurance.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The contract general conditions, expressed as text, for this transport cargo insurance."
+                    "rdfs:comment": "The contract general conditions, expressed as text, for this transport cargo insurance.",
+                    "unece:domainName": "CargoInsurance"
                 }
             ]
         }

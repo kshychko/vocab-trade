@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01006210",
                     "unece:cefactBieDomainClass": "cefact:Transport_DangerousGoods.Details",
                     "unece:cefactBusinessProcess": "Cross-Border",
-                    "rdfs:comment": "The reportable quantity for these transported dangerous goods. Quantity of a hazardous substance that triggers reports under Comprehensive Environmental Response, Compensation, and Liability Act (CERCLA). If a substance exceeds its Reportable Quantity, the release must be reported to the National Response Center, the SERC, and community emergency coordinators for areas likely to be affected."
+                    "rdfs:comment": "The reportable quantity for these transported dangerous goods. Quantity of a hazardous substance that triggers reports under Comprehensive Environmental Response, Compensation, and Liability Act (CERCLA). If a substance exceeds its Reportable Quantity, the release must be reported to the National Response Center, the SERC, and community emergency coordinators for areas likely to be affected.",
+                    "unece:domainName": "DangerousGoods"
                 }
             ]
         }

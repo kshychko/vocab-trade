@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01006198",
                     "unece:cefactBieDomainClass": "cefact:Radioactive_Material.Details",
                     "unece:cefactBusinessProcess": "Cross-Border",
-                    "rdfs:comment": "Information, expressed as text, describing the special form for this radioactive material."
+                    "rdfs:comment": "Information, expressed as text, describing the special form for this radioactive material.",
+                    "unece:domainName": "Material"
                 }
             ]
         }

@@ -35,7 +35,8 @@
                     "unece:cefactUNId": "UN01004171",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The date, time, date time or other date time value when this supply chain consignment will exit, or has exited from the last port, airport, or border post of the country of export."
+                    "rdfs:comment": "The date, time, date time or other date time value when this supply chain consignment will exit, or has exited from the last port, airport, or border post of the country of export.",
+                    "unece:domainName": "Consignment"
                 }
             ]
         }

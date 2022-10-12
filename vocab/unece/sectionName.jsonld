@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01007188",
                     "unece:cefactBieDomainClass": "cefact:Referenced_Document.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A section name, expressed as text, for this referenced document."
+                    "rdfs:comment": "A section name, expressed as text, for this referenced document.",
+                    "unece:domainName": "Document"
                 }
             ]
         }

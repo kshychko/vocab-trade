@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01002293",
                     "unece:cefactBieDomainClass": "cefact:Telecommunication_Communication.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The special device type, expressed as text, for this telecommunication communication, such as a device for the hearing impaired."
+                    "rdfs:comment": "The special device type, expressed as text, for this telecommunication communication, such as a device for the hearing impaired.",
+                    "unece:domainName": "TelecommunicationCommunication"
                 }
             ]
         }

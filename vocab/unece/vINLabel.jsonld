@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01003746",
                     "unece:cefactBieDomainClass": "cefact:Logistics_ShippingMarks.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A Vehicle Identification Number (VIN) label that is a part of these logistics shipping marks."
+                    "rdfs:comment": "A Vehicle Identification Number (VIN) label that is a part of these logistics shipping marks.",
+                    "unece:domainName": "ShippingMarks"
                 }
             ]
         }

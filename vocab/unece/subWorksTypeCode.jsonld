@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01000376",
                     "unece:cefactBieDomainClass": "cefact:Procuring_Project.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A code specifying the type of sub works, such as land surveying or information technology consulting, for this procuring project."
+                    "rdfs:comment": "A code specifying the type of sub works, such as land surveying or information technology consulting, for this procuring project.",
+                    "unece:domainName": "Project"
                 }
             ]
         }

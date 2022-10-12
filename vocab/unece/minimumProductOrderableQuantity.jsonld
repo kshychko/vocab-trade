@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01011702",
                     "unece:cefactBieDomainClass": "cefact:Line_TradeAgreement.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The minimum product orderable quantity for this line trade agreement."
+                    "rdfs:comment": "The minimum product orderable quantity for this line trade agreement.",
+                    "unece:domainName": "LineTradeAgreement"
                 }
             ]
         }

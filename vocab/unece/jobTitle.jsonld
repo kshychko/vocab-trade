@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01004561",
                     "unece:cefactBieDomainClass": "cefact:Trade_Contact.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The job title, position or designation, expressed as text, of this trade contact within an organization, such as Director, Software Engineer, Purchasing Manager."
+                    "rdfs:comment": "The job title, position or designation, expressed as text, of this trade contact within an organization, such as Director, Software Engineer, Purchasing Manager.",
+                    "unece:domainName": "Contact"
                 }
             ]
         }

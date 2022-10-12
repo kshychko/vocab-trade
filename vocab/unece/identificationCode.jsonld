@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01010067",
                     "unece:cefactBieDomainClass": "cefact:Identified_Fault.Details",
                     "unece:cefactBusinessProcess": "Transport",
-                    "rdfs:comment": "A code specifying an identified fault."
+                    "rdfs:comment": "A code specifying an identified fault.",
+                    "unece:domainName": "Fault"
                 }
             ]
         }

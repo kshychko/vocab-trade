@@ -35,7 +35,8 @@
                     "unece:cefactUNId": "UN01004763",
                     "unece:cefactBieDomainClass": "cefact:Transport_DangerousGoods.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The code specifying the unique United Nations Dangerous Goods (UNDG) number assigned to these transported dangerous goods."
+                    "rdfs:comment": "The code specifying the unique United Nations Dangerous Goods (UNDG) number assigned to these transported dangerous goods.",
+                    "unece:domainName": "DangerousGoods"
                 }
             ]
         }

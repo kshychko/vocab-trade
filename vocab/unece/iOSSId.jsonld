@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01013112",
                     "unece:cefactBieDomainClass": "cefact:Tax_Registration.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The Import One Stop Shop (IOSS) identifier for this tax registration."
+                    "rdfs:comment": "The Import One Stop Shop (IOSS) identifier for this tax registration.",
+                    "unece:domainName": "TaxRegistration"
                 }
             ]
         }

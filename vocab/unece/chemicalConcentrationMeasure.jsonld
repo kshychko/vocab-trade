@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01009028",
                     "unece:cefactBieDomainClass": "cefact:Applied_ChemicalTreatment.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A measure of the chemical concentration of this applied chemical treatment."
+                    "rdfs:comment": "A measure of the chemical concentration of this applied chemical treatment.",
+                    "unece:domainName": "ChemicalTreatment"
                 }
             ]
         }

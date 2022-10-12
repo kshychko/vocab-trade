@@ -35,7 +35,8 @@
                     "unece:cefactUNId": "UN01003850",
                     "unece:cefactBieDomainClass": "cefact:Logistics_TransportMovement.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The number of crew members for this logistics transport movement."
+                    "rdfs:comment": "The number of crew members for this logistics transport movement.",
+                    "unece:domainName": "TransportMovement"
                 }
             ]
         }

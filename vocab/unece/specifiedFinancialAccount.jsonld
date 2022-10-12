@@ -15,7 +15,7 @@
         {
             "@id": "unece:specifiedFinancialAccount",
             "schema:rangeIncludes": {
-                "@id": "unece:CreditorFinancialAccount"
+                "@id": "unece:DebtorFinancialAccount"
             },
             "@type": [
                 "rdf:Property",
@@ -44,28 +44,13 @@
             "rdfs:label": "specifiedFinancialAccount",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:FinancingSummary_Document.Specified.Creditor_FinancialAccount",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01013252",
-                    "unece:cefactBieDomainClass": "cefact:FinancingSummary_Document.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The creditor financial account, used for crediting, specified for this financing summary document."
-                },
-                {
-                    "@id": "cefact:Cross-Border_RegulatoryProcedure.Specified.Debtor_FinancialAccount",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01006181",
-                    "unece:cefactBieDomainClass": "cefact:CrossBorder_RegulatoryProcedure.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A debtor financial account specified for this cross-border regulatory procedure."
-                },
-                {
                     "@id": "cefact:Requesting_Party.Specified.Creditor_FinancialAccount",
                     "@type": "unece:AssociationBIE",
                     "unece:cefactUNId": "UN01013294",
                     "unece:cefactBieDomainClass": "cefact:Requesting_Party.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The creditor financial account, used for crediting, specified for this requesting party."
+                    "rdfs:comment": "The creditor financial account, used for crediting, specified for this requesting party.",
+                    "unece:domainName": "RequestingParty"
                 },
                 {
                     "@id": "cefact:TradeSettlement_PaymentMeans.Specified.Creditor_FinancialAccount",
@@ -73,7 +58,26 @@
                     "unece:cefactUNId": "UN01013300",
                     "unece:cefactBieDomainClass": "cefact:TradeSettlement_PaymentMeans.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A creditor financial account specified for this trade settlement payment means."
+                    "rdfs:comment": "A creditor financial account specified for this trade settlement payment means.",
+                    "unece:domainName": "PaymentMeans"
+                },
+                {
+                    "@id": "cefact:FinancingSummary_Document.Specified.Creditor_FinancialAccount",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01013252",
+                    "unece:cefactBieDomainClass": "cefact:FinancingSummary_Document.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The creditor financial account, used for crediting, specified for this financing summary document.",
+                    "unece:domainName": "FinancingSummaryDocument"
+                },
+                {
+                    "@id": "cefact:Cross-Border_RegulatoryProcedure.Specified.Debtor_FinancialAccount",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01006181",
+                    "unece:cefactBieDomainClass": "cefact:CrossBorder_RegulatoryProcedure.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A debtor financial account specified for this cross-border regulatory procedure.",
+                    "unece:domainName": "RegulatoryProcedure"
                 }
             ]
         }

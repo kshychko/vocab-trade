@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01011659",
                     "unece:cefactBieDomainClass": "cefact:Header_TradeSettlement.Details",
                     "unece:cefactBusinessProcess": "Supply Chain",
-                    "rdfs:comment": "A date, time, date time or other date time value of a next invoice or invoices in this header trade settlement."
+                    "rdfs:comment": "A date, time, date time or other date time value of a next invoice or invoices in this header trade settlement.",
+                    "unece:domainName": "HeaderTradeSettlement"
                 }
             ]
         }

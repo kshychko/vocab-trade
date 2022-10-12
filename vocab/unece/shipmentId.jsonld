@@ -35,7 +35,8 @@
                     "unece:cefactUNId": "UN01013108",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_TradeTransaction.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "An identifier, such as the Unique Consignment Reference (UCR), for the shipment which is the subject of this supply chain trade transaction."
+                    "rdfs:comment": "An identifier, such as the Unique Consignment Reference (UCR), for the shipment which is the subject of this supply chain trade transaction.",
+                    "unece:domainName": "TradeTransaction"
                 }
             ]
         }

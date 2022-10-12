@@ -32,22 +32,24 @@
             "rdfs:label": "latitudeMeasure",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:GeographicalCoordinate.Latitude.Measure",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "6000",
-                    "unece:cefactUNId": "UN01003618",
-                    "unece:cefactBieDomainClass": "cefact:GeographicalCoordinate.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The measure of the latitude as an angular distance north or south from the Equator meridian to the meridian of a specific place for this geographical coordinate (Reference ISO 6709)."
-                },
-                {
                     "@id": "cefact:Specified_GeographicalCoordinate.Latitude.Measure",
                     "@type": "unece:BasicBIE",
                     "unece:tded": "6000",
                     "unece:cefactUNId": "UN01002028",
                     "unece:cefactBieDomainClass": "cefact:Specified_GeographicalCoordinate.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The measure of the latitude as an angular distance north or south from the Equator meridian to the meridian of a specific place for this specified geographical coordinate. (Reference ISO 6709)."
+                    "rdfs:comment": "The measure of the latitude as an angular distance north or south from the Equator meridian to the meridian of a specific place for this specified geographical coordinate. (Reference ISO 6709).",
+                    "unece:domainName": "GeographicalCoordinate"
+                },
+                {
+                    "@id": "cefact:GeographicalCoordinate.Latitude.Measure",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "6000",
+                    "unece:cefactUNId": "UN01003618",
+                    "unece:cefactBieDomainClass": "cefact:GeographicalCoordinate.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The measure of the latitude as an angular distance north or south from the Equator meridian to the meridian of a specific place for this geographical coordinate (Reference ISO 6709).",
+                    "unece:domainName": "GeographicalCoordinate"
                 }
             ]
         }

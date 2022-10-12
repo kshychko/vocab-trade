@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01010150",
                     "unece:cefactBieDomainClass": "cefact:Transport_Event.Details",
                     "unece:cefactBusinessProcess": "Transport",
-                    "rdfs:comment": "The date, time, date time or other date time value of the actual departure related to this transport event."
+                    "rdfs:comment": "The date, time, date time or other date time value of the actual departure related to this transport event.",
+                    "unece:domainName": "TransportEvent"
                 }
             ]
         }

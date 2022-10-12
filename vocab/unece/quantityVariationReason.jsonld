@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01013451",
                     "unece:cefactBieDomainClass": "cefact:Line_TradeDelivery.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A reason, expressed as text, for a quantity variation, at line level, for this trade delivery."
+                    "rdfs:comment": "A reason, expressed as text, for a quantity variation, at line level, for this trade delivery.",
+                    "unece:domainName": "LineTradeDelivery"
                 }
             ]
         }

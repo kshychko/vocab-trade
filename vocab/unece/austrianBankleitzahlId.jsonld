@@ -43,7 +43,8 @@
                     "unece:cefactUNId": "UN01002853",
                     "unece:cefactBieDomainClass": "cefact:Debtor_FinancialInstitution.Details",
                     "unece:cefactBusinessProcess": "Customer to bank payment initiation",
-                    "rdfs:comment": "The unique Austrian Bankleitzahl identifier for this debtor financial institution."
+                    "rdfs:comment": "The unique Austrian Bankleitzahl identifier for this debtor financial institution.",
+                    "unece:domainName": "DebtorFinancialInstitution"
                 },
                 {
                     "@id": "cefact:Creditor_FinancialInstitution.AustrianBankleitzahl_Identification.Identifier",
@@ -52,7 +53,8 @@
                     "unece:cefactUNId": "UN01002988",
                     "unece:cefactBieDomainClass": "cefact:Creditor_FinancialInstitution.Details",
                     "unece:cefactBusinessProcess": "Customer to bank payment initiation",
-                    "rdfs:comment": "The unique Austrian Bankleitzahl identifier for this creditor financial institution."
+                    "rdfs:comment": "The unique Austrian Bankleitzahl identifier for this creditor financial institution.",
+                    "unece:domainName": "CreditorFinancialInstitution"
                 }
             ]
         }

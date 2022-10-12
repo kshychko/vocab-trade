@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01013550",
                     "unece:cefactBieDomainClass": "cefact:Monitoring_Sensor.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A calibrated measurement of precision for this monitoring sensor."
+                    "rdfs:comment": "A calibrated measurement of precision for this monitoring sensor.",
+                    "unece:domainName": "Sensor"
                 }
             ]
         }

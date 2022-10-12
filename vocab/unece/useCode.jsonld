@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01002050",
                     "unece:cefactBieDomainClass": "cefact:Telecommunication_Communication.Details",
                     "unece:cefactBusinessProcess": "Project Management",
-                    "rdfs:comment": "The code specifying the use of this telecommunication such as for business purposes or private."
+                    "rdfs:comment": "The code specifying the use of this telecommunication such as for business purposes or private.",
+                    "unece:domainName": "TelecommunicationCommunication"
                 }
             ]
         }

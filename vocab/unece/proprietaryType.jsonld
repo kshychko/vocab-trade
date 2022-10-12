@@ -45,12 +45,13 @@
             "rdfs:label": "proprietaryType",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Referenced_Document.Proprietary_Type.Text",
+                    "@id": "cefact:Financing_FinancialAccount.Proprietary_Type.Text",
                     "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01013290",
-                    "unece:cefactBieDomainClass": "cefact:Referenced_Document.Details",
+                    "unece:cefactUNId": "UN01013258",
+                    "unece:cefactBieDomainClass": "cefact:Financing_FinancialAccount.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A proprietary type, expressed as text, for this referenced document."
+                    "rdfs:comment": "The proprietary type, expressed as text, of this financing financial account, such as the nature or use.",
+                    "unece:domainName": "FinancingFinancialAccount"
                 },
                 {
                     "@id": "cefact:Debtor_FinancialAccount.Proprietary_Type.Text",
@@ -58,7 +59,8 @@
                     "unece:cefactUNId": "UN01003290",
                     "unece:cefactBieDomainClass": "cefact:Debtor_FinancialAccount.Details",
                     "unece:cefactBusinessProcess": "Customer to bank payment initiation",
-                    "rdfs:comment": "The proprietary type, expressed as text, of this debtor financial account, such as the nature or use of the debtor account."
+                    "rdfs:comment": "The proprietary type, expressed as text, of this debtor financial account, such as the nature or use of the debtor account.",
+                    "unece:domainName": "DebtorFinancialAccount"
                 },
                 {
                     "@id": "cefact:Creditor_FinancialAccount.Proprietary_Type.Text",
@@ -66,15 +68,17 @@
                     "unece:cefactUNId": "UN01003353",
                     "unece:cefactBieDomainClass": "cefact:Creditor_FinancialAccount.Details",
                     "unece:cefactBusinessProcess": "Customer to bank payment initiation",
-                    "rdfs:comment": "The proprietary type, expressed as text, of this creditor financial account, such as the nature or use of the creditor account."
+                    "rdfs:comment": "The proprietary type, expressed as text, of this creditor financial account, such as the nature or use of the creditor account.",
+                    "unece:domainName": "CreditorFinancialAccount"
                 },
                 {
-                    "@id": "cefact:Financing_FinancialAccount.Proprietary_Type.Text",
+                    "@id": "cefact:Referenced_Document.Proprietary_Type.Text",
                     "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01013258",
-                    "unece:cefactBieDomainClass": "cefact:Financing_FinancialAccount.Details",
+                    "unece:cefactUNId": "UN01013290",
+                    "unece:cefactBieDomainClass": "cefact:Referenced_Document.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The proprietary type, expressed as text, of this financing financial account, such as the nature or use."
+                    "rdfs:comment": "A proprietary type, expressed as text, for this referenced document.",
+                    "unece:domainName": "Document"
                 }
             ]
         }

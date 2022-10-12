@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01013215",
                     "unece:cefactBieDomainClass": "cefact:Financial_Booking.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The credit date, time, date time, or other date time value of this financial booking."
+                    "rdfs:comment": "The credit date, time, date time, or other date time value of this financial booking.",
+                    "unece:domainName": "Booking"
                 }
             ]
         }

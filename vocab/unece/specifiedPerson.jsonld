@@ -45,28 +45,13 @@
             "rdfs:label": "specifiedPerson",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Trade_Party.Specified.Contact_Person",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01013301",
-                    "unece:cefactBieDomainClass": "cefact:Trade_Party.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A contact person specified for this trade party."
-                },
-                {
                     "@id": "cefact:Location_Party.Specified.Transport_Person",
                     "@type": "unece:AssociationBIE",
                     "unece:cefactUNId": "UN01003668",
                     "unece:cefactBieDomainClass": "cefact:Location_Party.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A transport related person specified for this location party."
-                },
-                {
-                    "@id": "cefact:Trade_Contact.Specified.Contact_Person",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01008317",
-                    "unece:cefactBieDomainClass": "cefact:Trade_Contact.Details",
-                    "unece:cefactBusinessProcess": "Supply Chain",
-                    "rdfs:comment": "The contact person specified for this trade contact."
+                    "rdfs:comment": "A transport related person specified for this location party.",
+                    "unece:domainName": "LocationParty"
                 },
                 {
                     "@id": "cefact:Requesting_Party.Specified.Project_Person",
@@ -74,7 +59,26 @@
                     "unece:cefactUNId": "UN01002025",
                     "unece:cefactBieDomainClass": "cefact:Requesting_Party.Details",
                     "unece:cefactBusinessProcess": "Project Management",
-                    "rdfs:comment": "The project person specified for this requesting party."
+                    "rdfs:comment": "The project person specified for this requesting party.",
+                    "unece:domainName": "RequestingParty"
+                },
+                {
+                    "@id": "cefact:Trade_Party.Specified.Contact_Person",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01013301",
+                    "unece:cefactBieDomainClass": "cefact:Trade_Party.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A contact person specified for this trade party.",
+                    "unece:domainName": "TradeParty"
+                },
+                {
+                    "@id": "cefact:Trade_Contact.Specified.Contact_Person",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01008317",
+                    "unece:cefactBieDomainClass": "cefact:Trade_Contact.Details",
+                    "unece:cefactBusinessProcess": "Supply Chain",
+                    "rdfs:comment": "The contact person specified for this trade contact.",
+                    "unece:domainName": "Contact"
                 },
                 {
                     "@id": "cefact:Trade_Party.Specified.AuthoritativeSignatory_Person",
@@ -82,7 +86,8 @@
                     "unece:cefactUNId": "UN01006142",
                     "unece:cefactBieDomainClass": "cefact:Trade_Party.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A person specified to sign on behalf of this trade party."
+                    "rdfs:comment": "A person specified to sign on behalf of this trade party.",
+                    "unece:domainName": "TradeParty"
                 }
             ]
         }

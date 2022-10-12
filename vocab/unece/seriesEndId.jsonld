@@ -44,7 +44,8 @@
                     "unece:cefactUNId": "UN01004899",
                     "unece:cefactBieDomainClass": "cefact:Logistics_Package.Details",
                     "unece:cefactBusinessProcess": "Cross-Border",
-                    "rdfs:comment": "The unique identifier of the end of a series of packages within this logistics package."
+                    "rdfs:comment": "The unique identifier of the end of a series of packages within this logistics package.",
+                    "unece:domainName": "Package"
                 },
                 {
                     "@id": "cefact:Logistics_Label.SeriesEnd.Identifier",
@@ -52,7 +53,8 @@
                     "unece:cefactUNId": "UN01003678",
                     "unece:cefactBieDomainClass": "cefact:Logistics_Label.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The unique identifier of the end of a series of logistics labels."
+                    "rdfs:comment": "The unique identifier of the end of a series of logistics labels.",
+                    "unece:domainName": "Label"
                 },
                 {
                     "@id": "cefact:Referenced_Logistics_Package.SeriesEnd_Identification.Identifier",
@@ -61,7 +63,8 @@
                     "unece:cefactUNId": "UN01006799",
                     "unece:cefactBieDomainClass": "cefact:ReferencedLogistics_Package.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The identifier of the end of a series of packages within this referenced logistics package."
+                    "rdfs:comment": "The identifier of the end of a series of packages within this referenced logistics package.",
+                    "unece:domainName": "Package"
                 }
             ]
         }

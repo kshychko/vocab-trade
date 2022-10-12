@@ -35,7 +35,8 @@
                     "unece:cefactUNId": "UN01003523",
                     "unece:cefactBieDomainClass": "cefact:Document_Authentication.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The statement, expressed as text, for this document authentication."
+                    "rdfs:comment": "The statement, expressed as text, for this document authentication.",
+                    "unece:domainName": "Authentication"
                 }
             ]
         }

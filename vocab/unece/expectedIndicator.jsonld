@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01013585",
                     "unece:cefactBieDomainClass": "cefact:Transport_Event.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The indication of whether or not this transport event is or was expected."
+                    "rdfs:comment": "The indication of whether or not this transport event is or was expected.",
+                    "unece:domainName": "TransportEvent"
                 }
             ]
         }

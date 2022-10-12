@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01001678",
                     "unece:cefactBieDomainClass": "cefact:Trade_Price.Details",
                     "unece:cefactBusinessProcess": "Trade",
-                    "rdfs:comment": "The code specifying the type of trade price."
+                    "rdfs:comment": "The code specifying the type of trade price.",
+                    "unece:domainName": "TradePrice"
                 }
             ]
         }

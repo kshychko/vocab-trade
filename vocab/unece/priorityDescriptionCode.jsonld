@@ -42,7 +42,8 @@
                     "unece:cefactUNId": "UN01012560",
                     "unece:cefactBieDomainClass": "cefact:Line_TradeAgreement.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The code specifying the delivery priority for this line trade agreement."
+                    "rdfs:comment": "The code specifying the delivery priority for this line trade agreement.",
+                    "unece:domainName": "LineTradeAgreement"
                 },
                 {
                     "@id": "cefact:Header_TradeAgreement.Delivery_Priority.Code",
@@ -51,7 +52,8 @@
                     "unece:cefactUNId": "UN01011550",
                     "unece:cefactBieDomainClass": "cefact:Header_TradeAgreement.Details",
                     "unece:cefactBusinessProcess": "Supply Chain",
-                    "rdfs:comment": "The code specifying the delivery priority for this header trade agreement."
+                    "rdfs:comment": "The code specifying the delivery priority for this header trade agreement.",
+                    "unece:domainName": "HeaderTradeAgreement"
                 }
             ]
         }

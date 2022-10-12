@@ -35,7 +35,8 @@
                     "unece:cefactUNId": "UN01003839",
                     "unece:cefactBieDomainClass": "cefact:Logistics_TransportMovement.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The code specifying the mode, such as by air, sea, rail, road or inland waterway, for this logistics transport movement."
+                    "rdfs:comment": "The code specifying the mode, such as by air, sea, rail, road or inland waterway, for this logistics transport movement.",
+                    "unece:domainName": "TransportMovement"
                 }
             ]
         }

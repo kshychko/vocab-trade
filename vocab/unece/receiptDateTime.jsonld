@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01003995",
                     "unece:cefactBieDomainClass": "cefact:Referenced_Document.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The date, time, date time, or other date time value for the formal receipt of this referenced document."
+                    "rdfs:comment": "The date, time, date time, or other date time value for the formal receipt of this referenced document.",
+                    "unece:domainName": "Document"
                 }
             ]
         }

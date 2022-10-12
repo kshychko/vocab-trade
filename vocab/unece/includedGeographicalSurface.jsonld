@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01012174",
                     "unece:cefactBieDomainClass": "cefact:Specified_GeographicalFeature.Details",
                     "unece:cefactBusinessProcess": "Agricultural",
-                    "rdfs:comment": "The geographical surface included in this geographical feature."
+                    "rdfs:comment": "The geographical surface included in this geographical feature.",
+                    "unece:domainName": "GeographicalFeature"
                 }
             ]
         }

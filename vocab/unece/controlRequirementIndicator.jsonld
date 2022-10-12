@@ -41,12 +41,22 @@
             "rdfs:label": "controlRequirementIndicator",
             "unece:cefactElementMetadata": [
                 {
+                    "@id": "cefact:Acknowledgement_Document.ControlRequirement.Indicator",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01002110",
+                    "unece:cefactBieDomainClass": "cefact:Acknowledgement_Document.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The indication of whether or not this acknowledgement document has a control requirement.",
+                    "unece:domainName": "AcknowledgementDocument"
+                },
+                {
                     "@id": "cefact:Cross-Border_RegulatoryProcedure.ControlRequirement.Indicator",
                     "@type": "unece:BasicBIE",
                     "unece:cefactUNId": "UN01006161",
                     "unece:cefactBieDomainClass": "cefact:CrossBorder_RegulatoryProcedure.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The indication of whether or not a control is required for this cross-border regulatory procedure."
+                    "rdfs:comment": "The indication of whether or not a control is required for this cross-border regulatory procedure.",
+                    "unece:domainName": "RegulatoryProcedure"
                 },
                 {
                     "@id": "cefact:Exchanged_Document.ControlRequirement.Indicator",
@@ -54,15 +64,8 @@
                     "unece:cefactUNId": "UN01003550",
                     "unece:cefactBieDomainClass": "cefact:Exchanged_Document.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The indication of whether or not this exchanged document has specific control requirements."
-                },
-                {
-                    "@id": "cefact:Acknowledgement_Document.ControlRequirement.Indicator",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01002110",
-                    "unece:cefactBieDomainClass": "cefact:Acknowledgement_Document.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The indication of whether or not this acknowledgement document has a control requirement."
+                    "rdfs:comment": "The indication of whether or not this exchanged document has specific control requirements.",
+                    "unece:domainName": "ExchangedDocument"
                 }
             ]
         }

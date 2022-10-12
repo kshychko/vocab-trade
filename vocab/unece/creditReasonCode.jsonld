@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01011660",
                     "unece:cefactBieDomainClass": "cefact:Header_TradeSettlement.Details",
                     "unece:cefactBusinessProcess": "Supply Chain",
-                    "rdfs:comment": "The code specifying the reason for a credit being given in this header trade settlement."
+                    "rdfs:comment": "The code specifying the reason for a credit being given in this header trade settlement.",
+                    "unece:domainName": "HeaderTradeSettlement"
                 }
             ]
         }

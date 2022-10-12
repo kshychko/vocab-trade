@@ -43,7 +43,8 @@
                     "unece:cefactUNId": "UN01002998",
                     "unece:cefactBieDomainClass": "cefact:Creditor_FinancialInstitution.Details",
                     "unece:cefactBusinessProcess": "Customer to bank payment initiation",
-                    "rdfs:comment": "The unique Polish National Clearing Code identifier for this creditor financial institution."
+                    "rdfs:comment": "The unique Polish National Clearing Code identifier for this creditor financial institution.",
+                    "unece:domainName": "CreditorFinancialInstitution"
                 },
                 {
                     "@id": "cefact:Debtor_FinancialInstitution.PolishNationalClearing_Identification.Identifier",
@@ -52,7 +53,8 @@
                     "unece:cefactUNId": "UN01002863",
                     "unece:cefactBieDomainClass": "cefact:Debtor_FinancialInstitution.Details",
                     "unece:cefactBusinessProcess": "Customer to bank payment initiation",
-                    "rdfs:comment": "The unique Polish National Clearing Code identifier for this debtor financial institution."
+                    "rdfs:comment": "The unique Polish National Clearing Code identifier for this debtor financial institution.",
+                    "unece:domainName": "DebtorFinancialInstitution"
                 }
             ]
         }

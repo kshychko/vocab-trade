@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01004232",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The party authorized to act for or on behalf of the consignor for this supply chain consignment."
+                    "rdfs:comment": "The party authorized to act for or on behalf of the consignor for this supply chain consignment.",
+                    "unece:domainName": "Consignment"
                 }
             ]
         }

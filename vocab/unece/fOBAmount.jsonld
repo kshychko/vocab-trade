@@ -43,7 +43,8 @@
                     "unece:cefactUNId": "UN01004178",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The monetary value that has to be, or has been, paid for this supply chain consignment as calculated under FOB (Free on Board) delivery terms."
+                    "rdfs:comment": "The monetary value that has to be, or has been, paid for this supply chain consignment as calculated under FOB (Free on Board) delivery terms.",
+                    "unece:domainName": "Consignment"
                 },
                 {
                     "@id": "cefact:SupplyChain_ConsignmentItem.FOB.Amount",
@@ -51,7 +52,8 @@
                     "unece:cefactUNId": "UN01004116",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_ConsignmentItem.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The monetary value for this supply chain consignment item as calculated under FOB (Free On Board) delivery terms."
+                    "rdfs:comment": "The monetary value for this supply chain consignment item as calculated under FOB (Free On Board) delivery terms.",
+                    "unece:domainName": "ConsignmentItem"
                 }
             ]
         }

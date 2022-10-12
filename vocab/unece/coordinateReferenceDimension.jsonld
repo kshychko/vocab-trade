@@ -42,7 +42,8 @@
                     "unece:cefactUNId": "UN01012474",
                     "unece:cefactBieDomainClass": "cefact:Specified_DirectPositionList.Details",
                     "unece:cefactBusinessProcess": "Agricultural",
-                    "rdfs:comment": "A coordinate reference dimension, expressed as text, for this specified direct position list."
+                    "rdfs:comment": "A coordinate reference dimension, expressed as text, for this specified direct position list.",
+                    "unece:domainName": "DirectPositionList"
                 },
                 {
                     "@id": "cefact:Specified_DirectPosition.CoordinateReferenceDimension.Text",
@@ -50,7 +51,8 @@
                     "unece:cefactUNId": "UN01010468",
                     "unece:cefactBieDomainClass": "cefact:Specified_DirectPosition.Details",
                     "unece:cefactBusinessProcess": "Laboratory Observation",
-                    "rdfs:comment": "A coordinate reference dimension, expressed as text, for this specified direct position."
+                    "rdfs:comment": "A coordinate reference dimension, expressed as text, for this specified direct position.",
+                    "unece:domainName": "DirectPosition"
                 }
             ]
         }

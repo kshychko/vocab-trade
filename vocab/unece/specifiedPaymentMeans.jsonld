@@ -40,12 +40,22 @@
             "rdfs:label": "specifiedPaymentMeans",
             "unece:cefactElementMetadata": [
                 {
+                    "@id": "cefact:Payment_TradeSettlement.Specified.TradeSettlement_PaymentMeans",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01011841",
+                    "unece:cefactBieDomainClass": "cefact:Payment_TradeSettlement.Details",
+                    "unece:cefactBusinessProcess": "Trade",
+                    "rdfs:comment": "The payment means specified for this payment trade settlement.",
+                    "unece:domainName": "PaymentTradeSettlement"
+                },
+                {
                     "@id": "cefact:Logistics_ServiceCharge.Specified.TradeSettlement_PaymentMeans",
                     "@type": "unece:AssociationBIE",
                     "unece:cefactUNId": "UN01008980",
                     "unece:cefactBieDomainClass": "cefact:Logistics_ServiceCharge.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The trade settlement payment means specified for this logistics service charge."
+                    "rdfs:comment": "The trade settlement payment means specified for this logistics service charge.",
+                    "unece:domainName": "ServiceCharge"
                 },
                 {
                     "@id": "cefact:Header_TradeSettlement.Specified.TradeSettlement_PaymentMeans",
@@ -53,15 +63,8 @@
                     "unece:cefactUNId": "UN01011671",
                     "unece:cefactBieDomainClass": "cefact:Header_TradeSettlement.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A payment means specified for this header trade settlement."
-                },
-                {
-                    "@id": "cefact:Payment_TradeSettlement.Specified.TradeSettlement_PaymentMeans",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01011841",
-                    "unece:cefactBieDomainClass": "cefact:Payment_TradeSettlement.Details",
-                    "unece:cefactBusinessProcess": "Trade",
-                    "rdfs:comment": "The payment means specified for this payment trade settlement."
+                    "rdfs:comment": "A payment means specified for this header trade settlement.",
+                    "unece:domainName": "HeaderTradeSettlement"
                 }
             ]
         }

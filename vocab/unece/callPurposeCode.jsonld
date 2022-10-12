@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01013173",
                     "unece:cefactBieDomainClass": "cefact:Logistics_TransportMovement.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A code specifying a call purpose for this logistics transport movement."
+                    "rdfs:comment": "A code specifying a call purpose for this logistics transport movement.",
+                    "unece:domainName": "TransportMovement"
                 }
             ]
         }

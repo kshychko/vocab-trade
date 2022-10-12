@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01011019",
                     "unece:cefactBieDomainClass": "cefact:Exchanged_Declaration.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The code specifying a specific circumstance in this exchanged declaration."
+                    "rdfs:comment": "The code specifying a specific circumstance in this exchanged declaration.",
+                    "unece:domainName": "Declaration"
                 }
             ]
         }

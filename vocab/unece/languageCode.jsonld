@@ -43,7 +43,8 @@
                     "unece:cefactUNId": "UN01009017",
                     "unece:cefactBieDomainClass": "cefact:Trade_Party.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A code specifying a language for this trade party."
+                    "rdfs:comment": "A code specifying a language for this trade party.",
+                    "unece:domainName": "TradeParty"
                 },
                 {
                     "@id": "cefact:Requesting_Party.Language.Code",
@@ -52,7 +53,8 @@
                     "unece:cefactUNId": "UN01002023",
                     "unece:cefactBieDomainClass": "cefact:Requesting_Party.Details",
                     "unece:cefactBusinessProcess": "Project Management",
-                    "rdfs:comment": "A code specifying a language for this requesting party."
+                    "rdfs:comment": "A code specifying a language for this requesting party.",
+                    "unece:domainName": "RequestingParty"
                 }
             ]
         }

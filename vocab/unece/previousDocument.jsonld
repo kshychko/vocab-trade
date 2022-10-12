@@ -36,20 +36,22 @@
             "rdfs:label": "previousDocument",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Exchanged_Declaration.Previous.Referenced_Document",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01011024",
-                    "unece:cefactBieDomainClass": "cefact:Exchanged_Declaration.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A previous document referenced for this exchanged declaration."
-                },
-                {
                     "@id": "cefact:Cross-Border_RegulatoryProcedure.Previous.Referenced_Document",
                     "@type": "unece:AssociationBIE",
                     "unece:cefactUNId": "UN01006175",
                     "unece:cefactBieDomainClass": "cefact:CrossBorder_RegulatoryProcedure.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A previous document related to this cross-border regulatory procedure."
+                    "rdfs:comment": "A previous document related to this cross-border regulatory procedure.",
+                    "unece:domainName": "RegulatoryProcedure"
+                },
+                {
+                    "@id": "cefact:Exchanged_Declaration.Previous.Referenced_Document",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01011024",
+                    "unece:cefactBieDomainClass": "cefact:Exchanged_Declaration.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A previous document referenced for this exchanged declaration.",
+                    "unece:domainName": "Declaration"
                 }
             ]
         }

@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01006087",
                     "unece:cefactBieDomainClass": "cefact:TradeSettlement_FinancialCard.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The interest rate expressed as a percentage for this trade settlement financial card."
+                    "rdfs:comment": "The interest rate expressed as a percentage for this trade settlement financial card.",
+                    "unece:domainName": "FinancialCard"
                 }
             ]
         }

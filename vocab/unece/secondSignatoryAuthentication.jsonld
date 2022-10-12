@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01003584",
                     "unece:cefactBieDomainClass": "cefact:Exchanged_Document.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The second signature, also known as the first counter signature, that has been authenticated on this exchanged document indicating where appropriate the authentication party."
+                    "rdfs:comment": "The second signature, also known as the first counter signature, that has been authenticated on this exchanged document indicating where appropriate the authentication party.",
+                    "unece:domainName": "ExchangedDocument"
                 }
             ]
         }

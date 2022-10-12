@@ -35,7 +35,8 @@
                     "unece:cefactUNId": "UN01011700",
                     "unece:cefactBieDomainClass": "cefact:Line_TradeAgreement.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The measure of the expected time interval between the receipt of an order and its delivery fulfilment according to this line trade agreement."
+                    "rdfs:comment": "The measure of the expected time interval between the receipt of an order and its delivery fulfilment according to this line trade agreement.",
+                    "unece:domainName": "LineTradeAgreement"
                 }
             ]
         }

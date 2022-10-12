@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01002527",
                     "unece:cefactBieDomainClass": "cefact:Referenced_Document.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The code specifying the type of relationship between this referenced document and another artefact, such as a replacement of an original document."
+                    "rdfs:comment": "The code specifying the type of relationship between this referenced document and another artefact, such as a replacement of an original document.",
+                    "unece:domainName": "Document"
                 }
             ]
         }

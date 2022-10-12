@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01010133",
                     "unece:cefactBieDomainClass": "cefact:Logistics_TransportMovement.Details",
                     "unece:cefactBusinessProcess": "Transport",
-                    "rdfs:comment": "Details of transport means inactively carried during the transport movement, such as trucks on a Roll-On/Roll-Off (RORO) ferry."
+                    "rdfs:comment": "Details of transport means inactively carried during the transport movement, such as trucks on a Roll-On/Roll-Off (RORO) ferry.",
+                    "unece:domainName": "TransportMovement"
                 }
             ]
         }

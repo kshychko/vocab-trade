@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01002628",
                     "unece:cefactBieDomainClass": "cefact:ProductHandling_Process.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The code specifying the type of product handling process."
+                    "rdfs:comment": "The code specifying the type of product handling process.",
+                    "unece:domainName": "Process"
                 }
             ]
         }

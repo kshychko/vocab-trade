@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01006023",
                     "unece:cefactBieDomainClass": "cefact:Specified_BinaryFile.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The code specifying the character set for this specified binary file."
+                    "rdfs:comment": "The code specifying the character set for this specified binary file.",
+                    "unece:domainName": "BinaryFile"
                 }
             ]
         }

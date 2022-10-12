@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01012960",
                     "unece:cefactBieDomainClass": "cefact:Exchanged_Document.Details",
                     "unece:cefactBusinessProcess": "Supply Chain",
-                    "rdfs:comment": "The code specifying the urgency for this exchanged document."
+                    "rdfs:comment": "The code specifying the urgency for this exchanged document.",
+                    "unece:domainName": "ExchangedDocument"
                 }
             ]
         }

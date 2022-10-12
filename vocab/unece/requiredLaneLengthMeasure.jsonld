@@ -42,7 +42,8 @@
                     "unece:cefactUNId": "UN01003829",
                     "unece:cefactBieDomainClass": "cefact:Logistics_TransportMeans.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The measure of the external length required in a lane for this logistics transport means."
+                    "rdfs:comment": "The measure of the external length required in a lane for this logistics transport means.",
+                    "unece:domainName": "TransportMeans"
                 },
                 {
                     "@id": "cefact:Logistics_TransportEquipment.RequiredLaneLength.Measure",
@@ -51,7 +52,8 @@
                     "unece:cefactUNId": "UN01003763",
                     "unece:cefactBieDomainClass": "cefact:Logistics_TransportEquipment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The measure of the length required in a lane for this piece of logistics transport equipment."
+                    "rdfs:comment": "The measure of the length required in a lane for this piece of logistics transport equipment.",
+                    "unece:domainName": "LogisticsTransportEquipment"
                 }
             ]
         }

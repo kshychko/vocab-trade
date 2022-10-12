@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01004766",
                     "unece:cefactBieDomainClass": "cefact:Transport_DangerousGoods.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A name, expressed as text, for a regulation of these transported dangerous goods."
+                    "rdfs:comment": "A name, expressed as text, for a regulation of these transported dangerous goods.",
+                    "unece:domainName": "DangerousGoods"
                 }
             ]
         }

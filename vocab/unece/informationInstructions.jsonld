@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01004751",
                     "unece:cefactBieDomainClass": "cefact:TransportSetting_Temperature.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "Informational instructions for achieving, maintaining, using or responding to this transport setting temperature."
+                    "rdfs:comment": "Informational instructions for achieving, maintaining, using or responding to this transport setting temperature.",
+                    "unece:domainName": "TransportSettingTemperature"
                 }
             ]
         }

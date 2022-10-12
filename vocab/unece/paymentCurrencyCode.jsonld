@@ -37,22 +37,24 @@
             "rdfs:label": "paymentCurrencyCode",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Header_TradeSettlement.Payment_Currency.Code",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "6345",
-                    "unece:cefactUNId": "UN01011654",
-                    "unece:cefactBieDomainClass": "cefact:Header_TradeSettlement.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The code specifying the payment currency for this header trade settlement."
-                },
-                {
                     "@id": "cefact:Payment_TradeSettlement.Payment_Currency.Code",
                     "@type": "unece:BasicBIE",
                     "unece:tded": "6345",
                     "unece:cefactUNId": "UN01011836",
                     "unece:cefactBieDomainClass": "cefact:Payment_TradeSettlement.Details",
                     "unece:cefactBusinessProcess": "Trade",
-                    "rdfs:comment": "The code specifying the currency for this payment trade settlement."
+                    "rdfs:comment": "The code specifying the currency for this payment trade settlement.",
+                    "unece:domainName": "PaymentTradeSettlement"
+                },
+                {
+                    "@id": "cefact:Header_TradeSettlement.Payment_Currency.Code",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "6345",
+                    "unece:cefactUNId": "UN01011654",
+                    "unece:cefactBieDomainClass": "cefact:Header_TradeSettlement.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The code specifying the payment currency for this header trade settlement.",
+                    "unece:domainName": "HeaderTradeSettlement"
                 }
             ]
         }

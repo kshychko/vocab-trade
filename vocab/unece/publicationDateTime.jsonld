@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01012959",
                     "unece:cefactBieDomainClass": "cefact:DocumentLine_Document.Details",
                     "unece:cefactBusinessProcess": "Supply Chain",
-                    "rdfs:comment": "The date, time, date time, or other date time value of the publication of this document line."
+                    "rdfs:comment": "The date, time, date time, or other date time value of the publication of this document line.",
+                    "unece:domainName": "DocumentLineDocument"
                 }
             ]
         }

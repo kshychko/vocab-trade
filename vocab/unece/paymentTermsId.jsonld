@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01001673",
                     "unece:cefactBieDomainClass": "cefact:Trade_PaymentTerms.Details",
                     "unece:cefactBusinessProcess": "Trade",
-                    "rdfs:comment": "The unique identifier of these trade payment terms."
+                    "rdfs:comment": "The unique identifier of these trade payment terms.",
+                    "unece:domainName": "PaymentTerms"
                 }
             ]
         }

@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01006209",
                     "unece:cefactBieDomainClass": "cefact:Transport_DangerousGoods.Details",
                     "unece:cefactBusinessProcess": "Cross-Border",
-                    "rdfs:comment": "The code specifying the explosive compatibility group for these transported dangerous goods."
+                    "rdfs:comment": "The code specifying the explosive compatibility group for these transported dangerous goods.",
+                    "unece:domainName": "DangerousGoods"
                 }
             ]
         }

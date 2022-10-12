@@ -35,7 +35,8 @@
                     "unece:cefactUNId": "UN01011009",
                     "unece:cefactBieDomainClass": "cefact:Exchanged_Declaration.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The gross weight measure specified in this exchanged declaration."
+                    "rdfs:comment": "The gross weight measure specified in this exchanged declaration.",
+                    "unece:domainName": "Declaration"
                 }
             ]
         }

@@ -41,12 +41,13 @@
             "rdfs:label": "associatedTransportEquipment",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:SupplyChain_TradeLineItem.Associated.Logistics_TransportEquipment",
+                    "@id": "cefact:SupplyChain_ConsignmentItem.Associated.Referenced_Logistics_TransportEquipment",
                     "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01004425",
-                    "unece:cefactBieDomainClass": "cefact:SupplyChain_TradeLineItem.Details",
+                    "unece:cefactUNId": "UN01004145",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_ConsignmentItem.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A piece of transport equipment associated with this supply chain trade line item."
+                    "rdfs:comment": "A referenced piece of transport equipment associated with this supply chain consignment item.",
+                    "unece:domainName": "ConsignmentItem"
                 },
                 {
                     "@id": "cefact:Referenced_SupplyChain_ConsignmentItem.Associated.Referenced_Logistics_TransportEquipment",
@@ -54,7 +55,8 @@
                     "unece:cefactUNId": "UN01011047",
                     "unece:cefactBieDomainClass": "cefact:ReferencedSupplyChain_ConsignmentItem.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A piece of transport equipment associated with this referenced supply chain consignment item."
+                    "rdfs:comment": "A piece of transport equipment associated with this referenced supply chain consignment item.",
+                    "unece:domainName": "ConsignmentItem"
                 },
                 {
                     "@id": "cefact:Transport_DangerousGoods.Associated.Referenced_Logistics_TransportEquipment",
@@ -62,15 +64,17 @@
                     "unece:cefactUNId": "UN01009014",
                     "unece:cefactBieDomainClass": "cefact:Transport_DangerousGoods.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "Referenced transport equipment associated with the dangerous goods."
+                    "rdfs:comment": "Referenced transport equipment associated with the dangerous goods.",
+                    "unece:domainName": "DangerousGoods"
                 },
                 {
-                    "@id": "cefact:SupplyChain_ConsignmentItem.Associated.Referenced_Logistics_TransportEquipment",
+                    "@id": "cefact:SupplyChain_TradeLineItem.Associated.Logistics_TransportEquipment",
                     "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01004145",
-                    "unece:cefactBieDomainClass": "cefact:SupplyChain_ConsignmentItem.Details",
+                    "unece:cefactUNId": "UN01004425",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_TradeLineItem.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A referenced piece of transport equipment associated with this supply chain consignment item."
+                    "rdfs:comment": "A piece of transport equipment associated with this supply chain trade line item.",
+                    "unece:domainName": "TradeLineItem"
                 }
             ]
         }

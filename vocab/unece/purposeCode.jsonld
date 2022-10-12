@@ -37,20 +37,22 @@
             "rdfs:label": "purposeCode",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Specified_Period.Purpose.Code",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01009047",
-                    "unece:cefactBieDomainClass": "cefact:Specified_Period.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The code specifying the purpose of this specified period."
-                },
-                {
                     "@id": "cefact:Product_Certificate.Purpose.Code",
                     "@type": "unece:BasicBIE",
                     "unece:cefactUNId": "UN01012494",
                     "unece:cefactBieDomainClass": "cefact:Product_Certificate.Details",
                     "unece:cefactBusinessProcess": "Traceability",
-                    "rdfs:comment": "A code specifying the purpose of this product certificate."
+                    "rdfs:comment": "A code specifying the purpose of this product certificate.",
+                    "unece:domainName": "Certificate"
+                },
+                {
+                    "@id": "cefact:Specified_Period.Purpose.Code",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01009047",
+                    "unece:cefactBieDomainClass": "cefact:Specified_Period.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The code specifying the purpose of this specified period.",
+                    "unece:domainName": "Period"
                 }
             ]
         }

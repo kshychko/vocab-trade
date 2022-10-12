@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01003990",
                     "unece:cefactBieDomainClass": "cefact:Quarantine_Instructions.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The code specifying the description of these quarantine instructions."
+                    "rdfs:comment": "The code specifying the description of these quarantine instructions.",
+                    "unece:domainName": "QuarantineInstructions"
                 }
             ]
         }

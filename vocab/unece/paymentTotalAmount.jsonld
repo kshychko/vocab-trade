@@ -46,7 +46,8 @@
                     "unece:cefactUNId": "UN01011906",
                     "unece:cefactBieDomainClass": "cefact:TradeSettlementLine_MonetarySummation.Details",
                     "unece:cefactBusinessProcess": "Supply Chain",
-                    "rdfs:comment": "A monetary value of a payment total reported in this trade settlement line monetary summation."
+                    "rdfs:comment": "A monetary value of a payment total reported in this trade settlement line monetary summation.",
+                    "unece:domainName": "TradeSettlementLineMonetarySummation"
                 },
                 {
                     "@id": "cefact:TradeSettlementPayment_MonetarySummation.PaymentTotal.Amount",
@@ -54,7 +55,8 @@
                     "unece:cefactUNId": "UN01011914",
                     "unece:cefactBieDomainClass": "cefact:TradeSettlementPayment_MonetarySummation.Details",
                     "unece:cefactBusinessProcess": "Supply Chain",
-                    "rdfs:comment": "A monetary value of a payment total reported in this trade settlement payment monetary summation."
+                    "rdfs:comment": "A monetary value of a payment total reported in this trade settlement payment monetary summation.",
+                    "unece:domainName": "TradeSettlementPaymentMonetarySummation"
                 },
                 {
                     "@id": "cefact:TradeSettlementHeader_MonetarySummation.PaymentTotal.Amount",
@@ -62,7 +64,8 @@
                     "unece:cefactUNId": "UN01011884",
                     "unece:cefactBieDomainClass": "cefact:TradeSettlementHeader_MonetarySummation.Details",
                     "unece:cefactBusinessProcess": "Supply Chain",
-                    "rdfs:comment": "A monetary value of a payment total reported in this header trade settlement payment monetary summation."
+                    "rdfs:comment": "A monetary value of a payment total reported in this header trade settlement payment monetary summation.",
+                    "unece:domainName": "TradeSettlementHeaderMonetarySummation"
                 }
             ]
         }

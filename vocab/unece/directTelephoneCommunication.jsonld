@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01004565",
                     "unece:cefactBieDomainClass": "cefact:Trade_Contact.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The direct telephone communication information for this trade contact."
+                    "rdfs:comment": "The direct telephone communication information for this trade contact.",
+                    "unece:domainName": "Contact"
                 }
             ]
         }

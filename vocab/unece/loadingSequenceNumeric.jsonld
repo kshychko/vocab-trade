@@ -42,7 +42,8 @@
                     "unece:cefactUNId": "UN01010098",
                     "unece:cefactBieDomainClass": "cefact:Logistics_TransportEquipment.Details",
                     "unece:cefactBusinessProcess": "Transport",
-                    "rdfs:comment": "The sequence number differentiating this piece of logistics transport equipment from others during loading."
+                    "rdfs:comment": "The sequence number differentiating this piece of logistics transport equipment from others during loading.",
+                    "unece:domainName": "LogisticsTransportEquipment"
                 },
                 {
                     "@id": "cefact:SupplyChain_Consignment.LoadingSequence.Numeric",
@@ -51,7 +52,8 @@
                     "unece:cefactUNId": "UN01004168",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The loading sequence number for this supply chain consignment."
+                    "rdfs:comment": "The loading sequence number for this supply chain consignment.",
+                    "unece:domainName": "Consignment"
                 }
             ]
         }

@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01004514",
                     "unece:cefactBieDomainClass": "cefact:TradeSettlement_PaymentMeans.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The code specifying the type of trade settlement payment means, such as cash or check."
+                    "rdfs:comment": "The code specifying the type of trade settlement payment means, such as cash or check.",
+                    "unece:domainName": "PaymentMeans"
                 }
             ]
         }

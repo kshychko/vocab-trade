@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01008489",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_Packaging.Details",
                     "unece:cefactBusinessProcess": "Supply Chain",
-                    "rdfs:comment": "The number of content layers that are or may be packaged with this supply chain packaging, such as the number of layers of product on a pallet."
+                    "rdfs:comment": "The number of content layers that are or may be packaged with this supply chain packaging, such as the number of layers of product on a pallet.",
+                    "unece:domainName": "Packaging"
                 }
             ]
         }

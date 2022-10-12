@@ -42,7 +42,8 @@
                     "unece:cefactUNId": "UN01012476",
                     "unece:cefactBieDomainClass": "cefact:Specified_DirectPositionList.Details",
                     "unece:cefactBusinessProcess": "Agricultural",
-                    "rdfs:comment": "An ordered list of Unit Of Measure (UOM) labels, expressed as text, for this specified direct position list."
+                    "rdfs:comment": "An ordered list of Unit Of Measure (UOM) labels, expressed as text, for this specified direct position list.",
+                    "unece:domainName": "DirectPositionList"
                 },
                 {
                     "@id": "cefact:Specified_DirectPosition.UOM_LabelList.Text",
@@ -50,7 +51,8 @@
                     "unece:cefactUNId": "UN01010470",
                     "unece:cefactBieDomainClass": "cefact:Specified_DirectPosition.Details",
                     "unece:cefactBusinessProcess": "Laboratory Observation",
-                    "rdfs:comment": "An ordered list of Unit Of Measure (UOM) labels, expressed as text, for this specified direct position."
+                    "rdfs:comment": "An ordered list of Unit Of Measure (UOM) labels, expressed as text, for this specified direct position.",
+                    "unece:domainName": "DirectPosition"
                 }
             ]
         }

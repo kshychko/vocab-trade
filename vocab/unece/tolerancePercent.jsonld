@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01013538",
                     "unece:cefactBieDomainClass": "cefact:Calibrated_Measurement.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The percent of tolerance of this calibrated measurement."
+                    "rdfs:comment": "The percent of tolerance of this calibrated measurement.",
+                    "unece:domainName": "Measurement"
                 }
             ]
         }

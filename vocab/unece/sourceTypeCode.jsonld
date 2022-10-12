@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01013573",
                     "unece:cefactBieDomainClass": "cefact:Geographical_CoordinateSourceSystem.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The code specifying a type of source for this geographical coordinate source system."
+                    "rdfs:comment": "The code specifying a type of source for this geographical coordinate source system.",
+                    "unece:domainName": "CoordinateSourceSystem"
                 }
             ]
         }

@@ -44,12 +44,13 @@
             "rdfs:label": "applicableNote",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Logistics_TransportEquipment.Applicable.Note",
+                    "@id": "cefact:SupplyChain_ConsignmentItem.Applicable.Note",
                     "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01012568",
-                    "unece:cefactBieDomainClass": "cefact:Logistics_TransportEquipment.Details",
+                    "unece:cefactUNId": "UN01012577",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_ConsignmentItem.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A note providing information applicable to this piece of logistics transport equipment."
+                    "rdfs:comment": "A note providing information applicable to this supply chain consignment item.",
+                    "unece:domainName": "ConsignmentItem"
                 },
                 {
                     "@id": "cefact:Transport_Event.Applicable.Note",
@@ -57,15 +58,17 @@
                     "unece:cefactUNId": "UN01012582",
                     "unece:cefactBieDomainClass": "cefact:Transport_Event.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A note providing information applicable to this transport event."
+                    "rdfs:comment": "A note providing information applicable to this transport event.",
+                    "unece:domainName": "TransportEvent"
                 },
                 {
-                    "@id": "cefact:SupplyChain_ConsignmentItem.Applicable.Note",
+                    "@id": "cefact:Logistics_TransportEquipment.Applicable.Note",
                     "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01012577",
-                    "unece:cefactBieDomainClass": "cefact:SupplyChain_ConsignmentItem.Details",
+                    "unece:cefactUNId": "UN01012568",
+                    "unece:cefactBieDomainClass": "cefact:Logistics_TransportEquipment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A note providing information applicable to this supply chain consignment item."
+                    "rdfs:comment": "A note providing information applicable to this piece of logistics transport equipment.",
+                    "unece:domainName": "LogisticsTransportEquipment"
                 },
                 {
                     "@id": "cefact:Specified_Observation.Applicable.Note",
@@ -73,7 +76,8 @@
                     "unece:cefactUNId": "UN01012574",
                     "unece:cefactBieDomainClass": "cefact:Specified_Observation.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A note providing information applicable to this specified observation."
+                    "rdfs:comment": "A note providing information applicable to this specified observation.",
+                    "unece:domainName": "Observation"
                 }
             ]
         }

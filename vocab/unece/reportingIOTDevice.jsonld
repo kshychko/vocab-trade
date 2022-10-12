@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01013586",
                     "unece:cefactBieDomainClass": "cefact:Transport_Event.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "An IOT device for this transport reporting event."
+                    "rdfs:comment": "An IOT device for this transport reporting event.",
+                    "unece:domainName": "TransportEvent"
                 }
             ]
         }

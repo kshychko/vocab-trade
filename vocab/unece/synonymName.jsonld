@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01002175",
                     "unece:cefactBieDomainClass": "cefact:Distinct_Chemical.Details",
                     "unece:cefactBusinessProcess": "MSDS Reporting",
-                    "rdfs:comment": "A synonym name, expressed as text, for this distinct chemical."
+                    "rdfs:comment": "A synonym name, expressed as text, for this distinct chemical.",
+                    "unece:domainName": "Chemical"
                 }
             ]
         }

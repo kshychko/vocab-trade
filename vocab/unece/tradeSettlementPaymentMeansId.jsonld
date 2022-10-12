@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01006055",
                     "unece:cefactBieDomainClass": "cefact:TradeSettlement_PaymentMeans.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "An identifier for this trade settlement payment means."
+                    "rdfs:comment": "An identifier for this trade settlement payment means.",
+                    "unece:domainName": "PaymentMeans"
                 }
             ]
         }

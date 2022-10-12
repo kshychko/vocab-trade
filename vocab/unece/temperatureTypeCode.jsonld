@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01004750",
                     "unece:cefactBieDomainClass": "cefact:TransportSetting_Temperature.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The code specifying the type of transport setting temperature [Reference United Nations Code List (UNCL) 6245]."
+                    "rdfs:comment": "The code specifying the type of transport setting temperature [Reference United Nations Code List (UNCL) 6245].",
+                    "unece:domainName": "TransportSettingTemperature"
                 }
             ]
         }

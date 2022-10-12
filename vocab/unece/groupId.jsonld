@@ -35,7 +35,8 @@
                     "unece:cefactUNId": "UN01013229",
                     "unece:cefactBieDomainClass": "cefact:FinancingRequest_Document.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The group identifier in this financing request document."
+                    "rdfs:comment": "The group identifier in this financing request document.",
+                    "unece:domainName": "FinancingRequestDocument"
                 }
             ]
         }

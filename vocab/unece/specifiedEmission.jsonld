@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01010129",
                     "unece:cefactBieDomainClass": "cefact:Logistics_TransportMovement.Details",
                     "unece:cefactBusinessProcess": "Transport",
-                    "rdfs:comment": "A calculated emission specified for this logistics transport movement."
+                    "rdfs:comment": "A calculated emission specified for this logistics transport movement.",
+                    "unece:domainName": "TransportMovement"
                 }
             ]
         }

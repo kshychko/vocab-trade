@@ -43,7 +43,8 @@
                     "unece:cefactUNId": "UN01002848",
                     "unece:cefactBieDomainClass": "cefact:Debtor_FinancialInstitution.Details",
                     "unece:cefactBusinessProcess": "Customer to bank payment initiation",
-                    "rdfs:comment": "The unique Swiss Bank Code (BC) identifier for this debtor financial institution."
+                    "rdfs:comment": "The unique Swiss Bank Code (BC) identifier for this debtor financial institution.",
+                    "unece:domainName": "DebtorFinancialInstitution"
                 },
                 {
                     "@id": "cefact:Creditor_FinancialInstitution.SwissBC_Identification.Identifier",
@@ -52,7 +53,8 @@
                     "unece:cefactUNId": "UN01002983",
                     "unece:cefactBieDomainClass": "cefact:Creditor_FinancialInstitution.Details",
                     "unece:cefactBusinessProcess": "Customer to bank payment initiation",
-                    "rdfs:comment": "The unique Swiss Bank Code (BC) identifier for this creditor financial institution."
+                    "rdfs:comment": "The unique Swiss Bank Code (BC) identifier for this creditor financial institution.",
+                    "unece:domainName": "CreditorFinancialInstitution"
                 }
             ]
         }

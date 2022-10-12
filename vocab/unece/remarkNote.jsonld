@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01004311",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_Inventory.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A note containing a remark for this supply chain inventory."
+                    "rdfs:comment": "A note containing a remark for this supply chain inventory.",
+                    "unece:domainName": "Inventory"
                 }
             ]
         }

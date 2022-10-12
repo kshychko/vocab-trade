@@ -35,7 +35,8 @@
                     "unece:cefactUNId": "UN01004477",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_TradeTransaction.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The unique identifier assigned by the sales agent to identify this supply chain trade transaction."
+                    "rdfs:comment": "The unique identifier assigned by the sales agent to identify this supply chain trade transaction.",
+                    "unece:domainName": "TradeTransaction"
                 }
             ]
         }

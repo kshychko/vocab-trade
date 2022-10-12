@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01004842",
                     "unece:cefactBieDomainClass": "cefact:Transport_Service.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A code specifying a type of condition for this transport service, such as a contract or carriage condition."
+                    "rdfs:comment": "A code specifying a type of condition for this transport service, such as a contract or carriage condition.",
+                    "unece:domainName": "Service"
                 }
             ]
         }

@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01004323",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_Packaging.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A marking specified for this supply chain packaging, such as an inscription, stamp or label to indicate date, ownership, quality, manufacture or origin."
+                    "rdfs:comment": "A marking specified for this supply chain packaging, such as an inscription, stamp or label to indicate date, ownership, quality, manufacture or origin.",
+                    "unece:domainName": "Packaging"
                 }
             ]
         }

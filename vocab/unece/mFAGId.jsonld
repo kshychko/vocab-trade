@@ -35,7 +35,8 @@
                     "unece:cefactUNId": "UN01004773",
                     "unece:cefactBieDomainClass": "cefact:Transport_DangerousGoods.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The unique Medical First Aid Guide (MFAG) identifier for these transported dangerous goods."
+                    "rdfs:comment": "The unique Medical First Aid Guide (MFAG) identifier for these transported dangerous goods.",
+                    "unece:domainName": "DangerousGoods"
                 }
             ]
         }

@@ -35,7 +35,8 @@
                     "unece:cefactUNId": "UN01007244",
                     "unece:cefactBieDomainClass": "cefact:Trade_Product.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The measure of the life span of this trade product from date of production."
+                    "rdfs:comment": "The measure of the life span of this trade product from date of production.",
+                    "unece:domainName": "Product"
                 }
             ]
         }

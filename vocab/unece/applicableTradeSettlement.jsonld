@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01011870",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_TradeTransaction.Details",
                     "unece:cefactBusinessProcess": "Trade",
-                    "rdfs:comment": "The trade settlement header applicable to this supply chain trade transaction."
+                    "rdfs:comment": "The trade settlement header applicable to this supply chain trade transaction.",
+                    "unece:domainName": "TradeTransaction"
                 }
             ]
         }

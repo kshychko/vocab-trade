@@ -46,15 +46,8 @@
                     "unece:cefactUNId": "UN01003749",
                     "unece:cefactBieDomainClass": "cefact:Logistics_Status.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The reference date, time, date time or other date time value for this logistics status."
-                },
-                {
-                    "@id": "cefact:Document_Status.Reference.DateTime",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01013124",
-                    "unece:cefactBieDomainClass": "cefact:Document_Status.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The reference date, time, date time or other date time value for this document status."
+                    "rdfs:comment": "The reference date, time, date time or other date time value for this logistics status.",
+                    "unece:domainName": "LogisticsStatus"
                 },
                 {
                     "@id": "cefact:Referenced_Document.Reference.DateTime",
@@ -62,7 +55,17 @@
                     "unece:cefactUNId": "UN01013289",
                     "unece:cefactBieDomainClass": "cefact:Referenced_Document.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The reference date or date time for this referenced document."
+                    "rdfs:comment": "The reference date or date time for this referenced document.",
+                    "unece:domainName": "Document"
+                },
+                {
+                    "@id": "cefact:Document_Status.Reference.DateTime",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01013124",
+                    "unece:cefactBieDomainClass": "cefact:Document_Status.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The reference date, time, date time or other date time value for this document status.",
+                    "unece:domainName": "DocumentStatus"
                 }
             ]
         }

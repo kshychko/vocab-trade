@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01002022",
                     "unece:cefactBieDomainClass": "cefact:Requesting_Party.Details",
                     "unece:cefactBusinessProcess": "Project Management",
-                    "rdfs:comment": "The code specifying the access rights, such as unlimited, restricted, prohibited, for this requesting party."
+                    "rdfs:comment": "The code specifying the access rights, such as unlimited, restricted, prohibited, for this requesting party.",
+                    "unece:domainName": "RequestingParty"
                 }
             ]
         }

@@ -43,7 +43,8 @@
                     "unece:cefactUNId": "UN01002984",
                     "unece:cefactBieDomainClass": "cefact:Creditor_FinancialInstitution.Details",
                     "unece:cefactBusinessProcess": "Customer to bank payment initiation",
-                    "rdfs:comment": "The unique Fedwire Routing Number identifier as assigned by the American Bankers Association (ABA) for this creditor financial institution."
+                    "rdfs:comment": "The unique Fedwire Routing Number identifier as assigned by the American Bankers Association (ABA) for this creditor financial institution.",
+                    "unece:domainName": "CreditorFinancialInstitution"
                 },
                 {
                     "@id": "cefact:Debtor_FinancialInstitution.FedwireRoutingNumber_Identification.Identifier",
@@ -52,7 +53,8 @@
                     "unece:cefactUNId": "UN01002849",
                     "unece:cefactBieDomainClass": "cefact:Debtor_FinancialInstitution.Details",
                     "unece:cefactBusinessProcess": "Customer to bank payment initiation",
-                    "rdfs:comment": "The unique Fedwire Routing Number identifier as assigned by the American Bankers Association (ABA) for this debtor financial institution."
+                    "rdfs:comment": "The unique Fedwire Routing Number identifier as assigned by the American Bankers Association (ABA) for this debtor financial institution.",
+                    "unece:domainName": "DebtorFinancialInstitution"
                 }
             ]
         }

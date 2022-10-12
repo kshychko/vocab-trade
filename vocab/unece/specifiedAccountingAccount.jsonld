@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01004744",
                     "unece:cefactBieDomainClass": "cefact:Trade_Tax.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A specified accounting account for this trade related tax, levy or duty."
+                    "rdfs:comment": "A specified accounting account for this trade related tax, levy or duty.",
+                    "unece:domainName": "TradeTax"
                 }
             ]
         }

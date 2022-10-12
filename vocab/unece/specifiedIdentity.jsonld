@@ -50,36 +50,13 @@
             "rdfs:label": "specifiedIdentity",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Contact_Person.Specified.Employer_Identity",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01013205",
-                    "unece:cefactBieDomainClass": "cefact:Contact_Person.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "An employer identity specified for this contact person."
-                },
-                {
                     "@id": "cefact:Requesting_Party.Specified.Proprietary_Identity",
                     "@type": "unece:AssociationBIE",
                     "unece:cefactUNId": "UN01013292",
                     "unece:cefactBieDomainClass": "cefact:Requesting_Party.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A proprietary identity specified for this requesting party."
-                },
-                {
-                    "@id": "cefact:Person_Identity.Specified.Proprietary_Identity",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01013285",
-                    "unece:cefactBieDomainClass": "cefact:Person_Identity.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A proprietary Identity specified for this person."
-                },
-                {
-                    "@id": "cefact:Creditor_FinancialInstitution.Specified.Proprietary_Identity",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01013210",
-                    "unece:cefactBieDomainClass": "cefact:Creditor_FinancialInstitution.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A proprietary identity specified for this creditor financial institution."
+                    "rdfs:comment": "A proprietary identity specified for this requesting party.",
+                    "unece:domainName": "RequestingParty"
                 },
                 {
                     "@id": "cefact:Trade_Party.Specified.Financial_Identity",
@@ -87,15 +64,8 @@
                     "unece:cefactUNId": "UN01013303",
                     "unece:cefactBieDomainClass": "cefact:Trade_Party.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The financial identity specified for this trade party."
-                },
-                {
-                    "@id": "cefact:Contact_Person.Specified.Person_Identity",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01013206",
-                    "unece:cefactBieDomainClass": "cefact:Contact_Person.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The person identity specified for this contact person."
+                    "rdfs:comment": "The financial identity specified for this trade party.",
+                    "unece:domainName": "TradeParty"
                 },
                 {
                     "@id": "cefact:Trade_Party.Specified.Proprietary_Identity",
@@ -103,7 +73,44 @@
                     "unece:cefactUNId": "UN01013302",
                     "unece:cefactBieDomainClass": "cefact:Trade_Party.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A proprietary identity specified for this trade party."
+                    "rdfs:comment": "A proprietary identity specified for this trade party.",
+                    "unece:domainName": "TradeParty"
+                },
+                {
+                    "@id": "cefact:Person_Identity.Specified.Proprietary_Identity",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01013285",
+                    "unece:cefactBieDomainClass": "cefact:Person_Identity.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A proprietary Identity specified for this person.",
+                    "unece:domainName": "PersonIdentity"
+                },
+                {
+                    "@id": "cefact:Contact_Person.Specified.Person_Identity",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01013206",
+                    "unece:cefactBieDomainClass": "cefact:Contact_Person.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The person identity specified for this contact person.",
+                    "unece:domainName": "ContactPerson"
+                },
+                {
+                    "@id": "cefact:Contact_Person.Specified.Employer_Identity",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01013205",
+                    "unece:cefactBieDomainClass": "cefact:Contact_Person.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "An employer identity specified for this contact person.",
+                    "unece:domainName": "ContactPerson"
+                },
+                {
+                    "@id": "cefact:Creditor_FinancialInstitution.Specified.Proprietary_Identity",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01013210",
+                    "unece:cefactBieDomainClass": "cefact:Creditor_FinancialInstitution.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A proprietary identity specified for this creditor financial institution.",
+                    "unece:domainName": "CreditorFinancialInstitution"
                 }
             ]
         }

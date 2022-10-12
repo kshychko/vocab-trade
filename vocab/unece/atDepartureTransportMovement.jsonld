@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01004266",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The logistics transport movement for this supply chain consignment at the point when the means of transport departs a country or regional border."
+                    "rdfs:comment": "The logistics transport movement for this supply chain consignment at the point when the means of transport departs a country or regional border.",
+                    "unece:domainName": "Consignment"
                 }
             ]
         }

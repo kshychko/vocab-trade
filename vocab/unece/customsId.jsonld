@@ -44,7 +44,8 @@
                     "unece:cefactUNId": "UN01004163",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A unique identifier, for customs purposes, for this consignment."
+                    "rdfs:comment": "A unique identifier, for customs purposes, for this consignment.",
+                    "unece:domainName": "Consignment"
                 },
                 {
                     "@id": "cefact:Exchanged_Document.Customs_Identification.Identifier",
@@ -53,7 +54,8 @@
                     "unece:cefactUNId": "UN01003572",
                     "unece:cefactBieDomainClass": "cefact:Exchanged_Document.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A unique identifier, for customs purposes, for this exchanged document."
+                    "rdfs:comment": "A unique identifier, for customs purposes, for this exchanged document.",
+                    "unece:domainName": "ExchangedDocument"
                 },
                 {
                     "@id": "cefact:Referenced_SupplyChain_Consignment.Customs_Identification.Identifier",
@@ -62,7 +64,8 @@
                     "unece:cefactUNId": "UN01011053",
                     "unece:cefactBieDomainClass": "cefact:ReferencedSupplyChain_Consignment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The identifier, for customs purposes, for this referenced supply chain consignment."
+                    "rdfs:comment": "The identifier, for customs purposes, for this referenced supply chain consignment.",
+                    "unece:domainName": "Consignment"
                 }
             ]
         }

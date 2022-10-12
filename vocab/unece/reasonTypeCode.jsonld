@@ -35,7 +35,8 @@
                     "unece:cefactUNId": "UN01010084",
                     "unece:cefactBieDomainClass": "cefact:ReferencedTransport_Event.Details",
                     "unece:cefactBusinessProcess": "Transport",
-                    "rdfs:comment": "The code specifying the reason type for this referenced transport event."
+                    "rdfs:comment": "The code specifying the reason type for this referenced transport event.",
+                    "unece:domainName": "TransportEvent"
                 }
             ]
         }

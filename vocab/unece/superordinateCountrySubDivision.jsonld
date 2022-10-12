@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01002566",
                     "unece:cefactBieDomainClass": "cefact:Trade_CountrySubDivision.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A superordinate country sub-division for this trade country sub-division."
+                    "rdfs:comment": "A superordinate country sub-division for this trade country sub-division.",
+                    "unece:domainName": "CountrySubDivision"
                 }
             ]
         }

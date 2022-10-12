@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01003751",
                     "unece:cefactBieDomainClass": "cefact:Logistics_Status.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A code specifying a reason for this logistics status [UNECE Recommendation 24]."
+                    "rdfs:comment": "A code specifying a reason for this logistics status [UNECE Recommendation 24].",
+                    "unece:domainName": "LogisticsStatus"
                 }
             ]
         }

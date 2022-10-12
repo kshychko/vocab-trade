@@ -43,7 +43,8 @@
                     "unece:cefactUNId": "UN01004539",
                     "unece:cefactBieDomainClass": "cefact:Trade_Address.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The second free form line, expressed as text, of this trade address."
+                    "rdfs:comment": "The second free form line, expressed as text, of this trade address.",
+                    "unece:domainName": "TradeAddress"
                 },
                 {
                     "@id": "cefact:FinancialInstitution_Address.LineTwo.Text",
@@ -52,7 +53,8 @@
                     "unece:cefactUNId": "UN01003176",
                     "unece:cefactBieDomainClass": "cefact:FinancialInstitution_Address.Details",
                     "unece:cefactBusinessProcess": "Customer to bank payment initiation",
-                    "rdfs:comment": "The second free form line, expressed as text, of this financial institution address."
+                    "rdfs:comment": "The second free form line, expressed as text, of this financial institution address.",
+                    "unece:domainName": "FinancialInstitutionAddress"
                 }
             ]
         }

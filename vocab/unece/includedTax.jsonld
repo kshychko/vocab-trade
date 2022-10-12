@@ -41,7 +41,8 @@
                     "unece:cefactUNId": "UN01004649",
                     "unece:cefactBieDomainClass": "cefact:Trade_Price.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A tax included in this trade price."
+                    "rdfs:comment": "A tax included in this trade price.",
+                    "unece:domainName": "TradePrice"
                 },
                 {
                     "@id": "cefact:Advance_Payment.Included.Trade_Tax",
@@ -49,7 +50,8 @@
                     "unece:cefactUNId": "UN01012134",
                     "unece:cefactBieDomainClass": "cefact:Advance_Payment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A tax included in this advance payment."
+                    "rdfs:comment": "A tax included in this advance payment.",
+                    "unece:domainName": "AdvancePayment"
                 }
             ]
         }

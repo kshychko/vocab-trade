@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01012751",
                     "unece:cefactBieDomainClass": "cefact:Logistics_TransportMovement.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The code specifying the service of this logistics transport movement, such as regular, milk run or spot service."
+                    "rdfs:comment": "The code specifying the service of this logistics transport movement, such as regular, milk run or spot service.",
+                    "unece:domainName": "TransportMovement"
                 }
             ]
         }

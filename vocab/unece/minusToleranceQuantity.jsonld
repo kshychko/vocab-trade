@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01006699",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_SupplyPlan.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The minus tolerance quantity from the planned or requested quantity in this supply chain supply plan. Minus Tolerance: the maximum permissible variation in the negative direction for a quantity."
+                    "rdfs:comment": "The minus tolerance quantity from the planned or requested quantity in this supply chain supply plan. Minus Tolerance: the maximum permissible variation in the negative direction for a quantity.",
+                    "unece:domainName": "SupplyPlan"
                 }
             ]
         }

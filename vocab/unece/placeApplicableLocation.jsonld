@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01011929",
                     "unece:cefactBieDomainClass": "cefact:Trade_Tax.Details",
                     "unece:cefactBusinessProcess": "Trade",
-                    "rdfs:comment": "A location where this trade tax is applicable."
+                    "rdfs:comment": "A location where this trade tax is applicable.",
+                    "unece:domainName": "TradeTax"
                 }
             ]
         }

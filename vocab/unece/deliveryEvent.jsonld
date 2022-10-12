@@ -49,23 +49,8 @@
                     "unece:cefactUNId": "UN01004156",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_ConsignmentItem.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The delivery event for this supply chain consignment item."
-                },
-                {
-                    "@id": "cefact:SupplyChain_SupplyPlan.Delivery.SupplyChain_Event",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01004330",
-                    "unece:cefactBieDomainClass": "cefact:SupplyChain_SupplyPlan.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A delivery event for this supply chain supply plan."
-                },
-                {
-                    "@id": "cefact:Logistics_TransportEquipment.Delivery.Transport_Event",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01010100",
-                    "unece:cefactBieDomainClass": "cefact:Logistics_TransportEquipment.Details",
-                    "unece:cefactBusinessProcess": "Transport",
-                    "rdfs:comment": "A delivery event for this piece of logistics transport equipment."
+                    "rdfs:comment": "The delivery event for this supply chain consignment item.",
+                    "unece:domainName": "ConsignmentItem"
                 },
                 {
                     "@id": "cefact:SupplyChain_Consignment.Delivery.Transport_Event",
@@ -73,7 +58,26 @@
                     "unece:cefactUNId": "UN01004251",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The delivery event for this supply chain consignment."
+                    "rdfs:comment": "The delivery event for this supply chain consignment.",
+                    "unece:domainName": "Consignment"
+                },
+                {
+                    "@id": "cefact:SupplyChain_SupplyPlan.Delivery.SupplyChain_Event",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01004330",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_SupplyPlan.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A delivery event for this supply chain supply plan.",
+                    "unece:domainName": "SupplyPlan"
+                },
+                {
+                    "@id": "cefact:Logistics_TransportEquipment.Delivery.Transport_Event",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01010100",
+                    "unece:cefactBieDomainClass": "cefact:Logistics_TransportEquipment.Details",
+                    "unece:cefactBusinessProcess": "Transport",
+                    "rdfs:comment": "A delivery event for this piece of logistics transport equipment.",
+                    "unece:domainName": "LogisticsTransportEquipment"
                 }
             ]
         }

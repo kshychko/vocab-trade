@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01004886",
                     "unece:cefactBieDomainClass": "cefact:Document_Authentication.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The trade party providing the location for this document authentication."
+                    "rdfs:comment": "The trade party providing the location for this document authentication.",
+                    "unece:domainName": "Authentication"
                 }
             ]
         }

@@ -35,7 +35,8 @@
                     "unece:cefactUNId": "UN01003715",
                     "unece:cefactBieDomainClass": "cefact:Logistics_Seal.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The maximum unique identifier used for these logistics seals."
+                    "rdfs:comment": "The maximum unique identifier used for these logistics seals.",
+                    "unece:domainName": "Seal"
                 }
             ]
         }

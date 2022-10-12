@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01010105",
                     "unece:cefactBieDomainClass": "cefact:Logistics_TransportMeans.Details",
                     "unece:cefactBusinessProcess": "Transport",
-                    "rdfs:comment": "The draught level measured at the fore end of this transport means."
+                    "rdfs:comment": "The draught level measured at the fore end of this transport means.",
+                    "unece:domainName": "TransportMeans"
                 }
             ]
         }

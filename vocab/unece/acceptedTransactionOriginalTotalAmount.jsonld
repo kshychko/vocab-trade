@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01013247",
                     "unece:cefactBieDomainClass": "cefact:FinancingSummary_Document.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "An original total monetary value of accepted transactions in this financing summary document."
+                    "rdfs:comment": "An original total monetary value of accepted transactions in this financing summary document.",
+                    "unece:domainName": "FinancingSummaryDocument"
                 }
             ]
         }

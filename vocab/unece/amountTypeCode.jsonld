@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01004527",
                     "unece:cefactBieDomainClass": "cefact:Trade_AccountingAccount.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The code specifying the amount type for this trade accounting account."
+                    "rdfs:comment": "The code specifying the amount type for this trade accounting account.",
+                    "unece:domainName": "AccountingAccount"
                 }
             ]
         }

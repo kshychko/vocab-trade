@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01008869",
                     "unece:cefactBieDomainClass": "cefact:TradeSettlement_Payment.Details",
                     "unece:cefactBusinessProcess": "Trade",
-                    "rdfs:comment": "The date, time, date time or other date time value of the requested execution of this trade settlement payment."
+                    "rdfs:comment": "The date, time, date time or other date time value of the requested execution of this trade settlement payment.",
+                    "unece:domainName": "TradeSettlementPayment"
                 }
             ]
         }

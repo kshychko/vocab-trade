@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01008863",
                     "unece:cefactBieDomainClass": "cefact:ReturnableAsset_Instructions.Details",
                     "unece:cefactBusinessProcess": "Supply Chain",
-                    "rdfs:comment": "The code specifying the description of the terms and conditions for these returnable asset instructions."
+                    "rdfs:comment": "The code specifying the description of the terms and conditions for these returnable asset instructions.",
+                    "unece:domainName": "ReturnableAssetInstructions"
                 }
             ]
         }

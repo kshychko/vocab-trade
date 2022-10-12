@@ -42,15 +42,8 @@
                     "unece:cefactUNId": "UN01004219",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The party from whom this supply chain consignment will be or has been despatched."
-                },
-                {
-                    "@id": "cefact:Referenced_SupplyChain_Consignment.Despatch.Trade_Party",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01011056",
-                    "unece:cefactBieDomainClass": "cefact:ReferencedSupplyChain_Consignment.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The party from whom this referenced supply chain consignment will be or has been despatched."
+                    "rdfs:comment": "The party from whom this supply chain consignment will be or has been despatched.",
+                    "unece:domainName": "Consignment"
                 },
                 {
                     "@id": "cefact:SupplyChain_ConsignmentItem.Despatch.Trade_Party",
@@ -58,7 +51,17 @@
                     "unece:cefactUNId": "UN01004147",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_ConsignmentItem.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The party from whom this supply chain consignment item will be or has been despatched."
+                    "rdfs:comment": "The party from whom this supply chain consignment item will be or has been despatched.",
+                    "unece:domainName": "ConsignmentItem"
+                },
+                {
+                    "@id": "cefact:Referenced_SupplyChain_Consignment.Despatch.Trade_Party",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01011056",
+                    "unece:cefactBieDomainClass": "cefact:ReferencedSupplyChain_Consignment.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The party from whom this referenced supply chain consignment will be or has been despatched.",
+                    "unece:domainName": "Consignment"
                 }
             ]
         }

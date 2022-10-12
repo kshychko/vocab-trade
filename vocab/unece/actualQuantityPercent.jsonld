@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01000019",
                     "unece:cefactBieDomainClass": "cefact:WorkItem_QuantityAnalysis.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The percentage of a total quantity that the actual quantity of this work item quantity analysis represents. Definition corrected. Industry context value changed from \"Construction\" to \"In All Contexts\"."
+                    "rdfs:comment": "The percentage of a total quantity that the actual quantity of this work item quantity analysis represents. Definition corrected. Industry context value changed from \"Construction\" to \"In All Contexts\".",
+                    "unece:domainName": "QuantityAnalysis"
                 }
             ]
         }

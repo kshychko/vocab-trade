@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01013283",
                     "unece:cefactBieDomainClass": "cefact:Person_Identity.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The drivers licence identifier for this person."
+                    "rdfs:comment": "The drivers licence identifier for this person.",
+                    "unece:domainName": "PersonIdentity"
                 }
             ]
         }

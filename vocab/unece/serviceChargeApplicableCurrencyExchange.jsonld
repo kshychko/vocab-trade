@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01004281",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A currency exchange applicable to a service charge for this supply chain consignment."
+                    "rdfs:comment": "A currency exchange applicable to a service charge for this supply chain consignment.",
+                    "unece:domainName": "Consignment"
                 }
             ]
         }

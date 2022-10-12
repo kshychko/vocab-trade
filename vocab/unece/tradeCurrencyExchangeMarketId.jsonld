@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01004581",
                     "unece:cefactBieDomainClass": "cefact:Trade_CurrencyExchange.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The unique identifier of the currency exchange market from which the exchange rate is taken for trade purposes."
+                    "rdfs:comment": "The unique identifier of the currency exchange market from which the exchange rate is taken for trade purposes.",
+                    "unece:domainName": "CurrencyExchange"
                 }
             ]
         }

@@ -37,22 +37,24 @@
             "rdfs:label": "previousRevisionId",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Referenced_Document.PreviousRevision_Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "1004",
-                    "unece:cefactUNId": "UN01009018",
-                    "unece:cefactBieDomainClass": "cefact:Referenced_Document.Details",
-                    "unece:cefactBusinessProcess": "Cross Industry Trade",
-                    "rdfs:comment": "An identifier for a previous revision of this referenced document."
-                },
-                {
                     "@id": "cefact:Exchanged_Document.PreviousRevision_Identification.Identifier",
                     "@type": "unece:BasicBIE",
                     "unece:tded": "1004",
                     "unece:cefactUNId": "UN01003576",
                     "unece:cefactBieDomainClass": "cefact:Exchanged_Document.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The unique identifier of the previous revision of this exchanged document."
+                    "rdfs:comment": "The unique identifier of the previous revision of this exchanged document.",
+                    "unece:domainName": "ExchangedDocument"
+                },
+                {
+                    "@id": "cefact:Referenced_Document.PreviousRevision_Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "1004",
+                    "unece:cefactUNId": "UN01009018",
+                    "unece:cefactBieDomainClass": "cefact:Referenced_Document.Details",
+                    "unece:cefactBusinessProcess": "Cross Industry Trade",
+                    "rdfs:comment": "An identifier for a previous revision of this referenced document.",
+                    "unece:domainName": "Document"
                 }
             ]
         }

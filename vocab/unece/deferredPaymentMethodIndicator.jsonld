@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01008963",
                     "unece:cefactBieDomainClass": "cefact:CrossBorder_RegulatoryProcedure.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The indication of whether or not the deferred payment method is applicable to this cross-border regulatory procedure."
+                    "rdfs:comment": "The indication of whether or not the deferred payment method is applicable to this cross-border regulatory procedure.",
+                    "unece:domainName": "RegulatoryProcedure"
                 }
             ]
         }

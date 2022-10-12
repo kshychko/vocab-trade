@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01004571",
                     "unece:cefactBieDomainClass": "cefact:Trade_Contact.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "Voice Over Internet Protocol (VOIP) communication information for this trade contact."
+                    "rdfs:comment": "Voice Over Internet Protocol (VOIP) communication information for this trade contact.",
+                    "unece:domainName": "Contact"
                 }
             ]
         }

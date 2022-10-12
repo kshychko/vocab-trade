@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01003645",
                     "unece:cefactBieDomainClass": "cefact:Legal_Organization.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The trading business name, expressed as text, of this legally set up organization."
+                    "rdfs:comment": "The trading business name, expressed as text, of this legally set up organization.",
+                    "unece:domainName": "Organization"
                 }
             ]
         }

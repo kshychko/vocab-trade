@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01013139",
                     "unece:cefactBieDomainClass": "cefact:Transport_Person.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The identifier of the birth country of this transport person."
+                    "rdfs:comment": "The identifier of the birth country of this transport person.",
+                    "unece:domainName": "TransportPerson"
                 }
             ]
         }

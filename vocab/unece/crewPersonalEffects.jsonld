@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01013175",
                     "unece:cefactBieDomainClass": "cefact:Logistics_TransportMovement.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "Personal effects of an individual member of the crew for this logistics transport movement."
+                    "rdfs:comment": "Personal effects of an individual member of the crew for this logistics transport movement.",
+                    "unece:domainName": "TransportMovement"
                 }
             ]
         }

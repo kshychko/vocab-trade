@@ -37,20 +37,22 @@
             "rdfs:label": "netIncludingTaxesLineTotalAmount",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:TradeSettlementLine_MonetarySummation.NetIncludingTaxes_LineTotal.Amount",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01011910",
-                    "unece:cefactBieDomainClass": "cefact:TradeSettlementLine_MonetarySummation.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A monetary value of the total of all line amounts, including line level allowances and charges and including line level taxes, being reported in this trade settlement line monetary summation."
-                },
-                {
                     "@id": "cefact:TradeSettlementHeader_MonetarySummation.NetIncludingTaxes_LineTotal.Amount",
                     "@type": "unece:BasicBIE",
                     "unece:cefactUNId": "UN01011892",
                     "unece:cefactBieDomainClass": "cefact:TradeSettlementHeader_MonetarySummation.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A monetary value of the total of all line amounts, including line level allowances and charges and including line level taxes, being reported in this trade settlement header monetary summation."
+                    "rdfs:comment": "A monetary value of the total of all line amounts, including line level allowances and charges and including line level taxes, being reported in this trade settlement header monetary summation.",
+                    "unece:domainName": "TradeSettlementHeaderMonetarySummation"
+                },
+                {
+                    "@id": "cefact:TradeSettlementLine_MonetarySummation.NetIncludingTaxes_LineTotal.Amount",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01011910",
+                    "unece:cefactBieDomainClass": "cefact:TradeSettlementLine_MonetarySummation.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A monetary value of the total of all line amounts, including line level allowances and charges and including line level taxes, being reported in this trade settlement line monetary summation.",
+                    "unece:domainName": "TradeSettlementLineMonetarySummation"
                 }
             ]
         }

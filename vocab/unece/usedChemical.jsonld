@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01009029",
                     "unece:cefactBieDomainClass": "cefact:Applied_ChemicalTreatment.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A chemical used during this applied chemical treatment."
+                    "rdfs:comment": "A chemical used during this applied chemical treatment.",
+                    "unece:domainName": "ChemicalTreatment"
                 }
             ]
         }

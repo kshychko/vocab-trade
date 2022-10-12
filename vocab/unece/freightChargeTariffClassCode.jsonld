@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01003725",
                     "unece:cefactBieDomainClass": "cefact:Logistics_ServiceCharge.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The code specifying the tariff class for this logistics service charge which represents an entry in a table of fixed charges [Reference United Nations Code List (UNCL) 5243]."
+                    "rdfs:comment": "The code specifying the tariff class for this logistics service charge which represents an entry in a table of fixed charges [Reference United Nations Code List (UNCL) 5243].",
+                    "unece:domainName": "ServiceCharge"
                 }
             ]
         }

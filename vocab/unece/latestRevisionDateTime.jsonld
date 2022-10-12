@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01007176",
                     "unece:cefactBieDomainClass": "cefact:DocumentLine_Document.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The date, time, date time, or other date time value for the latest revision of this document line."
+                    "rdfs:comment": "The date, time, date time, or other date time value for the latest revision of this document line.",
+                    "unece:domainName": "DocumentLineDocument"
                 }
             ]
         }

@@ -45,7 +45,8 @@
                     "unece:cefactUNId": "UN01011775",
                     "unece:cefactBieDomainClass": "cefact:Line_TradeDelivery.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A delivery adjustment, at line level, specified for this trade delivery."
+                    "rdfs:comment": "A delivery adjustment, at line level, specified for this trade delivery.",
+                    "unece:domainName": "LineTradeDelivery"
                 },
                 {
                     "@id": "cefact:Header_TradeSettlement.Specified.Financial_Adjustment",
@@ -53,7 +54,8 @@
                     "unece:cefactUNId": "UN01011679",
                     "unece:cefactBieDomainClass": "cefact:Header_TradeSettlement.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A financial adjustment specified for this header trade settlement."
+                    "rdfs:comment": "A financial adjustment specified for this header trade settlement.",
+                    "unece:domainName": "HeaderTradeSettlement"
                 },
                 {
                     "@id": "cefact:Line_TradeSettlement.Specified.Financial_Adjustment",
@@ -61,7 +63,8 @@
                     "unece:cefactUNId": "UN01011813",
                     "unece:cefactBieDomainClass": "cefact:Line_TradeSettlement.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A financial adjustment specified for this line trade settlement."
+                    "rdfs:comment": "A financial adjustment specified for this line trade settlement.",
+                    "unece:domainName": "LineTradeSettlement"
                 }
             ]
         }

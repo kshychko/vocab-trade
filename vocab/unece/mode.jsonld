@@ -35,7 +35,8 @@
                     "unece:cefactUNId": "UN01003840",
                     "unece:cefactBieDomainClass": "cefact:Logistics_TransportMovement.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The mode, expressed as text, of this logistics transport movement."
+                    "rdfs:comment": "The mode, expressed as text, of this logistics transport movement.",
+                    "unece:domainName": "TransportMovement"
                 }
             ]
         }

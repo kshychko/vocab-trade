@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01012739",
                     "unece:cefactBieDomainClass": "cefact:Section_Segment.Details",
                     "unece:cefactBusinessProcess": "Cross Industry Trade",
-                    "rdfs:comment": "The image, expressed as a binary object, for this section segment."
+                    "rdfs:comment": "The image, expressed as a binary object, for this section segment.",
+                    "unece:domainName": "Segment"
                 }
             ]
         }

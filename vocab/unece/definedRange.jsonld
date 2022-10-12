@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01013523",
                     "unece:cefactBieDomainClass": "cefact:Operational_Parameter.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A defined range specified for this operational parameter."
+                    "rdfs:comment": "A defined range specified for this operational parameter.",
+                    "unece:domainName": "OperationalParameter"
                 }
             ]
         }

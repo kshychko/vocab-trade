@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01013147",
                     "unece:cefactBieDomainClass": "cefact:Transport_Person.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "Personal effects use declared by a transport person."
+                    "rdfs:comment": "Personal effects use declared by a transport person.",
+                    "unece:domainName": "TransportPerson"
                 }
             ]
         }

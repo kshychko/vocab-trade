@@ -37,21 +37,23 @@
             "rdfs:label": "lastRegisteredYearDateTime",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Legal_Registration.LastRegisteredYear.DateTime",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01003656",
-                    "unece:cefactBieDomainClass": "cefact:Legal_Registration.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The last year in which this legal registration was registered."
-                },
-                {
                     "@id": "cefact:Government_Registration.LastRegisteredYear.DateTime",
                     "@type": "unece:BasicBIE",
                     "unece:tded": "2379",
                     "unece:cefactUNId": "UN01011035",
                     "unece:cefactBieDomainClass": "cefact:Government_Registration.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The last registered year of this government registration."
+                    "rdfs:comment": "The last registered year of this government registration.",
+                    "unece:domainName": "GovernmentRegistration"
+                },
+                {
+                    "@id": "cefact:Legal_Registration.LastRegisteredYear.DateTime",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01003656",
+                    "unece:cefactBieDomainClass": "cefact:Legal_Registration.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The last year in which this legal registration was registered.",
+                    "unece:domainName": "LegalRegistration"
                 }
             ]
         }

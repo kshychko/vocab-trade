@@ -37,20 +37,22 @@
             "rdfs:label": "chargeTotalAmount",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:TradeSettlementLine_MonetarySummation.ChargeTotal.Amount",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01011898",
-                    "unece:cefactBieDomainClass": "cefact:TradeSettlementLine_MonetarySummation.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A monetary value of the total of all charge amounts being reported in this trade settlement line monetary summation."
-                },
-                {
                     "@id": "cefact:TradeSettlementHeader_MonetarySummation.ChargeTotal.Amount",
                     "@type": "unece:BasicBIE",
                     "unece:cefactUNId": "UN01011873",
                     "unece:cefactBieDomainClass": "cefact:TradeSettlementHeader_MonetarySummation.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A monetary value of the total of all charge amounts being reported in this trade settlement header monetary summation."
+                    "rdfs:comment": "A monetary value of the total of all charge amounts being reported in this trade settlement header monetary summation.",
+                    "unece:domainName": "TradeSettlementHeaderMonetarySummation"
+                },
+                {
+                    "@id": "cefact:TradeSettlementLine_MonetarySummation.ChargeTotal.Amount",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01011898",
+                    "unece:cefactBieDomainClass": "cefact:TradeSettlementLine_MonetarySummation.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A monetary value of the total of all charge amounts being reported in this trade settlement line monetary summation.",
+                    "unece:domainName": "TradeSettlementLineMonetarySummation"
                 }
             ]
         }

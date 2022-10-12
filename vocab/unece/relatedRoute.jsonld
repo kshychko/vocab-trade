@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01010151",
                     "unece:cefactBieDomainClass": "cefact:Transport_Event.Details",
                     "unece:cefactBusinessProcess": "Transport",
-                    "rdfs:comment": "The route related to this transport event."
+                    "rdfs:comment": "The route related to this transport event.",
+                    "unece:domainName": "TransportEvent"
                 }
             ]
         }

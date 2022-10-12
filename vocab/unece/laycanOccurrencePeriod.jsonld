@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01004807",
                     "unece:cefactBieDomainClass": "cefact:Transport_Event.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The specified period of laycan time during which this transport event occurs."
+                    "rdfs:comment": "The specified period of laycan time during which this transport event occurs.",
+                    "unece:domainName": "TransportEvent"
                 }
             ]
         }

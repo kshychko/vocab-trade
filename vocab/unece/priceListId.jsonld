@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01007556",
                     "unece:cefactBieDomainClass": "cefact:Valuation_BreakdownStatement.Details",
                     "unece:cefactBusinessProcess": "Invoicing",
-                    "rdfs:comment": "The identifier of a price list for this valuation breakdown statement."
+                    "rdfs:comment": "The identifier of a price list for this valuation breakdown statement.",
+                    "unece:domainName": "BreakdownStatement"
                 }
             ]
         }

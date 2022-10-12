@@ -35,7 +35,8 @@
                     "unece:cefactUNId": "UN01003516",
                     "unece:cefactBieDomainClass": "cefact:DocumentLine_Document.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The unique identifier of the parent line to this document line."
+                    "rdfs:comment": "The unique identifier of the parent line to this document line.",
+                    "unece:domainName": "DocumentLineDocument"
                 }
             ]
         }

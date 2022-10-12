@@ -35,7 +35,8 @@
                     "unece:cefactUNId": "UN01003486",
                     "unece:cefactBieDomainClass": "cefact:CrossBorder_CustomsValuation.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The adjustment added, expressed as a percentage, for this cross-border customs valuation."
+                    "rdfs:comment": "The adjustment added, expressed as a percentage, for this cross-border customs valuation.",
+                    "unece:domainName": "CustomsValuation"
                 }
             ]
         }

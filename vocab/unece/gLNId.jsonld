@@ -35,7 +35,8 @@
                     "unece:cefactUNId": "UN01006092",
                     "unece:cefactBieDomainClass": "cefact:Trade_Party.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A Global Location Number (GLN) identifier for this trade party."
+                    "rdfs:comment": "A Global Location Number (GLN) identifier for this trade party.",
+                    "unece:domainName": "TradeParty"
                 }
             ]
         }

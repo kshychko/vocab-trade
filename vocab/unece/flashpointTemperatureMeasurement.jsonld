@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01004790",
                     "unece:cefactBieDomainClass": "cefact:Transport_DangerousGoods.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A measurement of the flashpoint temperature of these transported dangerous goods."
+                    "rdfs:comment": "A measurement of the flashpoint temperature of these transported dangerous goods.",
+                    "unece:domainName": "DangerousGoods"
                 }
             ]
         }

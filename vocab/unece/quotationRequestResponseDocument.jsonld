@@ -41,7 +41,8 @@
                     "unece:cefactUNId": "UN01011749",
                     "unece:cefactBieDomainClass": "cefact:Line_TradeAgreement.Details",
                     "unece:cefactBusinessProcess": "Trade",
-                    "rdfs:comment": "The quotation request response document referenced in this line trade agreement."
+                    "rdfs:comment": "The quotation request response document referenced in this line trade agreement.",
+                    "unece:domainName": "LineTradeAgreement"
                 },
                 {
                     "@id": "cefact:Header_TradeAgreement.QuotationRequestResponse.Referenced_Document",
@@ -49,7 +50,8 @@
                     "unece:cefactUNId": "UN01011601",
                     "unece:cefactBieDomainClass": "cefact:Header_TradeAgreement.Details",
                     "unece:cefactBusinessProcess": "Trade",
-                    "rdfs:comment": "The quotation request response document referenced in this header trade agreement."
+                    "rdfs:comment": "The quotation request response document referenced in this header trade agreement.",
+                    "unece:domainName": "HeaderTradeAgreement"
                 }
             ]
         }

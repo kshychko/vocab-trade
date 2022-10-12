@@ -36,7 +36,8 @@
                     "unece:cefactUNId": "UN01013547",
                     "unece:cefactBieDomainClass": "cefact:Monitoring_Sensor.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A control setting parameter defined for this monitoring sensor."
+                    "rdfs:comment": "A control setting parameter defined for this monitoring sensor.",
+                    "unece:domainName": "Sensor"
                 },
                 {
                     "@id": "cefact:Monitoring_Sensor.Defined.Operational_Parameter",
@@ -44,7 +45,8 @@
                     "unece:cefactUNId": "UN01013548",
                     "unece:cefactBieDomainClass": "cefact:Monitoring_Sensor.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "An operational parameter defined for this monitoring sensor."
+                    "rdfs:comment": "An operational parameter defined for this monitoring sensor.",
+                    "unece:domainName": "Sensor"
                 }
             ]
         }

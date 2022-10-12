@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01012984",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_TradeLineItem.Details",
                     "unece:cefactBusinessProcess": "Supply Chain",
-                    "rdfs:comment": "A logistics package referenced in this supply chain trade line item."
+                    "rdfs:comment": "A logistics package referenced in this supply chain trade line item.",
+                    "unece:domainName": "TradeLineItem"
                 }
             ]
         }

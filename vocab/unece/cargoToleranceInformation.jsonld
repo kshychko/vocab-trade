@@ -43,7 +43,8 @@
                     "unece:cefactUNId": "UN01004205",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "Cargo tolerance information, expressed as text, for this supply chain consignment."
+                    "rdfs:comment": "Cargo tolerance information, expressed as text, for this supply chain consignment.",
+                    "unece:domainName": "Consignment"
                 },
                 {
                     "@id": "cefact:SupplyChain_ConsignmentItem.CargoTolerance_Information.Text",
@@ -51,7 +52,8 @@
                     "unece:cefactUNId": "UN01004129",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_ConsignmentItem.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "Cargo tolerance information, expressed as text, for this supply chain consignment item."
+                    "rdfs:comment": "Cargo tolerance information, expressed as text, for this supply chain consignment item.",
+                    "unece:domainName": "ConsignmentItem"
                 }
             ]
         }

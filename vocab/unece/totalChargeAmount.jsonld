@@ -41,12 +41,13 @@
             "rdfs:label": "totalChargeAmount",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:SupplyChain_ConsignmentItem.TotalCharge.Amount",
+                    "@id": "cefact:Cross-Border_RegulatoryProcedure.TotalCharge.Amount",
                     "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01004119",
-                    "unece:cefactBieDomainClass": "cefact:SupplyChain_ConsignmentItem.Details",
+                    "unece:cefactUNId": "UN01006164",
+                    "unece:cefactBieDomainClass": "cefact:CrossBorder_RegulatoryProcedure.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The monetary value of all freight and other service charges for this supply chain consignment item."
+                    "rdfs:comment": "A monetary value of the total charges, including tariff and non-tariff charges, for this cross-border regulatory procedure.",
+                    "unece:domainName": "RegulatoryProcedure"
                 },
                 {
                     "@id": "cefact:SupplyChain_Consignment.TotalCharge.Amount",
@@ -55,15 +56,17 @@
                     "unece:cefactUNId": "UN01004182",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The total monetary value of all freight and other service charges for this supply chain consignment."
+                    "rdfs:comment": "The total monetary value of all freight and other service charges for this supply chain consignment.",
+                    "unece:domainName": "Consignment"
                 },
                 {
-                    "@id": "cefact:Cross-Border_RegulatoryProcedure.TotalCharge.Amount",
+                    "@id": "cefact:SupplyChain_ConsignmentItem.TotalCharge.Amount",
                     "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01006164",
-                    "unece:cefactBieDomainClass": "cefact:CrossBorder_RegulatoryProcedure.Details",
+                    "unece:cefactUNId": "UN01004119",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_ConsignmentItem.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A monetary value of the total charges, including tariff and non-tariff charges, for this cross-border regulatory procedure."
+                    "rdfs:comment": "The monetary value of all freight and other service charges for this supply chain consignment item.",
+                    "unece:domainName": "ConsignmentItem"
                 }
             ]
         }

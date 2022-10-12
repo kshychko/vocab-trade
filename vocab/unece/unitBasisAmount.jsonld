@@ -42,7 +42,8 @@
                     "unece:cefactUNId": "UN01004554",
                     "unece:cefactBieDomainClass": "cefact:Trade_AllowanceCharge.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The monetary value of the unit basis on which the allowance or charge is calculated."
+                    "rdfs:comment": "The monetary value of the unit basis on which the allowance or charge is calculated.",
+                    "unece:domainName": "AllowanceCharge"
                 },
                 {
                     "@id": "cefact:Trade_Tax.Unit_Basis.Amount",
@@ -50,7 +51,8 @@
                     "unece:cefactUNId": "UN01004718",
                     "unece:cefactBieDomainClass": "cefact:Trade_Tax.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A monetary value that constitutes the per unit basis on which this trade related tax, levy or duty is calculated."
+                    "rdfs:comment": "A monetary value that constitutes the per unit basis on which this trade related tax, levy or duty is calculated.",
+                    "unece:domainName": "TradeTax"
                 }
             ]
         }

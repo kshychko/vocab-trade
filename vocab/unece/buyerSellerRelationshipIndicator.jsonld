@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01003492",
                     "unece:cefactBieDomainClass": "cefact:CrossBorder_CustomsValuation.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The indication of whether or not there is a relationship between the buyer and the seller, such as a financial relationship, for this cross-border customs valuation."
+                    "rdfs:comment": "The indication of whether or not there is a relationship between the buyer and the seller, such as a financial relationship, for this cross-border customs valuation.",
+                    "unece:domainName": "CustomsValuation"
                 }
             ]
         }

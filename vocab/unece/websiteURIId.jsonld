@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01009956",
                     "unece:cefactBieDomainClass": "cefact:Specified_Marketplace.Details",
                     "unece:cefactBusinessProcess": "Invoicing",
-                    "rdfs:comment": "A website Uniform Resource Identifier (URI) for this specified marketplace."
+                    "rdfs:comment": "A website Uniform Resource Identifier (URI) for this specified marketplace.",
+                    "unece:domainName": "Marketplace"
                 }
             ]
         }

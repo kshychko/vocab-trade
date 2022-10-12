@@ -35,7 +35,8 @@
                     "unece:cefactUNId": "UN01005275",
                     "unece:cefactBieDomainClass": "cefact:Exchanged_Document.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The date, time, date time, or other date time value of a cancellation of the exchanged document."
+                    "rdfs:comment": "The date, time, date time, or other date time value of a cancellation of the exchanged document.",
+                    "unece:domainName": "ExchangedDocument"
                 }
             ]
         }

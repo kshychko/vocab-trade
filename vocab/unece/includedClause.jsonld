@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01002645",
                     "unece:cefactBieDomainClass": "cefact:Document_Authentication.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A document clause included in this document authentication."
+                    "rdfs:comment": "A document clause included in this document authentication.",
+                    "unece:domainName": "Authentication"
                 }
             ]
         }

@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01003289",
                     "unece:cefactBieDomainClass": "cefact:Debtor_FinancialAccount.Details",
                     "unece:cefactBusinessProcess": "Customer to bank payment initiation",
-                    "rdfs:comment": "The code specifying the type of debtor financial account."
+                    "rdfs:comment": "The code specifying the type of debtor financial account.",
+                    "unece:domainName": "DebtorFinancialAccount"
                 }
             ]
         }

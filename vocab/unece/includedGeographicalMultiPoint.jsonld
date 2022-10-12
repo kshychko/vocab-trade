@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01012175",
                     "unece:cefactBieDomainClass": "cefact:Specified_GeographicalFeature.Details",
                     "unece:cefactBusinessProcess": "Agricultural",
-                    "rdfs:comment": "The geographical multi-point included in this geographical feature."
+                    "rdfs:comment": "The geographical multi-point included in this geographical feature.",
+                    "unece:domainName": "GeographicalFeature"
                 }
             ]
         }

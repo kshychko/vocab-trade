@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01006701",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_SupplyPlan.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A scheduled delivery event in this supply chain supply plan."
+                    "rdfs:comment": "A scheduled delivery event in this supply chain supply plan.",
+                    "unece:domainName": "SupplyPlan"
                 }
             ]
         }

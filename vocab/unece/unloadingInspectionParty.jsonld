@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01003871",
                     "unece:cefactBieDomainClass": "cefact:Logistics_TransportMovement.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The inspection party for the unloading of this logistics transport movement."
+                    "rdfs:comment": "The inspection party for the unloading of this logistics transport movement.",
+                    "unece:domainName": "TransportMovement"
                 }
             ]
         }

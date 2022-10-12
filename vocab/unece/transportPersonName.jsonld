@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01004817",
                     "unece:cefactBieDomainClass": "cefact:Transport_Person.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The name or set of names, expressed as text, by which this transport person is known."
+                    "rdfs:comment": "The name or set of names, expressed as text, by which this transport person is known.",
+                    "unece:domainName": "TransportPerson"
                 }
             ]
         }

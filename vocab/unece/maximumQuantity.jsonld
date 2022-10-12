@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01004644",
                     "unece:cefactBieDomainClass": "cefact:Trade_Price.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The maximum quantity in a range for which the trade price applies."
+                    "rdfs:comment": "The maximum quantity in a range for which the trade price applies.",
+                    "unece:domainName": "TradePrice"
                 }
             ]
         }

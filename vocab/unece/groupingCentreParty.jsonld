@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01004234",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A grouping centre party for this supply chain consignment."
+                    "rdfs:comment": "A grouping centre party for this supply chain consignment.",
+                    "unece:domainName": "Consignment"
                 }
             ]
         }

@@ -36,20 +36,22 @@
             "rdfs:label": "attachedIOTDevice",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Logistics_TransportMeans.Attached.Monitoring_IOTDevice",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01013602",
-                    "unece:cefactBieDomainClass": "cefact:Logistics_TransportMeans.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "An IOT device attached to this logistics transport means."
-                },
-                {
                     "@id": "cefact:Logistics_TransportEquipment.Attached.Monitoring_IOTDevice",
                     "@type": "unece:AssociationBIE",
                     "unece:cefactUNId": "UN01013598",
                     "unece:cefactBieDomainClass": "cefact:Logistics_TransportEquipment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "An IOT device attached to this piece of logistics transport equipment."
+                    "rdfs:comment": "An IOT device attached to this piece of logistics transport equipment.",
+                    "unece:domainName": "LogisticsTransportEquipment"
+                },
+                {
+                    "@id": "cefact:Logistics_TransportMeans.Attached.Monitoring_IOTDevice",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01013602",
+                    "unece:cefactBieDomainClass": "cefact:Logistics_TransportMeans.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "An IOT device attached to this logistics transport means.",
+                    "unece:domainName": "TransportMeans"
                 }
             ]
         }

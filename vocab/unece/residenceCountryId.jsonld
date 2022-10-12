@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01013203",
                     "unece:cefactBieDomainClass": "cefact:Contact_Person.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The identifier of the residence country of this contact person."
+                    "rdfs:comment": "The identifier of the residence country of this contact person.",
+                    "unece:domainName": "ContactPerson"
                 }
             ]
         }

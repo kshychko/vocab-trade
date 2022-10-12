@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01010060",
                     "unece:cefactBieDomainClass": "cefact:Certified_Accreditation.Details",
                     "unece:cefactBusinessProcess": "Transport",
-                    "rdfs:comment": "The name of the accrediting body, expressed as text, for this certified accreditation."
+                    "rdfs:comment": "The name of the accrediting body, expressed as text, for this certified accreditation.",
+                    "unece:domainName": "Accreditation"
                 }
             ]
         }

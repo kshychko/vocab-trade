@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01013579",
                     "unece:cefactBieDomainClass": "cefact:Specified_Circle.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The geographical point which defines the centre of this specified circle."
+                    "rdfs:comment": "The geographical point which defines the centre of this specified circle.",
+                    "unece:domainName": "Circle"
                 }
             ]
         }

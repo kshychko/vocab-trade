@@ -42,7 +42,8 @@
                     "unece:cefactUNId": "UN01004656",
                     "unece:cefactBieDomainClass": "cefact:Trade_ProductInstance.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The unique batch identifier for this trade product instance."
+                    "rdfs:comment": "The unique batch identifier for this trade product instance.",
+                    "unece:domainName": "ProductInstance"
                 },
                 {
                     "@id": "cefact:Trade_Product.Batch_Identification.Identifier",
@@ -51,7 +52,8 @@
                     "unece:cefactUNId": "UN01007243",
                     "unece:cefactBieDomainClass": "cefact:Trade_Product.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A batch identifier for this trade product."
+                    "rdfs:comment": "A batch identifier for this trade product.",
+                    "unece:domainName": "Product"
                 }
             ]
         }

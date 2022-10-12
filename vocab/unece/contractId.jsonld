@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01010076",
                     "unece:cefactBieDomainClass": "cefact:ReferencedTransport_Service.Details",
                     "unece:cefactBusinessProcess": "Transport",
-                    "rdfs:comment": "The contract identifier of this referenced transport service."
+                    "rdfs:comment": "The contract identifier of this referenced transport service.",
+                    "unece:domainName": "Service"
                 }
             ]
         }

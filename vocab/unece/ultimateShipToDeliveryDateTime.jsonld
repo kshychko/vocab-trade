@@ -43,7 +43,8 @@
                     "unece:cefactUNId": "UN01011772",
                     "unece:cefactBieDomainClass": "cefact:Line_TradeDelivery.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The formatted date, time, date time, or other date time value, at line level, when this trade delivery is delivered to the ultimate ship to party."
+                    "rdfs:comment": "The formatted date, time, date time, or other date time value, at line level, when this trade delivery is delivered to the ultimate ship to party.",
+                    "unece:domainName": "LineTradeDelivery"
                 },
                 {
                     "@id": "cefact:Header_TradeDelivery.UltimateShipToDelivery.DateTime",
@@ -51,7 +52,8 @@
                     "unece:cefactUNId": "UN01013422",
                     "unece:cefactBieDomainClass": "cefact:Header_TradeDelivery.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The date, time, date time, or other date time value, at header level, when this trade delivery is delivered to the ultimate ship to party."
+                    "rdfs:comment": "The date, time, date time, or other date time value, at header level, when this trade delivery is delivered to the ultimate ship to party.",
+                    "unece:domainName": "HeaderTradeDelivery"
                 }
             ]
         }

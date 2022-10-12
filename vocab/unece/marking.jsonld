@@ -37,22 +37,24 @@
             "rdfs:label": "marking",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Transport_DangerousGoods.Marking.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "8246",
-                    "unece:cefactUNId": "UN01004775",
-                    "unece:cefactBieDomainClass": "cefact:Transport_DangerousGoods.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "Marking, expressed as text, for these transported dangerous goods."
-                },
-                {
                     "@id": "cefact:Logistics_ShippingMarks.Marking.Text",
                     "@type": "unece:BasicBIE",
                     "unece:tded": "7102",
                     "unece:cefactUNId": "UN01003742",
                     "unece:cefactBieDomainClass": "cefact:Logistics_ShippingMarks.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "Marking, expressed as text, for these logistics shipping marks."
+                    "rdfs:comment": "Marking, expressed as text, for these logistics shipping marks.",
+                    "unece:domainName": "ShippingMarks"
+                },
+                {
+                    "@id": "cefact:Transport_DangerousGoods.Marking.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "8246",
+                    "unece:cefactUNId": "UN01004775",
+                    "unece:cefactBieDomainClass": "cefact:Transport_DangerousGoods.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "Marking, expressed as text, for these transported dangerous goods.",
+                    "unece:domainName": "DangerousGoods"
                 }
             ]
         }

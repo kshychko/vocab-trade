@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01003847",
                     "unece:cefactBieDomainClass": "cefact:Logistics_TransportMovement.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A date, time, date time or other date time value when this logistics transport movement crosses a border."
+                    "rdfs:comment": "A date, time, date time or other date time value when this logistics transport movement crosses a border.",
+                    "unece:domainName": "TransportMovement"
                 }
             ]
         }

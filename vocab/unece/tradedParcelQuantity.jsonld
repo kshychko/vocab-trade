@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01003852",
                     "unece:cefactBieDomainClass": "cefact:Logistics_TransportMovement.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The number of traded parcels of cargo being transported in this logistics transport movement."
+                    "rdfs:comment": "The number of traded parcels of cargo being transported in this logistics transport movement.",
+                    "unece:domainName": "TransportMovement"
                 }
             ]
         }

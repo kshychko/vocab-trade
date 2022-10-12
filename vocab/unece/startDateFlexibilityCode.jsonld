@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01004085",
                     "unece:cefactBieDomainClass": "cefact:Specified_Period.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The code specifying the flexibility of the start date of this specified period."
+                    "rdfs:comment": "The code specifying the flexibility of the start date of this specified period.",
+                    "unece:domainName": "Period"
                 }
             ]
         }

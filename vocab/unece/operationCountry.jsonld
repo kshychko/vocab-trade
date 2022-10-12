@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01002631",
                     "unece:cefactBieDomainClass": "cefact:ProductHandling_Process.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The trade country where the operation of this product handling process occurs."
+                    "rdfs:comment": "The trade country where the operation of this product handling process occurs.",
+                    "unece:domainName": "Process"
                 }
             ]
         }

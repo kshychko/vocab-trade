@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01013155",
                     "unece:cefactBieDomainClass": "cefact:TransportWaste_MaterialComponent.Details",
                     "unece:cefactBusinessProcess": "Transport",
-                    "rdfs:comment": "The measure of the maximum dedicated storage capacity for this transport waste material component."
+                    "rdfs:comment": "The measure of the maximum dedicated storage capacity for this transport waste material component.",
+                    "unece:domainName": "MaterialComponent"
                 }
             ]
         }

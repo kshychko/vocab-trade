@@ -42,7 +42,8 @@
                     "unece:cefactUNId": "UN01010473",
                     "unece:cefactBieDomainClass": "cefact:Specified_LinearRing.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A coordinate, expressed as text, for this specified linear ring. linear ring must contain min 3 points"
+                    "rdfs:comment": "A coordinate, expressed as text, for this specified linear ring. linear ring must contain min 3 points",
+                    "unece:domainName": "LinearRing"
                 },
                 {
                     "@id": "cefact:Specified_DirectPositionList.Coordinate.Text",
@@ -50,7 +51,8 @@
                     "unece:cefactUNId": "UN01012472",
                     "unece:cefactBieDomainClass": "cefact:Specified_DirectPositionList.Details",
                     "unece:cefactBusinessProcess": "Agricultural",
-                    "rdfs:comment": "The coordinate, expressed as text, for this specified direct position list."
+                    "rdfs:comment": "The coordinate, expressed as text, for this specified direct position list.",
+                    "unece:domainName": "DirectPositionList"
                 }
             ]
         }

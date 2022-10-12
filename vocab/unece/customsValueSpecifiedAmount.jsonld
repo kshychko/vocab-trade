@@ -35,7 +35,8 @@
                     "unece:cefactUNId": "UN01011015",
                     "unece:cefactBieDomainClass": "cefact:Exchanged_Declaration.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The monetary value specified for customs purposes in this exchanged declaration."
+                    "rdfs:comment": "The monetary value specified for customs purposes in this exchanged declaration.",
+                    "unece:domainName": "Declaration"
                 }
             ]
         }

@@ -41,7 +41,8 @@
                     "unece:cefactUNId": "UN01011687",
                     "unece:cefactBieDomainClass": "cefact:Header_TradeSettlement.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A purchase accounting account specified for this header trade settlement."
+                    "rdfs:comment": "A purchase accounting account specified for this header trade settlement.",
+                    "unece:domainName": "HeaderTradeSettlement"
                 },
                 {
                     "@id": "cefact:Line_TradeSettlement.Purchase_Specified.Trade_AccountingAccount",
@@ -49,7 +50,8 @@
                     "unece:cefactUNId": "UN01011818",
                     "unece:cefactBieDomainClass": "cefact:Line_TradeSettlement.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A purchase accounting account specified for this line trade settlement."
+                    "rdfs:comment": "A purchase accounting account specified for this line trade settlement.",
+                    "unece:domainName": "LineTradeSettlement"
                 }
             ]
         }

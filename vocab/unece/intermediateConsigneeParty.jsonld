@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01004229",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A party that is an intermediate consignee for this supply chain consignment."
+                    "rdfs:comment": "A party that is an intermediate consignee for this supply chain consignment.",
+                    "unece:domainName": "Consignment"
                 }
             ]
         }

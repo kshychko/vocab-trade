@@ -31,20 +31,22 @@
             "rdfs:label": "relatedTradeTransaction",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Referenced_SupplyChain_Consignment.Related.SupplyChain_TradeTransaction",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01011060",
-                    "unece:cefactBieDomainClass": "cefact:ReferencedSupplyChain_Consignment.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A trade transaction related to this referenced supply chain consignment."
-                },
-                {
                     "@id": "cefact:SupplyChain_Consignment.Related.SupplyChain_TradeTransaction",
                     "@type": "unece:AssociationBIE",
                     "unece:cefactUNId": "UN01004289",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A trade transaction related to this supply chain consignment."
+                    "rdfs:comment": "A trade transaction related to this supply chain consignment.",
+                    "unece:domainName": "Consignment"
+                },
+                {
+                    "@id": "cefact:Referenced_SupplyChain_Consignment.Related.SupplyChain_TradeTransaction",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01011060",
+                    "unece:cefactBieDomainClass": "cefact:ReferencedSupplyChain_Consignment.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A trade transaction related to this referenced supply chain consignment.",
+                    "unece:domainName": "Consignment"
                 }
             ]
         }

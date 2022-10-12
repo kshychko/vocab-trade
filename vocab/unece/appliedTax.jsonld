@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01003739",
                     "unece:cefactBieDomainClass": "cefact:Logistics_ServiceCharge.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A tax that is applied to this logistics service charge."
+                    "rdfs:comment": "A tax that is applied to this logistics service charge.",
+                    "unece:domainName": "ServiceCharge"
                 }
             ]
         }

@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01000185",
                     "unece:cefactBieDomainClass": "cefact:Applied_Tax.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The code specifying the applied tax type such as VAT."
+                    "rdfs:comment": "The code specifying the applied tax type such as VAT.",
+                    "unece:domainName": "AppliedTax"
                 }
             ]
         }

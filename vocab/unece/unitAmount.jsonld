@@ -35,7 +35,8 @@
                     "unece:cefactUNId": "UN01004645",
                     "unece:cefactBieDomainClass": "cefact:Trade_Price.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A monetary value of the unit of this trade price."
+                    "rdfs:comment": "A monetary value of the unit of this trade price.",
+                    "unece:domainName": "TradePrice"
                 }
             ]
         }

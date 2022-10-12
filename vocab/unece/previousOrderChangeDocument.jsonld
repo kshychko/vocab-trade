@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01011592",
                     "unece:cefactBieDomainClass": "cefact:Header_TradeAgreement.Details",
                     "unece:cefactBusinessProcess": "Trade",
-                    "rdfs:comment": "The previous order change document referenced in this header trade agreement."
+                    "rdfs:comment": "The previous order change document referenced in this header trade agreement.",
+                    "unece:domainName": "HeaderTradeAgreement"
                 }
             ]
         }

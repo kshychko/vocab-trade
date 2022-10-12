@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01004134",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_ConsignmentItem.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The transport temperature setting for this supply chain consignment item."
+                    "rdfs:comment": "The transport temperature setting for this supply chain consignment item.",
+                    "unece:domainName": "ConsignmentItem"
                 }
             ]
         }

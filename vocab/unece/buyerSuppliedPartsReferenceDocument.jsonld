@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01012684",
                     "unece:cefactBieDomainClass": "cefact:Trade_Product.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A buyer supplier parts document referenced for this trade product."
+                    "rdfs:comment": "A buyer supplier parts document referenced for this trade product.",
+                    "unece:domainName": "Product"
                 }
             ]
         }

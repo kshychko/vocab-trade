@@ -40,20 +40,13 @@
             "rdfs:label": "contractualClause",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Exchanged_Document.Contractual.Document_Clause",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01003582",
-                    "unece:cefactBieDomainClass": "cefact:Exchanged_Document.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A contractual clause of this exchanged document."
-                },
-                {
                     "@id": "cefact:FinancingRequest_Document.Contractual.Document_Clause",
                     "@type": "unece:AssociationBIE",
                     "unece:cefactUNId": "UN01013243",
                     "unece:cefactBieDomainClass": "cefact:FinancingRequest_Document.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A contractual document clause specified for this financing request document."
+                    "rdfs:comment": "A contractual document clause specified for this financing request document.",
+                    "unece:domainName": "FinancingRequestDocument"
                 },
                 {
                     "@id": "cefact:Referenced_Document.Contractual.Document_Clause",
@@ -61,7 +54,17 @@
                     "unece:cefactUNId": "UN01004020",
                     "unece:cefactBieDomainClass": "cefact:Referenced_Document.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A contractual clause of this referenced document."
+                    "rdfs:comment": "A contractual clause of this referenced document.",
+                    "unece:domainName": "Document"
+                },
+                {
+                    "@id": "cefact:Exchanged_Document.Contractual.Document_Clause",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01003582",
+                    "unece:cefactBieDomainClass": "cefact:Exchanged_Document.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "A contractual clause of this exchanged document.",
+                    "unece:domainName": "ExchangedDocument"
                 }
             ]
         }

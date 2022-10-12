@@ -44,20 +44,13 @@
             "rdfs:label": "postalAddress",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Logistics_Location.Postal.Trade_Address",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01003686",
-                    "unece:cefactBieDomainClass": "cefact:Logistics_Location.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The postal trade address information for this logistics related location."
-                },
-                {
                     "@id": "cefact:Trade_Party.Postal.Trade_Address",
                     "@type": "unece:AssociationBIE",
                     "unece:cefactUNId": "UN01004603",
                     "unece:cefactBieDomainClass": "cefact:Trade_Party.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The postal address for this trade party."
+                    "rdfs:comment": "The postal address for this trade party.",
+                    "unece:domainName": "TradeParty"
                 },
                 {
                     "@id": "cefact:Location_Party.Postal.Trade_Address",
@@ -65,7 +58,8 @@
                     "unece:cefactUNId": "UN01003670",
                     "unece:cefactBieDomainClass": "cefact:Location_Party.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A postal address for this location party."
+                    "rdfs:comment": "A postal address for this location party.",
+                    "unece:domainName": "LocationParty"
                 },
                 {
                     "@id": "cefact:Legal_Organization.Postal.Trade_Address",
@@ -73,7 +67,17 @@
                     "unece:cefactUNId": "UN01003646",
                     "unece:cefactBieDomainClass": "cefact:Legal_Organization.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A postal address for this legally set up organization."
+                    "rdfs:comment": "A postal address for this legally set up organization.",
+                    "unece:domainName": "Organization"
+                },
+                {
+                    "@id": "cefact:Logistics_Location.Postal.Trade_Address",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01003686",
+                    "unece:cefactBieDomainClass": "cefact:Logistics_Location.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The postal trade address information for this logistics related location.",
+                    "unece:domainName": "LogisticsLocation"
                 }
             ]
         }

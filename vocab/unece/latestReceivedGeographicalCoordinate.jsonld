@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01013496",
                     "unece:cefactBieDomainClass": "cefact:Monitoring_IOTDevice.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The latest geographical coordinates received by this monitoring IOT device, from the perspective of the receiver."
+                    "rdfs:comment": "The latest geographical coordinates received by this monitoring IOT device, from the perspective of the receiver.",
+                    "unece:domainName": "IOTDevice"
                 }
             ]
         }

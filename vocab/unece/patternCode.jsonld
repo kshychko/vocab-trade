@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01012733",
                     "unece:cefactBieDomainClass": "cefact:Label_Section.Details",
                     "unece:cefactBusinessProcess": "Cross Industry Trade",
-                    "rdfs:comment": "The code specifying the pattern of this label section."
+                    "rdfs:comment": "The code specifying the pattern of this label section.",
+                    "unece:domainName": "Section"
                 }
             ]
         }

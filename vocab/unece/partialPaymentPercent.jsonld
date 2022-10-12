@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01006047",
                     "unece:cefactBieDomainClass": "cefact:Trade_PaymentTerms.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A partial payment, expressed as a percent, in these trade payment terms."
+                    "rdfs:comment": "A partial payment, expressed as a percent, in these trade payment terms.",
+                    "unece:domainName": "PaymentTerms"
                 }
             ]
         }

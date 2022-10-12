@@ -36,20 +36,22 @@
             "rdfs:label": "attachedBinaryFile",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Referenced_Document.Attached.Specified_BinaryFile",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01006029",
-                    "unece:cefactBieDomainClass": "cefact:Referenced_Document.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A specified binary file attached to this referenced document."
-                },
-                {
                     "@id": "cefact:Exchanged_Document.Attached.Specified_BinaryFile",
                     "@type": "unece:AssociationBIE",
                     "unece:cefactUNId": "UN01006747",
                     "unece:cefactBieDomainClass": "cefact:Exchanged_Document.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A binary file attached to this exchanged document."
+                    "rdfs:comment": "A binary file attached to this exchanged document.",
+                    "unece:domainName": "ExchangedDocument"
+                },
+                {
+                    "@id": "cefact:Referenced_Document.Attached.Specified_BinaryFile",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01006029",
+                    "unece:cefactBieDomainClass": "cefact:Referenced_Document.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "A specified binary file attached to this referenced document.",
+                    "unece:domainName": "Document"
                 }
             ]
         }

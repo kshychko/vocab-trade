@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01009037",
                     "unece:cefactBieDomainClass": "cefact:Certification_TestSpecificationReport.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The name, expressed as text, of the standard applicable for this certification test specification report."
+                    "rdfs:comment": "The name, expressed as text, of the standard applicable for this certification test specification report.",
+                    "unece:domainName": "TestSpecificationReport"
                 }
             ]
         }

@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01004238",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The baseport location at which this supply chain consignment is to be loaded on a means of transport according to the transport contract."
+                    "rdfs:comment": "The baseport location at which this supply chain consignment is to be loaded on a means of transport according to the transport contract.",
+                    "unece:domainName": "Consignment"
                 }
             ]
         }

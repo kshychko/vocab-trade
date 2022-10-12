@@ -37,20 +37,22 @@
             "rdfs:label": "calculatedRate",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Applied_Tax.Calculated.Rate",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01000186",
-                    "unece:cefactBieDomainClass": "cefact:Applied_Tax.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The rate used to calculate the applied tax."
-                },
-                {
                     "@id": "cefact:Trade_Tax.Calculated.Rate",
                     "@type": "unece:BasicBIE",
                     "unece:cefactUNId": "UN01004714",
                     "unece:cefactBieDomainClass": "cefact:Trade_Tax.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The rate used to calculate the amount of this trade related tax, levy or duty."
+                    "rdfs:comment": "The rate used to calculate the amount of this trade related tax, levy or duty.",
+                    "unece:domainName": "TradeTax"
+                },
+                {
+                    "@id": "cefact:Applied_Tax.Calculated.Rate",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01000186",
+                    "unece:cefactBieDomainClass": "cefact:Applied_Tax.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The rate used to calculate the applied tax.",
+                    "unece:domainName": "AppliedTax"
                 }
             ]
         }

@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01004831",
                     "unece:cefactBieDomainClass": "cefact:Transport_Route.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The specified period during which this transport route is scheduled."
+                    "rdfs:comment": "The specified period during which this transport route is scheduled.",
+                    "unece:domainName": "Route"
                 }
             ]
         }

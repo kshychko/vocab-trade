@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01012205",
                     "unece:cefactBieDomainClass": "cefact:Specified_GeographicalGrid.Details",
                     "unece:cefactBusinessProcess": "Agricultural",
-                    "rdfs:comment": "The offset vector, expressed as a number, which indicates the offset of cells along each axis for this geographical grid."
+                    "rdfs:comment": "The offset vector, expressed as a number, which indicates the offset of cells along each axis for this geographical grid.",
+                    "unece:domainName": "GeographicalGrid"
                 }
             ]
         }

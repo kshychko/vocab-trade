@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01004513",
                     "unece:cefactBieDomainClass": "cefact:TradeSettlement_PaymentMeans.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The code specifying the payment channel through which this trade settlement payment is to be processed (Reference United Nations Code List (UNCL) 4435)."
+                    "rdfs:comment": "The code specifying the payment channel through which this trade settlement payment is to be processed (Reference United Nations Code List (UNCL) 4435).",
+                    "unece:domainName": "PaymentMeans"
                 }
             ]
         }

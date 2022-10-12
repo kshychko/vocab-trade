@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01000380",
                     "unece:cefactBieDomainClass": "cefact:Procuring_Project.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The monetary value of the net budget for this procuring project. This excludes tax, the costs of installing equipment, and material costs from the total size of budget."
+                    "rdfs:comment": "The monetary value of the net budget for this procuring project. This excludes tax, the costs of installing equipment, and material costs from the total size of budget.",
+                    "unece:domainName": "Project"
                 }
             ]
         }

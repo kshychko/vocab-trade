@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01013170",
                     "unece:cefactBieDomainClass": "cefact:Logistics_TransportMeans.Details",
                     "unece:cefactBusinessProcess": "Transport",
-                    "rdfs:comment": "The referenced ISSC (International Ship Security Certificate) document for this logistics transport means."
+                    "rdfs:comment": "The referenced ISSC (International Ship Security Certificate) document for this logistics transport means.",
+                    "unece:domainName": "TransportMeans"
                 }
             ]
         }

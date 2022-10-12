@@ -42,7 +42,8 @@
                     "unece:cefactUNId": "UN01004117",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_ConsignmentItem.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The monetary value of this supply chain consignment item as covered by an insurance policy."
+                    "rdfs:comment": "The monetary value of this supply chain consignment item as covered by an insurance policy.",
+                    "unece:domainName": "ConsignmentItem"
                 },
                 {
                     "@id": "cefact:SupplyChain_Consignment.InsuranceValue.Amount",
@@ -51,7 +52,8 @@
                     "unece:cefactUNId": "UN01004179",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The monetary value of this supply chain consignment as covered by an insurance policy."
+                    "rdfs:comment": "The monetary value of this supply chain consignment as covered by an insurance policy.",
+                    "unece:domainName": "Consignment"
                 }
             ]
         }

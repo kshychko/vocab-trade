@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01013148",
                     "unece:cefactBieDomainClass": "cefact:Transport_Person.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "Landline telephone communication information for this transport person."
+                    "rdfs:comment": "Landline telephone communication information for this transport person.",
+                    "unece:domainName": "TransportPerson"
                 }
             ]
         }

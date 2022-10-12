@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01004537",
                     "unece:cefactBieDomainClass": "cefact:Trade_Address.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The name, expressed as text, of a building, a house or other structure on a street at this trade address."
+                    "rdfs:comment": "The name, expressed as text, of a building, a house or other structure on a street at this trade address.",
+                    "unece:domainName": "TradeAddress"
                 }
             ]
         }

@@ -37,22 +37,24 @@
             "rdfs:label": "declaredValueForCustomsAmount",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:SupplyChain_ConsignmentItem.DeclaredValueForCustoms.Amount",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "5032",
-                    "unece:cefactUNId": "UN01004113",
-                    "unece:cefactBieDomainClass": "cefact:SupplyChain_ConsignmentItem.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The monetary value of this supply chain consignment item as declared for customs purposes."
-                },
-                {
                     "@id": "cefact:SupplyChain_Consignment.DeclaredValueForCustoms.Amount",
                     "@type": "unece:BasicBIE",
                     "unece:tded": "5032",
                     "unece:cefactUNId": "UN01004188",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The monetary value declared for customs purposes for this supply chain consignment."
+                    "rdfs:comment": "The monetary value declared for customs purposes for this supply chain consignment.",
+                    "unece:domainName": "Consignment"
+                },
+                {
+                    "@id": "cefact:SupplyChain_ConsignmentItem.DeclaredValueForCustoms.Amount",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "5032",
+                    "unece:cefactUNId": "UN01004113",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_ConsignmentItem.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The monetary value of this supply chain consignment item as declared for customs purposes.",
+                    "unece:domainName": "ConsignmentItem"
                 }
             ]
         }

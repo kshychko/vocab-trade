@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01005277",
                     "unece:cefactBieDomainClass": "cefact:Exchanged_Document.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A date, time, date time, or other date time value of a response of the exchanged document."
+                    "rdfs:comment": "A date, time, date time, or other date time value of a response of the exchanged document.",
+                    "unece:domainName": "ExchangedDocument"
                 }
             ]
         }

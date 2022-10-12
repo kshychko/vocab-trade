@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01012207",
                     "unece:cefactBieDomainClass": "cefact:Specified_GeographicalGrid.Details",
                     "unece:cefactBusinessProcess": "Agricultural",
-                    "rdfs:comment": "The tuple of elements, expressed as text, indicating the high limit of this geographical grid specifying the diagonally opposing corner of each axis."
+                    "rdfs:comment": "The tuple of elements, expressed as text, indicating the high limit of this geographical grid specifying the diagonally opposing corner of each axis.",
+                    "unece:domainName": "GeographicalGrid"
                 }
             ]
         }

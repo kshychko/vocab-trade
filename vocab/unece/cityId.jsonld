@@ -37,20 +37,22 @@
             "rdfs:label": "cityId",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:FinancialInstitution_Address.City.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01004893",
-                    "unece:cefactBieDomainClass": "cefact:FinancialInstitution_Address.Details",
-                    "unece:cefactBusinessProcess": "Customer to bank payment initiation",
-                    "rdfs:comment": "The unique identifier of the city for this financial institution address, such as United Nations Location Code (UNLOCODE)."
-                },
-                {
                     "@id": "cefact:Trade_Address.City.Identifier",
                     "@type": "unece:BasicBIE",
                     "unece:cefactUNId": "UN01013130",
                     "unece:cefactBieDomainClass": "cefact:Trade_Address.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The identifier of the city for this trade address, such as United Nations Location Code (UNLOCODE)."
+                    "rdfs:comment": "The identifier of the city for this trade address, such as United Nations Location Code (UNLOCODE).",
+                    "unece:domainName": "TradeAddress"
+                },
+                {
+                    "@id": "cefact:FinancialInstitution_Address.City.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01004893",
+                    "unece:cefactBieDomainClass": "cefact:FinancialInstitution_Address.Details",
+                    "unece:cefactBusinessProcess": "Customer to bank payment initiation",
+                    "rdfs:comment": "The unique identifier of the city for this financial institution address, such as United Nations Location Code (UNLOCODE).",
+                    "unece:domainName": "FinancialInstitutionAddress"
                 }
             ]
         }

@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01003717",
                     "unece:cefactBieDomainClass": "cefact:Logistics_Seal.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A code specifying a condition of this logistics seal."
+                    "rdfs:comment": "A code specifying a condition of this logistics seal.",
+                    "unece:domainName": "Seal"
                 }
             ]
         }

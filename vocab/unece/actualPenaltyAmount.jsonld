@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01004872",
                     "unece:cefactBieDomainClass": "cefact:Trade_PaymentPenaltyTerms.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A monetary value of the actual penalty in these trade payment penalty terms."
+                    "rdfs:comment": "A monetary value of the actual penalty in these trade payment penalty terms.",
+                    "unece:domainName": "PaymentPenaltyTerms"
                 }
             ]
         }

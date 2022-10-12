@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01008305",
                     "unece:cefactBieDomainClass": "cefact:Product_Characteristic.Details",
                     "unece:cefactBusinessProcess": "Supply Chain",
-                    "rdfs:comment": "The value for this product characteristic expressed as a date, time, date time, or other date time value."
+                    "rdfs:comment": "The value for this product characteristic expressed as a date, time, date time, or other date time value.",
+                    "unece:domainName": "Characteristic"
                 }
             ]
         }

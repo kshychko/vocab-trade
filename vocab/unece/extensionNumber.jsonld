@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01002047",
                     "unece:cefactBieDomainClass": "cefact:Telecommunication_Communication.Details",
                     "unece:cefactBusinessProcess": "Project Management",
-                    "rdfs:comment": "The extension number, expressed as text, assigned to this telecommunication number."
+                    "rdfs:comment": "The extension number, expressed as text, assigned to this telecommunication number.",
+                    "unece:domainName": "TelecommunicationCommunication"
                 }
             ]
         }

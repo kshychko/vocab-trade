@@ -15,7 +15,7 @@
         {
             "@id": "unece:specifiedTradeAgreement",
             "schema:rangeIncludes": {
-                "@id": "unece:SubordinateLineTradeAgreement"
+                "@id": "unece:LineTradeAgreement"
             },
             "@type": [
                 "rdf:Property",
@@ -31,20 +31,22 @@
             "rdfs:label": "specifiedTradeAgreement",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:SupplyChain_TradeLineItem.Specified.Line_TradeAgreement",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01011862",
-                    "unece:cefactBieDomainClass": "cefact:SupplyChain_TradeLineItem.Details",
-                    "unece:cefactBusinessProcess": "Trade",
-                    "rdfs:comment": "The line trade agreement specified for this supply chain trade line item."
-                },
-                {
                     "@id": "cefact:Subordinate_TradeLineItem.Specified.SubordinateLine_TradeAgreement",
                     "@type": "unece:AssociationBIE",
                     "unece:cefactUNId": "UN01011856",
                     "unece:cefactBieDomainClass": "cefact:Subordinate_TradeLineItem.Details",
                     "unece:cefactBusinessProcess": "Trade",
-                    "rdfs:comment": "The trade agreement specified for this subordinate trade line item."
+                    "rdfs:comment": "The trade agreement specified for this subordinate trade line item.",
+                    "unece:domainName": "TradeLineItem"
+                },
+                {
+                    "@id": "cefact:SupplyChain_TradeLineItem.Specified.Line_TradeAgreement",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01011862",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_TradeLineItem.Details",
+                    "unece:cefactBusinessProcess": "Trade",
+                    "rdfs:comment": "The line trade agreement specified for this supply chain trade line item.",
+                    "unece:domainName": "TradeLineItem"
                 }
             ]
         }

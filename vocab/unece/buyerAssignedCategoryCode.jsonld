@@ -35,7 +35,8 @@
                     "unece:cefactUNId": "UN01013319",
                     "unece:cefactBieDomainClass": "cefact:DocumentLine_Document.Details",
                     "unece:cefactBusinessProcess": "Cross Industry Trade",
-                    "rdfs:comment": "The code specifying the category assigned by the buyer for this document line."
+                    "rdfs:comment": "The code specifying the category assigned by the buyer for this document line.",
+                    "unece:domainName": "DocumentLineDocument"
                 }
             ]
         }

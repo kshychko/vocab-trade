@@ -35,7 +35,8 @@
                     "unece:cefactUNId": "UN01010071",
                     "unece:cefactBieDomainClass": "cefact:Logistics_Convoy.Details",
                     "unece:cefactBusinessProcess": "Transport",
-                    "rdfs:comment": "The maximum width measure for this logistics convoy."
+                    "rdfs:comment": "The maximum width measure for this logistics convoy.",
+                    "unece:domainName": "Convoy"
                 }
             ]
         }

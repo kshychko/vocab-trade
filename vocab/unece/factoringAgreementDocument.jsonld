@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01011683",
                     "unece:cefactBieDomainClass": "cefact:Header_TradeSettlement.Details",
                     "unece:cefactBusinessProcess": "Trade",
-                    "rdfs:comment": "A factoring agreement document referenced in this header trade settlement."
+                    "rdfs:comment": "A factoring agreement document referenced in this header trade settlement.",
+                    "unece:domainName": "HeaderTradeSettlement"
                 }
             ]
         }

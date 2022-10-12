@@ -41,21 +41,23 @@
             "rdfs:label": "expiryDateTime",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Product_Certificate.Expiry.DateTime",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01012486",
-                    "unece:cefactBieDomainClass": "cefact:Product_Certificate.Details",
-                    "unece:cefactBusinessProcess": "Traceability",
-                    "rdfs:comment": "The date, time, date time, or other date time value when this product certificate expires."
-                },
-                {
                     "@id": "cefact:Certified_Accreditation.Expiry.DateTime",
                     "@type": "unece:BasicBIE",
                     "unece:tded": "2379",
                     "unece:cefactUNId": "UN01010064",
                     "unece:cefactBieDomainClass": "cefact:Certified_Accreditation.Details",
                     "unece:cefactBusinessProcess": "Transport",
-                    "rdfs:comment": "The date, time, date time or other date time value when this certified accreditation expires."
+                    "rdfs:comment": "The date, time, date time or other date time value when this certified accreditation expires.",
+                    "unece:domainName": "Accreditation"
+                },
+                {
+                    "@id": "cefact:Product_Certificate.Expiry.DateTime",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01012486",
+                    "unece:cefactBieDomainClass": "cefact:Product_Certificate.Details",
+                    "unece:cefactBusinessProcess": "Traceability",
+                    "rdfs:comment": "The date, time, date time, or other date time value when this product certificate expires.",
+                    "unece:domainName": "Certificate"
                 },
                 {
                     "@id": "cefact:Trade_ProductInstance.Expiry.DateTime",
@@ -63,7 +65,8 @@
                     "unece:cefactUNId": "UN01004663",
                     "unece:cefactBieDomainClass": "cefact:Trade_ProductInstance.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The date, time, date time, or other date time value of expiry of the items contained in the trade product instance."
+                    "rdfs:comment": "The date, time, date time, or other date time value of expiry of the items contained in the trade product instance.",
+                    "unece:domainName": "ProductInstance"
                 }
             ]
         }

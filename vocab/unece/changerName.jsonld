@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01007518",
                     "unece:cefactBieDomainClass": "cefact:Recorded_Status.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The name of the person or system, expressed as text, that changed this recorded status."
+                    "rdfs:comment": "The name of the person or system, expressed as text, that changed this recorded status.",
+                    "unece:domainName": "RecordedStatus"
                 }
             ]
         }

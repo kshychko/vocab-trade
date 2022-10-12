@@ -42,7 +42,8 @@
                     "unece:cefactUNId": "UN01003999",
                     "unece:cefactBieDomainClass": "cefact:Referenced_Document.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A remark, expressed as text, regarding this referenced document."
+                    "rdfs:comment": "A remark, expressed as text, regarding this referenced document.",
+                    "unece:domainName": "Document"
                 },
                 {
                     "@id": "cefact:Exchanged_Document.Remarks.Text",
@@ -50,7 +51,8 @@
                     "unece:cefactUNId": "UN01003553",
                     "unece:cefactBieDomainClass": "cefact:Exchanged_Document.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A remark, expressed as text, regarding this exchanged document."
+                    "rdfs:comment": "A remark, expressed as text, regarding this exchanged document.",
+                    "unece:domainName": "ExchangedDocument"
                 }
             ]
         }

@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01004209",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The indication of whether or not this supply chain consignment is for ship stores, such as for consumption on the means of transport."
+                    "rdfs:comment": "The indication of whether or not this supply chain consignment is for ship stores, such as for consumption on the means of transport.",
+                    "unece:domainName": "Consignment"
                 }
             ]
         }

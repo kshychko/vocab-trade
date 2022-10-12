@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01000061",
                     "unece:cefactBieDomainClass": "cefact:WorkItem_Dimension.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A work item component dimension for this work item dimension. Industry context value changed from \"Construction\" to \"In All Contexts\"."
+                    "rdfs:comment": "A work item component dimension for this work item dimension. Industry context value changed from \"Construction\" to \"In All Contexts\".",
+                    "unece:domainName": "Dimension"
                 }
             ]
         }

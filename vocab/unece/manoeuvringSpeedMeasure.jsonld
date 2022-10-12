@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01010104",
                     "unece:cefactBieDomainClass": "cefact:Logistics_TransportMeans.Details",
                     "unece:cefactBusinessProcess": "Transport",
-                    "rdfs:comment": "The manoeuvring speed measured for this logistics means of transport."
+                    "rdfs:comment": "The manoeuvring speed measured for this logistics means of transport.",
+                    "unece:domainName": "TransportMeans"
                 }
             ]
         }

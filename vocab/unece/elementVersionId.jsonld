@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01008543",
                     "unece:cefactBieDomainClass": "cefact:Referenced_Standard.Details",
                     "unece:cefactBusinessProcess": "Supply Chain",
-                    "rdfs:comment": "The identifier of the version of a specific element within the referenced standard, such as the version of a data element."
+                    "rdfs:comment": "The identifier of the version of a specific element within the referenced standard, such as the version of a data element.",
+                    "unece:domainName": "Standard"
                 }
             ]
         }

@@ -42,7 +42,8 @@
                     "unece:cefactUNId": "UN01003626",
                     "unece:cefactBieDomainClass": "cefact:Handling_Instructions.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A code specifying these handling instructions."
+                    "rdfs:comment": "A code specifying these handling instructions.",
+                    "unece:domainName": "HandlingInstructions"
                 },
                 {
                     "@id": "cefact:Delivery_Instructions.Handling.Code",
@@ -50,7 +51,8 @@
                     "unece:cefactUNId": "UN01003505",
                     "unece:cefactBieDomainClass": "cefact:Delivery_Instructions.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A code specifying delivery handling instructions."
+                    "rdfs:comment": "A code specifying delivery handling instructions.",
+                    "unece:domainName": "DeliveryInstructions"
                 }
             ]
         }

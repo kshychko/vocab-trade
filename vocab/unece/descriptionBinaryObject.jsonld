@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01004296",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_Event.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "Binary object data, such as a photograph, describing this supply chain event."
+                    "rdfs:comment": "Binary object data, such as a photograph, describing this supply chain event.",
+                    "unece:domainName": "SupplyChainEvent"
                 }
             ]
         }

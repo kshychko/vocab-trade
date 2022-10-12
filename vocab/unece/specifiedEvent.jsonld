@@ -41,7 +41,8 @@
                     "unece:cefactUNId": "UN01012569",
                     "unece:cefactBieDomainClass": "cefact:Logistics_TransportMovement.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A transport event specified for this logistics transport movement."
+                    "rdfs:comment": "A transport event specified for this logistics transport movement.",
+                    "unece:domainName": "TransportMovement"
                 },
                 {
                     "@id": "cefact:SupplyChain_Inventory.Specified.SupplyChain_Event",
@@ -49,7 +50,8 @@
                     "unece:cefactUNId": "UN01005397",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_Inventory.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A supply chain event specified for this supply chain inventory."
+                    "rdfs:comment": "A supply chain event specified for this supply chain inventory.",
+                    "unece:domainName": "Inventory"
                 }
             ]
         }

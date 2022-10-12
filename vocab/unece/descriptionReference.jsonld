@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01012371",
                     "unece:cefactBieDomainClass": "cefact:Specified_GeographicalObjectCharacteristic.Details",
                     "unece:cefactBusinessProcess": "Agricultural",
-                    "rdfs:comment": "The description reference, expressed as text, for this geographical object characteristic."
+                    "rdfs:comment": "The description reference, expressed as text, for this geographical object characteristic.",
+                    "unece:domainName": "GeographicalObjectCharacteristic"
                 }
             ]
         }

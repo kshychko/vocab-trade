@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01013134",
                     "unece:cefactBieDomainClass": "cefact:Transport_Person.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A code specifying a role of this transport person."
+                    "rdfs:comment": "A code specifying a role of this transport person.",
+                    "unece:domainName": "TransportPerson"
                 }
             ]
         }

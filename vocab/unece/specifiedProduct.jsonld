@@ -31,20 +31,22 @@
             "rdfs:label": "specifiedProduct",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:SupplyChain_TradeLineItem.Specified.Trade_Product",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01004431",
-                    "unece:cefactBieDomainClass": "cefact:SupplyChain_TradeLineItem.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A product specified for this supply chain trade line item."
-                },
-                {
                     "@id": "cefact:Subordinate_TradeLineItem.Specified.Referenced_Product",
                     "@type": "unece:AssociationBIE",
                     "unece:cefactUNId": "UN01004102",
                     "unece:cefactBieDomainClass": "cefact:Subordinate_TradeLineItem.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The referenced product specified for this subordinate trade line item."
+                    "rdfs:comment": "The referenced product specified for this subordinate trade line item.",
+                    "unece:domainName": "TradeLineItem"
+                },
+                {
+                    "@id": "cefact:SupplyChain_TradeLineItem.Specified.Trade_Product",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01004431",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_TradeLineItem.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A product specified for this supply chain trade line item.",
+                    "unece:domainName": "TradeLineItem"
                 }
             ]
         }

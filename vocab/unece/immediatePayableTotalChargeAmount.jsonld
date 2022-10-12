@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01008961",
                     "unece:cefactBieDomainClass": "cefact:CrossBorder_RegulatoryProcedure.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A monetary value of the total charges, including tariff and non-tariff charges, immediately payable for this cross-border regulatory procedure."
+                    "rdfs:comment": "A monetary value of the total charges, including tariff and non-tariff charges, immediately payable for this cross-border regulatory procedure.",
+                    "unece:domainName": "RegulatoryProcedure"
                 }
             ]
         }

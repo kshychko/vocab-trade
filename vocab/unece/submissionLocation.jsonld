@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01011022",
                     "unece:cefactBieDomainClass": "cefact:Exchanged_Declaration.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The submission location for this exchanged declaration."
+                    "rdfs:comment": "The submission location for this exchanged declaration.",
+                    "unece:domainName": "Declaration"
                 }
             ]
         }

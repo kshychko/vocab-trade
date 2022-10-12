@@ -46,15 +46,8 @@
                     "unece:cefactUNId": "UN01011901",
                     "unece:cefactBieDomainClass": "cefact:TradeSettlementLine_MonetarySummation.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A monetary value of the total of all tax amounts being reported in this trade settlement line monetary summation."
-                },
-                {
-                    "@id": "cefact:TradeSettlementHeader_MonetarySummation.TaxTotal.Amount",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01011876",
-                    "unece:cefactBieDomainClass": "cefact:TradeSettlementHeader_MonetarySummation.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A monetary value of the total of all tax amounts being reported in this trade settlement header monetary summation."
+                    "rdfs:comment": "A monetary value of the total of all tax amounts being reported in this trade settlement line monetary summation.",
+                    "unece:domainName": "TradeSettlementLineMonetarySummation"
                 },
                 {
                     "@id": "cefact:TradeSettlementPayment_MonetarySummation.TaxTotal.Amount",
@@ -62,7 +55,17 @@
                     "unece:cefactUNId": "UN01013027",
                     "unece:cefactBieDomainClass": "cefact:TradeSettlementPayment_MonetarySummation.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A monetary value of the total of all tax amounts reported in this trade settlement payment monetary summation."
+                    "rdfs:comment": "A monetary value of the total of all tax amounts reported in this trade settlement payment monetary summation.",
+                    "unece:domainName": "TradeSettlementPaymentMonetarySummation"
+                },
+                {
+                    "@id": "cefact:TradeSettlementHeader_MonetarySummation.TaxTotal.Amount",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01011876",
+                    "unece:cefactBieDomainClass": "cefact:TradeSettlementHeader_MonetarySummation.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A monetary value of the total of all tax amounts being reported in this trade settlement header monetary summation.",
+                    "unece:domainName": "TradeSettlementHeaderMonetarySummation"
                 }
             ]
         }

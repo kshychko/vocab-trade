@@ -42,7 +42,8 @@
                     "unece:cefactUNId": "UN01013611",
                     "unece:cefactBieDomainClass": "cefact:GeographicalCoordinate.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The date, time, date time or other date time value of the acquisition of this geographical coordinate."
+                    "rdfs:comment": "The date, time, date time or other date time value of the acquisition of this geographical coordinate.",
+                    "unece:domainName": "GeographicalCoordinate"
                 },
                 {
                     "@id": "cefact:Cross-Border_RegulatoryProcedure.Acquisition.DateTime",
@@ -50,7 +51,8 @@
                     "unece:cefactUNId": "UN01006174",
                     "unece:cefactBieDomainClass": "cefact:CrossBorder_RegulatoryProcedure.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The date, time, date time, or other date time value of an acquisition for this cross-border regulatory procedure."
+                    "rdfs:comment": "The date, time, date time, or other date time value of an acquisition for this cross-border regulatory procedure.",
+                    "unece:domainName": "RegulatoryProcedure"
                 }
             ]
         }

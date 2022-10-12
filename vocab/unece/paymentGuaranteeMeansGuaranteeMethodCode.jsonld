@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01004515",
                     "unece:cefactBieDomainClass": "cefact:TradeSettlement_PaymentMeans.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The code specifying the method of guarantee for this trade settlement payment means."
+                    "rdfs:comment": "The code specifying the method of guarantee for this trade settlement payment means.",
+                    "unece:domainName": "PaymentMeans"
                 }
             ]
         }

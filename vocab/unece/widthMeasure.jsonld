@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01004079",
                     "unece:cefactBieDomainClass": "cefact:Spatial_Dimension.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The measure of the width component of this spatial dimension."
+                    "rdfs:comment": "The measure of the width component of this spatial dimension.",
+                    "unece:domainName": "Dimension"
                 }
             ]
         }

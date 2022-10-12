@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01004553",
                     "unece:cefactBieDomainClass": "cefact:Trade_Address.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "An identification of a set of geographical coordinates for this trade address."
+                    "rdfs:comment": "An identification of a set of geographical coordinates for this trade address.",
+                    "unece:domainName": "TradeAddress"
                 }
             ]
         }

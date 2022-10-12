@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01003496",
                     "unece:cefactBieDomainClass": "cefact:CrossBorder_CustomsValuation.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The indication of whether or not there is a royalty or licence fee related to the goods for this cross-border customs valuation."
+                    "rdfs:comment": "The indication of whether or not there is a royalty or licence fee related to the goods for this cross-border customs valuation.",
+                    "unece:domainName": "CustomsValuation"
                 }
             ]
         }

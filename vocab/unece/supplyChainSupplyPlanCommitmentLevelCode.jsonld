@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01004325",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_SupplyPlan.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The code specifying the commitment level for this supply chain supply plan, such as fabrication or raw material."
+                    "rdfs:comment": "The code specifying the commitment level for this supply chain supply plan, such as fabrication or raw material.",
+                    "unece:domainName": "SupplyPlan"
                 }
             ]
         }

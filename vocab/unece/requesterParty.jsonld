@@ -36,7 +36,8 @@
                     "unece:cefactUNId": "UN01010157",
                     "unece:cefactBieDomainClass": "cefact:Transport_Service.Details",
                     "unece:cefactBusinessProcess": "Transport",
-                    "rdfs:comment": "A trade party requesting this transport service."
+                    "rdfs:comment": "A trade party requesting this transport service.",
+                    "unece:domainName": "Service"
                 },
                 {
                     "@id": "cefact:ReferencedTransport_Service.Requester.Trade_Party",
@@ -44,7 +45,8 @@
                     "unece:cefactUNId": "UN01010080",
                     "unece:cefactBieDomainClass": "cefact:ReferencedTransport_Service.Details",
                     "unece:cefactBusinessProcess": "Transport",
-                    "rdfs:comment": "A trade party requesting this referenced transport service."
+                    "rdfs:comment": "A trade party requesting this referenced transport service.",
+                    "unece:domainName": "Service"
                 }
             ]
         }

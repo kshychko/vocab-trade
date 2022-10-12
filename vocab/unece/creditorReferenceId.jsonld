@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01011648",
                     "unece:cefactBieDomainClass": "cefact:Header_TradeSettlement.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The identifier of the creditor reference for this header trade settlement, such as a specific identifier assigned by the creditor to reference the financial transaction."
+                    "rdfs:comment": "The identifier of the creditor reference for this header trade settlement, such as a specific identifier assigned by the creditor to reference the financial transaction.",
+                    "unece:domainName": "HeaderTradeSettlement"
                 }
             ]
         }

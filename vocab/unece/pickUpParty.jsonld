@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01005289",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The pick-up trade party for this supply chain consignment."
+                    "rdfs:comment": "The pick-up trade party for this supply chain consignment.",
+                    "unece:domainName": "Consignment"
                 }
             ]
         }

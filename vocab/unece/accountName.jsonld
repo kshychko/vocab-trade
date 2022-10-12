@@ -41,20 +41,22 @@
             "rdfs:label": "accountName",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Debtor_FinancialAccount.AccountName.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01003292",
-                    "unece:cefactBieDomainClass": "cefact:Debtor_FinancialAccount.Details",
-                    "unece:cefactBusinessProcess": "Customer to bank payment initiation",
-                    "rdfs:comment": "The account name, expressed as text, of this debtor financial account."
-                },
-                {
                     "@id": "cefact:Creditor_FinancialAccount.AccountName.Text",
                     "@type": "unece:BasicBIE",
                     "unece:cefactUNId": "UN01003355",
                     "unece:cefactBieDomainClass": "cefact:Creditor_FinancialAccount.Details",
                     "unece:cefactBusinessProcess": "Customer to bank payment initiation",
-                    "rdfs:comment": "The account name, expressed as text, of this creditor financial account."
+                    "rdfs:comment": "The account name, expressed as text, of this creditor financial account.",
+                    "unece:domainName": "CreditorFinancialAccount"
+                },
+                {
+                    "@id": "cefact:Debtor_FinancialAccount.AccountName.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01003292",
+                    "unece:cefactBieDomainClass": "cefact:Debtor_FinancialAccount.Details",
+                    "unece:cefactBusinessProcess": "Customer to bank payment initiation",
+                    "rdfs:comment": "The account name, expressed as text, of this debtor financial account.",
+                    "unece:domainName": "DebtorFinancialAccount"
                 },
                 {
                     "@id": "cefact:Financing_FinancialAccount.AccountName.Text",
@@ -62,7 +64,8 @@
                     "unece:cefactUNId": "UN01013260",
                     "unece:cefactBieDomainClass": "cefact:Financing_FinancialAccount.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The account name, expressed as text, of this financing financial account."
+                    "rdfs:comment": "The account name, expressed as text, of this financing financial account.",
+                    "unece:domainName": "FinancingFinancialAccount"
                 }
             ]
         }

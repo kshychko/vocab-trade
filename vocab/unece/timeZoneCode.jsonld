@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01013466",
                     "unece:cefactBieDomainClass": "cefact:GeographicalCoordinate.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The code specifying the time zone of this geographical coordinate."
+                    "rdfs:comment": "The code specifying the time zone of this geographical coordinate.",
+                    "unece:domainName": "GeographicalCoordinate"
                 }
             ]
         }

@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01004821",
                     "unece:cefactBieDomainClass": "cefact:Transport_Person.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A country that constitutes a nationality by origin, birth, or naturalization for this transport person."
+                    "rdfs:comment": "A country that constitutes a nationality by origin, birth, or naturalization for this transport person.",
+                    "unece:domainName": "TransportPerson"
                 }
             ]
         }

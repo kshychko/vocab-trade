@@ -42,7 +42,8 @@
                     "unece:cefactUNId": "UN01008427",
                     "unece:cefactBieDomainClass": "cefact:Disposal_Instructions.Details",
                     "unece:cefactBusinessProcess": "Supply Chain",
-                    "rdfs:comment": "The identifier of the material to which these disposal instructions apply."
+                    "rdfs:comment": "The identifier of the material to which these disposal instructions apply.",
+                    "unece:domainName": "DisposalInstructions"
                 },
                 {
                     "@id": "cefact:ReturnableAsset_Instructions.Material.Identifier",
@@ -50,7 +51,8 @@
                     "unece:cefactUNId": "UN01008861",
                     "unece:cefactBieDomainClass": "cefact:ReturnableAsset_Instructions.Details",
                     "unece:cefactBusinessProcess": "Supply Chain",
-                    "rdfs:comment": "An identifier of the material to which these returnable asset instructions apply."
+                    "rdfs:comment": "An identifier of the material to which these returnable asset instructions apply.",
+                    "unece:domainName": "ReturnableAssetInstructions"
                 }
             ]
         }

@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01003848",
                     "unece:cefactBieDomainClass": "cefact:Logistics_TransportMovement.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The code specifying the transit direction of this logistics transport movement."
+                    "rdfs:comment": "The code specifying the transit direction of this logistics transport movement.",
+                    "unece:domainName": "TransportMovement"
                 }
             ]
         }

@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01004252",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "An event occurring during the transport of this supply chain consignment."
+                    "rdfs:comment": "An event occurring during the transport of this supply chain consignment.",
+                    "unece:domainName": "Consignment"
                 }
             ]
         }

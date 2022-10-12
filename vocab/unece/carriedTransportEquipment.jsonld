@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01003798",
                     "unece:cefactBieDomainClass": "cefact:Logistics_TransportEquipment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A piece of transport equipment carried on this piece of logistics transport equipment, such as a container placed on a rail wagon."
+                    "rdfs:comment": "A piece of transport equipment carried on this piece of logistics transport equipment, such as a container placed on a rail wagon.",
+                    "unece:domainName": "LogisticsTransportEquipment"
                 }
             ]
         }

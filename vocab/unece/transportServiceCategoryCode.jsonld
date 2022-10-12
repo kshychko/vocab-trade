@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01003726",
                     "unece:cefactBieDomainClass": "cefact:Logistics_ServiceCharge.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The code specifying the category of this logistics service charge [Reference United Nations Code List (UNCL) 5237]."
+                    "rdfs:comment": "The code specifying the category of this logistics service charge [Reference United Nations Code List (UNCL) 5237].",
+                    "unece:domainName": "ServiceCharge"
                 }
             ]
         }

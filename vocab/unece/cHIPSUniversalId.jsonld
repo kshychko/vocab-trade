@@ -47,7 +47,17 @@
                     "unece:cefactUNId": "UN01002843",
                     "unece:cefactBieDomainClass": "cefact:Debtor_FinancialInstitution.Details",
                     "unece:cefactBusinessProcess": "Customer to bank payment initiation",
-                    "rdfs:comment": "The unique (United States) Clearing House Interbank Payments System (CHIPS) Universal Identification (UID) as assigned by the New York Clearing House for this debtor financial institution."
+                    "rdfs:comment": "The unique (United States) Clearing House Interbank Payments System (CHIPS) Universal Identification (UID) as assigned by the New York Clearing House for this debtor financial institution.",
+                    "unece:domainName": "DebtorFinancialInstitution"
+                },
+                {
+                    "@id": "cefact:Financial_Identity.CHIPSUniversal_Identification.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01013221",
+                    "unece:cefactBieDomainClass": "cefact:Financial_Identity.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The (United States) Clearing House Interbank Payments System (CHIPS) Universal Identification (UID) as assigned by the New York Clearing House for this financial identity.",
+                    "unece:domainName": "FinancialIdentity"
                 },
                 {
                     "@id": "cefact:Creditor_FinancialInstitution.CHIPSUniversal_Identification.Identifier",
@@ -56,15 +66,8 @@
                     "unece:cefactUNId": "UN01002978",
                     "unece:cefactBieDomainClass": "cefact:Creditor_FinancialInstitution.Details",
                     "unece:cefactBusinessProcess": "Customer to bank payment initiation",
-                    "rdfs:comment": "The unique (United States) Clearing House Interbank Payments System (CHIPS) Universal Identification (UID) as assigned by the New York Clearing House for this creditor financial institution."
-                },
-                {
-                    "@id": "cefact:Financial_Identity.CHIPSUniversal_Identification.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01013221",
-                    "unece:cefactBieDomainClass": "cefact:Financial_Identity.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The (United States) Clearing House Interbank Payments System (CHIPS) Universal Identification (UID) as assigned by the New York Clearing House for this financial identity."
+                    "rdfs:comment": "The unique (United States) Clearing House Interbank Payments System (CHIPS) Universal Identification (UID) as assigned by the New York Clearing House for this creditor financial institution.",
+                    "unece:domainName": "CreditorFinancialInstitution"
                 }
             ]
         }

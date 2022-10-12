@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01006224",
                     "unece:cefactBieDomainClass": "cefact:Transport_DangerousGoods.Details",
                     "unece:cefactBusinessProcess": "Cross-Border",
-                    "rdfs:comment": "The radioactive material transported as dangerous goods."
+                    "rdfs:comment": "The radioactive material transported as dangerous goods.",
+                    "unece:domainName": "DangerousGoods"
                 }
             ]
         }

@@ -35,7 +35,8 @@
                     "unece:cefactUNId": "UN01004728",
                     "unece:cefactBieDomainClass": "cefact:Trade_Tax.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The unique identifier of the payment of this trade related tax, levy or duty."
+                    "rdfs:comment": "The unique identifier of the payment of this trade related tax, levy or duty.",
+                    "unece:domainName": "TradeTax"
                 }
             ]
         }

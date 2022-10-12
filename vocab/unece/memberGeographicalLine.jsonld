@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01012193",
                     "unece:cefactBieDomainClass": "cefact:Specified_GeographicalMultiCurve.Details",
                     "unece:cefactBusinessProcess": "Agricultural",
-                    "rdfs:comment": "A geographical line member of this geographical multi-curve."
+                    "rdfs:comment": "A geographical line member of this geographical multi-curve.",
+                    "unece:domainName": "GeographicalMultiCurve"
                 }
             ]
         }

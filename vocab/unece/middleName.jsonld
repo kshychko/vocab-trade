@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01005148",
                     "unece:cefactBieDomainClass": "cefact:Contact_Person.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The middle name, expressed as text, of this contact person, usually given by parents at birth."
+                    "rdfs:comment": "The middle name, expressed as text, of this contact person, usually given by parents at birth.",
+                    "unece:domainName": "ContactPerson"
                 }
             ]
         }

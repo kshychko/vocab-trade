@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01011021",
                     "unece:cefactBieDomainClass": "cefact:Exchanged_Declaration.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The trade party acting as an agent for the declarant for this exchanged declaration."
+                    "rdfs:comment": "The trade party acting as an agent for the declarant for this exchanged declaration.",
+                    "unece:domainName": "Declaration"
                 }
             ]
         }

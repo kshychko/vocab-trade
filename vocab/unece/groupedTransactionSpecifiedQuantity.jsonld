@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01013230",
                     "unece:cefactBieDomainClass": "cefact:FinancingRequest_Document.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The number of grouped transactions specified in this financing request document."
+                    "rdfs:comment": "The number of grouped transactions specified in this financing request document.",
+                    "unece:domainName": "FinancingRequestDocument"
                 }
             ]
         }

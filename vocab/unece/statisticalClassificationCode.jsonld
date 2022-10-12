@@ -35,7 +35,8 @@
                     "unece:cefactUNId": "UN01004761",
                     "unece:cefactBieDomainClass": "cefact:Transport_Cargo.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The code specifying a statistical classification for this transport cargo."
+                    "rdfs:comment": "The code specifying a statistical classification for this transport cargo.",
+                    "unece:domainName": "Cargo"
                 }
             ]
         }

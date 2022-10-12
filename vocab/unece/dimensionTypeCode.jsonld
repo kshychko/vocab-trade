@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01004077",
                     "unece:cefactBieDomainClass": "cefact:Spatial_Dimension.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The code specifying the type of spatial dimension, such as thickness, area, or volume."
+                    "rdfs:comment": "The code specifying the type of spatial dimension, such as thickness, area, or volume.",
+                    "unece:domainName": "Dimension"
                 }
             ]
         }

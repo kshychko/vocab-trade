@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01012671",
                     "unece:cefactBieDomainClass": "cefact:Header_TradeDelivery.Details",
                     "unece:cefactBusinessProcess": "Scheduling",
-                    "rdfs:comment": "The event of the planned ship from delivery, at header level, for this trade delivery."
+                    "rdfs:comment": "The event of the planned ship from delivery, at header level, for this trade delivery.",
+                    "unece:domainName": "HeaderTradeDelivery"
                 }
             ]
         }

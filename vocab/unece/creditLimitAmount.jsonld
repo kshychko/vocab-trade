@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01006085",
                     "unece:cefactBieDomainClass": "cefact:TradeSettlement_FinancialCard.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A monetary value of the credit limit for this trade settlement financial card."
+                    "rdfs:comment": "A monetary value of the credit limit for this trade settlement financial card.",
+                    "unece:domainName": "FinancialCard"
                 }
             ]
         }

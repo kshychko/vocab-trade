@@ -35,7 +35,8 @@
                     "unece:cefactBieDomainClass": "cefact:Basic_WorkItem.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
                     "rdfs:comment": "A reference file binary object related to this basic work item. Deprecated - Use ASBIE to Binary_ File instead.",
-                    "unece:status": "deprecated"
+                    "unece:status": "deprecated",
+                    "unece:domainName": "WorkItem"
                 }
             ]
         }

@@ -40,13 +40,24 @@
             "rdfs:label": "transportServicePaymentArrangementCode",
             "unece:cefactElementMetadata": [
                 {
+                    "@id": "cefact:Logistics_ServiceCharge.PaymentArrangement.Code",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "4237",
+                    "unece:cefactUNId": "UN01003724",
+                    "unece:cefactBieDomainClass": "cefact:Logistics_ServiceCharge.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The code specifying the payment arrangement for this logistics service charge [Reference United Nations Code List (UNCL) 4237].",
+                    "unece:domainName": "ServiceCharge"
+                },
+                {
                     "@id": "cefact:Transport_Service.PaymentArrangement.Code",
                     "@type": "unece:BasicBIE",
                     "unece:tded": "4237",
                     "unece:cefactUNId": "UN01009015",
                     "unece:cefactBieDomainClass": "cefact:Transport_Service.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The code specifying the payment arrangement for this transport service."
+                    "rdfs:comment": "The code specifying the payment arrangement for this transport service.",
+                    "unece:domainName": "Service"
                 },
                 {
                     "@id": "cefact:SupplyChain_Consignment.PaymentArrangement.Code",
@@ -55,16 +66,8 @@
                     "unece:cefactUNId": "UN01006139",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The code specifying the payment arrangements for this supply chain consignment."
-                },
-                {
-                    "@id": "cefact:Logistics_ServiceCharge.PaymentArrangement.Code",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "4237",
-                    "unece:cefactUNId": "UN01003724",
-                    "unece:cefactBieDomainClass": "cefact:Logistics_ServiceCharge.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The code specifying the payment arrangement for this logistics service charge [Reference United Nations Code List (UNCL) 4237]."
+                    "rdfs:comment": "The code specifying the payment arrangements for this supply chain consignment.",
+                    "unece:domainName": "Consignment"
                 }
             ]
         }

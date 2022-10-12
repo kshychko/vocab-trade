@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01010118",
                     "unece:cefactBieDomainClass": "cefact:Logistics_TransportMeans.Details",
                     "unece:cefactBusinessProcess": "Transport",
-                    "rdfs:comment": "An identified defect specified for this logistics means of transport."
+                    "rdfs:comment": "An identified defect specified for this logistics means of transport.",
+                    "unece:domainName": "TransportMeans"
                 }
             ]
         }

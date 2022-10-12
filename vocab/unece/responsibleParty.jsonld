@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01010158",
                     "unece:cefactBieDomainClass": "cefact:Transport_Service.Details",
                     "unece:cefactBusinessProcess": "Transport",
-                    "rdfs:comment": "A trade party responsible for this transport service."
+                    "rdfs:comment": "A trade party responsible for this transport service.",
+                    "unece:domainName": "Service"
                 }
             ]
         }

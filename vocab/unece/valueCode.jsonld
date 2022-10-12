@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01013535",
                     "unece:cefactBieDomainClass": "cefact:Calibrated_Measurement.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The code specifying a value for this calibrated measurement."
+                    "rdfs:comment": "The code specifying a value for this calibrated measurement.",
+                    "unece:domainName": "Measurement"
                 }
             ]
         }

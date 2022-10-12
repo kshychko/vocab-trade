@@ -42,22 +42,24 @@
             "rdfs:label": "characteristic",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Logistics_TransportEquipment.Characteristic.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "8154",
-                    "unece:cefactUNId": "UN01003769",
-                    "unece:cefactBieDomainClass": "cefact:Logistics_TransportEquipment.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The characteristic or characteristics, expressed as text, of a piece of logistics transport equipment, such as its size and type."
-                },
-                {
                     "@id": "cefact:Referenced_Logistics_TransportEquipment.Characteristic.Text",
                     "@type": "unece:BasicBIE",
                     "unece:tded": "8154",
                     "unece:cefactUNId": "UN01004026",
                     "unece:cefactBieDomainClass": "cefact:ReferencedLogistics_TransportEquipment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The characteristics, expressed as text, of a referenced piece of logistics transport equipment, such as size and type."
+                    "rdfs:comment": "The characteristics, expressed as text, of a referenced piece of logistics transport equipment, such as size and type.",
+                    "unece:domainName": "LogisticsTransportEquipment"
+                },
+                {
+                    "@id": "cefact:Logistics_TransportEquipment.Characteristic.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "8154",
+                    "unece:cefactUNId": "UN01003769",
+                    "unece:cefactBieDomainClass": "cefact:Logistics_TransportEquipment.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The characteristic or characteristics, expressed as text, of a piece of logistics transport equipment, such as its size and type.",
+                    "unece:domainName": "LogisticsTransportEquipment"
                 },
                 {
                     "@id": "cefact:Associated_TransportEquipment.Characteristic.Text",
@@ -66,7 +68,8 @@
                     "unece:cefactUNId": "UN01003415",
                     "unece:cefactBieDomainClass": "cefact:Associated_TransportEquipment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The textual description of the characteristics, i.e. size and type, of this piece of associated transport equipment."
+                    "rdfs:comment": "The textual description of the characteristics, i.e. size and type, of this piece of associated transport equipment.",
+                    "unece:domainName": "AssociatedTransportEquipment"
                 },
                 {
                     "@id": "cefact:Attached_TransportEquipment.Characteristic.Text",
@@ -75,7 +78,8 @@
                     "unece:cefactUNId": "UN01003420",
                     "unece:cefactBieDomainClass": "cefact:Attached_TransportEquipment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The textual description of the characteristics, i.e. size and type, of this piece of attached transport equipment."
+                    "rdfs:comment": "The textual description of the characteristics, i.e. size and type, of this piece of attached transport equipment.",
+                    "unece:domainName": "AttachedTransportEquipment"
                 }
             ]
         }

@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01013204",
                     "unece:cefactBieDomainClass": "cefact:Contact_Person.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The birth address specified for this contact person."
+                    "rdfs:comment": "The birth address specified for this contact person.",
+                    "unece:domainName": "ContactPerson"
                 }
             ]
         }

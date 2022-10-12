@@ -41,7 +41,8 @@
                     "unece:cefactUNId": "UN01013121",
                     "unece:cefactBieDomainClass": "cefact:Logistics_Location.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A supply chain inspection event at this logistics location."
+                    "rdfs:comment": "A supply chain inspection event at this logistics location.",
+                    "unece:domainName": "LogisticsLocation"
                 },
                 {
                     "@id": "cefact:Trade_ProductInstance.Inspection.SupplyChain_Event",
@@ -49,7 +50,8 @@
                     "unece:cefactUNId": "UN01004676",
                     "unece:cefactBieDomainClass": "cefact:Trade_ProductInstance.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The inspection event for this trade product instance."
+                    "rdfs:comment": "The inspection event for this trade product instance.",
+                    "unece:domainName": "ProductInstance"
                 }
             ]
         }

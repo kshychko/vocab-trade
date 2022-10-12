@@ -41,22 +41,14 @@
             "rdfs:label": "cityName",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Trade_Address.CityName.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "3164",
-                    "unece:cefactUNId": "UN01004544",
-                    "unece:cefactBieDomainClass": "cefact:Trade_Address.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The name, expressed as text, of the city, town or village of this trade address."
-                },
-                {
                     "@id": "cefact:Birth_Address.CityName.Text",
                     "@type": "unece:BasicBIE",
                     "unece:tded": "3164",
                     "unece:cefactUNId": "UN01003171",
                     "unece:cefactBieDomainClass": "cefact:Birth_Address.Details",
                     "unece:cefactBusinessProcess": "Customer to bank payment initiation",
-                    "rdfs:comment": "The name, expressed as text, of the city, town or village of this birth address."
+                    "rdfs:comment": "The name, expressed as text, of the city, town or village of this birth address.",
+                    "unece:domainName": "BirthAddress"
                 },
                 {
                     "@id": "cefact:FinancialInstitution_Address.CityName.Text",
@@ -65,7 +57,18 @@
                     "unece:cefactUNId": "UN01003183",
                     "unece:cefactBieDomainClass": "cefact:FinancialInstitution_Address.Details",
                     "unece:cefactBusinessProcess": "Customer to bank payment initiation",
-                    "rdfs:comment": "The name, expressed as text, of the city, town or village of this financial institution address."
+                    "rdfs:comment": "The name, expressed as text, of the city, town or village of this financial institution address.",
+                    "unece:domainName": "FinancialInstitutionAddress"
+                },
+                {
+                    "@id": "cefact:Trade_Address.CityName.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "3164",
+                    "unece:cefactUNId": "UN01004544",
+                    "unece:cefactBieDomainClass": "cefact:Trade_Address.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The name, expressed as text, of the city, town or village of this trade address.",
+                    "unece:domainName": "TradeAddress"
                 }
             ]
         }

@@ -35,7 +35,8 @@
                     "unece:cefactUNId": "UN01004186",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The monetary value of total disbursement for this supply chain consignment, such as the amount to be collected by the carrier according to the order given by the consignor."
+                    "rdfs:comment": "The monetary value of total disbursement for this supply chain consignment, such as the amount to be collected by the carrier according to the order given by the consignor.",
+                    "unece:domainName": "Consignment"
                 }
             ]
         }

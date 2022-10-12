@@ -40,12 +40,13 @@
             "rdfs:label": "faxCommunication",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Trade_Contact.Fax.Universal_Communication",
+                    "@id": "cefact:Location_Party.Fax.Universal_Communication",
                     "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01004567",
-                    "unece:cefactBieDomainClass": "cefact:Trade_Contact.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "Fax communication information for this trade contact."
+                    "unece:cefactUNId": "UN01003672",
+                    "unece:cefactBieDomainClass": "cefact:Location_Party.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "Fax communication information for this location party.",
+                    "unece:domainName": "LocationParty"
                 },
                 {
                     "@id": "cefact:Contact_Person.Fax.Telecommunication_Communication",
@@ -53,15 +54,17 @@
                     "unece:cefactUNId": "UN01005154",
                     "unece:cefactBieDomainClass": "cefact:Contact_Person.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "Facsimile communication information for this contact person."
+                    "rdfs:comment": "Facsimile communication information for this contact person.",
+                    "unece:domainName": "ContactPerson"
                 },
                 {
-                    "@id": "cefact:Location_Party.Fax.Universal_Communication",
+                    "@id": "cefact:Trade_Contact.Fax.Universal_Communication",
                     "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01003672",
-                    "unece:cefactBieDomainClass": "cefact:Location_Party.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "Fax communication information for this location party."
+                    "unece:cefactUNId": "UN01004567",
+                    "unece:cefactBieDomainClass": "cefact:Trade_Contact.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "Fax communication information for this trade contact.",
+                    "unece:domainName": "Contact"
                 }
             ]
         }

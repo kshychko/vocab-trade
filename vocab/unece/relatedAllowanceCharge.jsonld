@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01000182",
                     "unece:cefactBieDomainClass": "cefact:Calculated_Price.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "Applied allowance charge information related to this calculated price."
+                    "rdfs:comment": "Applied allowance charge information related to this calculated price.",
+                    "unece:domainName": "CalculatedPrice"
                 }
             ]
         }

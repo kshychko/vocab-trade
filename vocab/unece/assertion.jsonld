@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01008295",
                     "unece:cefactBieDomainClass": "cefact:TradeProduct_Certification.Details",
                     "unece:cefactBusinessProcess": "Trade",
-                    "rdfs:comment": "An assertion, expressed as text, for this trade product certification, such as that this product is free from peanuts."
+                    "rdfs:comment": "An assertion, expressed as text, for this trade product certification, such as that this product is free from peanuts.",
+                    "unece:domainName": "Certification"
                 }
             ]
         }

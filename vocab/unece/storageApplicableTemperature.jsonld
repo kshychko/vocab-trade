@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01008435",
                     "unece:cefactBieDomainClass": "cefact:Handling_Instructions.Details",
                     "unece:cefactBusinessProcess": "Supply Chain",
-                    "rdfs:comment": "The instructed temperature for storage applicable to these handling instructions."
+                    "rdfs:comment": "The instructed temperature for storage applicable to these handling instructions.",
+                    "unece:domainName": "HandlingInstructions"
                 }
             ]
         }

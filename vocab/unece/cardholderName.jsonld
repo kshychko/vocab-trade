@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01004497",
                     "unece:cefactBieDomainClass": "cefact:TradeSettlement_FinancialCard.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The cardholder name as it appears on this trade settlement financial card. This may include both an individual authorized to use the card as well as the organization that owns the card."
+                    "rdfs:comment": "The cardholder name as it appears on this trade settlement financial card. This may include both an individual authorized to use the card as well as the organization that owns the card.",
+                    "unece:domainName": "FinancialCard"
                 }
             ]
         }

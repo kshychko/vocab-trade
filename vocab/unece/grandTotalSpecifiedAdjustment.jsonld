@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01013299",
                     "unece:cefactBieDomainClass": "cefact:TradeSettlementHeader_MonetarySummation.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The financial adjustment of the grand total specified for this trade settlement header monetary summation."
+                    "rdfs:comment": "The financial adjustment of the grand total specified for this trade settlement header monetary summation.",
+                    "unece:domainName": "TradeSettlementHeaderMonetarySummation"
                 }
             ]
         }

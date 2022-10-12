@@ -33,7 +33,8 @@
                     "unece:cefactUNId": "UN01004591",
                     "unece:cefactBieDomainClass": "cefact:Trade_GeopoliticalRegion.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A country included in this trade geopolitical region."
+                    "rdfs:comment": "A country included in this trade geopolitical region.",
+                    "unece:domainName": "GeopoliticalRegion"
                 }
             ]
         }

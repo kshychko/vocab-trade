@@ -42,7 +42,8 @@
                     "unece:cefactUNId": "UN01013574",
                     "unece:cefactBieDomainClass": "cefact:Geographical_CoordinateSourceSystem.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The measure of the tolerance of this geographical coordinate source system."
+                    "rdfs:comment": "The measure of the tolerance of this geographical coordinate source system.",
+                    "unece:domainName": "CoordinateSourceSystem"
                 },
                 {
                     "@id": "cefact:Calibrated_Measurement.Tolerance.Measure",
@@ -50,7 +51,8 @@
                     "unece:cefactUNId": "UN01013537",
                     "unece:cefactBieDomainClass": "cefact:Calibrated_Measurement.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The measure of the tolerance of this calibrated measurement."
+                    "rdfs:comment": "The measure of the tolerance of this calibrated measurement.",
+                    "unece:domainName": "Measurement"
                 }
             ]
         }

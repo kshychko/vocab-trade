@@ -34,7 +34,8 @@
                     "unece:cefactUNId": "UN01000375",
                     "unece:cefactBieDomainClass": "cefact:Procuring_Project.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A code specifying the type of work, such as surveying or consulting, for this procuring project."
+                    "rdfs:comment": "A code specifying the type of work, such as surveying or consulting, for this procuring project.",
+                    "unece:domainName": "Project"
                 }
             ]
         }
