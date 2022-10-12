@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/cefact#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
@@ -32,6 +32,15 @@
             "rdfs:label": "nominalGrossVolumeMeasure",
             "unece:cefactElementMetadata": [
                 {
+                    "@id": "cefact:Referenced_Logistics_Package.Nominal_GrossVolume.Measure",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "6028",
+                    "unece:cefactUNId": "UN01013103",
+                    "unece:cefactBieDomainClass": "cefact:ReferencedLogistics_Package.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The measure of the nominal gross volume of this referenced logistics package."
+                },
+                {
                     "@id": "cefact:Logistics_Package.Nominal_GrossVolume.Measure",
                     "@type": "unece:BasicBIE",
                     "unece:tded": "6028",
@@ -39,15 +48,6 @@
                     "unece:cefactBieDomainClass": "cefact:Logistics_Package.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
                     "rdfs:comment": "The measure of the nominal gross volume of this logistics package."
-                },
-                {
-                    "@id": "cefact:Referenced_Logistics_Package.Nominal_GrossVolume.Measure",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "6028",
-                    "unece:cefactUNId": "UN01013103",
-                    "unece:cefactBieDomainClass": "cefact:Referenced_Logistics_Package.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The measure of the nominal gross volume of this referenced logistics package."
                 }
             ]
         }

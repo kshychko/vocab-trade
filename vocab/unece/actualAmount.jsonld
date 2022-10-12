@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/cefact#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
@@ -47,14 +47,6 @@
                     "rdfs:comment": "An actual monetary value added or subtracted as a result of this delivery adjustment."
                 },
                 {
-                    "@id": "cefact:Financial_Adjustment.Actual.Amount",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01003597",
-                    "unece:cefactBieDomainClass": "cefact:Financial_Adjustment.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "An actual monetary value added or subtracted as a result of this financial adjustment."
-                },
-                {
                     "@id": "cefact:Applied_AllowanceCharge.Actual.Amount",
                     "@type": "unece:BasicBIE",
                     "unece:cefactUNId": "UN01000189",
@@ -69,6 +61,14 @@
                     "unece:cefactBieDomainClass": "cefact:Trade_AllowanceCharge.Details",
                     "unece:cefactBusinessProcess": "Trade",
                     "rdfs:comment": "An actual monetary value of the trade allowance charge."
+                },
+                {
+                    "@id": "cefact:Financial_Adjustment.Actual.Amount",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01003597",
+                    "unece:cefactBieDomainClass": "cefact:Financial_Adjustment.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "An actual monetary value added or subtracted as a result of this financial adjustment."
                 }
             ]
         }

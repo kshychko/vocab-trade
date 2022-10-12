@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/cefact#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
         "unece:cefactBieDomainClass": {
@@ -68,28 +68,12 @@
             "rdfs:label": "associatedDocument",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:SupplyChain_Consignment.Associated.Referenced_Document",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01004245",
-                    "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A referenced document associated with this supply chain consignment, such as the certificate of origin or dangerous goods note."
-                },
-                {
                     "@id": "cefact:Line_TradeSettlement.Associated.Referenced_Document",
                     "@type": "unece:AssociationBIE",
                     "unece:cefactUNId": "UN01011822",
                     "unece:cefactBieDomainClass": "cefact:Line_TradeSettlement.Details",
                     "unece:cefactBusinessProcess": "Trade",
                     "rdfs:comment": "A document associated with this line trade settlement."
-                },
-                {
-                    "@id": "cefact:Exchanged_Declaration.Associated.Referenced_Document",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01011027",
-                    "unece:cefactBieDomainClass": "cefact:Exchanged_Declaration.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A referenced document associated with this exchanged declaration."
                 },
                 {
                     "@id": "cefact:SupplyChain_TradeLineItem.Associated.DocumentLine_Document",
@@ -100,6 +84,14 @@
                     "rdfs:comment": "The document line associated with this trade line item."
                 },
                 {
+                    "@id": "cefact:SupplyChain_Consignment.Associated.Referenced_Document",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01004245",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A referenced document associated with this supply chain consignment, such as the certificate of origin or dangerous goods note."
+                },
+                {
                     "@id": "cefact:SupplyChain_TradeTransaction.Associated.DocumentLine_Document",
                     "@type": "unece:AssociationBIE",
                     "unece:cefactUNId": "UN01008819",
@@ -108,20 +100,12 @@
                     "rdfs:comment": "The document line associated with this supply chain trade transaction."
                 },
                 {
-                    "@id": "cefact:SupplyChain_TradeTransaction.Associated.FinancingRequestResult_Document",
+                    "@id": "cefact:Exchanged_Declaration.Associated.Referenced_Document",
                     "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01013298",
-                    "unece:cefactBieDomainClass": "cefact:SupplyChain_TradeTransaction.Details",
+                    "unece:cefactUNId": "UN01011027",
+                    "unece:cefactBieDomainClass": "cefact:Exchanged_Declaration.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The financing request result document associated with this supply chain trade transaction."
-                },
-                {
-                    "@id": "cefact:Trade_Price.Associated.Referenced_Document",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01011921",
-                    "unece:cefactBieDomainClass": "cefact:Trade_Price.Details",
-                    "unece:cefactBusinessProcess": "Trade",
-                    "rdfs:comment": "An associated document referenced for this trade price."
+                    "rdfs:comment": "A referenced document associated with this exchanged declaration."
                 },
                 {
                     "@id": "cefact:SupplyChain_TradeTransaction.Associated.Referenced_Document",
@@ -148,20 +132,36 @@
                     "rdfs:comment": "An associated document referenced for this trade related currency exchange."
                 },
                 {
+                    "@id": "cefact:Trade_Price.Associated.Referenced_Document",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01011921",
+                    "unece:cefactBieDomainClass": "cefact:Trade_Price.Details",
+                    "unece:cefactBusinessProcess": "Trade",
+                    "rdfs:comment": "An associated document referenced for this trade price."
+                },
+                {
+                    "@id": "cefact:Referenced_SupplyChain_ConsignmentItem.Associated.Referenced_Document",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01004039",
+                    "unece:cefactBieDomainClass": "cefact:ReferencedSupplyChain_ConsignmentItem.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A referenced document associated with this referenced supply chain consignment item."
+                },
+                {
+                    "@id": "cefact:SupplyChain_TradeTransaction.Associated.FinancingRequestResult_Document",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01013298",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_TradeTransaction.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The financing request result document associated with this supply chain trade transaction."
+                },
+                {
                     "@id": "cefact:SupplyChain_ConsignmentItem.Associated.Referenced_Document",
                     "@type": "unece:AssociationBIE",
                     "unece:cefactUNId": "UN01004149",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_ConsignmentItem.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
                     "rdfs:comment": "A referenced document associated with this supply chain consignment item."
-                },
-                {
-                    "@id": "cefact:Referenced_SupplyChain_ConsignmentItem.Associated.Referenced_Document",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01004039",
-                    "unece:cefactBieDomainClass": "cefact:Referenced_SupplyChain_ConsignmentItem.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A referenced document associated with this referenced supply chain consignment item."
                 },
                 {
                     "@id": "cefact:Logistics_TransportEquipment.Associated.Referenced_Document",

@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/cefact#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
@@ -45,20 +45,28 @@
             "rdfs:label": "maximumValueMeasure",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Specified_Range.MaximumValue.Measure",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01013529",
-                    "unece:cefactBieDomainClass": "cefact:Specified_Range.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The measure of the maximum value for this specified range."
-                },
-                {
                     "@id": "cefact:Instructed_Temperature.Maximum_Value.Measure",
                     "@type": "unece:BasicBIE",
                     "unece:cefactUNId": "UN01008872",
                     "unece:cefactBieDomainClass": "cefact:Instructed_Temperature.Details",
                     "unece:cefactBusinessProcess": "Supply Chain",
                     "rdfs:comment": "The measure of the maximum value of this instructed temperature."
+                },
+                {
+                    "@id": "cefact:TransportSetting_Temperature.Maximum_Value.Measure",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01004749",
+                    "unece:cefactBieDomainClass": "cefact:TransportSetting_Temperature.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The measure of the highest value of this transport setting temperature, such as a maximum temperature value of fourteen degrees Celsius."
+                },
+                {
+                    "@id": "cefact:Specified_Range.MaximumValue.Measure",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01013529",
+                    "unece:cefactBieDomainClass": "cefact:Specified_Range.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The measure of the maximum value for this specified range."
                 },
                 {
                     "@id": "cefact:Specified_Temperature.Maximum_Value.Measure",
@@ -68,14 +76,6 @@
                     "unece:cefactBieDomainClass": "cefact:Specified_Temperature.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
                     "rdfs:comment": "The measure of the highest value of a range for this specified temperature, such as a maximum temperature value of fourteen degrees Celsius."
-                },
-                {
-                    "@id": "cefact:TransportSetting_Temperature.Maximum_Value.Measure",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01004749",
-                    "unece:cefactBieDomainClass": "cefact:TransportSetting_Temperature.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The measure of the highest value of this transport setting temperature, such as a maximum temperature value of fourteen degrees Celsius."
                 }
             ]
         }

@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/cefact#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
@@ -32,20 +32,20 @@
             "rdfs:label": "transportSplitDescription",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Referenced_SupplyChain_Consignment.TransportSplitDescription.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01004047",
-                    "unece:cefactBieDomainClass": "cefact:Referenced_SupplyChain_Consignment.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The textual description of the transport split of this referenced supply chain consignment across different transport means or transport equipment."
-                },
-                {
                     "@id": "cefact:SupplyChain_Consignment.TransportSplitDescription.Text",
                     "@type": "unece:BasicBIE",
                     "unece:cefactUNId": "UN01004206",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
                     "rdfs:comment": "The textual description of the transport split of this supply chain consignment across different transport means or transport equipment."
+                },
+                {
+                    "@id": "cefact:Referenced_SupplyChain_Consignment.TransportSplitDescription.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01004047",
+                    "unece:cefactBieDomainClass": "cefact:ReferencedSupplyChain_Consignment.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The textual description of the transport split of this referenced supply chain consignment across different transport means or transport equipment."
                 }
             ]
         }

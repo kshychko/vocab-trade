@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/cefact#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
         "unece:cefactBieDomainClass": {
@@ -48,20 +48,20 @@
                     "rdfs:comment": "A logistics package, at line level, specified for this trade delivery."
                 },
                 {
-                    "@id": "cefact:Transport_DangerousGoods.Specified.Logistics_Package",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01013055",
-                    "unece:cefactBieDomainClass": "cefact:Transport_DangerousGoods.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A logistics package specified for these transported dangerous goods."
-                },
-                {
                     "@id": "cefact:SupplyChain_TradeTransaction.Specified.Logistics_Package",
                     "@type": "unece:AssociationBIE",
                     "unece:cefactUNId": "UN01004485",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_TradeTransaction.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
                     "rdfs:comment": "A logistics package specified for this supply chain trade transaction."
+                },
+                {
+                    "@id": "cefact:Transport_DangerousGoods.Specified.Logistics_Package",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01013055",
+                    "unece:cefactBieDomainClass": "cefact:Transport_DangerousGoods.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A logistics package specified for these transported dangerous goods."
                 }
             ]
         }

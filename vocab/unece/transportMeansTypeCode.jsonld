@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/cefact#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
         "unece:cefactBieDomainClass": {
@@ -15,7 +15,7 @@
         {
             "@id": "unece:transportMeansTypeCode",
             "schema:rangeIncludes": {
-                "@id": "unece:UNECECL8179Code"
+                "@id": "unece:UNCL8179Code"
             },
             "@type": [
                 "rdf:Property",
@@ -31,15 +31,6 @@
             "rdfs:label": "transportMeansTypeCode",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Referenced_TransportMeans.Type.Code",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "8179",
-                    "unece:cefactUNId": "UN01004050",
-                    "unece:cefactBieDomainClass": "cefact:Referenced_TransportMeans.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The code specifying the type of referenced transport means [Reference UNECE Recommendation 28]."
-                },
-                {
                     "@id": "cefact:Logistics_TransportMeans.Type.Code",
                     "@type": "unece:BasicBIE",
                     "unece:tded": "8179",
@@ -47,6 +38,15 @@
                     "unece:cefactBieDomainClass": "cefact:Logistics_TransportMeans.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
                     "rdfs:comment": "The code specifying the type of logistics means of transport (Reference UNECE Recommendation 28)."
+                },
+                {
+                    "@id": "cefact:Referenced_TransportMeans.Type.Code",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "8179",
+                    "unece:cefactUNId": "UN01004050",
+                    "unece:cefactBieDomainClass": "cefact:Referenced_TransportMeans.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The code specifying the type of referenced transport means [Reference UNECE Recommendation 28]."
                 }
             ]
         }

@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/cefact#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
@@ -42,12 +42,12 @@
             "rdfs:label": "calculatedAmount",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Header_BalanceOut.Calculated.Amount",
+                    "@id": "cefact:Applied_Tax.Calculated.Amount",
                     "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01011545",
-                    "unece:cefactBieDomainClass": "cefact:Header_BalanceOut.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A monetary value calculated for this header balance out."
+                    "unece:cefactUNId": "UN01000184",
+                    "unece:cefactBieDomainClass": "cefact:Applied_Tax.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The monetary value resulting from the calculation of the applied tax."
                 },
                 {
                     "@id": "cefact:Payment_BalanceOut.Calculated.Amount",
@@ -58,20 +58,20 @@
                     "rdfs:comment": "A monetary value calculated for this payment balance out."
                 },
                 {
+                    "@id": "cefact:Header_BalanceOut.Calculated.Amount",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01011545",
+                    "unece:cefactBieDomainClass": "cefact:Header_BalanceOut.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A monetary value calculated for this header balance out."
+                },
+                {
                     "@id": "cefact:Trade_Tax.Calculated.Amount",
                     "@type": "unece:BasicBIE",
                     "unece:cefactUNId": "UN01004711",
                     "unece:cefactBieDomainClass": "cefact:Trade_Tax.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
                     "rdfs:comment": "A monetary value resulting from the calculation of this trade related tax, levy or duty."
-                },
-                {
-                    "@id": "cefact:Applied_Tax.Calculated.Amount",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01000184",
-                    "unece:cefactBieDomainClass": "cefact:Applied_Tax.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The monetary value resulting from the calculation of the applied tax."
                 }
             ]
         }

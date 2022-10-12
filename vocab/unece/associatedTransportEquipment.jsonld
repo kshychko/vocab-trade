@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/cefact#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
         "unece:cefactBieDomainClass": {
@@ -49,6 +49,14 @@
                     "rdfs:comment": "A piece of transport equipment associated with this supply chain trade line item."
                 },
                 {
+                    "@id": "cefact:Referenced_SupplyChain_ConsignmentItem.Associated.Referenced_Logistics_TransportEquipment",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01011047",
+                    "unece:cefactBieDomainClass": "cefact:ReferencedSupplyChain_ConsignmentItem.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A piece of transport equipment associated with this referenced supply chain consignment item."
+                },
+                {
                     "@id": "cefact:Transport_DangerousGoods.Associated.Referenced_Logistics_TransportEquipment",
                     "@type": "unece:AssociationBIE",
                     "unece:cefactUNId": "UN01009014",
@@ -63,14 +71,6 @@
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_ConsignmentItem.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
                     "rdfs:comment": "A referenced piece of transport equipment associated with this supply chain consignment item."
-                },
-                {
-                    "@id": "cefact:Referenced_SupplyChain_ConsignmentItem.Associated.Referenced_Logistics_TransportEquipment",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01011047",
-                    "unece:cefactBieDomainClass": "cefact:Referenced_SupplyChain_ConsignmentItem.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A piece of transport equipment associated with this referenced supply chain consignment item."
                 }
             ]
         }

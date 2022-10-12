@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/cefact#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
         "unece:cefactBieDomainClass": {
@@ -15,7 +15,7 @@
         {
             "@id": "unece:emailURICommunication",
             "schema:rangeIncludes": {
-                "@id": "unece:UniversalCommunication"
+                "@id": "unece:EmailCommunication"
             },
             "@type": [
                 "rdf:Property",
@@ -40,12 +40,12 @@
             "rdfs:label": "emailURICommunication",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Contact_Person.Email_URI.Email_Communication",
+                    "@id": "cefact:Transport_Person.Email_URI.Universal_Communication",
                     "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01005155",
-                    "unece:cefactBieDomainClass": "cefact:Contact_Person.Details",
+                    "unece:cefactUNId": "UN01013150",
+                    "unece:cefactBieDomainClass": "cefact:Transport_Person.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The email Uniform Resource Identifier (URI) communication for this contact person."
+                    "rdfs:comment": "The email URI (Uniform Resource Identifier) communication for this transport person."
                 },
                 {
                     "@id": "cefact:Trade_Contact.Email_URI.Universal_Communication",
@@ -56,12 +56,12 @@
                     "rdfs:comment": "The email URI communication information for this trade contact."
                 },
                 {
-                    "@id": "cefact:Transport_Person.Email_URI.Universal_Communication",
+                    "@id": "cefact:Contact_Person.Email_URI.Email_Communication",
                     "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01013150",
-                    "unece:cefactBieDomainClass": "cefact:Transport_Person.Details",
+                    "unece:cefactUNId": "UN01005155",
+                    "unece:cefactBieDomainClass": "cefact:Contact_Person.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The email URI (Uniform Resource Identifier) communication for this transport person."
+                    "rdfs:comment": "The email Uniform Resource Identifier (URI) communication for this contact person."
                 }
             ]
         }

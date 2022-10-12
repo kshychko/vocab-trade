@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/cefact#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
@@ -53,6 +53,15 @@
                     "rdfs:comment": "The measure of the minimum value for this specified range."
                 },
                 {
+                    "@id": "cefact:Specified_Temperature.Minimum_Value.Measure",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "6411",
+                    "unece:cefactUNId": "UN01009045",
+                    "unece:cefactBieDomainClass": "cefact:Specified_Temperature.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The measure of the lowest value of a range for this specified temperature, such as a minimum temperature value of four degrees Celsius."
+                },
+                {
                     "@id": "cefact:Instructed_Temperature.Minimum_Value.Measure",
                     "@type": "unece:BasicBIE",
                     "unece:cefactUNId": "UN01008873",
@@ -67,15 +76,6 @@
                     "unece:cefactBieDomainClass": "cefact:TransportSetting_Temperature.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
                     "rdfs:comment": "The measure of the lowest value of this transport setting temperature, such as a minimum temperature value of four degrees Celsius."
-                },
-                {
-                    "@id": "cefact:Specified_Temperature.Minimum_Value.Measure",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "6411",
-                    "unece:cefactUNId": "UN01009045",
-                    "unece:cefactBieDomainClass": "cefact:Specified_Temperature.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The measure of the lowest value of a range for this specified temperature, such as a minimum temperature value of four degrees Celsius."
                 }
             ]
         }

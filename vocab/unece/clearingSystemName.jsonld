@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/cefact#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
@@ -37,20 +37,20 @@
             "rdfs:label": "clearingSystemName",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Debtor_FinancialInstitution.ClearingSystemName.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01002842",
-                    "unece:cefactBieDomainClass": "cefact:Debtor_FinancialInstitution.Details",
-                    "unece:cefactBusinessProcess": "Customer to bank payment initiation",
-                    "rdfs:comment": "The clearing system name, expressed as text, for this debtor financial institution."
-                },
-                {
                     "@id": "cefact:Creditor_FinancialInstitution.ClearingSystemName.Text",
                     "@type": "unece:BasicBIE",
                     "unece:cefactUNId": "UN01002977",
                     "unece:cefactBieDomainClass": "cefact:Creditor_FinancialInstitution.Details",
                     "unece:cefactBusinessProcess": "Customer to bank payment initiation",
                     "rdfs:comment": "The clearing system name, expressed as text, for this creditor financial institution."
+                },
+                {
+                    "@id": "cefact:Debtor_FinancialInstitution.ClearingSystemName.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01002842",
+                    "unece:cefactBieDomainClass": "cefact:Debtor_FinancialInstitution.Details",
+                    "unece:cefactBusinessProcess": "Customer to bank payment initiation",
+                    "rdfs:comment": "The clearing system name, expressed as text, for this debtor financial institution."
                 }
             ]
         }

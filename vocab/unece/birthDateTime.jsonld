@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/cefact#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
@@ -37,15 +37,6 @@
             "rdfs:label": "birthDateTime",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Contact_Person.Birth.DateTime",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "2491",
-                    "unece:cefactUNId": "UN01012119",
-                    "unece:cefactBieDomainClass": "cefact:Contact_Person.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The date, time, date time or other date time value which specifies the birth date for this contact person."
-                },
-                {
                     "@id": "cefact:Transport_Person.Birth.DateTime",
                     "@type": "unece:BasicBIE",
                     "unece:tded": "2491",
@@ -53,6 +44,15 @@
                     "unece:cefactBieDomainClass": "cefact:Transport_Person.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
                     "rdfs:comment": "The birth date of this transport person."
+                },
+                {
+                    "@id": "cefact:Contact_Person.Birth.DateTime",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "2491",
+                    "unece:cefactUNId": "UN01012119",
+                    "unece:cefactBieDomainClass": "cefact:Contact_Person.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The date, time, date time or other date time value which specifies the birth date for this contact person."
                 }
             ]
         }

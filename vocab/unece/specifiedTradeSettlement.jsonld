@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/cefact#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
         "unece:cefactBieDomainClass": {
@@ -15,7 +15,7 @@
         {
             "@id": "unece:specifiedTradeSettlement",
             "schema:rangeIncludes": {
-                "@id": "unece:LineTradeSettlement"
+                "@id": "unece:PaymentTradeSettlement"
             },
             "@type": [
                 "rdf:Property",
@@ -37,12 +37,12 @@
             "rdfs:label": "specifiedTradeSettlement",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:TradeSettlement_Payment.Specified.Payment_TradeSettlement",
+                    "@id": "cefact:SupplyChain_TradeLineItem.Specified.Line_TradeSettlement",
                     "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01011918",
-                    "unece:cefactBieDomainClass": "cefact:TradeSettlement_Payment.Details",
+                    "unece:cefactUNId": "UN01011864",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_TradeLineItem.Details",
                     "unece:cefactBusinessProcess": "Trade",
-                    "rdfs:comment": "A trade settlement payment specified for this trade settlement payment."
+                    "rdfs:comment": "A line trade settlement specified for this supply chain trade line item."
                 },
                 {
                     "@id": "cefact:Subordinate_TradeLineItem.Specified.SubordinateLine_TradeSettlement",
@@ -53,12 +53,12 @@
                     "rdfs:comment": "A trade settlement specified for this subordinate trade line item."
                 },
                 {
-                    "@id": "cefact:SupplyChain_TradeLineItem.Specified.Line_TradeSettlement",
+                    "@id": "cefact:TradeSettlement_Payment.Specified.Payment_TradeSettlement",
                     "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01011864",
-                    "unece:cefactBieDomainClass": "cefact:SupplyChain_TradeLineItem.Details",
+                    "unece:cefactUNId": "UN01011918",
+                    "unece:cefactBieDomainClass": "cefact:TradeSettlement_Payment.Details",
                     "unece:cefactBusinessProcess": "Trade",
-                    "rdfs:comment": "A line trade settlement specified for this supply chain trade line item."
+                    "rdfs:comment": "A trade settlement payment specified for this trade settlement payment."
                 }
             ]
         }

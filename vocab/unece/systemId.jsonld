@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/cefact#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
@@ -38,12 +38,12 @@
             "rdfs:label": "systemId",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Specified_GeographicalCoordinate.System.Identifier",
+                    "@id": "cefact:GeographicalCoordinate.System.Identifier",
                     "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01002032",
-                    "unece:cefactBieDomainClass": "cefact:Specified_GeographicalCoordinate.Details",
+                    "unece:cefactUNId": "UN01003622",
+                    "unece:cefactBieDomainClass": "cefact:GeographicalCoordinate.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The unique identifier of the system used for measuring this specified geographical coordinate."
+                    "rdfs:comment": "The unique identifier of the reference system used for measuring a geographical coordinate."
                 },
                 {
                     "@id": "cefact:Product_Classification.System.Identifier",
@@ -55,12 +55,12 @@
                     "rdfs:comment": "The unique identifier of the classification system for this product classification."
                 },
                 {
-                    "@id": "cefact:GeographicalCoordinate.System.Identifier",
+                    "@id": "cefact:Specified_GeographicalCoordinate.System.Identifier",
                     "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01003622",
-                    "unece:cefactBieDomainClass": "cefact:GeographicalCoordinate.Details",
+                    "unece:cefactUNId": "UN01002032",
+                    "unece:cefactBieDomainClass": "cefact:Specified_GeographicalCoordinate.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The unique identifier of the reference system used for measuring a geographical coordinate."
+                    "rdfs:comment": "The unique identifier of the system used for measuring this specified geographical coordinate."
                 }
             ]
         }

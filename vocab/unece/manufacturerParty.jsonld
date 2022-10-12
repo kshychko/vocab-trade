@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/cefact#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
         "unece:cefactBieDomainClass": {
@@ -56,6 +56,14 @@
             "rdfs:label": "manufacturerParty",
             "unece:cefactElementMetadata": [
                 {
+                    "@id": "cefact:Logistics_TransportEquipment.Manufacturer.Trade_Party",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01013599",
+                    "unece:cefactBieDomainClass": "cefact:Logistics_TransportEquipment.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The manufacturer party specified for this piece of logistics transport equipment."
+                },
+                {
                     "@id": "cefact:Trade_Product.Manufacturer.Trade_Party",
                     "@type": "unece:AssociationBIE",
                     "unece:cefactUNId": "UN01004708",
@@ -64,12 +72,12 @@
                     "rdfs:comment": "A manufacturer party for this trade product."
                 },
                 {
-                    "@id": "cefact:Logistics_TransportEquipment.Manufacturer.Trade_Party",
+                    "@id": "cefact:SupplyChain_ConsignmentItem.Manufacturer.Trade_Party",
                     "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01013599",
-                    "unece:cefactBieDomainClass": "cefact:Logistics_TransportEquipment.Details",
+                    "unece:cefactUNId": "UN01004146",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_ConsignmentItem.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The manufacturer party specified for this piece of logistics transport equipment."
+                    "rdfs:comment": "The party which manufactured this supply chain consignment item."
                 },
                 {
                     "@id": "cefact:Monitoring_IOTDevice.Manufacturer.Trade_Party",
@@ -80,14 +88,6 @@
                     "rdfs:comment": "The manufacturer party of this monitoring IOT device."
                 },
                 {
-                    "@id": "cefact:Monitoring_Sensor.Manufacturer.Trade_Party",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01013546",
-                    "unece:cefactBieDomainClass": "cefact:Monitoring_Sensor.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The manufacturer party for this monitoring sensor."
-                },
-                {
                     "@id": "cefact:OEM_Equipment.Manufacturer.Trade_Party",
                     "@type": "unece:AssociationBIE",
                     "unece:cefactUNId": "UN01013559",
@@ -96,20 +96,20 @@
                     "rdfs:comment": "The manufacturer party for this OEM equipment."
                 },
                 {
+                    "@id": "cefact:Monitoring_Sensor.Manufacturer.Trade_Party",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01013546",
+                    "unece:cefactBieDomainClass": "cefact:Monitoring_Sensor.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The manufacturer party for this monitoring sensor."
+                },
+                {
                     "@id": "cefact:Logistics_TransportMeans.Manufacturer.Trade_Party",
                     "@type": "unece:AssociationBIE",
                     "unece:cefactUNId": "UN01013603",
                     "unece:cefactBieDomainClass": "cefact:Logistics_TransportMeans.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
                     "rdfs:comment": "The manufacturer party for this logistics means of transport."
-                },
-                {
-                    "@id": "cefact:SupplyChain_ConsignmentItem.Manufacturer.Trade_Party",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01004146",
-                    "unece:cefactBieDomainClass": "cefact:SupplyChain_ConsignmentItem.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The party which manufactured this supply chain consignment item."
                 }
             ]
         }

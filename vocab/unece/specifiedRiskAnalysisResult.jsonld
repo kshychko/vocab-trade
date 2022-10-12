@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/cefact#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
         "unece:cefactBieDomainClass": {
@@ -45,6 +45,14 @@
             "rdfs:label": "specifiedRiskAnalysisResult",
             "unece:cefactElementMetadata": [
                 {
+                    "@id": "cefact:Logistics_TransportMovement.Specified.Logistics_RiskAnalysisResult",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01013052",
+                    "unece:cefactBieDomainClass": "cefact:Logistics_TransportMovement.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A result of a logistics risk analysis calculation specified for this transport movement."
+                },
+                {
                     "@id": "cefact:Logistics_TransportEquipment.Specified.Logistics_RiskAnalysisResult",
                     "@type": "unece:AssociationBIE",
                     "unece:cefactUNId": "UN01013051",
@@ -56,7 +64,7 @@
                     "@id": "cefact:Referenced_SupplyChain_Consignment.Specified.Logistics_RiskAnalysisResult",
                     "@type": "unece:AssociationBIE",
                     "unece:cefactUNId": "UN01013182",
-                    "unece:cefactBieDomainClass": "cefact:Referenced_SupplyChain_Consignment.Details",
+                    "unece:cefactBieDomainClass": "cefact:ReferencedSupplyChain_Consignment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
                     "rdfs:comment": "A result of a logistics risk analysis specified for this referenced supply chain consignment."
                 },
@@ -75,14 +83,6 @@
                     "unece:cefactBieDomainClass": "cefact:Trade_Party.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
                     "rdfs:comment": "A result of a logistics risk analysis calculation specified for this trade party."
-                },
-                {
-                    "@id": "cefact:Logistics_TransportMovement.Specified.Logistics_RiskAnalysisResult",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01013052",
-                    "unece:cefactBieDomainClass": "cefact:Logistics_TransportMovement.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A result of a logistics risk analysis calculation specified for this transport movement."
                 }
             ]
         }

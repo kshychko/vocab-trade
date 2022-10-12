@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/cefact#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
@@ -41,6 +41,14 @@
             "rdfs:label": "informationAmount",
             "unece:cefactElementMetadata": [
                 {
+                    "@id": "cefact:TradeSettlementLine_MonetarySummation.Information.Amount",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01011903",
+                    "unece:cefactBieDomainClass": "cefact:TradeSettlementLine_MonetarySummation.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A monetary value of an amount being reported for information in this trade settlement monetary summation."
+                },
+                {
                     "@id": "cefact:Trade_Tax.Information.Amount",
                     "@type": "unece:BasicBIE",
                     "unece:cefactUNId": "UN01004741",
@@ -55,14 +63,6 @@
                     "unece:cefactBieDomainClass": "cefact:TradeSettlementHeader_MonetarySummation.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
                     "rdfs:comment": "A monetary value of an amount being reported for information in this trade settlement header monetary summation."
-                },
-                {
-                    "@id": "cefact:TradeSettlementLine_MonetarySummation.Information.Amount",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01011903",
-                    "unece:cefactBieDomainClass": "cefact:TradeSettlementLine_MonetarySummation.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A monetary value of an amount being reported for information in this trade settlement monetary summation."
                 }
             ]
         }

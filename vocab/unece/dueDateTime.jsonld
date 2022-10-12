@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/cefact#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
@@ -42,12 +42,12 @@
             "rdfs:label": "dueDateTime",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Trade_PaymentTerms.Due.DateTime",
+                    "@id": "cefact:Instalment_Payment.Due.DateTime",
                     "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01012587",
-                    "unece:cefactBieDomainClass": "cefact:Trade_PaymentTerms.Details",
+                    "unece:cefactUNId": "UN01013275",
+                    "unece:cefactBieDomainClass": "cefact:Instalment_Payment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The date, time, date time, or other date time value of the due date specified by these trade payment terms."
+                    "rdfs:comment": "The due date for this instalment payment."
                 },
                 {
                     "@id": "cefact:SupplyChain_Event.Due.DateTime",
@@ -58,14 +58,6 @@
                     "rdfs:comment": "The due date, time, date time, or other date time value of this supply chain event."
                 },
                 {
-                    "@id": "cefact:Instalment_Payment.Due.DateTime",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01013275",
-                    "unece:cefactBieDomainClass": "cefact:Instalment_Payment.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The due date for this instalment payment."
-                },
-                {
                     "@id": "cefact:Trade_PaymentTerms.DueDate.DateTime",
                     "@type": "unece:BasicBIE",
                     "unece:cefactUNId": "UN01004632",
@@ -73,6 +65,14 @@
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
                     "rdfs:comment": "The date, time, date time, or other date time value for a due date specified by these trade payment terms. Deprecated - Use Trade_ Payment Terms. Due. Date Time instead.",
                     "unece:status": "deprecated"
+                },
+                {
+                    "@id": "cefact:Trade_PaymentTerms.Due.DateTime",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01012587",
+                    "unece:cefactBieDomainClass": "cefact:Trade_PaymentTerms.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The date, time, date time, or other date time value of the due date specified by these trade payment terms."
                 }
             ]
         }

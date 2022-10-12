@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/cefact#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
         "unece:cefactBieDomainClass": {
@@ -48,12 +48,12 @@
             "rdfs:label": "associatedLocation",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Specified_GeographicalGrid.Associated.Logistics_Location",
+                    "@id": "cefact:Specified_GeographicalPoint.Associated.Logistics_Location",
                     "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01013624",
-                    "unece:cefactBieDomainClass": "cefact:Specified_GeographicalGrid.Details",
+                    "unece:cefactUNId": "UN01013626",
+                    "unece:cefactBieDomainClass": "cefact:Specified_GeographicalPoint.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A logistics location associated with this specified geographical grid."
+                    "rdfs:comment": "A logistics location associated with this specified geographical point."
                 },
                 {
                     "@id": "cefact:Specified_Circle.Associated.Logistics_Location",
@@ -64,14 +64,6 @@
                     "rdfs:comment": "A logistics location associated with this specified circle."
                 },
                 {
-                    "@id": "cefact:Specified_GeographicalLine.Associated.Logistics_Location",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01013625",
-                    "unece:cefactBieDomainClass": "cefact:Specified_GeographicalLine.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A logistics location associated with this specified geographical line."
-                },
-                {
                     "@id": "cefact:Specified_Polygon.Associated.Logistics_Location",
                     "@type": "unece:AssociationBIE",
                     "unece:cefactUNId": "UN01013627",
@@ -80,12 +72,20 @@
                     "rdfs:comment": "A logistics location associated with this specified polygon."
                 },
                 {
-                    "@id": "cefact:Specified_GeographicalPoint.Associated.Logistics_Location",
+                    "@id": "cefact:Specified_GeographicalLine.Associated.Logistics_Location",
                     "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01013626",
-                    "unece:cefactBieDomainClass": "cefact:Specified_GeographicalPoint.Details",
+                    "unece:cefactUNId": "UN01013625",
+                    "unece:cefactBieDomainClass": "cefact:Specified_GeographicalLine.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A logistics location associated with this specified geographical point."
+                    "rdfs:comment": "A logistics location associated with this specified geographical line."
+                },
+                {
+                    "@id": "cefact:Specified_GeographicalGrid.Associated.Logistics_Location",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01013624",
+                    "unece:cefactBieDomainClass": "cefact:Specified_GeographicalGrid.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "A logistics location associated with this specified geographical grid."
                 }
             ]
         }

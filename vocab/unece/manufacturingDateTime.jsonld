@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/cefact#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
@@ -37,20 +37,20 @@
             "rdfs:label": "manufacturingDateTime",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Logistics_TransportMeans.Manufacturing.DateTime",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01013601",
-                    "unece:cefactBieDomainClass": "cefact:Logistics_TransportMeans.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The manufacturing date, time, date time, or other date time value for this logistics means of transport."
-                },
-                {
                     "@id": "cefact:Logistics_TransportEquipment.Manufacturing.DateTime",
                     "@type": "unece:BasicBIE",
                     "unece:cefactUNId": "UN01013591",
                     "unece:cefactBieDomainClass": "cefact:Logistics_TransportEquipment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
                     "rdfs:comment": "The manufacturing date, time, date time, or other date time value for this piece of logistics transport equipment."
+                },
+                {
+                    "@id": "cefact:Logistics_TransportMeans.Manufacturing.DateTime",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01013601",
+                    "unece:cefactBieDomainClass": "cefact:Logistics_TransportMeans.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The manufacturing date, time, date time, or other date time value for this logistics means of transport."
                 }
             ]
         }

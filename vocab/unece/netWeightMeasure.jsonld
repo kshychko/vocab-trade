@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/cefact#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
@@ -64,50 +64,6 @@
             "rdfs:label": "netWeightMeasure",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:SupplyChain_ConsignmentItem.NetWeight.Measure",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "6016",
-                    "unece:cefactUNId": "UN01004122",
-                    "unece:cefactBieDomainClass": "cefact:SupplyChain_ConsignmentItem.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A measure of the net weight (mass) of this supply chain consignment item which excludes all packaging."
-                },
-                {
-                    "@id": "cefact:Referenced_Logistics_Package.NetWeight.Measure",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "6026",
-                    "unece:cefactUNId": "UN01013101",
-                    "unece:cefactBieDomainClass": "cefact:Referenced_Logistics_Package.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The measure of the net weight (mass) of the contents of this referenced logistics package."
-                },
-                {
-                    "@id": "cefact:Transport_DangerousGoods.NetWeight.Measure",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "6411",
-                    "unece:cefactUNId": "UN01004786",
-                    "unece:cefactBieDomainClass": "cefact:Transport_DangerousGoods.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The measure of the net weight (mass) of these transported dangerous goods."
-                },
-                {
-                    "@id": "cefact:Trade_Product.NetWeight.Measure",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01004691",
-                    "unece:cefactBieDomainClass": "cefact:Trade_Product.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A measure of the net weight (mass) of this trade product."
-                },
-                {
-                    "@id": "cefact:SupplyChain_Consignment.NetWeight.Measure",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "6014",
-                    "unece:cefactUNId": "UN01004174",
-                    "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A measure of the net weight (mass) of this consignment which excludes the weight of packaging of this supply chain consignment and that of any transport equipment."
-                },
-                {
                     "@id": "cefact:Logistics_TransportEquipment.NetWeight.Measure",
                     "@type": "unece:BasicBIE",
                     "unece:tded": "6160",
@@ -126,6 +82,15 @@
                     "rdfs:comment": "The measure, at line level, of the net weight (mass) of this trade delivery."
                 },
                 {
+                    "@id": "cefact:Referenced_Logistics_TransportEquipment.NetWeight.Measure",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "6160",
+                    "unece:cefactUNId": "UN01008994",
+                    "unece:cefactBieDomainClass": "cefact:ReferencedLogistics_TransportEquipment.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The measure of the net weight (mass) of this piece of referenced logistics transport equipment."
+                },
+                {
                     "@id": "cefact:Logistics_Package.NetWeight.Measure",
                     "@type": "unece:BasicBIE",
                     "unece:tded": "6026",
@@ -139,9 +104,27 @@
                     "@type": "unece:BasicBIE",
                     "unece:tded": "6014",
                     "unece:cefactUNId": "UN01011049",
-                    "unece:cefactBieDomainClass": "cefact:Referenced_SupplyChain_Consignment.Details",
+                    "unece:cefactBieDomainClass": "cefact:ReferencedSupplyChain_Consignment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
                     "rdfs:comment": "A measure of the net weight (mass) of this referenced consignment which excludes the weight of packaging and the weight of any transport equipment."
+                },
+                {
+                    "@id": "cefact:Referenced_Logistics_Package.NetWeight.Measure",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "6026",
+                    "unece:cefactUNId": "UN01013101",
+                    "unece:cefactBieDomainClass": "cefact:ReferencedLogistics_Package.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The measure of the net weight (mass) of the contents of this referenced logistics package."
+                },
+                {
+                    "@id": "cefact:SupplyChain_ConsignmentItem.NetWeight.Measure",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "6016",
+                    "unece:cefactUNId": "UN01004122",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_ConsignmentItem.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A measure of the net weight (mass) of this supply chain consignment item which excludes all packaging."
                 },
                 {
                     "@id": "cefact:Logistics_TransportMeans.NetWeight.Measure",
@@ -153,13 +136,30 @@
                     "rdfs:comment": "The measure of the net weight (mass) of this logistics means of transport, such as the net tonnage of a vessel determined in accordance with the provisions of the International Convention on Tonnage Measurement of Ships, 1969."
                 },
                 {
-                    "@id": "cefact:Referenced_Logistics_TransportEquipment.NetWeight.Measure",
+                    "@id": "cefact:Transport_DangerousGoods.NetWeight.Measure",
                     "@type": "unece:BasicBIE",
-                    "unece:tded": "6160",
-                    "unece:cefactUNId": "UN01008994",
-                    "unece:cefactBieDomainClass": "cefact:Referenced_Logistics_TransportEquipment.Details",
+                    "unece:tded": "6411",
+                    "unece:cefactUNId": "UN01004786",
+                    "unece:cefactBieDomainClass": "cefact:Transport_DangerousGoods.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The measure of the net weight (mass) of these transported dangerous goods."
+                },
+                {
+                    "@id": "cefact:SupplyChain_Consignment.NetWeight.Measure",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "6014",
+                    "unece:cefactUNId": "UN01004174",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The measure of the net weight (mass) of this piece of referenced logistics transport equipment."
+                    "rdfs:comment": "A measure of the net weight (mass) of this consignment which excludes the weight of packaging of this supply chain consignment and that of any transport equipment."
+                },
+                {
+                    "@id": "cefact:Trade_Product.NetWeight.Measure",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01004691",
+                    "unece:cefactBieDomainClass": "cefact:Trade_Product.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A measure of the net weight (mass) of this trade product."
                 }
             ]
         }

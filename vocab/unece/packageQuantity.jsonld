@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/cefact#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
@@ -49,6 +49,14 @@
             "rdfs:label": "packageQuantity",
             "unece:cefactElementMetadata": [
                 {
+                    "@id": "cefact:Line_TradeDelivery.Package.Quantity",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01011764",
+                    "unece:cefactBieDomainClass": "cefact:Line_TradeDelivery.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The number of packages, at line level, in this trade delivery."
+                },
+                {
                     "@id": "cefact:SupplyChain_Consignment.Package.Quantity",
                     "@type": "unece:BasicBIE",
                     "unece:tded": "7370",
@@ -66,14 +74,6 @@
                     "rdfs:comment": "The number of packages in this subordinate line trade delivery."
                 },
                 {
-                    "@id": "cefact:Logistics_TransportMovement.Package.Quantity",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01006137",
-                    "unece:cefactBieDomainClass": "cefact:Logistics_TransportMovement.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The number of packages in this logistics transport movement."
-                },
-                {
                     "@id": "cefact:SupplyChain_ConsignmentItem.Package.Quantity",
                     "@type": "unece:BasicBIE",
                     "unece:tded": "7012",
@@ -83,12 +83,12 @@
                     "rdfs:comment": "The package quantity for this supply chain consignment item."
                 },
                 {
-                    "@id": "cefact:Line_TradeDelivery.Package.Quantity",
+                    "@id": "cefact:Logistics_TransportMovement.Package.Quantity",
                     "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01011764",
-                    "unece:cefactBieDomainClass": "cefact:Line_TradeDelivery.Details",
+                    "unece:cefactUNId": "UN01006137",
+                    "unece:cefactBieDomainClass": "cefact:Logistics_TransportMovement.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The number of packages, at line level, in this trade delivery."
+                    "rdfs:comment": "The number of packages in this logistics transport movement."
                 }
             ]
         }

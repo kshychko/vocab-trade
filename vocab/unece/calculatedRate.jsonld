@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/cefact#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
@@ -37,20 +37,20 @@
             "rdfs:label": "calculatedRate",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Trade_Tax.Calculated.Rate",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01004714",
-                    "unece:cefactBieDomainClass": "cefact:Trade_Tax.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The rate used to calculate the amount of this trade related tax, levy or duty."
-                },
-                {
                     "@id": "cefact:Applied_Tax.Calculated.Rate",
                     "@type": "unece:BasicBIE",
                     "unece:cefactUNId": "UN01000186",
                     "unece:cefactBieDomainClass": "cefact:Applied_Tax.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
                     "rdfs:comment": "The rate used to calculate the applied tax."
+                },
+                {
+                    "@id": "cefact:Trade_Tax.Calculated.Rate",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01004714",
+                    "unece:cefactBieDomainClass": "cefact:Trade_Tax.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The rate used to calculate the amount of this trade related tax, levy or duty."
                 }
             ]
         }

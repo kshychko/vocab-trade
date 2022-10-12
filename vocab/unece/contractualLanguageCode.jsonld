@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/cefact#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
@@ -58,13 +58,22 @@
             "rdfs:label": "contractualLanguageCode",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Grouped_WorkItem.ContractualLanguage.Code",
+                    "@id": "cefact:WorkItem_QuantityAnalysis.ContractualLanguage.Code",
                     "@type": "unece:BasicBIE",
                     "unece:tded": "3453",
-                    "unece:cefactUNId": "UN01007512",
-                    "unece:cefactBieDomainClass": "cefact:Grouped_WorkItem.Details",
+                    "unece:cefactUNId": "UN01007570",
+                    "unece:cefactBieDomainClass": "cefact:WorkItem_QuantityAnalysis.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The code specifying the contractual language for this grouped work item."
+                    "rdfs:comment": "The code specifying the contractual language for this work item quantity analysis."
+                },
+                {
+                    "@id": "cefact:WorkItem_ComplexDescription.ContractualLanguage.Code",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "3453",
+                    "unece:cefactUNId": "UN01007542",
+                    "unece:cefactBieDomainClass": "cefact:WorkItem_ComplexDescription.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The code specifying the contractual language for this work item complex description."
                 },
                 {
                     "@id": "cefact:Basic_WorkItem.ContractualLanguage.Code",
@@ -76,22 +85,13 @@
                     "rdfs:comment": "The code specifying the contractual language for this basic work item."
                 },
                 {
-                    "@id": "cefact:WorkItem_QuantityAnalysis.ContractualLanguage.Code",
+                    "@id": "cefact:Grouped_WorkItem.ContractualLanguage.Code",
                     "@type": "unece:BasicBIE",
                     "unece:tded": "3453",
-                    "unece:cefactUNId": "UN01007570",
-                    "unece:cefactBieDomainClass": "cefact:WorkItem_QuantityAnalysis.Details",
+                    "unece:cefactUNId": "UN01007512",
+                    "unece:cefactBieDomainClass": "cefact:Grouped_WorkItem.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The code specifying the contractual language for this work item quantity analysis."
-                },
-                {
-                    "@id": "cefact:Valuation_BreakdownStatement.ContractualLanguage.Code",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "3453",
-                    "unece:cefactUNId": "UN01007557",
-                    "unece:cefactBieDomainClass": "cefact:Valuation_BreakdownStatement.Details",
-                    "unece:cefactBusinessProcess": "Invoicing",
-                    "rdfs:comment": "The code specifying the contractual language for this valuation breakdown statement."
+                    "rdfs:comment": "The code specifying the contractual language for this grouped work item."
                 },
                 {
                     "@id": "cefact:Specification_Response.ContractualLanguage.Code",
@@ -103,15 +103,6 @@
                     "rdfs:comment": "The code specifying the contractual language for this specification response."
                 },
                 {
-                    "@id": "cefact:WorkItem_Dimension.ContractualLanguage.Code",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "3453",
-                    "unece:cefactUNId": "UN01007543",
-                    "unece:cefactBieDomainClass": "cefact:WorkItem_Dimension.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The code specifying the contractual language for this work item dimension."
-                },
-                {
                     "@id": "cefact:Specification_Query.ContractualLanguage.Code",
                     "@type": "unece:BasicBIE",
                     "unece:tded": "3453",
@@ -121,13 +112,22 @@
                     "rdfs:comment": "The code specifying the contractual language for this specification query."
                 },
                 {
-                    "@id": "cefact:WorkItem_ComplexDescription.ContractualLanguage.Code",
+                    "@id": "cefact:Valuation_BreakdownStatement.ContractualLanguage.Code",
                     "@type": "unece:BasicBIE",
                     "unece:tded": "3453",
-                    "unece:cefactUNId": "UN01007542",
-                    "unece:cefactBieDomainClass": "cefact:WorkItem_ComplexDescription.Details",
+                    "unece:cefactUNId": "UN01007557",
+                    "unece:cefactBieDomainClass": "cefact:Valuation_BreakdownStatement.Details",
+                    "unece:cefactBusinessProcess": "Invoicing",
+                    "rdfs:comment": "The code specifying the contractual language for this valuation breakdown statement."
+                },
+                {
+                    "@id": "cefact:WorkItem_Dimension.ContractualLanguage.Code",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "3453",
+                    "unece:cefactUNId": "UN01007543",
+                    "unece:cefactBieDomainClass": "cefact:WorkItem_Dimension.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The code specifying the contractual language for this work item complex description."
+                    "rdfs:comment": "The code specifying the contractual language for this work item dimension."
                 }
             ]
         }

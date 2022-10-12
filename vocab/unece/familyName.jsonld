@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/cefact#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
@@ -41,14 +41,6 @@
             "rdfs:label": "familyName",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Distinct_Chemical.Family_Name.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01002176",
-                    "unece:cefactBieDomainClass": "cefact:Distinct_Chemical.Details",
-                    "unece:cefactBusinessProcess": "MSDS Reporting",
-                    "rdfs:comment": "The family name expressed as text for this distinct chemical."
-                },
-                {
                     "@id": "cefact:Transport_Person.FamilyName.Text",
                     "@type": "unece:BasicBIE",
                     "unece:tded": "3500",
@@ -65,6 +57,14 @@
                     "unece:cefactBieDomainClass": "cefact:Contact_Person.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
                     "rdfs:comment": "The name, expressed as text, that this contact person shares with members of his/her family."
+                },
+                {
+                    "@id": "cefact:Distinct_Chemical.Family_Name.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01002176",
+                    "unece:cefactBieDomainClass": "cefact:Distinct_Chemical.Details",
+                    "unece:cefactBusinessProcess": "MSDS Reporting",
+                    "rdfs:comment": "The family name expressed as text for this distinct chemical."
                 }
             ]
         }

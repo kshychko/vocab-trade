@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/cefact#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
         "unece:cefactBieDomainClass": {
@@ -40,14 +40,6 @@
             "rdfs:label": "applicableCustomsValuation",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:SupplyChain_Consignment.Applicable.Cross-Border_CustomsValuation",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01009002",
-                    "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
-                    "unece:cefactBusinessProcess": "Cross-Border",
-                    "rdfs:comment": "A cross-border customs valuation applicable to this supply chain consignment."
-                },
-                {
                     "@id": "cefact:Exchanged_Declaration.Applicable.Cross-Border_CustomsValuation",
                     "@type": "unece:AssociationBIE",
                     "unece:cefactUNId": "UN01011023",
@@ -62,6 +54,14 @@
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_ConsignmentItem.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
                     "rdfs:comment": "A customs valuation applicable to this supply chain consignment item."
+                },
+                {
+                    "@id": "cefact:SupplyChain_Consignment.Applicable.Cross-Border_CustomsValuation",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01009002",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
+                    "unece:cefactBusinessProcess": "Cross-Border",
+                    "rdfs:comment": "A cross-border customs valuation applicable to this supply chain consignment."
                 }
             ]
         }

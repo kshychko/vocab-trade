@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/cefact#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
@@ -46,12 +46,12 @@
             "rdfs:label": "actualQuantity",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:WorkItem_QuantityAnalysis.Actual.Quantity",
+                    "@id": "cefact:Trade_ProductInstance.Actual.Quantity",
                     "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01000017",
-                    "unece:cefactBieDomainClass": "cefact:WorkItem_QuantityAnalysis.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The actual quantity for this work item quantity analysis."
+                    "unece:cefactUNId": "UN01004661",
+                    "unece:cefactBieDomainClass": "cefact:Trade_ProductInstance.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The actual quantity of items in this trade product instance."
                 },
                 {
                     "@id": "cefact:Financial_Adjustment.Actual.Quantity",
@@ -62,20 +62,12 @@
                     "rdfs:comment": "The actual quantity added or subtracted as a result of this financial adjustment."
                 },
                 {
-                    "@id": "cefact:Trade_ProductInstance.Actual.Quantity",
+                    "@id": "cefact:WorkItem_QuantityAnalysis.Actual.Quantity",
                     "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01004661",
-                    "unece:cefactBieDomainClass": "cefact:Trade_ProductInstance.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The actual quantity of items in this trade product instance."
-                },
-                {
-                    "@id": "cefact:SupplyChain_SupplyPlan.Actual.Quantity",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01004327",
-                    "unece:cefactBieDomainClass": "cefact:SupplyChain_SupplyPlan.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The actual quantity in this supply chain supply plan."
+                    "unece:cefactUNId": "UN01000017",
+                    "unece:cefactBieDomainClass": "cefact:WorkItem_QuantityAnalysis.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The actual quantity for this work item quantity analysis."
                 },
                 {
                     "@id": "cefact:Delivery_Adjustment.Actual.Quantity",
@@ -84,6 +76,14 @@
                     "unece:cefactBieDomainClass": "cefact:Delivery_Adjustment.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
                     "rdfs:comment": "The actual quantity added or subtracted as a result of this delivery adjustment."
+                },
+                {
+                    "@id": "cefact:SupplyChain_SupplyPlan.Actual.Quantity",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01004327",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_SupplyPlan.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The actual quantity in this supply chain supply plan."
                 }
             ]
         }

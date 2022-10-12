@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/cefact#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
@@ -37,15 +37,6 @@
             "rdfs:label": "paymentCurrencyCode",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Payment_TradeSettlement.Payment_Currency.Code",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "6345",
-                    "unece:cefactUNId": "UN01011836",
-                    "unece:cefactBieDomainClass": "cefact:Payment_TradeSettlement.Details",
-                    "unece:cefactBusinessProcess": "Trade",
-                    "rdfs:comment": "The code specifying the currency for this payment trade settlement."
-                },
-                {
                     "@id": "cefact:Header_TradeSettlement.Payment_Currency.Code",
                     "@type": "unece:BasicBIE",
                     "unece:tded": "6345",
@@ -53,6 +44,15 @@
                     "unece:cefactBieDomainClass": "cefact:Header_TradeSettlement.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
                     "rdfs:comment": "The code specifying the payment currency for this header trade settlement."
+                },
+                {
+                    "@id": "cefact:Payment_TradeSettlement.Payment_Currency.Code",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "6345",
+                    "unece:cefactUNId": "UN01011836",
+                    "unece:cefactBieDomainClass": "cefact:Payment_TradeSettlement.Details",
+                    "unece:cefactBusinessProcess": "Trade",
+                    "rdfs:comment": "The code specifying the currency for this payment trade settlement."
                 }
             ]
         }

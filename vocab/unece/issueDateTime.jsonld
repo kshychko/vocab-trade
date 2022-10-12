@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/cefact#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
@@ -61,6 +61,14 @@
             "rdfs:label": "issueDateTime",
             "unece:cefactElementMetadata": [
                 {
+                    "@id": "cefact:SupplyChain_TradeTransaction.Issue.DateTime",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01013295",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_TradeTransaction.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The date, time, date time or other date time value for the issuance of this supply chain trade transaction."
+                },
+                {
                     "@id": "cefact:Exchanged_Declaration.Issue.DateTime",
                     "@type": "unece:BasicBIE",
                     "unece:tded": "2007",
@@ -68,15 +76,6 @@
                     "unece:cefactBieDomainClass": "cefact:Exchanged_Declaration.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
                     "rdfs:comment": "The date, time, date time or other date time value for the issuance of this exchanged declaration."
-                },
-                {
-                    "@id": "cefact:DocumentLine_Document.Issue.DateTime",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "2007",
-                    "unece:cefactUNId": "UN01012957",
-                    "unece:cefactBieDomainClass": "cefact:DocumentLine_Document.Details",
-                    "unece:cefactBusinessProcess": "Supply Chain",
-                    "rdfs:comment": "The date, time, date time, or other date time value for the issuance of this document line."
                 },
                 {
                     "@id": "cefact:Product_Certificate.Issue.DateTime",
@@ -87,12 +86,22 @@
                     "rdfs:comment": "The date, time, date time, or other date time value when this product certificate was issued."
                 },
                 {
-                    "@id": "cefact:SupplyChain_TradeTransaction.Issue.DateTime",
+                    "@id": "cefact:Acknowledgement_Document.Issue.DateTime",
                     "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01013295",
-                    "unece:cefactBieDomainClass": "cefact:SupplyChain_TradeTransaction.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The date, time, date time or other date time value for the issuance of this supply chain trade transaction."
+                    "unece:tded": "2007",
+                    "unece:cefactUNId": "UN01002107",
+                    "unece:cefactBieDomainClass": "cefact:Acknowledgement_Document.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The date, time, date time or other date time value for the issuance of this acknowledgement document."
+                },
+                {
+                    "@id": "cefact:DocumentLine_Document.Issue.DateTime",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "2007",
+                    "unece:cefactUNId": "UN01012957",
+                    "unece:cefactBieDomainClass": "cefact:DocumentLine_Document.Details",
+                    "unece:cefactBusinessProcess": "Supply Chain",
+                    "rdfs:comment": "The date, time, date time, or other date time value for the issuance of this document line."
                 },
                 {
                     "@id": "cefact:Exchanged_Document.Issue.DateTime",
@@ -119,15 +128,6 @@
                     "unece:cefactBieDomainClass": "cefact:Document_Version.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
                     "rdfs:comment": "The date, time, date and time or other date time value of issue of this document version."
-                },
-                {
-                    "@id": "cefact:Acknowledgement_Document.Issue.DateTime",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "2007",
-                    "unece:cefactUNId": "UN01002107",
-                    "unece:cefactBieDomainClass": "cefact:Acknowledgement_Document.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The date, time, date time or other date time value for the issuance of this acknowledgement document."
                 }
             ]
         }

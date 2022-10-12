@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/cefact#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
         "unece:cefactBieDomainClass": {
@@ -52,20 +52,20 @@
                     "rdfs:comment": "The creditor financial account, used for crediting, specified for this financing summary document."
                 },
                 {
+                    "@id": "cefact:Cross-Border_RegulatoryProcedure.Specified.Debtor_FinancialAccount",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01006181",
+                    "unece:cefactBieDomainClass": "cefact:CrossBorder_RegulatoryProcedure.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A debtor financial account specified for this cross-border regulatory procedure."
+                },
+                {
                     "@id": "cefact:Requesting_Party.Specified.Creditor_FinancialAccount",
                     "@type": "unece:AssociationBIE",
                     "unece:cefactUNId": "UN01013294",
                     "unece:cefactBieDomainClass": "cefact:Requesting_Party.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
                     "rdfs:comment": "The creditor financial account, used for crediting, specified for this requesting party."
-                },
-                {
-                    "@id": "cefact:Cross-Border_RegulatoryProcedure.Specified.Debtor_FinancialAccount",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01006181",
-                    "unece:cefactBieDomainClass": "cefact:Cross-Border_RegulatoryProcedure.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A debtor financial account specified for this cross-border regulatory procedure."
                 },
                 {
                     "@id": "cefact:TradeSettlement_PaymentMeans.Specified.Creditor_FinancialAccount",

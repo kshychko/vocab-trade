@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/cefact#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
@@ -38,20 +38,20 @@
             "rdfs:label": "alternativeClassificationCode",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Grouped_WorkItem.Alternative_Classification.Code",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01000046",
-                    "unece:cefactBieDomainClass": "cefact:Grouped_WorkItem.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A code specifying an alternative classification for this work item group. Industry context value changed from \"Construction\" to \"In All Contexts\"."
-                },
-                {
                     "@id": "cefact:Basic_WorkItem.Alternative_Classification.Code",
                     "@type": "unece:BasicBIE",
                     "unece:cefactUNId": "UN01000030",
                     "unece:cefactBieDomainClass": "cefact:Basic_WorkItem.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
                     "rdfs:comment": "A code specifying an alternative classification for this basic work item. Industry context value changed from \"Construction\" to \"In All Contexts\"."
+                },
+                {
+                    "@id": "cefact:Grouped_WorkItem.Alternative_Classification.Code",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01000046",
+                    "unece:cefactBieDomainClass": "cefact:Grouped_WorkItem.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "A code specifying an alternative classification for this work item group. Industry context value changed from \"Construction\" to \"In All Contexts\"."
                 },
                 {
                     "@id": "cefact:WorkItem_QuantityAnalysis.Alternative_Classification.Code",

@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/cefact#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
@@ -37,20 +37,20 @@
             "rdfs:label": "coordinate",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Specified_DirectPositionList.Coordinate.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01012472",
-                    "unece:cefactBieDomainClass": "cefact:Specified_DirectPositionList.Details",
-                    "unece:cefactBusinessProcess": "Agricultural",
-                    "rdfs:comment": "The coordinate, expressed as text, for this specified direct position list."
-                },
-                {
                     "@id": "cefact:Specified_LinearRing.Coordinate.Text",
                     "@type": "unece:BasicBIE",
                     "unece:cefactUNId": "UN01010473",
                     "unece:cefactBieDomainClass": "cefact:Specified_LinearRing.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
                     "rdfs:comment": "A coordinate, expressed as text, for this specified linear ring. linear ring must contain min 3 points"
+                },
+                {
+                    "@id": "cefact:Specified_DirectPositionList.Coordinate.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01012472",
+                    "unece:cefactBieDomainClass": "cefact:Specified_DirectPositionList.Details",
+                    "unece:cefactBusinessProcess": "Agricultural",
+                    "rdfs:comment": "The coordinate, expressed as text, for this specified direct position list."
                 }
             ]
         }

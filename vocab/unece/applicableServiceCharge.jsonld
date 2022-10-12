@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/cefact#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
         "unece:cefactBieDomainClass": {
@@ -52,20 +52,20 @@
             "rdfs:label": "applicableServiceCharge",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Logistics_TransportMovement.Applicable.Logistics_ServiceCharge",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01003862",
-                    "unece:cefactBieDomainClass": "cefact:Logistics_TransportMovement.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A service charge, such as a freight charge, applicable to this logistics transport movement."
-                },
-                {
                     "@id": "cefact:SupplyChain_ConsignmentItem.Applicable.Logistics_ServiceCharge",
                     "@type": "unece:AssociationBIE",
                     "unece:cefactUNId": "UN01004154",
                     "unece:cefactBieDomainClass": "cefact:SupplyChain_ConsignmentItem.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
                     "rdfs:comment": "A logistics service charge applicable to this supply chain consignment item."
+                },
+                {
+                    "@id": "cefact:SupplyChain_Consignment.Applicable.Logistics_ServiceCharge",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01004285",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A logistics service charge applicable to this supply chain consignment, such as freight or insurance charges."
                 },
                 {
                     "@id": "cefact:Logistics_TransportMeans.Applicable.Logistics_ServiceCharge",
@@ -84,20 +84,20 @@
                     "rdfs:comment": "A service charge applicable to this piece of logistics transport equipment."
                 },
                 {
+                    "@id": "cefact:Logistics_TransportMovement.Applicable.Logistics_ServiceCharge",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01003862",
+                    "unece:cefactBieDomainClass": "cefact:Logistics_TransportMovement.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A service charge, such as a freight charge, applicable to this logistics transport movement."
+                },
+                {
                     "@id": "cefact:Trade_Party.Applicable.Logistics_ServiceCharge",
                     "@type": "unece:AssociationBIE",
                     "unece:cefactUNId": "UN01009008",
                     "unece:cefactBieDomainClass": "cefact:Trade_Party.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
                     "rdfs:comment": "A logistics service charge applicable to this trade party."
-                },
-                {
-                    "@id": "cefact:SupplyChain_Consignment.Applicable.Logistics_ServiceCharge",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01004285",
-                    "unece:cefactBieDomainClass": "cefact:SupplyChain_Consignment.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A logistics service charge applicable to this supply chain consignment, such as freight or insurance charges."
                 }
             ]
         }

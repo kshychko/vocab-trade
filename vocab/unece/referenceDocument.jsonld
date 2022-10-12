@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/cefact#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
         "unece:cefactBieDomainClass": {
@@ -44,6 +44,14 @@
             "rdfs:label": "referenceDocument",
             "unece:cefactElementMetadata": [
                 {
+                    "@id": "cefact:Acknowledgement_Document.Reference.Referenced_Document",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01002650",
+                    "unece:cefactBieDomainClass": "cefact:Acknowledgement_Document.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "A document referenced by this acknowledgement document."
+                },
+                {
                     "@id": "cefact:Exchanged_Document.Reference.Referenced_Document",
                     "@type": "unece:AssociationBIE",
                     "unece:cefactUNId": "UN01002498",
@@ -58,14 +66,6 @@
                     "unece:cefactBieDomainClass": "cefact:DocumentLine_Document.Details",
                     "unece:cefactBusinessProcess": "Supply Chain",
                     "rdfs:comment": "The acknowledgement document referenced in this document line."
-                },
-                {
-                    "@id": "cefact:Acknowledgement_Document.Reference.Referenced_Document",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01002650",
-                    "unece:cefactBieDomainClass": "cefact:Acknowledgement_Document.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A document referenced by this acknowledgement document."
                 },
                 {
                     "@id": "cefact:SupplyChain_TradeLineItem.Reference.Referenced_Document",

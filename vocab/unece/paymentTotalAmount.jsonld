@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/cefact#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
@@ -41,12 +41,12 @@
             "rdfs:label": "paymentTotalAmount",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:TradeSettlementHeader_MonetarySummation.PaymentTotal.Amount",
+                    "@id": "cefact:TradeSettlementLine_MonetarySummation.PaymentTotal.Amount",
                     "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01011884",
-                    "unece:cefactBieDomainClass": "cefact:TradeSettlementHeader_MonetarySummation.Details",
+                    "unece:cefactUNId": "UN01011906",
+                    "unece:cefactBieDomainClass": "cefact:TradeSettlementLine_MonetarySummation.Details",
                     "unece:cefactBusinessProcess": "Supply Chain",
-                    "rdfs:comment": "A monetary value of a payment total reported in this header trade settlement payment monetary summation."
+                    "rdfs:comment": "A monetary value of a payment total reported in this trade settlement line monetary summation."
                 },
                 {
                     "@id": "cefact:TradeSettlementPayment_MonetarySummation.PaymentTotal.Amount",
@@ -57,12 +57,12 @@
                     "rdfs:comment": "A monetary value of a payment total reported in this trade settlement payment monetary summation."
                 },
                 {
-                    "@id": "cefact:TradeSettlementLine_MonetarySummation.PaymentTotal.Amount",
+                    "@id": "cefact:TradeSettlementHeader_MonetarySummation.PaymentTotal.Amount",
                     "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01011906",
-                    "unece:cefactBieDomainClass": "cefact:TradeSettlementLine_MonetarySummation.Details",
+                    "unece:cefactUNId": "UN01011884",
+                    "unece:cefactBieDomainClass": "cefact:TradeSettlementHeader_MonetarySummation.Details",
                     "unece:cefactBusinessProcess": "Supply Chain",
-                    "rdfs:comment": "A monetary value of a payment total reported in this trade settlement line monetary summation."
+                    "rdfs:comment": "A monetary value of a payment total reported in this header trade settlement payment monetary summation."
                 }
             ]
         }

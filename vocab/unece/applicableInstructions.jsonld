@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/cefact#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
         "unece:cefactBieDomainClass": {
@@ -37,6 +37,14 @@
             "rdfs:label": "applicableInstructions",
             "unece:cefactElementMetadata": [
                 {
+                    "@id": "cefact:SupplyChain_Packaging.Applicable.Disposal_Instructions",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01008491",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_Packaging.Details",
+                    "unece:cefactBusinessProcess": "Supply Chain",
+                    "rdfs:comment": "Disposal instructions for this supply chain packaging."
+                },
+                {
                     "@id": "cefact:SupplyChain_Packaging.Applicable.ReturnableAsset_Instructions",
                     "@type": "unece:AssociationBIE",
                     "unece:cefactUNId": "UN01008492",
@@ -51,14 +59,6 @@
                     "unece:cefactBieDomainClass": "cefact:Trade_Product.Details",
                     "unece:cefactBusinessProcess": "Trade",
                     "rdfs:comment": "Disposal instructions applicable to this trade product."
-                },
-                {
-                    "@id": "cefact:SupplyChain_Packaging.Applicable.Disposal_Instructions",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01008491",
-                    "unece:cefactBieDomainClass": "cefact:SupplyChain_Packaging.Details",
-                    "unece:cefactBusinessProcess": "Supply Chain",
-                    "rdfs:comment": "Disposal instructions for this supply chain packaging."
                 }
             ]
         }

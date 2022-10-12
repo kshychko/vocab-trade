@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/cefact#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
@@ -69,20 +69,20 @@
             "rdfs:label": "statusCode",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:ControlSetting_Parameter.Status.Code",
+                    "@id": "cefact:Header_TradeDelivery.Status.Code",
                     "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01013505",
-                    "unece:cefactBieDomainClass": "cefact:ControlSetting_Parameter.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The code specifying the status of this control setting parameter."
+                    "unece:cefactUNId": "UN01013419",
+                    "unece:cefactBieDomainClass": "cefact:Header_TradeDelivery.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The code specifying the status, at header level, for this trade delivery."
                 },
                 {
-                    "@id": "cefact:Trade_Product.Status.Code",
+                    "@id": "cefact:SupplyChain_Inventory.Status.Code",
                     "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01005375",
-                    "unece:cefactBieDomainClass": "cefact:Trade_Product.Details",
+                    "unece:cefactUNId": "UN01005301",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_Inventory.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A code specifying a status for this trade product."
+                    "rdfs:comment": "The code specifying a status for this supply chain inventory."
                 },
                 {
                     "@id": "cefact:WorkItem_QuantityAnalysis.Status.Code",
@@ -94,28 +94,21 @@
                     "unece:status": "deprecated"
                 },
                 {
+                    "@id": "cefact:Basic_WorkItem.Status.Code",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01000036",
+                    "unece:cefactBieDomainClass": "cefact:Basic_WorkItem.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "A code specifying the status of this basic work item. Deprecated - Use ASBIE to Information_ Status.",
+                    "unece:status": "deprecated"
+                },
+                {
                     "@id": "cefact:Trade_WorkflowObject.Status.Code",
                     "@type": "unece:BasicBIE",
                     "unece:cefactUNId": "UN01011932",
                     "unece:cefactBieDomainClass": "cefact:Trade_WorkflowObject.Details",
                     "unece:cefactBusinessProcess": "Trade",
                     "rdfs:comment": "The code specifying the status of this trade workflow object."
-                },
-                {
-                    "@id": "cefact:SupplyChain_Schedule.Status.Code",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01012983",
-                    "unece:cefactBieDomainClass": "cefact:SupplyChain_Schedule.Details",
-                    "unece:cefactBusinessProcess": "Supply Chain",
-                    "rdfs:comment": "A code specifying the status of this supply chain schedule."
-                },
-                {
-                    "@id": "cefact:Header_TradeDelivery.Status.Code",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01013419",
-                    "unece:cefactBieDomainClass": "cefact:Header_TradeDelivery.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The code specifying the status, at header level, for this trade delivery."
                 },
                 {
                     "@id": "cefact:Line_TradeDelivery.Status.Code",
@@ -126,6 +119,14 @@
                     "rdfs:comment": "The code specifying the status, at line level, for this trade delivery."
                 },
                 {
+                    "@id": "cefact:Trade_Product.Status.Code",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01005375",
+                    "unece:cefactBieDomainClass": "cefact:Trade_Product.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "A code specifying a status for this trade product."
+                },
+                {
                     "@id": "cefact:Operational_Parameter.Status.Code",
                     "@type": "unece:BasicBIE",
                     "unece:cefactUNId": "UN01013516",
@@ -134,21 +135,20 @@
                     "rdfs:comment": "The code specifying the status of this operational parameter."
                 },
                 {
-                    "@id": "cefact:Basic_WorkItem.Status.Code",
+                    "@id": "cefact:SupplyChain_Schedule.Status.Code",
                     "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01000036",
-                    "unece:cefactBieDomainClass": "cefact:Basic_WorkItem.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A code specifying the status of this basic work item. Deprecated - Use ASBIE to Information_ Status.",
-                    "unece:status": "deprecated"
+                    "unece:cefactUNId": "UN01012983",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_Schedule.Details",
+                    "unece:cefactBusinessProcess": "Supply Chain",
+                    "rdfs:comment": "A code specifying the status of this supply chain schedule."
                 },
                 {
-                    "@id": "cefact:SupplyChain_Inventory.Status.Code",
+                    "@id": "cefact:ControlSetting_Parameter.Status.Code",
                     "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01005301",
-                    "unece:cefactBieDomainClass": "cefact:SupplyChain_Inventory.Details",
+                    "unece:cefactUNId": "UN01013505",
+                    "unece:cefactBieDomainClass": "cefact:ControlSetting_Parameter.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The code specifying a status for this supply chain inventory."
+                    "rdfs:comment": "The code specifying the status of this control setting parameter."
                 }
             ]
         }

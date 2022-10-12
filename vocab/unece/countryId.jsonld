@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/cefact#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
@@ -70,6 +70,14 @@
                     "rdfs:comment": "The unique identifier of a country location used or referenced in trade."
                 },
                 {
+                    "@id": "cefact:Location_Party.Country.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01003667",
+                    "unece:cefactBieDomainClass": "cefact:Location_Party.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "A unique country identifier for this location party."
+                },
+                {
                     "@id": "cefact:Legal_Registration.Country.Identifier",
                     "@type": "unece:BasicBIE",
                     "unece:cefactUNId": "UN01003654",
@@ -78,20 +86,12 @@
                     "rdfs:comment": "An identifier of the country in which this legal registration is valid."
                 },
                 {
-                    "@id": "cefact:Government_Registration.Country.Identifier",
+                    "@id": "cefact:FinancialInstitution_Address.Country.Identifier",
                     "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01011036",
-                    "unece:cefactBieDomainClass": "cefact:Government_Registration.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The identifier of the country for this government registration."
-                },
-                {
-                    "@id": "cefact:Logistics_Location.Country.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01004897",
-                    "unece:cefactBieDomainClass": "cefact:Logistics_Location.Details",
-                    "unece:cefactBusinessProcess": "Cross-Border",
-                    "rdfs:comment": "The unique identifier of a country for this logistics location."
+                    "unece:cefactUNId": "UN01003185",
+                    "unece:cefactBieDomainClass": "cefact:FinancialInstitution_Address.Details",
+                    "unece:cefactBusinessProcess": "Customer to bank payment initiation",
+                    "rdfs:comment": "The unique identifier of a country for this financial institution address (Reference ISO 3166 and UN/ECE Rec 3)."
                 },
                 {
                     "@id": "cefact:Trade_Address.Country.Identifier",
@@ -103,6 +103,14 @@
                     "rdfs:comment": "The unique identifier of a country for this trade address."
                 },
                 {
+                    "@id": "cefact:Logistics_Location.Country.Identifier",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01004897",
+                    "unece:cefactBieDomainClass": "cefact:Logistics_Location.Details",
+                    "unece:cefactBusinessProcess": "Cross-Border",
+                    "rdfs:comment": "The unique identifier of a country for this logistics location."
+                },
+                {
                     "@id": "cefact:Birth_Address.Country.Identifier",
                     "@type": "unece:BasicBIE",
                     "unece:cefactUNId": "UN01003172",
@@ -111,20 +119,12 @@
                     "rdfs:comment": "The identifier of a country for this birth address."
                 },
                 {
-                    "@id": "cefact:Location_Party.Country.Identifier",
+                    "@id": "cefact:Government_Registration.Country.Identifier",
                     "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01003667",
-                    "unece:cefactBieDomainClass": "cefact:Location_Party.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "A unique country identifier for this location party."
-                },
-                {
-                    "@id": "cefact:FinancialInstitution_Address.Country.Identifier",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01003185",
-                    "unece:cefactBieDomainClass": "cefact:FinancialInstitution_Address.Details",
-                    "unece:cefactBusinessProcess": "Customer to bank payment initiation",
-                    "rdfs:comment": "The unique identifier of a country for this financial institution address (Reference ISO 3166 and UN/ECE Rec 3)."
+                    "unece:cefactUNId": "UN01011036",
+                    "unece:cefactBieDomainClass": "cefact:Government_Registration.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The identifier of the country for this government registration."
                 }
             ]
         }

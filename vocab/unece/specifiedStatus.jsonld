@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/cefact#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
         "unece:cefactBieDomainClass": {
@@ -15,7 +15,7 @@
         {
             "@id": "unece:specifiedStatus",
             "schema:rangeIncludes": {
-                "@id": "unece:CancellationStatus"
+                "@id": "unece:ValidationStatus"
             },
             "@type": [
                 "rdf:Property",
@@ -41,12 +41,12 @@
             "rdfs:label": "specifiedStatus",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Referenced_Document.Specified.Document_Status",
+                    "@id": "cefact:FinancingRequest_Document.Specified.Cancellation_Status",
                     "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01013179",
-                    "unece:cefactBieDomainClass": "cefact:Referenced_Document.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "Status information specified for this referenced document."
+                    "unece:cefactUNId": "UN01013241",
+                    "unece:cefactBieDomainClass": "cefact:FinancingRequest_Document.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A status of a cancellation specified for this financing request document, such as accepted."
                 },
                 {
                     "@id": "cefact:FinancingRequestResult_Document.Specified.Financing_Status",
@@ -57,20 +57,20 @@
                     "rdfs:comment": "The financing status specified in this financing request result document."
                 },
                 {
+                    "@id": "cefact:Referenced_Document.Specified.Document_Status",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01013179",
+                    "unece:cefactBieDomainClass": "cefact:Referenced_Document.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "Status information specified for this referenced document."
+                },
+                {
                     "@id": "cefact:FinancingRequest_Document.Specified.Validation_Status",
                     "@type": "unece:AssociationBIE",
                     "unece:cefactUNId": "UN01013242",
                     "unece:cefactBieDomainClass": "cefact:FinancingRequest_Document.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
                     "rdfs:comment": "The status of the validation specified for this financing request document, such as error."
-                },
-                {
-                    "@id": "cefact:FinancingRequest_Document.Specified.Cancellation_Status",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01013241",
-                    "unece:cefactBieDomainClass": "cefact:FinancingRequest_Document.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A status of a cancellation specified for this financing request document, such as accepted."
                 }
             ]
         }

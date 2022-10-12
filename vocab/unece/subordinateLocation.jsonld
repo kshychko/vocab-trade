@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/cefact#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
         "unece:cefactBieDomainClass": {
@@ -15,7 +15,7 @@
         {
             "@id": "unece:subordinateLocation",
             "schema:rangeIncludes": {
-                "@id": "unece:SubordinateSubordinateLocation"
+                "@id": "unece:SubordinateLocation"
             },
             "@type": [
                 "rdf:Property",
@@ -36,20 +36,20 @@
             "rdfs:label": "subordinateLocation",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Logistics_Location.Subordinate.Subordinate_Location",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01003687",
-                    "unece:cefactBieDomainClass": "cefact:Logistics_Location.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A location subordinate to this logistics related location."
-                },
-                {
                     "@id": "cefact:Subordinate_Location.Subordinate.SubordinateSubordinate_Location",
                     "@type": "unece:AssociationBIE",
                     "unece:cefactUNId": "UN01004097",
                     "unece:cefactBieDomainClass": "cefact:Subordinate_Location.Details",
                     "unece:cefactBusinessProcess": "In All Contexts",
                     "rdfs:comment": "The location subordinate to this subordinate location."
+                },
+                {
+                    "@id": "cefact:Logistics_Location.Subordinate.Subordinate_Location",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01003687",
+                    "unece:cefactBieDomainClass": "cefact:Logistics_Location.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A location subordinate to this logistics related location."
                 }
             ]
         }

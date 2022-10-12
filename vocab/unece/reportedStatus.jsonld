@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/cefact#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
         "unece:cefactBieDomainClass": {
@@ -52,14 +52,6 @@
                     "rdfs:comment": "A logistics status reported for this supply chain consignment."
                 },
                 {
-                    "@id": "cefact:Logistics_TransportEquipment.Reported.Logistics_Status",
-                    "@type": "unece:AssociationBIE",
-                    "unece:cefactUNId": "UN01003818",
-                    "unece:cefactBieDomainClass": "cefact:Logistics_TransportEquipment.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A status reported for this piece of logistics transport equipment."
-                },
-                {
                     "@id": "cefact:SupplyChain_ConsignmentItem.Reported.Logistics_Status",
                     "@type": "unece:AssociationBIE",
                     "unece:cefactUNId": "UN01004155",
@@ -71,9 +63,17 @@
                     "@id": "cefact:Cross-Border_RegulatoryProcedure.Reported.Logistics_Status",
                     "@type": "unece:AssociationBIE",
                     "unece:cefactUNId": "UN01006182",
-                    "unece:cefactBieDomainClass": "cefact:Cross-Border_RegulatoryProcedure.Details",
+                    "unece:cefactBieDomainClass": "cefact:CrossBorder_RegulatoryProcedure.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
                     "rdfs:comment": "A logistics status reported for this cross-border regulatory procedure."
+                },
+                {
+                    "@id": "cefact:Logistics_TransportEquipment.Reported.Logistics_Status",
+                    "@type": "unece:AssociationBIE",
+                    "unece:cefactUNId": "UN01003818",
+                    "unece:cefactBieDomainClass": "cefact:Logistics_TransportEquipment.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A status reported for this piece of logistics transport equipment."
                 }
             ]
         }

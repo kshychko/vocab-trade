@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/cefact#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
@@ -54,20 +54,12 @@
                     "rdfs:comment": "The code specifying the reason for this financing status."
                 },
                 {
-                    "@id": "cefact:Header_BalanceOut.Reason.Code",
+                    "@id": "cefact:Communication_Event.Reason.Code",
                     "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01011542",
-                    "unece:cefactBieDomainClass": "cefact:Header_BalanceOut.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The code specifying the reason for this header balance out."
-                },
-                {
-                    "@id": "cefact:Payment_BalanceOut.Reason.Code",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01011832",
-                    "unece:cefactBieDomainClass": "cefact:Payment_BalanceOut.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The code specifying the reason for this payment balance out."
+                    "unece:cefactUNId": "UN01013566",
+                    "unece:cefactBieDomainClass": "cefact:Communication_Event.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The code specifying a reason for this communication event."
                 },
                 {
                     "@id": "cefact:Financial_Adjustment.Reason.Code",
@@ -79,12 +71,20 @@
                     "rdfs:comment": "A code specifying a reason for this financial adjustment."
                 },
                 {
-                    "@id": "cefact:Communication_Event.Reason.Code",
+                    "@id": "cefact:Payment_BalanceOut.Reason.Code",
                     "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01013566",
-                    "unece:cefactBieDomainClass": "cefact:Communication_Event.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The code specifying a reason for this communication event."
+                    "unece:cefactUNId": "UN01011832",
+                    "unece:cefactBieDomainClass": "cefact:Payment_BalanceOut.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The code specifying the reason for this payment balance out."
+                },
+                {
+                    "@id": "cefact:Header_BalanceOut.Reason.Code",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01011542",
+                    "unece:cefactBieDomainClass": "cefact:Header_BalanceOut.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The code specifying the reason for this header balance out."
                 }
             ]
         }

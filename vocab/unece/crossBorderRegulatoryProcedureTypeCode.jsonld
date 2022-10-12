@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/cefact#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
         "unece:cefactBieDomainClass": {
@@ -13,9 +13,9 @@
     },
     "@graph": [
         {
-            "@id": "unece:cross-BorderRegulatoryProcedureTypeCode",
+            "@id": "unece:crossBorderRegulatoryProcedureTypeCode",
             "schema:rangeIncludes": {
-                "@id": "unece:UNECECL9353Code"
+                "@id": "unece:UNCL9353Code"
             },
             "@type": [
                 "rdf:Property",
@@ -25,14 +25,14 @@
                 "@id": "unece:RegulatoryProcedure"
             },
             "rdfs:comment": "A code specifying a type of cross-border regulatory procedure.",
-            "rdfs:label": "cross-BorderRegulatoryProcedureTypeCode",
+            "rdfs:label": "crossBorderRegulatoryProcedureTypeCode",
             "unece:cefactElementMetadata": [
                 {
                     "@id": "cefact:Cross-Border_RegulatoryProcedure.Type.Code",
                     "@type": "unece:BasicBIE",
                     "unece:tded": "9353",
                     "unece:cefactUNId": "UN01006148",
-                    "unece:cefactBieDomainClass": "cefact:Cross-Border_RegulatoryProcedure.Details",
+                    "unece:cefactBieDomainClass": "cefact:CrossBorder_RegulatoryProcedure.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
                     "rdfs:comment": "A code specifying a type of cross-border regulatory procedure."
                 }

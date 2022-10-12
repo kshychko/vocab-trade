@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "cefact": "https://dmvc7xzscpizo.cloudfront.net/trade/uncefact/vocabulary/cefact#",
+        "cefact": "https://dmvc7xzscpizo.cloudfront.net/cefact#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
@@ -45,12 +45,12 @@
             "rdfs:label": "basisQuantity",
             "unece:cefactElementMetadata": [
                 {
-                    "@id": "cefact:Trade_AllowanceCharge.Basis.Quantity",
+                    "@id": "cefact:Trade_Tax.Basis.Quantity",
                     "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01001637",
-                    "unece:cefactBieDomainClass": "cefact:Trade_AllowanceCharge.Details",
-                    "unece:cefactBusinessProcess": "Trade",
-                    "rdfs:comment": "The quantity on which this trade allowance charge is based."
+                    "unece:cefactUNId": "UN01004716",
+                    "unece:cefactBieDomainClass": "cefact:Trade_Tax.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The quantity used as the basis for calculating the amount of this trade related tax, levy or duty."
                 },
                 {
                     "@id": "cefact:Reference_Price.Basis.Quantity",
@@ -62,12 +62,12 @@
                     "rdfs:comment": "A quantity on which the reference price is based."
                 },
                 {
-                    "@id": "cefact:Trade_Tax.Basis.Quantity",
+                    "@id": "cefact:Trade_AllowanceCharge.Basis.Quantity",
                     "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01004716",
-                    "unece:cefactBieDomainClass": "cefact:Trade_Tax.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The quantity used as the basis for calculating the amount of this trade related tax, levy or duty."
+                    "unece:cefactUNId": "UN01001637",
+                    "unece:cefactBieDomainClass": "cefact:Trade_AllowanceCharge.Details",
+                    "unece:cefactBusinessProcess": "Trade",
+                    "rdfs:comment": "The quantity on which this trade allowance charge is based."
                 },
                 {
                     "@id": "cefact:Trade_Price.Basis.Quantity",
