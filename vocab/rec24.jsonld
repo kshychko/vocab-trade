@@ -1,0 +1,2426 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "rec24": "https://dmvc7xzscpizo.cloudfront.net/rec24#"
+    },
+    "@graph": [
+        {
+            "@id": "rec24:1",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment/means of transport has arrived.",
+            "rdfs:label": "Arrival, completed",
+            "rdf:value": "1"
+        },
+        {
+            "@id": "rec24:2",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Authorisation to load has been given.",
+            "rdfs:label": "Loading, authorized",
+            "rdf:value": "2"
+        },
+        {
+            "@id": "rec24:3",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment or a means of transport has arrived in a defective condition.",
+            "rdfs:label": "Arrival, in defective condition",
+            "rdf:value": "3"
+        },
+        {
+            "@id": "rec24:4",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The equipment previously the subject of a 'defective condition' status has been returned to service.",
+            "rdfs:label": "Defective equipment returned to service",
+            "rdf:value": "4"
+        },
+        {
+            "@id": "rec24:5",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The process has begun.",
+            "rdfs:label": "Process, begun",
+            "rdf:value": "5"
+        },
+        {
+            "@id": "rec24:6",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment or means of transport has been booked.",
+            "rdfs:label": "Booking, completed",
+            "rdf:value": "6"
+        },
+        {
+            "@id": "rec24:7",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The booking of goods/consignment/equipment or means of transport has been cancelled.",
+            "rdfs:label": "Booking, cancelled",
+            "rdf:value": "7"
+        },
+        {
+            "@id": "rec24:8",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment/means of transport held for import restriction purposes, has been released for import.",
+            "rdfs:label": "Cleared, import restrictions",
+            "rdf:value": "8"
+        },
+        {
+            "@id": "rec24:9",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment/means of transport held for export restriction purposes, has been released for export.",
+            "rdfs:label": "Cleared, export restrictions",
+            "rdf:value": "9"
+        },
+        {
+            "@id": "rec24:10",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment/means of transport has been cleared by agriculture, food or fisheries authorities.",
+            "rdfs:label": "Cleared, by agriculture, food or fisheries authorities",
+            "rdf:value": "10"
+        },
+        {
+            "@id": "rec24:11",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment/means of transport has been cleared by port authority.",
+            "rdfs:label": "Cleared, by port authority",
+            "rdf:value": "11"
+        },
+        {
+            "@id": "rec24:12",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment/means of transport has been cleared by customs.",
+            "rdfs:label": "Cleared, by customs",
+            "rdf:value": "12"
+        },
+        {
+            "@id": "rec24:13",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment has been collected/picked-up.",
+            "rdfs:label": "Collection/pick-up, completed",
+            "rdf:value": "13"
+        },
+        {
+            "@id": "rec24:14",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The process has been completed.",
+            "rdfs:label": "Process, completed",
+            "rdf:value": "14"
+        },
+        {
+            "@id": "rec24:15",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignments have been consolidated.",
+            "rdfs:label": "Consolidated",
+            "rdf:value": "15"
+        },
+        {
+            "@id": "rec24:16",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignments/equipment/means of transport has crossed a border. ",
+            "rdfs:label": "Crossed border",
+            "rdf:value": "16"
+        },
+        {
+            "@id": "rec24:17",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment/means of transport has been refused to be cleared by the customs authorities.",
+            "rdfs:label": "Customs clearance, refused",
+            "rdf:value": "17"
+        },
+        {
+            "@id": "rec24:18",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment has been damaged in the course of transportation.",
+            "rdfs:label": "Damaged in the course of transportation",
+            "rdf:value": "18"
+        },
+        {
+            "@id": "rec24:19",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Damaged equipment has been assessed and a repair quotation has been sent.",
+            "rdfs:label": "Equipment, damage quoted for",
+            "rdf:value": "19"
+        },
+        {
+            "@id": "rec24:20",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment/means of transport has been delayed in the course of transportation.",
+            "rdfs:label": "Delayed, in the course of transportation",
+            "rdf:value": "20"
+        },
+        {
+            "@id": "rec24:21",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment has been delivered.",
+            "rdfs:label": "Delivery, completed",
+            "rdf:value": "21"
+        },
+        {
+            "@id": "rec24:22",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Delivery of the goods/consignment/equipment has been completed as per instruction.",
+            "rdfs:label": "Delivery, completed as per instruction",
+            "rdf:value": "22"
+        },
+        {
+            "@id": "rec24:23",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Delivery of the goods/consignment/equipment has not been completed.",
+            "rdfs:label": "Delivery, not completed",
+            "rdf:value": "23"
+        },
+        {
+            "@id": "rec24:24",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The means of transport has departed. ",
+            "rdfs:label": "Departure, completed",
+            "rdf:value": "24"
+        },
+        {
+            "@id": "rec24:25",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The means of transport has been delayed in departure.",
+            "rdfs:label": "Departure, delayed",
+            "rdf:value": "25"
+        },
+        {
+            "@id": "rec24:26",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The equipment has been removed from a position above another type of equipment and/or on a means of transport.",
+            "rdfs:label": "Deramped",
+            "rdf:value": "26"
+        },
+        {
+            "@id": "rec24:27",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment has been despatched.",
+            "rdfs:label": "Despatch, completed",
+            "rdf:value": "27"
+        },
+        {
+            "@id": "rec24:28",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment has been unloaded from a piece of equipment in which they were transported.",
+            "rdfs:label": "Stripped",
+            "rdf:value": "28"
+        },
+        {
+            "@id": "rec24:29",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment has been unloaded from a means of transport.",
+            "rdfs:label": "Unloaded",
+            "rdf:value": "29"
+        },
+        {
+            "@id": "rec24:30",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The package/equipment has been found to be empty on inspection.",
+            "rdfs:label": "Empty on inspection",
+            "rdf:value": "30"
+        },
+        {
+            "@id": "rec24:31",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment/means of transport is moving to destination.",
+            "rdfs:label": "En route",
+            "rdf:value": "31"
+        },
+        {
+            "@id": "rec24:32",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The equipment has been returned from repair.",
+            "rdfs:label": "Equipment, returned from repair",
+            "rdf:value": "32"
+        },
+        {
+            "@id": "rec24:33",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The equipment has been sent for repair.",
+            "rdfs:label": "Equipment, sent for repair",
+            "rdf:value": "33"
+        },
+        {
+            "@id": "rec24:34",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The equipment has been repaired.",
+            "rdfs:label": "Equipment, repaired",
+            "rdf:value": "34"
+        },
+        {
+            "@id": "rec24:35",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment has been forwarded to a destination.",
+            "rdfs:label": "Forwarded to destination",
+            "rdf:value": "35"
+        },
+        {
+            "@id": "rec24:36",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment/means of transport has not been found.",
+            "rdfs:label": "Not found",
+            "rdf:value": "36"
+        },
+        {
+            "@id": "rec24:37",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment/means of transport has been found.",
+            "rdfs:label": "Found",
+            "rdf:value": "37"
+        },
+        {
+            "@id": "rec24:38",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The freight charges have been paid.",
+            "rdfs:label": "Freight paid",
+            "rdf:value": "38"
+        },
+        {
+            "@id": "rec24:39",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment has been released from bond.",
+            "rdfs:label": "Released from bond",
+            "rdf:value": "39"
+        },
+        {
+            "@id": "rec24:40",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment has arrived at the port.",
+            "rdfs:label": "Arrival, at port",
+            "rdf:value": "40"
+        },
+        {
+            "@id": "rec24:41",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment has been handed over under responsibility of the same transport operator.",
+            "rdfs:label": "Handed over under continued responsibility",
+            "rdf:value": "41"
+        },
+        {
+            "@id": "rec24:44",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment/means of transport has been re-routed to the correct destination.",
+            "rdfs:label": "Misrouted consignment corrected",
+            "rdf:value": "44"
+        },
+        {
+            "@id": "rec24:45",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The consignee has been informed of the arrival of the goods/consignments/equipment/means of transport.",
+            "rdfs:label": "Arrival, consignee informed",
+            "rdf:value": "45"
+        },
+        {
+            "@id": "rec24:46",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment has been moved into bond.",
+            "rdfs:label": "Moved, into bond",
+            "rdf:value": "46"
+        },
+        {
+            "@id": "rec24:47",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment has been moved into a packing depot.",
+            "rdfs:label": "Moved, into packing depot",
+            "rdf:value": "47"
+        },
+        {
+            "@id": "rec24:48",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment has been loaded onto a means of transport.",
+            "rdfs:label": "Loading, completed onto a means of transport",
+            "rdf:value": "48"
+        },
+        {
+            "@id": "rec24:49",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment/means of transport has been lost.",
+            "rdfs:label": "Lost",
+            "rdf:value": "49"
+        },
+        {
+            "@id": "rec24:50",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment has been included on a manifest.",
+            "rdfs:label": "Manifested",
+            "rdf:value": "50"
+        },
+        {
+            "@id": "rec24:51",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The consignment has been onloaded from a means of transport.",
+            "rdfs:label": "Onloaded from a means of transport",
+            "rdf:value": "51"
+        },
+        {
+            "@id": "rec24:53",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment expected has not been collected/picked-up.",
+            "rdfs:label": "Collection/pick-up, not completed",
+            "rdf:value": "53"
+        },
+        {
+            "@id": "rec24:54",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment/means of transport cannot be identified.",
+            "rdfs:label": "Unidentifiable",
+            "rdf:value": "54"
+        },
+        {
+            "@id": "rec24:57",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment has not been loaded onto a means of transport.",
+            "rdfs:label": "Not loaded onto a means of transport",
+            "rdf:value": "57"
+        },
+        {
+            "@id": "rec24:58",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The equipment is no longer under lease.",
+            "rdfs:label": "Equipment, off hire",
+            "rdf:value": "58"
+        },
+        {
+            "@id": "rec24:59",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment has been onloaded prematurely from a means of transport.",
+            "rdfs:label": "Premature onloading",
+            "rdf:value": "59"
+        },
+        {
+            "@id": "rec24:60",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The equipment has been leased.",
+            "rdfs:label": "Equipment, on hire",
+            "rdf:value": "60"
+        },
+        {
+            "@id": "rec24:61",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Outstanding claims in respect of the goods/consignment/equipment have been settled.",
+            "rdfs:label": "Outstanding claims settled",
+            "rdf:value": "61"
+        },
+        {
+            "@id": "rec24:62",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Unmanifested goods/consignments/equipment has been unloaded.",
+            "rdfs:label": "Overlanded",
+            "rdf:value": "62"
+        },
+        {
+            "@id": "rec24:63",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment is not available for collection/pick-up.",
+            "rdfs:label": "Not available for collection/pick-up",
+            "rdf:value": "63"
+        },
+        {
+            "@id": "rec24:64",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment is awaiting collection/pick-up.",
+            "rdfs:label": "Collection/pick-up, awaited",
+            "rdf:value": "64"
+        },
+        {
+            "@id": "rec24:65",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The equipment has been plugged into a power source.",
+            "rdfs:label": "Equipment, plugged-in",
+            "rdf:value": "65"
+        },
+        {
+            "@id": "rec24:66",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment/means of transport has been plundered.",
+            "rdfs:label": "Plundered",
+            "rdf:value": "66"
+        },
+        {
+            "@id": "rec24:67",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment has been positioned.",
+            "rdfs:label": "Positioned",
+            "rdf:value": "67"
+        },
+        {
+            "@id": "rec24:68",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The party has been informed in advance.",
+            "rdfs:label": "Pre-informed",
+            "rdf:value": "68"
+        },
+        {
+            "@id": "rec24:69",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment has been disposed of.",
+            "rdfs:label": "Disposed of",
+            "rdf:value": "69"
+        },
+        {
+            "@id": "rec24:70",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The equipment has been placed above another type of equipment and/or placed on a means of transport.",
+            "rdfs:label": "Ramped equipment",
+            "rdf:value": "70"
+        },
+        {
+            "@id": "rec24:71",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment is ready for transportation.",
+            "rdfs:label": "Ready for transportation",
+            "rdf:value": "71"
+        },
+        {
+            "@id": "rec24:72",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The receipt of goods has been fully acknowledged.",
+            "rdfs:label": "Receipt of goods fully acknowledged",
+            "rdf:value": "72"
+        },
+        {
+            "@id": "rec24:73",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The receipt of goods has been partially acknowledged.",
+            "rdfs:label": "Receipt of goods partially acknowledged",
+            "rdf:value": "73"
+        },
+        {
+            "@id": "rec24:74",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment have been received.",
+            "rdfs:label": "Received",
+            "rdf:value": "74"
+        },
+        {
+            "@id": "rec24:75",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The consignee has been changed.",
+            "rdfs:label": "Consignee changed",
+            "rdf:value": "75"
+        },
+        {
+            "@id": "rec24:76",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The transport of the goods/consignment/equipment has been re-arranged.",
+            "rdfs:label": "Transport re-arranged",
+            "rdf:value": "76"
+        },
+        {
+            "@id": "rec24:77",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The transport action has been refused.",
+            "rdfs:label": "Refused, action",
+            "rdf:value": "77"
+        },
+        {
+            "@id": "rec24:78",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment has been released.",
+            "rdfs:label": "Released",
+            "rdf:value": "78"
+        },
+        {
+            "@id": "rec24:79",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment has been reloaded onto a means of transport.",
+            "rdfs:label": "Reloaded onto a means of transport",
+            "rdf:value": "79"
+        },
+        {
+            "@id": "rec24:80",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment has been returned as instructed.",
+            "rdfs:label": "Returned as instructed",
+            "rdf:value": "80"
+        },
+        {
+            "@id": "rec24:81",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment/means of transport has been returned in a wrecked condition.",
+            "rdfs:label": "Returned wrecked",
+            "rdf:value": "81"
+        },
+        {
+            "@id": "rec24:82",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment has been returned.",
+            "rdfs:label": "Returned",
+            "rdf:value": "82"
+        },
+        {
+            "@id": "rec24:83",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The equipment has been sealed.",
+            "rdfs:label": "Sealed equipment",
+            "rdf:value": "83"
+        },
+        {
+            "@id": "rec24:84",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "A service has been ordered.",
+            "rdfs:label": "Service ordered",
+            "rdf:value": "84"
+        },
+        {
+            "@id": "rec24:85",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Goods/consignments/equipment manifested for unloading have not been unloaded.",
+            "rdfs:label": "Short landed",
+            "rdf:value": "85"
+        },
+        {
+            "@id": "rec24:86",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment expected to be sent has not been fully loaded onto a means of transport.",
+            "rdfs:label": "Short shipped",
+            "rdf:value": "86"
+        },
+        {
+            "@id": "rec24:87",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment has been despatched via a wrong route.",
+            "rdfs:label": "Despatched, completed via a wrong route",
+            "rdf:value": "87"
+        },
+        {
+            "@id": "rec24:88",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The consignment of goods has been split. ",
+            "rdfs:label": "Split consignment",
+            "rdf:value": "88"
+        },
+        {
+            "@id": "rec24:89",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/equipment has been steam cleaned.",
+            "rdfs:label": "Steam cleaned",
+            "rdf:value": "89"
+        },
+        {
+            "@id": "rec24:90",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The movement of the goods/consignment/equipment has been stopped.",
+            "rdfs:label": "Movement stopped",
+            "rdf:value": "90"
+        },
+        {
+            "@id": "rec24:91",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment has been placed into storage.",
+            "rdfs:label": "Stored",
+            "rdf:value": "91"
+        },
+        {
+            "@id": "rec24:92",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment has been placed on a means of transport.",
+            "rdfs:label": "Stowed",
+            "rdf:value": "92"
+        },
+        {
+            "@id": "rec24:93",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignments have been loaded into a piece of equipment.",
+            "rdfs:label": "Stuffed",
+            "rdf:value": "93"
+        },
+        {
+            "@id": "rec24:94",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignments have been loaded into a piece of equipment and the equipment has been sealed.",
+            "rdfs:label": "Stuffed and sealed",
+            "rdf:value": "94"
+        },
+        {
+            "@id": "rec24:95",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "A sub-lease notice has been sent to the lessor.",
+            "rdfs:label": "Sub-lease notice in",
+            "rdf:value": "95"
+        },
+        {
+            "@id": "rec24:96",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "A sub-lease notice has been sent by the lessee.",
+            "rdfs:label": "Sub-lease notice out",
+            "rdf:value": "96"
+        },
+        {
+            "@id": "rec24:97",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment has been surveyed to assess the damage.",
+            "rdfs:label": "Damage surveyed",
+            "rdf:value": "97"
+        },
+        {
+            "@id": "rec24:98",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment has been transferred in.",
+            "rdfs:label": "Transferred in",
+            "rdf:value": "98"
+        },
+        {
+            "@id": "rec24:99",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment has been transferred out.",
+            "rdfs:label": "Transferred out",
+            "rdf:value": "99"
+        },
+        {
+            "@id": "rec24:100",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment has been transferred to another means of transport.",
+            "rdfs:label": "Transshipment",
+            "rdf:value": "100"
+        },
+        {
+            "@id": "rec24:101",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment/means of transport has been delayed in transit.",
+            "rdfs:label": "Delayed in transit",
+            "rdf:value": "101"
+        },
+        {
+            "@id": "rec24:102",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment/means of transport is not known.",
+            "rdfs:label": "Unknown",
+            "rdf:value": "102"
+        },
+        {
+            "@id": "rec24:103",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The equipment has been removed from the power source.",
+            "rdfs:label": "Equipment, unplugged",
+            "rdf:value": "103"
+        },
+        {
+            "@id": "rec24:104",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The delivery of the goods has been refused and is to be re-arranged.",
+            "rdfs:label": "Delivery refused, to be re-arranged",
+            "rdf:value": "104"
+        },
+        {
+            "@id": "rec24:105",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "A part or the whole of the delivery is postponed.",
+            "rdfs:label": "Delivery, postponed",
+            "rdf:value": "105"
+        },
+        {
+            "@id": "rec24:106",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "A part or the whole of the delivery is refused.",
+            "rdfs:label": "Delivery refused",
+            "rdf:value": "106"
+        },
+        {
+            "@id": "rec24:107",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "An anomaly has been found on arrival.",
+            "rdfs:label": "Anomaly on arrival",
+            "rdf:value": "107"
+        },
+        {
+            "@id": "rec24:108",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "A claim has been made at delivery.",
+            "rdfs:label": "Delivery claim",
+            "rdf:value": "108"
+        },
+        {
+            "@id": "rec24:109",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Delivery has not been possible; a delivery notice has been left.",
+            "rdfs:label": "Delivery, impossible, delivery notice left",
+            "rdf:value": "109"
+        },
+        {
+            "@id": "rec24:110",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Delivery has not been possible; no delivery notice has been left.",
+            "rdfs:label": "Delivery, impossible, no delivery notice left",
+            "rdf:value": "110"
+        },
+        {
+            "@id": "rec24:111",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The transport of the goods/consignment/equipment/means of transport has been terminated.",
+            "rdfs:label": "Transport terminated",
+            "rdf:value": "111"
+        },
+        {
+            "@id": "rec24:112",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment is held at consignee's disposal.",
+            "rdfs:label": "Held, at consignee's disposal",
+            "rdf:value": "112"
+        },
+        {
+            "@id": "rec24:113",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The delivery of the goods/consignment is in progress. ",
+            "rdfs:label": "Delivery, in progress",
+            "rdf:value": "113"
+        },
+        {
+            "@id": "rec24:114",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Delivery accepted subject to further inspection of the good/consignment/equipment/means of transport.",
+            "rdfs:label": "Delivery, accepted subject to further inspection",
+            "rdf:value": "114"
+        },
+        {
+            "@id": "rec24:115",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "There is a discrepancy in the details.",
+            "rdfs:label": "Discrepancy",
+            "rdf:value": "115"
+        },
+        {
+            "@id": "rec24:116",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Export is inhibited.",
+            "rdfs:label": "Export inhibited",
+            "rdf:value": "116"
+        },
+        {
+            "@id": "rec24:117",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment is missing.",
+            "rdfs:label": "Missing",
+            "rdf:value": "117"
+        },
+        {
+            "@id": "rec24:118",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment has been stowed on/above deck.",
+            "rdfs:label": "Stowed on deck",
+            "rdf:value": "118"
+        },
+        {
+            "@id": "rec24:119",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment cannot be located.",
+            "rdfs:label": "Unable to be located",
+            "rdf:value": "119"
+        },
+        {
+            "@id": "rec24:120",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment/means of transport is in an unacceptable condition.",
+            "rdfs:label": "Unacceptable condition",
+            "rdf:value": "120"
+        },
+        {
+            "@id": "rec24:121",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment has been stowed under/below deck.",
+            "rdfs:label": "Stowed under deck",
+            "rdf:value": "121"
+        },
+        {
+            "@id": "rec24:123",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "All documents accompanying the cargo have been delivered.",
+            "rdfs:label": "Accompanying documents delivered",
+            "rdf:value": "123"
+        },
+        {
+            "@id": "rec24:124",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment is to be transferred.",
+            "rdfs:label": "For transfer",
+            "rdf:value": "124"
+        },
+        {
+            "@id": "rec24:125",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "No status information is available.",
+            "rdfs:label": "No status",
+            "rdf:value": "125"
+        },
+        {
+            "@id": "rec24:126",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Customs clearance is in progress.",
+            "rdfs:label": "Customs clearance, in progress",
+            "rdf:value": "126"
+        },
+        {
+            "@id": "rec24:127",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment has departed on a means of transport.",
+            "rdfs:label": "Departed, completed on a means of transport",
+            "rdf:value": "127"
+        },
+        {
+            "@id": "rec24:128",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Awaiting customs release for import.",
+            "rdfs:label": "Awaiting customs import release",
+            "rdf:value": "128"
+        },
+        {
+            "@id": "rec24:129",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment are moving under bond.",
+            "rdfs:label": "In-bond movement",
+            "rdf:value": "129"
+        },
+        {
+            "@id": "rec24:130",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The consignment has been received from shipper.",
+            "rdfs:label": "Consignment received from shipper",
+            "rdf:value": "130"
+        },
+        {
+            "@id": "rec24:131",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment is to be transferred to another carrier.",
+            "rdfs:label": "For transfer, to another carrier",
+            "rdf:value": "131"
+        },
+        {
+            "@id": "rec24:132",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment is being loaded onto a means of transport.",
+            "rdfs:label": "Loading, in progress",
+            "rdf:value": "132"
+        },
+        {
+            "@id": "rec24:133",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Operations related to special loading of goods/consignment/equipment. ",
+            "rdfs:label": "Special loading operations",
+            "rdf:value": "133"
+        },
+        {
+            "@id": "rec24:134",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The embarkation of passengers.",
+            "rdfs:label": "Embarking passengers",
+            "rdf:value": "134"
+        },
+        {
+            "@id": "rec24:135",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment is being unloaded from a means of transport.",
+            "rdfs:label": "Unloading, in progress",
+            "rdf:value": "135"
+        },
+        {
+            "@id": "rec24:136",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Operations related to special unloading of goods/consignment/equipment.",
+            "rdfs:label": "Special unloading",
+            "rdf:value": "136"
+        },
+        {
+            "@id": "rec24:137",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The disembarkation of passengers.",
+            "rdfs:label": "Disembarking passengers",
+            "rdf:value": "137"
+        },
+        {
+            "@id": "rec24:138",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Relocating of a means of transport.",
+            "rdfs:label": "Relocation of a means of transport",
+            "rdf:value": "138"
+        },
+        {
+            "@id": "rec24:139",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Manoeuvring operations connected with entering the port.",
+            "rdfs:label": "Manoeuvring operations, entering port",
+            "rdf:value": "139"
+        },
+        {
+            "@id": "rec24:140",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Manoeuvring operations connected with leaving the port.",
+            "rdfs:label": "Manoeuvring operations, leaving port",
+            "rdf:value": "140"
+        },
+        {
+            "@id": "rec24:141",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Manoeuvring operations connected with movement within the port.",
+            "rdfs:label": "Manoeuvring operations, within the port",
+            "rdf:value": "141"
+        },
+        {
+            "@id": "rec24:142",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Preparation for handling of the means of transport.",
+            "rdfs:label": "Means of transport, under preparation",
+            "rdf:value": "142"
+        },
+        {
+            "@id": "rec24:143",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Loading of ballast.",
+            "rdfs:label": "Ballast loading",
+            "rdf:value": "143"
+        },
+        {
+            "@id": "rec24:144",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Unloading of ballast.",
+            "rdfs:label": "Ballast unloading",
+            "rdf:value": "144"
+        },
+        {
+            "@id": "rec24:145",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Preparation of the cargo space of the means of transport.",
+            "rdfs:label": "Cargo space under preparation",
+            "rdf:value": "145"
+        },
+        {
+            "@id": "rec24:146",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Provision of supplies for a means of transport. ",
+            "rdfs:label": "Provisioning",
+            "rdf:value": "146"
+        },
+        {
+            "@id": "rec24:147",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Provision of fuel for a means of transport.",
+            "rdfs:label": "Provisioning, fuel",
+            "rdf:value": "147"
+        },
+        {
+            "@id": "rec24:148",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Provision of water for a means of transport.",
+            "rdfs:label": "Provisioning, water",
+            "rdf:value": "148"
+        },
+        {
+            "@id": "rec24:149",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Provision of oil for a means of transport.",
+            "rdfs:label": "Provisioning, oil",
+            "rdf:value": "149"
+        },
+        {
+            "@id": "rec24:150",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Provision of food for a means of transport.",
+            "rdfs:label": "Provisioning, food",
+            "rdf:value": "150"
+        },
+        {
+            "@id": "rec24:151",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Operations related to sanitary conditions.",
+            "rdfs:label": "Sanitary operations",
+            "rdf:value": "151"
+        },
+        {
+            "@id": "rec24:152",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Operations related to fumigation of the equipment or the means of transport.",
+            "rdfs:label": "Fumigation operations",
+            "rdf:value": "152"
+        },
+        {
+            "@id": "rec24:153",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Operations related to desinfestation of the equipment or the means of transport.",
+            "rdfs:label": "Desinfestation operations",
+            "rdf:value": "153"
+        },
+        {
+            "@id": "rec24:154",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Operations related to deratization of the means of transport.",
+            "rdfs:label": "Deratization operations",
+            "rdf:value": "154"
+        },
+        {
+            "@id": "rec24:155",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Operations related to the removal of unwanted gas.",
+            "rdfs:label": "Degasation operations",
+            "rdf:value": "155"
+        },
+        {
+            "@id": "rec24:156",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Operation related to recruitment of crew.",
+            "rdfs:label": "Crew recruitment operation",
+            "rdf:value": "156"
+        },
+        {
+            "@id": "rec24:157",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Operations related to training.",
+            "rdfs:label": "Training operations",
+            "rdf:value": "157"
+        },
+        {
+            "@id": "rec24:158",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Operations related to salvage work.",
+            "rdfs:label": "Salvage operations",
+            "rdf:value": "158"
+        },
+        {
+            "@id": "rec24:159",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Loading the goods when the means of transport is alongside.",
+            "rdfs:label": "Loading, alongside",
+            "rdf:value": "159"
+        },
+        {
+            "@id": "rec24:161",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Loading the goods when the means of transport is at anchor.",
+            "rdfs:label": "Loading, at anchor",
+            "rdf:value": "161"
+        },
+        {
+            "@id": "rec24:162",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Unloading the goods when the means of transport is at the wharf.",
+            "rdfs:label": "Unloading, at wharf",
+            "rdf:value": "162"
+        },
+        {
+            "@id": "rec24:163",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Unloading the goods from the vessel.",
+            "rdfs:label": "Unloading on board",
+            "rdf:value": "163"
+        },
+        {
+            "@id": "rec24:164",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Unloading the goods when the means of transport is at anchor.",
+            "rdfs:label": "Unloading, at anchor",
+            "rdf:value": "164"
+        },
+        {
+            "@id": "rec24:165",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Loading and unloading operations simultaneously.",
+            "rdfs:label": "Loading and unloading, simultaneously",
+            "rdf:value": "165"
+        },
+        {
+            "@id": "rec24:166",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Operations during idle time pending a scheduled event.",
+            "rdfs:label": "Idle time operations",
+            "rdf:value": "166"
+        },
+        {
+            "@id": "rec24:167",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Operations of a technical nature.",
+            "rdfs:label": "Technical operations",
+            "rdf:value": "167"
+        },
+        {
+            "@id": "rec24:168",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Operations related to calibration of a compass.",
+            "rdfs:label": "Compass calibration",
+            "rdf:value": "168"
+        },
+        {
+            "@id": "rec24:169",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Operation related to clearance of a document.",
+            "rdfs:label": "Document, clearance operation",
+            "rdf:value": "169"
+        },
+        {
+            "@id": "rec24:170",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Operation related to customs formalities.",
+            "rdfs:label": "Customs formalities operation",
+            "rdf:value": "170"
+        },
+        {
+            "@id": "rec24:171",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Medical control operations related to the crew.",
+            "rdfs:label": "Medical control operations",
+            "rdf:value": "171"
+        },
+        {
+            "@id": "rec24:172",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Preparation for the loading of the goods.",
+            "rdfs:label": "Loading, preparation for",
+            "rdf:value": "172"
+        },
+        {
+            "@id": "rec24:174",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Preparation for the unloading of the goods.",
+            "rdfs:label": "Unloading, preparation for",
+            "rdf:value": "174"
+        },
+        {
+            "@id": "rec24:175",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Unloading of polluted ballast.",
+            "rdfs:label": "Unloading, polluted ballast",
+            "rdf:value": "175"
+        },
+        {
+            "@id": "rec24:176",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Operations related to obtaining documents from the shipping register.",
+            "rdfs:label": "Obtaining documents from shipping register",
+            "rdf:value": "176"
+        },
+        {
+            "@id": "rec24:177",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Operations related to obtaining documents for a wrecked means of transport.",
+            "rdfs:label": "Obtaining wreckage documentation",
+            "rdf:value": "177"
+        },
+        {
+            "@id": "rec24:178",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Waiting to enter or leave.",
+            "rdfs:label": "Waiting, to enter or leave",
+            "rdf:value": "178"
+        },
+        {
+            "@id": "rec24:179",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Waiting for an available pilot.",
+            "rdfs:label": "Waiting, for a pilot",
+            "rdf:value": "179"
+        },
+        {
+            "@id": "rec24:180",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Waiting for an available tug.",
+            "rdfs:label": "Waiting, for a tug",
+            "rdf:value": "180"
+        },
+        {
+            "@id": "rec24:181",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Waiting for day light hours.",
+            "rdfs:label": "Waiting, for day light",
+            "rdf:value": "181"
+        },
+        {
+            "@id": "rec24:182",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Waiting due to meteorological circumstances.",
+            "rdfs:label": "Waiting, due to meteorological circumstances",
+            "rdf:value": "182"
+        },
+        {
+            "@id": "rec24:183",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Waiting to form a convoy.",
+            "rdfs:label": "Waiting, to form a convoy",
+            "rdf:value": "183"
+        },
+        {
+            "@id": "rec24:184",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Waiting for action to be taken by authorities.",
+            "rdfs:label": "Waiting, for action by authorities",
+            "rdf:value": "184"
+        },
+        {
+            "@id": "rec24:185",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Waiting due to a ban.",
+            "rdfs:label": "Waiting, due to a ban",
+            "rdf:value": "185"
+        },
+        {
+            "@id": "rec24:186",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Waiting for entry permission from the authorities.",
+            "rdfs:label": "Waiting, for entry permission",
+            "rdf:value": "186"
+        },
+        {
+            "@id": "rec24:187",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Waiting due to an action taken by the authorities.",
+            "rdfs:label": "Waiting, due to an action taken by authorities",
+            "rdf:value": "187"
+        },
+        {
+            "@id": "rec24:188",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Waiting due to terms of the charter.",
+            "rdfs:label": "Waiting, due to the terms of charter",
+            "rdf:value": "188"
+        },
+        {
+            "@id": "rec24:189",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Waiting for a location.",
+            "rdfs:label": "Waiting, for a location",
+            "rdf:value": "189"
+        },
+        {
+            "@id": "rec24:190",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Waiting for cargo.",
+            "rdfs:label": "Waiting, for cargo",
+            "rdf:value": "190"
+        },
+        {
+            "@id": "rec24:191",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Waiting for workers.",
+            "rdfs:label": "Waiting, for workers",
+            "rdf:value": "191"
+        },
+        {
+            "@id": "rec24:192",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Waiting for a storage area.",
+            "rdfs:label": "Waiting, for storage area",
+            "rdf:value": "192"
+        },
+        {
+            "@id": "rec24:193",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Waiting for equipment.",
+            "rdfs:label": "Waiting, for equipment",
+            "rdf:value": "193"
+        },
+        {
+            "@id": "rec24:194",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Waiting for other means of transport.",
+            "rdfs:label": "Waiting, for other means of transport",
+            "rdf:value": "194"
+        },
+        {
+            "@id": "rec24:195",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Waiting for handling equipment.",
+            "rdfs:label": "Waiting, for handling equipment ",
+            "rdf:value": "195"
+        },
+        {
+            "@id": "rec24:196",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Waiting for onboard handling equipment.",
+            "rdfs:label": "Waiting, for on board handling equipment ",
+            "rdf:value": "196"
+        },
+        {
+            "@id": "rec24:197",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Waiting due to the cargo not being ready to be loaded/handled.",
+            "rdfs:label": "Waiting, for cargo to be ready for loading",
+            "rdf:value": "197"
+        },
+        {
+            "@id": "rec24:198",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Waiting due to the means of transport not being ready. ",
+            "rdfs:label": "Waiting, for means of transport to be ready",
+            "rdf:value": "198"
+        },
+        {
+            "@id": "rec24:199",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Waiting because cargo was damaged.",
+            "rdfs:label": "Waiting, due to damaged cargo",
+            "rdf:value": "199"
+        },
+        {
+            "@id": "rec24:200",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Waiting due to being outside the period of operation.",
+            "rdfs:label": "Waiting, for operational periods",
+            "rdf:value": "200"
+        },
+        {
+            "@id": "rec24:201",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Waiting due to repairs and/or maintenance to the means of transport.",
+            "rdfs:label": "Waiting, for repair and/or maintenance of the means of transport",
+            "rdf:value": "201"
+        },
+        {
+            "@id": "rec24:202",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Waiting due to repairs and/or maintenance of handling equipment.",
+            "rdfs:label": "Waiting, for repair and/or maintenance of handling equipment",
+            "rdf:value": "202"
+        },
+        {
+            "@id": "rec24:203",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The embarkation of passengers from a tender.",
+            "rdfs:label": "Embarking passengers from tender",
+            "rdf:value": "203"
+        },
+        {
+            "@id": "rec24:204",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Waiting due to passage of counter convoy. ",
+            "rdfs:label": "Waiting, for a counter convoy to pass",
+            "rdf:value": "204"
+        },
+        {
+            "@id": "rec24:205",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The address for delivery is outside the area of the carrier/transport operator.",
+            "rdfs:label": "Delivery address outside delivery area",
+            "rdf:value": "205"
+        },
+        {
+            "@id": "rec24:206",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment has arrived after the means of transport has departed.",
+            "rdfs:label": "Arrival, after means of transport departed",
+            "rdf:value": "206"
+        },
+        {
+            "@id": "rec24:207",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The agent refused to accept delivery.",
+            "rdfs:label": "Delivery refused, agent",
+            "rdf:value": "207"
+        },
+        {
+            "@id": "rec24:208",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The seals on the equipment have been replaced.",
+            "rdfs:label": "Seals, replaced",
+            "rdf:value": "208"
+        },
+        {
+            "@id": "rec24:209",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The delivery has been scheduled.",
+            "rdfs:label": "Delivery, scheduled",
+            "rdf:value": "209"
+        },
+        {
+            "@id": "rec24:210",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "An unsuccessful attempt has been made to deliver the goods/consignment/equipment.",
+            "rdfs:label": "Delivery, unsuccessful attempt",
+            "rdf:value": "210"
+        },
+        {
+            "@id": "rec24:211",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment could not be delivered as the business was closed.",
+            "rdfs:label": "Delivery not completed, business closed",
+            "rdf:value": "211"
+        },
+        {
+            "@id": "rec24:212",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment cannot be delivered at the arranged time because of a change of schedule.",
+            "rdfs:label": "Delivery, changed schedule",
+            "rdf:value": "212"
+        },
+        {
+            "@id": "rec24:213",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "A further address is needed to effect delivery of the goods/consignment/ equipment.",
+            "rdfs:label": "Delivery, further address needed",
+            "rdf:value": "213"
+        },
+        {
+            "@id": "rec24:214",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The computer system is not in operation.",
+            "rdfs:label": "Computer system not in operation",
+            "rdf:value": "214"
+        },
+        {
+            "@id": "rec24:215",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Delivery on a credit base is requested.",
+            "rdfs:label": "Delivery, awaiting credit approval",
+            "rdf:value": "215"
+        },
+        {
+            "@id": "rec24:216",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment require delivery arrangements by the customer.",
+            "rdfs:label": "Delivery, awaiting customer arrangements",
+            "rdf:value": "216"
+        },
+        {
+            "@id": "rec24:218",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignments/equipment have been damaged.",
+            "rdfs:label": "Damaged",
+            "rdf:value": "218"
+        },
+        {
+            "@id": "rec24:219",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Delivery of the goods/consignment/equipment is pending awaiting specified dates/times/periods.",
+            "rdfs:label": "Delivery pending, awaiting specified dates/times/periods",
+            "rdf:value": "219"
+        },
+        {
+            "@id": "rec24:220",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment has been sent to an incorrect destination.",
+            "rdfs:label": "Destination incorrect",
+            "rdf:value": "220"
+        },
+        {
+            "@id": "rec24:222",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The train has derailed.",
+            "rdfs:label": "Derailment",
+            "rdf:value": "222"
+        },
+        {
+            "@id": "rec24:224",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment cannot be delivered due to an industrial dispute.",
+            "rdfs:label": "Delivery, industrial dispute",
+            "rdf:value": "224"
+        },
+        {
+            "@id": "rec24:225",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "An operation has been affected by an action of the customer.",
+            "rdfs:label": "Operation affected by customer action",
+            "rdf:value": "225"
+        },
+        {
+            "@id": "rec24:227",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment cannot be delivered due to a failure in the equipment.",
+            "rdfs:label": "Delivery, equipment failure",
+            "rdf:value": "227"
+        },
+        {
+            "@id": "rec24:228",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "An inspection of the goods/equipment is required by an authority.",
+            "rdfs:label": "Inspection required by authority",
+            "rdf:value": "228"
+        },
+        {
+            "@id": "rec24:229",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment has been suspended from export pending further investigation.",
+            "rdfs:label": "Export suspended",
+            "rdf:value": "229"
+        },
+        {
+            "@id": "rec24:231",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods item is missing.",
+            "rdfs:label": "Missing, goods item",
+            "rdf:value": "231"
+        },
+        {
+            "@id": "rec24:232",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment has been suspended from import pending further investigation.",
+            "rdfs:label": "Import suspended",
+            "rdf:value": "232"
+        },
+        {
+            "@id": "rec24:233",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment was not collected/picked-up due to an incorrect picklist.",
+            "rdfs:label": "Incorrect picklist",
+            "rdf:value": "233"
+        },
+        {
+            "@id": "rec24:234",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The address is incorrect.",
+            "rdfs:label": "Incorrect address",
+            "rdf:value": "234"
+        },
+        {
+            "@id": "rec24:235",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "An industrial dispute has happened.",
+            "rdfs:label": "Industrial dispute",
+            "rdf:value": "235"
+        },
+        {
+            "@id": "rec24:236",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Further instructions are awaited.",
+            "rdfs:label": "Waiting, for instructions",
+            "rdf:value": "236"
+        },
+        {
+            "@id": "rec24:238",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The means of transport has been damaged.",
+            "rdfs:label": "Means of transport, damaged",
+            "rdf:value": "238"
+        },
+        {
+            "@id": "rec24:239",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "There has been a mechanical breakdown of the means of transport/equipment.",
+            "rdfs:label": "Mechanical breakdown",
+            "rdf:value": "239"
+        },
+        {
+            "@id": "rec24:240",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "A mechanical inspection of the means of transport/equipment is required.",
+            "rdfs:label": "Mechanical inspection required",
+            "rdf:value": "240"
+        },
+        {
+            "@id": "rec24:241",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The document for the goods/consignments/equipment is missing.",
+            "rdfs:label": "Missing, document",
+            "rdf:value": "241"
+        },
+        {
+            "@id": "rec24:242",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "New delivery arrangements have been advised. ",
+            "rdfs:label": "New delivery arrangements advised",
+            "rdf:value": "242"
+        },
+        {
+            "@id": "rec24:243",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "No contact information available concerning the recipient.",
+            "rdfs:label": "No recipient contact information",
+            "rdf:value": "243"
+        },
+        {
+            "@id": "rec24:247",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The package is not available for collection/pick-up.",
+            "rdfs:label": "Collection/pick-up, package not available",
+            "rdf:value": "247"
+        },
+        {
+            "@id": "rec24:248",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The tracking number of the goods/consignment/equipment is unknown.",
+            "rdfs:label": "Tracking number unknown",
+            "rdf:value": "248"
+        },
+        {
+            "@id": "rec24:250",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The transport payment has not been received.",
+            "rdfs:label": "Transport payment not received",
+            "rdf:value": "250"
+        },
+        {
+            "@id": "rec24:251",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Payer refused to make the payment.",
+            "rdfs:label": "Refused, non-payment by payer",
+            "rdf:value": "251"
+        },
+        {
+            "@id": "rec24:253",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The transport action/documentation has been refused without a reason given.",
+            "rdfs:label": "Refused, no reason given",
+            "rdf:value": "253"
+        },
+        {
+            "@id": "rec24:254",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment to be delivered has been scheduled past the cut-off time.",
+            "rdfs:label": "Delivery, scheduled past cut-off time",
+            "rdf:value": "254"
+        },
+        {
+            "@id": "rec24:255",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The means of transport has been shunted to a siding.",
+            "rdfs:label": "Shunted to siding",
+            "rdf:value": "255"
+        },
+        {
+            "@id": "rec24:256",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "A signature is not required.",
+            "rdfs:label": "Signature not required",
+            "rdf:value": "256"
+        },
+        {
+            "@id": "rec24:258",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "A special service is required.",
+            "rdfs:label": "Special service required",
+            "rdf:value": "258"
+        },
+        {
+            "@id": "rec24:260",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The tracking information is unavailable.",
+            "rdfs:label": "Tracking information unavailable",
+            "rdf:value": "260"
+        },
+        {
+            "@id": "rec24:265",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The reason is unknown.",
+            "rdfs:label": "Reason unknown",
+            "rdf:value": "265"
+        },
+        {
+            "@id": "rec24:266",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Adverse weather conditions have delayed delivery.",
+            "rdfs:label": "Delivery delayed, adverse weather conditions",
+            "rdf:value": "266"
+        },
+        {
+            "@id": "rec24:267",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment has been in a storage facility for longer than the permitted free time.",
+            "rdfs:label": "Free storage time expired",
+            "rdf:value": "267"
+        },
+        {
+            "@id": "rec24:269",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment cannot be delivered, as the consignee was absent.",
+            "rdfs:label": "Delivery, consignee absent",
+            "rdf:value": "269"
+        },
+        {
+            "@id": "rec24:270",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The operation is delayed due to local circumstances.",
+            "rdfs:label": "Delayed operation, local circumstances",
+            "rdf:value": "270"
+        },
+        {
+            "@id": "rec24:271",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The operation is delayed awaiting consignee's instructions.",
+            "rdfs:label": "Delayed operation, consignee's instructions",
+            "rdf:value": "271"
+        },
+        {
+            "@id": "rec24:272",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The operation is delayed awaiting consignor's instructions.",
+            "rdfs:label": "Delayed operation, consignor's instructions",
+            "rdf:value": "272"
+        },
+        {
+            "@id": "rec24:273",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The operation is delayed.",
+            "rdfs:label": "Delayed operation",
+            "rdf:value": "273"
+        },
+        {
+            "@id": "rec24:274",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The address is incomplete.",
+            "rdfs:label": "Incomplete address",
+            "rdf:value": "274"
+        },
+        {
+            "@id": "rec24:275",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The delivery was refused as the purchase order has been cancelled.",
+            "rdfs:label": "Delivery refused, purchase order cancelled",
+            "rdf:value": "275"
+        },
+        {
+            "@id": "rec24:276",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The delivery was refused and the goods/consignment/equipment will be returned to the consignor.",
+            "rdfs:label": "Delivery refused, return to the consignor",
+            "rdf:value": "276"
+        },
+        {
+            "@id": "rec24:277",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The delivery was refused as an inconsistency with the purchase order was found.",
+            "rdfs:label": "Delivery refused, inconsistent with purchase order",
+            "rdf:value": "277"
+        },
+        {
+            "@id": "rec24:278",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The delivery was refused, as the delivery date was incorrect.",
+            "rdfs:label": "Delivery refused, incorrect delivery date",
+            "rdf:value": "278"
+        },
+        {
+            "@id": "rec24:279",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The delivery was refused and the goods/consignment/equipment is automatically returned as instructed.",
+            "rdfs:label": "Delivery refused, automatic return",
+            "rdf:value": "279"
+        },
+        {
+            "@id": "rec24:280",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The delivery was refused because of duplicate delivery.",
+            "rdfs:label": "Delivery refused, duplicate delivery",
+            "rdf:value": "280"
+        },
+        {
+            "@id": "rec24:281",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The delivery was refused and instructions are requested.",
+            "rdfs:label": "Delivery refused, instructions requested",
+            "rdf:value": "281"
+        },
+        {
+            "@id": "rec24:282",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The delivery was refused due to the consignee's condition.",
+            "rdfs:label": "Delivery refused, consignee's condition",
+            "rdf:value": "282"
+        },
+        {
+            "@id": "rec24:283",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The delivery was refused due to incomplete delivery.",
+            "rdfs:label": "Delivery refused, delivery incomplete",
+            "rdf:value": "283"
+        },
+        {
+            "@id": "rec24:284",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The delivery was refused, as the goods/consignment/equipment had not been ordered. ",
+            "rdfs:label": "Delivery refused, not ordered",
+            "rdf:value": "284"
+        },
+        {
+            "@id": "rec24:285",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The delivery of the remaining goods was not accepted.",
+            "rdfs:label": "Delivery refused, remainder not accepted",
+            "rdf:value": "285"
+        },
+        {
+            "@id": "rec24:286",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The delivery was refused as the goods/consignment/equipment was in a spoilt state.",
+            "rdfs:label": "Delivery refused, spoilt state",
+            "rdf:value": "286"
+        },
+        {
+            "@id": "rec24:287",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The contents are missing.",
+            "rdfs:label": "Missing, contents",
+            "rdf:value": "287"
+        },
+        {
+            "@id": "rec24:288",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment is not on the package list.",
+            "rdfs:label": "Not on package list",
+            "rdf:value": "288"
+        },
+        {
+            "@id": "rec24:291",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The delivery was refused, as the collect freight charges were not paid.",
+            "rdfs:label": "Delivery refused, collect freight charges not paid",
+            "rdf:value": "291"
+        },
+        {
+            "@id": "rec24:292",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The delivery was refused, as the reimbursement was not paid.",
+            "rdfs:label": "Delivery refused, reimbursement not paid",
+            "rdf:value": "292"
+        },
+        {
+            "@id": "rec24:295",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The delivery was refused as the goods/consignment was found to be opened.",
+            "rdfs:label": "Delivery refused, opened",
+            "rdf:value": "295"
+        },
+        {
+            "@id": "rec24:297",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The delivery was refused because of a commercial dispute. ",
+            "rdfs:label": "Delivery refused, commercial dispute",
+            "rdf:value": "297"
+        },
+        {
+            "@id": "rec24:298",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The delivery was refused as an error was found on product or packaging.",
+            "rdfs:label": "Delivery refused, error on product or packaging",
+            "rdf:value": "298"
+        },
+        {
+            "@id": "rec24:299",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The delivery was refused as the delivery date or time has been changed.",
+            "rdfs:label": "Delivery refused, delivery date/time changed",
+            "rdf:value": "299"
+        },
+        {
+            "@id": "rec24:300",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "A document for a consignment has been received without the corresponding goods.",
+            "rdfs:label": "Document, received without goods",
+            "rdf:value": "300"
+        },
+        {
+            "@id": "rec24:301",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Goods/consignment has been received without the corresponding documentation.",
+            "rdfs:label": "Goods, received without documentation",
+            "rdf:value": "301"
+        },
+        {
+            "@id": "rec24:302",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The consignment has been overcarried.",
+            "rdfs:label": "Overcarried consignment",
+            "rdf:value": "302"
+        },
+        {
+            "@id": "rec24:306",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The document has been found.",
+            "rdfs:label": "Document, found",
+            "rdf:value": "306"
+        },
+        {
+            "@id": "rec24:307",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment has been damaged but delivery can be completed.",
+            "rdfs:label": "Damaged but deliverable",
+            "rdf:value": "307"
+        },
+        {
+            "@id": "rec24:308",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment is spoilt.",
+            "rdfs:label": "Spoilt",
+            "rdf:value": "308"
+        },
+        {
+            "@id": "rec24:309",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The packaging/equipment has been opened.",
+            "rdfs:label": "Packaging/equipment opened",
+            "rdf:value": "309"
+        },
+        {
+            "@id": "rec24:310",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment has been processed as contractually agreed.",
+            "rdfs:label": "Processed as contractually agreed",
+            "rdf:value": "310"
+        },
+        {
+            "@id": "rec24:311",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "A claim folder has been opened.",
+            "rdfs:label": "Claim folder opened",
+            "rdf:value": "311"
+        },
+        {
+            "@id": "rec24:312",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment has been moved.",
+            "rdfs:label": "Moved, completed",
+            "rdf:value": "312"
+        },
+        {
+            "@id": "rec24:313",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment has been returned by the recipient.",
+            "rdfs:label": "Returned by recipient",
+            "rdf:value": "313"
+        },
+        {
+            "@id": "rec24:314",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment/means of transport has been delayed at the origin.",
+            "rdfs:label": "Delayed, at origin",
+            "rdf:value": "314"
+        },
+        {
+            "@id": "rec24:315",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment has been held by the logistic service provider.",
+            "rdfs:label": "Held, by logistic service provider",
+            "rdf:value": "315"
+        },
+        {
+            "@id": "rec24:316",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "An incident has occurred but has been accepted by the ordering party.",
+            "rdfs:label": "Incident occurred but accepted by ordering party",
+            "rdf:value": "316"
+        },
+        {
+            "@id": "rec24:317",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The premises of the delivery party were closed during normal hours.",
+            "rdfs:label": "Delivery party' premises closed during normal hours",
+            "rdf:value": "317"
+        },
+        {
+            "@id": "rec24:318",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The delivery of the goods/consignment/equipment could not be completed due to a shortage of time to handle the delivery.",
+            "rdfs:label": "Delivery incomplete, time shortage",
+            "rdf:value": "318"
+        },
+        {
+            "@id": "rec24:319",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "An error occurred during the preparation of the despatch.",
+            "rdfs:label": "Despatch, preparation error",
+            "rdf:value": "319"
+        },
+        {
+            "@id": "rec24:320",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "An undefined incident has occurred which has been attributed to the logistic service provider.",
+            "rdfs:label": "Undefined incident attributed to logistic server provider",
+            "rdf:value": "320"
+        },
+        {
+            "@id": "rec24:321",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The instruction to despatch has been received.",
+            "rdfs:label": "Instruction to despatch, received",
+            "rdf:value": "321"
+        },
+        {
+            "@id": "rec24:322",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The despatch of the goods/consignment/equipment is in preparation.",
+            "rdfs:label": "Despatch, under preparation",
+            "rdf:value": "322"
+        },
+        {
+            "@id": "rec24:323",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment is being returned.",
+            "rdfs:label": "Return in progress",
+            "rdf:value": "323"
+        },
+        {
+            "@id": "rec24:324",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The instruction to despatch has been cancelled.",
+            "rdfs:label": "Instruction to despatch, cancelled",
+            "rdf:value": "324"
+        },
+        {
+            "@id": "rec24:325",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The delivery of the goods/consignment/equipment has been refused by the recipient.",
+            "rdfs:label": "Delivery refused, by recipient",
+            "rdf:value": "325"
+        },
+        {
+            "@id": "rec24:326",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Goods are held under control of a third party following an instruction from the owner of the goods.",
+            "rdfs:label": "Goods, held by third party on instruction from owner",
+            "rdf:value": "326"
+        },
+        {
+            "@id": "rec24:327",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods have suffered a weight or volume loss.",
+            "rdfs:label": "Weight or volume loss",
+            "rdf:value": "327"
+        },
+        {
+            "@id": "rec24:328",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment has been moved internally.",
+            "rdfs:label": "Moved, internally",
+            "rdf:value": "328"
+        },
+        {
+            "@id": "rec24:329",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The consignment has been partially stolen.",
+            "rdfs:label": "Consignment partially stolen",
+            "rdf:value": "329"
+        },
+        {
+            "@id": "rec24:330",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The consignment is partially lost or missing.",
+            "rdfs:label": "Consignment partially lost or missing",
+            "rdf:value": "330"
+        },
+        {
+            "@id": "rec24:331",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment has been destroyed.",
+            "rdfs:label": "Destroyed ",
+            "rdf:value": "331"
+        },
+        {
+            "@id": "rec24:332",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "An action was taken by the logistics service provider. ",
+            "rdfs:label": "Action by logistics service provider ",
+            "rdf:value": "332"
+        },
+        {
+            "@id": "rec24:333",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "An action was taken by the logistics service provider as instructed by owner of the goods. ",
+            "rdfs:label": "Action by logistics service provider on instruction by owner ",
+            "rdf:value": "333"
+        },
+        {
+            "@id": "rec24:334",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The document has been refused.",
+            "rdfs:label": "Document, refused",
+            "rdf:value": "334"
+        },
+        {
+            "@id": "rec24:335",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The seals on the equipment have been damaged.",
+            "rdfs:label": "Seals, damaged",
+            "rdf:value": "335"
+        },
+        {
+            "@id": "rec24:336",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The seals on the equipment have been broken.",
+            "rdfs:label": "Seals, broken",
+            "rdf:value": "336"
+        },
+        {
+            "@id": "rec24:337",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The seals on the equipment have been tampered.",
+            "rdfs:label": "Seals, tampered",
+            "rdf:value": "337"
+        },
+        {
+            "@id": "rec24:338",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment could not be collected/picked-up as the business was closed.",
+            "rdfs:label": "Collection/pick-up, business closed",
+            "rdf:value": "338"
+        },
+        {
+            "@id": "rec24:339",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment cannot be collected/picked-up at the arranged time because of a change of schedule.",
+            "rdfs:label": "Collection/pick-up, changed schedule",
+            "rdf:value": "339"
+        },
+        {
+            "@id": "rec24:340",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "A further address is needed to effect collection/pick-up of the goods/consignment/ equipment.",
+            "rdfs:label": "Collection/pick-up, further address needed",
+            "rdf:value": "340"
+        },
+        {
+            "@id": "rec24:341",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment cannot be collected/picked-up due to an industrial dispute.",
+            "rdfs:label": "Collection/pick-up, industrial dispute",
+            "rdf:value": "341"
+        },
+        {
+            "@id": "rec24:342",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment cannot be collected/picked-up due to a failure in the equipment.",
+            "rdfs:label": "Collection/pick-up, equipment failure",
+            "rdf:value": "342"
+        },
+        {
+            "@id": "rec24:343",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The document for the goods/consignments/equipment is incorrect.",
+            "rdfs:label": "Document, incorrect",
+            "rdf:value": "343"
+        },
+        {
+            "@id": "rec24:344",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment to be collected/picked-up has been scheduled past the cut-off time.",
+            "rdfs:label": "Collection/pick-up, scheduled past cut-off time",
+            "rdf:value": "344"
+        },
+        {
+            "@id": "rec24:345",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Adverse weather conditions have affected collection/pick-up.",
+            "rdfs:label": "Collection/pick-up, adverse weather conditions",
+            "rdf:value": "345"
+        },
+        {
+            "@id": "rec24:346",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment has been unloaded from a means of transport.",
+            "rdfs:label": "Unloading, completed from a means of transport",
+            "rdf:value": "346"
+        },
+        {
+            "@id": "rec24:347",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment can be delivered.",
+            "rdfs:label": "Deliverable",
+            "rdf:value": "347"
+        },
+        {
+            "@id": "rec24:348",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment cannot be delivered.",
+            "rdfs:label": "Not deliverable",
+            "rdf:value": "348"
+        },
+        {
+            "@id": "rec24:349",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment has been handed over to another party.",
+            "rdfs:label": "Handed over",
+            "rdf:value": "349"
+        },
+        {
+            "@id": "rec24:350",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "A signature is required.",
+            "rdfs:label": "Signature required",
+            "rdf:value": "350"
+        },
+        {
+            "@id": "rec24:351",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "A defined incident has occurred which has been attributed to the logistic service provider.",
+            "rdfs:label": "Defined incident attributed to logistic server provider",
+            "rdf:value": "351"
+        },
+        {
+            "@id": "rec24:352",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment could not be delivered as the business was closed due to inventory count.",
+            "rdfs:label": "Delivery not completed, business closed, inventory count",
+            "rdf:value": "352"
+        },
+        {
+            "@id": "rec24:353",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment could not be delivered as the business was closed on Saturday.",
+            "rdfs:label": "Delivery not completed, business closed on Saturday",
+            "rdf:value": "353"
+        },
+        {
+            "@id": "rec24:354",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment could not be delivered as the business was closed on a national holiday.",
+            "rdfs:label": "Delivery not completed, business closed on national holiday",
+            "rdf:value": "354"
+        },
+        {
+            "@id": "rec24:355",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment/means of transport is moving to destination via a local route.",
+            "rdfs:label": "En route, via local route",
+            "rdf:value": "355"
+        },
+        {
+            "@id": "rec24:356",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment/means of transport is moving to destination via a national route.",
+            "rdfs:label": "En route, via national route",
+            "rdf:value": "356"
+        },
+        {
+            "@id": "rec24:357",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment/means of transport is moving to destination via an international route.",
+            "rdfs:label": "En route, via international route",
+            "rdf:value": "357"
+        },
+        {
+            "@id": "rec24:358",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The transport of the goods/consignment/equipment/means of transport has been terminated and the mail has not been received.",
+            "rdfs:label": "Transport terminated, mail not received",
+            "rdf:value": "358"
+        },
+        {
+            "@id": "rec24:359",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The Bill of Lading for the goods/consignment/equipment has been issued.",
+            "rdfs:label": "Bill of Lading issued",
+            "rdf:value": "359"
+        },
+        {
+            "@id": "rec24:360",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment/means of transport has been cleared by logistics service provider.",
+            "rdfs:label": "Cleared, by logistics service provider",
+            "rdf:value": "360"
+        },
+        {
+            "@id": "rec24:361",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment expected to be delivered.",
+            "rdfs:label": "Delivery, expected",
+            "rdf:value": "361"
+        },
+        {
+            "@id": "rec24:362",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment/means of transport has been measured.",
+            "rdfs:label": "Measured",
+            "rdf:value": "362"
+        },
+        {
+            "@id": "rec24:363",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment is ready to be loaded onto a means of transport.",
+            "rdfs:label": "Loading, ready",
+            "rdf:value": "363"
+        },
+        {
+            "@id": "rec24:364",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment/means of transport has arrived at the yard.",
+            "rdfs:label": "Arrival, at yard",
+            "rdf:value": "364"
+        },
+        {
+            "@id": "rec24:365",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment/means of transport has departed from the yard.",
+            "rdfs:label": "Departure, from yard",
+            "rdf:value": "365"
+        },
+        {
+            "@id": "rec24:366",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment/equipment/means of transport has been accepted at the interchange point.",
+            "rdfs:label": "Accepted at interchange point",
+            "rdf:value": "366"
+        },
+        {
+            "@id": "rec24:367",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "No action taken after an alert in relation to the goods/consignment/equipment/means of transport.",
+            "rdfs:label": "Alerted, no action taken",
+            "rdf:value": "367"
+        },
+        {
+            "@id": "rec24:368",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The goods/consignment has been transhipped to another wagon.",
+            "rdfs:label": "Transshipment to another wagon",
+            "rdf:value": "368"
+        },
+        {
+            "@id": "rec24:369",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The transport route has been re-programmed manually.",
+            "rdfs:label": "Trip plan revised manually",
+            "rdf:value": "369"
+        },
+        {
+            "@id": "rec24:370",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The handling of a special wagon has been arranged.",
+            "rdfs:label": "Special wagon handling arranged",
+            "rdf:value": "370"
+        },
+        {
+            "@id": "rec24:371",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The equipment has been emptied.",
+            "rdfs:label": "Equipment, emptied",
+            "rdf:value": "371"
+        },
+        {
+            "@id": "rec24:372",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The equipment has been loaded.",
+            "rdfs:label": "Equipment, loaded",
+            "rdf:value": "372"
+        },
+        {
+            "@id": "rec24:373",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The equipment has been held by the transport operator.",
+            "rdfs:label": "Equipment, held by transport operator",
+            "rdf:value": "373"
+        },
+        {
+            "@id": "rec24:374",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The equipment has been held by the terminal operator.",
+            "rdfs:label": "Equipment, held by terminal operator",
+            "rdf:value": "374"
+        },
+        {
+            "@id": "rec24:375",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The equipment storage period at a transport terminal has been exceeded. ",
+            "rdfs:label": "Equipment, storage period at terminal exceeded",
+            "rdf:value": "375"
+        },
+        {
+            "@id": "rec24:376",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The equipment has been held by the equipment operator.",
+            "rdfs:label": "Equipment, held by equipment operator",
+            "rdf:value": "376"
+        },
+        {
+            "@id": "rec24:377",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The equipment has not been released by the equipment operator.",
+            "rdfs:label": "Equipment, not released by equipment operator",
+            "rdf:value": "377"
+        },
+        {
+            "@id": "rec24:378",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "Delivery Order for the goods/consignment/equipment/means has been issued.",
+            "rdfs:label": "Delivery Order Issued",
+            "rdf:value": "378"
+        },
+        {
+            "@id": "rec24:379",
+            "@type": "unece:UNECERec24Code",
+            "rdfs:comment": "The procedures of containers’ release from container yard have been cleared by all authorities and private sectors.",
+            "rdfs:label": "Cleared for container release",
+            "rdf:value": "379"
+        }
+    ]
+}

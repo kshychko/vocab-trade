@@ -1,16 +1,15 @@
 
 {
     "@context": {
-        "unece": "https://service.unece.org/trade/uncefact/trade/uncefact/vocabulary/unece#",
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "rec21": "https://service.unece.org/trade/uncefact/vocabulary/uncefact/rec21#"
+        "rec21": "https://dmvc7xzscpizo.cloudfront.net/rec21#"
     },
     "@graph": [
         {
             "@id": "rec21:1A",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Drum, steel",
             "rdf:value": "1A",
             "unece:numericCode": "34"
@@ -18,7 +17,6 @@
         {
             "@id": "rec21:1B",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Drum, aluminium",
             "rdf:value": "1B",
             "unece:numericCode": "34"
@@ -26,7 +24,6 @@
         {
             "@id": "rec21:1D",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Drum, plywood",
             "rdf:value": "1D",
             "unece:numericCode": "34"
@@ -42,7 +39,6 @@
         {
             "@id": "rec21:1G",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Drum, fibre",
             "rdf:value": "1G",
             "unece:numericCode": "34"
@@ -50,7 +46,6 @@
         {
             "@id": "rec21:1W",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Drum, wooden",
             "rdf:value": "1W",
             "unece:numericCode": "34 or 35"
@@ -58,7 +53,6 @@
         {
             "@id": "rec21:2C",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Barrel, wooden",
             "rdf:value": "2C",
             "unece:numericCode": "44 or 45"
@@ -66,7 +60,6 @@
         {
             "@id": "rec21:3A",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Jerrican, steel",
             "rdf:value": "3A",
             "unece:numericCode": "23 or 33"
@@ -74,7 +67,6 @@
         {
             "@id": "rec21:3H",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Jerrican, plastic",
             "rdf:value": "3H",
             "unece:numericCode": "23 or 33"
@@ -98,7 +90,6 @@
         {
             "@id": "rec21:4A",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Box, steel",
             "rdf:value": "4A",
             "unece:numericCode": "21 to 25"
@@ -106,7 +97,6 @@
         {
             "@id": "rec21:4B",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Box, aluminium",
             "rdf:value": "4B",
             "unece:numericCode": "21 to 25"
@@ -114,7 +104,6 @@
         {
             "@id": "rec21:4C",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Box, natural wood",
             "rdf:value": "4C",
             "unece:numericCode": "21 to 25"
@@ -122,7 +111,6 @@
         {
             "@id": "rec21:4D",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Box, plywood",
             "rdf:value": "4D",
             "unece:numericCode": "21 to 25"
@@ -130,7 +118,6 @@
         {
             "@id": "rec21:4F",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Box, reconstituted wood",
             "rdf:value": "4F",
             "unece:numericCode": "21 to 25"
@@ -138,7 +125,6 @@
         {
             "@id": "rec21:4G",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Box, fibreboard",
             "rdf:value": "4G",
             "unece:numericCode": "21 to 25"
@@ -146,7 +132,6 @@
         {
             "@id": "rec21:4H",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Box, plastic",
             "rdf:value": "4H",
             "unece:numericCode": "21 to 25"
@@ -154,7 +139,6 @@
         {
             "@id": "rec21:5H",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Bag, woven plastic",
             "rdf:value": "5H",
             "unece:numericCode": "62 to 64"
@@ -162,7 +146,6 @@
         {
             "@id": "rec21:5L",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Bag, textile ",
             "rdf:value": "5L",
             "unece:numericCode": "62 to 64"
@@ -170,7 +153,6 @@
         {
             "@id": "rec21:5M",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Bag, paper ",
             "rdf:value": "5M",
             "unece:numericCode": "62 to 64"
@@ -178,7 +160,6 @@
         {
             "@id": "rec21:6H",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Composite packaging, plastic receptacle",
             "rdf:value": "6H",
             "unece:numericCode": "24 or 25 or\n33 or 34"
@@ -186,7 +167,6 @@
         {
             "@id": "rec21:6P",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Composite packaging, glass receptacle",
             "rdf:value": "6P",
             "unece:numericCode": "23 or 24 or 25 or\n33 or 34 or 62 or\n63"
@@ -234,7 +214,6 @@
         {
             "@id": "rec21:AA",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Intermediate bulk container, rigid plastic",
             "rdf:value": "AA",
             "unece:numericCode": "23 to 26"
@@ -266,7 +245,6 @@
         {
             "@id": "rec21:AE",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Aerosol",
             "rdf:value": "AE",
             "unece:numericCode": "42 or 43"
@@ -298,7 +276,6 @@
         {
             "@id": "rec21:AI",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Clamshell",
             "rdf:value": "AI",
             "unece:numericCode": "21 to 23"
@@ -322,7 +299,6 @@
         {
             "@id": "rec21:AM",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Ampoule, non-protected ",
             "rdf:value": "AM",
             "unece:numericCode": "31"
@@ -330,7 +306,6 @@
         {
             "@id": "rec21:AP",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Ampoule, protected ",
             "rdf:value": "AP",
             "unece:numericCode": "31"
@@ -338,7 +313,6 @@
         {
             "@id": "rec21:AT",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Atomizer ",
             "rdf:value": "AT",
             "unece:numericCode": "42 or 43"
@@ -346,7 +320,6 @@
         {
             "@id": "rec21:AV",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Capsule",
             "rdf:value": "AV",
             "unece:numericCode": "92"
@@ -362,7 +335,6 @@
         {
             "@id": "rec21:BA",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Barrel ",
             "rdf:value": "BA",
             "unece:numericCode": "44 or 45"
@@ -370,7 +342,6 @@
         {
             "@id": "rec21:BB",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Bobbin ",
             "rdf:value": "BB",
             "unece:numericCode": "91"
@@ -378,7 +349,6 @@
         {
             "@id": "rec21:BC",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Bottlecrate / bottlerack ",
             "rdf:value": "BC",
             "unece:numericCode": "29"
@@ -386,7 +356,6 @@
         {
             "@id": "rec21:BD",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Board",
             "rdf:value": "BD",
             "unece:numericCode": "16"
@@ -394,7 +363,6 @@
         {
             "@id": "rec21:BE",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Bundle ",
             "rdf:value": "BE",
             "unece:numericCode": "61 to 65"
@@ -402,7 +370,6 @@
         {
             "@id": "rec21:BF",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Balloon, non-protected ",
             "rdf:value": "BF",
             "unece:numericCode": "42 or 43"
@@ -418,7 +385,6 @@
         {
             "@id": "rec21:BH",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Bunch",
             "rdf:value": "BH",
             "unece:numericCode": "61 to 65"
@@ -426,7 +392,6 @@
         {
             "@id": "rec21:BI",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Bin",
             "rdf:value": "BI",
             "unece:numericCode": "21 or 25"
@@ -434,7 +399,6 @@
         {
             "@id": "rec21:BJ",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Bucket ",
             "rdf:value": "BJ",
             "unece:numericCode": "51"
@@ -442,7 +406,6 @@
         {
             "@id": "rec21:BK",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Basket ",
             "rdf:value": "BK",
             "unece:numericCode": "27"
@@ -450,7 +413,6 @@
         {
             "@id": "rec21:BL",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Bale, compressed ",
             "rdf:value": "BL",
             "unece:numericCode": "65"
@@ -458,7 +420,6 @@
         {
             "@id": "rec21:BM",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Basin",
             "rdf:value": "BM",
             "unece:numericCode": "51"
@@ -466,7 +427,6 @@
         {
             "@id": "rec21:BN",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Bale, non-compressed ",
             "rdf:value": "BN",
             "unece:numericCode": "65"
@@ -482,7 +442,6 @@
         {
             "@id": "rec21:BP",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Balloon, protected ",
             "rdf:value": "BP",
             "unece:numericCode": "42 or 43"
@@ -498,7 +457,6 @@
         {
             "@id": "rec21:BR",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Bar",
             "rdf:value": "BR",
             "unece:numericCode": "16"
@@ -514,7 +472,6 @@
         {
             "@id": "rec21:BT",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Bolt ",
             "rdf:value": "BT",
             "unece:numericCode": "13"
@@ -522,7 +479,6 @@
         {
             "@id": "rec21:BU",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Butt ",
             "rdf:value": "BU",
             "unece:numericCode": "44 or 45"
@@ -538,7 +494,6 @@
         {
             "@id": "rec21:BW",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Box, for liquids",
             "rdf:value": "BW",
             "unece:numericCode": "21 to 25"
@@ -546,7 +501,6 @@
         {
             "@id": "rec21:BX",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Box",
             "rdf:value": "BX",
             "unece:numericCode": "21 to 25"
@@ -554,7 +508,6 @@
         {
             "@id": "rec21:BY",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Board, in bundle/bunch/truss ",
             "rdf:value": "BY",
             "unece:numericCode": "16"
@@ -562,7 +515,6 @@
         {
             "@id": "rec21:BZ",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Bars, in bundle/bunch/truss",
             "rdf:value": "BZ",
             "unece:numericCode": "16"
@@ -570,7 +522,6 @@
         {
             "@id": "rec21:CA",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Can, rectangular ",
             "rdf:value": "CA",
             "unece:numericCode": "22"
@@ -578,7 +529,6 @@
         {
             "@id": "rec21:CB",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Crate, beer",
             "rdf:value": "CB",
             "unece:numericCode": "23 to 27"
@@ -586,7 +536,6 @@
         {
             "@id": "rec21:CC",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Churn",
             "rdf:value": "CC",
             "unece:numericCode": "32 or 33"
@@ -594,7 +543,6 @@
         {
             "@id": "rec21:CD",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Can, with handle and spout ",
             "rdf:value": "CD",
             "unece:numericCode": "22"
@@ -602,7 +550,6 @@
         {
             "@id": "rec21:CE",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Creel",
             "rdf:value": "CE",
             "unece:numericCode": "27"
@@ -610,7 +557,6 @@
         {
             "@id": "rec21:CF",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Coffer ",
             "rdf:value": "CF",
             "unece:numericCode": "24"
@@ -618,7 +564,6 @@
         {
             "@id": "rec21:CG",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Cage ",
             "rdf:value": "CG",
             "unece:numericCode": "26"
@@ -626,7 +571,6 @@
         {
             "@id": "rec21:CH",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Chest",
             "rdf:value": "CH",
             "unece:numericCode": "25"
@@ -634,7 +578,6 @@
         {
             "@id": "rec21:CI",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Canister ",
             "rdf:value": "CI",
             "unece:numericCode": "21 or 22"
@@ -642,7 +585,6 @@
         {
             "@id": "rec21:CJ",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Coffin ",
             "rdf:value": "CJ",
             "unece:numericCode": "54"
@@ -650,7 +592,6 @@
         {
             "@id": "rec21:CK",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Cask ",
             "rdf:value": "CK",
             "unece:numericCode": "44 or 45"
@@ -658,7 +599,6 @@
         {
             "@id": "rec21:CL",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Coil ",
             "rdf:value": "CL",
             "unece:numericCode": "14"
@@ -674,7 +614,6 @@
         {
             "@id": "rec21:CN",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Container, not otherwise specified as transport equipment",
             "rdf:value": "CN",
             "unece:numericCode": "25"
@@ -682,7 +621,6 @@
         {
             "@id": "rec21:CO",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Carboy, non-protected",
             "rdf:value": "CO",
             "unece:numericCode": "43"
@@ -690,7 +628,6 @@
         {
             "@id": "rec21:CP",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Carboy, protected",
             "rdf:value": "CP",
             "unece:numericCode": "43"
@@ -706,7 +643,6 @@
         {
             "@id": "rec21:CR",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Crate",
             "rdf:value": "CR",
             "unece:numericCode": "24 to 25"
@@ -714,7 +650,6 @@
         {
             "@id": "rec21:CS",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Case ",
             "rdf:value": "CS",
             "unece:numericCode": "21 to 25"
@@ -722,7 +657,6 @@
         {
             "@id": "rec21:CT",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Carton ",
             "rdf:value": "CT",
             "unece:numericCode": "22 to 24"
@@ -730,7 +664,6 @@
         {
             "@id": "rec21:CU",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Cup",
             "rdf:value": "CU",
             "unece:numericCode": "51"
@@ -738,7 +671,6 @@
         {
             "@id": "rec21:CV",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Cover",
             "rdf:value": "CV",
             "unece:numericCode": "67"
@@ -746,7 +678,6 @@
         {
             "@id": "rec21:CW",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Cage, roll ",
             "rdf:value": "CW",
             "unece:numericCode": "26"
@@ -754,7 +685,6 @@
         {
             "@id": "rec21:CX",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Can, cylindrical ",
             "rdf:value": "CX",
             "unece:numericCode": "32"
@@ -762,7 +692,6 @@
         {
             "@id": "rec21:CY",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Cylinder ",
             "rdf:value": "CY",
             "unece:numericCode": "12"
@@ -770,7 +699,6 @@
         {
             "@id": "rec21:CZ",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Canvas ",
             "rdf:value": "CZ",
             "unece:numericCode": "67"
@@ -778,7 +706,6 @@
         {
             "@id": "rec21:DA",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Crate, multiple layer, plastic ",
             "rdf:value": "DA",
             "unece:numericCode": "23 to 25 or 27"
@@ -786,7 +713,6 @@
         {
             "@id": "rec21:DB",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Crate, multiple layer, wooden",
             "rdf:value": "DB",
             "unece:numericCode": "23 to 25 or 27"
@@ -794,7 +720,6 @@
         {
             "@id": "rec21:DC",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Crate, multiple layer, cardboard ",
             "rdf:value": "DC",
             "unece:numericCode": "23 to 25 or 27"
@@ -802,7 +727,6 @@
         {
             "@id": "rec21:DG",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Cage, Commonwealth Handling Equipment Pool  (CHEP)",
             "rdf:value": "DG",
             "unece:numericCode": "26"
@@ -818,7 +742,6 @@
         {
             "@id": "rec21:DI",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Drum, iron ",
             "rdf:value": "DI",
             "unece:numericCode": "34"
@@ -826,7 +749,6 @@
         {
             "@id": "rec21:DJ",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Demijohn, non-protected",
             "rdf:value": "DJ",
             "unece:numericCode": "43"
@@ -834,7 +756,6 @@
         {
             "@id": "rec21:DK",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Crate, bulk, cardboard ",
             "rdf:value": "DK",
             "unece:numericCode": "23 to 25 or 27"
@@ -842,7 +763,6 @@
         {
             "@id": "rec21:DL",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Crate, bulk, plastic ",
             "rdf:value": "DL",
             "unece:numericCode": "23 to 25 or 27"
@@ -850,7 +770,6 @@
         {
             "@id": "rec21:DM",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Crate, bulk, wooden",
             "rdf:value": "DM",
             "unece:numericCode": "23 to 25 or 27"
@@ -858,7 +777,6 @@
         {
             "@id": "rec21:DN",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Dispenser",
             "rdf:value": "DN",
             "unece:numericCode": "93"
@@ -866,7 +784,6 @@
         {
             "@id": "rec21:DP",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Demijohn, protected",
             "rdf:value": "DP",
             "unece:numericCode": "43"
@@ -874,7 +791,6 @@
         {
             "@id": "rec21:DR",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Drum ",
             "rdf:value": "DR",
             "unece:numericCode": "34"
@@ -882,7 +798,6 @@
         {
             "@id": "rec21:DS",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Tray, one layer no cover, plastic",
             "rdf:value": "DS",
             "unece:numericCode": "27"
@@ -890,7 +805,6 @@
         {
             "@id": "rec21:DT",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Tray, one layer no cover, wooden ",
             "rdf:value": "DT",
             "unece:numericCode": "27"
@@ -898,7 +812,6 @@
         {
             "@id": "rec21:DU",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Tray, one layer no cover, polystyrene",
             "rdf:value": "DU",
             "unece:numericCode": "27"
@@ -906,7 +819,6 @@
         {
             "@id": "rec21:DV",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Tray, one layer no cover, cardboard",
             "rdf:value": "DV",
             "unece:numericCode": "27"
@@ -914,7 +826,6 @@
         {
             "@id": "rec21:DW",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Tray, two layers no cover, plastic tray",
             "rdf:value": "DW",
             "unece:numericCode": "27 or 29"
@@ -922,7 +833,6 @@
         {
             "@id": "rec21:DX",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Tray, two layers no cover, wooden",
             "rdf:value": "DX",
             "unece:numericCode": "27 or 29"
@@ -930,7 +840,6 @@
         {
             "@id": "rec21:DY",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Tray, two layers no cover, cardboard ",
             "rdf:value": "DY",
             "unece:numericCode": "27 or 29"
@@ -938,7 +847,6 @@
         {
             "@id": "rec21:EC",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Bag, plastic ",
             "rdf:value": "EC",
             "unece:numericCode": "62 to 64"
@@ -946,7 +854,6 @@
         {
             "@id": "rec21:ED",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Case, with pallet base ",
             "rdf:value": "ED",
             "unece:numericCode": "23 to 25"
@@ -954,7 +861,6 @@
         {
             "@id": "rec21:EE",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Case, with pallet base, wooden ",
             "rdf:value": "EE",
             "unece:numericCode": "23 to 25"
@@ -962,7 +868,6 @@
         {
             "@id": "rec21:EF",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Case, with pallet base, cardboard",
             "rdf:value": "EF",
             "unece:numericCode": "23 to 25"
@@ -970,7 +875,6 @@
         {
             "@id": "rec21:EG",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Case, with pallet base, plastic",
             "rdf:value": "EG",
             "unece:numericCode": "23 to 25"
@@ -978,7 +882,6 @@
         {
             "@id": "rec21:EH",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Case, with pallet base, metal",
             "rdf:value": "EH",
             "unece:numericCode": "23 to 25"
@@ -986,7 +889,6 @@
         {
             "@id": "rec21:EI",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Case, isothermic ",
             "rdf:value": "EI",
             "unece:numericCode": "22 to 25"
@@ -994,7 +896,6 @@
         {
             "@id": "rec21:EN",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Envelope ",
             "rdf:value": "EN",
             "unece:numericCode": "67"
@@ -1010,7 +911,6 @@
         {
             "@id": "rec21:FC",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Crate, fruit ",
             "rdf:value": "FC",
             "unece:numericCode": "23 to 27"
@@ -1018,7 +918,6 @@
         {
             "@id": "rec21:FD",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Crate, framed",
             "rdf:value": "FD",
             "unece:numericCode": "26"
@@ -1034,7 +933,6 @@
         {
             "@id": "rec21:FI",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Firkin ",
             "rdf:value": "FI",
             "unece:numericCode": "44 or 45"
@@ -1042,7 +940,6 @@
         {
             "@id": "rec21:FL",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Flask",
             "rdf:value": "FL",
             "unece:numericCode": "42 or 43"
@@ -1050,7 +947,6 @@
         {
             "@id": "rec21:FO",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Footlocker ",
             "rdf:value": "FO",
             "unece:numericCode": "23"
@@ -1058,7 +954,6 @@
         {
             "@id": "rec21:FP",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Filmpack ",
             "rdf:value": "FP",
             "unece:numericCode": "67"
@@ -1066,7 +961,6 @@
         {
             "@id": "rec21:FR",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Frame",
             "rdf:value": "FR",
             "unece:numericCode": "26"
@@ -1074,7 +968,6 @@
         {
             "@id": "rec21:FT",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Foodtainer",
             "rdf:value": "FT",
             "unece:numericCode": "21 to 23"
@@ -1090,7 +983,6 @@
         {
             "@id": "rec21:FX",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Bag, flexible container",
             "rdf:value": "FX",
             "unece:numericCode": "61 to 66"
@@ -1106,7 +998,6 @@
         {
             "@id": "rec21:GI",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Girder ",
             "rdf:value": "GI",
             "unece:numericCode": "16"
@@ -1146,7 +1037,6 @@
         {
             "@id": "rec21:GZ",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Girders, in bundle/bunch/truss ",
             "rdf:value": "GZ",
             "unece:numericCode": "16"
@@ -1154,7 +1044,6 @@
         {
             "@id": "rec21:HA",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Basket, with handle, plastic ",
             "rdf:value": "HA",
             "unece:numericCode": "27"
@@ -1162,7 +1051,6 @@
         {
             "@id": "rec21:HB",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Basket, with handle, wooden",
             "rdf:value": "HB",
             "unece:numericCode": "27"
@@ -1170,7 +1058,6 @@
         {
             "@id": "rec21:HC",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Basket, with handle, cardboard ",
             "rdf:value": "HC",
             "unece:numericCode": "27"
@@ -1178,7 +1065,6 @@
         {
             "@id": "rec21:HG",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Hogshead ",
             "rdf:value": "HG",
             "unece:numericCode": "44 or 45"
@@ -1194,7 +1080,6 @@
         {
             "@id": "rec21:HR",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Hamper ",
             "rdf:value": "HR",
             "unece:numericCode": "23"
@@ -1202,7 +1087,6 @@
         {
             "@id": "rec21:IA",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Package, display, wooden ",
             "rdf:value": "IA",
             "unece:numericCode": "21 to 23"
@@ -1210,7 +1094,6 @@
         {
             "@id": "rec21:IB",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Package, display, cardboard",
             "rdf:value": "IB",
             "unece:numericCode": "21 to 23"
@@ -1218,7 +1101,6 @@
         {
             "@id": "rec21:IC",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Package, display, plastic",
             "rdf:value": "IC",
             "unece:numericCode": "21 to 23"
@@ -1226,7 +1108,6 @@
         {
             "@id": "rec21:ID",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Package, display, metal",
             "rdf:value": "ID",
             "unece:numericCode": "21 to 23"
@@ -1234,7 +1115,6 @@
         {
             "@id": "rec21:IE",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Package, show",
             "rdf:value": "IE",
             "unece:numericCode": "21 to 23"
@@ -1250,7 +1130,6 @@
         {
             "@id": "rec21:IG",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Package, paper wrapped",
             "rdf:value": "IG",
             "unece:numericCode": "21 to 23"
@@ -1258,7 +1137,6 @@
         {
             "@id": "rec21:IH",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Drum, plastic",
             "rdf:value": "IH",
             "unece:numericCode": "34"
@@ -1282,7 +1160,6 @@
         {
             "@id": "rec21:IN",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Ingot",
             "rdf:value": "IN",
             "unece:numericCode": "17"
@@ -1290,7 +1167,6 @@
         {
             "@id": "rec21:IZ",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Ingots, in bundle/bunch/truss",
             "rdf:value": "IZ",
             "unece:numericCode": "17"
@@ -1306,7 +1182,6 @@
         {
             "@id": "rec21:JC",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Jerrican, rectangular",
             "rdf:value": "JC",
             "unece:numericCode": "23"
@@ -1314,7 +1189,6 @@
         {
             "@id": "rec21:JG",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Jug",
             "rdf:value": "JG",
             "unece:numericCode": "41"
@@ -1322,7 +1196,6 @@
         {
             "@id": "rec21:JR",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Jar",
             "rdf:value": "JR",
             "unece:numericCode": "41"
@@ -1330,7 +1203,6 @@
         {
             "@id": "rec21:JT",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Jutebag",
             "rdf:value": "JT",
             "unece:numericCode": "61 or 65"
@@ -1338,7 +1210,6 @@
         {
             "@id": "rec21:JY",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Jerrican, cylindrical",
             "rdf:value": "JY",
             "unece:numericCode": "33"
@@ -1346,7 +1217,6 @@
         {
             "@id": "rec21:KG",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Keg",
             "rdf:value": "KG",
             "unece:numericCode": "44 or 45"
@@ -1370,7 +1240,6 @@
         {
             "@id": "rec21:LG",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Log",
             "rdf:value": "LG",
             "unece:numericCode": "12"
@@ -1378,7 +1247,6 @@
         {
             "@id": "rec21:LT",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Lot",
             "rdf:value": "LT",
             "unece:numericCode": "01 to 03"
@@ -1402,7 +1270,6 @@
         {
             "@id": "rec21:LZ",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Logs, in bundle/bunch/truss",
             "rdf:value": "LZ",
             "unece:numericCode": "12"
@@ -1418,7 +1285,6 @@
         {
             "@id": "rec21:MB",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Bag, multiply",
             "rdf:value": "MB",
             "unece:numericCode": "62 to 64"
@@ -1426,7 +1292,6 @@
         {
             "@id": "rec21:MC",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Crate, milk",
             "rdf:value": "MC",
             "unece:numericCode": "27"
@@ -1450,7 +1315,6 @@
         {
             "@id": "rec21:MS",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Sack, multi-wall ",
             "rdf:value": "MS",
             "unece:numericCode": "62 to 64"
@@ -1458,7 +1322,6 @@
         {
             "@id": "rec21:MT",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Mat",
             "rdf:value": "MT",
             "unece:numericCode": "67"
@@ -1474,7 +1337,6 @@
         {
             "@id": "rec21:MX",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Matchbox ",
             "rdf:value": "MX",
             "unece:numericCode": "21"
@@ -1482,7 +1344,6 @@
         {
             "@id": "rec21:NA",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Not available",
             "rdf:value": "NA",
             "unece:numericCode": "0"
@@ -1490,7 +1351,6 @@
         {
             "@id": "rec21:NE",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Unpacked or unpackaged ",
             "rdf:value": "NE",
             "unece:numericCode": "0"
@@ -1498,7 +1358,6 @@
         {
             "@id": "rec21:NF",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Unpacked or unpackaged, single unit",
             "rdf:value": "NF",
             "unece:numericCode": "0"
@@ -1506,7 +1365,6 @@
         {
             "@id": "rec21:NG",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Unpacked or unpackaged, multiple units",
             "rdf:value": "NG",
             "unece:numericCode": "0"
@@ -1514,7 +1372,6 @@
         {
             "@id": "rec21:NS",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Nest ",
             "rdf:value": "NS",
             "unece:numericCode": "24"
@@ -1522,7 +1379,6 @@
         {
             "@id": "rec21:NT",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Net",
             "rdf:value": "NT",
             "unece:numericCode": "66"
@@ -1530,7 +1386,6 @@
         {
             "@id": "rec21:NU",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Net, tube, plastic ",
             "rdf:value": "NU",
             "unece:numericCode": "66"
@@ -1538,7 +1393,6 @@
         {
             "@id": "rec21:NV",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Net, tube, textile ",
             "rdf:value": "NV",
             "unece:numericCode": "66"
@@ -1858,7 +1712,6 @@
         {
             "@id": "rec21:PB",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Pallet, box Combined open-ended box and pallet",
             "rdf:value": "PB",
             "unece:numericCode": "92"
@@ -1866,7 +1719,6 @@
         {
             "@id": "rec21:PC",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Parcel ",
             "rdf:value": "PC",
             "unece:numericCode": "21 to 23 or\n61 to 63"
@@ -1898,7 +1750,6 @@
         {
             "@id": "rec21:PG",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Plate",
             "rdf:value": "PG",
             "unece:numericCode": "15"
@@ -1906,7 +1757,6 @@
         {
             "@id": "rec21:PH",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Pitcher",
             "rdf:value": "PH",
             "unece:numericCode": "41"
@@ -1914,7 +1764,6 @@
         {
             "@id": "rec21:PI",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Pipe ",
             "rdf:value": "PI",
             "unece:numericCode": "11"
@@ -1922,7 +1771,6 @@
         {
             "@id": "rec21:PJ",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Punnet",
             "rdf:value": "PJ",
             "unece:numericCode": "27"
@@ -1938,7 +1786,6 @@
         {
             "@id": "rec21:PL",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Pail ",
             "rdf:value": "PL",
             "unece:numericCode": "51"
@@ -1946,7 +1793,6 @@
         {
             "@id": "rec21:PN",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Plank",
             "rdf:value": "PN",
             "unece:numericCode": "16"
@@ -1954,7 +1800,6 @@
         {
             "@id": "rec21:PO",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Pouch",
             "rdf:value": "PO",
             "unece:numericCode": "61"
@@ -1978,7 +1823,6 @@
         {
             "@id": "rec21:PT",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Pot",
             "rdf:value": "PT",
             "unece:numericCode": "41"
@@ -1986,7 +1830,6 @@
         {
             "@id": "rec21:PU",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Tray ",
             "rdf:value": "PU",
             "unece:numericCode": "27"
@@ -1994,7 +1837,6 @@
         {
             "@id": "rec21:PV",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Pipes, in bundle/bunch/truss ",
             "rdf:value": "PV",
             "unece:numericCode": "11"
@@ -2010,7 +1852,6 @@
         {
             "@id": "rec21:PY",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Plates, in bundle/bunch/truss",
             "rdf:value": "PY",
             "unece:numericCode": "15"
@@ -2018,7 +1859,6 @@
         {
             "@id": "rec21:PZ",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Planks, in bundle/bunch/truss",
             "rdf:value": "PZ",
             "unece:numericCode": "16"
@@ -2026,7 +1866,6 @@
         {
             "@id": "rec21:QA",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Drum, steel, non-removable head",
             "rdf:value": "QA",
             "unece:numericCode": "34"
@@ -2034,7 +1873,6 @@
         {
             "@id": "rec21:QB",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Drum, steel, removable head",
             "rdf:value": "QB",
             "unece:numericCode": "34"
@@ -2042,7 +1880,6 @@
         {
             "@id": "rec21:QC",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Drum, aluminium, non-removable head",
             "rdf:value": "QC",
             "unece:numericCode": "34"
@@ -2050,7 +1887,6 @@
         {
             "@id": "rec21:QD",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Drum, aluminium, removable head",
             "rdf:value": "QD",
             "unece:numericCode": "34"
@@ -2058,7 +1894,6 @@
         {
             "@id": "rec21:QF",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Drum, plastic, non-removable head",
             "rdf:value": "QF",
             "unece:numericCode": "34"
@@ -2066,7 +1901,6 @@
         {
             "@id": "rec21:QG",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Drum, plastic, removable head",
             "rdf:value": "QG",
             "unece:numericCode": "34"
@@ -2074,7 +1908,6 @@
         {
             "@id": "rec21:QH",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Barrel, wooden, bung type",
             "rdf:value": "QH",
             "unece:numericCode": "44 or 45"
@@ -2082,7 +1915,6 @@
         {
             "@id": "rec21:QJ",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Barrel, wooden, removable head ",
             "rdf:value": "QJ",
             "unece:numericCode": "44 or 45"
@@ -2090,7 +1922,6 @@
         {
             "@id": "rec21:QK",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Jerrican, steel, non-removable head",
             "rdf:value": "QK",
             "unece:numericCode": "23 or 33"
@@ -2098,7 +1929,6 @@
         {
             "@id": "rec21:QL",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Jerrican, steel, removable head",
             "rdf:value": "QL",
             "unece:numericCode": "23 or 33"
@@ -2106,7 +1936,6 @@
         {
             "@id": "rec21:QM",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Jerrican, plastic, non-removable head",
             "rdf:value": "QM",
             "unece:numericCode": "23 or 33"
@@ -2114,7 +1943,6 @@
         {
             "@id": "rec21:QN",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Jerrican, plastic, removable head",
             "rdf:value": "QN",
             "unece:numericCode": "23 or 33"
@@ -2122,7 +1950,6 @@
         {
             "@id": "rec21:QP",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Box, wooden, natural wood, ordinary",
             "rdf:value": "QP",
             "unece:numericCode": "21 to 25"
@@ -2130,7 +1957,6 @@
         {
             "@id": "rec21:QQ",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Box, wooden, natural wood, with sift proof walls",
             "rdf:value": "QQ",
             "unece:numericCode": "21 to 25"
@@ -2138,7 +1964,6 @@
         {
             "@id": "rec21:QR",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Box, plastic, expanded ",
             "rdf:value": "QR",
             "unece:numericCode": "21 to 25"
@@ -2146,7 +1971,6 @@
         {
             "@id": "rec21:QS",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Box, plastic, solid",
             "rdf:value": "QS",
             "unece:numericCode": "21 to 25"
@@ -2154,7 +1978,6 @@
         {
             "@id": "rec21:RD",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Rod",
             "rdf:value": "RD",
             "unece:numericCode": "12"
@@ -2162,7 +1985,6 @@
         {
             "@id": "rec21:RG",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Ring ",
             "rdf:value": "RG",
             "unece:numericCode": "14"
@@ -2170,7 +1992,6 @@
         {
             "@id": "rec21:RJ",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Rack, clothing hanger",
             "rdf:value": "RJ",
             "unece:numericCode": "93"
@@ -2178,7 +1999,6 @@
         {
             "@id": "rec21:RK",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Rack ",
             "rdf:value": "RK",
             "unece:numericCode": "93"
@@ -2194,7 +2014,6 @@
         {
             "@id": "rec21:RO",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Roll ",
             "rdf:value": "RO",
             "unece:numericCode": "13"
@@ -2210,7 +2029,6 @@
         {
             "@id": "rec21:RZ",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Rods, in bundle/bunch/truss",
             "rdf:value": "RZ",
             "unece:numericCode": "12"
@@ -2218,7 +2036,6 @@
         {
             "@id": "rec21:SA",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Sack ",
             "rdf:value": "SA",
             "unece:numericCode": "65"
@@ -2226,7 +2043,6 @@
         {
             "@id": "rec21:SB",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Slab",
             "rdf:value": "SB",
             "unece:numericCode": "16 or 17"
@@ -2234,7 +2050,6 @@
         {
             "@id": "rec21:SC",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Crate, shallow ",
             "rdf:value": "SC",
             "unece:numericCode": "27"
@@ -2242,7 +2057,6 @@
         {
             "@id": "rec21:SD",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Spindle",
             "rdf:value": "SD",
             "unece:numericCode": "91"
@@ -2250,7 +2064,6 @@
         {
             "@id": "rec21:SE",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Sea-chest",
             "rdf:value": "SE",
             "unece:numericCode": "22 or 23"
@@ -2258,7 +2071,6 @@
         {
             "@id": "rec21:SH",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Sachet ",
             "rdf:value": "SH",
             "unece:numericCode": "61"
@@ -2274,7 +2086,6 @@
         {
             "@id": "rec21:SK",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Case, skeleton ",
             "rdf:value": "SK",
             "unece:numericCode": "26"
@@ -2290,7 +2101,6 @@
         {
             "@id": "rec21:SM",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Sheetmetal ",
             "rdf:value": "SM",
             "unece:numericCode": "15"
@@ -2306,7 +2116,6 @@
         {
             "@id": "rec21:SP",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Sheet, plastic wrapping",
             "rdf:value": "SP",
             "unece:numericCode": "15"
@@ -2314,7 +2123,6 @@
         {
             "@id": "rec21:SS",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Case, steel",
             "rdf:value": "SS",
             "unece:numericCode": "21 to 25"
@@ -2322,7 +2130,6 @@
         {
             "@id": "rec21:ST",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Sheet",
             "rdf:value": "ST",
             "unece:numericCode": "15"
@@ -2330,7 +2137,6 @@
         {
             "@id": "rec21:SU",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Suitcase ",
             "rdf:value": "SU",
             "unece:numericCode": "21 to 23 or\n61 to 63"
@@ -2338,7 +2144,6 @@
         {
             "@id": "rec21:SV",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Envelope, steel",
             "rdf:value": "SV",
             "unece:numericCode": "67"
@@ -2354,7 +2159,6 @@
         {
             "@id": "rec21:SX",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Set",
             "rdf:value": "SX",
             "unece:numericCode": "11 to 45"
@@ -2362,7 +2166,6 @@
         {
             "@id": "rec21:SY",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Sleeve",
             "rdf:value": "SY",
             "unece:numericCode": "69"
@@ -2370,7 +2173,6 @@
         {
             "@id": "rec21:SZ",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Sheets, in bundle/bunch/truss",
             "rdf:value": "SZ",
             "unece:numericCode": "15"
@@ -2386,7 +2188,6 @@
         {
             "@id": "rec21:TB",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Tub",
             "rdf:value": "TB",
             "unece:numericCode": "51"
@@ -2394,7 +2195,6 @@
         {
             "@id": "rec21:TC",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Tea-chest",
             "rdf:value": "TC",
             "unece:numericCode": "21 to 23"
@@ -2402,7 +2202,6 @@
         {
             "@id": "rec21:TD",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Tube, collapsible",
             "rdf:value": "TD",
             "unece:numericCode": "61 to 65"
@@ -2426,7 +2225,6 @@
         {
             "@id": "rec21:TI",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Tierce",
             "rdf:value": "TI",
             "unece:numericCode": "44"
@@ -2434,7 +2232,6 @@
         {
             "@id": "rec21:TK",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Tank, rectangular",
             "rdf:value": "TK",
             "unece:numericCode": "24 or 25"
@@ -2442,7 +2239,6 @@
         {
             "@id": "rec21:TL",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Tub, with lid",
             "rdf:value": "TL",
             "unece:numericCode": "51"
@@ -2450,7 +2246,6 @@
         {
             "@id": "rec21:TN",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Tin",
             "rdf:value": "TN",
             "unece:numericCode": "21 or 22"
@@ -2458,7 +2253,6 @@
         {
             "@id": "rec21:TO",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Tun",
             "rdf:value": "TO",
             "unece:numericCode": "44 or 45"
@@ -2466,7 +2260,6 @@
         {
             "@id": "rec21:TR",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Trunk",
             "rdf:value": "TR",
             "unece:numericCode": "24 or 25"
@@ -2474,7 +2267,6 @@
         {
             "@id": "rec21:TS",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Truss",
             "rdf:value": "TS",
             "unece:numericCode": "16"
@@ -2490,7 +2282,6 @@
         {
             "@id": "rec21:TU",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Tube ",
             "rdf:value": "TU",
             "unece:numericCode": "11"
@@ -2514,7 +2305,6 @@
         {
             "@id": "rec21:TY",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Tank, cylindrical",
             "rdf:value": "TY",
             "unece:numericCode": "34 or 35"
@@ -2522,7 +2312,6 @@
         {
             "@id": "rec21:TZ",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Tubes, in bundle/bunch/truss ",
             "rdf:value": "TZ",
             "unece:numericCode": "11"
@@ -2530,7 +2319,6 @@
         {
             "@id": "rec21:UC",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Uncaged ",
             "rdf:value": "UC",
             "unece:numericCode": "0"
@@ -2546,7 +2334,6 @@
         {
             "@id": "rec21:VA",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Vat",
             "rdf:value": "VA",
             "unece:numericCode": "35"
@@ -2554,7 +2341,6 @@
         {
             "@id": "rec21:VG",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Bulk, gas (at 1031 mbar and 15°C)",
             "rdf:value": "VG",
             "unece:numericCode": "6"
@@ -2562,7 +2348,6 @@
         {
             "@id": "rec21:VI",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Vial ",
             "rdf:value": "VI",
             "unece:numericCode": "31"
@@ -2578,7 +2363,6 @@
         {
             "@id": "rec21:VL",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Bulk, liquid ",
             "rdf:value": "VL",
             "unece:numericCode": "4"
@@ -2586,7 +2370,6 @@
         {
             "@id": "rec21:VO",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Bulk, solid, large particles (“nodules”) ",
             "rdf:value": "VO",
             "unece:numericCode": "3"
@@ -2594,7 +2377,6 @@
         {
             "@id": "rec21:VP",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Vacuum-packed",
             "rdf:value": "VP",
             "unece:numericCode": "67"
@@ -2602,7 +2384,6 @@
         {
             "@id": "rec21:VQ",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Bulk, liquefied gas (at abnormal temperature/pressure) ",
             "rdf:value": "VQ",
             "unece:numericCode": "5"
@@ -2618,7 +2399,6 @@
         {
             "@id": "rec21:VR",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Bulk, solid, granular particles (“grains”) ",
             "rdf:value": "VR",
             "unece:numericCode": "2"
@@ -2634,7 +2414,6 @@
         {
             "@id": "rec21:VY",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Bulk, solid, fine particles (“powders”)",
             "rdf:value": "VY",
             "unece:numericCode": "1"
@@ -2650,7 +2429,6 @@
         {
             "@id": "rec21:WB",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Wickerbottle ",
             "rdf:value": "WB",
             "unece:numericCode": "42 or 43"
@@ -2658,7 +2436,6 @@
         {
             "@id": "rec21:WC",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Intermediate bulk container, steel ",
             "rdf:value": "WC",
             "unece:numericCode": "23 to 26"
@@ -2666,7 +2443,6 @@
         {
             "@id": "rec21:WD",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Intermediate bulk container, aluminium ",
             "rdf:value": "WD",
             "unece:numericCode": "23 to 26"
@@ -2674,7 +2450,6 @@
         {
             "@id": "rec21:WF",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Intermediate bulk container, metal ",
             "rdf:value": "WF",
             "unece:numericCode": "23 to 26"
@@ -2682,7 +2457,6 @@
         {
             "@id": "rec21:WG",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Intermediate bulk container, steel, pressurised > 10 kpa",
             "rdf:value": "WG",
             "unece:numericCode": "23 to 26"
@@ -2690,7 +2464,6 @@
         {
             "@id": "rec21:WH",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Intermediate bulk container, aluminium, pressurised > 10 kpa",
             "rdf:value": "WH",
             "unece:numericCode": "23 to 26"
@@ -2698,7 +2471,6 @@
         {
             "@id": "rec21:WJ",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Intermediate bulk container, metal, pressure 10 kpa ",
             "rdf:value": "WJ",
             "unece:numericCode": "23 to 26"
@@ -2706,7 +2478,6 @@
         {
             "@id": "rec21:WK",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Intermediate bulk container, steel, liquid ",
             "rdf:value": "WK",
             "unece:numericCode": "23 to 26"
@@ -2714,7 +2485,6 @@
         {
             "@id": "rec21:WL",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Intermediate bulk container, aluminium, liquid ",
             "rdf:value": "WL",
             "unece:numericCode": "23 to 26"
@@ -2722,7 +2492,6 @@
         {
             "@id": "rec21:WM",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Intermediate bulk container, metal, liquid ",
             "rdf:value": "WM",
             "unece:numericCode": "23 to 26"
@@ -2730,7 +2499,6 @@
         {
             "@id": "rec21:WN",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Intermediate bulk container, woven plastic, without coat/liner ",
             "rdf:value": "WN",
             "unece:numericCode": "62 to 64"
@@ -2738,7 +2506,6 @@
         {
             "@id": "rec21:WP",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Intermediate bulk container, woven plastic, coated ",
             "rdf:value": "WP",
             "unece:numericCode": "62 to 64"
@@ -2746,7 +2513,6 @@
         {
             "@id": "rec21:WQ",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Intermediate bulk container, woven plastic, with liner ",
             "rdf:value": "WQ",
             "unece:numericCode": "62 to 64"
@@ -2754,7 +2520,6 @@
         {
             "@id": "rec21:WR",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Intermediate bulk container, woven plastic, coated and liner ",
             "rdf:value": "WR",
             "unece:numericCode": "62 to 64"
@@ -2762,7 +2527,6 @@
         {
             "@id": "rec21:WS",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Intermediate bulk container, plastic film",
             "rdf:value": "WS",
             "unece:numericCode": "62 to 64"
@@ -2770,7 +2534,6 @@
         {
             "@id": "rec21:WT",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Intermediate bulk container, textile with out coat/liner ",
             "rdf:value": "WT",
             "unece:numericCode": "62 to 64"
@@ -2778,7 +2541,6 @@
         {
             "@id": "rec21:WU",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Intermediate bulk container, natural wood, with inner liner",
             "rdf:value": "WU",
             "unece:numericCode": "23 to 26"
@@ -2786,7 +2548,6 @@
         {
             "@id": "rec21:WV",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Intermediate bulk container, textile, coated ",
             "rdf:value": "WV",
             "unece:numericCode": "62 to 64"
@@ -2794,7 +2555,6 @@
         {
             "@id": "rec21:WW",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Intermediate bulk container, textile, with liner ",
             "rdf:value": "WW",
             "unece:numericCode": "62 to 64"
@@ -2802,7 +2562,6 @@
         {
             "@id": "rec21:WX",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Intermediate bulk container, textile, coated and liner ",
             "rdf:value": "WX",
             "unece:numericCode": "62 to 64"
@@ -2810,7 +2569,6 @@
         {
             "@id": "rec21:WY",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Intermediate bulk container, plywood, with inner liner ",
             "rdf:value": "WY",
             "unece:numericCode": "23 to 26"
@@ -2818,7 +2576,6 @@
         {
             "@id": "rec21:WZ",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Intermediate bulk container, reconstituted wood, with inner liner",
             "rdf:value": "WZ",
             "unece:numericCode": "23 to 26"
@@ -2826,7 +2583,6 @@
         {
             "@id": "rec21:XA",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Bag, woven plastic, without inner coat/liner ",
             "rdf:value": "XA",
             "unece:numericCode": "62 to 64"
@@ -2834,7 +2590,6 @@
         {
             "@id": "rec21:XB",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Bag, woven plastic, sift proof ",
             "rdf:value": "XB",
             "unece:numericCode": "62 to 64"
@@ -2842,7 +2597,6 @@
         {
             "@id": "rec21:XC",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Bag, woven plastic, water resistant",
             "rdf:value": "XC",
             "unece:numericCode": "62 to 64"
@@ -2850,7 +2604,6 @@
         {
             "@id": "rec21:XD",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Bag, plastics film ",
             "rdf:value": "XD",
             "unece:numericCode": "62 to 64"
@@ -2858,7 +2611,6 @@
         {
             "@id": "rec21:XF",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Bag, textile, without inner coat/liner ",
             "rdf:value": "XF",
             "unece:numericCode": "62 to 64"
@@ -2866,7 +2618,6 @@
         {
             "@id": "rec21:XG",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Bag, textile, sift proof ",
             "rdf:value": "XG",
             "unece:numericCode": "62 to 64"
@@ -2874,7 +2625,6 @@
         {
             "@id": "rec21:XH",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Bag, textile, water resistant",
             "rdf:value": "XH",
             "unece:numericCode": "62 to 64"
@@ -2882,7 +2632,6 @@
         {
             "@id": "rec21:XJ",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Bag, paper, multi-wall ",
             "rdf:value": "XJ",
             "unece:numericCode": "62 to 64"
@@ -2890,7 +2639,6 @@
         {
             "@id": "rec21:XK",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Bag, paper, multi-wall, water resistant",
             "rdf:value": "XK",
             "unece:numericCode": "62 to 64"
@@ -2898,7 +2646,6 @@
         {
             "@id": "rec21:YA",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Composite packaging, plastic receptacle in steel drum",
             "rdf:value": "YA",
             "unece:numericCode": "33 or 34"
@@ -2906,7 +2653,6 @@
         {
             "@id": "rec21:YB",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Composite packaging, plastic receptacle in steel crate box",
             "rdf:value": "YB",
             "unece:numericCode": "24 or 25"
@@ -2914,7 +2660,6 @@
         {
             "@id": "rec21:YC",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Composite packaging, plastic receptacle in aluminium drum",
             "rdf:value": "YC",
             "unece:numericCode": "33 or 34"
@@ -2922,7 +2667,6 @@
         {
             "@id": "rec21:YD",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Composite packaging, plastic receptacle in aluminium crate",
             "rdf:value": "YD",
             "unece:numericCode": "24 or 25"
@@ -2930,7 +2674,6 @@
         {
             "@id": "rec21:YF",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Composite packaging, plastic receptacle in wooden box",
             "rdf:value": "YF",
             "unece:numericCode": "24 or 25"
@@ -2938,7 +2681,6 @@
         {
             "@id": "rec21:YG",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Composite packaging, plastic receptacle in plywood drum",
             "rdf:value": "YG",
             "unece:numericCode": "33 or 34"
@@ -2946,7 +2688,6 @@
         {
             "@id": "rec21:YH",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Composite packaging, plastic receptacle in plywood box ",
             "rdf:value": "YH",
             "unece:numericCode": "24 or 25"
@@ -2954,7 +2695,6 @@
         {
             "@id": "rec21:YJ",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Composite packaging, plastic receptacle in fibre drum",
             "rdf:value": "YJ",
             "unece:numericCode": "33 or 34"
@@ -2962,7 +2702,6 @@
         {
             "@id": "rec21:YK",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Composite packaging, plastic receptacle in fibreboard box",
             "rdf:value": "YK",
             "unece:numericCode": "24 or 25"
@@ -2970,7 +2709,6 @@
         {
             "@id": "rec21:YL",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Composite packaging, plastic receptacle in plastic drum",
             "rdf:value": "YL",
             "unece:numericCode": "33 or 34"
@@ -2978,7 +2716,6 @@
         {
             "@id": "rec21:YM",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Composite packaging, plastic receptacle in solid plastic box",
             "rdf:value": "YM",
             "unece:numericCode": "24 or 25"
@@ -2986,7 +2723,6 @@
         {
             "@id": "rec21:YN",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Composite packaging, glass receptacle in steel drum",
             "rdf:value": "YN",
             "unece:numericCode": "33 or 34"
@@ -2994,7 +2730,6 @@
         {
             "@id": "rec21:YP",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Composite packaging, glass receptacle in steel crate box",
             "rdf:value": "YP",
             "unece:numericCode": "24 or 25"
@@ -3002,7 +2737,6 @@
         {
             "@id": "rec21:YQ",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Composite packaging, glass receptacle in aluminium drum",
             "rdf:value": "YQ",
             "unece:numericCode": "33 or 34"
@@ -3010,7 +2744,6 @@
         {
             "@id": "rec21:YR",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Composite packaging, glass receptacle in aluminium crate",
             "rdf:value": "YR",
             "unece:numericCode": "24 or 25"
@@ -3018,7 +2751,6 @@
         {
             "@id": "rec21:YS",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Composite packaging, glass receptacle in wooden box",
             "rdf:value": "YS",
             "unece:numericCode": "24 or 25"
@@ -3026,7 +2758,6 @@
         {
             "@id": "rec21:YT",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Composite packaging, glass receptacle in plywood drum",
             "rdf:value": "YT",
             "unece:numericCode": "33 or 34"
@@ -3034,7 +2765,6 @@
         {
             "@id": "rec21:YV",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Composite packaging, glass receptacle in wickerwork hamper",
             "rdf:value": "YV",
             "unece:numericCode": "23"
@@ -3042,7 +2772,6 @@
         {
             "@id": "rec21:YW",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Composite packaging, glass receptacle in fibre drum",
             "rdf:value": "YW",
             "unece:numericCode": "33 or 34"
@@ -3050,7 +2779,6 @@
         {
             "@id": "rec21:YX",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Composite packaging, glass receptacle in fibreboard box ",
             "rdf:value": "YX",
             "unece:numericCode": "24 or 25"
@@ -3058,7 +2786,6 @@
         {
             "@id": "rec21:YY",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Composite packaging, glass receptacle in expandable plastic pack",
             "rdf:value": "YY",
             "unece:numericCode": "62 or 63"
@@ -3066,7 +2793,6 @@
         {
             "@id": "rec21:YZ",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Composite packaging, glass receptacle in solid plastic pack",
             "rdf:value": "YZ",
             "unece:numericCode": "23 or 24"
@@ -3074,7 +2800,6 @@
         {
             "@id": "rec21:ZA",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Intermediate bulk container, paper, multi-wall ",
             "rdf:value": "ZA",
             "unece:numericCode": "62 to 64"
@@ -3082,7 +2807,6 @@
         {
             "@id": "rec21:ZB",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Bag, large ",
             "rdf:value": "ZB",
             "unece:numericCode": "62 to 64"
@@ -3090,7 +2814,6 @@
         {
             "@id": "rec21:ZC",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Intermediate bulk container, paper, multi-wall, water resistant",
             "rdf:value": "ZC",
             "unece:numericCode": "62 to 64"
@@ -3098,7 +2821,6 @@
         {
             "@id": "rec21:ZD",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Intermediate bulk container, rigid plastic, with structural equipment, solids",
             "rdf:value": "ZD",
             "unece:numericCode": "23 to 26"
@@ -3106,7 +2828,6 @@
         {
             "@id": "rec21:ZF",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Intermediate bulk container, rigid plastic, freestanding, solids",
             "rdf:value": "ZF",
             "unece:numericCode": "23 to 26"
@@ -3114,7 +2835,6 @@
         {
             "@id": "rec21:ZG",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Intermediate bulk container, rigid plastic, with structural equipment, pressurised",
             "rdf:value": "ZG",
             "unece:numericCode": "23 to 26"
@@ -3122,7 +2842,6 @@
         {
             "@id": "rec21:ZH",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Intermediate bulk container, rigid plastic, freestanding, pressurised",
             "rdf:value": "ZH",
             "unece:numericCode": "23 to 26"
@@ -3130,7 +2849,6 @@
         {
             "@id": "rec21:ZJ",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Intermediate bulk container, rigid plastic, with structural equipment, liquids ",
             "rdf:value": "ZJ",
             "unece:numericCode": "23 to 26"
@@ -3138,7 +2856,6 @@
         {
             "@id": "rec21:ZK",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Intermediate bulk container, rigid plastic, freestanding, liquids",
             "rdf:value": "ZK",
             "unece:numericCode": "23 to 26"
@@ -3146,7 +2863,6 @@
         {
             "@id": "rec21:ZL",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Intermediate bulk container, composite, rigid plastic, solids",
             "rdf:value": "ZL",
             "unece:numericCode": "23 to 26"
@@ -3154,7 +2870,6 @@
         {
             "@id": "rec21:ZM",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Intermediate bulk container, composite, flexible plastic, solids",
             "rdf:value": "ZM",
             "unece:numericCode": "62 to 64"
@@ -3162,7 +2877,6 @@
         {
             "@id": "rec21:ZN",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Intermediate bulk container, composite, rigid plastic, pressurised ",
             "rdf:value": "ZN",
             "unece:numericCode": "23 to 26"
@@ -3170,7 +2884,6 @@
         {
             "@id": "rec21:ZP",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Intermediate bulk container, composite, flexible plastic, pressurised",
             "rdf:value": "ZP",
             "unece:numericCode": "62 to 64"
@@ -3178,7 +2891,6 @@
         {
             "@id": "rec21:ZQ",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Intermediate bulk container, composite, rigid plastic, liquids",
             "rdf:value": "ZQ",
             "unece:numericCode": "23 to 26"
@@ -3186,7 +2898,6 @@
         {
             "@id": "rec21:ZR",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Intermediate bulk container, composite, flexible plastic, liquids ",
             "rdf:value": "ZR",
             "unece:numericCode": "62 to 64"
@@ -3194,7 +2905,6 @@
         {
             "@id": "rec21:ZS",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Intermediate bulk container, composite",
             "rdf:value": "ZS",
             "unece:numericCode": "23 to 26 or\n62 to 64"
@@ -3202,7 +2912,6 @@
         {
             "@id": "rec21:ZT",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Intermediate bulk container, fibreboard",
             "rdf:value": "ZT",
             "unece:numericCode": "23 to 26"
@@ -3210,7 +2919,6 @@
         {
             "@id": "rec21:ZU",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Intermediate bulk container, flexible",
             "rdf:value": "ZU",
             "unece:numericCode": "23 to 26"
@@ -3218,7 +2926,6 @@
         {
             "@id": "rec21:ZV",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Intermediate bulk container, metal, other than steel",
             "rdf:value": "ZV",
             "unece:numericCode": "23 to 26"
@@ -3226,7 +2933,6 @@
         {
             "@id": "rec21:ZW",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Intermediate bulk container, natural wood",
             "rdf:value": "ZW",
             "unece:numericCode": "23 to 26"
@@ -3234,7 +2940,6 @@
         {
             "@id": "rec21:ZX",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Intermediate bulk container, plywood",
             "rdf:value": "ZX",
             "unece:numericCode": "23 to 26"
@@ -3242,7 +2947,6 @@
         {
             "@id": "rec21:ZY",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Intermediate bulk container, reconstituted wood",
             "rdf:value": "ZY",
             "unece:numericCode": "23 to 26"
@@ -3250,18 +2954,9 @@
         {
             "@id": "rec21:ZZ",
             "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
             "rdfs:label": "Mutually defined ",
             "rdf:value": "ZZ",
             "unece:numericCode": "0"
-        },
-        {
-            "@id": "rec21:",
-            "@type": "unece:UNECERec21Code",
-            "rdfs:comment": "",
-            "rdfs:label": "",
-            "rdf:value": "",
-            "unece:numericCode": ""
         }
     ]
 }
