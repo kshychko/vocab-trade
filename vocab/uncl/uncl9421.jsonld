@@ -1,0 +1,18 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl9421": "https://dmvc7xzscpizo.cloudfront.net/uncl9421#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl9421:1",
+            "@type": "unece:UNCL9421Code",
+            "rdfs:comment": "Amortization of tooling costs.",
+            "rdfs:label": "Amortization",
+            "rdf:value": "1"
+        }
+    ]
+}

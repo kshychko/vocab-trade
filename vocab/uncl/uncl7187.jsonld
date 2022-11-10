@@ -1,0 +1,1005 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl7187": "https://dmvc7xzscpizo.cloudfront.net/uncl7187#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl7187:1",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "A process to prepare wood.",
+            "rdfs:label": "Wood preparation",
+            "rdf:value": "1"
+        },
+        {
+            "@id": "uncl7187:2",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "Treatment with a caustic agent.",
+            "rdfs:label": "Causticizing",
+            "rdf:value": "2"
+        },
+        {
+            "@id": "uncl7187:3",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "A process of digesting.",
+            "rdfs:label": "Digesting",
+            "rdf:value": "3"
+        },
+        {
+            "@id": "uncl7187:4",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "Washing with brownstock.",
+            "rdfs:label": "Brownstock washing",
+            "rdf:value": "4"
+        },
+        {
+            "@id": "uncl7187:5",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "Removing colour by treatment with an oxidizing agent (a bleach).",
+            "rdfs:label": "Bleaching",
+            "rdf:value": "5"
+        },
+        {
+            "@id": "uncl7187:6",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of drying pulp.",
+            "rdfs:label": "Pulp drying",
+            "rdf:value": "6"
+        },
+        {
+            "@id": "uncl7187:7",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "Freezing process.",
+            "rdfs:label": "Freezing",
+            "rdf:value": "7"
+        },
+        {
+            "@id": "uncl7187:8",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The information to be processed is in structured form.",
+            "rdfs:label": "Processing of structured information",
+            "rdf:value": "8"
+        },
+        {
+            "@id": "uncl7187:9",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The information to be processed is identical and given in structured and unstructured form.",
+            "rdfs:label": "Processing of identical information in structured and unstructured form",
+            "rdf:value": "9"
+        },
+        {
+            "@id": "uncl7187:10",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The information to be processed is different and is given in structured and unstructured form.",
+            "rdfs:label": "Processing of different information in structured and unstructured form",
+            "rdf:value": "10"
+        },
+        {
+            "@id": "uncl7187:11",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The information to be processed is in unstructured form.",
+            "rdfs:label": "Processing of unstructured information",
+            "rdf:value": "11"
+        },
+        {
+            "@id": "uncl7187:12",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "Slaughter process.",
+            "rdfs:label": "Slaughter",
+            "rdf:value": "12"
+        },
+        {
+            "@id": "uncl7187:13",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "Packing process.",
+            "rdfs:label": "Packing",
+            "rdf:value": "13"
+        },
+        {
+            "@id": "uncl7187:14",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "Treated by heat sterilisation.",
+            "rdfs:label": "Heat sterilisation",
+            "rdf:value": "14"
+        },
+        {
+            "@id": "uncl7187:15",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "Treated by chemical sterilisation.",
+            "rdfs:label": "Chemical sterilisation",
+            "rdf:value": "15"
+        },
+        {
+            "@id": "uncl7187:16",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "Treated by fumigation.",
+            "rdfs:label": "Fumigation",
+            "rdf:value": "16"
+        },
+        {
+            "@id": "uncl7187:17",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "Treated by irradiation.",
+            "rdfs:label": "Irradiation",
+            "rdf:value": "17"
+        },
+        {
+            "@id": "uncl7187:18",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "Fueling process.",
+            "rdfs:label": "Fueling",
+            "rdf:value": "18"
+        },
+        {
+            "@id": "uncl7187:19",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "Code specifying the process of accepting the terms and conditions under which business will be conducted.",
+            "rdfs:label": "Acceptance of business conditions",
+            "rdf:value": "19"
+        },
+        {
+            "@id": "uncl7187:20",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The provision of a pathology service.",
+            "rdfs:label": "Pathology service",
+            "rdf:value": "20"
+        },
+        {
+            "@id": "uncl7187:21",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The provision of a radiology service.",
+            "rdfs:label": "Radiology service",
+            "rdf:value": "21"
+        },
+        {
+            "@id": "uncl7187:22",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The payment of a contribution.",
+            "rdfs:label": "Contribution payment",
+            "rdf:value": "22"
+        },
+        {
+            "@id": "uncl7187:23",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of providing a clinical donation.",
+            "rdfs:label": "Clinical donation",
+            "rdf:value": "23"
+        },
+        {
+            "@id": "uncl7187:24",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The provision of general medical services.",
+            "rdfs:label": "Medical general practice",
+            "rdf:value": "24"
+        },
+        {
+            "@id": "uncl7187:25",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The provision of specialist medical services, other than pathology or radiology.",
+            "rdfs:label": "Specialist medical service",
+            "rdf:value": "25"
+        },
+        {
+            "@id": "uncl7187:26",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process performed by a pharmacist to prepare and dispense medicine according to a prescription.",
+            "rdfs:label": "Dispensing of medicine",
+            "rdf:value": "26"
+        },
+        {
+            "@id": "uncl7187:27",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of developing plans.",
+            "rdfs:label": "Planning",
+            "rdf:value": "27"
+        },
+        {
+            "@id": "uncl7187:28",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of trading.",
+            "rdfs:label": "Trading",
+            "rdf:value": "28"
+        },
+        {
+            "@id": "uncl7187:29",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of operating.",
+            "rdfs:label": "Operating",
+            "rdf:value": "29"
+        },
+        {
+            "@id": "uncl7187:30",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of metering.",
+            "rdfs:label": "Metering",
+            "rdf:value": "30"
+        },
+        {
+            "@id": "uncl7187:31",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of settling.",
+            "rdfs:label": "Settlement",
+            "rdf:value": "31"
+        },
+        {
+            "@id": "uncl7187:32",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "To reduce a product's temperature to above 273K.",
+            "rdfs:label": "Chilling",
+            "rdf:value": "32"
+        },
+        {
+            "@id": "uncl7187:33",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "To gather or extract from a number of persons or sources.",
+            "rdfs:label": "Collecting",
+            "rdf:value": "33"
+        },
+        {
+            "@id": "uncl7187:34",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "To penetrate with or as if with an edged instrument.",
+            "rdfs:label": "Cutting",
+            "rdf:value": "34"
+        },
+        {
+            "@id": "uncl7187:35",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "To gather, catch, hunt, or kill.",
+            "rdfs:label": "Harvesting",
+            "rdf:value": "35"
+        },
+        {
+            "@id": "uncl7187:36",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "To examine officially.",
+            "rdfs:label": "Inspecting",
+            "rdf:value": "36"
+        },
+        {
+            "@id": "uncl7187:37",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "To make from raw materials by hand or by machinery.",
+            "rdfs:label": "Manufacturing",
+            "rdf:value": "37"
+        },
+        {
+            "@id": "uncl7187:38",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "To can, pickle, or similarly prepare for future use.",
+            "rdfs:label": "Preserving",
+            "rdf:value": "38"
+        },
+        {
+            "@id": "uncl7187:39",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "To subject to or handle through an established usually routine set of procedures.",
+            "rdfs:label": "Processing",
+            "rdf:value": "39"
+        },
+        {
+            "@id": "uncl7187:40",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "To make produce by growing.",
+            "rdfs:label": "Producing",
+            "rdf:value": "40"
+        },
+        {
+            "@id": "uncl7187:41",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "To extract by melting in order to extract proteins, fats, and other usable parts.",
+            "rdfs:label": "Rendering (agriculture)",
+            "rdf:value": "41"
+        },
+        {
+            "@id": "uncl7187:42",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "To take a sample of or from the product.",
+            "rdfs:label": "Sampling",
+            "rdf:value": "42"
+        },
+        {
+            "@id": "uncl7187:43",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "To place or leave in a location (as a warehouse, library, or computer memory) for preservation.",
+            "rdfs:label": "Storing",
+            "rdf:value": "43"
+        },
+        {
+            "@id": "uncl7187:44",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "To convey from one person, place, or situation to another.",
+            "rdfs:label": "Transferring",
+            "rdf:value": "44"
+        },
+        {
+            "@id": "uncl7187:45",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "To act upon e.g. with some agent.",
+            "rdfs:label": "Treating",
+            "rdf:value": "45"
+        },
+        {
+            "@id": "uncl7187:46",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "Treated by grinding.",
+            "rdfs:label": "Grinding",
+            "rdf:value": "46"
+        },
+        {
+            "@id": "uncl7187:47",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of adding secondary inhibitors.",
+            "rdfs:label": "Addition of secondary inhibitors",
+            "rdf:value": "47"
+        },
+        {
+            "@id": "uncl7187:48",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of recovering metals e.g. retorting, smelting, chemical process.",
+            "rdfs:label": "Metals recovery",
+            "rdf:value": "48"
+        },
+        {
+            "@id": "uncl7187:49",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of recovering solvents e.g. distillation, extraction.",
+            "rdfs:label": "Solvents recovery",
+            "rdf:value": "49"
+        },
+        {
+            "@id": "uncl7187:50",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of recovering (reclaiming) materials for reuse, e.g. acid regeneration, organics recovery.",
+            "rdfs:label": "Recovery for reuse",
+            "rdf:value": "50"
+        },
+        {
+            "@id": "uncl7187:51",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of destruction through the application of heat.",
+            "rdfs:label": "Incineration",
+            "rdf:value": "51"
+        },
+        {
+            "@id": "uncl7187:52",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of recovering a material for reuse as a fuel on the same site.",
+            "rdfs:label": "On-site fuel recovery",
+            "rdf:value": "52"
+        },
+        {
+            "@id": "uncl7187:53",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of blending fuels.",
+            "rdfs:label": "Fuel blending",
+            "rdf:value": "53"
+        },
+        {
+            "@id": "uncl7187:54",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of chemical reduction.",
+            "rdfs:label": "Chemical reduction",
+            "rdf:value": "54"
+        },
+        {
+            "@id": "uncl7187:55",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of destruction through the application of cyanide.",
+            "rdfs:label": "Cyanide destruction",
+            "rdf:value": "55"
+        },
+        {
+            "@id": "uncl7187:56",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of chemical oxidation.",
+            "rdfs:label": "Chemical oxidation",
+            "rdf:value": "56"
+        },
+        {
+            "@id": "uncl7187:57",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of wet air oxidation.",
+            "rdfs:label": "Wet air oxidation",
+            "rdf:value": "57"
+        },
+        {
+            "@id": "uncl7187:58",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of chemical precipitation.",
+            "rdfs:label": "Chemical precipitation",
+            "rdf:value": "58"
+        },
+        {
+            "@id": "uncl7187:59",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of biological treatment.",
+            "rdfs:label": "Biological treatment",
+            "rdf:value": "59"
+        },
+        {
+            "@id": "uncl7187:60",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of adsorption.",
+            "rdfs:label": "Adsorption",
+            "rdf:value": "60"
+        },
+        {
+            "@id": "uncl7187:61",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of air or steam stripping.",
+            "rdfs:label": "Air or steam stripping",
+            "rdf:value": "61"
+        },
+        {
+            "@id": "uncl7187:62",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of removing water.",
+            "rdfs:label": "Dewatering",
+            "rdf:value": "62"
+        },
+        {
+            "@id": "uncl7187:63",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of absorption.",
+            "rdfs:label": "Absorption",
+            "rdf:value": "63"
+        },
+        {
+            "@id": "uncl7187:64",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of stabilization e.g. chemical fixation.",
+            "rdfs:label": "Stabilization",
+            "rdf:value": "64"
+        },
+        {
+            "@id": "uncl7187:65",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of macro-encapsulation.",
+            "rdfs:label": "Macro-encapsulation",
+            "rdf:value": "65"
+        },
+        {
+            "@id": "uncl7187:66",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of neutralization.",
+            "rdfs:label": "Neutralization",
+            "rdf:value": "66"
+        },
+        {
+            "@id": "uncl7187:67",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of evaporation.",
+            "rdfs:label": "Evaporation",
+            "rdf:value": "67"
+        },
+        {
+            "@id": "uncl7187:68",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of phase separation.",
+            "rdfs:label": "Phase separation",
+            "rdf:value": "68"
+        },
+        {
+            "@id": "uncl7187:69",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "Treatment without specification.",
+            "rdfs:label": "Unspecified treatment",
+            "rdf:value": "69"
+        },
+        {
+            "@id": "uncl7187:70",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of disposing waste as landfill or in a surface impoundment that will be closed as landfill.",
+            "rdfs:label": "Landfill or surface impoundment disposal",
+            "rdf:value": "70"
+        },
+        {
+            "@id": "uncl7187:71",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of filling up a deep well or underground pocket.",
+            "rdfs:label": "Deep well or underground injection",
+            "rdf:value": "71"
+        },
+        {
+            "@id": "uncl7187:72",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of discharging materials into the public sewer system.",
+            "rdfs:label": "Discharge to sewer",
+            "rdf:value": "72"
+        },
+        {
+            "@id": "uncl7187:73",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of collecting and temporarily storing objects.",
+            "rdfs:label": "Collection and storage, temporary",
+            "rdf:value": "73"
+        },
+        {
+            "@id": "uncl7187:74",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of cold treatment.",
+            "rdfs:label": "Cold treatment",
+            "rdf:value": "74"
+        },
+        {
+            "@id": "uncl7187:75",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of hot air treatment.",
+            "rdfs:label": "Hot air treatment",
+            "rdf:value": "75"
+        },
+        {
+            "@id": "uncl7187:76",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of hot water treatment.",
+            "rdfs:label": "Hot water treatment",
+            "rdf:value": "76"
+        },
+        {
+            "@id": "uncl7187:77",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of treating with methyl bromide.",
+            "rdfs:label": "Methyl bromide treatment",
+            "rdf:value": "77"
+        },
+        {
+            "@id": "uncl7187:78",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of treating with phosphine.",
+            "rdfs:label": "Phosphine treatment",
+            "rdf:value": "78"
+        },
+        {
+            "@id": "uncl7187:79",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of removing pulp.",
+            "rdfs:label": "Depulping",
+            "rdf:value": "79"
+        },
+        {
+            "@id": "uncl7187:80",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of removing by hand.",
+            "rdfs:label": "Manual removal",
+            "rdf:value": "80"
+        },
+        {
+            "@id": "uncl7187:81",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of fumigating with sulfuryl fluoride.",
+            "rdfs:label": "Sulfuryl fluoride fumigation",
+            "rdf:value": "81"
+        },
+        {
+            "@id": "uncl7187:82",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of treating with steam.",
+            "rdfs:label": "Steam treatment",
+            "rdf:value": "82"
+        },
+        {
+            "@id": "uncl7187:83",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of treating with vapor heat.",
+            "rdfs:label": "Vapor heat",
+            "rdf:value": "83"
+        },
+        {
+            "@id": "uncl7187:84",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of assembling.",
+            "rdfs:label": "Assembling",
+            "rdf:value": "84"
+        },
+        {
+            "@id": "uncl7187:85",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of boiling.",
+            "rdfs:label": "Boiling",
+            "rdf:value": "85"
+        },
+        {
+            "@id": "uncl7187:86",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of sealing in an airtight container.",
+            "rdfs:label": "Canning",
+            "rdf:value": "86"
+        },
+        {
+            "@id": "uncl7187:87",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of chipping.",
+            "rdfs:label": "Chipping",
+            "rdf:value": "87"
+        },
+        {
+            "@id": "uncl7187:88",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of making clean.",
+            "rdfs:label": "Cleaning",
+            "rdf:value": "88"
+        },
+        {
+            "@id": "uncl7187:89",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of coating.",
+            "rdfs:label": "Coating",
+            "rdf:value": "89"
+        },
+        {
+            "@id": "uncl7187:90",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of dehydrating.",
+            "rdfs:label": "Dehydration",
+            "rdf:value": "90"
+        },
+        {
+            "@id": "uncl7187:91",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of devitalizing.",
+            "rdfs:label": "Devitalization",
+            "rdf:value": "91"
+        },
+        {
+            "@id": "uncl7187:92",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of disinfecting.",
+            "rdfs:label": "Disinfection",
+            "rdf:value": "92"
+        },
+        {
+            "@id": "uncl7187:93",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of drying.",
+            "rdfs:label": "Drying",
+            "rdf:value": "93"
+        },
+        {
+            "@id": "uncl7187:94",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of dyeing.",
+            "rdfs:label": "Dyeing",
+            "rdf:value": "94"
+        },
+        {
+            "@id": "uncl7187:95",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of heat treatment.",
+            "rdfs:label": "Heat treatment",
+            "rdf:value": "95"
+        },
+        {
+            "@id": "uncl7187:96",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of removing husk.",
+            "rdfs:label": "Husking",
+            "rdf:value": "96"
+        },
+        {
+            "@id": "uncl7187:97",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of liquifying.",
+            "rdfs:label": "Liquification",
+            "rdf:value": "97"
+        },
+        {
+            "@id": "uncl7187:98",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of removing shells.",
+            "rdfs:label": "Shelling",
+            "rdf:value": "98"
+        },
+        {
+            "@id": "uncl7187:99",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of washing.",
+            "rdfs:label": "Washing",
+            "rdf:value": "99"
+        },
+        {
+            "@id": "uncl7187:100",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of using bio remediation for treating waste e.g. Tilling the land for aerating the waste.",
+            "rdfs:label": "Land treatment or application",
+            "rdf:value": "100"
+        },
+        {
+            "@id": "uncl7187:101",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "A process of heating a food, usually liquid, to a specific temperature for a definite length of time, and then cooling it immediately.",
+            "rdfs:label": "Pasteurization",
+            "rdf:value": "101"
+        },
+        {
+            "@id": "uncl7187:102",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of biological recycling.",
+            "rdfs:label": "Biological recycling",
+            "rdf:value": "102"
+        },
+        {
+            "@id": "uncl7187:103",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of biological refining.",
+            "rdfs:label": "Biological refining",
+            "rdf:value": "103"
+        },
+        {
+            "@id": "uncl7187:104",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of blending.",
+            "rdfs:label": "Blending",
+            "rdf:value": "104"
+        },
+        {
+            "@id": "uncl7187:105",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of breeding.",
+            "rdfs:label": "Breeding",
+            "rdf:value": "105"
+        },
+        {
+            "@id": "uncl7187:106",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of chemical recycling.",
+            "rdfs:label": "Chemical recycling",
+            "rdf:value": "106"
+        },
+        {
+            "@id": "uncl7187:107",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of combing (e.g. in textiles named 'top making' of fibres).",
+            "rdfs:label": "Combing",
+            "rdf:value": "107"
+        },
+        {
+            "@id": "uncl7187:108",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of managing the growth, development, and yield ofagricultural crops.",
+            "rdfs:label": "Agricultural cultivation",
+            "rdf:value": "108"
+        },
+        {
+            "@id": "uncl7187:109",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of designing.",
+            "rdfs:label": "Designing",
+            "rdf:value": "109"
+        },
+        {
+            "@id": "uncl7187:110",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of disposing.",
+            "rdfs:label": "Disposing",
+            "rdf:value": "110"
+        },
+        {
+            "@id": "uncl7187:111",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of shaping a material by forcing it through a hole.",
+            "rdfs:label": "Extrusion",
+            "rdf:value": "111"
+        },
+        {
+            "@id": "uncl7187:112",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of applying of fatliquors (e.g. for lubricating and softening hides/skins).",
+            "rdfs:label": "Fatliquoring",
+            "rdf:value": "112"
+        },
+        {
+            "@id": "uncl7187:113",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of product finishing.",
+            "rdfs:label": "Product finishing",
+            "rdf:value": "113"
+        },
+        {
+            "@id": "uncl7187:114",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of ginning (e.g. cleaning cotton, flax fibres, etc).",
+            "rdfs:label": "Ginning",
+            "rdf:value": "114"
+        },
+        {
+            "@id": "uncl7187:115",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of grading.",
+            "rdfs:label": "Grading",
+            "rdf:value": "115"
+        },
+        {
+            "@id": "uncl7187:116",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of hatching",
+            "rdfs:label": "Hatching",
+            "rdf:value": "116"
+        },
+        {
+            "@id": "uncl7187:117",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of marketing.",
+            "rdfs:label": "Marketing",
+            "rdf:value": "117"
+        },
+        {
+            "@id": "uncl7187:118",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of mechanical recycling.",
+            "rdfs:label": "Mechanical recycling",
+            "rdf:value": "118"
+        },
+        {
+            "@id": "uncl7187:119",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of reacting monomer molecules together in a chemical reaction.",
+            "rdfs:label": "Polymerisation",
+            "rdf:value": "119"
+        },
+        {
+            "@id": "uncl7187:120",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of pre-treatment.",
+            "rdfs:label": "Pre-treatment",
+            "rdf:value": "120"
+        },
+        {
+            "@id": "uncl7187:121",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of printing.",
+            "rdfs:label": "Printing",
+            "rdf:value": "121"
+        },
+        {
+            "@id": "uncl7187:122",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of dissolving into a liquid, e.g. wood pulp or cotton linters into water.",
+            "rdfs:label": "Pulp dissolving",
+            "rdf:value": "122"
+        },
+        {
+            "@id": "uncl7187:123",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of checking quality, e.g. of products.",
+            "rdfs:label": "Quality checking",
+            "rdf:value": "123"
+        },
+        {
+            "@id": "uncl7187:124",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of recycling.",
+            "rdfs:label": "Recycling",
+            "rdf:value": "124"
+        },
+        {
+            "@id": "uncl7187:125",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of refining.",
+            "rdfs:label": "Refining",
+            "rdf:value": "125"
+        },
+        {
+            "@id": "uncl7187:126",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of retailing.",
+            "rdfs:label": "Retailing",
+            "rdf:value": "126"
+        },
+        {
+            "@id": "uncl7187:127",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of a secondtanning stage in which differenttanningagents are generally used in comparison to the initial tanning process.",
+            "rdfs:label": "Retanning",
+            "rdf:value": "127"
+        },
+        {
+            "@id": "uncl7187:128",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of employing the action of bacteria and moisture on plants to dissolve the cellular tissues and substances.",
+            "rdfs:label": "Retting",
+            "rdf:value": "128"
+        },
+        {
+            "@id": "uncl7187:129",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process by which activities are associated withreturns.",
+            "rdfs:label": "Returns management",
+            "rdf:value": "129"
+        },
+        {
+            "@id": "uncl7187:130",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of reducing wrinkles from hides/skins.",
+            "rdfs:label": "Setting out leather",
+            "rdf:value": "130"
+        },
+        {
+            "@id": "uncl7187:131",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of making the thickness of hides uniform.",
+            "rdfs:label": "Shaving hides",
+            "rdf:value": "131"
+        },
+        {
+            "@id": "uncl7187:132",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of shearing",
+            "rdfs:label": "Shearing",
+            "rdf:value": "132"
+        },
+        {
+            "@id": "uncl7187:133",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process by which cocoon baves arereeledtogether to produce a single thread.",
+            "rdfs:label": "Silk reeling",
+            "rdf:value": "133"
+        },
+        {
+            "@id": "uncl7187:134",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of softening.",
+            "rdfs:label": "Softening",
+            "rdf:value": "134"
+        },
+        {
+            "@id": "uncl7187:135",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of sorting.",
+            "rdfs:label": "Sorting",
+            "rdf:value": "135"
+        },
+        {
+            "@id": "uncl7187:136",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of spinning.",
+            "rdfs:label": "Spinning",
+            "rdf:value": "136"
+        },
+        {
+            "@id": "uncl7187:137",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of splitting.",
+            "rdfs:label": "Splitting",
+            "rdf:value": "137"
+        },
+        {
+            "@id": "uncl7187:138",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of treating hides or skins with tanning agents.",
+            "rdfs:label": "Tanning",
+            "rdf:value": "138"
+        },
+        {
+            "@id": "uncl7187:139",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of thermo mechanical recycling.",
+            "rdfs:label": "Thermo mechanical recycling",
+            "rdf:value": "139"
+        },
+        {
+            "@id": "uncl7187:140",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of warehousing.",
+            "rdfs:label": "Warehousing",
+            "rdf:value": "140"
+        },
+        {
+            "@id": "uncl7187:141",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "The process of weaving",
+            "rdfs:label": "Weaving",
+            "rdf:value": "141"
+        },
+        {
+            "@id": "uncl7187:ZZZ",
+            "@type": "unece:UNCL7187Code",
+            "rdfs:comment": "Process type mutually agreed between interchanging parties.",
+            "rdfs:label": "Mutually defined",
+            "rdf:value": "ZZZ"
+        }
+    ]
+}

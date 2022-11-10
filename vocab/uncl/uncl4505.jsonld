@@ -1,0 +1,67 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl4505": "https://dmvc7xzscpizo.cloudfront.net/uncl4505#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl4505:1",
+            "@type": "unece:UNCL4505Code",
+            "rdfs:comment": "Invoices in currencies other than the currency of the credit cover are expected.",
+            "rdfs:label": "Multi-currency credit cover",
+            "rdf:value": "1"
+        },
+        {
+            "@id": "uncl4505:2",
+            "@type": "unece:UNCL4505Code",
+            "rdfs:comment": "Seller requests new limit.",
+            "rdfs:label": "Request new limit",
+            "rdf:value": "2"
+        },
+        {
+            "@id": "uncl4505:3",
+            "@type": "unece:UNCL4505Code",
+            "rdfs:comment": "Seller requests increase of existing limit.",
+            "rdfs:label": "Request increased limit",
+            "rdf:value": "3"
+        },
+        {
+            "@id": "uncl4505:4",
+            "@type": "unece:UNCL4505Code",
+            "rdfs:comment": "Request for information to be used during negotiation with prospective clients (sellers).",
+            "rdfs:label": "Request for preliminary assessment",
+            "rdf:value": "4"
+        },
+        {
+            "@id": "uncl4505:5",
+            "@type": "unece:UNCL4505Code",
+            "rdfs:comment": "Request for opening new account only.",
+            "rdfs:label": "Request for new account only",
+            "rdf:value": "5"
+        },
+        {
+            "@id": "uncl4505:6",
+            "@type": "unece:UNCL4505Code",
+            "rdfs:comment": "Request to cancel an existing credit cover.",
+            "rdfs:label": "Cancellation",
+            "rdf:value": "6"
+        },
+        {
+            "@id": "uncl4505:7",
+            "@type": "unece:UNCL4505Code",
+            "rdfs:comment": "Request to reduce an existing credit cover.",
+            "rdfs:label": "Reduction",
+            "rdf:value": "7"
+        },
+        {
+            "@id": "uncl4505:8",
+            "@type": "unece:UNCL4505Code",
+            "rdfs:comment": "Request to prolong an existing credit cover.",
+            "rdfs:label": "Prolongation of credit cover",
+            "rdf:value": "8"
+        }
+    ]
+}

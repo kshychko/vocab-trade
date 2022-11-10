@@ -1,0 +1,95 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl6321": "https://dmvc7xzscpizo.cloudfront.net/uncl6321#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl6321:3",
+            "@type": "unece:UNCL6321Code",
+            "rdfs:comment": "The measurement is approximately equal to that specified.",
+            "rdfs:label": "Approximately",
+            "rdf:value": "3"
+        },
+        {
+            "@id": "uncl6321:4",
+            "@type": "unece:UNCL6321Code",
+            "rdfs:comment": "The measurement is equal to that specified.",
+            "rdfs:label": "Equal to",
+            "rdf:value": "4"
+        },
+        {
+            "@id": "uncl6321:5",
+            "@type": "unece:UNCL6321Code",
+            "rdfs:comment": "The measurement is greater than or equal to that specified.",
+            "rdfs:label": "Greater than or equal to",
+            "rdf:value": "5"
+        },
+        {
+            "@id": "uncl6321:6",
+            "@type": "unece:UNCL6321Code",
+            "rdfs:comment": "The measurement is greater than that specified.",
+            "rdfs:label": "Greater than",
+            "rdf:value": "6"
+        },
+        {
+            "@id": "uncl6321:7",
+            "@type": "unece:UNCL6321Code",
+            "rdfs:comment": "The measurement is less than that specified.",
+            "rdfs:label": "Less than",
+            "rdf:value": "7"
+        },
+        {
+            "@id": "uncl6321:8",
+            "@type": "unece:UNCL6321Code",
+            "rdfs:comment": "The measurement is less than or equal to that specified.",
+            "rdfs:label": "Less than or equal to",
+            "rdf:value": "8"
+        },
+        {
+            "@id": "uncl6321:9",
+            "@type": "unece:UNCL6321Code",
+            "rdfs:comment": "Average value for a specific series of readings.",
+            "rdfs:label": "Average value",
+            "rdf:value": "9"
+        },
+        {
+            "@id": "uncl6321:10",
+            "@type": "unece:UNCL6321Code",
+            "rdfs:comment": "The measurement is not equal to that specified.",
+            "rdfs:label": "Not equal to",
+            "rdf:value": "10"
+        },
+        {
+            "@id": "uncl6321:12",
+            "@type": "unece:UNCL6321Code",
+            "rdfs:comment": "The measurement reported is a true value.",
+            "rdfs:label": "True value",
+            "rdf:value": "12"
+        },
+        {
+            "@id": "uncl6321:13",
+            "@type": "unece:UNCL6321Code",
+            "rdfs:comment": "The measurement reported is an observed value.",
+            "rdfs:label": "Observed value",
+            "rdf:value": "13"
+        },
+        {
+            "@id": "uncl6321:14",
+            "@type": "unece:UNCL6321Code",
+            "rdfs:comment": "The measurement marked on the object.",
+            "rdfs:label": "Marked",
+            "rdf:value": "14"
+        },
+        {
+            "@id": "uncl6321:15",
+            "@type": "unece:UNCL6321Code",
+            "rdfs:comment": "The measurement reported is out of range.",
+            "rdfs:label": "Out of range",
+            "rdf:value": "15"
+        }
+    ]
+}

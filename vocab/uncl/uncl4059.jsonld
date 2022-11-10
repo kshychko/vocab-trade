@@ -1,0 +1,18 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl4059": "https://dmvc7xzscpizo.cloudfront.net/uncl4059#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl4059:1",
+            "@type": "unece:UNCL4059Code",
+            "rdfs:comment": "Clause relating to an insurance policy.",
+            "rdfs:label": "Insurance policy",
+            "rdf:value": "1"
+        }
+    ]
+}

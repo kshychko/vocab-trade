@@ -1,0 +1,74 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl3477": "https://dmvc7xzscpizo.cloudfront.net/uncl3477#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl3477:1",
+            "@type": "unece:UNCL3477Code",
+            "rdfs:comment": "Address street name followed by address number.",
+            "rdfs:label": "Street name followed by number",
+            "rdf:value": "1"
+        },
+        {
+            "@id": "uncl3477:2",
+            "@type": "unece:UNCL3477Code",
+            "rdfs:comment": "House number followed by type of road and name of the road.",
+            "rdfs:label": "Number, road type, road name in this sequence",
+            "rdf:value": "2"
+        },
+        {
+            "@id": "uncl3477:3",
+            "@type": "unece:UNCL3477Code",
+            "rdfs:comment": "Type of the road followed by name of the road and the house number.",
+            "rdfs:label": "Road type, road name, number in this sequence",
+            "rdf:value": "3"
+        },
+        {
+            "@id": "uncl3477:4",
+            "@type": "unece:UNCL3477Code",
+            "rdfs:comment": "Post office box.",
+            "rdfs:label": "Post office box",
+            "rdf:value": "4"
+        },
+        {
+            "@id": "uncl3477:5",
+            "@type": "unece:UNCL3477Code",
+            "rdfs:comment": "Unstructured address, comprising an unspecified mix of components.",
+            "rdfs:label": "Unstructured address",
+            "rdf:value": "5"
+        },
+        {
+            "@id": "uncl3477:6",
+            "@type": "unece:UNCL3477Code",
+            "rdfs:comment": "Identifies the address component as street name followed by number, building, and suite in this sequence.",
+            "rdfs:label": "Street name followed by number, building, suite",
+            "rdf:value": "6"
+        },
+        {
+            "@id": "uncl3477:7",
+            "@type": "unece:UNCL3477Code",
+            "rdfs:comment": "Identifies the address component as the rural route number.",
+            "rdfs:label": "Rural route number",
+            "rdf:value": "7"
+        },
+        {
+            "@id": "uncl3477:8",
+            "@type": "unece:UNCL3477Code",
+            "rdfs:comment": "Identifies the address component as the post office drawer.",
+            "rdfs:label": "Post office drawer number",
+            "rdf:value": "8"
+        },
+        {
+            "@id": "uncl3477:9",
+            "@type": "unece:UNCL3477Code",
+            "rdfs:comment": "Identifies the address component as building followed by suite.",
+            "rdfs:label": "Building name followed by suite",
+            "rdf:value": "9"
+        }
+    ]
+}

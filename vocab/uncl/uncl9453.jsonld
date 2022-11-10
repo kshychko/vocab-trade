@@ -1,0 +1,32 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl9453": "https://dmvc7xzscpizo.cloudfront.net/uncl9453#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl9453:1",
+            "@type": "unece:UNCL9453Code",
+            "rdfs:comment": "The code value is from an external code list.",
+            "rdfs:label": "External",
+            "rdf:value": "1"
+        },
+        {
+            "@id": "uncl9453:2",
+            "@type": "unece:UNCL9453Code",
+            "rdfs:comment": "The code value is from the code list specified within the standard.",
+            "rdfs:label": "Standard",
+            "rdf:value": "2"
+        },
+        {
+            "@id": "uncl9453:3",
+            "@type": "unece:UNCL9453Code",
+            "rdfs:comment": "The code value is taken from a non-published code list.",
+            "rdfs:label": "Non-published",
+            "rdf:value": "3"
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl8323": "https://dmvc7xzscpizo.cloudfront.net/uncl8323#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl8323:1",
+            "@type": "unece:UNCL8323Code",
+            "rdfs:comment": "The transport movement is to export the goods from the country.",
+            "rdfs:label": "Export",
+            "rdf:value": "1"
+        },
+        {
+            "@id": "uncl8323:2",
+            "@type": "unece:UNCL8323Code",
+            "rdfs:comment": "The transport movement is to import the goods into the country.",
+            "rdfs:label": "Import",
+            "rdf:value": "2"
+        },
+        {
+            "@id": "uncl8323:3",
+            "@type": "unece:UNCL8323Code",
+            "rdfs:comment": "The cargo is moving in transit through a country and will not become part of the commerce of that country.",
+            "rdfs:label": "Transit",
+            "rdf:value": "3"
+        },
+        {
+            "@id": "uncl8323:4",
+            "@type": "unece:UNCL8323Code",
+            "rdfs:comment": "The cargo is being moved by more than one transport means in succession under the responsibility of the same carrier.",
+            "rdfs:label": "Relay",
+            "rdf:value": "4"
+        },
+        {
+            "@id": "uncl8323:5",
+            "@type": "unece:UNCL8323Code",
+            "rdfs:comment": "The cargo is being moved by more than one transport means in succession.",
+            "rdfs:label": "Transshipment",
+            "rdf:value": "5"
+        }
+    ]
+}

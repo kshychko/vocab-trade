@@ -1,0 +1,32 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl4049": "https://dmvc7xzscpizo.cloudfront.net/uncl4049#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl4049:1",
+            "@type": "unece:UNCL4049Code",
+            "rdfs:comment": "The connection is guaranteed under any circumstances.",
+            "rdfs:label": "Connection guaranteed",
+            "rdf:value": "1"
+        },
+        {
+            "@id": "uncl4049:2",
+            "@type": "unece:UNCL4049Code",
+            "rdfs:comment": "The connection is normally guaranteed, although the connection time available is shorter than the location connection time.",
+            "rdfs:label": "Connection normally guaranteed",
+            "rdf:value": "2"
+        },
+        {
+            "@id": "uncl4049:3",
+            "@type": "unece:UNCL4049Code",
+            "rdfs:comment": "The connetion is not guaranteed, although the connection time available is longer than the location connection time.",
+            "rdfs:label": "Connection not guaranteed",
+            "rdf:value": "3"
+        }
+    ]
+}

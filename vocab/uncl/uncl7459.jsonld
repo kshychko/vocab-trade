@@ -1,0 +1,46 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl7459": "https://dmvc7xzscpizo.cloudfront.net/uncl7459#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl7459:1",
+            "@type": "unece:UNCL7459Code",
+            "rdfs:comment": "Actual or intended arrangement for same-day procedure with overnight stay.",
+            "rdfs:label": "Same-day patient with overnight stay",
+            "rdf:value": "1"
+        },
+        {
+            "@id": "uncl7459:2",
+            "@type": "unece:UNCL7459Code",
+            "rdfs:comment": "Actual or intended arrangement for same-day procedure without overnight stay.",
+            "rdfs:label": "Same-day patient without overnight stay",
+            "rdf:value": "2"
+        },
+        {
+            "@id": "uncl7459:3",
+            "@type": "unece:UNCL7459Code",
+            "rdfs:comment": "Actual or intended arrangement for procedure, other than a same-day procedure, involving overnight stay.",
+            "rdfs:label": "Non same-day patient with overnight stay",
+            "rdf:value": "3"
+        },
+        {
+            "@id": "uncl7459:4",
+            "@type": "unece:UNCL7459Code",
+            "rdfs:comment": "Visit to an outreach clinical facility.",
+            "rdfs:label": "Outreach clinic visit",
+            "rdf:value": "4"
+        },
+        {
+            "@id": "uncl7459:5",
+            "@type": "unece:UNCL7459Code",
+            "rdfs:comment": "Provision of care to the patient in the patient's home.",
+            "rdfs:label": "Home care visit",
+            "rdf:value": "5"
+        }
+    ]
+}

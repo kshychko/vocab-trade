@@ -1,0 +1,39 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl8395": "https://dmvc7xzscpizo.cloudfront.net/uncl8395#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl8395:1",
+            "@type": "unece:UNCL8395Code",
+            "rdfs:comment": "The freight charges involved with returning of the packaging are to be paid by the customer.",
+            "rdfs:label": "Paid by customer",
+            "rdf:value": "1"
+        },
+        {
+            "@id": "uncl8395:2",
+            "@type": "unece:UNCL8395Code",
+            "rdfs:comment": "There is no charge for the freight of returning the packaging.",
+            "rdfs:label": "Free",
+            "rdf:value": "2"
+        },
+        {
+            "@id": "uncl8395:3",
+            "@type": "unece:UNCL8395Code",
+            "rdfs:comment": "The responsibility for the freight for returning the packaging is to be paid by the supplier.",
+            "rdfs:label": "Paid by supplier",
+            "rdf:value": "3"
+        },
+        {
+            "@id": "uncl8395:ZZZ",
+            "@type": "unece:UNCL8395Code",
+            "rdfs:comment": "A code assigned within a code list to be used on an interim basis and as defined among trading partners until a precise code can be assigned to the code list.",
+            "rdfs:label": "Mutually defined",
+            "rdf:value": "ZZZ"
+        }
+    ]
+}

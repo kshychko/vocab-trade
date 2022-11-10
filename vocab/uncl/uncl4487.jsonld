@@ -1,0 +1,116 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl4487": "https://dmvc7xzscpizo.cloudfront.net/uncl4487#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl4487:1",
+            "@type": "unece:UNCL4487Code",
+            "rdfs:comment": "Payment under open account terms.",
+            "rdfs:label": "Clean payment",
+            "rdf:value": "1"
+        },
+        {
+            "@id": "uncl4487:2",
+            "@type": "unece:UNCL4487Code",
+            "rdfs:comment": "The transaction is a pre-authorised direct debit or direct debit request, i.e. a direct debit for which there is an agreed mandate that allows the creditor to draw funds from the debtor.",
+            "rdfs:label": "Pre-authorised direct debit or direct debit request",
+            "rdf:value": "2"
+        },
+        {
+            "@id": "uncl4487:3",
+            "@type": "unece:UNCL4487Code",
+            "rdfs:comment": "The transaction is a non pre-authorised direct debit or direct debit request, i.e. a direct debit for which there is no prior agreed mandate allowing the creditor to draw funds from the debtor.",
+            "rdfs:label": "Non pre-authorised direct debit or direct debit request",
+            "rdf:value": "3"
+        },
+        {
+            "@id": "uncl4487:4",
+            "@type": "unece:UNCL4487Code",
+            "rdfs:comment": "Payment relating to a documentary settlement.",
+            "rdfs:label": "Documentary payment",
+            "rdf:value": "4"
+        },
+        {
+            "@id": "uncl4487:5",
+            "@type": "unece:UNCL4487Code",
+            "rdfs:comment": "The documentary credit is irrevocable.",
+            "rdfs:label": "Irrevocable documentary credit",
+            "rdf:value": "5"
+        },
+        {
+            "@id": "uncl4487:6",
+            "@type": "unece:UNCL4487Code",
+            "rdfs:comment": "The documentary credit is revocable.",
+            "rdfs:label": "Revocable documentary credit",
+            "rdf:value": "6"
+        },
+        {
+            "@id": "uncl4487:7",
+            "@type": "unece:UNCL4487Code",
+            "rdfs:comment": "The documentary credit is irrevocable and may be transferred to a second beneficiary.",
+            "rdfs:label": "Irrevocable and transferable documentary credit",
+            "rdf:value": "7"
+        },
+        {
+            "@id": "uncl4487:8",
+            "@type": "unece:UNCL4487Code",
+            "rdfs:comment": "The documentary credit is revocable and may be transferred to a second beneficiary.",
+            "rdfs:label": "Revocable and transferable documentary credit",
+            "rdf:value": "8"
+        },
+        {
+            "@id": "uncl4487:9",
+            "@type": "unece:UNCL4487Code",
+            "rdfs:comment": "Revocable and transferable standby letter of credit.",
+            "rdfs:label": "Revocable and transferable standby letter of credit",
+            "rdf:value": "9"
+        },
+        {
+            "@id": "uncl4487:10",
+            "@type": "unece:UNCL4487Code",
+            "rdfs:comment": "Irrevocable and transferable standby letter of credit.",
+            "rdfs:label": "Irrevocable and transferable standby letter of credit",
+            "rdf:value": "10"
+        },
+        {
+            "@id": "uncl4487:11",
+            "@type": "unece:UNCL4487Code",
+            "rdfs:comment": "Revocable standby letter of credit.",
+            "rdfs:label": "Revocable standby letter of credit",
+            "rdf:value": "11"
+        },
+        {
+            "@id": "uncl4487:12",
+            "@type": "unece:UNCL4487Code",
+            "rdfs:comment": "Irrevocable standby letter of credit.",
+            "rdfs:label": "Irrevocable standby letter of credit",
+            "rdf:value": "12"
+        },
+        {
+            "@id": "uncl4487:13",
+            "@type": "unece:UNCL4487Code",
+            "rdfs:comment": "The transaction is a direct debit about which the debtor has advised his bank prior to the creditor raising the direct debit, giving his bank permission to debit his account.",
+            "rdfs:label": "Pre-advised direct debit",
+            "rdf:value": "13"
+        },
+        {
+            "@id": "uncl4487:14",
+            "@type": "unece:UNCL4487Code",
+            "rdfs:comment": "The transaction is a direct debit about which the debtor has not advised his bank prior to the creditor raising the direct debit.",
+            "rdfs:label": "Non pre-advised direct debit",
+            "rdf:value": "14"
+        },
+        {
+            "@id": "uncl4487:15",
+            "@type": "unece:UNCL4487Code",
+            "rdfs:comment": "The transaction is an irrevocable direct debit, from bank A to bank B, which reimburses bank A that has by agreement provided cash to a customer of bank B.",
+            "rdfs:label": "Irrevocable reimbursement of cash withdrawal",
+            "rdf:value": "15"
+        }
+    ]
+}

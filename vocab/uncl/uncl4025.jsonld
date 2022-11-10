@@ -1,0 +1,396 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl4025": "https://dmvc7xzscpizo.cloudfront.net/uncl4025#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl4025:AAA",
+            "@type": "unece:UNCL4025Code",
+            "rdfs:comment": "The business function is to specify payment terms.",
+            "rdfs:label": "Payment terms",
+            "rdf:value": "AAA"
+        },
+        {
+            "@id": "uncl4025:AAB",
+            "@type": "unece:UNCL4025Code",
+            "rdfs:comment": "The reason for the transaction is medical services.",
+            "rdfs:label": "Medical services",
+            "rdf:value": "AAB"
+        },
+        {
+            "@id": "uncl4025:AAC",
+            "@type": "unece:UNCL4025Code",
+            "rdfs:comment": "The reason for the transaction is for multiple types of services.",
+            "rdfs:label": "Multiple types of service",
+            "rdf:value": "AAC"
+        },
+        {
+            "@id": "uncl4025:AAD",
+            "@type": "unece:UNCL4025Code",
+            "rdfs:comment": "The reason for the transaction is for types of services not specified elsewhere.",
+            "rdfs:label": "Not otherwise specified",
+            "rdf:value": "AAD"
+        },
+        {
+            "@id": "uncl4025:AAE",
+            "@type": "unece:UNCL4025Code",
+            "rdfs:comment": "The reason for the transaction is vision care services.",
+            "rdfs:label": "Vision care",
+            "rdf:value": "AAE"
+        },
+        {
+            "@id": "uncl4025:AAF",
+            "@type": "unece:UNCL4025Code",
+            "rdfs:comment": "The reason for the transaction is for home health care services.",
+            "rdfs:label": "Home health care",
+            "rdf:value": "AAF"
+        },
+        {
+            "@id": "uncl4025:AAG",
+            "@type": "unece:UNCL4025Code",
+            "rdfs:comment": "The reason for the transaction is for hospital care services.",
+            "rdfs:label": "Hospital care",
+            "rdf:value": "AAG"
+        },
+        {
+            "@id": "uncl4025:AAH",
+            "@type": "unece:UNCL4025Code",
+            "rdfs:comment": "The reason for the transaction is for intermediate care facility services.",
+            "rdfs:label": "Intermediate care facility",
+            "rdf:value": "AAH"
+        },
+        {
+            "@id": "uncl4025:AAI",
+            "@type": "unece:UNCL4025Code",
+            "rdfs:comment": "The reason for the transaction is for long-term care facility services.",
+            "rdfs:label": "Long-term care facility",
+            "rdf:value": "AAI"
+        },
+        {
+            "@id": "uncl4025:AAJ",
+            "@type": "unece:UNCL4025Code",
+            "rdfs:comment": "The reason for the transaction is for convalescent care facility services.",
+            "rdfs:label": "Convalescent care facility",
+            "rdf:value": "AAJ"
+        },
+        {
+            "@id": "uncl4025:AAK",
+            "@type": "unece:UNCL4025Code",
+            "rdfs:comment": "The reason for the transaction is for health care anesthesia services.",
+            "rdfs:label": "Anesthesia service",
+            "rdf:value": "AAK"
+        },
+        {
+            "@id": "uncl4025:AAL",
+            "@type": "unece:UNCL4025Code",
+            "rdfs:comment": "The reason for the transaction is for dental services.",
+            "rdfs:label": "Dental services",
+            "rdf:value": "AAL"
+        },
+        {
+            "@id": "uncl4025:AAM",
+            "@type": "unece:UNCL4025Code",
+            "rdfs:comment": "The reason for the transaction is the use of durable medical equipment.",
+            "rdfs:label": "Durable medical equipment",
+            "rdf:value": "AAM"
+        },
+        {
+            "@id": "uncl4025:AAN",
+            "@type": "unece:UNCL4025Code",
+            "rdfs:comment": "The reason for the transaction is business expenses.",
+            "rdfs:label": "Business expenses",
+            "rdf:value": "AAN"
+        },
+        {
+            "@id": "uncl4025:AAO",
+            "@type": "unece:UNCL4025Code",
+            "rdfs:comment": "Payment made by a company to a bank for financing social loans to the employees.",
+            "rdfs:label": "Company social loan payment to bank",
+            "rdf:value": "AAO"
+        },
+        {
+            "@id": "uncl4025:AAP",
+            "@type": "unece:UNCL4025Code",
+            "rdfs:comment": "Air related business.",
+            "rdfs:label": "Air",
+            "rdf:value": "AAP"
+        },
+        {
+            "@id": "uncl4025:AAQ",
+            "@type": "unece:UNCL4025Code",
+            "rdfs:comment": "Ferry related business.",
+            "rdfs:label": "Ferry",
+            "rdf:value": "AAQ"
+        },
+        {
+            "@id": "uncl4025:AAR",
+            "@type": "unece:UNCL4025Code",
+            "rdfs:comment": "Railway related business.",
+            "rdfs:label": "Railway",
+            "rdf:value": "AAR"
+        },
+        {
+            "@id": "uncl4025:AAS",
+            "@type": "unece:UNCL4025Code",
+            "rdfs:comment": "Bus related business.",
+            "rdfs:label": "Bus",
+            "rdf:value": "AAS"
+        },
+        {
+            "@id": "uncl4025:ADV",
+            "@type": "unece:UNCL4025Code",
+            "rdfs:comment": "The reason for payment is advance payment.",
+            "rdfs:label": "Advance payment",
+            "rdf:value": "ADV"
+        },
+        {
+            "@id": "uncl4025:AGT",
+            "@type": "unece:UNCL4025Code",
+            "rdfs:comment": "Support payment to farmer.",
+            "rdfs:label": "Agricultural transfer",
+            "rdf:value": "AGT"
+        },
+        {
+            "@id": "uncl4025:AMY",
+            "@type": "unece:UNCL4025Code",
+            "rdfs:comment": "Payment on alimony.",
+            "rdfs:label": "Alimony",
+            "rdf:value": "AMY"
+        },
+        {
+            "@id": "uncl4025:BEC",
+            "@type": "unece:UNCL4025Code",
+            "rdfs:comment": "Payment made to assist to parent/guardian to maintain child.",
+            "rdfs:label": "Child benefit",
+            "rdf:value": "BEC"
+        },
+        {
+            "@id": "uncl4025:BEN",
+            "@type": "unece:UNCL4025Code",
+            "rdfs:comment": "Payment to person unemployed/disabled.",
+            "rdfs:label": "Unemployment/disability/benefit",
+            "rdf:value": "BEN"
+        },
+        {
+            "@id": "uncl4025:BON",
+            "@type": "unece:UNCL4025Code",
+            "rdfs:comment": "The reason the transaction is bonus.",
+            "rdfs:label": "Bonus",
+            "rdf:value": "BON"
+        },
+        {
+            "@id": "uncl4025:CAS",
+            "@type": "unece:UNCL4025Code",
+            "rdfs:comment": "Reason for the transaction is cash management transfer.",
+            "rdfs:label": "Cash management transfer",
+            "rdf:value": "CAS"
+        },
+        {
+            "@id": "uncl4025:CBF",
+            "@type": "unece:UNCL4025Code",
+            "rdfs:comment": "Capital building for retirement.",
+            "rdfs:label": "Capital building fringe fortune",
+            "rdf:value": "CBF"
+        },
+        {
+            "@id": "uncl4025:CDT",
+            "@type": "unece:UNCL4025Code",
+            "rdfs:comment": "Reason for payment is commodity.",
+            "rdfs:label": "Commodity transfer",
+            "rdf:value": "CDT"
+        },
+        {
+            "@id": "uncl4025:COC",
+            "@type": "unece:UNCL4025Code",
+            "rdfs:comment": "Reason for payment is commercial credit.",
+            "rdfs:label": "Commercial credit payment",
+            "rdf:value": "COC"
+        },
+        {
+            "@id": "uncl4025:COM",
+            "@type": "unece:UNCL4025Code",
+            "rdfs:comment": "Payment of commission.",
+            "rdfs:label": "Commission payment",
+            "rdf:value": "COM"
+        },
+        {
+            "@id": "uncl4025:COS",
+            "@type": "unece:UNCL4025Code",
+            "rdfs:comment": "Reason for payments is costs.",
+            "rdfs:label": "Costs",
+            "rdf:value": "COS"
+        },
+        {
+            "@id": "uncl4025:CPY",
+            "@type": "unece:UNCL4025Code",
+            "rdfs:comment": "Reason for payment is copyright.",
+            "rdfs:label": "Copyright payment",
+            "rdf:value": "CPY"
+        },
+        {
+            "@id": "uncl4025:DIV",
+            "@type": "unece:UNCL4025Code",
+            "rdfs:comment": "Reason for payment is dividend.",
+            "rdfs:label": "Dividend payment",
+            "rdf:value": "DIV"
+        },
+        {
+            "@id": "uncl4025:FEX",
+            "@type": "unece:UNCL4025Code",
+            "rdfs:comment": "Reason for transaction is foreign exchange.",
+            "rdfs:label": "Foreign exchange",
+            "rdf:value": "FEX"
+        },
+        {
+            "@id": "uncl4025:GDS",
+            "@type": "unece:UNCL4025Code",
+            "rdfs:comment": "Purchasing and selling of goods.",
+            "rdfs:label": "Purchasing and selling of goods",
+            "rdf:value": "GDS"
+        },
+        {
+            "@id": "uncl4025:GVT",
+            "@type": "unece:UNCL4025Code",
+            "rdfs:comment": "Payment to or from a government department.",
+            "rdfs:label": "Government payment",
+            "rdf:value": "GVT"
+        },
+        {
+            "@id": "uncl4025:IHP",
+            "@type": "unece:UNCL4025Code",
+            "rdfs:comment": "Reason for transaction is instalment or hire/purchase agreement.",
+            "rdfs:label": "Instalment/hire-purchase agreement",
+            "rdf:value": "IHP"
+        },
+        {
+            "@id": "uncl4025:INS",
+            "@type": "unece:UNCL4025Code",
+            "rdfs:comment": "Reason for transaction is insurance premium.",
+            "rdfs:label": "Insurance premium",
+            "rdf:value": "INS"
+        },
+        {
+            "@id": "uncl4025:INT",
+            "@type": "unece:UNCL4025Code",
+            "rdfs:comment": "Payment of interest.",
+            "rdfs:label": "Interest payment",
+            "rdf:value": "INT"
+        },
+        {
+            "@id": "uncl4025:LIF",
+            "@type": "unece:UNCL4025Code",
+            "rdfs:comment": "Payment of licence fees.",
+            "rdfs:label": "Licence fees payment",
+            "rdf:value": "LIF"
+        },
+        {
+            "@id": "uncl4025:LOA",
+            "@type": "unece:UNCL4025Code",
+            "rdfs:comment": "Transfer of loan to borrower.",
+            "rdfs:label": "Loan",
+            "rdf:value": "LOA"
+        },
+        {
+            "@id": "uncl4025:LOR",
+            "@type": "unece:UNCL4025Code",
+            "rdfs:comment": "Repayment of loan to lender.",
+            "rdfs:label": "Loan repayment",
+            "rdf:value": "LOR"
+        },
+        {
+            "@id": "uncl4025:NET",
+            "@type": "unece:UNCL4025Code",
+            "rdfs:comment": "Reason for transaction is netting.",
+            "rdfs:label": "Netting",
+            "rdf:value": "NET"
+        },
+        {
+            "@id": "uncl4025:PEN",
+            "@type": "unece:UNCL4025Code",
+            "rdfs:comment": "Payment of pension.",
+            "rdfs:label": "Pension payment",
+            "rdf:value": "PEN"
+        },
+        {
+            "@id": "uncl4025:REF",
+            "@type": "unece:UNCL4025Code",
+            "rdfs:comment": "Payment of refund.",
+            "rdfs:label": "Refunding",
+            "rdf:value": "REF"
+        },
+        {
+            "@id": "uncl4025:REN",
+            "@type": "unece:UNCL4025Code",
+            "rdfs:comment": "Reason for transaction is rent.",
+            "rdfs:label": "Rent",
+            "rdf:value": "REN"
+        },
+        {
+            "@id": "uncl4025:ROY",
+            "@type": "unece:UNCL4025Code",
+            "rdfs:comment": "Payment of royalties.",
+            "rdfs:label": "Royalties payment",
+            "rdf:value": "ROY"
+        },
+        {
+            "@id": "uncl4025:SAL",
+            "@type": "unece:UNCL4025Code",
+            "rdfs:comment": "Reason for payment is salary.",
+            "rdfs:label": "Salary payment",
+            "rdf:value": "SAL"
+        },
+        {
+            "@id": "uncl4025:SCV",
+            "@type": "unece:UNCL4025Code",
+            "rdfs:comment": "Purchasing and selling of services.",
+            "rdfs:label": "Purchasing and selling of services",
+            "rdf:value": "SCV"
+        },
+        {
+            "@id": "uncl4025:SEC",
+            "@type": "unece:UNCL4025Code",
+            "rdfs:comment": "Reason for transaction is securities.",
+            "rdfs:label": "Securities",
+            "rdf:value": "SEC"
+        },
+        {
+            "@id": "uncl4025:SSB",
+            "@type": "unece:UNCL4025Code",
+            "rdfs:comment": "Payment made by government to support individuals.",
+            "rdfs:label": "Social security benefit",
+            "rdf:value": "SSB"
+        },
+        {
+            "@id": "uncl4025:SUB",
+            "@type": "unece:UNCL4025Code",
+            "rdfs:comment": "Reason for transaction is subscription.",
+            "rdfs:label": "Subscription",
+            "rdf:value": "SUB"
+        },
+        {
+            "@id": "uncl4025:TAX",
+            "@type": "unece:UNCL4025Code",
+            "rdfs:comment": "Payment of tax.",
+            "rdfs:label": "Tax payment",
+            "rdf:value": "TAX"
+        },
+        {
+            "@id": "uncl4025:VAT",
+            "@type": "unece:UNCL4025Code",
+            "rdfs:comment": "Payment of Value Added Tax (VAT).",
+            "rdfs:label": "Value added tax payment",
+            "rdf:value": "VAT"
+        },
+        {
+            "@id": "uncl4025:ZZZ",
+            "@type": "unece:UNCL4025Code",
+            "rdfs:comment": "A code assigned within a code list to be used on an interim basis and as defined among trading partners until a precise code can be assigned to the code list.",
+            "rdfs:label": "Mutually defined",
+            "rdf:value": "ZZZ"
+        }
+    ]
+}

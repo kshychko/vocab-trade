@@ -1,0 +1,214 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl9017": "https://dmvc7xzscpizo.cloudfront.net/uncl9017#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl9017:1",
+            "@type": "unece:UNCL9017Code",
+            "rdfs:comment": "Attribute refers to a member of a group of persons or a service scheme.",
+            "rdfs:label": "Member",
+            "rdf:value": "1"
+        },
+        {
+            "@id": "uncl9017:2",
+            "@type": "unece:UNCL9017Code",
+            "rdfs:comment": "Attribute refers to a person.",
+            "rdfs:label": "Person",
+            "rdf:value": "2"
+        },
+        {
+            "@id": "uncl9017:3",
+            "@type": "unece:UNCL9017Code",
+            "rdfs:comment": "A structure component of an array.",
+            "rdfs:label": "Array structure component",
+            "rdf:value": "3"
+        },
+        {
+            "@id": "uncl9017:4",
+            "@type": "unece:UNCL9017Code",
+            "rdfs:comment": "Attribute to specify an academic title.",
+            "rdfs:label": "University degree",
+            "rdf:value": "4"
+        },
+        {
+            "@id": "uncl9017:5",
+            "@type": "unece:UNCL9017Code",
+            "rdfs:comment": "Attribute to specify professional title.",
+            "rdfs:label": "Professional title",
+            "rdf:value": "5"
+        },
+        {
+            "@id": "uncl9017:6",
+            "@type": "unece:UNCL9017Code",
+            "rdfs:comment": "Attribute to specify a personal title.",
+            "rdfs:label": "Courtesy title",
+            "rdf:value": "6"
+        },
+        {
+            "@id": "uncl9017:7",
+            "@type": "unece:UNCL9017Code",
+            "rdfs:comment": "Attribute refers to a directory set definition.",
+            "rdfs:label": "Directory set definition",
+            "rdf:value": "7"
+        },
+        {
+            "@id": "uncl9017:8",
+            "@type": "unece:UNCL9017Code",
+            "rdfs:comment": "The attribute refers to an object in a structure.",
+            "rdfs:label": "Structure object attribute",
+            "rdf:value": "8"
+        },
+        {
+            "@id": "uncl9017:9",
+            "@type": "unece:UNCL9017Code",
+            "rdfs:comment": "Identifying attributes related to an account.",
+            "rdfs:label": "Account",
+            "rdf:value": "9"
+        },
+        {
+            "@id": "uncl9017:10",
+            "@type": "unece:UNCL9017Code",
+            "rdfs:comment": "Identifies the attributes related to a financial statement.",
+            "rdfs:label": "Financial statement",
+            "rdf:value": "10"
+        },
+        {
+            "@id": "uncl9017:11",
+            "@type": "unece:UNCL9017Code",
+            "rdfs:comment": "To provide information regarding the manner of payment.",
+            "rdfs:label": "Payment manner",
+            "rdf:value": "11"
+        },
+        {
+            "@id": "uncl9017:12",
+            "@type": "unece:UNCL9017Code",
+            "rdfs:comment": "To specify information applicable to a loan.",
+            "rdfs:label": "Loan information",
+            "rdf:value": "12"
+        },
+        {
+            "@id": "uncl9017:13",
+            "@type": "unece:UNCL9017Code",
+            "rdfs:comment": "To identify the contract attributes.",
+            "rdfs:label": "Contract",
+            "rdf:value": "13"
+        },
+        {
+            "@id": "uncl9017:14",
+            "@type": "unece:UNCL9017Code",
+            "rdfs:comment": "To identify funding attributes.",
+            "rdfs:label": "Funding",
+            "rdf:value": "14"
+        },
+        {
+            "@id": "uncl9017:15",
+            "@type": "unece:UNCL9017Code",
+            "rdfs:comment": "To identify the attributes for the acquisition phases of a product or service.",
+            "rdfs:label": "Acquisition phase",
+            "rdf:value": "15"
+        },
+        {
+            "@id": "uncl9017:16",
+            "@type": "unece:UNCL9017Code",
+            "rdfs:comment": "To identify the attributes of money set aside to accomplish a task.",
+            "rdfs:label": "Monetary appropriation",
+            "rdf:value": "16"
+        },
+        {
+            "@id": "uncl9017:17",
+            "@type": "unece:UNCL9017Code",
+            "rdfs:comment": "Attribute relates to a laboratory investigation.",
+            "rdfs:label": "Laboratory investigation",
+            "rdf:value": "17"
+        },
+        {
+            "@id": "uncl9017:18",
+            "@type": "unece:UNCL9017Code",
+            "rdfs:comment": "Attribute relates to a clinical investigation.",
+            "rdfs:label": "Clinical investigation",
+            "rdf:value": "18"
+        },
+        {
+            "@id": "uncl9017:19",
+            "@type": "unece:UNCL9017Code",
+            "rdfs:comment": "Attribute relates to a reason for a request.",
+            "rdfs:label": "Reason for request",
+            "rdf:value": "19"
+        },
+        {
+            "@id": "uncl9017:20",
+            "@type": "unece:UNCL9017Code",
+            "rdfs:comment": "Attribute relates to the reason for a prescription.",
+            "rdfs:label": "Reason for prescription",
+            "rdf:value": "20"
+        },
+        {
+            "@id": "uncl9017:21",
+            "@type": "unece:UNCL9017Code",
+            "rdfs:comment": "Attribute relates to a comment to a prescription.",
+            "rdfs:label": "Comment to prescription",
+            "rdf:value": "21"
+        },
+        {
+            "@id": "uncl9017:22",
+            "@type": "unece:UNCL9017Code",
+            "rdfs:comment": "Attribute relates to an observation.",
+            "rdfs:label": "Observation",
+            "rdf:value": "22"
+        },
+        {
+            "@id": "uncl9017:23",
+            "@type": "unece:UNCL9017Code",
+            "rdfs:comment": "Attribute relates to a comment to a request.",
+            "rdfs:label": "Comment to a request",
+            "rdf:value": "23"
+        },
+        {
+            "@id": "uncl9017:24",
+            "@type": "unece:UNCL9017Code",
+            "rdfs:comment": "Attribute relates to an event.",
+            "rdfs:label": "Event",
+            "rdf:value": "24"
+        },
+        {
+            "@id": "uncl9017:25",
+            "@type": "unece:UNCL9017Code",
+            "rdfs:comment": "The attribute specified is an additional function.",
+            "rdfs:label": "Additional function",
+            "rdf:value": "25"
+        },
+        {
+            "@id": "uncl9017:26",
+            "@type": "unece:UNCL9017Code",
+            "rdfs:comment": "Attribute to identify hazard of a substance.",
+            "rdfs:label": "Hazard identification",
+            "rdf:value": "26"
+        },
+        {
+            "@id": "uncl9017:27",
+            "@type": "unece:UNCL9017Code",
+            "rdfs:comment": "Identifies the attributes related to a transport equipment.",
+            "rdfs:label": "Transport equipment",
+            "rdf:value": "27"
+        },
+        {
+            "@id": "uncl9017:28",
+            "@type": "unece:UNCL9017Code",
+            "rdfs:comment": "Identifies the attributes related to a stowage location.",
+            "rdfs:label": "Stowage location",
+            "rdf:value": "28"
+        },
+        {
+            "@id": "uncl9017:ZZZ",
+            "@type": "unece:UNCL9017Code",
+            "rdfs:comment": "Mutually defined attribute function qualifier.",
+            "rdfs:label": "Mutually defined",
+            "rdf:value": "ZZZ"
+        }
+    ]
+}

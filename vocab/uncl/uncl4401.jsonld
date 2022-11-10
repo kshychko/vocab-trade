@@ -1,0 +1,746 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl4401": "https://dmvc7xzscpizo.cloudfront.net/uncl4401#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl4401:AA",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "Send a credit note.",
+            "rdfs:label": "Send credit note",
+            "rdf:value": "AA"
+        },
+        {
+            "@id": "uncl4401:AB",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "Send invoice, taking into account specified discrepancies.",
+            "rdfs:label": "Change invoice",
+            "rdf:value": "AB"
+        },
+        {
+            "@id": "uncl4401:AC",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "Instruction to advise party by airmail.",
+            "rdfs:label": "Advise by airmail",
+            "rdf:value": "AC"
+        },
+        {
+            "@id": "uncl4401:AD",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "Instruction to advise a party.",
+            "rdfs:label": "Advise",
+            "rdf:value": "AD"
+        },
+        {
+            "@id": "uncl4401:AE",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "Read the meter when the supply period starts.",
+            "rdfs:label": "Read meter at beginning of supply",
+            "rdf:value": "AE"
+        },
+        {
+            "@id": "uncl4401:AF",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "Instruction to cease delivery.",
+            "rdfs:label": "Stop delivery process",
+            "rdf:value": "AF"
+        },
+        {
+            "@id": "uncl4401:AG",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "The identified item must be sent for replacement.",
+            "rdfs:label": "Send replacement",
+            "rdf:value": "AG"
+        },
+        {
+            "@id": "uncl4401:AH",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "The identified item is to be picked up.",
+            "rdfs:label": "Pick-up",
+            "rdf:value": "AH"
+        },
+        {
+            "@id": "uncl4401:AI",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "Advise of documentary credit by telecommunication.",
+            "rdfs:label": "Advise by telecommunication",
+            "rdf:value": "AI"
+        },
+        {
+            "@id": "uncl4401:AJ",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "Instruction to advise party by fax.",
+            "rdfs:label": "Advise by fax",
+            "rdf:value": "AJ"
+        },
+        {
+            "@id": "uncl4401:AK",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "Issue documentary credit by registered airmail.",
+            "rdfs:label": "By registered airmail",
+            "rdf:value": "AK"
+        },
+        {
+            "@id": "uncl4401:AL",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "Deliver documents in one set by registered airmail.",
+            "rdfs:label": "By registered airmail in one set",
+            "rdf:value": "AL"
+        },
+        {
+            "@id": "uncl4401:AM",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "Deliver documents in two sets by registered airmail.",
+            "rdfs:label": "By registered airmail in two sets",
+            "rdf:value": "AM"
+        },
+        {
+            "@id": "uncl4401:AN",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "The receiver is authorized to debit the account of the sender when due.",
+            "rdfs:label": "Authorized to debit our account when due",
+            "rdf:value": "AN"
+        },
+        {
+            "@id": "uncl4401:AO",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "The receiver is authorized to reimburse themselves on the reimbursing bank when due.",
+            "rdfs:label": "Authorized to reimburse yourselves on the reimbursing bank when due",
+            "rdf:value": "AO"
+        },
+        {
+            "@id": "uncl4401:AP",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "Instruction to advise party by phone.",
+            "rdfs:label": "Advise by phone",
+            "rdf:value": "AP"
+        },
+        {
+            "@id": "uncl4401:AQ",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "Upon receipt and verification of documents we shall credit your account with us when due.",
+            "rdfs:label": "Upon receipt and verification of documents we shall credit your account with us when due",
+            "rdf:value": "AQ"
+        },
+        {
+            "@id": "uncl4401:AR",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "Protest is to be made in case of non-payment.",
+            "rdfs:label": "Protest non-payment",
+            "rdf:value": "AR"
+        },
+        {
+            "@id": "uncl4401:AS",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "Protest is to be made in case of non-acceptance.",
+            "rdfs:label": "Protest non-acceptance",
+            "rdf:value": "AS"
+        },
+        {
+            "@id": "uncl4401:AT",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "Instruction to advise party by telex.",
+            "rdfs:label": "Advise by telex",
+            "rdf:value": "AT"
+        },
+        {
+            "@id": "uncl4401:AU",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "Protest is to be made in case of non-acceptance and non- payment.",
+            "rdfs:label": "Protest non-acceptance and non-payment",
+            "rdf:value": "AU"
+        },
+        {
+            "@id": "uncl4401:AV",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "Not permitted to be waived.",
+            "rdfs:label": "May not be waived",
+            "rdf:value": "AV"
+        },
+        {
+            "@id": "uncl4401:AW",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "Permitted to be waived.",
+            "rdfs:label": "May be waived",
+            "rdf:value": "AW"
+        },
+        {
+            "@id": "uncl4401:AX",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "Acceptance and/or payment may be deferred until the goods have arrived.",
+            "rdfs:label": "Acceptance and/or payment may be deferred until the arrival of goods",
+            "rdf:value": "AX"
+        },
+        {
+            "@id": "uncl4401:AY",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "Acceptance and/or payment may not be deferred until the goods have arrived.",
+            "rdfs:label": "Acceptance and/or payment may not be deferred until the arrival of goods",
+            "rdf:value": "AY"
+        },
+        {
+            "@id": "uncl4401:AZ",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "Goods are to be warehoused if documents are not taken up on the goods' arrival.",
+            "rdfs:label": "If documents are not honoured on arrival of goods then warehouse goods",
+            "rdf:value": "AZ"
+        },
+        {
+            "@id": "uncl4401:BA",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "Goods are to be warehoused and insured against fire if documents are not taken up on the goods' arrival.",
+            "rdfs:label": "If documents are not honoured on arrival of goods then warehouse goods and insure against fire",
+            "rdf:value": "BA"
+        },
+        {
+            "@id": "uncl4401:BB",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "Goods are to be warehoused and insured against the usual risks if documents are not taken up on the goods' arrival.",
+            "rdfs:label": "If documents are not honoured on arrival of goods then warehouse goods and insure against usual risks",
+            "rdf:value": "BB"
+        },
+        {
+            "@id": "uncl4401:BC",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "Case of need party has the power to give instructions.",
+            "rdfs:label": "Case of need party has power to give instructions",
+            "rdf:value": "BC"
+        },
+        {
+            "@id": "uncl4401:BD",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "The case of need party may advise only.",
+            "rdfs:label": "Case of need party may advise only",
+            "rdf:value": "BD"
+        },
+        {
+            "@id": "uncl4401:BE",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "The draft must be returned after acceptance.",
+            "rdfs:label": "Draft must be returned after acceptance",
+            "rdf:value": "BE"
+        },
+        {
+            "@id": "uncl4401:BF",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "Instruction to advise party by mail.",
+            "rdfs:label": "Advise by mail",
+            "rdf:value": "BF"
+        },
+        {
+            "@id": "uncl4401:BG",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "The documents are to be released against acceptance.",
+            "rdfs:label": "Release documents against acceptance",
+            "rdf:value": "BG"
+        },
+        {
+            "@id": "uncl4401:BH",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "The documents are to be released against payment.",
+            "rdfs:label": "Release documents against payment",
+            "rdf:value": "BH"
+        },
+        {
+            "@id": "uncl4401:BI",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "The documents are to be released against issuance of drawee's undertaking.",
+            "rdfs:label": "Release documents against issuance of drawee's undertaking",
+            "rdf:value": "BI"
+        },
+        {
+            "@id": "uncl4401:BJ",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "The documents are to be released against issuance of presenting bank's undertaking.",
+            "rdfs:label": "Release documents against issuance of presenting bank's undertaking",
+            "rdf:value": "BJ"
+        },
+        {
+            "@id": "uncl4401:BK",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "The documents are to be released against issuance of named bank's undertaking.",
+            "rdfs:label": "Release documents against issuance of named bank's undertaking",
+            "rdf:value": "BK"
+        },
+        {
+            "@id": "uncl4401:BL",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "The documents are to be released against issuance of drawee's signed promissory note.",
+            "rdfs:label": "Release documents against issuance of drawee's signed promissory note",
+            "rdf:value": "BL"
+        },
+        {
+            "@id": "uncl4401:BM",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "The documents are to be released against issuance of presenting bank's signed promissory note.",
+            "rdfs:label": "Release documents against issuance of presenting bank's signed promissory note",
+            "rdf:value": "BM"
+        },
+        {
+            "@id": "uncl4401:BN",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "The documents are to be released against issuance of named bank's signed promissory note.",
+            "rdfs:label": "Release documents against issuance of named bank's signed promissory note",
+            "rdf:value": "BN"
+        },
+        {
+            "@id": "uncl4401:BO",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "The documents are to be released against issuance of drawee's signed trust receipt.",
+            "rdfs:label": "Release documents against issuance of drawee's signed trust receipt",
+            "rdf:value": "BO"
+        },
+        {
+            "@id": "uncl4401:BP",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "The documents are to be released against acceptance and aval of presenting bank.",
+            "rdfs:label": "Release documents against acceptance and aval of presenting bank",
+            "rdf:value": "BP"
+        },
+        {
+            "@id": "uncl4401:BQ",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "The documents are to be released against acceptance and aval of named bank.",
+            "rdfs:label": "Release documents against acceptance and aval of named bank",
+            "rdf:value": "BQ"
+        },
+        {
+            "@id": "uncl4401:BR",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "The proceeds are to be remitted.",
+            "rdfs:label": "Remit proceeds",
+            "rdf:value": "BR"
+        },
+        {
+            "@id": "uncl4401:BS",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "The proceeds are to be remitted to the intermediary bank.",
+            "rdfs:label": "Remit proceeds to intermediary bank",
+            "rdf:value": "BS"
+        },
+        {
+            "@id": "uncl4401:BT",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "Where the currency of the collection is not available, the collection bank is authorised to accept a provisional deposit in local currency.",
+            "rdfs:label": "Accept provisional deposit if covered in local currency",
+            "rdf:value": "BT"
+        },
+        {
+            "@id": "uncl4401:BU",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "Read the meter when the supply period ends.",
+            "rdfs:label": "Read meter at end of supply",
+            "rdf:value": "BU"
+        },
+        {
+            "@id": "uncl4401:BV",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "Replace the item if necessary.",
+            "rdfs:label": "Replace if necessary",
+            "rdf:value": "BV"
+        },
+        {
+            "@id": "uncl4401:BW",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "Replace the item.",
+            "rdfs:label": "Replace",
+            "rdf:value": "BW"
+        },
+        {
+            "@id": "uncl4401:BX",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "Do not replace the item.",
+            "rdfs:label": "Do not replace",
+            "rdf:value": "BX"
+        },
+        {
+            "@id": "uncl4401:BY",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "Instruction to take the appropriate remedial action to correct the referenced account number.",
+            "rdfs:label": "Remedial action for incorrect account number",
+            "rdf:value": "BY"
+        },
+        {
+            "@id": "uncl4401:BZ",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "Instruction to take the appropriate remedial action because the referenced account is not known.",
+            "rdfs:label": "Remedial action for unknown account",
+            "rdf:value": "BZ"
+        },
+        {
+            "@id": "uncl4401:CA",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "Instruction to take the appropriate remedial action because the referenced account has been frozen by legal authorities.",
+            "rdfs:label": "Remedial action for account frozen by legal authorities",
+            "rdf:value": "CA"
+        },
+        {
+            "@id": "uncl4401:CB",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "Instruction to take remedial action that is appropriate because the holder of the referenced account is dead.",
+            "rdfs:label": "Remedial action for deceased account holder",
+            "rdf:value": "CB"
+        },
+        {
+            "@id": "uncl4401:CC",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "Instruction to take the appropriate remedial action because the account owner or ultimate beneficiary has refused to accept the transaction.",
+            "rdfs:label": "Remedial action for refusal by account owner or ultimate beneficiary",
+            "rdf:value": "CC"
+        },
+        {
+            "@id": "uncl4401:CD",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "Instruction to take the appropriate remedial action because it is claimed that the charges on the beneficiary are unjustified.",
+            "rdfs:label": "Remedial action for unjustified charges claim on beneficiary",
+            "rdf:value": "CD"
+        },
+        {
+            "@id": "uncl4401:CE",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "Instruction to take the appropriate remedial action because the destination bank or branch identification is not recognised.",
+            "rdfs:label": "Remedial action for unrecognised destination bank or branch identification",
+            "rdf:value": "CE"
+        },
+        {
+            "@id": "uncl4401:CF",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "Instruction to take the appropriate remedial action beause the destination account has been closed.",
+            "rdfs:label": "Remedial action for closed destination account",
+            "rdf:value": "CF"
+        },
+        {
+            "@id": "uncl4401:CG",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "Instruction to take the appropriate remedial action because the transaction exceeds an agreed credit limit.",
+            "rdfs:label": "Remedial action for transaction over credit limit",
+            "rdf:value": "CG"
+        },
+        {
+            "@id": "uncl4401:CH",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "Instruction to take the appropriate remedial action because the type of transaction is not allowed.",
+            "rdfs:label": "Remedial action for disallowed transaction type",
+            "rdf:value": "CH"
+        },
+        {
+            "@id": "uncl4401:CI",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "Instruction to take the appropriate remedial action because of insufficient funds.",
+            "rdfs:label": "Remedial action for insufficient funds",
+            "rdf:value": "CI"
+        },
+        {
+            "@id": "uncl4401:CJ",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "Instruction to take the appropriate remedial action because no mandate has been agreed beforehand.",
+            "rdfs:label": "Remedial action for no prior mandate in place",
+            "rdf:value": "CJ"
+        },
+        {
+            "@id": "uncl4401:CK",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "Instruction to take the appropriate remedial action because the mandate has been revoked.",
+            "rdfs:label": "Remedial action for revoked mandate",
+            "rdf:value": "CK"
+        },
+        {
+            "@id": "uncl4401:CL",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "Instruction to take the appropriate remedial action because a party is unknown.",
+            "rdfs:label": "Remedial action for unknown party",
+            "rdf:value": "CL"
+        },
+        {
+            "@id": "uncl4401:CM",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "Instruction to take the appropriate remedial action because the specified bank information is incorrect or invalid.",
+            "rdfs:label": "Remedial action for incorrect bank information",
+            "rdf:value": "CM"
+        },
+        {
+            "@id": "uncl4401:CN",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "Instruction to take the appropriate remedial action because a transaction has been duplicated.",
+            "rdfs:label": "Remedial action for duplicated transaction",
+            "rdf:value": "CN"
+        },
+        {
+            "@id": "uncl4401:CO",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "Convert the message into other format.",
+            "rdfs:label": "Convert",
+            "rdf:value": "CO"
+        },
+        {
+            "@id": "uncl4401:CP",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "Instructs the recipient of the returned message to take the appropriate remedial action when the transaction has been rejected for a reason that, for legal or other reasons, cannot be disclosed.",
+            "rdfs:label": "Remedial action for transaction not completed for a reason that cannot be disclosed",
+            "rdf:value": "CP"
+        },
+        {
+            "@id": "uncl4401:CQ",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "The item is to be returned only using the identified authorized transport.",
+            "rdfs:label": "Return using only authorized transport",
+            "rdf:value": "CQ"
+        },
+        {
+            "@id": "uncl4401:CR",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "The item may be returned using any transport.",
+            "rdfs:label": "Return using any transport",
+            "rdf:value": "CR"
+        },
+        {
+            "@id": "uncl4401:CS",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "Send the item(s) by courier services.",
+            "rdfs:label": "Send by courier services",
+            "rdf:value": "CS"
+        },
+        {
+            "@id": "uncl4401:CT",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "The item is to be returned by the date specified.",
+            "rdfs:label": "Return by specified date",
+            "rdf:value": "CT"
+        },
+        {
+            "@id": "uncl4401:CU",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "The supplier is to organize transport for the items.",
+            "rdfs:label": "Supplier to organize transport",
+            "rdf:value": "CU"
+        },
+        {
+            "@id": "uncl4401:CV",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "The buyer is to organize transport for the items.",
+            "rdfs:label": "Buyer to organize transport",
+            "rdf:value": "CV"
+        },
+        {
+            "@id": "uncl4401:CW",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "The items are to be prepared for collection.",
+            "rdfs:label": "Prepare for collection",
+            "rdf:value": "CW"
+        },
+        {
+            "@id": "uncl4401:CX",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "The items are to be prepared for collection on the specified date.",
+            "rdfs:label": "Prepare for collection on specified date",
+            "rdf:value": "CX"
+        },
+        {
+            "@id": "uncl4401:CZ",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "Item(s) are subject to specific clearing.",
+            "rdfs:label": "Specific clearing",
+            "rdf:value": "CZ"
+        },
+        {
+            "@id": "uncl4401:DA",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "The bank advising the documentary credit is not requested to confirm the credit.",
+            "rdfs:label": "Without",
+            "rdf:value": "DA"
+        },
+        {
+            "@id": "uncl4401:DB",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "The bank advising the documentary credit may add its confirmation to the documentary credit.",
+            "rdfs:label": "May add",
+            "rdf:value": "DB"
+        },
+        {
+            "@id": "uncl4401:DC",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "The bank advising the documentary credit is requested to confirm the credit.",
+            "rdfs:label": "Confirm",
+            "rdf:value": "DC"
+        },
+        {
+            "@id": "uncl4401:DD",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "Issue documentary credit by registered mail.",
+            "rdfs:label": "By registered mail",
+            "rdf:value": "DD"
+        },
+        {
+            "@id": "uncl4401:DE",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "Issue documentary credit by courier service.",
+            "rdfs:label": "By courier service",
+            "rdf:value": "DE"
+        },
+        {
+            "@id": "uncl4401:DF",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "Issue documentary credit by teletransmission.",
+            "rdfs:label": "By teletransmission",
+            "rdf:value": "DF"
+        },
+        {
+            "@id": "uncl4401:DG",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "Preadvise documentary credit by teletransmission.",
+            "rdfs:label": "Preadvice by teletransmission",
+            "rdf:value": "DG"
+        },
+        {
+            "@id": "uncl4401:DH",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "Deliver documents in one set by courier service.",
+            "rdfs:label": "By courier service in one set",
+            "rdf:value": "DH"
+        },
+        {
+            "@id": "uncl4401:DI",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "Deliver documents in two sets by courier service.",
+            "rdfs:label": "By courier service in two sets",
+            "rdf:value": "DI"
+        },
+        {
+            "@id": "uncl4401:DJ",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "Deliver documents in one set by registered mail.",
+            "rdfs:label": "By registered mail in one set",
+            "rdf:value": "DJ"
+        },
+        {
+            "@id": "uncl4401:DK",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "Deliver documents in two sets by registered mail.",
+            "rdfs:label": "By registered mail in two sets",
+            "rdf:value": "DK"
+        },
+        {
+            "@id": "uncl4401:DN",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "Deliver documents by teletransmission.",
+            "rdfs:label": "Per teletransmission",
+            "rdf:value": "DN"
+        },
+        {
+            "@id": "uncl4401:DO",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "Advise beneficiary of documentary credit by phone.",
+            "rdfs:label": "Advise beneficiary by phone",
+            "rdf:value": "DO"
+        },
+        {
+            "@id": "uncl4401:DP",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "Late presentation of documents with the documentary credit validity is acceptable.",
+            "rdfs:label": "Late presentation of documents within documentary credit validity acceptable",
+            "rdf:value": "DP"
+        },
+        {
+            "@id": "uncl4401:EI",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "Instructions to advise beneficiary by EDI.",
+            "rdfs:label": "EDI",
+            "rdf:value": "EI"
+        },
+        {
+            "@id": "uncl4401:EM",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "Instructions to advise beneficiary by electronic mail.",
+            "rdfs:label": "Electronic mail",
+            "rdf:value": "EM"
+        },
+        {
+            "@id": "uncl4401:EX",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "Forward the information to requested party immediately.",
+            "rdfs:label": "Expedite",
+            "rdf:value": "EX"
+        },
+        {
+            "@id": "uncl4401:IM",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "Send the tem(s) by regular mail.",
+            "rdfs:label": "Send by regular mail",
+            "rdf:value": "IM"
+        },
+        {
+            "@id": "uncl4401:PT",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "Print the item(s).",
+            "rdfs:label": "Print",
+            "rdf:value": "PT"
+        },
+        {
+            "@id": "uncl4401:QC",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "Goods to be held from distribution by stockholder until a quality control assessment is completed by the manufacturer.",
+            "rdfs:label": "Quality control held",
+            "rdf:value": "QC"
+        },
+        {
+            "@id": "uncl4401:QE",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "Quality control assessment is negative, goods are to be held from distribution by stockholder.",
+            "rdfs:label": "Quality control embargo",
+            "rdf:value": "QE"
+        },
+        {
+            "@id": "uncl4401:RL",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "Goods are released by manufacturer for distribution by stockholder.",
+            "rdfs:label": "Released",
+            "rdf:value": "RL"
+        },
+        {
+            "@id": "uncl4401:RM",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "Send the item(s) by registered mail.",
+            "rdfs:label": "Send by registered mail",
+            "rdf:value": "RM"
+        },
+        {
+            "@id": "uncl4401:SW",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "Instructions to advise beneficiary by S.W.I.F.T.",
+            "rdfs:label": "S.W.I.F.T.",
+            "rdf:value": "SW"
+        },
+        {
+            "@id": "uncl4401:SX",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "To be taken once daily.",
+            "rdfs:label": "Take once a day",
+            "rdf:value": "SX"
+        },
+        {
+            "@id": "uncl4401:SY",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "To be taken two times each day.",
+            "rdfs:label": "Take two times a day",
+            "rdf:value": "SY"
+        },
+        {
+            "@id": "uncl4401:SZ",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "To be taken three times each day.",
+            "rdfs:label": "Take three times a day",
+            "rdf:value": "SZ"
+        },
+        {
+            "@id": "uncl4401:TA",
+            "@type": "unece:UNCL4401Code",
+            "rdfs:comment": "To be taken four times daily.",
+            "rdfs:label": "Take four times a day",
+            "rdf:value": "TA"
+        }
+    ]
+}

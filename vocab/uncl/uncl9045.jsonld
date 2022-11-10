@@ -1,0 +1,32 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl9045": "https://dmvc7xzscpizo.cloudfront.net/uncl9045#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl9045:1",
+            "@type": "unece:UNCL9045Code",
+            "rdfs:comment": "Basis for a coverage.",
+            "rdfs:label": "Coverage",
+            "rdf:value": "1"
+        },
+        {
+            "@id": "uncl9045:2",
+            "@type": "unece:UNCL9045Code",
+            "rdfs:comment": "Basis for a deductible.",
+            "rdfs:label": "Deductible",
+            "rdf:value": "2"
+        },
+        {
+            "@id": "uncl9045:3",
+            "@type": "unece:UNCL9045Code",
+            "rdfs:comment": "Basis for a premium.",
+            "rdfs:label": "Premium",
+            "rdf:value": "3"
+        }
+    ]
+}

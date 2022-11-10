@@ -1,0 +1,60 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl4453": "https://dmvc7xzscpizo.cloudfront.net/uncl4453#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl4453:1",
+            "@type": "unece:UNCL4453Code",
+            "rdfs:comment": "The occurrence of this text does not affect message processing.",
+            "rdfs:label": "Text for subsequent use",
+            "rdf:value": "1"
+        },
+        {
+            "@id": "uncl4453:2",
+            "@type": "unece:UNCL4453Code",
+            "rdfs:comment": "Text description of a coded data item for which there is no currently available code.",
+            "rdfs:label": "Text replacing missing code",
+            "rdf:value": "2"
+        },
+        {
+            "@id": "uncl4453:3",
+            "@type": "unece:UNCL4453Code",
+            "rdfs:comment": "Text must be read before actioning message.",
+            "rdfs:label": "Text for immediate use",
+            "rdf:value": "3"
+        },
+        {
+            "@id": "uncl4453:4",
+            "@type": "unece:UNCL4453Code",
+            "rdfs:comment": "Pass text on to later recipient.",
+            "rdfs:label": "No action required",
+            "rdf:value": "4"
+        },
+        {
+            "@id": "uncl4453:5",
+            "@type": "unece:UNCL4453Code",
+            "rdfs:comment": "Indicates that the text is to be taken as a header.",
+            "rdfs:label": "Header",
+            "rdf:value": "5"
+        },
+        {
+            "@id": "uncl4453:6",
+            "@type": "unece:UNCL4453Code",
+            "rdfs:comment": "Indicates that the text starts a new numbered paragraph.",
+            "rdfs:label": "Numbered paragraph",
+            "rdf:value": "6"
+        },
+        {
+            "@id": "uncl4453:7",
+            "@type": "unece:UNCL4453Code",
+            "rdfs:comment": "Indicates that the text is a paragraph.",
+            "rdfs:label": "Paragraph",
+            "rdf:value": "7"
+        }
+    ]
+}

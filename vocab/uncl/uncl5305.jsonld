@@ -1,0 +1,165 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl5305": "https://dmvc7xzscpizo.cloudfront.net/uncl5305#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl5305:A",
+            "@type": "unece:UNCL5305Code",
+            "rdfs:comment": "Code specifying that the rate is based on mixed tax.",
+            "rdfs:label": "Mixed tax rate",
+            "rdf:value": "A"
+        },
+        {
+            "@id": "uncl5305:AA",
+            "@type": "unece:UNCL5305Code",
+            "rdfs:comment": "Tax rate is lower than standard rate.",
+            "rdfs:label": "Lower rate",
+            "rdf:value": "AA"
+        },
+        {
+            "@id": "uncl5305:AB",
+            "@type": "unece:UNCL5305Code",
+            "rdfs:comment": "A tax category code indicating the item is tax exempt when the item is bought for future resale.",
+            "rdfs:label": "Exempt for resale",
+            "rdf:value": "AB"
+        },
+        {
+            "@id": "uncl5305:AC",
+            "@type": "unece:UNCL5305Code",
+            "rdfs:comment": "A code to indicate that the Value Added Tax (VAT) amount which is due on the current invoice is to be paid on receipt of a separate VAT payment request.",
+            "rdfs:label": "Value Added Tax (VAT) not now due for payment",
+            "rdf:value": "AC"
+        },
+        {
+            "@id": "uncl5305:AD",
+            "@type": "unece:UNCL5305Code",
+            "rdfs:comment": "A code to indicate that the Value Added Tax (VAT) amount of a previous invoice is to be paid.",
+            "rdfs:label": "Value Added Tax (VAT) due from a previous invoice",
+            "rdf:value": "AD"
+        },
+        {
+            "@id": "uncl5305:AE",
+            "@type": "unece:UNCL5305Code",
+            "rdfs:comment": "Code specifying that the standard VAT rate is levied from the invoicee.",
+            "rdfs:label": "VAT Reverse Charge",
+            "rdf:value": "AE"
+        },
+        {
+            "@id": "uncl5305:B",
+            "@type": "unece:UNCL5305Code",
+            "rdfs:comment": "VAT not to be paid to the issuer of the invoice but directly to relevant tax authority.",
+            "rdfs:label": "Transferred (VAT)",
+            "rdf:value": "B"
+        },
+        {
+            "@id": "uncl5305:C",
+            "@type": "unece:UNCL5305Code",
+            "rdfs:comment": "Duty associated with shipment of goods is paid by the supplier; customer receives goods with duty paid.",
+            "rdfs:label": "Duty paid by supplier",
+            "rdf:value": "C"
+        },
+        {
+            "@id": "uncl5305:D",
+            "@type": "unece:UNCL5305Code",
+            "rdfs:comment": "Indication that the VAT margin scheme for travel agents is applied.",
+            "rdfs:label": "Value Added Tax (VAT) margin scheme - travel agents",
+            "rdf:value": "D"
+        },
+        {
+            "@id": "uncl5305:E",
+            "@type": "unece:UNCL5305Code",
+            "rdfs:comment": "Code specifying that taxes are not applicable.",
+            "rdfs:label": "Exempt from tax",
+            "rdf:value": "E"
+        },
+        {
+            "@id": "uncl5305:F",
+            "@type": "unece:UNCL5305Code",
+            "rdfs:comment": "Indication that the VAT margin scheme for second-hand goods is applied.",
+            "rdfs:label": "Value Added Tax (VAT) margin scheme - second-hand goods",
+            "rdf:value": "F"
+        },
+        {
+            "@id": "uncl5305:G",
+            "@type": "unece:UNCL5305Code",
+            "rdfs:comment": "Code specifying that the item is free export and taxes are not charged.",
+            "rdfs:label": "Free export item, tax not charged",
+            "rdf:value": "G"
+        },
+        {
+            "@id": "uncl5305:H",
+            "@type": "unece:UNCL5305Code",
+            "rdfs:comment": "Code specifying a higher rate of duty or tax or fee.",
+            "rdfs:label": "Higher rate",
+            "rdf:value": "H"
+        },
+        {
+            "@id": "uncl5305:I",
+            "@type": "unece:UNCL5305Code",
+            "rdfs:comment": "Indication that the VAT margin scheme for works of art is applied.",
+            "rdfs:label": "Value Added Tax (VAT) margin scheme - works of art Margin scheme  Works of art",
+            "rdf:value": "I"
+        },
+        {
+            "@id": "uncl5305:J",
+            "@type": "unece:UNCL5305Code",
+            "rdfs:comment": "Indication that the VAT margin scheme for collectors items and antiques is applied.",
+            "rdfs:label": "Value Added Tax (VAT) margin scheme - collectors items and antiques",
+            "rdf:value": "J"
+        },
+        {
+            "@id": "uncl5305:K",
+            "@type": "unece:UNCL5305Code",
+            "rdfs:comment": "A tax category code indicating the item is VAT exempt due to an intra-community supply in the European Economic Area.",
+            "rdfs:label": "VAT exempt for EEA intra-community supply of goods and services",
+            "rdf:value": "K"
+        },
+        {
+            "@id": "uncl5305:L",
+            "@type": "unece:UNCL5305Code",
+            "rdfs:comment": "Impuesto General Indirecto Canario (IGIC) is an indirect tax levied on goods and services supplied in the Canary Islands (Spain) by traders and professionals, as well as on import of goods.",
+            "rdfs:label": "Canary Islands general indirect tax",
+            "rdf:value": "L"
+        },
+        {
+            "@id": "uncl5305:M",
+            "@type": "unece:UNCL5305Code",
+            "rdfs:comment": "Impuesto sobre la Produccin, los Servicios y la Importacin (IPSI) is an indirect municipal tax, levied on the production, processing and import of all kinds of movable tangible property, the supply of services and the transfer of immovable property located in the cities of Ceuta and Melilla.",
+            "rdfs:label": "Tax for production, services and importation in Ceuta and Melilla",
+            "rdf:value": "M"
+        },
+        {
+            "@id": "uncl5305:N",
+            "@type": "unece:UNCL5305Code",
+            "rdfs:comment": "standard VAT calculated for an additional taxable base when the additional taxable base is not included in the document totals",
+            "rdfs:label": "standard rate additional VAT",
+            "rdf:value": "N"
+        },
+        {
+            "@id": "uncl5305:O",
+            "@type": "unece:UNCL5305Code",
+            "rdfs:comment": "Code specifying that taxes are not applicable to the services.",
+            "rdfs:label": "Services outside scope of tax",
+            "rdf:value": "O"
+        },
+        {
+            "@id": "uncl5305:S",
+            "@type": "unece:UNCL5305Code",
+            "rdfs:comment": "Code specifying the standard rate.",
+            "rdfs:label": "Standard rate",
+            "rdf:value": "S"
+        },
+        {
+            "@id": "uncl5305:Z",
+            "@type": "unece:UNCL5305Code",
+            "rdfs:comment": "Code specifying that the goods are at a zero rate.",
+            "rdfs:label": "Zero rated goods",
+            "rdf:value": "Z"
+        }
+    ]
+}

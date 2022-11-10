@@ -1,0 +1,284 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl4065": "https://dmvc7xzscpizo.cloudfront.net/uncl4065#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl4065:1",
+            "@type": "unece:UNCL4065Code",
+            "rdfs:comment": "General conditions of transport 1983, latest revision laid down by the Stichting Vervoeradres The Hague.",
+            "rdfs:label": "AVC conditions",
+            "rdf:value": "1"
+        },
+        {
+            "@id": "uncl4065:2",
+            "@type": "unece:UNCL4065Code",
+            "rdfs:comment": "Appliance of a non published special agreement signed between a customer and the carrier (mandatory requested by the consignor) for parcels transport.",
+            "rdfs:label": "Special agreement for parcels transport",
+            "rdf:value": "2"
+        },
+        {
+            "@id": "uncl4065:3",
+            "@type": "unece:UNCL4065Code",
+            "rdfs:comment": "Appliance of a non published special agreement signed between a customer and the carrier (mandatory requested by the consignor) for full load transport.",
+            "rdfs:label": "Special agreement for full loading transport",
+            "rdf:value": "3"
+        },
+        {
+            "@id": "uncl4065:4",
+            "@type": "unece:UNCL4065Code",
+            "rdfs:comment": "A transport which involves more than one mode of transportation.",
+            "rdfs:label": "Combined transport",
+            "rdf:value": "4"
+        },
+        {
+            "@id": "uncl4065:5",
+            "@type": "unece:UNCL4065Code",
+            "rdfs:comment": "Standard conditions of a combined transport bill of lading issued by FIATA.",
+            "rdfs:label": "FIATA combined transport bill of lading",
+            "rdf:value": "5"
+        },
+        {
+            "@id": "uncl4065:6",
+            "@type": "unece:UNCL4065Code",
+            "rdfs:comment": "The contract and carriage conditions as established by freight forwarders on a national basis.",
+            "rdfs:label": "Freight forwarders national conditions",
+            "rdf:value": "6"
+        },
+        {
+            "@id": "uncl4065:7",
+            "@type": "unece:UNCL4065Code",
+            "rdfs:comment": "Appliance of the published legal tariff in case of parcels transport (required or not by the consignor.",
+            "rdfs:label": "Normal tariff, parcels transport",
+            "rdf:value": "7"
+        },
+        {
+            "@id": "uncl4065:8",
+            "@type": "unece:UNCL4065Code",
+            "rdfs:comment": "Appliance of the published legal tariff in case of full load transport (required or not by the consignor).",
+            "rdfs:label": "Normal tariff, full loading transport",
+            "rdf:value": "8"
+        },
+        {
+            "@id": "uncl4065:9",
+            "@type": "unece:UNCL4065Code",
+            "rdfs:comment": "Carrier will choose the cheapest tariff in the legally published tariffs for parcels or full load transports (no tariff required by the consignor).",
+            "rdfs:label": "Ordinary",
+            "rdf:value": "9"
+        },
+        {
+            "@id": "uncl4065:10",
+            "@type": "unece:UNCL4065Code",
+            "rdfs:comment": "The transport will only be port to port, no inland transport would have to be provided under the contract.",
+            "rdfs:label": "Port to port",
+            "rdf:value": "10"
+        },
+        {
+            "@id": "uncl4065:11",
+            "@type": "unece:UNCL4065Code",
+            "rdfs:comment": "Conditions in accordance with the convention of the contract for the international carriage of goods by road.",
+            "rdfs:label": "CMR carnet",
+            "rdf:value": "11"
+        },
+        {
+            "@id": "uncl4065:12",
+            "@type": "unece:UNCL4065Code",
+            "rdfs:comment": "Appliance of the legally published \"special\" tariff in case or parcels transport (tariff requested by the consignor).",
+            "rdfs:label": "Special tariff, parcels transport",
+            "rdf:value": "12"
+        },
+        {
+            "@id": "uncl4065:13",
+            "@type": "unece:UNCL4065Code",
+            "rdfs:comment": "Appliance of the legally published \"special tariff\" in case of full load transport (tariff requested by the consignor).",
+            "rdfs:label": "Special tariff, full transport",
+            "rdf:value": "13"
+        },
+        {
+            "@id": "uncl4065:14",
+            "@type": "unece:UNCL4065Code",
+            "rdfs:comment": "The transport that is contracted not only from port to port, but from one inland location to another inland location.",
+            "rdfs:label": "Through transport",
+            "rdf:value": "14"
+        },
+        {
+            "@id": "uncl4065:15",
+            "@type": "unece:UNCL4065Code",
+            "rdfs:comment": "Indication that space previously allocated on a flight is to be cancelled.",
+            "rdfs:label": "Cancel space allocation",
+            "rdf:value": "15"
+        },
+        {
+            "@id": "uncl4065:16",
+            "@type": "unece:UNCL4065Code",
+            "rdfs:comment": "Indication that a sale has been made against a space allocation on a specific flight.",
+            "rdfs:label": "Report sale of space",
+            "rdf:value": "16"
+        },
+        {
+            "@id": "uncl4065:17",
+            "@type": "unece:UNCL4065Code",
+            "rdfs:comment": "Indication that space is being requested for a specific flight and that an alternative is acceptable.",
+            "rdfs:label": "Alternative space allocation",
+            "rdf:value": "17"
+        },
+        {
+            "@id": "uncl4065:18",
+            "@type": "unece:UNCL4065Code",
+            "rdfs:comment": "Indication that space is being requested for a specific flight and that an alternative is not acceptable.",
+            "rdfs:label": "No alternative space allocation",
+            "rdf:value": "18"
+        },
+        {
+            "@id": "uncl4065:19",
+            "@type": "unece:UNCL4065Code",
+            "rdfs:comment": "Indication that space is being sold against a space allocation allotment on a specific flight.",
+            "rdfs:label": "Allotment sale",
+            "rdf:value": "19"
+        },
+        {
+            "@id": "uncl4065:20",
+            "@type": "unece:UNCL4065Code",
+            "rdfs:comment": "Indication that space requested has been confirmed on a specific flight.",
+            "rdfs:label": "Confirmation of space",
+            "rdf:value": "20"
+        },
+        {
+            "@id": "uncl4065:21",
+            "@type": "unece:UNCL4065Code",
+            "rdfs:comment": "Indication that airline is unable to confirm the space allocation on a specific flight.",
+            "rdfs:label": "Unable to confirm",
+            "rdf:value": "21"
+        },
+        {
+            "@id": "uncl4065:22",
+            "@type": "unece:UNCL4065Code",
+            "rdfs:comment": "Indication that airline is unable to confirm space on a specific flight since the flight does not operate.",
+            "rdfs:label": "Non-operative flight",
+            "rdf:value": "22"
+        },
+        {
+            "@id": "uncl4065:23",
+            "@type": "unece:UNCL4065Code",
+            "rdfs:comment": "Indication that the space allocation request has been assigned to a wait list.",
+            "rdfs:label": "Wait list",
+            "rdf:value": "23"
+        },
+        {
+            "@id": "uncl4065:24",
+            "@type": "unece:UNCL4065Code",
+            "rdfs:comment": "Indication that a space allocation on a specific flight has already been requested.",
+            "rdfs:label": "Prior space allocation request",
+            "rdf:value": "24"
+        },
+        {
+            "@id": "uncl4065:25",
+            "@type": "unece:UNCL4065Code",
+            "rdfs:comment": "Indication that space is being held as confirmed on a specific flight.",
+            "rdfs:label": "Holding confirmed space allocation",
+            "rdf:value": "25"
+        },
+        {
+            "@id": "uncl4065:26",
+            "@type": "unece:UNCL4065Code",
+            "rdfs:comment": "Indication that space allocation request on a specific flight has been assigned to a wait list.",
+            "rdfs:label": "Holding wait list",
+            "rdf:value": "26"
+        },
+        {
+            "@id": "uncl4065:27",
+            "@type": "unece:UNCL4065Code",
+            "rdfs:comment": "The carrier is responsible for the intermodal carriage of cargo including both the pre-carriage and the on- carriage.",
+            "rdfs:label": "Door-to-door",
+            "rdf:value": "27"
+        },
+        {
+            "@id": "uncl4065:28",
+            "@type": "unece:UNCL4065Code",
+            "rdfs:comment": "The carrier is responsible for the intermodal carriage of cargo including the pre-carriage, but excluding the on-carriage.",
+            "rdfs:label": "Door-to-pier",
+            "rdf:value": "28"
+        },
+        {
+            "@id": "uncl4065:29",
+            "@type": "unece:UNCL4065Code",
+            "rdfs:comment": "The carrier is responsible for the intermodal carriage of cargo including the on-carriage, but excluding the pre-carriage.",
+            "rdfs:label": "Pier-to-door",
+            "rdf:value": "29"
+        },
+        {
+            "@id": "uncl4065:30",
+            "@type": "unece:UNCL4065Code",
+            "rdfs:comment": "The carrier of intermodal cargo is only responsible for the main carriage.",
+            "rdfs:label": "Pier-to-pier",
+            "rdf:value": "30"
+        },
+        {
+            "@id": "uncl4065:31",
+            "@type": "unece:UNCL4065Code",
+            "rdfs:comment": "Indication that space previously allocated on a means of transport has been cancelled.",
+            "rdfs:label": "Space cancellation noted",
+            "rdf:value": "31"
+        },
+        {
+            "@id": "uncl4065:32",
+            "@type": "unece:UNCL4065Code",
+            "rdfs:comment": "Cargo moving from a coastal port for delivery at an inland location or cargo received at an inland location moving to a coastal port for subsequent ocean transportation.",
+            "rdfs:label": "Mini landbridge service",
+            "rdf:value": "32"
+        },
+        {
+            "@id": "uncl4065:34",
+            "@type": "unece:UNCL4065Code",
+            "rdfs:comment": "Maximum speed required on an itinerary or part of this itinerary to be able to assume some services.",
+            "rdfs:label": "Speed level - required",
+            "rdf:value": "34"
+        },
+        {
+            "@id": "uncl4065:35",
+            "@type": "unece:UNCL4065Code",
+            "rdfs:comment": "Real speed used on an itinerary or part of this itinerary (for technical reasons, some limitation can be imposed or some higher speed could be used).",
+            "rdfs:label": "Speed level - adopted",
+            "rdf:value": "35"
+        },
+        {
+            "@id": "uncl4065:36",
+            "@type": "unece:UNCL4065Code",
+            "rdfs:comment": "Application of the published legal tariff in case of less than full load transport (required or not by the consignor).",
+            "rdfs:label": "Normal tariff, less than full load transport",
+            "rdf:value": "36"
+        },
+        {
+            "@id": "uncl4065:37",
+            "@type": "unece:UNCL4065Code",
+            "rdfs:comment": "Indication that a special tariff must be used in the case of a re-expedition.",
+            "rdfs:label": "Re-expedition special tariff",
+            "rdf:value": "37"
+        },
+        {
+            "@id": "uncl4065:38",
+            "@type": "unece:UNCL4065Code",
+            "rdfs:comment": "The service requester has the responsibility of making transport arrangement.",
+            "rdfs:label": "Transport arrangement by the requester",
+            "rdf:value": "38"
+        },
+        {
+            "@id": "uncl4065:39",
+            "@type": "unece:UNCL4065Code",
+            "rdfs:comment": "The service provider has the responsibility of making transport arrangement.",
+            "rdfs:label": "Transport arrangement by the provider",
+            "rdf:value": "39"
+        },
+        {
+            "@id": "uncl4065:40",
+            "@type": "unece:UNCL4065Code",
+            "rdfs:comment": "The patient has the responsibility of making transport arrangement.",
+            "rdfs:label": "Transport arrangement by the patient",
+            "rdf:value": "40"
+        }
+    ]
+}

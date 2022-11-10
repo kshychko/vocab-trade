@@ -1,0 +1,130 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl9015": "https://dmvc7xzscpizo.cloudfront.net/uncl9015#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl9015:1",
+            "@type": "unece:UNCL9015Code",
+            "rdfs:comment": "Status type is related to transport.",
+            "rdfs:label": "Transport",
+            "rdf:value": "1"
+        },
+        {
+            "@id": "uncl9015:2",
+            "@type": "unece:UNCL9015Code",
+            "rdfs:comment": "Status type is related to order administration.",
+            "rdfs:label": "Order administration",
+            "rdf:value": "2"
+        },
+        {
+            "@id": "uncl9015:3",
+            "@type": "unece:UNCL9015Code",
+            "rdfs:comment": "To specify the result of an inspection.",
+            "rdfs:label": "Inspection result",
+            "rdf:value": "3"
+        },
+        {
+            "@id": "uncl9015:4",
+            "@type": "unece:UNCL9015Code",
+            "rdfs:comment": "The status reported is related to a publication issue claim.",
+            "rdfs:label": "Publication issue claim",
+            "rdf:value": "4"
+        },
+        {
+            "@id": "uncl9015:5",
+            "@type": "unece:UNCL9015Code",
+            "rdfs:comment": "Status category is of, related to or concerned with the law.",
+            "rdfs:label": "Legal category",
+            "rdf:value": "5"
+        },
+        {
+            "@id": "uncl9015:6",
+            "@type": "unece:UNCL9015Code",
+            "rdfs:comment": "The status reported is related to a contract.",
+            "rdfs:label": "Contract",
+            "rdf:value": "6"
+        },
+        {
+            "@id": "uncl9015:7",
+            "@type": "unece:UNCL9015Code",
+            "rdfs:comment": "The status reported is related to a transaction.",
+            "rdfs:label": "Transaction",
+            "rdf:value": "7"
+        },
+        {
+            "@id": "uncl9015:8",
+            "@type": "unece:UNCL9015Code",
+            "rdfs:comment": "The quality of a meter reading.",
+            "rdfs:label": "Meter reading quality",
+            "rdf:value": "8"
+        },
+        {
+            "@id": "uncl9015:9",
+            "@type": "unece:UNCL9015Code",
+            "rdfs:comment": "The status reported is related to a capacity.",
+            "rdfs:label": "Capacity",
+            "rdf:value": "9"
+        },
+        {
+            "@id": "uncl9015:10",
+            "@type": "unece:UNCL9015Code",
+            "rdfs:comment": "The status is related to the categorization of measurement.",
+            "rdfs:label": "Measurement classification",
+            "rdf:value": "10"
+        },
+        {
+            "@id": "uncl9015:11",
+            "@type": "unece:UNCL9015Code",
+            "rdfs:comment": "A code describing the security status of a means of transport including security certification status of the transport means and status of maintained or required security procedures during transport operations.",
+            "rdfs:label": "Transport means security status",
+            "rdf:value": "11"
+        },
+        {
+            "@id": "uncl9015:12",
+            "@type": "unece:UNCL9015Code",
+            "rdfs:comment": "The status reported is related to an activity.",
+            "rdfs:label": "Activity",
+            "rdf:value": "12"
+        },
+        {
+            "@id": "uncl9015:13",
+            "@type": "unece:UNCL9015Code",
+            "rdfs:comment": "The status reported is related to a claim.",
+            "rdfs:label": "Claim",
+            "rdf:value": "13"
+        },
+        {
+            "@id": "uncl9015:14",
+            "@type": "unece:UNCL9015Code",
+            "rdfs:comment": "The status reported relates to an order.",
+            "rdfs:label": "Order",
+            "rdf:value": "14"
+        },
+        {
+            "@id": "uncl9015:15",
+            "@type": "unece:UNCL9015Code",
+            "rdfs:comment": "The status reported relates to a cash on delivery order.",
+            "rdfs:label": "Cash on delivery order",
+            "rdf:value": "15"
+        },
+        {
+            "@id": "uncl9015:16",
+            "@type": "unece:UNCL9015Code",
+            "rdfs:comment": "The status reported relates to an urgent order.",
+            "rdfs:label": "Urgent order",
+            "rdf:value": "16"
+        },
+        {
+            "@id": "uncl9015:17",
+            "@type": "unece:UNCL9015Code",
+            "rdfs:comment": "The status reported relates to a previous call off order.",
+            "rdfs:label": "Previous call off order",
+            "rdf:value": "17"
+        }
+    ]
+}

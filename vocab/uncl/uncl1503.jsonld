@@ -1,0 +1,39 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl1503": "https://dmvc7xzscpizo.cloudfront.net/uncl1503#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl1503:1",
+            "@type": "unece:UNCL1503Code",
+            "rdfs:comment": "Code to identify the ASCII format (American Standard Code II).",
+            "rdfs:label": "ASCII",
+            "rdf:value": "1"
+        },
+        {
+            "@id": "uncl1503:2",
+            "@type": "unece:UNCL1503Code",
+            "rdfs:comment": "Code to identify the EBCDIC format (Extended Binary Character Decimal Interchange Code).",
+            "rdfs:label": "EBCDIC",
+            "rdf:value": "2"
+        },
+        {
+            "@id": "uncl1503:3",
+            "@type": "unece:UNCL1503Code",
+            "rdfs:comment": "Code to identify a binary format.",
+            "rdfs:label": "Binary",
+            "rdf:value": "3"
+        },
+        {
+            "@id": "uncl1503:4",
+            "@type": "unece:UNCL1503Code",
+            "rdfs:comment": "Code to identify an analogue format.",
+            "rdfs:label": "Analogue",
+            "rdf:value": "4"
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl4463": "https://dmvc7xzscpizo.cloudfront.net/uncl4463#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl4463:1",
+            "@type": "unece:UNCL4463Code",
+            "rdfs:comment": "Moving funds between accounts, where the account owner is one company or belonging to a group of companies.",
+            "rdfs:label": "Intra-company payment",
+            "rdf:value": "1"
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl6071": "https://dmvc7xzscpizo.cloudfront.net/uncl6071#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl6071:1",
+            "@type": "unece:UNCL6071Code",
+            "rdfs:comment": "The rate at which goods are sampled over a particular period.",
+            "rdfs:label": "Sample frequency",
+            "rdf:value": "1"
+        }
+    ]
+}

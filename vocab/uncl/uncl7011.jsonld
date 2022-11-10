@@ -1,0 +1,88 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl7011": "https://dmvc7xzscpizo.cloudfront.net/uncl7011#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl7011:1",
+            "@type": "unece:UNCL7011Code",
+            "rdfs:comment": "The item is announced only, not yet available.",
+            "rdfs:label": "New, announcement only",
+            "rdf:value": "1"
+        },
+        {
+            "@id": "uncl7011:2",
+            "@type": "unece:UNCL7011Code",
+            "rdfs:comment": "The item is new and available.",
+            "rdfs:label": "New, available",
+            "rdf:value": "2"
+        },
+        {
+            "@id": "uncl7011:3",
+            "@type": "unece:UNCL7011Code",
+            "rdfs:comment": "The item is obsolete.",
+            "rdfs:label": "Obsolete",
+            "rdf:value": "3"
+        },
+        {
+            "@id": "uncl7011:4",
+            "@type": "unece:UNCL7011Code",
+            "rdfs:comment": "The item is a prototype and is not yet in normal production.",
+            "rdfs:label": "Prototype",
+            "rdf:value": "4"
+        },
+        {
+            "@id": "uncl7011:5",
+            "@type": "unece:UNCL7011Code",
+            "rdfs:comment": "Company's standard product.",
+            "rdfs:label": "Commodity",
+            "rdf:value": "5"
+        },
+        {
+            "@id": "uncl7011:6",
+            "@type": "unece:UNCL7011Code",
+            "rdfs:comment": "Item is not a standard product.",
+            "rdfs:label": "Special",
+            "rdf:value": "6"
+        },
+        {
+            "@id": "uncl7011:7",
+            "@type": "unece:UNCL7011Code",
+            "rdfs:comment": "Item is temporarily not available.",
+            "rdfs:label": "Temporarily out",
+            "rdf:value": "7"
+        },
+        {
+            "@id": "uncl7011:8",
+            "@type": "unece:UNCL7011Code",
+            "rdfs:comment": "Item is out of production.",
+            "rdfs:label": "Manufacture out",
+            "rdf:value": "8"
+        },
+        {
+            "@id": "uncl7011:9",
+            "@type": "unece:UNCL7011Code",
+            "rdfs:comment": "Item is no longer available because it is discontinued.",
+            "rdfs:label": "Discontinued",
+            "rdf:value": "9"
+        },
+        {
+            "@id": "uncl7011:10",
+            "@type": "unece:UNCL7011Code",
+            "rdfs:comment": "Item is only seasonally available.",
+            "rdfs:label": "Seasonally available only",
+            "rdf:value": "10"
+        },
+        {
+            "@id": "uncl7011:11",
+            "@type": "unece:UNCL7011Code",
+            "rdfs:comment": "The announcement of a deletion.",
+            "rdfs:label": "Deletion, announcement only",
+            "rdf:value": "11"
+        }
+    ]
+}

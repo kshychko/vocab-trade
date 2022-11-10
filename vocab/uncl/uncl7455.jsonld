@@ -1,0 +1,25 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl7455": "https://dmvc7xzscpizo.cloudfront.net/uncl7455#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl7455:1",
+            "@type": "unece:UNCL7455Code",
+            "rdfs:comment": "Membership level is related to insurance.",
+            "rdfs:label": "Insurance",
+            "rdf:value": "1"
+        },
+        {
+            "@id": "uncl7455:2",
+            "@type": "unece:UNCL7455Code",
+            "rdfs:comment": "Membership level is related to retirement benefits.",
+            "rdfs:label": "Superannuation",
+            "rdf:value": "2"
+        }
+    ]
+}

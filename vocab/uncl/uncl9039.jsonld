@@ -1,0 +1,74 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl9039": "https://dmvc7xzscpizo.cloudfront.net/uncl9039#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl9039:1",
+            "@type": "unece:UNCL9039Code",
+            "rdfs:comment": "Movie viewing is available.",
+            "rdfs:label": "Movie",
+            "rdf:value": "1"
+        },
+        {
+            "@id": "uncl9039:2",
+            "@type": "unece:UNCL9039Code",
+            "rdfs:comment": "Telephone service is available.",
+            "rdfs:label": "Telephone",
+            "rdf:value": "2"
+        },
+        {
+            "@id": "uncl9039:3",
+            "@type": "unece:UNCL9039Code",
+            "rdfs:comment": "Telex service is available.",
+            "rdfs:label": "Telex",
+            "rdf:value": "3"
+        },
+        {
+            "@id": "uncl9039:4",
+            "@type": "unece:UNCL9039Code",
+            "rdfs:comment": "Audio programming is available.",
+            "rdfs:label": "Audio programming",
+            "rdf:value": "4"
+        },
+        {
+            "@id": "uncl9039:5",
+            "@type": "unece:UNCL9039Code",
+            "rdfs:comment": "Television sets are available.",
+            "rdfs:label": "Television",
+            "rdf:value": "5"
+        },
+        {
+            "@id": "uncl9039:6",
+            "@type": "unece:UNCL9039Code",
+            "rdfs:comment": "Reservation booking service is available.",
+            "rdfs:label": "Reservation booking service",
+            "rdf:value": "6"
+        },
+        {
+            "@id": "uncl9039:7",
+            "@type": "unece:UNCL9039Code",
+            "rdfs:comment": "Duty free sales are available.",
+            "rdfs:label": "Duty free sales",
+            "rdf:value": "7"
+        },
+        {
+            "@id": "uncl9039:8",
+            "@type": "unece:UNCL9039Code",
+            "rdfs:comment": "The facility permits smoking.",
+            "rdfs:label": "Smoking",
+            "rdf:value": "8"
+        },
+        {
+            "@id": "uncl9039:9",
+            "@type": "unece:UNCL9039Code",
+            "rdfs:comment": "The facility is non-smoking.",
+            "rdfs:label": "Non-smoking",
+            "rdf:value": "9"
+        }
+    ]
+}

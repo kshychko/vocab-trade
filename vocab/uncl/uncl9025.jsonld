@@ -1,0 +1,32 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl9025": "https://dmvc7xzscpizo.cloudfront.net/uncl9025#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl9025:1",
+            "@type": "unece:UNCL9025Code",
+            "rdfs:comment": "To specify the beginning of a definition.",
+            "rdfs:label": "Begin",
+            "rdf:value": "1"
+        },
+        {
+            "@id": "uncl9025:2",
+            "@type": "unece:UNCL9025Code",
+            "rdfs:comment": "To specify the end of a definition.",
+            "rdfs:label": "End",
+            "rdf:value": "2"
+        },
+        {
+            "@id": "uncl9025:3",
+            "@type": "unece:UNCL9025Code",
+            "rdfs:comment": "To specify use of a definition.",
+            "rdfs:label": "Use",
+            "rdf:value": "3"
+        }
+    ]
+}

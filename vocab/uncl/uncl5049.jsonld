@@ -1,0 +1,95 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl5049": "https://dmvc7xzscpizo.cloudfront.net/uncl5049#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl5049:1",
+            "@type": "unece:UNCL5049Code",
+            "rdfs:comment": "Company payment.",
+            "rdfs:label": "Company",
+            "rdf:value": "1"
+        },
+        {
+            "@id": "uncl5049:2",
+            "@type": "unece:UNCL5049Code",
+            "rdfs:comment": "Company payment as per an industry or similar industrial award agreement.",
+            "rdfs:label": "Company award",
+            "rdf:value": "2"
+        },
+        {
+            "@id": "uncl5049:3",
+            "@type": "unece:UNCL5049Code",
+            "rdfs:comment": "Company payment which is higher than an industry or similar award agreement.",
+            "rdfs:label": "Company over-award",
+            "rdf:value": "3"
+        },
+        {
+            "@id": "uncl5049:4",
+            "@type": "unece:UNCL5049Code",
+            "rdfs:comment": "Payment is in the form of a single payment.",
+            "rdfs:label": "Lump sum",
+            "rdf:value": "4"
+        },
+        {
+            "@id": "uncl5049:5",
+            "@type": "unece:UNCL5049Code",
+            "rdfs:comment": "Additional company payment.",
+            "rdfs:label": "Company additional",
+            "rdf:value": "5"
+        },
+        {
+            "@id": "uncl5049:6",
+            "@type": "unece:UNCL5049Code",
+            "rdfs:comment": "A company payment which is paid on a voluntary basis.",
+            "rdfs:label": "Company voluntary",
+            "rdf:value": "6"
+        },
+        {
+            "@id": "uncl5049:7",
+            "@type": "unece:UNCL5049Code",
+            "rdfs:comment": "A member payment which is paid on a voluntary basis.",
+            "rdfs:label": "Member voluntary",
+            "rdf:value": "7"
+        },
+        {
+            "@id": "uncl5049:8",
+            "@type": "unece:UNCL5049Code",
+            "rdfs:comment": "Additional member payment.",
+            "rdfs:label": "Member additional",
+            "rdf:value": "8"
+        },
+        {
+            "@id": "uncl5049:9",
+            "@type": "unece:UNCL5049Code",
+            "rdfs:comment": "Single payment by an individual member.",
+            "rdfs:label": "Member individual",
+            "rdf:value": "9"
+        },
+        {
+            "@id": "uncl5049:10",
+            "@type": "unece:UNCL5049Code",
+            "rdfs:comment": "Payment as part of a group plan or scheme.",
+            "rdfs:label": "Group",
+            "rdf:value": "10"
+        },
+        {
+            "@id": "uncl5049:11",
+            "@type": "unece:UNCL5049Code",
+            "rdfs:comment": "Contribution type differs from any of the other coded values.",
+            "rdfs:label": "Other",
+            "rdf:value": "11"
+        },
+        {
+            "@id": "uncl5049:ZZZ",
+            "@type": "unece:UNCL5049Code",
+            "rdfs:comment": "Mutually defined contribution type.",
+            "rdfs:label": "Mutually defined",
+            "rdf:value": "ZZZ"
+        }
+    ]
+}

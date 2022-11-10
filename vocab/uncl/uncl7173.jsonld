@@ -1,0 +1,242 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl7173": "https://dmvc7xzscpizo.cloudfront.net/uncl7173#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl7173:1",
+            "@type": "unece:UNCL7173Code",
+            "rdfs:comment": "Hierarchy applying to figures (an illustration showing the components of an item).",
+            "rdfs:label": "Figure",
+            "rdf:value": "1"
+        },
+        {
+            "@id": "uncl7173:2",
+            "@type": "unece:UNCL7173Code",
+            "rdfs:comment": "Hierarchy applying to products.",
+            "rdfs:label": "Product",
+            "rdf:value": "2"
+        },
+        {
+            "@id": "uncl7173:3",
+            "@type": "unece:UNCL7173Code",
+            "rdfs:comment": "No hierarchy to be described.",
+            "rdfs:label": "No hierarchy",
+            "rdf:value": "3"
+        },
+        {
+            "@id": "uncl7173:4",
+            "@type": "unece:UNCL7173Code",
+            "rdfs:comment": "Objects are related in the hierarchy as data structures.",
+            "rdfs:label": "Data structures",
+            "rdf:value": "4"
+        },
+        {
+            "@id": "uncl7173:5",
+            "@type": "unece:UNCL7173Code",
+            "rdfs:comment": "An item assembled from a number of component parts.",
+            "rdfs:label": "Sub-assembly",
+            "rdf:value": "5"
+        },
+        {
+            "@id": "uncl7173:6",
+            "@type": "unece:UNCL7173Code",
+            "rdfs:comment": "Part assembled with other items to produce an assembly.",
+            "rdfs:label": "Component part",
+            "rdf:value": "6"
+        },
+        {
+            "@id": "uncl7173:7",
+            "@type": "unece:UNCL7173Code",
+            "rdfs:comment": "A structured view on how an item is composed.",
+            "rdfs:label": "Technical drawing",
+            "rdf:value": "7"
+        },
+        {
+            "@id": "uncl7173:8",
+            "@type": "unece:UNCL7173Code",
+            "rdfs:comment": "Hierarchy applies to financial institution details information.",
+            "rdfs:label": "Financial institution details",
+            "rdf:value": "8"
+        },
+        {
+            "@id": "uncl7173:9",
+            "@type": "unece:UNCL7173Code",
+            "rdfs:comment": "Hierarchy applies to financial data information.",
+            "rdfs:label": "Financial data",
+            "rdf:value": "9"
+        },
+        {
+            "@id": "uncl7173:10",
+            "@type": "unece:UNCL7173Code",
+            "rdfs:comment": "Hierarchy applies to party history information.",
+            "rdfs:label": "Party history",
+            "rdf:value": "10"
+        },
+        {
+            "@id": "uncl7173:11",
+            "@type": "unece:UNCL7173Code",
+            "rdfs:comment": "Hierarchy applies to entity identification information.",
+            "rdfs:label": "Entity identification",
+            "rdf:value": "11"
+        },
+        {
+            "@id": "uncl7173:12",
+            "@type": "unece:UNCL7173Code",
+            "rdfs:comment": "Hierarchy applies to business insurance information.",
+            "rdfs:label": "Business insurance",
+            "rdf:value": "12"
+        },
+        {
+            "@id": "uncl7173:13",
+            "@type": "unece:UNCL7173Code",
+            "rdfs:comment": "Hierarchy applies to credit appraisal information.",
+            "rdfs:label": "Credit appraisal",
+            "rdf:value": "13"
+        },
+        {
+            "@id": "uncl7173:14",
+            "@type": "unece:UNCL7173Code",
+            "rdfs:comment": "Hierarchy applies to location information.",
+            "rdfs:label": "Location",
+            "rdf:value": "14"
+        },
+        {
+            "@id": "uncl7173:15",
+            "@type": "unece:UNCL7173Code",
+            "rdfs:comment": "Hierarchy applies to management details information.",
+            "rdfs:label": "Management details",
+            "rdf:value": "15"
+        },
+        {
+            "@id": "uncl7173:16",
+            "@type": "unece:UNCL7173Code",
+            "rdfs:comment": "Hierarchy applies to operations information.",
+            "rdfs:label": "Operations",
+            "rdf:value": "16"
+        },
+        {
+            "@id": "uncl7173:17",
+            "@type": "unece:UNCL7173Code",
+            "rdfs:comment": "Hierarchy applies to payment handling information.",
+            "rdfs:label": "Payment handling",
+            "rdf:value": "17"
+        },
+        {
+            "@id": "uncl7173:18",
+            "@type": "unece:UNCL7173Code",
+            "rdfs:comment": "Hierarchy applies to public records information.",
+            "rdfs:label": "Public records",
+            "rdf:value": "18"
+        },
+        {
+            "@id": "uncl7173:19",
+            "@type": "unece:UNCL7173Code",
+            "rdfs:comment": "Hierarchy applies to real estate property information.",
+            "rdfs:label": "Real estate property",
+            "rdf:value": "19"
+        },
+        {
+            "@id": "uncl7173:20",
+            "@type": "unece:UNCL7173Code",
+            "rdfs:comment": "Hierarchy applies to related entities information.",
+            "rdfs:label": "Related entities",
+            "rdf:value": "20"
+        },
+        {
+            "@id": "uncl7173:21",
+            "@type": "unece:UNCL7173Code",
+            "rdfs:comment": "Hierarchy applies to data source information.",
+            "rdfs:label": "Data source",
+            "rdf:value": "21"
+        },
+        {
+            "@id": "uncl7173:22",
+            "@type": "unece:UNCL7173Code",
+            "rdfs:comment": "Hierarchy applies to equity holder information.",
+            "rdfs:label": "Equity holder",
+            "rdf:value": "22"
+        },
+        {
+            "@id": "uncl7173:23",
+            "@type": "unece:UNCL7173Code",
+            "rdfs:comment": "Hierarchy applies to summary evaluation information.",
+            "rdfs:label": "Summary evaluation",
+            "rdf:value": "23"
+        },
+        {
+            "@id": "uncl7173:24",
+            "@type": "unece:UNCL7173Code",
+            "rdfs:comment": "The hierarchy applies to report update information.",
+            "rdfs:label": "Report update",
+            "rdf:value": "24"
+        },
+        {
+            "@id": "uncl7173:25",
+            "@type": "unece:UNCL7173Code",
+            "rdfs:comment": "Hierarchy applying to parties.",
+            "rdfs:label": "Party",
+            "rdf:value": "25"
+        },
+        {
+            "@id": "uncl7173:26",
+            "@type": "unece:UNCL7173Code",
+            "rdfs:comment": "Hierarchy applying to a central procurement party.",
+            "rdfs:label": "Central procurement party",
+            "rdf:value": "26"
+        },
+        {
+            "@id": "uncl7173:27",
+            "@type": "unece:UNCL7173Code",
+            "rdfs:comment": "Hierarchy applying to a quotation party.",
+            "rdfs:label": "Quotation party",
+            "rdf:value": "27"
+        },
+        {
+            "@id": "uncl7173:28",
+            "@type": "unece:UNCL7173Code",
+            "rdfs:comment": "Hierarchy applying to an operational group.",
+            "rdfs:label": "Operational group",
+            "rdf:value": "28"
+        },
+        {
+            "@id": "uncl7173:29",
+            "@type": "unece:UNCL7173Code",
+            "rdfs:comment": "Hierarchy applying to a juridical group.",
+            "rdfs:label": "Juridical group",
+            "rdf:value": "29"
+        },
+        {
+            "@id": "uncl7173:30",
+            "@type": "unece:UNCL7173Code",
+            "rdfs:comment": "Hierarchy applies to loan information.",
+            "rdfs:label": "Loan information",
+            "rdf:value": "30"
+        },
+        {
+            "@id": "uncl7173:31",
+            "@type": "unece:UNCL7173Code",
+            "rdfs:comment": "Hierarchy applies to performance.",
+            "rdfs:label": "Performance",
+            "rdf:value": "31"
+        },
+        {
+            "@id": "uncl7173:32",
+            "@type": "unece:UNCL7173Code",
+            "rdfs:comment": "Hierarchy applies to historical performance.",
+            "rdfs:label": "Historical performance",
+            "rdf:value": "32"
+        },
+        {
+            "@id": "uncl7173:33",
+            "@type": "unece:UNCL7173Code",
+            "rdfs:comment": "The hierarchy applies to associated accessories.",
+            "rdfs:label": "Associated accessory",
+            "rdf:value": "33"
+        }
+    ]
+}

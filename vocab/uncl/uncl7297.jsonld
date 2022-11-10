@@ -1,0 +1,137 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl7297": "https://dmvc7xzscpizo.cloudfront.net/uncl7297#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl7297:1",
+            "@type": "unece:UNCL7297Code",
+            "rdfs:comment": "Identification of the product set.",
+            "rdfs:label": "Product",
+            "rdf:value": "1"
+        },
+        {
+            "@id": "uncl7297:2",
+            "@type": "unece:UNCL7297Code",
+            "rdfs:comment": "Identification of the licence set.",
+            "rdfs:label": "Licence",
+            "rdf:value": "2"
+        },
+        {
+            "@id": "uncl7297:3",
+            "@type": "unece:UNCL7297Code",
+            "rdfs:comment": "Related numbers identifying a package such as a bar code label number related to a kanban card number, etc.",
+            "rdfs:label": "Package",
+            "rdf:value": "3"
+        },
+        {
+            "@id": "uncl7297:4",
+            "@type": "unece:UNCL7297Code",
+            "rdfs:comment": "A code which indicates that the identities which follow are related to a particular vehicle which may have been previously identified.",
+            "rdfs:label": "Vehicle reference set",
+            "rdf:value": "4"
+        },
+        {
+            "@id": "uncl7297:5",
+            "@type": "unece:UNCL7297Code",
+            "rdfs:comment": "The source database of the data in a data set.",
+            "rdfs:label": "Source database",
+            "rdf:value": "5"
+        },
+        {
+            "@id": "uncl7297:6",
+            "@type": "unece:UNCL7297Code",
+            "rdfs:comment": "The target database for the data in a data set.",
+            "rdfs:label": "Target database",
+            "rdf:value": "6"
+        },
+        {
+            "@id": "uncl7297:7",
+            "@type": "unece:UNCL7297Code",
+            "rdfs:comment": "A coded or non coded list of values.",
+            "rdfs:label": "Value list",
+            "rdf:value": "7"
+        },
+        {
+            "@id": "uncl7297:8",
+            "@type": "unece:UNCL7297Code",
+            "rdfs:comment": "The contract related item numbers.",
+            "rdfs:label": "Contract",
+            "rdf:value": "8"
+        },
+        {
+            "@id": "uncl7297:9",
+            "@type": "unece:UNCL7297Code",
+            "rdfs:comment": "Financial security identifier set.",
+            "rdfs:label": "Financial security",
+            "rdf:value": "9"
+        },
+        {
+            "@id": "uncl7297:10",
+            "@type": "unece:UNCL7297Code",
+            "rdfs:comment": "A code to identify a set of numbers used for accounting.",
+            "rdfs:label": "Accounting",
+            "rdf:value": "10"
+        },
+        {
+            "@id": "uncl7297:11",
+            "@type": "unece:UNCL7297Code",
+            "rdfs:comment": "A set of numbers to identify a project.",
+            "rdfs:label": "Project",
+            "rdf:value": "11"
+        },
+        {
+            "@id": "uncl7297:12",
+            "@type": "unece:UNCL7297Code",
+            "rdfs:comment": "A set of numbers to identify a plan of work.",
+            "rdfs:label": "Work plan",
+            "rdf:value": "12"
+        },
+        {
+            "@id": "uncl7297:13",
+            "@type": "unece:UNCL7297Code",
+            "rdfs:comment": "A set of numbers to identify a schedule of work.",
+            "rdfs:label": "Work schedule",
+            "rdf:value": "13"
+        },
+        {
+            "@id": "uncl7297:14",
+            "@type": "unece:UNCL7297Code",
+            "rdfs:comment": "A set of numbers to identify a resource.",
+            "rdfs:label": "Resource",
+            "rdf:value": "14"
+        },
+        {
+            "@id": "uncl7297:15",
+            "@type": "unece:UNCL7297Code",
+            "rdfs:comment": "A set of numbers to identify a milestone event.",
+            "rdfs:label": "Milestone event",
+            "rdf:value": "15"
+        },
+        {
+            "@id": "uncl7297:16",
+            "@type": "unece:UNCL7297Code",
+            "rdfs:comment": "A set of numbers to identify an interface work task.",
+            "rdfs:label": "Interface work task",
+            "rdf:value": "16"
+        },
+        {
+            "@id": "uncl7297:17",
+            "@type": "unece:UNCL7297Code",
+            "rdfs:comment": "A set of numbers to identify a work task constraint.",
+            "rdfs:label": "Work task constraint",
+            "rdf:value": "17"
+        },
+        {
+            "@id": "uncl7297:18",
+            "@type": "unece:UNCL7297Code",
+            "rdfs:comment": "Position number(s) of a data structure's relevant components.",
+            "rdfs:label": "Data structure position number",
+            "rdf:value": "18"
+        }
+    ]
+}

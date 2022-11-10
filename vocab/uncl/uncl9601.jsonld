@@ -1,0 +1,46 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl9601": "https://dmvc7xzscpizo.cloudfront.net/uncl9601#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl9601:1",
+            "@type": "unece:UNCL9601Code",
+            "rdfs:comment": "The information is a list of times at which events are scheduled to take place.",
+            "rdfs:label": "Timetable",
+            "rdf:value": "1"
+        },
+        {
+            "@id": "uncl9601:2",
+            "@type": "unece:UNCL9601Code",
+            "rdfs:comment": "The information is price related.",
+            "rdfs:label": "Price",
+            "rdf:value": "2"
+        },
+        {
+            "@id": "uncl9601:3",
+            "@type": "unece:UNCL9601Code",
+            "rdfs:comment": "Information about the facilities and services at a location.",
+            "rdfs:label": "Location facilities and services",
+            "rdf:value": "3"
+        },
+        {
+            "@id": "uncl9601:4",
+            "@type": "unece:UNCL9601Code",
+            "rdfs:comment": "Information about the composition of a travel product and/or service.",
+            "rdfs:label": "Travel product and/or service composition",
+            "rdf:value": "4"
+        },
+        {
+            "@id": "uncl9601:5",
+            "@type": "unece:UNCL9601Code",
+            "rdfs:comment": "Information concerning miscellaneous categories.",
+            "rdfs:label": "Miscellaneous",
+            "rdf:value": "5"
+        }
+    ]
+}

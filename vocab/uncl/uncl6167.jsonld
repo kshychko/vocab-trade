@@ -1,0 +1,123 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl6167": "https://dmvc7xzscpizo.cloudfront.net/uncl6167#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl6167:1",
+            "@type": "unece:UNCL6167Code",
+            "rdfs:comment": "Identifies the range for an allowance.",
+            "rdfs:label": "Allowance range",
+            "rdf:value": "1"
+        },
+        {
+            "@id": "uncl6167:2",
+            "@type": "unece:UNCL6167Code",
+            "rdfs:comment": "Identifies the range for a charge.",
+            "rdfs:label": "Charge range",
+            "rdf:value": "2"
+        },
+        {
+            "@id": "uncl6167:3",
+            "@type": "unece:UNCL6167Code",
+            "rdfs:comment": "Identifies the range related to money.",
+            "rdfs:label": "Monetary range",
+            "rdf:value": "3"
+        },
+        {
+            "@id": "uncl6167:4",
+            "@type": "unece:UNCL6167Code",
+            "rdfs:comment": "Identifies the range for quantity.",
+            "rdfs:label": "Quantity range",
+            "rdf:value": "4"
+        },
+        {
+            "@id": "uncl6167:5",
+            "@type": "unece:UNCL6167Code",
+            "rdfs:comment": "The range of a temperature.",
+            "rdfs:label": "Temperature range",
+            "rdf:value": "5"
+        },
+        {
+            "@id": "uncl6167:6",
+            "@type": "unece:UNCL6167Code",
+            "rdfs:comment": "The minimum to maximum order quantity.",
+            "rdfs:label": "Order quantity range",
+            "rdf:value": "6"
+        },
+        {
+            "@id": "uncl6167:7",
+            "@type": "unece:UNCL6167Code",
+            "rdfs:comment": "The minimum to maximum delivery quantity.",
+            "rdfs:label": "Delivery quantity range",
+            "rdf:value": "7"
+        },
+        {
+            "@id": "uncl6167:8",
+            "@type": "unece:UNCL6167Code",
+            "rdfs:comment": "The minimum to maximum quantity in a single production run.",
+            "rdfs:label": "Production batch range",
+            "rdf:value": "8"
+        },
+        {
+            "@id": "uncl6167:9",
+            "@type": "unece:UNCL6167Code",
+            "rdfs:comment": "The minimum to maximum monthly quantity.",
+            "rdfs:label": "Monthly quantity range",
+            "rdf:value": "9"
+        },
+        {
+            "@id": "uncl6167:10",
+            "@type": "unece:UNCL6167Code",
+            "rdfs:comment": "The minimum to maximum yearly quantity.",
+            "rdfs:label": "Annual quantity range",
+            "rdf:value": "10"
+        },
+        {
+            "@id": "uncl6167:11",
+            "@type": "unece:UNCL6167Code",
+            "rdfs:comment": "Range in which packages can be stacked.",
+            "rdfs:label": "Package stacking range",
+            "rdf:value": "11"
+        },
+        {
+            "@id": "uncl6167:12",
+            "@type": "unece:UNCL6167Code",
+            "rdfs:comment": "The temperature range at which cargo is to be kept while it is under transport.",
+            "rdfs:label": "Transport temperature range",
+            "rdf:value": "12"
+        },
+        {
+            "@id": "uncl6167:13",
+            "@type": "unece:UNCL6167Code",
+            "rdfs:comment": "The temperature range at which the equipment is to be brought to in preparation for the loading of cargo.",
+            "rdfs:label": "Equipment pre-tripping temperature range",
+            "rdf:value": "13"
+        },
+        {
+            "@id": "uncl6167:14",
+            "@type": "unece:UNCL6167Code",
+            "rdfs:comment": "Identifies the range for a terms discount.",
+            "rdfs:label": "Terms discount range",
+            "rdf:value": "14"
+        },
+        {
+            "@id": "uncl6167:15",
+            "@type": "unece:UNCL6167Code",
+            "rdfs:comment": "The minimum to maximum cumulative order quantity.",
+            "rdfs:label": "Order quantity range, cumulative",
+            "rdf:value": "15"
+        },
+        {
+            "@id": "uncl6167:16",
+            "@type": "unece:UNCL6167Code",
+            "rdfs:comment": "Range of equipment numbers.",
+            "rdfs:label": "Equipment number range",
+            "rdf:value": "16"
+        }
+    ]
+}

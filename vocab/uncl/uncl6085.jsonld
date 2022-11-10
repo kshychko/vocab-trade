@@ -1,0 +1,25 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl6085": "https://dmvc7xzscpizo.cloudfront.net/uncl6085#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl6085:1",
+            "@type": "unece:UNCL6085Code",
+            "rdfs:comment": "Route of administration of item.",
+            "rdfs:label": "Route of administration",
+            "rdf:value": "1"
+        },
+        {
+            "@id": "uncl6085:2",
+            "@type": "unece:UNCL6085Code",
+            "rdfs:comment": "Physical form of medicinal products.",
+            "rdfs:label": "Physical form",
+            "rdf:value": "2"
+        }
+    ]
+}

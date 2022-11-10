@@ -1,0 +1,32 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl5273": "https://dmvc7xzscpizo.cloudfront.net/uncl5273#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl5273:1",
+            "@type": "unece:UNCL5273Code",
+            "rdfs:comment": "(5316) To specify that the applicable rate of duty, tax or fee is based on the Customs value (CCC).",
+            "rdfs:label": "Value",
+            "rdf:value": "1"
+        },
+        {
+            "@id": "uncl5273:2",
+            "@type": "unece:UNCL5273Code",
+            "rdfs:comment": "To specify that the applicable rate of duty, tax or fee is based on the weight of the item (CCC).",
+            "rdfs:label": "Weight",
+            "rdf:value": "2"
+        },
+        {
+            "@id": "uncl5273:3",
+            "@type": "unece:UNCL5273Code",
+            "rdfs:comment": "(6060) To specify that the applicable rate of duty, tax or fee is based on the quantity of the item (CCC).",
+            "rdfs:label": "Quantity",
+            "rdf:value": "3"
+        }
+    ]
+}

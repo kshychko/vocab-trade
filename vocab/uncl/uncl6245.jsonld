@@ -1,0 +1,74 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl6245": "https://dmvc7xzscpizo.cloudfront.net/uncl6245#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl6245:1",
+            "@type": "unece:UNCL6245Code",
+            "rdfs:comment": "[6240] The temperature at which the cargo is to be kept while it is in storage.",
+            "rdfs:label": "Storage temperature",
+            "rdf:value": "1"
+        },
+        {
+            "@id": "uncl6245:2",
+            "@type": "unece:UNCL6245Code",
+            "rdfs:comment": "[6242] The temperature at which cargo is to be kept while it is under transport.",
+            "rdfs:label": "Transport temperature",
+            "rdf:value": "2"
+        },
+        {
+            "@id": "uncl6245:3",
+            "@type": "unece:UNCL6245Code",
+            "rdfs:comment": "The temperature at which cargo is to be kept during cargo handling.",
+            "rdfs:label": "Cargo operating temperature",
+            "rdf:value": "3"
+        },
+        {
+            "@id": "uncl6245:4",
+            "@type": "unece:UNCL6245Code",
+            "rdfs:comment": "The temperature at which emergency procedures apply for the disposal of temperature-controlled goods.",
+            "rdfs:label": "Transport emergency temperature",
+            "rdf:value": "4"
+        },
+        {
+            "@id": "uncl6245:5",
+            "@type": "unece:UNCL6245Code",
+            "rdfs:comment": "The maximum temperature at which certain products can be safely transported.",
+            "rdfs:label": "Transport control temperature",
+            "rdf:value": "5"
+        },
+        {
+            "@id": "uncl6245:6",
+            "@type": "unece:UNCL6245Code",
+            "rdfs:comment": "The  temperature at which a liquid begins to boil.",
+            "rdfs:label": "Boiling point",
+            "rdf:value": "6"
+        },
+        {
+            "@id": "uncl6245:7",
+            "@type": "unece:UNCL6245Code",
+            "rdfs:comment": "The recorded temperature.",
+            "rdfs:label": "Temperature, recorded",
+            "rdf:value": "7"
+        },
+        {
+            "@id": "uncl6245:8",
+            "@type": "unece:UNCL6245Code",
+            "rdfs:comment": "The lowest temperature at which self-accelerating decomposition may occur for a substance in the packaging as used in transport.",
+            "rdfs:label": "Self-accelerating decomposition temperature (SADT)",
+            "rdf:value": "8"
+        },
+        {
+            "@id": "uncl6245:9",
+            "@type": "unece:UNCL6245Code",
+            "rdfs:comment": "The lowest temperature at which polymerization may occur for a substance.",
+            "rdfs:label": "Self-accelerating polymerization temperature (SAPT)",
+            "rdf:value": "9"
+        }
+    ]
+}

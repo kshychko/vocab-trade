@@ -1,0 +1,39 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl4419": "https://dmvc7xzscpizo.cloudfront.net/uncl4419#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl4419:1",
+            "@type": "unece:UNCL4419Code",
+            "rdfs:comment": "The test was conducted verbally.",
+            "rdfs:label": "Oral",
+            "rdf:value": "1"
+        },
+        {
+            "@id": "uncl4419:2",
+            "@type": "unece:UNCL4419Code",
+            "rdfs:comment": "The test is administrated via the skin.",
+            "rdfs:label": "Dermal",
+            "rdf:value": "2"
+        },
+        {
+            "@id": "uncl4419:3",
+            "@type": "unece:UNCL4419Code",
+            "rdfs:comment": "The test is administrated via inhalation.",
+            "rdfs:label": "Inhalation",
+            "rdf:value": "3"
+        },
+        {
+            "@id": "uncl4419:ZZZ",
+            "@type": "unece:UNCL4419Code",
+            "rdfs:comment": "A code assigned within a code list to be used on an interim basis and as defined among trading partners until a precise code can be assigned to the code list.",
+            "rdfs:label": "Mutually defined",
+            "rdf:value": "ZZZ"
+        }
+    ]
+}

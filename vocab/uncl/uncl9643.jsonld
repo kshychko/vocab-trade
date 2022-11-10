@@ -1,0 +1,18 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl9643": "https://dmvc7xzscpizo.cloudfront.net/uncl9643#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl9643:1",
+            "@type": "unece:UNCL9643Code",
+            "rdfs:comment": "X-ray image.",
+            "rdfs:label": "Radiology film",
+            "rdf:value": "1"
+        }
+    ]
+}

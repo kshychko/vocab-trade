@@ -1,0 +1,123 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl2013": "https://dmvc7xzscpizo.cloudfront.net/uncl2013#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl2013:A",
+            "@type": "unece:UNCL2013Code",
+            "rdfs:comment": "Code defining a yearly forecast.",
+            "rdfs:label": "Annually (calendar year)",
+            "rdf:value": "A"
+        },
+        {
+            "@id": "uncl2013:B",
+            "@type": "unece:UNCL2013Code",
+            "rdfs:comment": "Flexible frequency scheduling based on continuous consumption of items.",
+            "rdfs:label": "Continuous",
+            "rdf:value": "B"
+        },
+        {
+            "@id": "uncl2013:C",
+            "@type": "unece:UNCL2013Code",
+            "rdfs:comment": "Flexible frequency scheduling based on synchronous consumption of items.",
+            "rdfs:label": "Synchronous",
+            "rdf:value": "C"
+        },
+        {
+            "@id": "uncl2013:D",
+            "@type": "unece:UNCL2013Code",
+            "rdfs:comment": "Flexible frequency according to planning process.",
+            "rdfs:label": "Discrete",
+            "rdf:value": "D"
+        },
+        {
+            "@id": "uncl2013:E",
+            "@type": "unece:UNCL2013Code",
+            "rdfs:comment": "Flexible frequency scheduling based on replenishment of the consumption of items.",
+            "rdfs:label": "Replenishment",
+            "rdf:value": "E"
+        },
+        {
+            "@id": "uncl2013:F",
+            "@type": "unece:UNCL2013Code",
+            "rdfs:comment": "Code defining a forecasted usage that is planned between two defined dates.",
+            "rdfs:label": "Flexible interval (from date X through date Y)",
+            "rdf:value": "F"
+        },
+        {
+            "@id": "uncl2013:G",
+            "@type": "unece:UNCL2013Code",
+            "rdfs:comment": "Ten day interval.",
+            "rdfs:label": "Ten days",
+            "rdf:value": "G"
+        },
+        {
+            "@id": "uncl2013:H",
+            "@type": "unece:UNCL2013Code",
+            "rdfs:comment": "Half month interval.",
+            "rdfs:label": "Semi-monthly",
+            "rdf:value": "H"
+        },
+        {
+            "@id": "uncl2013:J",
+            "@type": "unece:UNCL2013Code",
+            "rdfs:comment": "Scheduling based on just-in-time of the need.",
+            "rdfs:label": "Just-in-time",
+            "rdf:value": "J"
+        },
+        {
+            "@id": "uncl2013:M",
+            "@type": "unece:UNCL2013Code",
+            "rdfs:comment": "Code defining a forecast by calendar month(s).",
+            "rdfs:label": "Monthly (calendar months)",
+            "rdf:value": "M"
+        },
+        {
+            "@id": "uncl2013:Q",
+            "@type": "unece:UNCL2013Code",
+            "rdfs:comment": "Code defining a forecast by calendar quarter(s). (Jan- Mar, Apr-Jun, Jul-Sep, Oct-Dec).",
+            "rdfs:label": "Quarterly (calendar quarters)",
+            "rdf:value": "Q"
+        },
+        {
+            "@id": "uncl2013:S",
+            "@type": "unece:UNCL2013Code",
+            "rdfs:comment": "Code defining a forecast for the first six months of the year or the second six months of the year.",
+            "rdfs:label": "Semi-annually (calendar year)",
+            "rdf:value": "S"
+        },
+        {
+            "@id": "uncl2013:T",
+            "@type": "unece:UNCL2013Code",
+            "rdfs:comment": "Code defining a forecast for four week intervals.",
+            "rdfs:label": "Four week period (13 periods per year)",
+            "rdf:value": "T"
+        },
+        {
+            "@id": "uncl2013:W",
+            "@type": "unece:UNCL2013Code",
+            "rdfs:comment": "Code defining a forecast for weekly intervals.",
+            "rdfs:label": "Weekly",
+            "rdf:value": "W"
+        },
+        {
+            "@id": "uncl2013:Y",
+            "@type": "unece:UNCL2013Code",
+            "rdfs:comment": "Code defining a schedule by day.",
+            "rdfs:label": "Daily",
+            "rdf:value": "Y"
+        },
+        {
+            "@id": "uncl2013:ZZZ",
+            "@type": "unece:UNCL2013Code",
+            "rdfs:comment": "Code reserved for special trading partner requirements when pre-defined codes do not exist.",
+            "rdfs:label": "Mutually defined",
+            "rdf:value": "ZZZ"
+        }
+    ]
+}

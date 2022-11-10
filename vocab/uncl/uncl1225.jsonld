@@ -1,0 +1,494 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl1225": "https://dmvc7xzscpizo.cloudfront.net/uncl1225#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl1225:1",
+            "@type": "unece:UNCL1225Code",
+            "rdfs:comment": "Message cancelling a previous transmission for a given transaction.",
+            "rdfs:label": "Cancellation",
+            "rdf:value": "1"
+        },
+        {
+            "@id": "uncl1225:2",
+            "@type": "unece:UNCL1225Code",
+            "rdfs:comment": "Message containing items to be added.",
+            "rdfs:label": "Addition",
+            "rdf:value": "2"
+        },
+        {
+            "@id": "uncl1225:3",
+            "@type": "unece:UNCL1225Code",
+            "rdfs:comment": "Message containing items to be deleted.",
+            "rdfs:label": "Deletion",
+            "rdf:value": "3"
+        },
+        {
+            "@id": "uncl1225:4",
+            "@type": "unece:UNCL1225Code",
+            "rdfs:comment": "Message containing items to be changed.",
+            "rdfs:label": "Change",
+            "rdf:value": "4"
+        },
+        {
+            "@id": "uncl1225:5",
+            "@type": "unece:UNCL1225Code",
+            "rdfs:comment": "Message replacing a previous message.",
+            "rdfs:label": "Replace",
+            "rdf:value": "5"
+        },
+        {
+            "@id": "uncl1225:6",
+            "@type": "unece:UNCL1225Code",
+            "rdfs:comment": "Message confirming the details of a previous transmission where such confirmation is required or recommended under the terms of a trading partner agreement.",
+            "rdfs:label": "Confirmation",
+            "rdf:value": "6"
+        },
+        {
+            "@id": "uncl1225:7",
+            "@type": "unece:UNCL1225Code",
+            "rdfs:comment": "The message is a duplicate of a previously generated message.",
+            "rdfs:label": "Duplicate",
+            "rdf:value": "7"
+        },
+        {
+            "@id": "uncl1225:8",
+            "@type": "unece:UNCL1225Code",
+            "rdfs:comment": "Code indicating that the referenced message is a status.",
+            "rdfs:label": "Status",
+            "rdf:value": "8"
+        },
+        {
+            "@id": "uncl1225:9",
+            "@type": "unece:UNCL1225Code",
+            "rdfs:comment": "Initial transmission related to a given transaction.",
+            "rdfs:label": "Original",
+            "rdf:value": "9"
+        },
+        {
+            "@id": "uncl1225:10",
+            "@type": "unece:UNCL1225Code",
+            "rdfs:comment": "Message whose reference number is not filed.",
+            "rdfs:label": "Not found",
+            "rdf:value": "10"
+        },
+        {
+            "@id": "uncl1225:11",
+            "@type": "unece:UNCL1225Code",
+            "rdfs:comment": "Message responding to a previous message or document.",
+            "rdfs:label": "Response",
+            "rdf:value": "11"
+        },
+        {
+            "@id": "uncl1225:12",
+            "@type": "unece:UNCL1225Code",
+            "rdfs:comment": "Message indicating that the referenced message was received but not yet processed.",
+            "rdfs:label": "Not processed",
+            "rdf:value": "12"
+        },
+        {
+            "@id": "uncl1225:13",
+            "@type": "unece:UNCL1225Code",
+            "rdfs:comment": "Code indicating that the referenced message is a request.",
+            "rdfs:label": "Request",
+            "rdf:value": "13"
+        },
+        {
+            "@id": "uncl1225:14",
+            "@type": "unece:UNCL1225Code",
+            "rdfs:comment": "Code indicating that the information contained in the message is an advance notification of information to follow.",
+            "rdfs:label": "Advance notification",
+            "rdf:value": "14"
+        },
+        {
+            "@id": "uncl1225:15",
+            "@type": "unece:UNCL1225Code",
+            "rdfs:comment": "Repeated message transmission for reminding purposes.",
+            "rdfs:label": "Reminder",
+            "rdf:value": "15"
+        },
+        {
+            "@id": "uncl1225:16",
+            "@type": "unece:UNCL1225Code",
+            "rdfs:comment": "Message content is a proposal.",
+            "rdfs:label": "Proposal",
+            "rdf:value": "16"
+        },
+        {
+            "@id": "uncl1225:17",
+            "@type": "unece:UNCL1225Code",
+            "rdfs:comment": "Referenced transaction cancelled, reissued message will follow.",
+            "rdfs:label": "Cancel, to be reissued",
+            "rdf:value": "17"
+        },
+        {
+            "@id": "uncl1225:18",
+            "@type": "unece:UNCL1225Code",
+            "rdfs:comment": "New issue of a previous message (maybe cancelled).",
+            "rdfs:label": "Reissue",
+            "rdf:value": "18"
+        },
+        {
+            "@id": "uncl1225:19",
+            "@type": "unece:UNCL1225Code",
+            "rdfs:comment": "Change information submitted by buyer but initiated by seller.",
+            "rdfs:label": "Seller initiated change",
+            "rdf:value": "19"
+        },
+        {
+            "@id": "uncl1225:20",
+            "@type": "unece:UNCL1225Code",
+            "rdfs:comment": "Message to replace the heading of a previous message.",
+            "rdfs:label": "Replace heading section only",
+            "rdf:value": "20"
+        },
+        {
+            "@id": "uncl1225:21",
+            "@type": "unece:UNCL1225Code",
+            "rdfs:comment": "Message to replace item detail and summary of a previous message.",
+            "rdfs:label": "Replace item detail and summary only",
+            "rdf:value": "21"
+        },
+        {
+            "@id": "uncl1225:22",
+            "@type": "unece:UNCL1225Code",
+            "rdfs:comment": "Final message in a related series of messages together making up a commercial, administrative or transport transaction.",
+            "rdfs:label": "Final transmission",
+            "rdf:value": "22"
+        },
+        {
+            "@id": "uncl1225:23",
+            "@type": "unece:UNCL1225Code",
+            "rdfs:comment": "Message not to be processed until further release information.",
+            "rdfs:label": "Transaction on hold",
+            "rdf:value": "23"
+        },
+        {
+            "@id": "uncl1225:24",
+            "@type": "unece:UNCL1225Code",
+            "rdfs:comment": "Delivery schedule message only used to transmit short- term delivery instructions.",
+            "rdfs:label": "Delivery instruction",
+            "rdf:value": "24"
+        },
+        {
+            "@id": "uncl1225:25",
+            "@type": "unece:UNCL1225Code",
+            "rdfs:comment": "Delivery schedule message only used to transmit long- term schedule information.",
+            "rdfs:label": "Forecast",
+            "rdf:value": "25"
+        },
+        {
+            "@id": "uncl1225:26",
+            "@type": "unece:UNCL1225Code",
+            "rdfs:comment": "Combination of codes '24' and '25'.",
+            "rdfs:label": "Delivery instruction and forecast",
+            "rdf:value": "26"
+        },
+        {
+            "@id": "uncl1225:27",
+            "@type": "unece:UNCL1225Code",
+            "rdfs:comment": "Message to inform that the referenced message is not accepted by the recipient.",
+            "rdfs:label": "Not accepted",
+            "rdf:value": "27"
+        },
+        {
+            "@id": "uncl1225:28",
+            "@type": "unece:UNCL1225Code",
+            "rdfs:comment": "Message accepted but amended in heading section.",
+            "rdfs:label": "Accepted, with amendment in heading section",
+            "rdf:value": "28"
+        },
+        {
+            "@id": "uncl1225:29",
+            "@type": "unece:UNCL1225Code",
+            "rdfs:comment": "Referenced message is entirely accepted.",
+            "rdfs:label": "Accepted without amendment",
+            "rdf:value": "29"
+        },
+        {
+            "@id": "uncl1225:30",
+            "@type": "unece:UNCL1225Code",
+            "rdfs:comment": "Referenced message is accepted but amended in detail section.",
+            "rdfs:label": "Accepted, with amendment in detail section",
+            "rdf:value": "30"
+        },
+        {
+            "@id": "uncl1225:31",
+            "@type": "unece:UNCL1225Code",
+            "rdfs:comment": "Indicates that the message is a copy of an original message that has been sent, e.g. for action or information.",
+            "rdfs:label": "Copy",
+            "rdf:value": "31"
+        },
+        {
+            "@id": "uncl1225:32",
+            "@type": "unece:UNCL1225Code",
+            "rdfs:comment": "A message releasing an existing referenced message for action to the receiver.",
+            "rdfs:label": "Approval",
+            "rdf:value": "32"
+        },
+        {
+            "@id": "uncl1225:33",
+            "@type": "unece:UNCL1225Code",
+            "rdfs:comment": "Message changing the referenced message heading section.",
+            "rdfs:label": "Change in heading section",
+            "rdf:value": "33"
+        },
+        {
+            "@id": "uncl1225:34",
+            "@type": "unece:UNCL1225Code",
+            "rdfs:comment": "The referenced message is accepted but amended.",
+            "rdfs:label": "Accepted with amendment",
+            "rdf:value": "34"
+        },
+        {
+            "@id": "uncl1225:35",
+            "@type": "unece:UNCL1225Code",
+            "rdfs:comment": "Change-free transmission of a message previously sent.",
+            "rdfs:label": "Retransmission",
+            "rdf:value": "35"
+        },
+        {
+            "@id": "uncl1225:36",
+            "@type": "unece:UNCL1225Code",
+            "rdfs:comment": "Message changing referenced detail section.",
+            "rdfs:label": "Change in detail section",
+            "rdf:value": "36"
+        },
+        {
+            "@id": "uncl1225:37",
+            "@type": "unece:UNCL1225Code",
+            "rdfs:comment": "Reversal of a previously posted debit.",
+            "rdfs:label": "Reversal of a debit",
+            "rdf:value": "37"
+        },
+        {
+            "@id": "uncl1225:38",
+            "@type": "unece:UNCL1225Code",
+            "rdfs:comment": "Reversal of a previously posted credit.",
+            "rdfs:label": "Reversal of a credit",
+            "rdf:value": "38"
+        },
+        {
+            "@id": "uncl1225:39",
+            "@type": "unece:UNCL1225Code",
+            "rdfs:comment": "Code indicating that the referenced message is reversing a cancellation of a previous transmission for a given transaction.",
+            "rdfs:label": "Reversal for cancellation",
+            "rdf:value": "39"
+        },
+        {
+            "@id": "uncl1225:40",
+            "@type": "unece:UNCL1225Code",
+            "rdfs:comment": "The message is given to inform the recipient to delete the referenced transaction.",
+            "rdfs:label": "Request for deletion",
+            "rdf:value": "40"
+        },
+        {
+            "@id": "uncl1225:41",
+            "@type": "unece:UNCL1225Code",
+            "rdfs:comment": "Last of series of call-offs.",
+            "rdfs:label": "Finishing/closing order",
+            "rdf:value": "41"
+        },
+        {
+            "@id": "uncl1225:42",
+            "@type": "unece:UNCL1225Code",
+            "rdfs:comment": "Message confirming a transaction previously agreed via other means (e.g. phone).",
+            "rdfs:label": "Confirmation via specific means",
+            "rdf:value": "42"
+        },
+        {
+            "@id": "uncl1225:43",
+            "@type": "unece:UNCL1225Code",
+            "rdfs:comment": "Message already transmitted via another communication channel. This transmission is to provide electronically processable data only.",
+            "rdfs:label": "Additional transmission",
+            "rdf:value": "43"
+        },
+        {
+            "@id": "uncl1225:44",
+            "@type": "unece:UNCL1225Code",
+            "rdfs:comment": "Message accepted without reserves.",
+            "rdfs:label": "Accepted without reserves",
+            "rdf:value": "44"
+        },
+        {
+            "@id": "uncl1225:45",
+            "@type": "unece:UNCL1225Code",
+            "rdfs:comment": "Message accepted with reserves.",
+            "rdfs:label": "Accepted with reserves",
+            "rdf:value": "45"
+        },
+        {
+            "@id": "uncl1225:46",
+            "@type": "unece:UNCL1225Code",
+            "rdfs:comment": "Message content is provisional.",
+            "rdfs:label": "Provisional",
+            "rdf:value": "46"
+        },
+        {
+            "@id": "uncl1225:47",
+            "@type": "unece:UNCL1225Code",
+            "rdfs:comment": "Message content is definitive.",
+            "rdfs:label": "Definitive",
+            "rdf:value": "47"
+        },
+        {
+            "@id": "uncl1225:48",
+            "@type": "unece:UNCL1225Code",
+            "rdfs:comment": "Message to inform that the previous message is received, but it cannot be processed due to regulations, laws, etc.",
+            "rdfs:label": "Accepted, contents rejected",
+            "rdf:value": "48"
+        },
+        {
+            "@id": "uncl1225:49",
+            "@type": "unece:UNCL1225Code",
+            "rdfs:comment": "The reported dispute is settled.",
+            "rdfs:label": "Settled dispute",
+            "rdf:value": "49"
+        },
+        {
+            "@id": "uncl1225:50",
+            "@type": "unece:UNCL1225Code",
+            "rdfs:comment": "Message withdrawing a previously approved message.",
+            "rdfs:label": "Withdraw",
+            "rdf:value": "50"
+        },
+        {
+            "@id": "uncl1225:51",
+            "@type": "unece:UNCL1225Code",
+            "rdfs:comment": "Message authorising a message or transaction(s).",
+            "rdfs:label": "Authorisation",
+            "rdf:value": "51"
+        },
+        {
+            "@id": "uncl1225:52",
+            "@type": "unece:UNCL1225Code",
+            "rdfs:comment": "A code used to indicate an amendment suggested by the sender.",
+            "rdfs:label": "Proposed amendment",
+            "rdf:value": "52"
+        },
+        {
+            "@id": "uncl1225:53",
+            "@type": "unece:UNCL1225Code",
+            "rdfs:comment": "Code indicating the message is to be considered as a test.",
+            "rdfs:label": "Test",
+            "rdf:value": "53"
+        },
+        {
+            "@id": "uncl1225:54",
+            "@type": "unece:UNCL1225Code",
+            "rdfs:comment": "A subset of the original.",
+            "rdfs:label": "Extract",
+            "rdf:value": "54"
+        },
+        {
+            "@id": "uncl1225:55",
+            "@type": "unece:UNCL1225Code",
+            "rdfs:comment": "The receiver may use the notification information for analysis only.",
+            "rdfs:label": "Notification only",
+            "rdf:value": "55"
+        },
+        {
+            "@id": "uncl1225:56",
+            "@type": "unece:UNCL1225Code",
+            "rdfs:comment": "An advice that items have been booked in the ledger.",
+            "rdfs:label": "Advice of ledger booked items",
+            "rdf:value": "56"
+        },
+        {
+            "@id": "uncl1225:57",
+            "@type": "unece:UNCL1225Code",
+            "rdfs:comment": "An advice that items are pending to be booked in the ledger.",
+            "rdfs:label": "Advice of items pending to be booked in the ledger",
+            "rdf:value": "57"
+        },
+        {
+            "@id": "uncl1225:58",
+            "@type": "unece:UNCL1225Code",
+            "rdfs:comment": "A pre-advice that items require further information.",
+            "rdfs:label": "Pre-advice of items requiring further information",
+            "rdf:value": "58"
+        },
+        {
+            "@id": "uncl1225:59",
+            "@type": "unece:UNCL1225Code",
+            "rdfs:comment": "A pre-advice of items.",
+            "rdfs:label": "Pre-adviced items",
+            "rdf:value": "59"
+        },
+        {
+            "@id": "uncl1225:60",
+            "@type": "unece:UNCL1225Code",
+            "rdfs:comment": "Code indicating the fact that no action has taken place since the last message.",
+            "rdfs:label": "No action since last message",
+            "rdf:value": "60"
+        },
+        {
+            "@id": "uncl1225:61",
+            "@type": "unece:UNCL1225Code",
+            "rdfs:comment": "The message function is a complete schedule.",
+            "rdfs:label": "Complete schedule",
+            "rdf:value": "61"
+        },
+        {
+            "@id": "uncl1225:62",
+            "@type": "unece:UNCL1225Code",
+            "rdfs:comment": "The message function is an update to a schedule.",
+            "rdfs:label": "Update schedule",
+            "rdf:value": "62"
+        },
+        {
+            "@id": "uncl1225:63",
+            "@type": "unece:UNCL1225Code",
+            "rdfs:comment": "Not accepted, subject to confirmation.",
+            "rdfs:label": "Not accepted, provisional",
+            "rdf:value": "63"
+        },
+        {
+            "@id": "uncl1225:64",
+            "@type": "unece:UNCL1225Code",
+            "rdfs:comment": "The message is transmitted to verify information.",
+            "rdfs:label": "Verification",
+            "rdf:value": "64"
+        },
+        {
+            "@id": "uncl1225:65",
+            "@type": "unece:UNCL1225Code",
+            "rdfs:comment": "To report an unsettled dispute.",
+            "rdfs:label": "Unsettled dispute",
+            "rdf:value": "65"
+        },
+        {
+            "@id": "uncl1225:66",
+            "@type": "unece:UNCL1225Code",
+            "rdfs:comment": "A message related to a guarantee containing information about the discharge of an operation.",
+            "rdfs:label": "Discharge of operation guarantee",
+            "rdf:value": "66"
+        },
+        {
+            "@id": "uncl1225:67",
+            "@type": "unece:UNCL1225Code",
+            "rdfs:comment": "A message related to a guarantee containing information about the termination of an operation.",
+            "rdfs:label": "Termination of operation guarantee",
+            "rdf:value": "67"
+        },
+        {
+            "@id": "uncl1225:68",
+            "@type": "unece:UNCL1225Code",
+            "rdfs:comment": "A message related to a guarantee containing information about the start of an operation.",
+            "rdfs:label": "Start of operation guarantee",
+            "rdf:value": "68"
+        },
+        {
+            "@id": "uncl1225:69",
+            "@type": "unece:UNCL1225Code",
+            "rdfs:comment": "A message related to a guarantee containing advanced cargo information.",
+            "rdfs:label": "Advanced cargo information",
+            "rdf:value": "69"
+        }
+    ]
+}

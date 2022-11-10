@@ -1,0 +1,53 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl3397": "https://dmvc7xzscpizo.cloudfront.net/uncl3397#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl3397:1",
+            "@type": "unece:UNCL3397Code",
+            "rdfs:comment": "The name of an individual assigned at birth.",
+            "rdfs:label": "Name given at birth",
+            "rdf:value": "1"
+        },
+        {
+            "@id": "uncl3397:2",
+            "@type": "unece:UNCL3397Code",
+            "rdfs:comment": "Name currently used by the person.",
+            "rdfs:label": "Current name",
+            "rdf:value": "2"
+        },
+        {
+            "@id": "uncl3397:3",
+            "@type": "unece:UNCL3397Code",
+            "rdfs:comment": "The previous name which was used but is no longer used by the person.",
+            "rdfs:label": "Previous name",
+            "rdf:value": "3"
+        },
+        {
+            "@id": "uncl3397:7",
+            "@type": "unece:UNCL3397Code",
+            "rdfs:comment": "Identifies the name that existed in the beginning.",
+            "rdfs:label": "Original name of an entity",
+            "rdf:value": "7"
+        },
+        {
+            "@id": "uncl3397:8",
+            "@type": "unece:UNCL3397Code",
+            "rdfs:comment": "Identifies a name substituted for one that was wrong.",
+            "rdfs:label": "Corrected name of an entity",
+            "rdf:value": "8"
+        },
+        {
+            "@id": "uncl3397:9",
+            "@type": "unece:UNCL3397Code",
+            "rdfs:comment": "Identifies a name to which a previous name was changed.",
+            "rdfs:label": "Name of an entity changed to",
+            "rdf:value": "9"
+        }
+    ]
+}

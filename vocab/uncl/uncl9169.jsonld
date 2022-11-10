@@ -1,0 +1,95 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl9169": "https://dmvc7xzscpizo.cloudfront.net/uncl9169#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl9169:1",
+            "@type": "unece:UNCL9169Code",
+            "rdfs:comment": "Data representation is a byte.",
+            "rdfs:label": "Byte",
+            "rdf:value": "1"
+        },
+        {
+            "@id": "uncl9169:2",
+            "@type": "unece:UNCL9169Code",
+            "rdfs:comment": "Data representation is a character.",
+            "rdfs:label": "Character",
+            "rdf:value": "2"
+        },
+        {
+            "@id": "uncl9169:3",
+            "@type": "unece:UNCL9169Code",
+            "rdfs:comment": "Data representation is an enumerated type.",
+            "rdfs:label": "Enumerated type",
+            "rdf:value": "3"
+        },
+        {
+            "@id": "uncl9169:4",
+            "@type": "unece:UNCL9169Code",
+            "rdfs:comment": "Data representation is 32-bit floating point number.",
+            "rdfs:label": "32-bit floating point number",
+            "rdf:value": "4"
+        },
+        {
+            "@id": "uncl9169:5",
+            "@type": "unece:UNCL9169Code",
+            "rdfs:comment": "Data representation is a 64-bit floating point number.",
+            "rdfs:label": "64-bit floating point number",
+            "rdf:value": "5"
+        },
+        {
+            "@id": "uncl9169:6",
+            "@type": "unece:UNCL9169Code",
+            "rdfs:comment": "Data representation is a generic floating point number.",
+            "rdfs:label": "Generic floating point number",
+            "rdf:value": "6"
+        },
+        {
+            "@id": "uncl9169:7",
+            "@type": "unece:UNCL9169Code",
+            "rdfs:comment": "Data representation is a 16-bit integer.",
+            "rdfs:label": "16-bit integer",
+            "rdf:value": "7"
+        },
+        {
+            "@id": "uncl9169:8",
+            "@type": "unece:UNCL9169Code",
+            "rdfs:comment": "Data representation is a 32-bit integer.",
+            "rdfs:label": "32-bit integer",
+            "rdf:value": "8"
+        },
+        {
+            "@id": "uncl9169:9",
+            "@type": "unece:UNCL9169Code",
+            "rdfs:comment": "Data representation is a 64-bit integer.",
+            "rdfs:label": "64-bit integer",
+            "rdf:value": "9"
+        },
+        {
+            "@id": "uncl9169:10",
+            "@type": "unece:UNCL9169Code",
+            "rdfs:comment": "Data representation is an 8-bit integer.",
+            "rdfs:label": "8-bit integer",
+            "rdf:value": "10"
+        },
+        {
+            "@id": "uncl9169:11",
+            "@type": "unece:UNCL9169Code",
+            "rdfs:comment": "Data representation is a generic integer.",
+            "rdfs:label": "Generic integer",
+            "rdf:value": "11"
+        },
+        {
+            "@id": "uncl9169:12",
+            "@type": "unece:UNCL9169Code",
+            "rdfs:comment": "Data representation is a string.",
+            "rdfs:label": "String",
+            "rdf:value": "12"
+        }
+    ]
+}

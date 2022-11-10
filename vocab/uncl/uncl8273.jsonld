@@ -1,0 +1,179 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl8273": "https://dmvc7xzscpizo.cloudfront.net/uncl8273#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl8273:ADR",
+            "@type": "unece:UNCL8273Code",
+            "rdfs:comment": "European agreement on the international carriage of dangerous goods on road. ADR is the abbreviation of \"Accord europeen relatif au transport international des marchandises dangereuses par route\".",
+            "rdfs:label": "European agreement on the international carriage of dangerous goods on road (ADR)",
+            "rdf:value": "ADR"
+        },
+        {
+            "@id": "uncl8273:ADS",
+            "@type": "unece:UNCL8273Code",
+            "rdfs:comment": "European agreement giving regulations for the transport of dangerous goods on the river Rhine, officially known as: \"Accord europeen relatif au transport international des marchandises dangereuses par navigation sur le Rhin.\".",
+            "rdfs:label": "NDR European agreement for the transport of dangerous goods on the river Rhine",
+            "rdf:value": "ADS"
+        },
+        {
+            "@id": "uncl8273:ADT",
+            "@type": "unece:UNCL8273Code",
+            "rdfs:comment": "Canadian transport of dangerous goods requirements as published by Transport Canada in the Canadian Gazette, Part II.",
+            "rdfs:label": "CA, Transport Canada's dangerous goods requirements",
+            "rdf:value": "ADT"
+        },
+        {
+            "@id": "uncl8273:ADU",
+            "@type": "unece:UNCL8273Code",
+            "rdfs:comment": "Regulation regarding the handling of dangerous goods on vessels issued by Japanese maritime safety agency.",
+            "rdfs:label": "JP, Japanese maritime safety agency dangerous goods regulation code",
+            "rdf:value": "ADU"
+        },
+        {
+            "@id": "uncl8273:ADV",
+            "@type": "unece:UNCL8273Code",
+            "rdfs:comment": "International Convention for the Prevention of Pollution from Ships, 1973, as modified by the Protocol of 1978 relating.",
+            "rdfs:label": "MARPOL 73/78",
+            "rdf:value": "ADV"
+        },
+        {
+            "@id": "uncl8273:ADW",
+            "@type": "unece:UNCL8273Code",
+            "rdfs:comment": "The United Nations Globally Harmonized System of Classification and Labelling of Chemicals.",
+            "rdfs:label": "GHS regulation",
+            "rdf:value": "ADW"
+        },
+        {
+            "@id": "uncl8273:ADX",
+            "@type": "unece:UNCL8273Code",
+            "rdfs:comment": "A card providing details on procedures for emergencies during transportation according to ADR.",
+            "rdfs:label": "Transport emergency (TREM) card",
+            "rdf:value": "ADX"
+        },
+        {
+            "@id": "uncl8273:ADY",
+            "@type": "unece:UNCL8273Code",
+            "rdfs:comment": "The international Code for the Construction and Equipment of Ships carrying Dangerous Chemicals in Bulk",
+            "rdfs:label": "IBC Code",
+            "rdf:value": "ADY"
+        },
+        {
+            "@id": "uncl8273:ADZ",
+            "@type": "unece:UNCL8273Code",
+            "rdfs:comment": "The International Code of the Construction and Equipment of Ships Carrying Liquefied Gases in Bulk",
+            "rdfs:label": "IGC Code",
+            "rdf:value": "ADZ"
+        },
+        {
+            "@id": "uncl8273:AEA",
+            "@type": "unece:UNCL8273Code",
+            "rdfs:comment": "The International Maritime Solid Bulk Cargoes Code",
+            "rdfs:label": "IMSBC Code",
+            "rdf:value": "AEA"
+        },
+        {
+            "@id": "uncl8273:AEB",
+            "@type": "unece:UNCL8273Code",
+            "rdfs:comment": "The International Convention for the Prevention of Pollution from Ships (MARPOL) - Prevention of Pollution by Oil",
+            "rdfs:label": "MARPOL Annex I",
+            "rdf:value": "AEB"
+        },
+        {
+            "@id": "uncl8273:AGS",
+            "@type": "unece:UNCL8273Code",
+            "rdfs:comment": "Combined German and European regulations for the transportation of dangerous goods on German and other European roads. ADR means: Accord Europeen relatif au Transport international des marchandises Dangereuses par Route. GGVS means: Gefahrgutverordnung Strasse.",
+            "rdfs:label": "DE, ADR and GGVS combined regulations for combined transport",
+            "rdf:value": "AGS"
+        },
+        {
+            "@id": "uncl8273:ANR",
+            "@type": "unece:UNCL8273Code",
+            "rdfs:comment": "Regulations for dangerous goods transportation on the Rhine.",
+            "rdfs:label": "ADNR, Autorisation de transport de matieres Dangereuses pour la Navigation sur le Rhin",
+            "rdf:value": "ANR"
+        },
+        {
+            "@id": "uncl8273:ARD",
+            "@type": "unece:UNCL8273Code",
+            "rdfs:comment": "Combined European regulations for the combined transportation of dangerous goods on roads and rails. ARD means: Autorisation de transport par Route de matieres dangereuses. RID means: Reglement International concernant le transport des marchandises Dangereuses par chemin de fer.",
+            "rdfs:label": "DE, ARD and RID - Combined regulations for combined transport",
+            "rdf:value": "ARD"
+        },
+        {
+            "@id": "uncl8273:CFR",
+            "@type": "unece:UNCL8273Code",
+            "rdfs:comment": "United States federal regulations issued by the US Department of transportation covering the domestic transportation of dangerous goods by truck, rail, water and air.",
+            "rdfs:label": "US, 49 Code of federal regulations",
+            "rdf:value": "CFR"
+        },
+        {
+            "@id": "uncl8273:COM",
+            "@type": "unece:UNCL8273Code",
+            "rdfs:comment": "Combined German and European regulations for the combined transportation of dangerous goods on German and other European roads and rails. ADR means: Accord Europeen relatif au transport international des marchandises Dangereuse par Route. RID means: Reglement International concernant le transport des marchandises Dangereuses par chemin de fer. GGVS means: Gefahrgutverordnung Strasse. GGVE means: Gefahrgutverordnung Eisenbahn.",
+            "rdfs:label": "DE, ADR, RID, GGVS and GGVE - Combined regulations for combined transport",
+            "rdf:value": "COM"
+        },
+        {
+            "@id": "uncl8273:GVE",
+            "@type": "unece:UNCL8273Code",
+            "rdfs:comment": "German regulation for the transportation of dangerous goods on rail.",
+            "rdfs:label": "DE, GGVE (Gefahrgutverordnung Eisenbahn)",
+            "rdf:value": "GVE"
+        },
+        {
+            "@id": "uncl8273:GVS",
+            "@type": "unece:UNCL8273Code",
+            "rdfs:comment": "German regulation for the transportation of dangerous goods on road.",
+            "rdfs:label": "DE, GGVS (Gefahrgutverordnung Strasse)",
+            "rdf:value": "GVS"
+        },
+        {
+            "@id": "uncl8273:ICA",
+            "@type": "unece:UNCL8273Code",
+            "rdfs:comment": "Regulations covering the international transportation of dangerous goods issued by the International Air Transport Association and the International Civil Aviation Organization.",
+            "rdfs:label": "IATA ICAO",
+            "rdf:value": "ICA"
+        },
+        {
+            "@id": "uncl8273:IMD",
+            "@type": "unece:UNCL8273Code",
+            "rdfs:comment": "Regulations regarding the transportation of dangerous goods on ocean-going vessels issued by the International Maritime Organization.",
+            "rdfs:label": "IMO IMDG code",
+            "rdf:value": "IMD"
+        },
+        {
+            "@id": "uncl8273:RGE",
+            "@type": "unece:UNCL8273Code",
+            "rdfs:comment": "Combined German and European regulations for the transportation of dangerous goods on German and other European rails. RID means: Reglement International concernant le transport des marchandises Dangereuses par chemin de fer. GGVE means: Gefahrgutverordnung Eisenbahn.",
+            "rdfs:label": "DE, RID and GGVE, Combined regulations for combined transport on rails",
+            "rdf:value": "RGE"
+        },
+        {
+            "@id": "uncl8273:RID",
+            "@type": "unece:UNCL8273Code",
+            "rdfs:comment": "International regulations concerning the international carriage of dangerous goods by rail. RID is the abbreviation of \"Reglement International concernant le transport des marchandises Dangereuses par chemin de fer\".",
+            "rdfs:label": "Railroad dangerous goods book (RID)",
+            "rdf:value": "RID"
+        },
+        {
+            "@id": "uncl8273:UI",
+            "@type": "unece:UNCL8273Code",
+            "rdfs:comment": "The United Kingdom (UK) version of the International Maritime Organisation (IMO) book on dangerous goods.",
+            "rdfs:label": "UK IMO book",
+            "rdf:value": "UI"
+        },
+        {
+            "@id": "uncl8273:ZZZ",
+            "@type": "unece:UNCL8273Code",
+            "rdfs:comment": "Additional and/or other information for the transportation of dangerous goods which are mutually defined.",
+            "rdfs:label": "Mutually defined",
+            "rdf:value": "ZZZ"
+        }
+    ]
+}

@@ -1,0 +1,116 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl4509": "https://dmvc7xzscpizo.cloudfront.net/uncl4509#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl4509:1",
+            "@type": "unece:UNCL4509Code",
+            "rdfs:comment": "Party requested has not provided financial information.",
+            "rdfs:label": "Requested financial information not provided",
+            "rdf:value": "1"
+        },
+        {
+            "@id": "uncl4509:2",
+            "@type": "unece:UNCL4509Code",
+            "rdfs:comment": "No financial information is available on buyer.",
+            "rdfs:label": "No financial information available",
+            "rdf:value": "2"
+        },
+        {
+            "@id": "uncl4509:3",
+            "@type": "unece:UNCL4509Code",
+            "rdfs:comment": "Debtor ceased trading activities.",
+            "rdfs:label": "Debtor is out of business",
+            "rdf:value": "3"
+        },
+        {
+            "@id": "uncl4509:4",
+            "@type": "unece:UNCL4509Code",
+            "rdfs:comment": "Debtor is newly incorporated.",
+            "rdfs:label": "Debtor is new company",
+            "rdf:value": "4"
+        },
+        {
+            "@id": "uncl4509:5",
+            "@type": "unece:UNCL4509Code",
+            "rdfs:comment": "Debtor is not formally registered as legal entity.",
+            "rdfs:label": "Debtor is not registered",
+            "rdf:value": "5"
+        },
+        {
+            "@id": "uncl4509:6",
+            "@type": "unece:UNCL4509Code",
+            "rdfs:comment": "Debtor without trading, e.g. holding company.",
+            "rdfs:label": "Debtor is non-trading company",
+            "rdf:value": "6"
+        },
+        {
+            "@id": "uncl4509:7",
+            "@type": "unece:UNCL4509Code",
+            "rdfs:comment": "No information can be disclosed.",
+            "rdfs:label": "No comment",
+            "rdf:value": "7"
+        },
+        {
+            "@id": "uncl4509:8",
+            "@type": "unece:UNCL4509Code",
+            "rdfs:comment": "Only the risk of insolvency is covered.",
+            "rdfs:label": "Only insolvency risk covered",
+            "rdf:value": "8"
+        },
+        {
+            "@id": "uncl4509:9",
+            "@type": "unece:UNCL4509Code",
+            "rdfs:comment": "Limit cover conditional to buyer's acceptance of bill of exchange.",
+            "rdfs:label": "Subject to acceptance of bill of exchange",
+            "rdf:value": "9"
+        },
+        {
+            "@id": "uncl4509:10",
+            "@type": "unece:UNCL4509Code",
+            "rdfs:comment": "Limit given on documents against acceptance terms.",
+            "rdfs:label": "Document against acceptance",
+            "rdf:value": "10"
+        },
+        {
+            "@id": "uncl4509:11",
+            "@type": "unece:UNCL4509Code",
+            "rdfs:comment": "Limit given on documents against payment terms.",
+            "rdfs:label": "Document against payment",
+            "rdf:value": "11"
+        },
+        {
+            "@id": "uncl4509:12",
+            "@type": "unece:UNCL4509Code",
+            "rdfs:comment": "Adverse information on buyer is publicly available.",
+            "rdfs:label": "Adverse information is publicly available",
+            "rdf:value": "12"
+        },
+        {
+            "@id": "uncl4509:13",
+            "@type": "unece:UNCL4509Code",
+            "rdfs:comment": "No approval or increase in credit possible.",
+            "rdfs:label": "Credit limit full",
+            "rdf:value": "13"
+        },
+        {
+            "@id": "uncl4509:14",
+            "@type": "unece:UNCL4509Code",
+            "rdfs:comment": "Limit reduced. E.g. cancelled due to absence of activity.",
+            "rdfs:label": "Lack of turnover",
+            "rdf:value": "14"
+        },
+        {
+            "@id": "uncl4509:15",
+            "@type": "unece:UNCL4509Code",
+            "rdfs:comment": "Reasons not otherwise specified here.",
+            "rdfs:label": "Other",
+            "rdf:value": "15"
+        }
+    ]
+}

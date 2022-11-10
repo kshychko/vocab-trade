@@ -1,0 +1,25 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl7039": "https://dmvc7xzscpizo.cloudfront.net/uncl7039#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl7039:1",
+            "@type": "unece:UNCL7039Code",
+            "rdfs:comment": "The selection method is helter-skelter.",
+            "rdfs:label": "Random selection",
+            "rdf:value": "1"
+        },
+        {
+            "@id": "uncl7039:2",
+            "@type": "unece:UNCL7039Code",
+            "rdfs:comment": "Selection method is in consecutive order.",
+            "rdfs:label": "Sequential specimen",
+            "rdf:value": "2"
+        }
+    ]
+}

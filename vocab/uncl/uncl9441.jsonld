@@ -1,0 +1,39 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl9441": "https://dmvc7xzscpizo.cloudfront.net/uncl9441#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl9441:1",
+            "@type": "unece:UNCL9441Code",
+            "rdfs:comment": "Drug treatment.",
+            "rdfs:label": "Drug treatment",
+            "rdf:value": "1"
+        },
+        {
+            "@id": "uncl9441:2",
+            "@type": "unece:UNCL9441Code",
+            "rdfs:comment": "Surgical procedure.",
+            "rdfs:label": "Surgical procedure",
+            "rdf:value": "2"
+        },
+        {
+            "@id": "uncl9441:3",
+            "@type": "unece:UNCL9441Code",
+            "rdfs:comment": "Intervention to procure information.",
+            "rdfs:label": "Investigation",
+            "rdf:value": "3"
+        },
+        {
+            "@id": "uncl9441:4",
+            "@type": "unece:UNCL9441Code",
+            "rdfs:comment": "Intervention related to medical services.",
+            "rdfs:label": "Medical",
+            "rdf:value": "4"
+        }
+    ]
+}

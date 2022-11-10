@@ -1,0 +1,25 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl9285": "https://dmvc7xzscpizo.cloudfront.net/uncl9285#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl9285:1",
+            "@type": "unece:UNCL9285Code",
+            "rdfs:comment": "Any specified value is allowed.",
+            "rdfs:label": "Use any specified value",
+            "rdf:value": "1"
+        },
+        {
+            "@id": "uncl9285:2",
+            "@type": "unece:UNCL9285Code",
+            "rdfs:comment": "Any value from the standard is allowed.",
+            "rdfs:label": "Use any code in the standard",
+            "rdf:value": "2"
+        }
+    ]
+}

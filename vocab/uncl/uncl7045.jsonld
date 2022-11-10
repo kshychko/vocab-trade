@@ -1,0 +1,60 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl7045": "https://dmvc7xzscpizo.cloudfront.net/uncl7045#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl7045:1",
+            "@type": "unece:UNCL7045Code",
+            "rdfs:comment": "Sample has a round shape.",
+            "rdfs:label": "Round",
+            "rdf:value": "1"
+        },
+        {
+            "@id": "uncl7045:2",
+            "@type": "unece:UNCL7045Code",
+            "rdfs:comment": "Sample has a rectangular shape.",
+            "rdfs:label": "Rectangular",
+            "rdf:value": "2"
+        },
+        {
+            "@id": "uncl7045:3",
+            "@type": "unece:UNCL7045Code",
+            "rdfs:comment": "Sample was turned when tested.",
+            "rdfs:label": "Turned",
+            "rdf:value": "3"
+        },
+        {
+            "@id": "uncl7045:4",
+            "@type": "unece:UNCL7045Code",
+            "rdfs:comment": "Sample was forged when tested.",
+            "rdfs:label": "Forged",
+            "rdf:value": "4"
+        },
+        {
+            "@id": "uncl7045:5",
+            "@type": "unece:UNCL7045Code",
+            "rdfs:comment": "Sample was tinned when tested.",
+            "rdfs:label": "Tinned",
+            "rdf:value": "5"
+        },
+        {
+            "@id": "uncl7045:6",
+            "@type": "unece:UNCL7045Code",
+            "rdfs:comment": "Sample has a prism shape.",
+            "rdfs:label": "Prismatic",
+            "rdf:value": "6"
+        },
+        {
+            "@id": "uncl7045:7",
+            "@type": "unece:UNCL7045Code",
+            "rdfs:comment": "Sample has a cylinder shape.",
+            "rdfs:label": "Cylindric",
+            "rdf:value": "7"
+        }
+    ]
+}

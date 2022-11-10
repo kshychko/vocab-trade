@@ -1,0 +1,179 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl5463": "https://dmvc7xzscpizo.cloudfront.net/uncl5463#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl5463:A",
+            "@type": "unece:UNCL5463Code",
+            "rdfs:comment": "Code specifying an allowance.",
+            "rdfs:label": "Allowance",
+            "rdf:value": "A"
+        },
+        {
+            "@id": "uncl5463:B",
+            "@type": "unece:UNCL5463Code",
+            "rdfs:comment": "The total for items other than those primarily reported upon in the message.",
+            "rdfs:label": "Total other",
+            "rdf:value": "B"
+        },
+        {
+            "@id": "uncl5463:C",
+            "@type": "unece:UNCL5463Code",
+            "rdfs:comment": "Code specifying a charge.",
+            "rdfs:label": "Charge",
+            "rdf:value": "C"
+        },
+        {
+            "@id": "uncl5463:D",
+            "@type": "unece:UNCL5463Code",
+            "rdfs:comment": "Code specifying a call off allowance.",
+            "rdfs:label": "Allowance per call off",
+            "rdf:value": "D"
+        },
+        {
+            "@id": "uncl5463:E",
+            "@type": "unece:UNCL5463Code",
+            "rdfs:comment": "Code specifying a charge per call off.",
+            "rdfs:label": "Charge per call off",
+            "rdf:value": "E"
+        },
+        {
+            "@id": "uncl5463:F",
+            "@type": "unece:UNCL5463Code",
+            "rdfs:comment": "Allowance is related to the entire message.",
+            "rdfs:label": "Allowance message",
+            "rdf:value": "F"
+        },
+        {
+            "@id": "uncl5463:G",
+            "@type": "unece:UNCL5463Code",
+            "rdfs:comment": "Allowance is related to all line items in a message as a default allowance. It may be overridden per line item.",
+            "rdfs:label": "Allowance line items",
+            "rdf:value": "G"
+        },
+        {
+            "@id": "uncl5463:H",
+            "@type": "unece:UNCL5463Code",
+            "rdfs:comment": "Allowance is related to a line item. It can override a default allowance.",
+            "rdfs:label": "Line item allowance",
+            "rdf:value": "H"
+        },
+        {
+            "@id": "uncl5463:J",
+            "@type": "unece:UNCL5463Code",
+            "rdfs:comment": "Code specifying that the allowance or charge is due to an adjustment.",
+            "rdfs:label": "Adjustment",
+            "rdf:value": "J"
+        },
+        {
+            "@id": "uncl5463:K",
+            "@type": "unece:UNCL5463Code",
+            "rdfs:comment": "Charge is related to the entire message.",
+            "rdfs:label": "Charge message",
+            "rdf:value": "K"
+        },
+        {
+            "@id": "uncl5463:L",
+            "@type": "unece:UNCL5463Code",
+            "rdfs:comment": "Charge is related to all line items in a message as a default charge. It may be overridden per line item.",
+            "rdfs:label": "Charge line items",
+            "rdf:value": "L"
+        },
+        {
+            "@id": "uncl5463:M",
+            "@type": "unece:UNCL5463Code",
+            "rdfs:comment": "Charge is related to a line item. It can override a default charge.",
+            "rdfs:label": "Line item charge",
+            "rdf:value": "M"
+        },
+        {
+            "@id": "uncl5463:N",
+            "@type": "unece:UNCL5463Code",
+            "rdfs:comment": "No increases or reduction in price (list or stated) are included.",
+            "rdfs:label": "No allowance or charge",
+            "rdf:value": "N"
+        },
+        {
+            "@id": "uncl5463:O",
+            "@type": "unece:UNCL5463Code",
+            "rdfs:comment": "To be construed as allowing a difference not exceeding 10 % more or 10 % less than the amount which it refers.",
+            "rdfs:label": "About",
+            "rdf:value": "O"
+        },
+        {
+            "@id": "uncl5463:P",
+            "@type": "unece:UNCL5463Code",
+            "rdfs:comment": "The lesser value expressed in percentage.",
+            "rdfs:label": "Minus (percentage)",
+            "rdf:value": "P"
+        },
+        {
+            "@id": "uncl5463:Q",
+            "@type": "unece:UNCL5463Code",
+            "rdfs:comment": "The lesser value expressed in amount.",
+            "rdfs:label": "Minus (amount)",
+            "rdf:value": "Q"
+        },
+        {
+            "@id": "uncl5463:R",
+            "@type": "unece:UNCL5463Code",
+            "rdfs:comment": "The greater value expressed in percentage.",
+            "rdfs:label": "Plus (percentage)",
+            "rdf:value": "R"
+        },
+        {
+            "@id": "uncl5463:S",
+            "@type": "unece:UNCL5463Code",
+            "rdfs:comment": "The greater value expressed in amount.",
+            "rdfs:label": "Plus (amount)",
+            "rdf:value": "S"
+        },
+        {
+            "@id": "uncl5463:T",
+            "@type": "unece:UNCL5463Code",
+            "rdfs:comment": "The greater/lesser value expressed in percentage.",
+            "rdfs:label": "Plus/minus (percentage)",
+            "rdf:value": "T"
+        },
+        {
+            "@id": "uncl5463:U",
+            "@type": "unece:UNCL5463Code",
+            "rdfs:comment": "The greater/lesser value expressed in amount.",
+            "rdfs:label": "Plus/minus (amount)",
+            "rdf:value": "U"
+        },
+        {
+            "@id": "uncl5463:V",
+            "@type": "unece:UNCL5463Code",
+            "rdfs:comment": "Code specifying that there is no allowance.",
+            "rdfs:label": "No allowance",
+            "rdf:value": "V"
+        },
+        {
+            "@id": "uncl5463:W",
+            "@type": "unece:UNCL5463Code",
+            "rdfs:comment": "Code specifying that there is no charge.",
+            "rdfs:label": "No charge",
+            "rdf:value": "W"
+        },
+        {
+            "@id": "uncl5463:X",
+            "@type": "unece:UNCL5463Code",
+            "rdfs:comment": "Highest possible value; maximum; not exceeding; up to.",
+            "rdfs:label": "Maximum",
+            "rdf:value": "X"
+        },
+        {
+            "@id": "uncl5463:Y",
+            "@type": "unece:UNCL5463Code",
+            "rdfs:comment": "Indicates that this is the exact amount.",
+            "rdfs:label": "Exact",
+            "rdf:value": "Y"
+        }
+    ]
+}

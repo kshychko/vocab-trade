@@ -1,0 +1,361 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl4233": "https://dmvc7xzscpizo.cloudfront.net/uncl4233#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl4233:1",
+            "@type": "unece:UNCL4233Code",
+            "rdfs:comment": "Packaging should not be marked with supplier's company name.",
+            "rdfs:label": "Do not mark suppliers company name",
+            "rdf:value": "1"
+        },
+        {
+            "@id": "uncl4233:2",
+            "@type": "unece:UNCL4233Code",
+            "rdfs:comment": "Packaging should be marked with customer's company name.",
+            "rdfs:label": "Mark customers company name",
+            "rdf:value": "2"
+        },
+        {
+            "@id": "uncl4233:3",
+            "@type": "unece:UNCL4233Code",
+            "rdfs:comment": "Packaging should be marked with customer's references.",
+            "rdfs:label": "Mark customers references",
+            "rdf:value": "3"
+        },
+        {
+            "@id": "uncl4233:4",
+            "@type": "unece:UNCL4233Code",
+            "rdfs:comment": "Packaging should also be marked with customer's article description.",
+            "rdfs:label": "Mark additionally customers article description",
+            "rdf:value": "4"
+        },
+        {
+            "@id": "uncl4233:5",
+            "@type": "unece:UNCL4233Code",
+            "rdfs:comment": "Packaging should be marked with customer's article description only.",
+            "rdfs:label": "Mark exclusively customers article description",
+            "rdf:value": "5"
+        },
+        {
+            "@id": "uncl4233:6",
+            "@type": "unece:UNCL4233Code",
+            "rdfs:comment": "Packaging should be marked with package's dimensions.",
+            "rdfs:label": "Mark packages dimensions",
+            "rdf:value": "6"
+        },
+        {
+            "@id": "uncl4233:7",
+            "@type": "unece:UNCL4233Code",
+            "rdfs:comment": "Packaging should be marked with net weight.",
+            "rdfs:label": "Mark net weight",
+            "rdf:value": "7"
+        },
+        {
+            "@id": "uncl4233:8",
+            "@type": "unece:UNCL4233Code",
+            "rdfs:comment": "Packaging should be marked with gross weight.",
+            "rdfs:label": "Mark gross weight",
+            "rdf:value": "8"
+        },
+        {
+            "@id": "uncl4233:9",
+            "@type": "unece:UNCL4233Code",
+            "rdfs:comment": "Packaging should be marked with tare weight.",
+            "rdfs:label": "Mark tare weight",
+            "rdf:value": "9"
+        },
+        {
+            "@id": "uncl4233:10",
+            "@type": "unece:UNCL4233Code",
+            "rdfs:comment": "Packaging should be marked with batch number.",
+            "rdfs:label": "Mark batch number",
+            "rdf:value": "10"
+        },
+        {
+            "@id": "uncl4233:11",
+            "@type": "unece:UNCL4233Code",
+            "rdfs:comment": "Packaging should be marked with customer's article number.",
+            "rdfs:label": "Mark article number customer",
+            "rdf:value": "11"
+        },
+        {
+            "@id": "uncl4233:12",
+            "@type": "unece:UNCL4233Code",
+            "rdfs:comment": "Packaging should be marked with the running number of packages.",
+            "rdfs:label": "Mark running number of packages",
+            "rdf:value": "12"
+        },
+        {
+            "@id": "uncl4233:13",
+            "@type": "unece:UNCL4233Code",
+            "rdfs:comment": "Packaging should be marked with the date of production.",
+            "rdfs:label": "Mark date of production",
+            "rdf:value": "13"
+        },
+        {
+            "@id": "uncl4233:14",
+            "@type": "unece:UNCL4233Code",
+            "rdfs:comment": "Packaging should be marked with the expiry date.",
+            "rdfs:label": "Mark expiry date",
+            "rdf:value": "14"
+        },
+        {
+            "@id": "uncl4233:15",
+            "@type": "unece:UNCL4233Code",
+            "rdfs:comment": "Packaging should be marked with the supplier number.",
+            "rdfs:label": "Mark supplier number",
+            "rdf:value": "15"
+        },
+        {
+            "@id": "uncl4233:16",
+            "@type": "unece:UNCL4233Code",
+            "rdfs:comment": "Markings as specified by the buyer.",
+            "rdfs:label": "Buyer's instructions",
+            "rdf:value": "16"
+        },
+        {
+            "@id": "uncl4233:17",
+            "@type": "unece:UNCL4233Code",
+            "rdfs:comment": "Markings as specified by the seller.",
+            "rdfs:label": "Seller's instructions",
+            "rdf:value": "17"
+        },
+        {
+            "@id": "uncl4233:18",
+            "@type": "unece:UNCL4233Code",
+            "rdfs:comment": "Markings as specified by carrier.",
+            "rdfs:label": "Carrier's instructions",
+            "rdf:value": "18"
+        },
+        {
+            "@id": "uncl4233:19",
+            "@type": "unece:UNCL4233Code",
+            "rdfs:comment": "Markings as specified by law.",
+            "rdfs:label": "Legal requirements",
+            "rdf:value": "19"
+        },
+        {
+            "@id": "uncl4233:20",
+            "@type": "unece:UNCL4233Code",
+            "rdfs:comment": "Markings as specified by industry.",
+            "rdfs:label": "Industry instructions",
+            "rdf:value": "20"
+        },
+        {
+            "@id": "uncl4233:21",
+            "@type": "unece:UNCL4233Code",
+            "rdfs:comment": "Exclusive reference markings for this line.",
+            "rdfs:label": "Line item only",
+            "rdf:value": "21"
+        },
+        {
+            "@id": "uncl4233:22",
+            "@type": "unece:UNCL4233Code",
+            "rdfs:comment": "Packaging should be pre-marked by buyer.",
+            "rdfs:label": "Pre-marked by buyer",
+            "rdf:value": "22"
+        },
+        {
+            "@id": "uncl4233:23",
+            "@type": "unece:UNCL4233Code",
+            "rdfs:comment": "Markings refer to the entire shipment.",
+            "rdfs:label": "Entire shipment",
+            "rdf:value": "23"
+        },
+        {
+            "@id": "uncl4233:24",
+            "@type": "unece:UNCL4233Code",
+            "rdfs:comment": "Markings to identify a shipment, package or carton as assigned by shipper.",
+            "rdfs:label": "Shipper assigned",
+            "rdf:value": "24"
+        },
+        {
+            "@id": "uncl4233:25",
+            "@type": "unece:UNCL4233Code",
+            "rdfs:comment": "Markings to identify a roll as assigned by the shipper.",
+            "rdfs:label": "Shipper assigned roll number",
+            "rdf:value": "25"
+        },
+        {
+            "@id": "uncl4233:26",
+            "@type": "unece:UNCL4233Code",
+            "rdfs:comment": "Markings used to identify a skid as assigned by shipper.",
+            "rdfs:label": "Shipper assigned skid number",
+            "rdf:value": "26"
+        },
+        {
+            "@id": "uncl4233:27",
+            "@type": "unece:UNCL4233Code",
+            "rdfs:comment": "Markings according to UCC format are required. System of coding products where by each item/multipack case type is uniquely identified. A unique manufacturer Id is assigned by the UCC.",
+            "rdfs:label": "Uniform Code Council (UCC) format",
+            "rdf:value": "27"
+        },
+        {
+            "@id": "uncl4233:28",
+            "@type": "unece:UNCL4233Code",
+            "rdfs:comment": "Packaging should be marked with free text.",
+            "rdfs:label": "Mark free text",
+            "rdf:value": "28"
+        },
+        {
+            "@id": "uncl4233:29",
+            "@type": "unece:UNCL4233Code",
+            "rdfs:comment": "Case numbers to be used for marking.",
+            "rdfs:label": "Mark case number",
+            "rdf:value": "29"
+        },
+        {
+            "@id": "uncl4233:30",
+            "@type": "unece:UNCL4233Code",
+            "rdfs:comment": "Requests the marking of the serial shipping container code to the transport container or packaging.",
+            "rdfs:label": "Mark serial shipping container code",
+            "rdf:value": "30"
+        },
+        {
+            "@id": "uncl4233:31",
+            "@type": "unece:UNCL4233Code",
+            "rdfs:comment": "The container has been marked with a permanent container tag according to ISO 10374.",
+            "rdfs:label": "Marked with ISO 10374 (permanent container tag)",
+            "rdf:value": "31"
+        },
+        {
+            "@id": "uncl4233:32",
+            "@type": "unece:UNCL4233Code",
+            "rdfs:comment": "Packaging must be marked with the packaging date.",
+            "rdfs:label": "Mark date of packaging",
+            "rdf:value": "32"
+        },
+        {
+            "@id": "uncl4233:33",
+            "@type": "unece:UNCL4233Code",
+            "rdfs:comment": "Packaging must be marked with the reference to source entity. The reference to source identifies that the trade item was derived from.",
+            "rdfs:label": "Mark reference to source entity",
+            "rdf:value": "33"
+        },
+        {
+            "@id": "uncl4233:34",
+            "@type": "unece:UNCL4233Code",
+            "rdfs:comment": "Indication that the GS1 Global Individual Asset Identifier has been marked on the package.",
+            "rdfs:label": "Marked GS1 Global Individual Asset Identifier",
+            "rdf:value": "34"
+        },
+        {
+            "@id": "uncl4233:35",
+            "@type": "unece:UNCL4233Code",
+            "rdfs:comment": "Indication that the product serial number has been marked on a package.",
+            "rdfs:label": "Marked with a product serial number",
+            "rdf:value": "35"
+        },
+        {
+            "@id": "uncl4233:36",
+            "@type": "unece:UNCL4233Code",
+            "rdfs:comment": "Indication that the GS1 Global Identification Number for Consignment has been marked on the package.",
+            "rdfs:label": "Marked with a GS1 Global Identification Number for Consignment (GINC)",
+            "rdf:value": "36"
+        },
+        {
+            "@id": "uncl4233:37",
+            "@type": "unece:UNCL4233Code",
+            "rdfs:comment": "Indication that the GS1 Global Shipment Identification Number has been marked on the package.",
+            "rdfs:label": "Marked with a GS1 Global Shipment Identification Number (GSIN)",
+            "rdf:value": "37"
+        },
+        {
+            "@id": "uncl4233:38",
+            "@type": "unece:UNCL4233Code",
+            "rdfs:comment": "Indication that the price has been marked on the package.",
+            "rdfs:label": "Marked price",
+            "rdf:value": "38"
+        },
+        {
+            "@id": "uncl4233:39",
+            "@type": "unece:UNCL4233Code",
+            "rdfs:comment": "Indication that the Serial Shipping Container Code has been marked on a package.",
+            "rdfs:label": "Marked with Serial Shipping Container Code (SSCC)",
+            "rdf:value": "39"
+        },
+        {
+            "@id": "uncl4233:40",
+            "@type": "unece:UNCL4233Code",
+            "rdfs:comment": "Indication that the first freezing date has been marked on the package.",
+            "rdfs:label": "Marked with first freezing date",
+            "rdf:value": "40"
+        },
+        {
+            "@id": "uncl4233:41",
+            "@type": "unece:UNCL4233Code",
+            "rdfs:comment": "Indication that the batch number has been marked on a package.",
+            "rdfs:label": "Marked with batch number",
+            "rdf:value": "41"
+        },
+        {
+            "@id": "uncl4233:42",
+            "@type": "unece:UNCL4233Code",
+            "rdfs:comment": "Indication that the production date has been marked on a package.",
+            "rdfs:label": "Marked with production date",
+            "rdf:value": "42"
+        },
+        {
+            "@id": "uncl4233:43",
+            "@type": "unece:UNCL4233Code",
+            "rdfs:comment": "Indication that the expiry date has been marked on a package.",
+            "rdfs:label": "Marked with expiry date",
+            "rdf:value": "43"
+        },
+        {
+            "@id": "uncl4233:44",
+            "@type": "unece:UNCL4233Code",
+            "rdfs:comment": "Indication that the best before date has been marked on a package.",
+            "rdfs:label": "Marked with best before date",
+            "rdf:value": "44"
+        },
+        {
+            "@id": "uncl4233:45",
+            "@type": "unece:UNCL4233Code",
+            "rdfs:comment": "Indication that the net weight has been marked on a package.",
+            "rdfs:label": "Marked with net weight",
+            "rdf:value": "45"
+        },
+        {
+            "@id": "uncl4233:46",
+            "@type": "unece:UNCL4233Code",
+            "rdfs:comment": "Indication that the packaging date has been marked on a package.",
+            "rdfs:label": "Marked with packaging date",
+            "rdf:value": "46"
+        },
+        {
+            "@id": "uncl4233:47",
+            "@type": "unece:UNCL4233Code",
+            "rdfs:comment": "Indication that the GS1 Global Returnable Asset Identifier (GRAI) has been marked on the package.",
+            "rdfs:label": "Marked with GS1 Global Returnable Asset Identifier (GRAI)",
+            "rdf:value": "47"
+        },
+        {
+            "@id": "uncl4233:48",
+            "@type": "unece:UNCL4233Code",
+            "rdfs:comment": "Indication that the package has been marked with a greeting message.",
+            "rdfs:label": "Marked with a greeting message",
+            "rdf:value": "48"
+        },
+        {
+            "@id": "uncl4233:49",
+            "@type": "unece:UNCL4233Code",
+            "rdfs:comment": "The price per unit of measure is marked on trade item.",
+            "rdfs:label": "Price per unit of measure marked on product",
+            "rdf:value": "49"
+        },
+        {
+            "@id": "uncl4233:ZZZ",
+            "@type": "unece:UNCL4233Code",
+            "rdfs:comment": "A code assigned within a code list to be used on an interim basis and as defined among trading partners until a precise code can be assigned to the code list.",
+            "rdfs:label": "Mutually defined",
+            "rdf:value": "ZZZ"
+        }
+    ]
+}

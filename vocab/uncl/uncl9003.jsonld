@@ -1,0 +1,39 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl9003": "https://dmvc7xzscpizo.cloudfront.net/uncl9003#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl9003:1",
+            "@type": "unece:UNCL9003Code",
+            "rdfs:comment": "Main employment.",
+            "rdfs:label": "Primary",
+            "rdf:value": "1"
+        },
+        {
+            "@id": "uncl9003:2",
+            "@type": "unece:UNCL9003Code",
+            "rdfs:comment": "Secondary employment.",
+            "rdfs:label": "Secondary",
+            "rdf:value": "2"
+        },
+        {
+            "@id": "uncl9003:3",
+            "@type": "unece:UNCL9003Code",
+            "rdfs:comment": "Tertiary employment.",
+            "rdfs:label": "Tertiary",
+            "rdf:value": "3"
+        },
+        {
+            "@id": "uncl9003:4",
+            "@type": "unece:UNCL9003Code",
+            "rdfs:comment": "To specify a profession.",
+            "rdfs:label": "Profession",
+            "rdf:value": "4"
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl3079": "https://dmvc7xzscpizo.cloudfront.net/uncl3079#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl3079:1",
+            "@type": "unece:UNCL3079Code",
+            "rdfs:comment": "The organisation classification is according to department.",
+            "rdfs:label": "Type of department",
+            "rdf:value": "1"
+        },
+        {
+            "@id": "uncl3079:2",
+            "@type": "unece:UNCL3079Code",
+            "rdfs:comment": "The organisation classification is according to medical speciality.",
+            "rdfs:label": "Type of medical speciality",
+            "rdf:value": "2"
+        }
+    ]
+}

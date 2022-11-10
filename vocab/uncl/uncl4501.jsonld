@@ -1,0 +1,25 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl4501": "https://dmvc7xzscpizo.cloudfront.net/uncl4501#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl4501:1",
+            "@type": "unece:UNCL4501Code",
+            "rdfs:comment": "Outgoing goods.",
+            "rdfs:label": "Movement out of inventory",
+            "rdf:value": "1"
+        },
+        {
+            "@id": "uncl4501:2",
+            "@type": "unece:UNCL4501Code",
+            "rdfs:comment": "Incoming goods.",
+            "rdfs:label": "Movement into inventory",
+            "rdf:value": "2"
+        }
+    ]
+}

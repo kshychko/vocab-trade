@@ -1,0 +1,53 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl7047": "https://dmvc7xzscpizo.cloudfront.net/uncl7047#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl7047:1",
+            "@type": "unece:UNCL7047Code",
+            "rdfs:comment": "Sample was taken in a lengthways direction.",
+            "rdfs:label": "Longitudinal",
+            "rdf:value": "1"
+        },
+        {
+            "@id": "uncl7047:2",
+            "@type": "unece:UNCL7047Code",
+            "rdfs:comment": "Sample was taken in a crosswise direction.",
+            "rdfs:label": "Transverse",
+            "rdf:value": "2"
+        },
+        {
+            "@id": "uncl7047:3",
+            "@type": "unece:UNCL7047Code",
+            "rdfs:comment": "Sample was taken originating from the centre outward.",
+            "rdfs:label": "Radial",
+            "rdf:value": "3"
+        },
+        {
+            "@id": "uncl7047:4",
+            "@type": "unece:UNCL7047Code",
+            "rdfs:comment": "A sample was taken along a line which divides a regular figure symmetrically.",
+            "rdfs:label": "Axial",
+            "rdf:value": "4"
+        },
+        {
+            "@id": "uncl7047:5",
+            "@type": "unece:UNCL7047Code",
+            "rdfs:comment": "In the direction of the thickness of the specimen.",
+            "rdfs:label": "Thickness",
+            "rdf:value": "5"
+        },
+        {
+            "@id": "uncl7047:6",
+            "@type": "unece:UNCL7047Code",
+            "rdfs:comment": "Sample taken in the diagonal direction.",
+            "rdfs:label": "Diagonal",
+            "rdf:value": "6"
+        }
+    ]
+}

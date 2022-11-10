@@ -1,0 +1,1250 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl7161": "https://dmvc7xzscpizo.cloudfront.net/uncl7161#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl7161:AA",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of providing advertising.",
+            "rdfs:label": "Advertising",
+            "rdf:value": "AA"
+        },
+        {
+            "@id": "uncl7161:AAA",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of providing telecommunication activities and/or faclities.",
+            "rdfs:label": "Telecommunication",
+            "rdf:value": "AAA"
+        },
+        {
+            "@id": "uncl7161:AAC",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of making technical modifications to a product.",
+            "rdfs:label": "Technical modification",
+            "rdf:value": "AAC"
+        },
+        {
+            "@id": "uncl7161:AAD",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of producing to order.",
+            "rdfs:label": "Job-order production",
+            "rdf:value": "AAD"
+        },
+        {
+            "@id": "uncl7161:AAE",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of providing money for outlays on behalf of a trading partner.",
+            "rdfs:label": "Outlays",
+            "rdf:value": "AAE"
+        },
+        {
+            "@id": "uncl7161:AAF",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of providing services outside the premises of the provider.",
+            "rdfs:label": "Off-premises",
+            "rdf:value": "AAF"
+        },
+        {
+            "@id": "uncl7161:AAH",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of providing additional processing.",
+            "rdfs:label": "Additional processing",
+            "rdf:value": "AAH"
+        },
+        {
+            "@id": "uncl7161:AAI",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of certifying validity.",
+            "rdfs:label": "Attesting",
+            "rdf:value": "AAI"
+        },
+        {
+            "@id": "uncl7161:AAS",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of accepting goods or services.",
+            "rdfs:label": "Acceptance",
+            "rdf:value": "AAS"
+        },
+        {
+            "@id": "uncl7161:AAT",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service to provide a rush delivery.",
+            "rdfs:label": "Rush delivery",
+            "rdf:value": "AAT"
+        },
+        {
+            "@id": "uncl7161:AAV",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of providing special construction.",
+            "rdfs:label": "Special construction",
+            "rdf:value": "AAV"
+        },
+        {
+            "@id": "uncl7161:AAY",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of providing airport facilities.",
+            "rdfs:label": "Airport facilities",
+            "rdf:value": "AAY"
+        },
+        {
+            "@id": "uncl7161:AAZ",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service allowing a party to use another party's facilities.",
+            "rdfs:label": "Concession",
+            "rdf:value": "AAZ"
+        },
+        {
+            "@id": "uncl7161:ABA",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service provided to hold a compulsory inventory.",
+            "rdfs:label": "Compulsory storage",
+            "rdf:value": "ABA"
+        },
+        {
+            "@id": "uncl7161:ABB",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "Remove or off-load fuel from vehicle, vessel or craft.",
+            "rdfs:label": "Fuel removal",
+            "rdf:value": "ABB"
+        },
+        {
+            "@id": "uncl7161:ABC",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "Service of delivering goods to an aircraft from local storage.",
+            "rdfs:label": "Into plane",
+            "rdf:value": "ABC"
+        },
+        {
+            "@id": "uncl7161:ABD",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of providing labour beyond the established limit of working hours.",
+            "rdfs:label": "Overtime",
+            "rdf:value": "ABD"
+        },
+        {
+            "@id": "uncl7161:ABF",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of providing specific tooling.",
+            "rdfs:label": "Tooling",
+            "rdf:value": "ABF"
+        },
+        {
+            "@id": "uncl7161:ABK",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "Miscellaneous services.",
+            "rdfs:label": "Miscellaneous",
+            "rdf:value": "ABK"
+        },
+        {
+            "@id": "uncl7161:ABL",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of providing  additional packaging.",
+            "rdfs:label": "Additional packaging",
+            "rdf:value": "ABL"
+        },
+        {
+            "@id": "uncl7161:ABN",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of providing additional padding materials required to secure and protect a cargo within a shipping container.",
+            "rdfs:label": "Dunnage",
+            "rdf:value": "ABN"
+        },
+        {
+            "@id": "uncl7161:ABR",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of packing items into a container.",
+            "rdfs:label": "Containerisation",
+            "rdf:value": "ABR"
+        },
+        {
+            "@id": "uncl7161:ABS",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of packing items into a carton.",
+            "rdfs:label": "Carton packing",
+            "rdf:value": "ABS"
+        },
+        {
+            "@id": "uncl7161:ABT",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of hessian wrapping.",
+            "rdfs:label": "Hessian wrapped",
+            "rdf:value": "ABT"
+        },
+        {
+            "@id": "uncl7161:ABU",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of packing in polyethylene wrapping.",
+            "rdfs:label": "Polyethylene wrap packing",
+            "rdf:value": "ABU"
+        },
+        {
+            "@id": "uncl7161:ACF",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "Miscellaneous treatment service.",
+            "rdfs:label": "Miscellaneous treatment",
+            "rdf:value": "ACF"
+        },
+        {
+            "@id": "uncl7161:ACG",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of providing enamelling treatment.",
+            "rdfs:label": "Enamelling treatment",
+            "rdf:value": "ACG"
+        },
+        {
+            "@id": "uncl7161:ACH",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of treating with heat.",
+            "rdfs:label": "Heat treatment",
+            "rdf:value": "ACH"
+        },
+        {
+            "@id": "uncl7161:ACI",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of providing plating treatment.",
+            "rdfs:label": "Plating treatment",
+            "rdf:value": "ACI"
+        },
+        {
+            "@id": "uncl7161:ACJ",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of painting.",
+            "rdfs:label": "Painting",
+            "rdf:value": "ACJ"
+        },
+        {
+            "@id": "uncl7161:ACK",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of polishing.",
+            "rdfs:label": "Polishing",
+            "rdf:value": "ACK"
+        },
+        {
+            "@id": "uncl7161:ACL",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of priming.",
+            "rdfs:label": "Priming",
+            "rdf:value": "ACL"
+        },
+        {
+            "@id": "uncl7161:ACM",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of preservation treatment.",
+            "rdfs:label": "Preservation treatment",
+            "rdf:value": "ACM"
+        },
+        {
+            "@id": "uncl7161:ACS",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "Fitting service.",
+            "rdfs:label": "Fitting",
+            "rdf:value": "ACS"
+        },
+        {
+            "@id": "uncl7161:ADC",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of consolidating multiple consignments into one shipment.",
+            "rdfs:label": "Consolidation",
+            "rdf:value": "ADC"
+        },
+        {
+            "@id": "uncl7161:ADE",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of providing a bill of lading document.",
+            "rdfs:label": "Bill of lading",
+            "rdf:value": "ADE"
+        },
+        {
+            "@id": "uncl7161:ADJ",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of surrounding a product with an air bag.",
+            "rdfs:label": "Airbag",
+            "rdf:value": "ADJ"
+        },
+        {
+            "@id": "uncl7161:ADK",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of transferring.",
+            "rdfs:label": "Transfer",
+            "rdf:value": "ADK"
+        },
+        {
+            "@id": "uncl7161:ADL",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of securing a stack of products on a slipsheet.",
+            "rdfs:label": "Slipsheet",
+            "rdf:value": "ADL"
+        },
+        {
+            "@id": "uncl7161:ADM",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "Binding service.",
+            "rdfs:label": "Binding",
+            "rdf:value": "ADM"
+        },
+        {
+            "@id": "uncl7161:ADN",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of repairing or replacing a broken returnable package.",
+            "rdfs:label": "Repair or replacement of broken returnable package",
+            "rdf:value": "ADN"
+        },
+        {
+            "@id": "uncl7161:ADO",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "A code indicating efficient logistics services.",
+            "rdfs:label": "Efficient logistics",
+            "rdf:value": "ADO"
+        },
+        {
+            "@id": "uncl7161:ADP",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "A code indicating that merchandising services are in operation.",
+            "rdfs:label": "Merchandising",
+            "rdf:value": "ADP"
+        },
+        {
+            "@id": "uncl7161:ADQ",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "A code indicating that product mixing services are in operation.",
+            "rdfs:label": "Product mix",
+            "rdf:value": "ADQ"
+        },
+        {
+            "@id": "uncl7161:ADR",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "A code indicating that other non-specific services are in operation.",
+            "rdfs:label": "Other services",
+            "rdf:value": "ADR"
+        },
+        {
+            "@id": "uncl7161:ADT",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of picking up or collection of goods.",
+            "rdfs:label": "Pick-up",
+            "rdf:value": "ADT"
+        },
+        {
+            "@id": "uncl7161:ADW",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The special services provided due to chronic illness.",
+            "rdfs:label": "Chronic illness",
+            "rdf:value": "ADW"
+        },
+        {
+            "@id": "uncl7161:ADY",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "A service provided by a buyer when introducing a new product from a suppliers range to the range traded by the buyer.",
+            "rdfs:label": "New product introduction",
+            "rdf:value": "ADY"
+        },
+        {
+            "@id": "uncl7161:ADZ",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "Direct delivery service.",
+            "rdfs:label": "Direct delivery",
+            "rdf:value": "ADZ"
+        },
+        {
+            "@id": "uncl7161:AEA",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of diverting deliverables.",
+            "rdfs:label": "Diversion",
+            "rdf:value": "AEA"
+        },
+        {
+            "@id": "uncl7161:AEB",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service is a disconnection.",
+            "rdfs:label": "Disconnect",
+            "rdf:value": "AEB"
+        },
+        {
+            "@id": "uncl7161:AEC",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "Distribution service.",
+            "rdfs:label": "Distribution",
+            "rdf:value": "AEC"
+        },
+        {
+            "@id": "uncl7161:AED",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "A service for handling hazardous cargo.",
+            "rdfs:label": "Handling of hazardous cargo",
+            "rdf:value": "AED"
+        },
+        {
+            "@id": "uncl7161:AEF",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of renting and/or leasing.",
+            "rdfs:label": "Rents and leases",
+            "rdf:value": "AEF"
+        },
+        {
+            "@id": "uncl7161:AEH",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "Delivery to a different location than previously contracted.",
+            "rdfs:label": "Location differential",
+            "rdf:value": "AEH"
+        },
+        {
+            "@id": "uncl7161:AEI",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "Fuel being put into the aircraft.",
+            "rdfs:label": "Aircraft refueling",
+            "rdf:value": "AEI"
+        },
+        {
+            "@id": "uncl7161:AEJ",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "Fuel being shipped into a storage system.",
+            "rdfs:label": "Fuel shipped into storage",
+            "rdf:value": "AEJ"
+        },
+        {
+            "@id": "uncl7161:AEK",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The provision of a cash on delivery (COD) service.",
+            "rdfs:label": "Cash on delivery",
+            "rdf:value": "AEK"
+        },
+        {
+            "@id": "uncl7161:AEL",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "A service related to the processing of small orders.",
+            "rdfs:label": "Small order processing service",
+            "rdf:value": "AEL"
+        },
+        {
+            "@id": "uncl7161:AEM",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The provision of clerical or administrative services.",
+            "rdfs:label": "Clerical or administrative services",
+            "rdf:value": "AEM"
+        },
+        {
+            "@id": "uncl7161:AEN",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of providing a guarantee.",
+            "rdfs:label": "Guarantee",
+            "rdf:value": "AEN"
+        },
+        {
+            "@id": "uncl7161:AEO",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of collection and recycling products.",
+            "rdfs:label": "Collection and recycling",
+            "rdf:value": "AEO"
+        },
+        {
+            "@id": "uncl7161:AEP",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of collecting copyright fees.",
+            "rdfs:label": "Copyright fee collection",
+            "rdf:value": "AEP"
+        },
+        {
+            "@id": "uncl7161:AES",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of providing veterinary inspection.",
+            "rdfs:label": "Veterinary inspection service",
+            "rdf:value": "AES"
+        },
+        {
+            "@id": "uncl7161:AET",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "Special service when the subject is a pensioner.",
+            "rdfs:label": "Pensioner service",
+            "rdf:value": "AET"
+        },
+        {
+            "@id": "uncl7161:AEU",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "Special service when the subject holds a medicine free pass.",
+            "rdfs:label": "Medicine free pass holder",
+            "rdf:value": "AEU"
+        },
+        {
+            "@id": "uncl7161:AEV",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The provision of an environmental protection service.",
+            "rdfs:label": "Environmental protection service",
+            "rdf:value": "AEV"
+        },
+        {
+            "@id": "uncl7161:AEW",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The provision of an environmental clean-up service.",
+            "rdfs:label": "Environmental clean-up service",
+            "rdf:value": "AEW"
+        },
+        {
+            "@id": "uncl7161:AEX",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "Service of processing a national cheque outside the ordering customer's bank trading area.",
+            "rdfs:label": "National cheque processing service outside account area",
+            "rdf:value": "AEX"
+        },
+        {
+            "@id": "uncl7161:AEY",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "Service of processing a national payment to a beneficiary holding an account outside the trading area of the ordering customer's bank.",
+            "rdfs:label": "National payment service outside account area",
+            "rdf:value": "AEY"
+        },
+        {
+            "@id": "uncl7161:AEZ",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "Service of processing a national payment to a beneficiary holding an account within the trading area of the ordering customer's bank.",
+            "rdfs:label": "National payment service within account area",
+            "rdf:value": "AEZ"
+        },
+        {
+            "@id": "uncl7161:AJ",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of making adjustments.",
+            "rdfs:label": "Adjustments",
+            "rdf:value": "AJ"
+        },
+        {
+            "@id": "uncl7161:AU",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of authenticating.",
+            "rdfs:label": "Authentication",
+            "rdf:value": "AU"
+        },
+        {
+            "@id": "uncl7161:CA",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The provision of cataloguing services.",
+            "rdfs:label": "Cataloguing",
+            "rdf:value": "CA"
+        },
+        {
+            "@id": "uncl7161:CAB",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "Movement of goods by heavy duty cart or vehicle.",
+            "rdfs:label": "Cartage",
+            "rdf:value": "CAB"
+        },
+        {
+            "@id": "uncl7161:CAD",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of certifying.",
+            "rdfs:label": "Certification",
+            "rdf:value": "CAD"
+        },
+        {
+            "@id": "uncl7161:CAE",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of providing a certificate of conformance.",
+            "rdfs:label": "Certificate of conformance",
+            "rdf:value": "CAE"
+        },
+        {
+            "@id": "uncl7161:CAF",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of providing a certificate of origin.",
+            "rdfs:label": "Certificate of origin",
+            "rdf:value": "CAF"
+        },
+        {
+            "@id": "uncl7161:CAI",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of cutting.",
+            "rdfs:label": "Cutting",
+            "rdf:value": "CAI"
+        },
+        {
+            "@id": "uncl7161:CAJ",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service provided by consulates.",
+            "rdfs:label": "Consular service",
+            "rdf:value": "CAJ"
+        },
+        {
+            "@id": "uncl7161:CAK",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of collecting goods by the customer.",
+            "rdfs:label": "Customer collection",
+            "rdf:value": "CAK"
+        },
+        {
+            "@id": "uncl7161:CAL",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "Provision of a payroll payment service.",
+            "rdfs:label": "Payroll payment service",
+            "rdf:value": "CAL"
+        },
+        {
+            "@id": "uncl7161:CAM",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "Provision of a cash transportation service.",
+            "rdfs:label": "Cash transportation",
+            "rdf:value": "CAM"
+        },
+        {
+            "@id": "uncl7161:CAN",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "Provision of a home banking service.",
+            "rdfs:label": "Home banking service",
+            "rdf:value": "CAN"
+        },
+        {
+            "@id": "uncl7161:CAO",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "Provision of a service as specified in a bilateral special agreement.",
+            "rdfs:label": "Bilateral agreement service",
+            "rdf:value": "CAO"
+        },
+        {
+            "@id": "uncl7161:CAP",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "Provision of an insurance brokerage service.",
+            "rdfs:label": "Insurance brokerage service",
+            "rdf:value": "CAP"
+        },
+        {
+            "@id": "uncl7161:CAQ",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "Provision of a cheque generation service.",
+            "rdfs:label": "Cheque generation",
+            "rdf:value": "CAQ"
+        },
+        {
+            "@id": "uncl7161:CAR",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "Service of assigning a preferential location for merchandising.",
+            "rdfs:label": "Preferential merchandising location",
+            "rdf:value": "CAR"
+        },
+        {
+            "@id": "uncl7161:CAS",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of providing a crane.",
+            "rdfs:label": "Crane",
+            "rdf:value": "CAS"
+        },
+        {
+            "@id": "uncl7161:CAT",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "Providing a colour which is different from the default colour.",
+            "rdfs:label": "Special colour service",
+            "rdf:value": "CAT"
+        },
+        {
+            "@id": "uncl7161:CAU",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The provision of sorting services.",
+            "rdfs:label": "Sorting",
+            "rdf:value": "CAU"
+        },
+        {
+            "@id": "uncl7161:CAV",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of collecting and recycling batteries.",
+            "rdfs:label": "Battery collection and recycling",
+            "rdf:value": "CAV"
+        },
+        {
+            "@id": "uncl7161:CAW",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The fee the consumer must pay the manufacturer to take back the product.",
+            "rdfs:label": "Product take back fee",
+            "rdf:value": "CAW"
+        },
+        {
+            "@id": "uncl7161:CAX",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "Informs the stockholder it is free to distribute the quality controlled passed goods.",
+            "rdfs:label": "Quality control released",
+            "rdf:value": "CAX"
+        },
+        {
+            "@id": "uncl7161:CAY",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "Instructs the stockholder to withhold distribution of the goods until the manufacturer has completed a quality control assessment.",
+            "rdfs:label": "Quality control held",
+            "rdf:value": "CAY"
+        },
+        {
+            "@id": "uncl7161:CAZ",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "Instructs the stockholder to withhold distribution of goods which have failed quality control tests.",
+            "rdfs:label": "Quality control embargo",
+            "rdf:value": "CAZ"
+        },
+        {
+            "@id": "uncl7161:CD",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "Car loading service.",
+            "rdfs:label": "Car loading",
+            "rdf:value": "CD"
+        },
+        {
+            "@id": "uncl7161:CG",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "Cleaning service.",
+            "rdfs:label": "Cleaning",
+            "rdf:value": "CG"
+        },
+        {
+            "@id": "uncl7161:CS",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of providing cigarette stamping.",
+            "rdfs:label": "Cigarette stamping",
+            "rdf:value": "CS"
+        },
+        {
+            "@id": "uncl7161:CT",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of doing a count and recount.",
+            "rdfs:label": "Count and recount",
+            "rdf:value": "CT"
+        },
+        {
+            "@id": "uncl7161:DAB",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of providing layout/design.",
+            "rdfs:label": "Layout/design",
+            "rdf:value": "DAB"
+        },
+        {
+            "@id": "uncl7161:DAC",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "Allowance given when a specific part of a suppliers assortment is purchased by the buyer.",
+            "rdfs:label": "Assortment allowance",
+            "rdf:value": "DAC"
+        },
+        {
+            "@id": "uncl7161:DAD",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of unloading by the driver.",
+            "rdfs:label": "Driver assigned unloading",
+            "rdf:value": "DAD"
+        },
+        {
+            "@id": "uncl7161:DAF",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "A special allowance or charge applicable to a specific debtor.",
+            "rdfs:label": "Debtor bound",
+            "rdf:value": "DAF"
+        },
+        {
+            "@id": "uncl7161:DAG",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "An allowance offered by a party dealing a certain brand or brands of products.",
+            "rdfs:label": "Dealer allowance",
+            "rdf:value": "DAG"
+        },
+        {
+            "@id": "uncl7161:DAH",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "An allowance given by the manufacturer which should be transfered to the consumer.",
+            "rdfs:label": "Allowance transferable to the consumer",
+            "rdf:value": "DAH"
+        },
+        {
+            "@id": "uncl7161:DAI",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "An allowance or charge related to the growth of business over a pre-determined period of time.",
+            "rdfs:label": "Growth of business",
+            "rdf:value": "DAI"
+        },
+        {
+            "@id": "uncl7161:DAJ",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "An allowance related to the introduction of a new product to the range of products traded by a retailer.",
+            "rdfs:label": "Introduction allowance",
+            "rdf:value": "DAJ"
+        },
+        {
+            "@id": "uncl7161:DAK",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "A code indicating special conditions related to a multi- buy promotion.",
+            "rdfs:label": "Multi-buy promotion",
+            "rdf:value": "DAK"
+        },
+        {
+            "@id": "uncl7161:DAL",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "An allowance or charge related to the establishment and on-going maintenance of a partnership.",
+            "rdfs:label": "Partnership",
+            "rdf:value": "DAL"
+        },
+        {
+            "@id": "uncl7161:DAM",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "An allowance or change related to the handling of returns.",
+            "rdfs:label": "Return handling",
+            "rdf:value": "DAM"
+        },
+        {
+            "@id": "uncl7161:DAN",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "Charge levied because the minimum order quantity could not be fulfilled.",
+            "rdfs:label": "Minimum order not fulfilled charge",
+            "rdf:value": "DAN"
+        },
+        {
+            "@id": "uncl7161:DAO",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "Allowance for reaching or exceeding an agreed sales threshold at the point of sales.",
+            "rdfs:label": "Point of sales threshold allowance",
+            "rdf:value": "DAO"
+        },
+        {
+            "@id": "uncl7161:DAP",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": " A special discount related to the purchase of products through a wholesaler.",
+            "rdfs:label": "Wholesaling discount",
+            "rdf:value": "DAP"
+        },
+        {
+            "@id": "uncl7161:DAQ",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "Fee for the transfer of transferable documentary credits.",
+            "rdfs:label": "Documentary credits transfer commission",
+            "rdf:value": "DAQ"
+        },
+        {
+            "@id": "uncl7161:DL",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of providing delivery.",
+            "rdfs:label": "Delivery",
+            "rdf:value": "DL"
+        },
+        {
+            "@id": "uncl7161:EG",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of providing engraving.",
+            "rdfs:label": "Engraving",
+            "rdf:value": "EG"
+        },
+        {
+            "@id": "uncl7161:EP",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of expediting.",
+            "rdfs:label": "Expediting",
+            "rdf:value": "EP"
+        },
+        {
+            "@id": "uncl7161:ER",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of guaranteeing exchange rate.",
+            "rdfs:label": "Exchange rate guarantee",
+            "rdf:value": "ER"
+        },
+        {
+            "@id": "uncl7161:FAA",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of providing fabrication.",
+            "rdfs:label": "Fabrication",
+            "rdf:value": "FAA"
+        },
+        {
+            "@id": "uncl7161:FAB",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of load balancing.",
+            "rdfs:label": "Freight equalization",
+            "rdf:value": "FAB"
+        },
+        {
+            "@id": "uncl7161:FAC",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of providing freight's extraordinary handling.",
+            "rdfs:label": "Freight extraordinary handling",
+            "rdf:value": "FAC"
+        },
+        {
+            "@id": "uncl7161:FC",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of moving goods, by whatever means, from one place to another.",
+            "rdfs:label": "Freight service",
+            "rdf:value": "FC"
+        },
+        {
+            "@id": "uncl7161:FH",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of providing filling/handling.",
+            "rdfs:label": "Filling/handling",
+            "rdf:value": "FH"
+        },
+        {
+            "@id": "uncl7161:FI",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of providing financing.",
+            "rdfs:label": "Financing",
+            "rdf:value": "FI"
+        },
+        {
+            "@id": "uncl7161:GAA",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of grinding.",
+            "rdfs:label": "Grinding",
+            "rdf:value": "GAA"
+        },
+        {
+            "@id": "uncl7161:HAA",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of providing a hose.",
+            "rdfs:label": "Hose",
+            "rdf:value": "HAA"
+        },
+        {
+            "@id": "uncl7161:HD",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "Handling service.",
+            "rdfs:label": "Handling",
+            "rdf:value": "HD"
+        },
+        {
+            "@id": "uncl7161:HH",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of hoisting and hauling.",
+            "rdfs:label": "Hoisting and hauling",
+            "rdf:value": "HH"
+        },
+        {
+            "@id": "uncl7161:IAA",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of installing.",
+            "rdfs:label": "Installation",
+            "rdf:value": "IAA"
+        },
+        {
+            "@id": "uncl7161:IAB",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of installing and providing warranty.",
+            "rdfs:label": "Installation and warranty",
+            "rdf:value": "IAB"
+        },
+        {
+            "@id": "uncl7161:ID",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of providing delivery inside.",
+            "rdfs:label": "Inside delivery",
+            "rdf:value": "ID"
+        },
+        {
+            "@id": "uncl7161:IF",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of inspection.",
+            "rdfs:label": "Inspection",
+            "rdf:value": "IF"
+        },
+        {
+            "@id": "uncl7161:IR",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of providing installation and training.",
+            "rdfs:label": "Installation and training",
+            "rdf:value": "IR"
+        },
+        {
+            "@id": "uncl7161:IS",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of providing an invoice.",
+            "rdfs:label": "Invoicing",
+            "rdf:value": "IS"
+        },
+        {
+            "@id": "uncl7161:KO",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of preparing food in accordance with Jewish law.",
+            "rdfs:label": "Koshering",
+            "rdf:value": "KO"
+        },
+        {
+            "@id": "uncl7161:L1",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of counting by the carrier.",
+            "rdfs:label": "Carrier count",
+            "rdf:value": "L1"
+        },
+        {
+            "@id": "uncl7161:LA",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "Labelling service.",
+            "rdfs:label": "Labelling",
+            "rdf:value": "LA"
+        },
+        {
+            "@id": "uncl7161:LAA",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service to provide required labour.",
+            "rdfs:label": "Labour",
+            "rdf:value": "LAA"
+        },
+        {
+            "@id": "uncl7161:LAB",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of repairing and returning.",
+            "rdfs:label": "Repair and return",
+            "rdf:value": "LAB"
+        },
+        {
+            "@id": "uncl7161:LF",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of legalising.",
+            "rdfs:label": "Legalisation",
+            "rdf:value": "LF"
+        },
+        {
+            "@id": "uncl7161:MAE",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of mounting.",
+            "rdfs:label": "Mounting",
+            "rdf:value": "MAE"
+        },
+        {
+            "@id": "uncl7161:MI",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of mailing an invoice.",
+            "rdfs:label": "Mail invoice",
+            "rdf:value": "MI"
+        },
+        {
+            "@id": "uncl7161:ML",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of mailing an invoice to each location.",
+            "rdfs:label": "Mail invoice to each location",
+            "rdf:value": "ML"
+        },
+        {
+            "@id": "uncl7161:NAA",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of providing non-returnable containers.",
+            "rdfs:label": "Non-returnable containers",
+            "rdf:value": "NAA"
+        },
+        {
+            "@id": "uncl7161:OA",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of providing outside cable connectors.",
+            "rdfs:label": "Outside cable connectors",
+            "rdf:value": "OA"
+        },
+        {
+            "@id": "uncl7161:PA",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of including the invoice with the shipment.",
+            "rdfs:label": "Invoice with shipment",
+            "rdf:value": "PA"
+        },
+        {
+            "@id": "uncl7161:PAA",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of phosphatizing the steel.",
+            "rdfs:label": "Phosphatizing (steel treatment)",
+            "rdf:value": "PAA"
+        },
+        {
+            "@id": "uncl7161:PC",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of packing.",
+            "rdfs:label": "Packing",
+            "rdf:value": "PC"
+        },
+        {
+            "@id": "uncl7161:PL",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of palletizing.",
+            "rdfs:label": "Palletizing",
+            "rdf:value": "PL"
+        },
+        {
+            "@id": "uncl7161:RAB",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of repacking.",
+            "rdfs:label": "Repacking",
+            "rdf:value": "RAB"
+        },
+        {
+            "@id": "uncl7161:RAC",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of repairing.",
+            "rdfs:label": "Repair",
+            "rdf:value": "RAC"
+        },
+        {
+            "@id": "uncl7161:RAD",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of providing returnable containers.",
+            "rdfs:label": "Returnable container",
+            "rdf:value": "RAD"
+        },
+        {
+            "@id": "uncl7161:RAF",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of restocking.",
+            "rdfs:label": "Restocking",
+            "rdf:value": "RAF"
+        },
+        {
+            "@id": "uncl7161:RE",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of re-delivering.",
+            "rdfs:label": "Re-delivery",
+            "rdf:value": "RE"
+        },
+        {
+            "@id": "uncl7161:RF",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of refurbishing.",
+            "rdfs:label": "Refurbishing",
+            "rdf:value": "RF"
+        },
+        {
+            "@id": "uncl7161:RH",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of providing rail wagons for hire.",
+            "rdfs:label": "Rail wagon hire",
+            "rdf:value": "RH"
+        },
+        {
+            "@id": "uncl7161:RV",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of loading goods.",
+            "rdfs:label": "Loading",
+            "rdf:value": "RV"
+        },
+        {
+            "@id": "uncl7161:SA",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of salvaging.",
+            "rdfs:label": "Salvaging",
+            "rdf:value": "SA"
+        },
+        {
+            "@id": "uncl7161:SAA",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of shipping and handling.",
+            "rdfs:label": "Shipping and handling",
+            "rdf:value": "SAA"
+        },
+        {
+            "@id": "uncl7161:SAD",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of special packaging.",
+            "rdfs:label": "Special packaging",
+            "rdf:value": "SAD"
+        },
+        {
+            "@id": "uncl7161:SAE",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of stamping.",
+            "rdfs:label": "Stamping",
+            "rdf:value": "SAE"
+        },
+        {
+            "@id": "uncl7161:SAI",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of unloading by the consignee.",
+            "rdfs:label": "Consignee unload",
+            "rdf:value": "SAI"
+        },
+        {
+            "@id": "uncl7161:SG",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of shrink-wrapping.",
+            "rdfs:label": "Shrink-wrap",
+            "rdf:value": "SG"
+        },
+        {
+            "@id": "uncl7161:SH",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of special handling.",
+            "rdfs:label": "Special handling",
+            "rdf:value": "SH"
+        },
+        {
+            "@id": "uncl7161:SM",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of providing a special finish.",
+            "rdfs:label": "Special finish",
+            "rdf:value": "SM"
+        },
+        {
+            "@id": "uncl7161:SU",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of setting-up.",
+            "rdfs:label": "Set-up",
+            "rdf:value": "SU"
+        },
+        {
+            "@id": "uncl7161:TAB",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of providing tanks for hire.",
+            "rdfs:label": "Tank renting",
+            "rdf:value": "TAB"
+        },
+        {
+            "@id": "uncl7161:TAC",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of testing.",
+            "rdfs:label": "Testing",
+            "rdf:value": "TAC"
+        },
+        {
+            "@id": "uncl7161:TT",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of providing third party billing for transportation.",
+            "rdfs:label": "Transportation - third party billing",
+            "rdf:value": "TT"
+        },
+        {
+            "@id": "uncl7161:TV",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of providing transportation by the vendor.",
+            "rdfs:label": "Transportation by vendor",
+            "rdf:value": "TV"
+        },
+        {
+            "@id": "uncl7161:V1",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of delivering goods at the yard.",
+            "rdfs:label": "Drop yard",
+            "rdf:value": "V1"
+        },
+        {
+            "@id": "uncl7161:V2",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of delivering goods at the dock.",
+            "rdfs:label": "Drop dock",
+            "rdf:value": "V2"
+        },
+        {
+            "@id": "uncl7161:WH",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of storing and handling of goods in a warehouse.",
+            "rdfs:label": "Warehousing",
+            "rdf:value": "WH"
+        },
+        {
+            "@id": "uncl7161:XAA",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of combining all shipments for the same day.",
+            "rdfs:label": "Combine all same day shipment",
+            "rdf:value": "XAA"
+        },
+        {
+            "@id": "uncl7161:YY",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "The service of providing split pick-up.",
+            "rdfs:label": "Split pick-up",
+            "rdf:value": "YY"
+        },
+        {
+            "@id": "uncl7161:ZZZ",
+            "@type": "unece:UNCL7161Code",
+            "rdfs:comment": "A code assigned within a code list to be used on an interim basis and as defined among trading partners until a precise code can be assigned to the code list.",
+            "rdfs:label": "Mutually defined",
+            "rdf:value": "ZZZ"
+        }
+    ]
+}

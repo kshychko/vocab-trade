@@ -1,0 +1,81 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl3299": "https://dmvc7xzscpizo.cloudfront.net/uncl3299#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl3299:1",
+            "@type": "unece:UNCL3299Code",
+            "rdfs:comment": "The address is the home address.",
+            "rdfs:label": "At home",
+            "rdf:value": "1"
+        },
+        {
+            "@id": "uncl3299:2",
+            "@type": "unece:UNCL3299Code",
+            "rdfs:comment": "Address where contact may be made.",
+            "rdfs:label": "Contact address",
+            "rdf:value": "2"
+        },
+        {
+            "@id": "uncl3299:3",
+            "@type": "unece:UNCL3299Code",
+            "rdfs:comment": "Address of arrival.",
+            "rdfs:label": "Arrival address",
+            "rdf:value": "3"
+        },
+        {
+            "@id": "uncl3299:4",
+            "@type": "unece:UNCL3299Code",
+            "rdfs:comment": "Address of departure.",
+            "rdfs:label": "Departure address",
+            "rdf:value": "4"
+        },
+        {
+            "@id": "uncl3299:5",
+            "@type": "unece:UNCL3299Code",
+            "rdfs:comment": "Address where a person works.",
+            "rdfs:label": "Work address",
+            "rdf:value": "5"
+        },
+        {
+            "@id": "uncl3299:6",
+            "@type": "unece:UNCL3299Code",
+            "rdfs:comment": "Address where medical care is provided.",
+            "rdfs:label": "Medical care address",
+            "rdf:value": "6"
+        },
+        {
+            "@id": "uncl3299:7",
+            "@type": "unece:UNCL3299Code",
+            "rdfs:comment": "Address where samples are collected.",
+            "rdfs:label": "Sample collection address",
+            "rdf:value": "7"
+        },
+        {
+            "@id": "uncl3299:8",
+            "@type": "unece:UNCL3299Code",
+            "rdfs:comment": "Address from where a patient is admitted.",
+            "rdfs:label": "Patient admitted from",
+            "rdf:value": "8"
+        },
+        {
+            "@id": "uncl3299:9",
+            "@type": "unece:UNCL3299Code",
+            "rdfs:comment": "The address where a visit takes place.",
+            "rdfs:label": "Visit address",
+            "rdf:value": "9"
+        },
+        {
+            "@id": "uncl3299:10",
+            "@type": "unece:UNCL3299Code",
+            "rdfs:comment": "Address to where a patient is discharged.",
+            "rdfs:label": "Patient discharged to",
+            "rdf:value": "10"
+        }
+    ]
+}

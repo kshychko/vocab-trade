@@ -1,0 +1,557 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl4295": "https://dmvc7xzscpizo.cloudfront.net/uncl4295#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl4295:AA",
+            "@type": "unece:UNCL4295Code",
+            "rdfs:comment": "An attribute of a member of a group has changed.",
+            "rdfs:label": "Member attribute change",
+            "rdf:value": "AA"
+        },
+        {
+            "@id": "uncl4295:AB",
+            "@type": "unece:UNCL4295Code",
+            "rdfs:comment": "In an other country.",
+            "rdfs:label": "Abroad",
+            "rdf:value": "AB"
+        },
+        {
+            "@id": "uncl4295:AC",
+            "@type": "unece:UNCL4295Code",
+            "rdfs:comment": "The member or benefits category has changed.",
+            "rdfs:label": "Member category change",
+            "rdf:value": "AC"
+        },
+        {
+            "@id": "uncl4295:AD",
+            "@type": "unece:UNCL4295Code",
+            "rdfs:comment": "Subject has died.",
+            "rdfs:label": "Death",
+            "rdf:value": "AD"
+        },
+        {
+            "@id": "uncl4295:AE",
+            "@type": "unece:UNCL4295Code",
+            "rdfs:comment": "Subject is disabled.",
+            "rdfs:label": "Disability",
+            "rdf:value": "AE"
+        },
+        {
+            "@id": "uncl4295:AF",
+            "@type": "unece:UNCL4295Code",
+            "rdfs:comment": "Retirement before the normal retirement age.",
+            "rdfs:label": "Early retirement",
+            "rdf:value": "AF"
+        },
+        {
+            "@id": "uncl4295:AG",
+            "@type": "unece:UNCL4295Code",
+            "rdfs:comment": "Subject is incurring hardship.",
+            "rdfs:label": "Hardship",
+            "rdf:value": "AG"
+        },
+        {
+            "@id": "uncl4295:AH",
+            "@type": "unece:UNCL4295Code",
+            "rdfs:comment": "Subject has ill health.",
+            "rdfs:label": "Ill health",
+            "rdf:value": "AH"
+        },
+        {
+            "@id": "uncl4295:AI",
+            "@type": "unece:UNCL4295Code",
+            "rdfs:comment": "Subject is leaving employer.",
+            "rdfs:label": "Leaving employer",
+            "rdf:value": "AI"
+        },
+        {
+            "@id": "uncl4295:AJ",
+            "@type": "unece:UNCL4295Code",
+            "rdfs:comment": "Person is leaving, or has left, an identified industry.",
+            "rdfs:label": "Leaving industry",
+            "rdf:value": "AJ"
+        },
+        {
+            "@id": "uncl4295:AK",
+            "@type": "unece:UNCL4295Code",
+            "rdfs:comment": "The insurance level/rate table has changed.",
+            "rdfs:label": "Level/rate table change",
+            "rdf:value": "AK"
+        },
+        {
+            "@id": "uncl4295:AL",
+            "@type": "unece:UNCL4295Code",
+            "rdfs:comment": "Subject has retired at the normal retirement age.",
+            "rdfs:label": "Normal retirement",
+            "rdf:value": "AL"
+        },
+        {
+            "@id": "uncl4295:AM",
+            "@type": "unece:UNCL4295Code",
+            "rdfs:comment": "Reason differs from any of the other coded values.",
+            "rdfs:label": "Other",
+            "rdf:value": "AM"
+        },
+        {
+            "@id": "uncl4295:AN",
+            "@type": "unece:UNCL4295Code",
+            "rdfs:comment": "Subject has been retrenched from work.",
+            "rdfs:label": "Retrenchment",
+            "rdf:value": "AN"
+        },
+        {
+            "@id": "uncl4295:AO",
+            "@type": "unece:UNCL4295Code",
+            "rdfs:comment": "Subject has resigned from work.",
+            "rdfs:label": "Resignation",
+            "rdf:value": "AO"
+        },
+        {
+            "@id": "uncl4295:AP",
+            "@type": "unece:UNCL4295Code",
+            "rdfs:comment": "The member status has changed.",
+            "rdfs:label": "Member status change",
+            "rdf:value": "AP"
+        },
+        {
+            "@id": "uncl4295:AQ",
+            "@type": "unece:UNCL4295Code",
+            "rdfs:comment": "Change is due to an alternate quantity and unit of measurement.",
+            "rdfs:label": "Alternate quantity and unit of measurement",
+            "rdf:value": "AQ"
+        },
+        {
+            "@id": "uncl4295:AR",
+            "@type": "unece:UNCL4295Code",
+            "rdfs:comment": "Item normally part of a suppliers standard assortment but is unavailable for a specific buyer due to legal or commercial reasons.",
+            "rdfs:label": "Article out of assortment for particular company",
+            "rdf:value": "AR"
+        },
+        {
+            "@id": "uncl4295:AS",
+            "@type": "unece:UNCL4295Code",
+            "rdfs:comment": "Article normally part of a standard assortment is unavailable.",
+            "rdfs:label": "Article out of assortment",
+            "rdf:value": "AS"
+        },
+        {
+            "@id": "uncl4295:AT",
+            "@type": "unece:UNCL4295Code",
+            "rdfs:comment": "Code indicating the item or product was not ordered.",
+            "rdfs:label": "Item not ordered",
+            "rdf:value": "AT"
+        },
+        {
+            "@id": "uncl4295:AU",
+            "@type": "unece:UNCL4295Code",
+            "rdfs:comment": "Delivery of an item was stopped due to outstanding deliveries which have not yet been paid.",
+            "rdfs:label": "No delivery due to outstanding payments",
+            "rdf:value": "AU"
+        },
+        {
+            "@id": "uncl4295:AV",
+            "@type": "unece:UNCL4295Code",
+            "rdfs:comment": "Item is out of inventory.",
+            "rdfs:label": "Out of inventory",
+            "rdf:value": "AV"
+        },
+        {
+            "@id": "uncl4295:AW",
+            "@type": "unece:UNCL4295Code",
+            "rdfs:comment": "Code indicating that the reason for the quantity variance is because of adjustments.",
+            "rdfs:label": "Quantity adjustment",
+            "rdf:value": "AW"
+        },
+        {
+            "@id": "uncl4295:AX",
+            "@type": "unece:UNCL4295Code",
+            "rdfs:comment": "Code to indicate that the national pricing authority agreement for a price is final.",
+            "rdfs:label": "National pricing authority agreement is final",
+            "rdf:value": "AX"
+        },
+        {
+            "@id": "uncl4295:AY",
+            "@type": "unece:UNCL4295Code",
+            "rdfs:comment": "Sold in a different sales location.",
+            "rdfs:label": "Sale location different",
+            "rdf:value": "AY"
+        },
+        {
+            "@id": "uncl4295:AZ",
+            "@type": "unece:UNCL4295Code",
+            "rdfs:comment": "Goods have a best before date that is earlier than that of goods previously received.",
+            "rdfs:label": "Best before date out of sequence",
+            "rdf:value": "AZ"
+        },
+        {
+            "@id": "uncl4295:BA",
+            "@type": "unece:UNCL4295Code",
+            "rdfs:comment": "A change resulting from damaged goods.",
+            "rdfs:label": "Damaged goods",
+            "rdf:value": "BA"
+        },
+        {
+            "@id": "uncl4295:BB",
+            "@type": "unece:UNCL4295Code",
+            "rdfs:comment": "Transport means had a technical failure, e.g. transport means could not be unloaded or did not comply with hygienic requirements.",
+            "rdfs:label": "Transport means technical failure",
+            "rdf:value": "BB"
+        },
+        {
+            "@id": "uncl4295:BC",
+            "@type": "unece:UNCL4295Code",
+            "rdfs:comment": "Equipment had a technical failure, e.g. equipment was damaged or wrong.",
+            "rdfs:label": "Equipment technical failure",
+            "rdf:value": "BC"
+        },
+        {
+            "@id": "uncl4295:BD",
+            "@type": "unece:UNCL4295Code",
+            "rdfs:comment": "Change is due to a deviation in the blueprint.",
+            "rdfs:label": "Blueprint deviation",
+            "rdf:value": "BD"
+        },
+        {
+            "@id": "uncl4295:BE",
+            "@type": "unece:UNCL4295Code",
+            "rdfs:comment": "Goods had a technical failure, e.g. instability, overhang, transportation lock or damage.",
+            "rdfs:label": "Goods technical failure",
+            "rdf:value": "BE"
+        },
+        {
+            "@id": "uncl4295:BF",
+            "@type": "unece:UNCL4295Code",
+            "rdfs:comment": "A change resulting from the spoilage of goods.",
+            "rdfs:label": "Spoilage of goods",
+            "rdf:value": "BF"
+        },
+        {
+            "@id": "uncl4295:BG",
+            "@type": "unece:UNCL4295Code",
+            "rdfs:comment": "The change is due to a variation in the grade of the product outside the tolerance level allowed in an agreement.",
+            "rdfs:label": "Grade difference out of tolerance level",
+            "rdf:value": "BG"
+        },
+        {
+            "@id": "uncl4295:BH",
+            "@type": "unece:UNCL4295Code",
+            "rdfs:comment": "The batch number printed on the product received is different to the batch number specified in the despatch advice message.",
+            "rdfs:label": "Batch number difference",
+            "rdf:value": "BH"
+        },
+        {
+            "@id": "uncl4295:BI",
+            "@type": "unece:UNCL4295Code",
+            "rdfs:comment": "The expiry date printed on the product received is different from the expiry date specified in the despatch advice message.",
+            "rdfs:label": "Expiry date difference",
+            "rdf:value": "BI"
+        },
+        {
+            "@id": "uncl4295:BJ",
+            "@type": "unece:UNCL4295Code",
+            "rdfs:comment": "The identification code of the item is unknown.",
+            "rdfs:label": "Item identification code unknown",
+            "rdf:value": "BJ"
+        },
+        {
+            "@id": "uncl4295:BK",
+            "@type": "unece:UNCL4295Code",
+            "rdfs:comment": "Barcode is not readable by a barcode scanning device, e.g. poor print quality.",
+            "rdfs:label": "Barcode not readable",
+            "rdf:value": "BK"
+        },
+        {
+            "@id": "uncl4295:BL",
+            "@type": "unece:UNCL4295Code",
+            "rdfs:comment": "Code indicating the item or product is a substitute of the item or product originally ordered.",
+            "rdfs:label": "Item represents substitution from original order",
+            "rdf:value": "BL"
+        },
+        {
+            "@id": "uncl4295:BM",
+            "@type": "unece:UNCL4295Code",
+            "rdfs:comment": "Code indicating that the minimum durability date (e.g. best before date) and/or maximum durability date (e.g. expiry date) of a product are not acceptable.",
+            "rdfs:label": "Minimum/maximum product durability date unacceptable",
+            "rdf:value": "BM"
+        },
+        {
+            "@id": "uncl4295:BN",
+            "@type": "unece:UNCL4295Code",
+            "rdfs:comment": "The temperature is or has been outside the agreed range.",
+            "rdfs:label": "Temperature outside agreed range",
+            "rdf:value": "BN"
+        },
+        {
+            "@id": "uncl4295:BO",
+            "@type": "unece:UNCL4295Code",
+            "rdfs:comment": "Shipment or goods have been delivered without any advance notification of delivery.",
+            "rdfs:label": "Delivered but not advised",
+            "rdf:value": "BO"
+        },
+        {
+            "@id": "uncl4295:BP",
+            "@type": "unece:UNCL4295Code",
+            "rdfs:comment": "The quantity of goods received is smaller than advised.",
+            "rdfs:label": "Short shipped",
+            "rdf:value": "BP"
+        },
+        {
+            "@id": "uncl4295:BQ",
+            "@type": "unece:UNCL4295Code",
+            "rdfs:comment": "Amount needed to resolve difference between ordered and delivered quantity.",
+            "rdfs:label": "Balancing quantity",
+            "rdf:value": "BQ"
+        },
+        {
+            "@id": "uncl4295:BR",
+            "@type": "unece:UNCL4295Code",
+            "rdfs:comment": "The item has been withdrawn.",
+            "rdfs:label": "Item withdrawn",
+            "rdf:value": "BR"
+        },
+        {
+            "@id": "uncl4295:BS",
+            "@type": "unece:UNCL4295Code",
+            "rdfs:comment": "The logistic unit is identified by another Serial Shipping Container Code (SSCC) than the one announced in the despatch advice.",
+            "rdfs:label": "SSCC difference",
+            "rdf:value": "BS"
+        },
+        {
+            "@id": "uncl4295:BT",
+            "@type": "unece:UNCL4295Code",
+            "rdfs:comment": "The logistic unit is missing its Serial Shipping Container code (SSCC).",
+            "rdfs:label": "SSCC missing",
+            "rdf:value": "BT"
+        },
+        {
+            "@id": "uncl4295:BU",
+            "@type": "unece:UNCL4295Code",
+            "rdfs:comment": "The best before date(s) deviate(s) from those announced in the despatch advice.",
+            "rdfs:label": "Best before date(s) difference",
+            "rdf:value": "BU"
+        },
+        {
+            "@id": "uncl4295:BV",
+            "@type": "unece:UNCL4295Code",
+            "rdfs:comment": "More or less weight was received than announced in the despatch advice.",
+            "rdfs:label": "Weight difference",
+            "rdf:value": "BV"
+        },
+        {
+            "@id": "uncl4295:BW",
+            "@type": "unece:UNCL4295Code",
+            "rdfs:comment": "More or less units were received than announced in the despatch advice.",
+            "rdfs:label": "Quantity difference",
+            "rdf:value": "BW"
+        },
+        {
+            "@id": "uncl4295:BX",
+            "@type": "unece:UNCL4295Code",
+            "rdfs:comment": "Delivered but at a later date than the delivery date under the agreed conditions or stipulated in the preceding message.",
+            "rdfs:label": "Delivered too late",
+            "rdf:value": "BX"
+        },
+        {
+            "@id": "uncl4295:DC",
+            "@type": "unece:UNCL4295Code",
+            "rdfs:comment": "Date has changed.",
+            "rdfs:label": "Date change",
+            "rdf:value": "DC"
+        },
+        {
+            "@id": "uncl4295:EV",
+            "@type": "unece:UNCL4295Code",
+            "rdfs:comment": "The estimated quantity has changed.",
+            "rdfs:label": "Estimated quantity",
+            "rdf:value": "EV"
+        },
+        {
+            "@id": "uncl4295:GU",
+            "@type": "unece:UNCL4295Code",
+            "rdfs:comment": "The gross volume per pack and unit of measure has changed.",
+            "rdfs:label": "Gross volume per pack and unit of measure",
+            "rdf:value": "GU"
+        },
+        {
+            "@id": "uncl4295:GW",
+            "@type": "unece:UNCL4295Code",
+            "rdfs:comment": "The gross weight per pack has changed.",
+            "rdfs:label": "Gross weight per pack",
+            "rdf:value": "GW"
+        },
+        {
+            "@id": "uncl4295:LD",
+            "@type": "unece:UNCL4295Code",
+            "rdfs:comment": "The change is due to a difference in length.",
+            "rdfs:label": "Length difference",
+            "rdf:value": "LD"
+        },
+        {
+            "@id": "uncl4295:MC",
+            "@type": "unece:UNCL4295Code",
+            "rdfs:comment": "The change is due to a difference in pack/size measure.",
+            "rdfs:label": "Pack/size measure difference",
+            "rdf:value": "MC"
+        },
+        {
+            "@id": "uncl4295:PC",
+            "@type": "unece:UNCL4295Code",
+            "rdfs:comment": "The reason for the variation is due to a difference in the type of pack.",
+            "rdfs:label": "Pack type difference",
+            "rdf:value": "PC"
+        },
+        {
+            "@id": "uncl4295:PD",
+            "@type": "unece:UNCL4295Code",
+            "rdfs:comment": "The change is due to a difference in the dimension.",
+            "rdfs:label": "Pack dimension difference",
+            "rdf:value": "PD"
+        },
+        {
+            "@id": "uncl4295:PQ",
+            "@type": "unece:UNCL4295Code",
+            "rdfs:comment": "The pack quantity has changed.",
+            "rdfs:label": "Pack quantity",
+            "rdf:value": "PQ"
+        },
+        {
+            "@id": "uncl4295:PS",
+            "@type": "unece:UNCL4295Code",
+            "rdfs:comment": "The product/services identification has changed.",
+            "rdfs:label": "Product/services ID change",
+            "rdf:value": "PS"
+        },
+        {
+            "@id": "uncl4295:PW",
+            "@type": "unece:UNCL4295Code",
+            "rdfs:comment": "The change is due to a difference in the pack weight.",
+            "rdfs:label": "Pack weight difference",
+            "rdf:value": "PW"
+        },
+        {
+            "@id": "uncl4295:PZ",
+            "@type": "unece:UNCL4295Code",
+            "rdfs:comment": "The reason for the variation is due to a difference in the size of pack.",
+            "rdfs:label": "Pack size difference",
+            "rdf:value": "PZ"
+        },
+        {
+            "@id": "uncl4295:QO",
+            "@type": "unece:UNCL4295Code",
+            "rdfs:comment": "The quantity ordered has changed.",
+            "rdfs:label": "Quantity ordered",
+            "rdf:value": "QO"
+        },
+        {
+            "@id": "uncl4295:QP",
+            "@type": "unece:UNCL4295Code",
+            "rdfs:comment": "The quantity based on price qualifier has changed.",
+            "rdfs:label": "Quantity based on price qualifier",
+            "rdf:value": "QP"
+        },
+        {
+            "@id": "uncl4295:QT",
+            "@type": "unece:UNCL4295Code",
+            "rdfs:comment": "The quantity price break has changed.",
+            "rdfs:label": "Quantity price break",
+            "rdf:value": "QT"
+        },
+        {
+            "@id": "uncl4295:SC",
+            "@type": "unece:UNCL4295Code",
+            "rdfs:comment": "The change is due to a difference in the size.",
+            "rdfs:label": "Size difference",
+            "rdf:value": "SC"
+        },
+        {
+            "@id": "uncl4295:UM",
+            "@type": "unece:UNCL4295Code",
+            "rdfs:comment": "The change is due to a difference in the unit of measure.",
+            "rdfs:label": "Unit of measure difference",
+            "rdf:value": "UM"
+        },
+        {
+            "@id": "uncl4295:UP",
+            "@type": "unece:UNCL4295Code",
+            "rdfs:comment": "The unit price has changed.",
+            "rdfs:label": "Unit price",
+            "rdf:value": "UP"
+        },
+        {
+            "@id": "uncl4295:WD",
+            "@type": "unece:UNCL4295Code",
+            "rdfs:comment": "The change is due to a difference in width.",
+            "rdfs:label": "Width difference",
+            "rdf:value": "WD"
+        },
+        {
+            "@id": "uncl4295:WO",
+            "@type": "unece:UNCL4295Code",
+            "rdfs:comment": "The weight qualifier/gross weight per package has changed.",
+            "rdfs:label": "Weight qualifier/gross weight per package",
+            "rdf:value": "WO"
+        },
+        {
+            "@id": "uncl4295:WP",
+            "@type": "unece:UNCL4295Code",
+            "rdfs:comment": "An inadvertent error in recording a quantity.",
+            "rdfs:label": "Inadvertent error",
+            "rdf:value": "WP"
+        },
+        {
+            "@id": "uncl4295:WQ",
+            "@type": "unece:UNCL4295Code",
+            "rdfs:comment": "A shipped quantity greater than the ordered or invoiced quantity.",
+            "rdfs:label": "Over shipped",
+            "rdf:value": "WQ"
+        },
+        {
+            "@id": "uncl4295:WR",
+            "@type": "unece:UNCL4295Code",
+            "rdfs:comment": "Product is temporarily unavailable.",
+            "rdfs:label": "Temporarily unavailable",
+            "rdf:value": "WR"
+        },
+        {
+            "@id": "uncl4295:WS",
+            "@type": "unece:UNCL4295Code",
+            "rdfs:comment": "Due to government action.",
+            "rdfs:label": "Government action",
+            "rdf:value": "WS"
+        },
+        {
+            "@id": "uncl4295:WT",
+            "@type": "unece:UNCL4295Code",
+            "rdfs:comment": "Product is not included in the promotion activity.",
+            "rdfs:label": "Excluded from the promotion activity",
+            "rdf:value": "WT"
+        },
+        {
+            "@id": "uncl4295:WU",
+            "@type": "unece:UNCL4295Code",
+            "rdfs:comment": "The committed purchase quantity has been exceeded.",
+            "rdfs:label": "Committed purchase quantity exceeded",
+            "rdf:value": "WU"
+        },
+        {
+            "@id": "uncl4295:WV",
+            "@type": "unece:UNCL4295Code",
+            "rdfs:comment": "The committed purchase quantity has not been ordered.",
+            "rdfs:label": "Committed purchase quantity not ordered",
+            "rdf:value": "WV"
+        },
+        {
+            "@id": "uncl4295:ZZZ",
+            "@type": "unece:UNCL4295Code",
+            "rdfs:comment": "A code assigned within a code list to be used on an interim basis and as defined among trading partners until a precise code can be assigned to the code list.",
+            "rdfs:label": "Mutually defined",
+            "rdf:value": "ZZZ"
+        }
+    ]
+}

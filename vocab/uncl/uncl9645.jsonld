@@ -1,0 +1,53 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl9645": "https://dmvc7xzscpizo.cloudfront.net/uncl9645#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl9645:1",
+            "@type": "unece:UNCL9645Code",
+            "rdfs:comment": "First for payment responsibility.",
+            "rdfs:label": "Primary",
+            "rdf:value": "1"
+        },
+        {
+            "@id": "uncl9645:2",
+            "@type": "unece:UNCL9645Code",
+            "rdfs:comment": "Second for payment responsibility.",
+            "rdfs:label": "Secondary",
+            "rdf:value": "2"
+        },
+        {
+            "@id": "uncl9645:3",
+            "@type": "unece:UNCL9645Code",
+            "rdfs:comment": "Third for payment responsibility.",
+            "rdfs:label": "Tertiary",
+            "rdf:value": "3"
+        },
+        {
+            "@id": "uncl9645:4",
+            "@type": "unece:UNCL9645Code",
+            "rdfs:comment": "Payment responsibility is yet to be determined.",
+            "rdfs:label": "Unconfirmed",
+            "rdf:value": "4"
+        },
+        {
+            "@id": "uncl9645:5",
+            "@type": "unece:UNCL9645Code",
+            "rdfs:comment": "No payment responsibility.",
+            "rdfs:label": "None",
+            "rdf:value": "5"
+        },
+        {
+            "@id": "uncl9645:6",
+            "@type": "unece:UNCL9645Code",
+            "rdfs:comment": "Unknown payment responsibility.",
+            "rdfs:label": "Unknown",
+            "rdf:value": "6"
+        }
+    ]
+}

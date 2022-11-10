@@ -1,0 +1,67 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl4457": "https://dmvc7xzscpizo.cloudfront.net/uncl4457#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl4457:1",
+            "@type": "unece:UNCL4457Code",
+            "rdfs:comment": "Notice to supplier to fill order exactly as specified.",
+            "rdfs:label": "No substitution allowed",
+            "rdf:value": "1"
+        },
+        {
+            "@id": "uncl4457:2",
+            "@type": "unece:UNCL4457Code",
+            "rdfs:comment": "Indicates that substitute bindings are acceptable if the edition of a book originally ordered is unavailable.",
+            "rdfs:label": "Supply any binding if edition ordered not available",
+            "rdf:value": "2"
+        },
+        {
+            "@id": "uncl4457:3",
+            "@type": "unece:UNCL4457Code",
+            "rdfs:comment": "Indicates that a paper back edition of a book is acceptable if the edition ordered is unavailable.",
+            "rdfs:label": "Supply paper binding if edition ordered not available",
+            "rdf:value": "3"
+        },
+        {
+            "@id": "uncl4457:4",
+            "@type": "unece:UNCL4457Code",
+            "rdfs:comment": "Indicates that the cloth bound edition of a book is acceptable if the edition ordered is unavailable.",
+            "rdfs:label": "Supply cloth binding if edition ordered not available",
+            "rdf:value": "4"
+        },
+        {
+            "@id": "uncl4457:5",
+            "@type": "unece:UNCL4457Code",
+            "rdfs:comment": "Indicates that a library binding of a book is acceptable if the edition ordered is unavailable.",
+            "rdfs:label": "Supply library binding if edition ordered not available",
+            "rdf:value": "5"
+        },
+        {
+            "@id": "uncl4457:6",
+            "@type": "unece:UNCL4457Code",
+            "rdfs:comment": "Indicates that an item of the same value and performance may be substituted for the item specified.",
+            "rdfs:label": "Equivalent item substitution",
+            "rdf:value": "6"
+        },
+        {
+            "@id": "uncl4457:7",
+            "@type": "unece:UNCL4457Code",
+            "rdfs:comment": "Indicates that an item of equal or greater value and performance may be substituted for the item specified.",
+            "rdfs:label": "Alternate item substitution allowed",
+            "rdf:value": "7"
+        },
+        {
+            "@id": "uncl4457:ZZZ",
+            "@type": "unece:UNCL4457Code",
+            "rdfs:comment": "A code reserved for special trading partner requirements when pre-defined codes do not exist.",
+            "rdfs:label": "Mutually defined",
+            "rdf:value": "ZZZ"
+        }
+    ]
+}

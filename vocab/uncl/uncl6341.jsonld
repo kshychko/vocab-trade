@@ -1,0 +1,179 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl6341": "https://dmvc7xzscpizo.cloudfront.net/uncl6341#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl6341:AAA",
+            "@type": "unece:UNCL6341Code",
+            "rdfs:comment": "The currency exchange rate is set by the Paris exchange.",
+            "rdfs:label": "Paris exchange",
+            "rdf:value": "AAA"
+        },
+        {
+            "@id": "uncl6341:AAB",
+            "@type": "unece:UNCL6341Code",
+            "rdfs:comment": "The currency exchange rate is set by the Central Bank of Colombia.",
+            "rdfs:label": "Colombian official exchange (Central Bank of Colombia)",
+            "rdf:value": "AAB"
+        },
+        {
+            "@id": "uncl6341:AMS",
+            "@type": "unece:UNCL6341Code",
+            "rdfs:comment": "The currency exchange rate is set by the Amsterdam exchange.",
+            "rdfs:label": "Amsterdam exchange",
+            "rdf:value": "AMS"
+        },
+        {
+            "@id": "uncl6341:ARG",
+            "@type": "unece:UNCL6341Code",
+            "rdfs:comment": "Argentina exchange.",
+            "rdfs:label": "Bolsa de Comercio de Buenos Aires",
+            "rdf:value": "ARG"
+        },
+        {
+            "@id": "uncl6341:AST",
+            "@type": "unece:UNCL6341Code",
+            "rdfs:comment": "The currency exchange rate is set by the Australian exchange.",
+            "rdfs:label": "Australian exchange",
+            "rdf:value": "AST"
+        },
+        {
+            "@id": "uncl6341:AUS",
+            "@type": "unece:UNCL6341Code",
+            "rdfs:comment": "Wiener Boersenkammer.",
+            "rdfs:label": "Wien exchange",
+            "rdf:value": "AUS"
+        },
+        {
+            "@id": "uncl6341:BEL",
+            "@type": "unece:UNCL6341Code",
+            "rdfs:comment": "Commission de la Bourse Bruxelles.",
+            "rdfs:label": "Brussels exchange",
+            "rdf:value": "BEL"
+        },
+        {
+            "@id": "uncl6341:CAN",
+            "@type": "unece:UNCL6341Code",
+            "rdfs:comment": "The currency exchange rate is set by the Toronto exchange.",
+            "rdfs:label": "Toronto exchange",
+            "rdf:value": "CAN"
+        },
+        {
+            "@id": "uncl6341:CAR",
+            "@type": "unece:UNCL6341Code",
+            "rdfs:comment": "The currency exchange rate is set by a written or spoken agreement between two or more parties.",
+            "rdfs:label": "Contractual agreement exchange rate",
+            "rdf:value": "CAR"
+        },
+        {
+            "@id": "uncl6341:CIE",
+            "@type": "unece:UNCL6341Code",
+            "rdfs:comment": "Currency rates published by the US Customs Information Exchange, 6 WTC, New York NY 10048-0945, USA.",
+            "rdfs:label": "US Customs Information Exchange",
+            "rdf:value": "CIE"
+        },
+        {
+            "@id": "uncl6341:DEN",
+            "@type": "unece:UNCL6341Code",
+            "rdfs:comment": "Koebenhavns Fondsboers.",
+            "rdfs:label": "Copenhagen exchange",
+            "rdf:value": "DEN"
+        },
+        {
+            "@id": "uncl6341:ECR",
+            "@type": "unece:UNCL6341Code",
+            "rdfs:comment": "The currency exchange rate is set for a length of time by the European Community.",
+            "rdfs:label": "European Community period exchange rate",
+            "rdf:value": "ECR"
+        },
+        {
+            "@id": "uncl6341:FIN",
+            "@type": "unece:UNCL6341Code",
+            "rdfs:comment": "The currency exchange rate is set by the Helsinki exchange.",
+            "rdfs:label": "Helsinki exchange",
+            "rdf:value": "FIN"
+        },
+        {
+            "@id": "uncl6341:FRA",
+            "@type": "unece:UNCL6341Code",
+            "rdfs:comment": "The currency exchange rate is set by the Frankfurt exchange.",
+            "rdfs:label": "Frankfurt exchange",
+            "rdf:value": "FRA"
+        },
+        {
+            "@id": "uncl6341:IMF",
+            "@type": "unece:UNCL6341Code",
+            "rdfs:comment": "The currency exchange rate is set by the International Monetary Fund.",
+            "rdfs:label": "International Monetary Fund",
+            "rdf:value": "IMF"
+        },
+        {
+            "@id": "uncl6341:LNF",
+            "@type": "unece:UNCL6341Code",
+            "rdfs:comment": "The currency exchange rate is set by the London exchange at the first closing.",
+            "rdfs:label": "London exchange, first closing",
+            "rdf:value": "LNF"
+        },
+        {
+            "@id": "uncl6341:LNS",
+            "@type": "unece:UNCL6341Code",
+            "rdfs:comment": "The currency exchange rate is set by the London exchange at the second closing.",
+            "rdfs:label": "London exchange, second closing",
+            "rdf:value": "LNS"
+        },
+        {
+            "@id": "uncl6341:MIL",
+            "@type": "unece:UNCL6341Code",
+            "rdfs:comment": "The currency exchange rate is set by the Milan exchange.",
+            "rdfs:label": "Milan exchange",
+            "rdf:value": "MIL"
+        },
+        {
+            "@id": "uncl6341:NOR",
+            "@type": "unece:UNCL6341Code",
+            "rdfs:comment": "The currency exchange rate is set by the Oslo exchange.",
+            "rdfs:label": "Oslo exchange",
+            "rdf:value": "NOR"
+        },
+        {
+            "@id": "uncl6341:NYC",
+            "@type": "unece:UNCL6341Code",
+            "rdfs:comment": "The currency exchange rate is set by the New York exchange.",
+            "rdfs:label": "New York exchange",
+            "rdf:value": "NYC"
+        },
+        {
+            "@id": "uncl6341:PHI",
+            "@type": "unece:UNCL6341Code",
+            "rdfs:comment": "The currency exchange rate is set by the Philadelphia exchange.",
+            "rdfs:label": "Philadelphia exchange",
+            "rdf:value": "PHI"
+        },
+        {
+            "@id": "uncl6341:SRE",
+            "@type": "unece:UNCL6341Code",
+            "rdfs:comment": "Specific rate of exchange applied to currency exchanges between rail companies and partners.",
+            "rdfs:label": "Specific railway exchange currency",
+            "rdf:value": "SRE"
+        },
+        {
+            "@id": "uncl6341:SWE",
+            "@type": "unece:UNCL6341Code",
+            "rdfs:comment": "The currency exchange rate is set by the Stockholm exchange.",
+            "rdfs:label": "Stockholm exchange",
+            "rdf:value": "SWE"
+        },
+        {
+            "@id": "uncl6341:ZUR",
+            "@type": "unece:UNCL6341Code",
+            "rdfs:comment": "The currency exchange rate is set by the Zurich exchange.",
+            "rdfs:label": "Zurich exchange",
+            "rdf:value": "ZUR"
+        }
+    ]
+}

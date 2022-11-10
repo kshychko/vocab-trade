@@ -1,0 +1,32 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl5013": "https://dmvc7xzscpizo.cloudfront.net/uncl5013#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl5013:1",
+            "@type": "unece:UNCL5013Code",
+            "rdfs:comment": "Indicates that the index relates to the whole project.",
+            "rdfs:label": "Project",
+            "rdf:value": "1"
+        },
+        {
+            "@id": "uncl5013:2",
+            "@type": "unece:UNCL5013Code",
+            "rdfs:comment": "Indicates that the index relates to a group of work items.",
+            "rdfs:label": "Group",
+            "rdf:value": "2"
+        },
+        {
+            "@id": "uncl5013:3",
+            "@type": "unece:UNCL5013Code",
+            "rdfs:comment": "Indicates that the index is an alternative.",
+            "rdfs:label": "Alternative",
+            "rdf:value": "3"
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl9023": "https://dmvc7xzscpizo.cloudfront.net/uncl9023#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl9023:1",
+            "@type": "unece:UNCL9023Code",
+            "rdfs:comment": "To specify an alias function.",
+            "rdfs:label": "Alias",
+            "rdf:value": "1"
+        },
+        {
+            "@id": "uncl9023:2",
+            "@type": "unece:UNCL9023Code",
+            "rdfs:comment": "To specify a constraint function.",
+            "rdfs:label": "Constraint",
+            "rdf:value": "2"
+        },
+        {
+            "@id": "uncl9023:3",
+            "@type": "unece:UNCL9023Code",
+            "rdfs:comment": "To specify an implementation function.",
+            "rdfs:label": "Implementation",
+            "rdf:value": "3"
+        }
+    ]
+}

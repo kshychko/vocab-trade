@@ -1,0 +1,39 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl9507": "https://dmvc7xzscpizo.cloudfront.net/uncl9507#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl9507:1",
+            "@type": "unece:UNCL9507Code",
+            "rdfs:comment": "An individual arithmetic operation within a formula.",
+            "rdfs:label": "Arithmetic operation",
+            "rdf:value": "1"
+        },
+        {
+            "@id": "uncl9507:2",
+            "@type": "unece:UNCL9507Code",
+            "rdfs:comment": "An open bracket indicates the beginning of a specific series of arithmetic operations.",
+            "rdfs:label": "Open bracket",
+            "rdf:value": "2"
+        },
+        {
+            "@id": "uncl9507:3",
+            "@type": "unece:UNCL9507Code",
+            "rdfs:comment": "A close bracket indicates the end of a specific series of arithmetic operations.",
+            "rdfs:label": "Close bracket",
+            "rdf:value": "3"
+        },
+        {
+            "@id": "uncl9507:4",
+            "@type": "unece:UNCL9507Code",
+            "rdfs:comment": "A value which is disjoint.",
+            "rdfs:label": "Disjoint value",
+            "rdf:value": "4"
+        }
+    ]
+}

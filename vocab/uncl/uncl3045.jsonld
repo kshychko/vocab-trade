@@ -1,0 +1,32 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl3045": "https://dmvc7xzscpizo.cloudfront.net/uncl3045#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl3045:1",
+            "@type": "unece:UNCL3045Code",
+            "rdfs:comment": "Name component 1: Family name. Name component 2: Given name or initials. Name component 3: Given name or initials. Name component 4: Maiden name. Name component 5: Title Group of name components transmitted in sequence with name component 1 transmitted first. The maiden name is the family name given at birth of a female. Other names are self-explanatory.",
+            "rdfs:label": "Name components in sequence as defined in description below",
+            "rdf:value": "1"
+        },
+        {
+            "@id": "uncl3045:2",
+            "@type": "unece:UNCL3045Code",
+            "rdfs:comment": "Name component 1: paternal name; name component 2: maternal name; name component 3: given name or initial(s); name component 4: middle name or initial(s); name component 5: name suffix.",
+            "rdfs:label": "Name component sequence 2, sequence as defined in description",
+            "rdf:value": "2"
+        },
+        {
+            "@id": "uncl3045:3",
+            "@type": "unece:UNCL3045Code",
+            "rdfs:comment": "Name component 1: Qualification Name component 2: First part of the name Name component 3: Second part of the name.",
+            "rdfs:label": "Name components in the sequence as defined in definition",
+            "rdf:value": "3"
+        }
+    ]
+}

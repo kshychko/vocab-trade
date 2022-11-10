@@ -1,0 +1,116 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl6415": "https://dmvc7xzscpizo.cloudfront.net/uncl6415#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl6415:1",
+            "@type": "unece:UNCL6415Code",
+            "rdfs:comment": "Medical history.",
+            "rdfs:label": "Anamnesis",
+            "rdf:value": "1"
+        },
+        {
+            "@id": "uncl6415:2",
+            "@type": "unece:UNCL6415Code",
+            "rdfs:comment": "Medical diagnosis.",
+            "rdfs:label": "Diagnosis",
+            "rdf:value": "2"
+        },
+        {
+            "@id": "uncl6415:3",
+            "@type": "unece:UNCL6415Code",
+            "rdfs:comment": "Information regarding medical treatment.",
+            "rdfs:label": "Medical treatment",
+            "rdf:value": "3"
+        },
+        {
+            "@id": "uncl6415:4",
+            "@type": "unece:UNCL6415Code",
+            "rdfs:comment": "Change in the physical or mental condition of a person regarded as an evidence of a disease.",
+            "rdfs:label": "Symptom",
+            "rdf:value": "4"
+        },
+        {
+            "@id": "uncl6415:5",
+            "@type": "unece:UNCL6415Code",
+            "rdfs:comment": "Information regarding a medical examination.",
+            "rdfs:label": "Medical examination",
+            "rdf:value": "5"
+        },
+        {
+            "@id": "uncl6415:6",
+            "@type": "unece:UNCL6415Code",
+            "rdfs:comment": "Medical diagnosis at the time of discharge.",
+            "rdfs:label": "Discharge diagnosis",
+            "rdf:value": "6"
+        },
+        {
+            "@id": "uncl6415:7",
+            "@type": "unece:UNCL6415Code",
+            "rdfs:comment": "Grouping of related diagnosis.",
+            "rdfs:label": "Diagnosis related group",
+            "rdf:value": "7"
+        },
+        {
+            "@id": "uncl6415:8",
+            "@type": "unece:UNCL6415Code",
+            "rdfs:comment": "Information regarding a medical intervention.",
+            "rdfs:label": "Intervention",
+            "rdf:value": "8"
+        },
+        {
+            "@id": "uncl6415:9",
+            "@type": "unece:UNCL6415Code",
+            "rdfs:comment": "Information regarding the probable course and/or termination of a disease.",
+            "rdfs:label": "Prognosis",
+            "rdf:value": "9"
+        },
+        {
+            "@id": "uncl6415:10",
+            "@type": "unece:UNCL6415Code",
+            "rdfs:comment": "Information regarding the result of a medical examination.",
+            "rdfs:label": "Examination result",
+            "rdf:value": "10"
+        },
+        {
+            "@id": "uncl6415:11",
+            "@type": "unece:UNCL6415Code",
+            "rdfs:comment": "Information regarding the result of a laboratory analysis.",
+            "rdfs:label": "Laboratory analysis result",
+            "rdf:value": "11"
+        },
+        {
+            "@id": "uncl6415:12",
+            "@type": "unece:UNCL6415Code",
+            "rdfs:comment": "Information regarding a treatment with medicinal products.",
+            "rdfs:label": "Medicinal treatment",
+            "rdf:value": "12"
+        },
+        {
+            "@id": "uncl6415:13",
+            "@type": "unece:UNCL6415Code",
+            "rdfs:comment": "Information regarding the medical instruction given to a patient.",
+            "rdfs:label": "Patient medical instruction",
+            "rdf:value": "13"
+        },
+        {
+            "@id": "uncl6415:14",
+            "@type": "unece:UNCL6415Code",
+            "rdfs:comment": "Information regarding the medical instruction given to a physician.",
+            "rdfs:label": "Medical instruction to physician",
+            "rdf:value": "14"
+        },
+        {
+            "@id": "uncl6415:15",
+            "@type": "unece:UNCL6415Code",
+            "rdfs:comment": "Information regarding medical observation.",
+            "rdfs:label": "Medical observation",
+            "rdf:value": "15"
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl4503": "https://dmvc7xzscpizo.cloudfront.net/uncl4503#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl4503:1",
+            "@type": "unece:UNCL4503Code",
+            "rdfs:comment": "An inventory balance resulting from the book-keeping.",
+            "rdfs:label": "Book-keeping inventory balance",
+            "rdf:value": "1"
+        },
+        {
+            "@id": "uncl4503:2",
+            "@type": "unece:UNCL4503Code",
+            "rdfs:comment": "An inventory balance in accordance with the formal inventory procedure.",
+            "rdfs:label": "Formal inventory balance",
+            "rdf:value": "2"
+        },
+        {
+            "@id": "uncl4503:3",
+            "@type": "unece:UNCL4503Code",
+            "rdfs:comment": "An inventory balance resulting from an interim counting.",
+            "rdfs:label": "Interim inventory balance",
+            "rdf:value": "3"
+        }
+    ]
+}

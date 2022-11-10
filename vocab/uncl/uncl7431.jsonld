@@ -1,0 +1,95 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl7431": "https://dmvc7xzscpizo.cloudfront.net/uncl7431#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl7431:1",
+            "@type": "unece:UNCL7431Code",
+            "rdfs:comment": "The subject of the agreement is the type of participation.",
+            "rdfs:label": "Type of participation",
+            "rdf:value": "1"
+        },
+        {
+            "@id": "uncl7431:2",
+            "@type": "unece:UNCL7431Code",
+            "rdfs:comment": "Agreement on protection against risk of credit losses on sales to buyers.",
+            "rdfs:label": "Credit cover agreement",
+            "rdf:value": "2"
+        },
+        {
+            "@id": "uncl7431:3",
+            "@type": "unece:UNCL7431Code",
+            "rdfs:comment": "Identifies the treaty as assigned by the cedent.",
+            "rdfs:label": "Cedent's treaty identifier",
+            "rdf:value": "3"
+        },
+        {
+            "@id": "uncl7431:4",
+            "@type": "unece:UNCL7431Code",
+            "rdfs:comment": "Identifies the treaty as assigned by the reinsurer.",
+            "rdfs:label": "Reinsurer's treaty identifier",
+            "rdf:value": "4"
+        },
+        {
+            "@id": "uncl7431:5",
+            "@type": "unece:UNCL7431Code",
+            "rdfs:comment": "The type of agreement needed to specify construction works tendered out as public or restricted.",
+            "rdfs:label": "Type of contract letting",
+            "rdf:value": "5"
+        },
+        {
+            "@id": "uncl7431:6",
+            "@type": "unece:UNCL7431Code",
+            "rdfs:comment": "The type of contract breakdown.",
+            "rdfs:label": "Contract breakdown type",
+            "rdf:value": "6"
+        },
+        {
+            "@id": "uncl7431:7",
+            "@type": "unece:UNCL7431Code",
+            "rdfs:comment": "The way the contractor(s) are structured to perform a contract for the purpose of responsibility and liability.",
+            "rdfs:label": "Contractor responsibility and liability structure",
+            "rdf:value": "7"
+        },
+        {
+            "@id": "uncl7431:8",
+            "@type": "unece:UNCL7431Code",
+            "rdfs:comment": "Agreement on health insurance coverage.",
+            "rdfs:label": "Health insurance cover agreement",
+            "rdf:value": "8"
+        },
+        {
+            "@id": "uncl7431:9",
+            "@type": "unece:UNCL7431Code",
+            "rdfs:comment": "The type of agreement is a contract.",
+            "rdfs:label": "Contract",
+            "rdf:value": "9"
+        },
+        {
+            "@id": "uncl7431:10",
+            "@type": "unece:UNCL7431Code",
+            "rdfs:comment": "Agreement on social security cover.",
+            "rdfs:label": "Social security cover agreement",
+            "rdf:value": "10"
+        },
+        {
+            "@id": "uncl7431:11",
+            "@type": "unece:UNCL7431Code",
+            "rdfs:comment": "Contract for connection to a grid.",
+            "rdfs:label": "Grid connection contract",
+            "rdf:value": "11"
+        },
+        {
+            "@id": "uncl7431:12",
+            "@type": "unece:UNCL7431Code",
+            "rdfs:comment": "Contract for supply of power.",
+            "rdfs:label": "Power supply contract",
+            "rdf:value": "12"
+        }
+    ]
+}

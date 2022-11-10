@@ -1,0 +1,25 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl1073": "https://dmvc7xzscpizo.cloudfront.net/uncl1073#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl1073:1",
+            "@type": "unece:UNCL1073Code",
+            "rdfs:comment": "The document line is included in the document/transaction.",
+            "rdfs:label": "Included in document/transaction",
+            "rdf:value": "1"
+        },
+        {
+            "@id": "uncl1073:2",
+            "@type": "unece:UNCL1073Code",
+            "rdfs:comment": "The document line is excluded from the document/transaction.",
+            "rdfs:label": "Excluded from document/transaction",
+            "rdf:value": "2"
+        }
+    ]
+}

@@ -1,0 +1,4379 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl3035": "https://dmvc7xzscpizo.cloudfront.net/uncl3035#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl3035:AA",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party to be billed in accordance with AAR Accounting rule 11.",
+            "rdfs:label": "Party to be billed (AAR Accounting rule 11)",
+            "rdf:value": "AA"
+        },
+        {
+            "@id": "uncl3035:AB",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Third party who arranged the purchase of merchandise on behalf of the actual buyer.",
+            "rdfs:label": "Buyer's agent/representative",
+            "rdf:value": "AB"
+        },
+        {
+            "@id": "uncl3035:AE",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Any natural or legal person who makes a declaration to an official body on behalf of another natural or legal person, where legally permitted (CCC).",
+            "rdfs:label": "Declarant's agent/representative",
+            "rdf:value": "AE"
+        },
+        {
+            "@id": "uncl3035:AF",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Natural or legal person responsible for the satisfactory performance of a Customs transit operation. Source: CCC.",
+            "rdfs:label": "Transit principal",
+            "rdf:value": "AF"
+        },
+        {
+            "@id": "uncl3035:AG",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "(3196) Party authorized to act on behalf of another party. Synonym: Representative.",
+            "rdfs:label": "Agent",
+            "rdf:value": "AG"
+        },
+        {
+            "@id": "uncl3035:AH",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Agent acting on behalf of the transit principal (CCC).",
+            "rdfs:label": "Transit principal's agent/representative",
+            "rdf:value": "AH"
+        },
+        {
+            "@id": "uncl3035:AI",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Person who has been chosen for a job.",
+            "rdfs:label": "Successful job applicant",
+            "rdf:value": "AI"
+        },
+        {
+            "@id": "uncl3035:AJ",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The party which has issued all mutually agreed codes used in the message.",
+            "rdfs:label": "Party issuing mutually agreed codes",
+            "rdf:value": "AJ"
+        },
+        {
+            "@id": "uncl3035:AK",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party to whom acknowledgement should be sent.",
+            "rdfs:label": "Acknowledgement recipient",
+            "rdf:value": "AK"
+        },
+        {
+            "@id": "uncl3035:AL",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "(3340) Party accepting liability for goods held or moving (e.g. transit) under a Customs authorization and - when applicable - a guarantee.",
+            "rdfs:label": "Principal responsible party",
+            "rdf:value": "AL"
+        },
+        {
+            "@id": "uncl3035:AM",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Employee of a company or firm authorized to act on behalf of that company or firm e.g. to make a Customs declaration.",
+            "rdfs:label": "Authorized official",
+            "rdf:value": "AM"
+        },
+        {
+            "@id": "uncl3035:AN",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Person or company which is authorised by the relevant Customs authority to import goods without payment all taxes or specific taxes at the point of entry into the country.",
+            "rdfs:label": "Approved importer",
+            "rdf:value": "AN"
+        },
+        {
+            "@id": "uncl3035:AO",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party account is assigned to.",
+            "rdfs:label": "Account of",
+            "rdf:value": "AO"
+        },
+        {
+            "@id": "uncl3035:AP",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "(3336) Party accepting goods, products, services, etc.",
+            "rdfs:label": "Accepting party",
+            "rdf:value": "AP"
+        },
+        {
+            "@id": "uncl3035:AQ",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Person or company approved by the relevant authority in the country to pack and export specific goods under Customs supervision.",
+            "rdfs:label": "Approved consignor",
+            "rdf:value": "AQ"
+        },
+        {
+            "@id": "uncl3035:AR",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Exporter authorized/approved by Customs for special Customs procedures e.g. simplified procedure.",
+            "rdfs:label": "Authorized exporter",
+            "rdf:value": "AR"
+        },
+        {
+            "@id": "uncl3035:AS",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identifies the financial institution servicing the account(s).",
+            "rdfs:label": "Account servicing financial institution",
+            "rdf:value": "AS"
+        },
+        {
+            "@id": "uncl3035:AT",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Importer authorized/approved by Customs for special Customs procedures e.g. simplified procedure.",
+            "rdfs:label": "Authorized importer",
+            "rdf:value": "AT"
+        },
+        {
+            "@id": "uncl3035:AU",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Trader authorized/approved by Customs for special transit procedures e.g. simplified procedure.",
+            "rdfs:label": "Authorized trader (transit)",
+            "rdf:value": "AU"
+        },
+        {
+            "@id": "uncl3035:AV",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party that has delegated the authority to take a certain action on behalf of a company or agency.",
+            "rdfs:label": "Authorizing official",
+            "rdf:value": "AV"
+        },
+        {
+            "@id": "uncl3035:AW",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "(3234) Financial institution which is requested to issue the documentary credit.",
+            "rdfs:label": "Applicant's bank",
+            "rdf:value": "AW"
+        },
+        {
+            "@id": "uncl3035:AX",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party which certifies that a document is authentic.",
+            "rdfs:label": "Authenticating party",
+            "rdf:value": "AX"
+        },
+        {
+            "@id": "uncl3035:AY",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Animal being investigated.",
+            "rdfs:label": "Animal being investigated",
+            "rdf:value": "AY"
+        },
+        {
+            "@id": "uncl3035:AZ",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "[3320] Financial institution which issues the documentary credit, if the applicant's bank is not acting as the issuing bank.",
+            "rdfs:label": "Issuing bank",
+            "rdf:value": "AZ"
+        },
+        {
+            "@id": "uncl3035:B1",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identifies an additional bank which must be informed of certain aspects of the message.",
+            "rdfs:label": "Contact bank 1",
+            "rdf:value": "B1"
+        },
+        {
+            "@id": "uncl3035:B2",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identifies an additional bank which must be informed of certain aspects of the message.",
+            "rdfs:label": "Contact bank 2",
+            "rdf:value": "B2"
+        },
+        {
+            "@id": "uncl3035:BA",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party acting as a booking office for transport and forwarding services.",
+            "rdfs:label": "Booking agent",
+            "rdf:value": "BA"
+        },
+        {
+            "@id": "uncl3035:BB",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "[3421]To identify a bank employed by the buyer to make a payment.",
+            "rdfs:label": "Buyer bank identification",
+            "rdf:value": "BB"
+        },
+        {
+            "@id": "uncl3035:BC",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Financial institution to whom a negotiable documentary credit is directed.",
+            "rdfs:label": "Negotiating bank",
+            "rdf:value": "BC"
+        },
+        {
+            "@id": "uncl3035:BD",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "[3350] A financial institution which reimburses documentary credit.",
+            "rdfs:label": "Documentary credit reimbursing bank",
+            "rdf:value": "BD"
+        },
+        {
+            "@id": "uncl3035:BE",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "(3260) The ultimate recipient of the funds. Normally the account owner who is reimbursed by the payer.",
+            "rdfs:label": "Beneficiary",
+            "rdf:value": "BE"
+        },
+        {
+            "@id": "uncl3035:BF",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "(3422) Identifies the account servicer for the beneficiary or the payee.",
+            "rdfs:label": "Beneficiary's bank",
+            "rdf:value": "BF"
+        },
+        {
+            "@id": "uncl3035:BG",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A party that keeps a person in service for payment.",
+            "rdfs:label": "Employer",
+            "rdf:value": "BG"
+        },
+        {
+            "@id": "uncl3035:BH",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Previous employer of a person(s).",
+            "rdfs:label": "Previous employer",
+            "rdf:value": "BH"
+        },
+        {
+            "@id": "uncl3035:BI",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Financial institution designated by buyer to make payment.",
+            "rdfs:label": "Buyer's financial institution",
+            "rdf:value": "BI"
+        },
+        {
+            "@id": "uncl3035:BJ",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party to which the goods or container(s) is (are) to be released.",
+            "rdfs:label": "Release to party",
+            "rdf:value": "BJ"
+        },
+        {
+            "@id": "uncl3035:BK",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party acting as financial institution.",
+            "rdfs:label": "Financial institution",
+            "rdf:value": "BK"
+        },
+        {
+            "@id": "uncl3035:BL",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party to receive B/L.",
+            "rdfs:label": "Bill of lading recipient",
+            "rdf:value": "BL"
+        },
+        {
+            "@id": "uncl3035:BM",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "[3136] Party which is the object of an insurance contract.",
+            "rdfs:label": "Insured",
+            "rdf:value": "BM"
+        },
+        {
+            "@id": "uncl3035:BN",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party which benefits from insurance coverage.",
+            "rdfs:label": "Insurance beneficiary",
+            "rdf:value": "BN"
+        },
+        {
+            "@id": "uncl3035:BO",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party acting in the name of the seller as broker or as sales office.",
+            "rdfs:label": "Broker or sales office",
+            "rdf:value": "BO"
+        },
+        {
+            "@id": "uncl3035:BP",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party at the building site responsible for the purchasing of goods and services for that particular site.",
+            "rdfs:label": "Building site purchaser",
+            "rdf:value": "BP"
+        },
+        {
+            "@id": "uncl3035:BQ",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identifies the bank on which the cheque should be drawn, as instructed by the ordering customer.",
+            "rdfs:label": "Cheque drawn bank",
+            "rdf:value": "BQ"
+        },
+        {
+            "@id": "uncl3035:BS",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party receiving goods and relevant invoice.",
+            "rdfs:label": "Bill and ship to",
+            "rdf:value": "BS"
+        },
+        {
+            "@id": "uncl3035:BT",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party receiving invoice excluding freight costs.",
+            "rdfs:label": "Party to be billed for other than freight (bill to)",
+            "rdf:value": "BT"
+        },
+        {
+            "@id": "uncl3035:BU",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party carrying out service bureau processing work, (e.g. a payroll bureau).",
+            "rdfs:label": "Service bureau",
+            "rdf:value": "BU"
+        },
+        {
+            "@id": "uncl3035:BV",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Member of a group (e.g. of a group of persons or a service scheme).",
+            "rdfs:label": "Member",
+            "rdf:value": "BV"
+        },
+        {
+            "@id": "uncl3035:BW",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A person who acquires something temporarily with the promise or intention of returning.",
+            "rdfs:label": "Borrower",
+            "rdf:value": "BW"
+        },
+        {
+            "@id": "uncl3035:BX",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party at the building site responsible for engineering matters for that particular site.",
+            "rdfs:label": "Building site engineer",
+            "rdf:value": "BX"
+        },
+        {
+            "@id": "uncl3035:BY",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "[3002] Party to which merchandise or services are sold.",
+            "rdfs:label": "Buyer",
+            "rdf:value": "BY"
+        },
+        {
+            "@id": "uncl3035:BZ",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party at the building site responsible for forwarding the received goods on that particular site.",
+            "rdfs:label": "Building site forwarder",
+            "rdf:value": "BZ"
+        },
+        {
+            "@id": "uncl3035:C1",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A person taking responsibility on behalf of party no. 1.",
+            "rdfs:label": "In care of party no. 1",
+            "rdf:value": "C1"
+        },
+        {
+            "@id": "uncl3035:C2",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A person taking responsibility on behalf of party no. 2.",
+            "rdfs:label": "In care of party no. 2",
+            "rdf:value": "C2"
+        },
+        {
+            "@id": "uncl3035:CA",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "[3126] Party undertaking or arranging transport of goods between named points.",
+            "rdfs:label": "Carrier",
+            "rdf:value": "CA"
+        },
+        {
+            "@id": "uncl3035:CB",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Agent or representative or a professional Customs clearing agent who deals directly with Customs on behalf of the importer or exporter (CCC).",
+            "rdfs:label": "Customs broker",
+            "rdf:value": "CB"
+        },
+        {
+            "@id": "uncl3035:CC",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party who claims goods or insurance.",
+            "rdfs:label": "Claimant",
+            "rdf:value": "CC"
+        },
+        {
+            "@id": "uncl3035:CD",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Bank of the agent.",
+            "rdfs:label": "Agent's bank",
+            "rdf:value": "CD"
+        },
+        {
+            "@id": "uncl3035:CE",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Company which cedes something to someone.",
+            "rdfs:label": "Ceding company",
+            "rdf:value": "CE"
+        },
+        {
+            "@id": "uncl3035:CF",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party to whom the possession of specified property (e.g. container) has been conveyed for a period of time in return for rental payments.",
+            "rdfs:label": "Container operator/lessee",
+            "rdf:value": "CF"
+        },
+        {
+            "@id": "uncl3035:CG",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "[3052] Party authorized to act for or on behalf of carrier.",
+            "rdfs:label": "Carrier's agent",
+            "rdf:value": "CG"
+        },
+        {
+            "@id": "uncl3035:CH",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Owner or operator of a transportation conveyance to which goods in a given transaction will be transferred.",
+            "rdfs:label": "Connecting carrier",
+            "rdf:value": "CH"
+        },
+        {
+            "@id": "uncl3035:CI",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party who provides extra treatment to goods on commission base.",
+            "rdfs:label": "Commission processor",
+            "rdf:value": "CI"
+        },
+        {
+            "@id": "uncl3035:CJ",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Previous member of a group of persons or a service scheme.",
+            "rdfs:label": "Previous member",
+            "rdf:value": "CJ"
+        },
+        {
+            "@id": "uncl3035:CK",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party from whose premises empty equipment will be or has been despatched.",
+            "rdfs:label": "Empty equipment despatch party",
+            "rdf:value": "CK"
+        },
+        {
+            "@id": "uncl3035:CL",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party from whose premises container will be or has been despatched.",
+            "rdfs:label": "Container location party",
+            "rdf:value": "CL"
+        },
+        {
+            "@id": "uncl3035:CM",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identification of customs authority relevant to the transaction or shipment.",
+            "rdfs:label": "Customs",
+            "rdf:value": "CM"
+        },
+        {
+            "@id": "uncl3035:CN",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "[3132] Party to which goods are consigned.",
+            "rdfs:label": "Consignee",
+            "rdf:value": "CN"
+        },
+        {
+            "@id": "uncl3035:CNX",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identification of a financial institution servicing the top account of a cash pool.",
+            "rdfs:label": "Cash pool top account servicing financial institution",
+            "rdf:value": "CNX"
+        },
+        {
+            "@id": "uncl3035:CNY",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identification of a financial institution servicing the level account of a cash pool.",
+            "rdfs:label": "Cash pool level account servicing financial institution",
+            "rdf:value": "CNY"
+        },
+        {
+            "@id": "uncl3035:CNZ",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identification of a financial institution servicing the sub-account of a cash pool.",
+            "rdfs:label": "Cash pool sub-account servicing financial institution",
+            "rdf:value": "CNZ"
+        },
+        {
+            "@id": "uncl3035:CO",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identification of the Head Office within a company.",
+            "rdfs:label": "Corporate office",
+            "rdf:value": "CO"
+        },
+        {
+            "@id": "uncl3035:COA",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Business in which a financial interest is held.",
+            "rdfs:label": "Entity in which a financial interest is held",
+            "rdf:value": "COA"
+        },
+        {
+            "@id": "uncl3035:COB",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identifies an intermediate parent company.",
+            "rdfs:label": "Intermediate level parent company",
+            "rdf:value": "COB"
+        },
+        {
+            "@id": "uncl3035:COC",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A party responsible for transshipment.",
+            "rdfs:label": "Transshipment party",
+            "rdf:value": "COC"
+        },
+        {
+            "@id": "uncl3035:COD",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party sending a request for a quotation.",
+            "rdfs:label": "Quotation requesting party",
+            "rdf:value": "COD"
+        },
+        {
+            "@id": "uncl3035:COE",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The party which maintains the codes used in the message.",
+            "rdfs:label": "Party maintaining the codes used in the message",
+            "rdf:value": "COE"
+        },
+        {
+            "@id": "uncl3035:COF",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The party which maintains the identifiers used in the message.",
+            "rdfs:label": "Party maintaining the identifiers used in the message",
+            "rdf:value": "COF"
+        },
+        {
+            "@id": "uncl3035:COG",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "An individual responsible for sending something to a destination.",
+            "rdfs:label": "Dispatcher",
+            "rdf:value": "COG"
+        },
+        {
+            "@id": "uncl3035:COH",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "An entity responsible for the submission of a sample.",
+            "rdfs:label": "Submitter of sample",
+            "rdf:value": "COH"
+        },
+        {
+            "@id": "uncl3035:COI",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The institution providing the service.",
+            "rdfs:label": "Institutional provider",
+            "rdf:value": "COI"
+        },
+        {
+            "@id": "uncl3035:COJ",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Health care provider that has primary responsibility for patient.",
+            "rdfs:label": "Primary health care provider",
+            "rdf:value": "COJ"
+        },
+        {
+            "@id": "uncl3035:COK",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Physician assisting in surgery.",
+            "rdfs:label": "Assistant surgeon",
+            "rdf:value": "COK"
+        },
+        {
+            "@id": "uncl3035:COL",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Health care provider that admitted the patient.",
+            "rdfs:label": "Admitting health care provider",
+            "rdf:value": "COL"
+        },
+        {
+            "@id": "uncl3035:COM",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Health care provider that referred patient to current provider of services.",
+            "rdfs:label": "Referring health care provider",
+            "rdf:value": "COM"
+        },
+        {
+            "@id": "uncl3035:CON",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Health care provider that supervised the rendering of a service.",
+            "rdfs:label": "Supervising health care provider",
+            "rdf:value": "CON"
+        },
+        {
+            "@id": "uncl3035:COO",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identifies the party providing the financing.",
+            "rdfs:label": "Party providing financing",
+            "rdf:value": "COO"
+        },
+        {
+            "@id": "uncl3035:COP",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party designated to escort the transported goods.",
+            "rdfs:label": "Convoying party",
+            "rdf:value": "COP"
+        },
+        {
+            "@id": "uncl3035:COQ",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identifies the nominated bank.",
+            "rdfs:label": "Nominated bank",
+            "rdf:value": "COQ"
+        },
+        {
+            "@id": "uncl3035:COR",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identifies a family member.",
+            "rdfs:label": "Family member",
+            "rdf:value": "COR"
+        },
+        {
+            "@id": "uncl3035:COS",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identifies another party who participates in an activity.",
+            "rdfs:label": "Co-participant",
+            "rdf:value": "COS"
+        },
+        {
+            "@id": "uncl3035:COT",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party which is involved in an activity.",
+            "rdfs:label": "Involved party",
+            "rdf:value": "COT"
+        },
+        {
+            "@id": "uncl3035:COU",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identifies the entity who assigns.",
+            "rdfs:label": "Assigner",
+            "rdf:value": "COU"
+        },
+        {
+            "@id": "uncl3035:COV",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "An individual who is registered as a principal for an entity.",
+            "rdfs:label": "Registered principal",
+            "rdf:value": "COV"
+        },
+        {
+            "@id": "uncl3035:COW",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "(3470) Freight payer is a third party acting on behalf of the consignor.",
+            "rdfs:label": "Freight payer on behalf of the consignor",
+            "rdf:value": "COW"
+        },
+        {
+            "@id": "uncl3035:COX",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "(3470) Freight payer is a third party acting on behalf of the consignee.",
+            "rdfs:label": "Freight payer on behalf of the consignee",
+            "rdf:value": "COX"
+        },
+        {
+            "@id": "uncl3035:COY",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party responsible for performing disinfection operations.",
+            "rdfs:label": "Party responsible for disinfection",
+            "rdf:value": "COY"
+        },
+        {
+            "@id": "uncl3035:COZ",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party responsible for performing refueling operations.",
+            "rdfs:label": "Party responsible for refueling",
+            "rdf:value": "COZ"
+        },
+        {
+            "@id": "uncl3035:CP",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party acting for or on behalf of seller in matters concerning compliance.",
+            "rdfs:label": "Party to receive certificate of compliance",
+            "rdf:value": "CP"
+        },
+        {
+            "@id": "uncl3035:CPA",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "[3190] Identifies the financial institution used by the issuing bank to advise the documentary credit.",
+            "rdfs:label": "Advising bank",
+            "rdf:value": "CPA"
+        },
+        {
+            "@id": "uncl3035:CPB",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identifies the financial institution through which the reimbursement is to be effected.",
+            "rdfs:label": "Reimbursing bank",
+            "rdf:value": "CPB"
+        },
+        {
+            "@id": "uncl3035:CPC",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identifies the financial institution through which the advising bank is to advise.",
+            "rdfs:label": "Advise through bank",
+            "rdf:value": "CPC"
+        },
+        {
+            "@id": "uncl3035:CPD",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party, other than the ordering party, which has to pay the charges concerning the destination operations.",
+            "rdfs:label": "Charges payer at destination",
+            "rdf:value": "CPD"
+        },
+        {
+            "@id": "uncl3035:CPE",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "[3408] Name of the Master of a means of transport such as vessel.",
+            "rdfs:label": "Transport means master name",
+            "rdf:value": "CPE"
+        },
+        {
+            "@id": "uncl3035:CPF",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Charterer of the means of transport.",
+            "rdfs:label": "Means of transport charterer",
+            "rdf:value": "CPF"
+        },
+        {
+            "@id": "uncl3035:CPG",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party to whom excise must be paid.",
+            "rdfs:label": "Excise party",
+            "rdf:value": "CPG"
+        },
+        {
+            "@id": "uncl3035:CPH",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party receiving a copy of a report.",
+            "rdfs:label": "Copy report to",
+            "rdf:value": "CPH"
+        },
+        {
+            "@id": "uncl3035:CPI",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A healthcare party related to the subject.",
+            "rdfs:label": "Related healthcare party",
+            "rdf:value": "CPI"
+        },
+        {
+            "@id": "uncl3035:CPJ",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party providing clinical information.",
+            "rdfs:label": "Clinical information provider",
+            "rdf:value": "CPJ"
+        },
+        {
+            "@id": "uncl3035:CPK",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party requesting a service.",
+            "rdfs:label": "Service requester",
+            "rdf:value": "CPK"
+        },
+        {
+            "@id": "uncl3035:CPL",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party who admitted a patient.",
+            "rdfs:label": "Patient admitted by",
+            "rdf:value": "CPL"
+        },
+        {
+            "@id": "uncl3035:CPM",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The party who receives the discharged patient.",
+            "rdfs:label": "Patient discharged to",
+            "rdf:value": "CPM"
+        },
+        {
+            "@id": "uncl3035:CPN",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The party hosting the patient.",
+            "rdfs:label": "Patient hosted by",
+            "rdf:value": "CPN"
+        },
+        {
+            "@id": "uncl3035:CPO",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Contact person for the prescriber.",
+            "rdfs:label": "Prescriber's contact person",
+            "rdf:value": "CPO"
+        },
+        {
+            "@id": "uncl3035:CQ",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party to which the cheque will be ordered, when different from the beneficiary.",
+            "rdfs:label": "Cheque order",
+            "rdf:value": "CQ"
+        },
+        {
+            "@id": "uncl3035:CR",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party to whose premises empty equipment will be or has been returned.",
+            "rdfs:label": "Empty equipment return party",
+            "rdf:value": "CR"
+        },
+        {
+            "@id": "uncl3035:CS",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party consolidating various consignments, payments etc.",
+            "rdfs:label": "Consolidator",
+            "rdf:value": "CS"
+        },
+        {
+            "@id": "uncl3035:CT",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The party to be identified at a later time as the consignee.",
+            "rdfs:label": "Consignee to be specified",
+            "rdf:value": "CT"
+        },
+        {
+            "@id": "uncl3035:CU",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The company to which containers have to be returned.",
+            "rdfs:label": "Container return company",
+            "rdf:value": "CU"
+        },
+        {
+            "@id": "uncl3035:CV",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party to which the vessel shall be delivered.",
+            "rdfs:label": "Consignee of vessel",
+            "rdf:value": "CV"
+        },
+        {
+            "@id": "uncl3035:CW",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Owner of equipment (container, etc.).",
+            "rdfs:label": "Equipment owner",
+            "rdf:value": "CW"
+        },
+        {
+            "@id": "uncl3035:CX",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party authorized to act on behalf of the consignee.",
+            "rdfs:label": "Consignee's agent",
+            "rdf:value": "CX"
+        },
+        {
+            "@id": "uncl3035:CY",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "IATA cargo agent entitled to commission.",
+            "rdfs:label": "Commissionable agent",
+            "rdf:value": "CY"
+        },
+        {
+            "@id": "uncl3035:CZ",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "[3336] Party which, by contract with a carrier, consigns or sends goods with the carrier, or has them conveyed by him. Synonym: shipper, sender.",
+            "rdfs:label": "Consignor",
+            "rdf:value": "CZ"
+        },
+        {
+            "@id": "uncl3035:DA",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Financial institution with whom the documentary credit is available.",
+            "rdfs:label": "Available with bank (documentary credits)",
+            "rdf:value": "DA"
+        },
+        {
+            "@id": "uncl3035:DB",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The affiliate of a retailer or distributor.",
+            "rdfs:label": "Distributor branch",
+            "rdf:value": "DB"
+        },
+        {
+            "@id": "uncl3035:DC",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party that splits up a large consignment composed of separate consignments of goods. The smaller consignments of goods were grouped together into that large consignment for carriage as a larger unit in order to obtain a reduced rate.",
+            "rdfs:label": "Deconsolidator",
+            "rdf:value": "DC"
+        },
+        {
+            "@id": "uncl3035:DCP",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party, other than the ordering party, which has to pay the charges concerning the despatch operations.",
+            "rdfs:label": "Despatch charge payer",
+            "rdf:value": "DCP"
+        },
+        {
+            "@id": "uncl3035:DCQ",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Organisation or person owning a prescription database.",
+            "rdfs:label": "Prescription database owner",
+            "rdf:value": "DCQ"
+        },
+        {
+            "@id": "uncl3035:DCR",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The doctor who issued the original prescription.",
+            "rdfs:label": "Original prescriber",
+            "rdf:value": "DCR"
+        },
+        {
+            "@id": "uncl3035:DCS",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A person employed on a temporary basis.",
+            "rdfs:label": "Temporary employee",
+            "rdf:value": "DCS"
+        },
+        {
+            "@id": "uncl3035:DCT",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A party who designs.",
+            "rdfs:label": "Designer",
+            "rdf:value": "DCT"
+        },
+        {
+            "@id": "uncl3035:DCU",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party to whom the quotation is to be or has been delivered.",
+            "rdfs:label": "Quotation delivered to",
+            "rdf:value": "DCU"
+        },
+        {
+            "@id": "uncl3035:DCV",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A party who develops.",
+            "rdfs:label": "Developer",
+            "rdf:value": "DCV"
+        },
+        {
+            "@id": "uncl3035:DCW",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The party performing a test.",
+            "rdfs:label": "Test execution party",
+            "rdf:value": "DCW"
+        },
+        {
+            "@id": "uncl3035:DCX",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party to whom a refund is given.",
+            "rdfs:label": "Party to receive refund",
+            "rdf:value": "DCX"
+        },
+        {
+            "@id": "uncl3035:DCY",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party authorised to issue a prescription.",
+            "rdfs:label": "Authorised issuer of prescription",
+            "rdf:value": "DCY"
+        },
+        {
+            "@id": "uncl3035:DCZ",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Organisation or person authorised to dispense medicine.",
+            "rdfs:label": "Authorised dispenser of medicine",
+            "rdf:value": "DCZ"
+        },
+        {
+            "@id": "uncl3035:DD",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Bank of the documentary credit account party.",
+            "rdfs:label": "Documentary credit account party's bank",
+            "rdf:value": "DD"
+        },
+        {
+            "@id": "uncl3035:DDA",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The party or person taking responsibility for a report.",
+            "rdfs:label": "Report responsible party",
+            "rdf:value": "DDA"
+        },
+        {
+            "@id": "uncl3035:DDB",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The party who does the initial sending.",
+            "rdfs:label": "Initial sender",
+            "rdf:value": "DDB"
+        },
+        {
+            "@id": "uncl3035:DDC",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The party authorising the issuer of the original prescription.",
+            "rdfs:label": "The party authorising the original prescription",
+            "rdf:value": "DDC"
+        },
+        {
+            "@id": "uncl3035:DDD",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A party who applies for something.",
+            "rdfs:label": "Applicant",
+            "rdf:value": "DDD"
+        },
+        {
+            "@id": "uncl3035:DDE",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A party physically reading the meter.",
+            "rdfs:label": "Meter reader",
+            "rdf:value": "DDE"
+        },
+        {
+            "@id": "uncl3035:DDF",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Code specifying a party who serves as a business entity's primary contact for matters related to electronic business.",
+            "rdfs:label": "Primary electronic business contact",
+            "rdf:value": "DDF"
+        },
+        {
+            "@id": "uncl3035:DDG",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Code specifying a party who serves as a business entity's alternate contact for matters related to electronic business.",
+            "rdfs:label": "Alternate electronic business contact",
+            "rdf:value": "DDG"
+        },
+        {
+            "@id": "uncl3035:DDH",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Code specifying a party who serves as a business entity's primary contact for matters related to doing business with the government.",
+            "rdfs:label": "Primary government business contact",
+            "rdf:value": "DDH"
+        },
+        {
+            "@id": "uncl3035:DDI",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Code specifying a party who serves as a business entity's alternate contact for matters related to doing business with the government.",
+            "rdfs:label": "Alternate government business contact",
+            "rdf:value": "DDI"
+        },
+        {
+            "@id": "uncl3035:DDJ",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Code specifying a party who serves as a business entity's contact for matters related to the past performance of that entity.",
+            "rdfs:label": "Past performance contact",
+            "rdf:value": "DDJ"
+        },
+        {
+            "@id": "uncl3035:DDK",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A party responsible for balancing supply and consumption.",
+            "rdfs:label": "Balance responsible party",
+            "rdf:value": "DDK"
+        },
+        {
+            "@id": "uncl3035:DDL",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A group of persons conveyed by a means of transport, other than the crew.",
+            "rdfs:label": "Group of passengers",
+            "rdf:value": "DDL"
+        },
+        {
+            "@id": "uncl3035:DDM",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A party operating a grid.",
+            "rdfs:label": "Grid operator",
+            "rdf:value": "DDM"
+        },
+        {
+            "@id": "uncl3035:DDN",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identifies the financial institution that is the point of entry into the interbank transaction chain.",
+            "rdfs:label": "First financial institution in the transaction chain",
+            "rdf:value": "DDN"
+        },
+        {
+            "@id": "uncl3035:DDO",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party responsible for the management of the location.",
+            "rdfs:label": "Location manager",
+            "rdf:value": "DDO"
+        },
+        {
+            "@id": "uncl3035:DDP",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party responsible for leading the group.",
+            "rdfs:label": "Group leader",
+            "rdf:value": "DDP"
+        },
+        {
+            "@id": "uncl3035:DDQ",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A party supplying energy to a party connected to the grid at an accounting point. In case of a surplus, the energy supplier may also take back energy.",
+            "rdfs:label": "Energy Supplier",
+            "rdf:value": "DDQ"
+        },
+        {
+            "@id": "uncl3035:DDR",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identification of freight forwarder giving services to the consignor.",
+            "rdfs:label": "Consignor's freight forwarder",
+            "rdf:value": "DDR"
+        },
+        {
+            "@id": "uncl3035:DDS",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identification of freight forwarder giving services to the consignee.",
+            "rdfs:label": "Consignee's freight forwarder",
+            "rdf:value": "DDS"
+        },
+        {
+            "@id": "uncl3035:DDT",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The movement of a crew member from one country to another via the territory of an intermediate country for which no entry is intended.",
+            "rdfs:label": "In transit crew member",
+            "rdf:value": "DDT"
+        },
+        {
+            "@id": "uncl3035:DDU",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The movement of a passenger from one country to another via the territory of an intermediate country for which no entry is intended.",
+            "rdfs:label": "In transit passenger",
+            "rdf:value": "DDU"
+        },
+        {
+            "@id": "uncl3035:DDV",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A party who can be brought to rights, legally and financially, for any imbalance between energy bought and consumed for all associated metering points.",
+            "rdfs:label": "Energy consumption imbalance responsible party",
+            "rdf:value": "DDV"
+        },
+        {
+            "@id": "uncl3035:DDW",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A party who can be brought to rights, legally and financially, for any imbalance between energy sold and produced for all associated metering points.",
+            "rdfs:label": "Energy production imbalance responsible party",
+            "rdf:value": "DDW"
+        },
+        {
+            "@id": "uncl3035:DDX",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A party that is responsible for settlement of the difference between planned and realised quantities.",
+            "rdfs:label": "Imbalance settlement responsible party",
+            "rdf:value": "DDX"
+        },
+        {
+            "@id": "uncl3035:DDY",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A party managing the allocation of transmission capacity.",
+            "rdfs:label": "Transmission capacity allocator",
+            "rdf:value": "DDY"
+        },
+        {
+            "@id": "uncl3035:DDZ",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A party responsible for registering the technical specifications of metering points and the parties linked to them.",
+            "rdfs:label": "Metering point administrator",
+            "rdf:value": "DDZ"
+        },
+        {
+            "@id": "uncl3035:DE",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party depositing goods, financial payments or documents.",
+            "rdfs:label": "Depositor",
+            "rdf:value": "DE"
+        },
+        {
+            "@id": "uncl3035:DEA",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A party responsible for aggregation of metered data.",
+            "rdfs:label": "Metered data aggregator",
+            "rdf:value": "DEA"
+        },
+        {
+            "@id": "uncl3035:DEB",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A party responsible for the operation of a meter,  including installing  maintaining, testing, certifying and decommissioning.",
+            "rdfs:label": "Meter operator",
+            "rdf:value": "DEB"
+        },
+        {
+            "@id": "uncl3035:DEC",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A party that contracts for the right to consume or produce electricity at a metering point.",
+            "rdfs:label": "Party connected to grid",
+            "rdf:value": "DEC"
+        },
+        {
+            "@id": "uncl3035:DED",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A party that maintains profiles.",
+            "rdfs:label": "Profile maintenance party",
+            "rdf:value": "DED"
+        },
+        {
+            "@id": "uncl3035:DEE",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A person who hides on a conveyance in order to obtain free passage.",
+            "rdfs:label": "Stowaway",
+            "rdf:value": "DEE"
+        },
+        {
+            "@id": "uncl3035:DEF",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Person whose job is to cut up and/or mince meat.",
+            "rdfs:label": "Meat cutter",
+            "rdf:value": "DEF"
+        },
+        {
+            "@id": "uncl3035:DEG",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A marine carrier that transports goods for more than one shipping line between named points.",
+            "rdfs:label": "Consortium Carrier (maritime)",
+            "rdf:value": "DEG"
+        },
+        {
+            "@id": "uncl3035:DEH",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A carrier that does not operate the vessel.",
+            "rdfs:label": "Non-vessel operating carrier",
+            "rdf:value": "DEH"
+        },
+        {
+            "@id": "uncl3035:DEI",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The operator of a means of transport, e.g. the captain of a vessel.",
+            "rdfs:label": "Means of transport operator",
+            "rdf:value": "DEI"
+        },
+        {
+            "@id": "uncl3035:DEJ",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Address where cargo is loaded into the transport equipment e.g. container. Synonyms; vanning address / place of vanning.",
+            "rdfs:label": "Stuffing address",
+            "rdf:value": "DEJ"
+        },
+        {
+            "@id": "uncl3035:DEK",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party responsible for mooring the vessel at the berth in the port. Synonym: Boatmen.",
+            "rdfs:label": "Mooring service provider",
+            "rdf:value": "DEK"
+        },
+        {
+            "@id": "uncl3035:DEL",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party responsible for the pilotage of the vessel.",
+            "rdfs:label": "Pilotage service provider",
+            "rdf:value": "DEL"
+        },
+        {
+            "@id": "uncl3035:DEM",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party responsible for towing the vessel to/from the berth in the port.",
+            "rdfs:label": "Berth towage service provider",
+            "rdf:value": "DEM"
+        },
+        {
+            "@id": "uncl3035:DEN",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party authorised to act in the name and on behalf of another person.",
+            "rdfs:label": "Agent/representative, direct representation",
+            "rdf:value": "DEN"
+        },
+        {
+            "@id": "uncl3035:DEO",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party authorised to act in its own name but on behalf of another person.",
+            "rdfs:label": "Agent/representative, indirect representation",
+            "rdf:value": "DEO"
+        },
+        {
+            "@id": "uncl3035:DEP",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A party which handles the loading and unloading of marine vessels from several terminals.",
+            "rdfs:label": "Stevedore",
+            "rdf:value": "DEP"
+        },
+        {
+            "@id": "uncl3035:DEQ",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party responsible for the shipment of goods.",
+            "rdfs:label": "Shipper",
+            "rdf:value": "DEQ"
+        },
+        {
+            "@id": "uncl3035:DER",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A data pool that supports the functionality required by a data source such as data loading, publication, notification, registration, etc.",
+            "rdfs:label": "Source data pool",
+            "rdf:value": "DER"
+        },
+        {
+            "@id": "uncl3035:DES",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The owner of a brand.",
+            "rdfs:label": "Brand owner",
+            "rdf:value": "DES"
+        },
+        {
+            "@id": "uncl3035:DET",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Cockpit crew and personnel inside cockpit.",
+            "rdfs:label": "Cockpit crew",
+            "rdf:value": "DET"
+        },
+        {
+            "@id": "uncl3035:DEU",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Crew members operating in passenger cabin.",
+            "rdfs:label": "Cabin crew",
+            "rdf:value": "DEU"
+        },
+        {
+            "@id": "uncl3035:DEV",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Personnel of the airline operations management department positioned outside the cockpit.",
+            "rdfs:label": "Airline operations management, not in cockpit",
+            "rdf:value": "DEV"
+        },
+        {
+            "@id": "uncl3035:DEW",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Employees of the carrier, cargo groomers, or special cargo handlers, that are not authorized to ride in the cockpit.",
+            "rdfs:label": "Cargo non-cockpit crew and/or non-crew personnel",
+            "rdf:value": "DEW"
+        },
+        {
+            "@id": "uncl3035:DEX",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Pilots currently not in charge of flying the aircraft and not present in the cockpit.",
+            "rdfs:label": "Pilots seated outside cockpit",
+            "rdf:value": "DEX"
+        },
+        {
+            "@id": "uncl3035:DEY",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A party recognized under relevant legislation to undertake official verification.",
+            "rdfs:label": "Commercial verifier",
+            "rdf:value": "DEY"
+        },
+        {
+            "@id": "uncl3035:DEZ",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A person authorized under relevant legislation for the purpose of issuing official assurances.",
+            "rdfs:label": "Authorized issuer",
+            "rdf:value": "DEZ"
+        },
+        {
+            "@id": "uncl3035:DF",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "[3198] Party at whose request the applicant's bank/issuing bank is to issue a documentary credit.",
+            "rdfs:label": "Documentary credit applicant",
+            "rdf:value": "DF"
+        },
+        {
+            "@id": "uncl3035:DFA",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Bank that is authorized to receive the deposit for duties, taxes, and fees.",
+            "rdfs:label": "Bank for deposit of duties/taxes/fees",
+            "rdf:value": "DFA"
+        },
+        {
+            "@id": "uncl3035:DFB",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The company security officer as described in IMO Circular MSC 1130.",
+            "rdfs:label": "Company security officer (IMO Circular MSC 1130)",
+            "rdf:value": "DFB"
+        },
+        {
+            "@id": "uncl3035:DFC",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The party providing distillation services.",
+            "rdfs:label": "Distiller",
+            "rdf:value": "DFC"
+        },
+        {
+            "@id": "uncl3035:DFD",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The bonded (insured) party that moves goods within port limits.",
+            "rdfs:label": "Drayman/lighterman",
+            "rdf:value": "DFD"
+        },
+        {
+            "@id": "uncl3035:DFE",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The party who offers items for exhibit or show.",
+            "rdfs:label": "Exhibitor",
+            "rdf:value": "DFE"
+        },
+        {
+            "@id": "uncl3035:DFF",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A commercial establishment that feeds livestock.",
+            "rdfs:label": "Feedlot",
+            "rdf:value": "DFF"
+        },
+        {
+            "@id": "uncl3035:DFG",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A person appointed to some position of responsibility or authority in the government.",
+            "rdfs:label": "Government official",
+            "rdf:value": "DFG"
+        },
+        {
+            "@id": "uncl3035:DFH",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The party requesting inspection, grading, or other government service.",
+            "rdfs:label": "Government service requestor",
+            "rdf:value": "DFH"
+        },
+        {
+            "@id": "uncl3035:DFI",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The party who grows crops.",
+            "rdfs:label": "Crop grower",
+            "rdf:value": "DFI"
+        },
+        {
+            "@id": "uncl3035:DFJ",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The responsible party as identified and defined in the International Ship and Port Facility Security Code (ISPS).",
+            "rdfs:label": "ISPS Responsible Party",
+            "rdf:value": "DFJ"
+        },
+        {
+            "@id": "uncl3035:DFK",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The party to whom the License, Permit, Certificate, or Other required document (LPCO) is issued.",
+            "rdfs:label": "LPCO authorized party",
+            "rdf:value": "DFK"
+        },
+        {
+            "@id": "uncl3035:DFL",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The registered operator of the property.",
+            "rdfs:label": "Operator of property, registered",
+            "rdf:value": "DFL"
+        },
+        {
+            "@id": "uncl3035:DFM",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "An organization that is accredited to certify organic growth processes.",
+            "rdfs:label": "Organic growth certifier, accredited",
+            "rdf:value": "DFM"
+        },
+        {
+            "@id": "uncl3035:DFN",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The party holding the Certificate of Financial Responsibility (COFR).",
+            "rdfs:label": "Party holding Certificate of Financial Responsibility",
+            "rdf:value": "DFN"
+        },
+        {
+            "@id": "uncl3035:DFO",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The individual (person) designated as the port facility security officer responsible for port security requirements.",
+            "rdfs:label": "Port facility security officer",
+            "rdf:value": "DFO"
+        },
+        {
+            "@id": "uncl3035:DFP",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The owner of the vehicle.",
+            "rdfs:label": "Vehicle owner",
+            "rdf:value": "DFP"
+        },
+        {
+            "@id": "uncl3035:DFQ",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Organization recogized for issuing security certificates.",
+            "rdfs:label": "Security certificate issuer, recognized",
+            "rdf:value": "DFQ"
+        },
+        {
+            "@id": "uncl3035:DFR",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The person who is appointed as Ship Security Officer (SSO).",
+            "rdfs:label": "Ship Security Officer",
+            "rdf:value": "DFR"
+        },
+        {
+            "@id": "uncl3035:DFS",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The person who issues veterinary certificates.",
+            "rdfs:label": "Certificate issuer, veterinary",
+            "rdf:value": "DFS"
+        },
+        {
+            "@id": "uncl3035:DFT",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The party putting together various components or parts into a product or commodity.",
+            "rdfs:label": "Assembler",
+            "rdf:value": "DFT"
+        },
+        {
+            "@id": "uncl3035:DFU",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The party is a competitor.",
+            "rdfs:label": "Competitor",
+            "rdf:value": "DFU"
+        },
+        {
+            "@id": "uncl3035:DFV",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party holding exclusive rights to a protected intellectual property.",
+            "rdfs:label": "Right holder",
+            "rdf:value": "DFV"
+        },
+        {
+            "@id": "uncl3035:DFW",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party approved by Customs as complying with WCO or equivalent supply-chain security standards.",
+            "rdfs:label": "Authorised Economic Operator (AEO)",
+            "rdf:value": "DFW"
+        },
+        {
+            "@id": "uncl3035:DFX",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party who manufactures equipment.",
+            "rdfs:label": "Manufacturer of equipment",
+            "rdf:value": "DFX"
+        },
+        {
+            "@id": "uncl3035:DFY",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Crew for another vessel.",
+            "rdfs:label": "Crew other ship",
+            "rdf:value": "DFY"
+        },
+        {
+            "@id": "uncl3035:DFZ",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The party responsible for article information.",
+            "rdfs:label": "Article information responsible party",
+            "rdf:value": "DFZ"
+        },
+        {
+            "@id": "uncl3035:DG",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party in whose favour the documentary credit is to be issued and the party that must comply with the credit's terms and conditions.",
+            "rdfs:label": "Documentary credit beneficiary",
+            "rdf:value": "DG"
+        },
+        {
+            "@id": "uncl3035:DGA",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The party responsible for price information.",
+            "rdfs:label": "Price information responsible party",
+            "rdf:value": "DGA"
+        },
+        {
+            "@id": "uncl3035:DGB",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party to whom the invoice is sent and who processes the invoice on behalf of the invoicee. Note, the invoicee is legally responsible for the invoice and can be different to the processing party.",
+            "rdfs:label": "Invoice processing party",
+            "rdf:value": "DGB"
+        },
+        {
+            "@id": "uncl3035:DGC",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A party providing logistic services for another party (e.g re-packing suppliers products).",
+            "rdfs:label": "Logistic service provider",
+            "rdf:value": "DGC"
+        },
+        {
+            "@id": "uncl3035:DGD",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party which provides fattening service.",
+            "rdfs:label": "Fattener",
+            "rdf:value": "DGD"
+        },
+        {
+            "@id": "uncl3035:DGE",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party which provides breeding service.",
+            "rdfs:label": "Breeder",
+            "rdf:value": "DGE"
+        },
+        {
+            "@id": "uncl3035:DGF",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A party responsible for establishing the calorific value for a set of Metering points.",
+            "rdfs:label": "Calorific Value Responsible",
+            "rdf:value": "DGF"
+        },
+        {
+            "@id": "uncl3035:DGG",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A party with reserve-providing units or reserve- providing groups able to provide balancing services to one or more LFC Operators.",
+            "rdfs:label": "Balancing Service Provider",
+            "rdf:value": "DGG"
+        },
+        {
+            "@id": "uncl3035:DGH",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A party responsible for keeping a register of consents for a domain. The Consent Administrator makes this information available on request for entitled parties in the sector.",
+            "rdfs:label": "Consent Administrator",
+            "rdf:value": "DGH"
+        },
+        {
+            "@id": "uncl3035:DGI",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A party offering energy-related services to the Party Connected to Grid, but not directly active in the energy value chain or the physical infrastructure itself. The ESCO may provide insight services as well as energy management services.",
+            "rdfs:label": "Energy Service Company (ESCO)",
+            "rdf:value": "DGI"
+        },
+        {
+            "@id": "uncl3035:DGJ",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A party that aggregates resources for usage by a service provider for energy market services.",
+            "rdfs:label": "Resource Aggregator",
+            "rdf:value": "DGJ"
+        },
+        {
+            "@id": "uncl3035:DGK",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A role that manages a resource and provides production/consumption schedules for it, if required.",
+            "rdfs:label": "Resource Provider",
+            "rdf:value": "DGK"
+        },
+        {
+            "@id": "uncl3035:DGL",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A party responsible for storing and distributing validated measured data.",
+            "rdfs:label": "Metered Data Administrator",
+            "rdf:value": "DGL"
+        },
+        {
+            "@id": "uncl3035:DGM",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The person who purchases goods and services for personal use.",
+            "rdfs:label": "Consumer",
+            "rdf:value": "DGM"
+        },
+        {
+            "@id": "uncl3035:DGN",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The party engaged in agriculture business, field crop growing, cattle rearing and other productions (hides, milk, wool, etc).",
+            "rdfs:label": "Farmer",
+            "rdf:value": "DGN"
+        },
+        {
+            "@id": "uncl3035:DGO",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The party who collects waste inordertoproducematerialsthat can be used again.",
+            "rdfs:label": "Recycler",
+            "rdf:value": "DGO"
+        },
+        {
+            "@id": "uncl3035:DGP",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The party who sells goods to the public in relatively small quantities for use or consumption rather than for resale.",
+            "rdfs:label": "Retailer",
+            "rdf:value": "DGP"
+        },
+        {
+            "@id": "uncl3035:DGQ",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The party related to another party.",
+            "rdfs:label": "Second Party",
+            "rdf:value": "DGQ"
+        },
+        {
+            "@id": "uncl3035:DGR",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The party providing waste disposal services.",
+            "rdfs:label": "Waste Disposal Provider",
+            "rdf:value": "DGR"
+        },
+        {
+            "@id": "uncl3035:DGS",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The party who processes animals skins with tanning agents.",
+            "rdfs:label": "Tanner",
+            "rdf:value": "DGS"
+        },
+        {
+            "@id": "uncl3035:DGT",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The party who provides a service.",
+            "rdfs:label": "Service Provider",
+            "rdf:value": "DGT"
+        },
+        {
+            "@id": "uncl3035:DGU",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The party who uses a machine in order to clean cotton fibre, flax fibre etc.",
+            "rdfs:label": "Ginner",
+            "rdf:value": "DGU"
+        },
+        {
+            "@id": "uncl3035:DGV",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The party who makes thread by spinning.",
+            "rdfs:label": "Spinner",
+            "rdf:value": "DGV"
+        },
+        {
+            "@id": "uncl3035:DGW",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The party who weaves fabric.",
+            "rdfs:label": "Weaver",
+            "rdf:value": "DGW"
+        },
+        {
+            "@id": "uncl3035:DH",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party which is responsible for the payment settlement of the documentary credit with the applicant's bank/issuing bank, if different from the documentary credit applicant.",
+            "rdfs:label": "Documentary credit account party",
+            "rdf:value": "DH"
+        },
+        {
+            "@id": "uncl3035:DI",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party to whom the documentary credit can be transferred.",
+            "rdfs:label": "Documentary credit second beneficiary",
+            "rdf:value": "DI"
+        },
+        {
+            "@id": "uncl3035:DJ",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party related to documentary credit transaction.",
+            "rdfs:label": "Party according to documentary credit transaction",
+            "rdf:value": "DJ"
+        },
+        {
+            "@id": "uncl3035:DK",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Financial institution with which the beneficiary of the documentary credit maintains an account.",
+            "rdfs:label": "Documentary credit beneficiary's bank",
+            "rdf:value": "DK"
+        },
+        {
+            "@id": "uncl3035:DL",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Company offering a financial service whereby a firm sells or transfers title to its accounts receivable to the factoring company.",
+            "rdfs:label": "Factor",
+            "rdf:value": "DL"
+        },
+        {
+            "@id": "uncl3035:DM",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party to whom documents are to be presented.",
+            "rdfs:label": "Party to whom documents are to be presented",
+            "rdf:value": "DM"
+        },
+        {
+            "@id": "uncl3035:DN",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Owner of the operation.",
+            "rdfs:label": "Owner of operation",
+            "rdf:value": "DN"
+        },
+        {
+            "@id": "uncl3035:DO",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "[1370] Party which should receive a specified document.",
+            "rdfs:label": "Document recipient",
+            "rdf:value": "DO"
+        },
+        {
+            "@id": "uncl3035:DP",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "[3144] Party to which goods should be delivered, if not identical with consignee, such as the place where a container is to be, or has been, positioned.",
+            "rdfs:label": "Delivery party",
+            "rdf:value": "DP"
+        },
+        {
+            "@id": "uncl3035:DQ",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Person acting on delegation of powers of the owner.",
+            "rdfs:label": "Owner's agent",
+            "rdf:value": "DQ"
+        },
+        {
+            "@id": "uncl3035:DR",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Person who drives a means of transport.",
+            "rdfs:label": "Driver",
+            "rdf:value": "DR"
+        },
+        {
+            "@id": "uncl3035:DS",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party distributing goods, financial payments or documents.",
+            "rdfs:label": "Distributor",
+            "rdf:value": "DS"
+        },
+        {
+            "@id": "uncl3035:DT",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "[3140] Party which makes a declaration to an official body or - where legally permitted - in whose name, or on whose behalf, a declaration to an official body is made.",
+            "rdfs:label": "Declarant",
+            "rdf:value": "DT"
+        },
+        {
+            "@id": "uncl3035:DU",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Person commissioned by the owner to represent him in certain circumstances.",
+            "rdfs:label": "Owner's representative",
+            "rdf:value": "DU"
+        },
+        {
+            "@id": "uncl3035:DV",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party commissioned by the owner to follow through the execution of all works.",
+            "rdfs:label": "Project management office",
+            "rdf:value": "DV"
+        },
+        {
+            "@id": "uncl3035:DW",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "(3290) Party on whom drafts must be drawn.",
+            "rdfs:label": "Drawee",
+            "rdf:value": "DW"
+        },
+        {
+            "@id": "uncl3035:DX",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party representing the contractor to advise and supervise engineering aspects of the works.",
+            "rdfs:label": "Engineer (construction)",
+            "rdf:value": "DX"
+        },
+        {
+            "@id": "uncl3035:DY",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party commissioned by the owner to advise and supervise engineering aspects of the works.",
+            "rdfs:label": "Engineer, resident (construction)",
+            "rdf:value": "DY"
+        },
+        {
+            "@id": "uncl3035:DZ",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A designer who prepares plans for buildings, ships, etc. and supervises their construction.",
+            "rdfs:label": "Architect",
+            "rdf:value": "DZ"
+        },
+        {
+            "@id": "uncl3035:EA",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Designer of the construction project.",
+            "rdfs:label": "Architect-designer",
+            "rdf:value": "EA"
+        },
+        {
+            "@id": "uncl3035:EB",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party controlling the conformity of works to legal and regulation rules.",
+            "rdfs:label": "Building inspectorate",
+            "rdf:value": "EB"
+        },
+        {
+            "@id": "uncl3035:EC",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party exchanging currencies or goods.",
+            "rdfs:label": "Exchanger",
+            "rdf:value": "EC"
+        },
+        {
+            "@id": "uncl3035:ED",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party providing professional engineering services.",
+            "rdfs:label": "Engineer, consultant",
+            "rdf:value": "ED"
+        },
+        {
+            "@id": "uncl3035:EE",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The location where the goods are examined by customs before clearance.",
+            "rdfs:label": "Location of goods for customs examination before clearance",
+            "rdf:value": "EE"
+        },
+        {
+            "@id": "uncl3035:EF",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party responsible for technical coordination of works.",
+            "rdfs:label": "Project coordination office",
+            "rdf:value": "EF"
+        },
+        {
+            "@id": "uncl3035:EG",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party responsible for topographical measurements.",
+            "rdfs:label": "Surveyor, topographical",
+            "rdf:value": "EG"
+        },
+        {
+            "@id": "uncl3035:EH",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party responsible for quantity measurements.",
+            "rdfs:label": "Engineer, measurement",
+            "rdf:value": "EH"
+        },
+        {
+            "@id": "uncl3035:EI",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party controlling the quality of goods and workmanship for the project.",
+            "rdfs:label": "Controller, quality",
+            "rdf:value": "EI"
+        },
+        {
+            "@id": "uncl3035:EJ",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party responsible for the quantification and valuation of the works on behalf of the contractor.",
+            "rdfs:label": "Surveyor, quantity",
+            "rdf:value": "EJ"
+        },
+        {
+            "@id": "uncl3035:EK",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party responsible to the owner for the quantification and valuation of the works.",
+            "rdfs:label": "Surveyor (professional), quantity",
+            "rdf:value": "EK"
+        },
+        {
+            "@id": "uncl3035:EL",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party responsible for a project, e.g. a construction project.",
+            "rdfs:label": "Project",
+            "rdf:value": "EL"
+        },
+        {
+            "@id": "uncl3035:EM",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party being informed about invoice issue (via EDI).",
+            "rdfs:label": "Party to receive electronic memo of invoice",
+            "rdf:value": "EM"
+        },
+        {
+            "@id": "uncl3035:EN",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Firm answering an invitation to tender.",
+            "rdfs:label": "Tenderer",
+            "rdf:value": "EN"
+        },
+        {
+            "@id": "uncl3035:EO",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party who owns equipment.",
+            "rdfs:label": "Owner of equipment",
+            "rdf:value": "EO"
+        },
+        {
+            "@id": "uncl3035:EP",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The party which drops off equipment.",
+            "rdfs:label": "Equipment drop-off party",
+            "rdf:value": "EP"
+        },
+        {
+            "@id": "uncl3035:EQ",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party responsible for the empty container.",
+            "rdfs:label": "Empty container responsible party",
+            "rdf:value": "EQ"
+        },
+        {
+            "@id": "uncl3035:ER",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party, designated by owner of containers, responsible for their collection as agreed between the owner and customer/ consignee.",
+            "rdfs:label": "Empty container return agent",
+            "rdf:value": "ER"
+        },
+        {
+            "@id": "uncl3035:ES",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Leader representing a grouping of co-contractors.",
+            "rdfs:label": "Contractor, lead",
+            "rdf:value": "ES"
+        },
+        {
+            "@id": "uncl3035:ET",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Member of a grouping of co-contractors.",
+            "rdfs:label": "Co-contractor",
+            "rdf:value": "ET"
+        },
+        {
+            "@id": "uncl3035:EU",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Single contractor for the whole construction project, working by his own or with subcontractors.",
+            "rdfs:label": "Contractor, general",
+            "rdf:value": "EU"
+        },
+        {
+            "@id": "uncl3035:EV",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Firm carrying out a part of the works for a contractor.",
+            "rdfs:label": "Subcontractor",
+            "rdf:value": "EV"
+        },
+        {
+            "@id": "uncl3035:EW",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Subcontractor benefiting from direct payments.",
+            "rdfs:label": "Subcontractor with direct payment",
+            "rdf:value": "EW"
+        },
+        {
+            "@id": "uncl3035:EX",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "[3030] Party who makes, or on whose behalf the export declaration is made, and who is the owner of the goods or has similar rights of disposal over them at the time when the declaration is accepted.",
+            "rdfs:label": "Exporter",
+            "rdf:value": "EX"
+        },
+        {
+            "@id": "uncl3035:EY",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Subcontractor authorized by the owner after having been proposed.",
+            "rdfs:label": "Subcontractor, nominated",
+            "rdf:value": "EY"
+        },
+        {
+            "@id": "uncl3035:EZ",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Operator of essential services e.g. water, sewerage system, power.",
+            "rdfs:label": "Operator, essential services",
+            "rdf:value": "EZ"
+        },
+        {
+            "@id": "uncl3035:FA",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Operator of a communication channel.",
+            "rdfs:label": "Operator, communication channel",
+            "rdf:value": "FA"
+        },
+        {
+            "@id": "uncl3035:FB",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party nominated to act as transport company or carrier for the goods.",
+            "rdfs:label": "Nominated freight company",
+            "rdf:value": "FB"
+        },
+        {
+            "@id": "uncl3035:FC",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Firm or grouping of co-contractors which has been awarded the contract.",
+            "rdfs:label": "Contractor, main",
+            "rdf:value": "FC"
+        },
+        {
+            "@id": "uncl3035:FD",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Parent company, e.g. holding company.",
+            "rdfs:label": "Buyer's parent company",
+            "rdf:value": "FD"
+        },
+        {
+            "@id": "uncl3035:FE",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A party which evaluates another party for credit rating.",
+            "rdfs:label": "Credit rating agency",
+            "rdf:value": "FE"
+        },
+        {
+            "@id": "uncl3035:FF",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Factoring company engaged by another factoring company to assist the letter with the services provided to the clients (sellers).",
+            "rdfs:label": "Factor, correspondent",
+            "rdf:value": "FF"
+        },
+        {
+            "@id": "uncl3035:FG",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Buying party as officially registered with government.",
+            "rdfs:label": "Buyer as officially registered",
+            "rdf:value": "FG"
+        },
+        {
+            "@id": "uncl3035:FH",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Selling party as officially registered with government.",
+            "rdfs:label": "Seller as officially registered",
+            "rdf:value": "FH"
+        },
+        {
+            "@id": "uncl3035:FI",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party that is to receive a copy of a message.",
+            "rdfs:label": "Copy message to",
+            "rdf:value": "FI"
+        },
+        {
+            "@id": "uncl3035:FJ",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Organisation representing employees.",
+            "rdfs:label": "Trade Union",
+            "rdf:value": "FJ"
+        },
+        {
+            "@id": "uncl3035:FK",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Employee organisation who previously represented an employee .",
+            "rdfs:label": "Previous Trade Union",
+            "rdf:value": "FK"
+        },
+        {
+            "@id": "uncl3035:FL",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A person conveyed by a means of transport, other than the crew.",
+            "rdfs:label": "Passenger",
+            "rdf:value": "FL"
+        },
+        {
+            "@id": "uncl3035:FM",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A person manning a means of transport.",
+            "rdfs:label": "Crew member",
+            "rdf:value": "FM"
+        },
+        {
+            "@id": "uncl3035:FN",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "[3363] The issuer of a tariff, e.g. a freight tariff.",
+            "rdfs:label": "Tariff issuer",
+            "rdf:value": "FN"
+        },
+        {
+            "@id": "uncl3035:FO",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A party which inspects something.",
+            "rdfs:label": "Party performing inspection",
+            "rdf:value": "FO"
+        },
+        {
+            "@id": "uncl3035:FP",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party responsible for the payment of freight.",
+            "rdfs:label": "Freight/charges payer",
+            "rdf:value": "FP"
+        },
+        {
+            "@id": "uncl3035:FQ",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The container survey agency that will survey the containers.",
+            "rdfs:label": "Container survey agent",
+            "rdf:value": "FQ"
+        },
+        {
+            "@id": "uncl3035:FR",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party where the message comes from.",
+            "rdfs:label": "Message from",
+            "rdf:value": "FR"
+        },
+        {
+            "@id": "uncl3035:FS",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party who has the authority to make definite a contract action.",
+            "rdfs:label": "Party authorized to make definite a contract action",
+            "rdf:value": "FS"
+        },
+        {
+            "@id": "uncl3035:FT",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "[3450] Party responsible for either the transfer or repatriation of the funds relating to a transaction.",
+            "rdfs:label": "Financial settlement party",
+            "rdf:value": "FT"
+        },
+        {
+            "@id": "uncl3035:FU",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The office responsible for providing information regarding hazardous material.",
+            "rdfs:label": "Hazardous material office",
+            "rdf:value": "FU"
+        },
+        {
+            "@id": "uncl3035:FV",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The party responsible for providing government furnished property.",
+            "rdfs:label": "Party providing government furnished property",
+            "rdf:value": "FV"
+        },
+        {
+            "@id": "uncl3035:FW",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "[3170] Party arranging forwarding of goods.",
+            "rdfs:label": "Freight forwarder",
+            "rdf:value": "FW"
+        },
+        {
+            "@id": "uncl3035:FX",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Current receiver of the goods in a multi-step transportation process (indirect flow) involving at least one grouping centre.",
+            "rdfs:label": "Current receiver",
+            "rdf:value": "FX"
+        },
+        {
+            "@id": "uncl3035:FY",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Current sender of the goods in a multi-step transportation process (indirect flow) involving at least one grouping centre.",
+            "rdfs:label": "Current sender",
+            "rdf:value": "FY"
+        },
+        {
+            "@id": "uncl3035:FZ",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A party in charge of groupage, including degroupage and regroupage.",
+            "rdfs:label": "Grouping centre",
+            "rdf:value": "FZ"
+        },
+        {
+            "@id": "uncl3035:GA",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A road carrier moving cargo.",
+            "rdfs:label": "Road carrier",
+            "rdf:value": "GA"
+        },
+        {
+            "@id": "uncl3035:GB",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Name of the Chamber of Commerce of the town where the company is registered.",
+            "rdfs:label": "Chamber of commerce",
+            "rdf:value": "GB"
+        },
+        {
+            "@id": "uncl3035:GC",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "[3024] Party responsible for the keeping of goods.",
+            "rdfs:label": "Goods custodian",
+            "rdf:value": "GC"
+        },
+        {
+            "@id": "uncl3035:GD",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party or person who has produced the produce.",
+            "rdfs:label": "Producer",
+            "rdf:value": "GD"
+        },
+        {
+            "@id": "uncl3035:GE",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Name of the tribunal where the company is registered.",
+            "rdfs:label": "Registration tribunal",
+            "rdf:value": "GE"
+        },
+        {
+            "@id": "uncl3035:GF",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "An identification code of a participant or user that books slots (space) on a ship, more likely on a long term basis on a series of sailings. He pays for the space whether he uses it or not.",
+            "rdfs:label": "Slot charter party",
+            "rdf:value": "GF"
+        },
+        {
+            "@id": "uncl3035:GH",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A person who applied for a job.",
+            "rdfs:label": "Applicant for job",
+            "rdf:value": "GH"
+        },
+        {
+            "@id": "uncl3035:GI",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Person is a spouse.",
+            "rdfs:label": "Spouse",
+            "rdf:value": "GI"
+        },
+        {
+            "@id": "uncl3035:GJ",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Person is a mother.",
+            "rdfs:label": "Mother",
+            "rdf:value": "GJ"
+        },
+        {
+            "@id": "uncl3035:GK",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Person is a father.",
+            "rdfs:label": "Father",
+            "rdf:value": "GK"
+        },
+        {
+            "@id": "uncl3035:GL",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A person who is registered in a social security scheme.",
+            "rdfs:label": "Socially insured person",
+            "rdf:value": "GL"
+        },
+        {
+            "@id": "uncl3035:GM",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "To specifically identify the party in charge of inventory control.",
+            "rdfs:label": "Inventory controller",
+            "rdf:value": "GM"
+        },
+        {
+            "@id": "uncl3035:GN",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party or person who has or will apply a process.",
+            "rdfs:label": "Processor",
+            "rdf:value": "GN"
+        },
+        {
+            "@id": "uncl3035:GO",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The party which owns the goods.",
+            "rdfs:label": "Goods owner",
+            "rdf:value": "GO"
+        },
+        {
+            "@id": "uncl3035:GP",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party or person who has undertaken or will undertake packing.",
+            "rdfs:label": "Packer",
+            "rdf:value": "GP"
+        },
+        {
+            "@id": "uncl3035:GQ",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party or person who has undertaken or will undertake a slaughter.",
+            "rdfs:label": "Slaughterer",
+            "rdf:value": "GQ"
+        },
+        {
+            "@id": "uncl3035:GR",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "[3026] Party entitled to authorize release of goods from custodian.",
+            "rdfs:label": "Goods releasing party",
+            "rdf:value": "GR"
+        },
+        {
+            "@id": "uncl3035:GS",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party authorised to represent the consignor.",
+            "rdfs:label": "Consignor's representative",
+            "rdf:value": "GS"
+        },
+        {
+            "@id": "uncl3035:GT",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A carrier moving cargo, including containers, via rail.",
+            "rdfs:label": "Rail carrier",
+            "rdf:value": "GT"
+        },
+        {
+            "@id": "uncl3035:GU",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A code identifying the party which created a specific article number.",
+            "rdfs:label": "Originator of article number",
+            "rdf:value": "GU"
+        },
+        {
+            "@id": "uncl3035:GV",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A code used to identify the organization which is responsible for the procurement.",
+            "rdfs:label": "Procurement responsibility for order",
+            "rdf:value": "GV"
+        },
+        {
+            "@id": "uncl3035:GW",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Code indicating the fact that the party identified carries out all operations within that company's activities.",
+            "rdfs:label": "Party fulfilling all operations",
+            "rdf:value": "GW"
+        },
+        {
+            "@id": "uncl3035:GX",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party controlling a central catalogue.",
+            "rdfs:label": "Central catalogue party",
+            "rdf:value": "GX"
+        },
+        {
+            "@id": "uncl3035:GY",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party reporting inventory information.",
+            "rdfs:label": "Inventory reporting party",
+            "rdf:value": "GY"
+        },
+        {
+            "@id": "uncl3035:GZ",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party which may be in a position to supply products or services should the main usual supplier be unable to do so.",
+            "rdfs:label": "Substitute supplier",
+            "rdf:value": "GZ"
+        },
+        {
+            "@id": "uncl3035:HA",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party which delivers consignments to a terminal.",
+            "rdfs:label": "Party which delivers consignments to the terminal",
+            "rdf:value": "HA"
+        },
+        {
+            "@id": "uncl3035:HB",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party which picks up consignments from a terminal.",
+            "rdfs:label": "Party which picks up consignments from the terminal",
+            "rdf:value": "HB"
+        },
+        {
+            "@id": "uncl3035:HC",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Freight forwarder to whom transit consignments are addressed, and from whom they are to be on-forwarded.",
+            "rdfs:label": "Transit freight forwarder",
+            "rdf:value": "HC"
+        },
+        {
+            "@id": "uncl3035:HD",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The party who will perform inspection and acceptance.",
+            "rdfs:label": "Inspection and acceptance party",
+            "rdf:value": "HD"
+        },
+        {
+            "@id": "uncl3035:HE",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The office that provides transportation information.",
+            "rdfs:label": "Transportation office",
+            "rdf:value": "HE"
+        },
+        {
+            "@id": "uncl3035:HF",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The office responsible for the administration of a contract.",
+            "rdfs:label": "Contract administration office",
+            "rdf:value": "HF"
+        },
+        {
+            "@id": "uncl3035:HG",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A party who conducts investigations.",
+            "rdfs:label": "Investigator",
+            "rdf:value": "HG"
+        },
+        {
+            "@id": "uncl3035:HH",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The office responsible for conducting audits.",
+            "rdfs:label": "Audit office",
+            "rdf:value": "HH"
+        },
+        {
+            "@id": "uncl3035:HI",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The party requesting an action.",
+            "rdfs:label": "Requestor",
+            "rdf:value": "HI"
+        },
+        {
+            "@id": "uncl3035:HJ",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The office that reviews sensitive information for foreign disclosure.",
+            "rdfs:label": "Foreign disclosure information office",
+            "rdf:value": "HJ"
+        },
+        {
+            "@id": "uncl3035:HK",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The party within an organization for whom the material is marked to be delivered.",
+            "rdfs:label": "Mark-for party",
+            "rdf:value": "HK"
+        },
+        {
+            "@id": "uncl3035:HL",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The party to whom reports are to be submitted.",
+            "rdfs:label": "Party to receive reports",
+            "rdf:value": "HL"
+        },
+        {
+            "@id": "uncl3035:HM",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party identification of an alternative manufacturer for a product.",
+            "rdfs:label": "Alternative manufacturer",
+            "rdf:value": "HM"
+        },
+        {
+            "@id": "uncl3035:HN",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The party who is performing a service.",
+            "rdfs:label": "Service performer",
+            "rdf:value": "HN"
+        },
+        {
+            "@id": "uncl3035:HO",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "An association of shippers.",
+            "rdfs:label": "Shipper's association",
+            "rdf:value": "HO"
+        },
+        {
+            "@id": "uncl3035:HP",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "To identify the final recipient of the message.",
+            "rdfs:label": "Final message recipient",
+            "rdf:value": "HP"
+        },
+        {
+            "@id": "uncl3035:HQ",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identifies the owner of the account.",
+            "rdfs:label": "Account owner",
+            "rdf:value": "HQ"
+        },
+        {
+            "@id": "uncl3035:HR",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identifies the shipping line service organization.",
+            "rdfs:label": "Shipping line service",
+            "rdf:value": "HR"
+        },
+        {
+            "@id": "uncl3035:HS",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party to whom payment is due.",
+            "rdfs:label": "Creditor",
+            "rdf:value": "HS"
+        },
+        {
+            "@id": "uncl3035:HT",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Institution through which funds will be paid.",
+            "rdfs:label": "Clearing house",
+            "rdf:value": "HT"
+        },
+        {
+            "@id": "uncl3035:HU",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Bank which instructed the sender to act on the transaction(s).",
+            "rdfs:label": "Ordering bank",
+            "rdf:value": "HU"
+        },
+        {
+            "@id": "uncl3035:HV",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identifies the financial party that receives the funds.",
+            "rdfs:label": "Receiver of funds",
+            "rdf:value": "HV"
+        },
+        {
+            "@id": "uncl3035:HW",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identifies the party that sends the funds.",
+            "rdfs:label": "Sender of funds",
+            "rdf:value": "HW"
+        },
+        {
+            "@id": "uncl3035:HX",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party from whom payment is due.",
+            "rdfs:label": "Debtor",
+            "rdf:value": "HX"
+        },
+        {
+            "@id": "uncl3035:HY",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The bank which presents documents to the drawee.",
+            "rdfs:label": "Presenting bank",
+            "rdf:value": "HY"
+        },
+        {
+            "@id": "uncl3035:HZ",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Team responsible for performing work.",
+            "rdfs:label": "Work team",
+            "rdf:value": "HZ"
+        },
+        {
+            "@id": "uncl3035:I1",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A financial institution between the ordered bank and the beneficiary's bank.",
+            "rdfs:label": "Intermediary bank 1",
+            "rdf:value": "I1"
+        },
+        {
+            "@id": "uncl3035:I2",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A financial institution between the ordered bank and the beneficiary's bank.",
+            "rdfs:label": "Intermediary bank 2",
+            "rdf:value": "I2"
+        },
+        {
+            "@id": "uncl3035:IB",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A person intervening between parties to produce agreement or reconciliation.",
+            "rdfs:label": "Intermediary/broker",
+            "rdf:value": "IB"
+        },
+        {
+            "@id": "uncl3035:IC",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The intermediate consignee.",
+            "rdfs:label": "Intermediate consignee",
+            "rdf:value": "IC"
+        },
+        {
+            "@id": "uncl3035:ID",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A code used to identify a party who replaces the previous party for the manufacture of an article.",
+            "rdfs:label": "Replacing manufacturer",
+            "rdf:value": "ID"
+        },
+        {
+            "@id": "uncl3035:IE",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identifies the non-resident third party company with whom the financial account is held.",
+            "rdfs:label": "Non-resident third party company with whom financial account is held",
+            "rdf:value": "IE"
+        },
+        {
+            "@id": "uncl3035:IF",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identifies the non-resident group company with whom the financial account is held.",
+            "rdfs:label": "Non-resident group company with whom financial account is held",
+            "rdf:value": "IF"
+        },
+        {
+            "@id": "uncl3035:IG",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The ultimate non-resident recipient of the funds. Normally the account owner who is reimbursed by the payer.",
+            "rdfs:label": "Non-resident beneficiary",
+            "rdf:value": "IG"
+        },
+        {
+            "@id": "uncl3035:IH",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The ultimate resident recipient of the funds. Normally the account owner who is reimbursed by the payer.",
+            "rdfs:label": "Resident beneficiary",
+            "rdf:value": "IH"
+        },
+        {
+            "@id": "uncl3035:II",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "[3028] Party issuing an invoice.",
+            "rdfs:label": "Invoice issuer",
+            "rdf:value": "II"
+        },
+        {
+            "@id": "uncl3035:IJ",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identifies the non-resident party originating the instruction.",
+            "rdfs:label": "Non-resident instructing party",
+            "rdf:value": "IJ"
+        },
+        {
+            "@id": "uncl3035:IL",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identifies the resident party originating the instruction.",
+            "rdfs:label": "Resident instructing party",
+            "rdf:value": "IL"
+        },
+        {
+            "@id": "uncl3035:IM",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "[3020] Party who makes - or on whose behalf a Customs clearing agent or other authorized person makes - an import declaration. This may include a person who has possession of the goods or to whom the goods are consigned.",
+            "rdfs:label": "Importer",
+            "rdf:value": "IM"
+        },
+        {
+            "@id": "uncl3035:IN",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "[3070] A person or company offering insurance policies for premiums.",
+            "rdfs:label": "Insurer",
+            "rdf:value": "IN"
+        },
+        {
+            "@id": "uncl3035:IO",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A company engaged in the business of insurance.",
+            "rdfs:label": "Insurance company",
+            "rdf:value": "IO"
+        },
+        {
+            "@id": "uncl3035:IP",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "[3360] A party which adjusts losses on behalf of an insurer.",
+            "rdfs:label": "Insurance claim adjuster",
+            "rdf:value": "IP"
+        },
+        {
+            "@id": "uncl3035:IQ",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Domestic party acting as financial institution.",
+            "rdfs:label": "Domestic financial institution",
+            "rdf:value": "IQ"
+        },
+        {
+            "@id": "uncl3035:IR",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Non-domestic party acting as financial institution.",
+            "rdfs:label": "Non-domestic financial institution",
+            "rdf:value": "IR"
+        },
+        {
+            "@id": "uncl3035:IS",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party (at buyer) to receive certified inspection report.",
+            "rdfs:label": "Party to receive certified inspection report",
+            "rdf:value": "IS"
+        },
+        {
+            "@id": "uncl3035:IT",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A party who possesses the site on which an installation shall be made.",
+            "rdfs:label": "Installation on site",
+            "rdf:value": "IT"
+        },
+        {
+            "@id": "uncl3035:IU",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Non-resident party who makes the payment or against whom a claim exists.",
+            "rdfs:label": "Non-resident debtor",
+            "rdf:value": "IU"
+        },
+        {
+            "@id": "uncl3035:IV",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "[3006] Party to whom an invoice is issued.",
+            "rdfs:label": "Invoicee",
+            "rdf:value": "IV"
+        },
+        {
+            "@id": "uncl3035:IW",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Non-resident party receiving the payment or against whom a liability exists.",
+            "rdfs:label": "Non-resident creditor",
+            "rdf:value": "IW"
+        },
+        {
+            "@id": "uncl3035:IX",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The supplier's team responsible for performing the work.",
+            "rdfs:label": "Supplier work team",
+            "rdf:value": "IX"
+        },
+        {
+            "@id": "uncl3035:IY",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A code to identify the party who rents the rights to use the goodwill and facilities of an enterprise.",
+            "rdfs:label": "Tenant manager",
+            "rdf:value": "IY"
+        },
+        {
+            "@id": "uncl3035:IZ",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A code to identify the party who has been legally mandated to sell off an enterprise.",
+            "rdfs:label": "Party mandated to liquidate an enterprise",
+            "rdf:value": "IZ"
+        },
+        {
+            "@id": "uncl3035:JA",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Code identifying the party as a certified accountant.",
+            "rdfs:label": "Certified accountant",
+            "rdf:value": "JA"
+        },
+        {
+            "@id": "uncl3035:JB",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party that will collect or has collected the goods.",
+            "rdfs:label": "Goods collection party",
+            "rdf:value": "JB"
+        },
+        {
+            "@id": "uncl3035:JC",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identifies the party at the final place of positioning.",
+            "rdfs:label": "Party at final place of positioning",
+            "rdf:value": "JC"
+        },
+        {
+            "@id": "uncl3035:JD",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identifies the office where customs clearance procedures take place.",
+            "rdfs:label": "Customs office of clearance",
+            "rdf:value": "JD"
+        },
+        {
+            "@id": "uncl3035:JE",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identification of the party from whom customs documents are to be picked up.",
+            "rdfs:label": "Party from whom customs documents are to be picked up",
+            "rdf:value": "JE"
+        },
+        {
+            "@id": "uncl3035:JF",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identification of the party from whom non-customs documents are to be picked up.",
+            "rdfs:label": "Party from whom non-customs documents are to be picked up",
+            "rdf:value": "JF"
+        },
+        {
+            "@id": "uncl3035:JG",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identification of the party to whom customs documents are to be delivered.",
+            "rdfs:label": "Party to receive customs documents",
+            "rdf:value": "JG"
+        },
+        {
+            "@id": "uncl3035:JH",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identification of the party to whom non-customs documents are to be delivered.",
+            "rdfs:label": "Party to receive non-customs documents",
+            "rdf:value": "JH"
+        },
+        {
+            "@id": "uncl3035:LA",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party responsible to take care of transported living animals.",
+            "rdfs:label": "Party designated to provide living animal care",
+            "rdf:value": "LA"
+        },
+        {
+            "@id": "uncl3035:LB",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A code used to identify a party who participates in production.",
+            "rdfs:label": "Co-producer",
+            "rdf:value": "LB"
+        },
+        {
+            "@id": "uncl3035:LC",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A code to identify the party who is responsible for declaring the Value Added Tax (VAT) on the sale of goods or services.",
+            "rdfs:label": "Party declaring the Value Added Tax (VAT)",
+            "rdf:value": "LC"
+        },
+        {
+            "@id": "uncl3035:LD",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A code to identify the party who is eligible to recover the Value Added Tax (VAT) on the sale of goods or services.",
+            "rdfs:label": "Party recovering the Value Added Tax (VAT)",
+            "rdf:value": "LD"
+        },
+        {
+            "@id": "uncl3035:LE",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "To identify the person who is the subject of the claim.",
+            "rdfs:label": "Person on claim",
+            "rdf:value": "LE"
+        },
+        {
+            "@id": "uncl3035:LF",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The identification of the buyer's corporate office.",
+            "rdfs:label": "Buyer's corporate office",
+            "rdf:value": "LF"
+        },
+        {
+            "@id": "uncl3035:LG",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The identification of the supplier's corporate office.",
+            "rdfs:label": "Supplier's corporate office",
+            "rdf:value": "LG"
+        },
+        {
+            "@id": "uncl3035:LH",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The party responsible for settling or paying a debt.",
+            "rdfs:label": "Liquidator",
+            "rdf:value": "LH"
+        },
+        {
+            "@id": "uncl3035:LI",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "An individual with coordination responsibilities for a specific account.",
+            "rdfs:label": "Account coordinator",
+            "rdf:value": "LI"
+        },
+        {
+            "@id": "uncl3035:LJ",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "An individual responsible for an inspection team.",
+            "rdfs:label": "Inspection leader",
+            "rdf:value": "LJ"
+        },
+        {
+            "@id": "uncl3035:LK",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A person receiving or registered to receive medical treatment.",
+            "rdfs:label": "Patient",
+            "rdf:value": "LK"
+        },
+        {
+            "@id": "uncl3035:LL",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Person accompanying the patient.",
+            "rdfs:label": "Patient companion",
+            "rdf:value": "LL"
+        },
+        {
+            "@id": "uncl3035:LM",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The party who executes a medical treatment.",
+            "rdfs:label": "Medical treatment executant",
+            "rdf:value": "LM"
+        },
+        {
+            "@id": "uncl3035:LN",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party lending goods or equipment.",
+            "rdfs:label": "Lender",
+            "rdf:value": "LN"
+        },
+        {
+            "@id": "uncl3035:LO",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The party who prescribes a medical treatment.",
+            "rdfs:label": "Medical treatment prescriber",
+            "rdf:value": "LO"
+        },
+        {
+            "@id": "uncl3035:LP",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party responsible for the loading when other than carrier.",
+            "rdfs:label": "Loading party",
+            "rdf:value": "LP"
+        },
+        {
+            "@id": "uncl3035:LQ",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A party which authorises the payment of a debt.",
+            "rdfs:label": "Debt payment authorisation party",
+            "rdf:value": "LQ"
+        },
+        {
+            "@id": "uncl3035:LR",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identification of an administration centre.",
+            "rdfs:label": "Administration centre",
+            "rdf:value": "LR"
+        },
+        {
+            "@id": "uncl3035:LS",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A centre which services and repairs products.",
+            "rdfs:label": "Product services and repairs centre",
+            "rdf:value": "LS"
+        },
+        {
+            "@id": "uncl3035:LT",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party is a secretariat.",
+            "rdfs:label": "Secretariat",
+            "rdf:value": "LT"
+        },
+        {
+            "@id": "uncl3035:LU",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party acts as an entry point for technical assessment.",
+            "rdfs:label": "Entry point technical assessment group",
+            "rdf:value": "LU"
+        },
+        {
+            "@id": "uncl3035:LV",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party responsible for assigning a status.",
+            "rdfs:label": "Party assigning a status",
+            "rdf:value": "LV"
+        },
+        {
+            "@id": "uncl3035:MA",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party for whom item is ultimately intended.",
+            "rdfs:label": "Party for whom item is ultimately intended",
+            "rdf:value": "MA"
+        },
+        {
+            "@id": "uncl3035:MAD",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A party responsible for keeping a register of meters and related characteristics.",
+            "rdfs:label": "Meter administrator",
+            "rdf:value": "MAD"
+        },
+        {
+            "@id": "uncl3035:MDR",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A party responsible for the establishment and validation of metered data received from the Metered Data Collector.",
+            "rdfs:label": "Metered data responsible",
+            "rdf:value": "MDR"
+        },
+        {
+            "@id": "uncl3035:MF",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "[3513] Party who manufactures the goods.",
+            "rdfs:label": "Manufacturer of goods",
+            "rdf:value": "MF"
+        },
+        {
+            "@id": "uncl3035:MG",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party designated to execute re-icing, selected in the official list of mandatories competent for this kind of operation.",
+            "rdfs:label": "Party designated to execute re-icing",
+            "rdf:value": "MG"
+        },
+        {
+            "@id": "uncl3035:MI",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A party issuing a planning schedule/material release.",
+            "rdfs:label": "Planning schedule/material release issuer",
+            "rdf:value": "MI"
+        },
+        {
+            "@id": "uncl3035:MOP",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Operator of a market, e.g . In the utilities sector, the unique power exchange of trades for the actual delivery of energy that can also establish area prices for settlement and reconciliation.",
+            "rdfs:label": "Market operator",
+            "rdf:value": "MOP"
+        },
+        {
+            "@id": "uncl3035:MP",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A party acting as a particular production unit of a manufacturer.",
+            "rdfs:label": "Manufacturing unit",
+            "rdf:value": "MP"
+        },
+        {
+            "@id": "uncl3035:MR",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A party to receive a message or messages.",
+            "rdfs:label": "Message recipient",
+            "rdf:value": "MR"
+        },
+        {
+            "@id": "uncl3035:MS",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "[3522] Issuer of a document and/or sender of a message.",
+            "rdfs:label": "Document/message issuer/sender",
+            "rdf:value": "MS"
+        },
+        {
+            "@id": "uncl3035:MT",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A party which is designated to execute sanitary procedures.",
+            "rdfs:label": "Party designated to execute sanitary procedures",
+            "rdf:value": "MT"
+        },
+        {
+            "@id": "uncl3035:N2",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "[3376] The second party which is to be notified.",
+            "rdfs:label": "Notify party no. 2",
+            "rdf:value": "N2"
+        },
+        {
+            "@id": "uncl3035:NI",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "[3180] Party to be notified. Synonym: Notify party No. 1.",
+            "rdfs:label": "Notify party",
+            "rdf:value": "NI"
+        },
+        {
+            "@id": "uncl3035:OA",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party who offers facilities for berthing of vessels, handling and storage of break bulk cargo.",
+            "rdfs:label": "Break bulk berth operator",
+            "rdf:value": "OA"
+        },
+        {
+            "@id": "uncl3035:OB",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party who issued an order.",
+            "rdfs:label": "Ordered by",
+            "rdf:value": "OB"
+        },
+        {
+            "@id": "uncl3035:OC",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The party responsible for all party data.",
+            "rdfs:label": "Party data responsible party",
+            "rdf:value": "OC"
+        },
+        {
+            "@id": "uncl3035:OD",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A party making repairs to equipment.",
+            "rdfs:label": "Equipment repair party",
+            "rdf:value": "OD"
+        },
+        {
+            "@id": "uncl3035:OE",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party owning a property.",
+            "rdfs:label": "Owner of property",
+            "rdf:value": "OE"
+        },
+        {
+            "@id": "uncl3035:OF",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party on behalf of which an action is executed.",
+            "rdfs:label": "On behalf of",
+            "rdf:value": "OF"
+        },
+        {
+            "@id": "uncl3035:OG",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Surveyor hired by the owner or lessor of the item.",
+            "rdfs:label": "Owner or lessor's surveyor",
+            "rdf:value": "OG"
+        },
+        {
+            "@id": "uncl3035:OH",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Surveyor hired by the lessee of the item.",
+            "rdfs:label": "Lessee's surveyor",
+            "rdf:value": "OH"
+        },
+        {
+            "@id": "uncl3035:OI",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Third party inspecting goods or equipment.",
+            "rdfs:label": "Outside inspection agency",
+            "rdf:value": "OI"
+        },
+        {
+            "@id": "uncl3035:OJ",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Another party besides the two principals.",
+            "rdfs:label": "Third party",
+            "rdf:value": "OJ"
+        },
+        {
+            "@id": "uncl3035:OK",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identifies a sub-entity within the receiver's organization.",
+            "rdfs:label": "Receiver's sub-entity",
+            "rdf:value": "OK"
+        },
+        {
+            "@id": "uncl3035:OL",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party to be approached in case of difficulty.",
+            "rdfs:label": "Case of need party",
+            "rdf:value": "OL"
+        },
+        {
+            "@id": "uncl3035:OM",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Any bank, other than the remitting bank, involved in processing the collection.",
+            "rdfs:label": "Collecting bank",
+            "rdf:value": "OM"
+        },
+        {
+            "@id": "uncl3035:ON",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The bank to which the principal has entrusted the handling of a collection.",
+            "rdfs:label": "Remitting bank",
+            "rdf:value": "ON"
+        },
+        {
+            "@id": "uncl3035:OO",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The owner of goods under consignment which are moving under a negotiable transport document and will only be released upon receipt of the original transport document.",
+            "rdfs:label": "Order of the shipper party",
+            "rdf:value": "OO"
+        },
+        {
+            "@id": "uncl3035:OP",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "(3174) The party which operates property or a unit of equipment.",
+            "rdfs:label": "Operator of property or equipment",
+            "rdf:value": "OP"
+        },
+        {
+            "@id": "uncl3035:OQ",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The party entrusting the handling of a collection to a bank.",
+            "rdfs:label": "Collection principal",
+            "rdf:value": "OQ"
+        },
+        {
+            "@id": "uncl3035:OR",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identifies the bank servicing the account for the ordering customer or payer.",
+            "rdfs:label": "Ordered bank",
+            "rdf:value": "OR"
+        },
+        {
+            "@id": "uncl3035:OS",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The original supplier of the goods.",
+            "rdfs:label": "Original shipper",
+            "rdf:value": "OS"
+        },
+        {
+            "@id": "uncl3035:OT",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Third party testing goods, equipment or services.",
+            "rdfs:label": "Outside test agency",
+            "rdf:value": "OT"
+        },
+        {
+            "@id": "uncl3035:OU",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identifies the financial institution on the sending side which services the account owner's bank account(s).",
+            "rdfs:label": "Account owner's servicing bank on the sending side",
+            "rdf:value": "OU"
+        },
+        {
+            "@id": "uncl3035:OV",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party owning the means of transport. No synonym of carrier (= CA).",
+            "rdfs:label": "Transport means owner",
+            "rdf:value": "OV"
+        },
+        {
+            "@id": "uncl3035:OW",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identifies the financial institution on the receiving side which services the account owner's bank account(s).",
+            "rdfs:label": "Account owner's servicing bank on the receiving side",
+            "rdf:value": "OW"
+        },
+        {
+            "@id": "uncl3035:OX",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The account, or branch of the sender, or another financial institution, through which the sender will reimburse the receiver.",
+            "rdfs:label": "Sender's correspondent bank",
+            "rdf:value": "OX"
+        },
+        {
+            "@id": "uncl3035:OY",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identifies the originator of the instruction.",
+            "rdfs:label": "Ordering customer",
+            "rdf:value": "OY"
+        },
+        {
+            "@id": "uncl3035:OZ",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The branch of the receiver, or another financial institution, at which the funds will be made available to the receiver.",
+            "rdfs:label": "Receiver's correspondent bank",
+            "rdf:value": "OZ"
+        },
+        {
+            "@id": "uncl3035:P1",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "First party to contact.",
+            "rdfs:label": "Contact party 1",
+            "rdf:value": "P1"
+        },
+        {
+            "@id": "uncl3035:P2",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Second party to contact.",
+            "rdfs:label": "Contact party 2",
+            "rdf:value": "P2"
+        },
+        {
+            "@id": "uncl3035:P3",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Third party to contact.",
+            "rdfs:label": "Contact party 3",
+            "rdf:value": "P3"
+        },
+        {
+            "@id": "uncl3035:P4",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Fourth party to contact.",
+            "rdfs:label": "Contact party 4",
+            "rdf:value": "P4"
+        },
+        {
+            "@id": "uncl3035:PA",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party to whom the inspection report should be sent.",
+            "rdfs:label": "Party to receive inspection report",
+            "rdf:value": "PA"
+        },
+        {
+            "@id": "uncl3035:PAD",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A party responsible for maintaining party information.",
+            "rdfs:label": "Party Administrator",
+            "rdf:value": "PAD"
+        },
+        {
+            "@id": "uncl3035:PB",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Financial institution designated to make payment.",
+            "rdfs:label": "Paying financial institution",
+            "rdf:value": "PB"
+        },
+        {
+            "@id": "uncl3035:PC",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party the purchaser within the actual message is selling the ordered goods or services to.",
+            "rdfs:label": "Actual purchaser's customer",
+            "rdf:value": "PC"
+        },
+        {
+            "@id": "uncl3035:PD",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Purchasing department of buyer.",
+            "rdfs:label": "Purchaser's department buyer",
+            "rdf:value": "PD"
+        },
+        {
+            "@id": "uncl3035:PE",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identifies the credit party when other than the beneficiary.",
+            "rdfs:label": "Payee",
+            "rdf:value": "PE"
+        },
+        {
+            "@id": "uncl3035:PF",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party to whom the freight bill should be sent.",
+            "rdfs:label": "Party to receive freight bill",
+            "rdf:value": "PF"
+        },
+        {
+            "@id": "uncl3035:PG",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party responsible for the whole project if other than the buyer.",
+            "rdfs:label": "Prime contractor",
+            "rdf:value": "PG"
+        },
+        {
+            "@id": "uncl3035:PH",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Institution chosen by the payer to execute financial transactions on his behalf.",
+            "rdfs:label": "Payer's financial institution",
+            "rdf:value": "PH"
+        },
+        {
+            "@id": "uncl3035:PI",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Receiving company name/ID (ACH transfers).",
+            "rdfs:label": "Payee's company name/ID",
+            "rdf:value": "PI"
+        },
+        {
+            "@id": "uncl3035:PJ",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Second party designated by a first party to receive certain correspondence in lieu of it being mailed directly to this first party.",
+            "rdfs:label": "Party to receive correspondence",
+            "rdf:value": "PJ"
+        },
+        {
+            "@id": "uncl3035:PK",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party to contact.",
+            "rdfs:label": "Contact party",
+            "rdf:value": "PK"
+        },
+        {
+            "@id": "uncl3035:PM",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party being informed about invoice issue (via paper).",
+            "rdfs:label": "Party to receive paper memo of invoice",
+            "rdf:value": "PM"
+        },
+        {
+            "@id": "uncl3035:PN",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The party is to be the recipient of the shipping notice.",
+            "rdfs:label": "Party to receive shipping notice",
+            "rdf:value": "PN"
+        },
+        {
+            "@id": "uncl3035:PO",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "To be used only if ordering party and buyer are not identical.",
+            "rdfs:label": "Ordering party",
+            "rdf:value": "PO"
+        },
+        {
+            "@id": "uncl3035:POA",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A governmental commission in charge of the traffic and regulations of a port.",
+            "rdfs:label": "Port Authority",
+            "rdf:value": "POA"
+        },
+        {
+            "@id": "uncl3035:PQ",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A party which certifies something.",
+            "rdfs:label": "Certifying party",
+            "rdf:value": "PQ"
+        },
+        {
+            "@id": "uncl3035:PR",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "[3308] Party responsible for making a payment.",
+            "rdfs:label": "Payer",
+            "rdf:value": "PR"
+        },
+        {
+            "@id": "uncl3035:PS",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party to send cheque, draft or wire for payment.",
+            "rdfs:label": "Payer's company name/ID (Check, Draft or Wire)",
+            "rdf:value": "PS"
+        },
+        {
+            "@id": "uncl3035:PT",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A party which is named to be the recipient of test reports.",
+            "rdfs:label": "Party to receive test report",
+            "rdf:value": "PT"
+        },
+        {
+            "@id": "uncl3035:PW",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "[3282] Party where goods are to be, or have been, taken over by a carrier such as the place where a container is picked-up.",
+            "rdfs:label": "Despatch party",
+            "rdf:value": "PW"
+        },
+        {
+            "@id": "uncl3035:PX",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A party which is named to be the recipient of all documents.",
+            "rdfs:label": "Party to receive all documents",
+            "rdf:value": "PX"
+        },
+        {
+            "@id": "uncl3035:PY",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party or contact designated on behalf of carrier or his agent to establish the actual figures for quantities, weight, volume and/or (cube) measurements of goods or containers which are to appear in the transport contract and on which charges will be based.",
+            "rdfs:label": "Checking party",
+            "rdf:value": "PY"
+        },
+        {
+            "@id": "uncl3035:PZ",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The party that is to print a specific document.",
+            "rdfs:label": "Party to print some document",
+            "rdf:value": "PZ"
+        },
+        {
+            "@id": "uncl3035:RA",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identifies central bank or regulatory authority which must be informed of certain aspects of a message.",
+            "rdfs:label": "Central bank or regulatory authority",
+            "rdf:value": "RA"
+        },
+        {
+            "@id": "uncl3035:RB",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Financial institution designated to receive payment.",
+            "rdfs:label": "Receiving financial institution",
+            "rdf:value": "RB"
+        },
+        {
+            "@id": "uncl3035:RCA",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A party that is financially accountable for reconciliation, e.g. for the reconciled volume of energy products for a profiled accounting point.",
+            "rdfs:label": "Reconciliation accountable",
+            "rdf:value": "RCA"
+        },
+        {
+            "@id": "uncl3035:RCR",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A party that is responsible for reconciliation, e.g. reconciling volumes within a metering grid area.",
+            "rdfs:label": "Reconciliation responsible",
+            "rdf:value": "RCR"
+        },
+        {
+            "@id": "uncl3035:RE",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party to whom payment for a commercial invoice or bill should be remitted.",
+            "rdfs:label": "Party to receive commercial invoice remittance",
+            "rdf:value": "RE"
+        },
+        {
+            "@id": "uncl3035:RF",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Name of a person or department which actually delivers the goods.",
+            "rdfs:label": "Received from",
+            "rdf:value": "RF"
+        },
+        {
+            "@id": "uncl3035:RH",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Financial institution designated by seller to receive payment. RDFI (ACH transfers).",
+            "rdfs:label": "Seller's financial institution",
+            "rdf:value": "RH"
+        },
+        {
+            "@id": "uncl3035:RI",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Intermediary party between ceding company and reinsurance.",
+            "rdfs:label": "Reinsurance intermediary/broker",
+            "rdf:value": "RI"
+        },
+        {
+            "@id": "uncl3035:RL",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party who makes the cargo report to Customs.",
+            "rdfs:label": "Reporting carrier (Customs)",
+            "rdf:value": "RL"
+        },
+        {
+            "@id": "uncl3035:RM",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Agent who formally makes a cargo report to Customs on behalf of the carrier.",
+            "rdfs:label": "Reporting carrier's nominated agent/representative (Customs)",
+            "rdf:value": "RM"
+        },
+        {
+            "@id": "uncl3035:RP",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party responsible for the selection of the carrier(s).",
+            "rdfs:label": "Routing party",
+            "rdf:value": "RP"
+        },
+        {
+            "@id": "uncl3035:RS",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party to whom the statement of account should be sent.",
+            "rdfs:label": "Party to receive statement of account",
+            "rdf:value": "RS"
+        },
+        {
+            "@id": "uncl3035:RV",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identifies the party which is to receive the actual cheque, when different from the receiver of funds.",
+            "rdfs:label": "Receiver of cheque",
+            "rdf:value": "RV"
+        },
+        {
+            "@id": "uncl3035:RW",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party issuing the contract (waybill) for carriage.",
+            "rdfs:label": "Issuer of waybill",
+            "rdf:value": "RW"
+        },
+        {
+            "@id": "uncl3035:SB",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A party being responsible for sales.",
+            "rdfs:label": "Sales responsibility",
+            "rdf:value": "SB"
+        },
+        {
+            "@id": "uncl3035:SE",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "[3346] Party selling merchandise or services to a buyer.",
+            "rdfs:label": "Seller",
+            "rdf:value": "SE"
+        },
+        {
+            "@id": "uncl3035:SF",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identification of the party from where goods will be or have been shipped.",
+            "rdfs:label": "Ship from",
+            "rdf:value": "SF"
+        },
+        {
+            "@id": "uncl3035:SG",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A chain of shops or stores.",
+            "rdfs:label": "Store group",
+            "rdf:value": "SG"
+        },
+        {
+            "@id": "uncl3035:SI",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The party which issues a shipping schedule.",
+            "rdfs:label": "Shipping schedule issuer",
+            "rdf:value": "SI"
+        },
+        {
+            "@id": "uncl3035:SN",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A party keeping a shop or store.",
+            "rdfs:label": "Store keeper",
+            "rdf:value": "SN"
+        },
+        {
+            "@id": "uncl3035:SO",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party to whom the goods have been sold, if different to the bill to party.",
+            "rdfs:label": "Sold to if different than bill to",
+            "rdf:value": "SO"
+        },
+        {
+            "@id": "uncl3035:SPC",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party responsible for declaration of the verified gross mass (weight) of a packed transport equipment according to SOLAS Chapter VI, Regulation 2, paragraphs 4-6.",
+            "rdfs:label": "SOLAS verified gross mass responsible party",
+            "rdf:value": "SPC"
+        },
+        {
+            "@id": "uncl3035:SR",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "[3254] Party representing the seller for the purpose of a trade transaction.",
+            "rdfs:label": "Seller agent",
+            "rdf:value": "SR"
+        },
+        {
+            "@id": "uncl3035:SS",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party collecting social securities premiums.",
+            "rdfs:label": "Social securities collector's office",
+            "rdf:value": "SS"
+        },
+        {
+            "@id": "uncl3035:ST",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identification of the party to where goods will be or have been shipped.",
+            "rdfs:label": "Ship to",
+            "rdf:value": "ST"
+        },
+        {
+            "@id": "uncl3035:SU",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": " Party who supplies goods and or services.",
+            "rdfs:label": "Supplier",
+            "rdf:value": "SU"
+        },
+        {
+            "@id": "uncl3035:SX",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Natural of legal person (generally a bank of insurance company) who accepts responsibility in due legal form for the financial guarantee to Customs of the payment of additional duties or fees that become due against a particular shipment, which have not previously been covered by surety.",
+            "rdfs:label": "Surety for additions",
+            "rdf:value": "SX"
+        },
+        {
+            "@id": "uncl3035:SY",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Natural or legal person (generally a bank or insurance company) who accepts responsibility in due legal form for the financial consequences of non-fulfillment of another's obligations to the Customs (CCC).",
+            "rdfs:label": "Surety",
+            "rdf:value": "SY"
+        },
+        {
+            "@id": "uncl3035:SZ",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Natural or legal person that has been contracted by the importer to guarantee to Customs the payment of antidumping and/or countervailing duties that become due against a particular shipment.",
+            "rdfs:label": "Surety for antidumping/countervailing duty",
+            "rdf:value": "SZ"
+        },
+        {
+            "@id": "uncl3035:TA",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The party responsible for a receivership.",
+            "rdfs:label": "Legal receiver",
+            "rdf:value": "TA"
+        },
+        {
+            "@id": "uncl3035:TB",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "To specify that the party is a submitter.",
+            "rdfs:label": "Submitter",
+            "rdf:value": "TB"
+        },
+        {
+            "@id": "uncl3035:TC",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party collecting taxes.",
+            "rdfs:label": "Tax collector's office",
+            "rdf:value": "TC"
+        },
+        {
+            "@id": "uncl3035:TCP",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party, other than the ordering party, which has to pay the charges concerning the transit operations.",
+            "rdfs:label": "Transit charge payer",
+            "rdf:value": "TCP"
+        },
+        {
+            "@id": "uncl3035:TCR",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party responsible for transport capacity.",
+            "rdfs:label": "Transport capacity responsible party",
+            "rdf:value": "TCR"
+        },
+        {
+            "@id": "uncl3035:TD",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party to whom technical documentation should be sent.",
+            "rdfs:label": "Party to receive technical documentation",
+            "rdf:value": "TD"
+        },
+        {
+            "@id": "uncl3035:TE",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "To specify that the party is a referee in a bankruptcy case.",
+            "rdfs:label": "Bankruptcy referee",
+            "rdf:value": "TE"
+        },
+        {
+            "@id": "uncl3035:TF",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "To specify that the party is the source of information.",
+            "rdfs:label": "Source of information",
+            "rdf:value": "TF"
+        },
+        {
+            "@id": "uncl3035:TG",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "To specify that the party is a judge.",
+            "rdfs:label": "Judge",
+            "rdf:value": "TG"
+        },
+        {
+            "@id": "uncl3035:TH",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "To specify that the party is an attorney.",
+            "rdfs:label": "Attorney",
+            "rdf:value": "TH"
+        },
+        {
+            "@id": "uncl3035:TI",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "To specify that the party is a law firm.",
+            "rdfs:label": "Law firm",
+            "rdf:value": "TI"
+        },
+        {
+            "@id": "uncl3035:TJ",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "To specify that the party is a trustee.",
+            "rdfs:label": "Trustee",
+            "rdf:value": "TJ"
+        },
+        {
+            "@id": "uncl3035:TK",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "To specify that the party is a signatory.",
+            "rdfs:label": "Signatory",
+            "rdf:value": "TK"
+        },
+        {
+            "@id": "uncl3035:TL",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The party is an occupant.",
+            "rdfs:label": "Occupant",
+            "rdf:value": "TL"
+        },
+        {
+            "@id": "uncl3035:TM",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The party is a co-occupant.",
+            "rdfs:label": "Co-occupant",
+            "rdf:value": "TM"
+        },
+        {
+            "@id": "uncl3035:TN",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The party is the subject of an inquiry.",
+            "rdfs:label": "Subject of inquiry",
+            "rdf:value": "TN"
+        },
+        {
+            "@id": "uncl3035:TO",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The party is a lessor.",
+            "rdfs:label": "Lessor",
+            "rdf:value": "TO"
+        },
+        {
+            "@id": "uncl3035:TP",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identifies the owner of a residence.",
+            "rdfs:label": "Owner of residence",
+            "rdf:value": "TP"
+        },
+        {
+            "@id": "uncl3035:TQ",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identifies the founder.",
+            "rdfs:label": "Founder",
+            "rdf:value": "TQ"
+        },
+        {
+            "@id": "uncl3035:TR",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A party which handles the loading and unloading of means of transport.",
+            "rdfs:label": "Terminal operator",
+            "rdf:value": "TR"
+        },
+        {
+            "@id": "uncl3035:TS",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party to whom the certified test results should be sent.",
+            "rdfs:label": "Party to receive certified test results",
+            "rdf:value": "TS"
+        },
+        {
+            "@id": "uncl3035:TT",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The party which is the recipient of a transfer.",
+            "rdfs:label": "Transfer to",
+            "rdf:value": "TT"
+        },
+        {
+            "@id": "uncl3035:TU",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identifies the president.",
+            "rdfs:label": "President",
+            "rdf:value": "TU"
+        },
+        {
+            "@id": "uncl3035:TV",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identifies the chairperson.",
+            "rdfs:label": "Chairperson",
+            "rdf:value": "TV"
+        },
+        {
+            "@id": "uncl3035:TW",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identifies the legal title holder.",
+            "rdfs:label": "Legal title holder",
+            "rdf:value": "TW"
+        },
+        {
+            "@id": "uncl3035:TX",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identifies a shareholder.",
+            "rdfs:label": "Shareholder",
+            "rdf:value": "TX"
+        },
+        {
+            "@id": "uncl3035:TY",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identifies the provider.",
+            "rdfs:label": "Provider",
+            "rdf:value": "TY"
+        },
+        {
+            "@id": "uncl3035:TZ",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identifies the branch of the military.",
+            "rdfs:label": "Military branch",
+            "rdf:value": "TZ"
+        },
+        {
+            "@id": "uncl3035:UA",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identifies a university, college or school.",
+            "rdfs:label": "Educational institution",
+            "rdf:value": "UA"
+        },
+        {
+            "@id": "uncl3035:UB",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identifies the assignor.",
+            "rdfs:label": "Assignor",
+            "rdf:value": "UB"
+        },
+        {
+            "@id": "uncl3035:UC",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party who has been designated on the invoice or packing list as the final recipient of the stated merchandise.",
+            "rdfs:label": "Ultimate consignee",
+            "rdf:value": "UC"
+        },
+        {
+            "@id": "uncl3035:UD",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The final recipient of goods.",
+            "rdfs:label": "Ultimate customer",
+            "rdf:value": "UD"
+        },
+        {
+            "@id": "uncl3035:UE",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identifies the advisor.",
+            "rdfs:label": "Advisor",
+            "rdf:value": "UE"
+        },
+        {
+            "@id": "uncl3035:UF",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identifies the co-defendant.",
+            "rdfs:label": "Co-defendant",
+            "rdf:value": "UF"
+        },
+        {
+            "@id": "uncl3035:UG",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Company whose identity has been retained from a merger.",
+            "rdfs:label": "Merged company with retained identity",
+            "rdf:value": "UG"
+        },
+        {
+            "@id": "uncl3035:UH",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identifies the party represented.",
+            "rdfs:label": "Party represented",
+            "rdf:value": "UH"
+        },
+        {
+            "@id": "uncl3035:UHP",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party authorized (during a voyage) to apply unexpected handling procedures or party having applied these procedures.",
+            "rdfs:label": "Unexpected handling party",
+            "rdf:value": "UHP"
+        },
+        {
+            "@id": "uncl3035:UI",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identifies the assignee.",
+            "rdfs:label": "Assignee",
+            "rdf:value": "UI"
+        },
+        {
+            "@id": "uncl3035:UJ",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identifies the key person.",
+            "rdfs:label": "Key person",
+            "rdf:value": "UJ"
+        },
+        {
+            "@id": "uncl3035:UK",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identifies the author.",
+            "rdfs:label": "Author",
+            "rdf:value": "UK"
+        },
+        {
+            "@id": "uncl3035:UL",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identifies the ultimate parent company.",
+            "rdfs:label": "Ultimate parent company",
+            "rdf:value": "UL"
+        },
+        {
+            "@id": "uncl3035:UM",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identifies a party not to be confused with another party.",
+            "rdfs:label": "Party not to be confused with",
+            "rdf:value": "UM"
+        },
+        {
+            "@id": "uncl3035:UN",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identifies the accountant.",
+            "rdfs:label": "Accountant",
+            "rdf:value": "UN"
+        },
+        {
+            "@id": "uncl3035:UO",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identifies the plaintiff.",
+            "rdfs:label": "Plaintiff",
+            "rdf:value": "UO"
+        },
+        {
+            "@id": "uncl3035:UP",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A party to unload the goods.",
+            "rdfs:label": "Unloading party",
+            "rdf:value": "UP"
+        },
+        {
+            "@id": "uncl3035:UQ",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identifies the parent company.",
+            "rdfs:label": "Parent company",
+            "rdf:value": "UQ"
+        },
+        {
+            "@id": "uncl3035:UR",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identifies the affiliated company.",
+            "rdfs:label": "Affiliated company",
+            "rdf:value": "UR"
+        },
+        {
+            "@id": "uncl3035:US",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identifies the bailiff.",
+            "rdfs:label": "Bailiff",
+            "rdf:value": "US"
+        },
+        {
+            "@id": "uncl3035:UT",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identifies the company involved in a merger.",
+            "rdfs:label": "Merged company",
+            "rdf:value": "UT"
+        },
+        {
+            "@id": "uncl3035:UU",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identifies the defendant.",
+            "rdfs:label": "Defendant",
+            "rdf:value": "UU"
+        },
+        {
+            "@id": "uncl3035:UV",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identifies the petitioning creditor.",
+            "rdfs:label": "Petitioning creditor",
+            "rdf:value": "UV"
+        },
+        {
+            "@id": "uncl3035:UW",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identifies the guarantee agency.",
+            "rdfs:label": "Guarantee agency",
+            "rdf:value": "UW"
+        },
+        {
+            "@id": "uncl3035:UX",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identifies the organization group.",
+            "rdfs:label": "Organization group",
+            "rdf:value": "UX"
+        },
+        {
+            "@id": "uncl3035:UY",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identifies the subsidiary.",
+            "rdfs:label": "Subsidiary",
+            "rdf:value": "UY"
+        },
+        {
+            "@id": "uncl3035:UZ",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identifies the industry association.",
+            "rdfs:label": "Industry association",
+            "rdf:value": "UZ"
+        },
+        {
+            "@id": "uncl3035:VA",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identifies the joint owner.",
+            "rdfs:label": "Joint owner",
+            "rdf:value": "VA"
+        },
+        {
+            "@id": "uncl3035:VB",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identifies the joint venture.",
+            "rdfs:label": "Joint venture",
+            "rdf:value": "VB"
+        },
+        {
+            "@id": "uncl3035:VC",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identifies the filing office.",
+            "rdfs:label": "Filing office",
+            "rdf:value": "VC"
+        },
+        {
+            "@id": "uncl3035:VE",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identifies the court.",
+            "rdfs:label": "Court",
+            "rdf:value": "VE"
+        },
+        {
+            "@id": "uncl3035:VF",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identifies the liability holder.",
+            "rdfs:label": "Liability holder",
+            "rdf:value": "VF"
+        },
+        {
+            "@id": "uncl3035:VG",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identifies the local government sponsor.",
+            "rdfs:label": "Local government sponsor",
+            "rdf:value": "VG"
+        },
+        {
+            "@id": "uncl3035:VH",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identifies the mortgage company.",
+            "rdfs:label": "Mortgage company",
+            "rdf:value": "VH"
+        },
+        {
+            "@id": "uncl3035:VI",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identifies the notary public.",
+            "rdfs:label": "Notary public",
+            "rdf:value": "VI"
+        },
+        {
+            "@id": "uncl3035:VJ",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identifies the officer.",
+            "rdfs:label": "Officer",
+            "rdf:value": "VJ"
+        },
+        {
+            "@id": "uncl3035:VK",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identifies the publisher.",
+            "rdfs:label": "Publisher",
+            "rdf:value": "VK"
+        },
+        {
+            "@id": "uncl3035:VL",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identifies the party for whom manufacturing of goods is done.",
+            "rdfs:label": "Party manufactured for",
+            "rdf:value": "VL"
+        },
+        {
+            "@id": "uncl3035:VM",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identifies the previous owner.",
+            "rdfs:label": "Previous owner",
+            "rdf:value": "VM"
+        },
+        {
+            "@id": "uncl3035:VN",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party vending goods or services.",
+            "rdfs:label": "Vendor",
+            "rdf:value": "VN"
+        },
+        {
+            "@id": "uncl3035:VO",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identifies the purchased company.",
+            "rdfs:label": "Purchased company",
+            "rdf:value": "VO"
+        },
+        {
+            "@id": "uncl3035:VP",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Manager of a business which is in receivership status and which will not be liquidated.",
+            "rdfs:label": "Receiver manager",
+            "rdf:value": "VP"
+        },
+        {
+            "@id": "uncl3035:VQ",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identifies the responsible government agency.",
+            "rdfs:label": "Responsible government agency",
+            "rdf:value": "VQ"
+        },
+        {
+            "@id": "uncl3035:VR",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identifies the sole proprietor.",
+            "rdfs:label": "Sole proprietor",
+            "rdf:value": "VR"
+        },
+        {
+            "@id": "uncl3035:VS",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identifies the auctioneer.",
+            "rdfs:label": "Auctioneer",
+            "rdf:value": "VS"
+        },
+        {
+            "@id": "uncl3035:VT",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identifies the branch.",
+            "rdfs:label": "Branch",
+            "rdf:value": "VT"
+        },
+        {
+            "@id": "uncl3035:VU",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identifies the business.",
+            "rdfs:label": "Business",
+            "rdf:value": "VU"
+        },
+        {
+            "@id": "uncl3035:VV",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identifies the highest level parent company in the same country.",
+            "rdfs:label": "Ultimate same country parent company",
+            "rdf:value": "VV"
+        },
+        {
+            "@id": "uncl3035:VW",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identifies the party that can be called to account.",
+            "rdfs:label": "Responsible party",
+            "rdf:value": "VW"
+        },
+        {
+            "@id": "uncl3035:VX",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identifies a party that is guaranteed against loss.",
+            "rdfs:label": "Secured party",
+            "rdf:value": "VX"
+        },
+        {
+            "@id": "uncl3035:VY",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identifies an entity as an unspecified but related party.",
+            "rdfs:label": "Other related party",
+            "rdf:value": "VY"
+        },
+        {
+            "@id": "uncl3035:VZ",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identifies an entity as a joint or mutual debtor.",
+            "rdfs:label": "Co-debtor",
+            "rdf:value": "VZ"
+        },
+        {
+            "@id": "uncl3035:WA",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identifies a company which holds any financial stake in an undertaking or organization.",
+            "rdfs:label": "Company which holds financial interest",
+            "rdf:value": "WA"
+        },
+        {
+            "@id": "uncl3035:WB",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identifies an organization responsible for assigning a classification or rating.",
+            "rdfs:label": "Rating organization",
+            "rdf:value": "WB"
+        },
+        {
+            "@id": "uncl3035:WC",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The agency responsible for the reference of information.",
+            "rdfs:label": "Information reference agency",
+            "rdf:value": "WC"
+        },
+        {
+            "@id": "uncl3035:WD",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "[3004] Party depositing goods in a warehouse.",
+            "rdfs:label": "Warehouse depositor",
+            "rdf:value": "WD"
+        },
+        {
+            "@id": "uncl3035:WE",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The agency responsible for the compilation of information.",
+            "rdfs:label": "Compilation agency",
+            "rdf:value": "WE"
+        },
+        {
+            "@id": "uncl3035:WF",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The agency responsible for the maintenance of information.",
+            "rdfs:label": "Information maintenance agency",
+            "rdf:value": "WF"
+        },
+        {
+            "@id": "uncl3035:WG",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The agency responsible for the dissemination of information.",
+            "rdfs:label": "Information dissemination agency",
+            "rdf:value": "WG"
+        },
+        {
+            "@id": "uncl3035:WH",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "[3022] Party taking responsibility for goods entered into a warehouse.",
+            "rdfs:label": "Warehouse keeper",
+            "rdf:value": "WH"
+        },
+        {
+            "@id": "uncl3035:WI",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Specifies the address for an inspection.",
+            "rdfs:label": "Inspection address",
+            "rdf:value": "WI"
+        },
+        {
+            "@id": "uncl3035:WJ",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Identification of the party responsible for a refusal.",
+            "rdfs:label": "Refusal party",
+            "rdf:value": "WJ"
+        },
+        {
+            "@id": "uncl3035:WK",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A party that provides telecommunications interconnectivity services in an electronic data interchange environment.",
+            "rdfs:label": "Value added network provider",
+            "rdf:value": "WK"
+        },
+        {
+            "@id": "uncl3035:WL",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The business or establishment of an agent.",
+            "rdfs:label": "Agency",
+            "rdf:value": "WL"
+        },
+        {
+            "@id": "uncl3035:WM",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A party managing works.",
+            "rdfs:label": "Works manager",
+            "rdf:value": "WM"
+        },
+        {
+            "@id": "uncl3035:WN",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party designated by the registering party to receive a binding direction to supply something.",
+            "rdfs:label": "Party to receive order to supply",
+            "rdf:value": "WN"
+        },
+        {
+            "@id": "uncl3035:WO",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "An entity to receive an invitation to offer.",
+            "rdfs:label": "Party to receive invitation to offer",
+            "rdf:value": "WO"
+        },
+        {
+            "@id": "uncl3035:WP",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A part into which an entity has been divided.",
+            "rdfs:label": "Sub-entity",
+            "rdf:value": "WP"
+        },
+        {
+            "@id": "uncl3035:WPA",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party designated (legally accepted) to ascertain the weight.",
+            "rdfs:label": "Weighting party",
+            "rdf:value": "WPA"
+        },
+        {
+            "@id": "uncl3035:WQ",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The name under which business is conducted.",
+            "rdfs:label": "Doing business as",
+            "rdf:value": "WQ"
+        },
+        {
+            "@id": "uncl3035:WR",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "The party stating the price of something to be purchased.",
+            "rdfs:label": "Party submitting quote",
+            "rdf:value": "WR"
+        },
+        {
+            "@id": "uncl3035:WS",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Seller of articles, often in large quantities, to be retailed by others.",
+            "rdfs:label": "Wholesaler",
+            "rdf:value": "WS"
+        },
+        {
+            "@id": "uncl3035:WT",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "A party attached or connected to another party.",
+            "rdfs:label": "Affiliated party",
+            "rdf:value": "WT"
+        },
+        {
+            "@id": "uncl3035:WU",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Name of an entity used before the current name.",
+            "rdfs:label": "Previous name",
+            "rdf:value": "WU"
+        },
+        {
+            "@id": "uncl3035:WV",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "An entity responsible for performing a task to be undertaken.",
+            "rdfs:label": "Party performing task",
+            "rdf:value": "WV"
+        },
+        {
+            "@id": "uncl3035:WW",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party performing the registration.",
+            "rdfs:label": "Registering party",
+            "rdf:value": "WW"
+        },
+        {
+            "@id": "uncl3035:WX",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party that offers the facility for the goods or container(s) to be cleared by customs authorities or other governmental authorities in the interior of a country.",
+            "rdfs:label": "Inland clearance depot operator",
+            "rdf:value": "WX"
+        },
+        {
+            "@id": "uncl3035:WY",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party that operates a terminal to which goods or containers are destined.",
+            "rdfs:label": "Destination terminal operator",
+            "rdf:value": "WY"
+        },
+        {
+            "@id": "uncl3035:WZ",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party that operates a terminal from which goods or containers have departed or will depart.",
+            "rdfs:label": "Departure terminal operator",
+            "rdf:value": "WZ"
+        },
+        {
+            "@id": "uncl3035:ZZZ",
+            "@type": "unece:UNCL3035Code",
+            "rdfs:comment": "Party specification mutually agreed between interchanging parties.",
+            "rdfs:label": "Mutually defined",
+            "rdf:value": "ZZZ"
+        }
+    ]
+}

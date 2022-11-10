@@ -1,0 +1,95 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl4513": "https://dmvc7xzscpizo.cloudfront.net/uncl4513#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl4513:1",
+            "@type": "unece:UNCL4513Code",
+            "rdfs:comment": "The data is to be processed as new.",
+            "rdfs:label": "New",
+            "rdf:value": "1"
+        },
+        {
+            "@id": "uncl4513:2",
+            "@type": "unece:UNCL4513Code",
+            "rdfs:comment": "The data contains new objects, which are to be added, and existing objects, which are to replace objects which have the same identifier.",
+            "rdfs:label": "Add and replace",
+            "rdf:value": "2"
+        },
+        {
+            "@id": "uncl4513:3",
+            "@type": "unece:UNCL4513Code",
+            "rdfs:comment": "The data is to replace existing data which has the same identifier.",
+            "rdfs:label": "Replace",
+            "rdf:value": "3"
+        },
+        {
+            "@id": "uncl4513:4",
+            "@type": "unece:UNCL4513Code",
+            "rdfs:comment": "The data identified is to be deleted.",
+            "rdfs:label": "Delete",
+            "rdf:value": "4"
+        },
+        {
+            "@id": "uncl4513:5",
+            "@type": "unece:UNCL4513Code",
+            "rdfs:comment": "The data is not to be maintained.",
+            "rdfs:label": "None",
+            "rdf:value": "5"
+        },
+        {
+            "@id": "uncl4513:6",
+            "@type": "unece:UNCL4513Code",
+            "rdfs:comment": "Maintenance operation involves addition.",
+            "rdfs:label": "Addition",
+            "rdf:value": "6"
+        },
+        {
+            "@id": "uncl4513:7",
+            "@type": "unece:UNCL4513Code",
+            "rdfs:comment": "Maintenance operation involves change.",
+            "rdfs:label": "Change",
+            "rdf:value": "7"
+        },
+        {
+            "@id": "uncl4513:8",
+            "@type": "unece:UNCL4513Code",
+            "rdfs:comment": "The item is marked for deletion in a future release.",
+            "rdfs:label": "Marked for deletion",
+            "rdf:value": "8"
+        },
+        {
+            "@id": "uncl4513:9",
+            "@type": "unece:UNCL4513Code",
+            "rdfs:comment": "Maintenance operation involves repair.",
+            "rdfs:label": "Repair",
+            "rdf:value": "9"
+        },
+        {
+            "@id": "uncl4513:10",
+            "@type": "unece:UNCL4513Code",
+            "rdfs:comment": "Maintenance operation involves cleaning.",
+            "rdfs:label": "Cleaning",
+            "rdf:value": "10"
+        },
+        {
+            "@id": "uncl4513:11",
+            "@type": "unece:UNCL4513Code",
+            "rdfs:comment": "Maintenance operation involves waste disposal.",
+            "rdfs:label": "Waste disposal",
+            "rdf:value": "11"
+        },
+        {
+            "@id": "uncl4513:12",
+            "@type": "unece:UNCL4513Code",
+            "rdfs:comment": "Maintenance operation involves return of empty packages.",
+            "rdfs:label": "Return of empty packages",
+            "rdf:value": "12"
+        }
+    ]
+}

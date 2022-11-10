@@ -1,0 +1,1005 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl9013": "https://dmvc7xzscpizo.cloudfront.net/uncl9013#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl9013:1",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "The address for delivery is outside the area of the carrier/transporter.",
+            "rdfs:label": "Address ex delivery area",
+            "rdf:value": "1"
+        },
+        {
+            "@id": "uncl9013:2",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "The goods/consignments/equipment arrived after the means of transport has departed.",
+            "rdfs:label": "After transport departed",
+            "rdf:value": "2"
+        },
+        {
+            "@id": "uncl9013:3",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "The agent of the customer refused to accept delivery.",
+            "rdfs:label": "Agent refusal",
+            "rdf:value": "3"
+        },
+        {
+            "@id": "uncl9013:4",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "The seals on the equipment have been changed from those notified.",
+            "rdfs:label": "Altered seals",
+            "rdf:value": "4"
+        },
+        {
+            "@id": "uncl9013:5",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "An arrangement has been made to deliver at a specific time.",
+            "rdfs:label": "Appointment scheduled",
+            "rdf:value": "5"
+        },
+        {
+            "@id": "uncl9013:6",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "An unsuccessful attempt has been made to deliver the goods/consignments/equipment.",
+            "rdfs:label": "Attempt unsuccessful",
+            "rdf:value": "6"
+        },
+        {
+            "@id": "uncl9013:7",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "The goods/consignments/equipment could not be delivered/collected as the business was closed.",
+            "rdfs:label": "Business closed",
+            "rdf:value": "7"
+        },
+        {
+            "@id": "uncl9013:8",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "The goods/consignments/equipment cannot/will not be delivered/collected at the arranged time because of a change of schedule.",
+            "rdfs:label": "Changed schedule",
+            "rdf:value": "8"
+        },
+        {
+            "@id": "uncl9013:9",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "A further address is needed to effect delivery/collection of the goods/consignments/equipment.",
+            "rdfs:label": "Complementary address needed",
+            "rdf:value": "9"
+        },
+        {
+            "@id": "uncl9013:10",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "The computer system is inoperative.",
+            "rdfs:label": "Computer system down",
+            "rdf:value": "10"
+        },
+        {
+            "@id": "uncl9013:11",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "The consignee requests delivery on a credit base.",
+            "rdfs:label": "Credit approval requested",
+            "rdf:value": "11"
+        },
+        {
+            "@id": "uncl9013:12",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "Goods/consignments/equipment require delivery arrangements by the customer.",
+            "rdfs:label": "Customer arrangements",
+            "rdf:value": "12"
+        },
+        {
+            "@id": "uncl9013:13",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "The Customs authorities have refused to clear the goods/consignments/equipment.",
+            "rdfs:label": "Customs refusal",
+            "rdf:value": "13"
+        },
+        {
+            "@id": "uncl9013:14",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "The goods/consignments/equipment have been damaged.",
+            "rdfs:label": "Damaged",
+            "rdf:value": "14"
+        },
+        {
+            "@id": "uncl9013:15",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "Delivery of the goods/consignments/equipment is requested at specific dates/times/periods.",
+            "rdfs:label": "Delivery at specific requested dates/times/periods",
+            "rdf:value": "15"
+        },
+        {
+            "@id": "uncl9013:16",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "The goods/consignments/equipment have been sent to wrong destination.",
+            "rdfs:label": "Destination incorrect",
+            "rdf:value": "16"
+        },
+        {
+            "@id": "uncl9013:17",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "The transport has been delayed in departing on the arranged transport action.",
+            "rdfs:label": "Departure delay",
+            "rdf:value": "17"
+        },
+        {
+            "@id": "uncl9013:18",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "The train carrying the goods/consignments/equipment has been derailed.",
+            "rdfs:label": "Derailment",
+            "rdf:value": "18"
+        },
+        {
+            "@id": "uncl9013:19",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "There is a discrepancy between the details of goods/ equipment previously provided and the actual situation.",
+            "rdfs:label": "Discrepancy",
+            "rdf:value": "19"
+        },
+        {
+            "@id": "uncl9013:20",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "The goods/consignments/equipment cannot be delivered/collected due to a dock strike.",
+            "rdfs:label": "Dock strike",
+            "rdf:value": "20"
+        },
+        {
+            "@id": "uncl9013:21",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "An action in the transport chain has been affected due to action of the customer.",
+            "rdfs:label": "Due to customer",
+            "rdf:value": "21"
+        },
+        {
+            "@id": "uncl9013:22",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "The package/equipment is found to be empty.",
+            "rdfs:label": "Empty",
+            "rdf:value": "22"
+        },
+        {
+            "@id": "uncl9013:23",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "Delivery/collection could not be effected due to equipment failure.",
+            "rdfs:label": "Equipment failure",
+            "rdf:value": "23"
+        },
+        {
+            "@id": "uncl9013:24",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "An examination of the goods/equipment has been ordered by the relevant authority.",
+            "rdfs:label": "Examination required by relevant authority",
+            "rdf:value": "24"
+        },
+        {
+            "@id": "uncl9013:25",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "The goods/consignments/equipment have been prohibited from export pending further investigation.",
+            "rdfs:label": "Export restrictions",
+            "rdf:value": "25"
+        },
+        {
+            "@id": "uncl9013:26",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "Attempts to export the goods/consignments/equipment have been unsuccessful.",
+            "rdfs:label": "Frustrated export",
+            "rdf:value": "26"
+        },
+        {
+            "@id": "uncl9013:27",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "The tally of goods/consignments/equipment does not match the quantity as per advice. Result: less than advised.",
+            "rdfs:label": "Goods units missing",
+            "rdf:value": "27"
+        },
+        {
+            "@id": "uncl9013:28",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "The goods/consignments/equipment need import checks and tests pending being released for importation.",
+            "rdfs:label": "Import restrictions",
+            "rdf:value": "28"
+        },
+        {
+            "@id": "uncl9013:29",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "The goods/consignments/equipment were not collected due to incorrect pick information.",
+            "rdfs:label": "Incorrect pick information",
+            "rdf:value": "29"
+        },
+        {
+            "@id": "uncl9013:30",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "The address given for the action was incorrect.",
+            "rdfs:label": "Incorrect address",
+            "rdf:value": "30"
+        },
+        {
+            "@id": "uncl9013:31",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "The action was frustrated by an industrial dispute.",
+            "rdfs:label": "Industrial dispute",
+            "rdf:value": "31"
+        },
+        {
+            "@id": "uncl9013:32",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "Further instructions are required.",
+            "rdfs:label": "Instructions awaited",
+            "rdf:value": "32"
+        },
+        {
+            "@id": "uncl9013:33",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "The goods/consignments/equipment have been lost in the course of a movement along the transport chain.",
+            "rdfs:label": "Lost goods/consignments/equipment",
+            "rdf:value": "33"
+        },
+        {
+            "@id": "uncl9013:34",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "The means of transport on which the goods/consignments/equipment were being (were to be) moved has been damaged.",
+            "rdfs:label": "Means of transport damaged",
+            "rdf:value": "34"
+        },
+        {
+            "@id": "uncl9013:35",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "There has been a mechanical breakdown of the means of transport/equipment on which the goods/consignments/equipment was being (was to be) moved.",
+            "rdfs:label": "Mechanical breakdown",
+            "rdf:value": "35"
+        },
+        {
+            "@id": "uncl9013:36",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "A mechanical inspection of the means of transport/ equipment on which the goods/consignments/equipment were being (were to be) moved, is required.",
+            "rdfs:label": "Mechanical inspection",
+            "rdf:value": "36"
+        },
+        {
+            "@id": "uncl9013:37",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "The goods/consignments/equipment require complete and correct documentation.",
+            "rdfs:label": "Missing and/or incorrect documents",
+            "rdf:value": "37"
+        },
+        {
+            "@id": "uncl9013:38",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "Alternative delivery arrangements advised by consignee after failed delivery.",
+            "rdfs:label": "New delivery arrangements",
+            "rdf:value": "38"
+        },
+        {
+            "@id": "uncl9013:39",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "No information available concerning the responsible person at delivery address.",
+            "rdfs:label": "No recipient contact information",
+            "rdf:value": "39"
+        },
+        {
+            "@id": "uncl9013:40",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "The goods/consignments/equipment expected to be located and identified in the transport chain cannot be identified.",
+            "rdfs:label": "Not identified",
+            "rdf:value": "40"
+        },
+        {
+            "@id": "uncl9013:41",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "The goods/consignments/equipment to be loaded onto a means of transport have not been loaded on the expected transport.",
+            "rdfs:label": "Not loaded",
+            "rdf:value": "41"
+        },
+        {
+            "@id": "uncl9013:42",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "The goods/consignments/equipment have been stowed on deck.",
+            "rdfs:label": "On deck",
+            "rdf:value": "42"
+        },
+        {
+            "@id": "uncl9013:43",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "The package was not available for collection.",
+            "rdfs:label": "Package not ready",
+            "rdf:value": "43"
+        },
+        {
+            "@id": "uncl9013:44",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "The package tracking number is unknown.",
+            "rdfs:label": "Package tracking number unknown",
+            "rdf:value": "44"
+        },
+        {
+            "@id": "uncl9013:45",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "The goods/consignments/equipment are partly, but not completely, missing.",
+            "rdfs:label": "Partly missing",
+            "rdf:value": "45"
+        },
+        {
+            "@id": "uncl9013:46",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "The expected payment for the transport action was not received.",
+            "rdfs:label": "Payment not received",
+            "rdf:value": "46"
+        },
+        {
+            "@id": "uncl9013:47",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "The payer refused to pay for the service.",
+            "rdfs:label": "Payment refused",
+            "rdf:value": "47"
+        },
+        {
+            "@id": "uncl9013:48",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "The goods/consignments/equipment have been plundered.",
+            "rdfs:label": "Plundered",
+            "rdf:value": "48"
+        },
+        {
+            "@id": "uncl9013:49",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "The transport action/documentation has been refused without explanation.",
+            "rdfs:label": "Refused without reason given",
+            "rdf:value": "49"
+        },
+        {
+            "@id": "uncl9013:50",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "The goods/consignments/equipment to be delivered/collected have been scheduled past/later than the cut-off time.",
+            "rdfs:label": "Scheduled past cut-off",
+            "rdf:value": "50"
+        },
+        {
+            "@id": "uncl9013:51",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "The transport on which the goods/consignments/equipment is to be placed has been shunted to siding.",
+            "rdfs:label": "Shunted to siding",
+            "rdf:value": "51"
+        },
+        {
+            "@id": "uncl9013:52",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "No signature required.",
+            "rdfs:label": "Signature not required",
+            "rdf:value": "52"
+        },
+        {
+            "@id": "uncl9013:53",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "The goods/consignments/equipment have been sorted erroneously to an incorrect route.",
+            "rdfs:label": "Sorted wrong route",
+            "rdf:value": "53"
+        },
+        {
+            "@id": "uncl9013:54",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "A special service is required for the goods/consignments/equipment.",
+            "rdfs:label": "Special service required",
+            "rdf:value": "54"
+        },
+        {
+            "@id": "uncl9013:55",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "The consignment of goods has been split into two or more consignments.",
+            "rdfs:label": "Split",
+            "rdf:value": "55"
+        },
+        {
+            "@id": "uncl9013:56",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "The total goods/consignments/equipment is missing.",
+            "rdfs:label": "Totally missing",
+            "rdf:value": "56"
+        },
+        {
+            "@id": "uncl9013:57",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "The tracking information of the goods/consignments/equipment is unavailable.",
+            "rdfs:label": "Tracking information unavailable",
+            "rdf:value": "57"
+        },
+        {
+            "@id": "uncl9013:58",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "The goods/consignments/equipment have been delayed in transit.",
+            "rdfs:label": "Transit delay",
+            "rdf:value": "58"
+        },
+        {
+            "@id": "uncl9013:59",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "The goods/consignments/equipment cannot be located.",
+            "rdfs:label": "Unable to locate",
+            "rdf:value": "59"
+        },
+        {
+            "@id": "uncl9013:60",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "The goods/consignments/equipment were in unacceptable condition at time of delivery/collection.",
+            "rdfs:label": "Unacceptable condition",
+            "rdf:value": "60"
+        },
+        {
+            "@id": "uncl9013:61",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "The goods/consignments/equipment have been stowed under/below deck.",
+            "rdfs:label": "Under deck",
+            "rdf:value": "61"
+        },
+        {
+            "@id": "uncl9013:62",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "The reason is unknown.",
+            "rdfs:label": "Unknown",
+            "rdf:value": "62"
+        },
+        {
+            "@id": "uncl9013:63",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "The weather conditions have affected collection/delivery.",
+            "rdfs:label": "Weather conditions",
+            "rdf:value": "63"
+        },
+        {
+            "@id": "uncl9013:64",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "The goods/consignments/equipment have been in a storage facility for longer than permitted free time.",
+            "rdfs:label": "Expired free time",
+            "rdf:value": "64"
+        },
+        {
+            "@id": "uncl9013:65",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "Outstanding claims in respect of goods/consignments/equipment have been settled.",
+            "rdfs:label": "Outstanding claims settled",
+            "rdf:value": "65"
+        },
+        {
+            "@id": "uncl9013:66",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "A consignment or goods have been stolen.",
+            "rdfs:label": "Stolen",
+            "rdf:value": "66"
+        },
+        {
+            "@id": "uncl9013:67",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "An administrative error has occurred.",
+            "rdfs:label": "Administrative error",
+            "rdf:value": "67"
+        },
+        {
+            "@id": "uncl9013:68",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "An undefined incident has been attributed to the buyer.",
+            "rdfs:label": "Undefined incident attributed to buyer",
+            "rdf:value": "68"
+        },
+        {
+            "@id": "uncl9013:69",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "An undefined incident has been attributed to the carrier.",
+            "rdfs:label": "Undefined incident attributed to carrier",
+            "rdf:value": "69"
+        },
+        {
+            "@id": "uncl9013:70",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "An undefined incident has been attributed to the logistic service provider.",
+            "rdfs:label": "Undefined incident attributed to logistic service provider",
+            "rdf:value": "70"
+        },
+        {
+            "@id": "uncl9013:71",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "An agreed reference associated with a product has changed.",
+            "rdfs:label": "Change in agreed product reference",
+            "rdf:value": "71"
+        },
+        {
+            "@id": "uncl9013:72",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "A difference has been identified between the opening inventory balance, the physical count of incoming replenishment inventory, and the closing inventory balance.",
+            "rdfs:label": "Difference in replenishment figures",
+            "rdf:value": "72"
+        },
+        {
+            "@id": "uncl9013:73",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "A quantity of a variable measurement product which has been lost.",
+            "rdfs:label": "Lost quantity of variable measurement product",
+            "rdf:value": "73"
+        },
+        {
+            "@id": "uncl9013:74",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "Product damaged during the manipulation process in a warehouse.",
+            "rdfs:label": "Damaged during manipulation in warehouse",
+            "rdf:value": "74"
+        },
+        {
+            "@id": "uncl9013:75",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "A product has degenerated during storage or transport.",
+            "rdfs:label": "Product degenerated during storage or transport",
+            "rdf:value": "75"
+        },
+        {
+            "@id": "uncl9013:76",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "The goods, consignments, or equipment have been destroyed.",
+            "rdfs:label": "Destroyed",
+            "rdf:value": "76"
+        },
+        {
+            "@id": "uncl9013:77",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "A product's best before date has expired.",
+            "rdfs:label": "Best before date expired",
+            "rdf:value": "77"
+        },
+        {
+            "@id": "uncl9013:78",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "Log number is assigned.",
+            "rdfs:label": "Log number assignment",
+            "rdf:value": "78"
+        },
+        {
+            "@id": "uncl9013:79",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "An entry point is providing its initial comments on a DMR.",
+            "rdfs:label": "Entry point assessment of Data Maintenance Request (DMR) initial comment",
+            "rdf:value": "79"
+        },
+        {
+            "@id": "uncl9013:80",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "An entry point is providing its latest comments on a DMR.",
+            "rdfs:label": "Entry point assessment of Data Maintenance Request (DMR) latest comment",
+            "rdf:value": "80"
+        },
+        {
+            "@id": "uncl9013:81",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "Corrective action could not be taken.",
+            "rdfs:label": "Unable to take corrective action",
+            "rdf:value": "81"
+        },
+        {
+            "@id": "uncl9013:82",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "The international assessment group has determined if the Data Maintenance Request (DMR) is to be included in the next publication of the standard.",
+            "rdfs:label": "International assessment group reporting on Data Maintenance Request (DMR)",
+            "rdf:value": "82"
+        },
+        {
+            "@id": "uncl9013:83",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "Specified goods/consignments/equipment are missing.",
+            "rdfs:label": "Missing",
+            "rdf:value": "83"
+        },
+        {
+            "@id": "uncl9013:84",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "Report start of the central secretariat review cycle.",
+            "rdfs:label": "Central secretariat review cycle start",
+            "rdf:value": "84"
+        },
+        {
+            "@id": "uncl9013:85",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "A data structure has been assigned a permanent tag.",
+            "rdfs:label": "Data structure tag assigned",
+            "rdf:value": "85"
+        },
+        {
+            "@id": "uncl9013:86",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "Waiting due to being outside the period of operation.",
+            "rdfs:label": "Non-operational periods",
+            "rdf:value": "86"
+        },
+        {
+            "@id": "uncl9013:87",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "Information is in error.",
+            "rdfs:label": "Error",
+            "rdf:value": "87"
+        },
+        {
+            "@id": "uncl9013:88",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "The means of transport being used to move the consignment has been involved in an accident.",
+            "rdfs:label": "Accident involving means of transport",
+            "rdf:value": "88"
+        },
+        {
+            "@id": "uncl9013:89",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "A status of an order or instruction has changed.",
+            "rdfs:label": "Order or instruction status change",
+            "rdf:value": "89"
+        },
+        {
+            "@id": "uncl9013:90",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "The delivery was not accepted by the delivery party.",
+            "rdfs:label": "Not accepted by delivery party",
+            "rdf:value": "90"
+        },
+        {
+            "@id": "uncl9013:91",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "Goods have been delivered to another location following an instruction from the ordering party.",
+            "rdfs:label": "Delivery requested to another location by ordering party",
+            "rdf:value": "91"
+        },
+        {
+            "@id": "uncl9013:92",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "The goods delivered were incorrect.",
+            "rdfs:label": "Incorrect goods delivered",
+            "rdf:value": "92"
+        },
+        {
+            "@id": "uncl9013:93",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "An undefined incident has been attributed to the customs authority.",
+            "rdfs:label": "Undefined incident attributed to customs authority",
+            "rdf:value": "93"
+        },
+        {
+            "@id": "uncl9013:94",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "Item has defect(s).",
+            "rdfs:label": "Imperfect item",
+            "rdf:value": "94"
+        },
+        {
+            "@id": "uncl9013:95",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "Excess goods have been delivered.",
+            "rdfs:label": "Excess goods delivered",
+            "rdf:value": "95"
+        },
+        {
+            "@id": "uncl9013:96",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "Goods were partially delivered.",
+            "rdfs:label": "Goods partially delivered",
+            "rdf:value": "96"
+        },
+        {
+            "@id": "uncl9013:97",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "Action has been removed to a federal court level.",
+            "rdfs:label": "Remove to federal court",
+            "rdf:value": "97"
+        },
+        {
+            "@id": "uncl9013:98",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "A change in venue has been approved.",
+            "rdfs:label": "Change of venue granted",
+            "rdf:value": "98"
+        },
+        {
+            "@id": "uncl9013:99",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "The goods, consignment and/or equipment have replenished inventory.",
+            "rdfs:label": "Replenish inventory",
+            "rdf:value": "99"
+        },
+        {
+            "@id": "uncl9013:100",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "The unloading date and or time was not received.",
+            "rdfs:label": "Unloading date and or time not received",
+            "rdf:value": "100"
+        },
+        {
+            "@id": "uncl9013:101",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "Stacked pallets are not accepted by the goods recipient.",
+            "rdfs:label": "Stacked pallets not acceptable",
+            "rdf:value": "101"
+        },
+        {
+            "@id": "uncl9013:102",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "Pallets containing mixed goods are not accepted by goods recipient.",
+            "rdfs:label": "Pallets containing mixed goods not acceptable",
+            "rdf:value": "102"
+        },
+        {
+            "@id": "uncl9013:103",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "The product expiry date is not accepted.",
+            "rdfs:label": "Product expiry date not acceptable",
+            "rdf:value": "103"
+        },
+        {
+            "@id": "uncl9013:104",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "The combined height of the pallet and goods is higher than permitted.",
+            "rdfs:label": "Pallet and goods height higher than permitted",
+            "rdf:value": "104"
+        },
+        {
+            "@id": "uncl9013:105",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "The delivery order was not received.",
+            "rdfs:label": "Delivery order not received",
+            "rdf:value": "105"
+        },
+        {
+            "@id": "uncl9013:106",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "Back-orders are not permitted by the goods recipient.",
+            "rdfs:label": "Back-orders not permitted by goods recipient",
+            "rdf:value": "106"
+        },
+        {
+            "@id": "uncl9013:107",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "Article identification is not found in computer system.",
+            "rdfs:label": "Article identification not found in computer system",
+            "rdf:value": "107"
+        },
+        {
+            "@id": "uncl9013:108",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "Goods are not barcoded.",
+            "rdfs:label": "Goods not barcoded",
+            "rdf:value": "108"
+        },
+        {
+            "@id": "uncl9013:109",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "Delivery has taken place later than the scheduled date/time.",
+            "rdfs:label": "Delivered later than scheduled date/time",
+            "rdf:value": "109"
+        },
+        {
+            "@id": "uncl9013:110",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "Delivery will, or has, taken place on a date different to that requested on the order.",
+            "rdfs:label": "Delivery different date",
+            "rdf:value": "110"
+        },
+        {
+            "@id": "uncl9013:111",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "Standing over due to various reasons.",
+            "rdfs:label": "Delayed due to various reasons",
+            "rdf:value": "111"
+        },
+        {
+            "@id": "uncl9013:112",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "Delivery of goods has already taken place.",
+            "rdfs:label": "Goods previously delivered",
+            "rdf:value": "112"
+        },
+        {
+            "@id": "uncl9013:113",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "An error while loading the order or goods has occured, e.g. wrong goods, wrong transport equipment, wrong mode of transport, etc.",
+            "rdfs:label": "Loading error",
+            "rdf:value": "113"
+        },
+        {
+            "@id": "uncl9013:114",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "A delivery of an order or goods has been refused because it has arrived late.",
+            "rdfs:label": "Delivery too late",
+            "rdf:value": "114"
+        },
+        {
+            "@id": "uncl9013:115",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "A partial delivery of an order has not been accepted by the ordering party.",
+            "rdfs:label": "Partial delivery not accepted",
+            "rdf:value": "115"
+        },
+        {
+            "@id": "uncl9013:116",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "The unloading of goods at the point of delivery has been delayed by the carrier for no specific reason.",
+            "rdfs:label": "Unloading of goods delayed",
+            "rdf:value": "116"
+        },
+        {
+            "@id": "uncl9013:117",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "An order for a specific product can not be fulfilled currently because the product is out of stock.",
+            "rdfs:label": "Product out of stock",
+            "rdf:value": "117"
+        },
+        {
+            "@id": "uncl9013:118",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "An undefined incident has been attributed to the seller.",
+            "rdfs:label": "Incident attributed to seller",
+            "rdf:value": "118"
+        },
+        {
+            "@id": "uncl9013:119",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "An undefined incident has not been attributed to any party.",
+            "rdfs:label": "Incident not attributed",
+            "rdf:value": "119"
+        },
+        {
+            "@id": "uncl9013:120",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "Items received have manufacturing defects which make them unacceptable.",
+            "rdfs:label": "Manufacturing defects",
+            "rdf:value": "120"
+        },
+        {
+            "@id": "uncl9013:121",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "An other incident (undefined) has occured.",
+            "rdfs:label": "Other",
+            "rdf:value": "121"
+        },
+        {
+            "@id": "uncl9013:122",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "The reason for an error is an error concerning the monetary amount.",
+            "rdfs:label": "Monetary amount error",
+            "rdf:value": "122"
+        },
+        {
+            "@id": "uncl9013:123",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "The reason for an error is a product was not ordered.",
+            "rdfs:label": "Product not ordered",
+            "rdf:value": "123"
+        },
+        {
+            "@id": "uncl9013:124",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "A product was delivered which was not accepted by the delivery party.",
+            "rdfs:label": "Product not accepted",
+            "rdf:value": "124"
+        },
+        {
+            "@id": "uncl9013:125",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "The error was caused because of an error in the preparation of the despatch.",
+            "rdfs:label": "Despatch preparation error",
+            "rdf:value": "125"
+        },
+        {
+            "@id": "uncl9013:126",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "Differences in inventory detected when carrying out a physical inventory count.",
+            "rdfs:label": "Inventory differences",
+            "rdf:value": "126"
+        },
+        {
+            "@id": "uncl9013:127",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "A difference in inventory due to physical movement between warehouses.",
+            "rdfs:label": "Physical movement between warehouses",
+            "rdf:value": "127"
+        },
+        {
+            "@id": "uncl9013:128",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "A difference in inventory due to the physical manipulation of goods.",
+            "rdfs:label": "Manipulation",
+            "rdf:value": "128"
+        },
+        {
+            "@id": "uncl9013:129",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "A difference in inventory due to the addition of imported goods to inventory.",
+            "rdfs:label": "Importation",
+            "rdf:value": "129"
+        },
+        {
+            "@id": "uncl9013:130",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "The premises of the delivery party were closed during normal hours.",
+            "rdfs:label": "Delivery party premise closed during normal hours",
+            "rdf:value": "130"
+        },
+        {
+            "@id": "uncl9013:131",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "The carrier was unable to complete the delivery of goods due to a shortage of time at the delivery location to handle the delivery.",
+            "rdfs:label": "Delivery incomplete - time shortage at delivery location",
+            "rdf:value": "131"
+        },
+        {
+            "@id": "uncl9013:132",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "The premises of the delivery party were closed because of stock taking.",
+            "rdfs:label": "Delivery party premise closed for stock taking",
+            "rdf:value": "132"
+        },
+        {
+            "@id": "uncl9013:133",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "The premises of the delivery party were closed on Saturday.",
+            "rdfs:label": "Delivery party premise closed on Saturday",
+            "rdf:value": "133"
+        },
+        {
+            "@id": "uncl9013:134",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "The premises of the delivery party were closed on a national holiday.",
+            "rdfs:label": "Delivery party premise closed on national holiday",
+            "rdf:value": "134"
+        },
+        {
+            "@id": "uncl9013:135",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "Temporary refusal of a part or of the whole delivery.",
+            "rdfs:label": "Postponed delivery",
+            "rdf:value": "135"
+        },
+        {
+            "@id": "uncl9013:136",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "After an action was taken on the goods/consignments/equipment by the logistics service provider.",
+            "rdfs:label": "After action taken by logistics service provider",
+            "rdf:value": "136"
+        },
+        {
+            "@id": "uncl9013:137",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "Action taken by the logistics service provider on goods/consignments/equipment as instructed by owner.",
+            "rdfs:label": "Logistics service provider following instructions by owner",
+            "rdf:value": "137"
+        },
+        {
+            "@id": "uncl9013:138",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "The goods/consignments/equipment/means of transport has arrived at a location.",
+            "rdfs:label": "Arrived",
+            "rdf:value": "138"
+        },
+        {
+            "@id": "uncl9013:139",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "Goods' sales period has expired.",
+            "rdfs:label": "Expiration of sales period",
+            "rdf:value": "139"
+        },
+        {
+            "@id": "uncl9013:140",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "Goods are on hold awaiting release.",
+            "rdfs:label": "Awaiting release",
+            "rdf:value": "140"
+        },
+        {
+            "@id": "uncl9013:141",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "Goods held from distribution waiting for the outcome of a quality control assessment.",
+            "rdfs:label": "Quality control held",
+            "rdf:value": "141"
+        },
+        {
+            "@id": "uncl9013:142",
+            "@type": "unece:UNCL9013Code",
+            "rdfs:comment": "Incident has been attributed to the despatch party.",
+            "rdfs:label": "Incident attributed to despatch party",
+            "rdf:value": "142"
+        }
+    ]
+}

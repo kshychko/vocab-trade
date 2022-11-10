@@ -1,0 +1,95 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl4493": "https://dmvc7xzscpizo.cloudfront.net/uncl4493#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl4493:AA",
+            "@type": "unece:UNCL4493Code",
+            "rdfs:comment": "A delivery requirement indicating the items should not be shipped without specific authorization.",
+            "rdfs:label": "Ship on authorization",
+            "rdf:value": "AA"
+        },
+        {
+            "@id": "uncl4493:BK",
+            "@type": "unece:UNCL4493Code",
+            "rdfs:comment": "Partial shipping is allowed. The rest of the order should be delivered as soon as possible.",
+            "rdfs:label": "Ship partial - balance back order",
+            "rdf:value": "BK"
+        },
+        {
+            "@id": "uncl4493:CD",
+            "@type": "unece:UNCL4493Code",
+            "rdfs:comment": "An order or the rest of an order should be cancelled if not delivered at specified date.",
+            "rdfs:label": "Cancel if not delivered by date",
+            "rdf:value": "CD"
+        },
+        {
+            "@id": "uncl4493:DA",
+            "@type": "unece:UNCL4493Code",
+            "rdfs:comment": "A requirement that an order should not be delivered after a specified date/time.",
+            "rdfs:label": "Do not deliver after",
+            "rdf:value": "DA"
+        },
+        {
+            "@id": "uncl4493:DB",
+            "@type": "unece:UNCL4493Code",
+            "rdfs:comment": "A requirement that an order should not be delivered before a specified date/time.",
+            "rdfs:label": "Do not deliver before",
+            "rdf:value": "DB"
+        },
+        {
+            "@id": "uncl4493:DD",
+            "@type": "unece:UNCL4493Code",
+            "rdfs:comment": "An order should be delivered exactly on specified date.",
+            "rdfs:label": "Deliver on date",
+            "rdf:value": "DD"
+        },
+        {
+            "@id": "uncl4493:IS",
+            "@type": "unece:UNCL4493Code",
+            "rdfs:comment": "A substitute item may be delivered, if the ordered item is not available.",
+            "rdfs:label": "Substitute item",
+            "rdf:value": "IS"
+        },
+        {
+            "@id": "uncl4493:P1",
+            "@type": "unece:UNCL4493Code",
+            "rdfs:comment": "No specified date/time for delivery.",
+            "rdfs:label": "No schedule established",
+            "rdf:value": "P1"
+        },
+        {
+            "@id": "uncl4493:P2",
+            "@type": "unece:UNCL4493Code",
+            "rdfs:comment": "The order should be delivered as soon as possible.",
+            "rdfs:label": "Ship as soon as possible",
+            "rdf:value": "P2"
+        },
+        {
+            "@id": "uncl4493:SC",
+            "@type": "unece:UNCL4493Code",
+            "rdfs:comment": "The order should be delivered only complete, not partial.",
+            "rdfs:label": "Ship complete order",
+            "rdf:value": "SC"
+        },
+        {
+            "@id": "uncl4493:SF",
+            "@type": "unece:UNCL4493Code",
+            "rdfs:comment": "Partial shipping of an order is allowed, if the total freight rate do not increase.",
+            "rdfs:label": "Ship partial, if no freight rate increase",
+            "rdf:value": "SF"
+        },
+        {
+            "@id": "uncl4493:SP",
+            "@type": "unece:UNCL4493Code",
+            "rdfs:comment": "Partial shipping is allowed. The rest of the order should be cancelled.",
+            "rdfs:label": "Ship partial - balance cancel",
+            "rdf:value": "SP"
+        }
+    ]
+}

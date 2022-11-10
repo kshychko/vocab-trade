@@ -1,0 +1,165 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl2151": "https://dmvc7xzscpizo.cloudfront.net/uncl2151#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl2151:3M",
+            "@type": "unece:UNCL2151Code",
+            "rdfs:comment": "A subdivision of a year into four equal parts.",
+            "rdfs:label": "Quarter",
+            "rdf:value": "3M"
+        },
+        {
+            "@id": "uncl2151:6M",
+            "@type": "unece:UNCL2151Code",
+            "rdfs:comment": "A subdivision of a year into two equal parts.",
+            "rdfs:label": "Half-year",
+            "rdf:value": "6M"
+        },
+        {
+            "@id": "uncl2151:AA",
+            "@type": "unece:UNCL2151Code",
+            "rdfs:comment": "Flight duration irrespective of time zones.",
+            "rdfs:label": "Air hour",
+            "rdf:value": "AA"
+        },
+        {
+            "@id": "uncl2151:AD",
+            "@type": "unece:UNCL2151Code",
+            "rdfs:comment": "Flight duration irrespective of time zones.",
+            "rdfs:label": "Air day",
+            "rdf:value": "AD"
+        },
+        {
+            "@id": "uncl2151:CD",
+            "@type": "unece:UNCL2151Code",
+            "rdfs:comment": "Period given as a number of days including weekends and holidays.",
+            "rdfs:label": "Calendar day (includes weekends and holidays)",
+            "rdf:value": "CD"
+        },
+        {
+            "@id": "uncl2151:CW",
+            "@type": "unece:UNCL2151Code",
+            "rdfs:comment": "Period given as a number of 7day-weeks including holidays.",
+            "rdfs:label": "Calendar week (7day)",
+            "rdf:value": "CW"
+        },
+        {
+            "@id": "uncl2151:D",
+            "@type": "unece:UNCL2151Code",
+            "rdfs:comment": "The twenty-four hour period during which the earth completes one rotation on its axis.",
+            "rdfs:label": "Day",
+            "rdf:value": "D"
+        },
+        {
+            "@id": "uncl2151:DC",
+            "@type": "unece:UNCL2151Code",
+            "rdfs:comment": "Period of 10 days.",
+            "rdfs:label": "Ten days period",
+            "rdf:value": "DC"
+        },
+        {
+            "@id": "uncl2151:F",
+            "@type": "unece:UNCL2151Code",
+            "rdfs:comment": "A period of time lasting fourteen days. Synonym: Fortnight.",
+            "rdfs:label": "Period of two weeks",
+            "rdf:value": "F"
+        },
+        {
+            "@id": "uncl2151:H",
+            "@type": "unece:UNCL2151Code",
+            "rdfs:comment": "One of the twenty-four sub-divisions of a day.",
+            "rdfs:label": "Hour",
+            "rdf:value": "H"
+        },
+        {
+            "@id": "uncl2151:HM",
+            "@type": "unece:UNCL2151Code",
+            "rdfs:comment": "A subdivision of a month into two equal parts.",
+            "rdfs:label": "Half month",
+            "rdf:value": "HM"
+        },
+        {
+            "@id": "uncl2151:M",
+            "@type": "unece:UNCL2151Code",
+            "rdfs:comment": "One of twelve divisions of the year as determined by the Gregorian calendar.",
+            "rdfs:label": "Month",
+            "rdf:value": "M"
+        },
+        {
+            "@id": "uncl2151:MN",
+            "@type": "unece:UNCL2151Code",
+            "rdfs:comment": "A unit of time equal to 1/60 of an hour, or 60 seconds.",
+            "rdfs:label": "Minute",
+            "rdf:value": "MN"
+        },
+        {
+            "@id": "uncl2151:P",
+            "@type": "unece:UNCL2151Code",
+            "rdfs:comment": "A period of time, measured in monthly increments, consisting of four sequential months.",
+            "rdfs:label": "Four month period",
+            "rdf:value": "P"
+        },
+        {
+            "@id": "uncl2151:S",
+            "@type": "unece:UNCL2151Code",
+            "rdfs:comment": "A unit of time equal to 1/60 of a minute.",
+            "rdfs:label": "Second",
+            "rdf:value": "S"
+        },
+        {
+            "@id": "uncl2151:SD",
+            "@type": "unece:UNCL2151Code",
+            "rdfs:comment": "The voyage duration irrespective of time zones.",
+            "rdfs:label": "Surface day",
+            "rdf:value": "SD"
+        },
+        {
+            "@id": "uncl2151:SI",
+            "@type": "unece:UNCL2151Code",
+            "rdfs:comment": "An indefinite period.",
+            "rdfs:label": "Indefinite",
+            "rdf:value": "SI"
+        },
+        {
+            "@id": "uncl2151:W",
+            "@type": "unece:UNCL2151Code",
+            "rdfs:comment": "Period of seven days.",
+            "rdfs:label": "Week",
+            "rdf:value": "W"
+        },
+        {
+            "@id": "uncl2151:WD",
+            "@type": "unece:UNCL2151Code",
+            "rdfs:comment": "Day on which work is usually done.",
+            "rdfs:label": "Workday",
+            "rdf:value": "WD"
+        },
+        {
+            "@id": "uncl2151:WW",
+            "@type": "unece:UNCL2151Code",
+            "rdfs:comment": "Monday through Friday.",
+            "rdfs:label": "5 day work week",
+            "rdf:value": "WW"
+        },
+        {
+            "@id": "uncl2151:Y",
+            "@type": "unece:UNCL2151Code",
+            "rdfs:comment": "The period of time as measured by the Gregorian calendar in which the earth completes a single revolution around the sun.",
+            "rdfs:label": "Year",
+            "rdf:value": "Y"
+        },
+        {
+            "@id": "uncl2151:ZZZ",
+            "@type": "unece:UNCL2151Code",
+            "rdfs:comment": "Period as per agreement.",
+            "rdfs:label": "Mutually defined",
+            "rdf:value": "ZZZ"
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl7449": "https://dmvc7xzscpizo.cloudfront.net/uncl7449#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl7449:1",
+            "@type": "unece:UNCL7449Code",
+            "rdfs:comment": "Member of a life insurance scheme.",
+            "rdfs:label": "Life insurance",
+            "rdf:value": "1"
+        },
+        {
+            "@id": "uncl7449:2",
+            "@type": "unece:UNCL7449Code",
+            "rdfs:comment": "For retirement benefits, including pension, purposes.",
+            "rdfs:label": "Superannuation",
+            "rdf:value": "2"
+        },
+        {
+            "@id": "uncl7449:ZZZ",
+            "@type": "unece:UNCL7449Code",
+            "rdfs:comment": "Mutually defined member qualifier.",
+            "rdfs:label": "Mutually defined",
+            "rdf:value": "ZZZ"
+        }
+    ]
+}

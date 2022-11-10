@@ -1,0 +1,60 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl5393": "https://dmvc7xzscpizo.cloudfront.net/uncl5393#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl5393:A",
+            "@type": "unece:UNCL5393Code",
+            "rdfs:comment": "Coefficient to be used in the price adjustment formula to calculate the revaluated price.",
+            "rdfs:label": "Price adjustment coefficient",
+            "rdf:value": "A"
+        },
+        {
+            "@id": "uncl5393:B",
+            "@type": "unece:UNCL5393Code",
+            "rdfs:comment": "Coefficient to be used in the escalation formula to calculate the actual price.",
+            "rdfs:label": "Escalation coefficient",
+            "rdf:value": "B"
+        },
+        {
+            "@id": "uncl5393:C",
+            "@type": "unece:UNCL5393Code",
+            "rdfs:comment": "Factor to be used in calculating the number of times a particular piece of work is repeated.",
+            "rdfs:label": "Timesing factor",
+            "rdf:value": "C"
+        },
+        {
+            "@id": "uncl5393:CSD",
+            "@type": "unece:UNCL5393Code",
+            "rdfs:comment": "Code specifying the cost mark-up multiplier at original cost.",
+            "rdfs:label": "Cost markup multiplier - original cost",
+            "rdf:value": "CSD"
+        },
+        {
+            "@id": "uncl5393:CSR",
+            "@type": "unece:UNCL5393Code",
+            "rdfs:comment": "Code specifying the cost mark-up multiplier at retail cost.",
+            "rdfs:label": "Cost markup multiplier - retail cost",
+            "rdf:value": "CSR"
+        },
+        {
+            "@id": "uncl5393:DIS",
+            "@type": "unece:UNCL5393Code",
+            "rdfs:comment": "Code specifying the discount multiplier.",
+            "rdfs:label": "Discount multiplier",
+            "rdf:value": "DIS"
+        },
+        {
+            "@id": "uncl5393:SEL",
+            "@type": "unece:UNCL5393Code",
+            "rdfs:comment": "Code specifying the selling multiplier.",
+            "rdfs:label": "Selling multiplier",
+            "rdf:value": "SEL"
+        }
+    ]
+}

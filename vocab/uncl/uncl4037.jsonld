@@ -1,0 +1,53 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl4037": "https://dmvc7xzscpizo.cloudfront.net/uncl4037#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl4037:1",
+            "@type": "unece:UNCL4037Code",
+            "rdfs:comment": "To be done immediately.",
+            "rdfs:label": "Immediate",
+            "rdf:value": "1"
+        },
+        {
+            "@id": "uncl4037:2",
+            "@type": "unece:UNCL4037Code",
+            "rdfs:comment": "To be performed before any non-urgent task.",
+            "rdfs:label": "Urgent",
+            "rdf:value": "2"
+        },
+        {
+            "@id": "uncl4037:3",
+            "@type": "unece:UNCL4037Code",
+            "rdfs:comment": "To be done as routine work.",
+            "rdfs:label": "Normal",
+            "rdf:value": "3"
+        },
+        {
+            "@id": "uncl4037:4",
+            "@type": "unece:UNCL4037Code",
+            "rdfs:comment": "To be done as part of a scheduled plan.",
+            "rdfs:label": "Scheduled",
+            "rdf:value": "4"
+        },
+        {
+            "@id": "uncl4037:5",
+            "@type": "unece:UNCL4037Code",
+            "rdfs:comment": "Priority is category A.",
+            "rdfs:label": "Category A",
+            "rdf:value": "5"
+        },
+        {
+            "@id": "uncl4037:6",
+            "@type": "unece:UNCL4037Code",
+            "rdfs:comment": "Priority is category B.",
+            "rdfs:label": "Category B",
+            "rdf:value": "6"
+        }
+    ]
+}

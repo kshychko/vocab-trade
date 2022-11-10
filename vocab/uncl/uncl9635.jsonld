@@ -1,0 +1,25 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl9635": "https://dmvc7xzscpizo.cloudfront.net/uncl9635#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl9635:1",
+            "@type": "unece:UNCL9635Code",
+            "rdfs:comment": "The event is a claim.",
+            "rdfs:label": "Claim",
+            "rdf:value": "1"
+        },
+        {
+            "@id": "uncl9635:2",
+            "@type": "unece:UNCL9635Code",
+            "rdfs:comment": "The event is a bankruptcy case.",
+            "rdfs:label": "Bankruptcy case",
+            "rdf:value": "2"
+        }
+    ]
+}

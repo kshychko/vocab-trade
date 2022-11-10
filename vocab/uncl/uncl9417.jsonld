@@ -1,0 +1,81 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl9417": "https://dmvc7xzscpizo.cloudfront.net/uncl9417#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl9417:1",
+            "@type": "unece:UNCL9417Code",
+            "rdfs:comment": "The cargo will be or has been cleared.",
+            "rdfs:label": "Clearance",
+            "rdf:value": "1"
+        },
+        {
+            "@id": "uncl9417:2",
+            "@type": "unece:UNCL9417Code",
+            "rdfs:comment": "The cargo has been or will be detained.",
+            "rdfs:label": "Detention",
+            "rdf:value": "2"
+        },
+        {
+            "@id": "uncl9417:3",
+            "@type": "unece:UNCL9417Code",
+            "rdfs:comment": "The cargo has been or will be fumigated.",
+            "rdfs:label": "Fumigation",
+            "rdf:value": "3"
+        },
+        {
+            "@id": "uncl9417:4",
+            "@type": "unece:UNCL9417Code",
+            "rdfs:comment": "The cargo has been or will be inspected.",
+            "rdfs:label": "Inspection",
+            "rdf:value": "4"
+        },
+        {
+            "@id": "uncl9417:5",
+            "@type": "unece:UNCL9417Code",
+            "rdfs:comment": "The cargo has been or will be secured.",
+            "rdfs:label": "Security",
+            "rdf:value": "5"
+        },
+        {
+            "@id": "uncl9417:6",
+            "@type": "unece:UNCL9417Code",
+            "rdfs:comment": "The means of transport will be or has been admitted.",
+            "rdfs:label": "Means of transport admittance",
+            "rdf:value": "6"
+        },
+        {
+            "@id": "uncl9417:7",
+            "@type": "unece:UNCL9417Code",
+            "rdfs:comment": "The cargo hold has been or will be inspected.",
+            "rdfs:label": "Cargo hold inspection",
+            "rdf:value": "7"
+        },
+        {
+            "@id": "uncl9417:8",
+            "@type": "unece:UNCL9417Code",
+            "rdfs:comment": "The container has been or will be inspected.",
+            "rdfs:label": "Container inspection",
+            "rdf:value": "8"
+        },
+        {
+            "@id": "uncl9417:9",
+            "@type": "unece:UNCL9417Code",
+            "rdfs:comment": "The cargo packaging has been or will be inspected.",
+            "rdfs:label": "Cargo packaging inspection",
+            "rdf:value": "9"
+        },
+        {
+            "@id": "uncl9417:10",
+            "@type": "unece:UNCL9417Code",
+            "rdfs:comment": "Indication by exporter that they do not need certificate of export from Customs.",
+            "rdfs:label": "Export certificate not required",
+            "rdf:value": "10"
+        }
+    ]
+}

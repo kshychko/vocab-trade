@@ -1,0 +1,32 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl3457": "https://dmvc7xzscpizo.cloudfront.net/uncl3457#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl3457:1",
+            "@type": "unece:UNCL3457Code",
+            "rdfs:comment": "The originator is a travel agent.",
+            "rdfs:label": "Travel agent",
+            "rdf:value": "1"
+        },
+        {
+            "@id": "uncl3457:2",
+            "@type": "unece:UNCL3457Code",
+            "rdfs:comment": "The originator is a reservation agent.",
+            "rdfs:label": "Reservation agent",
+            "rdf:value": "2"
+        },
+        {
+            "@id": "uncl3457:3",
+            "@type": "unece:UNCL3457Code",
+            "rdfs:comment": "The originator is the seller.",
+            "rdfs:label": "Seller",
+            "rdf:value": "3"
+        }
+    ]
+}

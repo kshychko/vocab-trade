@@ -1,0 +1,193 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl6087": "https://dmvc7xzscpizo.cloudfront.net/uncl6087#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl6087:1",
+            "@type": "unece:UNCL6087Code",
+            "rdfs:comment": "Measurement result.",
+            "rdfs:label": "Measurement result",
+            "rdf:value": "1"
+        },
+        {
+            "@id": "uncl6087:2",
+            "@type": "unece:UNCL6087Code",
+            "rdfs:comment": "The conclusion resulting from an assessment of bank accounts over time.",
+            "rdfs:label": "Bank accounts history assessment",
+            "rdf:value": "2"
+        },
+        {
+            "@id": "uncl6087:3",
+            "@type": "unece:UNCL6087Code",
+            "rdfs:comment": "The resultant assignment of a credit level based on an assessment of credit worthiness.",
+            "rdfs:label": "Credit level",
+            "rdf:value": "3"
+        },
+        {
+            "@id": "uncl6087:4",
+            "@type": "unece:UNCL6087Code",
+            "rdfs:comment": "The resultant assignment of a credit rating based on an assessment of credit worthiness.",
+            "rdfs:label": "Credit rating assessment",
+            "rdf:value": "4"
+        },
+        {
+            "@id": "uncl6087:5",
+            "@type": "unece:UNCL6087Code",
+            "rdfs:comment": "The resulting assessment of credit worthiness.",
+            "rdfs:label": "Credit worthiness assessment",
+            "rdf:value": "5"
+        },
+        {
+            "@id": "uncl6087:6",
+            "@type": "unece:UNCL6087Code",
+            "rdfs:comment": "The resulting assessment of liquidity.",
+            "rdfs:label": "Liquidity assessment",
+            "rdf:value": "6"
+        },
+        {
+            "@id": "uncl6087:7",
+            "@type": "unece:UNCL6087Code",
+            "rdfs:comment": "The resulting assessment of loan payment history.",
+            "rdfs:label": "Loan payment history",
+            "rdf:value": "7"
+        },
+        {
+            "@id": "uncl6087:8",
+            "@type": "unece:UNCL6087Code",
+            "rdfs:comment": "The summarization of the overall assessment.",
+            "rdfs:label": "Overall evaluation",
+            "rdf:value": "8"
+        },
+        {
+            "@id": "uncl6087:9",
+            "@type": "unece:UNCL6087Code",
+            "rdfs:comment": "The resulting assessment of financial conditions.",
+            "rdfs:label": "Financial conditions",
+            "rdf:value": "9"
+        },
+        {
+            "@id": "uncl6087:10",
+            "@type": "unece:UNCL6087Code",
+            "rdfs:comment": "The resulting assessment of trade payments.",
+            "rdfs:label": "Trade payments",
+            "rdf:value": "10"
+        },
+        {
+            "@id": "uncl6087:11",
+            "@type": "unece:UNCL6087Code",
+            "rdfs:comment": "The resulting ranking based on one entity's failure risk score as compared to other entities.",
+            "rdfs:label": "Failure risk score ranking",
+            "rdf:value": "11"
+        },
+        {
+            "@id": "uncl6087:12",
+            "@type": "unece:UNCL6087Code",
+            "rdfs:comment": "Score representing the risk of an entity failing.",
+            "rdfs:label": "Failure risk score",
+            "rdf:value": "12"
+        },
+        {
+            "@id": "uncl6087:13",
+            "@type": "unece:UNCL6087Code",
+            "rdfs:comment": "The resulting assessment of resources used for financing a business.",
+            "rdfs:label": "Business financing resources assessment",
+            "rdf:value": "13"
+        },
+        {
+            "@id": "uncl6087:14",
+            "@type": "unece:UNCL6087Code",
+            "rdfs:comment": "The resulting assessment of the risk of an entity having delinquent payments.",
+            "rdfs:label": "Payment delinquency risk score",
+            "rdf:value": "14"
+        },
+        {
+            "@id": "uncl6087:15",
+            "@type": "unece:UNCL6087Code",
+            "rdfs:comment": "The resulting assessment of the entity's actual delinquent payments.",
+            "rdfs:label": "Payment delinquency performance score",
+            "rdf:value": "15"
+        },
+        {
+            "@id": "uncl6087:16",
+            "@type": "unece:UNCL6087Code",
+            "rdfs:comment": "The resulting ranking of one entity's payment delinquency score as compared to other entities.",
+            "rdfs:label": "Payment delinquency score ranking",
+            "rdf:value": "16"
+        },
+        {
+            "@id": "uncl6087:17",
+            "@type": "unece:UNCL6087Code",
+            "rdfs:comment": "The resulting assessment of delinquencies as they relate to all entities.",
+            "rdfs:label": "Payment delinquency assessment",
+            "rdf:value": "17"
+        },
+        {
+            "@id": "uncl6087:18",
+            "@type": "unece:UNCL6087Code",
+            "rdfs:comment": "The assessment of average trade payments for all entities.",
+            "rdfs:label": "Average trade payment for all entities",
+            "rdf:value": "18"
+        },
+        {
+            "@id": "uncl6087:19",
+            "@type": "unece:UNCL6087Code",
+            "rdfs:comment": "The resulting ranking based on revenue.",
+            "rdfs:label": "Revenue ranking",
+            "rdf:value": "19"
+        },
+        {
+            "@id": "uncl6087:20",
+            "@type": "unece:UNCL6087Code",
+            "rdfs:comment": "The resulting ranking based on sales growth.",
+            "rdfs:label": "Sales growth ranking",
+            "rdf:value": "20"
+        },
+        {
+            "@id": "uncl6087:21",
+            "@type": "unece:UNCL6087Code",
+            "rdfs:comment": "The resulting ranking based on assets.",
+            "rdfs:label": "Asset ranking",
+            "rdf:value": "21"
+        },
+        {
+            "@id": "uncl6087:22",
+            "@type": "unece:UNCL6087Code",
+            "rdfs:comment": "The resulting ranking based on profit margin.",
+            "rdfs:label": "Profit margin ranking",
+            "rdf:value": "22"
+        },
+        {
+            "@id": "uncl6087:23",
+            "@type": "unece:UNCL6087Code",
+            "rdfs:comment": "The resulting ranking based on after taxes profit.",
+            "rdfs:label": "Post tax profit ranking",
+            "rdf:value": "23"
+        },
+        {
+            "@id": "uncl6087:24",
+            "@type": "unece:UNCL6087Code",
+            "rdfs:comment": "The resulting ranking based on imports and exports.",
+            "rdfs:label": "Import and export ranking",
+            "rdf:value": "24"
+        },
+        {
+            "@id": "uncl6087:25",
+            "@type": "unece:UNCL6087Code",
+            "rdfs:comment": "The resulting assessment of projected trade payments.",
+            "rdfs:label": "Projected trade payments",
+            "rdf:value": "25"
+        },
+        {
+            "@id": "uncl6087:26",
+            "@type": "unece:UNCL6087Code",
+            "rdfs:comment": "The resulting assessment based on the collection of invoices.",
+            "rdfs:label": "Invoice collection",
+            "rdf:value": "26"
+        }
+    ]
+}

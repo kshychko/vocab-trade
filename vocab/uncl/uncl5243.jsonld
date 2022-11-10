@@ -1,0 +1,109 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl5243": "https://dmvc7xzscpizo.cloudfront.net/uncl5243#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl5243:A",
+            "@type": "unece:UNCL5243Code",
+            "rdfs:comment": "Rate class applies to senior persons.",
+            "rdfs:label": "Senior person rate",
+            "rdf:value": "A"
+        },
+        {
+            "@id": "uncl5243:B",
+            "@type": "unece:UNCL5243Code",
+            "rdfs:comment": "Code specifying that the rate or tariff is a basic one.",
+            "rdfs:label": "Basic",
+            "rdf:value": "B"
+        },
+        {
+            "@id": "uncl5243:C",
+            "@type": "unece:UNCL5243Code",
+            "rdfs:comment": "Code specifying the specific commodity rate.",
+            "rdfs:label": "Specific commodity rate",
+            "rdf:value": "C"
+        },
+        {
+            "@id": "uncl5243:D",
+            "@type": "unece:UNCL5243Code",
+            "rdfs:comment": "Rate class applies to teenagers.",
+            "rdfs:label": "Teenager rate",
+            "rdf:value": "D"
+        },
+        {
+            "@id": "uncl5243:E",
+            "@type": "unece:UNCL5243Code",
+            "rdfs:comment": "Rate class applies to children.",
+            "rdfs:label": "Child rate",
+            "rdf:value": "E"
+        },
+        {
+            "@id": "uncl5243:F",
+            "@type": "unece:UNCL5243Code",
+            "rdfs:comment": "Rate class applies to adults.",
+            "rdfs:label": "Adult rate",
+            "rdf:value": "F"
+        },
+        {
+            "@id": "uncl5243:G",
+            "@type": "unece:UNCL5243Code",
+            "rdfs:comment": "Rate a foreign government supplies in the export process",
+            "rdfs:label": "Export Subsidy Rate",
+            "rdf:value": "G"
+        },
+        {
+            "@id": "uncl5243:H",
+            "@type": "unece:UNCL5243Code",
+            "rdfs:comment": "Rate a foreign government gives its manufacturers so that they can manufacture their goods for less",
+            "rdfs:label": "Subsidy Rate",
+            "rdf:value": "H"
+        },
+        {
+            "@id": "uncl5243:K",
+            "@type": "unece:UNCL5243Code",
+            "rdfs:comment": "Code specifying the rate per kilogram.",
+            "rdfs:label": "Rate per kilogram",
+            "rdf:value": "K"
+        },
+        {
+            "@id": "uncl5243:M",
+            "@type": "unece:UNCL5243Code",
+            "rdfs:comment": "Code specifying the minimum charge rate.",
+            "rdfs:label": "Minimum charge rate",
+            "rdf:value": "M"
+        },
+        {
+            "@id": "uncl5243:N",
+            "@type": "unece:UNCL5243Code",
+            "rdfs:comment": "Code specifying the normal rate.",
+            "rdfs:label": "Normal rate",
+            "rdf:value": "N"
+        },
+        {
+            "@id": "uncl5243:Q",
+            "@type": "unece:UNCL5243Code",
+            "rdfs:comment": "Code specifying the quantity rate.",
+            "rdfs:label": "Quantity rate",
+            "rdf:value": "Q"
+        },
+        {
+            "@id": "uncl5243:R",
+            "@type": "unece:UNCL5243Code",
+            "rdfs:comment": "Code specifying the reduction on normal rate.",
+            "rdfs:label": "Class rate (Reduction on normal rate)",
+            "rdf:value": "R"
+        },
+        {
+            "@id": "uncl5243:S",
+            "@type": "unece:UNCL5243Code",
+            "rdfs:comment": "Code specifying the surcharge on normal rate.",
+            "rdfs:label": "Class rate (Surcharge on normal rate)",
+            "rdf:value": "S"
+        }
+    ]
+}

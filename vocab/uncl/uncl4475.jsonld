@@ -1,0 +1,46 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl4475": "https://dmvc7xzscpizo.cloudfront.net/uncl4475#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl4475:1",
+            "@type": "unece:UNCL4475Code",
+            "rdfs:comment": "The type of accounting entry is purchase.",
+            "rdfs:label": "Purchase",
+            "rdf:value": "1"
+        },
+        {
+            "@id": "uncl4475:2",
+            "@type": "unece:UNCL4475Code",
+            "rdfs:comment": "The type of accounting entry is sale.",
+            "rdfs:label": "Sale",
+            "rdf:value": "2"
+        },
+        {
+            "@id": "uncl4475:3",
+            "@type": "unece:UNCL4475Code",
+            "rdfs:comment": "The type of accounting entry is cash.",
+            "rdfs:label": "Cash",
+            "rdf:value": "3"
+        },
+        {
+            "@id": "uncl4475:4",
+            "@type": "unece:UNCL4475Code",
+            "rdfs:comment": "The type of accounting entry is opening balance.",
+            "rdfs:label": "Opening balance",
+            "rdf:value": "4"
+        },
+        {
+            "@id": "uncl4475:5",
+            "@type": "unece:UNCL4475Code",
+            "rdfs:comment": "The type is a miscellaneous accounting entry.",
+            "rdfs:label": "Miscellaneous",
+            "rdf:value": "5"
+        }
+    ]
+}

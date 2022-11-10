@@ -1,0 +1,403 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl5153": "https://dmvc7xzscpizo.cloudfront.net/uncl5153#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl5153:AAA",
+            "@type": "unece:UNCL5153Code",
+            "rdfs:comment": "A tax levied on the volume of petroleum being transacted.",
+            "rdfs:label": "Petroleum tax",
+            "rdf:value": "AAA"
+        },
+        {
+            "@id": "uncl5153:AAB",
+            "@type": "unece:UNCL5153Code",
+            "rdfs:comment": "Countervailing duty paid in cash prior to a formal finding of subsidization by Customs.",
+            "rdfs:label": "Provisional countervailing duty cash",
+            "rdf:value": "AAB"
+        },
+        {
+            "@id": "uncl5153:AAC",
+            "@type": "unece:UNCL5153Code",
+            "rdfs:comment": "Countervailing duty paid by posting a bond during an investigation period prior to a formal decision on subsidization by Customs.",
+            "rdfs:label": "Provisional countervailing duty bond",
+            "rdf:value": "AAC"
+        },
+        {
+            "@id": "uncl5153:AAD",
+            "@type": "unece:UNCL5153Code",
+            "rdfs:comment": "A tax levied on tobacco products.",
+            "rdfs:label": "Tobacco tax",
+            "rdf:value": "AAD"
+        },
+        {
+            "@id": "uncl5153:AAE",
+            "@type": "unece:UNCL5153Code",
+            "rdfs:comment": "General fee or tax for the use of energy.",
+            "rdfs:label": "Energy fee",
+            "rdf:value": "AAE"
+        },
+        {
+            "@id": "uncl5153:AAF",
+            "@type": "unece:UNCL5153Code",
+            "rdfs:comment": "A tax levied specifically on coffee products.",
+            "rdfs:label": "Coffee tax",
+            "rdf:value": "AAF"
+        },
+        {
+            "@id": "uncl5153:AAG",
+            "@type": "unece:UNCL5153Code",
+            "rdfs:comment": "A harmonized sales tax consisting of a goods and service tax, a Canadian provincial sales tax and, as applicable, a Quebec sales tax which is recoverable.",
+            "rdfs:label": "Harmonised sales tax, Canadian",
+            "rdf:value": "AAG"
+        },
+        {
+            "@id": "uncl5153:AAH",
+            "@type": "unece:UNCL5153Code",
+            "rdfs:comment": "A sales tax charged within the Canadian province of Quebec which is recoverable.",
+            "rdfs:label": "Quebec sales tax",
+            "rdf:value": "AAH"
+        },
+        {
+            "@id": "uncl5153:AAI",
+            "@type": "unece:UNCL5153Code",
+            "rdfs:comment": "A sales tax charged within Canadian provinces which is non-recoverable.",
+            "rdfs:label": "Canadian provincial sales tax",
+            "rdf:value": "AAI"
+        },
+        {
+            "@id": "uncl5153:AAJ",
+            "@type": "unece:UNCL5153Code",
+            "rdfs:comment": "A tax levied on a replacement part, where the original part is returned.",
+            "rdfs:label": "Tax on replacement part",
+            "rdf:value": "AAJ"
+        },
+        {
+            "@id": "uncl5153:AAK",
+            "@type": "unece:UNCL5153Code",
+            "rdfs:comment": "Tax that is levied specifically on products containing mineral oil.",
+            "rdfs:label": "Mineral oil tax",
+            "rdf:value": "AAK"
+        },
+        {
+            "@id": "uncl5153:AAL",
+            "@type": "unece:UNCL5153Code",
+            "rdfs:comment": "To indicate a special type of tax.",
+            "rdfs:label": "Special tax",
+            "rdf:value": "AAL"
+        },
+        {
+            "@id": "uncl5153:AAM",
+            "@type": "unece:UNCL5153Code",
+            "rdfs:comment": "A tax levied specifically on insurances.",
+            "rdfs:label": "Insurance tax",
+            "rdf:value": "AAM"
+        },
+        {
+            "@id": "uncl5153:AAO",
+            "@type": "unece:UNCL5153Code",
+            "rdfs:comment": "A tax levied on Cannabis products",
+            "rdfs:label": "Provincial Cannabis Tax",
+            "rdf:value": "AAO"
+        },
+        {
+            "@id": "uncl5153:AAP",
+            "@type": "unece:UNCL5153Code",
+            "rdfs:comment": "Fee levied due to outstanding duties to be paid",
+            "rdfs:label": "Outstanding duty interest",
+            "rdf:value": "AAP"
+        },
+        {
+            "@id": "uncl5153:ADD",
+            "@type": "unece:UNCL5153Code",
+            "rdfs:comment": "Duty applied to goods ruled to have been dumped in an import market at a price lower than that in the exporter's domestic market.",
+            "rdfs:label": "Anti-dumping duty",
+            "rdf:value": "ADD"
+        },
+        {
+            "@id": "uncl5153:BOL",
+            "@type": "unece:UNCL5153Code",
+            "rdfs:comment": "Tax required in Italy, which may be fixed or graduated in various circumstances (e.g. VAT exempt documents or bank receipts).",
+            "rdfs:label": "Stamp duty (Imposta di Bollo)",
+            "rdf:value": "BOL"
+        },
+        {
+            "@id": "uncl5153:CAP",
+            "@type": "unece:UNCL5153Code",
+            "rdfs:comment": "Levy imposed on agricultural products where there is a difference between the selling price between trading countries.",
+            "rdfs:label": "Agricultural levy",
+            "rdf:value": "CAP"
+        },
+        {
+            "@id": "uncl5153:CAR",
+            "@type": "unece:UNCL5153Code",
+            "rdfs:comment": "A tax that is levied on the value of the automobile.",
+            "rdfs:label": "Car tax",
+            "rdf:value": "CAR"
+        },
+        {
+            "@id": "uncl5153:COC",
+            "@type": "unece:UNCL5153Code",
+            "rdfs:comment": "Italian Paper consortium tax.",
+            "rdfs:label": "Paper consortium tax (Italy)",
+            "rdf:value": "COC"
+        },
+        {
+            "@id": "uncl5153:CST",
+            "@type": "unece:UNCL5153Code",
+            "rdfs:comment": "Tax related to a specified commodity, e.g. illuminants, salts.",
+            "rdfs:label": "Commodity specific tax",
+            "rdf:value": "CST"
+        },
+        {
+            "@id": "uncl5153:CUD",
+            "@type": "unece:UNCL5153Code",
+            "rdfs:comment": "Duties laid down in the Customs tariff, to which goods are liable on entering or leaving the Customs territory (CCC).",
+            "rdfs:label": "Customs duty",
+            "rdf:value": "CUD"
+        },
+        {
+            "@id": "uncl5153:CVD",
+            "@type": "unece:UNCL5153Code",
+            "rdfs:comment": "A duty on imported goods applied for compensate for subsidies granted to those goods in the exporting country.",
+            "rdfs:label": "Countervailing duty",
+            "rdf:value": "CVD"
+        },
+        {
+            "@id": "uncl5153:ENV",
+            "@type": "unece:UNCL5153Code",
+            "rdfs:comment": "Tax assessed for funding or assuring environmental protection or clean-up.",
+            "rdfs:label": "Environmental tax",
+            "rdf:value": "ENV"
+        },
+        {
+            "@id": "uncl5153:EXC",
+            "@type": "unece:UNCL5153Code",
+            "rdfs:comment": "Customs or fiscal authorities code to identify a specific or ad valorem levy on a specific commodity, applied either domestically or at time of importation.",
+            "rdfs:label": "Excise duty",
+            "rdf:value": "EXC"
+        },
+        {
+            "@id": "uncl5153:EXP",
+            "@type": "unece:UNCL5153Code",
+            "rdfs:comment": "Monetary rebate given to the seller in certain circumstances when agricultural products are exported.",
+            "rdfs:label": "Agricultural export rebate",
+            "rdf:value": "EXP"
+        },
+        {
+            "@id": "uncl5153:FET",
+            "@type": "unece:UNCL5153Code",
+            "rdfs:comment": "Tax levied by the federal government on the manufacture of specific items.",
+            "rdfs:label": "Federal excise tax",
+            "rdf:value": "FET"
+        },
+        {
+            "@id": "uncl5153:FRE",
+            "@type": "unece:UNCL5153Code",
+            "rdfs:comment": "No tax levied.",
+            "rdfs:label": "Free",
+            "rdf:value": "FRE"
+        },
+        {
+            "@id": "uncl5153:GCN",
+            "@type": "unece:UNCL5153Code",
+            "rdfs:comment": "General tax for construction.",
+            "rdfs:label": "General construction tax",
+            "rdf:value": "GCN"
+        },
+        {
+            "@id": "uncl5153:GST",
+            "@type": "unece:UNCL5153Code",
+            "rdfs:comment": "Tax levied on the final consumption of goods and services throughout the production and distribution chain.",
+            "rdfs:label": "Goods and services tax",
+            "rdf:value": "GST"
+        },
+        {
+            "@id": "uncl5153:ILL",
+            "@type": "unece:UNCL5153Code",
+            "rdfs:comment": "Tax of illuminants.",
+            "rdfs:label": "Illuminants tax",
+            "rdf:value": "ILL"
+        },
+        {
+            "@id": "uncl5153:IMP",
+            "@type": "unece:UNCL5153Code",
+            "rdfs:comment": "Tax assessed on imports.",
+            "rdfs:label": "Import tax",
+            "rdf:value": "IMP"
+        },
+        {
+            "@id": "uncl5153:IND",
+            "@type": "unece:UNCL5153Code",
+            "rdfs:comment": "A tax levied based on an individual's ability to pay.",
+            "rdfs:label": "Individual tax",
+            "rdf:value": "IND"
+        },
+        {
+            "@id": "uncl5153:LAC",
+            "@type": "unece:UNCL5153Code",
+            "rdfs:comment": "Government assessed charge for permit to do business.",
+            "rdfs:label": "Business license fee",
+            "rdf:value": "LAC"
+        },
+        {
+            "@id": "uncl5153:LCN",
+            "@type": "unece:UNCL5153Code",
+            "rdfs:comment": "Local tax for construction.",
+            "rdfs:label": "Local construction tax",
+            "rdf:value": "LCN"
+        },
+        {
+            "@id": "uncl5153:LDP",
+            "@type": "unece:UNCL5153Code",
+            "rdfs:comment": "Fee levied on a vessel to pay for port navigation lights.",
+            "rdfs:label": "Light dues payable",
+            "rdf:value": "LDP"
+        },
+        {
+            "@id": "uncl5153:LOC",
+            "@type": "unece:UNCL5153Code",
+            "rdfs:comment": "Assessment charges on sale of goods or services by city, borough country or other taxing authorities below state or provincial level.",
+            "rdfs:label": "Local sales tax",
+            "rdf:value": "LOC"
+        },
+        {
+            "@id": "uncl5153:LST",
+            "@type": "unece:UNCL5153Code",
+            "rdfs:comment": "Tax imposed for clean-up of leaky underground storage tanks.",
+            "rdfs:label": "Lust tax",
+            "rdf:value": "LST"
+        },
+        {
+            "@id": "uncl5153:MCA",
+            "@type": "unece:UNCL5153Code",
+            "rdfs:comment": "Levy on Common Agricultural Policy (European Union) goods used to compensate for fluctuating currencies between member states.",
+            "rdfs:label": "Monetary compensatory amount",
+            "rdf:value": "MCA"
+        },
+        {
+            "@id": "uncl5153:MCD",
+            "@type": "unece:UNCL5153Code",
+            "rdfs:comment": "Duty paid and held on deposit, by Customs, during an investigation period prior to a final decision being made on any aspect related to imported goods (except valuation) by Customs.",
+            "rdfs:label": "Miscellaneous cash deposit",
+            "rdf:value": "MCD"
+        },
+        {
+            "@id": "uncl5153:OTH",
+            "@type": "unece:UNCL5153Code",
+            "rdfs:comment": "Unspecified, miscellaneous tax charges.",
+            "rdfs:label": "Other taxes",
+            "rdf:value": "OTH"
+        },
+        {
+            "@id": "uncl5153:PDB",
+            "@type": "unece:UNCL5153Code",
+            "rdfs:comment": "Anti-dumping duty paid by posting a bond during an investigation period prior to a formal decision on dumping by Customs.",
+            "rdfs:label": "Provisional duty bond",
+            "rdf:value": "PDB"
+        },
+        {
+            "@id": "uncl5153:PDC",
+            "@type": "unece:UNCL5153Code",
+            "rdfs:comment": "Anti-dumping duty paid in cash prior to a formal finding of dumping by Customs.",
+            "rdfs:label": "Provisional duty cash",
+            "rdf:value": "PDC"
+        },
+        {
+            "@id": "uncl5153:PRF",
+            "@type": "unece:UNCL5153Code",
+            "rdfs:comment": "Duties laid down in the Customs tariff, to which goods are liable on entering or leaving the Customs territory falling under a preferential regime such as Generalised System of Preferences (GSP).",
+            "rdfs:label": "Preference duty",
+            "rdf:value": "PRF"
+        },
+        {
+            "@id": "uncl5153:SCN",
+            "@type": "unece:UNCL5153Code",
+            "rdfs:comment": "Special tax for construction.",
+            "rdfs:label": "Special construction tax",
+            "rdf:value": "SCN"
+        },
+        {
+            "@id": "uncl5153:SSS",
+            "@type": "unece:UNCL5153Code",
+            "rdfs:comment": "Social securities share of the invoice amount to be paid directly to the social securities collector.",
+            "rdfs:label": "Shifted social securities",
+            "rdf:value": "SSS"
+        },
+        {
+            "@id": "uncl5153:STT",
+            "@type": "unece:UNCL5153Code",
+            "rdfs:comment": "All applicable sale taxes by authorities at the state or provincial level, below national level.",
+            "rdfs:label": "State/provincial sales tax",
+            "rdf:value": "STT"
+        },
+        {
+            "@id": "uncl5153:SUP",
+            "@type": "unece:UNCL5153Code",
+            "rdfs:comment": "Duty suspended or deferred from payment.",
+            "rdfs:label": "Suspended duty",
+            "rdf:value": "SUP"
+        },
+        {
+            "@id": "uncl5153:SUR",
+            "@type": "unece:UNCL5153Code",
+            "rdfs:comment": "A tax or duty applied on and in addition to existing duties and taxes.",
+            "rdfs:label": "Surtax",
+            "rdf:value": "SUR"
+        },
+        {
+            "@id": "uncl5153:SWT",
+            "@type": "unece:UNCL5153Code",
+            "rdfs:comment": "Wage tax share of the invoice amount to be paid directly to the tax collector(s office).",
+            "rdfs:label": "Shifted wage tax",
+            "rdf:value": "SWT"
+        },
+        {
+            "@id": "uncl5153:TAC",
+            "@type": "unece:UNCL5153Code",
+            "rdfs:comment": "A tax levied based on the type of alcohol being obtained.",
+            "rdfs:label": "Alcohol mark tax",
+            "rdf:value": "TAC"
+        },
+        {
+            "@id": "uncl5153:TOT",
+            "@type": "unece:UNCL5153Code",
+            "rdfs:comment": "The summary amount of all taxes.",
+            "rdfs:label": "Total",
+            "rdf:value": "TOT"
+        },
+        {
+            "@id": "uncl5153:TOX",
+            "@type": "unece:UNCL5153Code",
+            "rdfs:comment": "Tax levied on the total sales/turnover of a corporation.",
+            "rdfs:label": "Turnover tax",
+            "rdf:value": "TOX"
+        },
+        {
+            "@id": "uncl5153:TTA",
+            "@type": "unece:UNCL5153Code",
+            "rdfs:comment": "Tax levied based on the vessel's net tonnage.",
+            "rdfs:label": "Tonnage taxes",
+            "rdf:value": "TTA"
+        },
+        {
+            "@id": "uncl5153:VAD",
+            "@type": "unece:UNCL5153Code",
+            "rdfs:comment": "Duty paid and held on deposit, by Customs, during an investigation period prior to a formal decision on valuation of the goods being made.",
+            "rdfs:label": "Valuation deposit",
+            "rdf:value": "VAD"
+        },
+        {
+            "@id": "uncl5153:VAT",
+            "@type": "unece:UNCL5153Code",
+            "rdfs:comment": "A tax on domestic or imported goods applied to the value added at each stage in the production/distribution cycle.",
+            "rdfs:label": "Value added tax",
+            "rdf:value": "VAT"
+        }
+    ]
+}

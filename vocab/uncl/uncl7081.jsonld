@@ -1,0 +1,1754 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl7081": "https://dmvc7xzscpizo.cloudfront.net/uncl7081#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl7081:1",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Product in conformity with specifications.",
+            "rdfs:label": "Certificate of conformity",
+            "rdf:value": "1"
+        },
+        {
+            "@id": "uncl7081:2",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Description of general product form.",
+            "rdfs:label": "General product form",
+            "rdf:value": "2"
+        },
+        {
+            "@id": "uncl7081:3",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Product without quality control when received.",
+            "rdfs:label": "Ship to stock",
+            "rdf:value": "3"
+        },
+        {
+            "@id": "uncl7081:4",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Description of the finish required/available on the product.",
+            "rdfs:label": "Finish",
+            "rdf:value": "4"
+        },
+        {
+            "@id": "uncl7081:5",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Description of what the end use application of the product will be.",
+            "rdfs:label": "End use application",
+            "rdf:value": "5"
+        },
+        {
+            "@id": "uncl7081:6",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Description of the method of construction.",
+            "rdfs:label": "Construction method",
+            "rdf:value": "6"
+        },
+        {
+            "@id": "uncl7081:7",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "A drug name specially given in order that it may be freely used without legal restriction.",
+            "rdfs:label": "Generic drug",
+            "rdf:value": "7"
+        },
+        {
+            "@id": "uncl7081:8",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "The characteristic of a product.",
+            "rdfs:label": "Product",
+            "rdf:value": "8"
+        },
+        {
+            "@id": "uncl7081:9",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Description of a sub-product.",
+            "rdfs:label": "Sub-product",
+            "rdf:value": "9"
+        },
+        {
+            "@id": "uncl7081:10",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Specifies the direction of the grain of the product.",
+            "rdfs:label": "Grain direction",
+            "rdf:value": "10"
+        },
+        {
+            "@id": "uncl7081:11",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Item characteristic is described following Customs specifications.",
+            "rdfs:label": "Customs specifications",
+            "rdf:value": "11"
+        },
+        {
+            "@id": "uncl7081:12",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Description of the type and/or process involved in making the product. E.g. in steel, description of the steelmaking process.",
+            "rdfs:label": "Type and/or process",
+            "rdf:value": "12"
+        },
+        {
+            "@id": "uncl7081:13",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "The degree of excellence of a thing.",
+            "rdfs:label": "Quality",
+            "rdf:value": "13"
+        },
+        {
+            "@id": "uncl7081:14",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Description of the surface condition (e.g. roughness) of the product.",
+            "rdfs:label": "Surface condition",
+            "rdf:value": "14"
+        },
+        {
+            "@id": "uncl7081:15",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Description of any heat treatment or annealing required/performed on the product.",
+            "rdfs:label": "Heat treat/anneal",
+            "rdf:value": "15"
+        },
+        {
+            "@id": "uncl7081:16",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "A code identifying a size system, comprising a set of sizes.",
+            "rdfs:label": "Size system",
+            "rdf:value": "16"
+        },
+        {
+            "@id": "uncl7081:17",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Description of any special coating required/available on the product.",
+            "rdfs:label": "Coating",
+            "rdf:value": "17"
+        },
+        {
+            "@id": "uncl7081:18",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Description of any chemical surface treatment required/performed on the product.",
+            "rdfs:label": "Surface treatment, chemical",
+            "rdf:value": "18"
+        },
+        {
+            "@id": "uncl7081:19",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Description of any mechanical surface treatment required/performed on the product.",
+            "rdfs:label": "Surface treatment, mechanical",
+            "rdf:value": "19"
+        },
+        {
+            "@id": "uncl7081:20",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Type of transfer capacity.",
+            "rdfs:label": "Transfer capacity type",
+            "rdf:value": "20"
+        },
+        {
+            "@id": "uncl7081:21",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Description of any forming required/performed on the product.",
+            "rdfs:label": "Forming",
+            "rdf:value": "21"
+        },
+        {
+            "@id": "uncl7081:22",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Description of any special edge treatment required/performed on the product.",
+            "rdfs:label": "Edge treatment",
+            "rdf:value": "22"
+        },
+        {
+            "@id": "uncl7081:23",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Description of any special welds and or splices required/performed on the product.",
+            "rdfs:label": "Welds/splices",
+            "rdf:value": "23"
+        },
+        {
+            "@id": "uncl7081:24",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Security relevant product with special quality control and control documentation prescriptions.",
+            "rdfs:label": "Control item",
+            "rdf:value": "24"
+        },
+        {
+            "@id": "uncl7081:25",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Description of any special treatment required/performed on the ends the product.",
+            "rdfs:label": "End treatment",
+            "rdf:value": "25"
+        },
+        {
+            "@id": "uncl7081:26",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Product without quality control at customer's, and packed according production needs.",
+            "rdfs:label": "Ship to line",
+            "rdf:value": "26"
+        },
+        {
+            "@id": "uncl7081:27",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Description of material used to manufacture a product.",
+            "rdfs:label": "Material description",
+            "rdf:value": "27"
+        },
+        {
+            "@id": "uncl7081:28",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Indication of test sample frequency. Used when ordering special testing requirements on a product.",
+            "rdfs:label": "Test sample frequency",
+            "rdf:value": "28"
+        },
+        {
+            "@id": "uncl7081:29",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Type of electricity exchange.",
+            "rdfs:label": "Electricity exchange type",
+            "rdf:value": "29"
+        },
+        {
+            "@id": "uncl7081:30",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Description of test sample direction. Used when ordering special testing requirements on a product.",
+            "rdfs:label": "Test sample direction",
+            "rdf:value": "30"
+        },
+        {
+            "@id": "uncl7081:31",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "European community classification \"CE\" indicating the safety risk of an article.",
+            "rdfs:label": "European Community risk class",
+            "rdf:value": "31"
+        },
+        {
+            "@id": "uncl7081:32",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Description of type of test or inspection. Used to order special tests to be performed on the product.",
+            "rdfs:label": "Type of test/inspection",
+            "rdf:value": "32"
+        },
+        {
+            "@id": "uncl7081:33",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "The type of electricity production.",
+            "rdfs:label": "Electricity production type",
+            "rdf:value": "33"
+        },
+        {
+            "@id": "uncl7081:34",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "The properties of the earth's water in relation to land.",
+            "rdfs:label": "Hydrological data",
+            "rdf:value": "34"
+        },
+        {
+            "@id": "uncl7081:35",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Description of the colour required/available on the product.",
+            "rdfs:label": "Colour",
+            "rdf:value": "35"
+        },
+        {
+            "@id": "uncl7081:36",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "The way electricity is consumed.",
+            "rdfs:label": "Electricity consumption type",
+            "rdf:value": "36"
+        },
+        {
+            "@id": "uncl7081:37",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "The characteristic described is the weather data.",
+            "rdfs:label": "Weather data",
+            "rdf:value": "37"
+        },
+        {
+            "@id": "uncl7081:38",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Specification of the grade required/available for the product.",
+            "rdfs:label": "Grade",
+            "rdf:value": "38"
+        },
+        {
+            "@id": "uncl7081:39",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "The characteristic described is the ancillary electricity service available or produced.",
+            "rdfs:label": "Ancillary electricity service",
+            "rdf:value": "39"
+        },
+        {
+            "@id": "uncl7081:40",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Specification of an active substance in a product.",
+            "rdfs:label": "Active substance",
+            "rdf:value": "40"
+        },
+        {
+            "@id": "uncl7081:41",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "The proper shipping name of the dangerous goods as defined by the relevant authority.",
+            "rdfs:label": "Dangerous goods proper shipping name",
+            "rdf:value": "41"
+        },
+        {
+            "@id": "uncl7081:42",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "The fanciful name of the article.",
+            "rdfs:label": "Fanciful name",
+            "rdf:value": "42"
+        },
+        {
+            "@id": "uncl7081:43",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Description of any special twisting requirements for the product.",
+            "rdfs:label": "Twist",
+            "rdf:value": "43"
+        },
+        {
+            "@id": "uncl7081:44",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Description of further identifying characteristic of a product which enables the product to be distinguished from any similar products.",
+            "rdfs:label": "Further identifying characteristic",
+            "rdf:value": "44"
+        },
+        {
+            "@id": "uncl7081:45",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Describes the private label name of a product.",
+            "rdfs:label": "Private label name",
+            "rdf:value": "45"
+        },
+        {
+            "@id": "uncl7081:46",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Describes the outline of the item.",
+            "rdfs:label": "Silhouette",
+            "rdf:value": "46"
+        },
+        {
+            "@id": "uncl7081:47",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "The warranty type description of the item.",
+            "rdfs:label": "Warranty type description",
+            "rdf:value": "47"
+        },
+        {
+            "@id": "uncl7081:48",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Describes the fineness of the yarn in the cloth.",
+            "rdfs:label": "Yarn count",
+            "rdf:value": "48"
+        },
+        {
+            "@id": "uncl7081:49",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Code indicating the category of equipment.",
+            "rdfs:label": "Equipment",
+            "rdf:value": "49"
+        },
+        {
+            "@id": "uncl7081:50",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Characteristic being described is labour.",
+            "rdfs:label": "Labour",
+            "rdf:value": "50"
+        },
+        {
+            "@id": "uncl7081:51",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Characteristic being described is overtime labour.",
+            "rdfs:label": "Labour overtime",
+            "rdf:value": "51"
+        },
+        {
+            "@id": "uncl7081:52",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Characteristic being described is labour double time.",
+            "rdfs:label": "Labour double time",
+            "rdf:value": "52"
+        },
+        {
+            "@id": "uncl7081:53",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "A code to identify the characteristics of a leased resource.",
+            "rdfs:label": "Leased resource",
+            "rdf:value": "53"
+        },
+        {
+            "@id": "uncl7081:54",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Description of the section and profile of the product.",
+            "rdfs:label": "Section profile",
+            "rdf:value": "54"
+        },
+        {
+            "@id": "uncl7081:55",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "The registered trademark or copyright name of the article.",
+            "rdfs:label": "Registered name",
+            "rdf:value": "55"
+        },
+        {
+            "@id": "uncl7081:56",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Description of any special processing requirements performed or required.",
+            "rdfs:label": "Special processing",
+            "rdf:value": "56"
+        },
+        {
+            "@id": "uncl7081:57",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "The name of the article as commonly used by the industry sector where the article is traded and/or transported.",
+            "rdfs:label": "Trade name",
+            "rdf:value": "57"
+        },
+        {
+            "@id": "uncl7081:58",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Description of any special winding instructions for the product.",
+            "rdfs:label": "Winding instructions",
+            "rdf:value": "58"
+        },
+        {
+            "@id": "uncl7081:59",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Description of the surface protection required/available for the product.",
+            "rdfs:label": "Surface protection",
+            "rdf:value": "59"
+        },
+        {
+            "@id": "uncl7081:60",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "The age of the object.",
+            "rdfs:label": "Age",
+            "rdf:value": "60"
+        },
+        {
+            "@id": "uncl7081:61",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "The characteristic of a new item or commodity.",
+            "rdfs:label": "New article",
+            "rdf:value": "61"
+        },
+        {
+            "@id": "uncl7081:62",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "The characteristic of a discarded item or commodity.",
+            "rdfs:label": "Obsolete article",
+            "rdf:value": "62"
+        },
+        {
+            "@id": "uncl7081:63",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "The characteristic of an item or commodity in use.",
+            "rdfs:label": "Current article",
+            "rdf:value": "63"
+        },
+        {
+            "@id": "uncl7081:64",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "The characteristic of a design that has been amended.",
+            "rdfs:label": "Revised design",
+            "rdf:value": "64"
+        },
+        {
+            "@id": "uncl7081:65",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "The characteristic of an item or commodity that has been replaced in a former position.",
+            "rdfs:label": "Reinstated article",
+            "rdf:value": "65"
+        },
+        {
+            "@id": "uncl7081:66",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "The characteristic of an extra item or commodity in use.",
+            "rdfs:label": "Current article spares",
+            "rdf:value": "66"
+        },
+        {
+            "@id": "uncl7081:67",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "The characteristic of an item or commodity for comparing or offsetting.",
+            "rdfs:label": "Balance out article",
+            "rdf:value": "67"
+        },
+        {
+            "@id": "uncl7081:68",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "The characteristic of the beginning part or quantity intended to show what the whole is like.",
+            "rdfs:label": "Initial sample",
+            "rdf:value": "68"
+        },
+        {
+            "@id": "uncl7081:69",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "First series of a new item to be tested by end users.",
+            "rdfs:label": "Field test",
+            "rdf:value": "69"
+        },
+        {
+            "@id": "uncl7081:70",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Item design revised.",
+            "rdfs:label": "Revised article",
+            "rdf:value": "70"
+        },
+        {
+            "@id": "uncl7081:71",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "The characteristic of an item or commodity that has been restored.",
+            "rdfs:label": "Refurbished article",
+            "rdf:value": "71"
+        },
+        {
+            "@id": "uncl7081:72",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "The harvest year of the grapes that are part of the composition of a particular wine.",
+            "rdfs:label": "Vintage",
+            "rdf:value": "72"
+        },
+        {
+            "@id": "uncl7081:73",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "The period during which, after distillation and before bottling, distilled spirits have been stored in containers.",
+            "rdfs:label": "Beverage age",
+            "rdf:value": "73"
+        },
+        {
+            "@id": "uncl7081:74",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "A grouping of beverage products similar in name only, but of different size, age, proof, quality and flavour.",
+            "rdfs:label": "Beverage brand",
+            "rdf:value": "74"
+        },
+        {
+            "@id": "uncl7081:75",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "The performing artist(es) of a recorded song or piece of music.",
+            "rdfs:label": "Artist",
+            "rdf:value": "75"
+        },
+        {
+            "@id": "uncl7081:76",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "The author of a written work.",
+            "rdfs:label": "Author",
+            "rdf:value": "76"
+        },
+        {
+            "@id": "uncl7081:77",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "A description of the type of binding used for a written work.",
+            "rdfs:label": "Binding",
+            "rdf:value": "77"
+        },
+        {
+            "@id": "uncl7081:78",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Description of the edition of a written work.",
+            "rdfs:label": "Edition",
+            "rdf:value": "78"
+        },
+        {
+            "@id": "uncl7081:79",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Any other relevant physical description.",
+            "rdfs:label": "Other physical description",
+            "rdf:value": "79"
+        },
+        {
+            "@id": "uncl7081:80",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "The publisher of a written piece of work as part of the item description.",
+            "rdfs:label": "Publisher",
+            "rdf:value": "80"
+        },
+        {
+            "@id": "uncl7081:81",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "The title of a work.",
+            "rdfs:label": "Title",
+            "rdf:value": "81"
+        },
+        {
+            "@id": "uncl7081:82",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Title of a series of works.",
+            "rdfs:label": "Series title",
+            "rdf:value": "82"
+        },
+        {
+            "@id": "uncl7081:83",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "The title of a volume of work.",
+            "rdfs:label": "Volume title",
+            "rdf:value": "83"
+        },
+        {
+            "@id": "uncl7081:84",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "The composer of a recorded song or piece of music.",
+            "rdfs:label": "Composer",
+            "rdf:value": "84"
+        },
+        {
+            "@id": "uncl7081:85",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "The medium on which a musical recording is made.",
+            "rdfs:label": "Recording medium",
+            "rdf:value": "85"
+        },
+        {
+            "@id": "uncl7081:86",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "The style of music.",
+            "rdfs:label": "Music style",
+            "rdf:value": "86"
+        },
+        {
+            "@id": "uncl7081:87",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Describes the promotional event associated with a product.",
+            "rdfs:label": "Promotional event",
+            "rdf:value": "87"
+        },
+        {
+            "@id": "uncl7081:88",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Describes the additions to the basic product for a promotional event.",
+            "rdfs:label": "Promotional offer",
+            "rdf:value": "88"
+        },
+        {
+            "@id": "uncl7081:89",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Class characteristics for different compositions of alcoholic beverages.",
+            "rdfs:label": "Alcohol beverage class",
+            "rdf:value": "89"
+        },
+        {
+            "@id": "uncl7081:90",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "A descriptive term that further defines the class of an alcoholic beverage.",
+            "rdfs:label": "Alcohol beverage type",
+            "rdf:value": "90"
+        },
+        {
+            "@id": "uncl7081:91",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "The grape that comprises the second largest percentage of the ingredients used in wine product.",
+            "rdfs:label": "Secondary grape",
+            "rdf:value": "91"
+        },
+        {
+            "@id": "uncl7081:92",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "The type of grape that comprises the largest percentage of grape in the wine product.",
+            "rdfs:label": "Primary grape",
+            "rdf:value": "92"
+        },
+        {
+            "@id": "uncl7081:93",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "A description to designate the beverage category.",
+            "rdfs:label": "Beverage category",
+            "rdf:value": "93"
+        },
+        {
+            "@id": "uncl7081:94",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Distinctions from the base product that results in a different taste.",
+            "rdfs:label": "Beverage flavour",
+            "rdf:value": "94"
+        },
+        {
+            "@id": "uncl7081:95",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "The area where the grape used to produce a wine was harvested.",
+            "rdfs:label": "Wine growing region",
+            "rdf:value": "95"
+        },
+        {
+            "@id": "uncl7081:96",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "The fruit that is used as a base to produce a wine.",
+            "rdfs:label": "Wine fruit",
+            "rdf:value": "96"
+        },
+        {
+            "@id": "uncl7081:97",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "A description of various beverage container characteristics.",
+            "rdfs:label": "Beverage container characteristics",
+            "rdf:value": "97"
+        },
+        {
+            "@id": "uncl7081:98",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Description of size in non-numeric terms.",
+            "rdfs:label": "Size",
+            "rdf:value": "98"
+        },
+        {
+            "@id": "uncl7081:99",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "The history of a particular cell line.",
+            "rdfs:label": "Cell line history",
+            "rdf:value": "99"
+        },
+        {
+            "@id": "uncl7081:100",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "To identify the subject of a given project.",
+            "rdfs:label": "Project subject",
+            "rdf:value": "100"
+        },
+        {
+            "@id": "uncl7081:101",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Specifies the type of test panel used for the item.",
+            "rdfs:label": "Test panel type",
+            "rdf:value": "101"
+        },
+        {
+            "@id": "uncl7081:102",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Anatomical origin of sample.",
+            "rdfs:label": "Anatomical origin of sample",
+            "rdf:value": "102"
+        },
+        {
+            "@id": "uncl7081:103",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Type of sample such as blood or urine.",
+            "rdfs:label": "Type of sample",
+            "rdf:value": "103"
+        },
+        {
+            "@id": "uncl7081:104",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "A code indicating the shelf-life of a product.",
+            "rdfs:label": "Shelf-life code",
+            "rdf:value": "104"
+        },
+        {
+            "@id": "uncl7081:105",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Code indicating that the item has a limiting operation.",
+            "rdfs:label": "Limiting operation",
+            "rdf:value": "105"
+        },
+        {
+            "@id": "uncl7081:106",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "To bring to a required degree of hardness and elasticity by heating and then cooling.",
+            "rdfs:label": "Temper",
+            "rdf:value": "106"
+        },
+        {
+            "@id": "uncl7081:107",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "A fine wire heated electrically to incandescence.",
+            "rdfs:label": "Filament",
+            "rdf:value": "107"
+        },
+        {
+            "@id": "uncl7081:108",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "The unit of fineness for yarns.",
+            "rdfs:label": "Denier",
+            "rdf:value": "108"
+        },
+        {
+            "@id": "uncl7081:109",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "A threadlike or filament forming part of a product.",
+            "rdfs:label": "Fibre",
+            "rdf:value": "109"
+        },
+        {
+            "@id": "uncl7081:110",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "A reflected light or sheen.",
+            "rdfs:label": "Lustre",
+            "rdf:value": "110"
+        },
+        {
+            "@id": "uncl7081:111",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "The degree to which a colour is mixed with black or is decreasingly illuminated.",
+            "rdfs:label": "Shade",
+            "rdf:value": "111"
+        },
+        {
+            "@id": "uncl7081:112",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "A gradation of colour made by adding white to lessen the saturation.",
+            "rdfs:label": "Tint",
+            "rdf:value": "112"
+        },
+        {
+            "@id": "uncl7081:113",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "The fibre of flax, hemp or jute prepared for low-grade spinning.",
+            "rdfs:label": "Fibre tow",
+            "rdf:value": "113"
+        },
+        {
+            "@id": "uncl7081:114",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "A homogeneous mixture or solid solution usually of two or more metals.",
+            "rdfs:label": "Alloy",
+            "rdf:value": "114"
+        },
+        {
+            "@id": "uncl7081:115",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Description of the machine run characteristics for a product.",
+            "rdfs:label": "Machine run",
+            "rdf:value": "115"
+        },
+        {
+            "@id": "uncl7081:116",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "The characteristics describing the resistance to chemical deterioration.",
+            "rdfs:label": "Corrosion resistance",
+            "rdf:value": "116"
+        },
+        {
+            "@id": "uncl7081:117",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Capable of being seen by the eye or with the aid of optics.",
+            "rdfs:label": "Visual",
+            "rdf:value": "117"
+        },
+        {
+            "@id": "uncl7081:118",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Code indicating the product's electrical characteristics.",
+            "rdfs:label": "Electrical",
+            "rdf:value": "118"
+        },
+        {
+            "@id": "uncl7081:119",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Code indicating the product's functional performance characteristics.",
+            "rdfs:label": "Functional performance",
+            "rdf:value": "119"
+        },
+        {
+            "@id": "uncl7081:120",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Code indicating the product's chemical characteristics.",
+            "rdfs:label": "Chemistry",
+            "rdf:value": "120"
+        },
+        {
+            "@id": "uncl7081:121",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Code indicating the product's physical characteristics.",
+            "rdfs:label": "Physical",
+            "rdf:value": "121"
+        },
+        {
+            "@id": "uncl7081:122",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Code indicating the product's magnetic characteristics.",
+            "rdfs:label": "Magnetic",
+            "rdf:value": "122"
+        },
+        {
+            "@id": "uncl7081:123",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Code indicating the product's mechanical characteristics.",
+            "rdfs:label": "Mechanical",
+            "rdf:value": "123"
+        },
+        {
+            "@id": "uncl7081:124",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Code indicating the product's metallographic characteristics.",
+            "rdfs:label": "Metallographic",
+            "rdf:value": "124"
+        },
+        {
+            "@id": "uncl7081:125",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Code indicating the product's dye lot characteristics.",
+            "rdfs:label": "Dye lot",
+            "rdf:value": "125"
+        },
+        {
+            "@id": "uncl7081:126",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Code indicating the product's pattern characteristics.",
+            "rdfs:label": "Pattern",
+            "rdf:value": "126"
+        },
+        {
+            "@id": "uncl7081:127",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "The outward aspect or semblance.",
+            "rdfs:label": "Appearance",
+            "rdf:value": "127"
+        },
+        {
+            "@id": "uncl7081:128",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "The separation of visible light into its colour components by refraction or diffraction.",
+            "rdfs:label": "Dispersion",
+            "rdf:value": "128"
+        },
+        {
+            "@id": "uncl7081:129",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Code indicating the product's fluid characteristics.",
+            "rdfs:label": "Fluid",
+            "rdf:value": "129"
+        },
+        {
+            "@id": "uncl7081:130",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "The movement or run in the manner of a liquid.",
+            "rdfs:label": "Flow",
+            "rdf:value": "130"
+        },
+        {
+            "@id": "uncl7081:131",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Code indicating the product's moisture characteristics.",
+            "rdfs:label": "Moisture",
+            "rdf:value": "131"
+        },
+        {
+            "@id": "uncl7081:132",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Code indicating the product's fabric characteristics.",
+            "rdfs:label": "Fabric",
+            "rdf:value": "132"
+        },
+        {
+            "@id": "uncl7081:133",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Any designed component of a fixture or container, typically detachable from the base unit for empty return or for cleaning, which provides rigidity, stability, or security when loaded and are an integral part of the container or shipping device and are essential to its functionality.",
+            "rdfs:label": "Shipping unit component",
+            "rdf:value": "133"
+        },
+        {
+            "@id": "uncl7081:134",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Code indicating the product's manufacturing method characteristics.",
+            "rdfs:label": "Manufacturing method",
+            "rdf:value": "134"
+        },
+        {
+            "@id": "uncl7081:135",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Code indicating the discrete identification of the engine characteristics.",
+            "rdfs:label": "Engine",
+            "rdf:value": "135"
+        },
+        {
+            "@id": "uncl7081:136",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Code indicating the discrete identification of the transmission characteristics.",
+            "rdfs:label": "Transmission",
+            "rdf:value": "136"
+        },
+        {
+            "@id": "uncl7081:137",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Code indicating the controlled substance characteristics.",
+            "rdfs:label": "Controlled substance",
+            "rdf:value": "137"
+        },
+        {
+            "@id": "uncl7081:139",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Code indicating the product's accompanying or coinciding characteristics.",
+            "rdfs:label": "Collateral",
+            "rdf:value": "139"
+        },
+        {
+            "@id": "uncl7081:140",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Code indicating the discrete identification of the chassis characteristics.",
+            "rdfs:label": "Chassis",
+            "rdf:value": "140"
+        },
+        {
+            "@id": "uncl7081:141",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Code indicating the product's compliance method characteristics.",
+            "rdfs:label": "Compliance method",
+            "rdf:value": "141"
+        },
+        {
+            "@id": "uncl7081:142",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "A collar with internal threads used to join a section of threaded pipe.",
+            "rdfs:label": "Pipe coupling",
+            "rdf:value": "142"
+        },
+        {
+            "@id": "uncl7081:143",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Code indicating the drug's capacity or ability to produce the desired effects.",
+            "rdfs:label": "Drug efficacy",
+            "rdf:value": "143"
+        },
+        {
+            "@id": "uncl7081:144",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Code indicating the physical form of the dosage.",
+            "rdfs:label": "Dosage form",
+            "rdf:value": "144"
+        },
+        {
+            "@id": "uncl7081:145",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Code indicating the product's dimensional characteristics in non-numeric terms.",
+            "rdfs:label": "Dimensional",
+            "rdf:value": "145"
+        },
+        {
+            "@id": "uncl7081:146",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Code indicating the product's fold configuration characteristics.",
+            "rdfs:label": "Fold configuration",
+            "rdf:value": "146"
+        },
+        {
+            "@id": "uncl7081:147",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Code indicating the fuel characteristics.",
+            "rdfs:label": "Fuel",
+            "rdf:value": "147"
+        },
+        {
+            "@id": "uncl7081:148",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Identification of a particular cell line.",
+            "rdfs:label": "Cell line identifier",
+            "rdf:value": "148"
+        },
+        {
+            "@id": "uncl7081:149",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "The characteristics of a liquid conveyed under pressure through pipes or channels.",
+            "rdfs:label": "Hydraulics",
+            "rdf:value": "149"
+        },
+        {
+            "@id": "uncl7081:150",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Code indicating the product's coordinates in non-numeric terms.",
+            "rdfs:label": "Coordinates",
+            "rdf:value": "150"
+        },
+        {
+            "@id": "uncl7081:151",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "An item available in addition to standard features of a product.",
+            "rdfs:label": "Options",
+            "rdf:value": "151"
+        },
+        {
+            "@id": "uncl7081:152",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Code indicating the non-prescription drug's characteristics.",
+            "rdfs:label": "Non-prescription drug",
+            "rdf:value": "152"
+        },
+        {
+            "@id": "uncl7081:153",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Code indicating the prescription drug's characteristics.",
+            "rdfs:label": "Prescription drug",
+            "rdf:value": "153"
+        },
+        {
+            "@id": "uncl7081:154",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "The derivation of a material thing.",
+            "rdfs:label": "Source",
+            "rdf:value": "154"
+        },
+        {
+            "@id": "uncl7081:155",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Code indicating the product's therapeutic class characteristics.",
+            "rdfs:label": "Therapeutic class",
+            "rdf:value": "155"
+        },
+        {
+            "@id": "uncl7081:156",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Code indicating the product's therapeutic equivalency characteristics.",
+            "rdfs:label": "Therapeutic equivalency",
+            "rdf:value": "156"
+        },
+        {
+            "@id": "uncl7081:157",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Code indicating the product's filter characteristics.",
+            "rdfs:label": "Filter",
+            "rdf:value": "157"
+        },
+        {
+            "@id": "uncl7081:158",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Code indicating the product's trim characteristics.",
+            "rdfs:label": "Trim",
+            "rdf:value": "158"
+        },
+        {
+            "@id": "uncl7081:159",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Code indicating unusable material left over from a process of manufacturing.",
+            "rdfs:label": "Waste",
+            "rdf:value": "159"
+        },
+        {
+            "@id": "uncl7081:160",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Code indicating the method for locating the lowest part or surface of a works.",
+            "rdfs:label": "Bottomhole location method",
+            "rdf:value": "160"
+        },
+        {
+            "@id": "uncl7081:161",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Code indicating the method for measuring pressures at the lowest part or surface of a works.",
+            "rdfs:label": "Bottomhole pressure method",
+            "rdf:value": "161"
+        },
+        {
+            "@id": "uncl7081:162",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Code indicating the product's common chemical name.",
+            "rdfs:label": "Common chemical name",
+            "rdf:value": "162"
+        },
+        {
+            "@id": "uncl7081:163",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Code indicating the product's chemical family name.",
+            "rdfs:label": "Chemical family name",
+            "rdf:value": "163"
+        },
+        {
+            "@id": "uncl7081:164",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Code indicating the protective or covering part of a natural or manufactured object.",
+            "rdfs:label": "Casing or liner type",
+            "rdf:value": "164"
+        },
+        {
+            "@id": "uncl7081:165",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Code indicating the well drilling direction.",
+            "rdfs:label": "Well direction",
+            "rdf:value": "165"
+        },
+        {
+            "@id": "uncl7081:166",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Code indicating the product's electronic field characteristics.",
+            "rdfs:label": "Electronic field",
+            "rdf:value": "166"
+        },
+        {
+            "@id": "uncl7081:167",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Code indicating the formula characteristics in non- numeric terms.",
+            "rdfs:label": "Formula",
+            "rdf:value": "167"
+        },
+        {
+            "@id": "uncl7081:168",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "A component part of a mixture.",
+            "rdfs:label": "Ingredient",
+            "rdf:value": "168"
+        },
+        {
+            "@id": "uncl7081:169",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Code indicating the market segment associated with a product.",
+            "rdfs:label": "Market segment",
+            "rdf:value": "169"
+        },
+        {
+            "@id": "uncl7081:170",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "The property of a substance that is perceptible by the sense of smell.",
+            "rdfs:label": "Odour",
+            "rdf:value": "170"
+        },
+        {
+            "@id": "uncl7081:171",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Code indicating the physical form of a product.",
+            "rdfs:label": "Physical form",
+            "rdf:value": "171"
+        },
+        {
+            "@id": "uncl7081:172",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Code indicating the well perforation continuity characteristics.",
+            "rdfs:label": "Well perforation continuity",
+            "rdf:value": "172"
+        },
+        {
+            "@id": "uncl7081:173",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Code indicating the well perforation interval characteristics.",
+            "rdfs:label": "Well perforation interval",
+            "rdf:value": "173"
+        },
+        {
+            "@id": "uncl7081:174",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Code indicating the product's pipeline stream characteristics.",
+            "rdfs:label": "Pipeline stream",
+            "rdf:value": "174"
+        },
+        {
+            "@id": "uncl7081:175",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Code indicating the product's surface location method characteristics.",
+            "rdfs:label": "Surface location method",
+            "rdf:value": "175"
+        },
+        {
+            "@id": "uncl7081:176",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Code indicating the product's threshold characteristics.",
+            "rdfs:label": "Threshold",
+            "rdf:value": "176"
+        },
+        {
+            "@id": "uncl7081:177",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Code indicating the well classification characteristics.",
+            "rdfs:label": "Well classification",
+            "rdf:value": "177"
+        },
+        {
+            "@id": "uncl7081:178",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Code indicating the well test type characteristics.",
+            "rdfs:label": "Well test type",
+            "rdf:value": "178"
+        },
+        {
+            "@id": "uncl7081:179",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Specification of the major grade of the item.",
+            "rdfs:label": "Major grade",
+            "rdf:value": "179"
+        },
+        {
+            "@id": "uncl7081:180",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Description of the specification of the item.",
+            "rdfs:label": "Specification",
+            "rdf:value": "180"
+        },
+        {
+            "@id": "uncl7081:181",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Code indicating the test sample location on the ends of a product.",
+            "rdfs:label": "Test sample location - ends",
+            "rdf:value": "181"
+        },
+        {
+            "@id": "uncl7081:182",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Code indicating the period of time between product creation and obsolescence.",
+            "rdfs:label": "Product life cycle",
+            "rdf:value": "182"
+        },
+        {
+            "@id": "uncl7081:183",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Code indicating the product's storage or display characteristics.",
+            "rdfs:label": "Storage and display",
+            "rdf:value": "183"
+        },
+        {
+            "@id": "uncl7081:184",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "A code indicating the relation of weight to volume using non-discrete values.",
+            "rdfs:label": "Density",
+            "rdf:value": "184"
+        },
+        {
+            "@id": "uncl7081:185",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "The orientation of the back printing on a form to the front printing on the same form.",
+            "rdfs:label": "Print orientation",
+            "rdf:value": "185"
+        },
+        {
+            "@id": "uncl7081:186",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "A code indicating the amount of a substance that can be dissolved using a non-discrete value.",
+            "rdfs:label": "Solubility",
+            "rdf:value": "186"
+        },
+        {
+            "@id": "uncl7081:187",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "A code to identify the characteristics of a material resource.",
+            "rdfs:label": "Material resource",
+            "rdf:value": "187"
+        },
+        {
+            "@id": "uncl7081:188",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "A code to identify other direct resources that are charged to a task.",
+            "rdfs:label": "Other direct resource",
+            "rdf:value": "188"
+        },
+        {
+            "@id": "uncl7081:189",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "A code to identify resources that are part of a subcontract.",
+            "rdfs:label": "Subcontract resource",
+            "rdf:value": "189"
+        },
+        {
+            "@id": "uncl7081:190",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "A code to identify resources that are consumed.",
+            "rdfs:label": "Consumable resource",
+            "rdf:value": "190"
+        },
+        {
+            "@id": "uncl7081:191",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "A code to identify a recurring resource.",
+            "rdfs:label": "Recurring resource",
+            "rdf:value": "191"
+        },
+        {
+            "@id": "uncl7081:192",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "A code to identify a resource that is non recurring.",
+            "rdfs:label": "Non recurring resource",
+            "rdf:value": "192"
+        },
+        {
+            "@id": "uncl7081:193",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "To indicate a presentation effect.",
+            "rdfs:label": "Presentation effect",
+            "rdf:value": "193"
+        },
+        {
+            "@id": "uncl7081:194",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "This value identifies a font by name.",
+            "rdfs:label": "Font",
+            "rdf:value": "194"
+        },
+        {
+            "@id": "uncl7081:195",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "A word which may be used as a search key.",
+            "rdfs:label": "Key-word",
+            "rdf:value": "195"
+        },
+        {
+            "@id": "uncl7081:196",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "A code issued on a sectorial basis which identifies any additional characteristics of a product.",
+            "rdfs:label": "Additional sectorial characteristics",
+            "rdf:value": "196"
+        },
+        {
+            "@id": "uncl7081:197",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "A description indicating how a product should be managed in a data base.",
+            "rdfs:label": "Product data base management description",
+            "rdf:value": "197"
+        },
+        {
+            "@id": "uncl7081:198",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "The media in which a cell is being grown (cultured).",
+            "rdfs:label": "Cell culture media",
+            "rdf:value": "198"
+        },
+        {
+            "@id": "uncl7081:199",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Hybridoma or cells that have been engineered to produce a desired antibody.",
+            "rdfs:label": "Animal hybridoma",
+            "rdf:value": "199"
+        },
+        {
+            "@id": "uncl7081:200",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Description of the coexistence of viruses found in blood.",
+            "rdfs:label": "Virus coexistence, serological",
+            "rdf:value": "200"
+        },
+        {
+            "@id": "uncl7081:201",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "A blend or combination of components that constitute a particular commodity.",
+            "rdfs:label": "Composition",
+            "rdf:value": "201"
+        },
+        {
+            "@id": "uncl7081:202",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "The body type of a vehicle, e.g. four door, two door, convertible.",
+            "rdfs:label": "Vehicle body type",
+            "rdf:value": "202"
+        },
+        {
+            "@id": "uncl7081:203",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "The condition of the item.",
+            "rdfs:label": "Condition",
+            "rdf:value": "203"
+        },
+        {
+            "@id": "uncl7081:204",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "An indication that the item is under the Convention on International Trade and Endangered Species (CITES).",
+            "rdfs:label": "Convention on International Trade and Endangered Species (CITES) indicator",
+            "rdf:value": "204"
+        },
+        {
+            "@id": "uncl7081:205",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "An indicator that the item is subject to the US State Department Directorate of Defense Trade Controls (DDTC).",
+            "rdfs:label": "DDTC military equipment indicator",
+            "rdf:value": "205"
+        },
+        {
+            "@id": "uncl7081:206",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Information on the driver side of the vehicle.",
+            "rdfs:label": "Driver side",
+            "rdf:value": "206"
+        },
+        {
+            "@id": "uncl7081:207",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "The administrative engine power unit rating.",
+            "rdfs:label": "Engine power rating, administrative",
+            "rdf:value": "207"
+        },
+        {
+            "@id": "uncl7081:208",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "The source of an enzyme.",
+            "rdfs:label": "Enzyme source",
+            "rdf:value": "208"
+        },
+        {
+            "@id": "uncl7081:209",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "The gender of an item.",
+            "rdfs:label": "Gender",
+            "rdf:value": "209"
+        },
+        {
+            "@id": "uncl7081:210",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "A geographically isolated area.",
+            "rdfs:label": "Geographic isolate",
+            "rdf:value": "210"
+        },
+        {
+            "@id": "uncl7081:211",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Information that the article has been intergeneric genetically modified.",
+            "rdfs:label": "Intergeneric genetically modified",
+            "rdf:value": "211"
+        },
+        {
+            "@id": "uncl7081:212",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Information on the stage of life.",
+            "rdfs:label": "Life stage",
+            "rdf:value": "212"
+        },
+        {
+            "@id": "uncl7081:213",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Information on the pathovar, the bacterial strain(s) with the same or similar characteristics as the item.",
+            "rdfs:label": "Pathovar",
+            "rdf:value": "213"
+        },
+        {
+            "@id": "uncl7081:214",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Reference to previously provided information from the manufacturer to identify, assess, and manage human health and environmental risks from chemical substances, mixtures, or categories.",
+            "rdfs:label": "Preliminary assessment information rule",
+            "rdf:value": "214"
+        },
+        {
+            "@id": "uncl7081:215",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "The item is recognized as a protected species by a legislative or regulatory authority.",
+            "rdfs:label": "Protected species",
+            "rdf:value": "215"
+        },
+        {
+            "@id": "uncl7081:216",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Information on the race of the item.",
+            "rdfs:label": "Race",
+            "rdf:value": "216"
+        },
+        {
+            "@id": "uncl7081:217",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Indication of the insertion of one or more nucleotide base pairs into a genetic sequence.",
+            "rdfs:label": "Recombinant genetic insert",
+            "rdf:value": "217"
+        },
+        {
+            "@id": "uncl7081:218",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Information on the strain, the genetic variant or subtype of a microorganism of the item.",
+            "rdfs:label": "Strain (microbiology)",
+            "rdf:value": "218"
+        },
+        {
+            "@id": "uncl7081:219",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "A kind, sort, or type that distinguishes one commodity from another commodity with similar characteristics.",
+            "rdfs:label": "Style",
+            "rdf:value": "219"
+        },
+        {
+            "@id": "uncl7081:220",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "A name or a term assigned by seller that identifies a commodity.",
+            "rdfs:label": "Seller assigned commodity name",
+            "rdf:value": "220"
+        },
+        {
+            "@id": "uncl7081:221",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "A model name used to identify the item.",
+            "rdfs:label": "Model name",
+            "rdf:value": "221"
+        },
+        {
+            "@id": "uncl7081:222",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "The variety of the item.",
+            "rdfs:label": "Variety",
+            "rdf:value": "222"
+        },
+        {
+            "@id": "uncl7081:223",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "The brand name of an item.",
+            "rdfs:label": "Brand name",
+            "rdf:value": "223"
+        },
+        {
+            "@id": "uncl7081:224",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Approved name of the item.",
+            "rdfs:label": "Item name, approved",
+            "rdf:value": "224"
+        },
+        {
+            "@id": "uncl7081:225",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "The approved descriptive name of the item.",
+            "rdfs:label": "Item descriptive name, approved",
+            "rdf:value": "225"
+        },
+        {
+            "@id": "uncl7081:226",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "The common name of the item.",
+            "rdfs:label": "Common name",
+            "rdf:value": "226"
+        },
+        {
+            "@id": "uncl7081:227",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Item is not for resale to consumer.",
+            "rdfs:label": "Not for resale to consumer",
+            "rdf:value": "227"
+        },
+        {
+            "@id": "uncl7081:228",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "The year the product is manufactured, grown, or otherwise becomes a product.",
+            "rdfs:label": "Year of production",
+            "rdf:value": "228"
+        },
+        {
+            "@id": "uncl7081:229",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "The range of wave frequencies for radio communication equipment.",
+            "rdfs:label": "Frequency range",
+            "rdf:value": "229"
+        },
+        {
+            "@id": "uncl7081:230",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Type of radio emission .",
+            "rdfs:label": "Radio emission type",
+            "rdf:value": "230"
+        },
+        {
+            "@id": "uncl7081:231",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "The measure of opposition to alternating current (AC) on the output of a circuit.",
+            "rdfs:label": "Output impedance",
+            "rdf:value": "231"
+        },
+        {
+            "@id": "uncl7081:232",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "The type of modulation used for radio communication equipment.",
+            "rdfs:label": "Radio modulation type",
+            "rdf:value": "232"
+        },
+        {
+            "@id": "uncl7081:233",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "The actual amount of power of radio frequency energy that a transmitter produces at its output.",
+            "rdfs:label": "Radio frequency output power",
+            "rdf:value": "233"
+        },
+        {
+            "@id": "uncl7081:234",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Measure of the transmitted signal which is unwanted.",
+            "rdfs:label": "Radiated Spurious Emission (RSE)",
+            "rdf:value": "234"
+        },
+        {
+            "@id": "uncl7081:235",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "The ability of an oscillator to maintain a desired frequency; usually expressed as percent deviation from the assigned frequency value.",
+            "rdfs:label": "Frequency stability",
+            "rdf:value": "235"
+        },
+        {
+            "@id": "uncl7081:236",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "The ability of the equipment preventing it from deviating from its frequency.",
+            "rdfs:label": "Frequency deviation limiting ability",
+            "rdf:value": "236"
+        },
+        {
+            "@id": "uncl7081:237",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "The required difference between the upper and lower frequencies of a band of electromagnetic radiation.",
+            "rdfs:label": "Necessary radio bandwidth",
+            "rdf:value": "237"
+        },
+        {
+            "@id": "uncl7081:238",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "A measure of performance of a radio receiver.",
+            "rdfs:label": "Spurious & Image Response Rejection (SIRR)",
+            "rdf:value": "238"
+        },
+        {
+            "@id": "uncl7081:239",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "Quantity, per unit time, of binary digits (or pulses representing them) which will pass a given point on a communications line or channel in a continuous stream.",
+            "rdfs:label": "Digital transmission rate",
+            "rdf:value": "239"
+        },
+        {
+            "@id": "uncl7081:240",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "The minimum magnitude of input signal required to produce a specified output signal having a specified signal-to-noise ratio.",
+            "rdfs:label": "Sensitivity",
+            "rdf:value": "240"
+        },
+        {
+            "@id": "uncl7081:241",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "The difference in frequency between successive radio channels.",
+            "rdfs:label": "Channel frequency spacing",
+            "rdf:value": "241"
+        },
+        {
+            "@id": "uncl7081:242",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "The type of apparatus used for sending or receiving electromagnetic waves.",
+            "rdfs:label": "Antenna type",
+            "rdf:value": "242"
+        },
+        {
+            "@id": "uncl7081:243",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "A measure of the effectiveness of a directional antenna as compared to a standard nondirectional antenna.",
+            "rdfs:label": "Antenna gain",
+            "rdf:value": "243"
+        },
+        {
+            "@id": "uncl7081:244",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "The range of frequencies which the antenna is capable of receiving or transmitting.",
+            "rdfs:label": "Antenna frequency range",
+            "rdf:value": "244"
+        },
+        {
+            "@id": "uncl7081:245",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "The amount of power (time rate of energy transfer) per unit volume.",
+            "rdfs:label": "Maximum power density",
+            "rdf:value": "245"
+        },
+        {
+            "@id": "uncl7081:246",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "A standardized theoretical measurement of radio frequency (RF) energy using the SI unit watts, and is determined by subtracting system losses and adding system gains.",
+            "rdfs:label": "Effective radiated power (ERP)",
+            "rdf:value": "246"
+        },
+        {
+            "@id": "uncl7081:247",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "The maximum number of bits or other information elements that can be reliably transmitted over a communications channel.",
+            "rdfs:label": "Communication channel capacity",
+            "rdf:value": "247"
+        },
+        {
+            "@id": "uncl7081:248",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "The orientation of the electric field (E-plane) of the radiowave with respect to the Earth's surface.",
+            "rdfs:label": "Antenna polarization",
+            "rdf:value": "248"
+        },
+        {
+            "@id": "uncl7081:249",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "The scientific name of a product.",
+            "rdfs:label": "Scientific name",
+            "rdf:value": "249"
+        },
+        {
+            "@id": "uncl7081:ZZZ",
+            "@type": "unece:UNCL7081Code",
+            "rdfs:comment": "The item characteristic is mutually agreed by the interchanging parties.",
+            "rdfs:label": "Mutually defined",
+            "rdf:value": "ZZZ"
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl4219": "https://dmvc7xzscpizo.cloudfront.net/uncl4219#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl4219:1",
+            "@type": "unece:UNCL4219Code",
+            "rdfs:comment": "Express treatment (if by rail, legal express regime for parcels transport).",
+            "rdfs:label": "Express",
+            "rdf:value": "1"
+        },
+        {
+            "@id": "uncl4219:2",
+            "@type": "unece:UNCL4219Code",
+            "rdfs:comment": "Transport under legal international rail convention (CIM) concluded between rail organizations and based on fast routing and specified timetables.",
+            "rdfs:label": "High speed",
+            "rdf:value": "2"
+        },
+        {
+            "@id": "uncl4219:3",
+            "@type": "unece:UNCL4219Code",
+            "rdfs:comment": "Transport under legal international rail convention (CIM) concluded between rail organizations.",
+            "rdfs:label": "Normal speed",
+            "rdf:value": "3"
+        },
+        {
+            "@id": "uncl4219:4",
+            "@type": "unece:UNCL4219Code",
+            "rdfs:comment": "Transport under conditions specified by UPU (Universal Postal Union) and Rail organizations (parcels transport only).",
+            "rdfs:label": "Post service",
+            "rdf:value": "4"
+        }
+    ]
+}

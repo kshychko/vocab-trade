@@ -1,0 +1,1068 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl4405": "https://dmvc7xzscpizo.cloudfront.net/uncl4405#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl4405:1",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "Remark that the requested service in the order remains outstanding.",
+            "rdfs:label": "To be done",
+            "rdf:value": "1"
+        },
+        {
+            "@id": "uncl4405:2",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "The instruction has been completed.",
+            "rdfs:label": "Done",
+            "rdf:value": "2"
+        },
+        {
+            "@id": "uncl4405:3",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "The information has been passed on.",
+            "rdfs:label": "Passed on",
+            "rdf:value": "3"
+        },
+        {
+            "@id": "uncl4405:4",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "The amount has the status of finality.",
+            "rdfs:label": "Final",
+            "rdf:value": "4"
+        },
+        {
+            "@id": "uncl4405:5",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "The amount is subject to finality.",
+            "rdfs:label": "Subject to final payment",
+            "rdf:value": "5"
+        },
+        {
+            "@id": "uncl4405:6",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "The amount quoted is a minimum tariff.",
+            "rdfs:label": "Minimum",
+            "rdf:value": "6"
+        },
+        {
+            "@id": "uncl4405:7",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "The amount quoted is a fixed tariff.",
+            "rdfs:label": "Fixed",
+            "rdf:value": "7"
+        },
+        {
+            "@id": "uncl4405:8",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "The amount quoted is a maximum tariff.",
+            "rdfs:label": "Maximum",
+            "rdf:value": "8"
+        },
+        {
+            "@id": "uncl4405:9",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "The amount is quoted for information only, it is not part of the charges to be deducted or added.",
+            "rdfs:label": "Information",
+            "rdf:value": "9"
+        },
+        {
+            "@id": "uncl4405:10",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "The amount is available today.",
+            "rdfs:label": "0 day available",
+            "rdf:value": "10"
+        },
+        {
+            "@id": "uncl4405:11",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "The amount is available on the next banking office day after the booking date.",
+            "rdfs:label": "1 day available",
+            "rdf:value": "11"
+        },
+        {
+            "@id": "uncl4405:12",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "The amount is available on the second banking office day after the booking date.",
+            "rdfs:label": "2 days available",
+            "rdf:value": "12"
+        },
+        {
+            "@id": "uncl4405:13",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "The amount available on the third banking office day after the booking date.",
+            "rdfs:label": "3 days available",
+            "rdf:value": "13"
+        },
+        {
+            "@id": "uncl4405:14",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "Funds not collected by beneficiary.",
+            "rdfs:label": "Uncollected funds",
+            "rdf:value": "14"
+        },
+        {
+            "@id": "uncl4405:15",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "The amount or quantity is zero.",
+            "rdfs:label": "Nil",
+            "rdf:value": "15"
+        },
+        {
+            "@id": "uncl4405:16",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "No status or condition has been advised.",
+            "rdfs:label": "None advised",
+            "rdf:value": "16"
+        },
+        {
+            "@id": "uncl4405:17",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "A status or condition has been requested.",
+            "rdfs:label": "Requested",
+            "rdf:value": "17"
+        },
+        {
+            "@id": "uncl4405:18",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "No charge is to be made.",
+            "rdfs:label": "Free of charge",
+            "rdf:value": "18"
+        },
+        {
+            "@id": "uncl4405:19",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "The quantity has been the subject of a rounding operation.",
+            "rdfs:label": "Rounded",
+            "rdf:value": "19"
+        },
+        {
+            "@id": "uncl4405:20",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "Intended to last or function indefinitely.",
+            "rdfs:label": "Permanent",
+            "rdf:value": "20"
+        },
+        {
+            "@id": "uncl4405:21",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "Lasting or intended to last or function for a limited time.",
+            "rdfs:label": "Temporary",
+            "rdf:value": "21"
+        },
+        {
+            "@id": "uncl4405:22",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "Subject to agreed condition.",
+            "rdfs:label": "Subject to agreed condition",
+            "rdf:value": "22"
+        },
+        {
+            "@id": "uncl4405:23",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "In addition to.",
+            "rdfs:label": "Added",
+            "rdf:value": "23"
+        },
+        {
+            "@id": "uncl4405:24",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "A deduction from.",
+            "rdfs:label": "Deducted",
+            "rdf:value": "24"
+        },
+        {
+            "@id": "uncl4405:25",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "Is included in.",
+            "rdfs:label": "Included",
+            "rdf:value": "25"
+        },
+        {
+            "@id": "uncl4405:26",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "Clearing operations are to be applied.",
+            "rdfs:label": "Subject to clearing",
+            "rdf:value": "26"
+        },
+        {
+            "@id": "uncl4405:27",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "Bilaterally agreed conditions are to be applied.",
+            "rdfs:label": "Subject to bilaterally agreed condition",
+            "rdf:value": "27"
+        },
+        {
+            "@id": "uncl4405:28",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "The transaction is expected to be executed.",
+            "rdfs:label": "Transaction expected to be executed",
+            "rdf:value": "28"
+        },
+        {
+            "@id": "uncl4405:29",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "The object has a status of debit.",
+            "rdfs:label": "Debit",
+            "rdf:value": "29"
+        },
+        {
+            "@id": "uncl4405:30",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "The object has a status of credit.",
+            "rdfs:label": "Credit",
+            "rdf:value": "30"
+        },
+        {
+            "@id": "uncl4405:31",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "The object has a status of positive debit.",
+            "rdfs:label": "Positive debit",
+            "rdf:value": "31"
+        },
+        {
+            "@id": "uncl4405:32",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "The object has a status of negative debit.",
+            "rdfs:label": "Negative debit",
+            "rdf:value": "32"
+        },
+        {
+            "@id": "uncl4405:33",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "The object has a status of positive credit.",
+            "rdfs:label": "Positive credit",
+            "rdf:value": "33"
+        },
+        {
+            "@id": "uncl4405:34",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "The object has a status of negative credit.",
+            "rdfs:label": "Negative credit",
+            "rdf:value": "34"
+        },
+        {
+            "@id": "uncl4405:35",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "To specify an event has started.",
+            "rdfs:label": "Started",
+            "rdf:value": "35"
+        },
+        {
+            "@id": "uncl4405:36",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "To indicate a revision has been made.",
+            "rdfs:label": "Revised",
+            "rdf:value": "36"
+        },
+        {
+            "@id": "uncl4405:37",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "A consignment or goods have been stolen.",
+            "rdfs:label": "Stolen",
+            "rdf:value": "37"
+        },
+        {
+            "@id": "uncl4405:38",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "A value has been assigned to an item.",
+            "rdfs:label": "Assigned",
+            "rdf:value": "38"
+        },
+        {
+            "@id": "uncl4405:39",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "Approval has been given.",
+            "rdfs:label": "Approved",
+            "rdf:value": "39"
+        },
+        {
+            "@id": "uncl4405:40",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "Item is withdrawn.",
+            "rdfs:label": "Withdrawn",
+            "rdf:value": "40"
+        },
+        {
+            "@id": "uncl4405:41",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "Item is rejected.",
+            "rdfs:label": "Rejected",
+            "rdf:value": "41"
+        },
+        {
+            "@id": "uncl4405:42",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "Approval is pending.",
+            "rdfs:label": "Approval pending",
+            "rdf:value": "42"
+        },
+        {
+            "@id": "uncl4405:43",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "Further action is delayed.",
+            "rdfs:label": "Postponed",
+            "rdf:value": "43"
+        },
+        {
+            "@id": "uncl4405:44",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "Item has been replaced.",
+            "rdfs:label": "Replaced",
+            "rdf:value": "44"
+        },
+        {
+            "@id": "uncl4405:45",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "There is no status information to report.",
+            "rdfs:label": "No status",
+            "rdf:value": "45"
+        },
+        {
+            "@id": "uncl4405:46",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "Non existent.",
+            "rdfs:label": "Does not exist",
+            "rdf:value": "46"
+        },
+        {
+            "@id": "uncl4405:47",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "A preliminary version.",
+            "rdfs:label": "Draft version",
+            "rdf:value": "47"
+        },
+        {
+            "@id": "uncl4405:48",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "A version with a live status.",
+            "rdfs:label": "Live version",
+            "rdf:value": "48"
+        },
+        {
+            "@id": "uncl4405:49",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "A version which no longer has a live status.",
+            "rdfs:label": "Expired version",
+            "rdf:value": "49"
+        },
+        {
+            "@id": "uncl4405:50",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "Using only part of the available time.",
+            "rdfs:label": "Part-time",
+            "rdf:value": "50"
+        },
+        {
+            "@id": "uncl4405:51",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "Using the whole of the available time.",
+            "rdfs:label": "Full-time",
+            "rdf:value": "51"
+        },
+        {
+            "@id": "uncl4405:52",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "Not enrolled in an educational program.",
+            "rdfs:label": "Not a student",
+            "rdf:value": "52"
+        },
+        {
+            "@id": "uncl4405:53",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "To be removed.",
+            "rdfs:label": "To be extracted",
+            "rdf:value": "53"
+        },
+        {
+            "@id": "uncl4405:54",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "Tooth wedged between another tooth and the jaw.",
+            "rdfs:label": "Impacted tooth",
+            "rdf:value": "54"
+        },
+        {
+            "@id": "uncl4405:55",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "Removed.",
+            "rdfs:label": "Extracted",
+            "rdf:value": "55"
+        },
+        {
+            "@id": "uncl4405:56",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "The value is estimated.",
+            "rdfs:label": "Estimated",
+            "rdf:value": "56"
+        },
+        {
+            "@id": "uncl4405:57",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "An undefined incident has occurred.",
+            "rdfs:label": "Undefined incident",
+            "rdf:value": "57"
+        },
+        {
+            "@id": "uncl4405:58",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "The quantity is an error.",
+            "rdfs:label": "Quantity error",
+            "rdf:value": "58"
+        },
+        {
+            "@id": "uncl4405:59",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "The monetary amount is an error.",
+            "rdfs:label": "Monetary amount error",
+            "rdf:value": "59"
+        },
+        {
+            "@id": "uncl4405:60",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "The product was not ordered.",
+            "rdfs:label": "Product not ordered",
+            "rdf:value": "60"
+        },
+        {
+            "@id": "uncl4405:61",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "The value is uncertain.",
+            "rdfs:label": "Uncertain",
+            "rdf:value": "61"
+        },
+        {
+            "@id": "uncl4405:62",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "Noteworthy.",
+            "rdfs:label": "Significant",
+            "rdf:value": "62"
+        },
+        {
+            "@id": "uncl4405:63",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "The item has not been accepted.",
+            "rdfs:label": "Not accepted",
+            "rdf:value": "63"
+        },
+        {
+            "@id": "uncl4405:64",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "The referenced order or request has been cancelled.",
+            "rdfs:label": "Order or request cancelled",
+            "rdf:value": "64"
+        },
+        {
+            "@id": "uncl4405:65",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "Negative status.",
+            "rdfs:label": "Negative",
+            "rdf:value": "65"
+        },
+        {
+            "@id": "uncl4405:66",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "The status of the amount is unsigned.",
+            "rdfs:label": "Unsigned amount",
+            "rdf:value": "66"
+        },
+        {
+            "@id": "uncl4405:67",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "Preparatory to.",
+            "rdfs:label": "Preliminary",
+            "rdf:value": "67"
+        },
+        {
+            "@id": "uncl4405:68",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "Divided into parts.",
+            "rdfs:label": "Split",
+            "rdf:value": "68"
+        },
+        {
+            "@id": "uncl4405:69",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "The object is favoured in preference to other alternatives.",
+            "rdfs:label": "Recommended",
+            "rdf:value": "69"
+        },
+        {
+            "@id": "uncl4405:70",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "Has been given out.",
+            "rdfs:label": "Issued",
+            "rdf:value": "70"
+        },
+        {
+            "@id": "uncl4405:71",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "Goods are available for ordering.",
+            "rdfs:label": "Available for ordering",
+            "rdf:value": "71"
+        },
+        {
+            "@id": "uncl4405:72",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "Goods are not available for ordering.",
+            "rdfs:label": "Not available for ordering",
+            "rdf:value": "72"
+        },
+        {
+            "@id": "uncl4405:73",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "Officially acknowledged.",
+            "rdfs:label": "Confirmed",
+            "rdf:value": "73"
+        },
+        {
+            "@id": "uncl4405:74",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "The expiry date has been exceeded.",
+            "rdfs:label": "Expiry date exceeded",
+            "rdf:value": "74"
+        },
+        {
+            "@id": "uncl4405:75",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "Advised the use of.",
+            "rdfs:label": "Prescribed",
+            "rdf:value": "75"
+        },
+        {
+            "@id": "uncl4405:76",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "Applies to all published issues since subscription start.",
+            "rdfs:label": "All published issues since subscription start",
+            "rdf:value": "76"
+        },
+        {
+            "@id": "uncl4405:77",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "Applies to all published issues since issue specified in claim.",
+            "rdfs:label": "All published issues since issue specified in claim",
+            "rdf:value": "77"
+        },
+        {
+            "@id": "uncl4405:78",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "Applies to all published issues from and including issue specified in claim.",
+            "rdfs:label": "All published issues from and including issue specified in claim",
+            "rdf:value": "78"
+        },
+        {
+            "@id": "uncl4405:79",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "Applies to specified published issue only.",
+            "rdfs:label": "Specified published issue only",
+            "rdf:value": "79"
+        },
+        {
+            "@id": "uncl4405:80",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "Publication issue has been cancelled.",
+            "rdfs:label": "Publication issue cancelled",
+            "rdf:value": "80"
+        },
+        {
+            "@id": "uncl4405:81",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "The status is definitive.",
+            "rdfs:label": "Definitive",
+            "rdf:value": "81"
+        },
+        {
+            "@id": "uncl4405:82",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "An addition to something.",
+            "rdfs:label": "Supplementary",
+            "rdf:value": "82"
+        },
+        {
+            "@id": "uncl4405:83",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "An application to a court for a reconsideration of the decision.",
+            "rdfs:label": "Under legal appeal",
+            "rdf:value": "83"
+        },
+        {
+            "@id": "uncl4405:84",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "Transferred legally to another party.",
+            "rdfs:label": "Legally assigned",
+            "rdf:value": "84"
+        },
+        {
+            "@id": "uncl4405:85",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "Brought up to date.",
+            "rdfs:label": "Updated",
+            "rdf:value": "85"
+        },
+        {
+            "@id": "uncl4405:86",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "Made valid or binding by some formal or legal act.",
+            "rdfs:label": "Ratified",
+            "rdf:value": "86"
+        },
+        {
+            "@id": "uncl4405:87",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "Being considered.",
+            "rdfs:label": "Under consideration",
+            "rdf:value": "87"
+        },
+        {
+            "@id": "uncl4405:88",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "A response to institute legal proceedings in which an entity has filed a law suit.",
+            "rdfs:label": "Countersued",
+            "rdf:value": "88"
+        },
+        {
+            "@id": "uncl4405:89",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "Refused further hearing to a legal matter.",
+            "rdfs:label": "Legal item dismissed",
+            "rdf:value": "89"
+        },
+        {
+            "@id": "uncl4405:90",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "Questioned validity.",
+            "rdfs:label": "Disputed",
+            "rdf:value": "90"
+        },
+        {
+            "@id": "uncl4405:91",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "Compelled observance.",
+            "rdfs:label": "Enforced",
+            "rdf:value": "91"
+        },
+        {
+            "@id": "uncl4405:92",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "Submitted a petition, document or application to the appropriate authority.",
+            "rdfs:label": "Legal documentation filed",
+            "rdf:value": "92"
+        },
+        {
+            "@id": "uncl4405:93",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "A judgement for the defendant was rendered.",
+            "rdfs:label": "Judgement for defendant",
+            "rdf:value": "93"
+        },
+        {
+            "@id": "uncl4405:94",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "A judgement for the plaintiff was rendered.",
+            "rdfs:label": "Judgement for plaintiff",
+            "rdf:value": "94"
+        },
+        {
+            "@id": "uncl4405:95",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "Unaltered.",
+            "rdfs:label": "Unchanged",
+            "rdf:value": "95"
+        },
+        {
+            "@id": "uncl4405:96",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "No petition, document or application was submitted to the appropriate authority.",
+            "rdfs:label": "Legal documentation not filed",
+            "rdf:value": "96"
+        },
+        {
+            "@id": "uncl4405:97",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "Awaiting decision or settlement.",
+            "rdfs:label": "Pending",
+            "rdf:value": "97"
+        },
+        {
+            "@id": "uncl4405:98",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "Released a debt.",
+            "rdfs:label": "Debt released",
+            "rdf:value": "98"
+        },
+        {
+            "@id": "uncl4405:99",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "A law suit was filed.",
+            "rdfs:label": "Law suit filed",
+            "rdf:value": "99"
+        },
+        {
+            "@id": "uncl4405:100",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "Adequately met, fulfilled or complied with all conditions.",
+            "rdfs:label": "Satisfied",
+            "rdf:value": "100"
+        },
+        {
+            "@id": "uncl4405:101",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "Set aside by using one's authority.",
+            "rdfs:label": "Set aside",
+            "rdf:value": "101"
+        },
+        {
+            "@id": "uncl4405:102",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "Concluded by mutual agreement.",
+            "rdfs:label": "Settled",
+            "rdf:value": "102"
+        },
+        {
+            "@id": "uncl4405:103",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "The matter has been settled out of court.",
+            "rdfs:label": "Settled out of court",
+            "rdf:value": "103"
+        },
+        {
+            "@id": "uncl4405:104",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "A stopping of the proceedings.",
+            "rdfs:label": "Stayed",
+            "rdf:value": "104"
+        },
+        {
+            "@id": "uncl4405:105",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "Brought to an end.",
+            "rdfs:label": "Terminated",
+            "rdf:value": "105"
+        },
+        {
+            "@id": "uncl4405:106",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "Planned or provided for.",
+            "rdfs:label": "Arranged",
+            "rdf:value": "106"
+        },
+        {
+            "@id": "uncl4405:107",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "Not planned or provided for.",
+            "rdfs:label": "Not arranged",
+            "rdf:value": "107"
+        },
+        {
+            "@id": "uncl4405:108",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "Received instruction to start.",
+            "rdfs:label": "Instructed to start",
+            "rdf:value": "108"
+        },
+        {
+            "@id": "uncl4405:109",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "Received instruction to stop.",
+            "rdfs:label": "Instructed to stop",
+            "rdf:value": "109"
+        },
+        {
+            "@id": "uncl4405:110",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "A difference in quantity between stocks has been corrected.",
+            "rdfs:label": "Stock quantity corrected",
+            "rdf:value": "110"
+        },
+        {
+            "@id": "uncl4405:111",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "Not in operation.",
+            "rdfs:label": "Inactive",
+            "rdf:value": "111"
+        },
+        {
+            "@id": "uncl4405:112",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "In operation.",
+            "rdfs:label": "Active",
+            "rdf:value": "112"
+        },
+        {
+            "@id": "uncl4405:113",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "The data is incomplete.",
+            "rdfs:label": "Incomplete data",
+            "rdf:value": "113"
+        },
+        {
+            "@id": "uncl4405:114",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "The booking has been made although there is no more availability.",
+            "rdfs:label": "Booked when overbooked",
+            "rdf:value": "114"
+        },
+        {
+            "@id": "uncl4405:115",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "The object is in a provisional status.",
+            "rdfs:label": "Provisional",
+            "rdf:value": "115"
+        },
+        {
+            "@id": "uncl4405:116",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "The ticket has been issued.",
+            "rdfs:label": "Ticketed",
+            "rdf:value": "116"
+        },
+        {
+            "@id": "uncl4405:117",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "The object is washed.",
+            "rdfs:label": "Washed",
+            "rdf:value": "117"
+        },
+        {
+            "@id": "uncl4405:118",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "The object is not washed.",
+            "rdfs:label": "Unwashed",
+            "rdf:value": "118"
+        },
+        {
+            "@id": "uncl4405:119",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "The information is out of date.",
+            "rdfs:label": "Out of date",
+            "rdf:value": "119"
+        },
+        {
+            "@id": "uncl4405:120",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "The information is an alternative to the request.",
+            "rdfs:label": "Alternative",
+            "rdf:value": "120"
+        },
+        {
+            "@id": "uncl4405:121",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "Entire.",
+            "rdfs:label": "Complete",
+            "rdf:value": "121"
+        },
+        {
+            "@id": "uncl4405:122",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "Not complete.",
+            "rdfs:label": "Partial",
+            "rdf:value": "122"
+        },
+        {
+            "@id": "uncl4405:123",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "Governed by a contract.",
+            "rdfs:label": "Contracted",
+            "rdf:value": "123"
+        },
+        {
+            "@id": "uncl4405:124",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "Governed by technical limitations.",
+            "rdfs:label": "Technically limited",
+            "rdf:value": "124"
+        },
+        {
+            "@id": "uncl4405:125",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "The information is adjusted.",
+            "rdfs:label": "Adjusted",
+            "rdf:value": "125"
+        },
+        {
+            "@id": "uncl4405:126",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "The consignment which is/was expected.",
+            "rdfs:label": "Expected delivery",
+            "rdf:value": "126"
+        },
+        {
+            "@id": "uncl4405:127",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "The referenced item has been measured.",
+            "rdfs:label": "Measured",
+            "rdf:value": "127"
+        },
+        {
+            "@id": "uncl4405:128",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "The referenced item is ready for loading.",
+            "rdfs:label": "Ready for loading",
+            "rdf:value": "128"
+        },
+        {
+            "@id": "uncl4405:129",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "The object is not heat treated.",
+            "rdfs:label": "Not heat treated",
+            "rdf:value": "129"
+        },
+        {
+            "@id": "uncl4405:130",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "The object is heat treated.",
+            "rdfs:label": "Heat treated",
+            "rdf:value": "130"
+        },
+        {
+            "@id": "uncl4405:131",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "The object is fully cooked.",
+            "rdfs:label": "Fully cooked",
+            "rdf:value": "131"
+        },
+        {
+            "@id": "uncl4405:132",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "The object is not fully cooked.",
+            "rdfs:label": "Not fully cooked",
+            "rdf:value": "132"
+        },
+        {
+            "@id": "uncl4405:133",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "The object is hothouse grown.",
+            "rdfs:label": "Hothouse grown",
+            "rdf:value": "133"
+        },
+        {
+            "@id": "uncl4405:134",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "The object is disassembled.",
+            "rdfs:label": "Knocked down",
+            "rdf:value": "134"
+        },
+        {
+            "@id": "uncl4405:135",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "The object is a solid.",
+            "rdfs:label": "Solid",
+            "rdf:value": "135"
+        },
+        {
+            "@id": "uncl4405:136",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "The object is a liquid.",
+            "rdfs:label": "Liquid",
+            "rdf:value": "136"
+        },
+        {
+            "@id": "uncl4405:137",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "The object is in a gaseous form.",
+            "rdfs:label": "Gas",
+            "rdf:value": "137"
+        },
+        {
+            "@id": "uncl4405:138",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "The object is a semi-solid material.",
+            "rdfs:label": "Sludge",
+            "rdf:value": "138"
+        },
+        {
+            "@id": "uncl4405:139",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "Minimum appropriate protective security measures shall be maintained at all times on the means of transport.",
+            "rdfs:label": "Normal security measures required",
+            "rdf:value": "139"
+        },
+        {
+            "@id": "uncl4405:140",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "Appropriate additional protective security measures shall be maintained for a period of time as a result of heightened risk of a security incident.",
+            "rdfs:label": "Heightened security measures required",
+            "rdf:value": "140"
+        },
+        {
+            "@id": "uncl4405:141",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "Specific protective security measures shall be maintained for a limited period of time when a security incident is probable or imminent, although it may not be possible to identify the specific target.",
+            "rdfs:label": "Exceptional security measures required",
+            "rdf:value": "141"
+        },
+        {
+            "@id": "uncl4405:142",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "Ship security procedures, specified in the approved ship security plan, have not been maintained during each of the ship-to-ship activities specified.",
+            "rdfs:label": "Ship security procedures not maintained during ship-to-ship activity",
+            "rdf:value": "142"
+        },
+        {
+            "@id": "uncl4405:143",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "A confirmation that ship security procedures in terms of the approved in the Ship Security Plan were maintained during ship-to-ship activity.",
+            "rdfs:label": "Ship security procedure maintained during ship-to-ship activity",
+            "rdf:value": "143"
+        },
+        {
+            "@id": "uncl4405:144",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "The ship has taken special or additional security measures, beyond those specified in the approved ship security plan.",
+            "rdfs:label": "Special or additional security measures taken",
+            "rdf:value": "144"
+        },
+        {
+            "@id": "uncl4405:145",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "A status indicating that there is a security related matter to report for the specified leg in the itinerary.",
+            "rdfs:label": "Security related matter to report",
+            "rdf:value": "145"
+        },
+        {
+            "@id": "uncl4405:146",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "The goods/consignment/transport equipment has been transhipped from one means of transport to another.",
+            "rdfs:label": "Transhipped",
+            "rdf:value": "146"
+        },
+        {
+            "@id": "uncl4405:147",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "The object does not meet requirements due to defects.",
+            "rdfs:label": "Defective",
+            "rdf:value": "147"
+        },
+        {
+            "@id": "uncl4405:148",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "The object is recycled.",
+            "rdfs:label": "Recycled",
+            "rdf:value": "148"
+        },
+        {
+            "@id": "uncl4405:149",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "The object is reused.",
+            "rdfs:label": "Reused",
+            "rdf:value": "149"
+        },
+        {
+            "@id": "uncl4405:150",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "The object is registered.",
+            "rdfs:label": "Registered",
+            "rdf:value": "150"
+        },
+        {
+            "@id": "uncl4405:151",
+            "@type": "unece:UNCL4405Code",
+            "rdfs:comment": "The object is returned.",
+            "rdfs:label": "Returned",
+            "rdf:value": "151"
+        }
+    ]
+}

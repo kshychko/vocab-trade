@@ -1,0 +1,88 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl7299": "https://dmvc7xzscpizo.cloudfront.net/uncl7299#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl7299:1",
+            "@type": "unece:UNCL7299Code",
+            "rdfs:comment": "Object is conditional.",
+            "rdfs:label": "Conditional",
+            "rdf:value": "1"
+        },
+        {
+            "@id": "uncl7299:2",
+            "@type": "unece:UNCL7299Code",
+            "rdfs:comment": "Object is mandatory.",
+            "rdfs:label": "Mandatory",
+            "rdf:value": "2"
+        },
+        {
+            "@id": "uncl7299:3",
+            "@type": "unece:UNCL7299Code",
+            "rdfs:comment": "Object is optional.",
+            "rdfs:label": "Optional",
+            "rdf:value": "3"
+        },
+        {
+            "@id": "uncl7299:4",
+            "@type": "unece:UNCL7299Code",
+            "rdfs:comment": "Object is floating, not at a pre-defined position within a message.",
+            "rdfs:label": "Floating",
+            "rdf:value": "4"
+        },
+        {
+            "@id": "uncl7299:5",
+            "@type": "unece:UNCL7299Code",
+            "rdfs:comment": "Object is not used.",
+            "rdfs:label": "Not used",
+            "rdf:value": "5"
+        },
+        {
+            "@id": "uncl7299:6",
+            "@type": "unece:UNCL7299Code",
+            "rdfs:comment": "Object is required.",
+            "rdfs:label": "Required",
+            "rdf:value": "6"
+        },
+        {
+            "@id": "uncl7299:7",
+            "@type": "unece:UNCL7299Code",
+            "rdfs:comment": "Object use is advised.",
+            "rdfs:label": "Advised",
+            "rdf:value": "7"
+        },
+        {
+            "@id": "uncl7299:8",
+            "@type": "unece:UNCL7299Code",
+            "rdfs:comment": "Object use is not advised.",
+            "rdfs:label": "Not advised",
+            "rdf:value": "8"
+        },
+        {
+            "@id": "uncl7299:9",
+            "@type": "unece:UNCL7299Code",
+            "rdfs:comment": "Object use is dependent upon an additional condition or criteria.",
+            "rdfs:label": "Dependent",
+            "rdf:value": "9"
+        },
+        {
+            "@id": "uncl7299:10",
+            "@type": "unece:UNCL7299Code",
+            "rdfs:comment": "Value to be used when no other value is specified.",
+            "rdfs:label": "Default value",
+            "rdf:value": "10"
+        },
+        {
+            "@id": "uncl7299:11",
+            "@type": "unece:UNCL7299Code",
+            "rdfs:comment": "The value is preferred.",
+            "rdfs:label": "Preferred",
+            "rdf:value": "11"
+        }
+    ]
+}

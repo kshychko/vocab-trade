@@ -1,0 +1,2818 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl4451": "https://dmvc7xzscpizo.cloudfront.net/uncl4451#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl4451:AAA",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "[7002] Plain language description of the nature of a goods item sufficient to identify it for customs, statistical or transport purposes.",
+            "rdfs:label": "Goods item description",
+            "rdf:value": "AAA"
+        },
+        {
+            "@id": "uncl4451:AAB",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "[4276] Free form description of the conditions of payment between the parties to a transaction.",
+            "rdfs:label": "Payment term",
+            "rdf:value": "AAB"
+        },
+        {
+            "@id": "uncl4451:AAC",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "[7488] Additional information concerning dangerous substances and/or article in a consignment.",
+            "rdfs:label": "Dangerous goods additional information",
+            "rdf:value": "AAC"
+        },
+        {
+            "@id": "uncl4451:AAD",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "[7254] Proper shipping name, supplemented as necessary with the correct technical name, by which a dangerous substance or article may be correctly identified, or which is sufficiently informative to permit identification by reference to generally available literature.",
+            "rdfs:label": "Dangerous goods technical name",
+            "rdf:value": "AAD"
+        },
+        {
+            "@id": "uncl4451:AAE",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "The content of an acknowledgement.",
+            "rdfs:label": "Acknowledgement description",
+            "rdf:value": "AAE"
+        },
+        {
+            "@id": "uncl4451:AAF",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Specific details applying to rates.",
+            "rdfs:label": "Rate additional information",
+            "rdf:value": "AAF"
+        },
+        {
+            "@id": "uncl4451:AAG",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Indicates that the segment contains instructions to be passed on to the identified party.",
+            "rdfs:label": "Party instructions",
+            "rdf:value": "AAG"
+        },
+        {
+            "@id": "uncl4451:AAI",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "The text contains general information.",
+            "rdfs:label": "General information",
+            "rdf:value": "AAI"
+        },
+        {
+            "@id": "uncl4451:AAJ",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Additional conditions specific to this order or project.",
+            "rdfs:label": "Additional conditions of sale/purchase",
+            "rdf:value": "AAJ"
+        },
+        {
+            "@id": "uncl4451:AAK",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Information on the price conditions that are expected or given.",
+            "rdfs:label": "Price conditions",
+            "rdf:value": "AAK"
+        },
+        {
+            "@id": "uncl4451:AAL",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Expression of a number in characters as length of ten meters.",
+            "rdfs:label": "Goods dimensions in characters",
+            "rdf:value": "AAL"
+        },
+        {
+            "@id": "uncl4451:AAM",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Technical or commercial reasons why a piece of equipment may not be re-used after the current transport terminates.",
+            "rdfs:label": "Equipment re-usage restrictions",
+            "rdf:value": "AAM"
+        },
+        {
+            "@id": "uncl4451:AAN",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Restrictions in handling depending on the technical characteristics of the piece of equipment or on the nature of the goods.",
+            "rdfs:label": "Handling restriction",
+            "rdf:value": "AAN"
+        },
+        {
+            "@id": "uncl4451:AAO",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Error described by a free text.",
+            "rdfs:label": "Error description (free text)",
+            "rdf:value": "AAO"
+        },
+        {
+            "@id": "uncl4451:AAP",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Free text of the response to a communication.",
+            "rdfs:label": "Response (free text)",
+            "rdf:value": "AAP"
+        },
+        {
+            "@id": "uncl4451:AAQ",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "A description of the contents of a package.",
+            "rdfs:label": "Package content's description",
+            "rdf:value": "AAQ"
+        },
+        {
+            "@id": "uncl4451:AAR",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "(4053) Free text of the non Incoterms terms of delivery. For Incoterms, use: 4053.",
+            "rdfs:label": "Terms of delivery",
+            "rdf:value": "AAR"
+        },
+        {
+            "@id": "uncl4451:AAS",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "The remarks printed or to be printed on a bill of lading.",
+            "rdfs:label": "Bill of lading remarks",
+            "rdf:value": "AAS"
+        },
+        {
+            "@id": "uncl4451:AAT",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Free text information on an IATA Air Waybill to indicate means by which account is to be settled.",
+            "rdfs:label": "Mode of settlement information",
+            "rdf:value": "AAT"
+        },
+        {
+            "@id": "uncl4451:AAU",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Information pertaining to the invoice covering the consignment.",
+            "rdfs:label": "Consignment invoice information",
+            "rdf:value": "AAU"
+        },
+        {
+            "@id": "uncl4451:AAV",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Information pertaining to the invoice covering clearance of the cargo.",
+            "rdfs:label": "Clearance invoice information",
+            "rdf:value": "AAV"
+        },
+        {
+            "@id": "uncl4451:AAW",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Information pertaining to the letter of credit.",
+            "rdfs:label": "Letter of credit information",
+            "rdf:value": "AAW"
+        },
+        {
+            "@id": "uncl4451:AAX",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Information pertaining to a license.",
+            "rdfs:label": "License information",
+            "rdf:value": "AAX"
+        },
+        {
+            "@id": "uncl4451:AAY",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "The text contains certification statements.",
+            "rdfs:label": "Certification statements",
+            "rdf:value": "AAY"
+        },
+        {
+            "@id": "uncl4451:AAZ",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "The text contains additional export information.",
+            "rdfs:label": "Additional export information",
+            "rdf:value": "AAZ"
+        },
+        {
+            "@id": "uncl4451:ABA",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Description of parameters relating to a tariff.",
+            "rdfs:label": "Tariff statements",
+            "rdf:value": "ABA"
+        },
+        {
+            "@id": "uncl4451:ABB",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Historical details of a patients medical events.",
+            "rdfs:label": "Medical history",
+            "rdf:value": "ABB"
+        },
+        {
+            "@id": "uncl4451:ABC",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "(4490) (4372) Additional information regarding terms and conditions which apply to the transaction.",
+            "rdfs:label": "Conditions of sale or purchase",
+            "rdf:value": "ABC"
+        },
+        {
+            "@id": "uncl4451:ABD",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "[4422] Textual representation of the type of contract.",
+            "rdfs:label": "Contract document type",
+            "rdf:value": "ABD"
+        },
+        {
+            "@id": "uncl4451:ABE",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "(4260) Additional terms and/or conditions to the documentary credit.",
+            "rdfs:label": "Additional terms and/or conditions (documentary credit)",
+            "rdf:value": "ABE"
+        },
+        {
+            "@id": "uncl4451:ABF",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Instruction or information about a standby documentary credit.",
+            "rdfs:label": "Instructions or information about standby documentary credit",
+            "rdf:value": "ABF"
+        },
+        {
+            "@id": "uncl4451:ABG",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Instructions or information about partial shipment(s).",
+            "rdfs:label": "Instructions or information about partial shipment(s)",
+            "rdf:value": "ABG"
+        },
+        {
+            "@id": "uncl4451:ABH",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Instructions or information about transhipment(s).",
+            "rdfs:label": "Instructions or information about transhipment(s)",
+            "rdf:value": "ABH"
+        },
+        {
+            "@id": "uncl4451:ABI",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Additional handling instructions for a documentary credit.",
+            "rdfs:label": "Additional handling instructions documentary credit",
+            "rdf:value": "ABI"
+        },
+        {
+            "@id": "uncl4451:ABJ",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Information regarding the domestic routing.",
+            "rdfs:label": "Domestic routing information",
+            "rdf:value": "ABJ"
+        },
+        {
+            "@id": "uncl4451:ABK",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Equipment types are coded by category for financial purposes.",
+            "rdfs:label": "Chargeable category of equipment",
+            "rdf:value": "ABK"
+        },
+        {
+            "@id": "uncl4451:ABL",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Information pertaining to government.",
+            "rdfs:label": "Government information",
+            "rdf:value": "ABL"
+        },
+        {
+            "@id": "uncl4451:ABM",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "The text contains onward routing information.",
+            "rdfs:label": "Onward routing information",
+            "rdf:value": "ABM"
+        },
+        {
+            "@id": "uncl4451:ABN",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "[4410] The text contains information related to accounting.",
+            "rdfs:label": "Accounting information",
+            "rdf:value": "ABN"
+        },
+        {
+            "@id": "uncl4451:ABO",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Free text or coded information to indicate a specific discrepancy.",
+            "rdfs:label": "Discrepancy information",
+            "rdf:value": "ABO"
+        },
+        {
+            "@id": "uncl4451:ABP",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Documentary credit confirmation instructions.",
+            "rdfs:label": "Confirmation instructions",
+            "rdf:value": "ABP"
+        },
+        {
+            "@id": "uncl4451:ABQ",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Method of issuance of documentary credit.",
+            "rdfs:label": "Method of issuance",
+            "rdf:value": "ABQ"
+        },
+        {
+            "@id": "uncl4451:ABR",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Delivery instructions for documents required under a documentary credit.",
+            "rdfs:label": "Documents delivery instructions",
+            "rdf:value": "ABR"
+        },
+        {
+            "@id": "uncl4451:ABS",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Additional conditions to the issuance of a documentary credit.",
+            "rdfs:label": "Additional conditions",
+            "rdf:value": "ABS"
+        },
+        {
+            "@id": "uncl4451:ABT",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Additional amounts information/instruction.",
+            "rdfs:label": "Information/instructions about additional amounts covered",
+            "rdf:value": "ABT"
+        },
+        {
+            "@id": "uncl4451:ABU",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Additional terms concerning deferred payment.",
+            "rdfs:label": "Deferred payment termed additional",
+            "rdf:value": "ABU"
+        },
+        {
+            "@id": "uncl4451:ABV",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Additional terms concerning acceptance.",
+            "rdfs:label": "Acceptance terms additional",
+            "rdf:value": "ABV"
+        },
+        {
+            "@id": "uncl4451:ABW",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Additional terms concerning negotiation.",
+            "rdfs:label": "Negotiation terms additional",
+            "rdf:value": "ABW"
+        },
+        {
+            "@id": "uncl4451:ABX",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Document name and documentary requirements.",
+            "rdfs:label": "Document name and documentary requirements",
+            "rdf:value": "ABX"
+        },
+        {
+            "@id": "uncl4451:ABZ",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Instructions/information about a revolving documentary credit.",
+            "rdfs:label": "Instructions/information about revolving documentary credit",
+            "rdf:value": "ABZ"
+        },
+        {
+            "@id": "uncl4451:ACA",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Specification of the documentary requirements.",
+            "rdfs:label": "Documentary requirements",
+            "rdf:value": "ACA"
+        },
+        {
+            "@id": "uncl4451:ACB",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "(4270) The text contains additional information.",
+            "rdfs:label": "Additional information",
+            "rdf:value": "ACB"
+        },
+        {
+            "@id": "uncl4451:ACC",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Assignment based on an agreement between seller and factor.",
+            "rdfs:label": "Factor assignment clause",
+            "rdf:value": "ACC"
+        },
+        {
+            "@id": "uncl4451:ACD",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Reason for a request or response.",
+            "rdfs:label": "Reason",
+            "rdf:value": "ACD"
+        },
+        {
+            "@id": "uncl4451:ACE",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "A notice, usually from buyer to seller, that something was found wrong with goods delivered or the services rendered, or with the related invoice.",
+            "rdfs:label": "Dispute",
+            "rdf:value": "ACE"
+        },
+        {
+            "@id": "uncl4451:ACF",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "The text refers to information about an additional attribute not otherwise specified.",
+            "rdfs:label": "Additional attribute information",
+            "rdf:value": "ACF"
+        },
+        {
+            "@id": "uncl4451:ACG",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "A declaration on the reason of the absence.",
+            "rdfs:label": "Absence declaration",
+            "rdf:value": "ACG"
+        },
+        {
+            "@id": "uncl4451:ACH",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "A statement on the way a specific variable or set of variables has been aggregated.",
+            "rdfs:label": "Aggregation statement",
+            "rdf:value": "ACH"
+        },
+        {
+            "@id": "uncl4451:ACI",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "A statement on the compilation status of an array or other set of figures or calculations.",
+            "rdfs:label": "Compilation statement",
+            "rdf:value": "ACI"
+        },
+        {
+            "@id": "uncl4451:ACJ",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "An exception to the agreed definition of a term, concept, formula or other object.",
+            "rdfs:label": "Definitional exception",
+            "rdf:value": "ACJ"
+        },
+        {
+            "@id": "uncl4451:ACK",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "A statement on the privacy or confidential nature of an object.",
+            "rdfs:label": "Privacy statement",
+            "rdf:value": "ACK"
+        },
+        {
+            "@id": "uncl4451:ACL",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "A statement on the quality of an object.",
+            "rdfs:label": "Quality statement",
+            "rdf:value": "ACL"
+        },
+        {
+            "@id": "uncl4451:ACM",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "The description of a statistical object such as a value list, concept, or structure definition.",
+            "rdfs:label": "Statistical description",
+            "rdf:value": "ACM"
+        },
+        {
+            "@id": "uncl4451:ACN",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "The definition of a statistical object such as a value list, concept, or structure definition.",
+            "rdfs:label": "Statistical definition",
+            "rdf:value": "ACN"
+        },
+        {
+            "@id": "uncl4451:ACO",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "The name of a statistical object such as a value list, concept or structure definition.",
+            "rdfs:label": "Statistical name",
+            "rdf:value": "ACO"
+        },
+        {
+            "@id": "uncl4451:ACP",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "The title of a statistical object such as a value list, concept, or structure definition.",
+            "rdfs:label": "Statistical title",
+            "rdf:value": "ACP"
+        },
+        {
+            "@id": "uncl4451:ACQ",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Information relating to differences between the actual transport dimensions and the normally applicable dimensions.",
+            "rdfs:label": "Off-dimension information",
+            "rdf:value": "ACQ"
+        },
+        {
+            "@id": "uncl4451:ACR",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Information relating to unexpected stops during a conveyance.",
+            "rdfs:label": "Unexpected stops information",
+            "rdf:value": "ACR"
+        },
+        {
+            "@id": "uncl4451:ACS",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Text subject is principles section of the UN/EDIFACT rules for presentation of standardized message and directories documentation.",
+            "rdfs:label": "Principles",
+            "rdf:value": "ACS"
+        },
+        {
+            "@id": "uncl4451:ACT",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Text subject is terms and definition section of the UN/EDIFACT rules for presentation of standardized message and directories documentation.",
+            "rdfs:label": "Terms and definition",
+            "rdf:value": "ACT"
+        },
+        {
+            "@id": "uncl4451:ACU",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Text subject is segment name.",
+            "rdfs:label": "Segment name",
+            "rdf:value": "ACU"
+        },
+        {
+            "@id": "uncl4451:ACV",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Text subject is name of simple data element.",
+            "rdfs:label": "Simple data element name",
+            "rdf:value": "ACV"
+        },
+        {
+            "@id": "uncl4451:ACW",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Text subject is scope section of the UN/EDIFACT rules for presentation of standardized message and directories documentation.",
+            "rdfs:label": "Scope",
+            "rdf:value": "ACW"
+        },
+        {
+            "@id": "uncl4451:ACX",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Text subject is name of message type.",
+            "rdfs:label": "Message type name",
+            "rdf:value": "ACX"
+        },
+        {
+            "@id": "uncl4451:ACY",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Text subject is introduction section of the UN/EDIFACT rules for presentation of standardized message and directories documentation.",
+            "rdfs:label": "Introduction",
+            "rdf:value": "ACY"
+        },
+        {
+            "@id": "uncl4451:ACZ",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Text subject is glossary section of the UN/EDIFACT rules for presentation of standardized message and directories documentation.",
+            "rdfs:label": "Glossary",
+            "rdf:value": "ACZ"
+        },
+        {
+            "@id": "uncl4451:ADA",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Text subject is functional definition section of the UN/EDIFACT rules for presentation of standardized message and directories documentation.",
+            "rdfs:label": "Functional definition",
+            "rdf:value": "ADA"
+        },
+        {
+            "@id": "uncl4451:ADB",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Text subject is examples as given in the example(s) section of the UN/EDIFACT rules for presentation of standardized message and directories documentation.",
+            "rdfs:label": "Examples",
+            "rdf:value": "ADB"
+        },
+        {
+            "@id": "uncl4451:ADC",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Text subject is cover page of the UN/EDIFACT rules for presentation of standardized message and directories documentation.",
+            "rdfs:label": "Cover page",
+            "rdf:value": "ADC"
+        },
+        {
+            "@id": "uncl4451:ADD",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Denotes that the associated text is a dependency (syntax) note.",
+            "rdfs:label": "Dependency (syntax) notes",
+            "rdf:value": "ADD"
+        },
+        {
+            "@id": "uncl4451:ADE",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Text subject is name of code value.",
+            "rdfs:label": "Code value name",
+            "rdf:value": "ADE"
+        },
+        {
+            "@id": "uncl4451:ADF",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Text subject is name of code list.",
+            "rdfs:label": "Code list name",
+            "rdf:value": "ADF"
+        },
+        {
+            "@id": "uncl4451:ADG",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Text subject is an explanation of the intended usage of a segment or segment group.",
+            "rdfs:label": "Clarification of usage",
+            "rdf:value": "ADG"
+        },
+        {
+            "@id": "uncl4451:ADH",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Text subject is name of composite data element.",
+            "rdfs:label": "Composite data element name",
+            "rdf:value": "ADH"
+        },
+        {
+            "@id": "uncl4451:ADI",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Text subject is field of application of the UN/EDIFACT rules for presentation of standardized message and directories documentation.",
+            "rdfs:label": "Field of application",
+            "rdf:value": "ADI"
+        },
+        {
+            "@id": "uncl4451:ADJ",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Information describing the type of assets and liabilities.",
+            "rdfs:label": "Type of assets and liabilities",
+            "rdf:value": "ADJ"
+        },
+        {
+            "@id": "uncl4451:ADK",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "The text contains information about a promotion.",
+            "rdfs:label": "Promotion information",
+            "rdf:value": "ADK"
+        },
+        {
+            "@id": "uncl4451:ADL",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Description of the condition of a meter.",
+            "rdfs:label": "Meter condition",
+            "rdf:value": "ADL"
+        },
+        {
+            "@id": "uncl4451:ADM",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Information related to a particular reading of a meter.",
+            "rdfs:label": "Meter reading information",
+            "rdf:value": "ADM"
+        },
+        {
+            "@id": "uncl4451:ADN",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Information describing the type of the reason of transaction.",
+            "rdfs:label": "Type of transaction reason",
+            "rdf:value": "ADN"
+        },
+        {
+            "@id": "uncl4451:ADO",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Type of survey question.",
+            "rdfs:label": "Type of survey question",
+            "rdf:value": "ADO"
+        },
+        {
+            "@id": "uncl4451:ADP",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Information for use at the counter of the carrier's agent.",
+            "rdfs:label": "Carrier's agent counter information",
+            "rdf:value": "ADP"
+        },
+        {
+            "@id": "uncl4451:ADQ",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Description or code for the operation to be executed on the equipment.",
+            "rdfs:label": "Description of work item on equipment",
+            "rdf:value": "ADQ"
+        },
+        {
+            "@id": "uncl4451:ADR",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Text subject is message definition.",
+            "rdfs:label": "Message definition",
+            "rdf:value": "ADR"
+        },
+        {
+            "@id": "uncl4451:ADS",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Information pertaining to a booked item.",
+            "rdfs:label": "Booked item information",
+            "rdf:value": "ADS"
+        },
+        {
+            "@id": "uncl4451:ADT",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Text subject is source of document.",
+            "rdfs:label": "Source of document",
+            "rdf:value": "ADT"
+        },
+        {
+            "@id": "uncl4451:ADU",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Text subject is note.",
+            "rdfs:label": "Note",
+            "rdf:value": "ADU"
+        },
+        {
+            "@id": "uncl4451:ADV",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Text subject is fixed part of segment clarification text.",
+            "rdfs:label": "Fixed part of segment clarification text",
+            "rdf:value": "ADV"
+        },
+        {
+            "@id": "uncl4451:ADW",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Description of the characteristic of goods in addition to the description of the goods.",
+            "rdfs:label": "Characteristics of goods",
+            "rdf:value": "ADW"
+        },
+        {
+            "@id": "uncl4451:ADX",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Special discharge instructions concerning the goods.",
+            "rdfs:label": "Additional discharge instructions",
+            "rdf:value": "ADX"
+        },
+        {
+            "@id": "uncl4451:ADY",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Instructions regarding the stripping of container(s).",
+            "rdfs:label": "Container stripping instructions",
+            "rdf:value": "ADY"
+        },
+        {
+            "@id": "uncl4451:ADZ",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Information on the CSC (Container Safety Convention) plate that is attached to the container.",
+            "rdfs:label": "CSC (Container Safety Convention) plate information",
+            "rdf:value": "ADZ"
+        },
+        {
+            "@id": "uncl4451:AEA",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Additional remarks concerning the cargo.",
+            "rdfs:label": "Cargo remarks",
+            "rdf:value": "AEA"
+        },
+        {
+            "@id": "uncl4451:AEB",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Instruction regarding the temperature control of the cargo.",
+            "rdfs:label": "Temperature control instructions",
+            "rdf:value": "AEB"
+        },
+        {
+            "@id": "uncl4451:AEC",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Remarks refer to data that was expected.",
+            "rdfs:label": "Text refers to expected data",
+            "rdf:value": "AEC"
+        },
+        {
+            "@id": "uncl4451:AED",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Remarks refer to data that was received.",
+            "rdfs:label": "Text refers to received data",
+            "rdf:value": "AED"
+        },
+        {
+            "@id": "uncl4451:AEE",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Text subject is section clarification text.",
+            "rdfs:label": "Section clarification text",
+            "rdf:value": "AEE"
+        },
+        {
+            "@id": "uncl4451:AEF",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Information given to the beneficiary.",
+            "rdfs:label": "Information to the beneficiary",
+            "rdf:value": "AEF"
+        },
+        {
+            "@id": "uncl4451:AEG",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Information given to the applicant.",
+            "rdfs:label": "Information to the applicant",
+            "rdf:value": "AEG"
+        },
+        {
+            "@id": "uncl4451:AEH",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Instructions made to the beneficiary.",
+            "rdfs:label": "Instructions to the beneficiary",
+            "rdf:value": "AEH"
+        },
+        {
+            "@id": "uncl4451:AEI",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Instructions given to the applicant.",
+            "rdfs:label": "Instructions to the applicant",
+            "rdf:value": "AEI"
+        },
+        {
+            "@id": "uncl4451:AEJ",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Information about the controlled atmosphere.",
+            "rdfs:label": "Controlled atmosphere",
+            "rdf:value": "AEJ"
+        },
+        {
+            "@id": "uncl4451:AEK",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Additional information in plain text to support a take off annotation. Taking off is the process of assessing the quantity work from extracting the measurement from construction documentation.",
+            "rdfs:label": "Take off annotation",
+            "rdf:value": "AEK"
+        },
+        {
+            "@id": "uncl4451:AEL",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Additional information in plain language to support a price variation.",
+            "rdfs:label": "Price variation narrative",
+            "rdf:value": "AEL"
+        },
+        {
+            "@id": "uncl4451:AEM",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Documentary credit amendment instructions.",
+            "rdfs:label": "Documentary credit amendment instructions",
+            "rdf:value": "AEM"
+        },
+        {
+            "@id": "uncl4451:AEN",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Additional information in plain language to support a standard method.",
+            "rdfs:label": "Standard method narrative",
+            "rdf:value": "AEN"
+        },
+        {
+            "@id": "uncl4451:AEO",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Additional information in plain language to support the project.",
+            "rdfs:label": "Project narrative",
+            "rdf:value": "AEO"
+        },
+        {
+            "@id": "uncl4451:AEP",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Additional information related to radioactive goods.",
+            "rdfs:label": "Radioactive goods, additional information",
+            "rdf:value": "AEP"
+        },
+        {
+            "@id": "uncl4451:AEQ",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Information given from one bank to another.",
+            "rdfs:label": "Bank-to-bank information",
+            "rdf:value": "AEQ"
+        },
+        {
+            "@id": "uncl4451:AER",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Instructions given for reimbursement purposes.",
+            "rdfs:label": "Reimbursement instructions",
+            "rdf:value": "AER"
+        },
+        {
+            "@id": "uncl4451:AES",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Identification of the reason for amending a message.",
+            "rdfs:label": "Reason for amending a message",
+            "rdf:value": "AES"
+        },
+        {
+            "@id": "uncl4451:AET",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Instructions to the paying and/or accepting and/or negotiating bank.",
+            "rdfs:label": "Instructions to the paying and/or accepting and/or negotiating bank",
+            "rdf:value": "AET"
+        },
+        {
+            "@id": "uncl4451:AEU",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Instructions given about the interest.",
+            "rdfs:label": "Interest instructions",
+            "rdf:value": "AEU"
+        },
+        {
+            "@id": "uncl4451:AEV",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Instructions about agent commission.",
+            "rdfs:label": "Agent commission",
+            "rdf:value": "AEV"
+        },
+        {
+            "@id": "uncl4451:AEW",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Instructions to the remitting bank.",
+            "rdfs:label": "Remitting bank instructions",
+            "rdf:value": "AEW"
+        },
+        {
+            "@id": "uncl4451:AEX",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Instructions to the bank, other than the remitting bank, involved in processing the collection.",
+            "rdfs:label": "Instructions to the collecting bank",
+            "rdf:value": "AEX"
+        },
+        {
+            "@id": "uncl4451:AEY",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Instructions about the collection amount.",
+            "rdfs:label": "Collection amount instructions",
+            "rdf:value": "AEY"
+        },
+        {
+            "@id": "uncl4451:AEZ",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Text relating to internal auditing information.",
+            "rdfs:label": "Internal auditing information",
+            "rdf:value": "AEZ"
+        },
+        {
+            "@id": "uncl4451:AFA",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Denotes that the associated text is a constraint.",
+            "rdfs:label": "Constraint",
+            "rdf:value": "AFA"
+        },
+        {
+            "@id": "uncl4451:AFB",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Denotes that the associated text is a comment.",
+            "rdfs:label": "Comment",
+            "rdf:value": "AFB"
+        },
+        {
+            "@id": "uncl4451:AFC",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Denotes that the associated text is a semantic note.",
+            "rdfs:label": "Semantic note",
+            "rdf:value": "AFC"
+        },
+        {
+            "@id": "uncl4451:AFD",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Denotes that the associated text is an item of help text.",
+            "rdfs:label": "Help text",
+            "rdf:value": "AFD"
+        },
+        {
+            "@id": "uncl4451:AFE",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Denotes that the associated text is a legend.",
+            "rdfs:label": "Legend",
+            "rdf:value": "AFE"
+        },
+        {
+            "@id": "uncl4451:AFF",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "A description of the structure of a batch code.",
+            "rdfs:label": "Batch code structure",
+            "rdf:value": "AFF"
+        },
+        {
+            "@id": "uncl4451:AFG",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "A general description of the application of a product.",
+            "rdfs:label": "Product application",
+            "rdf:value": "AFG"
+        },
+        {
+            "@id": "uncl4451:AFH",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Complaint of customer.",
+            "rdfs:label": "Customer complaint",
+            "rdf:value": "AFH"
+        },
+        {
+            "@id": "uncl4451:AFI",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "The probable cause of fault.",
+            "rdfs:label": "Probable cause of fault",
+            "rdf:value": "AFI"
+        },
+        {
+            "@id": "uncl4451:AFJ",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Description of the defect.",
+            "rdfs:label": "Defect description",
+            "rdf:value": "AFJ"
+        },
+        {
+            "@id": "uncl4451:AFK",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "The description of the work performed during the repair.",
+            "rdfs:label": "Repair description",
+            "rdf:value": "AFK"
+        },
+        {
+            "@id": "uncl4451:AFL",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Comments relevant to a review.",
+            "rdfs:label": "Review comments",
+            "rdf:value": "AFL"
+        },
+        {
+            "@id": "uncl4451:AFM",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Denotes that the associated text is a title.",
+            "rdfs:label": "Title",
+            "rdf:value": "AFM"
+        },
+        {
+            "@id": "uncl4451:AFN",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "An amount description in clear text.",
+            "rdfs:label": "Description of amount",
+            "rdf:value": "AFN"
+        },
+        {
+            "@id": "uncl4451:AFO",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Information describing the responsibilities.",
+            "rdfs:label": "Responsibilities",
+            "rdf:value": "AFO"
+        },
+        {
+            "@id": "uncl4451:AFP",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Information concerning suppliers.",
+            "rdfs:label": "Supplier",
+            "rdf:value": "AFP"
+        },
+        {
+            "@id": "uncl4451:AFQ",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Information concerning the region(s) where purchases are made.",
+            "rdfs:label": "Purchase region",
+            "rdf:value": "AFQ"
+        },
+        {
+            "@id": "uncl4451:AFR",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Information concerning an association of one party with another party(ies).",
+            "rdfs:label": "Affiliation",
+            "rdf:value": "AFR"
+        },
+        {
+            "@id": "uncl4451:AFS",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Information concerning the borrower.",
+            "rdfs:label": "Borrower",
+            "rdf:value": "AFS"
+        },
+        {
+            "@id": "uncl4451:AFT",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Information concerning an entity's line of business.",
+            "rdfs:label": "Line of business",
+            "rdf:value": "AFT"
+        },
+        {
+            "@id": "uncl4451:AFU",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Description of financial institution(s) used by an entity.",
+            "rdfs:label": "Financial institution",
+            "rdf:value": "AFU"
+        },
+        {
+            "@id": "uncl4451:AFV",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Information about the business founder.",
+            "rdfs:label": "Business founder",
+            "rdf:value": "AFV"
+        },
+        {
+            "@id": "uncl4451:AFW",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Description of the business history.",
+            "rdfs:label": "Business history",
+            "rdf:value": "AFW"
+        },
+        {
+            "@id": "uncl4451:AFX",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Information concerning the general banking arrangements.",
+            "rdfs:label": "Banking arrangements",
+            "rdf:value": "AFX"
+        },
+        {
+            "@id": "uncl4451:AFY",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Description of the business origin.",
+            "rdfs:label": "Business origin",
+            "rdf:value": "AFY"
+        },
+        {
+            "@id": "uncl4451:AFZ",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Description of the entity's brands.",
+            "rdfs:label": "Brand names' description",
+            "rdf:value": "AFZ"
+        },
+        {
+            "@id": "uncl4451:AGA",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Details about the financing of the business.",
+            "rdfs:label": "Business financing details",
+            "rdf:value": "AGA"
+        },
+        {
+            "@id": "uncl4451:AGB",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Information concerning an entity's competition.",
+            "rdfs:label": "Competition",
+            "rdf:value": "AGB"
+        },
+        {
+            "@id": "uncl4451:AGC",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Details about the construction process.",
+            "rdfs:label": "Construction process details",
+            "rdf:value": "AGC"
+        },
+        {
+            "@id": "uncl4451:AGD",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Information concerning the line of business of a construction entity.",
+            "rdfs:label": "Construction specialty",
+            "rdf:value": "AGD"
+        },
+        {
+            "@id": "uncl4451:AGE",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Details about contract(s).",
+            "rdfs:label": "Contract information",
+            "rdf:value": "AGE"
+        },
+        {
+            "@id": "uncl4451:AGF",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Details about a corporate filing.",
+            "rdfs:label": "Corporate filing",
+            "rdf:value": "AGF"
+        },
+        {
+            "@id": "uncl4451:AGG",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Description of customers.",
+            "rdfs:label": "Customer information",
+            "rdf:value": "AGG"
+        },
+        {
+            "@id": "uncl4451:AGH",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Information concerning the copyright notice.",
+            "rdfs:label": "Copyright notice",
+            "rdf:value": "AGH"
+        },
+        {
+            "@id": "uncl4451:AGI",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Details about the contingent debt.",
+            "rdfs:label": "Contingent debt",
+            "rdf:value": "AGI"
+        },
+        {
+            "@id": "uncl4451:AGJ",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Details about the law or penal codes that resulted in conviction.",
+            "rdfs:label": "Conviction details",
+            "rdf:value": "AGJ"
+        },
+        {
+            "@id": "uncl4451:AGK",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Description of equipment.",
+            "rdfs:label": "Equipment",
+            "rdf:value": "AGK"
+        },
+        {
+            "@id": "uncl4451:AGL",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Comments about the workforce.",
+            "rdfs:label": "Workforce description",
+            "rdf:value": "AGL"
+        },
+        {
+            "@id": "uncl4451:AGM",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Description about exemptions.",
+            "rdfs:label": "Exemption",
+            "rdf:value": "AGM"
+        },
+        {
+            "@id": "uncl4451:AGN",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Information on future plans.",
+            "rdfs:label": "Future plans",
+            "rdf:value": "AGN"
+        },
+        {
+            "@id": "uncl4451:AGO",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Information concerning the interviewee conversation.",
+            "rdfs:label": "Interviewee conversation information",
+            "rdf:value": "AGO"
+        },
+        {
+            "@id": "uncl4451:AGP",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Description of intangible asset(s).",
+            "rdfs:label": "Intangible asset",
+            "rdf:value": "AGP"
+        },
+        {
+            "@id": "uncl4451:AGQ",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Description of the inventory.",
+            "rdfs:label": "Inventory",
+            "rdf:value": "AGQ"
+        },
+        {
+            "@id": "uncl4451:AGR",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Description of the investments.",
+            "rdfs:label": "Investment",
+            "rdf:value": "AGR"
+        },
+        {
+            "@id": "uncl4451:AGS",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Description of the intercompany relations.",
+            "rdfs:label": "Intercompany relations information",
+            "rdf:value": "AGS"
+        },
+        {
+            "@id": "uncl4451:AGT",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Description of the joint venture.",
+            "rdfs:label": "Joint venture",
+            "rdf:value": "AGT"
+        },
+        {
+            "@id": "uncl4451:AGU",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Description of a loan.",
+            "rdfs:label": "Loan",
+            "rdf:value": "AGU"
+        },
+        {
+            "@id": "uncl4451:AGV",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Description of the long term debt.",
+            "rdfs:label": "Long term debt",
+            "rdf:value": "AGV"
+        },
+        {
+            "@id": "uncl4451:AGW",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Description of a location.",
+            "rdfs:label": "Location",
+            "rdf:value": "AGW"
+        },
+        {
+            "@id": "uncl4451:AGX",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Details on the current legal structure.",
+            "rdfs:label": "Current legal structure",
+            "rdf:value": "AGX"
+        },
+        {
+            "@id": "uncl4451:AGY",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Details on a marital contract.",
+            "rdfs:label": "Marital contract",
+            "rdf:value": "AGY"
+        },
+        {
+            "@id": "uncl4451:AGZ",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Information concerning marketing activities.",
+            "rdfs:label": "Marketing activities",
+            "rdf:value": "AGZ"
+        },
+        {
+            "@id": "uncl4451:AHA",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Description of a merger.",
+            "rdfs:label": "Merger",
+            "rdf:value": "AHA"
+        },
+        {
+            "@id": "uncl4451:AHB",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Description of the marketable securities.",
+            "rdfs:label": "Marketable securities",
+            "rdf:value": "AHB"
+        },
+        {
+            "@id": "uncl4451:AHC",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Description of the business debt(s).",
+            "rdfs:label": "Business debt",
+            "rdf:value": "AHC"
+        },
+        {
+            "@id": "uncl4451:AHD",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Information concerning the original legal structure.",
+            "rdfs:label": "Original legal structure",
+            "rdf:value": "AHD"
+        },
+        {
+            "@id": "uncl4451:AHE",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Information describing how a company uses employees from another company.",
+            "rdfs:label": "Employee sharing arrangements",
+            "rdf:value": "AHE"
+        },
+        {
+            "@id": "uncl4451:AHF",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Description about the organization of a company.",
+            "rdfs:label": "Organization details",
+            "rdf:value": "AHF"
+        },
+        {
+            "@id": "uncl4451:AHG",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Information concerning public records.",
+            "rdfs:label": "Public record details",
+            "rdf:value": "AHG"
+        },
+        {
+            "@id": "uncl4451:AHH",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Information concerning the price range of products made or sold.",
+            "rdfs:label": "Price range",
+            "rdf:value": "AHH"
+        },
+        {
+            "@id": "uncl4451:AHI",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Information on the accomplishments fitting a party for a position.",
+            "rdfs:label": "Qualifications",
+            "rdf:value": "AHI"
+        },
+        {
+            "@id": "uncl4451:AHJ",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Information concerning the registered activity.",
+            "rdfs:label": "Registered activity",
+            "rdf:value": "AHJ"
+        },
+        {
+            "@id": "uncl4451:AHK",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Description of the sentence imposed in a criminal proceeding.",
+            "rdfs:label": "Criminal sentence",
+            "rdf:value": "AHK"
+        },
+        {
+            "@id": "uncl4451:AHL",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Description of the selling means.",
+            "rdfs:label": "Sales method",
+            "rdf:value": "AHL"
+        },
+        {
+            "@id": "uncl4451:AHM",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Free form description relating to the school(s) attended.",
+            "rdfs:label": "Educational institution information",
+            "rdf:value": "AHM"
+        },
+        {
+            "@id": "uncl4451:AHN",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Describes the status details.",
+            "rdfs:label": "Status details",
+            "rdf:value": "AHN"
+        },
+        {
+            "@id": "uncl4451:AHO",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Description of the sales.",
+            "rdfs:label": "Sales",
+            "rdf:value": "AHO"
+        },
+        {
+            "@id": "uncl4451:AHP",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Information about the spouse.",
+            "rdfs:label": "Spouse information",
+            "rdf:value": "AHP"
+        },
+        {
+            "@id": "uncl4451:AHQ",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Details about the educational degree received from a school.",
+            "rdfs:label": "Educational degree information",
+            "rdf:value": "AHQ"
+        },
+        {
+            "@id": "uncl4451:AHR",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "General description of shareholding.",
+            "rdfs:label": "Shareholding information",
+            "rdf:value": "AHR"
+        },
+        {
+            "@id": "uncl4451:AHS",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Information on the sales territory.",
+            "rdfs:label": "Sales territory",
+            "rdf:value": "AHS"
+        },
+        {
+            "@id": "uncl4451:AHT",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Comments made by an accountant regarding a financial statement.",
+            "rdfs:label": "Accountant's comments",
+            "rdf:value": "AHT"
+        },
+        {
+            "@id": "uncl4451:AHU",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Description of the exemption provided to a location by a law.",
+            "rdfs:label": "Exemption law location",
+            "rdf:value": "AHU"
+        },
+        {
+            "@id": "uncl4451:AHV",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Information about the classes or categories of shares.",
+            "rdfs:label": "Share classifications",
+            "rdf:value": "AHV"
+        },
+        {
+            "@id": "uncl4451:AHW",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Description of a prediction.",
+            "rdfs:label": "Forecast",
+            "rdf:value": "AHW"
+        },
+        {
+            "@id": "uncl4451:AHX",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Description of the location of an event.",
+            "rdfs:label": "Event location",
+            "rdf:value": "AHX"
+        },
+        {
+            "@id": "uncl4451:AHY",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Information related to occupancy of a facility.",
+            "rdfs:label": "Facility occupancy",
+            "rdf:value": "AHY"
+        },
+        {
+            "@id": "uncl4451:AHZ",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Specific information provided about the importation and exportation of goods.",
+            "rdfs:label": "Import and export details",
+            "rdf:value": "AHZ"
+        },
+        {
+            "@id": "uncl4451:AIA",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Additional information about a facility.",
+            "rdfs:label": "Additional facility information",
+            "rdf:value": "AIA"
+        },
+        {
+            "@id": "uncl4451:AIB",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Description of the value of inventory.",
+            "rdfs:label": "Inventory value",
+            "rdf:value": "AIB"
+        },
+        {
+            "@id": "uncl4451:AIC",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Description of the education of a person.",
+            "rdfs:label": "Education",
+            "rdf:value": "AIC"
+        },
+        {
+            "@id": "uncl4451:AID",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Description of a thing that happens or takes place.",
+            "rdfs:label": "Event",
+            "rdf:value": "AID"
+        },
+        {
+            "@id": "uncl4451:AIE",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Information about agents the entity uses.",
+            "rdfs:label": "Agent",
+            "rdf:value": "AIE"
+        },
+        {
+            "@id": "uncl4451:AIF",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Details of domestically agreed financial statement.",
+            "rdfs:label": "Domestically agreed financial statement details",
+            "rdf:value": "AIF"
+        },
+        {
+            "@id": "uncl4451:AIG",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Description of other current asset.",
+            "rdfs:label": "Other current asset description",
+            "rdf:value": "AIG"
+        },
+        {
+            "@id": "uncl4451:AIH",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Description of other current liability.",
+            "rdfs:label": "Other current liability description",
+            "rdf:value": "AIH"
+        },
+        {
+            "@id": "uncl4451:AII",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Description of the former line of business.",
+            "rdfs:label": "Former business activity",
+            "rdf:value": "AII"
+        },
+        {
+            "@id": "uncl4451:AIJ",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Description of how a trading name is used.",
+            "rdfs:label": "Trade name use",
+            "rdf:value": "AIJ"
+        },
+        {
+            "@id": "uncl4451:AIK",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Description of the authorized signatory.",
+            "rdfs:label": "Signing authority",
+            "rdf:value": "AIK"
+        },
+        {
+            "@id": "uncl4451:AIL",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "[4376] Description of guarantee.",
+            "rdfs:label": "Guarantee",
+            "rdf:value": "AIL"
+        },
+        {
+            "@id": "uncl4451:AIM",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Description of the operation of a holding company.",
+            "rdfs:label": "Holding company operation",
+            "rdf:value": "AIM"
+        },
+        {
+            "@id": "uncl4451:AIN",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Information on routing of the consignment.",
+            "rdfs:label": "Consignment routing",
+            "rdf:value": "AIN"
+        },
+        {
+            "@id": "uncl4451:AIO",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "A letter citing any condition in dispute.",
+            "rdfs:label": "Letter of protest",
+            "rdf:value": "AIO"
+        },
+        {
+            "@id": "uncl4451:AIP",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "A free text question.",
+            "rdfs:label": "Question",
+            "rdf:value": "AIP"
+        },
+        {
+            "@id": "uncl4451:AIQ",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Free text information related to a party.",
+            "rdfs:label": "Party information",
+            "rdf:value": "AIQ"
+        },
+        {
+            "@id": "uncl4451:AIR",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Description of the boundaries of a geographical area.",
+            "rdfs:label": "Area boundaries description",
+            "rdf:value": "AIR"
+        },
+        {
+            "@id": "uncl4451:AIS",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "The free text contains advertisement information.",
+            "rdfs:label": "Advertisement information",
+            "rdf:value": "AIS"
+        },
+        {
+            "@id": "uncl4451:AIT",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Details regarding the financial statement in free text.",
+            "rdfs:label": "Financial statement details",
+            "rdf:value": "AIT"
+        },
+        {
+            "@id": "uncl4451:AIU",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Description of how to access an entity.",
+            "rdfs:label": "Access instructions",
+            "rdf:value": "AIU"
+        },
+        {
+            "@id": "uncl4451:AIV",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Description of an entity's liquidity.",
+            "rdfs:label": "Liquidity",
+            "rdf:value": "AIV"
+        },
+        {
+            "@id": "uncl4451:AIW",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Description of the line of credit available to an entity.",
+            "rdfs:label": "Credit line",
+            "rdf:value": "AIW"
+        },
+        {
+            "@id": "uncl4451:AIX",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Text describing the terms of warranty which apply to a product or service.",
+            "rdfs:label": "Warranty terms",
+            "rdf:value": "AIX"
+        },
+        {
+            "@id": "uncl4451:AIY",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Plain language description of a division of an entity.",
+            "rdfs:label": "Division description",
+            "rdf:value": "AIY"
+        },
+        {
+            "@id": "uncl4451:AIZ",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Instruction on how to report.",
+            "rdfs:label": "Reporting instruction",
+            "rdf:value": "AIZ"
+        },
+        {
+            "@id": "uncl4451:AJA",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "The result of an examination.",
+            "rdfs:label": "Examination result",
+            "rdf:value": "AJA"
+        },
+        {
+            "@id": "uncl4451:AJB",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "The result of a laboratory investigation.",
+            "rdfs:label": "Laboratory result",
+            "rdf:value": "AJB"
+        },
+        {
+            "@id": "uncl4451:ALC",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Information referring to allowance/charge.",
+            "rdfs:label": "Allowance/charge information",
+            "rdf:value": "ALC"
+        },
+        {
+            "@id": "uncl4451:ALD",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "The result of an X-ray examination.",
+            "rdfs:label": "X-ray result",
+            "rdf:value": "ALD"
+        },
+        {
+            "@id": "uncl4451:ALE",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "The result of a pathology investigation.",
+            "rdfs:label": "Pathology result",
+            "rdf:value": "ALE"
+        },
+        {
+            "@id": "uncl4451:ALF",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Details of an intervention.",
+            "rdfs:label": "Intervention description",
+            "rdf:value": "ALF"
+        },
+        {
+            "@id": "uncl4451:ALG",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Summary description of admittance.",
+            "rdfs:label": "Summary of admittance",
+            "rdf:value": "ALG"
+        },
+        {
+            "@id": "uncl4451:ALH",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Details of a course of medical treatment.",
+            "rdfs:label": "Medical treatment course detail",
+            "rdf:value": "ALH"
+        },
+        {
+            "@id": "uncl4451:ALI",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Details of a prognosis.",
+            "rdfs:label": "Prognosis",
+            "rdf:value": "ALI"
+        },
+        {
+            "@id": "uncl4451:ALJ",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Instruction given to a patient.",
+            "rdfs:label": "Instruction to patient",
+            "rdf:value": "ALJ"
+        },
+        {
+            "@id": "uncl4451:ALK",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Instruction given to a physician.",
+            "rdfs:label": "Instruction to physician",
+            "rdf:value": "ALK"
+        },
+        {
+            "@id": "uncl4451:ALL",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "The note implies to all documents.",
+            "rdfs:label": "All documents",
+            "rdf:value": "ALL"
+        },
+        {
+            "@id": "uncl4451:ALM",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Details of medicine treatment.",
+            "rdfs:label": "Medicine treatment",
+            "rdf:value": "ALM"
+        },
+        {
+            "@id": "uncl4451:ALN",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Details of medicine dosage and method of administration.",
+            "rdfs:label": "Medicine dosage and administration",
+            "rdf:value": "ALN"
+        },
+        {
+            "@id": "uncl4451:ALO",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Details of when and/or where the patient is available.",
+            "rdfs:label": "Availability of patient",
+            "rdf:value": "ALO"
+        },
+        {
+            "@id": "uncl4451:ALP",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Details of the reason for a requested service.",
+            "rdfs:label": "Reason for service request",
+            "rdf:value": "ALP"
+        },
+        {
+            "@id": "uncl4451:ALQ",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Details of the purpose of a service.",
+            "rdfs:label": "Purpose of service",
+            "rdf:value": "ALQ"
+        },
+        {
+            "@id": "uncl4451:ARR",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Conditions under which arrival takes place.",
+            "rdfs:label": "Arrival conditions",
+            "rdf:value": "ARR"
+        },
+        {
+            "@id": "uncl4451:ARS",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Comment by the requester of a service.",
+            "rdfs:label": "Service requester's comment",
+            "rdf:value": "ARS"
+        },
+        {
+            "@id": "uncl4451:AUT",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "(4130) (4136) (4426) Name, code, password etc. given for authentication purposes.",
+            "rdfs:label": "Authentication",
+            "rdf:value": "AUT"
+        },
+        {
+            "@id": "uncl4451:AUU",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "The description of the location requested.",
+            "rdfs:label": "Requested location description",
+            "rdf:value": "AUU"
+        },
+        {
+            "@id": "uncl4451:AUV",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "The event or condition that initiates the administration of a single dose of medicine or a period of treatment.",
+            "rdfs:label": "Medicine administration condition",
+            "rdf:value": "AUV"
+        },
+        {
+            "@id": "uncl4451:AUW",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Information concerning a patient.",
+            "rdfs:label": "Patient information",
+            "rdf:value": "AUW"
+        },
+        {
+            "@id": "uncl4451:AUX",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Action to be taken to avert possible harmful affects.",
+            "rdfs:label": "Precautionary measure",
+            "rdf:value": "AUX"
+        },
+        {
+            "@id": "uncl4451:AUY",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Free text description is related to a service characteristic.",
+            "rdfs:label": "Service characteristic",
+            "rdf:value": "AUY"
+        },
+        {
+            "@id": "uncl4451:AUZ",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Comment about an event that is planned.",
+            "rdfs:label": "Planned event comment",
+            "rdf:value": "AUZ"
+        },
+        {
+            "@id": "uncl4451:AVA",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Comment about the expected delay.",
+            "rdfs:label": "Expected delay comment",
+            "rdf:value": "AVA"
+        },
+        {
+            "@id": "uncl4451:AVB",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Comment about the requirements for transport.",
+            "rdfs:label": "Transport requirements comment",
+            "rdf:value": "AVB"
+        },
+        {
+            "@id": "uncl4451:AVC",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "The condition under which the approval is considered.",
+            "rdfs:label": "Temporary approval condition",
+            "rdf:value": "AVC"
+        },
+        {
+            "@id": "uncl4451:AVD",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Information provided in this category will be used by the trader to make certain declarations in relation to Customs Valuation.",
+            "rdfs:label": "Customs Valuation Information",
+            "rdf:value": "AVD"
+        },
+        {
+            "@id": "uncl4451:AVE",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Description of the VAT margin scheme applied.",
+            "rdfs:label": "Value Added Tax (VAT) margin scheme",
+            "rdf:value": "AVE"
+        },
+        {
+            "@id": "uncl4451:AVF",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Information about Maritime Declaration of Health.",
+            "rdfs:label": "Maritime Declaration of Health",
+            "rdf:value": "AVF"
+        },
+        {
+            "@id": "uncl4451:BAG",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Information related to baggage tendered by a passenger, such as odd size indication, tag.",
+            "rdfs:label": "Passenger baggage information",
+            "rdf:value": "BAG"
+        },
+        {
+            "@id": "uncl4451:BAH",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Information about Maritime Declaration of Health.",
+            "rdfs:label": "Maritime Declaration of Health",
+            "rdf:value": "BAH"
+        },
+        {
+            "@id": "uncl4451:BAI",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Address at which additional information on the product can be found.",
+            "rdfs:label": "Additional product information address",
+            "rdf:value": "BAI"
+        },
+        {
+            "@id": "uncl4451:BAJ",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Specification of free text information which is to be printed on a despatch advice.",
+            "rdfs:label": "Information to be printed on despatch advice",
+            "rdf:value": "BAJ"
+        },
+        {
+            "@id": "uncl4451:BAK",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Remarks concerning missing goods.",
+            "rdfs:label": "Missing goods remarks",
+            "rdf:value": "BAK"
+        },
+        {
+            "@id": "uncl4451:BAL",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Information related to the non-acceptance of an order, goods or a consignment.",
+            "rdfs:label": "Non-acceptance information",
+            "rdf:value": "BAL"
+        },
+        {
+            "@id": "uncl4451:BAM",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Information related to the return of items.",
+            "rdfs:label": "Returns information",
+            "rdf:value": "BAM"
+        },
+        {
+            "@id": "uncl4451:BAN",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Note contains information related to sub-line item data.",
+            "rdfs:label": "Sub-line item information",
+            "rdf:value": "BAN"
+        },
+        {
+            "@id": "uncl4451:BAO",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Information related to a test.",
+            "rdfs:label": "Test information",
+            "rdf:value": "BAO"
+        },
+        {
+            "@id": "uncl4451:BAP",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "The external link to a digital document (e.g.: URL).",
+            "rdfs:label": "External link",
+            "rdf:value": "BAP"
+        },
+        {
+            "@id": "uncl4451:BAQ",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Reason for Value Added Tax (VAT) exemption.",
+            "rdfs:label": "VAT exemption reason",
+            "rdf:value": "BAQ"
+        },
+        {
+            "@id": "uncl4451:BAR",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Instructions for processing.",
+            "rdfs:label": "Processing Instructions",
+            "rdf:value": "BAR"
+        },
+        {
+            "@id": "uncl4451:BAS",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Instructions for relaying.",
+            "rdfs:label": "Relay Instructions",
+            "rdf:value": "BAS"
+        },
+        {
+            "@id": "uncl4451:BAT",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Identifies that Special Import Measures Act applies",
+            "rdfs:label": "SIMA applicable",
+            "rdf:value": "BAT"
+        },
+        {
+            "@id": "uncl4451:BAU",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Identifies information related to an appeals program.",
+            "rdfs:label": "Appeals program code",
+            "rdf:value": "BAU"
+        },
+        {
+            "@id": "uncl4451:BAV",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Identifies if the goods are subject to a Special Import Measures Act measure.",
+            "rdfs:label": "SIMA subject",
+            "rdf:value": "BAV"
+        },
+        {
+            "@id": "uncl4451:BAW",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Identifies that surtax applies",
+            "rdfs:label": "Surtax applicable",
+            "rdf:value": "BAW"
+        },
+        {
+            "@id": "uncl4451:BAX",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Identifies that there is a security bond in hand that could theoretically be used to cover Special Import Measures Act charges",
+            "rdfs:label": "SIMA security bond",
+            "rdf:value": "BAX"
+        },
+        {
+            "@id": "uncl4451:BAY",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Identifies if the goods are subject to a surtax measure",
+            "rdfs:label": "Surtax subject",
+            "rdf:value": "BAY"
+        },
+        {
+            "@id": "uncl4451:BAZ",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Identifies safeguard applies",
+            "rdfs:label": "Safeguard applicable",
+            "rdf:value": "BAZ"
+        },
+        {
+            "@id": "uncl4451:BBA",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Identifies safeguard applies",
+            "rdfs:label": "Safeguard applicable",
+            "rdf:value": "BBA"
+        },
+        {
+            "@id": "uncl4451:BBB",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Identifies if the goods are subject to a safeguard measure",
+            "rdfs:label": "Safeguard subject",
+            "rdf:value": "BBB"
+        },
+        {
+            "@id": "uncl4451:BLC",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "[4180] Clause on a transport document regarding the cargo being consigned. Synonym: Bill of Lading clause.",
+            "rdfs:label": "Transport contract document clause",
+            "rdf:value": "BLC"
+        },
+        {
+            "@id": "uncl4451:BLD",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Instruction with the purpose of preparing the patient.",
+            "rdfs:label": "Instruction to prepare the patient",
+            "rdf:value": "BLD"
+        },
+        {
+            "@id": "uncl4451:BLE",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Comment about treatment with medicine.",
+            "rdfs:label": "Medicine treatment comment",
+            "rdf:value": "BLE"
+        },
+        {
+            "@id": "uncl4451:BLF",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Comment about the result of an examination.",
+            "rdfs:label": "Examination result comment",
+            "rdf:value": "BLF"
+        },
+        {
+            "@id": "uncl4451:BLG",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Comment about the requested service.",
+            "rdfs:label": "Service request comment",
+            "rdf:value": "BLG"
+        },
+        {
+            "@id": "uncl4451:BLH",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Details of the reason for a prescription.",
+            "rdfs:label": "Prescription reason",
+            "rdf:value": "BLH"
+        },
+        {
+            "@id": "uncl4451:BLI",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Comment concerning a specified prescription.",
+            "rdfs:label": "Prescription comment",
+            "rdf:value": "BLI"
+        },
+        {
+            "@id": "uncl4451:BLJ",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Comment concerning a clinical investigation.",
+            "rdfs:label": "Clinical investigation comment",
+            "rdf:value": "BLJ"
+        },
+        {
+            "@id": "uncl4451:BLK",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Comment concerning the specification of a medicinal product.",
+            "rdfs:label": "Medicinal specification comment",
+            "rdf:value": "BLK"
+        },
+        {
+            "@id": "uncl4451:BLL",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Comment concerning economic contribution.",
+            "rdfs:label": "Economic contribution comment",
+            "rdf:value": "BLL"
+        },
+        {
+            "@id": "uncl4451:BLM",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Comment about the status of a plan.",
+            "rdfs:label": "Status of a plan",
+            "rdf:value": "BLM"
+        },
+        {
+            "@id": "uncl4451:BLN",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Information regarding a random sample test.",
+            "rdfs:label": "Random sample test information",
+            "rdf:value": "BLN"
+        },
+        {
+            "@id": "uncl4451:BLO",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Text subject is a period of time.",
+            "rdfs:label": "Period of time",
+            "rdf:value": "BLO"
+        },
+        {
+            "@id": "uncl4451:BLP",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Information about legislation.",
+            "rdfs:label": "Legislation",
+            "rdf:value": "BLP"
+        },
+        {
+            "@id": "uncl4451:BLQ",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Text describing security measures that are requested to be executed (e.g. access controls, supervision of ship's stores).",
+            "rdfs:label": "Security measures requested",
+            "rdf:value": "BLQ"
+        },
+        {
+            "@id": "uncl4451:BLR",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "[4244] Remarks concerning the complete consignment to be printed on the transport document. Synonym: Bill of Lading remark.",
+            "rdfs:label": "Transport contract document remark",
+            "rdf:value": "BLR"
+        },
+        {
+            "@id": "uncl4451:BLS",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Text describing the security information as applicable at the port facility in the previous port where a ship/port interface was conducted.",
+            "rdfs:label": "Previous port of call security information",
+            "rdf:value": "BLS"
+        },
+        {
+            "@id": "uncl4451:BLT",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Text describing security related information (e.g security measures currently in force on a vessel).",
+            "rdfs:label": "Security information",
+            "rdf:value": "BLT"
+        },
+        {
+            "@id": "uncl4451:BLU",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Text describing waste related information.",
+            "rdfs:label": "Waste information",
+            "rdf:value": "BLU"
+        },
+        {
+            "@id": "uncl4451:BLV",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Consumer marketing information, short description.",
+            "rdfs:label": "B2C marketing information, short description",
+            "rdf:value": "BLV"
+        },
+        {
+            "@id": "uncl4451:BLW",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Trading partner marketing information, long description.",
+            "rdfs:label": "B2B marketing information, long description",
+            "rdf:value": "BLW"
+        },
+        {
+            "@id": "uncl4451:BLX",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Consumer marketing information, long description.",
+            "rdfs:label": "B2C marketing information, long description",
+            "rdf:value": "BLX"
+        },
+        {
+            "@id": "uncl4451:BLY",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Information on the ingredient make up of the product.",
+            "rdfs:label": "Product ingredients",
+            "rdf:value": "BLY"
+        },
+        {
+            "@id": "uncl4451:BLZ",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Short name of a location e.g. for display or printing purposes.",
+            "rdfs:label": "Location short name",
+            "rdf:value": "BLZ"
+        },
+        {
+            "@id": "uncl4451:BMA",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "The text contains a description of the material used for packaging.",
+            "rdfs:label": "Packaging material information",
+            "rdf:value": "BMA"
+        },
+        {
+            "@id": "uncl4451:BMB",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Text contains information on the material used for stuffing.",
+            "rdfs:label": "Filler material information",
+            "rdf:value": "BMB"
+        },
+        {
+            "@id": "uncl4451:BMC",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Text contains information on ship-to-ship activities.",
+            "rdfs:label": "Ship-to-ship activity information",
+            "rdf:value": "BMC"
+        },
+        {
+            "@id": "uncl4451:BMD",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "A description of the type of material for packaging beyond the level covered by standards such as UN Recommendation 21.",
+            "rdfs:label": "Package material description",
+            "rdf:value": "BMD"
+        },
+        {
+            "@id": "uncl4451:BME",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Textual representation of the markings on a consumer level package.",
+            "rdfs:label": "Consumer level package marking",
+            "rdf:value": "BME"
+        },
+        {
+            "@id": "uncl4451:BMF",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Identifies the specific Special Import Measures Act measure related to the goods",
+            "rdfs:label": "SIMA measure in force",
+            "rdf:value": "BMF"
+        },
+        {
+            "@id": "uncl4451:BMG",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Identifiication of how the transmission should be processed regarding submissions transmitted prior to implementation of Canada Border Services Agencys Assessment and Revenue Management (CARM) project",
+            "rdfs:label": "Pre-CARM",
+            "rdf:value": "BMG"
+        },
+        {
+            "@id": "uncl4451:BMH",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Identification of the type of Special Import Measures Act measure",
+            "rdfs:label": "SIMA measure type",
+            "rdf:value": "BMH"
+        },
+        {
+            "@id": "uncl4451:CCI",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Any coded or clear instruction agreed by customer and carrier regarding the declaration of the goods.",
+            "rdfs:label": "Customs clearance instructions",
+            "rdf:value": "CCI"
+        },
+        {
+            "@id": "uncl4451:CCJ",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Code which identifies a secondary form type",
+            "rdfs:label": "Sub Type Code",
+            "rdf:value": "CCJ"
+        },
+        {
+            "@id": "uncl4451:CCK",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Additional information detailing Special Import Measures Act information",
+            "rdfs:label": "SIMA information",
+            "rdf:value": "CCK"
+        },
+        {
+            "@id": "uncl4451:CCL",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "The date the goods exited the economy or warehouse",
+            "rdfs:label": "Time limit end",
+            "rdf:value": "CCL"
+        },
+        {
+            "@id": "uncl4451:CCM",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "The date the goods entered the economy or warehouse",
+            "rdfs:label": "Time limit start",
+            "rdf:value": "CCM"
+        },
+        {
+            "@id": "uncl4451:CCN",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "The amount of time goods may remain in the warehouse",
+            "rdfs:label": "Warehouse time limit",
+            "rdf:value": "CCN"
+        },
+        {
+            "@id": "uncl4451:CCO",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Additional information detailing the basis on which the value for duty was determined",
+            "rdfs:label": "Value for duty information",
+            "rdf:value": "CCO"
+        },
+        {
+            "@id": "uncl4451:CEX",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Any coded or clear instruction agreed by customer and carrier regarding the export declaration of the goods.",
+            "rdfs:label": "Customs clearance instructions export",
+            "rdf:value": "CEX"
+        },
+        {
+            "@id": "uncl4451:CHG",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Note contains change information.",
+            "rdfs:label": "Change information",
+            "rdf:value": "CHG"
+        },
+        {
+            "@id": "uncl4451:CIP",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Any coded or clear instruction agreed by customer and carrier regarding the import declaration of the goods.",
+            "rdfs:label": "Customs clearance instruction import",
+            "rdf:value": "CIP"
+        },
+        {
+            "@id": "uncl4451:CLP",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Name of the place where Customs clearance is asked to be executed as requested by the consignee/consignor.",
+            "rdfs:label": "Clearance place requested",
+            "rdf:value": "CLP"
+        },
+        {
+            "@id": "uncl4451:CLR",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Instructions concerning the loading of the container.",
+            "rdfs:label": "Loading remarks",
+            "rdf:value": "CLR"
+        },
+        {
+            "@id": "uncl4451:COI",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Additional information related to an order.",
+            "rdfs:label": "Order information",
+            "rdf:value": "COI"
+        },
+        {
+            "@id": "uncl4451:CUR",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Remarks from or for a supplier of goods or services.",
+            "rdfs:label": "Customer remarks",
+            "rdf:value": "CUR"
+        },
+        {
+            "@id": "uncl4451:CUS",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "(4034) Note contains customs declaration information.",
+            "rdfs:label": "Customs declaration information",
+            "rdf:value": "CUS"
+        },
+        {
+            "@id": "uncl4451:DAR",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Remarks concerning damage on the cargo.",
+            "rdfs:label": "Damage remarks",
+            "rdf:value": "DAR"
+        },
+        {
+            "@id": "uncl4451:DCL",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "[4020] Text of a declaration made by the issuer of a document.",
+            "rdfs:label": "Document issuer declaration",
+            "rdf:value": "DCL"
+        },
+        {
+            "@id": "uncl4451:DEL",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Information about delivery.",
+            "rdfs:label": "Delivery information",
+            "rdf:value": "DEL"
+        },
+        {
+            "@id": "uncl4451:DIN",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "[4492] Instructions regarding the delivery of the cargo.",
+            "rdfs:label": "Delivery instructions",
+            "rdf:value": "DIN"
+        },
+        {
+            "@id": "uncl4451:DOC",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Instructions pertaining to the documentation.",
+            "rdfs:label": "Documentation instructions",
+            "rdf:value": "DOC"
+        },
+        {
+            "@id": "uncl4451:DUT",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "The text contains a statement constituting a duty declaration.",
+            "rdfs:label": "Duty declaration",
+            "rdf:value": "DUT"
+        },
+        {
+            "@id": "uncl4451:EUR",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Physical route effectively used for the movement of the means of transport.",
+            "rdfs:label": "Effective used routing",
+            "rdf:value": "EUR"
+        },
+        {
+            "@id": "uncl4451:FBC",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "The first block of text to be printed on the transport contract.",
+            "rdfs:label": "First block to be printed on the transport contract",
+            "rdf:value": "FBC"
+        },
+        {
+            "@id": "uncl4451:GBL",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Free text information on a transport document to indicate payment information by Government Bill of Lading.",
+            "rdfs:label": "Government bill of lading information",
+            "rdf:value": "GBL"
+        },
+        {
+            "@id": "uncl4451:GEN",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Note is general in nature, applies to entire transaction segment.",
+            "rdfs:label": "Entire transaction set",
+            "rdf:value": "GEN"
+        },
+        {
+            "@id": "uncl4451:GS7",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Special permission for road transport of certain goods in the German dangerous goods regulation for road transport.",
+            "rdfs:label": "Further information concerning GGVS par. 7",
+            "rdf:value": "GS7"
+        },
+        {
+            "@id": "uncl4451:HAN",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "[4078] Free form description of a set of handling instructions. For example how specified goods, packages or transport equipment (container) should be handled.",
+            "rdfs:label": "Consignment handling instruction",
+            "rdf:value": "HAN"
+        },
+        {
+            "@id": "uncl4451:HAZ",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Information pertaining to a hazard.",
+            "rdfs:label": "Hazard information",
+            "rdf:value": "HAZ"
+        },
+        {
+            "@id": "uncl4451:ICN",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "[4070] Any remarks given for the information of the consignee.",
+            "rdfs:label": "Consignment information for consignee",
+            "rdf:value": "ICN"
+        },
+        {
+            "@id": "uncl4451:IIN",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "(4112) Instructions regarding the cargo insurance.",
+            "rdfs:label": "Insurance instructions",
+            "rdf:value": "IIN"
+        },
+        {
+            "@id": "uncl4451:IMI",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Instructions as to which freight and charges components have to be mailed to whom.",
+            "rdfs:label": "Invoice mailing instructions",
+            "rdf:value": "IMI"
+        },
+        {
+            "@id": "uncl4451:IND",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Free text describing goods on a commercial invoice line.",
+            "rdfs:label": "Commercial invoice item description",
+            "rdf:value": "IND"
+        },
+        {
+            "@id": "uncl4451:INS",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Specific note contains insurance information.",
+            "rdfs:label": "Insurance information",
+            "rdf:value": "INS"
+        },
+        {
+            "@id": "uncl4451:INV",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Note contains invoice instructions.",
+            "rdfs:label": "Invoice instruction",
+            "rdf:value": "INV"
+        },
+        {
+            "@id": "uncl4451:IRP",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Data entered by railway stations when required, e.g. specified trains, additional sheets for freight calculations, special measures, etc.",
+            "rdfs:label": "Information for railway purpose",
+            "rdf:value": "IRP"
+        },
+        {
+            "@id": "uncl4451:ITR",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Information concerning the pre-carriage to the port of discharge if by other means than a vessel.",
+            "rdfs:label": "Inland transport details",
+            "rdf:value": "ITR"
+        },
+        {
+            "@id": "uncl4451:ITS",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Instructions regarding the testing that is required to be carried out on the items in the transaction.",
+            "rdfs:label": "Testing instructions",
+            "rdf:value": "ITS"
+        },
+        {
+            "@id": "uncl4451:LAN",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Alternative name for a location.",
+            "rdfs:label": "Location Alias",
+            "rdf:value": "LAN"
+        },
+        {
+            "@id": "uncl4451:LIN",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Note contains line item information.",
+            "rdfs:label": "Line item",
+            "rdf:value": "LIN"
+        },
+        {
+            "@id": "uncl4451:LOI",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "[4080] Instructions where specified packages or containers are to be loaded on a means of transport.",
+            "rdfs:label": "Loading instruction",
+            "rdf:value": "LOI"
+        },
+        {
+            "@id": "uncl4451:MCO",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Free text accounting information on an IATA Air Waybill to indicate payment information by Miscellaneous charge order.",
+            "rdfs:label": "Miscellaneous charge order",
+            "rdf:value": "MCO"
+        },
+        {
+            "@id": "uncl4451:MDH",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Information about Maritime Declaration of Health.",
+            "rdfs:label": "Maritime Declaration of Health",
+            "rdf:value": "MDH"
+        },
+        {
+            "@id": "uncl4451:MKS",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Additional information regarding the marks and numbers.",
+            "rdfs:label": "Additional marks/numbers information",
+            "rdf:value": "MKS"
+        },
+        {
+            "@id": "uncl4451:ORI",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Free text contains order instructions.",
+            "rdfs:label": "Order instruction",
+            "rdf:value": "ORI"
+        },
+        {
+            "@id": "uncl4451:OSI",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "General information created by the sender of general or specific value.",
+            "rdfs:label": "Other service information",
+            "rdf:value": "OSI"
+        },
+        {
+            "@id": "uncl4451:PAC",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Information regarding the packaging and/or marking of goods.",
+            "rdfs:label": "Packing/marking information",
+            "rdf:value": "PAC"
+        },
+        {
+            "@id": "uncl4451:PAI",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "The free text contains payment instructions information relevant to the message.",
+            "rdfs:label": "Payment instructions information",
+            "rdf:value": "PAI"
+        },
+        {
+            "@id": "uncl4451:PAY",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Note contains payables information.",
+            "rdfs:label": "Payables information",
+            "rdf:value": "PAY"
+        },
+        {
+            "@id": "uncl4451:PKG",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Note contains packaging information.",
+            "rdfs:label": "Packaging information",
+            "rdf:value": "PKG"
+        },
+        {
+            "@id": "uncl4451:PKT",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "The text contains packaging terms information.",
+            "rdfs:label": "Packaging terms information",
+            "rdf:value": "PKT"
+        },
+        {
+            "@id": "uncl4451:PMD",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "The free text contains payment details.",
+            "rdfs:label": "Payment detail/remittance information",
+            "rdf:value": "PMD"
+        },
+        {
+            "@id": "uncl4451:PMT",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "(4438) Note contains payments information.",
+            "rdfs:label": "Payment information",
+            "rdf:value": "PMT"
+        },
+        {
+            "@id": "uncl4451:PRD",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "The text contains product information.",
+            "rdfs:label": "Product information",
+            "rdf:value": "PRD"
+        },
+        {
+            "@id": "uncl4451:PRF",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Additional information regarding the price formula used for calculating the item price.",
+            "rdfs:label": "Price calculation formula",
+            "rdf:value": "PRF"
+        },
+        {
+            "@id": "uncl4451:PRI",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "(4218) Note contains priority information.",
+            "rdfs:label": "Priority information",
+            "rdf:value": "PRI"
+        },
+        {
+            "@id": "uncl4451:PUR",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Note contains purchasing information.",
+            "rdfs:label": "Purchasing information",
+            "rdf:value": "PUR"
+        },
+        {
+            "@id": "uncl4451:QIN",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Instructions regarding quarantine, i.e. the period during which an arriving vessel, including its equipment, cargo, crew or passengers, suspected to carry or carrying a contagious disease is detained in strict isolation to prevent the spread of such a disease.",
+            "rdfs:label": "Quarantine instructions",
+            "rdf:value": "QIN"
+        },
+        {
+            "@id": "uncl4451:QQD",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Specification of the quality/performance expectations or standards to which the items must conform.",
+            "rdfs:label": "Quality demands/requirements",
+            "rdf:value": "QQD"
+        },
+        {
+            "@id": "uncl4451:QUT",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Note contains quotation information.",
+            "rdfs:label": "Quotation instruction/information",
+            "rdf:value": "QUT"
+        },
+        {
+            "@id": "uncl4451:RAH",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Information concerning risks induced by the goods and/or handling instruction.",
+            "rdfs:label": "Risk and handling information",
+            "rdf:value": "RAH"
+        },
+        {
+            "@id": "uncl4451:REG",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "The free text contains information for regulatory authority.",
+            "rdfs:label": "Regulatory information",
+            "rdf:value": "REG"
+        },
+        {
+            "@id": "uncl4451:RET",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Free text information on an IATA Air Waybill to indicate consignment returned because of non delivery.",
+            "rdfs:label": "Return to origin information",
+            "rdf:value": "RET"
+        },
+        {
+            "@id": "uncl4451:REV",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "The text contains receivables information.",
+            "rdfs:label": "Receivables",
+            "rdf:value": "REV"
+        },
+        {
+            "@id": "uncl4451:RQR",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "[3050] Description of a route to be used for the transport of goods.",
+            "rdfs:label": "Consignment route",
+            "rdf:value": "RQR"
+        },
+        {
+            "@id": "uncl4451:SAF",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "The text contains safety information.",
+            "rdfs:label": "Safety information",
+            "rdf:value": "SAF"
+        },
+        {
+            "@id": "uncl4451:SIC",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "[4284] Instructions given and declarations made by the sender to the carrier concerning Customs, insurance, and other formalities.",
+            "rdfs:label": "Consignment documentary instruction",
+            "rdf:value": "SIC"
+        },
+        {
+            "@id": "uncl4451:SIN",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Special instructions like licence no, high value, handle with care, glass.",
+            "rdfs:label": "Special instructions",
+            "rdf:value": "SIN"
+        },
+        {
+            "@id": "uncl4451:SLR",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Shipping line requested to be used for traffic between European continent and U.K. for Ireland.",
+            "rdfs:label": "Ship line requested",
+            "rdf:value": "SLR"
+        },
+        {
+            "@id": "uncl4451:SPA",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Statement that a special permission has been obtained for the transport (and/or routing) in general, and reference to such permission.",
+            "rdfs:label": "Special permission for transport, generally",
+            "rdf:value": "SPA"
+        },
+        {
+            "@id": "uncl4451:SPG",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Statement that a special permission has been obtained for the transport (and/or routing) of the goods specified, and reference to such permission.",
+            "rdfs:label": "Special permission concerning the goods to be transported",
+            "rdf:value": "SPG"
+        },
+        {
+            "@id": "uncl4451:SPH",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Note contains special handling information.",
+            "rdfs:label": "Special handling",
+            "rdf:value": "SPH"
+        },
+        {
+            "@id": "uncl4451:SPP",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Statement that a special permission has been obtained for the packaging, and reference to such permission.",
+            "rdfs:label": "Special permission concerning package",
+            "rdf:value": "SPP"
+        },
+        {
+            "@id": "uncl4451:SPT",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Statement that a special permission has been obtained for the use of the means transport, and reference to such permission.",
+            "rdfs:label": "Special permission concerning transport means",
+            "rdf:value": "SPT"
+        },
+        {
+            "@id": "uncl4451:SRN",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Number(s) of subsidiary risks, induced by the goods, according to the valid classification.",
+            "rdfs:label": "Subsidiary risk number (IATA/DGR)",
+            "rdf:value": "SRN"
+        },
+        {
+            "@id": "uncl4451:SSR",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Request for a special service concerning the transport of the goods.",
+            "rdfs:label": "Special service request",
+            "rdf:value": "SSR"
+        },
+        {
+            "@id": "uncl4451:SUR",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Remarks from or for a supplier of goods or services.",
+            "rdfs:label": "Supplier remarks",
+            "rdf:value": "SUR"
+        },
+        {
+            "@id": "uncl4451:TCA",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "[5430] Free text specification of tariff applied to a consignment.",
+            "rdfs:label": "Consignment tariff",
+            "rdf:value": "TCA"
+        },
+        {
+            "@id": "uncl4451:TDT",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "[8012] Transport information for commercial purposes (generic term).",
+            "rdfs:label": "Consignment transport",
+            "rdf:value": "TDT"
+        },
+        {
+            "@id": "uncl4451:TRA",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "General information regarding the transport of the cargo.",
+            "rdfs:label": "Transportation information",
+            "rdf:value": "TRA"
+        },
+        {
+            "@id": "uncl4451:TRR",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Stipulation of the tariffs to be applied showing, where applicable, special agreement numbers or references.",
+            "rdfs:label": "Requested tariff",
+            "rdf:value": "TRR"
+        },
+        {
+            "@id": "uncl4451:TXD",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "The text contains a statement constituting a tax declaration.",
+            "rdfs:label": "Tax declaration",
+            "rdf:value": "TXD"
+        },
+        {
+            "@id": "uncl4451:WHI",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Note contains warehouse information.",
+            "rdfs:label": "Warehouse instruction/information",
+            "rdf:value": "WHI"
+        },
+        {
+            "@id": "uncl4451:ZZZ",
+            "@type": "unece:UNCL4451Code",
+            "rdfs:comment": "Note contains information mutually defined by trading partners.",
+            "rdfs:label": "Mutually defined",
+            "rdf:value": "ZZZ"
+        }
+    ]
+}

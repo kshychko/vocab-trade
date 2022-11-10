@@ -1,0 +1,1285 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl7143": "https://dmvc7xzscpizo.cloudfront.net/uncl7143#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl7143:AA",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "Number assigned by manufacturer or seller to identify the release of a product.",
+            "rdfs:label": "Product version number",
+            "rdf:value": "AA"
+        },
+        {
+            "@id": "uncl7143:AB",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "The item number is that of an assembly.",
+            "rdfs:label": "Assembly",
+            "rdf:value": "AB"
+        },
+        {
+            "@id": "uncl7143:AC",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "Article identifier used within health sector to indicate data used conforms to HIBC.",
+            "rdfs:label": "HIBC (Health Industry Bar Code)",
+            "rdf:value": "AC"
+        },
+        {
+            "@id": "uncl7143:AD",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "Number assigned to a cold roll.",
+            "rdfs:label": "Cold roll number",
+            "rdf:value": "AD"
+        },
+        {
+            "@id": "uncl7143:AE",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "Number assigned to a hot roll.",
+            "rdfs:label": "Hot roll number",
+            "rdf:value": "AE"
+        },
+        {
+            "@id": "uncl7143:AF",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "Number assigned to a slab, which is produced in a particular production step.",
+            "rdfs:label": "Slab number",
+            "rdf:value": "AF"
+        },
+        {
+            "@id": "uncl7143:AG",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "A number assigned to indicate a revision of software.",
+            "rdfs:label": "Software revision number",
+            "rdf:value": "AG"
+        },
+        {
+            "@id": "uncl7143:AH",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "An 11-digit code that uniquely identifies consumer packaging of a product; does not have a check digit.",
+            "rdfs:label": "UPC (Universal Product Code) Consumer package code (1-5-5)",
+            "rdf:value": "AH"
+        },
+        {
+            "@id": "uncl7143:AI",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "A 12-digit code that uniquely identifies the consumer packaging of a product, including a check digit.",
+            "rdfs:label": "UPC (Universal Product Code) Consumer package code (1-5-5- 1)",
+            "rdf:value": "AI"
+        },
+        {
+            "@id": "uncl7143:AJ",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "Number assigned to a sample.",
+            "rdfs:label": "Sample number",
+            "rdf:value": "AJ"
+        },
+        {
+            "@id": "uncl7143:AK",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "Number assigned to a pack containing a stack of items put together (e.g. cold roll sheets (steel product)).",
+            "rdfs:label": "Pack number",
+            "rdf:value": "AK"
+        },
+        {
+            "@id": "uncl7143:AL",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "A 13-digit code that uniquely identifies the manufacturer's shipping unit, including the packaging indicator.",
+            "rdfs:label": "UPC (Universal Product Code) Shipping container code (1-2- 5-5)",
+            "rdf:value": "AL"
+        },
+        {
+            "@id": "uncl7143:AM",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "A 14-digit code that uniquely identifies the manufacturer's shipping unit, including the packaging indicator and the check digit.",
+            "rdfs:label": "UPC (Universal Product Code)/EAN (European article number) Shipping container code (1-2-5-5-1)",
+            "rdf:value": "AM"
+        },
+        {
+            "@id": "uncl7143:AN",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "A suffix used in conjunction with a higher level UPC (Universal product code) to define packing variations for a product.",
+            "rdfs:label": "UPC (Universal Product Code) suffix",
+            "rdf:value": "AN"
+        },
+        {
+            "@id": "uncl7143:AO",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "A code which specifies the codification of the state's labelling requirements.",
+            "rdfs:label": "State label code",
+            "rdf:value": "AO"
+        },
+        {
+            "@id": "uncl7143:AP",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "Number assigned to the heat (also known as the iron charge) for the production of steel products.",
+            "rdfs:label": "Heat number",
+            "rdf:value": "AP"
+        },
+        {
+            "@id": "uncl7143:AQ",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "A number identifying a coupon.",
+            "rdfs:label": "Coupon number",
+            "rdf:value": "AQ"
+        },
+        {
+            "@id": "uncl7143:AR",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "A number to identify a resource.",
+            "rdfs:label": "Resource number",
+            "rdf:value": "AR"
+        },
+        {
+            "@id": "uncl7143:AS",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "A number to identify a work task.",
+            "rdfs:label": "Work task number",
+            "rdf:value": "AS"
+        },
+        {
+            "@id": "uncl7143:AT",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "Identification number on a product allowing a quick electronic retrieval of price information for that product.",
+            "rdfs:label": "Price look up number",
+            "rdf:value": "AT"
+        },
+        {
+            "@id": "uncl7143:AU",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "Number assigned under the NATO (North Atlantic Treaty Organization) codification system to provide the identification of an approved item of supply.",
+            "rdfs:label": "NSN (North Atlantic Treaty Organization Stock Number)",
+            "rdf:value": "AU"
+        },
+        {
+            "@id": "uncl7143:AV",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "A code specifying the product refinement designation.",
+            "rdfs:label": "Refined product code",
+            "rdf:value": "AV"
+        },
+        {
+            "@id": "uncl7143:AW",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "A code indicating that the product is identified by an exhibit number.",
+            "rdfs:label": "Exhibit",
+            "rdf:value": "AW"
+        },
+        {
+            "@id": "uncl7143:AX",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "A number specifying an end item.",
+            "rdfs:label": "End item",
+            "rdf:value": "AX"
+        },
+        {
+            "@id": "uncl7143:AY",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "A code to specify a product's Federal supply classification.",
+            "rdfs:label": "Federal supply classification",
+            "rdf:value": "AY"
+        },
+        {
+            "@id": "uncl7143:AZ",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "A code specifying the product's engineering data list.",
+            "rdfs:label": "Engineering data list",
+            "rdf:value": "AZ"
+        },
+        {
+            "@id": "uncl7143:BA",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "A number to identify a milestone event.",
+            "rdfs:label": "Milestone event number",
+            "rdf:value": "BA"
+        },
+        {
+            "@id": "uncl7143:BB",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "A number indicating the lot number of a product.",
+            "rdfs:label": "Lot number",
+            "rdf:value": "BB"
+        },
+        {
+            "@id": "uncl7143:BC",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "A code identifying the product in national drug format 4-4-2.",
+            "rdfs:label": "National drug code 4-4-2 format",
+            "rdf:value": "BC"
+        },
+        {
+            "@id": "uncl7143:BD",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "A code identifying the product in national drug format 5-3-2.",
+            "rdfs:label": "National drug code 5-3-2 format",
+            "rdf:value": "BD"
+        },
+        {
+            "@id": "uncl7143:BE",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "A code identifying the product in national drug format 5-4-1.",
+            "rdfs:label": "National drug code 5-4-1 format",
+            "rdf:value": "BE"
+        },
+        {
+            "@id": "uncl7143:BF",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "A code identifying the product in national drug format 5-4-2.",
+            "rdfs:label": "National drug code 5-4-2 format",
+            "rdf:value": "BF"
+        },
+        {
+            "@id": "uncl7143:BG",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "A code specifying the national drug classification.",
+            "rdfs:label": "National drug code",
+            "rdf:value": "BG"
+        },
+        {
+            "@id": "uncl7143:BH",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "A number indicating the part.",
+            "rdfs:label": "Part number",
+            "rdf:value": "BH"
+        },
+        {
+            "@id": "uncl7143:BI",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "A local number assigned to an item of stock.",
+            "rdfs:label": "Local Stock Number (LSN)",
+            "rdf:value": "BI"
+        },
+        {
+            "@id": "uncl7143:BJ",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "A number specifying the next higher assembly or component into which the product is being incorporated.",
+            "rdfs:label": "Next higher assembly number",
+            "rdf:value": "BJ"
+        },
+        {
+            "@id": "uncl7143:BK",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "A code specifying a category of data.",
+            "rdfs:label": "Data category",
+            "rdf:value": "BK"
+        },
+        {
+            "@id": "uncl7143:BL",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "To specify the control number.",
+            "rdfs:label": "Control number",
+            "rdf:value": "BL"
+        },
+        {
+            "@id": "uncl7143:BM",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "A number to identify the special material code.",
+            "rdfs:label": "Special material identification code",
+            "rdf:value": "BM"
+        },
+        {
+            "@id": "uncl7143:BN",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "A number assigned locally for control purposes.",
+            "rdfs:label": "Locally assigned control number",
+            "rdf:value": "BN"
+        },
+        {
+            "@id": "uncl7143:BO",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "Colour assigned by buyer.",
+            "rdfs:label": "Buyer's colour",
+            "rdf:value": "BO"
+        },
+        {
+            "@id": "uncl7143:BP",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "Reference number assigned by the buyer to identify an article.",
+            "rdfs:label": "Buyer's part number",
+            "rdf:value": "BP"
+        },
+        {
+            "@id": "uncl7143:BQ",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "A code assigned to identify a variable measure item.",
+            "rdfs:label": "Variable measure product code",
+            "rdf:value": "BQ"
+        },
+        {
+            "@id": "uncl7143:BR",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "To specify as an item, the financial phase.",
+            "rdfs:label": "Financial phase",
+            "rdf:value": "BR"
+        },
+        {
+            "@id": "uncl7143:BS",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "To specify as an item, the contract breakdown.",
+            "rdfs:label": "Contract breakdown",
+            "rdf:value": "BS"
+        },
+        {
+            "@id": "uncl7143:BT",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "To specify as an item, the technical phase.",
+            "rdfs:label": "Technical phase",
+            "rdf:value": "BT"
+        },
+        {
+            "@id": "uncl7143:BU",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "Number identifying a dye lot.",
+            "rdfs:label": "Dye lot number",
+            "rdf:value": "BU"
+        },
+        {
+            "@id": "uncl7143:BV",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "A statement listing activities of one day.",
+            "rdfs:label": "Daily statement of activities",
+            "rdf:value": "BV"
+        },
+        {
+            "@id": "uncl7143:BW",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "Periodical statement listing activities within a bilaterally agreed time period.",
+            "rdfs:label": "Periodical statement of activities within a bilaterally agreed time period",
+            "rdf:value": "BW"
+        },
+        {
+            "@id": "uncl7143:BX",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "A statement listing activities of a calendar week.",
+            "rdfs:label": "Calendar week statement of activities",
+            "rdf:value": "BX"
+        },
+        {
+            "@id": "uncl7143:BY",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "A statement listing activities of a calendar month.",
+            "rdfs:label": "Calendar month statement of activities",
+            "rdf:value": "BY"
+        },
+        {
+            "@id": "uncl7143:BZ",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "Original equipment number allocated to spare parts by the manufacturer.",
+            "rdfs:label": "Original equipment number",
+            "rdf:value": "BZ"
+        },
+        {
+            "@id": "uncl7143:CC",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "The codes given to certain commodities by an industry.",
+            "rdfs:label": "Industry commodity code",
+            "rdf:value": "CC"
+        },
+        {
+            "@id": "uncl7143:CG",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "Code for a group of articles with common characteristics (e.g. used for statistical purposes).",
+            "rdfs:label": "Commodity grouping",
+            "rdf:value": "CG"
+        },
+        {
+            "@id": "uncl7143:CL",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "Code for the colour of an article.",
+            "rdfs:label": "Colour number",
+            "rdf:value": "CL"
+        },
+        {
+            "@id": "uncl7143:CR",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "Reference number identifying a contract.",
+            "rdfs:label": "Contract number",
+            "rdf:value": "CR"
+        },
+        {
+            "@id": "uncl7143:CV",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "Code defined by Customs authorities to an article or a group of articles for Customs purposes.",
+            "rdfs:label": "Customs article number",
+            "rdf:value": "CV"
+        },
+        {
+            "@id": "uncl7143:DR",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "Reference number indicating that a change or revision has been applied to a drawing.",
+            "rdfs:label": "Drawing revision number",
+            "rdf:value": "DR"
+        },
+        {
+            "@id": "uncl7143:DW",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "Reference number identifying a drawing of an article.",
+            "rdfs:label": "Drawing",
+            "rdf:value": "DW"
+        },
+        {
+            "@id": "uncl7143:EC",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "Reference number indicating that a change or revision has been applied to an article's specification.",
+            "rdfs:label": "Engineering change level",
+            "rdf:value": "EC"
+        },
+        {
+            "@id": "uncl7143:EF",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "Code defining the material's type, surface, geometric form plus various classifying characteristics.",
+            "rdfs:label": "Material code",
+            "rdf:value": "EF"
+        },
+        {
+            "@id": "uncl7143:EN",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "Number assigned to a manufacturer's product according to the International Article Numbering Association.",
+            "rdfs:label": "International Article Numbering Association (EAN)",
+            "rdf:value": "EN"
+        },
+        {
+            "@id": "uncl7143:FS",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "Identification of fish species.",
+            "rdfs:label": "Fish species",
+            "rdf:value": "FS"
+        },
+        {
+            "@id": "uncl7143:GB",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "Product group code used within a buyer's internal systems.",
+            "rdfs:label": "Buyer's internal product group code",
+            "rdf:value": "GB"
+        },
+        {
+            "@id": "uncl7143:GN",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "National product group code. Administered by a national agency.",
+            "rdfs:label": "National product group code",
+            "rdf:value": "GN"
+        },
+        {
+            "@id": "uncl7143:GS",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "The item number is a general specification number.",
+            "rdfs:label": "General specification number",
+            "rdf:value": "GS"
+        },
+        {
+            "@id": "uncl7143:HS",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "The item number is part of, or is generated in the context of the Harmonised Commodity Description and Coding System (Harmonised System), as developed and maintained by the World Customs Organization (WCO).",
+            "rdfs:label": "Harmonised system",
+            "rdf:value": "HS"
+        },
+        {
+            "@id": "uncl7143:IB",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "A unique number identifying a book.",
+            "rdfs:label": "ISBN (International Standard Book Number)",
+            "rdf:value": "IB"
+        },
+        {
+            "@id": "uncl7143:IN",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "The item number has been allocated by the buyer.",
+            "rdfs:label": "Buyer's item number",
+            "rdf:value": "IN"
+        },
+        {
+            "@id": "uncl7143:IS",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "A unique number identifying a serial publication.",
+            "rdfs:label": "ISSN (International Standard Serial Number)",
+            "rdf:value": "IS"
+        },
+        {
+            "@id": "uncl7143:IT",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "Number given by the buyer to a specific style or form of an article, especially used for garments.",
+            "rdfs:label": "Buyer's style number",
+            "rdf:value": "IT"
+        },
+        {
+            "@id": "uncl7143:IZ",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "Code given by the buyer to designate the size of an article in textile and shoe industry.",
+            "rdfs:label": "Buyer's size code",
+            "rdf:value": "IZ"
+        },
+        {
+            "@id": "uncl7143:MA",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "The item number is a machine number.",
+            "rdfs:label": "Machine number",
+            "rdf:value": "MA"
+        },
+        {
+            "@id": "uncl7143:MF",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "The number given to an article by its manufacturer.",
+            "rdfs:label": "Manufacturer's (producer's) article number",
+            "rdf:value": "MF"
+        },
+        {
+            "@id": "uncl7143:MN",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "Reference number assigned by the manufacturer to differentiate variations in similar products in a class or group.",
+            "rdfs:label": "Model number",
+            "rdf:value": "MN"
+        },
+        {
+            "@id": "uncl7143:MP",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "Reference number identifying a product or service.",
+            "rdfs:label": "Product/service identification number",
+            "rdf:value": "MP"
+        },
+        {
+            "@id": "uncl7143:NB",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "The item number is a batch number.",
+            "rdfs:label": "Batch number",
+            "rdf:value": "NB"
+        },
+        {
+            "@id": "uncl7143:ON",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "Reference number of a customer's order.",
+            "rdfs:label": "Customer order number",
+            "rdf:value": "ON"
+        },
+        {
+            "@id": "uncl7143:PD",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "Reference number identifying a description associated with a number ultimately used to identify an article.",
+            "rdfs:label": "Part number description",
+            "rdf:value": "PD"
+        },
+        {
+            "@id": "uncl7143:PL",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "Reference number identifying a line entry in a customer's order for goods or services.",
+            "rdfs:label": "Purchaser's order line number",
+            "rdf:value": "PL"
+        },
+        {
+            "@id": "uncl7143:PO",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "Reference number identifying a customer's order.",
+            "rdfs:label": "Purchase order number",
+            "rdf:value": "PO"
+        },
+        {
+            "@id": "uncl7143:PV",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "The item number is a promotional variant number.",
+            "rdfs:label": "Promotional variant number",
+            "rdf:value": "PV"
+        },
+        {
+            "@id": "uncl7143:QS",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "The item number qualifies the size of the buyer.",
+            "rdfs:label": "Buyer's qualifier for size",
+            "rdf:value": "QS"
+        },
+        {
+            "@id": "uncl7143:RC",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "Reference number identifying a returnable container.",
+            "rdfs:label": "Returnable container number",
+            "rdf:value": "RC"
+        },
+        {
+            "@id": "uncl7143:RN",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "Reference number identifying a release from a buyer's purchase order.",
+            "rdfs:label": "Release number",
+            "rdf:value": "RN"
+        },
+        {
+            "@id": "uncl7143:RU",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "The item number identifies the production or manufacturing run or sequence in which the item was manufactured, processed or assembled.",
+            "rdfs:label": "Run number",
+            "rdf:value": "RU"
+        },
+        {
+            "@id": "uncl7143:RY",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "The item number relates to the year in which the particular model was kept.",
+            "rdfs:label": "Record keeping of model year",
+            "rdf:value": "RY"
+        },
+        {
+            "@id": "uncl7143:SA",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "Number assigned to an article by the supplier of that article.",
+            "rdfs:label": "Supplier's article number",
+            "rdf:value": "SA"
+        },
+        {
+            "@id": "uncl7143:SG",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "The item number relates to a standard group of other items (mixed) which are grouped together as a single item for identification purposes.",
+            "rdfs:label": "Standard group of products (mixed assortment)",
+            "rdf:value": "SG"
+        },
+        {
+            "@id": "uncl7143:SK",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "Reference number of a stock keeping unit.",
+            "rdfs:label": "SKU (Stock keeping unit)",
+            "rdf:value": "SK"
+        },
+        {
+            "@id": "uncl7143:SN",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "Identification number of an item which distinguishes this specific item out of a number of identical items.",
+            "rdfs:label": "Serial number",
+            "rdf:value": "SN"
+        },
+        {
+            "@id": "uncl7143:SRS",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "Plumbing and heating.",
+            "rdfs:label": "RSK number",
+            "rdf:value": "SRS"
+        },
+        {
+            "@id": "uncl7143:SRT",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "5 digit code for product classification managed by the Institut Francais du Libre Service.",
+            "rdfs:label": "IFLS (Institut Francais du Libre Service) 5 digit product classification code",
+            "rdf:value": "SRT"
+        },
+        {
+            "@id": "uncl7143:SRU",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "9 digit code for product classification managed by the Institut Francais du Libre Service.",
+            "rdfs:label": "IFLS (Institut Francais du Libre Service) 9 digit product classification code",
+            "rdf:value": "SRU"
+        },
+        {
+            "@id": "uncl7143:SRV",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "A unique number, up to 14-digits, assigned according to the numbering structure of the GS1 system.",
+            "rdfs:label": "GS1 Global Trade Item Number",
+            "rdf:value": "SRV"
+        },
+        {
+            "@id": "uncl7143:SRW",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "European system for identification of meter data.",
+            "rdfs:label": "EDIS (Energy Data Identification System)",
+            "rdf:value": "SRW"
+        },
+        {
+            "@id": "uncl7143:SRX",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "Unique number given by a slaughterhouse to an animal or a group of animals of the same breed.",
+            "rdfs:label": "Slaughter number",
+            "rdf:value": "SRX"
+        },
+        {
+            "@id": "uncl7143:SRY",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "Unique number given by a national authority to identify an animal individually.",
+            "rdfs:label": "Official animal number",
+            "rdf:value": "SRY"
+        },
+        {
+            "@id": "uncl7143:SRZ",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "The international Harmonized Tariff Schedule (HTS) to classify the article for customs, statistical and other purposes.",
+            "rdfs:label": "Harmonized tariff schedule",
+            "rdf:value": "SRZ"
+        },
+        {
+            "@id": "uncl7143:SS",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "Article number referring to a sales catalogue of supplier's supplier.",
+            "rdfs:label": "Supplier's supplier article number",
+            "rdf:value": "SS"
+        },
+        {
+            "@id": "uncl7143:SSA",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "A US Department of Transportation (DOT) code to identify hazardous (dangerous) goods, managed by the Customs and Border Protection (CBP) agency.",
+            "rdfs:label": "46 Level DOT Code",
+            "rdf:value": "SSA"
+        },
+        {
+            "@id": "uncl7143:SSB",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "A US code agreed to by the airline industry to identify hazardous (dangerous) goods, managed by the Customs and Border Protection (CBP) agency.",
+            "rdfs:label": "Airline Tariff 6D",
+            "rdf:value": "SSB"
+        },
+        {
+            "@id": "uncl7143:SSC",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "A US Customs and Border Protection (CBP) code used to identify hazardous (dangerous) goods.",
+            "rdfs:label": "Title 49 Code of Federal Regulations",
+            "rdf:value": "SSC"
+        },
+        {
+            "@id": "uncl7143:SSD",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "A US Department of Transportation/Federal Aviation Administration code used to identify hazardous (dangerous) goods, managed by the Customs and Border Protection (CBP) agency.",
+            "rdfs:label": "International Civil Aviation Administration code",
+            "rdf:value": "SSD"
+        },
+        {
+            "@id": "uncl7143:SSE",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "A US Department of Transportation (DOT) code used to identify hazardous (dangerous) goods, managed by the Customs and Border Protection (CBP) agency.",
+            "rdfs:label": "Hazardous Materials ID DOT",
+            "rdf:value": "SSE"
+        },
+        {
+            "@id": "uncl7143:SSF",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "A US Customs and Border Protection (CBP) code used to identify hazardous (dangerous) goods.",
+            "rdfs:label": "Endorsement",
+            "rdf:value": "SSF"
+        },
+        {
+            "@id": "uncl7143:SSG",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "A department of Defense/Air Force code used to identify hazardous (dangerous) goods, managed by the Customs and Border Protection (CBP) agency.",
+            "rdfs:label": "Air Force Regulation 71-4",
+            "rdf:value": "SSG"
+        },
+        {
+            "@id": "uncl7143:SSH",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "The breed of the item (e.g. plant or animal).",
+            "rdfs:label": "Breed",
+            "rdf:value": "SSH"
+        },
+        {
+            "@id": "uncl7143:SSI",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "A unique numerical identifier for for chemical compounds, polymers, biological sequences, mixtures and alloys.",
+            "rdfs:label": "Chemical Abstract Service (CAS) registry number",
+            "rdf:value": "SSI"
+        },
+        {
+            "@id": "uncl7143:SSJ",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "A name or designation to identify an engine model.",
+            "rdfs:label": "Engine model designation",
+            "rdf:value": "SSJ"
+        },
+        {
+            "@id": "uncl7143:SSK",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "A number assigned by agricultural authorities to identify and track meat and meat products.",
+            "rdfs:label": "Institutional Meat Purchase Specifications (IMPS) Number",
+            "rdf:value": "SSK"
+        },
+        {
+            "@id": "uncl7143:SSL",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "Identification number affixed to produce in stores to retrieve price information.",
+            "rdfs:label": "Price Look-Up code (PLU)",
+            "rdf:value": "SSL"
+        },
+        {
+            "@id": "uncl7143:SSM",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "An International Maritime Organization (IMO) code used to identify hazardous (dangerous) goods.",
+            "rdfs:label": "International Maritime Organization (IMO) Code",
+            "rdf:value": "SSM"
+        },
+        {
+            "@id": "uncl7143:SSN",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "A Department of Transportation/Federal Railroad Administration code used to identify hazardous (dangerous) goods.",
+            "rdfs:label": "Bureau of Explosives 600-A (rail)",
+            "rdf:value": "SSN"
+        },
+        {
+            "@id": "uncl7143:SSO",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "A UN code used to classify and identify dangerous goods.",
+            "rdfs:label": "United Nations Dangerous Goods List",
+            "rdf:value": "SSO"
+        },
+        {
+            "@id": "uncl7143:SSP",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "A code established by the International Code of Botanical Nomenclature (ICBN) used to classify and identify botanical articles and commodities.",
+            "rdfs:label": "International Code of Botanical Nomenclature (ICBN)",
+            "rdf:value": "SSP"
+        },
+        {
+            "@id": "uncl7143:SSQ",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "A code established by the International Code of Zoological Nomenclature (ICZN) used to classify and identify animals.",
+            "rdfs:label": "International Code of Zoological Nomenclature (ICZN)",
+            "rdf:value": "SSQ"
+        },
+        {
+            "@id": "uncl7143:SSR",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "A code established by the International Code of Nomenclature for Cultivated Plants (ICNCP) used to classify and identify animals.",
+            "rdfs:label": "International Code of Nomenclature for Cultivated Plants (ICNCP)",
+            "rdf:value": "SSR"
+        },
+        {
+            "@id": "uncl7143:SSS",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "Identifier assigned to an article by the distributor of that article.",
+            "rdfs:label": "Distributors article identifier",
+            "rdf:value": "SSS"
+        },
+        {
+            "@id": "uncl7143:SST",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "Product classification system used in the Norwegian market.",
+            "rdfs:label": "Norwegian Classification system ENVA",
+            "rdf:value": "SST"
+        },
+        {
+            "@id": "uncl7143:SSU",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "Product classification assigned by the supplier.",
+            "rdfs:label": "Supplier assigned classification",
+            "rdf:value": "SSU"
+        },
+        {
+            "@id": "uncl7143:SSV",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "Product classification system used in the Mexican market.",
+            "rdfs:label": "Mexican classification system AMECE",
+            "rdf:value": "SSV"
+        },
+        {
+            "@id": "uncl7143:SSW",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "Product classification system used in the German market.",
+            "rdfs:label": "German classification system CCG",
+            "rdf:value": "SSW"
+        },
+        {
+            "@id": "uncl7143:SSX",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "Product classification system used in the Finnish market.",
+            "rdfs:label": "Finnish classification system EANFIN",
+            "rdf:value": "SSX"
+        },
+        {
+            "@id": "uncl7143:SSY",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "Product classification system used in the Canadian market.",
+            "rdfs:label": "Canadian classification system ICC",
+            "rdf:value": "SSY"
+        },
+        {
+            "@id": "uncl7143:SSZ",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "Product classification system used in the French market.",
+            "rdfs:label": "French classification system IFLS5",
+            "rdf:value": "SSZ"
+        },
+        {
+            "@id": "uncl7143:ST",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "Number given to a specific style or form of an article, especially used for garments.",
+            "rdfs:label": "Style number",
+            "rdf:value": "ST"
+        },
+        {
+            "@id": "uncl7143:STA",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "Product classification system used in the Dutch market.",
+            "rdfs:label": "Dutch classification system CBL",
+            "rdf:value": "STA"
+        },
+        {
+            "@id": "uncl7143:STB",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "Product classification system used in the Japanese market.",
+            "rdfs:label": "Japanese classification system JICFS",
+            "rdf:value": "STB"
+        },
+        {
+            "@id": "uncl7143:STC",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "Category of product eligible for EU subsidy (applies for certain dairy products with specific level of fat content).",
+            "rdfs:label": "European Union dairy subsidy eligibility classification",
+            "rdf:value": "STC"
+        },
+        {
+            "@id": "uncl7143:STD",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "Product classification system used in the Spanish market.",
+            "rdfs:label": "GS1 Spain classification system",
+            "rdf:value": "STD"
+        },
+        {
+            "@id": "uncl7143:STE",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "Product classification system used in the Polish market.",
+            "rdfs:label": "GS1 Poland classification system",
+            "rdf:value": "STE"
+        },
+        {
+            "@id": "uncl7143:STF",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "A Russian government agency that serves as a national standardization body of the Russian Federation.",
+            "rdfs:label": "Federal Agency on Technical Regulating and Metrology of the Russian Federation",
+            "rdf:value": "STF"
+        },
+        {
+            "@id": "uncl7143:STG",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "Product classification system used in the Austrian market.",
+            "rdfs:label": "Efficient Consumer Response (ECR) Austria classification system",
+            "rdf:value": "STG"
+        },
+        {
+            "@id": "uncl7143:STH",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "Product classification system used in the Italian market.",
+            "rdfs:label": "GS1 Italy classification system",
+            "rdf:value": "STH"
+        },
+        {
+            "@id": "uncl7143:STI",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "Official classification system for public procurement in the European Union.",
+            "rdfs:label": "CPV (Common Procurement Vocabulary)",
+            "rdf:value": "STI"
+        },
+        {
+            "@id": "uncl7143:STJ",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "International Foodservice Distributors Association (IFDA).",
+            "rdfs:label": "IFDA (International Foodservice Distributors Association)",
+            "rdf:value": "STJ"
+        },
+        {
+            "@id": "uncl7143:STK",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "Pharmacologic - therapeutic classification maintained by the American Hospital Formulary Service (AHFS).",
+            "rdfs:label": "AHFS (American Hospital Formulary Service) pharmacologic - therapeutic classification",
+            "rdf:value": "STK"
+        },
+        {
+            "@id": "uncl7143:STL",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "Anatomical Therapeutic Chemical classification system maintained by the World Health Organisation (WHO).",
+            "rdfs:label": "ATC (Anatomical Therapeutic Chemical) classification system",
+            "rdf:value": "STL"
+        },
+        {
+            "@id": "uncl7143:STM",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "A five level classification system for medical decvices maintained by the CLADIMED organisation used in the French market.",
+            "rdfs:label": "CLADIMED (Classification des Dispositifs Mdicaux)",
+            "rdf:value": "STM"
+        },
+        {
+            "@id": "uncl7143:STN",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "Classification system related to the Canadian Medical Device Regulations maintained by Health Canada.",
+            "rdfs:label": "CMDR (Canadian Medical Device Regulations) classification system",
+            "rdf:value": "STN"
+        },
+        {
+            "@id": "uncl7143:STO",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "A classification system for medical devices used in the Italian market.",
+            "rdfs:label": "CNDM (Classificazione Nazionale dei Dispositivi Medici)",
+            "rdf:value": "STO"
+        },
+        {
+            "@id": "uncl7143:STP",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "A classification system for medicines and devices used in the UK market.",
+            "rdfs:label": "UK DM&D (Dictionary of Medicines & Devices) standard coding scheme",
+            "rdf:value": "STP"
+        },
+        {
+            "@id": "uncl7143:STQ",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "Standardized material and service classification and dictionary maintained by eClass e.V.",
+            "rdfs:label": "eCl@ss",
+            "rdf:value": "STQ"
+        },
+        {
+            "@id": "uncl7143:STR",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "Classification for in vitro diagnostics medical devices maintained by the European Diagnostic Manufacturers Association.",
+            "rdfs:label": "EDMA (European Diagnostic Manufacturers Association) Products Classification",
+            "rdf:value": "STR"
+        },
+        {
+            "@id": "uncl7143:STS",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "A classification system for medical devices.",
+            "rdfs:label": "EGAR (European Generic Article Register)",
+            "rdf:value": "STS"
+        },
+        {
+            "@id": "uncl7143:STT",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "Nomenclature system for identification of medical devices officially apprroved by the European Union.",
+            "rdfs:label": "GMDN (Global Medical Devices Nomenclature)",
+            "rdf:value": "STT"
+        },
+        {
+            "@id": "uncl7143:STU",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "A drug classification system managed by Medi-Span.",
+            "rdfs:label": "GPI (Generic Product Identifier)",
+            "rdf:value": "STU"
+        },
+        {
+            "@id": "uncl7143:STV",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "A classification system used with US healthcare insurance programs.",
+            "rdfs:label": "HCPCS (Healthcare Common Procedure Coding System)",
+            "rdf:value": "STV"
+        },
+        {
+            "@id": "uncl7143:STW",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "A patient safety taxonomy maintained by the World Health Organisation.",
+            "rdfs:label": "ICPS (International Classification for Patient Safety)",
+            "rdf:value": "STW"
+        },
+        {
+            "@id": "uncl7143:STX",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "A medical dictionary maintained by the International Federation of Pharmaceutical Manufacturers and Associations (IFPMA).",
+            "rdfs:label": "MedDRA (Medical Dictionary for Regulatory Activities)",
+            "rdf:value": "STX"
+        },
+        {
+            "@id": "uncl7143:STY",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "Medical product classification system used in the German market.",
+            "rdfs:label": "Medical Columbus",
+            "rdf:value": "STY"
+        },
+        {
+            "@id": "uncl7143:STZ",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "Product classification system used in the North American market.",
+            "rdfs:label": "NAPCS (North American Product Classification System)",
+            "rdf:value": "STZ"
+        },
+        {
+            "@id": "uncl7143:SUA",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "Product and Service classification system used in United Kingdom market.",
+            "rdfs:label": "NHS (National Health Services) eClass",
+            "rdf:value": "SUA"
+        },
+        {
+            "@id": "uncl7143:SUB",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "US FDA Product Code Classification Database contains medical device names and associated information developed by the Center for Devices and Radiological Health (CDRH).",
+            "rdfs:label": "US FDA (Food and Drug Administration) Product Code Classification Database",
+            "rdf:value": "SUB"
+        },
+        {
+            "@id": "uncl7143:SUC",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "A medical nomenclature system developed between the NHS and the College of American Pathologists.",
+            "rdfs:label": "SNOMED CT (Systematized Nomenclature of Medicine-Clinical Terms)",
+            "rdf:value": "SUC"
+        },
+        {
+            "@id": "uncl7143:SUD",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "A standard international nomenclature and computer coding system for medical devices maintained by the Emergency Care Research Institute (ECRI).",
+            "rdfs:label": "UMDNS (Universal Medical Device Nomenclature System)",
+            "rdf:value": "SUD"
+        },
+        {
+            "@id": "uncl7143:SUE",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "A unique, 13-digit number assigned according to the numbering structure of the GS1 system and used to identify a type of Reusable Transport Item (RTI).",
+            "rdfs:label": "GS1 Global Returnable Asset Identifier, non-serialised",
+            "rdf:value": "SUE"
+        },
+        {
+            "@id": "uncl7143:SUF",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "The International Mobile Station Equipment Identity (IMEI) is a unique number to identify mobile phones. It includes the origin, model and serial number of the device. The structure is specified in 3GPP TS 23.003.",
+            "rdfs:label": "IMEI",
+            "rdf:value": "SUF"
+        },
+        {
+            "@id": "uncl7143:SUG",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "Classification of waste as defined by the European Maritime Safety Agency (EMSA).",
+            "rdfs:label": "Waste Type (EMSA)",
+            "rdf:value": "SUG"
+        },
+        {
+            "@id": "uncl7143:SUH",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "Classification of ships stores.",
+            "rdfs:label": "Ship's store classification type",
+            "rdf:value": "SUH"
+        },
+        {
+            "@id": "uncl7143:SUI",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "Classification for emergency response procedures related to fire.",
+            "rdfs:label": "Emergency fire code",
+            "rdf:value": "SUI"
+        },
+        {
+            "@id": "uncl7143:SUJ",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "Classification for emergency response procedures related to spillage.",
+            "rdfs:label": "Emergency spillage code",
+            "rdf:value": "SUJ"
+        },
+        {
+            "@id": "uncl7143:SUK",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "Packing group as defined in the International Marititme Dangerous Goods (IMDG) specification.",
+            "rdfs:label": "IMDG packing group",
+            "rdf:value": "SUK"
+        },
+        {
+            "@id": "uncl7143:SUL",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "International Bulk Chemical (IBC) code defined by the International Convention for the Prevention of Pollution from Ships (MARPOL).",
+            "rdfs:label": "MARPOL Code IBC",
+            "rdf:value": "SUL"
+        },
+        {
+            "@id": "uncl7143:SUM",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "Subsidiary risk class as defined in the International Maritime Dangerous Goods (IMDG) specification.",
+            "rdfs:label": "IMDG subsidiary risk class",
+            "rdf:value": "SUM"
+        },
+        {
+            "@id": "uncl7143:TG",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "(8012) Additional number to form article groups for packing and/or transportation purposes.",
+            "rdfs:label": "Transport group number",
+            "rdf:value": "TG"
+        },
+        {
+            "@id": "uncl7143:TSN",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "A unique number assigned to a taxonomic entity, commonly to a species of plants or animals, providing information on their hierarchical classification, scientific name, taxonomic rank, associated synonyms and vernacular names where appropriate, data source information and data quality indicators.",
+            "rdfs:label": "Taxonomic Serial Number",
+            "rdf:value": "TSN"
+        },
+        {
+            "@id": "uncl7143:TSO",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "Main hazard class as defined in the International Maritime Dangerous Goods (IMDG) specification.",
+            "rdfs:label": "IMDG main hazard class",
+            "rdf:value": "TSO"
+        },
+        {
+            "@id": "uncl7143:TSP",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "The number is part of, or is generated in the context of the Combined Nomenclature classification, as developed and maintained by the European Union (EU).",
+            "rdfs:label": "EU Combined Nomenclature",
+            "rdf:value": "TSP"
+        },
+        {
+            "@id": "uncl7143:TSQ",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "A code to specify a product's therapeutic classification.",
+            "rdfs:label": "Therapeutic classification number",
+            "rdf:value": "TSQ"
+        },
+        {
+            "@id": "uncl7143:TSR",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "Waste type number according to the European Waste Catalogue (EWC).",
+            "rdfs:label": "European Waste Catalogue",
+            "rdf:value": "TSR"
+        },
+        {
+            "@id": "uncl7143:TSS",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "Number assigned to identify a grouping of products based on price.",
+            "rdfs:label": "Price grouping code",
+            "rdf:value": "TSS"
+        },
+        {
+            "@id": "uncl7143:TST",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "The UNSPSC commodity classification system.",
+            "rdfs:label": "UNSPSC",
+            "rdf:value": "TST"
+        },
+        {
+            "@id": "uncl7143:TSU",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "European Union Directive on the restriction of hazardous substances.",
+            "rdfs:label": "EU RoHS Directive",
+            "rdf:value": "TSU"
+        },
+        {
+            "@id": "uncl7143:UA",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "Number assigned by ultimate customer to identify relevant article.",
+            "rdfs:label": "Ultimate customer's article number",
+            "rdf:value": "UA"
+        },
+        {
+            "@id": "uncl7143:UP",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "Number assigned to a manufacturer's product by the Product Code Council.",
+            "rdfs:label": "UPC (Universal product code)",
+            "rdf:value": "UP"
+        },
+        {
+            "@id": "uncl7143:VN",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "Reference number assigned by a vendor/seller identifying a product/service/article.",
+            "rdfs:label": "Vendor item number",
+            "rdf:value": "VN"
+        },
+        {
+            "@id": "uncl7143:VP",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "Reference number assigned by a vendor/seller identifying an article.",
+            "rdfs:label": "Vendor's (seller's) part number",
+            "rdf:value": "VP"
+        },
+        {
+            "@id": "uncl7143:VS",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "The item number is a specified by the vendor as a supplemental number for the vendor's purposes.",
+            "rdfs:label": "Vendor's supplemental item number",
+            "rdf:value": "VS"
+        },
+        {
+            "@id": "uncl7143:VX",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "The item number has been allocated by the vendor as a specification number.",
+            "rdfs:label": "Vendor specification number",
+            "rdf:value": "VX"
+        },
+        {
+            "@id": "uncl7143:ZZZ",
+            "@type": "unece:UNCL7143Code",
+            "rdfs:comment": "Item type identification mutually agreed between interchanging parties.",
+            "rdfs:label": "Mutually defined",
+            "rdf:value": "ZZZ"
+        }
+    ]
+}

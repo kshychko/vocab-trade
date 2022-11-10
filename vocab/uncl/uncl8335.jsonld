@@ -1,0 +1,242 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl8335": "https://dmvc7xzscpizo.cloudfront.net/uncl8335#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl8335:1",
+            "@type": "unece:UNCL8335Code",
+            "rdfs:comment": "Defines the movement of general cargo not carried in ISO standard containers.",
+            "rdfs:label": "Breakbulk",
+            "rdf:value": "1"
+        },
+        {
+            "@id": "uncl8335:2",
+            "@type": "unece:UNCL8335Code",
+            "rdfs:comment": "Defines the movement of cargo packed in and unpacked from containers by the carrier on behalf of the shipper/consignee. 'LCL' means Less than Container Load.",
+            "rdfs:label": "LCL/LCL",
+            "rdf:value": "2"
+        },
+        {
+            "@id": "uncl8335:3",
+            "@type": "unece:UNCL8335Code",
+            "rdfs:comment": "Defines the movement of cargo packed by the shipper or shipper's agent and unpacked by the consignee or consignee's agent. 'FCL' means Full Container Load.",
+            "rdfs:label": "FCL/FCL",
+            "rdf:value": "3"
+        },
+        {
+            "@id": "uncl8335:4",
+            "@type": "unece:UNCL8335Code",
+            "rdfs:comment": "Defines the movement of cargo packed by the shipper or shipper's agent and unpacked by the carrier. 'FCL' means Full Container Load. 'LCL' means Less than Container Load.",
+            "rdfs:label": "FCL/LCL",
+            "rdf:value": "4"
+        },
+        {
+            "@id": "uncl8335:5",
+            "@type": "unece:UNCL8335Code",
+            "rdfs:comment": "Defines the movement of cargo packed by the carrier and unpacked by the consignee or consignee's agent. 'LCL' means Less than Container Load. 'FCL' means Full Load.",
+            "rdfs:label": "LCL/FCL",
+            "rdf:value": "5"
+        },
+        {
+            "@id": "uncl8335:6",
+            "@type": "unece:UNCL8335Code",
+            "rdfs:comment": "A movement of multiple shipments to a single destination.",
+            "rdfs:label": "Consolidation",
+            "rdf:value": "6"
+        },
+        {
+            "@id": "uncl8335:7",
+            "@type": "unece:UNCL8335Code",
+            "rdfs:comment": "A movement of material by parcel post.",
+            "rdfs:label": "Parcel post",
+            "rdf:value": "7"
+        },
+        {
+            "@id": "uncl8335:8",
+            "@type": "unece:UNCL8335Code",
+            "rdfs:comment": "A movement of material by expedited truck.",
+            "rdfs:label": "Expedited truck",
+            "rdf:value": "8"
+        },
+        {
+            "@id": "uncl8335:9",
+            "@type": "unece:UNCL8335Code",
+            "rdfs:comment": "A movement of material by the means determined by the consignor.",
+            "rdfs:label": "Consignor determined means",
+            "rdf:value": "9"
+        },
+        {
+            "@id": "uncl8335:10",
+            "@type": "unece:UNCL8335Code",
+            "rdfs:comment": "A movement of material by a private parcel service.",
+            "rdfs:label": "Private parcel service",
+            "rdf:value": "10"
+        },
+        {
+            "@id": "uncl8335:11",
+            "@type": "unece:UNCL8335Code",
+            "rdfs:comment": "Cargo packed in a unit by the shipper at point of origin and unpacked by consignee at final destination.",
+            "rdfs:label": "House to house",
+            "rdf:value": "11"
+        },
+        {
+            "@id": "uncl8335:12",
+            "@type": "unece:UNCL8335Code",
+            "rdfs:comment": "Cargo packed in a unit by the shipper at point of origin and unpacked at the carrier's inland facility between the ship's point of discharge and the final destination.",
+            "rdfs:label": "House to terminal",
+            "rdf:value": "12"
+        },
+        {
+            "@id": "uncl8335:13",
+            "@type": "unece:UNCL8335Code",
+            "rdfs:comment": "Cargo packed in a unit by the shipper at point of origin and unpacked by carrier at ship's point of discharge (pier).",
+            "rdfs:label": "House to pier",
+            "rdf:value": "13"
+        },
+        {
+            "@id": "uncl8335:14",
+            "@type": "unece:UNCL8335Code",
+            "rdfs:comment": "A movement of material by chartered aircraft.",
+            "rdfs:label": "Air charter",
+            "rdf:value": "14"
+        },
+        {
+            "@id": "uncl8335:15",
+            "@type": "unece:UNCL8335Code",
+            "rdfs:comment": "A movement of material by air express service.",
+            "rdfs:label": "Air express",
+            "rdf:value": "15"
+        },
+        {
+            "@id": "uncl8335:16",
+            "@type": "unece:UNCL8335Code",
+            "rdfs:comment": "A movement of material from multiple origins to a single destination utilizing a single carrier and a single freight bill.",
+            "rdfs:label": "Geographic grouped transport",
+            "rdf:value": "16"
+        },
+        {
+            "@id": "uncl8335:17",
+            "@type": "unece:UNCL8335Code",
+            "rdfs:comment": "A movement of material on a truck that is not full.",
+            "rdfs:label": "Less than truck load",
+            "rdf:value": "17"
+        },
+        {
+            "@id": "uncl8335:18",
+            "@type": "unece:UNCL8335Code",
+            "rdfs:comment": "A movement of material by a trailer on a railcar.",
+            "rdfs:label": "Pooled piggyback",
+            "rdf:value": "18"
+        },
+        {
+            "@id": "uncl8335:19",
+            "@type": "unece:UNCL8335Code",
+            "rdfs:comment": "A movement of material transported by the consignee.",
+            "rdfs:label": "Consignee transportation provided",
+            "rdf:value": "19"
+        },
+        {
+            "@id": "uncl8335:20",
+            "@type": "unece:UNCL8335Code",
+            "rdfs:comment": "A movement of material to the consignee via rail.",
+            "rdfs:label": "Rail",
+            "rdf:value": "20"
+        },
+        {
+            "@id": "uncl8335:21",
+            "@type": "unece:UNCL8335Code",
+            "rdfs:comment": "Cargo packed in a unit at a carrier's inland facility between point of origin and the ship's point of loading and unpacked by consignee at the final destination.",
+            "rdfs:label": "Terminal to house",
+            "rdf:value": "21"
+        },
+        {
+            "@id": "uncl8335:22",
+            "@type": "unece:UNCL8335Code",
+            "rdfs:comment": "Cargo packed in a unit at a carrier's inland facility between point of origin and the ship's point of loading and unpacked at a carrier's inland facility between ship's point of discharge and final destination.",
+            "rdfs:label": "Terminal to terminal",
+            "rdf:value": "22"
+        },
+        {
+            "@id": "uncl8335:23",
+            "@type": "unece:UNCL8335Code",
+            "rdfs:comment": "Cargo packed in a unit at a carrier's inland facility between point of origin and ship's point of loading and unpacked by carrier at ship's point of discharge (pier).",
+            "rdfs:label": "Terminal to pier",
+            "rdf:value": "23"
+        },
+        {
+            "@id": "uncl8335:31",
+            "@type": "unece:UNCL8335Code",
+            "rdfs:comment": "Cargo packed in a unit at ship's point of loading and unpacked by consignee at final destination.",
+            "rdfs:label": "Pier to house",
+            "rdf:value": "31"
+        },
+        {
+            "@id": "uncl8335:32",
+            "@type": "unece:UNCL8335Code",
+            "rdfs:comment": "Cargo packed in a unit at ship's point of loading and unpacked at a carrier's inland facility between ship's point of discharge and final destination.",
+            "rdfs:label": "Pier to terminal",
+            "rdf:value": "32"
+        },
+        {
+            "@id": "uncl8335:33",
+            "@type": "unece:UNCL8335Code",
+            "rdfs:comment": "Cargo packed in a unit at ship's point of loading and unpacked by carrier at ship's point of discharge (pier).",
+            "rdfs:label": "Pier to pier",
+            "rdf:value": "33"
+        },
+        {
+            "@id": "uncl8335:41",
+            "@type": "unece:UNCL8335Code",
+            "rdfs:comment": "The consignment is moving from one container freight station to another container freight station.",
+            "rdfs:label": "Station to station",
+            "rdf:value": "41"
+        },
+        {
+            "@id": "uncl8335:42",
+            "@type": "unece:UNCL8335Code",
+            "rdfs:comment": "The consignment is moving from the premises of the shipper to a warehouse.",
+            "rdfs:label": "House to warehouse",
+            "rdf:value": "42"
+        },
+        {
+            "@id": "uncl8335:43",
+            "@type": "unece:UNCL8335Code",
+            "rdfs:comment": "The consignment is moving from a warehouse to the premises of the consignee.",
+            "rdfs:label": "Warehouse to house",
+            "rdf:value": "43"
+        },
+        {
+            "@id": "uncl8335:44",
+            "@type": "unece:UNCL8335Code",
+            "rdfs:comment": "The cargo is moving from a container freight station to the premises of the consignee.",
+            "rdfs:label": "Station to house",
+            "rdf:value": "44"
+        },
+        {
+            "@id": "uncl8335:45",
+            "@type": "unece:UNCL8335Code",
+            "rdfs:comment": "A movement of material from multiple origins to multiple destinations using a single carrier and a single freight bill.",
+            "rdfs:label": "Geographic grouped transport, multiple origins, multiple destinations",
+            "rdf:value": "45"
+        },
+        {
+            "@id": "uncl8335:46",
+            "@type": "unece:UNCL8335Code",
+            "rdfs:comment": "A movement of material from multiple origins to a single destination utilizing a single carrier and a single freight bill.",
+            "rdfs:label": "Geographic grouped transport, multiple origins, single destination",
+            "rdf:value": "46"
+        },
+        {
+            "@id": "uncl8335:47",
+            "@type": "unece:UNCL8335Code",
+            "rdfs:comment": "A collection of shipments that involve a single origin, multiple destinations, and a single trailer, and are paid under a single freight bill.",
+            "rdfs:label": "Geographic receiving",
+            "rdf:value": "47"
+        }
+    ]
+}

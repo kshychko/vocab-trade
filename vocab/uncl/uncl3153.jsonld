@@ -1,0 +1,186 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl3153": "https://dmvc7xzscpizo.cloudfront.net/uncl3153#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl3153:AA",
+            "@type": "unece:UNCL3153Code",
+            "rdfs:comment": "A process that, on demand, connects two or more data terminal equipments and permits the exclusive use of a data circuit between them until the connection is released (ISO).",
+            "rdfs:label": "Circuit switching",
+            "rdf:value": "AA"
+        },
+        {
+            "@id": "uncl3153:AB",
+            "@type": "unece:UNCL3153Code",
+            "rdfs:comment": "Communications number assigned by Societe Internationale de Telecommunications Aeronautiques (SITA).",
+            "rdfs:label": "SITA",
+            "rdf:value": "AB"
+        },
+        {
+            "@id": "uncl3153:AC",
+            "@type": "unece:UNCL3153Code",
+            "rdfs:comment": "Communications number assigned by Aeronautical Radio Inc.",
+            "rdfs:label": "ARINC",
+            "rdf:value": "AC"
+        },
+        {
+            "@id": "uncl3153:AD",
+            "@type": "unece:UNCL3153Code",
+            "rdfs:comment": "A communication channel identifying a courier.",
+            "rdfs:label": "Courier",
+            "rdf:value": "AD"
+        },
+        {
+            "@id": "uncl3153:AE",
+            "@type": "unece:UNCL3153Code",
+            "rdfs:comment": "Express (e.g. overnight) postal service document delivery.",
+            "rdfs:label": "Express post",
+            "rdf:value": "AE"
+        },
+        {
+            "@id": "uncl3153:CA",
+            "@type": "unece:UNCL3153Code",
+            "rdfs:comment": "The cable is used as communication medium.",
+            "rdfs:label": "Cable address",
+            "rdf:value": "CA"
+        },
+        {
+            "@id": "uncl3153:EI",
+            "@type": "unece:UNCL3153Code",
+            "rdfs:comment": "Number identifying the service and service user.",
+            "rdfs:label": "EDI transmission",
+            "rdf:value": "EI"
+        },
+        {
+            "@id": "uncl3153:EM",
+            "@type": "unece:UNCL3153Code",
+            "rdfs:comment": "Exchange of mail by electronic means.",
+            "rdfs:label": "Electronic mail",
+            "rdf:value": "EM"
+        },
+        {
+            "@id": "uncl3153:EX",
+            "@type": "unece:UNCL3153Code",
+            "rdfs:comment": "Telephone extension.",
+            "rdfs:label": "Extension",
+            "rdf:value": "EX"
+        },
+        {
+            "@id": "uncl3153:FT",
+            "@type": "unece:UNCL3153Code",
+            "rdfs:comment": "According to ISO.",
+            "rdfs:label": "File transfer access method",
+            "rdf:value": "FT"
+        },
+        {
+            "@id": "uncl3153:FX",
+            "@type": "unece:UNCL3153Code",
+            "rdfs:comment": "Device used for transmitting and reproducing fixed graphic material (as printing) by means of signals over telephone lines or other electronic transmission media.",
+            "rdfs:label": "Telefax",
+            "rdf:value": "FX"
+        },
+        {
+            "@id": "uncl3153:GM",
+            "@type": "unece:UNCL3153Code",
+            "rdfs:comment": "GEIS mailbox system is used as communication medium.",
+            "rdfs:label": "GEIS (General Electric Information Service) mailbox",
+            "rdf:value": "GM"
+        },
+        {
+            "@id": "uncl3153:IE",
+            "@type": "unece:UNCL3153Code",
+            "rdfs:comment": "IBM IE is used as communication medium.",
+            "rdfs:label": "IBM information exchange",
+            "rdf:value": "IE"
+        },
+        {
+            "@id": "uncl3153:IM",
+            "@type": "unece:UNCL3153Code",
+            "rdfs:comment": "Internal mail address/number.",
+            "rdfs:label": "Internal mail",
+            "rdf:value": "IM"
+        },
+        {
+            "@id": "uncl3153:MA",
+            "@type": "unece:UNCL3153Code",
+            "rdfs:comment": "Postal service document delivery.",
+            "rdfs:label": "Mail",
+            "rdf:value": "MA"
+        },
+        {
+            "@id": "uncl3153:PB",
+            "@type": "unece:UNCL3153Code",
+            "rdfs:comment": "Postbox system is used as communication medium.",
+            "rdfs:label": "Postbox no.",
+            "rdf:value": "PB"
+        },
+        {
+            "@id": "uncl3153:PS",
+            "@type": "unece:UNCL3153Code",
+            "rdfs:comment": "The process of routing and transferring data by means of addressed packets so that a channel is occupied only during the transmission; upon completion of the transmission the channel is made available for the transfer of other packets (ISO).",
+            "rdfs:label": "Packet switching",
+            "rdf:value": "PS"
+        },
+        {
+            "@id": "uncl3153:SW",
+            "@type": "unece:UNCL3153Code",
+            "rdfs:comment": "Communications address assigned by Society for Worldwide Interbank Financial Telecommunications s.c.",
+            "rdfs:label": "S.W.I.F.T.",
+            "rdf:value": "SW"
+        },
+        {
+            "@id": "uncl3153:TE",
+            "@type": "unece:UNCL3153Code",
+            "rdfs:comment": "Voice/data transmission by telephone.",
+            "rdfs:label": "Telephone",
+            "rdf:value": "TE"
+        },
+        {
+            "@id": "uncl3153:TG",
+            "@type": "unece:UNCL3153Code",
+            "rdfs:comment": "Text transmission via telegraph.",
+            "rdfs:label": "Telegraph",
+            "rdf:value": "TG"
+        },
+        {
+            "@id": "uncl3153:TL",
+            "@type": "unece:UNCL3153Code",
+            "rdfs:comment": "Transmission of text/data via telex.",
+            "rdfs:label": "Telex",
+            "rdf:value": "TL"
+        },
+        {
+            "@id": "uncl3153:TM",
+            "@type": "unece:UNCL3153Code",
+            "rdfs:comment": "Transmission of text/data via telemail.",
+            "rdfs:label": "Telemail",
+            "rdf:value": "TM"
+        },
+        {
+            "@id": "uncl3153:TT",
+            "@type": "unece:UNCL3153Code",
+            "rdfs:comment": "Transmission of text/data via teletext.",
+            "rdfs:label": "Teletext",
+            "rdf:value": "TT"
+        },
+        {
+            "@id": "uncl3153:TX",
+            "@type": "unece:UNCL3153Code",
+            "rdfs:comment": "Communication service involving Teletypewriter machines connected by wire or electronic transmission media. Teletypewriter machines are the devices used to send and receive signals and produce hardcopy from them.",
+            "rdfs:label": "TWX",
+            "rdf:value": "TX"
+        },
+        {
+            "@id": "uncl3153:XF",
+            "@type": "unece:UNCL3153Code",
+            "rdfs:comment": "CCITT Message handling system.",
+            "rdfs:label": "X.400",
+            "rdf:value": "XF"
+        }
+    ]
+}

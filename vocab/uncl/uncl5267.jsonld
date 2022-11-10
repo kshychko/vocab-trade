@@ -1,0 +1,32 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl5267": "https://dmvc7xzscpizo.cloudfront.net/uncl5267#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl5267:1",
+            "@type": "unece:UNCL5267Code",
+            "rdfs:comment": "Payment is for all flight segments booked.",
+            "rdfs:label": "Flight segments booked",
+            "rdf:value": "1"
+        },
+        {
+            "@id": "uncl5267:2",
+            "@type": "unece:UNCL5267Code",
+            "rdfs:comment": "Payment is for all car segments booked.",
+            "rdfs:label": "Car segments booked",
+            "rdf:value": "2"
+        },
+        {
+            "@id": "uncl5267:3",
+            "@type": "unece:UNCL5267Code",
+            "rdfs:comment": "Payment is for all hotel segments booked.",
+            "rdfs:label": "Hotel segments booked",
+            "rdf:value": "3"
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl9437": "https://dmvc7xzscpizo.cloudfront.net/uncl9437#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl9437:1",
+            "@type": "unece:UNCL9437Code",
+            "rdfs:comment": "A clinical intervention to certify that a person is completely unable to work for medical reasons.",
+            "rdfs:label": "Full disability certificate issue",
+            "rdf:value": "1"
+        },
+        {
+            "@id": "uncl9437:2",
+            "@type": "unece:UNCL9437Code",
+            "rdfs:comment": "A clinical intervention to certify that a person is partially unable to work for medical reasons.",
+            "rdfs:label": "Partial disability certificate issue",
+            "rdf:value": "2"
+        }
+    ]
+}

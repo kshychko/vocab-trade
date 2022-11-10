@@ -1,0 +1,459 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl6069": "https://dmvc7xzscpizo.cloudfront.net/uncl6069#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl6069:1",
+            "@type": "unece:UNCL6069Code",
+            "rdfs:comment": "Algebraic total of the quantity values in line items in a message.",
+            "rdfs:label": "Total of line item quantities",
+            "rdf:value": "1"
+        },
+        {
+            "@id": "uncl6069:2",
+            "@type": "unece:UNCL6069Code",
+            "rdfs:comment": "Total number of line items in the message.",
+            "rdfs:label": "Number of line items in message",
+            "rdf:value": "2"
+        },
+        {
+            "@id": "uncl6069:3",
+            "@type": "unece:UNCL6069Code",
+            "rdfs:comment": "Total number of line and sub items in the message.",
+            "rdfs:label": "Number of line and sub items in message",
+            "rdf:value": "3"
+        },
+        {
+            "@id": "uncl6069:4",
+            "@type": "unece:UNCL6069Code",
+            "rdfs:comment": "Number of lines on an invoice.",
+            "rdfs:label": "Number of invoice lines",
+            "rdf:value": "4"
+        },
+        {
+            "@id": "uncl6069:5",
+            "@type": "unece:UNCL6069Code",
+            "rdfs:comment": "Total number of occurrences of the Customs item detail section within a single Customs declaration message.",
+            "rdfs:label": "Number of Customs item detail lines",
+            "rdf:value": "5"
+        },
+        {
+            "@id": "uncl6069:6",
+            "@type": "unece:UNCL6069Code",
+            "rdfs:comment": "Number of entries which are subject to the same Customs procedures, and have the same tariff or statistical heading, country and duty regime.",
+            "rdfs:label": "Number of Customs entries",
+            "rdf:value": "6"
+        },
+        {
+            "@id": "uncl6069:7",
+            "@type": "unece:UNCL6069Code",
+            "rdfs:comment": "Code to indicate total gross weight of a consignment.",
+            "rdfs:label": "Total gross weight",
+            "rdf:value": "7"
+        },
+        {
+            "@id": "uncl6069:8",
+            "@type": "unece:UNCL6069Code",
+            "rdfs:comment": "Total number of pieces.",
+            "rdfs:label": "Total pieces",
+            "rdf:value": "8"
+        },
+        {
+            "@id": "uncl6069:9",
+            "@type": "unece:UNCL6069Code",
+            "rdfs:comment": "The total number of Unit Load Devices mentioned in the message.",
+            "rdfs:label": "Total number of ULD (Unit Load Device)",
+            "rdf:value": "9"
+        },
+        {
+            "@id": "uncl6069:10",
+            "@type": "unece:UNCL6069Code",
+            "rdfs:comment": "The total number of consignments.",
+            "rdfs:label": "Total number of consignments",
+            "rdf:value": "10"
+        },
+        {
+            "@id": "uncl6069:11",
+            "@type": "unece:UNCL6069Code",
+            "rdfs:comment": "[7370] Count of total number of packages referred to as one consignment.",
+            "rdfs:label": "Consignment package quantity",
+            "rdf:value": "11"
+        },
+        {
+            "@id": "uncl6069:12",
+            "@type": "unece:UNCL6069Code",
+            "rdfs:comment": "[5214] Amount, debited by the seller and being the total of related article item amounts in a commercial invoice.",
+            "rdfs:label": "Invoice total amount",
+            "rdf:value": "12"
+        },
+        {
+            "@id": "uncl6069:13",
+            "@type": "unece:UNCL6069Code",
+            "rdfs:comment": "[1166] The number of loading lists, manifests or similar documents.",
+            "rdfs:label": "Loading list document quantity",
+            "rdf:value": "13"
+        },
+        {
+            "@id": "uncl6069:14",
+            "@type": "unece:UNCL6069Code",
+            "rdfs:comment": "Commercial detail section within a single Customs declaration message.",
+            "rdfs:label": "Number of Customs commercial detail lines",
+            "rdf:value": "14"
+        },
+        {
+            "@id": "uncl6069:15",
+            "@type": "unece:UNCL6069Code",
+            "rdfs:comment": "The total cube of consignment.",
+            "rdfs:label": "Total consignment, cube",
+            "rdf:value": "15"
+        },
+        {
+            "@id": "uncl6069:16",
+            "@type": "unece:UNCL6069Code",
+            "rdfs:comment": "(8046) Total number of equipment mentioned in the message.",
+            "rdfs:label": "Total number of equipment",
+            "rdf:value": "16"
+        },
+        {
+            "@id": "uncl6069:17",
+            "@type": "unece:UNCL6069Code",
+            "rdfs:comment": "[5070] Total value declared for Customs purposes of all goods in a consignment, whether or not they are subject to the same Customs procedure, or have the same tariff/statistical heading, country information, and duty regime.",
+            "rdfs:label": "Consignment for customs total amount",
+            "rdf:value": "17"
+        },
+        {
+            "@id": "uncl6069:18",
+            "@type": "unece:UNCL6069Code",
+            "rdfs:comment": "Total reported quantity in net weight.",
+            "rdfs:label": "Total reported quantity in net weight",
+            "rdf:value": "18"
+        },
+        {
+            "@id": "uncl6069:19",
+            "@type": "unece:UNCL6069Code",
+            "rdfs:comment": "Total reported quantity in supplementary units.",
+            "rdfs:label": "Total reported quantity in supplementary units",
+            "rdf:value": "19"
+        },
+        {
+            "@id": "uncl6069:20",
+            "@type": "unece:UNCL6069Code",
+            "rdfs:comment": "Hash total of the total monetary amounts reported on the invoices.",
+            "rdfs:label": "Total reported invoice(s) value",
+            "rdf:value": "20"
+        },
+        {
+            "@id": "uncl6069:21",
+            "@type": "unece:UNCL6069Code",
+            "rdfs:comment": "Hash total of the reported total extra costs (e.g. carriage, freight, insurance) of all invoices.",
+            "rdfs:label": "Total reported ancillary costs",
+            "rdf:value": "21"
+        },
+        {
+            "@id": "uncl6069:22",
+            "@type": "unece:UNCL6069Code",
+            "rdfs:comment": "The total reported statistical value.",
+            "rdfs:label": "Total reported statistical value",
+            "rdf:value": "22"
+        },
+        {
+            "@id": "uncl6069:23",
+            "@type": "unece:UNCL6069Code",
+            "rdfs:comment": "Total quantity ordered in this message.",
+            "rdfs:label": "Total ordered quantity",
+            "rdf:value": "23"
+        },
+        {
+            "@id": "uncl6069:24",
+            "@type": "unece:UNCL6069Code",
+            "rdfs:comment": "Total number of order messages or documents referenced in this message.",
+            "rdfs:label": "Number of orders referenced in this message",
+            "rdf:value": "24"
+        },
+        {
+            "@id": "uncl6069:25",
+            "@type": "unece:UNCL6069Code",
+            "rdfs:comment": "Total number of rejected order lines in this message.",
+            "rdfs:label": "Number of rejected order lines",
+            "rdf:value": "25"
+        },
+        {
+            "@id": "uncl6069:26",
+            "@type": "unece:UNCL6069Code",
+            "rdfs:comment": "Total gross cubic measurement of the goods, including packing but excluding transport equipment.",
+            "rdfs:label": "Total gross measurement/cube",
+            "rdf:value": "26"
+        },
+        {
+            "@id": "uncl6069:27",
+            "@type": "unece:UNCL6069Code",
+            "rdfs:comment": "Total number of credit items given for control purposes.",
+            "rdfs:label": "Total number of credit items given for control purposes",
+            "rdf:value": "27"
+        },
+        {
+            "@id": "uncl6069:28",
+            "@type": "unece:UNCL6069Code",
+            "rdfs:comment": "Total number of debit items given for control purposes.",
+            "rdfs:label": "Total number of debit items given for control purposes",
+            "rdf:value": "28"
+        },
+        {
+            "@id": "uncl6069:29",
+            "@type": "unece:UNCL6069Code",
+            "rdfs:comment": "A code to indicate the total net weight of a consignment.",
+            "rdfs:label": "Total net weight of consignment",
+            "rdf:value": "29"
+        },
+        {
+            "@id": "uncl6069:30",
+            "@type": "unece:UNCL6069Code",
+            "rdfs:comment": "The total number of empty containers mentioned in the message.",
+            "rdfs:label": "Total number of empty containers",
+            "rdf:value": "30"
+        },
+        {
+            "@id": "uncl6069:31",
+            "@type": "unece:UNCL6069Code",
+            "rdfs:comment": "Control count of the number of messages referenced.",
+            "rdfs:label": "Number of messages",
+            "rdf:value": "31"
+        },
+        {
+            "@id": "uncl6069:32",
+            "@type": "unece:UNCL6069Code",
+            "rdfs:comment": "Weight (mass) of the goods within the means of transport, including packing and excluding the carrier's equipment.",
+            "rdfs:label": "Total gross weight of the goods within the means of transport",
+            "rdf:value": "32"
+        },
+        {
+            "@id": "uncl6069:33",
+            "@type": "unece:UNCL6069Code",
+            "rdfs:comment": "Total number of the original Bills of Lading required for the consignment.",
+            "rdfs:label": "Total number of original Bills of Lading",
+            "rdf:value": "33"
+        },
+        {
+            "@id": "uncl6069:34",
+            "@type": "unece:UNCL6069Code",
+            "rdfs:comment": "Total number of copy Bills of Lading required for the consignment.",
+            "rdfs:label": "Total number of copy Bills of Lading",
+            "rdf:value": "34"
+        },
+        {
+            "@id": "uncl6069:35",
+            "@type": "unece:UNCL6069Code",
+            "rdfs:comment": "Number of containers to be discharged from the means of transport.",
+            "rdfs:label": "Number of containers to be discharged",
+            "rdf:value": "35"
+        },
+        {
+            "@id": "uncl6069:36",
+            "@type": "unece:UNCL6069Code",
+            "rdfs:comment": "Number of containers to be loaded in or on the means of transport.",
+            "rdfs:label": "Number of containers to be loaded",
+            "rdf:value": "36"
+        },
+        {
+            "@id": "uncl6069:37",
+            "@type": "unece:UNCL6069Code",
+            "rdfs:comment": "Number of containers to be restowed from one cell position to another.",
+            "rdfs:label": "Number of containers to be restowed",
+            "rdf:value": "37"
+        },
+        {
+            "@id": "uncl6069:38",
+            "@type": "unece:UNCL6069Code",
+            "rdfs:comment": "Number of containers to be shifted from one cell position to another.",
+            "rdfs:label": "Number of containers to be shifted",
+            "rdf:value": "38"
+        },
+        {
+            "@id": "uncl6069:39",
+            "@type": "unece:UNCL6069Code",
+            "rdfs:comment": "The total number of individual transactions.",
+            "rdfs:label": "Total number of individual transactions",
+            "rdf:value": "39"
+        },
+        {
+            "@id": "uncl6069:40",
+            "@type": "unece:UNCL6069Code",
+            "rdfs:comment": "The total number of sequence details in the message.",
+            "rdfs:label": "Total number of sequence details in message",
+            "rdf:value": "40"
+        },
+        {
+            "@id": "uncl6069:41",
+            "@type": "unece:UNCL6069Code",
+            "rdfs:comment": "The total number of crew.",
+            "rdfs:label": "Total number of crew",
+            "rdf:value": "41"
+        },
+        {
+            "@id": "uncl6069:42",
+            "@type": "unece:UNCL6069Code",
+            "rdfs:comment": "The total number of passengers aboard the conveyance.",
+            "rdfs:label": "Total number of passengers",
+            "rdf:value": "42"
+        },
+        {
+            "@id": "uncl6069:43",
+            "@type": "unece:UNCL6069Code",
+            "rdfs:comment": "Total number of work tasks in the message.",
+            "rdfs:label": "Total number of work tasks",
+            "rdf:value": "43"
+        },
+        {
+            "@id": "uncl6069:44",
+            "@type": "unece:UNCL6069Code",
+            "rdfs:comment": "Total number of milestones in the message.",
+            "rdfs:label": "Total number of milestones",
+            "rdf:value": "44"
+        },
+        {
+            "@id": "uncl6069:45",
+            "@type": "unece:UNCL6069Code",
+            "rdfs:comment": "Total number of available resources in the message.",
+            "rdfs:label": "Total number of available resources",
+            "rdf:value": "45"
+        },
+        {
+            "@id": "uncl6069:46",
+            "@type": "unece:UNCL6069Code",
+            "rdfs:comment": "Total number of constraints in the message.",
+            "rdfs:label": "Total number of constraints",
+            "rdf:value": "46"
+        },
+        {
+            "@id": "uncl6069:47",
+            "@type": "unece:UNCL6069Code",
+            "rdfs:comment": "Total quantity of unsold goods held by the wholesaler.",
+            "rdfs:label": "Total wholesaler unsold quantity",
+            "rdf:value": "47"
+        },
+        {
+            "@id": "uncl6069:48",
+            "@type": "unece:UNCL6069Code",
+            "rdfs:comment": "Total quantity held by the delivery vehicles.",
+            "rdfs:label": "Total quantity held by delivery vehicles",
+            "rdf:value": "48"
+        },
+        {
+            "@id": "uncl6069:49",
+            "@type": "unece:UNCL6069Code",
+            "rdfs:comment": "Total quantity held by the retail outlets.",
+            "rdfs:label": "Total quantity held by retail outlets",
+            "rdf:value": "49"
+        },
+        {
+            "@id": "uncl6069:50",
+            "@type": "unece:UNCL6069Code",
+            "rdfs:comment": "The total quantity for return which have been rejected.",
+            "rdfs:label": "Total rejected return quantity",
+            "rdf:value": "50"
+        },
+        {
+            "@id": "uncl6069:51",
+            "@type": "unece:UNCL6069Code",
+            "rdfs:comment": "The total number of goods items in a message.",
+            "rdfs:label": "Number of goods items in the message",
+            "rdf:value": "51"
+        },
+        {
+            "@id": "uncl6069:52",
+            "@type": "unece:UNCL6069Code",
+            "rdfs:comment": "The number of patients reported in a message.",
+            "rdfs:label": "Number of patients",
+            "rdf:value": "52"
+        },
+        {
+            "@id": "uncl6069:53",
+            "@type": "unece:UNCL6069Code",
+            "rdfs:comment": "Hash total of the values of all the debit item amounts reported in the message.",
+            "rdfs:label": "Hash total of reported debit items",
+            "rdf:value": "53"
+        },
+        {
+            "@id": "uncl6069:54",
+            "@type": "unece:UNCL6069Code",
+            "rdfs:comment": "Hash total of the values of all the credit item amounts reported in the message.",
+            "rdfs:label": "Hash total of reported credit items",
+            "rdf:value": "54"
+        },
+        {
+            "@id": "uncl6069:55",
+            "@type": "unece:UNCL6069Code",
+            "rdfs:comment": "Total number of errors reported.",
+            "rdfs:label": "Total number of errors reported",
+            "rdf:value": "55"
+        },
+        {
+            "@id": "uncl6069:56",
+            "@type": "unece:UNCL6069Code",
+            "rdfs:comment": "Number of separate units of cargo handled during transportation of a consignment.",
+            "rdfs:label": "Total number of transport units",
+            "rdf:value": "56"
+        },
+        {
+            "@id": "uncl6069:57",
+            "@type": "unece:UNCL6069Code",
+            "rdfs:comment": "The total number of loading metres.",
+            "rdfs:label": "Total loading metres",
+            "rdf:value": "57"
+        },
+        {
+            "@id": "uncl6069:58",
+            "@type": "unece:UNCL6069Code",
+            "rdfs:comment": "The total number of days a consignment is under Customs transit control.",
+            "rdfs:label": "Days under customs transit control",
+            "rdf:value": "58"
+        },
+        {
+            "@id": "uncl6069:59",
+            "@type": "unece:UNCL6069Code",
+            "rdfs:comment": "Code to indicate the total gross weight of a consignment as measured by the shipper.",
+            "rdfs:label": "Total gross weight of consignment, shipper measured",
+            "rdf:value": "59"
+        },
+        {
+            "@id": "uncl6069:60",
+            "@type": "unece:UNCL6069Code",
+            "rdfs:comment": "Code to indicate the total weight of the goods and pallet.",
+            "rdfs:label": "Total pallet gross weight",
+            "rdf:value": "60"
+        },
+        {
+            "@id": "uncl6069:61",
+            "@type": "unece:UNCL6069Code",
+            "rdfs:comment": "To specify the number of seals affixed.",
+            "rdfs:label": "Number of affixed seals",
+            "rdf:value": "61"
+        },
+        {
+            "@id": "uncl6069:62",
+            "@type": "unece:UNCL6069Code",
+            "rdfs:comment": "A code to indicate the total number of premises detailed in the message.",
+            "rdfs:label": "Number of premises",
+            "rdf:value": "62"
+        },
+        {
+            "@id": "uncl6069:63",
+            "@type": "unece:UNCL6069Code",
+            "rdfs:comment": "The total number of meters.",
+            "rdfs:label": "Number of meters",
+            "rdf:value": "63"
+        },
+        {
+            "@id": "uncl6069:64",
+            "@type": "unece:UNCL6069Code",
+            "rdfs:comment": "Total number of places needed to load the pallets of the entire consignment.",
+            "rdfs:label": "Total number of pallet places",
+            "rdf:value": "64"
+        }
+    ]
+}

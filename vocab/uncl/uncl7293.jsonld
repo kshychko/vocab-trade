@@ -1,0 +1,221 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl7293": "https://dmvc7xzscpizo.cloudfront.net/uncl7293#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl7293:1",
+            "@type": "unece:UNCL7293Code",
+            "rdfs:comment": "The specified conditions apply within the construction industry.",
+            "rdfs:label": "Construction industry",
+            "rdf:value": "1"
+        },
+        {
+            "@id": "uncl7293:2",
+            "@type": "unece:UNCL7293Code",
+            "rdfs:comment": "The specified conditions apply within the government export sector.",
+            "rdfs:label": "Governmental export conditions",
+            "rdf:value": "2"
+        },
+        {
+            "@id": "uncl7293:3",
+            "@type": "unece:UNCL7293Code",
+            "rdfs:comment": "The specified conditions apply within the chemical industry.",
+            "rdfs:label": "Chemical industry",
+            "rdf:value": "3"
+        },
+        {
+            "@id": "uncl7293:4",
+            "@type": "unece:UNCL7293Code",
+            "rdfs:comment": "The specified conditions apply within the electronics industry.",
+            "rdfs:label": "Electronic industry",
+            "rdf:value": "4"
+        },
+        {
+            "@id": "uncl7293:5",
+            "@type": "unece:UNCL7293Code",
+            "rdfs:comment": "The specified conditions apply within the automotive industry.",
+            "rdfs:label": "Automotive industry",
+            "rdf:value": "5"
+        },
+        {
+            "@id": "uncl7293:6",
+            "@type": "unece:UNCL7293Code",
+            "rdfs:comment": "The specified conditions apply within the steel industry.",
+            "rdfs:label": "Steel industry",
+            "rdf:value": "6"
+        },
+        {
+            "@id": "uncl7293:7",
+            "@type": "unece:UNCL7293Code",
+            "rdfs:comment": "Factoring industry.",
+            "rdfs:label": "Factoring",
+            "rdf:value": "7"
+        },
+        {
+            "@id": "uncl7293:8",
+            "@type": "unece:UNCL7293Code",
+            "rdfs:comment": "A code to identify the defence industry.",
+            "rdfs:label": "Defence industry",
+            "rdf:value": "8"
+        },
+        {
+            "@id": "uncl7293:9",
+            "@type": "unece:UNCL7293Code",
+            "rdfs:comment": "Alcohol beverage industry.",
+            "rdfs:label": "Alcohol beverage industry",
+            "rdf:value": "9"
+        },
+        {
+            "@id": "uncl7293:10",
+            "@type": "unece:UNCL7293Code",
+            "rdfs:comment": "Applies to police formalities.",
+            "rdfs:label": "Police",
+            "rdf:value": "10"
+        },
+        {
+            "@id": "uncl7293:11",
+            "@type": "unece:UNCL7293Code",
+            "rdfs:comment": "Applies to customs regulations.",
+            "rdfs:label": "Customs",
+            "rdf:value": "11"
+        },
+        {
+            "@id": "uncl7293:12",
+            "@type": "unece:UNCL7293Code",
+            "rdfs:comment": "Applies to health regulation.",
+            "rdfs:label": "Health regulation",
+            "rdf:value": "12"
+        },
+        {
+            "@id": "uncl7293:13",
+            "@type": "unece:UNCL7293Code",
+            "rdfs:comment": "Balance of payments.",
+            "rdfs:label": "Balance of payments",
+            "rdf:value": "13"
+        },
+        {
+            "@id": "uncl7293:14",
+            "@type": "unece:UNCL7293Code",
+            "rdfs:comment": "National regulations specified by the relevant government.",
+            "rdfs:label": "National legislation",
+            "rdf:value": "14"
+        },
+        {
+            "@id": "uncl7293:15",
+            "@type": "unece:UNCL7293Code",
+            "rdfs:comment": "To identify requirements and conditions applicable to government activity.",
+            "rdfs:label": "Government",
+            "rdf:value": "15"
+        },
+        {
+            "@id": "uncl7293:16",
+            "@type": "unece:UNCL7293Code",
+            "rdfs:comment": "Subject refers to standards implementation.",
+            "rdfs:label": "Standards implementation",
+            "rdf:value": "16"
+        },
+        {
+            "@id": "uncl7293:17",
+            "@type": "unece:UNCL7293Code",
+            "rdfs:comment": "The information is related to insurance.",
+            "rdfs:label": "Insurance",
+            "rdf:value": "17"
+        },
+        {
+            "@id": "uncl7293:18",
+            "@type": "unece:UNCL7293Code",
+            "rdfs:comment": "Applies to credit inquiry.",
+            "rdfs:label": "Credit inquiry",
+            "rdf:value": "18"
+        },
+        {
+            "@id": "uncl7293:19",
+            "@type": "unece:UNCL7293Code",
+            "rdfs:comment": "Applies to a general request.",
+            "rdfs:label": "General request",
+            "rdf:value": "19"
+        },
+        {
+            "@id": "uncl7293:20",
+            "@type": "unece:UNCL7293Code",
+            "rdfs:comment": "Applies to payment terms.",
+            "rdfs:label": "Payment terms",
+            "rdf:value": "20"
+        },
+        {
+            "@id": "uncl7293:21",
+            "@type": "unece:UNCL7293Code",
+            "rdfs:comment": "To identify requirements and conditions that apply to reporting structures.",
+            "rdfs:label": "Reporting structure",
+            "rdf:value": "21"
+        },
+        {
+            "@id": "uncl7293:22",
+            "@type": "unece:UNCL7293Code",
+            "rdfs:comment": "Subject applies to legal filing amounts.",
+            "rdfs:label": "Legal filing amounts",
+            "rdf:value": "22"
+        },
+        {
+            "@id": "uncl7293:23",
+            "@type": "unece:UNCL7293Code",
+            "rdfs:comment": "To identify the electricity supply industry.",
+            "rdfs:label": "Electricity supply industry",
+            "rdf:value": "23"
+        },
+        {
+            "@id": "uncl7293:24",
+            "@type": "unece:UNCL7293Code",
+            "rdfs:comment": "A code used to identify the aviation industry.",
+            "rdfs:label": "Aviation industry",
+            "rdf:value": "24"
+        },
+        {
+            "@id": "uncl7293:25",
+            "@type": "unece:UNCL7293Code",
+            "rdfs:comment": "Conditions apply to the banking sector.",
+            "rdfs:label": "Banking sector",
+            "rdf:value": "25"
+        },
+        {
+            "@id": "uncl7293:26",
+            "@type": "unece:UNCL7293Code",
+            "rdfs:comment": "Code indicating purchasing conditions.",
+            "rdfs:label": "Purchasing conditions",
+            "rdf:value": "26"
+        },
+        {
+            "@id": "uncl7293:27",
+            "@type": "unece:UNCL7293Code",
+            "rdfs:comment": "To identify the gas supply industry.",
+            "rdfs:label": "Gas supply industry",
+            "rdf:value": "27"
+        },
+        {
+            "@id": "uncl7293:28",
+            "@type": "unece:UNCL7293Code",
+            "rdfs:comment": "To identify the garbage collection industry.",
+            "rdfs:label": "Garbage collection industry",
+            "rdf:value": "28"
+        },
+        {
+            "@id": "uncl7293:29",
+            "@type": "unece:UNCL7293Code",
+            "rdfs:comment": "To identify cable television (TV) channel distribution industry.",
+            "rdfs:label": "Cable television channel distribution industry",
+            "rdf:value": "29"
+        },
+        {
+            "@id": "uncl7293:30",
+            "@type": "unece:UNCL7293Code",
+            "rdfs:comment": "To identify the water distribution industry.",
+            "rdfs:label": "Water distribution industry",
+            "rdf:value": "30"
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl9641": "https://dmvc7xzscpizo.cloudfront.net/uncl9641#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl9641:1",
+            "@type": "unece:UNCL9641Code",
+            "rdfs:comment": "The service was performed based on a condition.",
+            "rdfs:label": "Condition",
+            "rdf:value": "1"
+        },
+        {
+            "@id": "uncl9641:2",
+            "@type": "unece:UNCL9641Code",
+            "rdfs:comment": "The service was performed based on an occurrence.",
+            "rdfs:label": "Occurrence",
+            "rdf:value": "2"
+        },
+        {
+            "@id": "uncl9641:3",
+            "@type": "unece:UNCL9641Code",
+            "rdfs:comment": "The service was performed based on an event occurring over a period of time.",
+            "rdfs:label": "Occurrence span",
+            "rdf:value": "3"
+        },
+        {
+            "@id": "uncl9641:4",
+            "@type": "unece:UNCL9641Code",
+            "rdfs:comment": "The service was performed based on a procedure.",
+            "rdfs:label": "Procedure",
+            "rdf:value": "4"
+        },
+        {
+            "@id": "uncl9641:5",
+            "@type": "unece:UNCL9641Code",
+            "rdfs:comment": "The service was performed based on a value code.",
+            "rdfs:label": "Value code",
+            "rdf:value": "5"
+        }
+    ]
+}

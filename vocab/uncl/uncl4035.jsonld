@@ -1,0 +1,81 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl4035": "https://dmvc7xzscpizo.cloudfront.net/uncl4035#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl4035:1",
+            "@type": "unece:UNCL4035Code",
+            "rdfs:comment": "The priority relates to the location.",
+            "rdfs:label": "Location priority",
+            "rdf:value": "1"
+        },
+        {
+            "@id": "uncl4035:2",
+            "@type": "unece:UNCL4035Code",
+            "rdfs:comment": "The priority relates to the salary.",
+            "rdfs:label": "Salary priority",
+            "rdf:value": "2"
+        },
+        {
+            "@id": "uncl4035:3",
+            "@type": "unece:UNCL4035Code",
+            "rdfs:comment": "The priority relates to the occupation.",
+            "rdfs:label": "Occupation priority",
+            "rdf:value": "3"
+        },
+        {
+            "@id": "uncl4035:4",
+            "@type": "unece:UNCL4035Code",
+            "rdfs:comment": "Assigned priority in performing a task.",
+            "rdfs:label": "Performing priority",
+            "rdf:value": "4"
+        },
+        {
+            "@id": "uncl4035:5",
+            "@type": "unece:UNCL4035Code",
+            "rdfs:comment": "Assigned priority in reporting an event.",
+            "rdfs:label": "Reporting priority",
+            "rdf:value": "5"
+        },
+        {
+            "@id": "uncl4035:6",
+            "@type": "unece:UNCL4035Code",
+            "rdfs:comment": "The delivery priority of an object.",
+            "rdfs:label": "Delivery priority",
+            "rdf:value": "6"
+        },
+        {
+            "@id": "uncl4035:7",
+            "@type": "unece:UNCL4035Code",
+            "rdfs:comment": "The priority that is requested.",
+            "rdfs:label": "Requested priority",
+            "rdf:value": "7"
+        },
+        {
+            "@id": "uncl4035:8",
+            "@type": "unece:UNCL4035Code",
+            "rdfs:comment": "The priority that is allocated.",
+            "rdfs:label": "Allocated priority",
+            "rdf:value": "8"
+        },
+        {
+            "@id": "uncl4035:9",
+            "@type": "unece:UNCL4035Code",
+            "rdfs:comment": "Assigned priority in dispensing a prescription.",
+            "rdfs:label": "Prescription dispensing priority",
+            "rdf:value": "9"
+        },
+        {
+            "@id": "uncl4035:10",
+            "@type": "unece:UNCL4035Code",
+            "rdfs:comment": "Priority for when an installation can be disconnected.",
+            "rdfs:label": "Disconnectability",
+            "rdf:value": "10"
+        }
+    ]
+}

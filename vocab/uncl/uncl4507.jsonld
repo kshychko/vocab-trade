@@ -1,0 +1,88 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl4507": "https://dmvc7xzscpizo.cloudfront.net/uncl4507#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl4507:1",
+            "@type": "unece:UNCL4507Code",
+            "rdfs:comment": "A preliminary assessment without formal approval or commitment.",
+            "rdfs:label": "Preliminary assessment",
+            "rdf:value": "1"
+        },
+        {
+            "@id": "uncl4507:2",
+            "@type": "unece:UNCL4507Code",
+            "rdfs:comment": "The limit request has been approved.",
+            "rdfs:label": "Approved",
+            "rdf:value": "2"
+        },
+        {
+            "@id": "uncl4507:3",
+            "@type": "unece:UNCL4507Code",
+            "rdfs:comment": "The limit request has not been approved.",
+            "rdfs:label": "Not approved",
+            "rdf:value": "3"
+        },
+        {
+            "@id": "uncl4507:4",
+            "@type": "unece:UNCL4507Code",
+            "rdfs:comment": "Approval subject to conditions as specified.",
+            "rdfs:label": "Conditional approval",
+            "rdf:value": "4"
+        },
+        {
+            "@id": "uncl4507:5",
+            "@type": "unece:UNCL4507Code",
+            "rdfs:comment": "Partly approved as specified.",
+            "rdfs:label": "Partly approved",
+            "rdf:value": "5"
+        },
+        {
+            "@id": "uncl4507:6",
+            "@type": "unece:UNCL4507Code",
+            "rdfs:comment": "The limit request is still under investigation.",
+            "rdfs:label": "Still investigating",
+            "rdf:value": "6"
+        },
+        {
+            "@id": "uncl4507:7",
+            "@type": "unece:UNCL4507Code",
+            "rdfs:comment": "Buyer account has been opened without an approved limit.",
+            "rdfs:label": "Open new account only",
+            "rdf:value": "7"
+        },
+        {
+            "@id": "uncl4507:8",
+            "@type": "unece:UNCL4507Code",
+            "rdfs:comment": "The existing limit has been cancelled.",
+            "rdfs:label": "Cancellation",
+            "rdf:value": "8"
+        },
+        {
+            "@id": "uncl4507:9",
+            "@type": "unece:UNCL4507Code",
+            "rdfs:comment": "Credit limit is reduced.",
+            "rdfs:label": "Reduction",
+            "rdf:value": "9"
+        },
+        {
+            "@id": "uncl4507:10",
+            "@type": "unece:UNCL4507Code",
+            "rdfs:comment": "The name and/or address of the buyer has changed.",
+            "rdfs:label": "Change of name and/or address",
+            "rdf:value": "10"
+        },
+        {
+            "@id": "uncl4507:11",
+            "@type": "unece:UNCL4507Code",
+            "rdfs:comment": "The buyer's account is to be closed.",
+            "rdfs:label": "Close buyer's account",
+            "rdf:value": "11"
+        }
+    ]
+}

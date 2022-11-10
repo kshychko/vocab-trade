@@ -1,0 +1,60 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl4277": "https://dmvc7xzscpizo.cloudfront.net/uncl4277#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl4277:1",
+            "@type": "unece:UNCL4277Code",
+            "rdfs:comment": "Draft(s) must be drawn on the issuing bank.",
+            "rdfs:label": "Draft(s) drawn on issuing bank",
+            "rdf:value": "1"
+        },
+        {
+            "@id": "uncl4277:2",
+            "@type": "unece:UNCL4277Code",
+            "rdfs:comment": "Draft(s) must be drawn on the advising bank.",
+            "rdfs:label": "Draft(s) drawn on advising bank",
+            "rdf:value": "2"
+        },
+        {
+            "@id": "uncl4277:3",
+            "@type": "unece:UNCL4277Code",
+            "rdfs:comment": "Draft(s) must be drawn on the reimbursing bank.",
+            "rdfs:label": "Draft(s) drawn on reimbursing bank",
+            "rdf:value": "3"
+        },
+        {
+            "@id": "uncl4277:4",
+            "@type": "unece:UNCL4277Code",
+            "rdfs:comment": "Draft(s) must be drawn on the applicant.",
+            "rdfs:label": "Draft(s) drawn on applicant",
+            "rdf:value": "4"
+        },
+        {
+            "@id": "uncl4277:5",
+            "@type": "unece:UNCL4277Code",
+            "rdfs:comment": "Draft(s) must be drawn on any other drawee.",
+            "rdfs:label": "Draft(s) drawn on any other drawee",
+            "rdf:value": "5"
+        },
+        {
+            "@id": "uncl4277:6",
+            "@type": "unece:UNCL4277Code",
+            "rdfs:comment": "No drafts required.",
+            "rdfs:label": "No drafts",
+            "rdf:value": "6"
+        },
+        {
+            "@id": "uncl4277:7",
+            "@type": "unece:UNCL4277Code",
+            "rdfs:comment": "An indication that the payment means are specified in a commercial account summary.",
+            "rdfs:label": "Payment means specified in commercial account summary",
+            "rdf:value": "7"
+        }
+    ]
+}

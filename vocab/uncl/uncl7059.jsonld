@@ -1,0 +1,151 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl7059": "https://dmvc7xzscpizo.cloudfront.net/uncl7059#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl7059:1",
+            "@type": "unece:UNCL7059Code",
+            "rdfs:comment": "The class of chemical properties.",
+            "rdfs:label": "Chemistry",
+            "rdf:value": "1"
+        },
+        {
+            "@id": "uncl7059:2",
+            "@type": "unece:UNCL7059Code",
+            "rdfs:comment": "Mechanical properties.",
+            "rdfs:label": "Mechanical",
+            "rdf:value": "2"
+        },
+        {
+            "@id": "uncl7059:3",
+            "@type": "unece:UNCL7059Code",
+            "rdfs:comment": "Component being quantitatively measured (such as height).",
+            "rdfs:label": "Component of measurable quantity",
+            "rdf:value": "3"
+        },
+        {
+            "@id": "uncl7059:4",
+            "@type": "unece:UNCL7059Code",
+            "rdfs:comment": "System being investigated to obtain a measurable quantity (such as blood serum).",
+            "rdfs:label": "System of measurable quantity",
+            "rdf:value": "4"
+        },
+        {
+            "@id": "uncl7059:5",
+            "@type": "unece:UNCL7059Code",
+            "rdfs:comment": "Characteristic of ecological labelling.",
+            "rdfs:label": "Ecological labelling",
+            "rdf:value": "5"
+        },
+        {
+            "@id": "uncl7059:6",
+            "@type": "unece:UNCL7059Code",
+            "rdfs:comment": "Characteristic of a party.",
+            "rdfs:label": "Party characteristic",
+            "rdf:value": "6"
+        },
+        {
+            "@id": "uncl7059:7",
+            "@type": "unece:UNCL7059Code",
+            "rdfs:comment": "The property is magnetic.",
+            "rdfs:label": "Magnetic",
+            "rdf:value": "7"
+        },
+        {
+            "@id": "uncl7059:8",
+            "@type": "unece:UNCL7059Code",
+            "rdfs:comment": "A class of characteristics describing a meter.",
+            "rdfs:label": "Meter",
+            "rdf:value": "8"
+        },
+        {
+            "@id": "uncl7059:9",
+            "@type": "unece:UNCL7059Code",
+            "rdfs:comment": "A class of characteristics describing a meter reading.",
+            "rdfs:label": "Meter reading",
+            "rdf:value": "9"
+        },
+        {
+            "@id": "uncl7059:10",
+            "@type": "unece:UNCL7059Code",
+            "rdfs:comment": "No specific class.",
+            "rdfs:label": "Unspecified",
+            "rdf:value": "10"
+        },
+        {
+            "@id": "uncl7059:11",
+            "@type": "unece:UNCL7059Code",
+            "rdfs:comment": "A class of characteristics describing a product.",
+            "rdfs:label": "Product",
+            "rdf:value": "11"
+        },
+        {
+            "@id": "uncl7059:12",
+            "@type": "unece:UNCL7059Code",
+            "rdfs:comment": "The class describes a medical investigation.",
+            "rdfs:label": "Medical investigation",
+            "rdf:value": "12"
+        },
+        {
+            "@id": "uncl7059:13",
+            "@type": "unece:UNCL7059Code",
+            "rdfs:comment": "The class describes the species of an animal.",
+            "rdfs:label": "Animal species",
+            "rdf:value": "13"
+        },
+        {
+            "@id": "uncl7059:14",
+            "@type": "unece:UNCL7059Code",
+            "rdfs:comment": "The class describes the breed of an animal species.",
+            "rdfs:label": "Animal breed",
+            "rdf:value": "14"
+        },
+        {
+            "@id": "uncl7059:15",
+            "@type": "unece:UNCL7059Code",
+            "rdfs:comment": "Property of a structure.",
+            "rdfs:label": "Structure",
+            "rdf:value": "15"
+        },
+        {
+            "@id": "uncl7059:16",
+            "@type": "unece:UNCL7059Code",
+            "rdfs:comment": "Property of a parameter.",
+            "rdfs:label": "Parameter",
+            "rdf:value": "16"
+        },
+        {
+            "@id": "uncl7059:17",
+            "@type": "unece:UNCL7059Code",
+            "rdfs:comment": "A class of characteristics describing an equipment.",
+            "rdfs:label": "Equipment",
+            "rdf:value": "17"
+        },
+        {
+            "@id": "uncl7059:18",
+            "@type": "unece:UNCL7059Code",
+            "rdfs:comment": "A class of characteristics describing a process.",
+            "rdfs:label": "Process",
+            "rdf:value": "18"
+        },
+        {
+            "@id": "uncl7059:19",
+            "@type": "unece:UNCL7059Code",
+            "rdfs:comment": "A code identifying a characteristic of consumption.",
+            "rdfs:label": "Consumption characteristic",
+            "rdf:value": "19"
+        },
+        {
+            "@id": "uncl7059:20",
+            "@type": "unece:UNCL7059Code",
+            "rdfs:comment": "A code identifying a characteristic of a test.",
+            "rdfs:label": "Test characteristic",
+            "rdf:value": "20"
+        }
+    ]
+}

@@ -1,0 +1,473 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl7273": "https://dmvc7xzscpizo.cloudfront.net/uncl7273#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl7273:1",
+            "@type": "unece:UNCL7273Code",
+            "rdfs:comment": "The cargo is loaded in the equipment by the carrier.",
+            "rdfs:label": "Carrier loads",
+            "rdf:value": "1"
+        },
+        {
+            "@id": "uncl7273:2",
+            "@type": "unece:UNCL7273Code",
+            "rdfs:comment": "Container to be stuffed or stripped under responsibility and for account of the shipper or the consignee.",
+            "rdfs:label": "Full loads",
+            "rdf:value": "2"
+        },
+        {
+            "@id": "uncl7273:3",
+            "@type": "unece:UNCL7273Code",
+            "rdfs:comment": "Container to be stuffed and stripped for account and risk of the carrier.",
+            "rdfs:label": "Less than full loads",
+            "rdf:value": "3"
+        },
+        {
+            "@id": "uncl7273:4",
+            "@type": "unece:UNCL7273Code",
+            "rdfs:comment": "The cargo is loaded in the equipment by the shipper.",
+            "rdfs:label": "Shipper loads",
+            "rdf:value": "4"
+        },
+        {
+            "@id": "uncl7273:5",
+            "@type": "unece:UNCL7273Code",
+            "rdfs:comment": "The cargo is to be delivered as instructed.",
+            "rdfs:label": "To be delivered",
+            "rdf:value": "5"
+        },
+        {
+            "@id": "uncl7273:6",
+            "@type": "unece:UNCL7273Code",
+            "rdfs:comment": "The cargo is to be retained awaiting further instructions.",
+            "rdfs:label": "To be kept",
+            "rdf:value": "6"
+        },
+        {
+            "@id": "uncl7273:7",
+            "@type": "unece:UNCL7273Code",
+            "rdfs:comment": "Transhipment of goods is allowed.",
+            "rdfs:label": "Transhipment allowed",
+            "rdf:value": "7"
+        },
+        {
+            "@id": "uncl7273:8",
+            "@type": "unece:UNCL7273Code",
+            "rdfs:comment": "Transhipment of goods is not allowed.",
+            "rdfs:label": "Transhipment not allowed",
+            "rdf:value": "8"
+        },
+        {
+            "@id": "uncl7273:9",
+            "@type": "unece:UNCL7273Code",
+            "rdfs:comment": "Partial shipment is allowed.",
+            "rdfs:label": "Partial shipment allowed",
+            "rdf:value": "9"
+        },
+        {
+            "@id": "uncl7273:10",
+            "@type": "unece:UNCL7273Code",
+            "rdfs:comment": "Partial shipment is not allowed.",
+            "rdfs:label": "Partial shipment not allowed",
+            "rdf:value": "10"
+        },
+        {
+            "@id": "uncl7273:11",
+            "@type": "unece:UNCL7273Code",
+            "rdfs:comment": "Partial shipment and/or drawing is allowed.",
+            "rdfs:label": "Partial shipment and/or drawing allowed",
+            "rdf:value": "11"
+        },
+        {
+            "@id": "uncl7273:12",
+            "@type": "unece:UNCL7273Code",
+            "rdfs:comment": "Partial shipment and/or drawing is not allowed.",
+            "rdfs:label": "Partial shipment and/or drawing not allowed",
+            "rdf:value": "12"
+        },
+        {
+            "@id": "uncl7273:13",
+            "@type": "unece:UNCL7273Code",
+            "rdfs:comment": "The cargo is to be unloaded from the equipment by the carrier.",
+            "rdfs:label": "Carrier unloads",
+            "rdf:value": "13"
+        },
+        {
+            "@id": "uncl7273:14",
+            "@type": "unece:UNCL7273Code",
+            "rdfs:comment": "The cargo is to be unloaded from the equipment by the shipper.",
+            "rdfs:label": "Shipper unloads",
+            "rdf:value": "14"
+        },
+        {
+            "@id": "uncl7273:15",
+            "@type": "unece:UNCL7273Code",
+            "rdfs:comment": "The cargo is to be unloaded from the equipment by the consignee.",
+            "rdfs:label": "Consignee unloads",
+            "rdf:value": "15"
+        },
+        {
+            "@id": "uncl7273:16",
+            "@type": "unece:UNCL7273Code",
+            "rdfs:comment": "The cargo is to be loaded in the equipment by the consignee.",
+            "rdfs:label": "Consignee loads",
+            "rdf:value": "16"
+        },
+        {
+            "@id": "uncl7273:17",
+            "@type": "unece:UNCL7273Code",
+            "rdfs:comment": "Usage of the equipment is reserved for exclusive use.",
+            "rdfs:label": "Exclusive usage of equipment",
+            "rdf:value": "17"
+        },
+        {
+            "@id": "uncl7273:18",
+            "@type": "unece:UNCL7273Code",
+            "rdfs:comment": "Usage of the equipment is not reserved for exclusive use.",
+            "rdfs:label": "Non exclusive usage of equipment",
+            "rdf:value": "18"
+        },
+        {
+            "@id": "uncl7273:19",
+            "@type": "unece:UNCL7273Code",
+            "rdfs:comment": "Consignment for direct delivery to the consignee.",
+            "rdfs:label": "Direct delivery",
+            "rdf:value": "19"
+        },
+        {
+            "@id": "uncl7273:20",
+            "@type": "unece:UNCL7273Code",
+            "rdfs:comment": "Consignment for direct pick-up from the consignee.",
+            "rdfs:label": "Direct pick-up",
+            "rdf:value": "20"
+        },
+        {
+            "@id": "uncl7273:21",
+            "@type": "unece:UNCL7273Code",
+            "rdfs:comment": "The service provider is requested to advise about delivery.",
+            "rdfs:label": "Request for delivery advice services",
+            "rdf:value": "21"
+        },
+        {
+            "@id": "uncl7273:22",
+            "@type": "unece:UNCL7273Code",
+            "rdfs:comment": "Indication that the recipient of the message is not to arrange customs clearance.",
+            "rdfs:label": "Do not arrange customs clearance",
+            "rdf:value": "22"
+        },
+        {
+            "@id": "uncl7273:23",
+            "@type": "unece:UNCL7273Code",
+            "rdfs:comment": "Indication that the recipient of the message is to arrange customs clearance.",
+            "rdfs:label": "Arrange customs clearance",
+            "rdf:value": "23"
+        },
+        {
+            "@id": "uncl7273:24",
+            "@type": "unece:UNCL7273Code",
+            "rdfs:comment": "Condition of the container is to be checked.",
+            "rdfs:label": "Check container condition",
+            "rdf:value": "24"
+        },
+        {
+            "@id": "uncl7273:25",
+            "@type": "unece:UNCL7273Code",
+            "rdfs:comment": "Damaged containers are allowed.",
+            "rdfs:label": "Damaged containers allowed",
+            "rdf:value": "25"
+        },
+        {
+            "@id": "uncl7273:26",
+            "@type": "unece:UNCL7273Code",
+            "rdfs:comment": "Dirty containers are allowed.",
+            "rdfs:label": "Dirty containers allowed",
+            "rdf:value": "26"
+        },
+        {
+            "@id": "uncl7273:27",
+            "@type": "unece:UNCL7273Code",
+            "rdfs:comment": "Container needs not to be equipped with pocket holes, but they are allowed.",
+            "rdfs:label": "Fork lift holes not required",
+            "rdf:value": "27"
+        },
+        {
+            "@id": "uncl7273:28",
+            "@type": "unece:UNCL7273Code",
+            "rdfs:comment": "Container must be equipped with pocket holes.",
+            "rdfs:label": "Fork lift holes required",
+            "rdf:value": "28"
+        },
+        {
+            "@id": "uncl7273:29",
+            "@type": "unece:UNCL7273Code",
+            "rdfs:comment": "Indication that the recipient of the message is to insure the goods during transport.",
+            "rdfs:label": "Insure goods during transport",
+            "rdf:value": "29"
+        },
+        {
+            "@id": "uncl7273:30",
+            "@type": "unece:UNCL7273Code",
+            "rdfs:comment": "Indication that the recipient of the message is to arrange the main-carriage.",
+            "rdfs:label": "Arrange main-carriage",
+            "rdf:value": "30"
+        },
+        {
+            "@id": "uncl7273:31",
+            "@type": "unece:UNCL7273Code",
+            "rdfs:comment": "Indication that the recipient of the message is to arrange the on-carriage.",
+            "rdfs:label": "Arrange on-carriage",
+            "rdf:value": "31"
+        },
+        {
+            "@id": "uncl7273:32",
+            "@type": "unece:UNCL7273Code",
+            "rdfs:comment": "Indication that the recipient of the message is to arrange the pre-carriage.",
+            "rdfs:label": "Arrange pre-carriage",
+            "rdf:value": "32"
+        },
+        {
+            "@id": "uncl7273:33",
+            "@type": "unece:UNCL7273Code",
+            "rdfs:comment": "Indication that the information on the Container Safety Convention plate (CSC-plate) should be reported.",
+            "rdfs:label": "Report container safety convention information",
+            "rdf:value": "33"
+        },
+        {
+            "@id": "uncl7273:34",
+            "@type": "unece:UNCL7273Code",
+            "rdfs:comment": "Sealing up of the container is to be checked.",
+            "rdfs:label": "Check seals",
+            "rdf:value": "34"
+        },
+        {
+            "@id": "uncl7273:35",
+            "@type": "unece:UNCL7273Code",
+            "rdfs:comment": "Container is to be released or delivered clean.",
+            "rdfs:label": "Container must be clean",
+            "rdf:value": "35"
+        },
+        {
+            "@id": "uncl7273:36",
+            "@type": "unece:UNCL7273Code",
+            "rdfs:comment": "The service provider is requested to provide proof of delivery.",
+            "rdfs:label": "Request for proof of delivery",
+            "rdf:value": "36"
+        },
+        {
+            "@id": "uncl7273:37",
+            "@type": "unece:UNCL7273Code",
+            "rdfs:comment": "The service provider is requested to perform Customs procedure.",
+            "rdfs:label": "Request for Customs procedure",
+            "rdf:value": "37"
+        },
+        {
+            "@id": "uncl7273:38",
+            "@type": "unece:UNCL7273Code",
+            "rdfs:comment": "The service provider is requested to perform administration services.",
+            "rdfs:label": "Request for administration services",
+            "rdf:value": "38"
+        },
+        {
+            "@id": "uncl7273:39",
+            "@type": "unece:UNCL7273Code",
+            "rdfs:comment": "Insulated transport under Intercontainer INTERFRIGO (joint European railways agreement) conditions.",
+            "rdfs:label": "Transport insulated under Intercontainer INTERFRIGO conditions",
+            "rdf:value": "39"
+        },
+        {
+            "@id": "uncl7273:40",
+            "@type": "unece:UNCL7273Code",
+            "rdfs:comment": "Mechanically refrigerated transport under Intercontainer INTERFRIGO (joint European railways agreement) conditions.",
+            "rdfs:label": "Transport mechanically refrigerated under Intercontainer INTERFRIGO conditions",
+            "rdf:value": "40"
+        },
+        {
+            "@id": "uncl7273:41",
+            "@type": "unece:UNCL7273Code",
+            "rdfs:comment": "Cool or freeze service not under Intercontainer INTERFRIGO (joint European railways agreement) conditions.",
+            "rdfs:label": "Cool or freeze service, not under Intercontainer INTERFRIGO conditions",
+            "rdf:value": "41"
+        },
+        {
+            "@id": "uncl7273:42",
+            "@type": "unece:UNCL7273Code",
+            "rdfs:comment": "Transport equipment is to be transferred overseas.",
+            "rdfs:label": "Transhipment overseas",
+            "rdf:value": "42"
+        },
+        {
+            "@id": "uncl7273:43",
+            "@type": "unece:UNCL7273Code",
+            "rdfs:comment": "The specified equipment destination station is also the place of delivery of the goods.",
+            "rdfs:label": "Station delivery",
+            "rdf:value": "43"
+        },
+        {
+            "@id": "uncl7273:44",
+            "@type": "unece:UNCL7273Code",
+            "rdfs:comment": "The specified equipment destination station is not the place of delivery of the goods.",
+            "rdfs:label": "Non station delivery",
+            "rdf:value": "44"
+        },
+        {
+            "@id": "uncl7273:45",
+            "@type": "unece:UNCL7273Code",
+            "rdfs:comment": "The service required is cleaning or disinfection.",
+            "rdfs:label": "Cleaning or disinfecting",
+            "rdf:value": "45"
+        },
+        {
+            "@id": "uncl7273:46",
+            "@type": "unece:UNCL7273Code",
+            "rdfs:comment": "The ventilation valve of the equipment must be closed.",
+            "rdfs:label": "Close ventilation valve",
+            "rdf:value": "46"
+        },
+        {
+            "@id": "uncl7273:47",
+            "@type": "unece:UNCL7273Code",
+            "rdfs:comment": "The consignment is to be held until it is picked up.",
+            "rdfs:label": "Consignment held for pick-up",
+            "rdf:value": "47"
+        },
+        {
+            "@id": "uncl7273:48",
+            "@type": "unece:UNCL7273Code",
+            "rdfs:comment": "Refrigeration unit has to be checked.",
+            "rdfs:label": "Refrigeration unit check",
+            "rdf:value": "48"
+        },
+        {
+            "@id": "uncl7273:49",
+            "@type": "unece:UNCL7273Code",
+            "rdfs:comment": "The carrier is to arrange customs clearance in the arrival country.",
+            "rdfs:label": "Customs clearance at arrival country by carrier",
+            "rdf:value": "49"
+        },
+        {
+            "@id": "uncl7273:50",
+            "@type": "unece:UNCL7273Code",
+            "rdfs:comment": "The carrier is to arrange customs clearance in the departure country.",
+            "rdfs:label": "Customs clearance at departure country by carrier",
+            "rdf:value": "50"
+        },
+        {
+            "@id": "uncl7273:51",
+            "@type": "unece:UNCL7273Code",
+            "rdfs:comment": "Heating for live animals has to be provided.",
+            "rdfs:label": "Heating for live animals",
+            "rdf:value": "51"
+        },
+        {
+            "@id": "uncl7273:52",
+            "@type": "unece:UNCL7273Code",
+            "rdfs:comment": "Humidification of the goods has to be performed.",
+            "rdfs:label": "Goods humidification",
+            "rdf:value": "52"
+        },
+        {
+            "@id": "uncl7273:53",
+            "@type": "unece:UNCL7273Code",
+            "rdfs:comment": "The load must be checked for correct stowage.",
+            "rdfs:label": "Ensure load is secure",
+            "rdf:value": "53"
+        },
+        {
+            "@id": "uncl7273:54",
+            "@type": "unece:UNCL7273Code",
+            "rdfs:comment": "The ventilation valve of the equipment must be opened.",
+            "rdfs:label": "Open ventilation valve",
+            "rdf:value": "54"
+        },
+        {
+            "@id": "uncl7273:55",
+            "@type": "unece:UNCL7273Code",
+            "rdfs:comment": "Phytosanitary control to be performed.",
+            "rdfs:label": "Phytosanitary control",
+            "rdf:value": "55"
+        },
+        {
+            "@id": "uncl7273:56",
+            "@type": "unece:UNCL7273Code",
+            "rdfs:comment": "Carrier must check the tare of the equipment and attached items.",
+            "rdfs:label": "Tare check by carrier",
+            "rdf:value": "56"
+        },
+        {
+            "@id": "uncl7273:57",
+            "@type": "unece:UNCL7273Code",
+            "rdfs:comment": "The temperature must be checked.",
+            "rdfs:label": "Temperature check",
+            "rdf:value": "57"
+        },
+        {
+            "@id": "uncl7273:58",
+            "@type": "unece:UNCL7273Code",
+            "rdfs:comment": "The goods have to be weighed.",
+            "rdfs:label": "Weighing of goods",
+            "rdf:value": "58"
+        },
+        {
+            "@id": "uncl7273:59",
+            "@type": "unece:UNCL7273Code",
+            "rdfs:comment": "An escort is required.",
+            "rdfs:label": "Escort",
+            "rdf:value": "59"
+        },
+        {
+            "@id": "uncl7273:60",
+            "@type": "unece:UNCL7273Code",
+            "rdfs:comment": "An escort is not required.",
+            "rdfs:label": "No escort",
+            "rdf:value": "60"
+        },
+        {
+            "@id": "uncl7273:61",
+            "@type": "unece:UNCL7273Code",
+            "rdfs:comment": "Request for berthing services at a specific berth in the port area.",
+            "rdfs:label": "Request for berthing services",
+            "rdf:value": "61"
+        },
+        {
+            "@id": "uncl7273:62",
+            "@type": "unece:UNCL7273Code",
+            "rdfs:comment": "Request to take into account the planned next berth(s) in the port area.",
+            "rdfs:label": "Request for planned berth consideration",
+            "rdf:value": "62"
+        },
+        {
+            "@id": "uncl7273:63",
+            "@type": "unece:UNCL7273Code",
+            "rdfs:comment": "Request for passing services through port area for an inbound voyage (from sea to hinterland) without requesting berth in the port area.",
+            "rdfs:label": "Request for inbound passing services through port area",
+            "rdf:value": "63"
+        },
+        {
+            "@id": "uncl7273:64",
+            "@type": "unece:UNCL7273Code",
+            "rdfs:comment": "Request for passing services through port area for an outbound voyage (from hinterland to sea) without requesting berth in the port area.",
+            "rdfs:label": "Request for outbound passing services through port area",
+            "rdf:value": "64"
+        },
+        {
+            "@id": "uncl7273:65",
+            "@type": "unece:UNCL7273Code",
+            "rdfs:comment": "No specific delivery services required other then the agreed.",
+            "rdfs:label": "Neutral delivery",
+            "rdf:value": "65"
+        },
+        {
+            "@id": "uncl7273:66",
+            "@type": "unece:UNCL7273Code",
+            "rdfs:comment": "Delivery which should take place early on a specified date.",
+            "rdfs:label": "Early delivery",
+            "rdf:value": "66"
+        }
+    ]
+}

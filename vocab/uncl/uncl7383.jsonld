@@ -1,0 +1,242 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl7383": "https://dmvc7xzscpizo.cloudfront.net/uncl7383#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl7383:1S",
+            "@type": "unece:UNCL7383Code",
+            "rdfs:comment": "The location is side one.",
+            "rdfs:label": "Side one",
+            "rdf:value": "1S"
+        },
+        {
+            "@id": "uncl7383:2S",
+            "@type": "unece:UNCL7383Code",
+            "rdfs:comment": "The location is side two.",
+            "rdfs:label": "Side two",
+            "rdf:value": "2S"
+        },
+        {
+            "@id": "uncl7383:AA",
+            "@type": "unece:UNCL7383Code",
+            "rdfs:comment": "To indicate that the entity being specified is on the surface.",
+            "rdfs:label": "On surface",
+            "rdf:value": "AA"
+        },
+        {
+            "@id": "uncl7383:AB",
+            "@type": "unece:UNCL7383Code",
+            "rdfs:comment": "To indicate that the entity being specified is off the surface.",
+            "rdfs:label": "Off surface",
+            "rdf:value": "AB"
+        },
+        {
+            "@id": "uncl7383:AC",
+            "@type": "unece:UNCL7383Code",
+            "rdfs:comment": "Specifies that the surface/layer/position being described is the soluble portion.",
+            "rdfs:label": "Soluble",
+            "rdf:value": "AC"
+        },
+        {
+            "@id": "uncl7383:AD",
+            "@type": "unece:UNCL7383Code",
+            "rdfs:comment": "The surface or layer of the product being described is the opposite corners.",
+            "rdfs:label": "Opposite corners",
+            "rdf:value": "AD"
+        },
+        {
+            "@id": "uncl7383:AE",
+            "@type": "unece:UNCL7383Code",
+            "rdfs:comment": "The surface or layer of the product being described are the corner diagonals.",
+            "rdfs:label": "Corner Diagonals",
+            "rdf:value": "AE"
+        },
+        {
+            "@id": "uncl7383:AF",
+            "@type": "unece:UNCL7383Code",
+            "rdfs:comment": "The left-hand side (looking forward) of a ship, boat or aircraft.",
+            "rdfs:label": "Port",
+            "rdf:value": "AF"
+        },
+        {
+            "@id": "uncl7383:AG",
+            "@type": "unece:UNCL7383Code",
+            "rdfs:comment": "The right-hand side (looking forward) of a ship, boat or aircraft.",
+            "rdfs:label": "Starboard",
+            "rdf:value": "AG"
+        },
+        {
+            "@id": "uncl7383:AH",
+            "@type": "unece:UNCL7383Code",
+            "rdfs:comment": "Surface of a tooth directed toward the face and opposite the lingual surface.",
+            "rdfs:label": "Tooth facial surface",
+            "rdf:value": "AH"
+        },
+        {
+            "@id": "uncl7383:AI",
+            "@type": "unece:UNCL7383Code",
+            "rdfs:comment": "Surface of the tooth relating to the cutting edge of the anterior teeth, incisors or canines.",
+            "rdfs:label": "Tooth incisal surface",
+            "rdf:value": "AI"
+        },
+        {
+            "@id": "uncl7383:AJ",
+            "@type": "unece:UNCL7383Code",
+            "rdfs:comment": "Surface of the tooth toward the back of the dental arch, or away from the midline.",
+            "rdfs:label": "Tooth distal surface",
+            "rdf:value": "AJ"
+        },
+        {
+            "@id": "uncl7383:AK",
+            "@type": "unece:UNCL7383Code",
+            "rdfs:comment": "Surface of the tooth pertaining to or around the cheek.",
+            "rdfs:label": "Tooth buccal surface",
+            "rdf:value": "AK"
+        },
+        {
+            "@id": "uncl7383:AL",
+            "@type": "unece:UNCL7383Code",
+            "rdfs:comment": "Surface of the tooth pertaining to the masticating surfaces of the posterior teeth.",
+            "rdfs:label": "Tooth occlusal surface",
+            "rdf:value": "AL"
+        },
+        {
+            "@id": "uncl7383:AM",
+            "@type": "unece:UNCL7383Code",
+            "rdfs:comment": "Surface of the tooth pertaining to or around the tongue.",
+            "rdfs:label": "Tooth lingual surface",
+            "rdf:value": "AM"
+        },
+        {
+            "@id": "uncl7383:AN",
+            "@type": "unece:UNCL7383Code",
+            "rdfs:comment": "Surface of the tooth toward the midline of the dental arch.",
+            "rdfs:label": "Tooth mesial surface",
+            "rdf:value": "AN"
+        },
+        {
+            "@id": "uncl7383:BC",
+            "@type": "unece:UNCL7383Code",
+            "rdfs:comment": "The location is at the back of the cab.",
+            "rdfs:label": "Back of cab",
+            "rdf:value": "BC"
+        },
+        {
+            "@id": "uncl7383:BS",
+            "@type": "unece:UNCL7383Code",
+            "rdfs:comment": "The location is both sides.",
+            "rdfs:label": "Both sides",
+            "rdf:value": "BS"
+        },
+        {
+            "@id": "uncl7383:BT",
+            "@type": "unece:UNCL7383Code",
+            "rdfs:comment": "The location is on the bottom.",
+            "rdfs:label": "Bottom",
+            "rdf:value": "BT"
+        },
+        {
+            "@id": "uncl7383:DF",
+            "@type": "unece:UNCL7383Code",
+            "rdfs:comment": "The location is in the dual fuel tank positions.",
+            "rdfs:label": "Dual fuel tank positions",
+            "rdf:value": "DF"
+        },
+        {
+            "@id": "uncl7383:FR",
+            "@type": "unece:UNCL7383Code",
+            "rdfs:comment": "The location is in the front.",
+            "rdfs:label": "Front",
+            "rdf:value": "FR"
+        },
+        {
+            "@id": "uncl7383:IN",
+            "@type": "unece:UNCL7383Code",
+            "rdfs:comment": "The location is in the inside.",
+            "rdfs:label": "Inside",
+            "rdf:value": "IN"
+        },
+        {
+            "@id": "uncl7383:LE",
+            "@type": "unece:UNCL7383Code",
+            "rdfs:comment": "The location is on the left.",
+            "rdfs:label": "Left",
+            "rdf:value": "LE"
+        },
+        {
+            "@id": "uncl7383:OA",
+            "@type": "unece:UNCL7383Code",
+            "rdfs:comment": "The location is overall.",
+            "rdfs:label": "Overall",
+            "rdf:value": "OA"
+        },
+        {
+            "@id": "uncl7383:OS",
+            "@type": "unece:UNCL7383Code",
+            "rdfs:comment": "The location is on one side.",
+            "rdfs:label": "One side",
+            "rdf:value": "OS"
+        },
+        {
+            "@id": "uncl7383:OT",
+            "@type": "unece:UNCL7383Code",
+            "rdfs:comment": "The location is on the outside.",
+            "rdfs:label": "Outside",
+            "rdf:value": "OT"
+        },
+        {
+            "@id": "uncl7383:RI",
+            "@type": "unece:UNCL7383Code",
+            "rdfs:comment": "The location is on the right.",
+            "rdfs:label": "Right",
+            "rdf:value": "RI"
+        },
+        {
+            "@id": "uncl7383:RR",
+            "@type": "unece:UNCL7383Code",
+            "rdfs:comment": "The location is in the rear.",
+            "rdfs:label": "Rear",
+            "rdf:value": "RR"
+        },
+        {
+            "@id": "uncl7383:ST",
+            "@type": "unece:UNCL7383Code",
+            "rdfs:comment": "The location is the spare tyre position.",
+            "rdfs:label": "Spare tyre position",
+            "rdf:value": "ST"
+        },
+        {
+            "@id": "uncl7383:TB",
+            "@type": "unece:UNCL7383Code",
+            "rdfs:comment": "The location is at the tank bottom.",
+            "rdfs:label": "Tank bottom",
+            "rdf:value": "TB"
+        },
+        {
+            "@id": "uncl7383:TP",
+            "@type": "unece:UNCL7383Code",
+            "rdfs:comment": "The location is on the top.",
+            "rdfs:label": "Top",
+            "rdf:value": "TP"
+        },
+        {
+            "@id": "uncl7383:TS",
+            "@type": "unece:UNCL7383Code",
+            "rdfs:comment": "The location is on two sides.",
+            "rdfs:label": "Two sides",
+            "rdf:value": "TS"
+        },
+        {
+            "@id": "uncl7383:UC",
+            "@type": "unece:UNCL7383Code",
+            "rdfs:comment": "The location is under the cab.",
+            "rdfs:label": "Under cab",
+            "rdf:value": "UC"
+        }
+    ]
+}

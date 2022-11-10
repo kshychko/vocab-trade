@@ -1,0 +1,60 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl3077": "https://dmvc7xzscpizo.cloudfront.net/uncl3077#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl3077:1",
+            "@type": "unece:UNCL3077Code",
+            "rdfs:comment": "Specifies the medium being tested is an animal.",
+            "rdfs:label": "Animal",
+            "rdf:value": "1"
+        },
+        {
+            "@id": "uncl3077:2",
+            "@type": "unece:UNCL3077Code",
+            "rdfs:comment": "Specifies the medium being tested is a human.",
+            "rdfs:label": "Human",
+            "rdf:value": "2"
+        },
+        {
+            "@id": "uncl3077:3",
+            "@type": "unece:UNCL3077Code",
+            "rdfs:comment": "Specifies that the medium being tested is the sulphide component.",
+            "rdfs:label": "Sulphide",
+            "rdf:value": "3"
+        },
+        {
+            "@id": "uncl3077:4",
+            "@type": "unece:UNCL3077Code",
+            "rdfs:comment": "Specifies that the medium being tested is the aluminate component.",
+            "rdfs:label": "Aluminate",
+            "rdf:value": "4"
+        },
+        {
+            "@id": "uncl3077:5",
+            "@type": "unece:UNCL3077Code",
+            "rdfs:comment": "Specifies that the medium being tested is the silicate component.",
+            "rdfs:label": "Silicate",
+            "rdf:value": "5"
+        },
+        {
+            "@id": "uncl3077:6",
+            "@type": "unece:UNCL3077Code",
+            "rdfs:comment": "Specifies that the medium being tested is the oxide component.",
+            "rdfs:label": "Oxide",
+            "rdf:value": "6"
+        },
+        {
+            "@id": "uncl3077:ZZZ",
+            "@type": "unece:UNCL3077Code",
+            "rdfs:comment": "A code assigned within a code list whose meaning is agreed among partners to be used on an interim basis until a precise code can be assigned to the code list.",
+            "rdfs:label": "Mutually defined",
+            "rdf:value": "ZZZ"
+        }
+    ]
+}

@@ -1,0 +1,746 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl5387": "https://dmvc7xzscpizo.cloudfront.net/uncl5387#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl5387:AAA",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "Code identifying a reference price.",
+            "rdfs:label": "Reference price",
+            "rdf:value": "AAA"
+        },
+        {
+            "@id": "uncl5387:AAB",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "Code specifying that the price is inclusive of tax.",
+            "rdfs:label": "Price includes tax",
+            "rdf:value": "AAB"
+        },
+        {
+            "@id": "uncl5387:AAC",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "The suggested retail price as suggested or determined by the party purchasing the goods.",
+            "rdfs:label": "Buyer suggested retail price",
+            "rdf:value": "AAC"
+        },
+        {
+            "@id": "uncl5387:AAD",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "The charges imposed by the ocean transportation industry above and beyond the basic freight.",
+            "rdfs:label": "Ocean charges rate",
+            "rdf:value": "AAD"
+        },
+        {
+            "@id": "uncl5387:AAE",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "Not subject to escalation or adjustment.",
+            "rdfs:label": "Not subject to fluctuation",
+            "rdf:value": "AAE"
+        },
+        {
+            "@id": "uncl5387:AAF",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "Subject to increase or development by successive stages.",
+            "rdfs:label": "Subject to escalation",
+            "rdf:value": "AAF"
+        },
+        {
+            "@id": "uncl5387:AAG",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "Code specifying that the price is subject to adjustment.",
+            "rdfs:label": "Subject to price adjustment",
+            "rdf:value": "AAG"
+        },
+        {
+            "@id": "uncl5387:AAH",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "Subject to increase or development by successive stages and price adjustment.",
+            "rdfs:label": "Subject to escalation and price adjustment",
+            "rdf:value": "AAH"
+        },
+        {
+            "@id": "uncl5387:AAI",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "Code specifying that the fluctuation conditions are not identified.",
+            "rdfs:label": "Fluctuation conditions not specified",
+            "rdf:value": "AAI"
+        },
+        {
+            "@id": "uncl5387:AAJ",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "Firm price for specified work.",
+            "rdfs:label": "All in price",
+            "rdf:value": "AAJ"
+        },
+        {
+            "@id": "uncl5387:AAK",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "A price valid from an effective date/time/period.",
+            "rdfs:label": "New price",
+            "rdf:value": "AAK"
+        },
+        {
+            "@id": "uncl5387:AAL",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "A price valid prior to an effective date/time/period of a new price.",
+            "rdfs:label": "Old price",
+            "rdf:value": "AAL"
+        },
+        {
+            "@id": "uncl5387:AAM",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "To indicate that the given price applies per week.",
+            "rdfs:label": "Per week",
+            "rdf:value": "AAM"
+        },
+        {
+            "@id": "uncl5387:AAN",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "Price can be obtained on request from seller.",
+            "rdfs:label": "Price on application",
+            "rdf:value": "AAN"
+        },
+        {
+            "@id": "uncl5387:AAO",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "The price given is the price of the item without packaging.",
+            "rdfs:label": "Unpacked price",
+            "rdf:value": "AAO"
+        },
+        {
+            "@id": "uncl5387:AAP",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "Discount price available to all customers except the retail customer.",
+            "rdfs:label": "Trade price",
+            "rdf:value": "AAP"
+        },
+        {
+            "@id": "uncl5387:AAQ",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "Price which will remain unchanged for a given time period.",
+            "rdfs:label": "Firm price",
+            "rdf:value": "AAQ"
+        },
+        {
+            "@id": "uncl5387:AAR",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "The per unit cost of referenced material based on a given quotation for that material.",
+            "rdfs:label": "Material share of item price",
+            "rdf:value": "AAR"
+        },
+        {
+            "@id": "uncl5387:AAS",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "The labour component of the per-unit item price.",
+            "rdfs:label": "Labour share of item price",
+            "rdf:value": "AAS"
+        },
+        {
+            "@id": "uncl5387:AAT",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "The transport component of the per-unit item price.",
+            "rdfs:label": "Transport share of item price",
+            "rdf:value": "AAT"
+        },
+        {
+            "@id": "uncl5387:AAU",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "The packing component of the per-unit item price.",
+            "rdfs:label": "Packing share of item price",
+            "rdf:value": "AAU"
+        },
+        {
+            "@id": "uncl5387:AAV",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "The tooling component of the per-unit item price.",
+            "rdfs:label": "Tooling share of item price",
+            "rdf:value": "AAV"
+        },
+        {
+            "@id": "uncl5387:AAW",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "The component of a price charged for providing a temporary vehicle.",
+            "rdfs:label": "Temporary vehicle charge",
+            "rdf:value": "AAW"
+        },
+        {
+            "@id": "uncl5387:AAX",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "This is the component of the price which is charged due to interest.",
+            "rdfs:label": "Price component due to interest",
+            "rdf:value": "AAX"
+        },
+        {
+            "@id": "uncl5387:AAY",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "This is the component of the price which is charged due to management services rendered.",
+            "rdfs:label": "Price component due to management services",
+            "rdf:value": "AAY"
+        },
+        {
+            "@id": "uncl5387:AAZ",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "This is the component of the price which is charged due to maintenance.",
+            "rdfs:label": "Price component due to maintenance",
+            "rdf:value": "AAZ"
+        },
+        {
+            "@id": "uncl5387:ABA",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "A price which is available to an individual buyer as opposed to an institutional buyer.",
+            "rdfs:label": "Individual buyer price",
+            "rdf:value": "ABA"
+        },
+        {
+            "@id": "uncl5387:ABB",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "A price which is available to a buying group.",
+            "rdfs:label": "Group buying price",
+            "rdf:value": "ABB"
+        },
+        {
+            "@id": "uncl5387:ABC",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "A special price given to a member of a buying group.",
+            "rdfs:label": "Group member buying price",
+            "rdf:value": "ABC"
+        },
+        {
+            "@id": "uncl5387:ABD",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "A special price if pre-payment is made for the article ordered.",
+            "rdfs:label": "Pre-payment price",
+            "rdf:value": "ABD"
+        },
+        {
+            "@id": "uncl5387:ABE",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "Retail price not including any applicable taxes.",
+            "rdfs:label": "Retail price - excluding taxes",
+            "rdf:value": "ABE"
+        },
+        {
+            "@id": "uncl5387:ABF",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "Suggested retail price not including any applicable taxes.",
+            "rdfs:label": "Suggested retail price - excluding taxes",
+            "rdf:value": "ABF"
+        },
+        {
+            "@id": "uncl5387:ABG",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "The minimum price agreed between trading partners.",
+            "rdfs:label": "Agreed minimum price",
+            "rdf:value": "ABG"
+        },
+        {
+            "@id": "uncl5387:ABH",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "The legal minimum retail price.",
+            "rdfs:label": "Statutory minimum retail price",
+            "rdf:value": "ABH"
+        },
+        {
+            "@id": "uncl5387:ABI",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "A code to indicate that the price represents the reimbursement of the actual costs incurred.",
+            "rdfs:label": "Cost reimbursement price",
+            "rdf:value": "ABI"
+        },
+        {
+            "@id": "uncl5387:ABJ",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "A code to indicate that the given price is applicable under normal competitive conditions.",
+            "rdfs:label": "Market price",
+            "rdf:value": "ABJ"
+        },
+        {
+            "@id": "uncl5387:ABK",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "A code to indicate that the price mentioned has been submitted in the context of an open tender.",
+            "rdfs:label": "Open tender price",
+            "rdf:value": "ABK"
+        },
+        {
+            "@id": "uncl5387:ABL",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "The base price of a product or service.",
+            "rdfs:label": "Base price",
+            "rdf:value": "ABL"
+        },
+        {
+            "@id": "uncl5387:ABM",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "The difference in price against a base price.",
+            "rdfs:label": "Base price difference",
+            "rdf:value": "ABM"
+        },
+        {
+            "@id": "uncl5387:ABN",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "A price which can be adjusted due to economic conditions between the date of offer and the date of acceptance.",
+            "rdfs:label": "Adjustable price prior to acceptance",
+            "rdf:value": "ABN"
+        },
+        {
+            "@id": "uncl5387:ABO",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "A price which can be revised due to economic conditions between the date of acceptance of the order and the date of delivery.",
+            "rdfs:label": "Revisable price after acceptance",
+            "rdf:value": "ABO"
+        },
+        {
+            "@id": "uncl5387:ABP",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "A provisional price which cannot be exceeded.",
+            "rdfs:label": "Provisional ceiling price",
+            "rdf:value": "ABP"
+        },
+        {
+            "@id": "uncl5387:ABQ",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "A provisional price which cannot be exceeded but which can be adjusted due to economic conditions between the date of offer and the date of acceptance.",
+            "rdfs:label": "Adjustable provisional ceiling price",
+            "rdf:value": "ABQ"
+        },
+        {
+            "@id": "uncl5387:ABR",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "A provisional price which cannot be exceeded but is revisable due to economic conditions between the date of acceptance of the order through to the date of delivery.",
+            "rdfs:label": "Revisable provisional ceiling price",
+            "rdf:value": "ABR"
+        },
+        {
+            "@id": "uncl5387:ABS",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "A provisional price which is revisable due to economic conditions between the date of acceptance of the order and the date of delivery.",
+            "rdfs:label": "Revisable provisional price",
+            "rdf:value": "ABS"
+        },
+        {
+            "@id": "uncl5387:ABT",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "A provisional price which is adjustable due to economic conditions between the date of offer and the date of acceptance.",
+            "rdfs:label": "Adjustable provisional price",
+            "rdf:value": "ABT"
+        },
+        {
+            "@id": "uncl5387:ABU",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "Price connected to a geographical area.",
+            "rdfs:label": "Area price",
+            "rdf:value": "ABU"
+        },
+        {
+            "@id": "uncl5387:ABV",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "A basis price applied to a geographic area.",
+            "rdfs:label": "Area system price",
+            "rdf:value": "ABV"
+        },
+        {
+            "@id": "uncl5387:ABW",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "The price applicable to the power generated as a result of a special balance regulation.",
+            "rdfs:label": "Special balance regulation price",
+            "rdf:value": "ABW"
+        },
+        {
+            "@id": "uncl5387:ABX",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "The price applicable to the power generated as a result of a balance regulation.",
+            "rdfs:label": "Balance regulation price",
+            "rdf:value": "ABX"
+        },
+        {
+            "@id": "uncl5387:ABY",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "The price applicable to the power generated as a result of an upward balance regulation.",
+            "rdfs:label": "Upward balance regulation price",
+            "rdf:value": "ABY"
+        },
+        {
+            "@id": "uncl5387:ABZ",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "The price applicable to the power generated as a result of a downward balance regulation.",
+            "rdfs:label": "Downward balance regulation price",
+            "rdf:value": "ABZ"
+        },
+        {
+            "@id": "uncl5387:ACA",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "The agreed minimum retail price for an article.",
+            "rdfs:label": "Agreed minimum retail price",
+            "rdf:value": "ACA"
+        },
+        {
+            "@id": "uncl5387:ACB",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "The retail price of a product which has been marked on the products packaging.",
+            "rdfs:label": "Marked retail price",
+            "rdf:value": "ACB"
+        },
+        {
+            "@id": "uncl5387:AI",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "Code specifying that price is based on the active ingredient.",
+            "rdfs:label": "Active ingredient",
+            "rdf:value": "AI"
+        },
+        {
+            "@id": "uncl5387:ALT",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "A substitute cost.",
+            "rdfs:label": "Alternate price",
+            "rdf:value": "ALT"
+        },
+        {
+            "@id": "uncl5387:AP",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "Code specifying an advice price.",
+            "rdfs:label": "Advice price",
+            "rdf:value": "AP"
+        },
+        {
+            "@id": "uncl5387:BR",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "Code specifying a broker price.",
+            "rdfs:label": "Broker price",
+            "rdf:value": "BR"
+        },
+        {
+            "@id": "uncl5387:CAT",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "Price per unit of quantity of a product as specified in a catalogue.",
+            "rdfs:label": "Catalogue price",
+            "rdf:value": "CAT"
+        },
+        {
+            "@id": "uncl5387:CDV",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "The present worth of a thing which comes from one's homeland, in terms of money or goods.",
+            "rdfs:label": "Current domestic value",
+            "rdf:value": "CDV"
+        },
+        {
+            "@id": "uncl5387:CON",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "Price per unit of quantity of a product/service as agreed in a contract between parties.",
+            "rdfs:label": "Contract price",
+            "rdf:value": "CON"
+        },
+        {
+            "@id": "uncl5387:CP",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "Price at time of transaction, but subject to future change.",
+            "rdfs:label": "Current price",
+            "rdf:value": "CP"
+        },
+        {
+            "@id": "uncl5387:CU",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "Code specifying that the price is based on consumer unit.",
+            "rdfs:label": "Consumer unit",
+            "rdf:value": "CU"
+        },
+        {
+            "@id": "uncl5387:CUP",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "The value of a single item that proves to be correct.",
+            "rdfs:label": "Confirmed unit price",
+            "rdf:value": "CUP"
+        },
+        {
+            "@id": "uncl5387:CUS",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "A clearly known duty on a single item which is imposed by law.",
+            "rdfs:label": "Declared customs unit value",
+            "rdf:value": "CUS"
+        },
+        {
+            "@id": "uncl5387:DAP",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "The necessary or desirable changes that the sales agency makes with respect to the value of the product.",
+            "rdfs:label": "Dealer adjusted price",
+            "rdf:value": "DAP"
+        },
+        {
+            "@id": "uncl5387:DIS",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "The cost associated with the agency that markets goods.",
+            "rdfs:label": "Distributor price",
+            "rdf:value": "DIS"
+        },
+        {
+            "@id": "uncl5387:DPR",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "A reduction from the usual list value.",
+            "rdfs:label": "Discount price",
+            "rdf:value": "DPR"
+        },
+        {
+            "@id": "uncl5387:DR",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "Code specifying a dealer price.",
+            "rdfs:label": "Dealer price",
+            "rdf:value": "DR"
+        },
+        {
+            "@id": "uncl5387:DSC",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "A certain price up to which one is able to make reductions from the usual list value.",
+            "rdfs:label": "Discount amount allowed",
+            "rdf:value": "DSC"
+        },
+        {
+            "@id": "uncl5387:EC",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "Price registered at European Commission Steel and Carbon office (DG III).",
+            "rdfs:label": "ECSC price",
+            "rdf:value": "EC"
+        },
+        {
+            "@id": "uncl5387:ES",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "Code specifying an estimated price.",
+            "rdfs:label": "Estimated price",
+            "rdf:value": "ES"
+        },
+        {
+            "@id": "uncl5387:EUP",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "The anticipated value of a single item.",
+            "rdfs:label": "Expected unit price",
+            "rdf:value": "EUP"
+        },
+        {
+            "@id": "uncl5387:FCR",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "The price that is either a freight rate or a rate on which freight charges are calculated.",
+            "rdfs:label": "Freight/charge rate",
+            "rdf:value": "FCR"
+        },
+        {
+            "@id": "uncl5387:GRP",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "Unit price to which allowances and charges apply.",
+            "rdfs:label": "Gross unit price",
+            "rdf:value": "GRP"
+        },
+        {
+            "@id": "uncl5387:INV",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "Price per unit of quantity of a product as specified on an invoice.",
+            "rdfs:label": "Invoice price",
+            "rdf:value": "INV"
+        },
+        {
+            "@id": "uncl5387:LBL",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "Retail price of the buyer that should be printed by the producer on the article's label. The labelling price is not necessary the effective retail price.",
+            "rdfs:label": "Labelling price",
+            "rdf:value": "LBL"
+        },
+        {
+            "@id": "uncl5387:MAX",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "The greatest amount of goods or services which one can buy to receive a certain value.",
+            "rdfs:label": "Maximum order quantity price",
+            "rdf:value": "MAX"
+        },
+        {
+            "@id": "uncl5387:MIN",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "The least amount of goods or services that one can buy to receive a certain value.",
+            "rdfs:label": "Minimum order quantity price",
+            "rdf:value": "MIN"
+        },
+        {
+            "@id": "uncl5387:MNR",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "The least amount of an order one can place in order to receive a certain value.",
+            "rdfs:label": "Minimum release quantity price",
+            "rdf:value": "MNR"
+        },
+        {
+            "@id": "uncl5387:MSR",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "Price that reflects \"Sales to other manufacturers\" or \"Sales for resale\".",
+            "rdfs:label": "Manufacturer's suggested retail",
+            "rdf:value": "MSR"
+        },
+        {
+            "@id": "uncl5387:MXR",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "The greatest amount of an order that one can place in order to receive a certain value.",
+            "rdfs:label": "Maximum release quantity price",
+            "rdf:value": "MXR"
+        },
+        {
+            "@id": "uncl5387:NE",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "Code specifying a price that cannot be increased.",
+            "rdfs:label": "Not-to-exceed price",
+            "rdf:value": "NE"
+        },
+        {
+            "@id": "uncl5387:NQT",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "No price available.",
+            "rdfs:label": "No quote",
+            "rdf:value": "NQT"
+        },
+        {
+            "@id": "uncl5387:NTP",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "Unit price to which no allowances and charges apply.",
+            "rdfs:label": "Net unit price",
+            "rdf:value": "NTP"
+        },
+        {
+            "@id": "uncl5387:NW",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "Code specifying a net weight price.",
+            "rdfs:label": "Net weight",
+            "rdf:value": "NW"
+        },
+        {
+            "@id": "uncl5387:OFR",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "The price per pricing unit of ocean transportation services for moving cargo from one location to another.",
+            "rdfs:label": "Ocean freight rate",
+            "rdf:value": "OFR"
+        },
+        {
+            "@id": "uncl5387:PAQ",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "Numerical amounts of goods or services which are associated with different sums of money. As the amount goes up, the price per individual item decreases.",
+            "rdfs:label": "Price break quantity(s)",
+            "rdf:value": "PAQ"
+        },
+        {
+            "@id": "uncl5387:PBQ",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "The starting amount at which you can place a value on a single item.",
+            "rdfs:label": "Unit price beginning quantity",
+            "rdf:value": "PBQ"
+        },
+        {
+            "@id": "uncl5387:PPD",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "The cost of shipping is paid before the goods are shipped.",
+            "rdfs:label": "Prepaid freight charges",
+            "rdf:value": "PPD"
+        },
+        {
+            "@id": "uncl5387:PPR",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "Price per unit of quantity of a product as provisionally agreed.",
+            "rdfs:label": "Provisional price",
+            "rdf:value": "PPR"
+        },
+        {
+            "@id": "uncl5387:PRO",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "The value that the maker of a good places on an item.",
+            "rdfs:label": "Producer's price",
+            "rdf:value": "PRO"
+        },
+        {
+            "@id": "uncl5387:PRP",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "The value that is placed on an item that is being developed. The idea is to sell this product for less than one normally would, and make up for it by selling a larger quantity.",
+            "rdfs:label": "Promotional price",
+            "rdf:value": "PRP"
+        },
+        {
+            "@id": "uncl5387:PW",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "Code specifying a gross weight price.",
+            "rdfs:label": "Gross weight",
+            "rdf:value": "PW"
+        },
+        {
+            "@id": "uncl5387:QTE",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "Price per unit of quantity of a product as specified in a quote.",
+            "rdfs:label": "Quote price",
+            "rdf:value": "QTE"
+        },
+        {
+            "@id": "uncl5387:RES",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "Price per unit of quantity of a product to be used for resale.",
+            "rdfs:label": "Resale price",
+            "rdf:value": "RES"
+        },
+        {
+            "@id": "uncl5387:RTP",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "Price per unit of quantity of a product to be used for retail.",
+            "rdfs:label": "Retail price",
+            "rdf:value": "RTP"
+        },
+        {
+            "@id": "uncl5387:SHD",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "To transport goods and be owed money by the customer for the services performed.",
+            "rdfs:label": "Ship and debit",
+            "rdf:value": "SHD"
+        },
+        {
+            "@id": "uncl5387:SRP",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "Price per unit of quantity of a product suggested for retail.",
+            "rdfs:label": "Suggested retail price",
+            "rdf:value": "SRP"
+        },
+        {
+            "@id": "uncl5387:SW",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "Used in steel industry.",
+            "rdfs:label": "Gross weight without wooden pallets",
+            "rdf:value": "SW"
+        },
+        {
+            "@id": "uncl5387:TB",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "Code specifying that the price has to be negotiated.",
+            "rdfs:label": "To be negotiated",
+            "rdf:value": "TB"
+        },
+        {
+            "@id": "uncl5387:TRF",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "To carry or remove from one place, situation, or person to another.",
+            "rdfs:label": "Transfer",
+            "rdf:value": "TRF"
+        },
+        {
+            "@id": "uncl5387:TU",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "Code specifying a traded unit price.",
+            "rdfs:label": "Traded unit",
+            "rdf:value": "TU"
+        },
+        {
+            "@id": "uncl5387:TW",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "Code specifying a price based on a theoretical weight.",
+            "rdfs:label": "Theoretical weight",
+            "rdf:value": "TW"
+        },
+        {
+            "@id": "uncl5387:WH",
+            "@type": "unece:UNCL5387Code",
+            "rdfs:comment": "Code specifying a wholesale price.",
+            "rdfs:label": "Wholesale price",
+            "rdf:value": "WH"
+        }
+    ]
+}

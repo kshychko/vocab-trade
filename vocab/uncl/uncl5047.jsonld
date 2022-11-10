@@ -1,0 +1,60 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl5047": "https://dmvc7xzscpizo.cloudfront.net/uncl5047#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl5047:1",
+            "@type": "unece:UNCL5047Code",
+            "rdfs:comment": "As normally agreed between parties.",
+            "rdfs:label": "Normal",
+            "rdf:value": "1"
+        },
+        {
+            "@id": "uncl5047:2",
+            "@type": "unece:UNCL5047Code",
+            "rdfs:comment": "A contribution not usually made.",
+            "rdfs:label": "Special",
+            "rdf:value": "2"
+        },
+        {
+            "@id": "uncl5047:3",
+            "@type": "unece:UNCL5047Code",
+            "rdfs:comment": "Reversing a previous contribution.",
+            "rdfs:label": "Reversal",
+            "rdf:value": "3"
+        },
+        {
+            "@id": "uncl5047:4",
+            "@type": "unece:UNCL5047Code",
+            "rdfs:comment": "Payment is a period prior to the normal period.",
+            "rdfs:label": "Back payment",
+            "rdf:value": "4"
+        },
+        {
+            "@id": "uncl5047:5",
+            "@type": "unece:UNCL5047Code",
+            "rdfs:comment": "Payment is for a period post the normal period.",
+            "rdfs:label": "Advanced payment",
+            "rdf:value": "5"
+        },
+        {
+            "@id": "uncl5047:6",
+            "@type": "unece:UNCL5047Code",
+            "rdfs:comment": "Payment is irregular as contributions ceased from the specified date.",
+            "rdfs:label": "Ceasing contributions",
+            "rdf:value": "6"
+        },
+        {
+            "@id": "uncl5047:ZZZ",
+            "@type": "unece:UNCL5047Code",
+            "rdfs:comment": "Mutually defined contribution qualifier.",
+            "rdfs:label": "Mutually defined",
+            "rdf:value": "ZZZ"
+        }
+    ]
+}

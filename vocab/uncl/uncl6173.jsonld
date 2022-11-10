@@ -1,0 +1,32 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl6173": "https://dmvc7xzscpizo.cloudfront.net/uncl6173#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl6173:1",
+            "@type": "unece:UNCL6173Code",
+            "rdfs:comment": "The size of a population.",
+            "rdfs:label": "Population size",
+            "rdf:value": "1"
+        },
+        {
+            "@id": "uncl6173:2",
+            "@type": "unece:UNCL6173Code",
+            "rdfs:comment": "The size of the sample within the population size.",
+            "rdfs:label": "Sample size",
+            "rdf:value": "2"
+        },
+        {
+            "@id": "uncl6173:3",
+            "@type": "unece:UNCL6173Code",
+            "rdfs:comment": "The size of the subgroup within the specific sample size.",
+            "rdfs:label": "Subgroup size",
+            "rdf:value": "3"
+        }
+    ]
+}

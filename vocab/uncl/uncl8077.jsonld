@@ -1,0 +1,60 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl8077": "https://dmvc7xzscpizo.cloudfront.net/uncl8077#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl8077:1",
+            "@type": "unece:UNCL8077Code",
+            "rdfs:comment": "The transport equipment is supplied by the shipper.",
+            "rdfs:label": "Shipper supplied",
+            "rdf:value": "1"
+        },
+        {
+            "@id": "uncl8077:2",
+            "@type": "unece:UNCL8077Code",
+            "rdfs:comment": "The transport equipment is supplied by the carrier.",
+            "rdfs:label": "Carrier supplied",
+            "rdf:value": "2"
+        },
+        {
+            "@id": "uncl8077:3",
+            "@type": "unece:UNCL8077Code",
+            "rdfs:comment": "The equipment is supplied by the consolidator.",
+            "rdfs:label": "Consolidator supplied",
+            "rdf:value": "3"
+        },
+        {
+            "@id": "uncl8077:4",
+            "@type": "unece:UNCL8077Code",
+            "rdfs:comment": "The equipment is supplied by the deconsolidator.",
+            "rdfs:label": "Deconsolidator supplied",
+            "rdf:value": "4"
+        },
+        {
+            "@id": "uncl8077:5",
+            "@type": "unece:UNCL8077Code",
+            "rdfs:comment": "The equipment is supplied by a third party.",
+            "rdfs:label": "Third party supplied",
+            "rdf:value": "5"
+        },
+        {
+            "@id": "uncl8077:6",
+            "@type": "unece:UNCL8077Code",
+            "rdfs:comment": "The equipment is supplied by the forwarder and is taken from a leasing company.",
+            "rdfs:label": "Forwarder supplied from a leasing company",
+            "rdf:value": "6"
+        },
+        {
+            "@id": "uncl8077:7",
+            "@type": "unece:UNCL8077Code",
+            "rdfs:comment": "The equipment is supplied by the forwarder and is taken from a pool established by railway companies.",
+            "rdfs:label": "Forwarder supplied from the railways' pool",
+            "rdf:value": "7"
+        }
+    ]
+}

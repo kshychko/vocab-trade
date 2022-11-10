@@ -1,0 +1,39 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl9031": "https://dmvc7xzscpizo.cloudfront.net/uncl9031#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl9031:1",
+            "@type": "unece:UNCL9031Code",
+            "rdfs:comment": "The associated edit mask is represented as a COBOL picture statement.",
+            "rdfs:label": "COBOL picture",
+            "rdf:value": "1"
+        },
+        {
+            "@id": "uncl9031:2",
+            "@type": "unece:UNCL9031Code",
+            "rdfs:comment": "The associated edit mask is represented as a C 'printf' format.",
+            "rdfs:label": "C printf",
+            "rdf:value": "2"
+        },
+        {
+            "@id": "uncl9031:3",
+            "@type": "unece:UNCL9031Code",
+            "rdfs:comment": "The associated edit mask is represented as a FORTRAN format statement.",
+            "rdfs:label": "FORTRAN format",
+            "rdf:value": "3"
+        },
+        {
+            "@id": "uncl9031:4",
+            "@type": "unece:UNCL9031Code",
+            "rdfs:comment": "The associated edit mask is represented as a Unix(tm) regular expression.",
+            "rdfs:label": "Unix(tm) regular expression",
+            "rdf:value": "4"
+        }
+    ]
+}

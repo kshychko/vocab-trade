@@ -1,0 +1,39 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl8339": "https://dmvc7xzscpizo.cloudfront.net/uncl8339#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl8339:1",
+            "@type": "unece:UNCL8339Code",
+            "rdfs:comment": "Packaging meeting criteria to pack hazardous materials with great danger. Group I according to IATA/IMDG/ADR/RID regulations.",
+            "rdfs:label": "Great danger",
+            "rdf:value": "1"
+        },
+        {
+            "@id": "uncl8339:2",
+            "@type": "unece:UNCL8339Code",
+            "rdfs:comment": "Packaging meeting criteria to pack hazardous materials with medium danger. Group II according to IATA/IDMG/ADR/RID regulations.",
+            "rdfs:label": "Medium danger",
+            "rdf:value": "2"
+        },
+        {
+            "@id": "uncl8339:3",
+            "@type": "unece:UNCL8339Code",
+            "rdfs:comment": "Packaging meeting criteria to pack hazardous materials with minor danger. Group III according to IATA/IDMG/ADR/RID regulations.",
+            "rdfs:label": "Minor danger",
+            "rdf:value": "3"
+        },
+        {
+            "@id": "uncl8339:4",
+            "@type": "unece:UNCL8339Code",
+            "rdfs:comment": "No packaging danger level has been assigned.",
+            "rdfs:label": "Not assigned",
+            "rdf:value": "4"
+        }
+    ]
+}

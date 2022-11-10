@@ -1,0 +1,39 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl3083": "https://dmvc7xzscpizo.cloudfront.net/uncl3083#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl3083:1",
+            "@type": "unece:UNCL3083Code",
+            "rdfs:comment": "Medical speciality concerned with diagnosis and treatment of diseases and conditions, which normally do not require surgery.",
+            "rdfs:label": "Internal medicine",
+            "rdf:value": "1"
+        },
+        {
+            "@id": "uncl3083:2",
+            "@type": "unece:UNCL3083Code",
+            "rdfs:comment": "Medical speciality concerned with diagnosis and treatment of diseases and conditions, which normally do require surgery.",
+            "rdfs:label": "Surgery",
+            "rdf:value": "2"
+        },
+        {
+            "@id": "uncl3083:3",
+            "@type": "unece:UNCL3083Code",
+            "rdfs:comment": "Medical speciality concerned with diagnosis and treatment of diseases and conditions of the mind.",
+            "rdfs:label": "Psychiatry",
+            "rdf:value": "3"
+        },
+        {
+            "@id": "uncl3083:4",
+            "@type": "unece:UNCL3083Code",
+            "rdfs:comment": "Medical speciality covering all general areas of medicine.",
+            "rdfs:label": "General medicine",
+            "rdf:value": "4"
+        }
+    ]
+}

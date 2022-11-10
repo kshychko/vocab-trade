@@ -1,0 +1,67 @@
+
+{
+    "@context": {
+        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "uncl9443": "https://dmvc7xzscpizo.cloudfront.net/uncl9443#"
+    },
+    "@graph": [
+        {
+            "@id": "uncl9443:1",
+            "@type": "unece:UNCL9443Code",
+            "rdfs:comment": "Hospital stay from admission into hospital to discharge from hospital.",
+            "rdfs:label": "Hospital stay",
+            "rdf:value": "1"
+        },
+        {
+            "@id": "uncl9443:2",
+            "@type": "unece:UNCL9443Code",
+            "rdfs:comment": "Attendance at a designated rehabilitation care unit.",
+            "rdfs:label": "Designated rehabilitation unit attendance",
+            "rdf:value": "2"
+        },
+        {
+            "@id": "uncl9443:3",
+            "@type": "unece:UNCL9443Code",
+            "rdfs:comment": "Attendance other than those specifically defined.",
+            "rdfs:label": "Other",
+            "rdf:value": "3"
+        },
+        {
+            "@id": "uncl9443:4",
+            "@type": "unece:UNCL9443Code",
+            "rdfs:comment": "Attendance for non-acute care.",
+            "rdfs:label": "Non-acute care attendance",
+            "rdf:value": "4"
+        },
+        {
+            "@id": "uncl9443:5",
+            "@type": "unece:UNCL9443Code",
+            "rdfs:comment": "Attendance in a designated palliative program.",
+            "rdfs:label": "Designated palliative program attendance",
+            "rdf:value": "5"
+        },
+        {
+            "@id": "uncl9443:6",
+            "@type": "unece:UNCL9443Code",
+            "rdfs:comment": "Attendance in a designated rehabilitation program.",
+            "rdfs:label": "Designated rehabilitation program attendance",
+            "rdf:value": "6"
+        },
+        {
+            "@id": "uncl9443:7",
+            "@type": "unece:UNCL9443Code",
+            "rdfs:comment": "Attendance for acute care.",
+            "rdfs:label": "Acute care attendance",
+            "rdf:value": "7"
+        },
+        {
+            "@id": "uncl9443:8",
+            "@type": "unece:UNCL9443Code",
+            "rdfs:comment": "Attendance at a designated palliative unit.",
+            "rdfs:label": "Designated palliative unit attendance",
+            "rdf:value": "8"
+        }
+    ]
+}
