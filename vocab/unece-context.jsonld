@@ -319,6 +319,12 @@
         "applicableKeyword": {
             "@id": "unece:applicableKeyword"
         },
+        "applicableLineTradeAgreement": {
+            "@id": "unece:applicableLineTradeAgreement"
+        },
+        "applicableLineTradeDelivery": {
+            "@id": "unece:applicableLineTradeDelivery"
+        },
         "applicableLocation": {
             "@id": "unece:applicableLocation"
         },
@@ -352,6 +358,9 @@
         "applicableRegulatoryProcedure": {
             "@id": "unece:applicableRegulatoryProcedure"
         },
+        "applicableReturnableAssetInstructions": {
+            "@id": "unece:applicableReturnableAssetInstructions"
+        },
         "applicableServiceCharge": {
             "@id": "unece:applicableServiceCharge"
         },
@@ -375,6 +384,9 @@
         },
         "applicableTransportMeans": {
             "@id": "unece:applicableTransportMeans"
+        },
+        "applicableTransportSettingTemperature": {
+            "@id": "unece:applicableTransportSettingTemperature"
         },
         "applicationSpecifiedParameter": {
             "@id": "unece:applicationSpecifiedParameter"
@@ -445,6 +457,12 @@
         "associatedDocument": {
             "@id": "unece:associatedDocument"
         },
+        "associatedDocumentLineDocument": {
+            "@id": "unece:associatedDocumentLineDocument"
+        },
+        "associatedFinancingRequestResultDocument": {
+            "@id": "unece:associatedFinancingRequestResultDocument"
+        },
         "associatedGeographicalFeature": {
             "@id": "unece:associatedGeographicalFeature"
         },
@@ -486,6 +504,9 @@
         },
         "attachedAssetId": {
             "@id": "unece:attachedAssetId"
+        },
+        "attachedAttachedTransportEquipment": {
+            "@id": "unece:attachedAttachedTransportEquipment"
         },
         "attachedBinaryFile": {
             "@id": "unece:attachedBinaryFile"
@@ -849,6 +870,9 @@
         },
         "catalogueSubscriptionDocument": {
             "@id": "unece:catalogueSubscriptionDocument"
+        },
+        "categoryAppliedTax": {
+            "@id": "unece:categoryAppliedTax"
         },
         "categoryCode": {
             "@id": "unece:categoryCode"
@@ -1441,6 +1465,9 @@
         "definedContact": {
             "@id": "unece:definedContact"
         },
+        "definedOperationalParameter": {
+            "@id": "unece:definedOperationalParameter"
+        },
         "definedParameter": {
             "@id": "unece:definedParameter"
         },
@@ -1488,6 +1515,9 @@
         },
         "deliverySchedule": {
             "@id": "unece:deliverySchedule"
+        },
+        "deliverySupplyChainEvent": {
+            "@id": "unece:deliverySupplyChainEvent"
         },
         "deliveryTermsDeliveryTypeCode": {
             "@id": "unece:deliveryTermsDeliveryTypeCode"
@@ -1675,6 +1705,9 @@
         "emailURICommunication": {
             "@id": "unece:emailURICommunication"
         },
+        "emailURIEmailCommunication": {
+            "@id": "unece:emailURIEmailCommunication"
+        },
         "embarkationLocation": {
             "@id": "unece:embarkationLocation"
         },
@@ -1830,6 +1863,9 @@
         },
         "faxCommunication": {
             "@id": "unece:faxCommunication"
+        },
+        "faxTelecommunicationCommunication": {
+            "@id": "unece:faxTelecommunicationCommunication"
         },
         "fedwireRoutingNumberId": {
             "@id": "unece:fedwireRoutingNumberId"
@@ -3391,6 +3427,9 @@
         "previousDeliveryEvent": {
             "@id": "unece:previousDeliveryEvent"
         },
+        "previousDeliveryTransportEvent": {
+            "@id": "unece:previousDeliveryTransportEvent"
+        },
         "previousDocument": {
             "@id": "unece:previousDocument"
         },
@@ -3534,6 +3573,9 @@
         },
         "providerParty": {
             "@id": "unece:providerParty"
+        },
+        "providerTradeParty": {
+            "@id": "unece:providerTradeParty"
         },
         "publicationDateTime": {
             "@id": "unece:publicationDateTime"
@@ -4306,14 +4348,29 @@
         "specifiedAdjustment": {
             "@id": "unece:specifiedAdjustment"
         },
+        "specifiedAdvancePayment": {
+            "@id": "unece:specifiedAdvancePayment"
+        },
         "specifiedAllowanceCharge": {
             "@id": "unece:specifiedAllowanceCharge"
+        },
+        "specifiedAuthoritativeSignatoryPerson": {
+            "@id": "unece:specifiedAuthoritativeSignatoryPerson"
+        },
+        "specifiedCancellationStatus": {
+            "@id": "unece:specifiedCancellationStatus"
         },
         "specifiedCertificate": {
             "@id": "unece:specifiedCertificate"
         },
         "specifiedCustomsProcedure": {
             "@id": "unece:specifiedCustomsProcedure"
+        },
+        "specifiedDebtorFinancialAccount": {
+            "@id": "unece:specifiedDebtorFinancialAccount"
+        },
+        "specifiedDeliveryInstructions": {
+            "@id": "unece:specifiedDeliveryInstructions"
         },
         "specifiedDeliveryTerms": {
             "@id": "unece:specifiedDeliveryTerms"
@@ -4327,6 +4384,9 @@
         "specifiedEmission": {
             "@id": "unece:specifiedEmission"
         },
+        "specifiedEmployerIdentity": {
+            "@id": "unece:specifiedEmployerIdentity"
+        },
         "specifiedEvent": {
             "@id": "unece:specifiedEvent"
         },
@@ -4339,8 +4399,17 @@
         "specifiedFinancialCard": {
             "@id": "unece:specifiedFinancialCard"
         },
+        "specifiedFinancialIdentity": {
+            "@id": "unece:specifiedFinancialIdentity"
+        },
+        "specifiedFinancingStatus": {
+            "@id": "unece:specifiedFinancingStatus"
+        },
         "specifiedGeographicalCoordinate": {
             "@id": "unece:specifiedGeographicalCoordinate"
+        },
+        "specifiedGovernmentRegistration": {
+            "@id": "unece:specifiedGovernmentRegistration"
         },
         "specifiedIdentity": {
             "@id": "unece:specifiedIdentity"
@@ -4350,6 +4419,12 @@
         },
         "specifiedInstructions": {
             "@id": "unece:specifiedInstructions"
+        },
+        "specifiedLineTradeAgreement": {
+            "@id": "unece:specifiedLineTradeAgreement"
+        },
+        "specifiedLineTradeSettlement": {
+            "@id": "unece:specifiedLineTradeSettlement"
         },
         "specifiedLocation": {
             "@id": "unece:specifiedLocation"
@@ -4384,6 +4459,9 @@
         "specifiedPerson": {
             "@id": "unece:specifiedPerson"
         },
+        "specifiedPersonIdentity": {
+            "@id": "unece:specifiedPersonIdentity"
+        },
         "specifiedProduct": {
             "@id": "unece:specifiedProduct"
         },
@@ -4392,6 +4470,9 @@
         },
         "specifiedProject": {
             "@id": "unece:specifiedProject"
+        },
+        "specifiedProjectPerson": {
+            "@id": "unece:specifiedProjectPerson"
         },
         "specifiedRegistration": {
             "@id": "unece:specifiedRegistration"
@@ -4411,6 +4492,15 @@
         "specifiedStatus": {
             "@id": "unece:specifiedStatus"
         },
+        "specifiedSubordinateLineTradeDelivery": {
+            "@id": "unece:specifiedSubordinateLineTradeDelivery"
+        },
+        "specifiedSubordinateLineTradeSettlement": {
+            "@id": "unece:specifiedSubordinateLineTradeSettlement"
+        },
+        "specifiedSupplyChainEvent": {
+            "@id": "unece:specifiedSupplyChainEvent"
+        },
         "specifiedTradeAgreement": {
             "@id": "unece:specifiedTradeAgreement"
         },
@@ -4420,14 +4510,29 @@
         "specifiedTradeSettlement": {
             "@id": "unece:specifiedTradeSettlement"
         },
+        "specifiedTradeSettlementLineMonetarySummation": {
+            "@id": "unece:specifiedTradeSettlementLineMonetarySummation"
+        },
+        "specifiedTradeSettlementPaymentMonetarySummation": {
+            "@id": "unece:specifiedTradeSettlementPaymentMonetarySummation"
+        },
         "specifiedTransactionId": {
             "@id": "unece:specifiedTransactionId"
+        },
+        "specifiedTransportInstructions": {
+            "@id": "unece:specifiedTransportInstructions"
         },
         "specifiedTransportMeans": {
             "@id": "unece:specifiedTransportMeans"
         },
         "specifiedTransportMovement": {
             "@id": "unece:specifiedTransportMovement"
+        },
+        "specifiedTransportPerson": {
+            "@id": "unece:specifiedTransportPerson"
+        },
+        "specifiedValidationStatus": {
+            "@id": "unece:specifiedValidationStatus"
         },
         "specifiedVersion": {
             "@id": "unece:specifiedVersion"
@@ -4527,6 +4632,9 @@
         },
         "subordinateLocation": {
             "@id": "unece:subordinateLocation"
+        },
+        "subordinateSubordinateSubordinateLocation": {
+            "@id": "unece:subordinateSubordinateSubordinateLocation"
         },
         "subordinateWorkItem": {
             "@id": "unece:subordinateWorkItem"
@@ -4653,6 +4761,9 @@
         },
         "telephoneCommunication": {
             "@id": "unece:telephoneCommunication"
+        },
+        "telephoneTelecommunicationCommunication": {
+            "@id": "unece:telephoneTelecommunicationCommunication"
         },
         "telexCommunication": {
             "@id": "unece:telexCommunication"
