@@ -1,8 +1,8 @@
 
 {
     "@context": {
-        "@vocab": "https://dmvc7xzscpizo.cloudfront.net/",
-        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "@vocab": "https://vocabulary.uncefact.org/",
+        "unece": "https://vocabulary.uncefact.org/",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
         "xsd": "http://www.w3.org/2001/XMLSchema#",

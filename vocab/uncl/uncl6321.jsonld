@@ -1,10 +1,10 @@
 
 {
     "@context": {
-        "unece": "https://dmvc7xzscpizo.cloudfront.net/",
+        "unece": "https://vocabulary.uncefact.org/",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "uncl6321": "https://dmvc7xzscpizo.cloudfront.net/uncl6321#"
+        "uncl6321": "https://vocabulary.uncefact.org/uncl6321#"
     },
     "@graph": [
         {
