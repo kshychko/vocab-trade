@@ -1,3 +1,4 @@
+
 {
     "@context": {
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
@@ -24931,7 +24932,86 @@
             ]
         },
         {
-            "@id": "unece:id",
+            "@id": "unece:identification",
+            "schema:rangeIncludes": {
+                "@id": "xsd:string"
+            },
+            "@type": [
+                "rdf:Property",
+                "owl:DatatypeProperty"
+            ],
+            "schema:domainIncludes": {
+                "@id": "unece:Cargo"
+            },
+            "rdfs:comment": "Identification, expressed as text, of this transport cargo that is sufficient to identify it for customs, statistical or transport purposes.",
+            "rdfs:label": "identification",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Transport_Cargo.Identification.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "7002",
+                    "unece:cefactUNId": "UN01004759",
+                    "unece:cefactBieDomainClass": "cefact:Transport_Cargo.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "Identification, expressed as text, of this transport cargo that is sufficient to identify it for customs, statistical or transport purposes.",
+                    "unece:domainName": "Cargo"
+                }
+            ]
+        },
+        {
+            "@id": "unece:identificationCode",
+            "schema:rangeIncludes": {
+                "@id": "xsd:token"
+            },
+            "@type": [
+                "rdf:Property",
+                "owl:DatatypeProperty"
+            ],
+            "schema:domainIncludes": {
+                "@id": "unece:Fault"
+            },
+            "rdfs:comment": "A code specifying an identified fault.",
+            "rdfs:label": "identificationCode",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Identified_Fault.Identification.Code",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01010067",
+                    "unece:cefactBieDomainClass": "cefact:Identified_Fault.Details",
+                    "unece:cefactBusinessProcess": "Transport",
+                    "rdfs:comment": "A code specifying an identified fault.",
+                    "unece:domainName": "Fault"
+                }
+            ]
+        },
+        {
+            "@id": "unece:identificationType",
+            "schema:rangeIncludes": {
+                "@id": "xsd:string"
+            },
+            "@type": [
+                "rdf:Property",
+                "owl:DatatypeProperty"
+            ],
+            "schema:domainIncludes": {
+                "@id": "unece:ProprietaryIdentity"
+            },
+            "rdfs:comment": "An identifier type, expressed as text, for this proprietary identity.",
+            "rdfs:label": "identificationType",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Proprietary_Identity.Identification_Type.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01013288",
+                    "unece:cefactBieDomainClass": "cefact:Proprietary_Identity.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "An identifier type, expressed as text, for this proprietary identity.",
+                    "unece:domainName": "ProprietaryIdentity"
+                }
+            ]
+        },
+        {
+            "@id": "unece:identifier",
             "schema:rangeIncludes": {
                 "@id": "xsd:token"
             },
@@ -25321,7 +25401,7 @@
                 "The unique identifier of this transport service.",
                 "The unique identifier, commonly known as the card number, of this trade settlement financial card."
             ],
-            "rdfs:label": "id",
+            "rdfs:label": "identifier",
             "unece:cefactElementMetadata": [
                 {
                     "@id": "cefact:Line_TradeAgreement.Identification.Identifier",
@@ -26284,85 +26364,6 @@
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
                     "rdfs:comment": "A unique identifier for this logistics related location, such as a United Nations Location Code (UNLOCODE) or GS1 Global Location Number (GLN).",
                     "unece:domainName": "LogisticsLocation"
-                }
-            ]
-        },
-        {
-            "@id": "unece:identification",
-            "schema:rangeIncludes": {
-                "@id": "xsd:string"
-            },
-            "@type": [
-                "rdf:Property",
-                "owl:DatatypeProperty"
-            ],
-            "schema:domainIncludes": {
-                "@id": "unece:Cargo"
-            },
-            "rdfs:comment": "Identification, expressed as text, of this transport cargo that is sufficient to identify it for customs, statistical or transport purposes.",
-            "rdfs:label": "identification",
-            "unece:cefactElementMetadata": [
-                {
-                    "@id": "cefact:Transport_Cargo.Identification.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "7002",
-                    "unece:cefactUNId": "UN01004759",
-                    "unece:cefactBieDomainClass": "cefact:Transport_Cargo.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "Identification, expressed as text, of this transport cargo that is sufficient to identify it for customs, statistical or transport purposes.",
-                    "unece:domainName": "Cargo"
-                }
-            ]
-        },
-        {
-            "@id": "unece:identificationCode",
-            "schema:rangeIncludes": {
-                "@id": "xsd:token"
-            },
-            "@type": [
-                "rdf:Property",
-                "owl:DatatypeProperty"
-            ],
-            "schema:domainIncludes": {
-                "@id": "unece:Fault"
-            },
-            "rdfs:comment": "A code specifying an identified fault.",
-            "rdfs:label": "identificationCode",
-            "unece:cefactElementMetadata": [
-                {
-                    "@id": "cefact:Identified_Fault.Identification.Code",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01010067",
-                    "unece:cefactBieDomainClass": "cefact:Identified_Fault.Details",
-                    "unece:cefactBusinessProcess": "Transport",
-                    "rdfs:comment": "A code specifying an identified fault.",
-                    "unece:domainName": "Fault"
-                }
-            ]
-        },
-        {
-            "@id": "unece:identificationType",
-            "schema:rangeIncludes": {
-                "@id": "xsd:string"
-            },
-            "@type": [
-                "rdf:Property",
-                "owl:DatatypeProperty"
-            ],
-            "schema:domainIncludes": {
-                "@id": "unece:ProprietaryIdentity"
-            },
-            "rdfs:comment": "An identifier type, expressed as text, for this proprietary identity.",
-            "rdfs:label": "identificationType",
-            "unece:cefactElementMetadata": [
-                {
-                    "@id": "cefact:Proprietary_Identity.Identification_Type.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01013288",
-                    "unece:cefactBieDomainClass": "cefact:Proprietary_Identity.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "An identifier type, expressed as text, for this proprietary identity.",
-                    "unece:domainName": "ProprietaryIdentity"
                 }
             ]
         },
@@ -37991,11 +37992,16 @@
                 },
                 {
                     "@id": "unece:ConsignmentItem"
+                },
+                {
+                    "@id": "unece:Package"
                 }
             ],
             "rdfs:comment": [
                 "A package type, expressed as text, for this supply chain consignment item.",
-                "A type of package, expressed as text, for this supply chain consignment."
+                "A type of package, expressed as text, for this supply chain consignment.",
+                "A type, expressed as text, of this logistics package.",
+                "A type, expressed as text, of this referenced logistics package."
             ],
             "rdfs:label": "packageType",
             "unece:cefactElementMetadata": [
@@ -38010,6 +38016,16 @@
                     "unece:domainName": "Consignment"
                 },
                 {
+                    "@id": "cefact:Referenced_Logistics_Package.Type.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "7064",
+                    "unece:cefactUNId": "UN01013098",
+                    "unece:cefactBieDomainClass": "cefact:ReferencedLogistics_Package.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A type, expressed as text, of this referenced logistics package.",
+                    "unece:domainName": "Package"
+                },
+                {
                     "@id": "cefact:SupplyChain_ConsignmentItem.PackageType.Text",
                     "@type": "unece:BasicBIE",
                     "unece:tded": "7064",
@@ -38018,6 +38034,16 @@
                     "unece:cefactBusinessProcess": "Transport",
                     "rdfs:comment": "A package type, expressed as text, for this supply chain consignment item.",
                     "unece:domainName": "ConsignmentItem"
+                },
+                {
+                    "@id": "cefact:Logistics_Package.Type.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "7064",
+                    "unece:cefactUNId": "UN01003698",
+                    "unece:cefactBieDomainClass": "cefact:Logistics_Package.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A type, expressed as text, of this logistics package.",
+                    "unece:domainName": "Package"
                 }
             ]
         },
@@ -38165,6 +38191,33 @@
                     "unece:cefactBusinessProcess": "In All Contexts",
                     "rdfs:comment": "A code specifying a type of packaging marking.",
                     "unece:domainName": "Marking"
+                }
+            ]
+        },
+        {
+            "@id": "unece:packagingType",
+            "schema:rangeIncludes": {
+                "@id": "xsd:string"
+            },
+            "@type": [
+                "rdf:Property",
+                "owl:DatatypeProperty"
+            ],
+            "schema:domainIncludes": {
+                "@id": "unece:Packaging"
+            },
+            "rdfs:comment": "The type, expressed as text, of supply chain packaging.",
+            "rdfs:label": "packagingType",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:SupplyChain_Packaging.Type.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "7064",
+                    "unece:cefactUNId": "UN01004314",
+                    "unece:cefactBieDomainClass": "cefact:SupplyChain_Packaging.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The type, expressed as text, of supply chain packaging.",
+                    "unece:domainName": "Packaging"
                 }
             ]
         },
@@ -41803,6 +41856,32 @@
                     "unece:cefactBusinessProcess": "In All Contexts",
                     "rdfs:comment": "The identifier of a price list item for this grouped work item.",
                     "unece:domainName": "WorkItem"
+                }
+            ]
+        },
+        {
+            "@id": "unece:priceType",
+            "schema:rangeIncludes": {
+                "@id": "xsd:string"
+            },
+            "@type": [
+                "rdf:Property",
+                "owl:DatatypeProperty"
+            ],
+            "schema:domainIncludes": {
+                "@id": "unece:TradePrice"
+            },
+            "rdfs:comment": "A type, expressed as text, for this trade price.",
+            "rdfs:label": "priceType",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Trade_Price.Type.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01013365",
+                    "unece:cefactBieDomainClass": "cefact:Trade_Price.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A type, expressed as text, for this trade price.",
+                    "unece:domainName": "TradePrice"
                 }
             ]
         },
@@ -48087,6 +48166,32 @@
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
                     "rdfs:comment": "A monetary value of a rounding amount being applied in this trade settlement header monetary summation.",
                     "unece:domainName": "TradeSettlementHeaderMonetarySummation"
+                }
+            ]
+        },
+        {
+            "@id": "unece:routeType",
+            "schema:rangeIncludes": {
+                "@id": "xsd:string"
+            },
+            "@type": [
+                "rdf:Property",
+                "owl:DatatypeProperty"
+            ],
+            "schema:domainIncludes": {
+                "@id": "unece:Route"
+            },
+            "rdfs:comment": "A type, expressed as text for this transport route.",
+            "rdfs:label": "routeType",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Transport_Route.Type.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01013605",
+                    "unece:cefactBieDomainClass": "cefact:Transport_Route.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "A type, expressed as text for this transport route.",
+                    "unece:domainName": "Route"
                 }
             ]
         },
@@ -55803,6 +55908,33 @@
             ]
         },
         {
+            "@id": "unece:taxType",
+            "schema:rangeIncludes": {
+                "@id": "xsd:string"
+            },
+            "@type": [
+                "rdf:Property",
+                "owl:DatatypeProperty"
+            ],
+            "schema:domainIncludes": {
+                "@id": "unece:TradeTax"
+            },
+            "rdfs:comment": "The type, expressed as text, of this trade related tax, levy or duty.",
+            "rdfs:label": "taxType",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Trade_Tax.Type.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "5152",
+                    "unece:cefactUNId": "UN01004727",
+                    "unece:cefactBieDomainClass": "cefact:Trade_Tax.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The type, expressed as text, of this trade related tax, levy or duty.",
+                    "unece:domainName": "TradeTax"
+                }
+            ]
+        },
+        {
             "@id": "unece:taxTypeCode",
             "schema:rangeIncludes": {
                 "@id": "unece:UNCL5153Code"
@@ -58456,6 +58588,46 @@
             ]
         },
         {
+            "@id": "unece:transportMeansType",
+            "schema:rangeIncludes": {
+                "@id": "xsd:string"
+            },
+            "@type": [
+                "rdf:Property",
+                "owl:DatatypeProperty"
+            ],
+            "schema:domainIncludes": {
+                "@id": "unece:TransportMeans"
+            },
+            "rdfs:comment": [
+                "The type, expressed as text, of this logistics means of transport.",
+                "The type, expressed as text, of this referenced transport means."
+            ],
+            "rdfs:label": "transportMeansType",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Logistics_TransportMeans.Type.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "8178",
+                    "unece:cefactUNId": "UN01003821",
+                    "unece:cefactBieDomainClass": "cefact:Logistics_TransportMeans.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The type, expressed as text, of this logistics means of transport.",
+                    "unece:domainName": "TransportMeans"
+                },
+                {
+                    "@id": "cefact:Referenced_TransportMeans.Type.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:tded": "8178",
+                    "unece:cefactUNId": "UN01004051",
+                    "unece:cefactBieDomainClass": "cefact:Referenced_TransportMeans.Details",
+                    "unece:cefactBusinessProcess": "In All Contexts",
+                    "rdfs:comment": "The type, expressed as text, of this referenced transport means.",
+                    "unece:domainName": "TransportMeans"
+                }
+            ]
+        },
+        {
             "@id": "unece:transportMeansTypeCode",
             "schema:rangeIncludes": {
                 "@id": "unece:UNCL8179Code"
@@ -58544,6 +58716,32 @@
                     "unece:cefactBieDomainClass": "cefact:Logistics_TransportMovement.Details",
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
                     "rdfs:comment": "The code specifying the stage of this logistics transport movement.",
+                    "unece:domainName": "TransportMovement"
+                }
+            ]
+        },
+        {
+            "@id": "unece:transportMovementType",
+            "schema:rangeIncludes": {
+                "@id": "xsd:string"
+            },
+            "@type": [
+                "rdf:Property",
+                "owl:DatatypeProperty"
+            ],
+            "schema:domainIncludes": {
+                "@id": "unece:TransportMovement"
+            },
+            "rdfs:comment": "The type, as expressed as text, of the logistics transport movement.",
+            "rdfs:label": "transportMovementType",
+            "unece:cefactElementMetadata": [
+                {
+                    "@id": "cefact:Logistics_TransportMovement.Type.Text",
+                    "@type": "unece:BasicBIE",
+                    "unece:cefactUNId": "UN01012753",
+                    "unece:cefactBieDomainClass": "cefact:Logistics_TransportMovement.Details",
+                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
+                    "rdfs:comment": "The type, as expressed as text, of the logistics transport movement.",
                     "unece:domainName": "TransportMovement"
                 }
             ]
@@ -59224,140 +59422,6 @@
                     "unece:cefactBusinessProcess": "Buy-Ship-Pay",
                     "rdfs:comment": "The turn in quantity, at line level, received for this trade delivery.",
                     "unece:domainName": "LineTradeDelivery"
-                }
-            ]
-        },
-        {
-            "@id": "unece:type",
-            "schema:rangeIncludes": {
-                "@id": "xsd:string"
-            },
-            "@type": [
-                "rdf:Property",
-                "owl:DatatypeProperty"
-            ],
-            "schema:domainIncludes": [
-                {
-                    "@id": "unece:Package"
-                },
-                {
-                    "@id": "unece:Packaging"
-                },
-                {
-                    "@id": "unece:Route"
-                },
-                {
-                    "@id": "unece:TradePrice"
-                },
-                {
-                    "@id": "unece:TradeTax"
-                },
-                {
-                    "@id": "unece:TransportMeans"
-                },
-                {
-                    "@id": "unece:TransportMovement"
-                }
-            ],
-            "rdfs:comment": [
-                "A type, expressed as text for this transport route.",
-                "A type, expressed as text, for this trade price.",
-                "A type, expressed as text, of this logistics package.",
-                "A type, expressed as text, of this referenced logistics package.",
-                "The type, as expressed as text, of the logistics transport movement.",
-                "The type, expressed as text, of supply chain packaging.",
-                "The type, expressed as text, of this logistics means of transport.",
-                "The type, expressed as text, of this referenced transport means.",
-                "The type, expressed as text, of this trade related tax, levy or duty."
-            ],
-            "rdfs:label": "type",
-            "unece:cefactElementMetadata": [
-                {
-                    "@id": "cefact:SupplyChain_Packaging.Type.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "7064",
-                    "unece:cefactUNId": "UN01004314",
-                    "unece:cefactBieDomainClass": "cefact:SupplyChain_Packaging.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The type, expressed as text, of supply chain packaging.",
-                    "unece:domainName": "Packaging"
-                },
-                {
-                    "@id": "cefact:Logistics_TransportMovement.Type.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01012753",
-                    "unece:cefactBieDomainClass": "cefact:Logistics_TransportMovement.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The type, as expressed as text, of the logistics transport movement.",
-                    "unece:domainName": "TransportMovement"
-                },
-                {
-                    "@id": "cefact:Referenced_Logistics_Package.Type.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "7064",
-                    "unece:cefactUNId": "UN01013098",
-                    "unece:cefactBieDomainClass": "cefact:ReferencedLogistics_Package.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A type, expressed as text, of this referenced logistics package.",
-                    "unece:domainName": "Package"
-                },
-                {
-                    "@id": "cefact:Transport_Route.Type.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01013605",
-                    "unece:cefactBieDomainClass": "cefact:Transport_Route.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A type, expressed as text for this transport route.",
-                    "unece:domainName": "Route"
-                },
-                {
-                    "@id": "cefact:Trade_Price.Type.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:cefactUNId": "UN01013365",
-                    "unece:cefactBieDomainClass": "cefact:Trade_Price.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A type, expressed as text, for this trade price.",
-                    "unece:domainName": "TradePrice"
-                },
-                {
-                    "@id": "cefact:Trade_Tax.Type.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "5152",
-                    "unece:cefactUNId": "UN01004727",
-                    "unece:cefactBieDomainClass": "cefact:Trade_Tax.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The type, expressed as text, of this trade related tax, levy or duty.",
-                    "unece:domainName": "TradeTax"
-                },
-                {
-                    "@id": "cefact:Logistics_TransportMeans.Type.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "8178",
-                    "unece:cefactUNId": "UN01003821",
-                    "unece:cefactBieDomainClass": "cefact:Logistics_TransportMeans.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "The type, expressed as text, of this logistics means of transport.",
-                    "unece:domainName": "TransportMeans"
-                },
-                {
-                    "@id": "cefact:Logistics_Package.Type.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "7064",
-                    "unece:cefactUNId": "UN01003698",
-                    "unece:cefactBieDomainClass": "cefact:Logistics_Package.Details",
-                    "unece:cefactBusinessProcess": "Buy-Ship-Pay",
-                    "rdfs:comment": "A type, expressed as text, of this logistics package.",
-                    "unece:domainName": "Package"
-                },
-                {
-                    "@id": "cefact:Referenced_TransportMeans.Type.Text",
-                    "@type": "unece:BasicBIE",
-                    "unece:tded": "8178",
-                    "unece:cefactUNId": "UN01004051",
-                    "unece:cefactBieDomainClass": "cefact:Referenced_TransportMeans.Details",
-                    "unece:cefactBusinessProcess": "In All Contexts",
-                    "rdfs:comment": "The type, expressed as text, of this referenced transport means.",
-                    "unece:domainName": "TransportMeans"
                 }
             ]
         },
@@ -65906,124 +65970,124 @@
             ]
         },
         {
-            "rdfs:comment": "Aggregate Business Information Entity",
             "@id": "unece:AggregateBIE",
             "@type": "rdf:Property",
-            "rdfs:label": "AggregateBIE"
+            "rdfs:label": "AggregateBIE",
+            "rdfs:comment": "Aggregate Business Information Entity"
         },
         {
-            "rdfs:comment": "Basic Business Information Entity contained within the ABIE",
             "@id": "unece:BasicBIE",
             "@type": "rdf:Property",
-            "rdfs:label": "BasicBIE"
+            "rdfs:label": "BasicBIE",
+            "rdfs:comment": "Basic Business Information Entity contained within the ABIE"
         },
         {
-            "rdfs:comment": "Associated (Aggregate) Business Information Entity, associated with the ABIE",
             "@id": "unece:AssociationBIE",
             "@type": "rdf:Property",
-            "rdfs:label": "AssociationBIE"
+            "rdfs:label": "AssociationBIE",
+            "rdfs:comment": "Associated (Aggregate) Business Information Entity, associated with the ABIE"
         },
         {
-            "rdfs:comment": "TDED reference number",
             "@id": "unece:AssociationBIE",
             "@type": "rdf:Property",
-            "rdfs:label": "AssociationBIE"
+            "rdfs:label": "AssociationBIE",
+            "rdfs:comment": "TDED reference number"
         },
         {
-            "rdfs:comment": "Status",
-            "@id": "unece:status",
-            "@type": "rdf:Property",
-            "rdfs:label": "status"
-        },
-        {
-            "rdfs:comment": "TBG assigned Unique ID for approved Library Objects",
-            "@id": "unece:cefactUNId",
-            "@type": "rdf:Property",
-            "rdfs:label": "cefactUNId"
-        },
-        {
-            "rdfs:comment": "CEFACT Business Process",
-            "@id": "unece:cefactBusinessProcess",
-            "@type": "rdf:Property",
-            "rdfs:label": "cefactBusinessProcess"
-        },
-        {
-            "rdfs:comment": "CEFACT Element Metadata",
-            "@id": "unece:cefactElementMetadata",
-            "@type": "rdf:Seq",
-            "rdfs:label": "cefactElementMetadata"
-        },
-        {
-            "rdfs:comment": "CEFACT Business Process",
-            "@id": "unece:cefactBieDomainClass",
-            "@type": "rdf:Property",
-            "rdfs:label": "cefactBieDomainClass"
-        },
-        {
-            "rdfs:comment": "Recommendations 20",
-            "@id": "unece:UNECERec20Code",
-            "@type": "rdfs:Class",
-            "rdfs:label": "UNECERec20Code"
-        },
-        {
-            "rdfs:comment": "Recommendations 21",
-            "@id": "unece:UNECERec21Code",
-            "@type": "rdfs:Class",
-            "rdfs:label": "UNECERec21Code"
-        },
-        {
-            "rdfs:comment": "Recommendations 24",
-            "@id": "unece:UNECERec24Code",
-            "@type": "rdfs:Class",
-            "rdfs:label": "UNECERec24Code"
-        },
-        {
-            "rdfs:comment": "Recommendations 28",
-            "@id": "unece:UNECERec28Code",
-            "@type": "rdfs:Class",
-            "rdfs:label": "UNECERec28Code"
-        },
-        {
-            "rdfs:comment": "Level Category.",
-            "@id": "unece:levelCategory",
-            "@type": "rdf:Property",
-            "rdfs:label": "levelCategory",
-            "schema:rangeIncludes": {
-                "@id": "xsd:string"
-            },
-            "schema:domainIncludes": {
-                "@id": "unece:UNECERec20Code"
-            }
-        },
-        {
-            "rdfs:comment": "Symbol.",
-            "@id": "unece:symbol",
-            "@type": "rdf:Property",
-            "rdfs:label": "symbol",
-            "schema:rangeIncludes": {
-                "@id": "xsd:string"
-            },
-            "schema:domainIncludes": {
-                "@id": "unece:UNECERec20Code"
-            }
-        },
-        {
-            "rdfs:comment": "Conversion Factor.",
-            "@id": "unece:conversionFactor",
-            "@type": "rdf:Property",
-            "rdfs:label": "conversionFactor",
-            "schema:rangeIncludes": {
-                "@id": "xsd:string"
-            },
-            "schema:domainIncludes": {
-                "@id": "unece:UNECERec20Code"
-            }
-        },
-        {
-            "rdfs:comment": "Status.",
             "@id": "unece:status",
             "@type": "rdf:Property",
             "rdfs:label": "status",
+            "rdfs:comment": "Status"
+        },
+        {
+            "@id": "unece:cefactUNId",
+            "@type": "rdf:Property",
+            "rdfs:label": "cefactUNId",
+            "rdfs:comment": "TBG assigned Unique ID for approved Library Objects"
+        },
+        {
+            "@id": "unece:cefactBusinessProcess",
+            "@type": "rdf:Property",
+            "rdfs:label": "cefactBusinessProcess",
+            "rdfs:comment": "CEFACT Business Process"
+        },
+        {
+            "@id": "unece:cefactElementMetadata",
+            "@type": "rdf:Seq",
+            "rdfs:label": "cefactElementMetadata",
+            "rdfs:comment": "CEFACT Element Metadata"
+        },
+        {
+            "@id": "unece:cefactBieDomainClass",
+            "@type": "rdf:Property",
+            "rdfs:label": "cefactBieDomainClass",
+            "rdfs:comment": "CEFACT Business Process"
+        },
+        {
+            "@id": "unece:UNECERec20Code",
+            "@type": "rdfs:Class",
+            "rdfs:label": "UNECERec20Code",
+            "rdfs:comment": "Recommendations 20"
+        },
+        {
+            "@id": "unece:UNECERec21Code",
+            "@type": "rdfs:Class",
+            "rdfs:label": "UNECERec21Code",
+            "rdfs:comment": "Recommendations 21"
+        },
+        {
+            "@id": "unece:UNECERec24Code",
+            "@type": "rdfs:Class",
+            "rdfs:label": "UNECERec24Code",
+            "rdfs:comment": "Recommendations 24"
+        },
+        {
+            "@id": "unece:UNECERec28Code",
+            "@type": "rdfs:Class",
+            "rdfs:label": "UNECERec28Code",
+            "rdfs:comment": "Recommendations 28"
+        },
+        {
+            "@id": "unece:levelCategory",
+            "@type": "rdf:Property",
+            "rdfs:label": "levelCategory",
+            "rdfs:comment": "Level Category.",
+            "schema:rangeIncludes": {
+                "@id": "xsd:string"
+            },
+            "schema:domainIncludes": {
+                "@id": "unece:UNECERec20Code"
+            }
+        },
+        {
+            "@id": "unece:symbol",
+            "@type": "rdf:Property",
+            "rdfs:label": "symbol",
+            "rdfs:comment": "Symbol.",
+            "schema:rangeIncludes": {
+                "@id": "xsd:string"
+            },
+            "schema:domainIncludes": {
+                "@id": "unece:UNECERec20Code"
+            }
+        },
+        {
+            "@id": "unece:conversionFactor",
+            "@type": "rdf:Property",
+            "rdfs:label": "conversionFactor",
+            "rdfs:comment": "Conversion Factor.",
+            "schema:rangeIncludes": {
+                "@id": "xsd:string"
+            },
+            "schema:domainIncludes": {
+                "@id": "unece:UNECERec20Code"
+            }
+        },
+        {
+            "@id": "unece:status",
+            "@type": "rdf:Property",
+            "rdfs:label": "status",
+            "rdfs:comment": "Status.",
             "schema:rangeIncludes": {
                 "@id": "xsd:string"
             },
