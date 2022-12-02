@@ -6,14 +6,8 @@
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "owl": "http://www.w3.org/2002/07/owl#",
         "schema": "http://schema.org/",
-        "id": {
-            "@id": "unece:id",
-            "@type": "xsd:token"
-        },
-        "type": {
-            "@id": "unece:type",
-            "@type": "xsd:string"
-        },
+        "id": "@id",
+        "type": "@type",
         "cefactBieDomainClass": {
             "@id": "unece:cefactBieDomainClass"
         },
@@ -2885,6 +2879,10 @@
             "@id": "unece:identificationType",
             "@type": "xsd:string"
         },
+        "identifier": {
+            "@id": "unece:identifier",
+            "@type": "xsd:token"
+        },
         "identityCardId": {
             "@id": "unece:identityCardId",
             "@type": "xsd:token"
@@ -4193,6 +4191,10 @@
             "@id": "unece:packagingMarkingTypeCode",
             "@type": "@vocab"
         },
+        "packagingType": {
+            "@id": "unece:packagingType",
+            "@type": "xsd:string"
+        },
         "packingInstructionTypeCode": {
             "@id": "unece:packingInstructionTypeCode",
             "@type": "xsd:token"
@@ -4620,6 +4622,10 @@
         "priceListItemId": {
             "@id": "unece:priceListItemId",
             "@type": "xsd:token"
+        },
+        "priceType": {
+            "@id": "unece:priceType",
+            "@type": "xsd:string"
         },
         "priceTypeCode": {
             "@id": "unece:priceTypeCode",
@@ -5396,6 +5402,10 @@
         "roundingAmount": {
             "@id": "unece:roundingAmount",
             "@type": "xsd:decimal"
+        },
+        "routeType": {
+            "@id": "unece:routeType",
+            "@type": "xsd:string"
         },
         "royaltyLicenseFeeIndicator": {
             "@id": "unece:royaltyLicenseFeeIndicator",
@@ -6337,6 +6347,10 @@
             "@id": "unece:taxTotalAmount",
             "@type": "xsd:decimal"
         },
+        "taxType": {
+            "@id": "unece:taxType",
+            "@type": "xsd:string"
+        },
         "taxTypeCode": {
             "@id": "unece:taxTypeCode",
             "@type": "@vocab"
@@ -6689,6 +6703,10 @@
             "@id": "unece:transportMeansStayOccurrencePeriod",
             "@type": "@id"
         },
+        "transportMeansType": {
+            "@id": "unece:transportMeansType",
+            "@type": "xsd:string"
+        },
         "transportMeansTypeCode": {
             "@id": "unece:transportMeansTypeCode",
             "@type": "@vocab"
@@ -6700,6 +6718,10 @@
         "transportMovementStageCode": {
             "@id": "unece:transportMovementStageCode",
             "@type": "@vocab"
+        },
+        "transportMovementType": {
+            "@id": "unece:transportMovementType",
+            "@type": "xsd:string"
         },
         "transportMovementTypeCode": {
             "@id": "unece:transportMovementTypeCode",
