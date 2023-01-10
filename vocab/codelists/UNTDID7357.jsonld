@@ -1,0 +1,17 @@
+
+{
+    "@context": {
+        "unece": "https://vocabulary.uncefact.org/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "UNTDID7357": "https://vocabulary.uncefact.org/codelists/UNTDID7357"
+    },
+    "@graph": [
+        {
+            "@id": "UNTDID7357:ZZZ",
+            "@type": "unece:CargoCommodityCategoryCode",
+            "rdf:value": "ZZZ",
+            "rdfs:comment": "Mutually defined"
+        }
+    ]
+}

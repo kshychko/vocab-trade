@@ -1,0 +1,47 @@
+
+{
+    "@context": {
+        "unece": "https://vocabulary.uncefact.org/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "AccountingAmountType": "https://vocabulary.uncefact.org/codelists/AccountingAmountType"
+    },
+    "@graph": [
+        {
+            "@id": "AccountingAmountType:1",
+            "@type": "unece:AccountingAmountTypeCode",
+            "rdf:value": "1",
+            "rdfs:comment": "Allowance Charge Amount"
+        },
+        {
+            "@id": "AccountingAmountType:2",
+            "@type": "unece:AccountingAmountTypeCode",
+            "rdf:value": "2",
+            "rdfs:comment": "Insurance Charge Amount"
+        },
+        {
+            "@id": "AccountingAmountType:3",
+            "@type": "unece:AccountingAmountTypeCode",
+            "rdf:value": "3",
+            "rdfs:comment": "Taxable Transport Charge Amount"
+        },
+        {
+            "@id": "AccountingAmountType:4",
+            "@type": "unece:AccountingAmountTypeCode",
+            "rdf:value": "4",
+            "rdfs:comment": "Adjustment Amount"
+        },
+        {
+            "@id": "AccountingAmountType:5",
+            "@type": "unece:AccountingAmountTypeCode",
+            "rdf:value": "5",
+            "rdfs:comment": "Taxable Amount"
+        },
+        {
+            "@id": "AccountingAmountType:6",
+            "@type": "unece:AccountingAmountTypeCode",
+            "rdf:value": "6",
+            "rdfs:comment": "Tax Amount"
+        }
+    ]
+}

@@ -1,0 +1,149 @@
+
+{
+    "@context": {
+        "unece": "https://vocabulary.uncefact.org/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "TransportEquipmentOperationalStatusCodeUNTDID8249": "https://vocabulary.uncefact.org/codelists/TransportEquipmentOperationalStatusCodeUNTDID8249"
+    },
+    "@graph": [
+        {
+            "@id": "TransportEquipmentOperationalStatusCodeUNTDID8249:4",
+            "@type": "unece:TransportEquipmentOperationalStatusCode",
+            "rdf:value": "4",
+            "rdfs:comment": "Remain on board"
+        },
+        {
+            "@id": "TransportEquipmentOperationalStatusCodeUNTDID8249:5",
+            "@type": "unece:TransportEquipmentOperationalStatusCode",
+            "rdf:value": "5",
+            "rdfs:comment": "Shifter"
+        },
+        {
+            "@id": "TransportEquipmentOperationalStatusCodeUNTDID8249:10",
+            "@type": "unece:TransportEquipmentOperationalStatusCode",
+            "rdf:value": "10",
+            "rdfs:comment": "Positioning"
+        },
+        {
+            "@id": "TransportEquipmentOperationalStatusCodeUNTDID8249:11",
+            "@type": "unece:TransportEquipmentOperationalStatusCode",
+            "rdf:value": "11",
+            "rdfs:comment": "Delivery"
+        },
+        {
+            "@id": "TransportEquipmentOperationalStatusCodeUNTDID8249:12",
+            "@type": "unece:TransportEquipmentOperationalStatusCode",
+            "rdf:value": "12",
+            "rdfs:comment": "Redelivery"
+        },
+        {
+            "@id": "TransportEquipmentOperationalStatusCodeUNTDID8249:13",
+            "@type": "unece:TransportEquipmentOperationalStatusCode",
+            "rdf:value": "13",
+            "rdfs:comment": "Repair"
+        },
+        {
+            "@id": "TransportEquipmentOperationalStatusCodeUNTDID8249:14",
+            "@type": "unece:TransportEquipmentOperationalStatusCode",
+            "rdf:value": "14",
+            "rdfs:comment": "Reloader"
+        },
+        {
+            "@id": "TransportEquipmentOperationalStatusCodeUNTDID8249:15",
+            "@type": "unece:TransportEquipmentOperationalStatusCode",
+            "rdf:value": "15",
+            "rdfs:comment": "Returned"
+        },
+        {
+            "@id": "TransportEquipmentOperationalStatusCodeUNTDID8249:16",
+            "@type": "unece:TransportEquipmentOperationalStatusCode",
+            "rdf:value": "16",
+            "rdfs:comment": "Dropped off"
+        },
+        {
+            "@id": "TransportEquipmentOperationalStatusCodeUNTDID8249:17",
+            "@type": "unece:TransportEquipmentOperationalStatusCode",
+            "rdf:value": "17",
+            "rdfs:comment": "Cross terminal transshipment"
+        },
+        {
+            "@id": "TransportEquipmentOperationalStatusCodeUNTDID8249:18",
+            "@type": "unece:TransportEquipmentOperationalStatusCode",
+            "rdf:value": "18",
+            "rdfs:comment": "Booking confirmed"
+        },
+        {
+            "@id": "TransportEquipmentOperationalStatusCodeUNTDID8249:19",
+            "@type": "unece:TransportEquipmentOperationalStatusCode",
+            "rdf:value": "19",
+            "rdfs:comment": "Inspected at terminal gate"
+        },
+        {
+            "@id": "TransportEquipmentOperationalStatusCodeUNTDID8249:20",
+            "@type": "unece:TransportEquipmentOperationalStatusCode",
+            "rdf:value": "20",
+            "rdfs:comment": "Arrived at offloading location"
+        },
+        {
+            "@id": "TransportEquipmentOperationalStatusCodeUNTDID8249:21",
+            "@type": "unece:TransportEquipmentOperationalStatusCode",
+            "rdf:value": "21",
+            "rdfs:comment": "Departed from loading location."
+        },
+        {
+            "@id": "TransportEquipmentOperationalStatusCodeUNTDID8249:22",
+            "@type": "unece:TransportEquipmentOperationalStatusCode",
+            "rdf:value": "22",
+            "rdfs:comment": "Loaded"
+        },
+        {
+            "@id": "TransportEquipmentOperationalStatusCodeUNTDID8249:23",
+            "@type": "unece:TransportEquipmentOperationalStatusCode",
+            "rdf:value": "23",
+            "rdfs:comment": "Unloaded"
+        },
+        {
+            "@id": "TransportEquipmentOperationalStatusCodeUNTDID8249:24",
+            "@type": "unece:TransportEquipmentOperationalStatusCode",
+            "rdf:value": "24",
+            "rdfs:comment": "Intra-terminal movement"
+        },
+        {
+            "@id": "TransportEquipmentOperationalStatusCodeUNTDID8249:25",
+            "@type": "unece:TransportEquipmentOperationalStatusCode",
+            "rdf:value": "25",
+            "rdfs:comment": "Stuffing ordered"
+        },
+        {
+            "@id": "TransportEquipmentOperationalStatusCodeUNTDID8249:26",
+            "@type": "unece:TransportEquipmentOperationalStatusCode",
+            "rdf:value": "26",
+            "rdfs:comment": "Stripping ordered"
+        },
+        {
+            "@id": "TransportEquipmentOperationalStatusCodeUNTDID8249:27",
+            "@type": "unece:TransportEquipmentOperationalStatusCode",
+            "rdf:value": "27",
+            "rdfs:comment": "Stuffing confirmed"
+        },
+        {
+            "@id": "TransportEquipmentOperationalStatusCodeUNTDID8249:28",
+            "@type": "unece:TransportEquipmentOperationalStatusCode",
+            "rdf:value": "28",
+            "rdfs:comment": "Stripping confirmed"
+        },
+        {
+            "@id": "TransportEquipmentOperationalStatusCodeUNTDID8249:29",
+            "@type": "unece:TransportEquipmentOperationalStatusCode",
+            "rdf:value": "29",
+            "rdfs:comment": "Sent for heavy repair"
+        },
+        {
+            "@id": "TransportEquipmentOperationalStatusCodeUNTDID8249:30",
+            "@type": "unece:TransportEquipmentOperationalStatusCode",
+            "rdf:value": "30",
+            "rdfs:comment": "Replaced"
+        }
+    ]
+}

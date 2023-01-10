@@ -1,0 +1,53 @@
+
+{
+    "@context": {
+        "unece": "https://vocabulary.uncefact.org/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "AccountingAccountType": "https://vocabulary.uncefact.org/codelists/AccountingAccountType"
+    },
+    "@graph": [
+        {
+            "@id": "AccountingAccountType:1",
+            "@type": "unece:AccountingAccountTypeCode",
+            "rdf:value": "1",
+            "rdfs:comment": "Financial"
+        },
+        {
+            "@id": "AccountingAccountType:2",
+            "@type": "unece:AccountingAccountTypeCode",
+            "rdf:value": "2",
+            "rdfs:comment": "Subsidiary"
+        },
+        {
+            "@id": "AccountingAccountType:3",
+            "@type": "unece:AccountingAccountTypeCode",
+            "rdf:value": "3",
+            "rdfs:comment": "Budget"
+        },
+        {
+            "@id": "AccountingAccountType:4",
+            "@type": "unece:AccountingAccountTypeCode",
+            "rdf:value": "4",
+            "rdfs:comment": "Cost Accounting"
+        },
+        {
+            "@id": "AccountingAccountType:5",
+            "@type": "unece:AccountingAccountTypeCode",
+            "rdf:value": "5",
+            "rdfs:comment": "Receivable"
+        },
+        {
+            "@id": "AccountingAccountType:6",
+            "@type": "unece:AccountingAccountTypeCode",
+            "rdf:value": "6",
+            "rdfs:comment": "Payable"
+        },
+        {
+            "@id": "AccountingAccountType:7",
+            "@type": "unece:AccountingAccountTypeCode",
+            "rdf:value": "7",
+            "rdfs:comment": "Job Cost Accounting"
+        }
+    ]
+}

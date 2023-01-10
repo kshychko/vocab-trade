@@ -1,0 +1,89 @@
+
+{
+    "@context": {
+        "unece": "https://vocabulary.uncefact.org/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "UNTDID8169": "https://vocabulary.uncefact.org/codelists/UNTDID8169"
+    },
+    "@graph": [
+        {
+            "@id": "UNTDID8169:1",
+            "@type": "unece:TransportEquipmentFullnessCode",
+            "rdf:value": "1",
+            "rdfs:comment": "More than one quarter volume available"
+        },
+        {
+            "@id": "UNTDID8169:2",
+            "@type": "unece:TransportEquipmentFullnessCode",
+            "rdf:value": "2",
+            "rdfs:comment": "More than half volume available"
+        },
+        {
+            "@id": "UNTDID8169:3",
+            "@type": "unece:TransportEquipmentFullnessCode",
+            "rdf:value": "3",
+            "rdfs:comment": "More than three quarters volume available"
+        },
+        {
+            "@id": "UNTDID8169:4",
+            "@type": "unece:TransportEquipmentFullnessCode",
+            "rdf:value": "4",
+            "rdfs:comment": "Empty"
+        },
+        {
+            "@id": "UNTDID8169:5",
+            "@type": "unece:TransportEquipmentFullnessCode",
+            "rdf:value": "5",
+            "rdfs:comment": "Full"
+        },
+        {
+            "@id": "UNTDID8169:6",
+            "@type": "unece:TransportEquipmentFullnessCode",
+            "rdf:value": "6",
+            "rdfs:comment": "No volume available"
+        },
+        {
+            "@id": "UNTDID8169:7",
+            "@type": "unece:TransportEquipmentFullnessCode",
+            "rdf:value": "7",
+            "rdfs:comment": "Full, mixed consignment"
+        },
+        {
+            "@id": "UNTDID8169:8",
+            "@type": "unece:TransportEquipmentFullnessCode",
+            "rdf:value": "8",
+            "rdfs:comment": "Full, single consignment"
+        },
+        {
+            "@id": "UNTDID8169:9",
+            "@type": "unece:TransportEquipmentFullnessCode",
+            "rdf:value": "9",
+            "rdfs:comment": "Part load"
+        },
+        {
+            "@id": "UNTDID8169:10",
+            "@type": "unece:TransportEquipmentFullnessCode",
+            "rdf:value": "10",
+            "rdfs:comment": "Part load mixed consignments"
+        },
+        {
+            "@id": "UNTDID8169:11",
+            "@type": "unece:TransportEquipmentFullnessCode",
+            "rdf:value": "11",
+            "rdfs:comment": "Single invoiced load"
+        },
+        {
+            "@id": "UNTDID8169:12",
+            "@type": "unece:TransportEquipmentFullnessCode",
+            "rdf:value": "12",
+            "rdfs:comment": "Multi invoiced load"
+        },
+        {
+            "@id": "UNTDID8169:13",
+            "@type": "unece:TransportEquipmentFullnessCode",
+            "rdf:value": "13",
+            "rdfs:comment": "Full load, multiple bills"
+        }
+    ]
+}

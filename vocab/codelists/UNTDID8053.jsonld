@@ -1,0 +1,587 @@
+
+{
+    "@context": {
+        "unece": "https://vocabulary.uncefact.org/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "UNTDID8053": "https://vocabulary.uncefact.org/codelists/UNTDID8053"
+    },
+    "@graph": [
+        {
+            "@id": "UNTDID8053:AA",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "AA",
+            "rdfs:comment": "Ground equipment"
+        },
+        {
+            "@id": "UNTDID8053:AB",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "AB",
+            "rdfs:comment": "Chain"
+        },
+        {
+            "@id": "UNTDID8053:AD",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "AD",
+            "rdfs:comment": "Temperature recorder"
+        },
+        {
+            "@id": "UNTDID8053:AE",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "AE",
+            "rdfs:comment": "Body trailer"
+        },
+        {
+            "@id": "UNTDID8053:AG",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "AG",
+            "rdfs:comment": "Slipsheet"
+        },
+        {
+            "@id": "UNTDID8053:AH",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "AH",
+            "rdfs:comment": "No special equipment needed"
+        },
+        {
+            "@id": "UNTDID8053:AI",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "AI",
+            "rdfs:comment": "Vessel hold"
+        },
+        {
+            "@id": "UNTDID8053:AJ",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "AJ",
+            "rdfs:comment": "Flat rack"
+        },
+        {
+            "@id": "UNTDID8053:AK",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "AK",
+            "rdfs:comment": "Aircraft"
+        },
+        {
+            "@id": "UNTDID8053:AL",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "AL",
+            "rdfs:comment": "Medical device"
+        },
+        {
+            "@id": "UNTDID8053:AM",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "AM",
+            "rdfs:comment": "Refrigerated container"
+        },
+        {
+            "@id": "UNTDID8053:AN",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "AN",
+            "rdfs:comment": "Synthetic pallet 80*120cm"
+        },
+        {
+            "@id": "UNTDID8053:AO",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "AO",
+            "rdfs:comment": "Synthetic pallet 100*120cm"
+        },
+        {
+            "@id": "UNTDID8053:AP",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "AP",
+            "rdfs:comment": "Clothing hanger rack"
+        },
+        {
+            "@id": "UNTDID8053:AQ",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "AQ",
+            "rdfs:comment": "Road/rail trailer"
+        },
+        {
+            "@id": "UNTDID8053:AT",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "AT",
+            "rdfs:comment": "Overhang wagon"
+        },
+        {
+            "@id": "UNTDID8053:BB",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "BB",
+            "rdfs:comment": "Un-containerized cargo (breakbulk)"
+        },
+        {
+            "@id": "UNTDID8053:BL",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "BL",
+            "rdfs:comment": "Blocks"
+        },
+        {
+            "@id": "UNTDID8053:BPN",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "BPN",
+            "rdfs:comment": "Box pallet non-exchangeable"
+        },
+        {
+            "@id": "UNTDID8053:BPO",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "BPO",
+            "rdfs:comment": "Truck being transported"
+        },
+        {
+            "@id": "UNTDID8053:BPP",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "BPP",
+            "rdfs:comment": "Truck and trailer combination being transported"
+        },
+        {
+            "@id": "UNTDID8053:BPQ",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "BPQ",
+            "rdfs:comment": "Tractor and trailer being transported"
+        },
+        {
+            "@id": "UNTDID8053:BPR",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "BPR",
+            "rdfs:comment": "Postal bag"
+        },
+        {
+            "@id": "UNTDID8053:BPS",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "BPS",
+            "rdfs:comment": "Letter Tray"
+        },
+        {
+            "@id": "UNTDID8053:BPT",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "BPT",
+            "rdfs:comment": "Roller Cage"
+        },
+        {
+            "@id": "UNTDID8053:BPU",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "BPU",
+            "rdfs:comment": "Flats Tray"
+        },
+        {
+            "@id": "UNTDID8053:BPV",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "BPV",
+            "rdfs:comment": "Out of bag parcel"
+        },
+        {
+            "@id": "UNTDID8053:BPW",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "BPW",
+            "rdfs:comment": "Wheeled Platform"
+        },
+        {
+            "@id": "UNTDID8053:BPX",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "BPX",
+            "rdfs:comment": "Container non-compliant with the Customs Convention on Containers"
+        },
+        {
+            "@id": "UNTDID8053:BPY",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "BPY",
+            "rdfs:comment": "Box pallet EUR Y non exchangeable"
+        },
+        {
+            "@id": "UNTDID8053:BPZ",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "BPZ",
+            "rdfs:comment": "Roll Pallet 1"
+        },
+        {
+            "@id": "UNTDID8053:BR",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "BR",
+            "rdfs:comment": "Barge"
+        },
+        {
+            "@id": "UNTDID8053:BX",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "BX",
+            "rdfs:comment": "Boxcar"
+        },
+        {
+            "@id": "UNTDID8053:CH",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "CH",
+            "rdfs:comment": "Chassis"
+        },
+        {
+            "@id": "UNTDID8053:CN",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "CN",
+            "rdfs:comment": "Container"
+        },
+        {
+            "@id": "UNTDID8053:DPA",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "DPA",
+            "rdfs:comment": "Deadlight (panel)"
+        },
+        {
+            "@id": "UNTDID8053:DPB",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "DPB",
+            "rdfs:comment": "Roll Pallet 2"
+        },
+        {
+            "@id": "UNTDID8053:DPC",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "DPC",
+            "rdfs:comment": "Container gantry crane"
+        },
+        {
+            "@id": "UNTDID8053:DPD",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "DPD",
+            "rdfs:comment": "Mobile crane"
+        },
+        {
+            "@id": "UNTDID8053:DPE",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "DPE",
+            "rdfs:comment": "Floating crane"
+        },
+        {
+            "@id": "UNTDID8053:DPF",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "DPF",
+            "rdfs:comment": "Ship's equipment crane"
+        },
+        {
+            "@id": "UNTDID8053:DPG",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "DPG",
+            "rdfs:comment": "Conveyor belt"
+        },
+        {
+            "@id": "UNTDID8053:DPH",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "DPH",
+            "rdfs:comment": "Forklift"
+        },
+        {
+            "@id": "UNTDID8053:DPI",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "DPI",
+            "rdfs:comment": "Stacking equipment"
+        },
+        {
+            "@id": "UNTDID8053:DPJ",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "DPJ",
+            "rdfs:comment": "Taillift"
+        },
+        {
+            "@id": "UNTDID8053:DPK",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "DPK",
+            "rdfs:comment": "Pallet ISO 0 - 1/2 EURO Pallet"
+        },
+        {
+            "@id": "UNTDID8053:DPL",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "DPL",
+            "rdfs:comment": "On-board equipment"
+        },
+        {
+            "@id": "UNTDID8053:DPM",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "DPM",
+            "rdfs:comment": "Pallet ISO 1 - 1/1 EURO Pallet (GS1 Temporary Code)"
+        },
+        {
+            "@id": "UNTDID8053:DPN",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "DPN",
+            "rdfs:comment": "Pallet ISO 2"
+        },
+        {
+            "@id": "UNTDID8053:DPO",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "DPO",
+            "rdfs:comment": "1/4 EURO Pallet"
+        },
+        {
+            "@id": "UNTDID8053:EFP",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "EFP",
+            "rdfs:comment": "Exchangeable EUR flat pallet"
+        },
+        {
+            "@id": "UNTDID8053:EFQ",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "EFQ",
+            "rdfs:comment": "1/8 EURO Pallet"
+        },
+        {
+            "@id": "UNTDID8053:EFR",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "EFR",
+            "rdfs:comment": "Wholesaler pallet"
+        },
+        {
+            "@id": "UNTDID8053:EFS",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "EFS",
+            "rdfs:comment": "Pallet 80 X 100 cm"
+        },
+        {
+            "@id": "UNTDID8053:EFT",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "EFT",
+            "rdfs:comment": "Pallet 60 X 100 cm"
+        },
+        {
+            "@id": "UNTDID8053:EFU",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "EFU",
+            "rdfs:comment": "Oneway pallet"
+        },
+        {
+            "@id": "UNTDID8053:EFV",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "EFV",
+            "rdfs:comment": "Returnable pallet"
+        },
+        {
+            "@id": "UNTDID8053:EFW",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "EFW",
+            "rdfs:comment": "Bottlecrate"
+        },
+        {
+            "@id": "UNTDID8053:EFX",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "EFX",
+            "rdfs:comment": "Bottle, non-protected, cylindrical"
+        },
+        {
+            "@id": "UNTDID8053:EFY",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "EFY",
+            "rdfs:comment": "Box"
+        },
+        {
+            "@id": "UNTDID8053:EFZ",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "EFZ",
+            "rdfs:comment": "CHEP Eurobox"
+        },
+        {
+            "@id": "UNTDID8053:EGA",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "EGA",
+            "rdfs:comment": "Case"
+        },
+        {
+            "@id": "UNTDID8053:EGB",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "EGB",
+            "rdfs:comment": "Display package"
+        },
+        {
+            "@id": "UNTDID8053:EGC",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "EGC",
+            "rdfs:comment": "Isothermic case"
+        },
+        {
+            "@id": "UNTDID8053:EGD",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "EGD",
+            "rdfs:comment": "Pallet modular collars 80*100"
+        },
+        {
+            "@id": "UNTDID8053:EGE",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "EGE",
+            "rdfs:comment": "Pallet modular collars 80*120"
+        },
+        {
+            "@id": "UNTDID8053:EGF",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "EGF",
+            "rdfs:comment": "Tray"
+        },
+        {
+            "@id": "UNTDID8053:EGG",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "EGG",
+            "rdfs:comment": "Roll cage"
+        },
+        {
+            "@id": "UNTDID8053:EGH",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "EGH",
+            "rdfs:comment": "Trolley"
+        },
+        {
+            "@id": "UNTDID8053:EGI",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "EGI",
+            "rdfs:comment": "Landside power generator"
+        },
+        {
+            "@id": "UNTDID8053:EYP",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "EYP",
+            "rdfs:comment": "Exchangeable EUR Y box pallet"
+        },
+        {
+            "@id": "UNTDID8053:FPN",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "FPN",
+            "rdfs:comment": "Flat pallet EUR non exchangeable"
+        },
+        {
+            "@id": "UNTDID8053:FPR",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "FPR",
+            "rdfs:comment": "Flat pallet (railway property) non-exchangeable"
+        },
+        {
+            "@id": "UNTDID8053:IL",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "IL",
+            "rdfs:comment": "Lidded stackable rigid tray (CEN TS 14482:2002)"
+        },
+        {
+            "@id": "UNTDID8053:LAR",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "LAR",
+            "rdfs:comment": "Lashing rope"
+        },
+        {
+            "@id": "UNTDID8053:LU",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "LU",
+            "rdfs:comment": "Load/unload device on equipment"
+        },
+        {
+            "@id": "UNTDID8053:MPA",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "MPA",
+            "rdfs:comment": "Movable panel"
+        },
+        {
+            "@id": "UNTDID8053:PA",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "PA",
+            "rdfs:comment": "Pallet"
+        },
+        {
+            "@id": "UNTDID8053:PBP",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "PBP",
+            "rdfs:comment": "Identified private box pallet"
+        },
+        {
+            "@id": "UNTDID8053:PFP",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "PFP",
+            "rdfs:comment": "Identified private flat pallet"
+        },
+        {
+            "@id": "UNTDID8053:PL",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "PL",
+            "rdfs:comment": "Platform"
+        },
+        {
+            "@id": "UNTDID8053:PPA",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "PPA",
+            "rdfs:comment": "Protecting panel"
+        },
+        {
+            "@id": "UNTDID8053:PST",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "PST",
+            "rdfs:comment": "Portable stove"
+        },
+        {
+            "@id": "UNTDID8053:RF",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "RF",
+            "rdfs:comment": "Flat car"
+        },
+        {
+            "@id": "UNTDID8053:RG",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "RG",
+            "rdfs:comment": "Reefer generator"
+        },
+        {
+            "@id": "UNTDID8053:RGF",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "RGF",
+            "rdfs:comment": "Ground facility"
+        },
+        {
+            "@id": "UNTDID8053:RO",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "RO",
+            "rdfs:comment": "Rope"
+        },
+        {
+            "@id": "UNTDID8053:RR",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "RR",
+            "rdfs:comment": "Rail car"
+        },
+        {
+            "@id": "UNTDID8053:SPP",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "SPP",
+            "rdfs:comment": "Identified special pallet"
+        },
+        {
+            "@id": "UNTDID8053:STR",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "STR",
+            "rdfs:comment": "Strap"
+        },
+        {
+            "@id": "UNTDID8053:SW",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "SW",
+            "rdfs:comment": "Swap body"
+        },
+        {
+            "@id": "UNTDID8053:TE",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "TE",
+            "rdfs:comment": "Trailer"
+        },
+        {
+            "@id": "UNTDID8053:TP",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "TP",
+            "rdfs:comment": "Tarpaulin"
+        },
+        {
+            "@id": "UNTDID8053:TS",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "TS",
+            "rdfs:comment": "Tackles"
+        },
+        {
+            "@id": "UNTDID8053:TSU",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "TSU",
+            "rdfs:comment": "Tarpaulin support"
+        },
+        {
+            "@id": "UNTDID8053:UL",
+            "@type": "unece:TransportEquipmentCategoryCode",
+            "rdf:value": "UL",
+            "rdfs:comment": "ULD (Unit load device)"
+        }
+    ]
+}

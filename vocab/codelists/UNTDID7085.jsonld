@@ -1,0 +1,161 @@
+
+{
+    "@context": {
+        "unece": "https://vocabulary.uncefact.org/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "UNTDID7085": "https://vocabulary.uncefact.org/codelists/UNTDID7085"
+    },
+    "@graph": [
+        {
+            "@id": "UNTDID7085:1",
+            "@type": "unece:CargoOperationalCategoryCode",
+            "rdf:value": "1",
+            "rdfs:comment": "Documents"
+        },
+        {
+            "@id": "UNTDID7085:2",
+            "@type": "unece:CargoOperationalCategoryCode",
+            "rdf:value": "2",
+            "rdfs:comment": "Low value non-dutiable consignments"
+        },
+        {
+            "@id": "UNTDID7085:3",
+            "@type": "unece:CargoOperationalCategoryCode",
+            "rdf:value": "3",
+            "rdfs:comment": "Low value dutiable consignments"
+        },
+        {
+            "@id": "UNTDID7085:4",
+            "@type": "unece:CargoOperationalCategoryCode",
+            "rdf:value": "4",
+            "rdfs:comment": "High value consignments"
+        },
+        {
+            "@id": "UNTDID7085:5",
+            "@type": "unece:CargoOperationalCategoryCode",
+            "rdf:value": "5",
+            "rdfs:comment": "Other non-containerized"
+        },
+        {
+            "@id": "UNTDID7085:6",
+            "@type": "unece:CargoOperationalCategoryCode",
+            "rdf:value": "6",
+            "rdfs:comment": "Vehicles"
+        },
+        {
+            "@id": "UNTDID7085:7",
+            "@type": "unece:CargoOperationalCategoryCode",
+            "rdf:value": "7",
+            "rdfs:comment": "Roll-on roll-off"
+        },
+        {
+            "@id": "UNTDID7085:8",
+            "@type": "unece:CargoOperationalCategoryCode",
+            "rdf:value": "8",
+            "rdfs:comment": "Palletized"
+        },
+        {
+            "@id": "UNTDID7085:9",
+            "@type": "unece:CargoOperationalCategoryCode",
+            "rdf:value": "9",
+            "rdfs:comment": "Containerized"
+        },
+        {
+            "@id": "UNTDID7085:10",
+            "@type": "unece:CargoOperationalCategoryCode",
+            "rdf:value": "10",
+            "rdfs:comment": "Breakbulk"
+        },
+        {
+            "@id": "UNTDID7085:11",
+            "@type": "unece:CargoOperationalCategoryCode",
+            "rdf:value": "11",
+            "rdfs:comment": "Hazardous cargo"
+        },
+        {
+            "@id": "UNTDID7085:12",
+            "@type": "unece:CargoOperationalCategoryCode",
+            "rdf:value": "12",
+            "rdfs:comment": "General cargo"
+        },
+        {
+            "@id": "UNTDID7085:13",
+            "@type": "unece:CargoOperationalCategoryCode",
+            "rdf:value": "13",
+            "rdfs:comment": "Liquid cargo"
+        },
+        {
+            "@id": "UNTDID7085:14",
+            "@type": "unece:CargoOperationalCategoryCode",
+            "rdf:value": "14",
+            "rdfs:comment": "Temperature controlled cargo"
+        },
+        {
+            "@id": "UNTDID7085:15",
+            "@type": "unece:CargoOperationalCategoryCode",
+            "rdf:value": "15",
+            "rdfs:comment": "Environmental pollutant cargo"
+        },
+        {
+            "@id": "UNTDID7085:16",
+            "@type": "unece:CargoOperationalCategoryCode",
+            "rdf:value": "16",
+            "rdfs:comment": "Not-hazardous cargo"
+        },
+        {
+            "@id": "UNTDID7085:17",
+            "@type": "unece:CargoOperationalCategoryCode",
+            "rdf:value": "17",
+            "rdfs:comment": "Diplomatic"
+        },
+        {
+            "@id": "UNTDID7085:18",
+            "@type": "unece:CargoOperationalCategoryCode",
+            "rdf:value": "18",
+            "rdfs:comment": "Military"
+        },
+        {
+            "@id": "UNTDID7085:19",
+            "@type": "unece:CargoOperationalCategoryCode",
+            "rdf:value": "19",
+            "rdfs:comment": "Obnoxious"
+        },
+        {
+            "@id": "UNTDID7085:20",
+            "@type": "unece:CargoOperationalCategoryCode",
+            "rdf:value": "20",
+            "rdfs:comment": "Out of gauge"
+        },
+        {
+            "@id": "UNTDID7085:21",
+            "@type": "unece:CargoOperationalCategoryCode",
+            "rdf:value": "21",
+            "rdfs:comment": "Household goods and personal effects"
+        },
+        {
+            "@id": "UNTDID7085:22",
+            "@type": "unece:CargoOperationalCategoryCode",
+            "rdf:value": "22",
+            "rdfs:comment": "Frozen cargo"
+        },
+        {
+            "@id": "UNTDID7085:23",
+            "@type": "unece:CargoOperationalCategoryCode",
+            "rdf:value": "23",
+            "rdfs:comment": "Ballast only"
+        },
+        {
+            "@id": "UNTDID7085:24",
+            "@type": "unece:CargoOperationalCategoryCode",
+            "rdf:value": "24",
+            "rdfs:comment": "Incompatible cargo"
+        },
+        {
+            "@id": "UNTDID7085:25",
+            "@type": "unece:CargoOperationalCategoryCode",
+            "rdf:value": "25",
+            "rdfs:comment": "Deep-frozen cargo"
+        }
+    ]
+}

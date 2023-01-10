@@ -1,0 +1,35 @@
+
+{
+    "@context": {
+        "unece": "https://vocabulary.uncefact.org/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "UNTDID4219": "https://vocabulary.uncefact.org/codelists/UNTDID4219"
+    },
+    "@graph": [
+        {
+            "@id": "UNTDID4219:1",
+            "@type": "unece:TransportServicePriorityCode",
+            "rdf:value": "1",
+            "rdfs:comment": "Express"
+        },
+        {
+            "@id": "UNTDID4219:2",
+            "@type": "unece:TransportServicePriorityCode",
+            "rdf:value": "2",
+            "rdfs:comment": "High speed"
+        },
+        {
+            "@id": "UNTDID4219:3",
+            "@type": "unece:TransportServicePriorityCode",
+            "rdf:value": "3",
+            "rdfs:comment": "Normal speed"
+        },
+        {
+            "@id": "UNTDID4219:4",
+            "@type": "unece:TransportServicePriorityCode",
+            "rdf:value": "4",
+            "rdfs:comment": "Post service"
+        }
+    ]
+}

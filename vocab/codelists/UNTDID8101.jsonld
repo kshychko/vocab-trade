@@ -1,0 +1,65 @@
+
+{
+    "@context": {
+        "unece": "https://vocabulary.uncefact.org/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "UNTDID8101": "https://vocabulary.uncefact.org/codelists/UNTDID8101"
+    },
+    "@graph": [
+        {
+            "@id": "UNTDID8101:BS",
+            "@type": "unece:TransportMeansDirectionCode",
+            "rdf:value": "BS",
+            "rdfs:comment": "Buyer to seller"
+        },
+        {
+            "@id": "UNTDID8101:SB",
+            "@type": "unece:TransportMeansDirectionCode",
+            "rdf:value": "SB",
+            "rdfs:comment": "Seller to buyer"
+        },
+        {
+            "@id": "UNTDID8101:SC",
+            "@type": "unece:TransportMeansDirectionCode",
+            "rdf:value": "SC",
+            "rdfs:comment": "Subcontractor to seller"
+        },
+        {
+            "@id": "UNTDID8101:SD",
+            "@type": "unece:TransportMeansDirectionCode",
+            "rdf:value": "SD",
+            "rdfs:comment": "Seller to drop ship designated location"
+        },
+        {
+            "@id": "UNTDID8101:SF",
+            "@type": "unece:TransportMeansDirectionCode",
+            "rdf:value": "SF",
+            "rdfs:comment": "Seller to freight forwarder"
+        },
+        {
+            "@id": "UNTDID8101:SS",
+            "@type": "unece:TransportMeansDirectionCode",
+            "rdf:value": "SS",
+            "rdfs:comment": "Seller to subcontractor"
+        },
+        {
+            "@id": "UNTDID8101:ST",
+            "@type": "unece:TransportMeansDirectionCode",
+            "rdf:value": "ST",
+            "rdfs:comment": "Mother vessel to lighter"
+        },
+        {
+            "@id": "UNTDID8101:SU",
+            "@type": "unece:TransportMeansDirectionCode",
+            "rdf:value": "SU",
+            "rdfs:comment": "Lighter to mother vessel"
+        },
+        {
+            "@id": "UNTDID8101:ZZZ",
+            "@type": "unece:TransportMeansDirectionCode",
+            "rdf:value": "ZZZ",
+            "rdfs:comment": "Mutually defined"
+        }
+    ]
+}

@@ -1,0 +1,641 @@
+
+{
+    "@context": {
+        "unece": "https://vocabulary.uncefact.org/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "UNTDID5189": "https://vocabulary.uncefact.org/codelists/UNTDID5189"
+    },
+    "@graph": [
+        {
+            "@id": "UNTDID5189:1",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "1",
+            "rdfs:comment": "Handling commission"
+        },
+        {
+            "@id": "UNTDID5189:2",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "2",
+            "rdfs:comment": "Amendment commission"
+        },
+        {
+            "@id": "UNTDID5189:3",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "3",
+            "rdfs:comment": "Acceptance commission"
+        },
+        {
+            "@id": "UNTDID5189:4",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "4",
+            "rdfs:comment": "Commission for obtaining acceptance"
+        },
+        {
+            "@id": "UNTDID5189:5",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "5",
+            "rdfs:comment": "Commission on delivery"
+        },
+        {
+            "@id": "UNTDID5189:6",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "6",
+            "rdfs:comment": "Advising commission"
+        },
+        {
+            "@id": "UNTDID5189:7",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "7",
+            "rdfs:comment": "Confirmation commission"
+        },
+        {
+            "@id": "UNTDID5189:8",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "8",
+            "rdfs:comment": "Deferred payment commission"
+        },
+        {
+            "@id": "UNTDID5189:9",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "9",
+            "rdfs:comment": "Commission for taking up documents"
+        },
+        {
+            "@id": "UNTDID5189:10",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "10",
+            "rdfs:comment": "Opening commission"
+        },
+        {
+            "@id": "UNTDID5189:11",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "11",
+            "rdfs:comment": "Fee for payment under reserve"
+        },
+        {
+            "@id": "UNTDID5189:12",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "12",
+            "rdfs:comment": "Discrepancy fee"
+        },
+        {
+            "@id": "UNTDID5189:13",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "13",
+            "rdfs:comment": "Domicilation commission"
+        },
+        {
+            "@id": "UNTDID5189:14",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "14",
+            "rdfs:comment": "Commission for release of goods"
+        },
+        {
+            "@id": "UNTDID5189:15",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "15",
+            "rdfs:comment": "Collection commission"
+        },
+        {
+            "@id": "UNTDID5189:16",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "16",
+            "rdfs:comment": "Negotiation commission"
+        },
+        {
+            "@id": "UNTDID5189:17",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "17",
+            "rdfs:comment": "Return commission"
+        },
+        {
+            "@id": "UNTDID5189:18",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "18",
+            "rdfs:comment": "B/L splitting charges"
+        },
+        {
+            "@id": "UNTDID5189:19",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "19",
+            "rdfs:comment": "Trust commission"
+        },
+        {
+            "@id": "UNTDID5189:20",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "20",
+            "rdfs:comment": "Transfer commission"
+        },
+        {
+            "@id": "UNTDID5189:21",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "21",
+            "rdfs:comment": "Commission for opening irrevocable documentary credits"
+        },
+        {
+            "@id": "UNTDID5189:22",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "22",
+            "rdfs:comment": "Pre-advice commission"
+        },
+        {
+            "@id": "UNTDID5189:23",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "23",
+            "rdfs:comment": "Supervisory commission"
+        },
+        {
+            "@id": "UNTDID5189:24",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "24",
+            "rdfs:comment": "Model charges"
+        },
+        {
+            "@id": "UNTDID5189:25",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "25",
+            "rdfs:comment": "Risk commission"
+        },
+        {
+            "@id": "UNTDID5189:26",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "26",
+            "rdfs:comment": "Guarantee commission"
+        },
+        {
+            "@id": "UNTDID5189:27",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "27",
+            "rdfs:comment": "Reimbursement commission"
+        },
+        {
+            "@id": "UNTDID5189:28",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "28",
+            "rdfs:comment": "Stamp duty"
+        },
+        {
+            "@id": "UNTDID5189:29",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "29",
+            "rdfs:comment": "Brokerage"
+        },
+        {
+            "@id": "UNTDID5189:30",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "30",
+            "rdfs:comment": "Bank charges"
+        },
+        {
+            "@id": "UNTDID5189:31",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "31",
+            "rdfs:comment": "Bank charges information"
+        },
+        {
+            "@id": "UNTDID5189:32",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "32",
+            "rdfs:comment": "Courier fee"
+        },
+        {
+            "@id": "UNTDID5189:33",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "33",
+            "rdfs:comment": "Phone fee"
+        },
+        {
+            "@id": "UNTDID5189:34",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "34",
+            "rdfs:comment": "Postage fee"
+        },
+        {
+            "@id": "UNTDID5189:35",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "35",
+            "rdfs:comment": "S.W.I.F.T. fee"
+        },
+        {
+            "@id": "UNTDID5189:36",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "36",
+            "rdfs:comment": "Telex fee"
+        },
+        {
+            "@id": "UNTDID5189:37",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "37",
+            "rdfs:comment": "Penalty for late delivery of documents"
+        },
+        {
+            "@id": "UNTDID5189:38",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "38",
+            "rdfs:comment": "Penalty for late delivery of valuation of works"
+        },
+        {
+            "@id": "UNTDID5189:39",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "39",
+            "rdfs:comment": "Penalty for execution of works behind schedule"
+        },
+        {
+            "@id": "UNTDID5189:40",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "40",
+            "rdfs:comment": "Other penalties"
+        },
+        {
+            "@id": "UNTDID5189:41",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "41",
+            "rdfs:comment": "Bonus for works ahead of schedule"
+        },
+        {
+            "@id": "UNTDID5189:42",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "42",
+            "rdfs:comment": "Other bonus"
+        },
+        {
+            "@id": "UNTDID5189:44",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "44",
+            "rdfs:comment": "Project management cost"
+        },
+        {
+            "@id": "UNTDID5189:45",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "45",
+            "rdfs:comment": "Pro rata retention"
+        },
+        {
+            "@id": "UNTDID5189:46",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "46",
+            "rdfs:comment": "Contractual retention"
+        },
+        {
+            "@id": "UNTDID5189:47",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "47",
+            "rdfs:comment": "Other retentions"
+        },
+        {
+            "@id": "UNTDID5189:48",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "48",
+            "rdfs:comment": "Interest on arrears"
+        },
+        {
+            "@id": "UNTDID5189:49",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "49",
+            "rdfs:comment": "Interest"
+        },
+        {
+            "@id": "UNTDID5189:50",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "50",
+            "rdfs:comment": "Charge per credit cover"
+        },
+        {
+            "@id": "UNTDID5189:51",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "51",
+            "rdfs:comment": "Charge per unused credit cover"
+        },
+        {
+            "@id": "UNTDID5189:52",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "52",
+            "rdfs:comment": "Minimum commission"
+        },
+        {
+            "@id": "UNTDID5189:53",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "53",
+            "rdfs:comment": "Factoring commission"
+        },
+        {
+            "@id": "UNTDID5189:54",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "54",
+            "rdfs:comment": "Chamber of commerce charge"
+        },
+        {
+            "@id": "UNTDID5189:55",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "55",
+            "rdfs:comment": "Transfer charges"
+        },
+        {
+            "@id": "UNTDID5189:56",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "56",
+            "rdfs:comment": "Repatriation charges"
+        },
+        {
+            "@id": "UNTDID5189:57",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "57",
+            "rdfs:comment": "Miscellaneous charges"
+        },
+        {
+            "@id": "UNTDID5189:58",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "58",
+            "rdfs:comment": "Foreign exchange charges"
+        },
+        {
+            "@id": "UNTDID5189:59",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "59",
+            "rdfs:comment": "Agreed debit interest charge"
+        },
+        {
+            "@id": "UNTDID5189:60",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "60",
+            "rdfs:comment": "Manufacturer's consumer discount"
+        },
+        {
+            "@id": "UNTDID5189:61",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "61",
+            "rdfs:comment": "Fax advice charge"
+        },
+        {
+            "@id": "UNTDID5189:62",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "62",
+            "rdfs:comment": "Due to military status"
+        },
+        {
+            "@id": "UNTDID5189:63",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "63",
+            "rdfs:comment": "Due to work accident"
+        },
+        {
+            "@id": "UNTDID5189:64",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "64",
+            "rdfs:comment": "Special agreement"
+        },
+        {
+            "@id": "UNTDID5189:65",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "65",
+            "rdfs:comment": "Production error discount"
+        },
+        {
+            "@id": "UNTDID5189:66",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "66",
+            "rdfs:comment": "New outlet discount"
+        },
+        {
+            "@id": "UNTDID5189:67",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "67",
+            "rdfs:comment": "Sample discount"
+        },
+        {
+            "@id": "UNTDID5189:68",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "68",
+            "rdfs:comment": "End-of-range discount"
+        },
+        {
+            "@id": "UNTDID5189:69",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "69",
+            "rdfs:comment": "Charge for a customer specific finish"
+        },
+        {
+            "@id": "UNTDID5189:70",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "70",
+            "rdfs:comment": "Incoterm discount"
+        },
+        {
+            "@id": "UNTDID5189:71",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "71",
+            "rdfs:comment": "Point of sales threshold allowance"
+        },
+        {
+            "@id": "UNTDID5189:72",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "72",
+            "rdfs:comment": "Technical modification costs"
+        },
+        {
+            "@id": "UNTDID5189:73",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "73",
+            "rdfs:comment": "Job-order production costs"
+        },
+        {
+            "@id": "UNTDID5189:74",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "74",
+            "rdfs:comment": "Off-premises costs"
+        },
+        {
+            "@id": "UNTDID5189:75",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "75",
+            "rdfs:comment": "Additional processing costs"
+        },
+        {
+            "@id": "UNTDID5189:76",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "76",
+            "rdfs:comment": "Attesting charge"
+        },
+        {
+            "@id": "UNTDID5189:77",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "77",
+            "rdfs:comment": "Rush delivery surcharge"
+        },
+        {
+            "@id": "UNTDID5189:78",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "78",
+            "rdfs:comment": "Special construction costs"
+        },
+        {
+            "@id": "UNTDID5189:79",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "79",
+            "rdfs:comment": "Freight charges"
+        },
+        {
+            "@id": "UNTDID5189:80",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "80",
+            "rdfs:comment": "Packing charge"
+        },
+        {
+            "@id": "UNTDID5189:81",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "81",
+            "rdfs:comment": "Repair charge"
+        },
+        {
+            "@id": "UNTDID5189:82",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "82",
+            "rdfs:comment": "Loading charge"
+        },
+        {
+            "@id": "UNTDID5189:83",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "83",
+            "rdfs:comment": "Setup charge"
+        },
+        {
+            "@id": "UNTDID5189:84",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "84",
+            "rdfs:comment": "Testing charge"
+        },
+        {
+            "@id": "UNTDID5189:85",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "85",
+            "rdfs:comment": "Warehousing charge"
+        },
+        {
+            "@id": "UNTDID5189:86",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "86",
+            "rdfs:comment": "Gold surcharge"
+        },
+        {
+            "@id": "UNTDID5189:87",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "87",
+            "rdfs:comment": "Copper surcharge"
+        },
+        {
+            "@id": "UNTDID5189:88",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "88",
+            "rdfs:comment": "Material surcharge/deduction"
+        },
+        {
+            "@id": "UNTDID5189:89",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "89",
+            "rdfs:comment": "Lead surcharge"
+        },
+        {
+            "@id": "UNTDID5189:90",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "90",
+            "rdfs:comment": "Price index surcharge"
+        },
+        {
+            "@id": "UNTDID5189:91",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "91",
+            "rdfs:comment": "Platinum surcharge"
+        },
+        {
+            "@id": "UNTDID5189:92",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "92",
+            "rdfs:comment": "Silver surcharge"
+        },
+        {
+            "@id": "UNTDID5189:93",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "93",
+            "rdfs:comment": "Wolfram surcharge"
+        },
+        {
+            "@id": "UNTDID5189:94",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "94",
+            "rdfs:comment": "Aluminum surcharge"
+        },
+        {
+            "@id": "UNTDID5189:95",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "95",
+            "rdfs:comment": "Discount"
+        },
+        {
+            "@id": "UNTDID5189:96",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "96",
+            "rdfs:comment": "Insurance"
+        },
+        {
+            "@id": "UNTDID5189:97",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "97",
+            "rdfs:comment": "Minimum order / minimum billing charge"
+        },
+        {
+            "@id": "UNTDID5189:98",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "98",
+            "rdfs:comment": "Material surcharge (special materials)"
+        },
+        {
+            "@id": "UNTDID5189:99",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "99",
+            "rdfs:comment": "Surcharge"
+        },
+        {
+            "@id": "UNTDID5189:100",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "100",
+            "rdfs:comment": "Special rebate"
+        },
+        {
+            "@id": "UNTDID5189:101",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "101",
+            "rdfs:comment": "Carbon footprint charge"
+        },
+        {
+            "@id": "UNTDID5189:102",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "102",
+            "rdfs:comment": "Fixed long term"
+        },
+        {
+            "@id": "UNTDID5189:103",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "103",
+            "rdfs:comment": "Temporary"
+        },
+        {
+            "@id": "UNTDID5189:104",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "104",
+            "rdfs:comment": "Standard"
+        },
+        {
+            "@id": "UNTDID5189:105",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "105",
+            "rdfs:comment": "Yearly turnover"
+        },
+        {
+            "@id": "UNTDID5189:106",
+            "@type": "unece:AllowanceChargeIdentificationCode",
+            "rdf:value": "106",
+            "rdfs:comment": "Withheld taxes and social security contributions"
+        }
+    ]
+}

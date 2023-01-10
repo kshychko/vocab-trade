@@ -1,0 +1,155 @@
+
+{
+    "@context": {
+        "unece": "https://vocabulary.uncefact.org/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "AccountingDocumentCodeUNTDID1001": "https://vocabulary.uncefact.org/codelists/AccountingDocumentCodeUNTDID1001"
+    },
+    "@graph": [
+        {
+            "@id": "AccountingDocumentCodeUNTDID1001:105",
+            "@type": "unece:AccountingDocumentCode",
+            "rdf:value": "105",
+            "rdfs:comment": "Purchase order"
+        },
+        {
+            "@id": "AccountingDocumentCodeUNTDID1001:220",
+            "@type": "unece:AccountingDocumentCode",
+            "rdf:value": "220",
+            "rdfs:comment": "Order"
+        },
+        {
+            "@id": "AccountingDocumentCodeUNTDID1001:223",
+            "@type": "unece:AccountingDocumentCode",
+            "rdf:value": "223",
+            "rdfs:comment": "Lease order"
+        },
+        {
+            "@id": "AccountingDocumentCodeUNTDID1001:224",
+            "@type": "unece:AccountingDocumentCode",
+            "rdf:value": "224",
+            "rdfs:comment": "Rush order"
+        },
+        {
+            "@id": "AccountingDocumentCodeUNTDID1001:245",
+            "@type": "unece:AccountingDocumentCode",
+            "rdf:value": "245",
+            "rdfs:comment": "Delivery release"
+        },
+        {
+            "@id": "AccountingDocumentCodeUNTDID1001:315",
+            "@type": "unece:AccountingDocumentCode",
+            "rdf:value": "315",
+            "rdfs:comment": "Contract"
+        },
+        {
+            "@id": "AccountingDocumentCodeUNTDID1001:320",
+            "@type": "unece:AccountingDocumentCode",
+            "rdf:value": "320",
+            "rdfs:comment": "Acknowledgement of order"
+        },
+        {
+            "@id": "AccountingDocumentCodeUNTDID1001:325",
+            "@type": "unece:AccountingDocumentCode",
+            "rdf:value": "325",
+            "rdfs:comment": "Proforma invoice"
+        },
+        {
+            "@id": "AccountingDocumentCodeUNTDID1001:326",
+            "@type": "unece:AccountingDocumentCode",
+            "rdf:value": "326",
+            "rdfs:comment": "Partial invoice"
+        },
+        {
+            "@id": "AccountingDocumentCodeUNTDID1001:380",
+            "@type": "unece:AccountingDocumentCode",
+            "rdf:value": "380",
+            "rdfs:comment": "Commercial invoice"
+        },
+        {
+            "@id": "AccountingDocumentCodeUNTDID1001:389",
+            "@type": "unece:AccountingDocumentCode",
+            "rdf:value": "389",
+            "rdfs:comment": "Self-billed invoice"
+        },
+        {
+            "@id": "AccountingDocumentCodeUNTDID1001:393",
+            "@type": "unece:AccountingDocumentCode",
+            "rdf:value": "393",
+            "rdfs:comment": "Factored invoice"
+        },
+        {
+            "@id": "AccountingDocumentCodeUNTDID1001:394",
+            "@type": "unece:AccountingDocumentCode",
+            "rdf:value": "394",
+            "rdfs:comment": "Lease invoice"
+        },
+        {
+            "@id": "AccountingDocumentCodeUNTDID1001:395",
+            "@type": "unece:AccountingDocumentCode",
+            "rdf:value": "395",
+            "rdfs:comment": "Consignment invoice"
+        },
+        {
+            "@id": "AccountingDocumentCodeUNTDID1001:398",
+            "@type": "unece:AccountingDocumentCode",
+            "rdf:value": "398",
+            "rdfs:comment": "Cross docking despatch advice"
+        },
+        {
+            "@id": "AccountingDocumentCodeUNTDID1001:399",
+            "@type": "unece:AccountingDocumentCode",
+            "rdf:value": "399",
+            "rdfs:comment": "Transshipment despatch advice"
+        },
+        {
+            "@id": "AccountingDocumentCodeUNTDID1001:455",
+            "@type": "unece:AccountingDocumentCode",
+            "rdf:value": "455",
+            "rdfs:comment": "Extended credit advice"
+        },
+        {
+            "@id": "AccountingDocumentCodeUNTDID1001:481",
+            "@type": "unece:AccountingDocumentCode",
+            "rdf:value": "481",
+            "rdfs:comment": "Remittance advice"
+        },
+        {
+            "@id": "AccountingDocumentCodeUNTDID1001:533",
+            "@type": "unece:AccountingDocumentCode",
+            "rdf:value": "533",
+            "rdfs:comment": "Original accounting voucher"
+        },
+        {
+            "@id": "AccountingDocumentCodeUNTDID1001:534",
+            "@type": "unece:AccountingDocumentCode",
+            "rdf:value": "534",
+            "rdfs:comment": "Copy accounting voucher"
+        },
+        {
+            "@id": "AccountingDocumentCodeUNTDID1001:640",
+            "@type": "unece:AccountingDocumentCode",
+            "rdf:value": "640",
+            "rdfs:comment": "Delivery order"
+        },
+        {
+            "@id": "AccountingDocumentCodeUNTDID1001:719",
+            "@type": "unece:AccountingDocumentCode",
+            "rdf:value": "719",
+            "rdfs:comment": "General message"
+        },
+        {
+            "@id": "AccountingDocumentCodeUNTDID1001:731",
+            "@type": "unece:AccountingDocumentCode",
+            "rdf:value": "731",
+            "rdfs:comment": "Commercial account summary"
+        },
+        {
+            "@id": "AccountingDocumentCodeUNTDID1001:747",
+            "@type": "unece:AccountingDocumentCode",
+            "rdf:value": "747",
+            "rdfs:comment": "Payroll deductions advice"
+        }
+    ]
+}

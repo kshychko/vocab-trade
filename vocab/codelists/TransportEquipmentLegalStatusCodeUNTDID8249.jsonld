@@ -1,0 +1,23 @@
+
+{
+    "@context": {
+        "unece": "https://vocabulary.uncefact.org/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "TransportEquipmentLegalStatusCodeUNTDID8249": "https://vocabulary.uncefact.org/codelists/TransportEquipmentLegalStatusCodeUNTDID8249"
+    },
+    "@graph": [
+        {
+            "@id": "TransportEquipmentLegalStatusCodeUNTDID8249:7",
+            "@type": "unece:TransportEquipmentLegalStatusCode",
+            "rdf:value": "7",
+            "rdfs:comment": "Shortlanded"
+        },
+        {
+            "@id": "TransportEquipmentLegalStatusCodeUNTDID8249:8",
+            "@type": "unece:TransportEquipmentLegalStatusCode",
+            "rdf:value": "8",
+            "rdfs:comment": "Overlanded"
+        }
+    ]
+}

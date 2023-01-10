@@ -1,0 +1,71 @@
+
+{
+    "@context": {
+        "unece": "https://vocabulary.uncefact.org/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "UNTDID9417": "https://vocabulary.uncefact.org/codelists/UNTDID9417"
+    },
+    "@graph": [
+        {
+            "@id": "UNTDID9417:1",
+            "@type": "unece:GovernmentActionCode",
+            "rdf:value": "1",
+            "rdfs:comment": "Clearance"
+        },
+        {
+            "@id": "UNTDID9417:2",
+            "@type": "unece:GovernmentActionCode",
+            "rdf:value": "2",
+            "rdfs:comment": "Detention"
+        },
+        {
+            "@id": "UNTDID9417:3",
+            "@type": "unece:GovernmentActionCode",
+            "rdf:value": "3",
+            "rdfs:comment": "Fumigation"
+        },
+        {
+            "@id": "UNTDID9417:4",
+            "@type": "unece:GovernmentActionCode",
+            "rdf:value": "4",
+            "rdfs:comment": "Inspection"
+        },
+        {
+            "@id": "UNTDID9417:5",
+            "@type": "unece:GovernmentActionCode",
+            "rdf:value": "5",
+            "rdfs:comment": "Security"
+        },
+        {
+            "@id": "UNTDID9417:6",
+            "@type": "unece:GovernmentActionCode",
+            "rdf:value": "6",
+            "rdfs:comment": "Means of transport admittance"
+        },
+        {
+            "@id": "UNTDID9417:7",
+            "@type": "unece:GovernmentActionCode",
+            "rdf:value": "7",
+            "rdfs:comment": "Cargo hold inspection"
+        },
+        {
+            "@id": "UNTDID9417:8",
+            "@type": "unece:GovernmentActionCode",
+            "rdf:value": "8",
+            "rdfs:comment": "Container inspection"
+        },
+        {
+            "@id": "UNTDID9417:9",
+            "@type": "unece:GovernmentActionCode",
+            "rdf:value": "9",
+            "rdfs:comment": "Cargo packaging inspection"
+        },
+        {
+            "@id": "UNTDID9417:10",
+            "@type": "unece:GovernmentActionCode",
+            "rdf:value": "10",
+            "rdfs:comment": "Export certificate not required"
+        }
+    ]
+}

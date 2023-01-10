@@ -1,0 +1,137 @@
+
+{
+    "@context": {
+        "unece": "https://vocabulary.uncefact.org/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "ChargePayingPartyRoleCodeUNTDID3035": "https://vocabulary.uncefact.org/codelists/ChargePayingPartyRoleCodeUNTDID3035"
+    },
+    "@graph": [
+        {
+            "@id": "ChargePayingPartyRoleCodeUNTDID3035:AB",
+            "@type": "unece:ChargePayingPartyRoleCode",
+            "rdf:value": "AB",
+            "rdfs:comment": "Buyer's agent/representative"
+        },
+        {
+            "@id": "ChargePayingPartyRoleCodeUNTDID3035:AE",
+            "@type": "unece:ChargePayingPartyRoleCode",
+            "rdf:value": "AE",
+            "rdfs:comment": "Declarant's agent/representative"
+        },
+        {
+            "@id": "ChargePayingPartyRoleCodeUNTDID3035:AF",
+            "@type": "unece:ChargePayingPartyRoleCode",
+            "rdf:value": "AF",
+            "rdfs:comment": "Transit principal"
+        },
+        {
+            "@id": "ChargePayingPartyRoleCodeUNTDID3035:AH",
+            "@type": "unece:ChargePayingPartyRoleCode",
+            "rdf:value": "AH",
+            "rdfs:comment": "Transit principal's agent/representative"
+        },
+        {
+            "@id": "ChargePayingPartyRoleCodeUNTDID3035:AQ",
+            "@type": "unece:ChargePayingPartyRoleCode",
+            "rdf:value": "AQ",
+            "rdfs:comment": "Approved consignor"
+        },
+        {
+            "@id": "ChargePayingPartyRoleCodeUNTDID3035:AR",
+            "@type": "unece:ChargePayingPartyRoleCode",
+            "rdf:value": "AR",
+            "rdfs:comment": "Authorized exporter"
+        },
+        {
+            "@id": "ChargePayingPartyRoleCodeUNTDID3035:AT",
+            "@type": "unece:ChargePayingPartyRoleCode",
+            "rdf:value": "AT",
+            "rdfs:comment": "Authorized importer"
+        },
+        {
+            "@id": "ChargePayingPartyRoleCodeUNTDID3035:AU",
+            "@type": "unece:ChargePayingPartyRoleCode",
+            "rdf:value": "AU",
+            "rdfs:comment": "Authorized trader (transit)"
+        },
+        {
+            "@id": "ChargePayingPartyRoleCodeUNTDID3035:CA",
+            "@type": "unece:ChargePayingPartyRoleCode",
+            "rdf:value": "CA",
+            "rdfs:comment": "Carrier"
+        },
+        {
+            "@id": "ChargePayingPartyRoleCodeUNTDID3035:CG",
+            "@type": "unece:ChargePayingPartyRoleCode",
+            "rdf:value": "CG",
+            "rdfs:comment": "Carrier's agent"
+        },
+        {
+            "@id": "ChargePayingPartyRoleCodeUNTDID3035:CN",
+            "@type": "unece:ChargePayingPartyRoleCode",
+            "rdf:value": "CN",
+            "rdfs:comment": "Consignee"
+        },
+        {
+            "@id": "ChargePayingPartyRoleCodeUNTDID3035:CPD",
+            "@type": "unece:ChargePayingPartyRoleCode",
+            "rdf:value": "CPD",
+            "rdfs:comment": "Charges payer at destination"
+        },
+        {
+            "@id": "ChargePayingPartyRoleCodeUNTDID3035:CX",
+            "@type": "unece:ChargePayingPartyRoleCode",
+            "rdf:value": "CX",
+            "rdfs:comment": "Consignee's agent"
+        },
+        {
+            "@id": "ChargePayingPartyRoleCodeUNTDID3035:CZ",
+            "@type": "unece:ChargePayingPartyRoleCode",
+            "rdf:value": "CZ",
+            "rdfs:comment": "Consignor"
+        },
+        {
+            "@id": "ChargePayingPartyRoleCodeUNTDID3035:DGB",
+            "@type": "unece:ChargePayingPartyRoleCode",
+            "rdf:value": "DGB",
+            "rdfs:comment": "Invoice processing party"
+        },
+        {
+            "@id": "ChargePayingPartyRoleCodeUNTDID3035:EX",
+            "@type": "unece:ChargePayingPartyRoleCode",
+            "rdf:value": "EX",
+            "rdfs:comment": "Exporter"
+        },
+        {
+            "@id": "ChargePayingPartyRoleCodeUNTDID3035:FW",
+            "@type": "unece:ChargePayingPartyRoleCode",
+            "rdf:value": "FW",
+            "rdfs:comment": "Freight forwarder"
+        },
+        {
+            "@id": "ChargePayingPartyRoleCodeUNTDID3035:GS",
+            "@type": "unece:ChargePayingPartyRoleCode",
+            "rdf:value": "GS",
+            "rdfs:comment": "Consignor's representative"
+        },
+        {
+            "@id": "ChargePayingPartyRoleCodeUNTDID3035:IM",
+            "@type": "unece:ChargePayingPartyRoleCode",
+            "rdf:value": "IM",
+            "rdfs:comment": "Importer"
+        },
+        {
+            "@id": "ChargePayingPartyRoleCodeUNTDID3035:IV",
+            "@type": "unece:ChargePayingPartyRoleCode",
+            "rdf:value": "IV",
+            "rdfs:comment": "Invoicee"
+        },
+        {
+            "@id": "ChargePayingPartyRoleCodeUNTDID3035:PE",
+            "@type": "unece:ChargePayingPartyRoleCode",
+            "rdf:value": "PE",
+            "rdfs:comment": "Payee"
+        }
+    ]
+}

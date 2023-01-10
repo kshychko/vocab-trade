@@ -1,0 +1,509 @@
+
+{
+    "@context": {
+        "unece": "https://vocabulary.uncefact.org/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "UNTDID4461": "https://vocabulary.uncefact.org/codelists/UNTDID4461"
+    },
+    "@graph": [
+        {
+            "@id": "UNTDID4461:1",
+            "@type": "unece:PaymentMeansCode",
+            "rdf:value": "1",
+            "rdfs:comment": "Instrument not defined"
+        },
+        {
+            "@id": "UNTDID4461:2",
+            "@type": "unece:PaymentMeansCode",
+            "rdf:value": "2",
+            "rdfs:comment": "Automated clearing house credit"
+        },
+        {
+            "@id": "UNTDID4461:3",
+            "@type": "unece:PaymentMeansCode",
+            "rdf:value": "3",
+            "rdfs:comment": "Automated clearing house debit"
+        },
+        {
+            "@id": "UNTDID4461:4",
+            "@type": "unece:PaymentMeansCode",
+            "rdf:value": "4",
+            "rdfs:comment": "ACH demand debit reversal"
+        },
+        {
+            "@id": "UNTDID4461:5",
+            "@type": "unece:PaymentMeansCode",
+            "rdf:value": "5",
+            "rdfs:comment": "ACH demand credit reversal"
+        },
+        {
+            "@id": "UNTDID4461:6",
+            "@type": "unece:PaymentMeansCode",
+            "rdf:value": "6",
+            "rdfs:comment": "ACH demand credit"
+        },
+        {
+            "@id": "UNTDID4461:7",
+            "@type": "unece:PaymentMeansCode",
+            "rdf:value": "7",
+            "rdfs:comment": "ACH demand debit"
+        },
+        {
+            "@id": "UNTDID4461:8",
+            "@type": "unece:PaymentMeansCode",
+            "rdf:value": "8",
+            "rdfs:comment": "Hold"
+        },
+        {
+            "@id": "UNTDID4461:9",
+            "@type": "unece:PaymentMeansCode",
+            "rdf:value": "9",
+            "rdfs:comment": "National or regional clearing"
+        },
+        {
+            "@id": "UNTDID4461:10",
+            "@type": "unece:PaymentMeansCode",
+            "rdf:value": "10",
+            "rdfs:comment": "In cash"
+        },
+        {
+            "@id": "UNTDID4461:11",
+            "@type": "unece:PaymentMeansCode",
+            "rdf:value": "11",
+            "rdfs:comment": "ACH savings credit reversal"
+        },
+        {
+            "@id": "UNTDID4461:12",
+            "@type": "unece:PaymentMeansCode",
+            "rdf:value": "12",
+            "rdfs:comment": "ACH savings debit reversal"
+        },
+        {
+            "@id": "UNTDID4461:13",
+            "@type": "unece:PaymentMeansCode",
+            "rdf:value": "13",
+            "rdfs:comment": "ACH savings credit"
+        },
+        {
+            "@id": "UNTDID4461:14",
+            "@type": "unece:PaymentMeansCode",
+            "rdf:value": "14",
+            "rdfs:comment": "ACH savings debit"
+        },
+        {
+            "@id": "UNTDID4461:15",
+            "@type": "unece:PaymentMeansCode",
+            "rdf:value": "15",
+            "rdfs:comment": "Bookentry credit"
+        },
+        {
+            "@id": "UNTDID4461:16",
+            "@type": "unece:PaymentMeansCode",
+            "rdf:value": "16",
+            "rdfs:comment": "Bookentry debit"
+        },
+        {
+            "@id": "UNTDID4461:17",
+            "@type": "unece:PaymentMeansCode",
+            "rdf:value": "17",
+            "rdfs:comment": "ACH demand cash concentration/disbursement (CCD) credit"
+        },
+        {
+            "@id": "UNTDID4461:18",
+            "@type": "unece:PaymentMeansCode",
+            "rdf:value": "18",
+            "rdfs:comment": "ACH demand cash concentration/disbursement (CCD) debit"
+        },
+        {
+            "@id": "UNTDID4461:19",
+            "@type": "unece:PaymentMeansCode",
+            "rdf:value": "19",
+            "rdfs:comment": "ACH demand corporate trade payment (CTP) credit"
+        },
+        {
+            "@id": "UNTDID4461:20",
+            "@type": "unece:PaymentMeansCode",
+            "rdf:value": "20",
+            "rdfs:comment": "Cheque"
+        },
+        {
+            "@id": "UNTDID4461:21",
+            "@type": "unece:PaymentMeansCode",
+            "rdf:value": "21",
+            "rdfs:comment": "Banker's draft"
+        },
+        {
+            "@id": "UNTDID4461:22",
+            "@type": "unece:PaymentMeansCode",
+            "rdf:value": "22",
+            "rdfs:comment": "Certified banker's draft"
+        },
+        {
+            "@id": "UNTDID4461:23",
+            "@type": "unece:PaymentMeansCode",
+            "rdf:value": "23",
+            "rdfs:comment": "Bank cheque (issued by a banking or similar establishment)"
+        },
+        {
+            "@id": "UNTDID4461:24",
+            "@type": "unece:PaymentMeansCode",
+            "rdf:value": "24",
+            "rdfs:comment": "Bill of exchange awaiting acceptance"
+        },
+        {
+            "@id": "UNTDID4461:25",
+            "@type": "unece:PaymentMeansCode",
+            "rdf:value": "25",
+            "rdfs:comment": "Certified cheque"
+        },
+        {
+            "@id": "UNTDID4461:26",
+            "@type": "unece:PaymentMeansCode",
+            "rdf:value": "26",
+            "rdfs:comment": "Local cheque"
+        },
+        {
+            "@id": "UNTDID4461:27",
+            "@type": "unece:PaymentMeansCode",
+            "rdf:value": "27",
+            "rdfs:comment": "ACH demand corporate trade payment (CTP) debit"
+        },
+        {
+            "@id": "UNTDID4461:28",
+            "@type": "unece:PaymentMeansCode",
+            "rdf:value": "28",
+            "rdfs:comment": "ACH demand corporate trade exchange (CTX) credit"
+        },
+        {
+            "@id": "UNTDID4461:29",
+            "@type": "unece:PaymentMeansCode",
+            "rdf:value": "29",
+            "rdfs:comment": "ACH demand corporate trade exchange (CTX) debit"
+        },
+        {
+            "@id": "UNTDID4461:30",
+            "@type": "unece:PaymentMeansCode",
+            "rdf:value": "30",
+            "rdfs:comment": "Credit transfer"
+        },
+        {
+            "@id": "UNTDID4461:31",
+            "@type": "unece:PaymentMeansCode",
+            "rdf:value": "31",
+            "rdfs:comment": "Debit transfer"
+        },
+        {
+            "@id": "UNTDID4461:32",
+            "@type": "unece:PaymentMeansCode",
+            "rdf:value": "32",
+            "rdfs:comment": "ACH demand cash concentration/disbursement plus (CCD+) credit"
+        },
+        {
+            "@id": "UNTDID4461:33",
+            "@type": "unece:PaymentMeansCode",
+            "rdf:value": "33",
+            "rdfs:comment": "ACH demand cash concentration/disbursement plus (CCD+) debit"
+        },
+        {
+            "@id": "UNTDID4461:34",
+            "@type": "unece:PaymentMeansCode",
+            "rdf:value": "34",
+            "rdfs:comment": "ACH prearranged payment and deposit (PPD)"
+        },
+        {
+            "@id": "UNTDID4461:35",
+            "@type": "unece:PaymentMeansCode",
+            "rdf:value": "35",
+            "rdfs:comment": "ACH savings cash concentration/disbursement (CCD) credit"
+        },
+        {
+            "@id": "UNTDID4461:36",
+            "@type": "unece:PaymentMeansCode",
+            "rdf:value": "36",
+            "rdfs:comment": "ACH savings cash concentration/disbursement (CCD) debit"
+        },
+        {
+            "@id": "UNTDID4461:37",
+            "@type": "unece:PaymentMeansCode",
+            "rdf:value": "37",
+            "rdfs:comment": "ACH savings corporate trade payment (CTP) credit"
+        },
+        {
+            "@id": "UNTDID4461:38",
+            "@type": "unece:PaymentMeansCode",
+            "rdf:value": "38",
+            "rdfs:comment": "ACH savings corporate trade payment (CTP) debit"
+        },
+        {
+            "@id": "UNTDID4461:39",
+            "@type": "unece:PaymentMeansCode",
+            "rdf:value": "39",
+            "rdfs:comment": "ACH savings corporate trade exchange (CTX) credit"
+        },
+        {
+            "@id": "UNTDID4461:40",
+            "@type": "unece:PaymentMeansCode",
+            "rdf:value": "40",
+            "rdfs:comment": "ACH savings corporate trade exchange (CTX) debit"
+        },
+        {
+            "@id": "UNTDID4461:41",
+            "@type": "unece:PaymentMeansCode",
+            "rdf:value": "41",
+            "rdfs:comment": "ACH savings cash concentration/disbursement plus (CCD+) credit"
+        },
+        {
+            "@id": "UNTDID4461:42",
+            "@type": "unece:PaymentMeansCode",
+            "rdf:value": "42",
+            "rdfs:comment": "Payment to bank account"
+        },
+        {
+            "@id": "UNTDID4461:43",
+            "@type": "unece:PaymentMeansCode",
+            "rdf:value": "43",
+            "rdfs:comment": "ACH savings cash concentration/disbursement plus (CCD+) debit"
+        },
+        {
+            "@id": "UNTDID4461:44",
+            "@type": "unece:PaymentMeansCode",
+            "rdf:value": "44",
+            "rdfs:comment": "Accepted bill of exchange"
+        },
+        {
+            "@id": "UNTDID4461:45",
+            "@type": "unece:PaymentMeansCode",
+            "rdf:value": "45",
+            "rdfs:comment": "Referenced home-banking credit transfer"
+        },
+        {
+            "@id": "UNTDID4461:46",
+            "@type": "unece:PaymentMeansCode",
+            "rdf:value": "46",
+            "rdfs:comment": "Interbank debit transfer"
+        },
+        {
+            "@id": "UNTDID4461:47",
+            "@type": "unece:PaymentMeansCode",
+            "rdf:value": "47",
+            "rdfs:comment": "Home-banking debit transfer"
+        },
+        {
+            "@id": "UNTDID4461:48",
+            "@type": "unece:PaymentMeansCode",
+            "rdf:value": "48",
+            "rdfs:comment": "Bank card"
+        },
+        {
+            "@id": "UNTDID4461:49",
+            "@type": "unece:PaymentMeansCode",
+            "rdf:value": "49",
+            "rdfs:comment": "Direct debit"
+        },
+        {
+            "@id": "UNTDID4461:50",
+            "@type": "unece:PaymentMeansCode",
+            "rdf:value": "50",
+            "rdfs:comment": "Payment by postgiro"
+        },
+        {
+            "@id": "UNTDID4461:51",
+            "@type": "unece:PaymentMeansCode",
+            "rdf:value": "51",
+            "rdfs:comment": "FR, norme 6 97-Telereglement CFONB (French Organisation for Banking Standards)  - Option A"
+        },
+        {
+            "@id": "UNTDID4461:52",
+            "@type": "unece:PaymentMeansCode",
+            "rdf:value": "52",
+            "rdfs:comment": "Urgent commercial payment"
+        },
+        {
+            "@id": "UNTDID4461:53",
+            "@type": "unece:PaymentMeansCode",
+            "rdf:value": "53",
+            "rdfs:comment": "Urgent Treasury Payment"
+        },
+        {
+            "@id": "UNTDID4461:54",
+            "@type": "unece:PaymentMeansCode",
+            "rdf:value": "54",
+            "rdfs:comment": "Credit card"
+        },
+        {
+            "@id": "UNTDID4461:55",
+            "@type": "unece:PaymentMeansCode",
+            "rdf:value": "55",
+            "rdfs:comment": "Debit card"
+        },
+        {
+            "@id": "UNTDID4461:56",
+            "@type": "unece:PaymentMeansCode",
+            "rdf:value": "56",
+            "rdfs:comment": "Bankgiro"
+        },
+        {
+            "@id": "UNTDID4461:57",
+            "@type": "unece:PaymentMeansCode",
+            "rdf:value": "57",
+            "rdfs:comment": "Standing agreement"
+        },
+        {
+            "@id": "UNTDID4461:58",
+            "@type": "unece:PaymentMeansCode",
+            "rdf:value": "58",
+            "rdfs:comment": "SEPA credit transfer"
+        },
+        {
+            "@id": "UNTDID4461:59",
+            "@type": "unece:PaymentMeansCode",
+            "rdf:value": "59",
+            "rdfs:comment": "SEPA direct debit"
+        },
+        {
+            "@id": "UNTDID4461:60",
+            "@type": "unece:PaymentMeansCode",
+            "rdf:value": "60",
+            "rdfs:comment": "Promissory note"
+        },
+        {
+            "@id": "UNTDID4461:61",
+            "@type": "unece:PaymentMeansCode",
+            "rdf:value": "61",
+            "rdfs:comment": "Promissory note signed by the debtor"
+        },
+        {
+            "@id": "UNTDID4461:62",
+            "@type": "unece:PaymentMeansCode",
+            "rdf:value": "62",
+            "rdfs:comment": "Promissory note signed by the debtor and endorsed by a bank"
+        },
+        {
+            "@id": "UNTDID4461:63",
+            "@type": "unece:PaymentMeansCode",
+            "rdf:value": "63",
+            "rdfs:comment": "Promissory note signed by the debtor and endorsed by a third party"
+        },
+        {
+            "@id": "UNTDID4461:64",
+            "@type": "unece:PaymentMeansCode",
+            "rdf:value": "64",
+            "rdfs:comment": "Promissory note signed by a bank"
+        },
+        {
+            "@id": "UNTDID4461:65",
+            "@type": "unece:PaymentMeansCode",
+            "rdf:value": "65",
+            "rdfs:comment": "Promissory note signed by a bank and endorsed by another bank"
+        },
+        {
+            "@id": "UNTDID4461:66",
+            "@type": "unece:PaymentMeansCode",
+            "rdf:value": "66",
+            "rdfs:comment": "Promissory note signed by a third party"
+        },
+        {
+            "@id": "UNTDID4461:67",
+            "@type": "unece:PaymentMeansCode",
+            "rdf:value": "67",
+            "rdfs:comment": "Promissory note signed by a third party and endorsed by a bank"
+        },
+        {
+            "@id": "UNTDID4461:68",
+            "@type": "unece:PaymentMeansCode",
+            "rdf:value": "68",
+            "rdfs:comment": "Online payment service"
+        },
+        {
+            "@id": "UNTDID4461:69",
+            "@type": "unece:PaymentMeansCode",
+            "rdf:value": "69",
+            "rdfs:comment": "Transfer Advice"
+        },
+        {
+            "@id": "UNTDID4461:70",
+            "@type": "unece:PaymentMeansCode",
+            "rdf:value": "70",
+            "rdfs:comment": "Bill drawn by the creditor on the debtor"
+        },
+        {
+            "@id": "UNTDID4461:74",
+            "@type": "unece:PaymentMeansCode",
+            "rdf:value": "74",
+            "rdfs:comment": "Bill drawn by the creditor on a bank"
+        },
+        {
+            "@id": "UNTDID4461:75",
+            "@type": "unece:PaymentMeansCode",
+            "rdf:value": "75",
+            "rdfs:comment": "Bill drawn by the creditor, endorsed by another bank"
+        },
+        {
+            "@id": "UNTDID4461:76",
+            "@type": "unece:PaymentMeansCode",
+            "rdf:value": "76",
+            "rdfs:comment": "Bill drawn by the creditor on a bank and endorsed by a third party"
+        },
+        {
+            "@id": "UNTDID4461:77",
+            "@type": "unece:PaymentMeansCode",
+            "rdf:value": "77",
+            "rdfs:comment": "Bill drawn by the creditor on a third party"
+        },
+        {
+            "@id": "UNTDID4461:78",
+            "@type": "unece:PaymentMeansCode",
+            "rdf:value": "78",
+            "rdfs:comment": "Bill drawn by creditor on third party, accepted and endorsed by bank"
+        },
+        {
+            "@id": "UNTDID4461:91",
+            "@type": "unece:PaymentMeansCode",
+            "rdf:value": "91",
+            "rdfs:comment": "Not transferable banker's draft"
+        },
+        {
+            "@id": "UNTDID4461:92",
+            "@type": "unece:PaymentMeansCode",
+            "rdf:value": "92",
+            "rdfs:comment": "Not transferable local cheque"
+        },
+        {
+            "@id": "UNTDID4461:93",
+            "@type": "unece:PaymentMeansCode",
+            "rdf:value": "93",
+            "rdfs:comment": "Reference giro"
+        },
+        {
+            "@id": "UNTDID4461:94",
+            "@type": "unece:PaymentMeansCode",
+            "rdf:value": "94",
+            "rdfs:comment": "Urgent giro"
+        },
+        {
+            "@id": "UNTDID4461:95",
+            "@type": "unece:PaymentMeansCode",
+            "rdf:value": "95",
+            "rdfs:comment": "Free format giro"
+        },
+        {
+            "@id": "UNTDID4461:96",
+            "@type": "unece:PaymentMeansCode",
+            "rdf:value": "96",
+            "rdfs:comment": "Requested method for payment was not used"
+        },
+        {
+            "@id": "UNTDID4461:97",
+            "@type": "unece:PaymentMeansCode",
+            "rdf:value": "97",
+            "rdfs:comment": "Clearing between partners"
+        },
+        {
+            "@id": "UNTDID4461:ZZZ",
+            "@type": "unece:PaymentMeansCode",
+            "rdf:value": "ZZZ",
+            "rdfs:comment": "Mutually defined"
+        }
+    ]
+}

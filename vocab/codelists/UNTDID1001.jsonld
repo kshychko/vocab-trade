@@ -1,0 +1,4829 @@
+
+{
+    "@context": {
+        "unece": "https://vocabulary.uncefact.org/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "UNTDID1001": "https://vocabulary.uncefact.org/codelists/UNTDID1001"
+    },
+    "@graph": [
+        {
+            "@id": "UNTDID1001:1",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "1",
+            "rdfs:comment": "Certificate of analysis"
+        },
+        {
+            "@id": "UNTDID1001:2",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "2",
+            "rdfs:comment": "Certificate of conformity"
+        },
+        {
+            "@id": "UNTDID1001:3",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "3",
+            "rdfs:comment": "Certificate of quality"
+        },
+        {
+            "@id": "UNTDID1001:4",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "4",
+            "rdfs:comment": "Test report"
+        },
+        {
+            "@id": "UNTDID1001:5",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "5",
+            "rdfs:comment": "Product performance report"
+        },
+        {
+            "@id": "UNTDID1001:6",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "6",
+            "rdfs:comment": "Product specification report"
+        },
+        {
+            "@id": "UNTDID1001:7",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "7",
+            "rdfs:comment": "Process data report"
+        },
+        {
+            "@id": "UNTDID1001:8",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "8",
+            "rdfs:comment": "First sample test report"
+        },
+        {
+            "@id": "UNTDID1001:9",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "9",
+            "rdfs:comment": "Price/sales catalogue"
+        },
+        {
+            "@id": "UNTDID1001:10",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "10",
+            "rdfs:comment": "Party information"
+        },
+        {
+            "@id": "UNTDID1001:11",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "11",
+            "rdfs:comment": "Federal label approval"
+        },
+        {
+            "@id": "UNTDID1001:12",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "12",
+            "rdfs:comment": "Mill certificate"
+        },
+        {
+            "@id": "UNTDID1001:13",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "13",
+            "rdfs:comment": "Post receipt"
+        },
+        {
+            "@id": "UNTDID1001:14",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "14",
+            "rdfs:comment": "Weight certificate"
+        },
+        {
+            "@id": "UNTDID1001:15",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "15",
+            "rdfs:comment": "Weight list"
+        },
+        {
+            "@id": "UNTDID1001:16",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "16",
+            "rdfs:comment": "Certificate"
+        },
+        {
+            "@id": "UNTDID1001:17",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "17",
+            "rdfs:comment": "Combined certificate of value and origin"
+        },
+        {
+            "@id": "UNTDID1001:18",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "18",
+            "rdfs:comment": "Movement certificate A.TR.1"
+        },
+        {
+            "@id": "UNTDID1001:19",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "19",
+            "rdfs:comment": "Certificate of quantity"
+        },
+        {
+            "@id": "UNTDID1001:20",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "20",
+            "rdfs:comment": "Quality data message"
+        },
+        {
+            "@id": "UNTDID1001:21",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "21",
+            "rdfs:comment": "Query"
+        },
+        {
+            "@id": "UNTDID1001:22",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "22",
+            "rdfs:comment": "Response to query"
+        },
+        {
+            "@id": "UNTDID1001:23",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "23",
+            "rdfs:comment": "Status information"
+        },
+        {
+            "@id": "UNTDID1001:24",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "24",
+            "rdfs:comment": "Restow"
+        },
+        {
+            "@id": "UNTDID1001:25",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "25",
+            "rdfs:comment": "Container discharge list"
+        },
+        {
+            "@id": "UNTDID1001:26",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "26",
+            "rdfs:comment": "Corporate superannuation contributions advice"
+        },
+        {
+            "@id": "UNTDID1001:27",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "27",
+            "rdfs:comment": "Industry superannuation contributions advice"
+        },
+        {
+            "@id": "UNTDID1001:28",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "28",
+            "rdfs:comment": "Corporate superannuation member maintenance message"
+        },
+        {
+            "@id": "UNTDID1001:29",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "29",
+            "rdfs:comment": "Industry superannuation member maintenance message"
+        },
+        {
+            "@id": "UNTDID1001:30",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "30",
+            "rdfs:comment": "Life insurance payroll deductions advice"
+        },
+        {
+            "@id": "UNTDID1001:31",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "31",
+            "rdfs:comment": "Underbond request"
+        },
+        {
+            "@id": "UNTDID1001:32",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "32",
+            "rdfs:comment": "Underbond approval"
+        },
+        {
+            "@id": "UNTDID1001:33",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "33",
+            "rdfs:comment": "Certificate of sealing of export meat lockers"
+        },
+        {
+            "@id": "UNTDID1001:34",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "34",
+            "rdfs:comment": "Cargo status"
+        },
+        {
+            "@id": "UNTDID1001:35",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "35",
+            "rdfs:comment": "Inventory report"
+        },
+        {
+            "@id": "UNTDID1001:36",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "36",
+            "rdfs:comment": "Identity card"
+        },
+        {
+            "@id": "UNTDID1001:37",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "37",
+            "rdfs:comment": "Response to a trade statistics message"
+        },
+        {
+            "@id": "UNTDID1001:38",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "38",
+            "rdfs:comment": "Vaccination certificate"
+        },
+        {
+            "@id": "UNTDID1001:39",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "39",
+            "rdfs:comment": "Passport"
+        },
+        {
+            "@id": "UNTDID1001:40",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "40",
+            "rdfs:comment": "Driving licence (national)"
+        },
+        {
+            "@id": "UNTDID1001:41",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "41",
+            "rdfs:comment": "Driving licence (international)"
+        },
+        {
+            "@id": "UNTDID1001:42",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "42",
+            "rdfs:comment": "Free pass"
+        },
+        {
+            "@id": "UNTDID1001:43",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "43",
+            "rdfs:comment": "Season ticket"
+        },
+        {
+            "@id": "UNTDID1001:44",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "44",
+            "rdfs:comment": "Transport status report"
+        },
+        {
+            "@id": "UNTDID1001:45",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "45",
+            "rdfs:comment": "Transport status request"
+        },
+        {
+            "@id": "UNTDID1001:46",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "46",
+            "rdfs:comment": "Banking status"
+        },
+        {
+            "@id": "UNTDID1001:47",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "47",
+            "rdfs:comment": "Extra-Community trade statistical declaration"
+        },
+        {
+            "@id": "UNTDID1001:48",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "48",
+            "rdfs:comment": "Written instructions in conformance with ADR article number 10385"
+        },
+        {
+            "@id": "UNTDID1001:49",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "49",
+            "rdfs:comment": "Damage certification"
+        },
+        {
+            "@id": "UNTDID1001:50",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "50",
+            "rdfs:comment": "Validated priced tender"
+        },
+        {
+            "@id": "UNTDID1001:51",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "51",
+            "rdfs:comment": "Price/sales catalogue response"
+        },
+        {
+            "@id": "UNTDID1001:52",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "52",
+            "rdfs:comment": "Price negotiation result"
+        },
+        {
+            "@id": "UNTDID1001:53",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "53",
+            "rdfs:comment": "Safety and hazard data sheet"
+        },
+        {
+            "@id": "UNTDID1001:54",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "54",
+            "rdfs:comment": "Legal statement of an account"
+        },
+        {
+            "@id": "UNTDID1001:55",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "55",
+            "rdfs:comment": "Listing statement of an account"
+        },
+        {
+            "@id": "UNTDID1001:56",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "56",
+            "rdfs:comment": "Closing statement of an account"
+        },
+        {
+            "@id": "UNTDID1001:57",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "57",
+            "rdfs:comment": "Transport equipment on-hire report"
+        },
+        {
+            "@id": "UNTDID1001:58",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "58",
+            "rdfs:comment": "Transport equipment off-hire report"
+        },
+        {
+            "@id": "UNTDID1001:59",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "59",
+            "rdfs:comment": "Treatment - nil outturn"
+        },
+        {
+            "@id": "UNTDID1001:60",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "60",
+            "rdfs:comment": "Treatment - time-up underbond"
+        },
+        {
+            "@id": "UNTDID1001:61",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "61",
+            "rdfs:comment": "Treatment - underbond by sea"
+        },
+        {
+            "@id": "UNTDID1001:62",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "62",
+            "rdfs:comment": "Treatment - personal effect"
+        },
+        {
+            "@id": "UNTDID1001:63",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "63",
+            "rdfs:comment": "Treatment - timber"
+        },
+        {
+            "@id": "UNTDID1001:64",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "64",
+            "rdfs:comment": "Preliminary credit assessment"
+        },
+        {
+            "@id": "UNTDID1001:65",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "65",
+            "rdfs:comment": "Credit cover"
+        },
+        {
+            "@id": "UNTDID1001:66",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "66",
+            "rdfs:comment": "Current account"
+        },
+        {
+            "@id": "UNTDID1001:67",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "67",
+            "rdfs:comment": "Commercial dispute"
+        },
+        {
+            "@id": "UNTDID1001:68",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "68",
+            "rdfs:comment": "Chargeback"
+        },
+        {
+            "@id": "UNTDID1001:69",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "69",
+            "rdfs:comment": "Reassignment"
+        },
+        {
+            "@id": "UNTDID1001:70",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "70",
+            "rdfs:comment": "Collateral account"
+        },
+        {
+            "@id": "UNTDID1001:71",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "71",
+            "rdfs:comment": "Request for payment"
+        },
+        {
+            "@id": "UNTDID1001:72",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "72",
+            "rdfs:comment": "Unship permit"
+        },
+        {
+            "@id": "UNTDID1001:73",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "73",
+            "rdfs:comment": "Statistical definitions"
+        },
+        {
+            "@id": "UNTDID1001:74",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "74",
+            "rdfs:comment": "Statistical data"
+        },
+        {
+            "@id": "UNTDID1001:75",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "75",
+            "rdfs:comment": "Request for statistical data"
+        },
+        {
+            "@id": "UNTDID1001:76",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "76",
+            "rdfs:comment": "Call-off delivery"
+        },
+        {
+            "@id": "UNTDID1001:77",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "77",
+            "rdfs:comment": "Consignment status report"
+        },
+        {
+            "@id": "UNTDID1001:78",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "78",
+            "rdfs:comment": "Inventory movement advice"
+        },
+        {
+            "@id": "UNTDID1001:79",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "79",
+            "rdfs:comment": "Inventory status advice"
+        },
+        {
+            "@id": "UNTDID1001:80",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "80",
+            "rdfs:comment": "Debit note related to goods or services"
+        },
+        {
+            "@id": "UNTDID1001:81",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "81",
+            "rdfs:comment": "Credit note related to goods or services"
+        },
+        {
+            "@id": "UNTDID1001:82",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "82",
+            "rdfs:comment": "Metered services invoice"
+        },
+        {
+            "@id": "UNTDID1001:83",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "83",
+            "rdfs:comment": "Credit note related to financial adjustments"
+        },
+        {
+            "@id": "UNTDID1001:84",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "84",
+            "rdfs:comment": "Debit note related to financial adjustments"
+        },
+        {
+            "@id": "UNTDID1001:85",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "85",
+            "rdfs:comment": "Customs manifest"
+        },
+        {
+            "@id": "UNTDID1001:86",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "86",
+            "rdfs:comment": "Vessel unpack report"
+        },
+        {
+            "@id": "UNTDID1001:87",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "87",
+            "rdfs:comment": "General cargo summary manifest report"
+        },
+        {
+            "@id": "UNTDID1001:88",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "88",
+            "rdfs:comment": "Consignment unpack report"
+        },
+        {
+            "@id": "UNTDID1001:89",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "89",
+            "rdfs:comment": "Meat and meat by-products sanitary certificate"
+        },
+        {
+            "@id": "UNTDID1001:90",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "90",
+            "rdfs:comment": "Meat food products sanitary certificate"
+        },
+        {
+            "@id": "UNTDID1001:91",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "91",
+            "rdfs:comment": "Poultry sanitary certificate"
+        },
+        {
+            "@id": "UNTDID1001:92",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "92",
+            "rdfs:comment": "Horsemeat sanitary certificate"
+        },
+        {
+            "@id": "UNTDID1001:93",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "93",
+            "rdfs:comment": "Casing sanitary certificate"
+        },
+        {
+            "@id": "UNTDID1001:94",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "94",
+            "rdfs:comment": "Pharmaceutical sanitary certificate"
+        },
+        {
+            "@id": "UNTDID1001:95",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "95",
+            "rdfs:comment": "Inedible sanitary certificate"
+        },
+        {
+            "@id": "UNTDID1001:96",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "96",
+            "rdfs:comment": "Impending arrival"
+        },
+        {
+            "@id": "UNTDID1001:97",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "97",
+            "rdfs:comment": "Means of transport advice"
+        },
+        {
+            "@id": "UNTDID1001:98",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "98",
+            "rdfs:comment": "Arrival information"
+        },
+        {
+            "@id": "UNTDID1001:99",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "99",
+            "rdfs:comment": "Cargo release notification"
+        },
+        {
+            "@id": "UNTDID1001:100",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "100",
+            "rdfs:comment": "Excise certificate"
+        },
+        {
+            "@id": "UNTDID1001:101",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "101",
+            "rdfs:comment": "Registration document"
+        },
+        {
+            "@id": "UNTDID1001:102",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "102",
+            "rdfs:comment": "Tax notification"
+        },
+        {
+            "@id": "UNTDID1001:103",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "103",
+            "rdfs:comment": "Transport equipment direct interchange report"
+        },
+        {
+            "@id": "UNTDID1001:104",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "104",
+            "rdfs:comment": "Transport equipment impending arrival advice"
+        },
+        {
+            "@id": "UNTDID1001:105",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "105",
+            "rdfs:comment": "Purchase order"
+        },
+        {
+            "@id": "UNTDID1001:106",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "106",
+            "rdfs:comment": "Transport equipment damage report"
+        },
+        {
+            "@id": "UNTDID1001:107",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "107",
+            "rdfs:comment": "Transport equipment maintenance and repair work estimate advice"
+        },
+        {
+            "@id": "UNTDID1001:108",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "108",
+            "rdfs:comment": "Transport equipment empty release instruction"
+        },
+        {
+            "@id": "UNTDID1001:109",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "109",
+            "rdfs:comment": "Transport movement gate in report"
+        },
+        {
+            "@id": "UNTDID1001:110",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "110",
+            "rdfs:comment": "Manufacturing instructions"
+        },
+        {
+            "@id": "UNTDID1001:111",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "111",
+            "rdfs:comment": "Transport movement gate out report"
+        },
+        {
+            "@id": "UNTDID1001:112",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "112",
+            "rdfs:comment": "Transport equipment unpacking instruction"
+        },
+        {
+            "@id": "UNTDID1001:113",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "113",
+            "rdfs:comment": "Transport equipment unpacking report"
+        },
+        {
+            "@id": "UNTDID1001:114",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "114",
+            "rdfs:comment": "Transport equipment pick-up availability request"
+        },
+        {
+            "@id": "UNTDID1001:115",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "115",
+            "rdfs:comment": "Transport equipment pick-up availability confirmation"
+        },
+        {
+            "@id": "UNTDID1001:116",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "116",
+            "rdfs:comment": "Transport equipment pick-up report"
+        },
+        {
+            "@id": "UNTDID1001:117",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "117",
+            "rdfs:comment": "Transport equipment shift report"
+        },
+        {
+            "@id": "UNTDID1001:118",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "118",
+            "rdfs:comment": "Transport discharge instruction"
+        },
+        {
+            "@id": "UNTDID1001:119",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "119",
+            "rdfs:comment": "Transport discharge report"
+        },
+        {
+            "@id": "UNTDID1001:120",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "120",
+            "rdfs:comment": "Stores requisition"
+        },
+        {
+            "@id": "UNTDID1001:121",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "121",
+            "rdfs:comment": "Transport loading instruction"
+        },
+        {
+            "@id": "UNTDID1001:122",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "122",
+            "rdfs:comment": "Transport loading report"
+        },
+        {
+            "@id": "UNTDID1001:123",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "123",
+            "rdfs:comment": "Transport equipment maintenance and repair work authorisation"
+        },
+        {
+            "@id": "UNTDID1001:124",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "124",
+            "rdfs:comment": "Transport departure report"
+        },
+        {
+            "@id": "UNTDID1001:125",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "125",
+            "rdfs:comment": "Transport empty equipment advice"
+        },
+        {
+            "@id": "UNTDID1001:126",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "126",
+            "rdfs:comment": "Transport equipment acceptance order"
+        },
+        {
+            "@id": "UNTDID1001:127",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "127",
+            "rdfs:comment": "Transport equipment special service instruction"
+        },
+        {
+            "@id": "UNTDID1001:128",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "128",
+            "rdfs:comment": "Transport equipment stock report"
+        },
+        {
+            "@id": "UNTDID1001:129",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "129",
+            "rdfs:comment": "Transport cargo release order"
+        },
+        {
+            "@id": "UNTDID1001:130",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "130",
+            "rdfs:comment": "Invoicing data sheet"
+        },
+        {
+            "@id": "UNTDID1001:131",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "131",
+            "rdfs:comment": "Transport equipment packing instruction"
+        },
+        {
+            "@id": "UNTDID1001:132",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "132",
+            "rdfs:comment": "Customs clearance notice"
+        },
+        {
+            "@id": "UNTDID1001:133",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "133",
+            "rdfs:comment": "Customs documents expiration notice"
+        },
+        {
+            "@id": "UNTDID1001:134",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "134",
+            "rdfs:comment": "Transport equipment on-hire request"
+        },
+        {
+            "@id": "UNTDID1001:135",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "135",
+            "rdfs:comment": "Transport equipment on-hire order"
+        },
+        {
+            "@id": "UNTDID1001:136",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "136",
+            "rdfs:comment": "Transport equipment off-hire request"
+        },
+        {
+            "@id": "UNTDID1001:137",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "137",
+            "rdfs:comment": "Transport equipment survey order"
+        },
+        {
+            "@id": "UNTDID1001:138",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "138",
+            "rdfs:comment": "Transport equipment survey order response"
+        },
+        {
+            "@id": "UNTDID1001:139",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "139",
+            "rdfs:comment": "Transport equipment survey report"
+        },
+        {
+            "@id": "UNTDID1001:140",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "140",
+            "rdfs:comment": "Packing instructions"
+        },
+        {
+            "@id": "UNTDID1001:141",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "141",
+            "rdfs:comment": "Advising items to be booked to a financial account"
+        },
+        {
+            "@id": "UNTDID1001:142",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "142",
+            "rdfs:comment": "Transport equipment maintenance and repair work estimate order"
+        },
+        {
+            "@id": "UNTDID1001:143",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "143",
+            "rdfs:comment": "Transport equipment maintenance and repair notice"
+        },
+        {
+            "@id": "UNTDID1001:144",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "144",
+            "rdfs:comment": "Empty container disposition order"
+        },
+        {
+            "@id": "UNTDID1001:145",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "145",
+            "rdfs:comment": "Cargo vessel discharge order"
+        },
+        {
+            "@id": "UNTDID1001:146",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "146",
+            "rdfs:comment": "Cargo vessel loading order"
+        },
+        {
+            "@id": "UNTDID1001:147",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "147",
+            "rdfs:comment": "Multidrop order"
+        },
+        {
+            "@id": "UNTDID1001:148",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "148",
+            "rdfs:comment": "Bailment contract"
+        },
+        {
+            "@id": "UNTDID1001:149",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "149",
+            "rdfs:comment": "Basic agreement"
+        },
+        {
+            "@id": "UNTDID1001:150",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "150",
+            "rdfs:comment": "Internal transport order"
+        },
+        {
+            "@id": "UNTDID1001:151",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "151",
+            "rdfs:comment": "Grant"
+        },
+        {
+            "@id": "UNTDID1001:152",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "152",
+            "rdfs:comment": "Indefinite delivery indefinite quantity contract"
+        },
+        {
+            "@id": "UNTDID1001:153",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "153",
+            "rdfs:comment": "Indefinite delivery definite quantity contract"
+        },
+        {
+            "@id": "UNTDID1001:154",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "154",
+            "rdfs:comment": "Requirements contract"
+        },
+        {
+            "@id": "UNTDID1001:155",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "155",
+            "rdfs:comment": "Task order"
+        },
+        {
+            "@id": "UNTDID1001:156",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "156",
+            "rdfs:comment": "Make or buy plan"
+        },
+        {
+            "@id": "UNTDID1001:157",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "157",
+            "rdfs:comment": "Subcontractor plan"
+        },
+        {
+            "@id": "UNTDID1001:158",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "158",
+            "rdfs:comment": "Cost data summary"
+        },
+        {
+            "@id": "UNTDID1001:159",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "159",
+            "rdfs:comment": "Certified cost and price data"
+        },
+        {
+            "@id": "UNTDID1001:160",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "160",
+            "rdfs:comment": "Wage determination"
+        },
+        {
+            "@id": "UNTDID1001:161",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "161",
+            "rdfs:comment": "Contract Funds Status Report (CFSR)"
+        },
+        {
+            "@id": "UNTDID1001:162",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "162",
+            "rdfs:comment": "Certified inspection and test results"
+        },
+        {
+            "@id": "UNTDID1001:163",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "163",
+            "rdfs:comment": "Material inspection and receiving report"
+        },
+        {
+            "@id": "UNTDID1001:164",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "164",
+            "rdfs:comment": "Purchasing specification"
+        },
+        {
+            "@id": "UNTDID1001:165",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "165",
+            "rdfs:comment": "Payment or performance bond"
+        },
+        {
+            "@id": "UNTDID1001:166",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "166",
+            "rdfs:comment": "Contract security classification specification"
+        },
+        {
+            "@id": "UNTDID1001:167",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "167",
+            "rdfs:comment": "Manufacturing specification"
+        },
+        {
+            "@id": "UNTDID1001:168",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "168",
+            "rdfs:comment": "Buy America certificate of compliance"
+        },
+        {
+            "@id": "UNTDID1001:169",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "169",
+            "rdfs:comment": "Container off-hire notice"
+        },
+        {
+            "@id": "UNTDID1001:170",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "170",
+            "rdfs:comment": "Cargo acceptance order"
+        },
+        {
+            "@id": "UNTDID1001:171",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "171",
+            "rdfs:comment": "Pick-up notice"
+        },
+        {
+            "@id": "UNTDID1001:172",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "172",
+            "rdfs:comment": "Authorisation to plan and suggest orders"
+        },
+        {
+            "@id": "UNTDID1001:173",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "173",
+            "rdfs:comment": "Authorisation to plan and ship orders"
+        },
+        {
+            "@id": "UNTDID1001:174",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "174",
+            "rdfs:comment": "Drawing"
+        },
+        {
+            "@id": "UNTDID1001:175",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "175",
+            "rdfs:comment": "Cost Performance Report (CPR) format 2"
+        },
+        {
+            "@id": "UNTDID1001:176",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "176",
+            "rdfs:comment": "Cost Schedule Status Report (CSSR)"
+        },
+        {
+            "@id": "UNTDID1001:177",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "177",
+            "rdfs:comment": "Cost Performance Report (CPR) format 1"
+        },
+        {
+            "@id": "UNTDID1001:178",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "178",
+            "rdfs:comment": "Cost Performance Report (CPR) format 3"
+        },
+        {
+            "@id": "UNTDID1001:179",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "179",
+            "rdfs:comment": "Cost Performance Report (CPR) format 4"
+        },
+        {
+            "@id": "UNTDID1001:180",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "180",
+            "rdfs:comment": "Cost Performance Report (CPR) format 5"
+        },
+        {
+            "@id": "UNTDID1001:181",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "181",
+            "rdfs:comment": "Progressive discharge report"
+        },
+        {
+            "@id": "UNTDID1001:182",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "182",
+            "rdfs:comment": "Balance confirmation"
+        },
+        {
+            "@id": "UNTDID1001:183",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "183",
+            "rdfs:comment": "Container stripping order"
+        },
+        {
+            "@id": "UNTDID1001:184",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "184",
+            "rdfs:comment": "Container stuffing order"
+        },
+        {
+            "@id": "UNTDID1001:185",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "185",
+            "rdfs:comment": "Conveyance declaration (arrival)"
+        },
+        {
+            "@id": "UNTDID1001:186",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "186",
+            "rdfs:comment": "Conveyance declaration (departure)"
+        },
+        {
+            "@id": "UNTDID1001:187",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "187",
+            "rdfs:comment": "Conveyance declaration (combined)"
+        },
+        {
+            "@id": "UNTDID1001:188",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "188",
+            "rdfs:comment": "Project recovery plan"
+        },
+        {
+            "@id": "UNTDID1001:189",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "189",
+            "rdfs:comment": "Project production plan"
+        },
+        {
+            "@id": "UNTDID1001:190",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "190",
+            "rdfs:comment": "Statistical and other administrative internal documents"
+        },
+        {
+            "@id": "UNTDID1001:191",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "191",
+            "rdfs:comment": "Project master schedule"
+        },
+        {
+            "@id": "UNTDID1001:192",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "192",
+            "rdfs:comment": "Priced alternate tender bill of quantity"
+        },
+        {
+            "@id": "UNTDID1001:193",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "193",
+            "rdfs:comment": "Estimated priced bill of quantity"
+        },
+        {
+            "@id": "UNTDID1001:194",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "194",
+            "rdfs:comment": "Draft bill of quantity"
+        },
+        {
+            "@id": "UNTDID1001:195",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "195",
+            "rdfs:comment": "Documentary credit collection instruction"
+        },
+        {
+            "@id": "UNTDID1001:196",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "196",
+            "rdfs:comment": "Request for an amendment of a documentary credit"
+        },
+        {
+            "@id": "UNTDID1001:197",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "197",
+            "rdfs:comment": "Documentary credit amendment information"
+        },
+        {
+            "@id": "UNTDID1001:198",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "198",
+            "rdfs:comment": "Advice of an amendment of a documentary credit"
+        },
+        {
+            "@id": "UNTDID1001:199",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "199",
+            "rdfs:comment": "Response to an amendment of a documentary credit"
+        },
+        {
+            "@id": "UNTDID1001:200",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "200",
+            "rdfs:comment": "Documentary credit issuance information"
+        },
+        {
+            "@id": "UNTDID1001:201",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "201",
+            "rdfs:comment": "Direct payment valuation request"
+        },
+        {
+            "@id": "UNTDID1001:202",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "202",
+            "rdfs:comment": "Direct payment valuation"
+        },
+        {
+            "@id": "UNTDID1001:203",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "203",
+            "rdfs:comment": "Provisional payment valuation"
+        },
+        {
+            "@id": "UNTDID1001:204",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "204",
+            "rdfs:comment": "Payment valuation"
+        },
+        {
+            "@id": "UNTDID1001:205",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "205",
+            "rdfs:comment": "Quantity valuation"
+        },
+        {
+            "@id": "UNTDID1001:206",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "206",
+            "rdfs:comment": "Quantity valuation request"
+        },
+        {
+            "@id": "UNTDID1001:207",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "207",
+            "rdfs:comment": "Contract bill of quantities - BOQ"
+        },
+        {
+            "@id": "UNTDID1001:208",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "208",
+            "rdfs:comment": "Unpriced bill of quantity"
+        },
+        {
+            "@id": "UNTDID1001:209",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "209",
+            "rdfs:comment": "Priced tender BOQ"
+        },
+        {
+            "@id": "UNTDID1001:210",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "210",
+            "rdfs:comment": "Enquiry"
+        },
+        {
+            "@id": "UNTDID1001:211",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "211",
+            "rdfs:comment": "Interim application for payment"
+        },
+        {
+            "@id": "UNTDID1001:212",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "212",
+            "rdfs:comment": "Agreement to pay"
+        },
+        {
+            "@id": "UNTDID1001:213",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "213",
+            "rdfs:comment": "Request for financial cancellation"
+        },
+        {
+            "@id": "UNTDID1001:214",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "214",
+            "rdfs:comment": "Pre-authorised direct debit(s)"
+        },
+        {
+            "@id": "UNTDID1001:215",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "215",
+            "rdfs:comment": "Letter of intent"
+        },
+        {
+            "@id": "UNTDID1001:216",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "216",
+            "rdfs:comment": "Approved unpriced bill of quantity"
+        },
+        {
+            "@id": "UNTDID1001:217",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "217",
+            "rdfs:comment": "Payment valuation for unscheduled items"
+        },
+        {
+            "@id": "UNTDID1001:218",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "218",
+            "rdfs:comment": "Final payment request based on completion of work"
+        },
+        {
+            "@id": "UNTDID1001:219",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "219",
+            "rdfs:comment": "Payment request for completed units"
+        },
+        {
+            "@id": "UNTDID1001:220",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "220",
+            "rdfs:comment": "Order"
+        },
+        {
+            "@id": "UNTDID1001:221",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "221",
+            "rdfs:comment": "Blanket order"
+        },
+        {
+            "@id": "UNTDID1001:222",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "222",
+            "rdfs:comment": "Spot order"
+        },
+        {
+            "@id": "UNTDID1001:223",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "223",
+            "rdfs:comment": "Lease order"
+        },
+        {
+            "@id": "UNTDID1001:224",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "224",
+            "rdfs:comment": "Rush order"
+        },
+        {
+            "@id": "UNTDID1001:225",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "225",
+            "rdfs:comment": "Repair order"
+        },
+        {
+            "@id": "UNTDID1001:226",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "226",
+            "rdfs:comment": "Call off order"
+        },
+        {
+            "@id": "UNTDID1001:227",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "227",
+            "rdfs:comment": "Consignment order"
+        },
+        {
+            "@id": "UNTDID1001:228",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "228",
+            "rdfs:comment": "Sample order"
+        },
+        {
+            "@id": "UNTDID1001:229",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "229",
+            "rdfs:comment": "Swap order"
+        },
+        {
+            "@id": "UNTDID1001:230",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "230",
+            "rdfs:comment": "Purchase order change request"
+        },
+        {
+            "@id": "UNTDID1001:231",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "231",
+            "rdfs:comment": "Purchase order response"
+        },
+        {
+            "@id": "UNTDID1001:232",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "232",
+            "rdfs:comment": "Hire order"
+        },
+        {
+            "@id": "UNTDID1001:233",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "233",
+            "rdfs:comment": "Spare parts order"
+        },
+        {
+            "@id": "UNTDID1001:234",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "234",
+            "rdfs:comment": "Campaign price/sales catalogue"
+        },
+        {
+            "@id": "UNTDID1001:235",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "235",
+            "rdfs:comment": "Container list"
+        },
+        {
+            "@id": "UNTDID1001:236",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "236",
+            "rdfs:comment": "Delivery forecast"
+        },
+        {
+            "@id": "UNTDID1001:237",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "237",
+            "rdfs:comment": "Cross docking services order"
+        },
+        {
+            "@id": "UNTDID1001:238",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "238",
+            "rdfs:comment": "Non-pre-authorised direct debit(s)"
+        },
+        {
+            "@id": "UNTDID1001:239",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "239",
+            "rdfs:comment": "Rejected direct debit(s)"
+        },
+        {
+            "@id": "UNTDID1001:240",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "240",
+            "rdfs:comment": "Delivery instructions"
+        },
+        {
+            "@id": "UNTDID1001:241",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "241",
+            "rdfs:comment": "Delivery schedule"
+        },
+        {
+            "@id": "UNTDID1001:242",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "242",
+            "rdfs:comment": "Delivery just-in-time"
+        },
+        {
+            "@id": "UNTDID1001:243",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "243",
+            "rdfs:comment": "Pre-authorised direct debit request(s)"
+        },
+        {
+            "@id": "UNTDID1001:244",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "244",
+            "rdfs:comment": "Non-pre-authorised direct debit request(s)"
+        },
+        {
+            "@id": "UNTDID1001:245",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "245",
+            "rdfs:comment": "Delivery release"
+        },
+        {
+            "@id": "UNTDID1001:246",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "246",
+            "rdfs:comment": "Settlement of a letter of credit"
+        },
+        {
+            "@id": "UNTDID1001:247",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "247",
+            "rdfs:comment": "Bank to bank funds transfer"
+        },
+        {
+            "@id": "UNTDID1001:248",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "248",
+            "rdfs:comment": "Customer payment order(s)"
+        },
+        {
+            "@id": "UNTDID1001:249",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "249",
+            "rdfs:comment": "Low value payment order(s)"
+        },
+        {
+            "@id": "UNTDID1001:250",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "250",
+            "rdfs:comment": "Crew list declaration"
+        },
+        {
+            "@id": "UNTDID1001:251",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "251",
+            "rdfs:comment": "Inquiry"
+        },
+        {
+            "@id": "UNTDID1001:252",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "252",
+            "rdfs:comment": "Response to previous banking status message"
+        },
+        {
+            "@id": "UNTDID1001:253",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "253",
+            "rdfs:comment": "Project master plan"
+        },
+        {
+            "@id": "UNTDID1001:254",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "254",
+            "rdfs:comment": "Project plan"
+        },
+        {
+            "@id": "UNTDID1001:255",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "255",
+            "rdfs:comment": "Project schedule"
+        },
+        {
+            "@id": "UNTDID1001:256",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "256",
+            "rdfs:comment": "Project planning available resources"
+        },
+        {
+            "@id": "UNTDID1001:257",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "257",
+            "rdfs:comment": "Project planning calendar"
+        },
+        {
+            "@id": "UNTDID1001:258",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "258",
+            "rdfs:comment": "Standing order"
+        },
+        {
+            "@id": "UNTDID1001:259",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "259",
+            "rdfs:comment": "Cargo movement event log"
+        },
+        {
+            "@id": "UNTDID1001:260",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "260",
+            "rdfs:comment": "Cargo analysis voyage report"
+        },
+        {
+            "@id": "UNTDID1001:261",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "261",
+            "rdfs:comment": "Self billed credit note"
+        },
+        {
+            "@id": "UNTDID1001:262",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "262",
+            "rdfs:comment": "Consolidated credit note - goods and services"
+        },
+        {
+            "@id": "UNTDID1001:263",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "263",
+            "rdfs:comment": "Inventory adjustment status report"
+        },
+        {
+            "@id": "UNTDID1001:264",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "264",
+            "rdfs:comment": "Transport equipment movement instruction"
+        },
+        {
+            "@id": "UNTDID1001:265",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "265",
+            "rdfs:comment": "Transport equipment movement report"
+        },
+        {
+            "@id": "UNTDID1001:266",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "266",
+            "rdfs:comment": "Transport equipment status change report"
+        },
+        {
+            "@id": "UNTDID1001:267",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "267",
+            "rdfs:comment": "Fumigation certificate"
+        },
+        {
+            "@id": "UNTDID1001:268",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "268",
+            "rdfs:comment": "Wine certificate"
+        },
+        {
+            "@id": "UNTDID1001:269",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "269",
+            "rdfs:comment": "Wool health certificate"
+        },
+        {
+            "@id": "UNTDID1001:270",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "270",
+            "rdfs:comment": "Delivery note"
+        },
+        {
+            "@id": "UNTDID1001:271",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "271",
+            "rdfs:comment": "Packing list"
+        },
+        {
+            "@id": "UNTDID1001:272",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "272",
+            "rdfs:comment": "New code request"
+        },
+        {
+            "@id": "UNTDID1001:273",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "273",
+            "rdfs:comment": "Code change request"
+        },
+        {
+            "@id": "UNTDID1001:274",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "274",
+            "rdfs:comment": "Simple data element request"
+        },
+        {
+            "@id": "UNTDID1001:275",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "275",
+            "rdfs:comment": "Simple data element change request"
+        },
+        {
+            "@id": "UNTDID1001:276",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "276",
+            "rdfs:comment": "Composite data element request"
+        },
+        {
+            "@id": "UNTDID1001:277",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "277",
+            "rdfs:comment": "Composite data element change request"
+        },
+        {
+            "@id": "UNTDID1001:278",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "278",
+            "rdfs:comment": "Segment request"
+        },
+        {
+            "@id": "UNTDID1001:279",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "279",
+            "rdfs:comment": "Segment change request"
+        },
+        {
+            "@id": "UNTDID1001:280",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "280",
+            "rdfs:comment": "New message request"
+        },
+        {
+            "@id": "UNTDID1001:281",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "281",
+            "rdfs:comment": "Message in development request"
+        },
+        {
+            "@id": "UNTDID1001:282",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "282",
+            "rdfs:comment": "Modification of existing message"
+        },
+        {
+            "@id": "UNTDID1001:283",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "283",
+            "rdfs:comment": "Tracking number assignment report"
+        },
+        {
+            "@id": "UNTDID1001:284",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "284",
+            "rdfs:comment": "User directory definition"
+        },
+        {
+            "@id": "UNTDID1001:285",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "285",
+            "rdfs:comment": "United Nations standard message request"
+        },
+        {
+            "@id": "UNTDID1001:286",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "286",
+            "rdfs:comment": "Service directory definition"
+        },
+        {
+            "@id": "UNTDID1001:287",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "287",
+            "rdfs:comment": "Status report"
+        },
+        {
+            "@id": "UNTDID1001:288",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "288",
+            "rdfs:comment": "Kanban schedule"
+        },
+        {
+            "@id": "UNTDID1001:289",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "289",
+            "rdfs:comment": "Product data message"
+        },
+        {
+            "@id": "UNTDID1001:290",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "290",
+            "rdfs:comment": "A claim for parts and/or labour charges"
+        },
+        {
+            "@id": "UNTDID1001:291",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "291",
+            "rdfs:comment": "Delivery schedule response"
+        },
+        {
+            "@id": "UNTDID1001:292",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "292",
+            "rdfs:comment": "Inspection request"
+        },
+        {
+            "@id": "UNTDID1001:293",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "293",
+            "rdfs:comment": "Inspection report"
+        },
+        {
+            "@id": "UNTDID1001:294",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "294",
+            "rdfs:comment": "Application acknowledgement and error report"
+        },
+        {
+            "@id": "UNTDID1001:295",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "295",
+            "rdfs:comment": "Price variation invoice"
+        },
+        {
+            "@id": "UNTDID1001:296",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "296",
+            "rdfs:comment": "Credit note for price variation"
+        },
+        {
+            "@id": "UNTDID1001:297",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "297",
+            "rdfs:comment": "Instruction to collect"
+        },
+        {
+            "@id": "UNTDID1001:298",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "298",
+            "rdfs:comment": "Dangerous goods list"
+        },
+        {
+            "@id": "UNTDID1001:299",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "299",
+            "rdfs:comment": "Registration renewal"
+        },
+        {
+            "@id": "UNTDID1001:300",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "300",
+            "rdfs:comment": "Registration change"
+        },
+        {
+            "@id": "UNTDID1001:301",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "301",
+            "rdfs:comment": "Response to registration"
+        },
+        {
+            "@id": "UNTDID1001:302",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "302",
+            "rdfs:comment": "Implementation guideline"
+        },
+        {
+            "@id": "UNTDID1001:303",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "303",
+            "rdfs:comment": "Request for transfer"
+        },
+        {
+            "@id": "UNTDID1001:304",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "304",
+            "rdfs:comment": "Cost performance report"
+        },
+        {
+            "@id": "UNTDID1001:305",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "305",
+            "rdfs:comment": "Application error and acknowledgement"
+        },
+        {
+            "@id": "UNTDID1001:306",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "306",
+            "rdfs:comment": "Cash pool financial statement"
+        },
+        {
+            "@id": "UNTDID1001:307",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "307",
+            "rdfs:comment": "Sequenced delivery schedule"
+        },
+        {
+            "@id": "UNTDID1001:308",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "308",
+            "rdfs:comment": "Delcredere credit note"
+        },
+        {
+            "@id": "UNTDID1001:309",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "309",
+            "rdfs:comment": "Healthcare discharge report, final"
+        },
+        {
+            "@id": "UNTDID1001:310",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "310",
+            "rdfs:comment": "Offer / quotation"
+        },
+        {
+            "@id": "UNTDID1001:311",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "311",
+            "rdfs:comment": "Request for quote"
+        },
+        {
+            "@id": "UNTDID1001:312",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "312",
+            "rdfs:comment": "Acknowledgement message"
+        },
+        {
+            "@id": "UNTDID1001:313",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "313",
+            "rdfs:comment": "Application error message"
+        },
+        {
+            "@id": "UNTDID1001:314",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "314",
+            "rdfs:comment": "Cargo movement voyage summary"
+        },
+        {
+            "@id": "UNTDID1001:315",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "315",
+            "rdfs:comment": "Contract"
+        },
+        {
+            "@id": "UNTDID1001:316",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "316",
+            "rdfs:comment": "Application for usage of berth or mooring facilities"
+        },
+        {
+            "@id": "UNTDID1001:317",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "317",
+            "rdfs:comment": "Application for designation of berthing places"
+        },
+        {
+            "@id": "UNTDID1001:318",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "318",
+            "rdfs:comment": "Application for shifting from the designated place in port"
+        },
+        {
+            "@id": "UNTDID1001:319",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "319",
+            "rdfs:comment": "Supplementary document for application for cargo operation of dangerous goods"
+        },
+        {
+            "@id": "UNTDID1001:320",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "320",
+            "rdfs:comment": "Acknowledgement of order"
+        },
+        {
+            "@id": "UNTDID1001:321",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "321",
+            "rdfs:comment": "Supplementary document for application for transport of dangerous goods"
+        },
+        {
+            "@id": "UNTDID1001:322",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "322",
+            "rdfs:comment": "Optical Character Reading (OCR) payment"
+        },
+        {
+            "@id": "UNTDID1001:323",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "323",
+            "rdfs:comment": "Preliminary sales report"
+        },
+        {
+            "@id": "UNTDID1001:324",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "324",
+            "rdfs:comment": "Transport emergency card"
+        },
+        {
+            "@id": "UNTDID1001:325",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "325",
+            "rdfs:comment": "Proforma invoice"
+        },
+        {
+            "@id": "UNTDID1001:326",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "326",
+            "rdfs:comment": "Partial invoice"
+        },
+        {
+            "@id": "UNTDID1001:327",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "327",
+            "rdfs:comment": "Operating instructions"
+        },
+        {
+            "@id": "UNTDID1001:328",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "328",
+            "rdfs:comment": "Name/product plate"
+        },
+        {
+            "@id": "UNTDID1001:329",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "329",
+            "rdfs:comment": "Co-insurance ceding bordereau"
+        },
+        {
+            "@id": "UNTDID1001:330",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "330",
+            "rdfs:comment": "Request for delivery instructions"
+        },
+        {
+            "@id": "UNTDID1001:331",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "331",
+            "rdfs:comment": "Commercial invoice which includes a packing list"
+        },
+        {
+            "@id": "UNTDID1001:332",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "332",
+            "rdfs:comment": "Trade data"
+        },
+        {
+            "@id": "UNTDID1001:333",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "333",
+            "rdfs:comment": "Customs declaration for cargo examination"
+        },
+        {
+            "@id": "UNTDID1001:334",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "334",
+            "rdfs:comment": "Customs declaration for cargo examination, alternate"
+        },
+        {
+            "@id": "UNTDID1001:335",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "335",
+            "rdfs:comment": "Booking request"
+        },
+        {
+            "@id": "UNTDID1001:336",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "336",
+            "rdfs:comment": "Customs crew and conveyance"
+        },
+        {
+            "@id": "UNTDID1001:337",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "337",
+            "rdfs:comment": "Customs summary declaration with commercial detail, alternate"
+        },
+        {
+            "@id": "UNTDID1001:338",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "338",
+            "rdfs:comment": "Items booked to a financial account report"
+        },
+        {
+            "@id": "UNTDID1001:339",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "339",
+            "rdfs:comment": "Report of transactions which need further information from the receiver"
+        },
+        {
+            "@id": "UNTDID1001:340",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "340",
+            "rdfs:comment": "Shipping instructions"
+        },
+        {
+            "@id": "UNTDID1001:341",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "341",
+            "rdfs:comment": "Shipper's letter of instructions (air)"
+        },
+        {
+            "@id": "UNTDID1001:342",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "342",
+            "rdfs:comment": "Report of transactions for information only"
+        },
+        {
+            "@id": "UNTDID1001:343",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "343",
+            "rdfs:comment": "Cartage order (local transport)"
+        },
+        {
+            "@id": "UNTDID1001:344",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "344",
+            "rdfs:comment": "EDI associated object administration message"
+        },
+        {
+            "@id": "UNTDID1001:345",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "345",
+            "rdfs:comment": "Ready for despatch advice"
+        },
+        {
+            "@id": "UNTDID1001:346",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "346",
+            "rdfs:comment": "Summary sales report"
+        },
+        {
+            "@id": "UNTDID1001:347",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "347",
+            "rdfs:comment": "Order status enquiry"
+        },
+        {
+            "@id": "UNTDID1001:348",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "348",
+            "rdfs:comment": "Order status report"
+        },
+        {
+            "@id": "UNTDID1001:349",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "349",
+            "rdfs:comment": "Declaration regarding the inward and outward movement of vessel"
+        },
+        {
+            "@id": "UNTDID1001:350",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "350",
+            "rdfs:comment": "Despatch order"
+        },
+        {
+            "@id": "UNTDID1001:351",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "351",
+            "rdfs:comment": "Despatch advice"
+        },
+        {
+            "@id": "UNTDID1001:352",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "352",
+            "rdfs:comment": "Notification of usage of berth or mooring facilities"
+        },
+        {
+            "@id": "UNTDID1001:353",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "353",
+            "rdfs:comment": "Application for vessel's entering into port area in night- time"
+        },
+        {
+            "@id": "UNTDID1001:354",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "354",
+            "rdfs:comment": "Notification of emergency shifting from the designated place in port"
+        },
+        {
+            "@id": "UNTDID1001:355",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "355",
+            "rdfs:comment": "Customs summary declaration without commercial detail, alternate"
+        },
+        {
+            "@id": "UNTDID1001:356",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "356",
+            "rdfs:comment": "Performance bond"
+        },
+        {
+            "@id": "UNTDID1001:357",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "357",
+            "rdfs:comment": "Payment bond"
+        },
+        {
+            "@id": "UNTDID1001:358",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "358",
+            "rdfs:comment": "Healthcare discharge report, preliminary"
+        },
+        {
+            "@id": "UNTDID1001:359",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "359",
+            "rdfs:comment": "Request for provision of a health service"
+        },
+        {
+            "@id": "UNTDID1001:360",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "360",
+            "rdfs:comment": "Request for price quote"
+        },
+        {
+            "@id": "UNTDID1001:361",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "361",
+            "rdfs:comment": "Price quote"
+        },
+        {
+            "@id": "UNTDID1001:362",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "362",
+            "rdfs:comment": "Delivery quote"
+        },
+        {
+            "@id": "UNTDID1001:363",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "363",
+            "rdfs:comment": "Price and delivery quote"
+        },
+        {
+            "@id": "UNTDID1001:364",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "364",
+            "rdfs:comment": "Contract price quote"
+        },
+        {
+            "@id": "UNTDID1001:365",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "365",
+            "rdfs:comment": "Contract price and delivery quote"
+        },
+        {
+            "@id": "UNTDID1001:366",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "366",
+            "rdfs:comment": "Price quote, specified end-customer"
+        },
+        {
+            "@id": "UNTDID1001:367",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "367",
+            "rdfs:comment": "Price and delivery quote, specified end-customer"
+        },
+        {
+            "@id": "UNTDID1001:368",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "368",
+            "rdfs:comment": "Price quote, ship and debit"
+        },
+        {
+            "@id": "UNTDID1001:369",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "369",
+            "rdfs:comment": "Price and delivery quote, ship and debit"
+        },
+        {
+            "@id": "UNTDID1001:370",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "370",
+            "rdfs:comment": "Advice of distribution of documents"
+        },
+        {
+            "@id": "UNTDID1001:371",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "371",
+            "rdfs:comment": "Plan for provision of health service"
+        },
+        {
+            "@id": "UNTDID1001:372",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "372",
+            "rdfs:comment": "Prescription"
+        },
+        {
+            "@id": "UNTDID1001:373",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "373",
+            "rdfs:comment": "Prescription request"
+        },
+        {
+            "@id": "UNTDID1001:374",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "374",
+            "rdfs:comment": "Prescription dispensing report"
+        },
+        {
+            "@id": "UNTDID1001:375",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "375",
+            "rdfs:comment": "Certificate of shipment"
+        },
+        {
+            "@id": "UNTDID1001:376",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "376",
+            "rdfs:comment": "Standing inquiry on product information"
+        },
+        {
+            "@id": "UNTDID1001:377",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "377",
+            "rdfs:comment": "Party credit information"
+        },
+        {
+            "@id": "UNTDID1001:378",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "378",
+            "rdfs:comment": "Party payment behaviour information"
+        },
+        {
+            "@id": "UNTDID1001:379",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "379",
+            "rdfs:comment": "Request for metering point information"
+        },
+        {
+            "@id": "UNTDID1001:380",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "380",
+            "rdfs:comment": "Commercial invoice"
+        },
+        {
+            "@id": "UNTDID1001:381",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "381",
+            "rdfs:comment": "Credit note"
+        },
+        {
+            "@id": "UNTDID1001:382",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "382",
+            "rdfs:comment": "Commission note"
+        },
+        {
+            "@id": "UNTDID1001:383",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "383",
+            "rdfs:comment": "Debit note"
+        },
+        {
+            "@id": "UNTDID1001:384",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "384",
+            "rdfs:comment": "Corrected invoice"
+        },
+        {
+            "@id": "UNTDID1001:385",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "385",
+            "rdfs:comment": "Consolidated invoice"
+        },
+        {
+            "@id": "UNTDID1001:386",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "386",
+            "rdfs:comment": "Prepayment invoice"
+        },
+        {
+            "@id": "UNTDID1001:387",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "387",
+            "rdfs:comment": "Hire invoice"
+        },
+        {
+            "@id": "UNTDID1001:388",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "388",
+            "rdfs:comment": "Tax invoice"
+        },
+        {
+            "@id": "UNTDID1001:389",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "389",
+            "rdfs:comment": "Self-billed invoice"
+        },
+        {
+            "@id": "UNTDID1001:390",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "390",
+            "rdfs:comment": "Delcredere invoice"
+        },
+        {
+            "@id": "UNTDID1001:391",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "391",
+            "rdfs:comment": "Metering point information response"
+        },
+        {
+            "@id": "UNTDID1001:392",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "392",
+            "rdfs:comment": "Notification of change of supplier"
+        },
+        {
+            "@id": "UNTDID1001:393",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "393",
+            "rdfs:comment": "Factored invoice"
+        },
+        {
+            "@id": "UNTDID1001:394",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "394",
+            "rdfs:comment": "Lease invoice"
+        },
+        {
+            "@id": "UNTDID1001:395",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "395",
+            "rdfs:comment": "Consignment invoice"
+        },
+        {
+            "@id": "UNTDID1001:396",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "396",
+            "rdfs:comment": "Factored credit note"
+        },
+        {
+            "@id": "UNTDID1001:397",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "397",
+            "rdfs:comment": "Commercial account summary response"
+        },
+        {
+            "@id": "UNTDID1001:398",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "398",
+            "rdfs:comment": "Cross docking despatch advice"
+        },
+        {
+            "@id": "UNTDID1001:399",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "399",
+            "rdfs:comment": "Transshipment despatch advice"
+        },
+        {
+            "@id": "UNTDID1001:400",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "400",
+            "rdfs:comment": "Exceptional order"
+        },
+        {
+            "@id": "UNTDID1001:401",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "401",
+            "rdfs:comment": "Pre-packed cross docking order"
+        },
+        {
+            "@id": "UNTDID1001:402",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "402",
+            "rdfs:comment": "Intermediate handling cross docking order"
+        },
+        {
+            "@id": "UNTDID1001:403",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "403",
+            "rdfs:comment": "Means of transportation availability information"
+        },
+        {
+            "@id": "UNTDID1001:404",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "404",
+            "rdfs:comment": "Means of transportation schedule information"
+        },
+        {
+            "@id": "UNTDID1001:405",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "405",
+            "rdfs:comment": "Transport equipment delivery notice"
+        },
+        {
+            "@id": "UNTDID1001:406",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "406",
+            "rdfs:comment": "Notification to supplier of contract termination"
+        },
+        {
+            "@id": "UNTDID1001:407",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "407",
+            "rdfs:comment": "Notification to supplier of metering point changes"
+        },
+        {
+            "@id": "UNTDID1001:408",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "408",
+            "rdfs:comment": "Notification of meter change"
+        },
+        {
+            "@id": "UNTDID1001:409",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "409",
+            "rdfs:comment": "Instructions for bank transfer"
+        },
+        {
+            "@id": "UNTDID1001:410",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "410",
+            "rdfs:comment": "Notification of metering point identification change"
+        },
+        {
+            "@id": "UNTDID1001:411",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "411",
+            "rdfs:comment": "Utilities time series message"
+        },
+        {
+            "@id": "UNTDID1001:412",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "412",
+            "rdfs:comment": "Application for banker's draft"
+        },
+        {
+            "@id": "UNTDID1001:413",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "413",
+            "rdfs:comment": "Infrastructure condition"
+        },
+        {
+            "@id": "UNTDID1001:414",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "414",
+            "rdfs:comment": "Acknowledgement of change of supplier"
+        },
+        {
+            "@id": "UNTDID1001:415",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "415",
+            "rdfs:comment": "Data Plot Sheet"
+        },
+        {
+            "@id": "UNTDID1001:416",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "416",
+            "rdfs:comment": "Soil analysis"
+        },
+        {
+            "@id": "UNTDID1001:417",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "417",
+            "rdfs:comment": "Farmyard manure analysis"
+        },
+        {
+            "@id": "UNTDID1001:418",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "418",
+            "rdfs:comment": "WCO Cargo Report Export, Rail or Road"
+        },
+        {
+            "@id": "UNTDID1001:419",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "419",
+            "rdfs:comment": "WCO Cargo Report Export, Air or Maritime"
+        },
+        {
+            "@id": "UNTDID1001:420",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "420",
+            "rdfs:comment": "Optical Character Reading (OCR) payment credit note"
+        },
+        {
+            "@id": "UNTDID1001:421",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "421",
+            "rdfs:comment": "WCO Cargo Report Import, Rail or Road"
+        },
+        {
+            "@id": "UNTDID1001:422",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "422",
+            "rdfs:comment": "WCO Cargo Report Import, Air or Maritime"
+        },
+        {
+            "@id": "UNTDID1001:423",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "423",
+            "rdfs:comment": "WCO one-step export declaration"
+        },
+        {
+            "@id": "UNTDID1001:424",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "424",
+            "rdfs:comment": "WCO first step of two-step export declaration"
+        },
+        {
+            "@id": "UNTDID1001:425",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "425",
+            "rdfs:comment": "Collection payment advice"
+        },
+        {
+            "@id": "UNTDID1001:426",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "426",
+            "rdfs:comment": "Documentary credit payment advice"
+        },
+        {
+            "@id": "UNTDID1001:427",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "427",
+            "rdfs:comment": "Documentary credit acceptance advice"
+        },
+        {
+            "@id": "UNTDID1001:428",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "428",
+            "rdfs:comment": "Documentary credit negotiation advice"
+        },
+        {
+            "@id": "UNTDID1001:429",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "429",
+            "rdfs:comment": "Application for banker's guarantee"
+        },
+        {
+            "@id": "UNTDID1001:430",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "430",
+            "rdfs:comment": "Banker's guarantee"
+        },
+        {
+            "@id": "UNTDID1001:431",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "431",
+            "rdfs:comment": "Documentary credit letter of indemnity"
+        },
+        {
+            "@id": "UNTDID1001:432",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "432",
+            "rdfs:comment": "Notification to grid operator of contract termination"
+        },
+        {
+            "@id": "UNTDID1001:433",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "433",
+            "rdfs:comment": "Notification to grid operator of metering point changes"
+        },
+        {
+            "@id": "UNTDID1001:434",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "434",
+            "rdfs:comment": "Notification of balance responsible entity change"
+        },
+        {
+            "@id": "UNTDID1001:435",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "435",
+            "rdfs:comment": "Preadvice of a credit"
+        },
+        {
+            "@id": "UNTDID1001:436",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "436",
+            "rdfs:comment": "Transport equipment profile report"
+        },
+        {
+            "@id": "UNTDID1001:437",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "437",
+            "rdfs:comment": "Request for price and delivery quote, specified end-user"
+        },
+        {
+            "@id": "UNTDID1001:438",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "438",
+            "rdfs:comment": "Request for price quote, ship and debit"
+        },
+        {
+            "@id": "UNTDID1001:439",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "439",
+            "rdfs:comment": "Request for price and delivery quote, ship and debit"
+        },
+        {
+            "@id": "UNTDID1001:440",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "440",
+            "rdfs:comment": "Delivery point list."
+        },
+        {
+            "@id": "UNTDID1001:441",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "441",
+            "rdfs:comment": "Transport routing information"
+        },
+        {
+            "@id": "UNTDID1001:442",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "442",
+            "rdfs:comment": "Request for delivery quote"
+        },
+        {
+            "@id": "UNTDID1001:443",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "443",
+            "rdfs:comment": "Request for price and delivery quote"
+        },
+        {
+            "@id": "UNTDID1001:444",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "444",
+            "rdfs:comment": "Request for contract price quote"
+        },
+        {
+            "@id": "UNTDID1001:445",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "445",
+            "rdfs:comment": "Request for contract price and delivery quote"
+        },
+        {
+            "@id": "UNTDID1001:446",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "446",
+            "rdfs:comment": "Request for price quote, specified end-customer"
+        },
+        {
+            "@id": "UNTDID1001:447",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "447",
+            "rdfs:comment": "Collection order"
+        },
+        {
+            "@id": "UNTDID1001:448",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "448",
+            "rdfs:comment": "Documents presentation form"
+        },
+        {
+            "@id": "UNTDID1001:449",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "449",
+            "rdfs:comment": "Identification match"
+        },
+        {
+            "@id": "UNTDID1001:450",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "450",
+            "rdfs:comment": "Payment order"
+        },
+        {
+            "@id": "UNTDID1001:451",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "451",
+            "rdfs:comment": "Extended payment order"
+        },
+        {
+            "@id": "UNTDID1001:452",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "452",
+            "rdfs:comment": "Multiple payment order"
+        },
+        {
+            "@id": "UNTDID1001:453",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "453",
+            "rdfs:comment": "Notice that circumstances prevent payment of delivered goods"
+        },
+        {
+            "@id": "UNTDID1001:454",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "454",
+            "rdfs:comment": "Credit advice"
+        },
+        {
+            "@id": "UNTDID1001:455",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "455",
+            "rdfs:comment": "Extended credit advice"
+        },
+        {
+            "@id": "UNTDID1001:456",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "456",
+            "rdfs:comment": "Debit advice"
+        },
+        {
+            "@id": "UNTDID1001:457",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "457",
+            "rdfs:comment": "Reversal of debit"
+        },
+        {
+            "@id": "UNTDID1001:458",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "458",
+            "rdfs:comment": "Reversal of credit"
+        },
+        {
+            "@id": "UNTDID1001:459",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "459",
+            "rdfs:comment": "Travel ticket"
+        },
+        {
+            "@id": "UNTDID1001:460",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "460",
+            "rdfs:comment": "Documentary credit application"
+        },
+        {
+            "@id": "UNTDID1001:461",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "461",
+            "rdfs:comment": "Payment card"
+        },
+        {
+            "@id": "UNTDID1001:462",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "462",
+            "rdfs:comment": "Ready for transshipment despatch advice"
+        },
+        {
+            "@id": "UNTDID1001:463",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "463",
+            "rdfs:comment": "Pre-packed cross docking despatch advice"
+        },
+        {
+            "@id": "UNTDID1001:464",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "464",
+            "rdfs:comment": "Intermediate handling cross docking despatch advice"
+        },
+        {
+            "@id": "UNTDID1001:465",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "465",
+            "rdfs:comment": "Documentary credit"
+        },
+        {
+            "@id": "UNTDID1001:466",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "466",
+            "rdfs:comment": "Documentary credit notification"
+        },
+        {
+            "@id": "UNTDID1001:467",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "467",
+            "rdfs:comment": "Documentary credit transfer advice"
+        },
+        {
+            "@id": "UNTDID1001:468",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "468",
+            "rdfs:comment": "Documentary credit amendment notification"
+        },
+        {
+            "@id": "UNTDID1001:469",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "469",
+            "rdfs:comment": "Documentary credit amendment"
+        },
+        {
+            "@id": "UNTDID1001:470",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "470",
+            "rdfs:comment": "Waste disposal report"
+        },
+        {
+            "@id": "UNTDID1001:481",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "481",
+            "rdfs:comment": "Remittance advice"
+        },
+        {
+            "@id": "UNTDID1001:482",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "482",
+            "rdfs:comment": "Port authority waste disposal report"
+        },
+        {
+            "@id": "UNTDID1001:483",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "483",
+            "rdfs:comment": "Visa"
+        },
+        {
+            "@id": "UNTDID1001:484",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "484",
+            "rdfs:comment": "Multiple direct debit request"
+        },
+        {
+            "@id": "UNTDID1001:485",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "485",
+            "rdfs:comment": "Banker's draft"
+        },
+        {
+            "@id": "UNTDID1001:486",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "486",
+            "rdfs:comment": "Multiple direct debit"
+        },
+        {
+            "@id": "UNTDID1001:487",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "487",
+            "rdfs:comment": "Certificate of disembarkation permission"
+        },
+        {
+            "@id": "UNTDID1001:488",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "488",
+            "rdfs:comment": "Deratting exemption certificate"
+        },
+        {
+            "@id": "UNTDID1001:489",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "489",
+            "rdfs:comment": "Reefer connection order"
+        },
+        {
+            "@id": "UNTDID1001:490",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "490",
+            "rdfs:comment": "Bill of exchange"
+        },
+        {
+            "@id": "UNTDID1001:491",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "491",
+            "rdfs:comment": "Promissory note"
+        },
+        {
+            "@id": "UNTDID1001:493",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "493",
+            "rdfs:comment": "Statement of account message"
+        },
+        {
+            "@id": "UNTDID1001:494",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "494",
+            "rdfs:comment": "Direct delivery (transport)"
+        },
+        {
+            "@id": "UNTDID1001:495",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "495",
+            "rdfs:comment": "WCO second step of two-step export declaration"
+        },
+        {
+            "@id": "UNTDID1001:496",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "496",
+            "rdfs:comment": "WCO one-step import declaration"
+        },
+        {
+            "@id": "UNTDID1001:497",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "497",
+            "rdfs:comment": "WCO first step of two-step import declaration"
+        },
+        {
+            "@id": "UNTDID1001:498",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "498",
+            "rdfs:comment": "WCO second step of two-step import declaration"
+        },
+        {
+            "@id": "UNTDID1001:499",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "499",
+            "rdfs:comment": "Previous transport document"
+        },
+        {
+            "@id": "UNTDID1001:520",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "520",
+            "rdfs:comment": "Insurance certificate"
+        },
+        {
+            "@id": "UNTDID1001:521",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "521",
+            "rdfs:comment": "Special requirements permit related to the transport of cargo"
+        },
+        {
+            "@id": "UNTDID1001:522",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "522",
+            "rdfs:comment": "Dangerous Goods Notification for Tanker vessel"
+        },
+        {
+            "@id": "UNTDID1001:523",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "523",
+            "rdfs:comment": "Dangerous Goods Notification for non-tanker vessel"
+        },
+        {
+            "@id": "UNTDID1001:524",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "524",
+            "rdfs:comment": "WCO Conveyance Arrival Report"
+        },
+        {
+            "@id": "UNTDID1001:525",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "525",
+            "rdfs:comment": "WCO Conveyance Departure Report"
+        },
+        {
+            "@id": "UNTDID1001:526",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "526",
+            "rdfs:comment": "Accounting voucher"
+        },
+        {
+            "@id": "UNTDID1001:527",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "527",
+            "rdfs:comment": "Self billed debit note"
+        },
+        {
+            "@id": "UNTDID1001:528",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "528",
+            "rdfs:comment": "Military Identification Card"
+        },
+        {
+            "@id": "UNTDID1001:529",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "529",
+            "rdfs:comment": "Re-Entry Permit"
+        },
+        {
+            "@id": "UNTDID1001:530",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "530",
+            "rdfs:comment": "Insurance policy"
+        },
+        {
+            "@id": "UNTDID1001:531",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "531",
+            "rdfs:comment": "Refugee Permit"
+        },
+        {
+            "@id": "UNTDID1001:532",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "532",
+            "rdfs:comment": "Forwarder’s credit note"
+        },
+        {
+            "@id": "UNTDID1001:533",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "533",
+            "rdfs:comment": "Original accounting voucher"
+        },
+        {
+            "@id": "UNTDID1001:534",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "534",
+            "rdfs:comment": "Copy accounting voucher"
+        },
+        {
+            "@id": "UNTDID1001:535",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "535",
+            "rdfs:comment": "Pro-forma accounting voucher"
+        },
+        {
+            "@id": "UNTDID1001:536",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "536",
+            "rdfs:comment": "International Ship Security Certificate"
+        },
+        {
+            "@id": "UNTDID1001:537",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "537",
+            "rdfs:comment": "Interim International Ship Security Certificate"
+        },
+        {
+            "@id": "UNTDID1001:538",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "538",
+            "rdfs:comment": "Good Manufacturing Practice (GMP) Certificate"
+        },
+        {
+            "@id": "UNTDID1001:539",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "539",
+            "rdfs:comment": "Framework Agreement"
+        },
+        {
+            "@id": "UNTDID1001:550",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "550",
+            "rdfs:comment": "Insurance declaration sheet (bordereau)"
+        },
+        {
+            "@id": "UNTDID1001:551",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "551",
+            "rdfs:comment": "Transport capacity offer"
+        },
+        {
+            "@id": "UNTDID1001:552",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "552",
+            "rdfs:comment": "Ship Security Plan"
+        },
+        {
+            "@id": "UNTDID1001:553",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "553",
+            "rdfs:comment": "Forwarder’s invoice discrepancy report"
+        },
+        {
+            "@id": "UNTDID1001:554",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "554",
+            "rdfs:comment": "Storage capacity offer"
+        },
+        {
+            "@id": "UNTDID1001:575",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "575",
+            "rdfs:comment": "Insurer's invoice"
+        },
+        {
+            "@id": "UNTDID1001:576",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "576",
+            "rdfs:comment": "Storage capacity request"
+        },
+        {
+            "@id": "UNTDID1001:577",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "577",
+            "rdfs:comment": "Transport capacity request"
+        },
+        {
+            "@id": "UNTDID1001:578",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "578",
+            "rdfs:comment": "EU Customs declaration for External Community Transit (T1)"
+        },
+        {
+            "@id": "UNTDID1001:579",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "579",
+            "rdfs:comment": "EU Customs declaration for internal Community Transit (T2)"
+        },
+        {
+            "@id": "UNTDID1001:580",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "580",
+            "rdfs:comment": "Cover note"
+        },
+        {
+            "@id": "UNTDID1001:581",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "581",
+            "rdfs:comment": "EU Customs declaration for non-fiscal area internal Community Transit (T2F)"
+        },
+        {
+            "@id": "UNTDID1001:582",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "582",
+            "rdfs:comment": "EU Customs declaration for internal transit to San Marino (T2SM)"
+        },
+        {
+            "@id": "UNTDID1001:583",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "583",
+            "rdfs:comment": "EU Customs declaration for mixed consignments (T)"
+        },
+        {
+            "@id": "UNTDID1001:584",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "584",
+            "rdfs:comment": "EU Document for establishing the Community status of goods (T2L)"
+        },
+        {
+            "@id": "UNTDID1001:585",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "585",
+            "rdfs:comment": "EU Document for establishing the Community status of goods for certain fiscal purposes (T2LF)"
+        },
+        {
+            "@id": "UNTDID1001:586",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "586",
+            "rdfs:comment": "Document for establishing the Customs Status of goods for San Marino (T2LSM)"
+        },
+        {
+            "@id": "UNTDID1001:587",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "587",
+            "rdfs:comment": "Customs declaration for TIR Carnet goods"
+        },
+        {
+            "@id": "UNTDID1001:588",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "588",
+            "rdfs:comment": "Transport Means Security Report"
+        },
+        {
+            "@id": "UNTDID1001:589",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "589",
+            "rdfs:comment": "Halal Slaughtering Certificate"
+        },
+        {
+            "@id": "UNTDID1001:610",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "610",
+            "rdfs:comment": "Forwarding instructions"
+        },
+        {
+            "@id": "UNTDID1001:621",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "621",
+            "rdfs:comment": "Forwarder's advice to import agent"
+        },
+        {
+            "@id": "UNTDID1001:622",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "622",
+            "rdfs:comment": "Forwarder's advice to exporter"
+        },
+        {
+            "@id": "UNTDID1001:623",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "623",
+            "rdfs:comment": "Forwarder's invoice"
+        },
+        {
+            "@id": "UNTDID1001:624",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "624",
+            "rdfs:comment": "Forwarder's certificate of receipt"
+        },
+        {
+            "@id": "UNTDID1001:625",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "625",
+            "rdfs:comment": "Heat Treatment Certificate"
+        },
+        {
+            "@id": "UNTDID1001:626",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "626",
+            "rdfs:comment": "Convention on International Trade in Endangered Species of Wild Fauna and Flora (CITES) Certificate"
+        },
+        {
+            "@id": "UNTDID1001:627",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "627",
+            "rdfs:comment": "Free Sale Certificate in the Country of Origin"
+        },
+        {
+            "@id": "UNTDID1001:628",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "628",
+            "rdfs:comment": "Transit license"
+        },
+        {
+            "@id": "UNTDID1001:629",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "629",
+            "rdfs:comment": "Veterinary quarantine certificate"
+        },
+        {
+            "@id": "UNTDID1001:630",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "630",
+            "rdfs:comment": "Shipping note"
+        },
+        {
+            "@id": "UNTDID1001:631",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "631",
+            "rdfs:comment": "Forwarder's warehouse receipt"
+        },
+        {
+            "@id": "UNTDID1001:632",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "632",
+            "rdfs:comment": "Goods receipt"
+        },
+        {
+            "@id": "UNTDID1001:633",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "633",
+            "rdfs:comment": "Port charges documents"
+        },
+        {
+            "@id": "UNTDID1001:634",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "634",
+            "rdfs:comment": "Certified list of ingredients"
+        },
+        {
+            "@id": "UNTDID1001:635",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "635",
+            "rdfs:comment": "Warehouse warrant"
+        },
+        {
+            "@id": "UNTDID1001:636",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "636",
+            "rdfs:comment": "Health certificate"
+        },
+        {
+            "@id": "UNTDID1001:637",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "637",
+            "rdfs:comment": "Food grade certificate"
+        },
+        {
+            "@id": "UNTDID1001:638",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "638",
+            "rdfs:comment": "Certificate of suitability for transport of grains and legumes"
+        },
+        {
+            "@id": "UNTDID1001:639",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "639",
+            "rdfs:comment": "Certificate of refrigerated transport equipment inspection"
+        },
+        {
+            "@id": "UNTDID1001:640",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "640",
+            "rdfs:comment": "Delivery order"
+        },
+        {
+            "@id": "UNTDID1001:641",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "641",
+            "rdfs:comment": "Thermographic reading report"
+        },
+        {
+            "@id": "UNTDID1001:642",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "642",
+            "rdfs:comment": "Certificate of food item transport readiness"
+        },
+        {
+            "@id": "UNTDID1001:643",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "643",
+            "rdfs:comment": "Food packaging contact certificate"
+        },
+        {
+            "@id": "UNTDID1001:644",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "644",
+            "rdfs:comment": "Packaging material composition report"
+        },
+        {
+            "@id": "UNTDID1001:645",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "645",
+            "rdfs:comment": "Export price certificate"
+        },
+        {
+            "@id": "UNTDID1001:646",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "646",
+            "rdfs:comment": "Public price certificate"
+        },
+        {
+            "@id": "UNTDID1001:647",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "647",
+            "rdfs:comment": "Drug shelf life study report"
+        },
+        {
+            "@id": "UNTDID1001:648",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "648",
+            "rdfs:comment": "Certificate of compliance with standards of the World Organization for Animal Health (OIE)"
+        },
+        {
+            "@id": "UNTDID1001:649",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "649",
+            "rdfs:comment": "Production facility license"
+        },
+        {
+            "@id": "UNTDID1001:650",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "650",
+            "rdfs:comment": "Handling order"
+        },
+        {
+            "@id": "UNTDID1001:651",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "651",
+            "rdfs:comment": "Manufacturing license"
+        },
+        {
+            "@id": "UNTDID1001:652",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "652",
+            "rdfs:comment": "Low risk country formal letter"
+        },
+        {
+            "@id": "UNTDID1001:653",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "653",
+            "rdfs:comment": "Previous correspondence"
+        },
+        {
+            "@id": "UNTDID1001:654",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "654",
+            "rdfs:comment": "Declaration for radioactive material"
+        },
+        {
+            "@id": "UNTDID1001:655",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "655",
+            "rdfs:comment": "Gate pass"
+        },
+        {
+            "@id": "UNTDID1001:656",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "656",
+            "rdfs:comment": "Resale information"
+        },
+        {
+            "@id": "UNTDID1001:657",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "657",
+            "rdfs:comment": "Phytosanitary Re-export Certificate"
+        },
+        {
+            "@id": "UNTDID1001:658",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "658",
+            "rdfs:comment": "Bayplan/stowage plan, full"
+        },
+        {
+            "@id": "UNTDID1001:659",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "659",
+            "rdfs:comment": "Bayplan/stowage plan, partial"
+        },
+        {
+            "@id": "UNTDID1001:700",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "700",
+            "rdfs:comment": "Waybill"
+        },
+        {
+            "@id": "UNTDID1001:701",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "701",
+            "rdfs:comment": "Universal (multipurpose) transport document"
+        },
+        {
+            "@id": "UNTDID1001:702",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "702",
+            "rdfs:comment": "Goods receipt, carriage"
+        },
+        {
+            "@id": "UNTDID1001:703",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "703",
+            "rdfs:comment": "House waybill"
+        },
+        {
+            "@id": "UNTDID1001:704",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "704",
+            "rdfs:comment": "Master bill of lading"
+        },
+        {
+            "@id": "UNTDID1001:705",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "705",
+            "rdfs:comment": "Bill of lading"
+        },
+        {
+            "@id": "UNTDID1001:706",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "706",
+            "rdfs:comment": "Bill of lading original"
+        },
+        {
+            "@id": "UNTDID1001:707",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "707",
+            "rdfs:comment": "Bill of lading copy"
+        },
+        {
+            "@id": "UNTDID1001:708",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "708",
+            "rdfs:comment": "Empty container bill"
+        },
+        {
+            "@id": "UNTDID1001:709",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "709",
+            "rdfs:comment": "Tanker bill of lading"
+        },
+        {
+            "@id": "UNTDID1001:710",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "710",
+            "rdfs:comment": "Sea waybill"
+        },
+        {
+            "@id": "UNTDID1001:711",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "711",
+            "rdfs:comment": "Inland waterway bill of lading"
+        },
+        {
+            "@id": "UNTDID1001:712",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "712",
+            "rdfs:comment": "Non-negotiable maritime transport document (generic)"
+        },
+        {
+            "@id": "UNTDID1001:713",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "713",
+            "rdfs:comment": "Mate's receipt"
+        },
+        {
+            "@id": "UNTDID1001:714",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "714",
+            "rdfs:comment": "House bill of lading"
+        },
+        {
+            "@id": "UNTDID1001:715",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "715",
+            "rdfs:comment": "Letter of indemnity for non-surrender of bill of lading"
+        },
+        {
+            "@id": "UNTDID1001:716",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "716",
+            "rdfs:comment": "Forwarder's bill of lading"
+        },
+        {
+            "@id": "UNTDID1001:717",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "717",
+            "rdfs:comment": "Residence permit"
+        },
+        {
+            "@id": "UNTDID1001:718",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "718",
+            "rdfs:comment": "Seaman’s book"
+        },
+        {
+            "@id": "UNTDID1001:719",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "719",
+            "rdfs:comment": "General message"
+        },
+        {
+            "@id": "UNTDID1001:720",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "720",
+            "rdfs:comment": "Rail consignment note (generic term)"
+        },
+        {
+            "@id": "UNTDID1001:721",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "721",
+            "rdfs:comment": "Product data response"
+        },
+        {
+            "@id": "UNTDID1001:722",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "722",
+            "rdfs:comment": "Road list-SMGS"
+        },
+        {
+            "@id": "UNTDID1001:723",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "723",
+            "rdfs:comment": "Escort official recognition"
+        },
+        {
+            "@id": "UNTDID1001:724",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "724",
+            "rdfs:comment": "Recharging document"
+        },
+        {
+            "@id": "UNTDID1001:725",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "725",
+            "rdfs:comment": "Manufacturer raised order"
+        },
+        {
+            "@id": "UNTDID1001:726",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "726",
+            "rdfs:comment": "Manufacturer raised consignment order"
+        },
+        {
+            "@id": "UNTDID1001:727",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "727",
+            "rdfs:comment": "Price/sales catalogue not containing commercial information"
+        },
+        {
+            "@id": "UNTDID1001:728",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "728",
+            "rdfs:comment": "Price/sales catalogue containing commercial information"
+        },
+        {
+            "@id": "UNTDID1001:729",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "729",
+            "rdfs:comment": "Returns advice"
+        },
+        {
+            "@id": "UNTDID1001:730",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "730",
+            "rdfs:comment": "Road consignment note"
+        },
+        {
+            "@id": "UNTDID1001:731",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "731",
+            "rdfs:comment": "Commercial account summary"
+        },
+        {
+            "@id": "UNTDID1001:732",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "732",
+            "rdfs:comment": "Announcement for returns"
+        },
+        {
+            "@id": "UNTDID1001:733",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "733",
+            "rdfs:comment": "Instruction for returns"
+        },
+        {
+            "@id": "UNTDID1001:734",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "734",
+            "rdfs:comment": "Sales forecast report"
+        },
+        {
+            "@id": "UNTDID1001:735",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "735",
+            "rdfs:comment": "Sales data report"
+        },
+        {
+            "@id": "UNTDID1001:736",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "736",
+            "rdfs:comment": "Standing inquiry on complete product information"
+        },
+        {
+            "@id": "UNTDID1001:737",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "737",
+            "rdfs:comment": "Proof of delivery"
+        },
+        {
+            "@id": "UNTDID1001:738",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "738",
+            "rdfs:comment": "Cargo/goods handling and movement message"
+        },
+        {
+            "@id": "UNTDID1001:739",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "739",
+            "rdfs:comment": "Metered services consumption report supporting an invoice"
+        },
+        {
+            "@id": "UNTDID1001:740",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "740",
+            "rdfs:comment": "Air waybill"
+        },
+        {
+            "@id": "UNTDID1001:741",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "741",
+            "rdfs:comment": "Master air waybill"
+        },
+        {
+            "@id": "UNTDID1001:742",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "742",
+            "rdfs:comment": "Metered services consumption report"
+        },
+        {
+            "@id": "UNTDID1001:743",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "743",
+            "rdfs:comment": "Substitute air waybill"
+        },
+        {
+            "@id": "UNTDID1001:744",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "744",
+            "rdfs:comment": "Crew's effects declaration"
+        },
+        {
+            "@id": "UNTDID1001:745",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "745",
+            "rdfs:comment": "Passenger list"
+        },
+        {
+            "@id": "UNTDID1001:746",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "746",
+            "rdfs:comment": "Delivery notice (rail transport)"
+        },
+        {
+            "@id": "UNTDID1001:747",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "747",
+            "rdfs:comment": "Payroll deductions advice"
+        },
+        {
+            "@id": "UNTDID1001:748",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "748",
+            "rdfs:comment": "Consignment despatch advice"
+        },
+        {
+            "@id": "UNTDID1001:749",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "749",
+            "rdfs:comment": "Transport equipment gross mass verification message"
+        },
+        {
+            "@id": "UNTDID1001:750",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "750",
+            "rdfs:comment": "Despatch note (post parcels)"
+        },
+        {
+            "@id": "UNTDID1001:751",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "751",
+            "rdfs:comment": "Invoice information for accounting purposes"
+        },
+        {
+            "@id": "UNTDID1001:752",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "752",
+            "rdfs:comment": "Plant Passport"
+        },
+        {
+            "@id": "UNTDID1001:753",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "753",
+            "rdfs:comment": "Certificate of sustainability"
+        },
+        {
+            "@id": "UNTDID1001:754",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "754",
+            "rdfs:comment": "Call for tender"
+        },
+        {
+            "@id": "UNTDID1001:755",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "755",
+            "rdfs:comment": "Invitation to tender"
+        },
+        {
+            "@id": "UNTDID1001:756",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "756",
+            "rdfs:comment": "European Single Procurement Document request"
+        },
+        {
+            "@id": "UNTDID1001:757",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "757",
+            "rdfs:comment": "Tendering price/sales catalogue request"
+        },
+        {
+            "@id": "UNTDID1001:758",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "758",
+            "rdfs:comment": "Tender"
+        },
+        {
+            "@id": "UNTDID1001:759",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "759",
+            "rdfs:comment": "European Single Procurement Document"
+        },
+        {
+            "@id": "UNTDID1001:760",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "760",
+            "rdfs:comment": "Multimodal/combined transport document (generic)"
+        },
+        {
+            "@id": "UNTDID1001:761",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "761",
+            "rdfs:comment": "Through bill of lading"
+        },
+        {
+            "@id": "UNTDID1001:762",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "762",
+            "rdfs:comment": "Tendering price/sales catalogue"
+        },
+        {
+            "@id": "UNTDID1001:763",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "763",
+            "rdfs:comment": "Forwarder's certificate of transport"
+        },
+        {
+            "@id": "UNTDID1001:764",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "764",
+            "rdfs:comment": "Combined transport document (generic)"
+        },
+        {
+            "@id": "UNTDID1001:765",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "765",
+            "rdfs:comment": "Multimodal transport document (generic)"
+        },
+        {
+            "@id": "UNTDID1001:766",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "766",
+            "rdfs:comment": "Combined transport bill of lading/multimodal bill of lading"
+        },
+        {
+            "@id": "UNTDID1001:767",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "767",
+            "rdfs:comment": "Acknowledgment of receipt"
+        },
+        {
+            "@id": "UNTDID1001:768",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "768",
+            "rdfs:comment": "Civil status document"
+        },
+        {
+            "@id": "UNTDID1001:769",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "769",
+            "rdfs:comment": "Advice report"
+        },
+        {
+            "@id": "UNTDID1001:770",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "770",
+            "rdfs:comment": "Booking confirmation"
+        },
+        {
+            "@id": "UNTDID1001:771",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "771",
+            "rdfs:comment": "Binding offer"
+        },
+        {
+            "@id": "UNTDID1001:772",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "772",
+            "rdfs:comment": "Binding customer agreement for contract"
+        },
+        {
+            "@id": "UNTDID1001:773",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "773",
+            "rdfs:comment": "Coverage confirmation note"
+        },
+        {
+            "@id": "UNTDID1001:774",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "774",
+            "rdfs:comment": "General terms and conditions"
+        },
+        {
+            "@id": "UNTDID1001:775",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "775",
+            "rdfs:comment": "Calling forward notice"
+        },
+        {
+            "@id": "UNTDID1001:776",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "776",
+            "rdfs:comment": "Contract clauses"
+        },
+        {
+            "@id": "UNTDID1001:777",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "777",
+            "rdfs:comment": "Specific contract conditions"
+        },
+        {
+            "@id": "UNTDID1001:778",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "778",
+            "rdfs:comment": "Group insurance rules"
+        },
+        {
+            "@id": "UNTDID1001:779",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "779",
+            "rdfs:comment": "Questionnaire"
+        },
+        {
+            "@id": "UNTDID1001:780",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "780",
+            "rdfs:comment": "Freight invoice"
+        },
+        {
+            "@id": "UNTDID1001:781",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "781",
+            "rdfs:comment": "Arrival notice (goods)"
+        },
+        {
+            "@id": "UNTDID1001:782",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "782",
+            "rdfs:comment": "Notice of circumstances preventing delivery (goods)"
+        },
+        {
+            "@id": "UNTDID1001:783",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "783",
+            "rdfs:comment": "Notice of circumstances preventing transport (goods)"
+        },
+        {
+            "@id": "UNTDID1001:784",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "784",
+            "rdfs:comment": "Delivery notice (goods)"
+        },
+        {
+            "@id": "UNTDID1001:785",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "785",
+            "rdfs:comment": "Cargo manifest"
+        },
+        {
+            "@id": "UNTDID1001:786",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "786",
+            "rdfs:comment": "Freight manifest"
+        },
+        {
+            "@id": "UNTDID1001:787",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "787",
+            "rdfs:comment": "Bordereau"
+        },
+        {
+            "@id": "UNTDID1001:788",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "788",
+            "rdfs:comment": "Container manifest (unit packing list)"
+        },
+        {
+            "@id": "UNTDID1001:789",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "789",
+            "rdfs:comment": "Charges note"
+        },
+        {
+            "@id": "UNTDID1001:790",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "790",
+            "rdfs:comment": "Advice of collection"
+        },
+        {
+            "@id": "UNTDID1001:791",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "791",
+            "rdfs:comment": "Safety of ship certificate"
+        },
+        {
+            "@id": "UNTDID1001:792",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "792",
+            "rdfs:comment": "Safety of radio certificate"
+        },
+        {
+            "@id": "UNTDID1001:793",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "793",
+            "rdfs:comment": "Safety of equipment certificate"
+        },
+        {
+            "@id": "UNTDID1001:794",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "794",
+            "rdfs:comment": "Civil liability for oil certificate"
+        },
+        {
+            "@id": "UNTDID1001:795",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "795",
+            "rdfs:comment": "Loadline document"
+        },
+        {
+            "@id": "UNTDID1001:796",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "796",
+            "rdfs:comment": "Derat document"
+        },
+        {
+            "@id": "UNTDID1001:797",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "797",
+            "rdfs:comment": "Maritime declaration of health"
+        },
+        {
+            "@id": "UNTDID1001:798",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "798",
+            "rdfs:comment": "Certificate of registry"
+        },
+        {
+            "@id": "UNTDID1001:799",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "799",
+            "rdfs:comment": "Ship's stores declaration"
+        },
+        {
+            "@id": "UNTDID1001:810",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "810",
+            "rdfs:comment": "Export licence, application for"
+        },
+        {
+            "@id": "UNTDID1001:811",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "811",
+            "rdfs:comment": "Export licence"
+        },
+        {
+            "@id": "UNTDID1001:812",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "812",
+            "rdfs:comment": "Exchange control declaration, export"
+        },
+        {
+            "@id": "UNTDID1001:813",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "813",
+            "rdfs:comment": "Declaration of final beneficiary"
+        },
+        {
+            "@id": "UNTDID1001:814",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "814",
+            "rdfs:comment": "US, FATCA statement"
+        },
+        {
+            "@id": "UNTDID1001:815",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "815",
+            "rdfs:comment": "Insured status report"
+        },
+        {
+            "@id": "UNTDID1001:816",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "816",
+            "rdfs:comment": "Group pension commitment information"
+        },
+        {
+            "@id": "UNTDID1001:817",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "817",
+            "rdfs:comment": "Claim notification"
+        },
+        {
+            "@id": "UNTDID1001:818",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "818",
+            "rdfs:comment": "Assessment report"
+        },
+        {
+            "@id": "UNTDID1001:819",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "819",
+            "rdfs:comment": "Loss statement"
+        },
+        {
+            "@id": "UNTDID1001:820",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "820",
+            "rdfs:comment": "Despatch note model T"
+        },
+        {
+            "@id": "UNTDID1001:821",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "821",
+            "rdfs:comment": "Despatch note model T1"
+        },
+        {
+            "@id": "UNTDID1001:822",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "822",
+            "rdfs:comment": "Despatch note model T2"
+        },
+        {
+            "@id": "UNTDID1001:823",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "823",
+            "rdfs:comment": "Control document T5"
+        },
+        {
+            "@id": "UNTDID1001:824",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "824",
+            "rdfs:comment": "Re-sending consignment note"
+        },
+        {
+            "@id": "UNTDID1001:825",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "825",
+            "rdfs:comment": "Despatch note model T2L"
+        },
+        {
+            "@id": "UNTDID1001:826",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "826",
+            "rdfs:comment": "Guarantee of cost acceptance"
+        },
+        {
+            "@id": "UNTDID1001:827",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "827",
+            "rdfs:comment": "Close of claim"
+        },
+        {
+            "@id": "UNTDID1001:828",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "828",
+            "rdfs:comment": "Refusal of claim"
+        },
+        {
+            "@id": "UNTDID1001:829",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "829",
+            "rdfs:comment": "Valuation report"
+        },
+        {
+            "@id": "UNTDID1001:830",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "830",
+            "rdfs:comment": "Goods declaration for exportation"
+        },
+        {
+            "@id": "UNTDID1001:831",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "831",
+            "rdfs:comment": "Claim history certificate"
+        },
+        {
+            "@id": "UNTDID1001:832",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "832",
+            "rdfs:comment": "Accounting statement"
+        },
+        {
+            "@id": "UNTDID1001:833",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "833",
+            "rdfs:comment": "Cargo declaration (departure)"
+        },
+        {
+            "@id": "UNTDID1001:834",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "834",
+            "rdfs:comment": "Payment receipt confirmation"
+        },
+        {
+            "@id": "UNTDID1001:835",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "835",
+            "rdfs:comment": "Certificate of paid insurance premium"
+        },
+        {
+            "@id": "UNTDID1001:836",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "836",
+            "rdfs:comment": "Insured party payment report"
+        },
+        {
+            "@id": "UNTDID1001:837",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "837",
+            "rdfs:comment": "Third party payment report"
+        },
+        {
+            "@id": "UNTDID1001:838",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "838",
+            "rdfs:comment": "Direct debit authorisation"
+        },
+        {
+            "@id": "UNTDID1001:839",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "839",
+            "rdfs:comment": "Physician report"
+        },
+        {
+            "@id": "UNTDID1001:840",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "840",
+            "rdfs:comment": "Application for goods control certificate"
+        },
+        {
+            "@id": "UNTDID1001:841",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "841",
+            "rdfs:comment": "Goods control certificate"
+        },
+        {
+            "@id": "UNTDID1001:842",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "842",
+            "rdfs:comment": "Medical certificate"
+        },
+        {
+            "@id": "UNTDID1001:843",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "843",
+            "rdfs:comment": "Witness report"
+        },
+        {
+            "@id": "UNTDID1001:844",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "844",
+            "rdfs:comment": "Calculation note"
+        },
+        {
+            "@id": "UNTDID1001:845",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "845",
+            "rdfs:comment": "Communication from opposite party"
+        },
+        {
+            "@id": "UNTDID1001:846",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "846",
+            "rdfs:comment": "Amicable agreement"
+        },
+        {
+            "@id": "UNTDID1001:847",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "847",
+            "rdfs:comment": "Out of court settlement"
+        },
+        {
+            "@id": "UNTDID1001:848",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "848",
+            "rdfs:comment": "Legal action"
+        },
+        {
+            "@id": "UNTDID1001:849",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "849",
+            "rdfs:comment": "Summons"
+        },
+        {
+            "@id": "UNTDID1001:850",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "850",
+            "rdfs:comment": "Application for phytosanitary certificate"
+        },
+        {
+            "@id": "UNTDID1001:851",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "851",
+            "rdfs:comment": "Phytosanitary certificate"
+        },
+        {
+            "@id": "UNTDID1001:852",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "852",
+            "rdfs:comment": "Sanitary certificate"
+        },
+        {
+            "@id": "UNTDID1001:853",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "853",
+            "rdfs:comment": "Veterinary certificate"
+        },
+        {
+            "@id": "UNTDID1001:854",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "854",
+            "rdfs:comment": "Court judgment"
+        },
+        {
+            "@id": "UNTDID1001:855",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "855",
+            "rdfs:comment": "Application for inspection certificate"
+        },
+        {
+            "@id": "UNTDID1001:856",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "856",
+            "rdfs:comment": "Inspection certificate"
+        },
+        {
+            "@id": "UNTDID1001:857",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "857",
+            "rdfs:comment": "Vehicle aboard document"
+        },
+        {
+            "@id": "UNTDID1001:858",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "858",
+            "rdfs:comment": "Image"
+        },
+        {
+            "@id": "UNTDID1001:859",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "859",
+            "rdfs:comment": "Audio"
+        },
+        {
+            "@id": "UNTDID1001:860",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "860",
+            "rdfs:comment": "Certificate of origin, application for"
+        },
+        {
+            "@id": "UNTDID1001:861",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "861",
+            "rdfs:comment": "Certificate of origin"
+        },
+        {
+            "@id": "UNTDID1001:862",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "862",
+            "rdfs:comment": "Declaration of origin"
+        },
+        {
+            "@id": "UNTDID1001:863",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "863",
+            "rdfs:comment": "Regional appellation certificate"
+        },
+        {
+            "@id": "UNTDID1001:864",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "864",
+            "rdfs:comment": "Preference certificate of origin"
+        },
+        {
+            "@id": "UNTDID1001:865",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "865",
+            "rdfs:comment": "Certificate of origin form GSP"
+        },
+        {
+            "@id": "UNTDID1001:866",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "866",
+            "rdfs:comment": "Video"
+        },
+        {
+            "@id": "UNTDID1001:867",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "867",
+            "rdfs:comment": "Introductory letter"
+        },
+        {
+            "@id": "UNTDID1001:868",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "868",
+            "rdfs:comment": "Data protection regulations statement"
+        },
+        {
+            "@id": "UNTDID1001:869",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "869",
+            "rdfs:comment": "Exclusive brokerage mandate"
+        },
+        {
+            "@id": "UNTDID1001:870",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "870",
+            "rdfs:comment": "Consular invoice"
+        },
+        {
+            "@id": "UNTDID1001:871",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "871",
+            "rdfs:comment": "Inquiry mandate"
+        },
+        {
+            "@id": "UNTDID1001:872",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "872",
+            "rdfs:comment": "Risk analysis"
+        },
+        {
+            "@id": "UNTDID1001:873",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "873",
+            "rdfs:comment": "Transport equipment movement report, partial"
+        },
+        {
+            "@id": "UNTDID1001:874",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "874",
+            "rdfs:comment": "Conveyance declaration"
+        },
+        {
+            "@id": "UNTDID1001:875",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "875",
+            "rdfs:comment": "Partial construction invoice"
+        },
+        {
+            "@id": "UNTDID1001:876",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "876",
+            "rdfs:comment": "Partial final construction invoice"
+        },
+        {
+            "@id": "UNTDID1001:877",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "877",
+            "rdfs:comment": "Final construction invoice"
+        },
+        {
+            "@id": "UNTDID1001:878",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "878",
+            "rdfs:comment": "AEO Certificate of Security and/or Safety"
+        },
+        {
+            "@id": "UNTDID1001:879",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "879",
+            "rdfs:comment": "AEO Certificate of Conformity or Compliance"
+        },
+        {
+            "@id": "UNTDID1001:890",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "890",
+            "rdfs:comment": "Dangerous goods declaration"
+        },
+        {
+            "@id": "UNTDID1001:891",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "891",
+            "rdfs:comment": "AEO Certificate Full"
+        },
+        {
+            "@id": "UNTDID1001:892",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "892",
+            "rdfs:comment": "Purchase Order Financing Request"
+        },
+        {
+            "@id": "UNTDID1001:893",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "893",
+            "rdfs:comment": "Purchase Order Financing Request Status"
+        },
+        {
+            "@id": "UNTDID1001:894",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "894",
+            "rdfs:comment": "Purchase Order Financing Request Cancellation"
+        },
+        {
+            "@id": "UNTDID1001:895",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "895",
+            "rdfs:comment": "Statistical document, export"
+        },
+        {
+            "@id": "UNTDID1001:896",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "896",
+            "rdfs:comment": "INTRASTAT declaration"
+        },
+        {
+            "@id": "UNTDID1001:897",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "897",
+            "rdfs:comment": "Transit certificate of approval"
+        },
+        {
+            "@id": "UNTDID1001:898",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "898",
+            "rdfs:comment": "Pre-packed cross docking consignment order"
+        },
+        {
+            "@id": "UNTDID1001:899",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "899",
+            "rdfs:comment": "Traceability event declaration"
+        },
+        {
+            "@id": "UNTDID1001:900",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "900",
+            "rdfs:comment": "Sustainability data request"
+        },
+        {
+            "@id": "UNTDID1001:901",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "901",
+            "rdfs:comment": "Delivery verification certificate"
+        },
+        {
+            "@id": "UNTDID1001:902",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "902",
+            "rdfs:comment": "Sustainability data response"
+        },
+        {
+            "@id": "UNTDID1001:903",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "903",
+            "rdfs:comment": "Sustainability Inspection request"
+        },
+        {
+            "@id": "UNTDID1001:904",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "904",
+            "rdfs:comment": "Sustainability Inspection response"
+        },
+        {
+            "@id": "UNTDID1001:905",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "905",
+            "rdfs:comment": "Air Consignment Security Declaration"
+        },
+        {
+            "@id": "UNTDID1001:910",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "910",
+            "rdfs:comment": "Import licence, application for"
+        },
+        {
+            "@id": "UNTDID1001:911",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "911",
+            "rdfs:comment": "Import licence"
+        },
+        {
+            "@id": "UNTDID1001:913",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "913",
+            "rdfs:comment": "Customs declaration without commercial detail"
+        },
+        {
+            "@id": "UNTDID1001:914",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "914",
+            "rdfs:comment": "Customs declaration with commercial and item detail"
+        },
+        {
+            "@id": "UNTDID1001:915",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "915",
+            "rdfs:comment": "Customs declaration without item detail"
+        },
+        {
+            "@id": "UNTDID1001:916",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "916",
+            "rdfs:comment": "Related document"
+        },
+        {
+            "@id": "UNTDID1001:917",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "917",
+            "rdfs:comment": "Receipt (Customs)"
+        },
+        {
+            "@id": "UNTDID1001:925",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "925",
+            "rdfs:comment": "Application for exchange allocation"
+        },
+        {
+            "@id": "UNTDID1001:926",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "926",
+            "rdfs:comment": "Foreign exchange permit"
+        },
+        {
+            "@id": "UNTDID1001:927",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "927",
+            "rdfs:comment": "Exchange control declaration (import)"
+        },
+        {
+            "@id": "UNTDID1001:929",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "929",
+            "rdfs:comment": "Goods declaration for importation"
+        },
+        {
+            "@id": "UNTDID1001:930",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "930",
+            "rdfs:comment": "Goods declaration for home use"
+        },
+        {
+            "@id": "UNTDID1001:931",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "931",
+            "rdfs:comment": "Customs immediate release declaration"
+        },
+        {
+            "@id": "UNTDID1001:932",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "932",
+            "rdfs:comment": "Customs delivery note"
+        },
+        {
+            "@id": "UNTDID1001:933",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "933",
+            "rdfs:comment": "Cargo declaration (arrival)"
+        },
+        {
+            "@id": "UNTDID1001:934",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "934",
+            "rdfs:comment": "Value declaration"
+        },
+        {
+            "@id": "UNTDID1001:935",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "935",
+            "rdfs:comment": "Customs invoice"
+        },
+        {
+            "@id": "UNTDID1001:936",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "936",
+            "rdfs:comment": "Customs declaration (post parcels)"
+        },
+        {
+            "@id": "UNTDID1001:937",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "937",
+            "rdfs:comment": "Tax declaration (value added tax)"
+        },
+        {
+            "@id": "UNTDID1001:938",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "938",
+            "rdfs:comment": "Tax declaration (general)"
+        },
+        {
+            "@id": "UNTDID1001:940",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "940",
+            "rdfs:comment": "Tax demand"
+        },
+        {
+            "@id": "UNTDID1001:941",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "941",
+            "rdfs:comment": "Embargo permit"
+        },
+        {
+            "@id": "UNTDID1001:950",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "950",
+            "rdfs:comment": "Goods declaration for Customs transit"
+        },
+        {
+            "@id": "UNTDID1001:951",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "951",
+            "rdfs:comment": "TIF form"
+        },
+        {
+            "@id": "UNTDID1001:952",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "952",
+            "rdfs:comment": "TIR carnet"
+        },
+        {
+            "@id": "UNTDID1001:953",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "953",
+            "rdfs:comment": "EC carnet"
+        },
+        {
+            "@id": "UNTDID1001:954",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "954",
+            "rdfs:comment": "EUR 1 certificate of origin"
+        },
+        {
+            "@id": "UNTDID1001:955",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "955",
+            "rdfs:comment": "ATA carnet"
+        },
+        {
+            "@id": "UNTDID1001:960",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "960",
+            "rdfs:comment": "Single administrative document"
+        },
+        {
+            "@id": "UNTDID1001:961",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "961",
+            "rdfs:comment": "General response (Customs)"
+        },
+        {
+            "@id": "UNTDID1001:962",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "962",
+            "rdfs:comment": "Document response (Customs)"
+        },
+        {
+            "@id": "UNTDID1001:963",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "963",
+            "rdfs:comment": "Error response (Customs)"
+        },
+        {
+            "@id": "UNTDID1001:964",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "964",
+            "rdfs:comment": "Package response (Customs)"
+        },
+        {
+            "@id": "UNTDID1001:965",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "965",
+            "rdfs:comment": "Tax calculation/confirmation response (Customs)"
+        },
+        {
+            "@id": "UNTDID1001:966",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "966",
+            "rdfs:comment": "Quota prior allocation certificate"
+        },
+        {
+            "@id": "UNTDID1001:970",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "970",
+            "rdfs:comment": "Wagon report"
+        },
+        {
+            "@id": "UNTDID1001:971",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "971",
+            "rdfs:comment": "Transit Conveyor Document"
+        },
+        {
+            "@id": "UNTDID1001:972",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "972",
+            "rdfs:comment": "Rail consignment note forwarder copy"
+        },
+        {
+            "@id": "UNTDID1001:974",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "974",
+            "rdfs:comment": "Duty suspended goods"
+        },
+        {
+            "@id": "UNTDID1001:975",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "975",
+            "rdfs:comment": "Proof of transit declaration"
+        },
+        {
+            "@id": "UNTDID1001:976",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "976",
+            "rdfs:comment": "Container transfer note"
+        },
+        {
+            "@id": "UNTDID1001:977",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "977",
+            "rdfs:comment": "NATO transit document"
+        },
+        {
+            "@id": "UNTDID1001:978",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "978",
+            "rdfs:comment": "Transfrontier waste shipment authorization"
+        },
+        {
+            "@id": "UNTDID1001:979",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "979",
+            "rdfs:comment": "Transfrontier waste shipment movement document"
+        },
+        {
+            "@id": "UNTDID1001:990",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "990",
+            "rdfs:comment": "End use authorization"
+        },
+        {
+            "@id": "UNTDID1001:991",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "991",
+            "rdfs:comment": "Government contract"
+        },
+        {
+            "@id": "UNTDID1001:995",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "995",
+            "rdfs:comment": "Statistical document, import"
+        },
+        {
+            "@id": "UNTDID1001:996",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "996",
+            "rdfs:comment": "Application for documentary credit"
+        },
+        {
+            "@id": "UNTDID1001:998",
+            "@type": "unece:DocumentCode",
+            "rdf:value": "998",
+            "rdfs:comment": "Previous Customs document/message"
+        }
+    ]
+}

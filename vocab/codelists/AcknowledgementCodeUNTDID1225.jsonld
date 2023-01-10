@@ -1,0 +1,59 @@
+
+{
+    "@context": {
+        "unece": "https://vocabulary.uncefact.org/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "AcknowledgementCodeUNTDID1225": "https://vocabulary.uncefact.org/codelists/AcknowledgementCodeUNTDID1225"
+    },
+    "@graph": [
+        {
+            "@id": "AcknowledgementCodeUNTDID1225:5",
+            "@type": "unece:AcknowledgementCode",
+            "rdf:value": "5",
+            "rdfs:comment": "Replace"
+        },
+        {
+            "@id": "AcknowledgementCodeUNTDID1225:6",
+            "@type": "unece:AcknowledgementCode",
+            "rdf:value": "6",
+            "rdfs:comment": "Confirmation"
+        },
+        {
+            "@id": "AcknowledgementCodeUNTDID1225:7",
+            "@type": "unece:AcknowledgementCode",
+            "rdf:value": "7",
+            "rdfs:comment": "Duplicate"
+        },
+        {
+            "@id": "AcknowledgementCodeUNTDID1225:9",
+            "@type": "unece:AcknowledgementCode",
+            "rdf:value": "9",
+            "rdfs:comment": "Original"
+        },
+        {
+            "@id": "AcknowledgementCodeUNTDID1225:18",
+            "@type": "unece:AcknowledgementCode",
+            "rdf:value": "18",
+            "rdfs:comment": "Reissue"
+        },
+        {
+            "@id": "AcknowledgementCodeUNTDID1225:31",
+            "@type": "unece:AcknowledgementCode",
+            "rdf:value": "31",
+            "rdfs:comment": "Copy"
+        },
+        {
+            "@id": "AcknowledgementCodeUNTDID1225:35",
+            "@type": "unece:AcknowledgementCode",
+            "rdf:value": "35",
+            "rdfs:comment": "Retransmission"
+        },
+        {
+            "@id": "AcknowledgementCodeUNTDID1225:43",
+            "@type": "unece:AcknowledgementCode",
+            "rdf:value": "43",
+            "rdfs:comment": "Additional transmission"
+        }
+    ]
+}

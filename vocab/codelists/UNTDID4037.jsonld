@@ -1,0 +1,47 @@
+
+{
+    "@context": {
+        "unece": "https://vocabulary.uncefact.org/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "UNTDID4037": "https://vocabulary.uncefact.org/codelists/UNTDID4037"
+    },
+    "@graph": [
+        {
+            "@id": "UNTDID4037:1",
+            "@type": "unece:PriorityDescriptionCode",
+            "rdf:value": "1",
+            "rdfs:comment": "Immediate"
+        },
+        {
+            "@id": "UNTDID4037:2",
+            "@type": "unece:PriorityDescriptionCode",
+            "rdf:value": "2",
+            "rdfs:comment": "Urgent"
+        },
+        {
+            "@id": "UNTDID4037:3",
+            "@type": "unece:PriorityDescriptionCode",
+            "rdf:value": "3",
+            "rdfs:comment": "Normal"
+        },
+        {
+            "@id": "UNTDID4037:4",
+            "@type": "unece:PriorityDescriptionCode",
+            "rdf:value": "4",
+            "rdfs:comment": "Scheduled"
+        },
+        {
+            "@id": "UNTDID4037:5",
+            "@type": "unece:PriorityDescriptionCode",
+            "rdf:value": "5",
+            "rdfs:comment": "Category A"
+        },
+        {
+            "@id": "UNTDID4037:6",
+            "@type": "unece:PriorityDescriptionCode",
+            "rdf:value": "6",
+            "rdfs:comment": "Category B"
+        }
+    ]
+}
