@@ -1,0 +1,65 @@
+
+{
+    "@context": {
+        "unece": "https://vocabulary.uncefact.org/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "UNTDID6245Type": "https://vocabulary.uncefact.org/codelists/UNTDID6245Type"
+    },
+    "@graph": [
+        {
+            "@id": "UNTDID6245Type:1",
+            "@type": "unece:TemperatureTypeCodeType",
+            "rdf:value": "1",
+            "rdfs:comment": "Storage temperature"
+        },
+        {
+            "@id": "UNTDID6245Type:2",
+            "@type": "unece:TemperatureTypeCodeType",
+            "rdf:value": "2",
+            "rdfs:comment": "Transport temperature"
+        },
+        {
+            "@id": "UNTDID6245Type:3",
+            "@type": "unece:TemperatureTypeCodeType",
+            "rdf:value": "3",
+            "rdfs:comment": "Cargo operating temperature"
+        },
+        {
+            "@id": "UNTDID6245Type:4",
+            "@type": "unece:TemperatureTypeCodeType",
+            "rdf:value": "4",
+            "rdfs:comment": "Transport emergency temperature"
+        },
+        {
+            "@id": "UNTDID6245Type:5",
+            "@type": "unece:TemperatureTypeCodeType",
+            "rdf:value": "5",
+            "rdfs:comment": "Transport control temperature"
+        },
+        {
+            "@id": "UNTDID6245Type:6",
+            "@type": "unece:TemperatureTypeCodeType",
+            "rdf:value": "6",
+            "rdfs:comment": "Boiling point"
+        },
+        {
+            "@id": "UNTDID6245Type:7",
+            "@type": "unece:TemperatureTypeCodeType",
+            "rdf:value": "7",
+            "rdfs:comment": "Temperature, recorded"
+        },
+        {
+            "@id": "UNTDID6245Type:8",
+            "@type": "unece:TemperatureTypeCodeType",
+            "rdf:value": "8",
+            "rdfs:comment": "Self-accelerating decomposition temperature (SADT)"
+        },
+        {
+            "@id": "UNTDID6245Type:9",
+            "@type": "unece:TemperatureTypeCodeType",
+            "rdf:value": "9",
+            "rdfs:comment": "Self-accelerating polymerization temperature (SAPT)"
+        }
+    ]
+}

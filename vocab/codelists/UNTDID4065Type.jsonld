@@ -1,0 +1,245 @@
+
+{
+    "@context": {
+        "unece": "https://vocabulary.uncefact.org/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "UNTDID4065Type": "https://vocabulary.uncefact.org/codelists/UNTDID4065Type"
+    },
+    "@graph": [
+        {
+            "@id": "UNTDID4065Type:1",
+            "@type": "unece:TransportServiceConditionCodeType",
+            "rdf:value": "1",
+            "rdfs:comment": "AVC conditions"
+        },
+        {
+            "@id": "UNTDID4065Type:2",
+            "@type": "unece:TransportServiceConditionCodeType",
+            "rdf:value": "2",
+            "rdfs:comment": "Special agreement for parcels transport"
+        },
+        {
+            "@id": "UNTDID4065Type:3",
+            "@type": "unece:TransportServiceConditionCodeType",
+            "rdf:value": "3",
+            "rdfs:comment": "Special agreement for full loading transport"
+        },
+        {
+            "@id": "UNTDID4065Type:4",
+            "@type": "unece:TransportServiceConditionCodeType",
+            "rdf:value": "4",
+            "rdfs:comment": "Combined transport"
+        },
+        {
+            "@id": "UNTDID4065Type:5",
+            "@type": "unece:TransportServiceConditionCodeType",
+            "rdf:value": "5",
+            "rdfs:comment": "FIATA combined transport bill of lading"
+        },
+        {
+            "@id": "UNTDID4065Type:6",
+            "@type": "unece:TransportServiceConditionCodeType",
+            "rdf:value": "6",
+            "rdfs:comment": "Freight forwarders national conditions"
+        },
+        {
+            "@id": "UNTDID4065Type:7",
+            "@type": "unece:TransportServiceConditionCodeType",
+            "rdf:value": "7",
+            "rdfs:comment": "Normal tariff, parcels transport"
+        },
+        {
+            "@id": "UNTDID4065Type:8",
+            "@type": "unece:TransportServiceConditionCodeType",
+            "rdf:value": "8",
+            "rdfs:comment": "Normal tariff, full loading transport"
+        },
+        {
+            "@id": "UNTDID4065Type:9",
+            "@type": "unece:TransportServiceConditionCodeType",
+            "rdf:value": "9",
+            "rdfs:comment": "Ordinary"
+        },
+        {
+            "@id": "UNTDID4065Type:10",
+            "@type": "unece:TransportServiceConditionCodeType",
+            "rdf:value": "10",
+            "rdfs:comment": "Port to port"
+        },
+        {
+            "@id": "UNTDID4065Type:11",
+            "@type": "unece:TransportServiceConditionCodeType",
+            "rdf:value": "11",
+            "rdfs:comment": "CMR carnet"
+        },
+        {
+            "@id": "UNTDID4065Type:12",
+            "@type": "unece:TransportServiceConditionCodeType",
+            "rdf:value": "12",
+            "rdfs:comment": "Special tariff, parcels transport"
+        },
+        {
+            "@id": "UNTDID4065Type:13",
+            "@type": "unece:TransportServiceConditionCodeType",
+            "rdf:value": "13",
+            "rdfs:comment": "Special tariff, full transport"
+        },
+        {
+            "@id": "UNTDID4065Type:14",
+            "@type": "unece:TransportServiceConditionCodeType",
+            "rdf:value": "14",
+            "rdfs:comment": "Through transport"
+        },
+        {
+            "@id": "UNTDID4065Type:15",
+            "@type": "unece:TransportServiceConditionCodeType",
+            "rdf:value": "15",
+            "rdfs:comment": "Cancel space allocation"
+        },
+        {
+            "@id": "UNTDID4065Type:16",
+            "@type": "unece:TransportServiceConditionCodeType",
+            "rdf:value": "16",
+            "rdfs:comment": "Report sale of space"
+        },
+        {
+            "@id": "UNTDID4065Type:17",
+            "@type": "unece:TransportServiceConditionCodeType",
+            "rdf:value": "17",
+            "rdfs:comment": "Alternative space allocation"
+        },
+        {
+            "@id": "UNTDID4065Type:18",
+            "@type": "unece:TransportServiceConditionCodeType",
+            "rdf:value": "18",
+            "rdfs:comment": "No alternative space allocation"
+        },
+        {
+            "@id": "UNTDID4065Type:19",
+            "@type": "unece:TransportServiceConditionCodeType",
+            "rdf:value": "19",
+            "rdfs:comment": "Allotment sale"
+        },
+        {
+            "@id": "UNTDID4065Type:20",
+            "@type": "unece:TransportServiceConditionCodeType",
+            "rdf:value": "20",
+            "rdfs:comment": "Confirmation of space"
+        },
+        {
+            "@id": "UNTDID4065Type:21",
+            "@type": "unece:TransportServiceConditionCodeType",
+            "rdf:value": "21",
+            "rdfs:comment": "Unable to confirm"
+        },
+        {
+            "@id": "UNTDID4065Type:22",
+            "@type": "unece:TransportServiceConditionCodeType",
+            "rdf:value": "22",
+            "rdfs:comment": "Non-operative flight"
+        },
+        {
+            "@id": "UNTDID4065Type:23",
+            "@type": "unece:TransportServiceConditionCodeType",
+            "rdf:value": "23",
+            "rdfs:comment": "Wait list"
+        },
+        {
+            "@id": "UNTDID4065Type:24",
+            "@type": "unece:TransportServiceConditionCodeType",
+            "rdf:value": "24",
+            "rdfs:comment": "Prior space allocation request"
+        },
+        {
+            "@id": "UNTDID4065Type:25",
+            "@type": "unece:TransportServiceConditionCodeType",
+            "rdf:value": "25",
+            "rdfs:comment": "Holding confirmed space allocation"
+        },
+        {
+            "@id": "UNTDID4065Type:26",
+            "@type": "unece:TransportServiceConditionCodeType",
+            "rdf:value": "26",
+            "rdfs:comment": "Holding wait list"
+        },
+        {
+            "@id": "UNTDID4065Type:27",
+            "@type": "unece:TransportServiceConditionCodeType",
+            "rdf:value": "27",
+            "rdfs:comment": "Door-to-door"
+        },
+        {
+            "@id": "UNTDID4065Type:28",
+            "@type": "unece:TransportServiceConditionCodeType",
+            "rdf:value": "28",
+            "rdfs:comment": "Door-to-pier"
+        },
+        {
+            "@id": "UNTDID4065Type:29",
+            "@type": "unece:TransportServiceConditionCodeType",
+            "rdf:value": "29",
+            "rdfs:comment": "Pier-to-door"
+        },
+        {
+            "@id": "UNTDID4065Type:30",
+            "@type": "unece:TransportServiceConditionCodeType",
+            "rdf:value": "30",
+            "rdfs:comment": "Pier-to-pier"
+        },
+        {
+            "@id": "UNTDID4065Type:31",
+            "@type": "unece:TransportServiceConditionCodeType",
+            "rdf:value": "31",
+            "rdfs:comment": "Space cancellation noted"
+        },
+        {
+            "@id": "UNTDID4065Type:32",
+            "@type": "unece:TransportServiceConditionCodeType",
+            "rdf:value": "32",
+            "rdfs:comment": "Mini landbridge service"
+        },
+        {
+            "@id": "UNTDID4065Type:34",
+            "@type": "unece:TransportServiceConditionCodeType",
+            "rdf:value": "34",
+            "rdfs:comment": "Speed level - required"
+        },
+        {
+            "@id": "UNTDID4065Type:35",
+            "@type": "unece:TransportServiceConditionCodeType",
+            "rdf:value": "35",
+            "rdfs:comment": "Speed level - adopted"
+        },
+        {
+            "@id": "UNTDID4065Type:36",
+            "@type": "unece:TransportServiceConditionCodeType",
+            "rdf:value": "36",
+            "rdfs:comment": "Normal tariff, less than full load transport"
+        },
+        {
+            "@id": "UNTDID4065Type:37",
+            "@type": "unece:TransportServiceConditionCodeType",
+            "rdf:value": "37",
+            "rdfs:comment": "Re-expedition special tariff"
+        },
+        {
+            "@id": "UNTDID4065Type:38",
+            "@type": "unece:TransportServiceConditionCodeType",
+            "rdf:value": "38",
+            "rdfs:comment": "Transport arrangement by the requester"
+        },
+        {
+            "@id": "UNTDID4065Type:39",
+            "@type": "unece:TransportServiceConditionCodeType",
+            "rdf:value": "39",
+            "rdfs:comment": "Transport arrangement by the provider"
+        },
+        {
+            "@id": "UNTDID4065Type:40",
+            "@type": "unece:TransportServiceConditionCodeType",
+            "rdf:value": "40",
+            "rdfs:comment": "Transport arrangement by the patient"
+        }
+    ]
+}

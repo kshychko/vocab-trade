@@ -1,0 +1,95 @@
+
+{
+    "@context": {
+        "unece": "https://vocabulary.uncefact.org/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "AccountingDebitCreditStatusCodeType": "https://vocabulary.uncefact.org/codelists/AccountingDebitCreditStatusCodeType"
+    },
+    "@graph": [
+        {
+            "@id": "AccountingDebitCreditStatusCodeType:29",
+            "@type": "unece:AccountingDebitCreditStatusCodeType",
+            "rdf:value": "29",
+            "rdfs:comment": "Debit"
+        },
+        {
+            "@id": "AccountingDebitCreditStatusCodeType:29",
+            "@type": "unece:AccountingDebitCreditStatusCodeType",
+            "rdf:value": "29",
+            "rdfs:comment": "Unloaded"
+        },
+        {
+            "@id": "AccountingDebitCreditStatusCodeType:30",
+            "@type": "unece:AccountingDebitCreditStatusCodeType",
+            "rdf:value": "30",
+            "rdfs:comment": "Credit"
+        },
+        {
+            "@id": "AccountingDebitCreditStatusCodeType:30",
+            "@type": "unece:AccountingDebitCreditStatusCodeType",
+            "rdf:value": "30",
+            "rdfs:comment": "Empty on inspection"
+        },
+        {
+            "@id": "AccountingDebitCreditStatusCodeType:31",
+            "@type": "unece:AccountingDebitCreditStatusCodeType",
+            "rdf:value": "31",
+            "rdfs:comment": "Positive debit"
+        },
+        {
+            "@id": "AccountingDebitCreditStatusCodeType:31",
+            "@type": "unece:AccountingDebitCreditStatusCodeType",
+            "rdf:value": "31",
+            "rdfs:comment": "En route"
+        },
+        {
+            "@id": "AccountingDebitCreditStatusCodeType:32",
+            "@type": "unece:AccountingDebitCreditStatusCodeType",
+            "rdf:value": "32",
+            "rdfs:comment": "Negative debit"
+        },
+        {
+            "@id": "AccountingDebitCreditStatusCodeType:32",
+            "@type": "unece:AccountingDebitCreditStatusCodeType",
+            "rdf:value": "32",
+            "rdfs:comment": "Equipment, returned from repair"
+        },
+        {
+            "@id": "AccountingDebitCreditStatusCodeType:33",
+            "@type": "unece:AccountingDebitCreditStatusCodeType",
+            "rdf:value": "33",
+            "rdfs:comment": "Positive credit"
+        },
+        {
+            "@id": "AccountingDebitCreditStatusCodeType:33",
+            "@type": "unece:AccountingDebitCreditStatusCodeType",
+            "rdf:value": "33",
+            "rdfs:comment": "Equipment, sent for repair"
+        },
+        {
+            "@id": "AccountingDebitCreditStatusCodeType:34",
+            "@type": "unece:AccountingDebitCreditStatusCodeType",
+            "rdf:value": "34",
+            "rdfs:comment": "Negative credit"
+        },
+        {
+            "@id": "AccountingDebitCreditStatusCodeType:34",
+            "@type": "unece:AccountingDebitCreditStatusCodeType",
+            "rdf:value": "34",
+            "rdfs:comment": "Equipment, repaired"
+        },
+        {
+            "@id": "AccountingDebitCreditStatusCodeType:66",
+            "@type": "unece:AccountingDebitCreditStatusCodeType",
+            "rdf:value": "66",
+            "rdfs:comment": "Unsigned amount"
+        },
+        {
+            "@id": "AccountingDebitCreditStatusCodeType:66",
+            "@type": "unece:AccountingDebitCreditStatusCodeType",
+            "rdf:value": "66",
+            "rdfs:comment": "Plundered"
+        }
+    ]
+}

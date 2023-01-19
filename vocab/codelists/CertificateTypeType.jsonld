@@ -1,0 +1,29 @@
+
+{
+    "@context": {
+        "unece": "https://vocabulary.uncefact.org/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "CertificateTypeType": "https://vocabulary.uncefact.org/codelists/CertificateTypeType"
+    },
+    "@graph": [
+        {
+            "@id": "CertificateTypeType:1",
+            "@type": "unece:CertificateTypeCodeType",
+            "rdf:value": "1",
+            "rdfs:comment": "Mark"
+        },
+        {
+            "@id": "CertificateTypeType:2",
+            "@type": "unece:CertificateTypeCodeType",
+            "rdf:value": "2",
+            "rdfs:comment": "Certificate"
+        },
+        {
+            "@id": "CertificateTypeType:3",
+            "@type": "unece:CertificateTypeCodeType",
+            "rdf:value": "3",
+            "rdfs:comment": "Label"
+        }
+    ]
+}

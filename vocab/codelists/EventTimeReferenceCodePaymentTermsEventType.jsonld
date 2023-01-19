@@ -1,0 +1,41 @@
+
+{
+    "@context": {
+        "unece": "https://vocabulary.uncefact.org/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "EventTimeReferenceCodePaymentTermsEventType": "https://vocabulary.uncefact.org/codelists/EventTimeReferenceCodePaymentTermsEventType"
+    },
+    "@graph": [
+        {
+            "@id": "EventTimeReferenceCodePaymentTermsEventType:5",
+            "@type": "unece:PaymentTermsEventTimeReferenceCodeType",
+            "rdf:value": "5",
+            "rdfs:comment": "Date of invoice"
+        },
+        {
+            "@id": "EventTimeReferenceCodePaymentTermsEventType:24",
+            "@type": "unece:PaymentTermsEventTimeReferenceCodeType",
+            "rdf:value": "24",
+            "rdfs:comment": "Date ex-works"
+        },
+        {
+            "@id": "EventTimeReferenceCodePaymentTermsEventType:29",
+            "@type": "unece:PaymentTermsEventTimeReferenceCodeType",
+            "rdf:value": "29",
+            "rdfs:comment": "Date of delivery of goods to establishments/domicile/site"
+        },
+        {
+            "@id": "EventTimeReferenceCodePaymentTermsEventType:45",
+            "@type": "unece:PaymentTermsEventTimeReferenceCodeType",
+            "rdf:value": "45",
+            "rdfs:comment": "Date of bill of lading, consignment note or other transport document"
+        },
+        {
+            "@id": "EventTimeReferenceCodePaymentTermsEventType:71",
+            "@type": "unece:PaymentTermsEventTimeReferenceCodeType",
+            "rdf:value": "71",
+            "rdfs:comment": "Date of presentation of documents"
+        }
+    ]
+}

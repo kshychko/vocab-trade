@@ -1,0 +1,173 @@
+
+{
+    "@context": {
+        "unece": "https://vocabulary.uncefact.org/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "UNTDID4343Type": "https://vocabulary.uncefact.org/codelists/UNTDID4343Type"
+    },
+    "@graph": [
+        {
+            "@id": "UNTDID4343Type:AA",
+            "@type": "unece:ResponseTypeCodeType",
+            "rdf:value": "AA",
+            "rdfs:comment": "Debit advice"
+        },
+        {
+            "@id": "UNTDID4343Type:AB",
+            "@type": "unece:ResponseTypeCodeType",
+            "rdf:value": "AB",
+            "rdfs:comment": "Message acknowledgement"
+        },
+        {
+            "@id": "UNTDID4343Type:AC",
+            "@type": "unece:ResponseTypeCodeType",
+            "rdf:value": "AC",
+            "rdfs:comment": "Acknowledge - with detail and change"
+        },
+        {
+            "@id": "UNTDID4343Type:AD",
+            "@type": "unece:ResponseTypeCodeType",
+            "rdf:value": "AD",
+            "rdfs:comment": "Acknowledge - with detail, no change"
+        },
+        {
+            "@id": "UNTDID4343Type:AE",
+            "@type": "unece:ResponseTypeCodeType",
+            "rdf:value": "AE",
+            "rdfs:comment": "Debit advice for each transaction"
+        },
+        {
+            "@id": "UNTDID4343Type:AF",
+            "@type": "unece:ResponseTypeCodeType",
+            "rdf:value": "AF",
+            "rdfs:comment": "Debit advice/message acknowledgement"
+        },
+        {
+            "@id": "UNTDID4343Type:AG",
+            "@type": "unece:ResponseTypeCodeType",
+            "rdf:value": "AG",
+            "rdfs:comment": "Authentication"
+        },
+        {
+            "@id": "UNTDID4343Type:AH",
+            "@type": "unece:ResponseTypeCodeType",
+            "rdf:value": "AH",
+            "rdfs:comment": "Debit advice/message acknowledgement for each transaction"
+        },
+        {
+            "@id": "UNTDID4343Type:AI",
+            "@type": "unece:ResponseTypeCodeType",
+            "rdf:value": "AI",
+            "rdfs:comment": "Acknowledge only changes"
+        },
+        {
+            "@id": "UNTDID4343Type:AJ",
+            "@type": "unece:ResponseTypeCodeType",
+            "rdf:value": "AJ",
+            "rdfs:comment": "Pending"
+        },
+        {
+            "@id": "UNTDID4343Type:AK",
+            "@type": "unece:ResponseTypeCodeType",
+            "rdf:value": "AK",
+            "rdfs:comment": "Return only TIR transport information"
+        },
+        {
+            "@id": "UNTDID4343Type:AL",
+            "@type": "unece:ResponseTypeCodeType",
+            "rdf:value": "AL",
+            "rdfs:comment": "Return only declaration information"
+        },
+        {
+            "@id": "UNTDID4343Type:AM",
+            "@type": "unece:ResponseTypeCodeType",
+            "rdf:value": "AM",
+            "rdfs:comment": "Return only guarantee information"
+        },
+        {
+            "@id": "UNTDID4343Type:AN",
+            "@type": "unece:ResponseTypeCodeType",
+            "rdf:value": "AN",
+            "rdfs:comment": "Return all information regarding guarantee"
+        },
+        {
+            "@id": "UNTDID4343Type:AP",
+            "@type": "unece:ResponseTypeCodeType",
+            "rdf:value": "AP",
+            "rdfs:comment": "Accepted"
+        },
+        {
+            "@id": "UNTDID4343Type:AQ",
+            "@type": "unece:ResponseTypeCodeType",
+            "rdf:value": "AQ",
+            "rdfs:comment": "Response expected"
+        },
+        {
+            "@id": "UNTDID4343Type:AR",
+            "@type": "unece:ResponseTypeCodeType",
+            "rdf:value": "AR",
+            "rdfs:comment": "Direct documentary credit collection"
+        },
+        {
+            "@id": "UNTDID4343Type:AS",
+            "@type": "unece:ResponseTypeCodeType",
+            "rdf:value": "AS",
+            "rdfs:comment": "Credit advice and message acknowledgement"
+        },
+        {
+            "@id": "UNTDID4343Type:CA",
+            "@type": "unece:ResponseTypeCodeType",
+            "rdf:value": "CA",
+            "rdfs:comment": "Conditionally accepted"
+        },
+        {
+            "@id": "UNTDID4343Type:CO",
+            "@type": "unece:ResponseTypeCodeType",
+            "rdf:value": "CO",
+            "rdfs:comment": "Confirmation of measurements"
+        },
+        {
+            "@id": "UNTDID4343Type:NA",
+            "@type": "unece:ResponseTypeCodeType",
+            "rdf:value": "NA",
+            "rdfs:comment": "No acknowledgement needed"
+        },
+        {
+            "@id": "UNTDID4343Type:RE",
+            "@type": "unece:ResponseTypeCodeType",
+            "rdf:value": "RE",
+            "rdfs:comment": "Rejected"
+        },
+        {
+            "@id": "UNTDID4343Type:UR",
+            "@type": "unece:ResponseTypeCodeType",
+            "rdf:value": "UR",
+            "rdfs:comment": "Credit advice"
+        },
+        {
+            "@id": "UNTDID4343Type:US",
+            "@type": "unece:ResponseTypeCodeType",
+            "rdf:value": "US",
+            "rdfs:comment": "Acknowledgement when error"
+        },
+        {
+            "@id": "UNTDID4343Type:UT",
+            "@type": "unece:ResponseTypeCodeType",
+            "rdf:value": "UT",
+            "rdfs:comment": "Acknowledgment due to error"
+        },
+        {
+            "@id": "UNTDID4343Type:UU",
+            "@type": "unece:ResponseTypeCodeType",
+            "rdf:value": "UU",
+            "rdfs:comment": "Alternate date"
+        },
+        {
+            "@id": "UNTDID4343Type:UV",
+            "@type": "unece:ResponseTypeCodeType",
+            "rdf:value": "UV",
+            "rdfs:comment": "Alternate service"
+        }
+    ]
+}

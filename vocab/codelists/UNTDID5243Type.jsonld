@@ -1,0 +1,95 @@
+
+{
+    "@context": {
+        "unece": "https://vocabulary.uncefact.org/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "UNTDID5243Type": "https://vocabulary.uncefact.org/codelists/UNTDID5243Type"
+    },
+    "@graph": [
+        {
+            "@id": "UNTDID5243Type:A",
+            "@type": "unece:FreightChargeTariffClassCodeType",
+            "rdf:value": "A",
+            "rdfs:comment": "Senior person rate"
+        },
+        {
+            "@id": "UNTDID5243Type:B",
+            "@type": "unece:FreightChargeTariffClassCodeType",
+            "rdf:value": "B",
+            "rdfs:comment": "Basic"
+        },
+        {
+            "@id": "UNTDID5243Type:C",
+            "@type": "unece:FreightChargeTariffClassCodeType",
+            "rdf:value": "C",
+            "rdfs:comment": "Specific commodity rate"
+        },
+        {
+            "@id": "UNTDID5243Type:D",
+            "@type": "unece:FreightChargeTariffClassCodeType",
+            "rdf:value": "D",
+            "rdfs:comment": "Teenager rate"
+        },
+        {
+            "@id": "UNTDID5243Type:E",
+            "@type": "unece:FreightChargeTariffClassCodeType",
+            "rdf:value": "E",
+            "rdfs:comment": "Child rate"
+        },
+        {
+            "@id": "UNTDID5243Type:F",
+            "@type": "unece:FreightChargeTariffClassCodeType",
+            "rdf:value": "F",
+            "rdfs:comment": "Adult rate"
+        },
+        {
+            "@id": "UNTDID5243Type:G",
+            "@type": "unece:FreightChargeTariffClassCodeType",
+            "rdf:value": "G",
+            "rdfs:comment": "Export Subsidy Rate"
+        },
+        {
+            "@id": "UNTDID5243Type:H",
+            "@type": "unece:FreightChargeTariffClassCodeType",
+            "rdf:value": "H",
+            "rdfs:comment": "Subsidy Rate"
+        },
+        {
+            "@id": "UNTDID5243Type:K",
+            "@type": "unece:FreightChargeTariffClassCodeType",
+            "rdf:value": "K",
+            "rdfs:comment": "Rate per kilogram"
+        },
+        {
+            "@id": "UNTDID5243Type:M",
+            "@type": "unece:FreightChargeTariffClassCodeType",
+            "rdf:value": "M",
+            "rdfs:comment": "Minimum charge rate"
+        },
+        {
+            "@id": "UNTDID5243Type:N",
+            "@type": "unece:FreightChargeTariffClassCodeType",
+            "rdf:value": "N",
+            "rdfs:comment": "Normal rate"
+        },
+        {
+            "@id": "UNTDID5243Type:Q",
+            "@type": "unece:FreightChargeTariffClassCodeType",
+            "rdf:value": "Q",
+            "rdfs:comment": "Quantity rate"
+        },
+        {
+            "@id": "UNTDID5243Type:R",
+            "@type": "unece:FreightChargeTariffClassCodeType",
+            "rdf:value": "R",
+            "rdfs:comment": "Class rate (Reduction on normal rate)"
+        },
+        {
+            "@id": "UNTDID5243Type:S",
+            "@type": "unece:FreightChargeTariffClassCodeType",
+            "rdf:value": "S",
+            "rdfs:comment": "Class rate (Surcharge on normal rate)"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+
+{
+    "@context": {
+        "unece": "https://vocabulary.uncefact.org/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "FinancialInstitutionRoleType": "https://vocabulary.uncefact.org/codelists/FinancialInstitutionRoleType"
+    },
+    "@graph": [
+        {
+            "@id": "FinancialInstitutionRoleType:I",
+            "@type": "unece:FinancialInstitutionRoleCodeType",
+            "rdf:value": "I",
+            "rdfs:comment": "Intermediary"
+        },
+        {
+            "@id": "FinancialInstitutionRoleType:S",
+            "@type": "unece:FinancialInstitutionRoleCodeType",
+            "rdf:value": "S",
+            "rdfs:comment": "Settlement agent"
+        }
+    ]
+}

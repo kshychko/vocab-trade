@@ -1,0 +1,641 @@
+
+{
+    "@context": {
+        "unece": "https://vocabulary.uncefact.org/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "UNTDID4465Type": "https://vocabulary.uncefact.org/codelists/UNTDID4465Type"
+    },
+    "@graph": [
+        {
+            "@id": "UNTDID4465Type:1",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "1",
+            "rdfs:comment": "Agreed settlement"
+        },
+        {
+            "@id": "UNTDID4465Type:2",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "2",
+            "rdfs:comment": "Below specification goods"
+        },
+        {
+            "@id": "UNTDID4465Type:3",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "3",
+            "rdfs:comment": "Damaged goods"
+        },
+        {
+            "@id": "UNTDID4465Type:4",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "4",
+            "rdfs:comment": "Short delivery"
+        },
+        {
+            "@id": "UNTDID4465Type:5",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "5",
+            "rdfs:comment": "Price query"
+        },
+        {
+            "@id": "UNTDID4465Type:6",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "6",
+            "rdfs:comment": "Proof of delivery required"
+        },
+        {
+            "@id": "UNTDID4465Type:7",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "7",
+            "rdfs:comment": "Payment on account"
+        },
+        {
+            "@id": "UNTDID4465Type:8",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "8",
+            "rdfs:comment": "Returnable container charge included"
+        },
+        {
+            "@id": "UNTDID4465Type:9",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "9",
+            "rdfs:comment": "Invoice error"
+        },
+        {
+            "@id": "UNTDID4465Type:10",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "10",
+            "rdfs:comment": "Costs for draft"
+        },
+        {
+            "@id": "UNTDID4465Type:11",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "11",
+            "rdfs:comment": "Bank charges"
+        },
+        {
+            "@id": "UNTDID4465Type:12",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "12",
+            "rdfs:comment": "Agent commission"
+        },
+        {
+            "@id": "UNTDID4465Type:13",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "13",
+            "rdfs:comment": "Counter claim"
+        },
+        {
+            "@id": "UNTDID4465Type:14",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "14",
+            "rdfs:comment": "Wrong delivery"
+        },
+        {
+            "@id": "UNTDID4465Type:15",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "15",
+            "rdfs:comment": "Goods returned to agent"
+        },
+        {
+            "@id": "UNTDID4465Type:16",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "16",
+            "rdfs:comment": "Goods partly returned"
+        },
+        {
+            "@id": "UNTDID4465Type:17",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "17",
+            "rdfs:comment": "Transport damage"
+        },
+        {
+            "@id": "UNTDID4465Type:18",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "18",
+            "rdfs:comment": "Goods on consignment"
+        },
+        {
+            "@id": "UNTDID4465Type:19",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "19",
+            "rdfs:comment": "Trade discount"
+        },
+        {
+            "@id": "UNTDID4465Type:20",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "20",
+            "rdfs:comment": "Deduction for late delivery"
+        },
+        {
+            "@id": "UNTDID4465Type:21",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "21",
+            "rdfs:comment": "Advertising costs"
+        },
+        {
+            "@id": "UNTDID4465Type:22",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "22",
+            "rdfs:comment": "Customs duties"
+        },
+        {
+            "@id": "UNTDID4465Type:23",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "23",
+            "rdfs:comment": "Telephone and postal costs"
+        },
+        {
+            "@id": "UNTDID4465Type:24",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "24",
+            "rdfs:comment": "Repair costs"
+        },
+        {
+            "@id": "UNTDID4465Type:25",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "25",
+            "rdfs:comment": "Attorney fees"
+        },
+        {
+            "@id": "UNTDID4465Type:26",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "26",
+            "rdfs:comment": "Taxes"
+        },
+        {
+            "@id": "UNTDID4465Type:27",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "27",
+            "rdfs:comment": "Reclaimed deduction"
+        },
+        {
+            "@id": "UNTDID4465Type:28",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "28",
+            "rdfs:comment": "See separate advice"
+        },
+        {
+            "@id": "UNTDID4465Type:29",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "29",
+            "rdfs:comment": "Buyer refused to take delivery"
+        },
+        {
+            "@id": "UNTDID4465Type:30",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "30",
+            "rdfs:comment": "Direct payment to seller"
+        },
+        {
+            "@id": "UNTDID4465Type:31",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "31",
+            "rdfs:comment": "Buyer disagrees with due date"
+        },
+        {
+            "@id": "UNTDID4465Type:32",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "32",
+            "rdfs:comment": "Goods not delivered"
+        },
+        {
+            "@id": "UNTDID4465Type:33",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "33",
+            "rdfs:comment": "Late delivery"
+        },
+        {
+            "@id": "UNTDID4465Type:34",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "34",
+            "rdfs:comment": "Quoted as paid to you"
+        },
+        {
+            "@id": "UNTDID4465Type:35",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "35",
+            "rdfs:comment": "Goods returned"
+        },
+        {
+            "@id": "UNTDID4465Type:36",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "36",
+            "rdfs:comment": "Invoice not received"
+        },
+        {
+            "@id": "UNTDID4465Type:37",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "37",
+            "rdfs:comment": "Credit note to debtor/not to us"
+        },
+        {
+            "@id": "UNTDID4465Type:38",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "38",
+            "rdfs:comment": "Deducted bonus"
+        },
+        {
+            "@id": "UNTDID4465Type:39",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "39",
+            "rdfs:comment": "Deducted discount"
+        },
+        {
+            "@id": "UNTDID4465Type:40",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "40",
+            "rdfs:comment": "Deducted freight costs"
+        },
+        {
+            "@id": "UNTDID4465Type:41",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "41",
+            "rdfs:comment": "Deduction against other invoices"
+        },
+        {
+            "@id": "UNTDID4465Type:42",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "42",
+            "rdfs:comment": "Credit balance(s)"
+        },
+        {
+            "@id": "UNTDID4465Type:43",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "43",
+            "rdfs:comment": "Reason unknown"
+        },
+        {
+            "@id": "UNTDID4465Type:44",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "44",
+            "rdfs:comment": "Awaiting message from seller"
+        },
+        {
+            "@id": "UNTDID4465Type:45",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "45",
+            "rdfs:comment": "Debit note to seller"
+        },
+        {
+            "@id": "UNTDID4465Type:46",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "46",
+            "rdfs:comment": "Discount beyond terms"
+        },
+        {
+            "@id": "UNTDID4465Type:47",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "47",
+            "rdfs:comment": "See buyer's letter"
+        },
+        {
+            "@id": "UNTDID4465Type:48",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "48",
+            "rdfs:comment": "Allowance/charge error"
+        },
+        {
+            "@id": "UNTDID4465Type:49",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "49",
+            "rdfs:comment": "Substitute product"
+        },
+        {
+            "@id": "UNTDID4465Type:50",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "50",
+            "rdfs:comment": "Terms of sale error"
+        },
+        {
+            "@id": "UNTDID4465Type:51",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "51",
+            "rdfs:comment": "Required data missing"
+        },
+        {
+            "@id": "UNTDID4465Type:52",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "52",
+            "rdfs:comment": "Wrong invoice"
+        },
+        {
+            "@id": "UNTDID4465Type:53",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "53",
+            "rdfs:comment": "Duplicate invoice"
+        },
+        {
+            "@id": "UNTDID4465Type:54",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "54",
+            "rdfs:comment": "Weight error"
+        },
+        {
+            "@id": "UNTDID4465Type:55",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "55",
+            "rdfs:comment": "Additional charge not authorized"
+        },
+        {
+            "@id": "UNTDID4465Type:56",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "56",
+            "rdfs:comment": "Incorrect discount"
+        },
+        {
+            "@id": "UNTDID4465Type:57",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "57",
+            "rdfs:comment": "Price change"
+        },
+        {
+            "@id": "UNTDID4465Type:58",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "58",
+            "rdfs:comment": "Variation"
+        },
+        {
+            "@id": "UNTDID4465Type:59",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "59",
+            "rdfs:comment": "Chargeback"
+        },
+        {
+            "@id": "UNTDID4465Type:60",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "60",
+            "rdfs:comment": "Offset"
+        },
+        {
+            "@id": "UNTDID4465Type:61",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "61",
+            "rdfs:comment": "Indirect payment"
+        },
+        {
+            "@id": "UNTDID4465Type:62",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "62",
+            "rdfs:comment": "Financial reassignment"
+        },
+        {
+            "@id": "UNTDID4465Type:63",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "63",
+            "rdfs:comment": "Reinstatement of chargeback/offset"
+        },
+        {
+            "@id": "UNTDID4465Type:64",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "64",
+            "rdfs:comment": "Expecting new terms"
+        },
+        {
+            "@id": "UNTDID4465Type:65",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "65",
+            "rdfs:comment": "Settlement to agent"
+        },
+        {
+            "@id": "UNTDID4465Type:66",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "66",
+            "rdfs:comment": "Cash discount"
+        },
+        {
+            "@id": "UNTDID4465Type:67",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "67",
+            "rdfs:comment": "Delcredere costs"
+        },
+        {
+            "@id": "UNTDID4465Type:68",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "68",
+            "rdfs:comment": "Early payment allowance adjustment"
+        },
+        {
+            "@id": "UNTDID4465Type:69",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "69",
+            "rdfs:comment": "Incorrect due date for monetary amount"
+        },
+        {
+            "@id": "UNTDID4465Type:70",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "70",
+            "rdfs:comment": "Wrong monetary amount resulting from incorrect free goods quantity"
+        },
+        {
+            "@id": "UNTDID4465Type:71",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "71",
+            "rdfs:comment": "Rack or shelf replenishment service by a supplier"
+        },
+        {
+            "@id": "UNTDID4465Type:72",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "72",
+            "rdfs:comment": "Temporary special promotion"
+        },
+        {
+            "@id": "UNTDID4465Type:73",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "73",
+            "rdfs:comment": "Difference in tax rate"
+        },
+        {
+            "@id": "UNTDID4465Type:74",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "74",
+            "rdfs:comment": "Quantity discount"
+        },
+        {
+            "@id": "UNTDID4465Type:75",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "75",
+            "rdfs:comment": "Promotion discount"
+        },
+        {
+            "@id": "UNTDID4465Type:76",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "76",
+            "rdfs:comment": "Cancellation deadline passed"
+        },
+        {
+            "@id": "UNTDID4465Type:77",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "77",
+            "rdfs:comment": "Pricing discount"
+        },
+        {
+            "@id": "UNTDID4465Type:78",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "78",
+            "rdfs:comment": "Volume discount"
+        },
+        {
+            "@id": "UNTDID4465Type:79",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "79",
+            "rdfs:comment": "Sundry discount"
+        },
+        {
+            "@id": "UNTDID4465Type:80",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "80",
+            "rdfs:comment": "Card holder signature missing"
+        },
+        {
+            "@id": "UNTDID4465Type:81",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "81",
+            "rdfs:comment": "Card expiry date missing"
+        },
+        {
+            "@id": "UNTDID4465Type:82",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "82",
+            "rdfs:comment": "Card number error"
+        },
+        {
+            "@id": "UNTDID4465Type:83",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "83",
+            "rdfs:comment": "Card expired"
+        },
+        {
+            "@id": "UNTDID4465Type:84",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "84",
+            "rdfs:comment": "Test card transaction"
+        },
+        {
+            "@id": "UNTDID4465Type:85",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "85",
+            "rdfs:comment": "Permission limit exceeded"
+        },
+        {
+            "@id": "UNTDID4465Type:86",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "86",
+            "rdfs:comment": "Wrong authorisation code"
+        },
+        {
+            "@id": "UNTDID4465Type:87",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "87",
+            "rdfs:comment": "Wrong authorised amount"
+        },
+        {
+            "@id": "UNTDID4465Type:88",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "88",
+            "rdfs:comment": "Authorisation failed"
+        },
+        {
+            "@id": "UNTDID4465Type:89",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "89",
+            "rdfs:comment": "Card acceptor data error"
+        },
+        {
+            "@id": "UNTDID4465Type:90",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "90",
+            "rdfs:comment": "Treasury management service charge"
+        },
+        {
+            "@id": "UNTDID4465Type:91",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "91",
+            "rdfs:comment": "Agreed discount"
+        },
+        {
+            "@id": "UNTDID4465Type:92",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "92",
+            "rdfs:comment": "Expediting fee"
+        },
+        {
+            "@id": "UNTDID4465Type:93",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "93",
+            "rdfs:comment": "Invoicing fee"
+        },
+        {
+            "@id": "UNTDID4465Type:94",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "94",
+            "rdfs:comment": "Freight charge"
+        },
+        {
+            "@id": "UNTDID4465Type:95",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "95",
+            "rdfs:comment": "Small order processing service charge"
+        },
+        {
+            "@id": "UNTDID4465Type:96",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "96",
+            "rdfs:comment": "Currency exchange differences"
+        },
+        {
+            "@id": "UNTDID4465Type:97",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "97",
+            "rdfs:comment": "Insolvency"
+        },
+        {
+            "@id": "UNTDID4465Type:98",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "98",
+            "rdfs:comment": "Incorrect references"
+        },
+        {
+            "@id": "UNTDID4465Type:99",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "99",
+            "rdfs:comment": "Incorrect identification of the buyer"
+        },
+        {
+            "@id": "UNTDID4465Type:100",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "100",
+            "rdfs:comment": "Incorrect product identification"
+        },
+        {
+            "@id": "UNTDID4465Type:101",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "101",
+            "rdfs:comment": "New employee"
+        },
+        {
+            "@id": "UNTDID4465Type:102",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "102",
+            "rdfs:comment": "Employee retirement"
+        },
+        {
+            "@id": "UNTDID4465Type:103",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "103",
+            "rdfs:comment": "Salary change"
+        },
+        {
+            "@id": "UNTDID4465Type:104",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "104",
+            "rdfs:comment": "Parental leave"
+        },
+        {
+            "@id": "UNTDID4465Type:ZZZ",
+            "@type": "unece:AllowanceChargeReasonCodeType",
+            "rdf:value": "ZZZ",
+            "rdfs:comment": "Mutually defined"
+        }
+    ]
+}

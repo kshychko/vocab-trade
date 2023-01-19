@@ -1,0 +1,53 @@
+
+{
+    "@context": {
+        "unece": "https://vocabulary.uncefact.org/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "UNTDID9303Type": "https://vocabulary.uncefact.org/codelists/UNTDID9303Type"
+    },
+    "@graph": [
+        {
+            "@id": "UNTDID9303Type:AA",
+            "@type": "unece:SealingPartyRoleCodeType",
+            "rdf:value": "AA",
+            "rdfs:comment": "Consolidator"
+        },
+        {
+            "@id": "UNTDID9303Type:AB",
+            "@type": "unece:SealingPartyRoleCodeType",
+            "rdf:value": "AB",
+            "rdfs:comment": "Unknown"
+        },
+        {
+            "@id": "UNTDID9303Type:AC",
+            "@type": "unece:SealingPartyRoleCodeType",
+            "rdf:value": "AC",
+            "rdfs:comment": "Quarantine agency"
+        },
+        {
+            "@id": "UNTDID9303Type:CA",
+            "@type": "unece:SealingPartyRoleCodeType",
+            "rdf:value": "CA",
+            "rdfs:comment": "Carrier"
+        },
+        {
+            "@id": "UNTDID9303Type:CU",
+            "@type": "unece:SealingPartyRoleCodeType",
+            "rdf:value": "CU",
+            "rdfs:comment": "Customs"
+        },
+        {
+            "@id": "UNTDID9303Type:SH",
+            "@type": "unece:SealingPartyRoleCodeType",
+            "rdf:value": "SH",
+            "rdfs:comment": "Shipper"
+        },
+        {
+            "@id": "UNTDID9303Type:TO",
+            "@type": "unece:SealingPartyRoleCodeType",
+            "rdf:value": "TO",
+            "rdfs:comment": "Terminal operator"
+        }
+    ]
+}

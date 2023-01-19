@@ -1,0 +1,143 @@
+
+{
+    "@context": {
+        "unece": "https://vocabulary.uncefact.org/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "UNTDID5305Type": "https://vocabulary.uncefact.org/codelists/UNTDID5305Type"
+    },
+    "@graph": [
+        {
+            "@id": "UNTDID5305Type:A",
+            "@type": "unece:TaxCategoryCodeType",
+            "rdf:value": "A",
+            "rdfs:comment": "Mixed tax rate"
+        },
+        {
+            "@id": "UNTDID5305Type:AA",
+            "@type": "unece:TaxCategoryCodeType",
+            "rdf:value": "AA",
+            "rdfs:comment": "Lower rate"
+        },
+        {
+            "@id": "UNTDID5305Type:AB",
+            "@type": "unece:TaxCategoryCodeType",
+            "rdf:value": "AB",
+            "rdfs:comment": "Exempt for resale"
+        },
+        {
+            "@id": "UNTDID5305Type:AC",
+            "@type": "unece:TaxCategoryCodeType",
+            "rdf:value": "AC",
+            "rdfs:comment": "Value Added Tax (VAT) not now due for payment"
+        },
+        {
+            "@id": "UNTDID5305Type:AD",
+            "@type": "unece:TaxCategoryCodeType",
+            "rdf:value": "AD",
+            "rdfs:comment": "Value Added Tax (VAT) due from a previous invoice"
+        },
+        {
+            "@id": "UNTDID5305Type:AE",
+            "@type": "unece:TaxCategoryCodeType",
+            "rdf:value": "AE",
+            "rdfs:comment": "VAT Reverse Charge"
+        },
+        {
+            "@id": "UNTDID5305Type:B",
+            "@type": "unece:TaxCategoryCodeType",
+            "rdf:value": "B",
+            "rdfs:comment": "Transferred (VAT)"
+        },
+        {
+            "@id": "UNTDID5305Type:C",
+            "@type": "unece:TaxCategoryCodeType",
+            "rdf:value": "C",
+            "rdfs:comment": "Duty paid by supplier"
+        },
+        {
+            "@id": "UNTDID5305Type:D",
+            "@type": "unece:TaxCategoryCodeType",
+            "rdf:value": "D",
+            "rdfs:comment": "Value Added Tax (VAT) margin scheme - travel agents"
+        },
+        {
+            "@id": "UNTDID5305Type:E",
+            "@type": "unece:TaxCategoryCodeType",
+            "rdf:value": "E",
+            "rdfs:comment": "Exempt from tax"
+        },
+        {
+            "@id": "UNTDID5305Type:F",
+            "@type": "unece:TaxCategoryCodeType",
+            "rdf:value": "F",
+            "rdfs:comment": "Value Added Tax (VAT) margin scheme - second-hand goods"
+        },
+        {
+            "@id": "UNTDID5305Type:G",
+            "@type": "unece:TaxCategoryCodeType",
+            "rdf:value": "G",
+            "rdfs:comment": "Free export item, tax not charged"
+        },
+        {
+            "@id": "UNTDID5305Type:H",
+            "@type": "unece:TaxCategoryCodeType",
+            "rdf:value": "H",
+            "rdfs:comment": "Higher rate"
+        },
+        {
+            "@id": "UNTDID5305Type:I",
+            "@type": "unece:TaxCategoryCodeType",
+            "rdf:value": "I",
+            "rdfs:comment": "Value Added Tax (VAT) margin scheme - works of art Margin scheme — Works of art"
+        },
+        {
+            "@id": "UNTDID5305Type:J",
+            "@type": "unece:TaxCategoryCodeType",
+            "rdf:value": "J",
+            "rdfs:comment": "Value Added Tax (VAT) margin scheme - collector’s items and antiques"
+        },
+        {
+            "@id": "UNTDID5305Type:K",
+            "@type": "unece:TaxCategoryCodeType",
+            "rdf:value": "K",
+            "rdfs:comment": "VAT exempt for EEA intra-community supply of goods and services"
+        },
+        {
+            "@id": "UNTDID5305Type:L",
+            "@type": "unece:TaxCategoryCodeType",
+            "rdf:value": "L",
+            "rdfs:comment": "Canary Islands general indirect tax"
+        },
+        {
+            "@id": "UNTDID5305Type:M",
+            "@type": "unece:TaxCategoryCodeType",
+            "rdf:value": "M",
+            "rdfs:comment": "Tax for production, services and importation in Ceuta and Melilla"
+        },
+        {
+            "@id": "UNTDID5305Type:N",
+            "@type": "unece:TaxCategoryCodeType",
+            "rdf:value": "N",
+            "rdfs:comment": "standard rate additional VAT"
+        },
+        {
+            "@id": "UNTDID5305Type:O",
+            "@type": "unece:TaxCategoryCodeType",
+            "rdf:value": "O",
+            "rdfs:comment": "Services outside scope of tax"
+        },
+        {
+            "@id": "UNTDID5305Type:S",
+            "@type": "unece:TaxCategoryCodeType",
+            "rdf:value": "S",
+            "rdfs:comment": "Standard rate"
+        },
+        {
+            "@id": "UNTDID5305Type:Z",
+            "@type": "unece:TaxCategoryCodeType",
+            "rdf:value": "Z",
+            "rdfs:comment": "Zero rated goods"
+        }
+    ]
+}

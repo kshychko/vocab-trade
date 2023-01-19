@@ -1,0 +1,629 @@
+
+{
+    "@context": {
+        "unece": "https://vocabulary.uncefact.org/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "UNTDID3139Type": "https://vocabulary.uncefact.org/codelists/UNTDID3139Type"
+    },
+    "@graph": [
+        {
+            "@id": "UNTDID3139Type:AA",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "AA",
+            "rdfs:comment": "Insurance contact"
+        },
+        {
+            "@id": "UNTDID3139Type:AB",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "AB",
+            "rdfs:comment": "Workshop contact"
+        },
+        {
+            "@id": "UNTDID3139Type:AC",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "AC",
+            "rdfs:comment": "Accepting contact"
+        },
+        {
+            "@id": "UNTDID3139Type:AD",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "AD",
+            "rdfs:comment": "Accounting contact"
+        },
+        {
+            "@id": "UNTDID3139Type:AE",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "AE",
+            "rdfs:comment": "Contract contact"
+        },
+        {
+            "@id": "UNTDID3139Type:AF",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "AF",
+            "rdfs:comment": "Land registry contact"
+        },
+        {
+            "@id": "UNTDID3139Type:AG",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "AG",
+            "rdfs:comment": "Agent"
+        },
+        {
+            "@id": "UNTDID3139Type:AH",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "AH",
+            "rdfs:comment": "Coordination contact"
+        },
+        {
+            "@id": "UNTDID3139Type:AI",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "AI",
+            "rdfs:comment": "Project management contact"
+        },
+        {
+            "@id": "UNTDID3139Type:AJ",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "AJ",
+            "rdfs:comment": "Investment contact"
+        },
+        {
+            "@id": "UNTDID3139Type:AK",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "AK",
+            "rdfs:comment": "Works management contact"
+        },
+        {
+            "@id": "UNTDID3139Type:AL",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "AL",
+            "rdfs:comment": "Personnel contact"
+        },
+        {
+            "@id": "UNTDID3139Type:AM",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "AM",
+            "rdfs:comment": "Claims contact"
+        },
+        {
+            "@id": "UNTDID3139Type:AN",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "AN",
+            "rdfs:comment": "Laboratory contact"
+        },
+        {
+            "@id": "UNTDID3139Type:AO",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "AO",
+            "rdfs:comment": "Plant/equipment contact"
+        },
+        {
+            "@id": "UNTDID3139Type:AP",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "AP",
+            "rdfs:comment": "Accounts payable contact"
+        },
+        {
+            "@id": "UNTDID3139Type:AQ",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "AQ",
+            "rdfs:comment": "Quantity surveyor contact"
+        },
+        {
+            "@id": "UNTDID3139Type:AR",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "AR",
+            "rdfs:comment": "Accounts receivable contact"
+        },
+        {
+            "@id": "UNTDID3139Type:AS",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "AS",
+            "rdfs:comment": "Public relations contact"
+        },
+        {
+            "@id": "UNTDID3139Type:AT",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "AT",
+            "rdfs:comment": "Technical contact"
+        },
+        {
+            "@id": "UNTDID3139Type:AU",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "AU",
+            "rdfs:comment": "City works authority contact"
+        },
+        {
+            "@id": "UNTDID3139Type:AV",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "AV",
+            "rdfs:comment": "Maintenance contact"
+        },
+        {
+            "@id": "UNTDID3139Type:AW",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "AW",
+            "rdfs:comment": "Town planning contact"
+        },
+        {
+            "@id": "UNTDID3139Type:AX",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "AX",
+            "rdfs:comment": "Traffic authority contact"
+        },
+        {
+            "@id": "UNTDID3139Type:AY",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "AY",
+            "rdfs:comment": "Electricity supply contact"
+        },
+        {
+            "@id": "UNTDID3139Type:AZ",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "AZ",
+            "rdfs:comment": "Gas supply contact"
+        },
+        {
+            "@id": "UNTDID3139Type:BA",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "BA",
+            "rdfs:comment": "Water supply contact"
+        },
+        {
+            "@id": "UNTDID3139Type:BB",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "BB",
+            "rdfs:comment": "Telecommunications network contact"
+        },
+        {
+            "@id": "UNTDID3139Type:BC",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "BC",
+            "rdfs:comment": "Banking contact"
+        },
+        {
+            "@id": "UNTDID3139Type:BD",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "BD",
+            "rdfs:comment": "New developments contact"
+        },
+        {
+            "@id": "UNTDID3139Type:BE",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "BE",
+            "rdfs:comment": "Transport infrastructure authority"
+        },
+        {
+            "@id": "UNTDID3139Type:BF",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "BF",
+            "rdfs:comment": "Service contact"
+        },
+        {
+            "@id": "UNTDID3139Type:BG",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "BG",
+            "rdfs:comment": "Auditing contact"
+        },
+        {
+            "@id": "UNTDID3139Type:BH",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "BH",
+            "rdfs:comment": "Legal auditing contact"
+        },
+        {
+            "@id": "UNTDID3139Type:BI",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "BI",
+            "rdfs:comment": "Software house contact"
+        },
+        {
+            "@id": "UNTDID3139Type:BJ",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "BJ",
+            "rdfs:comment": "Department or person responsible for processing purchase order"
+        },
+        {
+            "@id": "UNTDID3139Type:BK",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "BK",
+            "rdfs:comment": "Electronic data interchange coordinator"
+        },
+        {
+            "@id": "UNTDID3139Type:BL",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "BL",
+            "rdfs:comment": "Waiver contact"
+        },
+        {
+            "@id": "UNTDID3139Type:BM",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "BM",
+            "rdfs:comment": "Automated clearing house (ACH) contact"
+        },
+        {
+            "@id": "UNTDID3139Type:BN",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "BN",
+            "rdfs:comment": "Certification contact"
+        },
+        {
+            "@id": "UNTDID3139Type:BO",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "BO",
+            "rdfs:comment": "After business hours contact"
+        },
+        {
+            "@id": "UNTDID3139Type:BP",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "BP",
+            "rdfs:comment": "Company Security Officer’s 24-hour contact"
+        },
+        {
+            "@id": "UNTDID3139Type:BQ",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "BQ",
+            "rdfs:comment": "Agent of ship at the intended port of arrival"
+        },
+        {
+            "@id": "UNTDID3139Type:BR",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "BR",
+            "rdfs:comment": "Cook"
+        },
+        {
+            "@id": "UNTDID3139Type:BS",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "BS",
+            "rdfs:comment": "Customer contact"
+        },
+        {
+            "@id": "UNTDID3139Type:BT",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "BT",
+            "rdfs:comment": "Meter access contact"
+        },
+        {
+            "@id": "UNTDID3139Type:BU",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "BU",
+            "rdfs:comment": "Ultimate consignee"
+        },
+        {
+            "@id": "UNTDID3139Type:CA",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "CA",
+            "rdfs:comment": "Carrier"
+        },
+        {
+            "@id": "UNTDID3139Type:CB",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "CB",
+            "rdfs:comment": "Changed by"
+        },
+        {
+            "@id": "UNTDID3139Type:CC",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "CC",
+            "rdfs:comment": "Responsible person for information production"
+        },
+        {
+            "@id": "UNTDID3139Type:CD",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "CD",
+            "rdfs:comment": "Responsible person for information dissemination"
+        },
+        {
+            "@id": "UNTDID3139Type:CE",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "CE",
+            "rdfs:comment": "Head of unit for computer data processing"
+        },
+        {
+            "@id": "UNTDID3139Type:CF",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "CF",
+            "rdfs:comment": "Head of unit for information production"
+        },
+        {
+            "@id": "UNTDID3139Type:CG",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "CG",
+            "rdfs:comment": "Head of unit for information dissemination"
+        },
+        {
+            "@id": "UNTDID3139Type:CN",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "CN",
+            "rdfs:comment": "Consignee"
+        },
+        {
+            "@id": "UNTDID3139Type:CO",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "CO",
+            "rdfs:comment": "Consignor"
+        },
+        {
+            "@id": "UNTDID3139Type:CP",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "CP",
+            "rdfs:comment": "Responsible person for computer data processing"
+        },
+        {
+            "@id": "UNTDID3139Type:CR",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "CR",
+            "rdfs:comment": "Customer relations"
+        },
+        {
+            "@id": "UNTDID3139Type:CW",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "CW",
+            "rdfs:comment": "Confirmed with"
+        },
+        {
+            "@id": "UNTDID3139Type:DE",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "DE",
+            "rdfs:comment": "Department/employee to execute export procedures"
+        },
+        {
+            "@id": "UNTDID3139Type:DI",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "DI",
+            "rdfs:comment": "Department/employee to execute import procedures"
+        },
+        {
+            "@id": "UNTDID3139Type:DL",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "DL",
+            "rdfs:comment": "Delivery contact"
+        },
+        {
+            "@id": "UNTDID3139Type:EB",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "EB",
+            "rdfs:comment": "Entered by"
+        },
+        {
+            "@id": "UNTDID3139Type:EC",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "EC",
+            "rdfs:comment": "Education coordinator"
+        },
+        {
+            "@id": "UNTDID3139Type:ED",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "ED",
+            "rdfs:comment": "Engineering contact"
+        },
+        {
+            "@id": "UNTDID3139Type:EX",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "EX",
+            "rdfs:comment": "Expeditor"
+        },
+        {
+            "@id": "UNTDID3139Type:GR",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "GR",
+            "rdfs:comment": "Goods receiving contact"
+        },
+        {
+            "@id": "UNTDID3139Type:HE",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "HE",
+            "rdfs:comment": "Emergency dangerous goods contact"
+        },
+        {
+            "@id": "UNTDID3139Type:HG",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "HG",
+            "rdfs:comment": "Dangerous goods contact"
+        },
+        {
+            "@id": "UNTDID3139Type:HM",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "HM",
+            "rdfs:comment": "Hazardous material contact"
+        },
+        {
+            "@id": "UNTDID3139Type:IC",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "IC",
+            "rdfs:comment": "Information contact"
+        },
+        {
+            "@id": "UNTDID3139Type:IN",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "IN",
+            "rdfs:comment": "Insurer contact"
+        },
+        {
+            "@id": "UNTDID3139Type:LB",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "LB",
+            "rdfs:comment": "Place of delivery contact"
+        },
+        {
+            "@id": "UNTDID3139Type:LO",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "LO",
+            "rdfs:comment": "Place of collection contact"
+        },
+        {
+            "@id": "UNTDID3139Type:MC",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "MC",
+            "rdfs:comment": "Material control contact"
+        },
+        {
+            "@id": "UNTDID3139Type:MD",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "MD",
+            "rdfs:comment": "Material disposition contact"
+        },
+        {
+            "@id": "UNTDID3139Type:MH",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "MH",
+            "rdfs:comment": "Material handling contact"
+        },
+        {
+            "@id": "UNTDID3139Type:MR",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "MR",
+            "rdfs:comment": "Message recipient contact"
+        },
+        {
+            "@id": "UNTDID3139Type:MS",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "MS",
+            "rdfs:comment": "Message sender contact"
+        },
+        {
+            "@id": "UNTDID3139Type:NT",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "NT",
+            "rdfs:comment": "Notification contact"
+        },
+        {
+            "@id": "UNTDID3139Type:OC",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "OC",
+            "rdfs:comment": "Order contact"
+        },
+        {
+            "@id": "UNTDID3139Type:PA",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "PA",
+            "rdfs:comment": "Prototype coordinator"
+        },
+        {
+            "@id": "UNTDID3139Type:PD",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "PD",
+            "rdfs:comment": "Purchasing contact"
+        },
+        {
+            "@id": "UNTDID3139Type:PE",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "PE",
+            "rdfs:comment": "Payee contact"
+        },
+        {
+            "@id": "UNTDID3139Type:PM",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "PM",
+            "rdfs:comment": "Product management contact"
+        },
+        {
+            "@id": "UNTDID3139Type:QA",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "QA",
+            "rdfs:comment": "Quality assurance contact"
+        },
+        {
+            "@id": "UNTDID3139Type:QC",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "QC",
+            "rdfs:comment": "Quality coordinator contact"
+        },
+        {
+            "@id": "UNTDID3139Type:RD",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "RD",
+            "rdfs:comment": "Receiving dock contact"
+        },
+        {
+            "@id": "UNTDID3139Type:RP",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "RP",
+            "rdfs:comment": "Authorized responsible person"
+        },
+        {
+            "@id": "UNTDID3139Type:SA",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "SA",
+            "rdfs:comment": "Sales administration"
+        },
+        {
+            "@id": "UNTDID3139Type:SC",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "SC",
+            "rdfs:comment": "Schedule contact"
+        },
+        {
+            "@id": "UNTDID3139Type:SD",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "SD",
+            "rdfs:comment": "Shipping contact"
+        },
+        {
+            "@id": "UNTDID3139Type:SR",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "SR",
+            "rdfs:comment": "Sales representative or department"
+        },
+        {
+            "@id": "UNTDID3139Type:SU",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "SU",
+            "rdfs:comment": "Supplier contact"
+        },
+        {
+            "@id": "UNTDID3139Type:TA",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "TA",
+            "rdfs:comment": "Traffic administrator"
+        },
+        {
+            "@id": "UNTDID3139Type:TD",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "TD",
+            "rdfs:comment": "Test contact"
+        },
+        {
+            "@id": "UNTDID3139Type:TI",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "TI",
+            "rdfs:comment": "Technical documentation recipient"
+        },
+        {
+            "@id": "UNTDID3139Type:TR",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "TR",
+            "rdfs:comment": "Transport contact"
+        },
+        {
+            "@id": "UNTDID3139Type:WH",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "WH",
+            "rdfs:comment": "Warehouse"
+        },
+        {
+            "@id": "UNTDID3139Type:WI",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "WI",
+            "rdfs:comment": "Alternate contact"
+        },
+        {
+            "@id": "UNTDID3139Type:WJ",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "WJ",
+            "rdfs:comment": "Office Manager"
+        },
+        {
+            "@id": "UNTDID3139Type:WK",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "WK",
+            "rdfs:comment": "Chartered accountant contact"
+        },
+        {
+            "@id": "UNTDID3139Type:ZZZ",
+            "@type": "unece:ContactTypeCodeType",
+            "rdf:value": "ZZZ",
+            "rdfs:comment": "Mutually defined"
+        }
+    ]
+}

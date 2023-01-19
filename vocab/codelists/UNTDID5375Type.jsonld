@@ -1,0 +1,185 @@
+
+{
+    "@context": {
+        "unece": "https://vocabulary.uncefact.org/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "UNTDID5375Type": "https://vocabulary.uncefact.org/codelists/UNTDID5375Type"
+    },
+    "@graph": [
+        {
+            "@id": "UNTDID5375Type:AA",
+            "@type": "unece:PriceTypeCodeType",
+            "rdf:value": "AA",
+            "rdfs:comment": "Cancellation price"
+        },
+        {
+            "@id": "UNTDID5375Type:AB",
+            "@type": "unece:PriceTypeCodeType",
+            "rdf:value": "AB",
+            "rdfs:comment": "Per ton"
+        },
+        {
+            "@id": "UNTDID5375Type:AC",
+            "@type": "unece:PriceTypeCodeType",
+            "rdf:value": "AC",
+            "rdfs:comment": "Minimum order price"
+        },
+        {
+            "@id": "UNTDID5375Type:AD",
+            "@type": "unece:PriceTypeCodeType",
+            "rdf:value": "AD",
+            "rdfs:comment": "Export price"
+        },
+        {
+            "@id": "UNTDID5375Type:AE",
+            "@type": "unece:PriceTypeCodeType",
+            "rdf:value": "AE",
+            "rdfs:comment": "Range dependent price"
+        },
+        {
+            "@id": "UNTDID5375Type:AF",
+            "@type": "unece:PriceTypeCodeType",
+            "rdf:value": "AF",
+            "rdfs:comment": "Competitor price"
+        },
+        {
+            "@id": "UNTDID5375Type:AI",
+            "@type": "unece:PriceTypeCodeType",
+            "rdf:value": "AI",
+            "rdfs:comment": "Active ingredient"
+        },
+        {
+            "@id": "UNTDID5375Type:AQ",
+            "@type": "unece:PriceTypeCodeType",
+            "rdf:value": "AQ",
+            "rdfs:comment": "As is quantity"
+        },
+        {
+            "@id": "UNTDID5375Type:CA",
+            "@type": "unece:PriceTypeCodeType",
+            "rdf:value": "CA",
+            "rdfs:comment": "Catalogue"
+        },
+        {
+            "@id": "UNTDID5375Type:CT",
+            "@type": "unece:PriceTypeCodeType",
+            "rdf:value": "CT",
+            "rdfs:comment": "Contract"
+        },
+        {
+            "@id": "UNTDID5375Type:CU",
+            "@type": "unece:PriceTypeCodeType",
+            "rdf:value": "CU",
+            "rdfs:comment": "Consumer unit"
+        },
+        {
+            "@id": "UNTDID5375Type:DI",
+            "@type": "unece:PriceTypeCodeType",
+            "rdf:value": "DI",
+            "rdfs:comment": "Distributor"
+        },
+        {
+            "@id": "UNTDID5375Type:EC",
+            "@type": "unece:PriceTypeCodeType",
+            "rdf:value": "EC",
+            "rdfs:comment": "ECSC price"
+        },
+        {
+            "@id": "UNTDID5375Type:NW",
+            "@type": "unece:PriceTypeCodeType",
+            "rdf:value": "NW",
+            "rdfs:comment": "Net weight"
+        },
+        {
+            "@id": "UNTDID5375Type:PC",
+            "@type": "unece:PriceTypeCodeType",
+            "rdf:value": "PC",
+            "rdfs:comment": "Price catalogue"
+        },
+        {
+            "@id": "UNTDID5375Type:PE",
+            "@type": "unece:PriceTypeCodeType",
+            "rdf:value": "PE",
+            "rdfs:comment": "Per each"
+        },
+        {
+            "@id": "UNTDID5375Type:PK",
+            "@type": "unece:PriceTypeCodeType",
+            "rdf:value": "PK",
+            "rdfs:comment": "Per kilogram"
+        },
+        {
+            "@id": "UNTDID5375Type:PL",
+            "@type": "unece:PriceTypeCodeType",
+            "rdf:value": "PL",
+            "rdfs:comment": "Per litre"
+        },
+        {
+            "@id": "UNTDID5375Type:PT",
+            "@type": "unece:PriceTypeCodeType",
+            "rdf:value": "PT",
+            "rdfs:comment": "Per tonne"
+        },
+        {
+            "@id": "UNTDID5375Type:PU",
+            "@type": "unece:PriceTypeCodeType",
+            "rdf:value": "PU",
+            "rdfs:comment": "Specified unit"
+        },
+        {
+            "@id": "UNTDID5375Type:PV",
+            "@type": "unece:PriceTypeCodeType",
+            "rdf:value": "PV",
+            "rdfs:comment": "Provisional price"
+        },
+        {
+            "@id": "UNTDID5375Type:PW",
+            "@type": "unece:PriceTypeCodeType",
+            "rdf:value": "PW",
+            "rdfs:comment": "Gross weight"
+        },
+        {
+            "@id": "UNTDID5375Type:QT",
+            "@type": "unece:PriceTypeCodeType",
+            "rdf:value": "QT",
+            "rdfs:comment": "Quoted"
+        },
+        {
+            "@id": "UNTDID5375Type:SR",
+            "@type": "unece:PriceTypeCodeType",
+            "rdf:value": "SR",
+            "rdfs:comment": "Suggested retail"
+        },
+        {
+            "@id": "UNTDID5375Type:TB",
+            "@type": "unece:PriceTypeCodeType",
+            "rdf:value": "TB",
+            "rdfs:comment": "To be negotiated"
+        },
+        {
+            "@id": "UNTDID5375Type:TU",
+            "@type": "unece:PriceTypeCodeType",
+            "rdf:value": "TU",
+            "rdfs:comment": "Traded unit"
+        },
+        {
+            "@id": "UNTDID5375Type:TW",
+            "@type": "unece:PriceTypeCodeType",
+            "rdf:value": "TW",
+            "rdfs:comment": "Theoretical weight"
+        },
+        {
+            "@id": "UNTDID5375Type:WH",
+            "@type": "unece:PriceTypeCodeType",
+            "rdf:value": "WH",
+            "rdfs:comment": "Wholesale"
+        },
+        {
+            "@id": "UNTDID5375Type:WI",
+            "@type": "unece:PriceTypeCodeType",
+            "rdf:value": "WI",
+            "rdfs:comment": "Gross volume"
+        }
+    ]
+}

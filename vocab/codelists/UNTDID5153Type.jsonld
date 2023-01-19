@@ -1,0 +1,347 @@
+
+{
+    "@context": {
+        "unece": "https://vocabulary.uncefact.org/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "UNTDID5153Type": "https://vocabulary.uncefact.org/codelists/UNTDID5153Type"
+    },
+    "@graph": [
+        {
+            "@id": "UNTDID5153Type:AAA",
+            "@type": "unece:TaxTypeCodeType",
+            "rdf:value": "AAA",
+            "rdfs:comment": "Petroleum tax"
+        },
+        {
+            "@id": "UNTDID5153Type:AAB",
+            "@type": "unece:TaxTypeCodeType",
+            "rdf:value": "AAB",
+            "rdfs:comment": "Provisional countervailing duty cash"
+        },
+        {
+            "@id": "UNTDID5153Type:AAC",
+            "@type": "unece:TaxTypeCodeType",
+            "rdf:value": "AAC",
+            "rdfs:comment": "Provisional countervailing duty bond"
+        },
+        {
+            "@id": "UNTDID5153Type:AAD",
+            "@type": "unece:TaxTypeCodeType",
+            "rdf:value": "AAD",
+            "rdfs:comment": "Tobacco tax"
+        },
+        {
+            "@id": "UNTDID5153Type:AAE",
+            "@type": "unece:TaxTypeCodeType",
+            "rdf:value": "AAE",
+            "rdfs:comment": "Energy fee"
+        },
+        {
+            "@id": "UNTDID5153Type:AAF",
+            "@type": "unece:TaxTypeCodeType",
+            "rdf:value": "AAF",
+            "rdfs:comment": "Coffee tax"
+        },
+        {
+            "@id": "UNTDID5153Type:AAG",
+            "@type": "unece:TaxTypeCodeType",
+            "rdf:value": "AAG",
+            "rdfs:comment": "Harmonised sales tax, Canadian"
+        },
+        {
+            "@id": "UNTDID5153Type:AAH",
+            "@type": "unece:TaxTypeCodeType",
+            "rdf:value": "AAH",
+            "rdfs:comment": "Quebec sales tax"
+        },
+        {
+            "@id": "UNTDID5153Type:AAI",
+            "@type": "unece:TaxTypeCodeType",
+            "rdf:value": "AAI",
+            "rdfs:comment": "Canadian provincial sales tax"
+        },
+        {
+            "@id": "UNTDID5153Type:AAJ",
+            "@type": "unece:TaxTypeCodeType",
+            "rdf:value": "AAJ",
+            "rdfs:comment": "Tax on replacement part"
+        },
+        {
+            "@id": "UNTDID5153Type:AAK",
+            "@type": "unece:TaxTypeCodeType",
+            "rdf:value": "AAK",
+            "rdfs:comment": "Mineral oil tax"
+        },
+        {
+            "@id": "UNTDID5153Type:AAL",
+            "@type": "unece:TaxTypeCodeType",
+            "rdf:value": "AAL",
+            "rdfs:comment": "Special tax"
+        },
+        {
+            "@id": "UNTDID5153Type:AAM",
+            "@type": "unece:TaxTypeCodeType",
+            "rdf:value": "AAM",
+            "rdfs:comment": "Insurance tax"
+        },
+        {
+            "@id": "UNTDID5153Type:AAO",
+            "@type": "unece:TaxTypeCodeType",
+            "rdf:value": "AAO",
+            "rdfs:comment": "Provincial Cannabis Tax"
+        },
+        {
+            "@id": "UNTDID5153Type:AAP",
+            "@type": "unece:TaxTypeCodeType",
+            "rdf:value": "AAP",
+            "rdfs:comment": "Outstanding duty interest"
+        },
+        {
+            "@id": "UNTDID5153Type:ADD",
+            "@type": "unece:TaxTypeCodeType",
+            "rdf:value": "ADD",
+            "rdfs:comment": "Anti-dumping duty"
+        },
+        {
+            "@id": "UNTDID5153Type:BOL",
+            "@type": "unece:TaxTypeCodeType",
+            "rdf:value": "BOL",
+            "rdfs:comment": "Stamp duty (Imposta di Bollo)"
+        },
+        {
+            "@id": "UNTDID5153Type:CAP",
+            "@type": "unece:TaxTypeCodeType",
+            "rdf:value": "CAP",
+            "rdfs:comment": "Agricultural levy"
+        },
+        {
+            "@id": "UNTDID5153Type:CAR",
+            "@type": "unece:TaxTypeCodeType",
+            "rdf:value": "CAR",
+            "rdfs:comment": "Car tax"
+        },
+        {
+            "@id": "UNTDID5153Type:COC",
+            "@type": "unece:TaxTypeCodeType",
+            "rdf:value": "COC",
+            "rdfs:comment": "Paper consortium tax (Italy)"
+        },
+        {
+            "@id": "UNTDID5153Type:CST",
+            "@type": "unece:TaxTypeCodeType",
+            "rdf:value": "CST",
+            "rdfs:comment": "Commodity specific tax"
+        },
+        {
+            "@id": "UNTDID5153Type:CUD",
+            "@type": "unece:TaxTypeCodeType",
+            "rdf:value": "CUD",
+            "rdfs:comment": "Customs duty"
+        },
+        {
+            "@id": "UNTDID5153Type:CVD",
+            "@type": "unece:TaxTypeCodeType",
+            "rdf:value": "CVD",
+            "rdfs:comment": "Countervailing duty"
+        },
+        {
+            "@id": "UNTDID5153Type:ENV",
+            "@type": "unece:TaxTypeCodeType",
+            "rdf:value": "ENV",
+            "rdfs:comment": "Environmental tax"
+        },
+        {
+            "@id": "UNTDID5153Type:EXC",
+            "@type": "unece:TaxTypeCodeType",
+            "rdf:value": "EXC",
+            "rdfs:comment": "Excise duty"
+        },
+        {
+            "@id": "UNTDID5153Type:EXP",
+            "@type": "unece:TaxTypeCodeType",
+            "rdf:value": "EXP",
+            "rdfs:comment": "Agricultural export rebate"
+        },
+        {
+            "@id": "UNTDID5153Type:FET",
+            "@type": "unece:TaxTypeCodeType",
+            "rdf:value": "FET",
+            "rdfs:comment": "Federal excise tax"
+        },
+        {
+            "@id": "UNTDID5153Type:FRE",
+            "@type": "unece:TaxTypeCodeType",
+            "rdf:value": "FRE",
+            "rdfs:comment": "Free"
+        },
+        {
+            "@id": "UNTDID5153Type:GCN",
+            "@type": "unece:TaxTypeCodeType",
+            "rdf:value": "GCN",
+            "rdfs:comment": "General construction tax"
+        },
+        {
+            "@id": "UNTDID5153Type:GST",
+            "@type": "unece:TaxTypeCodeType",
+            "rdf:value": "GST",
+            "rdfs:comment": "Goods and services tax"
+        },
+        {
+            "@id": "UNTDID5153Type:ILL",
+            "@type": "unece:TaxTypeCodeType",
+            "rdf:value": "ILL",
+            "rdfs:comment": "Illuminants tax"
+        },
+        {
+            "@id": "UNTDID5153Type:IMP",
+            "@type": "unece:TaxTypeCodeType",
+            "rdf:value": "IMP",
+            "rdfs:comment": "Import tax"
+        },
+        {
+            "@id": "UNTDID5153Type:IND",
+            "@type": "unece:TaxTypeCodeType",
+            "rdf:value": "IND",
+            "rdfs:comment": "Individual tax"
+        },
+        {
+            "@id": "UNTDID5153Type:LAC",
+            "@type": "unece:TaxTypeCodeType",
+            "rdf:value": "LAC",
+            "rdfs:comment": "Business license fee"
+        },
+        {
+            "@id": "UNTDID5153Type:LCN",
+            "@type": "unece:TaxTypeCodeType",
+            "rdf:value": "LCN",
+            "rdfs:comment": "Local construction tax"
+        },
+        {
+            "@id": "UNTDID5153Type:LDP",
+            "@type": "unece:TaxTypeCodeType",
+            "rdf:value": "LDP",
+            "rdfs:comment": "Light dues payable"
+        },
+        {
+            "@id": "UNTDID5153Type:LOC",
+            "@type": "unece:TaxTypeCodeType",
+            "rdf:value": "LOC",
+            "rdfs:comment": "Local sales tax"
+        },
+        {
+            "@id": "UNTDID5153Type:LST",
+            "@type": "unece:TaxTypeCodeType",
+            "rdf:value": "LST",
+            "rdfs:comment": "Lust tax"
+        },
+        {
+            "@id": "UNTDID5153Type:MCA",
+            "@type": "unece:TaxTypeCodeType",
+            "rdf:value": "MCA",
+            "rdfs:comment": "Monetary compensatory amount"
+        },
+        {
+            "@id": "UNTDID5153Type:MCD",
+            "@type": "unece:TaxTypeCodeType",
+            "rdf:value": "MCD",
+            "rdfs:comment": "Miscellaneous cash deposit"
+        },
+        {
+            "@id": "UNTDID5153Type:OTH",
+            "@type": "unece:TaxTypeCodeType",
+            "rdf:value": "OTH",
+            "rdfs:comment": "Other taxes"
+        },
+        {
+            "@id": "UNTDID5153Type:PDB",
+            "@type": "unece:TaxTypeCodeType",
+            "rdf:value": "PDB",
+            "rdfs:comment": "Provisional duty bond"
+        },
+        {
+            "@id": "UNTDID5153Type:PDC",
+            "@type": "unece:TaxTypeCodeType",
+            "rdf:value": "PDC",
+            "rdfs:comment": "Provisional duty cash"
+        },
+        {
+            "@id": "UNTDID5153Type:PRF",
+            "@type": "unece:TaxTypeCodeType",
+            "rdf:value": "PRF",
+            "rdfs:comment": "Preference duty"
+        },
+        {
+            "@id": "UNTDID5153Type:SCN",
+            "@type": "unece:TaxTypeCodeType",
+            "rdf:value": "SCN",
+            "rdfs:comment": "Special construction tax"
+        },
+        {
+            "@id": "UNTDID5153Type:SSS",
+            "@type": "unece:TaxTypeCodeType",
+            "rdf:value": "SSS",
+            "rdfs:comment": "Shifted social securities"
+        },
+        {
+            "@id": "UNTDID5153Type:STT",
+            "@type": "unece:TaxTypeCodeType",
+            "rdf:value": "STT",
+            "rdfs:comment": "State/provincial sales tax"
+        },
+        {
+            "@id": "UNTDID5153Type:SUP",
+            "@type": "unece:TaxTypeCodeType",
+            "rdf:value": "SUP",
+            "rdfs:comment": "Suspended duty"
+        },
+        {
+            "@id": "UNTDID5153Type:SUR",
+            "@type": "unece:TaxTypeCodeType",
+            "rdf:value": "SUR",
+            "rdfs:comment": "Surtax"
+        },
+        {
+            "@id": "UNTDID5153Type:SWT",
+            "@type": "unece:TaxTypeCodeType",
+            "rdf:value": "SWT",
+            "rdfs:comment": "Shifted wage tax"
+        },
+        {
+            "@id": "UNTDID5153Type:TAC",
+            "@type": "unece:TaxTypeCodeType",
+            "rdf:value": "TAC",
+            "rdfs:comment": "Alcohol mark tax"
+        },
+        {
+            "@id": "UNTDID5153Type:TOT",
+            "@type": "unece:TaxTypeCodeType",
+            "rdf:value": "TOT",
+            "rdfs:comment": "Total"
+        },
+        {
+            "@id": "UNTDID5153Type:TOX",
+            "@type": "unece:TaxTypeCodeType",
+            "rdf:value": "TOX",
+            "rdfs:comment": "Turnover tax"
+        },
+        {
+            "@id": "UNTDID5153Type:TTA",
+            "@type": "unece:TaxTypeCodeType",
+            "rdf:value": "TTA",
+            "rdfs:comment": "Tonnage taxes"
+        },
+        {
+            "@id": "UNTDID5153Type:VAD",
+            "@type": "unece:TaxTypeCodeType",
+            "rdf:value": "VAD",
+            "rdfs:comment": "Valuation deposit"
+        },
+        {
+            "@id": "UNTDID5153Type:VAT",
+            "@type": "unece:TaxTypeCodeType",
+            "rdf:value": "VAT",
+            "rdfs:comment": "Value added tax"
+        }
+    ]
+}

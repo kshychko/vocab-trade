@@ -1,0 +1,53 @@
+
+{
+    "@context": {
+        "unece": "https://vocabulary.uncefact.org/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "UNTDID8077Type": "https://vocabulary.uncefact.org/codelists/UNTDID8077Type"
+    },
+    "@graph": [
+        {
+            "@id": "UNTDID8077Type:1",
+            "@type": "unece:TransportEquipmentSupplierPartyRoleCodeType",
+            "rdf:value": "1",
+            "rdfs:comment": "Shipper supplied"
+        },
+        {
+            "@id": "UNTDID8077Type:2",
+            "@type": "unece:TransportEquipmentSupplierPartyRoleCodeType",
+            "rdf:value": "2",
+            "rdfs:comment": "Carrier supplied"
+        },
+        {
+            "@id": "UNTDID8077Type:3",
+            "@type": "unece:TransportEquipmentSupplierPartyRoleCodeType",
+            "rdf:value": "3",
+            "rdfs:comment": "Consolidator supplied"
+        },
+        {
+            "@id": "UNTDID8077Type:4",
+            "@type": "unece:TransportEquipmentSupplierPartyRoleCodeType",
+            "rdf:value": "4",
+            "rdfs:comment": "Deconsolidator supplied"
+        },
+        {
+            "@id": "UNTDID8077Type:5",
+            "@type": "unece:TransportEquipmentSupplierPartyRoleCodeType",
+            "rdf:value": "5",
+            "rdfs:comment": "Third party supplied"
+        },
+        {
+            "@id": "UNTDID8077Type:6",
+            "@type": "unece:TransportEquipmentSupplierPartyRoleCodeType",
+            "rdf:value": "6",
+            "rdfs:comment": "Forwarder supplied from a leasing company"
+        },
+        {
+            "@id": "UNTDID8077Type:7",
+            "@type": "unece:TransportEquipmentSupplierPartyRoleCodeType",
+            "rdf:value": "7",
+            "rdfs:comment": "Forwarder supplied from the railways' pool"
+        }
+    ]
+}

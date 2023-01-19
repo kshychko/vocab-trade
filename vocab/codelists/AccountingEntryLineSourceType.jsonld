@@ -1,0 +1,35 @@
+
+{
+    "@context": {
+        "unece": "https://vocabulary.uncefact.org/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "AccountingEntryLineSourceType": "https://vocabulary.uncefact.org/codelists/AccountingEntryLineSourceType"
+    },
+    "@graph": [
+        {
+            "@id": "AccountingEntryLineSourceType:1",
+            "@type": "unece:AccountingEntryLineSourceCodeType",
+            "rdf:value": "1",
+            "rdfs:comment": "Manual Input"
+        },
+        {
+            "@id": "AccountingEntryLineSourceType:2",
+            "@type": "unece:AccountingEntryLineSourceCodeType",
+            "rdf:value": "2",
+            "rdfs:comment": "Import"
+        },
+        {
+            "@id": "AccountingEntryLineSourceType:3",
+            "@type": "unece:AccountingEntryLineSourceCodeType",
+            "rdf:value": "3",
+            "rdfs:comment": "Exchange Profit or Loss"
+        },
+        {
+            "@id": "AccountingEntryLineSourceType:4",
+            "@type": "unece:AccountingEntryLineSourceCodeType",
+            "rdf:value": "4",
+            "rdfs:comment": "Settlement Difference"
+        }
+    ]
+}

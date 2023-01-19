@@ -1,0 +1,29 @@
+
+{
+    "@context": {
+        "unece": "https://vocabulary.uncefact.org/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "AccountingAccountClassificationType": "https://vocabulary.uncefact.org/codelists/AccountingAccountClassificationType"
+    },
+    "@graph": [
+        {
+            "@id": "AccountingAccountClassificationType:1",
+            "@type": "unece:AccountingAccountClassificationCodeType",
+            "rdf:value": "1",
+            "rdfs:comment": "General Chart of accounts"
+        },
+        {
+            "@id": "AccountingAccountClassificationType:2",
+            "@type": "unece:AccountingAccountClassificationCodeType",
+            "rdf:value": "2",
+            "rdfs:comment": "Cost Chart of accounts"
+        },
+        {
+            "@id": "AccountingAccountClassificationType:3",
+            "@type": "unece:AccountingAccountClassificationCodeType",
+            "rdf:value": "3",
+            "rdfs:comment": "Budget Chart of accounts"
+        }
+    ]
+}

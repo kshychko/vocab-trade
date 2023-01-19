@@ -1,0 +1,23 @@
+
+{
+    "@context": {
+        "unece": "https://vocabulary.uncefact.org/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "ValidationDocumentStatusCodeType": "https://vocabulary.uncefact.org/codelists/ValidationDocumentStatusCodeType"
+    },
+    "@graph": [
+        {
+            "@id": "ValidationDocumentStatusCodeType:1",
+            "@type": "unece:ValidationDocumentStatusCodeType",
+            "rdf:value": "1",
+            "rdfs:comment": "Accepted"
+        },
+        {
+            "@id": "ValidationDocumentStatusCodeType:42",
+            "@type": "unece:ValidationDocumentStatusCodeType",
+            "rdf:value": "42",
+            "rdfs:comment": "In error"
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+
+{
+    "@context": {
+        "unece": "https://vocabulary.uncefact.org/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "AccountingAccountNatureTypeType": "https://vocabulary.uncefact.org/codelists/AccountingAccountNatureTypeType"
+    },
+    "@graph": [
+        {
+            "@id": "AccountingAccountNatureTypeType:1",
+            "@type": "unece:AccountingAccountNatureTypeCodeType",
+            "rdf:value": "1",
+            "rdfs:comment": "Receivable Third"
+        },
+        {
+            "@id": "AccountingAccountNatureTypeType:2",
+            "@type": "unece:AccountingAccountNatureTypeCodeType",
+            "rdf:value": "2",
+            "rdfs:comment": "Payable Third"
+        },
+        {
+            "@id": "AccountingAccountNatureTypeType:3",
+            "@type": "unece:AccountingAccountNatureTypeCodeType",
+            "rdf:value": "3",
+            "rdfs:comment": "Expense"
+        },
+        {
+            "@id": "AccountingAccountNatureTypeType:4",
+            "@type": "unece:AccountingAccountNatureTypeCodeType",
+            "rdf:value": "4",
+            "rdfs:comment": "Income"
+        },
+        {
+            "@id": "AccountingAccountNatureTypeType:5",
+            "@type": "unece:AccountingAccountNatureTypeCodeType",
+            "rdf:value": "5",
+            "rdfs:comment": "Assets"
+        }
+    ]
+}

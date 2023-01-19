@@ -1,0 +1,155 @@
+
+{
+    "@context": {
+        "unece": "https://vocabulary.uncefact.org/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "UNTDID6145Type": "https://vocabulary.uncefact.org/codelists/UNTDID6145Type"
+    },
+    "@graph": [
+        {
+            "@id": "UNTDID6145Type:1",
+            "@type": "unece:DimensionTypeCodeType",
+            "rdf:value": "1",
+            "rdfs:comment": "Gross dimensions"
+        },
+        {
+            "@id": "UNTDID6145Type:2",
+            "@type": "unece:DimensionTypeCodeType",
+            "rdf:value": "2",
+            "rdfs:comment": "Package dimensions (including goods)"
+        },
+        {
+            "@id": "UNTDID6145Type:3",
+            "@type": "unece:DimensionTypeCodeType",
+            "rdf:value": "3",
+            "rdfs:comment": "Pallet dimensions (excluding goods)"
+        },
+        {
+            "@id": "UNTDID6145Type:4",
+            "@type": "unece:DimensionTypeCodeType",
+            "rdf:value": "4",
+            "rdfs:comment": "Pallet dimensions (including goods)"
+        },
+        {
+            "@id": "UNTDID6145Type:5",
+            "@type": "unece:DimensionTypeCodeType",
+            "rdf:value": "5",
+            "rdfs:comment": "Off-standard dimension front"
+        },
+        {
+            "@id": "UNTDID6145Type:6",
+            "@type": "unece:DimensionTypeCodeType",
+            "rdf:value": "6",
+            "rdfs:comment": "Off-standard dimension back"
+        },
+        {
+            "@id": "UNTDID6145Type:7",
+            "@type": "unece:DimensionTypeCodeType",
+            "rdf:value": "7",
+            "rdfs:comment": "Off-standard dimension right"
+        },
+        {
+            "@id": "UNTDID6145Type:8",
+            "@type": "unece:DimensionTypeCodeType",
+            "rdf:value": "8",
+            "rdfs:comment": "Off-standard dimension left"
+        },
+        {
+            "@id": "UNTDID6145Type:9",
+            "@type": "unece:DimensionTypeCodeType",
+            "rdf:value": "9",
+            "rdfs:comment": "Off-standard dimension general"
+        },
+        {
+            "@id": "UNTDID6145Type:10",
+            "@type": "unece:DimensionTypeCodeType",
+            "rdf:value": "10",
+            "rdfs:comment": "External equipment dimension"
+        },
+        {
+            "@id": "UNTDID6145Type:11",
+            "@type": "unece:DimensionTypeCodeType",
+            "rdf:value": "11",
+            "rdfs:comment": "Internal equipment dimensions"
+        },
+        {
+            "@id": "UNTDID6145Type:12",
+            "@type": "unece:DimensionTypeCodeType",
+            "rdf:value": "12",
+            "rdfs:comment": "Damage dimensions"
+        },
+        {
+            "@id": "UNTDID6145Type:13",
+            "@type": "unece:DimensionTypeCodeType",
+            "rdf:value": "13",
+            "rdfs:comment": "Off-standard dimensions height"
+        },
+        {
+            "@id": "UNTDID6145Type:14",
+            "@type": "unece:DimensionTypeCodeType",
+            "rdf:value": "14",
+            "rdfs:comment": "Equipment door dimensions"
+        },
+        {
+            "@id": "UNTDID6145Type:15",
+            "@type": "unece:DimensionTypeCodeType",
+            "rdf:value": "15",
+            "rdfs:comment": "Off-standard dimension width"
+        },
+        {
+            "@id": "UNTDID6145Type:16",
+            "@type": "unece:DimensionTypeCodeType",
+            "rdf:value": "16",
+            "rdfs:comment": "Off-standard dimension length"
+        },
+        {
+            "@id": "UNTDID6145Type:17",
+            "@type": "unece:DimensionTypeCodeType",
+            "rdf:value": "17",
+            "rdfs:comment": "Bundled equipment total height"
+        },
+        {
+            "@id": "UNTDID6145Type:18",
+            "@type": "unece:DimensionTypeCodeType",
+            "rdf:value": "18",
+            "rdfs:comment": "Equipment off-standard dimension height, actual"
+        },
+        {
+            "@id": "UNTDID6145Type:19",
+            "@type": "unece:DimensionTypeCodeType",
+            "rdf:value": "19",
+            "rdfs:comment": "Folded equipment height"
+        },
+        {
+            "@id": "UNTDID6145Type:20",
+            "@type": "unece:DimensionTypeCodeType",
+            "rdf:value": "20",
+            "rdfs:comment": "Adjustable equipment height"
+        },
+        {
+            "@id": "UNTDID6145Type:21",
+            "@type": "unece:DimensionTypeCodeType",
+            "rdf:value": "21",
+            "rdfs:comment": "Equipment floor height"
+        },
+        {
+            "@id": "UNTDID6145Type:22",
+            "@type": "unece:DimensionTypeCodeType",
+            "rdf:value": "22",
+            "rdfs:comment": "Container off-standard dimension width at corner posts"
+        },
+        {
+            "@id": "UNTDID6145Type:23",
+            "@type": "unece:DimensionTypeCodeType",
+            "rdf:value": "23",
+            "rdfs:comment": "Container off-standard dimension width of body"
+        },
+        {
+            "@id": "UNTDID6145Type:24",
+            "@type": "unece:DimensionTypeCodeType",
+            "rdf:value": "24",
+            "rdfs:comment": "Transport unit gross dimensions"
+        }
+    ]
+}

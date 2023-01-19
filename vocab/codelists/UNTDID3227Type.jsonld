@@ -1,0 +1,1901 @@
+
+{
+    "@context": {
+        "unece": "https://vocabulary.uncefact.org/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "UNTDID3227Type": "https://vocabulary.uncefact.org/codelists/UNTDID3227Type"
+    },
+    "@graph": [
+        {
+            "@id": "UNTDID3227Type:1",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "1",
+            "rdfs:comment": "Place of terms of delivery"
+        },
+        {
+            "@id": "UNTDID3227Type:2",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "2",
+            "rdfs:comment": "Payment location"
+        },
+        {
+            "@id": "UNTDID3227Type:3",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "3",
+            "rdfs:comment": "Tare check place"
+        },
+        {
+            "@id": "UNTDID3227Type:4",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "4",
+            "rdfs:comment": "Goods receipt place"
+        },
+        {
+            "@id": "UNTDID3227Type:5",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "5",
+            "rdfs:comment": "Place of departure"
+        },
+        {
+            "@id": "UNTDID3227Type:6",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "6",
+            "rdfs:comment": "Ward bed"
+        },
+        {
+            "@id": "UNTDID3227Type:7",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "7",
+            "rdfs:comment": "Place of delivery"
+        },
+        {
+            "@id": "UNTDID3227Type:8",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "8",
+            "rdfs:comment": "Place of destination"
+        },
+        {
+            "@id": "UNTDID3227Type:9",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "9",
+            "rdfs:comment": "Place of loading"
+        },
+        {
+            "@id": "UNTDID3227Type:10",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "10",
+            "rdfs:comment": "Place of acceptance"
+        },
+        {
+            "@id": "UNTDID3227Type:11",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "11",
+            "rdfs:comment": "Place of discharge"
+        },
+        {
+            "@id": "UNTDID3227Type:12",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "12",
+            "rdfs:comment": "Port of discharge"
+        },
+        {
+            "@id": "UNTDID3227Type:13",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "13",
+            "rdfs:comment": "Place of transhipment"
+        },
+        {
+            "@id": "UNTDID3227Type:14",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "14",
+            "rdfs:comment": "Goods item storage location"
+        },
+        {
+            "@id": "UNTDID3227Type:15",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "15",
+            "rdfs:comment": "Place of transfer responsibility"
+        },
+        {
+            "@id": "UNTDID3227Type:16",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "16",
+            "rdfs:comment": "Place of transfer of ownership"
+        },
+        {
+            "@id": "UNTDID3227Type:17",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "17",
+            "rdfs:comment": "Border crossing place"
+        },
+        {
+            "@id": "UNTDID3227Type:18",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "18",
+            "rdfs:comment": "Warehouse"
+        },
+        {
+            "@id": "UNTDID3227Type:19",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "19",
+            "rdfs:comment": "Factory/plant"
+        },
+        {
+            "@id": "UNTDID3227Type:20",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "20",
+            "rdfs:comment": "Place of ultimate destination of goods"
+        },
+        {
+            "@id": "UNTDID3227Type:21",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "21",
+            "rdfs:comment": "Terms of sale place"
+        },
+        {
+            "@id": "UNTDID3227Type:22",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "22",
+            "rdfs:comment": "Customs clearance location"
+        },
+        {
+            "@id": "UNTDID3227Type:23",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "23",
+            "rdfs:comment": "Port of release"
+        },
+        {
+            "@id": "UNTDID3227Type:24",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "24",
+            "rdfs:comment": "Port of entry"
+        },
+        {
+            "@id": "UNTDID3227Type:25",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "25",
+            "rdfs:comment": "Country"
+        },
+        {
+            "@id": "UNTDID3227Type:26",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "26",
+            "rdfs:comment": "City"
+        },
+        {
+            "@id": "UNTDID3227Type:27",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "27",
+            "rdfs:comment": "Country of origin"
+        },
+        {
+            "@id": "UNTDID3227Type:28",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "28",
+            "rdfs:comment": "Country of destination of goods"
+        },
+        {
+            "@id": "UNTDID3227Type:29",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "29",
+            "rdfs:comment": "Railway station"
+        },
+        {
+            "@id": "UNTDID3227Type:30",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "30",
+            "rdfs:comment": "Country of source"
+        },
+        {
+            "@id": "UNTDID3227Type:31",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "31",
+            "rdfs:comment": "Building"
+        },
+        {
+            "@id": "UNTDID3227Type:32",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "32",
+            "rdfs:comment": "Beginning of chargeable section"
+        },
+        {
+            "@id": "UNTDID3227Type:33",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "33",
+            "rdfs:comment": "Baseport of discharge"
+        },
+        {
+            "@id": "UNTDID3227Type:34",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "34",
+            "rdfs:comment": "Baseport of loading"
+        },
+        {
+            "@id": "UNTDID3227Type:35",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "35",
+            "rdfs:comment": "Exportation country"
+        },
+        {
+            "@id": "UNTDID3227Type:36",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "36",
+            "rdfs:comment": "Country of ultimate destination"
+        },
+        {
+            "@id": "UNTDID3227Type:37",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "37",
+            "rdfs:comment": "Consignment final exportation country"
+        },
+        {
+            "@id": "UNTDID3227Type:38",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "38",
+            "rdfs:comment": "Consignment first destination country"
+        },
+        {
+            "@id": "UNTDID3227Type:39",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "39",
+            "rdfs:comment": "Country of production"
+        },
+        {
+            "@id": "UNTDID3227Type:40",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "40",
+            "rdfs:comment": "Country of trading"
+        },
+        {
+            "@id": "UNTDID3227Type:41",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "41",
+            "rdfs:comment": "Consignment entry customs office location"
+        },
+        {
+            "@id": "UNTDID3227Type:42",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "42",
+            "rdfs:comment": "Consignment exit customs office location"
+        },
+        {
+            "@id": "UNTDID3227Type:43",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "43",
+            "rdfs:comment": "Place of Customs examination"
+        },
+        {
+            "@id": "UNTDID3227Type:44",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "44",
+            "rdfs:comment": "Place of authentication of document"
+        },
+        {
+            "@id": "UNTDID3227Type:45",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "45",
+            "rdfs:comment": "Customs office of destination (transit)"
+        },
+        {
+            "@id": "UNTDID3227Type:46",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "46",
+            "rdfs:comment": "Region of despatch"
+        },
+        {
+            "@id": "UNTDID3227Type:47",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "47",
+            "rdfs:comment": "Region of destination"
+        },
+        {
+            "@id": "UNTDID3227Type:48",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "48",
+            "rdfs:comment": "Region of production"
+        },
+        {
+            "@id": "UNTDID3227Type:49",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "49",
+            "rdfs:comment": "Transit country"
+        },
+        {
+            "@id": "UNTDID3227Type:50",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "50",
+            "rdfs:comment": "Transit customs office location"
+        },
+        {
+            "@id": "UNTDID3227Type:51",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "51",
+            "rdfs:comment": "Country of invalid transit guarantee"
+        },
+        {
+            "@id": "UNTDID3227Type:52",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "52",
+            "rdfs:comment": "Country of destination (transit)"
+        },
+        {
+            "@id": "UNTDID3227Type:53",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "53",
+            "rdfs:comment": "Charge and freight due from"
+        },
+        {
+            "@id": "UNTDID3227Type:54",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "54",
+            "rdfs:comment": "Manufacturing department"
+        },
+        {
+            "@id": "UNTDID3227Type:55",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "55",
+            "rdfs:comment": "Freight charge payable to location"
+        },
+        {
+            "@id": "UNTDID3227Type:56",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "56",
+            "rdfs:comment": "End of chargeable section"
+        },
+        {
+            "@id": "UNTDID3227Type:57",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "57",
+            "rdfs:comment": "Place of payment"
+        },
+        {
+            "@id": "UNTDID3227Type:58",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "58",
+            "rdfs:comment": "Full track loading or unloading"
+        },
+        {
+            "@id": "UNTDID3227Type:59",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "59",
+            "rdfs:comment": "Place of loss"
+        },
+        {
+            "@id": "UNTDID3227Type:60",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "60",
+            "rdfs:comment": "Place of arrival"
+        },
+        {
+            "@id": "UNTDID3227Type:61",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "61",
+            "rdfs:comment": "Next port of call"
+        },
+        {
+            "@id": "UNTDID3227Type:62",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "62",
+            "rdfs:comment": "On-carriage port"
+        },
+        {
+            "@id": "UNTDID3227Type:63",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "63",
+            "rdfs:comment": "Sub-project location"
+        },
+        {
+            "@id": "UNTDID3227Type:64",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "64",
+            "rdfs:comment": "First optional place of discharge"
+        },
+        {
+            "@id": "UNTDID3227Type:65",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "65",
+            "rdfs:comment": "Final port or place of discharge"
+        },
+        {
+            "@id": "UNTDID3227Type:66",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "66",
+            "rdfs:comment": "Express railway station"
+        },
+        {
+            "@id": "UNTDID3227Type:67",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "67",
+            "rdfs:comment": "Mixed cargo railway station"
+        },
+        {
+            "@id": "UNTDID3227Type:68",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "68",
+            "rdfs:comment": "Second optional place of discharge"
+        },
+        {
+            "@id": "UNTDID3227Type:69",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "69",
+            "rdfs:comment": "Next non-discharge port of call"
+        },
+        {
+            "@id": "UNTDID3227Type:70",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "70",
+            "rdfs:comment": "Third optional place of discharge"
+        },
+        {
+            "@id": "UNTDID3227Type:71",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "71",
+            "rdfs:comment": "Reconsolidation point"
+        },
+        {
+            "@id": "UNTDID3227Type:72",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "72",
+            "rdfs:comment": "Fourth optional place of discharge"
+        },
+        {
+            "@id": "UNTDID3227Type:73",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "73",
+            "rdfs:comment": "Bill of lading release office"
+        },
+        {
+            "@id": "UNTDID3227Type:74",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "74",
+            "rdfs:comment": "Transhipment excluding this place"
+        },
+        {
+            "@id": "UNTDID3227Type:75",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "75",
+            "rdfs:comment": "Transhipment limited to this place"
+        },
+        {
+            "@id": "UNTDID3227Type:76",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "76",
+            "rdfs:comment": "Original port of loading"
+        },
+        {
+            "@id": "UNTDID3227Type:77",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "77",
+            "rdfs:comment": "First port of call - non-discharging"
+        },
+        {
+            "@id": "UNTDID3227Type:78",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "78",
+            "rdfs:comment": "First port of call - discharging"
+        },
+        {
+            "@id": "UNTDID3227Type:79",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "79",
+            "rdfs:comment": "Place/port of first entry"
+        },
+        {
+            "@id": "UNTDID3227Type:80",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "80",
+            "rdfs:comment": "Place of despatch"
+        },
+        {
+            "@id": "UNTDID3227Type:81",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "81",
+            "rdfs:comment": "Fifth optional place of discharge"
+        },
+        {
+            "@id": "UNTDID3227Type:82",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "82",
+            "rdfs:comment": "Pre-carriage port"
+        },
+        {
+            "@id": "UNTDID3227Type:83",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "83",
+            "rdfs:comment": "Place of delivery (by on carriage)"
+        },
+        {
+            "@id": "UNTDID3227Type:84",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "84",
+            "rdfs:comment": "Transport contract place of acceptance"
+        },
+        {
+            "@id": "UNTDID3227Type:85",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "85",
+            "rdfs:comment": "Transport contract place of destination"
+        },
+        {
+            "@id": "UNTDID3227Type:86",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "86",
+            "rdfs:comment": "Country of valid transit guarantee"
+        },
+        {
+            "@id": "UNTDID3227Type:87",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "87",
+            "rdfs:comment": "Place/port of conveyance initial arrival"
+        },
+        {
+            "@id": "UNTDID3227Type:88",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "88",
+            "rdfs:comment": "Place of receipt"
+        },
+        {
+            "@id": "UNTDID3227Type:89",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "89",
+            "rdfs:comment": "Place of registration"
+        },
+        {
+            "@id": "UNTDID3227Type:90",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "90",
+            "rdfs:comment": "Special treatment place"
+        },
+        {
+            "@id": "UNTDID3227Type:91",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "91",
+            "rdfs:comment": "Place of document issue"
+        },
+        {
+            "@id": "UNTDID3227Type:92",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "92",
+            "rdfs:comment": "Routing"
+        },
+        {
+            "@id": "UNTDID3227Type:93",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "93",
+            "rdfs:comment": "Station of application of additional costs"
+        },
+        {
+            "@id": "UNTDID3227Type:94",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "94",
+            "rdfs:comment": "Previous port of call"
+        },
+        {
+            "@id": "UNTDID3227Type:95",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "95",
+            "rdfs:comment": "Sailing destination area"
+        },
+        {
+            "@id": "UNTDID3227Type:96",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "96",
+            "rdfs:comment": "Place of lodgement of documents"
+        },
+        {
+            "@id": "UNTDID3227Type:97",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "97",
+            "rdfs:comment": "Optional place of discharge"
+        },
+        {
+            "@id": "UNTDID3227Type:98",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "98",
+            "rdfs:comment": "Place of empty equipment despatch"
+        },
+        {
+            "@id": "UNTDID3227Type:99",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "99",
+            "rdfs:comment": "Place of empty equipment return"
+        },
+        {
+            "@id": "UNTDID3227Type:100",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "100",
+            "rdfs:comment": "Place/port of warehouse entry"
+        },
+        {
+            "@id": "UNTDID3227Type:101",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "101",
+            "rdfs:comment": "Country of first sale"
+        },
+        {
+            "@id": "UNTDID3227Type:103",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "103",
+            "rdfs:comment": "Place of transfer"
+        },
+        {
+            "@id": "UNTDID3227Type:104",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "104",
+            "rdfs:comment": "Place of deconsolidation"
+        },
+        {
+            "@id": "UNTDID3227Type:105",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "105",
+            "rdfs:comment": "Place of consumption"
+        },
+        {
+            "@id": "UNTDID3227Type:106",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "106",
+            "rdfs:comment": "Region of origin"
+        },
+        {
+            "@id": "UNTDID3227Type:107",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "107",
+            "rdfs:comment": "Place of consolidation"
+        },
+        {
+            "@id": "UNTDID3227Type:108",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "108",
+            "rdfs:comment": "Rate combination point"
+        },
+        {
+            "@id": "UNTDID3227Type:109",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "109",
+            "rdfs:comment": "Place of prolongation decision of delivery delay"
+        },
+        {
+            "@id": "UNTDID3227Type:110",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "110",
+            "rdfs:comment": "Recharging place/location"
+        },
+        {
+            "@id": "UNTDID3227Type:111",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "111",
+            "rdfs:comment": "Customs office of despatch"
+        },
+        {
+            "@id": "UNTDID3227Type:112",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "112",
+            "rdfs:comment": "Region of equipment availability"
+        },
+        {
+            "@id": "UNTDID3227Type:113",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "113",
+            "rdfs:comment": "Country of despatch"
+        },
+        {
+            "@id": "UNTDID3227Type:114",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "114",
+            "rdfs:comment": "Customs office of export"
+        },
+        {
+            "@id": "UNTDID3227Type:115",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "115",
+            "rdfs:comment": "Free zone of export"
+        },
+        {
+            "@id": "UNTDID3227Type:116",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "116",
+            "rdfs:comment": "Region of export/despatch"
+        },
+        {
+            "@id": "UNTDID3227Type:117",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "117",
+            "rdfs:comment": "Place of collection"
+        },
+        {
+            "@id": "UNTDID3227Type:118",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "118",
+            "rdfs:comment": "Customs office of departure"
+        },
+        {
+            "@id": "UNTDID3227Type:119",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "119",
+            "rdfs:comment": "Transit guarantee customs office location"
+        },
+        {
+            "@id": "UNTDID3227Type:120",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "120",
+            "rdfs:comment": "Country of transhipment"
+        },
+        {
+            "@id": "UNTDID3227Type:122",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "122",
+            "rdfs:comment": "Customs office of destination"
+        },
+        {
+            "@id": "UNTDID3227Type:123",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "123",
+            "rdfs:comment": "Wagon-load railway station"
+        },
+        {
+            "@id": "UNTDID3227Type:124",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "124",
+            "rdfs:comment": "Siding"
+        },
+        {
+            "@id": "UNTDID3227Type:125",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "125",
+            "rdfs:comment": "Last place/port of call of conveyance"
+        },
+        {
+            "@id": "UNTDID3227Type:126",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "126",
+            "rdfs:comment": "Country of previous Customs procedure"
+        },
+        {
+            "@id": "UNTDID3227Type:127",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "127",
+            "rdfs:comment": "Customs office of registration of previous Customs declaration"
+        },
+        {
+            "@id": "UNTDID3227Type:128",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "128",
+            "rdfs:comment": "Participant sender location"
+        },
+        {
+            "@id": "UNTDID3227Type:129",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "129",
+            "rdfs:comment": "Wage negotiation district"
+        },
+        {
+            "@id": "UNTDID3227Type:130",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "130",
+            "rdfs:comment": "Place of ultimate destination of conveyance"
+        },
+        {
+            "@id": "UNTDID3227Type:131",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "131",
+            "rdfs:comment": "Place of loading of empty equipment"
+        },
+        {
+            "@id": "UNTDID3227Type:132",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "132",
+            "rdfs:comment": "Place of discharge of empty equipment"
+        },
+        {
+            "@id": "UNTDID3227Type:133",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "133",
+            "rdfs:comment": "Region of delivery"
+        },
+        {
+            "@id": "UNTDID3227Type:134",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "134",
+            "rdfs:comment": "Petroleum warehouse"
+        },
+        {
+            "@id": "UNTDID3227Type:135",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "135",
+            "rdfs:comment": "Place of entry (Customs)"
+        },
+        {
+            "@id": "UNTDID3227Type:136",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "136",
+            "rdfs:comment": "Living animals care place"
+        },
+        {
+            "@id": "UNTDID3227Type:137",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "137",
+            "rdfs:comment": "Re-icing place"
+        },
+        {
+            "@id": "UNTDID3227Type:138",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "138",
+            "rdfs:comment": "Weighting place"
+        },
+        {
+            "@id": "UNTDID3227Type:139",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "139",
+            "rdfs:comment": "Marshalling yard"
+        },
+        {
+            "@id": "UNTDID3227Type:140",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "140",
+            "rdfs:comment": "Stopping station"
+        },
+        {
+            "@id": "UNTDID3227Type:141",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "141",
+            "rdfs:comment": "Loading dock"
+        },
+        {
+            "@id": "UNTDID3227Type:142",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "142",
+            "rdfs:comment": "Port connection"
+        },
+        {
+            "@id": "UNTDID3227Type:143",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "143",
+            "rdfs:comment": "Place of expiry"
+        },
+        {
+            "@id": "UNTDID3227Type:144",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "144",
+            "rdfs:comment": "Place of negotiation"
+        },
+        {
+            "@id": "UNTDID3227Type:145",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "145",
+            "rdfs:comment": "Claims payable place"
+        },
+        {
+            "@id": "UNTDID3227Type:146",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "146",
+            "rdfs:comment": "Documentary credit available in"
+        },
+        {
+            "@id": "UNTDID3227Type:147",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "147",
+            "rdfs:comment": "Transport means stowage location"
+        },
+        {
+            "@id": "UNTDID3227Type:148",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "148",
+            "rdfs:comment": "For transportation to"
+        },
+        {
+            "@id": "UNTDID3227Type:149",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "149",
+            "rdfs:comment": "Loading on board/despatch/taking in charge at/from"
+        },
+        {
+            "@id": "UNTDID3227Type:150",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "150",
+            "rdfs:comment": "Container stack position"
+        },
+        {
+            "@id": "UNTDID3227Type:151",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "151",
+            "rdfs:comment": "Private box"
+        },
+        {
+            "@id": "UNTDID3227Type:152",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "152",
+            "rdfs:comment": "Next port of discharge"
+        },
+        {
+            "@id": "UNTDID3227Type:153",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "153",
+            "rdfs:comment": "Port of call"
+        },
+        {
+            "@id": "UNTDID3227Type:154",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "154",
+            "rdfs:comment": "Place/location of on-hire"
+        },
+        {
+            "@id": "UNTDID3227Type:155",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "155",
+            "rdfs:comment": "Place/location of off-hire"
+        },
+        {
+            "@id": "UNTDID3227Type:156",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "156",
+            "rdfs:comment": "Other carriers terminal"
+        },
+        {
+            "@id": "UNTDID3227Type:157",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "157",
+            "rdfs:comment": "Country of Value Added Tax (VAT) jurisdiction"
+        },
+        {
+            "@id": "UNTDID3227Type:158",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "158",
+            "rdfs:comment": "Contact location"
+        },
+        {
+            "@id": "UNTDID3227Type:159",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "159",
+            "rdfs:comment": "Additional internal destination"
+        },
+        {
+            "@id": "UNTDID3227Type:160",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "160",
+            "rdfs:comment": "Foreign port of call"
+        },
+        {
+            "@id": "UNTDID3227Type:161",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "161",
+            "rdfs:comment": "Maintenance location"
+        },
+        {
+            "@id": "UNTDID3227Type:162",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "162",
+            "rdfs:comment": "Place or location of sale"
+        },
+        {
+            "@id": "UNTDID3227Type:163",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "163",
+            "rdfs:comment": "Direct investment country"
+        },
+        {
+            "@id": "UNTDID3227Type:164",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "164",
+            "rdfs:comment": "Berth"
+        },
+        {
+            "@id": "UNTDID3227Type:165",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "165",
+            "rdfs:comment": "Construction country"
+        },
+        {
+            "@id": "UNTDID3227Type:166",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "166",
+            "rdfs:comment": "Donation acting country"
+        },
+        {
+            "@id": "UNTDID3227Type:167",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "167",
+            "rdfs:comment": "Payment transaction country"
+        },
+        {
+            "@id": "UNTDID3227Type:168",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "168",
+            "rdfs:comment": "Physical place of return of item"
+        },
+        {
+            "@id": "UNTDID3227Type:169",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "169",
+            "rdfs:comment": "Relay port"
+        },
+        {
+            "@id": "UNTDID3227Type:170",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "170",
+            "rdfs:comment": "Final port of discharge"
+        },
+        {
+            "@id": "UNTDID3227Type:171",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "171",
+            "rdfs:comment": "Place of destination for pre-stacking prior to stowage"
+        },
+        {
+            "@id": "UNTDID3227Type:172",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "172",
+            "rdfs:comment": "Reporting location"
+        },
+        {
+            "@id": "UNTDID3227Type:173",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "173",
+            "rdfs:comment": "Transport contract place of despatch"
+        },
+        {
+            "@id": "UNTDID3227Type:174",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "174",
+            "rdfs:comment": "Place of residence"
+        },
+        {
+            "@id": "UNTDID3227Type:175",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "175",
+            "rdfs:comment": "Activity location"
+        },
+        {
+            "@id": "UNTDID3227Type:176",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "176",
+            "rdfs:comment": "Pick-up location"
+        },
+        {
+            "@id": "UNTDID3227Type:177",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "177",
+            "rdfs:comment": "Construction site"
+        },
+        {
+            "@id": "UNTDID3227Type:178",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "178",
+            "rdfs:comment": "Place of embarkation"
+        },
+        {
+            "@id": "UNTDID3227Type:179",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "179",
+            "rdfs:comment": "Place of disembarkation"
+        },
+        {
+            "@id": "UNTDID3227Type:180",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "180",
+            "rdfs:comment": "Person birth location"
+        },
+        {
+            "@id": "UNTDID3227Type:181",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "181",
+            "rdfs:comment": "Registered office"
+        },
+        {
+            "@id": "UNTDID3227Type:182",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "182",
+            "rdfs:comment": "Place of incorporation"
+        },
+        {
+            "@id": "UNTDID3227Type:183",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "183",
+            "rdfs:comment": "Place of business"
+        },
+        {
+            "@id": "UNTDID3227Type:184",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "184",
+            "rdfs:comment": "Physical location"
+        },
+        {
+            "@id": "UNTDID3227Type:185",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "185",
+            "rdfs:comment": "Location to send mail"
+        },
+        {
+            "@id": "UNTDID3227Type:186",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "186",
+            "rdfs:comment": "Foreign registration location"
+        },
+        {
+            "@id": "UNTDID3227Type:187",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "187",
+            "rdfs:comment": "Tax filed from location"
+        },
+        {
+            "@id": "UNTDID3227Type:188",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "188",
+            "rdfs:comment": "Filing location"
+        },
+        {
+            "@id": "UNTDID3227Type:189",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "189",
+            "rdfs:comment": "Former location"
+        },
+        {
+            "@id": "UNTDID3227Type:190",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "190",
+            "rdfs:comment": "Head office"
+        },
+        {
+            "@id": "UNTDID3227Type:191",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "191",
+            "rdfs:comment": "Property"
+        },
+        {
+            "@id": "UNTDID3227Type:192",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "192",
+            "rdfs:comment": "Correct location"
+        },
+        {
+            "@id": "UNTDID3227Type:193",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "193",
+            "rdfs:comment": "Branch location"
+        },
+        {
+            "@id": "UNTDID3227Type:194",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "194",
+            "rdfs:comment": "Former registered location"
+        },
+        {
+            "@id": "UNTDID3227Type:195",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "195",
+            "rdfs:comment": "Future location"
+        },
+        {
+            "@id": "UNTDID3227Type:196",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "196",
+            "rdfs:comment": "Changed to location"
+        },
+        {
+            "@id": "UNTDID3227Type:197",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "197",
+            "rdfs:comment": "Place of inquiry"
+        },
+        {
+            "@id": "UNTDID3227Type:198",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "198",
+            "rdfs:comment": "Original location"
+        },
+        {
+            "@id": "UNTDID3227Type:199",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "199",
+            "rdfs:comment": "Country of last source"
+        },
+        {
+            "@id": "UNTDID3227Type:200",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "200",
+            "rdfs:comment": "Place of handling"
+        },
+        {
+            "@id": "UNTDID3227Type:201",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "201",
+            "rdfs:comment": "Country of origin as defined by transportation agency"
+        },
+        {
+            "@id": "UNTDID3227Type:202",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "202",
+            "rdfs:comment": "Terminal"
+        },
+        {
+            "@id": "UNTDID3227Type:203",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "203",
+            "rdfs:comment": "Sample location"
+        },
+        {
+            "@id": "UNTDID3227Type:204",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "204",
+            "rdfs:comment": "Hospital Advanced Dependency Unit (ADU)"
+        },
+        {
+            "@id": "UNTDID3227Type:205",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "205",
+            "rdfs:comment": "Hospital Neonatal Intensive Care Unit (NICU)"
+        },
+        {
+            "@id": "UNTDID3227Type:206",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "206",
+            "rdfs:comment": "Hospital Paediatric Care Unit (PCU)"
+        },
+        {
+            "@id": "UNTDID3227Type:207",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "207",
+            "rdfs:comment": "Hospital Intensive Care Unit (ICU)"
+        },
+        {
+            "@id": "UNTDID3227Type:208",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "208",
+            "rdfs:comment": "Hospital luxury room"
+        },
+        {
+            "@id": "UNTDID3227Type:209",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "209",
+            "rdfs:comment": "Hospital shared room"
+        },
+        {
+            "@id": "UNTDID3227Type:210",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "210",
+            "rdfs:comment": "Hospital private room"
+        },
+        {
+            "@id": "UNTDID3227Type:211",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "211",
+            "rdfs:comment": "Bidding area"
+        },
+        {
+            "@id": "UNTDID3227Type:212",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "212",
+            "rdfs:comment": "Price area"
+        },
+        {
+            "@id": "UNTDID3227Type:213",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "213",
+            "rdfs:comment": "Country of destination of equipment"
+        },
+        {
+            "@id": "UNTDID3227Type:214",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "214",
+            "rdfs:comment": "Aircraft airport stand"
+        },
+        {
+            "@id": "UNTDID3227Type:215",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "215",
+            "rdfs:comment": "Airport passenger terminal"
+        },
+        {
+            "@id": "UNTDID3227Type:216",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "216",
+            "rdfs:comment": "Previous berth"
+        },
+        {
+            "@id": "UNTDID3227Type:217",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "217",
+            "rdfs:comment": "Next berth"
+        },
+        {
+            "@id": "UNTDID3227Type:218",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "218",
+            "rdfs:comment": "Entity location"
+        },
+        {
+            "@id": "UNTDID3227Type:219",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "219",
+            "rdfs:comment": "Goods depot"
+        },
+        {
+            "@id": "UNTDID3227Type:220",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "220",
+            "rdfs:comment": "Disinfecting place"
+        },
+        {
+            "@id": "UNTDID3227Type:221",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "221",
+            "rdfs:comment": "Harbour rail station"
+        },
+        {
+            "@id": "UNTDID3227Type:222",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "222",
+            "rdfs:comment": "Place of live animal care"
+        },
+        {
+            "@id": "UNTDID3227Type:223",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "223",
+            "rdfs:comment": "Phytosanitary control place"
+        },
+        {
+            "@id": "UNTDID3227Type:224",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "224",
+            "rdfs:comment": "Place for re-icing or de-icing"
+        },
+        {
+            "@id": "UNTDID3227Type:225",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "225",
+            "rdfs:comment": "Place of refuelling"
+        },
+        {
+            "@id": "UNTDID3227Type:226",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "226",
+            "rdfs:comment": "Place of provision of an unexpected service"
+        },
+        {
+            "@id": "UNTDID3227Type:227",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "227",
+            "rdfs:comment": "Private container terminal"
+        },
+        {
+            "@id": "UNTDID3227Type:228",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "228",
+            "rdfs:comment": "Railway container terminal"
+        },
+        {
+            "@id": "UNTDID3227Type:229",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "229",
+            "rdfs:comment": "Inspection site"
+        },
+        {
+            "@id": "UNTDID3227Type:230",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "230",
+            "rdfs:comment": "Request only stop"
+        },
+        {
+            "@id": "UNTDID3227Type:231",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "231",
+            "rdfs:comment": "Grid area"
+        },
+        {
+            "@id": "UNTDID3227Type:232",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "232",
+            "rdfs:comment": "Source power area"
+        },
+        {
+            "@id": "UNTDID3227Type:233",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "233",
+            "rdfs:comment": "Sink power area"
+        },
+        {
+            "@id": "UNTDID3227Type:234",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "234",
+            "rdfs:comment": "Scheduled berth"
+        },
+        {
+            "@id": "UNTDID3227Type:235",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "235",
+            "rdfs:comment": "Scheduled berth, bow"
+        },
+        {
+            "@id": "UNTDID3227Type:236",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "236",
+            "rdfs:comment": "Scheduled berth, stern"
+        },
+        {
+            "@id": "UNTDID3227Type:237",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "237",
+            "rdfs:comment": "Balance settlement area"
+        },
+        {
+            "@id": "UNTDID3227Type:238",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "238",
+            "rdfs:comment": "Market area"
+        },
+        {
+            "@id": "UNTDID3227Type:239",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "239",
+            "rdfs:comment": "Metering grid area"
+        },
+        {
+            "@id": "UNTDID3227Type:240",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "240",
+            "rdfs:comment": "Climate zone"
+        },
+        {
+            "@id": "UNTDID3227Type:241",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "241",
+            "rdfs:comment": "Country of birth"
+        },
+        {
+            "@id": "UNTDID3227Type:242",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "242",
+            "rdfs:comment": "Country of fattening"
+        },
+        {
+            "@id": "UNTDID3227Type:243",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "243",
+            "rdfs:comment": "Country of slaughter"
+        },
+        {
+            "@id": "UNTDID3227Type:244",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "244",
+            "rdfs:comment": "Country of meat cutting"
+        },
+        {
+            "@id": "UNTDID3227Type:245",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "245",
+            "rdfs:comment": "Meat cutting location"
+        },
+        {
+            "@id": "UNTDID3227Type:246",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "246",
+            "rdfs:comment": "Slaughterhouse"
+        },
+        {
+            "@id": "UNTDID3227Type:247",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "247",
+            "rdfs:comment": "Country of meat mincing"
+        },
+        {
+            "@id": "UNTDID3227Type:248",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "248",
+            "rdfs:comment": "Place of discharge and loading"
+        },
+        {
+            "@id": "UNTDID3227Type:249",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "249",
+            "rdfs:comment": "Cargo facility location"
+        },
+        {
+            "@id": "UNTDID3227Type:250",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "250",
+            "rdfs:comment": "Tourist point of interest"
+        },
+        {
+            "@id": "UNTDID3227Type:251",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "251",
+            "rdfs:comment": "Customs office of payment"
+        },
+        {
+            "@id": "UNTDID3227Type:252",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "252",
+            "rdfs:comment": "Conveyance facility location at departure"
+        },
+        {
+            "@id": "UNTDID3227Type:253",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "253",
+            "rdfs:comment": "Conveyance facility location at arrival"
+        },
+        {
+            "@id": "UNTDID3227Type:254",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "254",
+            "rdfs:comment": "Bus station"
+        },
+        {
+            "@id": "UNTDID3227Type:255",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "255",
+            "rdfs:comment": "Ferry terminal"
+        },
+        {
+            "@id": "UNTDID3227Type:256",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "256",
+            "rdfs:comment": "Place of packing"
+        },
+        {
+            "@id": "UNTDID3227Type:257",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "257",
+            "rdfs:comment": "Country of assembly"
+        },
+        {
+            "@id": "UNTDID3227Type:258",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "258",
+            "rdfs:comment": "Town sales office"
+        },
+        {
+            "@id": "UNTDID3227Type:259",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "259",
+            "rdfs:comment": "Travel agency"
+        },
+        {
+            "@id": "UNTDID3227Type:260",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "260",
+            "rdfs:comment": "Inland clearance depot"
+        },
+        {
+            "@id": "UNTDID3227Type:261",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "261",
+            "rdfs:comment": "Place of final production"
+        },
+        {
+            "@id": "UNTDID3227Type:262",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "262",
+            "rdfs:comment": "Place of growth"
+        },
+        {
+            "@id": "UNTDID3227Type:263",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "263",
+            "rdfs:comment": "Place of intermediate production"
+        },
+        {
+            "@id": "UNTDID3227Type:264",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "264",
+            "rdfs:comment": "Place of nutrient origin"
+        },
+        {
+            "@id": "UNTDID3227Type:265",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "265",
+            "rdfs:comment": "Place of package material production"
+        },
+        {
+            "@id": "UNTDID3227Type:266",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "266",
+            "rdfs:comment": "Place of processing"
+        },
+        {
+            "@id": "UNTDID3227Type:267",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "267",
+            "rdfs:comment": "Place of species origin"
+        },
+        {
+            "@id": "UNTDID3227Type:268",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "268",
+            "rdfs:comment": "Place of catch"
+        },
+        {
+            "@id": "UNTDID3227Type:269",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "269",
+            "rdfs:comment": "Government appeal office"
+        },
+        {
+            "@id": "UNTDID3227Type:270",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "270",
+            "rdfs:comment": "Regulatory office of cross-border goods entry"
+        },
+        {
+            "@id": "UNTDID3227Type:271",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "271",
+            "rdfs:comment": "Regulatory office of cross-border goods exit"
+        },
+        {
+            "@id": "UNTDID3227Type:272",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "272",
+            "rdfs:comment": "Government approved establishment"
+        },
+        {
+            "@id": "UNTDID3227Type:273",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "273",
+            "rdfs:comment": "Free trade zone"
+        },
+        {
+            "@id": "UNTDID3227Type:274",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "274",
+            "rdfs:comment": "Place of physical examination"
+        },
+        {
+            "@id": "UNTDID3227Type:275",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "275",
+            "rdfs:comment": "Permitted location"
+        },
+        {
+            "@id": "UNTDID3227Type:276",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "276",
+            "rdfs:comment": "Landing location"
+        },
+        {
+            "@id": "UNTDID3227Type:277",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "277",
+            "rdfs:comment": "Place of loading on final means of transport"
+        },
+        {
+            "@id": "UNTDID3227Type:278",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "278",
+            "rdfs:comment": "Place of regulatory declaration review"
+        },
+        {
+            "@id": "UNTDID3227Type:279",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "279",
+            "rdfs:comment": "Travel document issuing country or political entity"
+        },
+        {
+            "@id": "UNTDID3227Type:280",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "280",
+            "rdfs:comment": "Compliant facility, registered"
+        },
+        {
+            "@id": "UNTDID3227Type:281",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "281",
+            "rdfs:comment": "Bonded warehouse"
+        },
+        {
+            "@id": "UNTDID3227Type:282",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "282",
+            "rdfs:comment": "Goods destruction site, designated"
+        },
+        {
+            "@id": "UNTDID3227Type:283",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "283",
+            "rdfs:comment": "Goods disposal location, designated"
+        },
+        {
+            "@id": "UNTDID3227Type:284",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "284",
+            "rdfs:comment": "Incineration facility"
+        },
+        {
+            "@id": "UNTDID3227Type:285",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "285",
+            "rdfs:comment": "Laboratory"
+        },
+        {
+            "@id": "UNTDID3227Type:286",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "286",
+            "rdfs:comment": "Place of assembly"
+        },
+        {
+            "@id": "UNTDID3227Type:287",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "287",
+            "rdfs:comment": "Processing site"
+        },
+        {
+            "@id": "UNTDID3227Type:288",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "288",
+            "rdfs:comment": "Quarantine facility"
+        },
+        {
+            "@id": "UNTDID3227Type:289",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "289",
+            "rdfs:comment": "Reclamation facility"
+        },
+        {
+            "@id": "UNTDID3227Type:290",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "290",
+            "rdfs:comment": "Refinery"
+        },
+        {
+            "@id": "UNTDID3227Type:291",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "291",
+            "rdfs:comment": "Smelter"
+        },
+        {
+            "@id": "UNTDID3227Type:292",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "292",
+            "rdfs:comment": "Prescribed treatment facility"
+        },
+        {
+            "@id": "UNTDID3227Type:293",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "293",
+            "rdfs:comment": "Embassy"
+        },
+        {
+            "@id": "UNTDID3227Type:294",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "294",
+            "rdfs:comment": "Region of source"
+        },
+        {
+            "@id": "UNTDID3227Type:295",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "295",
+            "rdfs:comment": "Region of storage"
+        },
+        {
+            "@id": "UNTDID3227Type:296",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "296",
+            "rdfs:comment": "Ship security incident location"
+        },
+        {
+            "@id": "UNTDID3227Type:297",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "297",
+            "rdfs:comment": "Ship-to-ship activity location"
+        },
+        {
+            "@id": "UNTDID3227Type:298",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "298",
+            "rdfs:comment": "Country of last processing"
+        },
+        {
+            "@id": "UNTDID3227Type:299",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "299",
+            "rdfs:comment": "Fishing vessel"
+        },
+        {
+            "@id": "UNTDID3227Type:300",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "300",
+            "rdfs:comment": "Location of status"
+        },
+        {
+            "@id": "UNTDID3227Type:301",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "301",
+            "rdfs:comment": "Location of meter"
+        },
+        {
+            "@id": "UNTDID3227Type:302",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "302",
+            "rdfs:comment": "Country of provenance"
+        },
+        {
+            "@id": "UNTDID3227Type:303",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "303",
+            "rdfs:comment": "Meat mincing plant"
+        },
+        {
+            "@id": "UNTDID3227Type:304",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "304",
+            "rdfs:comment": "Place of fattening"
+        },
+        {
+            "@id": "UNTDID3227Type:305",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "305",
+            "rdfs:comment": "Animal birth place"
+        },
+        {
+            "@id": "UNTDID3227Type:306",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "306",
+            "rdfs:comment": "Global Good Agricultural Practice Number (GGN)"
+        },
+        {
+            "@id": "UNTDID3227Type:307",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "307",
+            "rdfs:comment": "Port of last waste delivery"
+        },
+        {
+            "@id": "UNTDID3227Type:308",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "308",
+            "rdfs:comment": "Port of next waste delivery"
+        },
+        {
+            "@id": "UNTDID3227Type:309",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "309",
+            "rdfs:comment": "Effluent Treatment Plant"
+        },
+        {
+            "@id": "UNTDID3227Type:310",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "310",
+            "rdfs:comment": "Farm"
+        },
+        {
+            "@id": "UNTDID3227Type:311",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "311",
+            "rdfs:comment": "Manufacturing facility"
+        },
+        {
+            "@id": "UNTDID3227Type:312",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "312",
+            "rdfs:comment": "Animal Farm"
+        },
+        {
+            "@id": "UNTDID3227Type:313",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "313",
+            "rdfs:comment": "Tannery"
+        },
+        {
+            "@id": "UNTDID3227Type:314",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "314",
+            "rdfs:comment": "Textile mill"
+        },
+        {
+            "@id": "UNTDID3227Type:315",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "315",
+            "rdfs:comment": "Textile dyeing mill"
+        },
+        {
+            "@id": "UNTDID3227Type:316",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "316",
+            "rdfs:comment": "Forest Management Unit"
+        },
+        {
+            "@id": "UNTDID3227Type:ZZZ",
+            "@type": "unece:LocationFunctionCodeType",
+            "rdf:value": "ZZZ",
+            "rdfs:comment": "Mutually defined"
+        }
+    ]
+}

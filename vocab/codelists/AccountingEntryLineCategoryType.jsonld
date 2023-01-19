@@ -1,0 +1,53 @@
+
+{
+    "@context": {
+        "unece": "https://vocabulary.uncefact.org/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "AccountingEntryLineCategoryType": "https://vocabulary.uncefact.org/codelists/AccountingEntryLineCategoryType"
+    },
+    "@graph": [
+        {
+            "@id": "AccountingEntryLineCategoryType:1",
+            "@type": "unece:AccountingEntryLineCategoryCodeType",
+            "rdf:value": "1",
+            "rdfs:comment": "Normal"
+        },
+        {
+            "@id": "AccountingEntryLineCategoryType:2",
+            "@type": "unece:AccountingEntryLineCategoryCodeType",
+            "rdf:value": "2",
+            "rdfs:comment": "Opening Balance"
+        },
+        {
+            "@id": "AccountingEntryLineCategoryType:3",
+            "@type": "unece:AccountingEntryLineCategoryCodeType",
+            "rdf:value": "3",
+            "rdfs:comment": "Simulation"
+        },
+        {
+            "@id": "AccountingEntryLineCategoryType:4",
+            "@type": "unece:AccountingEntryLineCategoryCodeType",
+            "rdf:value": "4",
+            "rdfs:comment": "Paid Commercial Paper Not Yet Due From a Prior Period"
+        },
+        {
+            "@id": "AccountingEntryLineCategoryType:5",
+            "@type": "unece:AccountingEntryLineCategoryCodeType",
+            "rdf:value": "5",
+            "rdfs:comment": "Not Matched Line in a Prior Year"
+        },
+        {
+            "@id": "AccountingEntryLineCategoryType:6",
+            "@type": "unece:AccountingEntryLineCategoryCodeType",
+            "rdf:value": "6",
+            "rdfs:comment": "Not Reconcilied Line in a Prior Period"
+        },
+        {
+            "@id": "AccountingEntryLineCategoryType:7",
+            "@type": "unece:AccountingEntryLineCategoryCodeType",
+            "rdf:value": "7",
+            "rdfs:comment": "Closing Balance"
+        }
+    ]
+}

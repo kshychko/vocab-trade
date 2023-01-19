@@ -1,0 +1,35 @@
+
+{
+    "@context": {
+        "unece": "https://vocabulary.uncefact.org/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "MeasurementUnitCommonCodeLinearType": "https://vocabulary.uncefact.org/codelists/MeasurementUnitCommonCodeLinearType"
+    },
+    "@graph": [
+        {
+            "@id": "MeasurementUnitCommonCodeLinearType:CMT",
+            "@type": "unece:LinearUnitCodeType",
+            "rdf:value": "CMT",
+            "rdfs:comment": "centimetre"
+        },
+        {
+            "@id": "MeasurementUnitCommonCodeLinearType:FOT",
+            "@type": "unece:LinearUnitCodeType",
+            "rdf:value": "FOT",
+            "rdfs:comment": "foot"
+        },
+        {
+            "@id": "MeasurementUnitCommonCodeLinearType:INH",
+            "@type": "unece:LinearUnitCodeType",
+            "rdf:value": "INH",
+            "rdfs:comment": "inch"
+        },
+        {
+            "@id": "MeasurementUnitCommonCodeLinearType:MTR",
+            "@type": "unece:LinearUnitCodeType",
+            "rdf:value": "MTR",
+            "rdfs:comment": "metre"
+        }
+    ]
+}

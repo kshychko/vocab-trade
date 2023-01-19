@@ -1,0 +1,41 @@
+
+{
+    "@context": {
+        "unece": "https://vocabulary.uncefact.org/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "UNTDID8323Type": "https://vocabulary.uncefact.org/codelists/UNTDID8323Type"
+    },
+    "@graph": [
+        {
+            "@id": "UNTDID8323Type:1",
+            "@type": "unece:TransportMovementTypeCodeType",
+            "rdf:value": "1",
+            "rdfs:comment": "Export"
+        },
+        {
+            "@id": "UNTDID8323Type:2",
+            "@type": "unece:TransportMovementTypeCodeType",
+            "rdf:value": "2",
+            "rdfs:comment": "Import"
+        },
+        {
+            "@id": "UNTDID8323Type:3",
+            "@type": "unece:TransportMovementTypeCodeType",
+            "rdf:value": "3",
+            "rdfs:comment": "Transit"
+        },
+        {
+            "@id": "UNTDID8323Type:4",
+            "@type": "unece:TransportMovementTypeCodeType",
+            "rdf:value": "4",
+            "rdfs:comment": "Relay"
+        },
+        {
+            "@id": "UNTDID8323Type:5",
+            "@type": "unece:TransportMovementTypeCodeType",
+            "rdf:value": "5",
+            "rdfs:comment": "Transshipment"
+        }
+    ]
+}

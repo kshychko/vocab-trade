@@ -1,0 +1,41 @@
+
+{
+    "@context": {
+        "unece": "https://vocabulary.uncefact.org/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "PartyTypeType": "https://vocabulary.uncefact.org/codelists/PartyTypeType"
+    },
+    "@graph": [
+        {
+            "@id": "PartyTypeType:BRA",
+            "@type": "unece:PartyTypeCodeType",
+            "rdf:value": "BRA",
+            "rdfs:comment": "Branch"
+        },
+        {
+            "@id": "PartyTypeType:DEP",
+            "@type": "unece:PartyTypeCodeType",
+            "rdf:value": "DEP",
+            "rdfs:comment": "Department"
+        },
+        {
+            "@id": "PartyTypeType:DIR",
+            "@type": "unece:PartyTypeCodeType",
+            "rdf:value": "DIR",
+            "rdfs:comment": "Direction"
+        },
+        {
+            "@id": "PartyTypeType:SEC",
+            "@type": "unece:PartyTypeCodeType",
+            "rdf:value": "SEC",
+            "rdfs:comment": "Section"
+        },
+        {
+            "@id": "PartyTypeType:SER",
+            "@type": "unece:PartyTypeCodeType",
+            "rdf:value": "SER",
+            "rdfs:comment": "Service"
+        }
+    ]
+}

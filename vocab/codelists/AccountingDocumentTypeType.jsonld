@@ -1,0 +1,59 @@
+
+{
+    "@context": {
+        "unece": "https://vocabulary.uncefact.org/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "AccountingDocumentTypeType": "https://vocabulary.uncefact.org/codelists/AccountingDocumentTypeType"
+    },
+    "@graph": [
+        {
+            "@id": "AccountingDocumentTypeType:BC",
+            "@type": "unece:AccountingDocumentTypeCodeType",
+            "rdf:value": "BC",
+            "rdfs:comment": "Bundle collection"
+        },
+        {
+            "@id": "AccountingDocumentTypeType:COA",
+            "@type": "unece:AccountingDocumentTypeCodeType",
+            "rdf:value": "COA",
+            "rdfs:comment": "Accounting account classification"
+        },
+        {
+            "@id": "AccountingDocumentTypeType:DB",
+            "@type": "unece:AccountingDocumentTypeCodeType",
+            "rdf:value": "DB",
+            "rdfs:comment": "Day book"
+        },
+        {
+            "@id": "AccountingDocumentTypeType:JL",
+            "@type": "unece:AccountingDocumentTypeCodeType",
+            "rdf:value": "JL",
+            "rdfs:comment": "Journal List"
+        },
+        {
+            "@id": "AccountingDocumentTypeType:JN",
+            "@type": "unece:AccountingDocumentTypeCodeType",
+            "rdf:value": "JN",
+            "rdfs:comment": "Journal"
+        },
+        {
+            "@id": "AccountingDocumentTypeType:LG",
+            "@type": "unece:AccountingDocumentTypeCodeType",
+            "rdf:value": "LG",
+            "rdfs:comment": "Ledger"
+        },
+        {
+            "@id": "AccountingDocumentTypeType:RP",
+            "@type": "unece:AccountingDocumentTypeCodeType",
+            "rdf:value": "RP",
+            "rdfs:comment": "Reporting"
+        },
+        {
+            "@id": "AccountingDocumentTypeType:TR",
+            "@type": "unece:AccountingDocumentTypeCodeType",
+            "rdf:value": "TR",
+            "rdfs:comment": "Trial balance"
+        }
+    ]
+}

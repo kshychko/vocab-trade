@@ -1,0 +1,41 @@
+
+{
+    "@context": {
+        "unece": "https://vocabulary.uncefact.org/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "AccountingAccountBalanceReopeningTypeType": "https://vocabulary.uncefact.org/codelists/AccountingAccountBalanceReopeningTypeType"
+    },
+    "@graph": [
+        {
+            "@id": "AccountingAccountBalanceReopeningTypeType:1",
+            "@type": "unece:AccountingAccountBalanceReopeningTypeCodeType",
+            "rdf:value": "1",
+            "rdfs:comment": "Balance carried over"
+        },
+        {
+            "@id": "AccountingAccountBalanceReopeningTypeType:2",
+            "@type": "unece:AccountingAccountBalanceReopeningTypeCodeType",
+            "rdf:value": "2",
+            "rdfs:comment": "Reopening debit and credit total amounts of not matched entries only"
+        },
+        {
+            "@id": "AccountingAccountBalanceReopeningTypeType:3",
+            "@type": "unece:AccountingAccountBalanceReopeningTypeCodeType",
+            "rdf:value": "3",
+            "rdfs:comment": "Reopening detailed of not matched entries only"
+        },
+        {
+            "@id": "AccountingAccountBalanceReopeningTypeType:4",
+            "@type": "unece:AccountingAccountBalanceReopeningTypeCodeType",
+            "rdf:value": "4",
+            "rdfs:comment": "Reopening debit and credit total amounts"
+        },
+        {
+            "@id": "AccountingAccountBalanceReopeningTypeType:5",
+            "@type": "unece:AccountingAccountBalanceReopeningTypeCodeType",
+            "rdf:value": "5",
+            "rdfs:comment": "No balance reopening"
+        }
+    ]
+}

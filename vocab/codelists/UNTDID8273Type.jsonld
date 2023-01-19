@@ -1,0 +1,155 @@
+
+{
+    "@context": {
+        "unece": "https://vocabulary.uncefact.org/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "UNTDID8273Type": "https://vocabulary.uncefact.org/codelists/UNTDID8273Type"
+    },
+    "@graph": [
+        {
+            "@id": "UNTDID8273Type:ADR",
+            "@type": "unece:DangerousGoodsRegulationCodeType",
+            "rdf:value": "ADR",
+            "rdfs:comment": "European agreement on the international carriage of dangerous goods on road (ADR)"
+        },
+        {
+            "@id": "UNTDID8273Type:ADS",
+            "@type": "unece:DangerousGoodsRegulationCodeType",
+            "rdf:value": "ADS",
+            "rdfs:comment": "NDR European agreement for the transport of dangerous goods on the river Rhine"
+        },
+        {
+            "@id": "UNTDID8273Type:ADT",
+            "@type": "unece:DangerousGoodsRegulationCodeType",
+            "rdf:value": "ADT",
+            "rdfs:comment": "CA, Transport Canada's dangerous goods requirements"
+        },
+        {
+            "@id": "UNTDID8273Type:ADU",
+            "@type": "unece:DangerousGoodsRegulationCodeType",
+            "rdf:value": "ADU",
+            "rdfs:comment": "JP, Japanese maritime safety agency dangerous goods regulation code"
+        },
+        {
+            "@id": "UNTDID8273Type:ADV",
+            "@type": "unece:DangerousGoodsRegulationCodeType",
+            "rdf:value": "ADV",
+            "rdfs:comment": "MARPOL 73/78"
+        },
+        {
+            "@id": "UNTDID8273Type:ADW",
+            "@type": "unece:DangerousGoodsRegulationCodeType",
+            "rdf:value": "ADW",
+            "rdfs:comment": "GHS regulation"
+        },
+        {
+            "@id": "UNTDID8273Type:ADX",
+            "@type": "unece:DangerousGoodsRegulationCodeType",
+            "rdf:value": "ADX",
+            "rdfs:comment": "Transport emergency (TREM) card"
+        },
+        {
+            "@id": "UNTDID8273Type:ADY",
+            "@type": "unece:DangerousGoodsRegulationCodeType",
+            "rdf:value": "ADY",
+            "rdfs:comment": "IBC Code"
+        },
+        {
+            "@id": "UNTDID8273Type:ADZ",
+            "@type": "unece:DangerousGoodsRegulationCodeType",
+            "rdf:value": "ADZ",
+            "rdfs:comment": "IGC Code"
+        },
+        {
+            "@id": "UNTDID8273Type:AEA",
+            "@type": "unece:DangerousGoodsRegulationCodeType",
+            "rdf:value": "AEA",
+            "rdfs:comment": "IMSBC Code"
+        },
+        {
+            "@id": "UNTDID8273Type:AEB",
+            "@type": "unece:DangerousGoodsRegulationCodeType",
+            "rdf:value": "AEB",
+            "rdfs:comment": "MARPOL Annex I"
+        },
+        {
+            "@id": "UNTDID8273Type:AGS",
+            "@type": "unece:DangerousGoodsRegulationCodeType",
+            "rdf:value": "AGS",
+            "rdfs:comment": "DE, ADR and GGVS combined regulations for combined transport"
+        },
+        {
+            "@id": "UNTDID8273Type:ANR",
+            "@type": "unece:DangerousGoodsRegulationCodeType",
+            "rdf:value": "ANR",
+            "rdfs:comment": "ADNR, Autorisation de transport de matieres Dangereuses pour la Navigation sur le Rhin"
+        },
+        {
+            "@id": "UNTDID8273Type:ARD",
+            "@type": "unece:DangerousGoodsRegulationCodeType",
+            "rdf:value": "ARD",
+            "rdfs:comment": "DE, ARD and RID - Combined regulations for combined transport"
+        },
+        {
+            "@id": "UNTDID8273Type:CFR",
+            "@type": "unece:DangerousGoodsRegulationCodeType",
+            "rdf:value": "CFR",
+            "rdfs:comment": "US, 49 Code of federal regulations"
+        },
+        {
+            "@id": "UNTDID8273Type:COM",
+            "@type": "unece:DangerousGoodsRegulationCodeType",
+            "rdf:value": "COM",
+            "rdfs:comment": "DE, ADR, RID, GGVS and GGVE - Combined regulations for combined transport"
+        },
+        {
+            "@id": "UNTDID8273Type:GVE",
+            "@type": "unece:DangerousGoodsRegulationCodeType",
+            "rdf:value": "GVE",
+            "rdfs:comment": "DE, GGVE (Gefahrgutverordnung Eisenbahn)"
+        },
+        {
+            "@id": "UNTDID8273Type:GVS",
+            "@type": "unece:DangerousGoodsRegulationCodeType",
+            "rdf:value": "GVS",
+            "rdfs:comment": "DE, GGVS (Gefahrgutverordnung Strasse)"
+        },
+        {
+            "@id": "UNTDID8273Type:ICA",
+            "@type": "unece:DangerousGoodsRegulationCodeType",
+            "rdf:value": "ICA",
+            "rdfs:comment": "IATA ICAO"
+        },
+        {
+            "@id": "UNTDID8273Type:IMD",
+            "@type": "unece:DangerousGoodsRegulationCodeType",
+            "rdf:value": "IMD",
+            "rdfs:comment": "IMO IMDG code"
+        },
+        {
+            "@id": "UNTDID8273Type:RGE",
+            "@type": "unece:DangerousGoodsRegulationCodeType",
+            "rdf:value": "RGE",
+            "rdfs:comment": "DE, RID and GGVE, Combined regulations for combined transport on rails"
+        },
+        {
+            "@id": "UNTDID8273Type:RID",
+            "@type": "unece:DangerousGoodsRegulationCodeType",
+            "rdf:value": "RID",
+            "rdfs:comment": "Railroad dangerous goods book (RID)"
+        },
+        {
+            "@id": "UNTDID8273Type:UI",
+            "@type": "unece:DangerousGoodsRegulationCodeType",
+            "rdf:value": "UI",
+            "rdfs:comment": "UK IMO book"
+        },
+        {
+            "@id": "UNTDID8273Type:ZZZ",
+            "@type": "unece:DangerousGoodsRegulationCodeType",
+            "rdf:value": "ZZZ",
+            "rdfs:comment": "Mutually defined"
+        }
+    ]
+}

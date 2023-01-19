@@ -1,0 +1,1553 @@
+
+{
+    "@context": {
+        "unece": "https://vocabulary.uncefact.org/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "CharacterSetCodeType": "https://vocabulary.uncefact.org/codelists/CharacterSetCodeType"
+    },
+    "@graph": [
+        {
+            "@id": "CharacterSetCodeType:3",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "3",
+            "rdfs:comment": "US-ASCII"
+        },
+        {
+            "@id": "CharacterSetCodeType:4",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "4",
+            "rdfs:comment": "ISO_8859-1:1987"
+        },
+        {
+            "@id": "CharacterSetCodeType:5",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "5",
+            "rdfs:comment": "ISO_8859-2:1987"
+        },
+        {
+            "@id": "CharacterSetCodeType:6",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "6",
+            "rdfs:comment": "ISO_8859-3:1988"
+        },
+        {
+            "@id": "CharacterSetCodeType:7",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "7",
+            "rdfs:comment": "ISO_8859-4:1988"
+        },
+        {
+            "@id": "CharacterSetCodeType:8",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "8",
+            "rdfs:comment": "ISO_8859-5:1988"
+        },
+        {
+            "@id": "CharacterSetCodeType:9",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "9",
+            "rdfs:comment": "ISO_8859-6:1987"
+        },
+        {
+            "@id": "CharacterSetCodeType:10",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "10",
+            "rdfs:comment": "ISO_8859-7:1987"
+        },
+        {
+            "@id": "CharacterSetCodeType:11",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "11",
+            "rdfs:comment": "ISO_8859-8:1988"
+        },
+        {
+            "@id": "CharacterSetCodeType:12",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "12",
+            "rdfs:comment": "ISO_8859-9:1989"
+        },
+        {
+            "@id": "CharacterSetCodeType:13",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "13",
+            "rdfs:comment": "ISO-8859-10"
+        },
+        {
+            "@id": "CharacterSetCodeType:14",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "14",
+            "rdfs:comment": "ISO_6937-2-add"
+        },
+        {
+            "@id": "CharacterSetCodeType:15",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "15",
+            "rdfs:comment": "JIS_X0201"
+        },
+        {
+            "@id": "CharacterSetCodeType:16",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "16",
+            "rdfs:comment": "JIS_Encoding"
+        },
+        {
+            "@id": "CharacterSetCodeType:17",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "17",
+            "rdfs:comment": "Shift_JIS"
+        },
+        {
+            "@id": "CharacterSetCodeType:18",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "18",
+            "rdfs:comment": "Extended_UNIX_Code_Packed_Format_for_Japanese"
+        },
+        {
+            "@id": "CharacterSetCodeType:19",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "19",
+            "rdfs:comment": "Extended_UNIX_Code_Fixed_Width_for_Japanese"
+        },
+        {
+            "@id": "CharacterSetCodeType:20",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "20",
+            "rdfs:comment": "BS_4730"
+        },
+        {
+            "@id": "CharacterSetCodeType:21",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "21",
+            "rdfs:comment": "SEN_850200_C"
+        },
+        {
+            "@id": "CharacterSetCodeType:22",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "22",
+            "rdfs:comment": "IT"
+        },
+        {
+            "@id": "CharacterSetCodeType:23",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "23",
+            "rdfs:comment": "ES"
+        },
+        {
+            "@id": "CharacterSetCodeType:24",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "24",
+            "rdfs:comment": "DIN_66003"
+        },
+        {
+            "@id": "CharacterSetCodeType:25",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "25",
+            "rdfs:comment": "NS_4551-1"
+        },
+        {
+            "@id": "CharacterSetCodeType:26",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "26",
+            "rdfs:comment": "NF_Z_62-010"
+        },
+        {
+            "@id": "CharacterSetCodeType:27",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "27",
+            "rdfs:comment": "ISO-10646-UTF-1"
+        },
+        {
+            "@id": "CharacterSetCodeType:28",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "28",
+            "rdfs:comment": "ISO_646.basic:1983"
+        },
+        {
+            "@id": "CharacterSetCodeType:29",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "29",
+            "rdfs:comment": "INVARIANT"
+        },
+        {
+            "@id": "CharacterSetCodeType:30",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "30",
+            "rdfs:comment": "ISO_646.irv:1983"
+        },
+        {
+            "@id": "CharacterSetCodeType:31",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "31",
+            "rdfs:comment": "NATS-SEFI"
+        },
+        {
+            "@id": "CharacterSetCodeType:32",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "32",
+            "rdfs:comment": "NATS-SEFI-ADD"
+        },
+        {
+            "@id": "CharacterSetCodeType:33",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "33",
+            "rdfs:comment": "NATS-DANO"
+        },
+        {
+            "@id": "CharacterSetCodeType:34",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "34",
+            "rdfs:comment": "NATS-DANO-ADD"
+        },
+        {
+            "@id": "CharacterSetCodeType:35",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "35",
+            "rdfs:comment": "SEN_850200_B"
+        },
+        {
+            "@id": "CharacterSetCodeType:36",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "36",
+            "rdfs:comment": "KS_C_5601-1987"
+        },
+        {
+            "@id": "CharacterSetCodeType:37",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "37",
+            "rdfs:comment": "ISO-2022-KR"
+        },
+        {
+            "@id": "CharacterSetCodeType:38",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "38",
+            "rdfs:comment": "EUC-KR"
+        },
+        {
+            "@id": "CharacterSetCodeType:39",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "39",
+            "rdfs:comment": "ISO-2022-JP"
+        },
+        {
+            "@id": "CharacterSetCodeType:40",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "40",
+            "rdfs:comment": "ISO-2022-JP-2"
+        },
+        {
+            "@id": "CharacterSetCodeType:41",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "41",
+            "rdfs:comment": "JIS_C6220-1969-jp"
+        },
+        {
+            "@id": "CharacterSetCodeType:42",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "42",
+            "rdfs:comment": "JIS_C6220-1969-ro"
+        },
+        {
+            "@id": "CharacterSetCodeType:43",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "43",
+            "rdfs:comment": "PT"
+        },
+        {
+            "@id": "CharacterSetCodeType:44",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "44",
+            "rdfs:comment": "greek7-old"
+        },
+        {
+            "@id": "CharacterSetCodeType:45",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "45",
+            "rdfs:comment": "latin-greek"
+        },
+        {
+            "@id": "CharacterSetCodeType:46",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "46",
+            "rdfs:comment": "NF_Z_62-010_(1973)"
+        },
+        {
+            "@id": "CharacterSetCodeType:47",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "47",
+            "rdfs:comment": "Latin-greek-1"
+        },
+        {
+            "@id": "CharacterSetCodeType:48",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "48",
+            "rdfs:comment": "ISO_5427"
+        },
+        {
+            "@id": "CharacterSetCodeType:49",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "49",
+            "rdfs:comment": "JIS_C6226-1978"
+        },
+        {
+            "@id": "CharacterSetCodeType:50",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "50",
+            "rdfs:comment": "BS_viewdata"
+        },
+        {
+            "@id": "CharacterSetCodeType:51",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "51",
+            "rdfs:comment": "INIS"
+        },
+        {
+            "@id": "CharacterSetCodeType:52",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "52",
+            "rdfs:comment": "INIS-8"
+        },
+        {
+            "@id": "CharacterSetCodeType:53",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "53",
+            "rdfs:comment": "INIS-cyrillic"
+        },
+        {
+            "@id": "CharacterSetCodeType:54",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "54",
+            "rdfs:comment": "ISO_5427:1981"
+        },
+        {
+            "@id": "CharacterSetCodeType:55",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "55",
+            "rdfs:comment": "ISO_5428:1980"
+        },
+        {
+            "@id": "CharacterSetCodeType:56",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "56",
+            "rdfs:comment": "GB_1988-80"
+        },
+        {
+            "@id": "CharacterSetCodeType:57",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "57",
+            "rdfs:comment": "GB_2312-80"
+        },
+        {
+            "@id": "CharacterSetCodeType:58",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "58",
+            "rdfs:comment": "NS_4551-2"
+        },
+        {
+            "@id": "CharacterSetCodeType:59",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "59",
+            "rdfs:comment": "videotex-suppl"
+        },
+        {
+            "@id": "CharacterSetCodeType:60",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "60",
+            "rdfs:comment": "PT2"
+        },
+        {
+            "@id": "CharacterSetCodeType:61",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "61",
+            "rdfs:comment": "ES2"
+        },
+        {
+            "@id": "CharacterSetCodeType:62",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "62",
+            "rdfs:comment": "MSZ_7795.3"
+        },
+        {
+            "@id": "CharacterSetCodeType:63",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "63",
+            "rdfs:comment": "JIS_C6226-1983"
+        },
+        {
+            "@id": "CharacterSetCodeType:64",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "64",
+            "rdfs:comment": "greek7"
+        },
+        {
+            "@id": "CharacterSetCodeType:65",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "65",
+            "rdfs:comment": "ASMO_449"
+        },
+        {
+            "@id": "CharacterSetCodeType:66",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "66",
+            "rdfs:comment": "iso-ir-90"
+        },
+        {
+            "@id": "CharacterSetCodeType:67",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "67",
+            "rdfs:comment": "JIS_C6229-1984-a"
+        },
+        {
+            "@id": "CharacterSetCodeType:68",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "68",
+            "rdfs:comment": "JIS_C6229-1984-b"
+        },
+        {
+            "@id": "CharacterSetCodeType:69",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "69",
+            "rdfs:comment": "JIS_C6229-1984-b-add"
+        },
+        {
+            "@id": "CharacterSetCodeType:70",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "70",
+            "rdfs:comment": "JIS_C6229-1984-hand"
+        },
+        {
+            "@id": "CharacterSetCodeType:71",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "71",
+            "rdfs:comment": "JIS_C6229-1984-hand-add"
+        },
+        {
+            "@id": "CharacterSetCodeType:72",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "72",
+            "rdfs:comment": "JIS_C6229-1984-kana"
+        },
+        {
+            "@id": "CharacterSetCodeType:73",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "73",
+            "rdfs:comment": "ISO_2033-1983"
+        },
+        {
+            "@id": "CharacterSetCodeType:74",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "74",
+            "rdfs:comment": "ANSI_X3.110-1983"
+        },
+        {
+            "@id": "CharacterSetCodeType:75",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "75",
+            "rdfs:comment": "T.61-7bit"
+        },
+        {
+            "@id": "CharacterSetCodeType:76",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "76",
+            "rdfs:comment": "T.61-8bit"
+        },
+        {
+            "@id": "CharacterSetCodeType:77",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "77",
+            "rdfs:comment": "ECMA-cyrillic"
+        },
+        {
+            "@id": "CharacterSetCodeType:78",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "78",
+            "rdfs:comment": "CSA_Z243.4-1985-1"
+        },
+        {
+            "@id": "CharacterSetCodeType:79",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "79",
+            "rdfs:comment": "CSA_Z243.4-1985-2"
+        },
+        {
+            "@id": "CharacterSetCodeType:80",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "80",
+            "rdfs:comment": "CSA_Z243.4-1985-gr"
+        },
+        {
+            "@id": "CharacterSetCodeType:81",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "81",
+            "rdfs:comment": "ISO_8859-6-E"
+        },
+        {
+            "@id": "CharacterSetCodeType:82",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "82",
+            "rdfs:comment": "ISO_8859-6-I"
+        },
+        {
+            "@id": "CharacterSetCodeType:83",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "83",
+            "rdfs:comment": "T.101-G2"
+        },
+        {
+            "@id": "CharacterSetCodeType:84",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "84",
+            "rdfs:comment": "ISO_8859-8-E"
+        },
+        {
+            "@id": "CharacterSetCodeType:85",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "85",
+            "rdfs:comment": "ISO_8859-8-I"
+        },
+        {
+            "@id": "CharacterSetCodeType:86",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "86",
+            "rdfs:comment": "CSN_369103"
+        },
+        {
+            "@id": "CharacterSetCodeType:87",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "87",
+            "rdfs:comment": "JUS_I.B1.002"
+        },
+        {
+            "@id": "CharacterSetCodeType:88",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "88",
+            "rdfs:comment": "IEC_P27-1"
+        },
+        {
+            "@id": "CharacterSetCodeType:89",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "89",
+            "rdfs:comment": "JUS_I.B1.003-serb"
+        },
+        {
+            "@id": "CharacterSetCodeType:90",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "90",
+            "rdfs:comment": "JUS_I.B1.003-mac"
+        },
+        {
+            "@id": "CharacterSetCodeType:91",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "91",
+            "rdfs:comment": "greek-ccitt"
+        },
+        {
+            "@id": "CharacterSetCodeType:92",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "92",
+            "rdfs:comment": "NC_NC00-10:81"
+        },
+        {
+            "@id": "CharacterSetCodeType:93",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "93",
+            "rdfs:comment": "ISO_6937-2-25"
+        },
+        {
+            "@id": "CharacterSetCodeType:94",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "94",
+            "rdfs:comment": "GOST_19768-74"
+        },
+        {
+            "@id": "CharacterSetCodeType:95",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "95",
+            "rdfs:comment": "ISO_8859-supp"
+        },
+        {
+            "@id": "CharacterSetCodeType:96",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "96",
+            "rdfs:comment": "ISO_10367-box"
+        },
+        {
+            "@id": "CharacterSetCodeType:97",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "97",
+            "rdfs:comment": "latin-lap"
+        },
+        {
+            "@id": "CharacterSetCodeType:98",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "98",
+            "rdfs:comment": "JIS_X0212-1990"
+        },
+        {
+            "@id": "CharacterSetCodeType:99",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "99",
+            "rdfs:comment": "DS_2089"
+        },
+        {
+            "@id": "CharacterSetCodeType:100",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "100",
+            "rdfs:comment": "us-dk"
+        },
+        {
+            "@id": "CharacterSetCodeType:101",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "101",
+            "rdfs:comment": "dk-us"
+        },
+        {
+            "@id": "CharacterSetCodeType:102",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "102",
+            "rdfs:comment": "KSC5636"
+        },
+        {
+            "@id": "CharacterSetCodeType:103",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "103",
+            "rdfs:comment": "UNICODE-1-1-UTF-7"
+        },
+        {
+            "@id": "CharacterSetCodeType:104",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "104",
+            "rdfs:comment": "ISO-2022-CN"
+        },
+        {
+            "@id": "CharacterSetCodeType:105",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "105",
+            "rdfs:comment": "ISO-2022-CN-EXT"
+        },
+        {
+            "@id": "CharacterSetCodeType:106",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "106",
+            "rdfs:comment": "UTF-8"
+        },
+        {
+            "@id": "CharacterSetCodeType:109",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "109",
+            "rdfs:comment": "ISO-8859-13"
+        },
+        {
+            "@id": "CharacterSetCodeType:110",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "110",
+            "rdfs:comment": "ISO-8859-14"
+        },
+        {
+            "@id": "CharacterSetCodeType:111",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "111",
+            "rdfs:comment": "ISO-8859-15"
+        },
+        {
+            "@id": "CharacterSetCodeType:112",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "112",
+            "rdfs:comment": "ISO-8859-16"
+        },
+        {
+            "@id": "CharacterSetCodeType:113",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "113",
+            "rdfs:comment": "GBK"
+        },
+        {
+            "@id": "CharacterSetCodeType:114",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "114",
+            "rdfs:comment": "GB18030"
+        },
+        {
+            "@id": "CharacterSetCodeType:115",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "115",
+            "rdfs:comment": "OSD_EBCDIC_DF04_15"
+        },
+        {
+            "@id": "CharacterSetCodeType:116",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "116",
+            "rdfs:comment": "OSD_EBCDIC_DF03_IRV"
+        },
+        {
+            "@id": "CharacterSetCodeType:117",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "117",
+            "rdfs:comment": "OSD_EBCDIC_DF04_1"
+        },
+        {
+            "@id": "CharacterSetCodeType:118",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "118",
+            "rdfs:comment": "ISO-11548-1"
+        },
+        {
+            "@id": "CharacterSetCodeType:119",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "119",
+            "rdfs:comment": "KZ-1048"
+        },
+        {
+            "@id": "CharacterSetCodeType:1000",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "1000",
+            "rdfs:comment": "ISO-10646-UCS-2"
+        },
+        {
+            "@id": "CharacterSetCodeType:1001",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "1001",
+            "rdfs:comment": "ISO-10646-UCS-4"
+        },
+        {
+            "@id": "CharacterSetCodeType:1002",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "1002",
+            "rdfs:comment": "ISO-10646-UCS-Basic"
+        },
+        {
+            "@id": "CharacterSetCodeType:1003",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "1003",
+            "rdfs:comment": "ISO-10646-Unicode-Latin1"
+        },
+        {
+            "@id": "CharacterSetCodeType:1004",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "1004",
+            "rdfs:comment": "ISO-10646-J-1"
+        },
+        {
+            "@id": "CharacterSetCodeType:1005",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "1005",
+            "rdfs:comment": "ISO-Unicode-IBM-1261"
+        },
+        {
+            "@id": "CharacterSetCodeType:1006",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "1006",
+            "rdfs:comment": "ISO-Unicode-IBM-1268"
+        },
+        {
+            "@id": "CharacterSetCodeType:1007",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "1007",
+            "rdfs:comment": "ISO-Unicode-IBM-1276"
+        },
+        {
+            "@id": "CharacterSetCodeType:1008",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "1008",
+            "rdfs:comment": "ISO-Unicode-IBM-1264"
+        },
+        {
+            "@id": "CharacterSetCodeType:1009",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "1009",
+            "rdfs:comment": "ISO-Unicode-IBM-1265"
+        },
+        {
+            "@id": "CharacterSetCodeType:1010",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "1010",
+            "rdfs:comment": "UNICODE-1-1"
+        },
+        {
+            "@id": "CharacterSetCodeType:1011",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "1011",
+            "rdfs:comment": "SCSU"
+        },
+        {
+            "@id": "CharacterSetCodeType:1012",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "1012",
+            "rdfs:comment": "UTF-7"
+        },
+        {
+            "@id": "CharacterSetCodeType:1013",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "1013",
+            "rdfs:comment": "UTF-16BE"
+        },
+        {
+            "@id": "CharacterSetCodeType:1014",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "1014",
+            "rdfs:comment": "UTF-16LE"
+        },
+        {
+            "@id": "CharacterSetCodeType:1015",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "1015",
+            "rdfs:comment": "UTF-16"
+        },
+        {
+            "@id": "CharacterSetCodeType:1016",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "1016",
+            "rdfs:comment": "CESU-8"
+        },
+        {
+            "@id": "CharacterSetCodeType:1017",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "1017",
+            "rdfs:comment": "UTF-32"
+        },
+        {
+            "@id": "CharacterSetCodeType:1018",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "1018",
+            "rdfs:comment": "UTF-32BE"
+        },
+        {
+            "@id": "CharacterSetCodeType:1019",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "1019",
+            "rdfs:comment": "UTF-32LE"
+        },
+        {
+            "@id": "CharacterSetCodeType:1020",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "1020",
+            "rdfs:comment": "BOCU-1"
+        },
+        {
+            "@id": "CharacterSetCodeType:2000",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2000",
+            "rdfs:comment": "ISO-8859-1-Windows-3.0-Latin-1"
+        },
+        {
+            "@id": "CharacterSetCodeType:2001",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2001",
+            "rdfs:comment": "ISO-8859-1-Windows-3.1-Latin-1"
+        },
+        {
+            "@id": "CharacterSetCodeType:2002",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2002",
+            "rdfs:comment": "ISO-8859-2-Windows-Latin-2"
+        },
+        {
+            "@id": "CharacterSetCodeType:2003",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2003",
+            "rdfs:comment": "ISO-8859-9-Windows-Latin-5"
+        },
+        {
+            "@id": "CharacterSetCodeType:2004",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2004",
+            "rdfs:comment": "hp-roman8"
+        },
+        {
+            "@id": "CharacterSetCodeType:2005",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2005",
+            "rdfs:comment": "Adobe-Standard-Encoding"
+        },
+        {
+            "@id": "CharacterSetCodeType:2006",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2006",
+            "rdfs:comment": "Ventura-US"
+        },
+        {
+            "@id": "CharacterSetCodeType:2007",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2007",
+            "rdfs:comment": "Ventura-International"
+        },
+        {
+            "@id": "CharacterSetCodeType:2008",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2008",
+            "rdfs:comment": "DEC-MCS"
+        },
+        {
+            "@id": "CharacterSetCodeType:2009",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2009",
+            "rdfs:comment": "IBM850"
+        },
+        {
+            "@id": "CharacterSetCodeType:2010",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2010",
+            "rdfs:comment": "IBM852"
+        },
+        {
+            "@id": "CharacterSetCodeType:2011",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2011",
+            "rdfs:comment": "IBM437"
+        },
+        {
+            "@id": "CharacterSetCodeType:2012",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2012",
+            "rdfs:comment": "PC8-Danish-Norwegian"
+        },
+        {
+            "@id": "CharacterSetCodeType:2013",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2013",
+            "rdfs:comment": "IBM862"
+        },
+        {
+            "@id": "CharacterSetCodeType:2014",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2014",
+            "rdfs:comment": "PC8-Turkish"
+        },
+        {
+            "@id": "CharacterSetCodeType:2015",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2015",
+            "rdfs:comment": "IBM-Symbols"
+        },
+        {
+            "@id": "CharacterSetCodeType:2016",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2016",
+            "rdfs:comment": "IBM-Thai"
+        },
+        {
+            "@id": "CharacterSetCodeType:2017",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2017",
+            "rdfs:comment": "HP-Legal"
+        },
+        {
+            "@id": "CharacterSetCodeType:2018",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2018",
+            "rdfs:comment": "HP-Pi-font"
+        },
+        {
+            "@id": "CharacterSetCodeType:2019",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2019",
+            "rdfs:comment": "HP-Math8"
+        },
+        {
+            "@id": "CharacterSetCodeType:2020",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2020",
+            "rdfs:comment": "Adobe-Symbol-Encoding"
+        },
+        {
+            "@id": "CharacterSetCodeType:2021",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2021",
+            "rdfs:comment": "HP-DeskTop"
+        },
+        {
+            "@id": "CharacterSetCodeType:2022",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2022",
+            "rdfs:comment": "Ventura-Math"
+        },
+        {
+            "@id": "CharacterSetCodeType:2023",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2023",
+            "rdfs:comment": "Microsoft-Publishing"
+        },
+        {
+            "@id": "CharacterSetCodeType:2024",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2024",
+            "rdfs:comment": "Windows-31J"
+        },
+        {
+            "@id": "CharacterSetCodeType:2025",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2025",
+            "rdfs:comment": "GB2312"
+        },
+        {
+            "@id": "CharacterSetCodeType:2026",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2026",
+            "rdfs:comment": "Big5"
+        },
+        {
+            "@id": "CharacterSetCodeType:2027",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2027",
+            "rdfs:comment": "macintosh"
+        },
+        {
+            "@id": "CharacterSetCodeType:2028",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2028",
+            "rdfs:comment": "IBM037"
+        },
+        {
+            "@id": "CharacterSetCodeType:2029",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2029",
+            "rdfs:comment": "IBM038"
+        },
+        {
+            "@id": "CharacterSetCodeType:2030",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2030",
+            "rdfs:comment": "IBM273"
+        },
+        {
+            "@id": "CharacterSetCodeType:2031",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2031",
+            "rdfs:comment": "IBM274"
+        },
+        {
+            "@id": "CharacterSetCodeType:2032",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2032",
+            "rdfs:comment": "IBM275"
+        },
+        {
+            "@id": "CharacterSetCodeType:2033",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2033",
+            "rdfs:comment": "IBM277"
+        },
+        {
+            "@id": "CharacterSetCodeType:2034",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2034",
+            "rdfs:comment": "IBM278"
+        },
+        {
+            "@id": "CharacterSetCodeType:2035",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2035",
+            "rdfs:comment": "IBM280"
+        },
+        {
+            "@id": "CharacterSetCodeType:2036",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2036",
+            "rdfs:comment": "IBM281"
+        },
+        {
+            "@id": "CharacterSetCodeType:2037",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2037",
+            "rdfs:comment": "IBM284"
+        },
+        {
+            "@id": "CharacterSetCodeType:2038",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2038",
+            "rdfs:comment": "IBM285"
+        },
+        {
+            "@id": "CharacterSetCodeType:2039",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2039",
+            "rdfs:comment": "IBM290"
+        },
+        {
+            "@id": "CharacterSetCodeType:2040",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2040",
+            "rdfs:comment": "IBM297"
+        },
+        {
+            "@id": "CharacterSetCodeType:2041",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2041",
+            "rdfs:comment": "IBM420"
+        },
+        {
+            "@id": "CharacterSetCodeType:2042",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2042",
+            "rdfs:comment": "IBM423"
+        },
+        {
+            "@id": "CharacterSetCodeType:2043",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2043",
+            "rdfs:comment": "IBM424"
+        },
+        {
+            "@id": "CharacterSetCodeType:2044",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2044",
+            "rdfs:comment": "IBM500"
+        },
+        {
+            "@id": "CharacterSetCodeType:2045",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2045",
+            "rdfs:comment": "IBM851"
+        },
+        {
+            "@id": "CharacterSetCodeType:2046",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2046",
+            "rdfs:comment": "IBM855"
+        },
+        {
+            "@id": "CharacterSetCodeType:2047",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2047",
+            "rdfs:comment": "IBM857"
+        },
+        {
+            "@id": "CharacterSetCodeType:2048",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2048",
+            "rdfs:comment": "IBM860"
+        },
+        {
+            "@id": "CharacterSetCodeType:2049",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2049",
+            "rdfs:comment": "IBM861"
+        },
+        {
+            "@id": "CharacterSetCodeType:2050",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2050",
+            "rdfs:comment": "IBM863"
+        },
+        {
+            "@id": "CharacterSetCodeType:2051",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2051",
+            "rdfs:comment": "IBM864"
+        },
+        {
+            "@id": "CharacterSetCodeType:2052",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2052",
+            "rdfs:comment": "IBM865"
+        },
+        {
+            "@id": "CharacterSetCodeType:2053",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2053",
+            "rdfs:comment": "IBM868"
+        },
+        {
+            "@id": "CharacterSetCodeType:2054",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2054",
+            "rdfs:comment": "IBM869"
+        },
+        {
+            "@id": "CharacterSetCodeType:2055",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2055",
+            "rdfs:comment": "IBM870"
+        },
+        {
+            "@id": "CharacterSetCodeType:2056",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2056",
+            "rdfs:comment": "IBM871"
+        },
+        {
+            "@id": "CharacterSetCodeType:2057",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2057",
+            "rdfs:comment": "IBM880"
+        },
+        {
+            "@id": "CharacterSetCodeType:2058",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2058",
+            "rdfs:comment": "IBM891"
+        },
+        {
+            "@id": "CharacterSetCodeType:2059",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2059",
+            "rdfs:comment": "IBM903"
+        },
+        {
+            "@id": "CharacterSetCodeType:2060",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2060",
+            "rdfs:comment": "IBM904"
+        },
+        {
+            "@id": "CharacterSetCodeType:2061",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2061",
+            "rdfs:comment": "IBM905"
+        },
+        {
+            "@id": "CharacterSetCodeType:2062",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2062",
+            "rdfs:comment": "IBM918"
+        },
+        {
+            "@id": "CharacterSetCodeType:2063",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2063",
+            "rdfs:comment": "IBM1026"
+        },
+        {
+            "@id": "CharacterSetCodeType:2064",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2064",
+            "rdfs:comment": "EBCDIC-AT-DE"
+        },
+        {
+            "@id": "CharacterSetCodeType:2065",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2065",
+            "rdfs:comment": "EBCDIC-AT-DE-A"
+        },
+        {
+            "@id": "CharacterSetCodeType:2066",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2066",
+            "rdfs:comment": "EBCDIC-CA-FR"
+        },
+        {
+            "@id": "CharacterSetCodeType:2067",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2067",
+            "rdfs:comment": "EBCDIC-DK-NO"
+        },
+        {
+            "@id": "CharacterSetCodeType:2068",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2068",
+            "rdfs:comment": "EBCDIC-DK-NO-A"
+        },
+        {
+            "@id": "CharacterSetCodeType:2069",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2069",
+            "rdfs:comment": "EBCDIC-FI-SE"
+        },
+        {
+            "@id": "CharacterSetCodeType:2070",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2070",
+            "rdfs:comment": "EBCDIC-FI-SE-A"
+        },
+        {
+            "@id": "CharacterSetCodeType:2071",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2071",
+            "rdfs:comment": "EBCDIC-FR"
+        },
+        {
+            "@id": "CharacterSetCodeType:2072",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2072",
+            "rdfs:comment": "EBCDIC-IT"
+        },
+        {
+            "@id": "CharacterSetCodeType:2073",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2073",
+            "rdfs:comment": "EBCDIC-PT"
+        },
+        {
+            "@id": "CharacterSetCodeType:2074",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2074",
+            "rdfs:comment": "EBCDIC-ES"
+        },
+        {
+            "@id": "CharacterSetCodeType:2075",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2075",
+            "rdfs:comment": "EBCDIC-ES-A"
+        },
+        {
+            "@id": "CharacterSetCodeType:2076",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2076",
+            "rdfs:comment": "EBCDIC-ES-S"
+        },
+        {
+            "@id": "CharacterSetCodeType:2077",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2077",
+            "rdfs:comment": "EBCDIC-UK"
+        },
+        {
+            "@id": "CharacterSetCodeType:2078",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2078",
+            "rdfs:comment": "EBCDIC-US"
+        },
+        {
+            "@id": "CharacterSetCodeType:2079",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2079",
+            "rdfs:comment": "UNKNOWN-8BIT"
+        },
+        {
+            "@id": "CharacterSetCodeType:2080",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2080",
+            "rdfs:comment": "MNEMONIC"
+        },
+        {
+            "@id": "CharacterSetCodeType:2081",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2081",
+            "rdfs:comment": "MNEM"
+        },
+        {
+            "@id": "CharacterSetCodeType:2082",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2082",
+            "rdfs:comment": "VISCII"
+        },
+        {
+            "@id": "CharacterSetCodeType:2083",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2083",
+            "rdfs:comment": "VIQR"
+        },
+        {
+            "@id": "CharacterSetCodeType:2084",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2084",
+            "rdfs:comment": "KOI8-R"
+        },
+        {
+            "@id": "CharacterSetCodeType:2085",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2085",
+            "rdfs:comment": "HZ-GB-2312"
+        },
+        {
+            "@id": "CharacterSetCodeType:2086",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2086",
+            "rdfs:comment": "IBM866"
+        },
+        {
+            "@id": "CharacterSetCodeType:2087",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2087",
+            "rdfs:comment": "IBM775"
+        },
+        {
+            "@id": "CharacterSetCodeType:2088",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2088",
+            "rdfs:comment": "KOI8-U"
+        },
+        {
+            "@id": "CharacterSetCodeType:2089",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2089",
+            "rdfs:comment": "IBM00858"
+        },
+        {
+            "@id": "CharacterSetCodeType:2090",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2090",
+            "rdfs:comment": "IBM00924"
+        },
+        {
+            "@id": "CharacterSetCodeType:2091",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2091",
+            "rdfs:comment": "IBM01140"
+        },
+        {
+            "@id": "CharacterSetCodeType:2092",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2092",
+            "rdfs:comment": "IBM01141"
+        },
+        {
+            "@id": "CharacterSetCodeType:2093",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2093",
+            "rdfs:comment": "IBM01142"
+        },
+        {
+            "@id": "CharacterSetCodeType:2094",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2094",
+            "rdfs:comment": "IBM01143"
+        },
+        {
+            "@id": "CharacterSetCodeType:2095",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2095",
+            "rdfs:comment": "IBM01144"
+        },
+        {
+            "@id": "CharacterSetCodeType:2096",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2096",
+            "rdfs:comment": "IBM01145"
+        },
+        {
+            "@id": "CharacterSetCodeType:2097",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2097",
+            "rdfs:comment": "IBM01146"
+        },
+        {
+            "@id": "CharacterSetCodeType:2098",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2098",
+            "rdfs:comment": "IBM01147"
+        },
+        {
+            "@id": "CharacterSetCodeType:2099",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2099",
+            "rdfs:comment": "IBM01148"
+        },
+        {
+            "@id": "CharacterSetCodeType:2100",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2100",
+            "rdfs:comment": "IBM01149"
+        },
+        {
+            "@id": "CharacterSetCodeType:2101",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2101",
+            "rdfs:comment": "Big5-HKSCS"
+        },
+        {
+            "@id": "CharacterSetCodeType:2102",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2102",
+            "rdfs:comment": "IBM1047"
+        },
+        {
+            "@id": "CharacterSetCodeType:2103",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2103",
+            "rdfs:comment": "PTCP154"
+        },
+        {
+            "@id": "CharacterSetCodeType:2104",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2104",
+            "rdfs:comment": "Amiga-1251"
+        },
+        {
+            "@id": "CharacterSetCodeType:2105",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2105",
+            "rdfs:comment": "KOI7-switched"
+        },
+        {
+            "@id": "CharacterSetCodeType:2106",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2106",
+            "rdfs:comment": "BRF"
+        },
+        {
+            "@id": "CharacterSetCodeType:2107",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2107",
+            "rdfs:comment": "TSCII"
+        },
+        {
+            "@id": "CharacterSetCodeType:2108",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2108",
+            "rdfs:comment": "CP51932"
+        },
+        {
+            "@id": "CharacterSetCodeType:2109",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2109",
+            "rdfs:comment": "windows-874"
+        },
+        {
+            "@id": "CharacterSetCodeType:2250",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2250",
+            "rdfs:comment": "windows-1250"
+        },
+        {
+            "@id": "CharacterSetCodeType:2251",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2251",
+            "rdfs:comment": "windows-1251"
+        },
+        {
+            "@id": "CharacterSetCodeType:2252",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2252",
+            "rdfs:comment": "windows-1252"
+        },
+        {
+            "@id": "CharacterSetCodeType:2253",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2253",
+            "rdfs:comment": "windows-1253"
+        },
+        {
+            "@id": "CharacterSetCodeType:2254",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2254",
+            "rdfs:comment": "windows-1254"
+        },
+        {
+            "@id": "CharacterSetCodeType:2255",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2255",
+            "rdfs:comment": "windows-1255"
+        },
+        {
+            "@id": "CharacterSetCodeType:2256",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2256",
+            "rdfs:comment": "windows-1256"
+        },
+        {
+            "@id": "CharacterSetCodeType:2257",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2257",
+            "rdfs:comment": "windows-1257"
+        },
+        {
+            "@id": "CharacterSetCodeType:2258",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2258",
+            "rdfs:comment": "windows-1258"
+        },
+        {
+            "@id": "CharacterSetCodeType:2259",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2259",
+            "rdfs:comment": "TIS-620"
+        },
+        {
+            "@id": "CharacterSetCodeType:2260",
+            "@type": "unece:BinaryObjectCharacterSetCodeType",
+            "rdf:value": "2260",
+            "rdfs:comment": "CP50220"
+        }
+    ]
+}

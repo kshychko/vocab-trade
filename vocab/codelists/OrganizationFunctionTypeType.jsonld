@@ -1,0 +1,47 @@
+
+{
+    "@context": {
+        "unece": "https://vocabulary.uncefact.org/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "OrganizationFunctionTypeType": "https://vocabulary.uncefact.org/codelists/OrganizationFunctionTypeType"
+    },
+    "@graph": [
+        {
+            "@id": "OrganizationFunctionTypeType:5",
+            "@type": "unece:OrganizationFunctionTypeCodeType",
+            "rdf:value": "5",
+            "rdfs:comment": "Management Chartered Centre"
+        },
+        {
+            "@id": "OrganizationFunctionTypeType:6",
+            "@type": "unece:OrganizationFunctionTypeCodeType",
+            "rdf:value": "6",
+            "rdfs:comment": "Management Chartered Association"
+        },
+        {
+            "@id": "OrganizationFunctionTypeType:AUD",
+            "@type": "unece:OrganizationFunctionTypeCodeType",
+            "rdf:value": "AUD",
+            "rdfs:comment": "Audit Firm"
+        },
+        {
+            "@id": "OrganizationFunctionTypeType:CER",
+            "@type": "unece:OrganizationFunctionTypeCodeType",
+            "rdf:value": "CER",
+            "rdfs:comment": "Centre of Rural Economy Firm"
+        },
+        {
+            "@id": "OrganizationFunctionTypeType:EXC",
+            "@type": "unece:OrganizationFunctionTypeCodeType",
+            "rdf:value": "EXC",
+            "rdfs:comment": "Chartered Accountant Firm"
+        },
+        {
+            "@id": "OrganizationFunctionTypeType:LAU",
+            "@type": "unece:OrganizationFunctionTypeCodeType",
+            "rdf:value": "LAU",
+            "rdfs:comment": "Legal Audit Firm"
+        }
+    ]
+}

@@ -1,0 +1,71 @@
+
+{
+    "@context": {
+        "unece": "https://vocabulary.uncefact.org/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "AutomaticDataCaptureMethodCodeType": "https://vocabulary.uncefact.org/codelists/AutomaticDataCaptureMethodCodeType"
+    },
+    "@graph": [
+        {
+            "@id": "AutomaticDataCaptureMethodCodeType:50",
+            "@type": "unece:AutomaticDataCaptureMethodCodeType",
+            "rdf:value": "50",
+            "rdfs:comment": "Package barcoded EAN-13 or EAN-8"
+        },
+        {
+            "@id": "AutomaticDataCaptureMethodCodeType:51",
+            "@type": "unece:AutomaticDataCaptureMethodCodeType",
+            "rdf:value": "51",
+            "rdfs:comment": "Package barcoded ITF-14 or ITF-6"
+        },
+        {
+            "@id": "AutomaticDataCaptureMethodCodeType:52",
+            "@type": "unece:AutomaticDataCaptureMethodCodeType",
+            "rdf:value": "52",
+            "rdfs:comment": "Package barcoded UCC or EAN-128"
+        },
+        {
+            "@id": "AutomaticDataCaptureMethodCodeType:64",
+            "@type": "unece:AutomaticDataCaptureMethodCodeType",
+            "rdf:value": "64",
+            "rdfs:comment": "Package never EPC tagged"
+        },
+        {
+            "@id": "AutomaticDataCaptureMethodCodeType:65",
+            "@type": "unece:AutomaticDataCaptureMethodCodeType",
+            "rdf:value": "65",
+            "rdfs:comment": "Package sometimes EPC tagged"
+        },
+        {
+            "@id": "AutomaticDataCaptureMethodCodeType:67",
+            "@type": "unece:AutomaticDataCaptureMethodCodeType",
+            "rdf:value": "67",
+            "rdfs:comment": "Tagging/bar code instructions"
+        },
+        {
+            "@id": "AutomaticDataCaptureMethodCodeType:78",
+            "@type": "unece:AutomaticDataCaptureMethodCodeType",
+            "rdf:value": "78",
+            "rdfs:comment": "Package bar-coded and EPC tagged"
+        },
+        {
+            "@id": "AutomaticDataCaptureMethodCodeType:79",
+            "@type": "unece:AutomaticDataCaptureMethodCodeType",
+            "rdf:value": "79",
+            "rdfs:comment": "Package EPC tagged only"
+        },
+        {
+            "@id": "AutomaticDataCaptureMethodCodeType:81",
+            "@type": "unece:AutomaticDataCaptureMethodCodeType",
+            "rdf:value": "81",
+            "rdfs:comment": "Package marked with a variable measure barcode"
+        },
+        {
+            "@id": "AutomaticDataCaptureMethodCodeType:82",
+            "@type": "unece:AutomaticDataCaptureMethodCodeType",
+            "rdf:value": "82",
+            "rdfs:comment": "Package marked with fixed measure barcode."
+        }
+    ]
+}

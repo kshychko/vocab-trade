@@ -1,0 +1,2471 @@
+
+{
+    "@context": {
+        "unece": "https://vocabulary.uncefact.org/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "AgencyIdentificationCodeType": "https://vocabulary.uncefact.org/codelists/AgencyIdentificationCodeType"
+    },
+    "@graph": [
+        {
+            "@id": "AgencyIdentificationCodeType:1",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "1",
+            "rdfs:comment": "CCC (Customs Co-operation Council)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:2",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "2",
+            "rdfs:comment": "CEC (Commission of the European Communities)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:3",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "3",
+            "rdfs:comment": "IATA (International Air Transport Association)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:4",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "4",
+            "rdfs:comment": "ICC (International Chamber of Commerce)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:5",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "5",
+            "rdfs:comment": "ISO (International Organization for Standardization)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:6",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "6",
+            "rdfs:comment": "UN/ECE (United Nations - Economic Commission for Europe)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:7",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "7",
+            "rdfs:comment": "CEFIC (Conseil Europeen des Federations de l'Industrie Chimique)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:8",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "8",
+            "rdfs:comment": "EDIFICE"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:9",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "9",
+            "rdfs:comment": "GS1"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:10",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "10",
+            "rdfs:comment": "ODETTE"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:11",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "11",
+            "rdfs:comment": "Lloyd's register of shipping"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:12",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "12",
+            "rdfs:comment": "UIC (International union of railways)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:13",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "13",
+            "rdfs:comment": "ICAO (International Civil Aviation Organization)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:14",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "14",
+            "rdfs:comment": "ICS (International Chamber of Shipping)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:15",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "15",
+            "rdfs:comment": "RINET (Reinsurance and Insurance Network)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:16",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "16",
+            "rdfs:comment": "US, D&B (Dun & Bradstreet Corporation)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:17",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "17",
+            "rdfs:comment": "S.W.I.F.T."
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:18",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "18",
+            "rdfs:comment": "Conventions on SAD and transit (EC and EFTA)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:19",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "19",
+            "rdfs:comment": "FRRC (Federal Reserve Routing Code)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:20",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "20",
+            "rdfs:comment": "BIC (Bureau International des Containeurs)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:21",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "21",
+            "rdfs:comment": "Assigned by transport company"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:22",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "22",
+            "rdfs:comment": "US, ISA (Information Systems Agreement)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:23",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "23",
+            "rdfs:comment": "FR, EDITRANSPORT"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:24",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "24",
+            "rdfs:comment": "AU, ROA (Railways of Australia)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:25",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "25",
+            "rdfs:comment": "EDITEX (Europe)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:26",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "26",
+            "rdfs:comment": "NL, Foundation Uniform Transport Code"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:27",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "27",
+            "rdfs:comment": "US, FDA (Food and Drug Administration)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:28",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "28",
+            "rdfs:comment": "EDITEUR (European book sector electronic data interchange group)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:29",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "29",
+            "rdfs:comment": "GB, FLEETNET"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:30",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "30",
+            "rdfs:comment": "GB, ABTA (Association of British Travel Agencies)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:31",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "31",
+            "rdfs:comment": "FI, Finish State Railway"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:32",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "32",
+            "rdfs:comment": "PL, Polish State Railway"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:33",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "33",
+            "rdfs:comment": "BG, Bulgaria State Railway"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:34",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "34",
+            "rdfs:comment": "RO, Rumanian State Railway"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:35",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "35",
+            "rdfs:comment": "CZ, Tchechian State Railway"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:36",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "36",
+            "rdfs:comment": "HU, Hungarian State Railway"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:37",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "37",
+            "rdfs:comment": "GB, British Railways"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:38",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "38",
+            "rdfs:comment": "ES, Spanish National Railway"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:39",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "39",
+            "rdfs:comment": "SE, Swedish State Railway"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:40",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "40",
+            "rdfs:comment": "NO, Norwegian State Railway"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:41",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "41",
+            "rdfs:comment": "DE, German Railway"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:42",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "42",
+            "rdfs:comment": "AT, Austrian Federal Railways"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:43",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "43",
+            "rdfs:comment": "LU, Luxembourg National Railway Company"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:44",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "44",
+            "rdfs:comment": "IT, Italian State Railways"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:45",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "45",
+            "rdfs:comment": "NL, Netherlands Railways"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:46",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "46",
+            "rdfs:comment": "CH, Swiss Federal Railways"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:47",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "47",
+            "rdfs:comment": "DK, Danish State Railways"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:48",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "48",
+            "rdfs:comment": "FR, French National Railway Company"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:49",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "49",
+            "rdfs:comment": "BE, Belgian National Railway Company"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:50",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "50",
+            "rdfs:comment": "PT, Portuguese Railways"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:51",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "51",
+            "rdfs:comment": "SK, Slovakian State Railways"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:52",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "52",
+            "rdfs:comment": "IE, Irish Transport Company"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:53",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "53",
+            "rdfs:comment": "FIATA (International Federation of Freight Forwarders Associations)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:54",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "54",
+            "rdfs:comment": "IMO (International Maritime Organisation)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:55",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "55",
+            "rdfs:comment": "US, DOT (United States Department of Transportation)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:56",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "56",
+            "rdfs:comment": "TW, Trade-van"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:57",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "57",
+            "rdfs:comment": "TW, Chinese Taipei Customs"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:58",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "58",
+            "rdfs:comment": "EUROFER"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:59",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "59",
+            "rdfs:comment": "DE, EDIBAU"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:60",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "60",
+            "rdfs:comment": "Assigned by national trade agency"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:61",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "61",
+            "rdfs:comment": "Association Europeenne des Constructeurs de Materiel Aerospatial (AECMA)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:62",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "62",
+            "rdfs:comment": "US, DIstilled Spirits Council of the United States (DISCUS)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:63",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "63",
+            "rdfs:comment": "North Atlantic Treaty Organization (NATO)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:64",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "64",
+            "rdfs:comment": "FR, CLEEP"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:65",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "65",
+            "rdfs:comment": "GS1 France"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:66",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "66",
+            "rdfs:comment": "MY, Malaysian Customs and Excise"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:67",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "67",
+            "rdfs:comment": "MY, Malaysia Central Bank"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:68",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "68",
+            "rdfs:comment": "GS1 Italy"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:69",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "69",
+            "rdfs:comment": "US, National Alcohol Beverage Control Association (NABCA)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:70",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "70",
+            "rdfs:comment": "MY, Dagang.Net"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:71",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "71",
+            "rdfs:comment": "US, FCC (Federal Communications Commission)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:72",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "72",
+            "rdfs:comment": "US, MARAD (Maritime Administration)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:73",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "73",
+            "rdfs:comment": "US, DSAA (Defense Security Assistance Agency)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:74",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "74",
+            "rdfs:comment": "US, NRC (Nuclear Regulatory Commission)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:75",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "75",
+            "rdfs:comment": "US, ODTC (Office of Defense Trade Controls)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:76",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "76",
+            "rdfs:comment": "US, ATF (Bureau of Alcohol, Tobacco and Firearms)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:77",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "77",
+            "rdfs:comment": "US, BXA (Bureau of Export Administration)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:78",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "78",
+            "rdfs:comment": "US, FWS (Fish and Wildlife Service)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:79",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "79",
+            "rdfs:comment": "US, OFAC (Office of Foreign Assets Control)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:80",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "80",
+            "rdfs:comment": "BRMA/RAA - LIMNET - RINET Joint Venture"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:81",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "81",
+            "rdfs:comment": "RU, (SFT) Society for Financial Telecommunications"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:82",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "82",
+            "rdfs:comment": "NO, Enhetsregisteret ved Bronnoysundregisterne"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:83",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "83",
+            "rdfs:comment": "US, National Retail Federation"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:84",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "84",
+            "rdfs:comment": "DE, BRD (Gesetzgeber der Bundesrepublik Deutschland)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:85",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "85",
+            "rdfs:comment": "North America, Telecommunications Industry Forum"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:86",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "86",
+            "rdfs:comment": "Assigned by party originating the message"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:87",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "87",
+            "rdfs:comment": "Assigned by carrier"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:88",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "88",
+            "rdfs:comment": "Assigned by owner of operation"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:89",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "89",
+            "rdfs:comment": "Assigned by distributor"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:90",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "90",
+            "rdfs:comment": "Assigned by manufacturer"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:91",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "91",
+            "rdfs:comment": "Assigned by seller or seller's agent"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:92",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "92",
+            "rdfs:comment": "Assigned by buyer or buyer's agent"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:93",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "93",
+            "rdfs:comment": "AT, Austrian Customs"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:94",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "94",
+            "rdfs:comment": "AT, Austrian PTT"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:95",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "95",
+            "rdfs:comment": "AU, Australian Customs Service"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:96",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "96",
+            "rdfs:comment": "CA, Revenue Canada, Customs and Excise"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:97",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "97",
+            "rdfs:comment": "CH, Administration federale des contributions"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:98",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "98",
+            "rdfs:comment": "CH, Direction generale des douanes"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:99",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "99",
+            "rdfs:comment": "CH, Division des importations et exportations, OFAEE"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:100",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "100",
+            "rdfs:comment": "CH, Entreprise des PTT"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:101",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "101",
+            "rdfs:comment": "CH, Carbura"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:102",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "102",
+            "rdfs:comment": "CH, Centrale suisse pour l'importation du charbon"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:103",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "103",
+            "rdfs:comment": "CH, Office fiduciaire des importateurs de denrees alimentaires"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:104",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "104",
+            "rdfs:comment": "CH, Association suisse code des articles"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:105",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "105",
+            "rdfs:comment": "DK, Ministry of taxation, Central Customs and Tax Administration"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:106",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "106",
+            "rdfs:comment": "FR, Direction generale des douanes et droits indirects"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:107",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "107",
+            "rdfs:comment": "FR, INSEE"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:108",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "108",
+            "rdfs:comment": "FR, Banque de France"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:109",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "109",
+            "rdfs:comment": "GB, H.M. Customs & Excise"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:110",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "110",
+            "rdfs:comment": "IE, Revenue Commissioners, Customs AEP project"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:111",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "111",
+            "rdfs:comment": "US, U.S. Customs Service"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:112",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "112",
+            "rdfs:comment": "US, U.S. Census Bureau"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:113",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "113",
+            "rdfs:comment": "GS1 US"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:114",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "114",
+            "rdfs:comment": "US, ABA (American Bankers Association)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:116",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "116",
+            "rdfs:comment": "US, ANSI ASC X12"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:117",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "117",
+            "rdfs:comment": "AT, Geldausgabeautomaten-Service Gesellschaft m.b.H."
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:118",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "118",
+            "rdfs:comment": "SE, Svenska Bankfoereningen"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:119",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "119",
+            "rdfs:comment": "IT, Associazione Bancaria Italiana"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:120",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "120",
+            "rdfs:comment": "IT, Socieata' Interbancaria per l'Automazione"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:121",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "121",
+            "rdfs:comment": "CH, Telekurs AG"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:122",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "122",
+            "rdfs:comment": "CH, Swiss Securities Clearing Corporation"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:123",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "123",
+            "rdfs:comment": "NO, Norwegian Interbank Research Organization"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:124",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "124",
+            "rdfs:comment": "NO, Norwegian Bankers' Association"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:125",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "125",
+            "rdfs:comment": "FI, The Finnish Bankers' Association"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:126",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "126",
+            "rdfs:comment": "US, NCCMA (Account Analysis Codes)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:127",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "127",
+            "rdfs:comment": "DE, ARE (AbRechnungs Einheit)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:128",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "128",
+            "rdfs:comment": "BE, Belgian Bankers' Association"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:129",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "129",
+            "rdfs:comment": "BE, Belgian Ministry of Finance"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:130",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "130",
+            "rdfs:comment": "DK, Danish Bankers Association"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:131",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "131",
+            "rdfs:comment": "DE, German Bankers Association"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:132",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "132",
+            "rdfs:comment": "GB, BACS Limited"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:133",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "133",
+            "rdfs:comment": "GB, Association for Payment Clearing Services"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:134",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "134",
+            "rdfs:comment": "GB, APACS (Association of payment clearing services)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:135",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "135",
+            "rdfs:comment": "GB, The Clearing House"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:136",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "136",
+            "rdfs:comment": "GS1 UK"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:137",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "137",
+            "rdfs:comment": "AT, Verband oesterreichischer Banken und Bankiers"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:138",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "138",
+            "rdfs:comment": "FR, CFONB (Comite francais d'organ. et de normalisation bancaires)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:139",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "139",
+            "rdfs:comment": "Universal Postal Union (UPU)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:140",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "140",
+            "rdfs:comment": "CEC (Commission of the European Communities), DG/XXI-01"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:141",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "141",
+            "rdfs:comment": "CEC (Commission of the European Communities), DG/XXI-B-1"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:142",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "142",
+            "rdfs:comment": "CEC (Commission of the European Communities), DG/XXXIV"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:143",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "143",
+            "rdfs:comment": "NZ, New Zealand Customs"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:144",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "144",
+            "rdfs:comment": "NL, Netherlands Customs"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:145",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "145",
+            "rdfs:comment": "SE, Swedish Customs"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:146",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "146",
+            "rdfs:comment": "DE, German Customs"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:147",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "147",
+            "rdfs:comment": "BE, Belgian Customs"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:148",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "148",
+            "rdfs:comment": "ES, Spanish Customs"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:149",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "149",
+            "rdfs:comment": "IL, Israel Customs"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:150",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "150",
+            "rdfs:comment": "HK, Hong Kong Customs"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:151",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "151",
+            "rdfs:comment": "JP, Japan Customs"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:152",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "152",
+            "rdfs:comment": "SA, Saudi Arabia Customs"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:153",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "153",
+            "rdfs:comment": "IT, Italian Customs"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:154",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "154",
+            "rdfs:comment": "GR, Greek Customs"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:155",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "155",
+            "rdfs:comment": "PT, Portuguese Customs"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:156",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "156",
+            "rdfs:comment": "LU, Luxembourg Customs"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:157",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "157",
+            "rdfs:comment": "NO, Norwegian Customs"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:158",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "158",
+            "rdfs:comment": "FI, Finnish Customs"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:159",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "159",
+            "rdfs:comment": "IS, Iceland Customs"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:160",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "160",
+            "rdfs:comment": "LI, Liechtenstein authority"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:161",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "161",
+            "rdfs:comment": "UNCTAD (United Nations - Conference on Trade And Development)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:162",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "162",
+            "rdfs:comment": "CEC (Commission of the European Communities), DG/XIII-D-5"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:163",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "163",
+            "rdfs:comment": "US, FMC (Federal Maritime Commission)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:164",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "164",
+            "rdfs:comment": "US, DEA (Drug Enforcement Agency)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:165",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "165",
+            "rdfs:comment": "US, DCI (Distribution Codes, INC.)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:166",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "166",
+            "rdfs:comment": "US, National Motor Freight Classification Association"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:167",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "167",
+            "rdfs:comment": "US, AIAG (Automotive Industry Action Group)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:168",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "168",
+            "rdfs:comment": "US, FIPS (Federal Information Publishing Standard)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:169",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "169",
+            "rdfs:comment": "CA, SCC (Standards Council of Canada)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:170",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "170",
+            "rdfs:comment": "CA, CPA (Canadian Payment Association)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:171",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "171",
+            "rdfs:comment": "NL, Interpay Girale Services"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:172",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "172",
+            "rdfs:comment": "NL, Interpay Debit Card Services"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:173",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "173",
+            "rdfs:comment": "NO, NORPRO"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:174",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "174",
+            "rdfs:comment": "DE, DIN (Deutsches Institut fuer Normung)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:175",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "175",
+            "rdfs:comment": "FCI (Factors Chain International)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:176",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "176",
+            "rdfs:comment": "BR, Banco Central do Brazil"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:177",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "177",
+            "rdfs:comment": "AU, LIFA (Life Insurance Federation of Australia)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:178",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "178",
+            "rdfs:comment": "AU, SAA (Standards Association of Australia)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:179",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "179",
+            "rdfs:comment": "US, Air transport association of America"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:180",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "180",
+            "rdfs:comment": "DE, BIA (Berufsgenossenschaftliches Institut fuer Arbeitssicherheit)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:181",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "181",
+            "rdfs:comment": "Edibuild"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:182",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "182",
+            "rdfs:comment": "US, Standard Carrier Alpha Code (Motor)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:183",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "183",
+            "rdfs:comment": "US, American Petroleum Institute"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:184",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "184",
+            "rdfs:comment": "AU, ACOS (Australian Chamber of Shipping)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:185",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "185",
+            "rdfs:comment": "DE, BDI (Bundesverband der Deutschen Industrie e.V.)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:186",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "186",
+            "rdfs:comment": "US, GSA (General Services Administration)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:187",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "187",
+            "rdfs:comment": "US, DLMSO (Defense Logistics Management Standards Office)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:188",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "188",
+            "rdfs:comment": "US, NIST (National Institute of Standards and Technology)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:189",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "189",
+            "rdfs:comment": "US, DoD (Department of Defense)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:190",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "190",
+            "rdfs:comment": "US, VA (Department of Veterans Affairs)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:191",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "191",
+            "rdfs:comment": "IAPSO (United Nations Inter-Agency Procurement Services Office)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:192",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "192",
+            "rdfs:comment": "Shipper's association"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:193",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "193",
+            "rdfs:comment": "EU, European Telecommunications Informatics Services (ETIS)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:194",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "194",
+            "rdfs:comment": "AU, AQIS (Australian Quarantine and Inspection Service)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:195",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "195",
+            "rdfs:comment": "CO, DIAN (Direccion de Impuestos y Aduanas Nacionales)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:196",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "196",
+            "rdfs:comment": "US, COPAS (Council of Petroleum Accounting Society)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:197",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "197",
+            "rdfs:comment": "US, DISA (Data Interchange Standards Association)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:198",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "198",
+            "rdfs:comment": "CO, Superintendencia Bancaria De Colombia"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:199",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "199",
+            "rdfs:comment": "FR, Direction de la Comptabilite Publique"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:200",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "200",
+            "rdfs:comment": "GS1 Netherlands"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:201",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "201",
+            "rdfs:comment": "US, WSSA(Wine and Spirits Shippers Association)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:202",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "202",
+            "rdfs:comment": "PT, Banco de Portugal"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:203",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "203",
+            "rdfs:comment": "FR, GALIA (Groupement pour l'Amelioration des Liaisons dans l'Industrie Automobile)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:204",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "204",
+            "rdfs:comment": "DE, VDA (Verband der Automobilindustrie E.V.)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:205",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "205",
+            "rdfs:comment": "IT, ODETTE Italy"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:206",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "206",
+            "rdfs:comment": "NL, ODETTE Netherlands"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:207",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "207",
+            "rdfs:comment": "ES, ODETTE Spain"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:208",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "208",
+            "rdfs:comment": "SE, ODETTE Sweden"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:209",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "209",
+            "rdfs:comment": "GB, ODETTE United Kingdom"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:210",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "210",
+            "rdfs:comment": "EU, EDI for financial, informational, cost, accounting, auditing and social areas (EDIFICAS) - Europe"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:211",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "211",
+            "rdfs:comment": "FR, EDI for financial, informational, cost, accounting, auditing and social areas (EDIFICAS) - France"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:212",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "212",
+            "rdfs:comment": "DE, Deutsch Telekom AG"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:213",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "213",
+            "rdfs:comment": "JP, NACCS Center (Nippon Automated Cargo Clearance System Operations Organization)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:214",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "214",
+            "rdfs:comment": "US, AISI (American Iron and Steel Institute)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:215",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "215",
+            "rdfs:comment": "AU, APCA (Australian Payments Clearing Association)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:216",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "216",
+            "rdfs:comment": "US, Department of Labor"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:217",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "217",
+            "rdfs:comment": "US, N.A.I.C. (National Association of Insurance Commissioners)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:218",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "218",
+            "rdfs:comment": "GB, The Association of British Insurers"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:219",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "219",
+            "rdfs:comment": "FR, d'ArvA"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:220",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "220",
+            "rdfs:comment": "FI, Finnish tax board"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:221",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "221",
+            "rdfs:comment": "FR, CNAMTS (Caisse Nationale de l'Assurance Maladie des Travailleurs Salaries)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:222",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "222",
+            "rdfs:comment": "DK, Danish National Board of Health"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:223",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "223",
+            "rdfs:comment": "DK, Danish Ministry of Home Affairs"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:224",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "224",
+            "rdfs:comment": "US, Aluminum Association"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:225",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "225",
+            "rdfs:comment": "US, CIDX (Chemical Industry Data Exchange)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:226",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "226",
+            "rdfs:comment": "US, Carbide Manufacturers"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:227",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "227",
+            "rdfs:comment": "US, NWDA (National Wholesale Druggist Association)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:228",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "228",
+            "rdfs:comment": "US, EIA (Electronic Industry Association)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:229",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "229",
+            "rdfs:comment": "US, American Paper Institute"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:230",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "230",
+            "rdfs:comment": "US, VICS (Voluntary Inter-Industry Commerce Standards)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:231",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "231",
+            "rdfs:comment": "Copper and Brass Fabricators Council"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:232",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "232",
+            "rdfs:comment": "GB, Inland Revenue"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:233",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "233",
+            "rdfs:comment": "US, OMB (Office of Management and Budget)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:234",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "234",
+            "rdfs:comment": "DE, Siemens AG"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:235",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "235",
+            "rdfs:comment": "AU, Tradegate (Electronic Commerce Australia)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:236",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "236",
+            "rdfs:comment": "US, United States Postal Service (USPS)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:237",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "237",
+            "rdfs:comment": "US, United States health industry"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:238",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "238",
+            "rdfs:comment": "US, TDCC (Transportation Data Coordinating Committee)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:239",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "239",
+            "rdfs:comment": "US, HL7 (Health Level 7)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:240",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "240",
+            "rdfs:comment": "US, CHIPS (Clearing House Interbank Payment Systems)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:241",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "241",
+            "rdfs:comment": "PT, SIBS (Sociedade Interbancaria de Servicos)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:244",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "244",
+            "rdfs:comment": "US, Department of Health and Human Services"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:245",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "245",
+            "rdfs:comment": "GS1 Denmark"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:246",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "246",
+            "rdfs:comment": "GS1 Germany"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:247",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "247",
+            "rdfs:comment": "US, HBICC (Health Industry Business Communication Council)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:248",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "248",
+            "rdfs:comment": "US, ASTM (American Society of Testing and Materials)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:249",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "249",
+            "rdfs:comment": "IP (Institute of Petroleum)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:250",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "250",
+            "rdfs:comment": "US, UOP (Universal Oil Products)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:251",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "251",
+            "rdfs:comment": "AU, HIC (Health Insurance Commission)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:252",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "252",
+            "rdfs:comment": "AU, AIHW (Australian Institute of Health and Welfare)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:253",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "253",
+            "rdfs:comment": "AU, NCCH (National Centre for Classification in Health)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:254",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "254",
+            "rdfs:comment": "AU, DOH (Australian Department of Health)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:255",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "255",
+            "rdfs:comment": "AU, ADA (Australian Dental Association)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:256",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "256",
+            "rdfs:comment": "US, AAR (Association of American Railroads)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:257",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "257",
+            "rdfs:comment": "ECCMA (Electronic Commerce Code Management Association)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:258",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "258",
+            "rdfs:comment": "JP, Japanese Ministry of Transport"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:259",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "259",
+            "rdfs:comment": "JP, Japanese Maritime Safety Agency"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:260",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "260",
+            "rdfs:comment": "ebIX (European forum for energy Business Information eXchange)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:261",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "261",
+            "rdfs:comment": "EEG7, European Expert Group 7 (Insurance)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:262",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "262",
+            "rdfs:comment": "DE, GDV (Gesamtverband der Deutschen Versicherungswirtschaft e.V.)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:263",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "263",
+            "rdfs:comment": "CA, CSIO (Centre for Study of Insurance Operations)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:264",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "264",
+            "rdfs:comment": "FR, AGF (Assurances Generales de France)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:265",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "265",
+            "rdfs:comment": "SE, Central bank"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:266",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "266",
+            "rdfs:comment": "US, DoA (Department of Agriculture)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:267",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "267",
+            "rdfs:comment": "RU, Central Bank of Russia"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:268",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "268",
+            "rdfs:comment": "FR, DGI (Direction Generale des Impots)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:269",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "269",
+            "rdfs:comment": "GRE (Reference Group of Experts)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:270",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "270",
+            "rdfs:comment": "Concord EDI group"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:271",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "271",
+            "rdfs:comment": "InterContainer InterFrigo"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:272",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "272",
+            "rdfs:comment": "Joint Automotive Industry agency"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:273",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "273",
+            "rdfs:comment": "CH, SCC (Swiss Chambers of Commerce)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:274",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "274",
+            "rdfs:comment": "ITIGG (International Transport Implementation Guidelines Group)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:275",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "275",
+            "rdfs:comment": "ES, Banco de España"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:276",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "276",
+            "rdfs:comment": "Assigned by Port Community"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:277",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "277",
+            "rdfs:comment": "BIGNet (Business Information Group Network)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:278",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "278",
+            "rdfs:comment": "Eurogate"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:279",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "279",
+            "rdfs:comment": "NL, Graydon"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:280",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "280",
+            "rdfs:comment": "FR, Euler"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:281",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "281",
+            "rdfs:comment": "GS1 Belgium and Luxembourg"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:282",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "282",
+            "rdfs:comment": "DE, Creditreform International e.V."
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:283",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "283",
+            "rdfs:comment": "DE, Hermes Kreditversicherungs AG"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:284",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "284",
+            "rdfs:comment": "TW, Taiwanese Bankers' Association"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:285",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "285",
+            "rdfs:comment": "ES, Asociación Española de Banca"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:286",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "286",
+            "rdfs:comment": "SE, TCO (Tjänstemännes Central Organisation)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:287",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "287",
+            "rdfs:comment": "DE, FORTRAS (Forschungs- und Entwicklungsgesellschaft für Transportwesen GMBH)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:288",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "288",
+            "rdfs:comment": "OSJD (Organizacija Sotrudnichestva Zeleznih Dorog)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:289",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "289",
+            "rdfs:comment": "JP.JIPDEC"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:290",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "290",
+            "rdfs:comment": "JP, JAMA"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:291",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "291",
+            "rdfs:comment": "JP, JAPIA"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:292",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "292",
+            "rdfs:comment": "FI, TIEKE The Information Technology Development Centre of Finland"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:293",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "293",
+            "rdfs:comment": "DE, BDEW (Bundesverband der Energie- und Wasserwirtschaft e.V.)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:294",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "294",
+            "rdfs:comment": "GS1 Austria"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:295",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "295",
+            "rdfs:comment": "AU, Australian Therapeutic Goods Administration"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:296",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "296",
+            "rdfs:comment": "ITU (International Telecommunication Union)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:297",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "297",
+            "rdfs:comment": "IT, Ufficio IVA"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:298",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "298",
+            "rdfs:comment": "GS1 Spain"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:299",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "299",
+            "rdfs:comment": "BE, Seagha"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:300",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "300",
+            "rdfs:comment": "SE, Swedish International Freight Association"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:301",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "301",
+            "rdfs:comment": "DE, BauDatenbank GmbH"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:302",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "302",
+            "rdfs:comment": "DE, Bundesverband des Deutschen Textileinzelhandels e.V."
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:303",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "303",
+            "rdfs:comment": "GB, Trade Service Information Ltd (TSI)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:304",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "304",
+            "rdfs:comment": "DE, Bundesverband Deutscher Heimwerker-, Bau- und Gartenfachmaerkte e.V."
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:305",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "305",
+            "rdfs:comment": "ETSO (European Transmission System Operator)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:306",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "306",
+            "rdfs:comment": "SMDG (Ship-planning Message Design Group)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:307",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "307",
+            "rdfs:comment": "JP, Ministry of Justice"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:309",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "309",
+            "rdfs:comment": "JP, JASTPRO (Japan Association for Simplification of International Trade Procedures)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:310",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "310",
+            "rdfs:comment": "DE, SAP AG (Systeme, Anwendungen und Produkte)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:311",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "311",
+            "rdfs:comment": "JP, TDB (Teikoku Databank, Ltd.)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:312",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "312",
+            "rdfs:comment": "FR, AGRO EDI EUROPE"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:313",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "313",
+            "rdfs:comment": "FR, Groupement National Interprofessionnel des Semences et Plants"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:314",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "314",
+            "rdfs:comment": "OAGi (Open Applications Group, Incorporated)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:315",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "315",
+            "rdfs:comment": "US, STAR (Standards for Technology in Automotive Retail)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:316",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "316",
+            "rdfs:comment": "GS1 Finland"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:317",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "317",
+            "rdfs:comment": "GS1 Brazil"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:318",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "318",
+            "rdfs:comment": "IETF (Internet Engineering Task Force)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:319",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "319",
+            "rdfs:comment": "FR, GTF"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:320",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "320",
+            "rdfs:comment": "DK, Danish National IT and Telcom Agency (ITA)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:321",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "321",
+            "rdfs:comment": "EASEE-Gas (European Association for the Streamlining of Energy Exchange for gas)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:322",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "322",
+            "rdfs:comment": "IS, ICEPRO"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:323",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "323",
+            "rdfs:comment": "PROTECT"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:324",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "324",
+            "rdfs:comment": "GS1 Ireland"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:325",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "325",
+            "rdfs:comment": "GS1 Russia"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:326",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "326",
+            "rdfs:comment": "GS1 Poland"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:327",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "327",
+            "rdfs:comment": "GS1 Estonia"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:328",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "328",
+            "rdfs:comment": "Assigned by ultimate recipient of the message"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:329",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "329",
+            "rdfs:comment": "Assigned by loading dock operator"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:330",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "330",
+            "rdfs:comment": "Nordic Ediel Group"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:331",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "331",
+            "rdfs:comment": "US, Agricultural Marketing Service (AMS)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:332",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "332",
+            "rdfs:comment": "DE, DVGW Service & Consult GmbH"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:333",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "333",
+            "rdfs:comment": "US, Animal and Plant Health Inspection Service (APHIS)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:334",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "334",
+            "rdfs:comment": "US, Bureau of Labor Statistics (BLS)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:335",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "335",
+            "rdfs:comment": "US, Bureau of Transportation Statistics (BTS)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:336",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "336",
+            "rdfs:comment": "US, Customs and Border Protection (CBP)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:337",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "337",
+            "rdfs:comment": "US, Center for Disease Control (CDC)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:338",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "338",
+            "rdfs:comment": "US, Consumer Product Safety Commission (CPSC)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:339",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "339",
+            "rdfs:comment": "US, Directorate of Defense Trade Controls (DDTC)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:340",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "340",
+            "rdfs:comment": "US, Environmental Protection Agency (EPA)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:341",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "341",
+            "rdfs:comment": "US, Federal Aviation Administration (FAA)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:342",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "342",
+            "rdfs:comment": "US, Foreign Agriculture Service (FAS)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:343",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "343",
+            "rdfs:comment": "US, Federal Motor Carrier Safety Administration (FMCSA)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:344",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "344",
+            "rdfs:comment": "US, Food Safety Inspection Service (FSIS)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:345",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "345",
+            "rdfs:comment": "US, Foreign Trade Zones Board (FTZB)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:346",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "346",
+            "rdfs:comment": "US, The Grain Inspection, Packers and Stockyards Administration (GIPSA)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:347",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "347",
+            "rdfs:comment": "US, Import Administration (IA)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:348",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "348",
+            "rdfs:comment": "US, Internal Revenue Service (IRS)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:349",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "349",
+            "rdfs:comment": "US, International Trade Commission (ITC)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:350",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "350",
+            "rdfs:comment": "US, National Highway Traffic Safety Administration (NHTSA)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:351",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "351",
+            "rdfs:comment": "US, National Marine Fisheries Service (NMFS)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:352",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "352",
+            "rdfs:comment": "US, Office of Fossil Energy (OFE)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:353",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "353",
+            "rdfs:comment": "US, Office of Foreign Missions (OFM)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:354",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "354",
+            "rdfs:comment": "US, Bureau of Oceans and International Environmental and Scientific Affairs (OES)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:355",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "355",
+            "rdfs:comment": "US, Office of Naval Intelligence (ONI)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:356",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "356",
+            "rdfs:comment": "US, Pipeline and Hazardous Materials Safety Administration (PHMSA)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:357",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "357",
+            "rdfs:comment": "US, Alcohol and Tobacco Tax and Trade Bureau (TTB)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:358",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "358",
+            "rdfs:comment": "US, Army Corp of Engineers (USACE)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:359",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "359",
+            "rdfs:comment": "US, Agency for International Development (USAID)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:360",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "360",
+            "rdfs:comment": "US, Coast Guard (USCG)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:361",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "361",
+            "rdfs:comment": "US, Office of the United States Trade Representative (USTR)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:362",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "362",
+            "rdfs:comment": "International Commission for the Conservation of Atlantic Tunas (ICCAT)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:363",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "363",
+            "rdfs:comment": "Inter-American Tropical Tuna Commission (IATTC)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:364",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "364",
+            "rdfs:comment": "Commission for the Conservation of Southern Bluefin Tuna (CCSBT)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:365",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "365",
+            "rdfs:comment": "Indian Ocean Tuna Commission (IOTC)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:366",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "366",
+            "rdfs:comment": "International Botanical Congress"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:367",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "367",
+            "rdfs:comment": "International Commission on Zoological Nomenclature"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:368",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "368",
+            "rdfs:comment": "International Society for Horticulture Science"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:369",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "369",
+            "rdfs:comment": "Chemical Abstract Service (CAS)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:370",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "370",
+            "rdfs:comment": "Social Security Administration (SSA)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:371",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "371",
+            "rdfs:comment": "INMARSAT"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:372",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "372",
+            "rdfs:comment": "Agent of ship at the intended port of arrival"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:373",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "373",
+            "rdfs:comment": "US Air Force"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:374",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "374",
+            "rdfs:comment": "US, Bureau of Explosives"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:375",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "375",
+            "rdfs:comment": "Basel Convention Secretariat"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:376",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "376",
+            "rdfs:comment": "PANTONE"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:377",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "377",
+            "rdfs:comment": "IS, National Registry of Iceland"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:378",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "378",
+            "rdfs:comment": "IS, Internal Revenue Directorate of Iceland"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:379",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "379",
+            "rdfs:comment": "IANA (Internet Assigned Numbers Authority)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:380",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "380",
+            "rdfs:comment": "Korea Customs Service"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:381",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "381",
+            "rdfs:comment": "Israel Tax Authority"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:382",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "382",
+            "rdfs:comment": "Israeli Ministry of Interior"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:383",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "383",
+            "rdfs:comment": "FR, LUMD (Logistique Urbaine Mutualisée Durable)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:384",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "384",
+            "rdfs:comment": "DE, BiPRO (Brancheninitiative Prozessoptimierung)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:385",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "385",
+            "rdfs:comment": "JO, Jordan Ministry of Agriculture"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:386",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "386",
+            "rdfs:comment": "JO, Jordan Customs"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:387",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "387",
+            "rdfs:comment": "JO, Jordan Food & Drug Administration"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:388",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "388",
+            "rdfs:comment": "JO, Jordan Institution for Standards and Metrology"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:389",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "389",
+            "rdfs:comment": "JO, Jordan Telecommunication Regulatory Commission"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:390",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "390",
+            "rdfs:comment": "JO, Jordan Nuclear Regulatory Commission"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:391",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "391",
+            "rdfs:comment": "JO, Jordan Ministry of Environment"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:392",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "392",
+            "rdfs:comment": "Hazardous waste collector"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:393",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "393",
+            "rdfs:comment": "Hazardous waste generator"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:394",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "394",
+            "rdfs:comment": "Marketing agent"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:395",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "395",
+            "rdfs:comment": "BE, TELEBIB Centre"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:396",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "396",
+            "rdfs:comment": "BE, BNB"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:397",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "397",
+            "rdfs:comment": "BE, FSMA"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:398",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "398",
+            "rdfs:comment": "FR, PHAST"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:399",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "399",
+            "rdfs:comment": "EXIS (Exis Technologies Ltd.)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:400",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "400",
+            "rdfs:comment": "FAO (Food and Agriculture Organisation)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:401",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "401",
+            "rdfs:comment": "CH, Spedlogswiss"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:402",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "402",
+            "rdfs:comment": "JP, National Tax Agency"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:403",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "403",
+            "rdfs:comment": "Comite Européen de Normalisation"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:404",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "404",
+            "rdfs:comment": "Assigned by logistics service provider"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:405",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "405",
+            "rdfs:comment": "Assigned by transport ministry"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:406",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "406",
+            "rdfs:comment": "AR, Customs Administration of Argentina"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:407",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "407",
+            "rdfs:comment": "BO, Customs Administration of Bolivia"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:408",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "408",
+            "rdfs:comment": "BR, Customs Administration of Brazil"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:409",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "409",
+            "rdfs:comment": "PY, Customs Administration of Paraguay"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:410",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "410",
+            "rdfs:comment": "UY, Customs Administration of Uruguay"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:411",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "411",
+            "rdfs:comment": "VE, Customs Administration of Venezuela"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:412",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "412",
+            "rdfs:comment": "IN, Customs Administration of India"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:413",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "413",
+            "rdfs:comment": "JP, JEC (UN/CEFACT Japan Committee)"
+        },
+        {
+            "@id": "AgencyIdentificationCodeType:ZZZ",
+            "@type": "unece:CodeListResponsibleAgencyCodeType",
+            "rdf:value": "ZZZ",
+            "rdfs:comment": "Mutually defined"
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+
+{
+    "@context": {
+        "unece": "https://vocabulary.uncefact.org/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "UNTDID7361Type": "https://vocabulary.uncefact.org/codelists/UNTDID7361Type"
+    },
+    "@graph": [
+        {
+            "@id": "UNTDID7361Type:ZZZ",
+            "@type": "unece:GoodsTypeExtensionCodeType",
+            "rdf:value": "ZZZ",
+            "rdfs:comment": "Mutually defined"
+        }
+    ]
+}
