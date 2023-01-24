@@ -9,19 +9,19 @@
     "@graph": [
         {
             "@id": "AddressFormatTypeType:1",
-            "@type": "unece:AddressFormatTypeCodeType",
+            "@type": "unece:AddressFormatTypeCode",
             "rdf:value": "1",
             "rdfs:comment": "Fiscal Format"
         },
         {
             "@id": "AddressFormatTypeType:2",
-            "@type": "unece:AddressFormatTypeCodeType",
+            "@type": "unece:AddressFormatTypeCode",
             "rdf:value": "2",
             "rdfs:comment": "Legal Format"
         },
         {
             "@id": "AddressFormatTypeType:3",
-            "@type": "unece:AddressFormatTypeCodeType",
+            "@type": "unece:AddressFormatTypeCode",
             "rdf:value": "3",
             "rdfs:comment": "Postal Format"
         }

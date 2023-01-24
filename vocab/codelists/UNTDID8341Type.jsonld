@@ -9,13 +9,13 @@
     "@graph": [
         {
             "@id": "UNTDID8341Type:1",
-            "@type": "unece:TransportEquipmentHaulageArrangementsCodeType",
+            "@type": "unece:TransportEquipmentHaulageArrangementsCode",
             "rdf:value": "1",
             "rdfs:comment": "Carrier"
         },
         {
             "@id": "UNTDID8341Type:2",
-            "@type": "unece:TransportEquipmentHaulageArrangementsCodeType",
+            "@type": "unece:TransportEquipmentHaulageArrangementsCode",
             "rdf:value": "2",
             "rdfs:comment": "Merchant"
         }

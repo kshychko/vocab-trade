@@ -9,19 +9,19 @@
     "@graph": [
         {
             "@id": "SoftwareUserTypeType:I",
-            "@type": "unece:SoftwareUserTypeCodeType",
+            "@type": "unece:SoftwareUserTypeCode",
             "rdf:value": "I",
             "rdfs:comment": "Intermediate"
         },
         {
             "@id": "SoftwareUserTypeType:R",
-            "@type": "unece:SoftwareUserTypeCodeType",
+            "@type": "unece:SoftwareUserTypeCode",
             "rdf:value": "R",
             "rdfs:comment": "Recipient"
         },
         {
             "@id": "SoftwareUserTypeType:S",
-            "@type": "unece:SoftwareUserTypeCodeType",
+            "@type": "unece:SoftwareUserTypeCode",
             "rdf:value": "S",
             "rdfs:comment": "Sender"
         }

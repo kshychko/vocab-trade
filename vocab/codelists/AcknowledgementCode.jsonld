@@ -4,54 +4,54 @@
         "unece": "https://vocabulary.uncefact.org/",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "AcknowledgementCodeType": "https://vocabulary.uncefact.org/codelists/AcknowledgementCodeType"
+        "AcknowledgementCode": "https://vocabulary.uncefact.org/codelists/AcknowledgementCode"
     },
     "@graph": [
         {
-            "@id": "AcknowledgementCodeType:5",
-            "@type": "unece:AcknowledgementCodeType",
+            "@id": "AcknowledgementCode:5",
+            "@type": "unece:AcknowledgementCode",
             "rdf:value": "5",
             "rdfs:comment": "Replace"
         },
         {
-            "@id": "AcknowledgementCodeType:6",
-            "@type": "unece:AcknowledgementCodeType",
+            "@id": "AcknowledgementCode:6",
+            "@type": "unece:AcknowledgementCode",
             "rdf:value": "6",
             "rdfs:comment": "Confirmation"
         },
         {
-            "@id": "AcknowledgementCodeType:7",
-            "@type": "unece:AcknowledgementCodeType",
+            "@id": "AcknowledgementCode:7",
+            "@type": "unece:AcknowledgementCode",
             "rdf:value": "7",
             "rdfs:comment": "Duplicate"
         },
         {
-            "@id": "AcknowledgementCodeType:9",
-            "@type": "unece:AcknowledgementCodeType",
+            "@id": "AcknowledgementCode:9",
+            "@type": "unece:AcknowledgementCode",
             "rdf:value": "9",
             "rdfs:comment": "Original"
         },
         {
-            "@id": "AcknowledgementCodeType:18",
-            "@type": "unece:AcknowledgementCodeType",
+            "@id": "AcknowledgementCode:18",
+            "@type": "unece:AcknowledgementCode",
             "rdf:value": "18",
             "rdfs:comment": "Reissue"
         },
         {
-            "@id": "AcknowledgementCodeType:31",
-            "@type": "unece:AcknowledgementCodeType",
+            "@id": "AcknowledgementCode:31",
+            "@type": "unece:AcknowledgementCode",
             "rdf:value": "31",
             "rdfs:comment": "Copy"
         },
         {
-            "@id": "AcknowledgementCodeType:35",
-            "@type": "unece:AcknowledgementCodeType",
+            "@id": "AcknowledgementCode:35",
+            "@type": "unece:AcknowledgementCode",
             "rdf:value": "35",
             "rdfs:comment": "Retransmission"
         },
         {
-            "@id": "AcknowledgementCodeType:43",
-            "@type": "unece:AcknowledgementCodeType",
+            "@id": "AcknowledgementCode:43",
+            "@type": "unece:AcknowledgementCode",
             "rdf:value": "43",
             "rdfs:comment": "Additional transmission"
         }

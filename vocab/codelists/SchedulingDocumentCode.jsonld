@@ -4,42 +4,42 @@
         "unece": "https://vocabulary.uncefact.org/",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "SchedulingDocumentCodeType": "https://vocabulary.uncefact.org/codelists/SchedulingDocumentCodeType"
+        "SchedulingDocumentCode": "https://vocabulary.uncefact.org/codelists/SchedulingDocumentCode"
     },
     "@graph": [
         {
-            "@id": "SchedulingDocumentCodeType:240",
-            "@type": "unece:SchedulingDocumentCodeType",
+            "@id": "SchedulingDocumentCode:240",
+            "@type": "unece:SchedulingDocumentCode",
             "rdf:value": "240",
             "rdfs:comment": "Delivery instructions"
         },
         {
-            "@id": "SchedulingDocumentCodeType:241",
-            "@type": "unece:SchedulingDocumentCodeType",
+            "@id": "SchedulingDocumentCode:241",
+            "@type": "unece:SchedulingDocumentCode",
             "rdf:value": "241",
             "rdfs:comment": "Delivery schedule"
         },
         {
-            "@id": "SchedulingDocumentCodeType:242",
-            "@type": "unece:SchedulingDocumentCodeType",
+            "@id": "SchedulingDocumentCode:242",
+            "@type": "unece:SchedulingDocumentCode",
             "rdf:value": "242",
             "rdfs:comment": "Delivery just-in-time"
         },
         {
-            "@id": "SchedulingDocumentCodeType:245",
-            "@type": "unece:SchedulingDocumentCodeType",
+            "@id": "SchedulingDocumentCode:245",
+            "@type": "unece:SchedulingDocumentCode",
             "rdf:value": "245",
             "rdfs:comment": "Delivery release"
         },
         {
-            "@id": "SchedulingDocumentCodeType:288",
-            "@type": "unece:SchedulingDocumentCodeType",
+            "@id": "SchedulingDocumentCode:288",
+            "@type": "unece:SchedulingDocumentCode",
             "rdf:value": "288",
             "rdfs:comment": "Kanban schedule"
         },
         {
-            "@id": "SchedulingDocumentCodeType:291",
-            "@type": "unece:SchedulingDocumentCodeType",
+            "@id": "SchedulingDocumentCode:291",
+            "@type": "unece:SchedulingDocumentCode",
             "rdf:value": "291",
             "rdfs:comment": "Delivery schedule response"
         }

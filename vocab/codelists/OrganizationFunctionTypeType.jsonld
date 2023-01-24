@@ -9,37 +9,37 @@
     "@graph": [
         {
             "@id": "OrganizationFunctionTypeType:5",
-            "@type": "unece:OrganizationFunctionTypeCodeType",
+            "@type": "unece:OrganizationFunctionTypeCode",
             "rdf:value": "5",
             "rdfs:comment": "Management Chartered Centre"
         },
         {
             "@id": "OrganizationFunctionTypeType:6",
-            "@type": "unece:OrganizationFunctionTypeCodeType",
+            "@type": "unece:OrganizationFunctionTypeCode",
             "rdf:value": "6",
             "rdfs:comment": "Management Chartered Association"
         },
         {
             "@id": "OrganizationFunctionTypeType:AUD",
-            "@type": "unece:OrganizationFunctionTypeCodeType",
+            "@type": "unece:OrganizationFunctionTypeCode",
             "rdf:value": "AUD",
             "rdfs:comment": "Audit Firm"
         },
         {
             "@id": "OrganizationFunctionTypeType:CER",
-            "@type": "unece:OrganizationFunctionTypeCodeType",
+            "@type": "unece:OrganizationFunctionTypeCode",
             "rdf:value": "CER",
             "rdfs:comment": "Centre of Rural Economy Firm"
         },
         {
             "@id": "OrganizationFunctionTypeType:EXC",
-            "@type": "unece:OrganizationFunctionTypeCodeType",
+            "@type": "unece:OrganizationFunctionTypeCode",
             "rdf:value": "EXC",
             "rdfs:comment": "Chartered Accountant Firm"
         },
         {
             "@id": "OrganizationFunctionTypeType:LAU",
-            "@type": "unece:OrganizationFunctionTypeCodeType",
+            "@type": "unece:OrganizationFunctionTypeCode",
             "rdf:value": "LAU",
             "rdfs:comment": "Legal Audit Firm"
         }

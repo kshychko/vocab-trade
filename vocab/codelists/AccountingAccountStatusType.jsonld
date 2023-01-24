@@ -9,25 +9,25 @@
     "@graph": [
         {
             "@id": "AccountingAccountStatusType:1",
-            "@type": "unece:AccountingAccountStatusCodeType",
+            "@type": "unece:AccountingAccountStatusCode",
             "rdf:value": "1",
             "rdfs:comment": "Open"
         },
         {
             "@id": "AccountingAccountStatusType:2",
-            "@type": "unece:AccountingAccountStatusCodeType",
+            "@type": "unece:AccountingAccountStatusCode",
             "rdf:value": "2",
             "rdfs:comment": "Closed"
         },
         {
             "@id": "AccountingAccountStatusType:3",
-            "@type": "unece:AccountingAccountStatusCodeType",
+            "@type": "unece:AccountingAccountStatusCode",
             "rdf:value": "3",
             "rdfs:comment": "Temporarily unusable"
         },
         {
             "@id": "AccountingAccountStatusType:4",
-            "@type": "unece:AccountingAccountStatusCodeType",
+            "@type": "unece:AccountingAccountStatusCode",
             "rdf:value": "4",
             "rdfs:comment": "Pending"
         }

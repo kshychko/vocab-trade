@@ -9,7 +9,7 @@
     "@graph": [
         {
             "@id": "UNTDID7357Type:ZZZ",
-            "@type": "unece:GoodsTypeCodeType",
+            "@type": "unece:GoodsTypeCode",
             "rdf:value": "ZZZ",
             "rdfs:comment": "Mutually defined"
         }

@@ -9,37 +9,37 @@
     "@graph": [
         {
             "@id": "AccountingEntryProcessingType:1",
-            "@type": "unece:AccountingEntryProcessingCodeType",
+            "@type": "unece:AccountingEntryProcessingCode",
             "rdf:value": "1",
             "rdfs:comment": "Validated"
         },
         {
             "@id": "AccountingEntryProcessingType:2",
-            "@type": "unece:AccountingEntryProcessingCodeType",
+            "@type": "unece:AccountingEntryProcessingCode",
             "rdf:value": "2",
             "rdfs:comment": "Non Validated"
         },
         {
             "@id": "AccountingEntryProcessingType:3",
-            "@type": "unece:AccountingEntryProcessingCodeType",
+            "@type": "unece:AccountingEntryProcessingCode",
             "rdf:value": "3",
             "rdfs:comment": "Proposed"
         },
         {
             "@id": "AccountingEntryProcessingType:4",
-            "@type": "unece:AccountingEntryProcessingCodeType",
+            "@type": "unece:AccountingEntryProcessingCode",
             "rdf:value": "4",
             "rdfs:comment": "Simulated"
         },
         {
             "@id": "AccountingEntryProcessingType:5",
-            "@type": "unece:AccountingEntryProcessingCodeType",
+            "@type": "unece:AccountingEntryProcessingCode",
             "rdf:value": "5",
             "rdfs:comment": "Postponed"
         },
         {
             "@id": "AccountingEntryProcessingType:6",
-            "@type": "unece:AccountingEntryProcessingCodeType",
+            "@type": "unece:AccountingEntryProcessingCode",
             "rdf:value": "6",
             "rdfs:comment": "Removed"
         }

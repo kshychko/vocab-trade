@@ -9,637 +9,637 @@
     "@graph": [
         {
             "@id": "AdditionalPostponementType:00",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "00",
             "rdfs:comment": "Cash"
         },
         {
             "@id": "AdditionalPostponementType:01",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "01",
             "rdfs:comment": "1 day"
         },
         {
             "@id": "AdditionalPostponementType:02",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "02",
             "rdfs:comment": "2 days"
         },
         {
             "@id": "AdditionalPostponementType:03",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "03",
             "rdfs:comment": "3 days"
         },
         {
             "@id": "AdditionalPostponementType:04",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "04",
             "rdfs:comment": "4 days"
         },
         {
             "@id": "AdditionalPostponementType:05",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "05",
             "rdfs:comment": "5 days"
         },
         {
             "@id": "AdditionalPostponementType:06",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "06",
             "rdfs:comment": "6 days"
         },
         {
             "@id": "AdditionalPostponementType:07",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "07",
             "rdfs:comment": "7 days"
         },
         {
             "@id": "AdditionalPostponementType:08",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "08",
             "rdfs:comment": "8 days"
         },
         {
             "@id": "AdditionalPostponementType:09",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "09",
             "rdfs:comment": "9 days"
         },
         {
             "@id": "AdditionalPostponementType:10",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "10",
             "rdfs:comment": "10 days"
         },
         {
             "@id": "AdditionalPostponementType:11",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "11",
             "rdfs:comment": "11 days"
         },
         {
             "@id": "AdditionalPostponementType:12",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "12",
             "rdfs:comment": "12 days"
         },
         {
             "@id": "AdditionalPostponementType:13",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "13",
             "rdfs:comment": "13 days"
         },
         {
             "@id": "AdditionalPostponementType:14",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "14",
             "rdfs:comment": "14 days"
         },
         {
             "@id": "AdditionalPostponementType:15",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "15",
             "rdfs:comment": "15 days"
         },
         {
             "@id": "AdditionalPostponementType:16",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "16",
             "rdfs:comment": "16 days"
         },
         {
             "@id": "AdditionalPostponementType:17",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "17",
             "rdfs:comment": "17 days"
         },
         {
             "@id": "AdditionalPostponementType:18",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "18",
             "rdfs:comment": "18 days"
         },
         {
             "@id": "AdditionalPostponementType:19",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "19",
             "rdfs:comment": "19 days"
         },
         {
             "@id": "AdditionalPostponementType:20",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "20",
             "rdfs:comment": "20 days"
         },
         {
             "@id": "AdditionalPostponementType:21",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "21",
             "rdfs:comment": "21 days"
         },
         {
             "@id": "AdditionalPostponementType:22",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "22",
             "rdfs:comment": "22 days"
         },
         {
             "@id": "AdditionalPostponementType:23",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "23",
             "rdfs:comment": "23 days"
         },
         {
             "@id": "AdditionalPostponementType:24",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "24",
             "rdfs:comment": "24 days"
         },
         {
             "@id": "AdditionalPostponementType:25",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "25",
             "rdfs:comment": "25 days"
         },
         {
             "@id": "AdditionalPostponementType:26",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "26",
             "rdfs:comment": "26 days"
         },
         {
             "@id": "AdditionalPostponementType:27",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "27",
             "rdfs:comment": "27 days"
         },
         {
             "@id": "AdditionalPostponementType:28",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "28",
             "rdfs:comment": "28 days"
         },
         {
             "@id": "AdditionalPostponementType:29",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "29",
             "rdfs:comment": "29 days"
         },
         {
             "@id": "AdditionalPostponementType:30",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "30",
             "rdfs:comment": "30 days"
         },
         {
             "@id": "AdditionalPostponementType:120M00",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "120M00",
             "rdfs:comment": "120 days end of month"
         },
         {
             "@id": "AdditionalPostponementType:120M05",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "120M05",
             "rdfs:comment": "120 days end of month postponed on the 05"
         },
         {
             "@id": "AdditionalPostponementType:120M10",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "120M10",
             "rdfs:comment": "120 days end of month postponed on the 10"
         },
         {
             "@id": "AdditionalPostponementType:120M15",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "120M15",
             "rdfs:comment": "120 days end of month postponed on the 15"
         },
         {
             "@id": "AdditionalPostponementType:120M20",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "120M20",
             "rdfs:comment": "120 days end of month postponed on the 20"
         },
         {
             "@id": "AdditionalPostponementType:120M25",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "120M25",
             "rdfs:comment": "120 days end of month postponed on the 25"
         },
         {
             "@id": "AdditionalPostponementType:150M00",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "150M00",
             "rdfs:comment": "150 days end of month"
         },
         {
             "@id": "AdditionalPostponementType:150M05",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "150M05",
             "rdfs:comment": "150 days end of month postponed on the 05"
         },
         {
             "@id": "AdditionalPostponementType:150M10",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "150M10",
             "rdfs:comment": "150 days end of month postponed on the 10"
         },
         {
             "@id": "AdditionalPostponementType:150M15",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "150M15",
             "rdfs:comment": "150 days end of month postponed on the 15"
         },
         {
             "@id": "AdditionalPostponementType:150M20",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "150M20",
             "rdfs:comment": "150 days end of month postponed on the 20"
         },
         {
             "@id": "AdditionalPostponementType:150M25",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "150M25",
             "rdfs:comment": "150 days end of month postponed on the 25"
         },
         {
             "@id": "AdditionalPostponementType:180M00",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "180M00",
             "rdfs:comment": "180 days end of month"
         },
         {
             "@id": "AdditionalPostponementType:180M05",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "180M05",
             "rdfs:comment": "180 days end of month postponed on the 05"
         },
         {
             "@id": "AdditionalPostponementType:180M10",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "180M10",
             "rdfs:comment": "180 days end of month postponed on the 10"
         },
         {
             "@id": "AdditionalPostponementType:180M15",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "180M15",
             "rdfs:comment": "180 days end of month postponed on the 15"
         },
         {
             "@id": "AdditionalPostponementType:180M20",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "180M20",
             "rdfs:comment": "180 days end of month postponed on the 20"
         },
         {
             "@id": "AdditionalPostponementType:180M25",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "180M25",
             "rdfs:comment": "180 days end of month postponed on the 25"
         },
         {
             "@id": "AdditionalPostponementType:1D",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "1D",
             "rdfs:comment": "End of the next first day decade"
         },
         {
             "@id": "AdditionalPostponementType:210M00",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "210M00",
             "rdfs:comment": "210 days end of month"
         },
         {
             "@id": "AdditionalPostponementType:210M05",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "210M05",
             "rdfs:comment": "210 days end of month postponed on the 05"
         },
         {
             "@id": "AdditionalPostponementType:210M10",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "210M10",
             "rdfs:comment": "210 days end of month postponed on the 10"
         },
         {
             "@id": "AdditionalPostponementType:210M15",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "210M15",
             "rdfs:comment": "210 days end of month postponed on the 15"
         },
         {
             "@id": "AdditionalPostponementType:210M20",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "210M20",
             "rdfs:comment": "210 days end of month postponed on the 20"
         },
         {
             "@id": "AdditionalPostponementType:210M25",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "210M25",
             "rdfs:comment": "210 days end of month postponed on the 25"
         },
         {
             "@id": "AdditionalPostponementType:240M00",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "240M00",
             "rdfs:comment": "240 days end of month"
         },
         {
             "@id": "AdditionalPostponementType:240M05",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "240M05",
             "rdfs:comment": "240 days end of month postponed on the 05"
         },
         {
             "@id": "AdditionalPostponementType:240M10",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "240M10",
             "rdfs:comment": "240 days end of month postponed on the 10"
         },
         {
             "@id": "AdditionalPostponementType:240M15",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "240M15",
             "rdfs:comment": "240 days end of month postponed on the 15"
         },
         {
             "@id": "AdditionalPostponementType:240M20",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "240M20",
             "rdfs:comment": "240 days end of month postponed on the 20"
         },
         {
             "@id": "AdditionalPostponementType:240M25",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "240M25",
             "rdfs:comment": "240 days end of month postponed on the 25"
         },
         {
             "@id": "AdditionalPostponementType:270M00",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "270M00",
             "rdfs:comment": "270 days end of month"
         },
         {
             "@id": "AdditionalPostponementType:270M05",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "270M05",
             "rdfs:comment": "270 days end of month postponed on the 05"
         },
         {
             "@id": "AdditionalPostponementType:270M10",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "270M10",
             "rdfs:comment": "270 days end of month postponed on the 10"
         },
         {
             "@id": "AdditionalPostponementType:270M15",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "270M15",
             "rdfs:comment": "270 days end of month postponed on the 15"
         },
         {
             "@id": "AdditionalPostponementType:270M20",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "270M20",
             "rdfs:comment": "270 days end of month postponed on the 20"
         },
         {
             "@id": "AdditionalPostponementType:270M25",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "270M25",
             "rdfs:comment": "270 days end of month postponed on the 25"
         },
         {
             "@id": "AdditionalPostponementType:2D",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "2D",
             "rdfs:comment": "End of the next second day decade"
         },
         {
             "@id": "AdditionalPostponementType:300M00",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "300M00",
             "rdfs:comment": "300 days end of month"
         },
         {
             "@id": "AdditionalPostponementType:300M05",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "300M05",
             "rdfs:comment": "300 days end of month postponed on the 05"
         },
         {
             "@id": "AdditionalPostponementType:300M10",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "300M10",
             "rdfs:comment": "300 days end of month postponed on the 10"
         },
         {
             "@id": "AdditionalPostponementType:300M15",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "300M15",
             "rdfs:comment": "300 days end of month postponed on the 15"
         },
         {
             "@id": "AdditionalPostponementType:300M20",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "300M20",
             "rdfs:comment": "300 days end of month postponed on the 20"
         },
         {
             "@id": "AdditionalPostponementType:300M25",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "300M25",
             "rdfs:comment": "300 days end of month postponed on the 25"
         },
         {
             "@id": "AdditionalPostponementType:30M00",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "30M00",
             "rdfs:comment": "30 days end of month"
         },
         {
             "@id": "AdditionalPostponementType:30M05",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "30M05",
             "rdfs:comment": "30 days end of month postponed on the 05"
         },
         {
             "@id": "AdditionalPostponementType:30M10",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "30M10",
             "rdfs:comment": "30 days end of month postponed on the 10"
         },
         {
             "@id": "AdditionalPostponementType:30M15",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "30M15",
             "rdfs:comment": "30 days end of month postponed on the 15"
         },
         {
             "@id": "AdditionalPostponementType:30M20",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "30M20",
             "rdfs:comment": "30 days end of month postponed on the 20"
         },
         {
             "@id": "AdditionalPostponementType:30M25",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "30M25",
             "rdfs:comment": "30 days end of month postponed on the 25"
         },
         {
             "@id": "AdditionalPostponementType:330M00",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "330M00",
             "rdfs:comment": "330 days end of month"
         },
         {
             "@id": "AdditionalPostponementType:330M05",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "330M05",
             "rdfs:comment": "330 days end of month postponed on the 05"
         },
         {
             "@id": "AdditionalPostponementType:330M10",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "330M10",
             "rdfs:comment": "330 days end of month postponed on the 10"
         },
         {
             "@id": "AdditionalPostponementType:330M15",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "330M15",
             "rdfs:comment": "330 days end of month postponed on the 15"
         },
         {
             "@id": "AdditionalPostponementType:330M20",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "330M20",
             "rdfs:comment": "330 days end of month postponed on the 20"
         },
         {
             "@id": "AdditionalPostponementType:330M25",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "330M25",
             "rdfs:comment": "330 days end of month postponed on the 25"
         },
         {
             "@id": "AdditionalPostponementType:360M00",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "360M00",
             "rdfs:comment": "360 days end of month"
         },
         {
             "@id": "AdditionalPostponementType:360M05",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "360M05",
             "rdfs:comment": "360 days end of month postponed on the 05"
         },
         {
             "@id": "AdditionalPostponementType:360M10",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "360M10",
             "rdfs:comment": "360 days end of month postponed on the 10"
         },
         {
             "@id": "AdditionalPostponementType:360M15",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "360M15",
             "rdfs:comment": "360 days end of month postponed on the 15"
         },
         {
             "@id": "AdditionalPostponementType:360M20",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "360M20",
             "rdfs:comment": "360 days end of month postponed on the 20"
         },
         {
             "@id": "AdditionalPostponementType:360M25",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "360M25",
             "rdfs:comment": "360 days end of month postponed on the 25"
         },
         {
             "@id": "AdditionalPostponementType:3D",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "3D",
             "rdfs:comment": "End of the next third day decade"
         },
         {
             "@id": "AdditionalPostponementType:60M00",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "60M00",
             "rdfs:comment": "60 days end of month"
         },
         {
             "@id": "AdditionalPostponementType:60M05",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "60M05",
             "rdfs:comment": "60 days end of month postponed on the 05"
         },
         {
             "@id": "AdditionalPostponementType:60M10",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "60M10",
             "rdfs:comment": "60 days end of month postponed on the 10"
         },
         {
             "@id": "AdditionalPostponementType:60M15",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "60M15",
             "rdfs:comment": "60 days end of month postponed on the 15"
         },
         {
             "@id": "AdditionalPostponementType:60M20",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "60M20",
             "rdfs:comment": "60 days end of month postponed on the 20"
         },
         {
             "@id": "AdditionalPostponementType:60M25",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "60M25",
             "rdfs:comment": "60 days end of month postponed on the 25"
         },
         {
             "@id": "AdditionalPostponementType:90M00",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "90M00",
             "rdfs:comment": "90 days end of month"
         },
         {
             "@id": "AdditionalPostponementType:90M05",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "90M05",
             "rdfs:comment": "90 days end of month postponed on the 05"
         },
         {
             "@id": "AdditionalPostponementType:90M10",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "90M10",
             "rdfs:comment": "90 days end of month postponed on the 10"
         },
         {
             "@id": "AdditionalPostponementType:90M15",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "90M15",
             "rdfs:comment": "90 days end of month postponed on the 15"
         },
         {
             "@id": "AdditionalPostponementType:90M20",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "90M20",
             "rdfs:comment": "90 days end of month postponed on the 20"
         },
         {
             "@id": "AdditionalPostponementType:90M25",
-            "@type": "unece:AdditionalPostponementCodeType",
+            "@type": "unece:AdditionalPostponementCode",
             "rdf:value": "90M25",
             "rdfs:comment": "90 days end of month postponed on the 25"
         }

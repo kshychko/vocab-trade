@@ -9,103 +9,103 @@
     "@graph": [
         {
             "@id": "DocumentNameCodeInvoiceType:80",
-            "@type": "unece:InvoiceDocumentCodeType",
+            "@type": "unece:InvoiceDocumentCode",
             "rdf:value": "80",
             "rdfs:comment": "Debit note related to goods or services"
         },
         {
             "@id": "DocumentNameCodeInvoiceType:81",
-            "@type": "unece:InvoiceDocumentCodeType",
+            "@type": "unece:InvoiceDocumentCode",
             "rdf:value": "81",
             "rdfs:comment": "Credit note related to goods or services"
         },
         {
             "@id": "DocumentNameCodeInvoiceType:82",
-            "@type": "unece:InvoiceDocumentCodeType",
+            "@type": "unece:InvoiceDocumentCode",
             "rdf:value": "82",
             "rdfs:comment": "Metered services invoice"
         },
         {
             "@id": "DocumentNameCodeInvoiceType:83",
-            "@type": "unece:InvoiceDocumentCodeType",
+            "@type": "unece:InvoiceDocumentCode",
             "rdf:value": "83",
             "rdfs:comment": "Credit note related to financial adjustments"
         },
         {
             "@id": "DocumentNameCodeInvoiceType:84",
-            "@type": "unece:InvoiceDocumentCodeType",
+            "@type": "unece:InvoiceDocumentCode",
             "rdf:value": "84",
             "rdfs:comment": "Debit note related to financial adjustments"
         },
         {
             "@id": "DocumentNameCodeInvoiceType:261",
-            "@type": "unece:InvoiceDocumentCodeType",
+            "@type": "unece:InvoiceDocumentCode",
             "rdf:value": "261",
             "rdfs:comment": "Self billed credit note"
         },
         {
             "@id": "DocumentNameCodeInvoiceType:262",
-            "@type": "unece:InvoiceDocumentCodeType",
+            "@type": "unece:InvoiceDocumentCode",
             "rdf:value": "262",
             "rdfs:comment": "Consolidated credit note - goods and services"
         },
         {
             "@id": "DocumentNameCodeInvoiceType:325",
-            "@type": "unece:InvoiceDocumentCodeType",
+            "@type": "unece:InvoiceDocumentCode",
             "rdf:value": "325",
             "rdfs:comment": "Proforma invoice"
         },
         {
             "@id": "DocumentNameCodeInvoiceType:380",
-            "@type": "unece:InvoiceDocumentCodeType",
+            "@type": "unece:InvoiceDocumentCode",
             "rdf:value": "380",
             "rdfs:comment": "Commercial invoice"
         },
         {
             "@id": "DocumentNameCodeInvoiceType:381",
-            "@type": "unece:InvoiceDocumentCodeType",
+            "@type": "unece:InvoiceDocumentCode",
             "rdf:value": "381",
             "rdfs:comment": "Credit note"
         },
         {
             "@id": "DocumentNameCodeInvoiceType:383",
-            "@type": "unece:InvoiceDocumentCodeType",
+            "@type": "unece:InvoiceDocumentCode",
             "rdf:value": "383",
             "rdfs:comment": "Debit note"
         },
         {
             "@id": "DocumentNameCodeInvoiceType:384",
-            "@type": "unece:InvoiceDocumentCodeType",
+            "@type": "unece:InvoiceDocumentCode",
             "rdf:value": "384",
             "rdfs:comment": "Corrected invoice"
         },
         {
             "@id": "DocumentNameCodeInvoiceType:385",
-            "@type": "unece:InvoiceDocumentCodeType",
+            "@type": "unece:InvoiceDocumentCode",
             "rdf:value": "385",
             "rdfs:comment": "Consolidated invoice"
         },
         {
             "@id": "DocumentNameCodeInvoiceType:386",
-            "@type": "unece:InvoiceDocumentCodeType",
+            "@type": "unece:InvoiceDocumentCode",
             "rdf:value": "386",
             "rdfs:comment": "Prepayment invoice"
         },
         {
             "@id": "DocumentNameCodeInvoiceType:389",
-            "@type": "unece:InvoiceDocumentCodeType",
+            "@type": "unece:InvoiceDocumentCode",
             "rdf:value": "389",
             "rdfs:comment": "Self-billed invoice"
         },
         {
             "@id": "DocumentNameCodeInvoiceType:395",
-            "@type": "unece:InvoiceDocumentCodeType",
+            "@type": "unece:InvoiceDocumentCode",
             "rdf:value": "395",
             "rdfs:comment": "Consignment invoice"
         },
         {
             "@id": "DocumentNameCodeInvoiceType:396",
-            "@type": "unece:InvoiceDocumentCodeType",
+            "@type": "unece:InvoiceDocumentCode",
             "rdf:value": "396",
             "rdfs:comment": "Factored credit note"
         }

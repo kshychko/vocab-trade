@@ -9,43 +9,43 @@
     "@graph": [
         {
             "@id": "AccountingAccountTypeType:1",
-            "@type": "unece:AccountingAccountTypeCodeType",
+            "@type": "unece:AccountingAccountTypeCode",
             "rdf:value": "1",
             "rdfs:comment": "Financial"
         },
         {
             "@id": "AccountingAccountTypeType:2",
-            "@type": "unece:AccountingAccountTypeCodeType",
+            "@type": "unece:AccountingAccountTypeCode",
             "rdf:value": "2",
             "rdfs:comment": "Subsidiary"
         },
         {
             "@id": "AccountingAccountTypeType:3",
-            "@type": "unece:AccountingAccountTypeCodeType",
+            "@type": "unece:AccountingAccountTypeCode",
             "rdf:value": "3",
             "rdfs:comment": "Budget"
         },
         {
             "@id": "AccountingAccountTypeType:4",
-            "@type": "unece:AccountingAccountTypeCodeType",
+            "@type": "unece:AccountingAccountTypeCode",
             "rdf:value": "4",
             "rdfs:comment": "Cost Accounting"
         },
         {
             "@id": "AccountingAccountTypeType:5",
-            "@type": "unece:AccountingAccountTypeCodeType",
+            "@type": "unece:AccountingAccountTypeCode",
             "rdf:value": "5",
             "rdfs:comment": "Receivable"
         },
         {
             "@id": "AccountingAccountTypeType:6",
-            "@type": "unece:AccountingAccountTypeCodeType",
+            "@type": "unece:AccountingAccountTypeCode",
             "rdf:value": "6",
             "rdfs:comment": "Payable"
         },
         {
             "@id": "AccountingAccountTypeType:7",
-            "@type": "unece:AccountingAccountTypeCodeType",
+            "@type": "unece:AccountingAccountTypeCode",
             "rdf:value": "7",
             "rdfs:comment": "Job Cost Accounting"
         }

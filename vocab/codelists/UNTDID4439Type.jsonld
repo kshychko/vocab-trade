@@ -9,313 +9,313 @@
     "@graph": [
         {
             "@id": "UNTDID4439Type:1",
-            "@type": "unece:PaymentMethodCodeType",
+            "@type": "unece:PaymentMethodCode",
             "rdf:value": "1",
             "rdfs:comment": "Direct payment"
         },
         {
             "@id": "UNTDID4439Type:2",
-            "@type": "unece:PaymentMethodCodeType",
+            "@type": "unece:PaymentMethodCode",
             "rdf:value": "2",
             "rdfs:comment": "Automatic clearing house credit"
         },
         {
             "@id": "UNTDID4439Type:3",
-            "@type": "unece:PaymentMethodCodeType",
+            "@type": "unece:PaymentMethodCode",
             "rdf:value": "3",
             "rdfs:comment": "Automatic clearing house debit"
         },
         {
             "@id": "UNTDID4439Type:4",
-            "@type": "unece:PaymentMethodCodeType",
+            "@type": "unece:PaymentMethodCode",
             "rdf:value": "4",
             "rdfs:comment": "Automatic clearing house credit-savings account"
         },
         {
             "@id": "UNTDID4439Type:5",
-            "@type": "unece:PaymentMethodCodeType",
+            "@type": "unece:PaymentMethodCode",
             "rdf:value": "5",
             "rdfs:comment": "Automatic clearing house debit-demand account"
         },
         {
             "@id": "UNTDID4439Type:6",
-            "@type": "unece:PaymentMethodCodeType",
+            "@type": "unece:PaymentMethodCode",
             "rdf:value": "6",
             "rdfs:comment": "Bank book transfer (credit)"
         },
         {
             "@id": "UNTDID4439Type:7",
-            "@type": "unece:PaymentMethodCodeType",
+            "@type": "unece:PaymentMethodCode",
             "rdf:value": "7",
             "rdfs:comment": "Bank book transfer (debit)"
         },
         {
             "@id": "UNTDID4439Type:8",
-            "@type": "unece:PaymentMethodCodeType",
+            "@type": "unece:PaymentMethodCode",
             "rdf:value": "8",
             "rdfs:comment": "Doc collection via 3rd party with bill of EX"
         },
         {
             "@id": "UNTDID4439Type:9",
-            "@type": "unece:PaymentMethodCodeType",
+            "@type": "unece:PaymentMethodCode",
             "rdf:value": "9",
             "rdfs:comment": "Doc collection via 3rd party no bill of EX"
         },
         {
             "@id": "UNTDID4439Type:10",
-            "@type": "unece:PaymentMethodCodeType",
+            "@type": "unece:PaymentMethodCode",
             "rdf:value": "10",
             "rdfs:comment": "Irrevocable documentary credit"
         },
         {
             "@id": "UNTDID4439Type:11",
-            "@type": "unece:PaymentMethodCodeType",
+            "@type": "unece:PaymentMethodCode",
             "rdf:value": "11",
             "rdfs:comment": "Transferable irrevocable documentary credit"
         },
         {
             "@id": "UNTDID4439Type:12",
-            "@type": "unece:PaymentMethodCodeType",
+            "@type": "unece:PaymentMethodCode",
             "rdf:value": "12",
             "rdfs:comment": "Confirmed irrevocable documentary credit"
         },
         {
             "@id": "UNTDID4439Type:13",
-            "@type": "unece:PaymentMethodCodeType",
+            "@type": "unece:PaymentMethodCode",
             "rdf:value": "13",
             "rdfs:comment": "Transferable confirmed irrevocable documentary credit"
         },
         {
             "@id": "UNTDID4439Type:14",
-            "@type": "unece:PaymentMethodCodeType",
+            "@type": "unece:PaymentMethodCode",
             "rdf:value": "14",
             "rdfs:comment": "Revocable documentary credit"
         },
         {
             "@id": "UNTDID4439Type:15",
-            "@type": "unece:PaymentMethodCodeType",
+            "@type": "unece:PaymentMethodCode",
             "rdf:value": "15",
             "rdfs:comment": "Irrevocable letter of credit-confirmed"
         },
         {
             "@id": "UNTDID4439Type:16",
-            "@type": "unece:PaymentMethodCodeType",
+            "@type": "unece:PaymentMethodCode",
             "rdf:value": "16",
             "rdfs:comment": "Letter of guarantee"
         },
         {
             "@id": "UNTDID4439Type:17",
-            "@type": "unece:PaymentMethodCodeType",
+            "@type": "unece:PaymentMethodCode",
             "rdf:value": "17",
             "rdfs:comment": "Revocable letter of credit"
         },
         {
             "@id": "UNTDID4439Type:18",
-            "@type": "unece:PaymentMethodCodeType",
+            "@type": "unece:PaymentMethodCode",
             "rdf:value": "18",
             "rdfs:comment": "Standby letter of credit"
         },
         {
             "@id": "UNTDID4439Type:19",
-            "@type": "unece:PaymentMethodCodeType",
+            "@type": "unece:PaymentMethodCode",
             "rdf:value": "19",
             "rdfs:comment": "Irrevocable letter of credit unconfirmed"
         },
         {
             "@id": "UNTDID4439Type:20",
-            "@type": "unece:PaymentMethodCodeType",
+            "@type": "unece:PaymentMethodCode",
             "rdf:value": "20",
             "rdfs:comment": "Clean collection (ICC)"
         },
         {
             "@id": "UNTDID4439Type:21",
-            "@type": "unece:PaymentMethodCodeType",
+            "@type": "unece:PaymentMethodCode",
             "rdf:value": "21",
             "rdfs:comment": "Documentary collection (ICC)"
         },
         {
             "@id": "UNTDID4439Type:22",
-            "@type": "unece:PaymentMethodCodeType",
+            "@type": "unece:PaymentMethodCode",
             "rdf:value": "22",
             "rdfs:comment": "Documentary sight collection (ICC)"
         },
         {
             "@id": "UNTDID4439Type:23",
-            "@type": "unece:PaymentMethodCodeType",
+            "@type": "unece:PaymentMethodCode",
             "rdf:value": "23",
             "rdfs:comment": "Documentary collection with date of expiry (ICC)"
         },
         {
             "@id": "UNTDID4439Type:24",
-            "@type": "unece:PaymentMethodCodeType",
+            "@type": "unece:PaymentMethodCode",
             "rdf:value": "24",
             "rdfs:comment": "Documentary collection: bill of exchange against acceptance"
         },
         {
             "@id": "UNTDID4439Type:25",
-            "@type": "unece:PaymentMethodCodeType",
+            "@type": "unece:PaymentMethodCode",
             "rdf:value": "25",
             "rdfs:comment": "Documentary collection: bill of exchange against payment"
         },
         {
             "@id": "UNTDID4439Type:26",
-            "@type": "unece:PaymentMethodCodeType",
+            "@type": "unece:PaymentMethodCode",
             "rdf:value": "26",
             "rdfs:comment": "Collection subject to buyer's approval (ICC)"
         },
         {
             "@id": "UNTDID4439Type:27",
-            "@type": "unece:PaymentMethodCodeType",
+            "@type": "unece:PaymentMethodCode",
             "rdf:value": "27",
             "rdfs:comment": "Collection by a bank consignee for the goods (ICC)"
         },
         {
             "@id": "UNTDID4439Type:34",
-            "@type": "unece:PaymentMethodCodeType",
+            "@type": "unece:PaymentMethodCode",
             "rdf:value": "34",
             "rdfs:comment": "Seller to advise buyer"
         },
         {
             "@id": "UNTDID4439Type:35",
-            "@type": "unece:PaymentMethodCodeType",
+            "@type": "unece:PaymentMethodCode",
             "rdf:value": "35",
             "rdfs:comment": "Documents through banks"
         },
         {
             "@id": "UNTDID4439Type:36",
-            "@type": "unece:PaymentMethodCodeType",
+            "@type": "unece:PaymentMethodCode",
             "rdf:value": "36",
             "rdfs:comment": "Charging (to account)"
         },
         {
             "@id": "UNTDID4439Type:37",
-            "@type": "unece:PaymentMethodCodeType",
+            "@type": "unece:PaymentMethodCode",
             "rdf:value": "37",
             "rdfs:comment": "Available with issuing bank"
         },
         {
             "@id": "UNTDID4439Type:38",
-            "@type": "unece:PaymentMethodCodeType",
+            "@type": "unece:PaymentMethodCode",
             "rdf:value": "38",
             "rdfs:comment": "Available with advising bank"
         },
         {
             "@id": "UNTDID4439Type:39",
-            "@type": "unece:PaymentMethodCodeType",
+            "@type": "unece:PaymentMethodCode",
             "rdf:value": "39",
             "rdfs:comment": "Available with named bank"
         },
         {
             "@id": "UNTDID4439Type:40",
-            "@type": "unece:PaymentMethodCodeType",
+            "@type": "unece:PaymentMethodCode",
             "rdf:value": "40",
             "rdfs:comment": "Available with any bank"
         },
         {
             "@id": "UNTDID4439Type:41",
-            "@type": "unece:PaymentMethodCodeType",
+            "@type": "unece:PaymentMethodCode",
             "rdf:value": "41",
             "rdfs:comment": "Available with any bank in ..."
         },
         {
             "@id": "UNTDID4439Type:42",
-            "@type": "unece:PaymentMethodCodeType",
+            "@type": "unece:PaymentMethodCode",
             "rdf:value": "42",
             "rdfs:comment": "Indirect payment"
         },
         {
             "@id": "UNTDID4439Type:43",
-            "@type": "unece:PaymentMethodCodeType",
+            "@type": "unece:PaymentMethodCode",
             "rdf:value": "43",
             "rdfs:comment": "Reassignment"
         },
         {
             "@id": "UNTDID4439Type:44",
-            "@type": "unece:PaymentMethodCodeType",
+            "@type": "unece:PaymentMethodCode",
             "rdf:value": "44",
             "rdfs:comment": "Offset"
         },
         {
             "@id": "UNTDID4439Type:45",
-            "@type": "unece:PaymentMethodCodeType",
+            "@type": "unece:PaymentMethodCode",
             "rdf:value": "45",
             "rdfs:comment": "Special entries"
         },
         {
             "@id": "UNTDID4439Type:46",
-            "@type": "unece:PaymentMethodCodeType",
+            "@type": "unece:PaymentMethodCode",
             "rdf:value": "46",
             "rdfs:comment": "Instalment payment"
         },
         {
             "@id": "UNTDID4439Type:47",
-            "@type": "unece:PaymentMethodCodeType",
+            "@type": "unece:PaymentMethodCode",
             "rdf:value": "47",
             "rdfs:comment": "Instalment payment with draft"
         },
         {
             "@id": "UNTDID4439Type:48",
-            "@type": "unece:PaymentMethodCodeType",
+            "@type": "unece:PaymentMethodCode",
             "rdf:value": "48",
             "rdfs:comment": "Available with advise through bank"
         },
         {
             "@id": "UNTDID4439Type:49",
-            "@type": "unece:PaymentMethodCodeType",
+            "@type": "unece:PaymentMethodCode",
             "rdf:value": "49",
             "rdfs:comment": "General conditions of sale"
         },
         {
             "@id": "UNTDID4439Type:50",
-            "@type": "unece:PaymentMethodCodeType",
+            "@type": "unece:PaymentMethodCode",
             "rdf:value": "50",
             "rdfs:comment": "Special payment"
         },
         {
             "@id": "UNTDID4439Type:61",
-            "@type": "unece:PaymentMethodCodeType",
+            "@type": "unece:PaymentMethodCode",
             "rdf:value": "61",
             "rdfs:comment": "Set-off by exchange of documents"
         },
         {
             "@id": "UNTDID4439Type:62",
-            "@type": "unece:PaymentMethodCodeType",
+            "@type": "unece:PaymentMethodCode",
             "rdf:value": "62",
             "rdfs:comment": "Set-off by reciprocal credits"
         },
         {
             "@id": "UNTDID4439Type:64",
-            "@type": "unece:PaymentMethodCodeType",
+            "@type": "unece:PaymentMethodCode",
             "rdf:value": "64",
             "rdfs:comment": "Set-off by exchange of goods"
         },
         {
             "@id": "UNTDID4439Type:65",
-            "@type": "unece:PaymentMethodCodeType",
+            "@type": "unece:PaymentMethodCode",
             "rdf:value": "65",
             "rdfs:comment": "Reverse factoring"
         },
         {
             "@id": "UNTDID4439Type:69",
-            "@type": "unece:PaymentMethodCodeType",
+            "@type": "unece:PaymentMethodCode",
             "rdf:value": "69",
             "rdfs:comment": "Other set-off"
         },
         {
             "@id": "UNTDID4439Type:70",
-            "@type": "unece:PaymentMethodCodeType",
+            "@type": "unece:PaymentMethodCode",
             "rdf:value": "70",
             "rdfs:comment": "Supplier to invoice"
         },
         {
             "@id": "UNTDID4439Type:71",
-            "@type": "unece:PaymentMethodCodeType",
+            "@type": "unece:PaymentMethodCode",
             "rdf:value": "71",
             "rdfs:comment": "Recipient to self bill"
         },
         {
             "@id": "UNTDID4439Type:ZZZ",
-            "@type": "unece:PaymentMethodCodeType",
+            "@type": "unece:PaymentMethodCode",
             "rdf:value": "ZZZ",
             "rdfs:comment": "Mutually defined"
         }

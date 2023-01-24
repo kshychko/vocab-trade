@@ -9,43 +9,43 @@
     "@graph": [
         {
             "@id": "AccountingEntryCategoryType:1",
-            "@type": "unece:AccountingEntryCategoryCodeType",
+            "@type": "unece:AccountingEntryCategoryCode",
             "rdf:value": "1",
             "rdfs:comment": "Financial"
         },
         {
             "@id": "AccountingEntryCategoryType:2",
-            "@type": "unece:AccountingEntryCategoryCodeType",
+            "@type": "unece:AccountingEntryCategoryCode",
             "rdf:value": "2",
             "rdfs:comment": "Budget"
         },
         {
             "@id": "AccountingEntryCategoryType:3",
-            "@type": "unece:AccountingEntryCategoryCodeType",
+            "@type": "unece:AccountingEntryCategoryCode",
             "rdf:value": "3",
             "rdfs:comment": "Comparison"
         },
         {
             "@id": "AccountingEntryCategoryType:4",
-            "@type": "unece:AccountingEntryCategoryCodeType",
+            "@type": "unece:AccountingEntryCategoryCode",
             "rdf:value": "4",
             "rdfs:comment": "Standard"
         },
         {
             "@id": "AccountingEntryCategoryType:5",
-            "@type": "unece:AccountingEntryCategoryCodeType",
+            "@type": "unece:AccountingEntryCategoryCode",
             "rdf:value": "5",
             "rdfs:comment": "Recurrent"
         },
         {
             "@id": "AccountingEntryCategoryType:6",
-            "@type": "unece:AccountingEntryCategoryCodeType",
+            "@type": "unece:AccountingEntryCategoryCode",
             "rdf:value": "6",
             "rdfs:comment": "Reordered"
         },
         {
             "@id": "AccountingEntryCategoryType:7",
-            "@type": "unece:AccountingEntryCategoryCodeType",
+            "@type": "unece:AccountingEntryCategoryCode",
             "rdf:value": "7",
             "rdfs:comment": "Defined by user"
         }

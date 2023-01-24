@@ -9,19 +9,19 @@
     "@graph": [
         {
             "@id": "CertificateTypeType:1",
-            "@type": "unece:CertificateTypeCodeType",
+            "@type": "unece:CertificateTypeCode",
             "rdf:value": "1",
             "rdfs:comment": "Mark"
         },
         {
             "@id": "CertificateTypeType:2",
-            "@type": "unece:CertificateTypeCodeType",
+            "@type": "unece:CertificateTypeCode",
             "rdf:value": "2",
             "rdfs:comment": "Certificate"
         },
         {
             "@id": "CertificateTypeType:3",
-            "@type": "unece:CertificateTypeCodeType",
+            "@type": "unece:CertificateTypeCode",
             "rdf:value": "3",
             "rdfs:comment": "Label"
         }

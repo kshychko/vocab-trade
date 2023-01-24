@@ -9,103 +9,103 @@
     "@graph": [
         {
             "@id": "MeasurementUnitCommonCodeAirflowType:35",
-            "@type": "unece:AirFlowUnitCodeType",
+            "@type": "unece:AirFlowUnitMeasureCode",
             "rdf:value": "35",
             "rdfs:comment": "millilitre per square centimetre second"
         },
         {
             "@id": "MeasurementUnitCommonCodeAirflowType:40",
-            "@type": "unece:AirFlowUnitCodeType",
+            "@type": "unece:AirFlowUnitMeasureCode",
             "rdf:value": "40",
             "rdfs:comment": "millilitre per second"
         },
         {
             "@id": "MeasurementUnitCommonCodeAirflowType:E93",
-            "@type": "unece:AirFlowUnitCodeType",
+            "@type": "unece:AirFlowUnitMeasureCode",
             "rdf:value": "E93",
             "rdfs:comment": "kilogram per hour"
         },
         {
             "@id": "MeasurementUnitCommonCodeAirflowType:F26",
-            "@type": "unece:AirFlowUnitCodeType",
+            "@type": "unece:AirFlowUnitMeasureCode",
             "rdf:value": "F26",
             "rdfs:comment": "gram per day"
         },
         {
             "@id": "MeasurementUnitCommonCodeAirflowType:F27",
-            "@type": "unece:AirFlowUnitCodeType",
+            "@type": "unece:AirFlowUnitMeasureCode",
             "rdf:value": "F27",
             "rdfs:comment": "gram per hour"
         },
         {
             "@id": "MeasurementUnitCommonCodeAirflowType:F28",
-            "@type": "unece:AirFlowUnitCodeType",
+            "@type": "unece:AirFlowUnitMeasureCode",
             "rdf:value": "F28",
             "rdfs:comment": "gram per minute"
         },
         {
             "@id": "MeasurementUnitCommonCodeAirflowType:F29",
-            "@type": "unece:AirFlowUnitCodeType",
+            "@type": "unece:AirFlowUnitMeasureCode",
             "rdf:value": "F29",
             "rdfs:comment": "gram per second"
         },
         {
             "@id": "MeasurementUnitCommonCodeAirflowType:F30",
-            "@type": "unece:AirFlowUnitCodeType",
+            "@type": "unece:AirFlowUnitMeasureCode",
             "rdf:value": "F30",
             "rdfs:comment": "kilogram per day"
         },
         {
             "@id": "MeasurementUnitCommonCodeAirflowType:F31",
-            "@type": "unece:AirFlowUnitCodeType",
+            "@type": "unece:AirFlowUnitMeasureCode",
             "rdf:value": "F31",
             "rdfs:comment": "kilogram per minute"
         },
         {
             "@id": "MeasurementUnitCommonCodeAirflowType:F32",
-            "@type": "unece:AirFlowUnitCodeType",
+            "@type": "unece:AirFlowUnitMeasureCode",
             "rdf:value": "F32",
             "rdfs:comment": "milligram per day"
         },
         {
             "@id": "MeasurementUnitCommonCodeAirflowType:F33",
-            "@type": "unece:AirFlowUnitCodeType",
+            "@type": "unece:AirFlowUnitMeasureCode",
             "rdf:value": "F33",
             "rdfs:comment": "milligram per minute"
         },
         {
             "@id": "MeasurementUnitCommonCodeAirflowType:F34",
-            "@type": "unece:AirFlowUnitCodeType",
+            "@type": "unece:AirFlowUnitMeasureCode",
             "rdf:value": "F34",
             "rdfs:comment": "milligram per second"
         },
         {
             "@id": "MeasurementUnitCommonCodeAirflowType:G50",
-            "@type": "unece:AirFlowUnitCodeType",
+            "@type": "unece:AirFlowUnitMeasureCode",
             "rdf:value": "G50",
             "rdfs:comment": "gallon (US) per hour"
         },
         {
             "@id": "MeasurementUnitCommonCodeAirflowType:G51",
-            "@type": "unece:AirFlowUnitCodeType",
+            "@type": "unece:AirFlowUnitMeasureCode",
             "rdf:value": "G51",
             "rdfs:comment": "litre per second"
         },
         {
             "@id": "MeasurementUnitCommonCodeAirflowType:G54",
-            "@type": "unece:AirFlowUnitCodeType",
+            "@type": "unece:AirFlowUnitMeasureCode",
             "rdf:value": "G54",
             "rdfs:comment": "millilitre per day"
         },
         {
             "@id": "MeasurementUnitCommonCodeAirflowType:G55",
-            "@type": "unece:AirFlowUnitCodeType",
+            "@type": "unece:AirFlowUnitMeasureCode",
             "rdf:value": "G55",
             "rdfs:comment": "millilitre per hour"
         },
         {
             "@id": "MeasurementUnitCommonCodeAirflowType:GB",
-            "@type": "unece:AirFlowUnitCodeType",
+            "@type": "unece:AirFlowUnitMeasureCode",
             "rdf:value": "GB",
             "rdfs:comment": "gallon (US) per day"
         }

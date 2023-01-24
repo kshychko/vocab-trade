@@ -9,19 +9,19 @@
     "@graph": [
         {
             "@id": "RefundMethodType:1",
-            "@type": "unece:RefundMethodCodeType",
+            "@type": "unece:RefundMethodCode",
             "rdf:value": "1",
             "rdfs:comment": "Contractual allowance"
         },
         {
             "@id": "RefundMethodType:2",
-            "@type": "unece:RefundMethodCodeType",
+            "@type": "unece:RefundMethodCode",
             "rdf:value": "2",
             "rdfs:comment": "Refunding"
         },
         {
             "@id": "RefundMethodType:3",
-            "@type": "unece:RefundMethodCodeType",
+            "@type": "unece:RefundMethodCode",
             "rdf:value": "3",
             "rdfs:comment": "Entity Reimbursement"
         }

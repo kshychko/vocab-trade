@@ -9,55 +9,55 @@
     "@graph": [
         {
             "@id": "CargoTypeCodeType:0",
-            "@type": "unece:CargoCategoryCodeType",
+            "@type": "unece:CargoCategoryCode",
             "rdf:value": "0",
             "rdfs:comment": "Liquid Bulk"
         },
         {
             "@id": "CargoTypeCodeType:1",
-            "@type": "unece:CargoCategoryCodeType",
+            "@type": "unece:CargoCategoryCode",
             "rdf:value": "1",
             "rdfs:comment": "Solid Bulk"
         },
         {
             "@id": "CargoTypeCodeType:2",
-            "@type": "unece:CargoCategoryCodeType",
+            "@type": "unece:CargoCategoryCode",
             "rdf:value": "2",
             "rdfs:comment": "Large Freight Container (20 feet or more in length)"
         },
         {
             "@id": "CargoTypeCodeType:3",
-            "@type": "unece:CargoCategoryCodeType",
+            "@type": "unece:CargoCategoryCode",
             "rdf:value": "3",
             "rdfs:comment": "Other Freight Container (Less than 20 feet in length)"
         },
         {
             "@id": "CargoTypeCodeType:4",
-            "@type": "unece:CargoCategoryCodeType",
+            "@type": "unece:CargoCategoryCode",
             "rdf:value": "4",
             "rdfs:comment": "Palletized"
         },
         {
             "@id": "CargoTypeCodeType:5",
-            "@type": "unece:CargoCategoryCodeType",
+            "@type": "unece:CargoCategoryCode",
             "rdf:value": "5",
             "rdfs:comment": "Pre-slung"
         },
         {
             "@id": "CargoTypeCodeType:6",
-            "@type": "unece:CargoCategoryCodeType",
+            "@type": "unece:CargoCategoryCode",
             "rdf:value": "6",
             "rdfs:comment": "Mobile self-propelled"
         },
         {
             "@id": "CargoTypeCodeType:7",
-            "@type": "unece:CargoCategoryCodeType",
+            "@type": "unece:CargoCategoryCode",
             "rdf:value": "7",
             "rdfs:comment": "Other mobile units"
         },
         {
             "@id": "CargoTypeCodeType:9",
-            "@type": "unece:CargoCategoryCodeType",
+            "@type": "unece:CargoCategoryCode",
             "rdf:value": "9",
             "rdfs:comment": "Other types of cargo"
         }

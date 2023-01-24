@@ -9,13 +9,13 @@
     "@graph": [
         {
             "@id": "MeasurementUnitCommonCodeTemperatureType:CEL",
-            "@type": "unece:TemperatureUnitCodeType",
+            "@type": "unece:TemperatureUnitMeasureCode",
             "rdf:value": "CEL",
             "rdfs:comment": "degree Celsius"
         },
         {
             "@id": "MeasurementUnitCommonCodeTemperatureType:FAH",
-            "@type": "unece:TemperatureUnitCodeType",
+            "@type": "unece:TemperatureUnitMeasureCode",
             "rdf:value": "FAH",
             "rdfs:comment": "degree Fahrenheit"
         }

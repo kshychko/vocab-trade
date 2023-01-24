@@ -9,25 +9,25 @@
     "@graph": [
         {
             "@id": "AlternateCurrencyAmountType:1",
-            "@type": "unece:AlternateCurrencyAmountTypeCodeType",
+            "@type": "unece:AlternateCurrencyAmountTypeCode",
             "rdf:value": "1",
             "rdfs:comment": "Payment Amount"
         },
         {
             "@id": "AlternateCurrencyAmountType:2",
-            "@type": "unece:AlternateCurrencyAmountTypeCodeType",
+            "@type": "unece:AlternateCurrencyAmountTypeCode",
             "rdf:value": "2",
             "rdfs:comment": "Reporting Amount"
         },
         {
             "@id": "AlternateCurrencyAmountType:3",
-            "@type": "unece:AlternateCurrencyAmountTypeCodeType",
+            "@type": "unece:AlternateCurrencyAmountTypeCode",
             "rdf:value": "3",
             "rdfs:comment": "Consolidation Amount"
         },
         {
             "@id": "AlternateCurrencyAmountType:4",
-            "@type": "unece:AlternateCurrencyAmountTypeCodeType",
+            "@type": "unece:AlternateCurrencyAmountTypeCode",
             "rdf:value": "4",
             "rdfs:comment": "Euro Transition Amount"
         }

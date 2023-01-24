@@ -9,43 +9,43 @@
     "@graph": [
         {
             "@id": "AccountingContactType:1",
-            "@type": "unece:AccountingContactCodeType",
+            "@type": "unece:AccountingContactCode",
             "rdf:value": "1",
             "rdfs:comment": "Accountant"
         },
         {
             "@id": "AccountingContactType:2",
-            "@type": "unece:AccountingContactCodeType",
+            "@type": "unece:AccountingContactCode",
             "rdf:value": "2",
             "rdfs:comment": "Chartered accountant"
         },
         {
             "@id": "AccountingContactType:3",
-            "@type": "unece:AccountingContactCodeType",
+            "@type": "unece:AccountingContactCode",
             "rdf:value": "3",
             "rdfs:comment": "Certified Public Accountant (CPA)"
         },
         {
             "@id": "AccountingContactType:4",
-            "@type": "unece:AccountingContactCodeType",
+            "@type": "unece:AccountingContactCode",
             "rdf:value": "4",
             "rdfs:comment": "Auditor"
         },
         {
             "@id": "AccountingContactType:5",
-            "@type": "unece:AccountingContactCodeType",
+            "@type": "unece:AccountingContactCode",
             "rdf:value": "5",
             "rdfs:comment": "Accounting Firm"
         },
         {
             "@id": "AccountingContactType:6",
-            "@type": "unece:AccountingContactCodeType",
+            "@type": "unece:AccountingContactCode",
             "rdf:value": "6",
             "rdfs:comment": "Legal Auditor"
         },
         {
             "@id": "AccountingContactType:7",
-            "@type": "unece:AccountingContactCodeType",
+            "@type": "unece:AccountingContactCode",
             "rdf:value": "7",
             "rdfs:comment": "Agreed organisation"
         }

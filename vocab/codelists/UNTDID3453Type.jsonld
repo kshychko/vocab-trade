@@ -9,2221 +9,2221 @@
     "@graph": [
         {
             "@id": "UNTDID3453Type:aa",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "aa",
             "rdfs:comment": "Afar"
         },
         {
             "@id": "UNTDID3453Type:AA",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "AA",
             "rdfs:comment": "Afar"
         },
         {
             "@id": "UNTDID3453Type:ab",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "ab",
             "rdfs:comment": "Abkhazian"
         },
         {
             "@id": "UNTDID3453Type:AB",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "AB",
             "rdfs:comment": "Abkhazian"
         },
         {
             "@id": "UNTDID3453Type:ae",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "ae",
             "rdfs:comment": "Avestan"
         },
         {
             "@id": "UNTDID3453Type:AE",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "AE",
             "rdfs:comment": "Avestan"
         },
         {
             "@id": "UNTDID3453Type:af",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "af",
             "rdfs:comment": "Afrikaans"
         },
         {
             "@id": "UNTDID3453Type:AF",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "AF",
             "rdfs:comment": "Afrikaans"
         },
         {
             "@id": "UNTDID3453Type:ak",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "ak",
             "rdfs:comment": "Akan"
         },
         {
             "@id": "UNTDID3453Type:AK",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "AK",
             "rdfs:comment": "Akan"
         },
         {
             "@id": "UNTDID3453Type:am",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "am",
             "rdfs:comment": "Amharic"
         },
         {
             "@id": "UNTDID3453Type:AM",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "AM",
             "rdfs:comment": "Amharic"
         },
         {
             "@id": "UNTDID3453Type:an",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "an",
             "rdfs:comment": "Aragonese"
         },
         {
             "@id": "UNTDID3453Type:AN",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "AN",
             "rdfs:comment": "Aragonese"
         },
         {
             "@id": "UNTDID3453Type:ar",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "ar",
             "rdfs:comment": "Arabic"
         },
         {
             "@id": "UNTDID3453Type:AR",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "AR",
             "rdfs:comment": "Arabic"
         },
         {
             "@id": "UNTDID3453Type:as",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "as",
             "rdfs:comment": "Assamese"
         },
         {
             "@id": "UNTDID3453Type:AS",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "AS",
             "rdfs:comment": "Assamese"
         },
         {
             "@id": "UNTDID3453Type:av",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "av",
             "rdfs:comment": "Avaric"
         },
         {
             "@id": "UNTDID3453Type:AV",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "AV",
             "rdfs:comment": "Avaric"
         },
         {
             "@id": "UNTDID3453Type:ay",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "ay",
             "rdfs:comment": "Aymara"
         },
         {
             "@id": "UNTDID3453Type:AY",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "AY",
             "rdfs:comment": "Aymara"
         },
         {
             "@id": "UNTDID3453Type:az",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "az",
             "rdfs:comment": "Azerbaijani"
         },
         {
             "@id": "UNTDID3453Type:AZ",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "AZ",
             "rdfs:comment": "Azerbaijani"
         },
         {
             "@id": "UNTDID3453Type:ba",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "ba",
             "rdfs:comment": "Bashkir"
         },
         {
             "@id": "UNTDID3453Type:BA",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "BA",
             "rdfs:comment": "Bashkir"
         },
         {
             "@id": "UNTDID3453Type:be",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "be",
             "rdfs:comment": "Belarusian"
         },
         {
             "@id": "UNTDID3453Type:BE",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "BE",
             "rdfs:comment": "Belarusian"
         },
         {
             "@id": "UNTDID3453Type:bg",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "bg",
             "rdfs:comment": "Bulgarian"
         },
         {
             "@id": "UNTDID3453Type:BG",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "BG",
             "rdfs:comment": "Bulgarian"
         },
         {
             "@id": "UNTDID3453Type:bh",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "bh",
             "rdfs:comment": "Bihari"
         },
         {
             "@id": "UNTDID3453Type:BH",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "BH",
             "rdfs:comment": "Bihari"
         },
         {
             "@id": "UNTDID3453Type:bi",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "bi",
             "rdfs:comment": "Bislama"
         },
         {
             "@id": "UNTDID3453Type:BI",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "BI",
             "rdfs:comment": "Bislama"
         },
         {
             "@id": "UNTDID3453Type:bm",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "bm",
             "rdfs:comment": "Bambara"
         },
         {
             "@id": "UNTDID3453Type:BM",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "BM",
             "rdfs:comment": "Bambara"
         },
         {
             "@id": "UNTDID3453Type:bn",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "bn",
             "rdfs:comment": "Bengali"
         },
         {
             "@id": "UNTDID3453Type:BN",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "BN",
             "rdfs:comment": "Bengali"
         },
         {
             "@id": "UNTDID3453Type:bo",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "bo",
             "rdfs:comment": "Tibetan"
         },
         {
             "@id": "UNTDID3453Type:BO",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "BO",
             "rdfs:comment": "Tibetan"
         },
         {
             "@id": "UNTDID3453Type:br",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "br",
             "rdfs:comment": "Breton"
         },
         {
             "@id": "UNTDID3453Type:BR",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "BR",
             "rdfs:comment": "Breton"
         },
         {
             "@id": "UNTDID3453Type:bs",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "bs",
             "rdfs:comment": "Bosnian"
         },
         {
             "@id": "UNTDID3453Type:BS",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "BS",
             "rdfs:comment": "Bosnian"
         },
         {
             "@id": "UNTDID3453Type:ca",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "ca",
             "rdfs:comment": "Catalan; Valencian"
         },
         {
             "@id": "UNTDID3453Type:CA",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "CA",
             "rdfs:comment": "Catalan; Valencian"
         },
         {
             "@id": "UNTDID3453Type:ce",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "ce",
             "rdfs:comment": "Chechen"
         },
         {
             "@id": "UNTDID3453Type:CE",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "CE",
             "rdfs:comment": "Chechen"
         },
         {
             "@id": "UNTDID3453Type:ch",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "ch",
             "rdfs:comment": "Chamorro"
         },
         {
             "@id": "UNTDID3453Type:CH",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "CH",
             "rdfs:comment": "Chamorro"
         },
         {
             "@id": "UNTDID3453Type:co",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "co",
             "rdfs:comment": "Corsican"
         },
         {
             "@id": "UNTDID3453Type:CO",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "CO",
             "rdfs:comment": "Corsican"
         },
         {
             "@id": "UNTDID3453Type:cr",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "cr",
             "rdfs:comment": "Cree"
         },
         {
             "@id": "UNTDID3453Type:CR",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "CR",
             "rdfs:comment": "Cree"
         },
         {
             "@id": "UNTDID3453Type:cs",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "cs",
             "rdfs:comment": "Czech"
         },
         {
             "@id": "UNTDID3453Type:CS",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "CS",
             "rdfs:comment": "Czech"
         },
         {
             "@id": "UNTDID3453Type:cu",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "cu",
             "rdfs:comment": "Church Slavic; Old Slavonic; Church Slavonic; Old Bulgarian; Old Church Slavonic"
         },
         {
             "@id": "UNTDID3453Type:CU",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "CU",
             "rdfs:comment": "Church Slavic; Old Slavonic; Church Slavonic; Old Bulgarian; Old Church Slavonic"
         },
         {
             "@id": "UNTDID3453Type:cv",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "cv",
             "rdfs:comment": "Chuvash"
         },
         {
             "@id": "UNTDID3453Type:CV",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "CV",
             "rdfs:comment": "Chuvash"
         },
         {
             "@id": "UNTDID3453Type:cy",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "cy",
             "rdfs:comment": "Welsh"
         },
         {
             "@id": "UNTDID3453Type:CY",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "CY",
             "rdfs:comment": "Welsh"
         },
         {
             "@id": "UNTDID3453Type:da",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "da",
             "rdfs:comment": "Danish"
         },
         {
             "@id": "UNTDID3453Type:DA",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "DA",
             "rdfs:comment": "Danish"
         },
         {
             "@id": "UNTDID3453Type:de",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "de",
             "rdfs:comment": "German"
         },
         {
             "@id": "UNTDID3453Type:DE",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "DE",
             "rdfs:comment": "German"
         },
         {
             "@id": "UNTDID3453Type:dv",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "dv",
             "rdfs:comment": "Divehi; Dhivehi; Maldivian"
         },
         {
             "@id": "UNTDID3453Type:DV",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "DV",
             "rdfs:comment": "Divehi; Dhivehi; Maldivian"
         },
         {
             "@id": "UNTDID3453Type:dz",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "dz",
             "rdfs:comment": "Dzongkha"
         },
         {
             "@id": "UNTDID3453Type:DZ",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "DZ",
             "rdfs:comment": "Dzongkha"
         },
         {
             "@id": "UNTDID3453Type:ee",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "ee",
             "rdfs:comment": "Ewe"
         },
         {
             "@id": "UNTDID3453Type:EE",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "EE",
             "rdfs:comment": "Ewe"
         },
         {
             "@id": "UNTDID3453Type:el",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "el",
             "rdfs:comment": "Greek; Modern (1453-)"
         },
         {
             "@id": "UNTDID3453Type:EL",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "EL",
             "rdfs:comment": "Greek; Modern (1453-)"
         },
         {
             "@id": "UNTDID3453Type:en",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "en",
             "rdfs:comment": "English"
         },
         {
             "@id": "UNTDID3453Type:EN",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "EN",
             "rdfs:comment": "English"
         },
         {
             "@id": "UNTDID3453Type:eo",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "eo",
             "rdfs:comment": "Esperanto"
         },
         {
             "@id": "UNTDID3453Type:EO",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "EO",
             "rdfs:comment": "Esperanto"
         },
         {
             "@id": "UNTDID3453Type:es",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "es",
             "rdfs:comment": "Spanish; Castilian"
         },
         {
             "@id": "UNTDID3453Type:ES",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "ES",
             "rdfs:comment": "Spanish; Castilian"
         },
         {
             "@id": "UNTDID3453Type:et",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "et",
             "rdfs:comment": "Estonian"
         },
         {
             "@id": "UNTDID3453Type:ET",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "ET",
             "rdfs:comment": "Estonian"
         },
         {
             "@id": "UNTDID3453Type:eu",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "eu",
             "rdfs:comment": "Basque"
         },
         {
             "@id": "UNTDID3453Type:EU",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "EU",
             "rdfs:comment": "Basque"
         },
         {
             "@id": "UNTDID3453Type:fa",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "fa",
             "rdfs:comment": "Persian"
         },
         {
             "@id": "UNTDID3453Type:FA",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "FA",
             "rdfs:comment": "Persian"
         },
         {
             "@id": "UNTDID3453Type:ff",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "ff",
             "rdfs:comment": "Fulah"
         },
         {
             "@id": "UNTDID3453Type:FF",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "FF",
             "rdfs:comment": "Fulah"
         },
         {
             "@id": "UNTDID3453Type:fi",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "fi",
             "rdfs:comment": "Finnish"
         },
         {
             "@id": "UNTDID3453Type:FI",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "FI",
             "rdfs:comment": "Finnish"
         },
         {
             "@id": "UNTDID3453Type:fj",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "fj",
             "rdfs:comment": "Fijian"
         },
         {
             "@id": "UNTDID3453Type:FJ",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "FJ",
             "rdfs:comment": "Fijian"
         },
         {
             "@id": "UNTDID3453Type:fo",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "fo",
             "rdfs:comment": "Faroese"
         },
         {
             "@id": "UNTDID3453Type:FO",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "FO",
             "rdfs:comment": "Faroese"
         },
         {
             "@id": "UNTDID3453Type:fr",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "fr",
             "rdfs:comment": "French"
         },
         {
             "@id": "UNTDID3453Type:FR",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "FR",
             "rdfs:comment": "French"
         },
         {
             "@id": "UNTDID3453Type:fy",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "fy",
             "rdfs:comment": "Western Frisian"
         },
         {
             "@id": "UNTDID3453Type:FY",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "FY",
             "rdfs:comment": "Western Frisian"
         },
         {
             "@id": "UNTDID3453Type:ga",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "ga",
             "rdfs:comment": "Irish"
         },
         {
             "@id": "UNTDID3453Type:GA",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "GA",
             "rdfs:comment": "Irish"
         },
         {
             "@id": "UNTDID3453Type:gd",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "gd",
             "rdfs:comment": "Gaelic; Scottish Gaelic"
         },
         {
             "@id": "UNTDID3453Type:GD",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "GD",
             "rdfs:comment": "Gaelic; Scottish Gaelic"
         },
         {
             "@id": "UNTDID3453Type:gl",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "gl",
             "rdfs:comment": "Galician"
         },
         {
             "@id": "UNTDID3453Type:GL",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "GL",
             "rdfs:comment": "Galician"
         },
         {
             "@id": "UNTDID3453Type:gn",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "gn",
             "rdfs:comment": "Guarani"
         },
         {
             "@id": "UNTDID3453Type:GN",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "GN",
             "rdfs:comment": "Guarani"
         },
         {
             "@id": "UNTDID3453Type:gu",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "gu",
             "rdfs:comment": "Gujarati"
         },
         {
             "@id": "UNTDID3453Type:GU",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "GU",
             "rdfs:comment": "Gujarati"
         },
         {
             "@id": "UNTDID3453Type:gv",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "gv",
             "rdfs:comment": "Manx"
         },
         {
             "@id": "UNTDID3453Type:GV",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "GV",
             "rdfs:comment": "Manx"
         },
         {
             "@id": "UNTDID3453Type:ha",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "ha",
             "rdfs:comment": "Hausa"
         },
         {
             "@id": "UNTDID3453Type:HA",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "HA",
             "rdfs:comment": "Hausa"
         },
         {
             "@id": "UNTDID3453Type:he",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "he",
             "rdfs:comment": "Hebrew"
         },
         {
             "@id": "UNTDID3453Type:HE",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "HE",
             "rdfs:comment": "Hebrew"
         },
         {
             "@id": "UNTDID3453Type:hi",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "hi",
             "rdfs:comment": "Hindi"
         },
         {
             "@id": "UNTDID3453Type:HI",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "HI",
             "rdfs:comment": "Hindi"
         },
         {
             "@id": "UNTDID3453Type:ho",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "ho",
             "rdfs:comment": "Hiri Motu"
         },
         {
             "@id": "UNTDID3453Type:HO",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "HO",
             "rdfs:comment": "Hiri Motu"
         },
         {
             "@id": "UNTDID3453Type:hr",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "hr",
             "rdfs:comment": "Croatian"
         },
         {
             "@id": "UNTDID3453Type:HR",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "HR",
             "rdfs:comment": "Croatian"
         },
         {
             "@id": "UNTDID3453Type:ht",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "ht",
             "rdfs:comment": "Haitian; Haitian Creole"
         },
         {
             "@id": "UNTDID3453Type:HT",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "HT",
             "rdfs:comment": "Haitian; Haitian Creole"
         },
         {
             "@id": "UNTDID3453Type:hu",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "hu",
             "rdfs:comment": "Hungarian"
         },
         {
             "@id": "UNTDID3453Type:HU",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "HU",
             "rdfs:comment": "Hungarian"
         },
         {
             "@id": "UNTDID3453Type:hy",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "hy",
             "rdfs:comment": "Armenian"
         },
         {
             "@id": "UNTDID3453Type:HY",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "HY",
             "rdfs:comment": "Armenian"
         },
         {
             "@id": "UNTDID3453Type:hz",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "hz",
             "rdfs:comment": "Herero"
         },
         {
             "@id": "UNTDID3453Type:HZ",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "HZ",
             "rdfs:comment": "Herero"
         },
         {
             "@id": "UNTDID3453Type:ia",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "ia",
             "rdfs:comment": "Interlingua (International Auxiliary Language Association)"
         },
         {
             "@id": "UNTDID3453Type:IA",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "IA",
             "rdfs:comment": "Interlingua (International Auxiliary Language Association)"
         },
         {
             "@id": "UNTDID3453Type:id",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "id",
             "rdfs:comment": "Indonesian"
         },
         {
             "@id": "UNTDID3453Type:ID",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "ID",
             "rdfs:comment": "Indonesian"
         },
         {
             "@id": "UNTDID3453Type:ie",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "ie",
             "rdfs:comment": "Interlingue"
         },
         {
             "@id": "UNTDID3453Type:IE",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "IE",
             "rdfs:comment": "Interlingue"
         },
         {
             "@id": "UNTDID3453Type:ig",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "ig",
             "rdfs:comment": "Igbo"
         },
         {
             "@id": "UNTDID3453Type:IG",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "IG",
             "rdfs:comment": "Igbo"
         },
         {
             "@id": "UNTDID3453Type:ii",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "ii",
             "rdfs:comment": "Sichuan Yi"
         },
         {
             "@id": "UNTDID3453Type:II",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "II",
             "rdfs:comment": "Sichuan Yi"
         },
         {
             "@id": "UNTDID3453Type:ik",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "ik",
             "rdfs:comment": "Inupiaq"
         },
         {
             "@id": "UNTDID3453Type:IK",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "IK",
             "rdfs:comment": "Inupiaq"
         },
         {
             "@id": "UNTDID3453Type:io",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "io",
             "rdfs:comment": "Ido"
         },
         {
             "@id": "UNTDID3453Type:IO",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "IO",
             "rdfs:comment": "Ido"
         },
         {
             "@id": "UNTDID3453Type:is",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "is",
             "rdfs:comment": "Icelandic"
         },
         {
             "@id": "UNTDID3453Type:IS",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "IS",
             "rdfs:comment": "Icelandic"
         },
         {
             "@id": "UNTDID3453Type:it",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "it",
             "rdfs:comment": "Italian"
         },
         {
             "@id": "UNTDID3453Type:IT",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "IT",
             "rdfs:comment": "Italian"
         },
         {
             "@id": "UNTDID3453Type:iu",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "iu",
             "rdfs:comment": "Inuktiut"
         },
         {
             "@id": "UNTDID3453Type:IU",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "IU",
             "rdfs:comment": "Inuktiut"
         },
         {
             "@id": "UNTDID3453Type:ja",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "ja",
             "rdfs:comment": "Japanese"
         },
         {
             "@id": "UNTDID3453Type:JA",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "JA",
             "rdfs:comment": "Japanese"
         },
         {
             "@id": "UNTDID3453Type:jv",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "jv",
             "rdfs:comment": "Javanese"
         },
         {
             "@id": "UNTDID3453Type:JV",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "JV",
             "rdfs:comment": "Javanese"
         },
         {
             "@id": "UNTDID3453Type:ka",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "ka",
             "rdfs:comment": "Georgian"
         },
         {
             "@id": "UNTDID3453Type:KA",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "KA",
             "rdfs:comment": "Georgian"
         },
         {
             "@id": "UNTDID3453Type:kg",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "kg",
             "rdfs:comment": "Kongo"
         },
         {
             "@id": "UNTDID3453Type:KG",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "KG",
             "rdfs:comment": "Kongo"
         },
         {
             "@id": "UNTDID3453Type:ki",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "ki",
             "rdfs:comment": "Kikuyu; Gikuyu"
         },
         {
             "@id": "UNTDID3453Type:KI",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "KI",
             "rdfs:comment": "Kikuyu; Gikuyu"
         },
         {
             "@id": "UNTDID3453Type:kj",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "kj",
             "rdfs:comment": "Kuanyama; Kwanyama"
         },
         {
             "@id": "UNTDID3453Type:KJ",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "KJ",
             "rdfs:comment": "Kuanyama; Kwanyama"
         },
         {
             "@id": "UNTDID3453Type:kk",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "kk",
             "rdfs:comment": "Kazakh"
         },
         {
             "@id": "UNTDID3453Type:KK",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "KK",
             "rdfs:comment": "Kazakh"
         },
         {
             "@id": "UNTDID3453Type:kl",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "kl",
             "rdfs:comment": "Kalaallisut; Greenlandic"
         },
         {
             "@id": "UNTDID3453Type:KL",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "KL",
             "rdfs:comment": "Kalaallisut; Greenlandic"
         },
         {
             "@id": "UNTDID3453Type:km",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "km",
             "rdfs:comment": "Central Khmer"
         },
         {
             "@id": "UNTDID3453Type:KM",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "KM",
             "rdfs:comment": "Central Khmer"
         },
         {
             "@id": "UNTDID3453Type:kn",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "kn",
             "rdfs:comment": "Kannada"
         },
         {
             "@id": "UNTDID3453Type:KN",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "KN",
             "rdfs:comment": "Kannada"
         },
         {
             "@id": "UNTDID3453Type:ko",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "ko",
             "rdfs:comment": "Korean"
         },
         {
             "@id": "UNTDID3453Type:KO",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "KO",
             "rdfs:comment": "Korean"
         },
         {
             "@id": "UNTDID3453Type:kr",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "kr",
             "rdfs:comment": "Kanuri"
         },
         {
             "@id": "UNTDID3453Type:KR",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "KR",
             "rdfs:comment": "Kanuri"
         },
         {
             "@id": "UNTDID3453Type:ks",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "ks",
             "rdfs:comment": "Kashmiri"
         },
         {
             "@id": "UNTDID3453Type:KS",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "KS",
             "rdfs:comment": "Kashmiri"
         },
         {
             "@id": "UNTDID3453Type:ku",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "ku",
             "rdfs:comment": "Kurdish"
         },
         {
             "@id": "UNTDID3453Type:KU",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "KU",
             "rdfs:comment": "Kurdish"
         },
         {
             "@id": "UNTDID3453Type:kv",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "kv",
             "rdfs:comment": "Komi"
         },
         {
             "@id": "UNTDID3453Type:KV",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "KV",
             "rdfs:comment": "Komi"
         },
         {
             "@id": "UNTDID3453Type:kw",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "kw",
             "rdfs:comment": "Cornish"
         },
         {
             "@id": "UNTDID3453Type:KW",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "KW",
             "rdfs:comment": "Cornish"
         },
         {
             "@id": "UNTDID3453Type:ky",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "ky",
             "rdfs:comment": "Kirghiz; Kyrgyz"
         },
         {
             "@id": "UNTDID3453Type:KY",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "KY",
             "rdfs:comment": "Kirghiz; Kyrgyz"
         },
         {
             "@id": "UNTDID3453Type:la",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "la",
             "rdfs:comment": "Latin"
         },
         {
             "@id": "UNTDID3453Type:LA",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "LA",
             "rdfs:comment": "Latin"
         },
         {
             "@id": "UNTDID3453Type:lb",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "lb",
             "rdfs:comment": "Luxembourgish; Letzeburgesch"
         },
         {
             "@id": "UNTDID3453Type:LB",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "LB",
             "rdfs:comment": "Luxembourgish; Letzeburgesch"
         },
         {
             "@id": "UNTDID3453Type:lg",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "lg",
             "rdfs:comment": "Ganda"
         },
         {
             "@id": "UNTDID3453Type:LG",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "LG",
             "rdfs:comment": "Ganda"
         },
         {
             "@id": "UNTDID3453Type:li",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "li",
             "rdfs:comment": "Limburgan; Limburger; Limburgish"
         },
         {
             "@id": "UNTDID3453Type:LI",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "LI",
             "rdfs:comment": "Limburgan; Limburger; Limburgish"
         },
         {
             "@id": "UNTDID3453Type:ln",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "ln",
             "rdfs:comment": "Lingala"
         },
         {
             "@id": "UNTDID3453Type:LN",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "LN",
             "rdfs:comment": "Lingala"
         },
         {
             "@id": "UNTDID3453Type:lo",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "lo",
             "rdfs:comment": "Lao"
         },
         {
             "@id": "UNTDID3453Type:LO",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "LO",
             "rdfs:comment": "Lao"
         },
         {
             "@id": "UNTDID3453Type:lt",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "lt",
             "rdfs:comment": "Lithuanian"
         },
         {
             "@id": "UNTDID3453Type:LT",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "LT",
             "rdfs:comment": "Lithuanian"
         },
         {
             "@id": "UNTDID3453Type:lu",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "lu",
             "rdfs:comment": "Luba-Katanga"
         },
         {
             "@id": "UNTDID3453Type:LU",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "LU",
             "rdfs:comment": "Luba-Katanga"
         },
         {
             "@id": "UNTDID3453Type:lv",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "lv",
             "rdfs:comment": "Latvian"
         },
         {
             "@id": "UNTDID3453Type:LV",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "LV",
             "rdfs:comment": "Latvian"
         },
         {
             "@id": "UNTDID3453Type:mg",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "mg",
             "rdfs:comment": "Malagasy"
         },
         {
             "@id": "UNTDID3453Type:MG",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "MG",
             "rdfs:comment": "Malagasy"
         },
         {
             "@id": "UNTDID3453Type:mh",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "mh",
             "rdfs:comment": "Marshallese"
         },
         {
             "@id": "UNTDID3453Type:MH",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "MH",
             "rdfs:comment": "Marshallese"
         },
         {
             "@id": "UNTDID3453Type:mi",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "mi",
             "rdfs:comment": "Maori"
         },
         {
             "@id": "UNTDID3453Type:MI",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "MI",
             "rdfs:comment": "Maori"
         },
         {
             "@id": "UNTDID3453Type:mk",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "mk",
             "rdfs:comment": "Macedonian"
         },
         {
             "@id": "UNTDID3453Type:MK",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "MK",
             "rdfs:comment": "Macedonian"
         },
         {
             "@id": "UNTDID3453Type:ml",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "ml",
             "rdfs:comment": "Malayalam"
         },
         {
             "@id": "UNTDID3453Type:ML",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "ML",
             "rdfs:comment": "Malayalam"
         },
         {
             "@id": "UNTDID3453Type:mn",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "mn",
             "rdfs:comment": "Mongolian"
         },
         {
             "@id": "UNTDID3453Type:MN",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "MN",
             "rdfs:comment": "Mongolian"
         },
         {
             "@id": "UNTDID3453Type:mo",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "mo",
             "rdfs:comment": "Moldavian; Moldovan"
         },
         {
             "@id": "UNTDID3453Type:MO",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "MO",
             "rdfs:comment": "Moldavian; Moldovan"
         },
         {
             "@id": "UNTDID3453Type:mr",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "mr",
             "rdfs:comment": "Marathi"
         },
         {
             "@id": "UNTDID3453Type:MR",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "MR",
             "rdfs:comment": "Marathi"
         },
         {
             "@id": "UNTDID3453Type:ms",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "ms",
             "rdfs:comment": "Malay"
         },
         {
             "@id": "UNTDID3453Type:MS",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "MS",
             "rdfs:comment": "Malay"
         },
         {
             "@id": "UNTDID3453Type:mt",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "mt",
             "rdfs:comment": "Maltese"
         },
         {
             "@id": "UNTDID3453Type:MT",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "MT",
             "rdfs:comment": "Maltese"
         },
         {
             "@id": "UNTDID3453Type:my",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "my",
             "rdfs:comment": "Burmese"
         },
         {
             "@id": "UNTDID3453Type:MY",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "MY",
             "rdfs:comment": "Burmese"
         },
         {
             "@id": "UNTDID3453Type:na",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "na",
             "rdfs:comment": "Nauru"
         },
         {
             "@id": "UNTDID3453Type:NA",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "NA",
             "rdfs:comment": "Nauru"
         },
         {
             "@id": "UNTDID3453Type:nb",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "nb",
             "rdfs:comment": "Bokmal Norwegian; Norwegian Bokmal"
         },
         {
             "@id": "UNTDID3453Type:NB",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "NB",
             "rdfs:comment": "Bokmal Norwegian; Norwegian Bokmal"
         },
         {
             "@id": "UNTDID3453Type:nd",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "nd",
             "rdfs:comment": "Ndebele; North; North Ndebele"
         },
         {
             "@id": "UNTDID3453Type:ND",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "ND",
             "rdfs:comment": "Ndebele; North; North Ndebele"
         },
         {
             "@id": "UNTDID3453Type:ne",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "ne",
             "rdfs:comment": "Nepali"
         },
         {
             "@id": "UNTDID3453Type:NE",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "NE",
             "rdfs:comment": "Nepali"
         },
         {
             "@id": "UNTDID3453Type:ng",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "ng",
             "rdfs:comment": "Ndonga"
         },
         {
             "@id": "UNTDID3453Type:NG",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "NG",
             "rdfs:comment": "Ndonga"
         },
         {
             "@id": "UNTDID3453Type:nl",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "nl",
             "rdfs:comment": "Dutch; Flemish"
         },
         {
             "@id": "UNTDID3453Type:NL",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "NL",
             "rdfs:comment": "Dutch; Flemish"
         },
         {
             "@id": "UNTDID3453Type:nn",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "nn",
             "rdfs:comment": "Norwegian Nynorsk; Nynorsk, Norwegian"
         },
         {
             "@id": "UNTDID3453Type:NN",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "NN",
             "rdfs:comment": "Norwegian Nynorsk; Nynorsk, Norwegian"
         },
         {
             "@id": "UNTDID3453Type:no",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "no",
             "rdfs:comment": "Norwegian"
         },
         {
             "@id": "UNTDID3453Type:NO",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "NO",
             "rdfs:comment": "Norwegian"
         },
         {
             "@id": "UNTDID3453Type:nr",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "nr",
             "rdfs:comment": "Ndebele; South; South Ndebele"
         },
         {
             "@id": "UNTDID3453Type:NR",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "NR",
             "rdfs:comment": "Ndebele; South; South Ndebele"
         },
         {
             "@id": "UNTDID3453Type:nv",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "nv",
             "rdfs:comment": "Navajo; Navaho"
         },
         {
             "@id": "UNTDID3453Type:NV",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "NV",
             "rdfs:comment": "Navajo; Navaho"
         },
         {
             "@id": "UNTDID3453Type:ny",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "ny",
             "rdfs:comment": "Chichewa; Chewa; Nyanja"
         },
         {
             "@id": "UNTDID3453Type:NY",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "NY",
             "rdfs:comment": "Chichewa; Chewa; Nyanja"
         },
         {
             "@id": "UNTDID3453Type:oc",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "oc",
             "rdfs:comment": "Occitan (post 1500); Provencal"
         },
         {
             "@id": "UNTDID3453Type:OC",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "OC",
             "rdfs:comment": "Occitan (post 1500); Provencal"
         },
         {
             "@id": "UNTDID3453Type:oj",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "oj",
             "rdfs:comment": "Ojibwa"
         },
         {
             "@id": "UNTDID3453Type:OJ",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "OJ",
             "rdfs:comment": "Ojibwa"
         },
         {
             "@id": "UNTDID3453Type:om",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "om",
             "rdfs:comment": "Oromo"
         },
         {
             "@id": "UNTDID3453Type:OM",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "OM",
             "rdfs:comment": "Oromo"
         },
         {
             "@id": "UNTDID3453Type:or",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "or",
             "rdfs:comment": "Oriya"
         },
         {
             "@id": "UNTDID3453Type:OR",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "OR",
             "rdfs:comment": "Oriya"
         },
         {
             "@id": "UNTDID3453Type:os",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "os",
             "rdfs:comment": "Ossetian; Ossetic"
         },
         {
             "@id": "UNTDID3453Type:OS",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "OS",
             "rdfs:comment": "Ossetian; Ossetic"
         },
         {
             "@id": "UNTDID3453Type:pa",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "pa",
             "rdfs:comment": "Panjabi; Punjabi"
         },
         {
             "@id": "UNTDID3453Type:PA",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "PA",
             "rdfs:comment": "Panjabi; Punjabi"
         },
         {
             "@id": "UNTDID3453Type:pi",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "pi",
             "rdfs:comment": "Pali"
         },
         {
             "@id": "UNTDID3453Type:PI",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "PI",
             "rdfs:comment": "Pali"
         },
         {
             "@id": "UNTDID3453Type:pl",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "pl",
             "rdfs:comment": "Polish"
         },
         {
             "@id": "UNTDID3453Type:PL",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "PL",
             "rdfs:comment": "Polish"
         },
         {
             "@id": "UNTDID3453Type:ps",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "ps",
             "rdfs:comment": "Pushto; Pashto"
         },
         {
             "@id": "UNTDID3453Type:PS",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "PS",
             "rdfs:comment": "Pushto; Pashto"
         },
         {
             "@id": "UNTDID3453Type:pt",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "pt",
             "rdfs:comment": "Portuguese"
         },
         {
             "@id": "UNTDID3453Type:PT",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "PT",
             "rdfs:comment": "Portuguese"
         },
         {
             "@id": "UNTDID3453Type:qu",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "qu",
             "rdfs:comment": "Quechua"
         },
         {
             "@id": "UNTDID3453Type:QU",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "QU",
             "rdfs:comment": "Quechua"
         },
         {
             "@id": "UNTDID3453Type:rm",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "rm",
             "rdfs:comment": "Romansh"
         },
         {
             "@id": "UNTDID3453Type:RM",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "RM",
             "rdfs:comment": "Romansh"
         },
         {
             "@id": "UNTDID3453Type:rn",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "rn",
             "rdfs:comment": "Rundi"
         },
         {
             "@id": "UNTDID3453Type:RN",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "RN",
             "rdfs:comment": "Rundi"
         },
         {
             "@id": "UNTDID3453Type:ro",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "ro",
             "rdfs:comment": "Romanian"
         },
         {
             "@id": "UNTDID3453Type:RO",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "RO",
             "rdfs:comment": "Romanian"
         },
         {
             "@id": "UNTDID3453Type:ru",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "ru",
             "rdfs:comment": "Russian"
         },
         {
             "@id": "UNTDID3453Type:RU",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "RU",
             "rdfs:comment": "Russian"
         },
         {
             "@id": "UNTDID3453Type:rw",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "rw",
             "rdfs:comment": "Kinyarwanda"
         },
         {
             "@id": "UNTDID3453Type:RW",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "RW",
             "rdfs:comment": "Kinyarwanda"
         },
         {
             "@id": "UNTDID3453Type:sa",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "sa",
             "rdfs:comment": "Sanskrit"
         },
         {
             "@id": "UNTDID3453Type:SA",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "SA",
             "rdfs:comment": "Sanskrit"
         },
         {
             "@id": "UNTDID3453Type:sc",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "sc",
             "rdfs:comment": "Sardinian"
         },
         {
             "@id": "UNTDID3453Type:SC",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "SC",
             "rdfs:comment": "Sardinian"
         },
         {
             "@id": "UNTDID3453Type:sd",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "sd",
             "rdfs:comment": "Sindhi"
         },
         {
             "@id": "UNTDID3453Type:SD",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "SD",
             "rdfs:comment": "Sindhi"
         },
         {
             "@id": "UNTDID3453Type:se",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "se",
             "rdfs:comment": "Northern Sami"
         },
         {
             "@id": "UNTDID3453Type:SE",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "SE",
             "rdfs:comment": "Northern Sami"
         },
         {
             "@id": "UNTDID3453Type:sg",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "sg",
             "rdfs:comment": "Sango"
         },
         {
             "@id": "UNTDID3453Type:SG",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "SG",
             "rdfs:comment": "Sango"
         },
         {
             "@id": "UNTDID3453Type:si",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "si",
             "rdfs:comment": "Sinhala; Sinhalese"
         },
         {
             "@id": "UNTDID3453Type:SI",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "SI",
             "rdfs:comment": "Sinhala; Sinhalese"
         },
         {
             "@id": "UNTDID3453Type:sk",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "sk",
             "rdfs:comment": "Slovak"
         },
         {
             "@id": "UNTDID3453Type:SK",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "SK",
             "rdfs:comment": "Slovak"
         },
         {
             "@id": "UNTDID3453Type:sl",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "sl",
             "rdfs:comment": "Slovenian"
         },
         {
             "@id": "UNTDID3453Type:SL",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "SL",
             "rdfs:comment": "Slovenian"
         },
         {
             "@id": "UNTDID3453Type:sm",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "sm",
             "rdfs:comment": "Samoan"
         },
         {
             "@id": "UNTDID3453Type:SM",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "SM",
             "rdfs:comment": "Samoan"
         },
         {
             "@id": "UNTDID3453Type:sn",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "sn",
             "rdfs:comment": "Shona"
         },
         {
             "@id": "UNTDID3453Type:SN",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "SN",
             "rdfs:comment": "Shona"
         },
         {
             "@id": "UNTDID3453Type:so",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "so",
             "rdfs:comment": "Somali"
         },
         {
             "@id": "UNTDID3453Type:SO",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "SO",
             "rdfs:comment": "Somali"
         },
         {
             "@id": "UNTDID3453Type:sq",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "sq",
             "rdfs:comment": "Albanian"
         },
         {
             "@id": "UNTDID3453Type:SQ",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "SQ",
             "rdfs:comment": "Albanian"
         },
         {
             "@id": "UNTDID3453Type:sr",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "sr",
             "rdfs:comment": "Serbian"
         },
         {
             "@id": "UNTDID3453Type:SR",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "SR",
             "rdfs:comment": "Serbian"
         },
         {
             "@id": "UNTDID3453Type:ss",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "ss",
             "rdfs:comment": "Swati"
         },
         {
             "@id": "UNTDID3453Type:SS",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "SS",
             "rdfs:comment": "Swati"
         },
         {
             "@id": "UNTDID3453Type:st",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "st",
             "rdfs:comment": "Sotho, Southern"
         },
         {
             "@id": "UNTDID3453Type:ST",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "ST",
             "rdfs:comment": "Sotho, Southern"
         },
         {
             "@id": "UNTDID3453Type:su",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "su",
             "rdfs:comment": "Sundanese"
         },
         {
             "@id": "UNTDID3453Type:SU",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "SU",
             "rdfs:comment": "Sundanese"
         },
         {
             "@id": "UNTDID3453Type:sv",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "sv",
             "rdfs:comment": "Swedish"
         },
         {
             "@id": "UNTDID3453Type:SV",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "SV",
             "rdfs:comment": "Swedish"
         },
         {
             "@id": "UNTDID3453Type:sw",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "sw",
             "rdfs:comment": "Swahili"
         },
         {
             "@id": "UNTDID3453Type:SW",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "SW",
             "rdfs:comment": "Swahili"
         },
         {
             "@id": "UNTDID3453Type:ta",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "ta",
             "rdfs:comment": "Tamil"
         },
         {
             "@id": "UNTDID3453Type:TA",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "TA",
             "rdfs:comment": "Tamil"
         },
         {
             "@id": "UNTDID3453Type:te",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "te",
             "rdfs:comment": "Telugu"
         },
         {
             "@id": "UNTDID3453Type:TE",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "TE",
             "rdfs:comment": "Telugu"
         },
         {
             "@id": "UNTDID3453Type:tg",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "tg",
             "rdfs:comment": "Tajik"
         },
         {
             "@id": "UNTDID3453Type:TG",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "TG",
             "rdfs:comment": "Tajik"
         },
         {
             "@id": "UNTDID3453Type:th",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "th",
             "rdfs:comment": "Thai"
         },
         {
             "@id": "UNTDID3453Type:TH",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "TH",
             "rdfs:comment": "Thai"
         },
         {
             "@id": "UNTDID3453Type:ti",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "ti",
             "rdfs:comment": "Tigrinya"
         },
         {
             "@id": "UNTDID3453Type:TI",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "TI",
             "rdfs:comment": "Tigrinya"
         },
         {
             "@id": "UNTDID3453Type:tk",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "tk",
             "rdfs:comment": "Turkmen"
         },
         {
             "@id": "UNTDID3453Type:TK",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "TK",
             "rdfs:comment": "Turkmen"
         },
         {
             "@id": "UNTDID3453Type:tl",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "tl",
             "rdfs:comment": "Tagalog"
         },
         {
             "@id": "UNTDID3453Type:TL",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "TL",
             "rdfs:comment": "Tagalog"
         },
         {
             "@id": "UNTDID3453Type:tn",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "tn",
             "rdfs:comment": "Tswana"
         },
         {
             "@id": "UNTDID3453Type:TN",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "TN",
             "rdfs:comment": "Tswana"
         },
         {
             "@id": "UNTDID3453Type:to",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "to",
             "rdfs:comment": "Tonga (Tonga Islands)"
         },
         {
             "@id": "UNTDID3453Type:TO",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "TO",
             "rdfs:comment": "Tonga (Tonga Islands)"
         },
         {
             "@id": "UNTDID3453Type:tr",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "tr",
             "rdfs:comment": "Turkish"
         },
         {
             "@id": "UNTDID3453Type:TR",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "TR",
             "rdfs:comment": "Turkish"
         },
         {
             "@id": "UNTDID3453Type:ts",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "ts",
             "rdfs:comment": "Tsonga"
         },
         {
             "@id": "UNTDID3453Type:TS",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "TS",
             "rdfs:comment": "Tsonga"
         },
         {
             "@id": "UNTDID3453Type:tt",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "tt",
             "rdfs:comment": "Tatar"
         },
         {
             "@id": "UNTDID3453Type:TT",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "TT",
             "rdfs:comment": "Tatar"
         },
         {
             "@id": "UNTDID3453Type:tw",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "tw",
             "rdfs:comment": "Twi"
         },
         {
             "@id": "UNTDID3453Type:TW",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "TW",
             "rdfs:comment": "Twi"
         },
         {
             "@id": "UNTDID3453Type:ty",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "ty",
             "rdfs:comment": "Tahitian"
         },
         {
             "@id": "UNTDID3453Type:TY",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "TY",
             "rdfs:comment": "Tahitian"
         },
         {
             "@id": "UNTDID3453Type:ug",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "ug",
             "rdfs:comment": "Uighur; Uyghur"
         },
         {
             "@id": "UNTDID3453Type:UG",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "UG",
             "rdfs:comment": "Uighur; Uyghur"
         },
         {
             "@id": "UNTDID3453Type:uk",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "uk",
             "rdfs:comment": "Ukrainian"
         },
         {
             "@id": "UNTDID3453Type:UK",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "UK",
             "rdfs:comment": "Ukrainian"
         },
         {
             "@id": "UNTDID3453Type:ur",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "ur",
             "rdfs:comment": "Urdu"
         },
         {
             "@id": "UNTDID3453Type:UR",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "UR",
             "rdfs:comment": "Urdu"
         },
         {
             "@id": "UNTDID3453Type:uz",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "uz",
             "rdfs:comment": "Uzbek"
         },
         {
             "@id": "UNTDID3453Type:UZ",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "UZ",
             "rdfs:comment": "Uzbek"
         },
         {
             "@id": "UNTDID3453Type:ve",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "ve",
             "rdfs:comment": "Venda"
         },
         {
             "@id": "UNTDID3453Type:VE",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "VE",
             "rdfs:comment": "Venda"
         },
         {
             "@id": "UNTDID3453Type:vi",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "vi",
             "rdfs:comment": "Vietnamese"
         },
         {
             "@id": "UNTDID3453Type:VI",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "VI",
             "rdfs:comment": "Vietnamese"
         },
         {
             "@id": "UNTDID3453Type:vo",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "vo",
             "rdfs:comment": "Volapük"
         },
         {
             "@id": "UNTDID3453Type:VO",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "VO",
             "rdfs:comment": "Volapük"
         },
         {
             "@id": "UNTDID3453Type:wa",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "wa",
             "rdfs:comment": "Walloon"
         },
         {
             "@id": "UNTDID3453Type:WA",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "WA",
             "rdfs:comment": "Walloon"
         },
         {
             "@id": "UNTDID3453Type:wo",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "wo",
             "rdfs:comment": "Wolof"
         },
         {
             "@id": "UNTDID3453Type:WO",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "WO",
             "rdfs:comment": "Wolof"
         },
         {
             "@id": "UNTDID3453Type:xh",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "xh",
             "rdfs:comment": "Xhosa"
         },
         {
             "@id": "UNTDID3453Type:XH",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "XH",
             "rdfs:comment": "Xhosa"
         },
         {
             "@id": "UNTDID3453Type:yi",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "yi",
             "rdfs:comment": "Yiddish"
         },
         {
             "@id": "UNTDID3453Type:YI",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "YI",
             "rdfs:comment": "Yiddish"
         },
         {
             "@id": "UNTDID3453Type:yo",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "yo",
             "rdfs:comment": "Yoruba"
         },
         {
             "@id": "UNTDID3453Type:YO",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "YO",
             "rdfs:comment": "Yoruba"
         },
         {
             "@id": "UNTDID3453Type:za",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "za",
             "rdfs:comment": "Zhuang; Chuang"
         },
         {
             "@id": "UNTDID3453Type:ZA",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "ZA",
             "rdfs:comment": "Zhuang; Chuang"
         },
         {
             "@id": "UNTDID3453Type:zh",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "zh",
             "rdfs:comment": "Chinese"
         },
         {
             "@id": "UNTDID3453Type:ZH",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "ZH",
             "rdfs:comment": "Chinese"
         },
         {
             "@id": "UNTDID3453Type:zu",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "zu",
             "rdfs:comment": "Zulu"
         },
         {
             "@id": "UNTDID3453Type:ZU",
-            "@type": "unece:LanguageCodeType",
+            "@type": "unece:LanguageCode",
             "rdf:value": "ZU",
             "rdfs:comment": "Zulu"
         }

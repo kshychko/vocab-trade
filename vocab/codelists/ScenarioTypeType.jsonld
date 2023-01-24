@@ -9,19 +9,19 @@
     "@graph": [
         {
             "@id": "ScenarioTypeType:1",
-            "@type": "unece:ScenarioTypeCodeType",
+            "@type": "unece:ScenarioTypeCode",
             "rdf:value": "1",
             "rdfs:comment": "Initial scenario"
         },
         {
             "@id": "ScenarioTypeType:2",
-            "@type": "unece:ScenarioTypeCodeType",
+            "@type": "unece:ScenarioTypeCode",
             "rdf:value": "2",
             "rdfs:comment": "Final scenario"
         },
         {
             "@id": "ScenarioTypeType:3",
-            "@type": "unece:ScenarioTypeCodeType",
+            "@type": "unece:ScenarioTypeCode",
             "rdf:value": "3",
             "rdfs:comment": "Intermediate"
         }

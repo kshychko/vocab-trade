@@ -9,13 +9,13 @@
     "@graph": [
         {
             "@id": "FinancialInstitutionRoleType:I",
-            "@type": "unece:FinancialInstitutionRoleCodeType",
+            "@type": "unece:FinancialInstitutionRoleCode",
             "rdf:value": "I",
             "rdfs:comment": "Intermediary"
         },
         {
             "@id": "FinancialInstitutionRoleType:S",
-            "@type": "unece:FinancialInstitutionRoleCodeType",
+            "@type": "unece:FinancialInstitutionRoleCode",
             "rdf:value": "S",
             "rdfs:comment": "Settlement agent"
         }

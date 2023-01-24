@@ -4,318 +4,318 @@
         "unece": "https://vocabulary.uncefact.org/",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "PackagingMarkingCodeType": "https://vocabulary.uncefact.org/codelists/PackagingMarkingCodeType"
+        "PackagingMarkingCode": "https://vocabulary.uncefact.org/codelists/PackagingMarkingCode"
     },
     "@graph": [
         {
-            "@id": "PackagingMarkingCodeType:1",
-            "@type": "unece:PackagingMarkingCodeType",
+            "@id": "PackagingMarkingCode:1",
+            "@type": "unece:PackagingMarkingCode",
             "rdf:value": "1",
             "rdfs:comment": "Product ingredients not marked on package"
         },
         {
-            "@id": "PackagingMarkingCodeType:2",
-            "@type": "unece:PackagingMarkingCodeType",
+            "@id": "PackagingMarkingCode:2",
+            "@type": "unece:PackagingMarkingCode",
             "rdf:value": "2",
             "rdfs:comment": "Product price not marked on packaging"
         },
         {
-            "@id": "PackagingMarkingCodeType:3",
-            "@type": "unece:PackagingMarkingCodeType",
+            "@id": "PackagingMarkingCode:3",
+            "@type": "unece:PackagingMarkingCode",
             "rdf:value": "3",
             "rdfs:comment": "Product best before date not marked on product package"
         },
         {
-            "@id": "PackagingMarkingCodeType:4",
-            "@type": "unece:PackagingMarkingCodeType",
+            "@id": "PackagingMarkingCode:4",
+            "@type": "unece:PackagingMarkingCode",
             "rdf:value": "4",
             "rdfs:comment": "Package not marked recyclable"
         },
         {
-            "@id": "PackagingMarkingCodeType:5",
-            "@type": "unece:PackagingMarkingCodeType",
+            "@id": "PackagingMarkingCode:5",
+            "@type": "unece:PackagingMarkingCode",
             "rdf:value": "5",
             "rdfs:comment": "Promotional details marked"
         },
         {
-            "@id": "PackagingMarkingCodeType:6",
-            "@type": "unece:PackagingMarkingCodeType",
+            "@id": "PackagingMarkingCode:6",
+            "@type": "unece:PackagingMarkingCode",
             "rdf:value": "6",
             "rdfs:comment": "Labeled according to general EAN.UCC specifications for clothing and fashion accessories"
         },
         {
-            "@id": "PackagingMarkingCodeType:7",
-            "@type": "unece:PackagingMarkingCodeType",
+            "@id": "PackagingMarkingCode:7",
+            "@type": "unece:PackagingMarkingCode",
             "rdf:value": "7",
             "rdfs:comment": "Sell-by date marked on package"
         },
         {
-            "@id": "PackagingMarkingCodeType:8",
-            "@type": "unece:PackagingMarkingCodeType",
+            "@id": "PackagingMarkingCode:8",
+            "@type": "unece:PackagingMarkingCode",
             "rdf:value": "8",
             "rdfs:comment": "Use-by date marked on package"
         },
         {
-            "@id": "PackagingMarkingCodeType:9",
-            "@type": "unece:PackagingMarkingCodeType",
+            "@id": "PackagingMarkingCode:9",
+            "@type": "unece:PackagingMarkingCode",
             "rdf:value": "9",
             "rdfs:comment": "Packaging / manufacturing date marked on package"
         },
         {
-            "@id": "PackagingMarkingCodeType:10",
-            "@type": "unece:PackagingMarkingCodeType",
+            "@id": "PackagingMarkingCode:10",
+            "@type": "unece:PackagingMarkingCode",
             "rdf:value": "10",
             "rdfs:comment": "No freshness date marked on package"
         },
         {
-            "@id": "PackagingMarkingCodeType:31",
-            "@type": "unece:PackagingMarkingCodeType",
+            "@id": "PackagingMarkingCode:31",
+            "@type": "unece:PackagingMarkingCode",
             "rdf:value": "31",
             "rdfs:comment": "Package best before date marked"
         },
         {
-            "@id": "PackagingMarkingCodeType:32",
-            "@type": "unece:PackagingMarkingCodeType",
+            "@id": "PackagingMarkingCode:32",
+            "@type": "unece:PackagingMarkingCode",
             "rdf:value": "32",
             "rdfs:comment": "Package marked recyclable"
         },
         {
-            "@id": "PackagingMarkingCodeType:33",
-            "@type": "unece:PackagingMarkingCodeType",
+            "@id": "PackagingMarkingCode:33",
+            "@type": "unece:PackagingMarkingCode",
             "rdf:value": "33",
             "rdfs:comment": "Package marked returnable"
         },
         {
-            "@id": "PackagingMarkingCodeType:34",
-            "@type": "unece:PackagingMarkingCodeType",
+            "@id": "PackagingMarkingCode:34",
+            "@type": "unece:PackagingMarkingCode",
             "rdf:value": "34",
             "rdfs:comment": "Product marking"
         },
         {
-            "@id": "PackagingMarkingCodeType:35",
-            "@type": "unece:PackagingMarkingCodeType",
+            "@id": "PackagingMarkingCode:35",
+            "@type": "unece:PackagingMarkingCode",
             "rdf:value": "35",
             "rdfs:comment": "Type of package"
         },
         {
-            "@id": "PackagingMarkingCodeType:36",
-            "@type": "unece:PackagingMarkingCodeType",
+            "@id": "PackagingMarkingCode:36",
+            "@type": "unece:PackagingMarkingCode",
             "rdf:value": "36",
             "rdfs:comment": "Package specifications"
         },
         {
-            "@id": "PackagingMarkingCodeType:37",
-            "@type": "unece:PackagingMarkingCodeType",
+            "@id": "PackagingMarkingCode:37",
+            "@type": "unece:PackagingMarkingCode",
             "rdf:value": "37",
             "rdfs:comment": "Package protection"
         },
         {
-            "@id": "PackagingMarkingCodeType:38",
-            "@type": "unece:PackagingMarkingCodeType",
+            "@id": "PackagingMarkingCode:38",
+            "@type": "unece:PackagingMarkingCode",
             "rdf:value": "38",
             "rdfs:comment": "Tarping"
         },
         {
-            "@id": "PackagingMarkingCodeType:39",
-            "@type": "unece:PackagingMarkingCodeType",
+            "@id": "PackagingMarkingCode:39",
+            "@type": "unece:PackagingMarkingCode",
             "rdf:value": "39",
             "rdfs:comment": "Platform/skid location"
         },
         {
-            "@id": "PackagingMarkingCodeType:40",
-            "@type": "unece:PackagingMarkingCodeType",
+            "@id": "PackagingMarkingCode:40",
+            "@type": "unece:PackagingMarkingCode",
             "rdf:value": "40",
             "rdfs:comment": "Bearing piece location"
         },
         {
-            "@id": "PackagingMarkingCodeType:41",
-            "@type": "unece:PackagingMarkingCodeType",
+            "@id": "PackagingMarkingCode:41",
+            "@type": "unece:PackagingMarkingCode",
             "rdf:value": "41",
             "rdfs:comment": "Skid/pallet type"
         },
         {
-            "@id": "PackagingMarkingCodeType:42",
-            "@type": "unece:PackagingMarkingCodeType",
+            "@id": "PackagingMarkingCode:42",
+            "@type": "unece:PackagingMarkingCode",
             "rdf:value": "42",
             "rdfs:comment": "Placement on carrier"
         },
         {
-            "@id": "PackagingMarkingCodeType:43",
-            "@type": "unece:PackagingMarkingCodeType",
+            "@id": "PackagingMarkingCode:43",
+            "@type": "unece:PackagingMarkingCode",
             "rdf:value": "43",
             "rdfs:comment": "Spacing directions"
         },
         {
-            "@id": "PackagingMarkingCodeType:44",
-            "@type": "unece:PackagingMarkingCodeType",
+            "@id": "PackagingMarkingCode:44",
+            "@type": "unece:PackagingMarkingCode",
             "rdf:value": "44",
             "rdfs:comment": "Unloading device"
         },
         {
-            "@id": "PackagingMarkingCodeType:45",
-            "@type": "unece:PackagingMarkingCodeType",
+            "@id": "PackagingMarkingCode:45",
+            "@type": "unece:PackagingMarkingCode",
             "rdf:value": "45",
             "rdfs:comment": "Unloading equipment"
         },
         {
-            "@id": "PackagingMarkingCodeType:46",
-            "@type": "unece:PackagingMarkingCodeType",
+            "@id": "PackagingMarkingCode:46",
+            "@type": "unece:PackagingMarkingCode",
             "rdf:value": "46",
             "rdfs:comment": "Packing method"
         },
         {
-            "@id": "PackagingMarkingCodeType:47",
-            "@type": "unece:PackagingMarkingCodeType",
+            "@id": "PackagingMarkingCode:47",
+            "@type": "unece:PackagingMarkingCode",
             "rdf:value": "47",
             "rdfs:comment": "Packing group I"
         },
         {
-            "@id": "PackagingMarkingCodeType:48",
-            "@type": "unece:PackagingMarkingCodeType",
+            "@id": "PackagingMarkingCode:48",
+            "@type": "unece:PackagingMarkingCode",
             "rdf:value": "48",
             "rdfs:comment": "Packing group II"
         },
         {
-            "@id": "PackagingMarkingCodeType:49",
-            "@type": "unece:PackagingMarkingCodeType",
+            "@id": "PackagingMarkingCode:49",
+            "@type": "unece:PackagingMarkingCode",
             "rdf:value": "49",
             "rdfs:comment": "Packing group III"
         },
         {
-            "@id": "PackagingMarkingCodeType:53",
-            "@type": "unece:PackagingMarkingCodeType",
+            "@id": "PackagingMarkingCode:53",
+            "@type": "unece:PackagingMarkingCode",
             "rdf:value": "53",
             "rdfs:comment": "Package price marked"
         },
         {
-            "@id": "PackagingMarkingCodeType:54",
-            "@type": "unece:PackagingMarkingCodeType",
+            "@id": "PackagingMarkingCode:54",
+            "@type": "unece:PackagingMarkingCode",
             "rdf:value": "54",
             "rdfs:comment": "Product ingredients marked on package"
         },
         {
-            "@id": "PackagingMarkingCodeType:55",
-            "@type": "unece:PackagingMarkingCodeType",
+            "@id": "PackagingMarkingCode:55",
+            "@type": "unece:PackagingMarkingCode",
             "rdf:value": "55",
             "rdfs:comment": "Core characteristics"
         },
         {
-            "@id": "PackagingMarkingCodeType:56",
-            "@type": "unece:PackagingMarkingCodeType",
+            "@id": "PackagingMarkingCode:56",
+            "@type": "unece:PackagingMarkingCode",
             "rdf:value": "56",
             "rdfs:comment": "Shipping requirement"
         },
         {
-            "@id": "PackagingMarkingCodeType:57",
-            "@type": "unece:PackagingMarkingCodeType",
+            "@id": "PackagingMarkingCode:57",
+            "@type": "unece:PackagingMarkingCode",
             "rdf:value": "57",
             "rdfs:comment": "Customs requirement"
         },
         {
-            "@id": "PackagingMarkingCodeType:58",
-            "@type": "unece:PackagingMarkingCodeType",
+            "@id": "PackagingMarkingCode:58",
+            "@type": "unece:PackagingMarkingCode",
             "rdf:value": "58",
             "rdfs:comment": "Transport contract requirement"
         },
         {
-            "@id": "PackagingMarkingCodeType:59",
-            "@type": "unece:PackagingMarkingCodeType",
+            "@id": "PackagingMarkingCode:59",
+            "@type": "unece:PackagingMarkingCode",
             "rdf:value": "59",
             "rdfs:comment": "Preservation method"
         },
         {
-            "@id": "PackagingMarkingCodeType:60",
-            "@type": "unece:PackagingMarkingCodeType",
+            "@id": "PackagingMarkingCode:60",
+            "@type": "unece:PackagingMarkingCode",
             "rdf:value": "60",
             "rdfs:comment": "Product marking pattern"
         },
         {
-            "@id": "PackagingMarkingCodeType:61",
-            "@type": "unece:PackagingMarkingCodeType",
+            "@id": "PackagingMarkingCode:61",
+            "@type": "unece:PackagingMarkingCode",
             "rdf:value": "61",
             "rdfs:comment": "Product marking location"
         },
         {
-            "@id": "PackagingMarkingCodeType:62",
-            "@type": "unece:PackagingMarkingCodeType",
+            "@id": "PackagingMarkingCode:62",
+            "@type": "unece:PackagingMarkingCode",
             "rdf:value": "62",
             "rdfs:comment": "Package/container mark location"
         },
         {
-            "@id": "PackagingMarkingCodeType:63",
-            "@type": "unece:PackagingMarkingCodeType",
+            "@id": "PackagingMarkingCode:63",
+            "@type": "unece:PackagingMarkingCode",
             "rdf:value": "63",
             "rdfs:comment": "Marking method"
         },
         {
-            "@id": "PackagingMarkingCodeType:66",
-            "@type": "unece:PackagingMarkingCodeType",
+            "@id": "PackagingMarkingCode:66",
+            "@type": "unece:PackagingMarkingCode",
             "rdf:value": "66",
             "rdfs:comment": "Receiving facility limitations"
         },
         {
-            "@id": "PackagingMarkingCodeType:68",
-            "@type": "unece:PackagingMarkingCodeType",
+            "@id": "PackagingMarkingCode:68",
+            "@type": "unece:PackagingMarkingCode",
             "rdf:value": "68",
             "rdfs:comment": "Shipping package labelling"
         },
         {
-            "@id": "PackagingMarkingCodeType:69",
-            "@type": "unece:PackagingMarkingCodeType",
+            "@id": "PackagingMarkingCode:69",
+            "@type": "unece:PackagingMarkingCode",
             "rdf:value": "69",
             "rdfs:comment": "Shipping package sealing"
         },
         {
-            "@id": "PackagingMarkingCodeType:70",
-            "@type": "unece:PackagingMarkingCodeType",
+            "@id": "PackagingMarkingCode:70",
+            "@type": "unece:PackagingMarkingCode",
             "rdf:value": "70",
             "rdfs:comment": "Optional packaging procedure"
         },
         {
-            "@id": "PackagingMarkingCodeType:71",
-            "@type": "unece:PackagingMarkingCodeType",
+            "@id": "PackagingMarkingCode:71",
+            "@type": "unece:PackagingMarkingCode",
             "rdf:value": "71",
             "rdfs:comment": "Cleaning or drying specification"
         },
         {
-            "@id": "PackagingMarkingCodeType:72",
-            "@type": "unece:PackagingMarkingCodeType",
+            "@id": "PackagingMarkingCode:72",
+            "@type": "unece:PackagingMarkingCode",
             "rdf:value": "72",
             "rdfs:comment": "Cushioning thickness specification"
         },
         {
-            "@id": "PackagingMarkingCodeType:73",
-            "@type": "unece:PackagingMarkingCodeType",
+            "@id": "PackagingMarkingCode:73",
+            "@type": "unece:PackagingMarkingCode",
             "rdf:value": "73",
             "rdfs:comment": "Cushioning and dunnage specification"
         },
         {
-            "@id": "PackagingMarkingCodeType:74",
-            "@type": "unece:PackagingMarkingCodeType",
+            "@id": "PackagingMarkingCode:74",
+            "@type": "unece:PackagingMarkingCode",
             "rdf:value": "74",
             "rdfs:comment": "Level of preservation specification"
         },
         {
-            "@id": "PackagingMarkingCodeType:75",
-            "@type": "unece:PackagingMarkingCodeType",
+            "@id": "PackagingMarkingCode:75",
+            "@type": "unece:PackagingMarkingCode",
             "rdf:value": "75",
             "rdfs:comment": "Preservation material specification"
         },
         {
-            "@id": "PackagingMarkingCodeType:76",
-            "@type": "unece:PackagingMarkingCodeType",
+            "@id": "PackagingMarkingCode:76",
+            "@type": "unece:PackagingMarkingCode",
             "rdf:value": "76",
             "rdfs:comment": "Unit container specification"
         },
         {
-            "@id": "PackagingMarkingCodeType:77",
-            "@type": "unece:PackagingMarkingCodeType",
+            "@id": "PackagingMarkingCode:77",
+            "@type": "unece:PackagingMarkingCode",
             "rdf:value": "77",
             "rdfs:comment": "Material wrapping specification"
         },
         {
-            "@id": "PackagingMarkingCodeType:80",
-            "@type": "unece:PackagingMarkingCodeType",
+            "@id": "PackagingMarkingCode:80",
+            "@type": "unece:PackagingMarkingCode",
             "rdf:value": "80",
             "rdfs:comment": "Marked with “display until date”"
         }

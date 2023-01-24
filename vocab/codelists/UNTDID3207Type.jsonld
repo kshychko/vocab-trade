@@ -9,1495 +9,1495 @@
     "@graph": [
         {
             "@id": "UNTDID3207Type:AD",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "AD",
             "rdfs:comment": "ANDORRA"
         },
         {
             "@id": "UNTDID3207Type:AE",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "AE",
             "rdfs:comment": "UNITED ARAB EMIRATES"
         },
         {
             "@id": "UNTDID3207Type:AF",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "AF",
             "rdfs:comment": "AFGHANISTAN"
         },
         {
             "@id": "UNTDID3207Type:AG",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "AG",
             "rdfs:comment": "ANTIGUA AND BARBUDA"
         },
         {
             "@id": "UNTDID3207Type:AI",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "AI",
             "rdfs:comment": "ANGUILLA"
         },
         {
             "@id": "UNTDID3207Type:AL",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "AL",
             "rdfs:comment": "ALBANIA"
         },
         {
             "@id": "UNTDID3207Type:AM",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "AM",
             "rdfs:comment": "ARMENIA"
         },
         {
             "@id": "UNTDID3207Type:AO",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "AO",
             "rdfs:comment": "ANGOLA"
         },
         {
             "@id": "UNTDID3207Type:AQ",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "AQ",
             "rdfs:comment": "ANTARCTICA"
         },
         {
             "@id": "UNTDID3207Type:AR",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "AR",
             "rdfs:comment": "ARGENTINA"
         },
         {
             "@id": "UNTDID3207Type:AS",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "AS",
             "rdfs:comment": "AMERICAN SAMOA"
         },
         {
             "@id": "UNTDID3207Type:AT",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "AT",
             "rdfs:comment": "AUSTRIA"
         },
         {
             "@id": "UNTDID3207Type:AU",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "AU",
             "rdfs:comment": "AUSTRALIA"
         },
         {
             "@id": "UNTDID3207Type:AW",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "AW",
             "rdfs:comment": "ARUBA"
         },
         {
             "@id": "UNTDID3207Type:AX",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "AX",
             "rdfs:comment": "ÅLAND ISLANDS"
         },
         {
             "@id": "UNTDID3207Type:AZ",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "AZ",
             "rdfs:comment": "AZERBAIJAN"
         },
         {
             "@id": "UNTDID3207Type:BA",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "BA",
             "rdfs:comment": "BOSNIA AND HERZEGOVINA"
         },
         {
             "@id": "UNTDID3207Type:BB",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "BB",
             "rdfs:comment": "BARBADOS"
         },
         {
             "@id": "UNTDID3207Type:BD",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "BD",
             "rdfs:comment": "BANGLADESH"
         },
         {
             "@id": "UNTDID3207Type:BE",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "BE",
             "rdfs:comment": "BELGIUM"
         },
         {
             "@id": "UNTDID3207Type:BF",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "BF",
             "rdfs:comment": "BURKINA FASO"
         },
         {
             "@id": "UNTDID3207Type:BG",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "BG",
             "rdfs:comment": "BULGARIA"
         },
         {
             "@id": "UNTDID3207Type:BH",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "BH",
             "rdfs:comment": "BAHRAIN"
         },
         {
             "@id": "UNTDID3207Type:BI",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "BI",
             "rdfs:comment": "BURUNDI"
         },
         {
             "@id": "UNTDID3207Type:BJ",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "BJ",
             "rdfs:comment": "BENIN"
         },
         {
             "@id": "UNTDID3207Type:BL",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "BL",
             "rdfs:comment": "SAINT BARTHÉLEMY"
         },
         {
             "@id": "UNTDID3207Type:BM",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "BM",
             "rdfs:comment": "BERMUDA"
         },
         {
             "@id": "UNTDID3207Type:BN",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "BN",
             "rdfs:comment": "BRUNEI DARUSSALAM"
         },
         {
             "@id": "UNTDID3207Type:BO",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "BO",
             "rdfs:comment": "BOLIVIA (PLURINATIONAL STATE OF)"
         },
         {
             "@id": "UNTDID3207Type:BQ",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "BQ",
             "rdfs:comment": "BONAIRE, SINT EUSTATIUS AND SABA"
         },
         {
             "@id": "UNTDID3207Type:BR",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "BR",
             "rdfs:comment": "BRAZIL"
         },
         {
             "@id": "UNTDID3207Type:BS",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "BS",
             "rdfs:comment": "BAHAMAS"
         },
         {
             "@id": "UNTDID3207Type:BT",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "BT",
             "rdfs:comment": "BHUTAN"
         },
         {
             "@id": "UNTDID3207Type:BV",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "BV",
             "rdfs:comment": "BOUVET ISLAND"
         },
         {
             "@id": "UNTDID3207Type:BW",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "BW",
             "rdfs:comment": "BOTSWANA"
         },
         {
             "@id": "UNTDID3207Type:BY",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "BY",
             "rdfs:comment": "BELARUS"
         },
         {
             "@id": "UNTDID3207Type:BZ",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "BZ",
             "rdfs:comment": "BELIZE"
         },
         {
             "@id": "UNTDID3207Type:CA",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "CA",
             "rdfs:comment": "CANADA"
         },
         {
             "@id": "UNTDID3207Type:CC",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "CC",
             "rdfs:comment": "COCOS (KEELING) ISLANDS"
         },
         {
             "@id": "UNTDID3207Type:CD",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "CD",
             "rdfs:comment": "CONGO, DEMOCRATIC REPUBLIC OF"
         },
         {
             "@id": "UNTDID3207Type:CF",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "CF",
             "rdfs:comment": "CENTRAL AFRICAN REPUBLIC"
         },
         {
             "@id": "UNTDID3207Type:CG",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "CG",
             "rdfs:comment": "CONGO"
         },
         {
             "@id": "UNTDID3207Type:CH",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "CH",
             "rdfs:comment": "SWITZERLAND"
         },
         {
             "@id": "UNTDID3207Type:CI",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "CI",
             "rdfs:comment": "COTE D'IVOIRE"
         },
         {
             "@id": "UNTDID3207Type:CK",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "CK",
             "rdfs:comment": "COOK ISLANDS"
         },
         {
             "@id": "UNTDID3207Type:CL",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "CL",
             "rdfs:comment": "CHILE"
         },
         {
             "@id": "UNTDID3207Type:CM",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "CM",
             "rdfs:comment": "CAMEROON"
         },
         {
             "@id": "UNTDID3207Type:CN",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "CN",
             "rdfs:comment": "CHINA"
         },
         {
             "@id": "UNTDID3207Type:CO",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "CO",
             "rdfs:comment": "COLOMBIA"
         },
         {
             "@id": "UNTDID3207Type:CR",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "CR",
             "rdfs:comment": "COSTA RICA"
         },
         {
             "@id": "UNTDID3207Type:CU",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "CU",
             "rdfs:comment": "CUBA"
         },
         {
             "@id": "UNTDID3207Type:CV",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "CV",
             "rdfs:comment": "CABO VERDE"
         },
         {
             "@id": "UNTDID3207Type:CW",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "CW",
             "rdfs:comment": "CURAÇAO"
         },
         {
             "@id": "UNTDID3207Type:CX",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "CX",
             "rdfs:comment": "CHRISTMAS ISLAND"
         },
         {
             "@id": "UNTDID3207Type:CY",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "CY",
             "rdfs:comment": "CYPRUS"
         },
         {
             "@id": "UNTDID3207Type:CZ",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "CZ",
             "rdfs:comment": "CZECHIA"
         },
         {
             "@id": "UNTDID3207Type:DE",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "DE",
             "rdfs:comment": "GERMANY"
         },
         {
             "@id": "UNTDID3207Type:DJ",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "DJ",
             "rdfs:comment": "DJIBOUTI"
         },
         {
             "@id": "UNTDID3207Type:DK",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "DK",
             "rdfs:comment": "DENMARK"
         },
         {
             "@id": "UNTDID3207Type:DM",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "DM",
             "rdfs:comment": "DOMINICA"
         },
         {
             "@id": "UNTDID3207Type:DO",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "DO",
             "rdfs:comment": "DOMINICAN REPUBLIC"
         },
         {
             "@id": "UNTDID3207Type:DZ",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "DZ",
             "rdfs:comment": "ALGERIA"
         },
         {
             "@id": "UNTDID3207Type:EC",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "EC",
             "rdfs:comment": "ECUADOR"
         },
         {
             "@id": "UNTDID3207Type:EE",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "EE",
             "rdfs:comment": "ESTONIA"
         },
         {
             "@id": "UNTDID3207Type:EG",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "EG",
             "rdfs:comment": "EGYPT"
         },
         {
             "@id": "UNTDID3207Type:EH",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "EH",
             "rdfs:comment": "WESTERN SAHARA"
         },
         {
             "@id": "UNTDID3207Type:ER",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "ER",
             "rdfs:comment": "ERITREA"
         },
         {
             "@id": "UNTDID3207Type:ES",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "ES",
             "rdfs:comment": "SPAIN"
         },
         {
             "@id": "UNTDID3207Type:ET",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "ET",
             "rdfs:comment": "ETHIOPIA"
         },
         {
             "@id": "UNTDID3207Type:FI",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "FI",
             "rdfs:comment": "FINLAND"
         },
         {
             "@id": "UNTDID3207Type:FJ",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "FJ",
             "rdfs:comment": "FIJI"
         },
         {
             "@id": "UNTDID3207Type:FK",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "FK",
             "rdfs:comment": "FALKLAND ISLANDS (MALVINAS)"
         },
         {
             "@id": "UNTDID3207Type:FM",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "FM",
             "rdfs:comment": "MICRONESIA (FEDERATED STATES OF)"
         },
         {
             "@id": "UNTDID3207Type:FO",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "FO",
             "rdfs:comment": "FAROE ISLANDS"
         },
         {
             "@id": "UNTDID3207Type:FR",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "FR",
             "rdfs:comment": "FRANCE"
         },
         {
             "@id": "UNTDID3207Type:GA",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "GA",
             "rdfs:comment": "GABON"
         },
         {
             "@id": "UNTDID3207Type:GB",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "GB",
             "rdfs:comment": "UNITED KINGDOM OF GREAT BRITAIN AND NORTHERN IRELAND"
         },
         {
             "@id": "UNTDID3207Type:GD",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "GD",
             "rdfs:comment": "GRENADA"
         },
         {
             "@id": "UNTDID3207Type:GE",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "GE",
             "rdfs:comment": "GEORGIA"
         },
         {
             "@id": "UNTDID3207Type:GF",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "GF",
             "rdfs:comment": "FRENCH GUIANA"
         },
         {
             "@id": "UNTDID3207Type:GG",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "GG",
             "rdfs:comment": "GUERNSEY"
         },
         {
             "@id": "UNTDID3207Type:GH",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "GH",
             "rdfs:comment": "GHANA"
         },
         {
             "@id": "UNTDID3207Type:GI",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "GI",
             "rdfs:comment": "GIBRALTAR"
         },
         {
             "@id": "UNTDID3207Type:GL",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "GL",
             "rdfs:comment": "GREENLAND"
         },
         {
             "@id": "UNTDID3207Type:GM",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "GM",
             "rdfs:comment": "GAMBIA"
         },
         {
             "@id": "UNTDID3207Type:GN",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "GN",
             "rdfs:comment": "GUINEA"
         },
         {
             "@id": "UNTDID3207Type:GP",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "GP",
             "rdfs:comment": "GUADELOUPE"
         },
         {
             "@id": "UNTDID3207Type:GQ",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "GQ",
             "rdfs:comment": "EQUATORIAL GUINEA"
         },
         {
             "@id": "UNTDID3207Type:GR",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "GR",
             "rdfs:comment": "GREECE"
         },
         {
             "@id": "UNTDID3207Type:GS",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "GS",
             "rdfs:comment": "SOUTH GEORGIA AND THE SOUTH SANDWICH ISLANDS"
         },
         {
             "@id": "UNTDID3207Type:GT",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "GT",
             "rdfs:comment": "GUATEMALA"
         },
         {
             "@id": "UNTDID3207Type:GU",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "GU",
             "rdfs:comment": "GUAM"
         },
         {
             "@id": "UNTDID3207Type:GW",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "GW",
             "rdfs:comment": "GUINEA-BISSAU"
         },
         {
             "@id": "UNTDID3207Type:GY",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "GY",
             "rdfs:comment": "GUYANA"
         },
         {
             "@id": "UNTDID3207Type:HK",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "HK",
             "rdfs:comment": "HONG KONG"
         },
         {
             "@id": "UNTDID3207Type:HM",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "HM",
             "rdfs:comment": "HEARD ISLAND AND MCDONALD ISLANDS"
         },
         {
             "@id": "UNTDID3207Type:HN",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "HN",
             "rdfs:comment": "HONDURAS"
         },
         {
             "@id": "UNTDID3207Type:HR",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "HR",
             "rdfs:comment": "CROATIA"
         },
         {
             "@id": "UNTDID3207Type:HT",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "HT",
             "rdfs:comment": "HAITI"
         },
         {
             "@id": "UNTDID3207Type:HU",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "HU",
             "rdfs:comment": "HUNGARY"
         },
         {
             "@id": "UNTDID3207Type:ID",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "ID",
             "rdfs:comment": "INDONESIA"
         },
         {
             "@id": "UNTDID3207Type:IE",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "IE",
             "rdfs:comment": "IRELAND"
         },
         {
             "@id": "UNTDID3207Type:IL",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "IL",
             "rdfs:comment": "ISRAEL"
         },
         {
             "@id": "UNTDID3207Type:IM",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "IM",
             "rdfs:comment": "ISLE OF MAN"
         },
         {
             "@id": "UNTDID3207Type:IN",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "IN",
             "rdfs:comment": "INDIA"
         },
         {
             "@id": "UNTDID3207Type:IO",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "IO",
             "rdfs:comment": "BRITISH INDIAN OCEAN TERRITORY"
         },
         {
             "@id": "UNTDID3207Type:IQ",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "IQ",
             "rdfs:comment": "IRAQ"
         },
         {
             "@id": "UNTDID3207Type:IR",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "IR",
             "rdfs:comment": "IRAN (ISLAMIC REPUBLIC OF)"
         },
         {
             "@id": "UNTDID3207Type:IS",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "IS",
             "rdfs:comment": "ICELAND"
         },
         {
             "@id": "UNTDID3207Type:IT",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "IT",
             "rdfs:comment": "ITALY"
         },
         {
             "@id": "UNTDID3207Type:JE",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "JE",
             "rdfs:comment": "JERSEY"
         },
         {
             "@id": "UNTDID3207Type:JM",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "JM",
             "rdfs:comment": "JAMAICA"
         },
         {
             "@id": "UNTDID3207Type:JO",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "JO",
             "rdfs:comment": "JORDAN"
         },
         {
             "@id": "UNTDID3207Type:JP",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "JP",
             "rdfs:comment": "JAPAN"
         },
         {
             "@id": "UNTDID3207Type:KE",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "KE",
             "rdfs:comment": "KENYA"
         },
         {
             "@id": "UNTDID3207Type:KG",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "KG",
             "rdfs:comment": "KYRGYZSTAN"
         },
         {
             "@id": "UNTDID3207Type:KH",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "KH",
             "rdfs:comment": "CAMBODIA"
         },
         {
             "@id": "UNTDID3207Type:KI",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "KI",
             "rdfs:comment": "KIRIBATI"
         },
         {
             "@id": "UNTDID3207Type:KM",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "KM",
             "rdfs:comment": "COMOROS"
         },
         {
             "@id": "UNTDID3207Type:KN",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "KN",
             "rdfs:comment": "SAINT KITTS AND NEVIS"
         },
         {
             "@id": "UNTDID3207Type:KP",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "KP",
             "rdfs:comment": "KOREA (DEMOCRATIC PEOPLE'S REPUBLIC OF)"
         },
         {
             "@id": "UNTDID3207Type:KR",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "KR",
             "rdfs:comment": "KOREA, REPUBLIC OF"
         },
         {
             "@id": "UNTDID3207Type:KW",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "KW",
             "rdfs:comment": "KUWAIT"
         },
         {
             "@id": "UNTDID3207Type:KY",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "KY",
             "rdfs:comment": "CAYMAN ISLANDS"
         },
         {
             "@id": "UNTDID3207Type:KZ",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "KZ",
             "rdfs:comment": "KAZAKHSTAN"
         },
         {
             "@id": "UNTDID3207Type:LA",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "LA",
             "rdfs:comment": "LAO PEOPLE'S DEMOCRATIC REPUBLIC"
         },
         {
             "@id": "UNTDID3207Type:LB",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "LB",
             "rdfs:comment": "LEBANON"
         },
         {
             "@id": "UNTDID3207Type:LC",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "LC",
             "rdfs:comment": "SAINT LUCIA"
         },
         {
             "@id": "UNTDID3207Type:LI",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "LI",
             "rdfs:comment": "LIECHTENSTEIN"
         },
         {
             "@id": "UNTDID3207Type:LK",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "LK",
             "rdfs:comment": "SRI LANKA"
         },
         {
             "@id": "UNTDID3207Type:LR",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "LR",
             "rdfs:comment": "LIBERIA"
         },
         {
             "@id": "UNTDID3207Type:LS",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "LS",
             "rdfs:comment": "LESOTHO"
         },
         {
             "@id": "UNTDID3207Type:LT",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "LT",
             "rdfs:comment": "LITHUANIA"
         },
         {
             "@id": "UNTDID3207Type:LU",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "LU",
             "rdfs:comment": "LUXEMBOURG"
         },
         {
             "@id": "UNTDID3207Type:LV",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "LV",
             "rdfs:comment": "LATVIA"
         },
         {
             "@id": "UNTDID3207Type:LY",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "LY",
             "rdfs:comment": "LIBYA"
         },
         {
             "@id": "UNTDID3207Type:MA",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "MA",
             "rdfs:comment": "MOROCCO"
         },
         {
             "@id": "UNTDID3207Type:MC",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "MC",
             "rdfs:comment": "MONACO"
         },
         {
             "@id": "UNTDID3207Type:MD",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "MD",
             "rdfs:comment": "MOLDOVA, REPUBLIC OF"
         },
         {
             "@id": "UNTDID3207Type:ME",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "ME",
             "rdfs:comment": "MONTENEGRO"
         },
         {
             "@id": "UNTDID3207Type:MF",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "MF",
             "rdfs:comment": "SAINT MARTIN (FRENCH PART)"
         },
         {
             "@id": "UNTDID3207Type:MG",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "MG",
             "rdfs:comment": "MADAGASCAR"
         },
         {
             "@id": "UNTDID3207Type:MH",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "MH",
             "rdfs:comment": "MARSHALL ISLANDS"
         },
         {
             "@id": "UNTDID3207Type:MK",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "MK",
             "rdfs:comment": "NORTH MACEDONIA"
         },
         {
             "@id": "UNTDID3207Type:ML",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "ML",
             "rdfs:comment": "MALI"
         },
         {
             "@id": "UNTDID3207Type:MM",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "MM",
             "rdfs:comment": "MYANMAR"
         },
         {
             "@id": "UNTDID3207Type:MN",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "MN",
             "rdfs:comment": "MONGOLIA"
         },
         {
             "@id": "UNTDID3207Type:MO",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "MO",
             "rdfs:comment": "MACAO"
         },
         {
             "@id": "UNTDID3207Type:MP",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "MP",
             "rdfs:comment": "NORTHERN MARIANA ISLANDS"
         },
         {
             "@id": "UNTDID3207Type:MQ",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "MQ",
             "rdfs:comment": "MARTINIQUE"
         },
         {
             "@id": "UNTDID3207Type:MR",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "MR",
             "rdfs:comment": "MAURITANIA"
         },
         {
             "@id": "UNTDID3207Type:MS",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "MS",
             "rdfs:comment": "MONTSERRAT"
         },
         {
             "@id": "UNTDID3207Type:MT",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "MT",
             "rdfs:comment": "MALTA"
         },
         {
             "@id": "UNTDID3207Type:MU",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "MU",
             "rdfs:comment": "MAURITIUS"
         },
         {
             "@id": "UNTDID3207Type:MV",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "MV",
             "rdfs:comment": "MALDIVES"
         },
         {
             "@id": "UNTDID3207Type:MW",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "MW",
             "rdfs:comment": "MALAWI"
         },
         {
             "@id": "UNTDID3207Type:MX",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "MX",
             "rdfs:comment": "MEXICO"
         },
         {
             "@id": "UNTDID3207Type:MY",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "MY",
             "rdfs:comment": "MALAYSIA"
         },
         {
             "@id": "UNTDID3207Type:MZ",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "MZ",
             "rdfs:comment": "MOZAMBIQUE"
         },
         {
             "@id": "UNTDID3207Type:NA",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "NA",
             "rdfs:comment": "NAMIBIA"
         },
         {
             "@id": "UNTDID3207Type:NC",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "NC",
             "rdfs:comment": "NEW CALEDONIA"
         },
         {
             "@id": "UNTDID3207Type:NE",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "NE",
             "rdfs:comment": "NIGER"
         },
         {
             "@id": "UNTDID3207Type:NF",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "NF",
             "rdfs:comment": "NORFOLK ISLAND"
         },
         {
             "@id": "UNTDID3207Type:NG",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "NG",
             "rdfs:comment": "NIGERIA"
         },
         {
             "@id": "UNTDID3207Type:NI",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "NI",
             "rdfs:comment": "NICARAGUA"
         },
         {
             "@id": "UNTDID3207Type:NL",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "NL",
             "rdfs:comment": "NETHERLANDS"
         },
         {
             "@id": "UNTDID3207Type:NO",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "NO",
             "rdfs:comment": "NORWAY"
         },
         {
             "@id": "UNTDID3207Type:NP",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "NP",
             "rdfs:comment": "NEPAL"
         },
         {
             "@id": "UNTDID3207Type:NR",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "NR",
             "rdfs:comment": "NAURU"
         },
         {
             "@id": "UNTDID3207Type:NU",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "NU",
             "rdfs:comment": "NIUE"
         },
         {
             "@id": "UNTDID3207Type:NZ",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "NZ",
             "rdfs:comment": "NEW ZEALAND"
         },
         {
             "@id": "UNTDID3207Type:OM",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "OM",
             "rdfs:comment": "OMAN"
         },
         {
             "@id": "UNTDID3207Type:PA",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "PA",
             "rdfs:comment": "PANAMA"
         },
         {
             "@id": "UNTDID3207Type:PE",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "PE",
             "rdfs:comment": "PERU"
         },
         {
             "@id": "UNTDID3207Type:PF",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "PF",
             "rdfs:comment": "FRENCH POLYNESIA"
         },
         {
             "@id": "UNTDID3207Type:PG",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "PG",
             "rdfs:comment": "PAPUA NEW GUINEA"
         },
         {
             "@id": "UNTDID3207Type:PH",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "PH",
             "rdfs:comment": "PHILIPPINES"
         },
         {
             "@id": "UNTDID3207Type:PK",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "PK",
             "rdfs:comment": "PAKISTAN"
         },
         {
             "@id": "UNTDID3207Type:PL",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "PL",
             "rdfs:comment": "POLAND"
         },
         {
             "@id": "UNTDID3207Type:PM",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "PM",
             "rdfs:comment": "SAINT PIERRE AND MIQUELON"
         },
         {
             "@id": "UNTDID3207Type:PN",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "PN",
             "rdfs:comment": "PITCAIRN"
         },
         {
             "@id": "UNTDID3207Type:PR",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "PR",
             "rdfs:comment": "PUERTO RICO"
         },
         {
             "@id": "UNTDID3207Type:PS",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "PS",
             "rdfs:comment": "PALESTINE, STATE OF"
         },
         {
             "@id": "UNTDID3207Type:PT",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "PT",
             "rdfs:comment": "PORTUGAL"
         },
         {
             "@id": "UNTDID3207Type:PW",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "PW",
             "rdfs:comment": "PALAU"
         },
         {
             "@id": "UNTDID3207Type:PY",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "PY",
             "rdfs:comment": "PARAGUAY"
         },
         {
             "@id": "UNTDID3207Type:QA",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "QA",
             "rdfs:comment": "QATAR"
         },
         {
             "@id": "UNTDID3207Type:RE",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "RE",
             "rdfs:comment": "REUNION"
         },
         {
             "@id": "UNTDID3207Type:RO",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "RO",
             "rdfs:comment": "ROMANIA"
         },
         {
             "@id": "UNTDID3207Type:RS",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "RS",
             "rdfs:comment": "SERBIA"
         },
         {
             "@id": "UNTDID3207Type:RU",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "RU",
             "rdfs:comment": "RUSSIAN FEDERATION"
         },
         {
             "@id": "UNTDID3207Type:RW",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "RW",
             "rdfs:comment": "RWANDA"
         },
         {
             "@id": "UNTDID3207Type:SA",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "SA",
             "rdfs:comment": "SAUDI ARABIA"
         },
         {
             "@id": "UNTDID3207Type:SB",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "SB",
             "rdfs:comment": "SOLOMON ISLANDS"
         },
         {
             "@id": "UNTDID3207Type:SC",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "SC",
             "rdfs:comment": "SEYCHELLES"
         },
         {
             "@id": "UNTDID3207Type:SD",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "SD",
             "rdfs:comment": "SUDAN"
         },
         {
             "@id": "UNTDID3207Type:SE",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "SE",
             "rdfs:comment": "SWEDEN"
         },
         {
             "@id": "UNTDID3207Type:SG",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "SG",
             "rdfs:comment": "SINGAPORE"
         },
         {
             "@id": "UNTDID3207Type:SH",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "SH",
             "rdfs:comment": "SAINT HELENA, ASCENSION AND TRISTAN DA CUNHA"
         },
         {
             "@id": "UNTDID3207Type:SI",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "SI",
             "rdfs:comment": "SLOVENIA"
         },
         {
             "@id": "UNTDID3207Type:SJ",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "SJ",
             "rdfs:comment": "SVALBARD AND JAN MAYEN"
         },
         {
             "@id": "UNTDID3207Type:SK",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "SK",
             "rdfs:comment": "SLOVAKIA"
         },
         {
             "@id": "UNTDID3207Type:SL",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "SL",
             "rdfs:comment": "SIERRA LEONE"
         },
         {
             "@id": "UNTDID3207Type:SM",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "SM",
             "rdfs:comment": "SAN MARINO"
         },
         {
             "@id": "UNTDID3207Type:SN",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "SN",
             "rdfs:comment": "SENEGAL"
         },
         {
             "@id": "UNTDID3207Type:SO",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "SO",
             "rdfs:comment": "SOMALIA"
         },
         {
             "@id": "UNTDID3207Type:SR",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "SR",
             "rdfs:comment": "SURINAME"
         },
         {
             "@id": "UNTDID3207Type:SS",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "SS",
             "rdfs:comment": "SOUTH SUDAN"
         },
         {
             "@id": "UNTDID3207Type:ST",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "ST",
             "rdfs:comment": "SAO TOME AND PRINCIPE"
         },
         {
             "@id": "UNTDID3207Type:SV",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "SV",
             "rdfs:comment": "EL SALVADOR"
         },
         {
             "@id": "UNTDID3207Type:SX",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "SX",
             "rdfs:comment": "SINT MAARTEN (DUTCH PART)"
         },
         {
             "@id": "UNTDID3207Type:SY",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "SY",
             "rdfs:comment": "SYRIAN ARAB REPUBLIC"
         },
         {
             "@id": "UNTDID3207Type:SZ",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "SZ",
             "rdfs:comment": "ESWATINI"
         },
         {
             "@id": "UNTDID3207Type:TC",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "TC",
             "rdfs:comment": "TURKS AND CAICOS ISLANDS"
         },
         {
             "@id": "UNTDID3207Type:TD",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "TD",
             "rdfs:comment": "CHAD"
         },
         {
             "@id": "UNTDID3207Type:TF",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "TF",
             "rdfs:comment": "FRENCH SOUTHERN TERRITORIES"
         },
         {
             "@id": "UNTDID3207Type:TG",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "TG",
             "rdfs:comment": "TOGO"
         },
         {
             "@id": "UNTDID3207Type:TH",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "TH",
             "rdfs:comment": "THAILAND"
         },
         {
             "@id": "UNTDID3207Type:TJ",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "TJ",
             "rdfs:comment": "TAJIKISTAN"
         },
         {
             "@id": "UNTDID3207Type:TK",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "TK",
             "rdfs:comment": "TOKELAU"
         },
         {
             "@id": "UNTDID3207Type:TL",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "TL",
             "rdfs:comment": "TIMOR-LESTE"
         },
         {
             "@id": "UNTDID3207Type:TM",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "TM",
             "rdfs:comment": "TURKMENISTAN"
         },
         {
             "@id": "UNTDID3207Type:TN",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "TN",
             "rdfs:comment": "TUNISIA"
         },
         {
             "@id": "UNTDID3207Type:TO",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "TO",
             "rdfs:comment": "TONGA"
         },
         {
             "@id": "UNTDID3207Type:TR",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "TR",
             "rdfs:comment": "TURKEY"
         },
         {
             "@id": "UNTDID3207Type:TT",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "TT",
             "rdfs:comment": "TRINIDAD AND TOBAGO"
         },
         {
             "@id": "UNTDID3207Type:TV",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "TV",
             "rdfs:comment": "TUVALU"
         },
         {
             "@id": "UNTDID3207Type:TW",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "TW",
             "rdfs:comment": "TAIWAN, PROVINCE OF CHINA"
         },
         {
             "@id": "UNTDID3207Type:TZ",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "TZ",
             "rdfs:comment": "TANZANIA, UNITED REPUBLIC OF"
         },
         {
             "@id": "UNTDID3207Type:UA",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "UA",
             "rdfs:comment": "UKRAINE"
         },
         {
             "@id": "UNTDID3207Type:UG",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "UG",
             "rdfs:comment": "UGANDA"
         },
         {
             "@id": "UNTDID3207Type:UM",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "UM",
             "rdfs:comment": "UNITED STATES MINOR OUTLYING ISLANDS"
         },
         {
             "@id": "UNTDID3207Type:US",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "US",
             "rdfs:comment": "UNITED STATES OF AMERICA"
         },
         {
             "@id": "UNTDID3207Type:UY",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "UY",
             "rdfs:comment": "URUGUAY"
         },
         {
             "@id": "UNTDID3207Type:UZ",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "UZ",
             "rdfs:comment": "UZBEKISTAN"
         },
         {
             "@id": "UNTDID3207Type:VA",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "VA",
             "rdfs:comment": "HOLY SEE"
         },
         {
             "@id": "UNTDID3207Type:VC",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "VC",
             "rdfs:comment": "SAINT VINCENT AND THE GRENADINES"
         },
         {
             "@id": "UNTDID3207Type:VE",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "VE",
             "rdfs:comment": "VENEZUELA (BOLIVARIAN REPUBLIC OF)"
         },
         {
             "@id": "UNTDID3207Type:VG",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "VG",
             "rdfs:comment": "VIRGIN ISLANDS, BRITISH"
         },
         {
             "@id": "UNTDID3207Type:VI",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "VI",
             "rdfs:comment": "VIRGIN ISLANDS, U.S."
         },
         {
             "@id": "UNTDID3207Type:VN",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "VN",
             "rdfs:comment": "VIET NAM"
         },
         {
             "@id": "UNTDID3207Type:VU",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "VU",
             "rdfs:comment": "VANUATU"
         },
         {
             "@id": "UNTDID3207Type:WF",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "WF",
             "rdfs:comment": "WALLIS AND FUTUNA"
         },
         {
             "@id": "UNTDID3207Type:WS",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "WS",
             "rdfs:comment": "SAMOA"
         },
         {
             "@id": "UNTDID3207Type:YE",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "YE",
             "rdfs:comment": "YEMEN"
         },
         {
             "@id": "UNTDID3207Type:YT",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "YT",
             "rdfs:comment": "MAYOTTE"
         },
         {
             "@id": "UNTDID3207Type:ZA",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "ZA",
             "rdfs:comment": "SOUTH AFRICA"
         },
         {
             "@id": "UNTDID3207Type:ZM",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "ZM",
             "rdfs:comment": "ZAMBIA"
         },
         {
             "@id": "UNTDID3207Type:ZW",
-            "@type": "unece:CountryIdType",
+            "@type": "unece:CountryId",
             "rdf:value": "ZW",
             "rdfs:comment": "ZIMBABWE"
         }

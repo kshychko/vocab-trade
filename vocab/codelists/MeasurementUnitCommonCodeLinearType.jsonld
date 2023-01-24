@@ -9,25 +9,25 @@
     "@graph": [
         {
             "@id": "MeasurementUnitCommonCodeLinearType:CMT",
-            "@type": "unece:LinearUnitCodeType",
+            "@type": "unece:LinearUnitMeasureCode",
             "rdf:value": "CMT",
             "rdfs:comment": "centimetre"
         },
         {
             "@id": "MeasurementUnitCommonCodeLinearType:FOT",
-            "@type": "unece:LinearUnitCodeType",
+            "@type": "unece:LinearUnitMeasureCode",
             "rdf:value": "FOT",
             "rdfs:comment": "foot"
         },
         {
             "@id": "MeasurementUnitCommonCodeLinearType:INH",
-            "@type": "unece:LinearUnitCodeType",
+            "@type": "unece:LinearUnitMeasureCode",
             "rdf:value": "INH",
             "rdfs:comment": "inch"
         },
         {
             "@id": "MeasurementUnitCommonCodeLinearType:MTR",
-            "@type": "unece:LinearUnitCodeType",
+            "@type": "unece:LinearUnitMeasureCode",
             "rdf:value": "MTR",
             "rdfs:comment": "metre"
         }

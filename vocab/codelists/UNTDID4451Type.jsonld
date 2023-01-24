@@ -9,2407 +9,2407 @@
     "@graph": [
         {
             "@id": "UNTDID4451Type:AAA",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AAA",
             "rdfs:comment": "Goods item description"
         },
         {
             "@id": "UNTDID4451Type:AAB",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AAB",
             "rdfs:comment": "Payment term"
         },
         {
             "@id": "UNTDID4451Type:AAC",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AAC",
             "rdfs:comment": "Dangerous goods additional information"
         },
         {
             "@id": "UNTDID4451Type:AAD",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AAD",
             "rdfs:comment": "Dangerous goods technical name"
         },
         {
             "@id": "UNTDID4451Type:AAE",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AAE",
             "rdfs:comment": "Acknowledgement description"
         },
         {
             "@id": "UNTDID4451Type:AAF",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AAF",
             "rdfs:comment": "Rate additional information"
         },
         {
             "@id": "UNTDID4451Type:AAG",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AAG",
             "rdfs:comment": "Party instructions"
         },
         {
             "@id": "UNTDID4451Type:AAI",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AAI",
             "rdfs:comment": "General information"
         },
         {
             "@id": "UNTDID4451Type:AAJ",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AAJ",
             "rdfs:comment": "Additional conditions of sale/purchase"
         },
         {
             "@id": "UNTDID4451Type:AAK",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AAK",
             "rdfs:comment": "Price conditions"
         },
         {
             "@id": "UNTDID4451Type:AAL",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AAL",
             "rdfs:comment": "Goods dimensions in characters"
         },
         {
             "@id": "UNTDID4451Type:AAM",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AAM",
             "rdfs:comment": "Equipment re-usage restrictions"
         },
         {
             "@id": "UNTDID4451Type:AAN",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AAN",
             "rdfs:comment": "Handling restriction"
         },
         {
             "@id": "UNTDID4451Type:AAO",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AAO",
             "rdfs:comment": "Error description (free text)"
         },
         {
             "@id": "UNTDID4451Type:AAP",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AAP",
             "rdfs:comment": "Response (free text)"
         },
         {
             "@id": "UNTDID4451Type:AAQ",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AAQ",
             "rdfs:comment": "Package content's description"
         },
         {
             "@id": "UNTDID4451Type:AAR",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AAR",
             "rdfs:comment": "Terms of delivery"
         },
         {
             "@id": "UNTDID4451Type:AAS",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AAS",
             "rdfs:comment": "Bill of lading remarks"
         },
         {
             "@id": "UNTDID4451Type:AAT",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AAT",
             "rdfs:comment": "Mode of settlement information"
         },
         {
             "@id": "UNTDID4451Type:AAU",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AAU",
             "rdfs:comment": "Consignment invoice information"
         },
         {
             "@id": "UNTDID4451Type:AAV",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AAV",
             "rdfs:comment": "Clearance invoice information"
         },
         {
             "@id": "UNTDID4451Type:AAW",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AAW",
             "rdfs:comment": "Letter of credit information"
         },
         {
             "@id": "UNTDID4451Type:AAX",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AAX",
             "rdfs:comment": "License information"
         },
         {
             "@id": "UNTDID4451Type:AAY",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AAY",
             "rdfs:comment": "Certification statements"
         },
         {
             "@id": "UNTDID4451Type:AAZ",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AAZ",
             "rdfs:comment": "Additional export information"
         },
         {
             "@id": "UNTDID4451Type:ABA",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ABA",
             "rdfs:comment": "Tariff statements"
         },
         {
             "@id": "UNTDID4451Type:ABB",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ABB",
             "rdfs:comment": "Medical history"
         },
         {
             "@id": "UNTDID4451Type:ABC",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ABC",
             "rdfs:comment": "Conditions of sale or purchase"
         },
         {
             "@id": "UNTDID4451Type:ABD",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ABD",
             "rdfs:comment": "Contract document type"
         },
         {
             "@id": "UNTDID4451Type:ABE",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ABE",
             "rdfs:comment": "Additional terms and/or conditions (documentary credit)"
         },
         {
             "@id": "UNTDID4451Type:ABF",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ABF",
             "rdfs:comment": "Instructions or information about standby documentary credit"
         },
         {
             "@id": "UNTDID4451Type:ABG",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ABG",
             "rdfs:comment": "Instructions or information about partial shipment(s)"
         },
         {
             "@id": "UNTDID4451Type:ABH",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ABH",
             "rdfs:comment": "Instructions or information about transhipment(s)"
         },
         {
             "@id": "UNTDID4451Type:ABI",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ABI",
             "rdfs:comment": "Additional handling instructions documentary credit"
         },
         {
             "@id": "UNTDID4451Type:ABJ",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ABJ",
             "rdfs:comment": "Domestic routing information"
         },
         {
             "@id": "UNTDID4451Type:ABK",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ABK",
             "rdfs:comment": "Chargeable category of equipment"
         },
         {
             "@id": "UNTDID4451Type:ABL",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ABL",
             "rdfs:comment": "Government information"
         },
         {
             "@id": "UNTDID4451Type:ABM",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ABM",
             "rdfs:comment": "Onward routing information"
         },
         {
             "@id": "UNTDID4451Type:ABN",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ABN",
             "rdfs:comment": "Accounting information"
         },
         {
             "@id": "UNTDID4451Type:ABO",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ABO",
             "rdfs:comment": "Discrepancy information"
         },
         {
             "@id": "UNTDID4451Type:ABP",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ABP",
             "rdfs:comment": "Confirmation instructions"
         },
         {
             "@id": "UNTDID4451Type:ABQ",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ABQ",
             "rdfs:comment": "Method of issuance"
         },
         {
             "@id": "UNTDID4451Type:ABR",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ABR",
             "rdfs:comment": "Documents delivery instructions"
         },
         {
             "@id": "UNTDID4451Type:ABS",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ABS",
             "rdfs:comment": "Additional conditions"
         },
         {
             "@id": "UNTDID4451Type:ABT",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ABT",
             "rdfs:comment": "Information/instructions about additional amounts covered"
         },
         {
             "@id": "UNTDID4451Type:ABU",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ABU",
             "rdfs:comment": "Deferred payment termed additional"
         },
         {
             "@id": "UNTDID4451Type:ABV",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ABV",
             "rdfs:comment": "Acceptance terms additional"
         },
         {
             "@id": "UNTDID4451Type:ABW",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ABW",
             "rdfs:comment": "Negotiation terms additional"
         },
         {
             "@id": "UNTDID4451Type:ABX",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ABX",
             "rdfs:comment": "Document name and documentary requirements"
         },
         {
             "@id": "UNTDID4451Type:ABZ",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ABZ",
             "rdfs:comment": "Instructions/information about revolving documentary credit"
         },
         {
             "@id": "UNTDID4451Type:ACA",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ACA",
             "rdfs:comment": "Documentary requirements"
         },
         {
             "@id": "UNTDID4451Type:ACB",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ACB",
             "rdfs:comment": "Additional information"
         },
         {
             "@id": "UNTDID4451Type:ACC",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ACC",
             "rdfs:comment": "Factor assignment clause"
         },
         {
             "@id": "UNTDID4451Type:ACD",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ACD",
             "rdfs:comment": "Reason"
         },
         {
             "@id": "UNTDID4451Type:ACE",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ACE",
             "rdfs:comment": "Dispute"
         },
         {
             "@id": "UNTDID4451Type:ACF",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ACF",
             "rdfs:comment": "Additional attribute information"
         },
         {
             "@id": "UNTDID4451Type:ACG",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ACG",
             "rdfs:comment": "Absence declaration"
         },
         {
             "@id": "UNTDID4451Type:ACH",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ACH",
             "rdfs:comment": "Aggregation statement"
         },
         {
             "@id": "UNTDID4451Type:ACI",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ACI",
             "rdfs:comment": "Compilation statement"
         },
         {
             "@id": "UNTDID4451Type:ACJ",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ACJ",
             "rdfs:comment": "Definitional exception"
         },
         {
             "@id": "UNTDID4451Type:ACK",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ACK",
             "rdfs:comment": "Privacy statement"
         },
         {
             "@id": "UNTDID4451Type:ACL",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ACL",
             "rdfs:comment": "Quality statement"
         },
         {
             "@id": "UNTDID4451Type:ACM",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ACM",
             "rdfs:comment": "Statistical description"
         },
         {
             "@id": "UNTDID4451Type:ACN",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ACN",
             "rdfs:comment": "Statistical definition"
         },
         {
             "@id": "UNTDID4451Type:ACO",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ACO",
             "rdfs:comment": "Statistical name"
         },
         {
             "@id": "UNTDID4451Type:ACP",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ACP",
             "rdfs:comment": "Statistical title"
         },
         {
             "@id": "UNTDID4451Type:ACQ",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ACQ",
             "rdfs:comment": "Off-dimension information"
         },
         {
             "@id": "UNTDID4451Type:ACR",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ACR",
             "rdfs:comment": "Unexpected stops information"
         },
         {
             "@id": "UNTDID4451Type:ACS",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ACS",
             "rdfs:comment": "Principles"
         },
         {
             "@id": "UNTDID4451Type:ACT",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ACT",
             "rdfs:comment": "Terms and definition"
         },
         {
             "@id": "UNTDID4451Type:ACU",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ACU",
             "rdfs:comment": "Segment name"
         },
         {
             "@id": "UNTDID4451Type:ACV",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ACV",
             "rdfs:comment": "Simple data element name"
         },
         {
             "@id": "UNTDID4451Type:ACW",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ACW",
             "rdfs:comment": "Scope"
         },
         {
             "@id": "UNTDID4451Type:ACX",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ACX",
             "rdfs:comment": "Message type name"
         },
         {
             "@id": "UNTDID4451Type:ACY",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ACY",
             "rdfs:comment": "Introduction"
         },
         {
             "@id": "UNTDID4451Type:ACZ",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ACZ",
             "rdfs:comment": "Glossary"
         },
         {
             "@id": "UNTDID4451Type:ADA",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ADA",
             "rdfs:comment": "Functional definition"
         },
         {
             "@id": "UNTDID4451Type:ADB",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ADB",
             "rdfs:comment": "Examples"
         },
         {
             "@id": "UNTDID4451Type:ADC",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ADC",
             "rdfs:comment": "Cover page"
         },
         {
             "@id": "UNTDID4451Type:ADD",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ADD",
             "rdfs:comment": "Dependency (syntax) notes"
         },
         {
             "@id": "UNTDID4451Type:ADE",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ADE",
             "rdfs:comment": "Code value name"
         },
         {
             "@id": "UNTDID4451Type:ADF",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ADF",
             "rdfs:comment": "Code list name"
         },
         {
             "@id": "UNTDID4451Type:ADG",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ADG",
             "rdfs:comment": "Clarification of usage"
         },
         {
             "@id": "UNTDID4451Type:ADH",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ADH",
             "rdfs:comment": "Composite data element name"
         },
         {
             "@id": "UNTDID4451Type:ADI",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ADI",
             "rdfs:comment": "Field of application"
         },
         {
             "@id": "UNTDID4451Type:ADJ",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ADJ",
             "rdfs:comment": "Type of assets and liabilities"
         },
         {
             "@id": "UNTDID4451Type:ADK",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ADK",
             "rdfs:comment": "Promotion information"
         },
         {
             "@id": "UNTDID4451Type:ADL",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ADL",
             "rdfs:comment": "Meter condition"
         },
         {
             "@id": "UNTDID4451Type:ADM",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ADM",
             "rdfs:comment": "Meter reading information"
         },
         {
             "@id": "UNTDID4451Type:ADN",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ADN",
             "rdfs:comment": "Type of transaction reason"
         },
         {
             "@id": "UNTDID4451Type:ADO",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ADO",
             "rdfs:comment": "Type of survey question"
         },
         {
             "@id": "UNTDID4451Type:ADP",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ADP",
             "rdfs:comment": "Carrier's agent counter information"
         },
         {
             "@id": "UNTDID4451Type:ADQ",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ADQ",
             "rdfs:comment": "Description of work item on equipment"
         },
         {
             "@id": "UNTDID4451Type:ADR",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ADR",
             "rdfs:comment": "Message definition"
         },
         {
             "@id": "UNTDID4451Type:ADS",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ADS",
             "rdfs:comment": "Booked item information"
         },
         {
             "@id": "UNTDID4451Type:ADT",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ADT",
             "rdfs:comment": "Source of document"
         },
         {
             "@id": "UNTDID4451Type:ADU",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ADU",
             "rdfs:comment": "Note"
         },
         {
             "@id": "UNTDID4451Type:ADV",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ADV",
             "rdfs:comment": "Fixed part of segment clarification text"
         },
         {
             "@id": "UNTDID4451Type:ADW",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ADW",
             "rdfs:comment": "Characteristics of goods"
         },
         {
             "@id": "UNTDID4451Type:ADX",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ADX",
             "rdfs:comment": "Additional discharge instructions"
         },
         {
             "@id": "UNTDID4451Type:ADY",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ADY",
             "rdfs:comment": "Container stripping instructions"
         },
         {
             "@id": "UNTDID4451Type:ADZ",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ADZ",
             "rdfs:comment": "CSC (Container Safety Convention) plate information"
         },
         {
             "@id": "UNTDID4451Type:AEA",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AEA",
             "rdfs:comment": "Cargo remarks"
         },
         {
             "@id": "UNTDID4451Type:AEB",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AEB",
             "rdfs:comment": "Temperature control instructions"
         },
         {
             "@id": "UNTDID4451Type:AEC",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AEC",
             "rdfs:comment": "Text refers to expected data"
         },
         {
             "@id": "UNTDID4451Type:AED",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AED",
             "rdfs:comment": "Text refers to received data"
         },
         {
             "@id": "UNTDID4451Type:AEE",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AEE",
             "rdfs:comment": "Section clarification text"
         },
         {
             "@id": "UNTDID4451Type:AEF",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AEF",
             "rdfs:comment": "Information to the beneficiary"
         },
         {
             "@id": "UNTDID4451Type:AEG",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AEG",
             "rdfs:comment": "Information to the applicant"
         },
         {
             "@id": "UNTDID4451Type:AEH",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AEH",
             "rdfs:comment": "Instructions to the beneficiary"
         },
         {
             "@id": "UNTDID4451Type:AEI",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AEI",
             "rdfs:comment": "Instructions to the applicant"
         },
         {
             "@id": "UNTDID4451Type:AEJ",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AEJ",
             "rdfs:comment": "Controlled atmosphere"
         },
         {
             "@id": "UNTDID4451Type:AEK",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AEK",
             "rdfs:comment": "Take off annotation"
         },
         {
             "@id": "UNTDID4451Type:AEL",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AEL",
             "rdfs:comment": "Price variation narrative"
         },
         {
             "@id": "UNTDID4451Type:AEM",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AEM",
             "rdfs:comment": "Documentary credit amendment instructions"
         },
         {
             "@id": "UNTDID4451Type:AEN",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AEN",
             "rdfs:comment": "Standard method narrative"
         },
         {
             "@id": "UNTDID4451Type:AEO",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AEO",
             "rdfs:comment": "Project narrative"
         },
         {
             "@id": "UNTDID4451Type:AEP",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AEP",
             "rdfs:comment": "Radioactive goods, additional information"
         },
         {
             "@id": "UNTDID4451Type:AEQ",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AEQ",
             "rdfs:comment": "Bank-to-bank information"
         },
         {
             "@id": "UNTDID4451Type:AER",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AER",
             "rdfs:comment": "Reimbursement instructions"
         },
         {
             "@id": "UNTDID4451Type:AES",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AES",
             "rdfs:comment": "Reason for amending a message"
         },
         {
             "@id": "UNTDID4451Type:AET",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AET",
             "rdfs:comment": "Instructions to the paying and/or accepting and/or negotiating bank"
         },
         {
             "@id": "UNTDID4451Type:AEU",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AEU",
             "rdfs:comment": "Interest instructions"
         },
         {
             "@id": "UNTDID4451Type:AEV",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AEV",
             "rdfs:comment": "Agent commission"
         },
         {
             "@id": "UNTDID4451Type:AEW",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AEW",
             "rdfs:comment": "Remitting bank instructions"
         },
         {
             "@id": "UNTDID4451Type:AEX",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AEX",
             "rdfs:comment": "Instructions to the collecting bank"
         },
         {
             "@id": "UNTDID4451Type:AEY",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AEY",
             "rdfs:comment": "Collection amount instructions"
         },
         {
             "@id": "UNTDID4451Type:AEZ",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AEZ",
             "rdfs:comment": "Internal auditing information"
         },
         {
             "@id": "UNTDID4451Type:AFA",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AFA",
             "rdfs:comment": "Constraint"
         },
         {
             "@id": "UNTDID4451Type:AFB",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AFB",
             "rdfs:comment": "Comment"
         },
         {
             "@id": "UNTDID4451Type:AFC",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AFC",
             "rdfs:comment": "Semantic note"
         },
         {
             "@id": "UNTDID4451Type:AFD",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AFD",
             "rdfs:comment": "Help text"
         },
         {
             "@id": "UNTDID4451Type:AFE",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AFE",
             "rdfs:comment": "Legend"
         },
         {
             "@id": "UNTDID4451Type:AFF",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AFF",
             "rdfs:comment": "Batch code structure"
         },
         {
             "@id": "UNTDID4451Type:AFG",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AFG",
             "rdfs:comment": "Product application"
         },
         {
             "@id": "UNTDID4451Type:AFH",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AFH",
             "rdfs:comment": "Customer complaint"
         },
         {
             "@id": "UNTDID4451Type:AFI",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AFI",
             "rdfs:comment": "Probable cause of fault"
         },
         {
             "@id": "UNTDID4451Type:AFJ",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AFJ",
             "rdfs:comment": "Defect description"
         },
         {
             "@id": "UNTDID4451Type:AFK",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AFK",
             "rdfs:comment": "Repair description"
         },
         {
             "@id": "UNTDID4451Type:AFL",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AFL",
             "rdfs:comment": "Review comments"
         },
         {
             "@id": "UNTDID4451Type:AFM",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AFM",
             "rdfs:comment": "Title"
         },
         {
             "@id": "UNTDID4451Type:AFN",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AFN",
             "rdfs:comment": "Description of amount"
         },
         {
             "@id": "UNTDID4451Type:AFO",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AFO",
             "rdfs:comment": "Responsibilities"
         },
         {
             "@id": "UNTDID4451Type:AFP",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AFP",
             "rdfs:comment": "Supplier"
         },
         {
             "@id": "UNTDID4451Type:AFQ",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AFQ",
             "rdfs:comment": "Purchase region"
         },
         {
             "@id": "UNTDID4451Type:AFR",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AFR",
             "rdfs:comment": "Affiliation"
         },
         {
             "@id": "UNTDID4451Type:AFS",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AFS",
             "rdfs:comment": "Borrower"
         },
         {
             "@id": "UNTDID4451Type:AFT",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AFT",
             "rdfs:comment": "Line of business"
         },
         {
             "@id": "UNTDID4451Type:AFU",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AFU",
             "rdfs:comment": "Financial institution"
         },
         {
             "@id": "UNTDID4451Type:AFV",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AFV",
             "rdfs:comment": "Business founder"
         },
         {
             "@id": "UNTDID4451Type:AFW",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AFW",
             "rdfs:comment": "Business history"
         },
         {
             "@id": "UNTDID4451Type:AFX",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AFX",
             "rdfs:comment": "Banking arrangements"
         },
         {
             "@id": "UNTDID4451Type:AFY",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AFY",
             "rdfs:comment": "Business origin"
         },
         {
             "@id": "UNTDID4451Type:AFZ",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AFZ",
             "rdfs:comment": "Brand names' description"
         },
         {
             "@id": "UNTDID4451Type:AGA",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AGA",
             "rdfs:comment": "Business financing details"
         },
         {
             "@id": "UNTDID4451Type:AGB",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AGB",
             "rdfs:comment": "Competition"
         },
         {
             "@id": "UNTDID4451Type:AGC",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AGC",
             "rdfs:comment": "Construction process details"
         },
         {
             "@id": "UNTDID4451Type:AGD",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AGD",
             "rdfs:comment": "Construction specialty"
         },
         {
             "@id": "UNTDID4451Type:AGE",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AGE",
             "rdfs:comment": "Contract information"
         },
         {
             "@id": "UNTDID4451Type:AGF",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AGF",
             "rdfs:comment": "Corporate filing"
         },
         {
             "@id": "UNTDID4451Type:AGG",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AGG",
             "rdfs:comment": "Customer information"
         },
         {
             "@id": "UNTDID4451Type:AGH",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AGH",
             "rdfs:comment": "Copyright notice"
         },
         {
             "@id": "UNTDID4451Type:AGI",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AGI",
             "rdfs:comment": "Contingent debt"
         },
         {
             "@id": "UNTDID4451Type:AGJ",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AGJ",
             "rdfs:comment": "Conviction details"
         },
         {
             "@id": "UNTDID4451Type:AGK",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AGK",
             "rdfs:comment": "Equipment"
         },
         {
             "@id": "UNTDID4451Type:AGL",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AGL",
             "rdfs:comment": "Workforce description"
         },
         {
             "@id": "UNTDID4451Type:AGM",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AGM",
             "rdfs:comment": "Exemption"
         },
         {
             "@id": "UNTDID4451Type:AGN",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AGN",
             "rdfs:comment": "Future plans"
         },
         {
             "@id": "UNTDID4451Type:AGO",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AGO",
             "rdfs:comment": "Interviewee conversation information"
         },
         {
             "@id": "UNTDID4451Type:AGP",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AGP",
             "rdfs:comment": "Intangible asset"
         },
         {
             "@id": "UNTDID4451Type:AGQ",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AGQ",
             "rdfs:comment": "Inventory"
         },
         {
             "@id": "UNTDID4451Type:AGR",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AGR",
             "rdfs:comment": "Investment"
         },
         {
             "@id": "UNTDID4451Type:AGS",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AGS",
             "rdfs:comment": "Intercompany relations information"
         },
         {
             "@id": "UNTDID4451Type:AGT",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AGT",
             "rdfs:comment": "Joint venture"
         },
         {
             "@id": "UNTDID4451Type:AGU",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AGU",
             "rdfs:comment": "Loan"
         },
         {
             "@id": "UNTDID4451Type:AGV",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AGV",
             "rdfs:comment": "Long term debt"
         },
         {
             "@id": "UNTDID4451Type:AGW",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AGW",
             "rdfs:comment": "Location"
         },
         {
             "@id": "UNTDID4451Type:AGX",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AGX",
             "rdfs:comment": "Current legal structure"
         },
         {
             "@id": "UNTDID4451Type:AGY",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AGY",
             "rdfs:comment": "Marital contract"
         },
         {
             "@id": "UNTDID4451Type:AGZ",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AGZ",
             "rdfs:comment": "Marketing activities"
         },
         {
             "@id": "UNTDID4451Type:AHA",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AHA",
             "rdfs:comment": "Merger"
         },
         {
             "@id": "UNTDID4451Type:AHB",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AHB",
             "rdfs:comment": "Marketable securities"
         },
         {
             "@id": "UNTDID4451Type:AHC",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AHC",
             "rdfs:comment": "Business debt"
         },
         {
             "@id": "UNTDID4451Type:AHD",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AHD",
             "rdfs:comment": "Original legal structure"
         },
         {
             "@id": "UNTDID4451Type:AHE",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AHE",
             "rdfs:comment": "Employee sharing arrangements"
         },
         {
             "@id": "UNTDID4451Type:AHF",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AHF",
             "rdfs:comment": "Organization details"
         },
         {
             "@id": "UNTDID4451Type:AHG",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AHG",
             "rdfs:comment": "Public record details"
         },
         {
             "@id": "UNTDID4451Type:AHH",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AHH",
             "rdfs:comment": "Price range"
         },
         {
             "@id": "UNTDID4451Type:AHI",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AHI",
             "rdfs:comment": "Qualifications"
         },
         {
             "@id": "UNTDID4451Type:AHJ",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AHJ",
             "rdfs:comment": "Registered activity"
         },
         {
             "@id": "UNTDID4451Type:AHK",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AHK",
             "rdfs:comment": "Criminal sentence"
         },
         {
             "@id": "UNTDID4451Type:AHL",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AHL",
             "rdfs:comment": "Sales method"
         },
         {
             "@id": "UNTDID4451Type:AHM",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AHM",
             "rdfs:comment": "Educational institution information"
         },
         {
             "@id": "UNTDID4451Type:AHN",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AHN",
             "rdfs:comment": "Status details"
         },
         {
             "@id": "UNTDID4451Type:AHO",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AHO",
             "rdfs:comment": "Sales"
         },
         {
             "@id": "UNTDID4451Type:AHP",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AHP",
             "rdfs:comment": "Spouse information"
         },
         {
             "@id": "UNTDID4451Type:AHQ",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AHQ",
             "rdfs:comment": "Educational degree information"
         },
         {
             "@id": "UNTDID4451Type:AHR",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AHR",
             "rdfs:comment": "Shareholding information"
         },
         {
             "@id": "UNTDID4451Type:AHS",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AHS",
             "rdfs:comment": "Sales territory"
         },
         {
             "@id": "UNTDID4451Type:AHT",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AHT",
             "rdfs:comment": "Accountant's comments"
         },
         {
             "@id": "UNTDID4451Type:AHU",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AHU",
             "rdfs:comment": "Exemption law location"
         },
         {
             "@id": "UNTDID4451Type:AHV",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AHV",
             "rdfs:comment": "Share classifications"
         },
         {
             "@id": "UNTDID4451Type:AHW",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AHW",
             "rdfs:comment": "Forecast"
         },
         {
             "@id": "UNTDID4451Type:AHX",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AHX",
             "rdfs:comment": "Event location"
         },
         {
             "@id": "UNTDID4451Type:AHY",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AHY",
             "rdfs:comment": "Facility occupancy"
         },
         {
             "@id": "UNTDID4451Type:AHZ",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AHZ",
             "rdfs:comment": "Import and export details"
         },
         {
             "@id": "UNTDID4451Type:AIA",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AIA",
             "rdfs:comment": "Additional facility information"
         },
         {
             "@id": "UNTDID4451Type:AIB",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AIB",
             "rdfs:comment": "Inventory value"
         },
         {
             "@id": "UNTDID4451Type:AIC",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AIC",
             "rdfs:comment": "Education"
         },
         {
             "@id": "UNTDID4451Type:AID",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AID",
             "rdfs:comment": "Event"
         },
         {
             "@id": "UNTDID4451Type:AIE",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AIE",
             "rdfs:comment": "Agent"
         },
         {
             "@id": "UNTDID4451Type:AIF",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AIF",
             "rdfs:comment": "Domestically agreed financial statement details"
         },
         {
             "@id": "UNTDID4451Type:AIG",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AIG",
             "rdfs:comment": "Other current asset description"
         },
         {
             "@id": "UNTDID4451Type:AIH",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AIH",
             "rdfs:comment": "Other current liability description"
         },
         {
             "@id": "UNTDID4451Type:AII",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AII",
             "rdfs:comment": "Former business activity"
         },
         {
             "@id": "UNTDID4451Type:AIJ",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AIJ",
             "rdfs:comment": "Trade name use"
         },
         {
             "@id": "UNTDID4451Type:AIK",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AIK",
             "rdfs:comment": "Signing authority"
         },
         {
             "@id": "UNTDID4451Type:AIL",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AIL",
             "rdfs:comment": "Guarantee"
         },
         {
             "@id": "UNTDID4451Type:AIM",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AIM",
             "rdfs:comment": "Holding company operation"
         },
         {
             "@id": "UNTDID4451Type:AIN",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AIN",
             "rdfs:comment": "Consignment routing"
         },
         {
             "@id": "UNTDID4451Type:AIO",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AIO",
             "rdfs:comment": "Letter of protest"
         },
         {
             "@id": "UNTDID4451Type:AIP",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AIP",
             "rdfs:comment": "Question"
         },
         {
             "@id": "UNTDID4451Type:AIQ",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AIQ",
             "rdfs:comment": "Party information"
         },
         {
             "@id": "UNTDID4451Type:AIR",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AIR",
             "rdfs:comment": "Area boundaries description"
         },
         {
             "@id": "UNTDID4451Type:AIS",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AIS",
             "rdfs:comment": "Advertisement information"
         },
         {
             "@id": "UNTDID4451Type:AIT",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AIT",
             "rdfs:comment": "Financial statement details"
         },
         {
             "@id": "UNTDID4451Type:AIU",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AIU",
             "rdfs:comment": "Access instructions"
         },
         {
             "@id": "UNTDID4451Type:AIV",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AIV",
             "rdfs:comment": "Liquidity"
         },
         {
             "@id": "UNTDID4451Type:AIW",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AIW",
             "rdfs:comment": "Credit line"
         },
         {
             "@id": "UNTDID4451Type:AIX",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AIX",
             "rdfs:comment": "Warranty terms"
         },
         {
             "@id": "UNTDID4451Type:AIY",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AIY",
             "rdfs:comment": "Division description"
         },
         {
             "@id": "UNTDID4451Type:AIZ",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AIZ",
             "rdfs:comment": "Reporting instruction"
         },
         {
             "@id": "UNTDID4451Type:AJA",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AJA",
             "rdfs:comment": "Examination result"
         },
         {
             "@id": "UNTDID4451Type:AJB",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AJB",
             "rdfs:comment": "Laboratory result"
         },
         {
             "@id": "UNTDID4451Type:ALC",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ALC",
             "rdfs:comment": "Allowance/charge information"
         },
         {
             "@id": "UNTDID4451Type:ALD",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ALD",
             "rdfs:comment": "X-ray result"
         },
         {
             "@id": "UNTDID4451Type:ALE",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ALE",
             "rdfs:comment": "Pathology result"
         },
         {
             "@id": "UNTDID4451Type:ALF",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ALF",
             "rdfs:comment": "Intervention description"
         },
         {
             "@id": "UNTDID4451Type:ALG",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ALG",
             "rdfs:comment": "Summary of admittance"
         },
         {
             "@id": "UNTDID4451Type:ALH",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ALH",
             "rdfs:comment": "Medical treatment course detail"
         },
         {
             "@id": "UNTDID4451Type:ALI",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ALI",
             "rdfs:comment": "Prognosis"
         },
         {
             "@id": "UNTDID4451Type:ALJ",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ALJ",
             "rdfs:comment": "Instruction to patient"
         },
         {
             "@id": "UNTDID4451Type:ALK",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ALK",
             "rdfs:comment": "Instruction to physician"
         },
         {
             "@id": "UNTDID4451Type:ALL",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ALL",
             "rdfs:comment": "All documents"
         },
         {
             "@id": "UNTDID4451Type:ALM",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ALM",
             "rdfs:comment": "Medicine treatment"
         },
         {
             "@id": "UNTDID4451Type:ALN",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ALN",
             "rdfs:comment": "Medicine dosage and administration"
         },
         {
             "@id": "UNTDID4451Type:ALO",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ALO",
             "rdfs:comment": "Availability of patient"
         },
         {
             "@id": "UNTDID4451Type:ALP",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ALP",
             "rdfs:comment": "Reason for service request"
         },
         {
             "@id": "UNTDID4451Type:ALQ",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ALQ",
             "rdfs:comment": "Purpose of service"
         },
         {
             "@id": "UNTDID4451Type:ARR",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ARR",
             "rdfs:comment": "Arrival conditions"
         },
         {
             "@id": "UNTDID4451Type:ARS",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ARS",
             "rdfs:comment": "Service requester's comment"
         },
         {
             "@id": "UNTDID4451Type:AUT",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AUT",
             "rdfs:comment": "Authentication"
         },
         {
             "@id": "UNTDID4451Type:AUU",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AUU",
             "rdfs:comment": "Requested location description"
         },
         {
             "@id": "UNTDID4451Type:AUV",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AUV",
             "rdfs:comment": "Medicine administration condition"
         },
         {
             "@id": "UNTDID4451Type:AUW",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AUW",
             "rdfs:comment": "Patient information"
         },
         {
             "@id": "UNTDID4451Type:AUX",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AUX",
             "rdfs:comment": "Precautionary measure"
         },
         {
             "@id": "UNTDID4451Type:AUY",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AUY",
             "rdfs:comment": "Service characteristic"
         },
         {
             "@id": "UNTDID4451Type:AUZ",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AUZ",
             "rdfs:comment": "Planned event comment"
         },
         {
             "@id": "UNTDID4451Type:AVA",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AVA",
             "rdfs:comment": "Expected delay comment"
         },
         {
             "@id": "UNTDID4451Type:AVB",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AVB",
             "rdfs:comment": "Transport requirements comment"
         },
         {
             "@id": "UNTDID4451Type:AVC",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AVC",
             "rdfs:comment": "Temporary approval condition"
         },
         {
             "@id": "UNTDID4451Type:AVD",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AVD",
             "rdfs:comment": "Customs Valuation Information"
         },
         {
             "@id": "UNTDID4451Type:AVE",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AVE",
             "rdfs:comment": "Value Added Tax (VAT) margin scheme"
         },
         {
             "@id": "UNTDID4451Type:AVF",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "AVF",
             "rdfs:comment": "Maritime Declaration of Health"
         },
         {
             "@id": "UNTDID4451Type:BAG",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "BAG",
             "rdfs:comment": "Passenger baggage information"
         },
         {
             "@id": "UNTDID4451Type:BAH",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "BAH",
             "rdfs:comment": "Maritime Declaration of Health"
         },
         {
             "@id": "UNTDID4451Type:BAI",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "BAI",
             "rdfs:comment": "Additional product information address"
         },
         {
             "@id": "UNTDID4451Type:BAJ",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "BAJ",
             "rdfs:comment": "Information to be printed on despatch advice"
         },
         {
             "@id": "UNTDID4451Type:BAK",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "BAK",
             "rdfs:comment": "Missing goods remarks"
         },
         {
             "@id": "UNTDID4451Type:BAL",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "BAL",
             "rdfs:comment": "Non-acceptance information"
         },
         {
             "@id": "UNTDID4451Type:BAM",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "BAM",
             "rdfs:comment": "Returns information"
         },
         {
             "@id": "UNTDID4451Type:BAN",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "BAN",
             "rdfs:comment": "Sub-line item information"
         },
         {
             "@id": "UNTDID4451Type:BAO",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "BAO",
             "rdfs:comment": "Test information"
         },
         {
             "@id": "UNTDID4451Type:BAP",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "BAP",
             "rdfs:comment": "External link"
         },
         {
             "@id": "UNTDID4451Type:BAQ",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "BAQ",
             "rdfs:comment": "VAT exemption reason"
         },
         {
             "@id": "UNTDID4451Type:BAR",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "BAR",
             "rdfs:comment": "Processing Instructions"
         },
         {
             "@id": "UNTDID4451Type:BAS",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "BAS",
             "rdfs:comment": "Relay Instructions"
         },
         {
             "@id": "UNTDID4451Type:BAT",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "BAT",
             "rdfs:comment": "SIMA applicable"
         },
         {
             "@id": "UNTDID4451Type:BAU",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "BAU",
             "rdfs:comment": "Appeals program code"
         },
         {
             "@id": "UNTDID4451Type:BAV",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "BAV",
             "rdfs:comment": "SIMA subject"
         },
         {
             "@id": "UNTDID4451Type:BAW",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "BAW",
             "rdfs:comment": "Surtax applicable"
         },
         {
             "@id": "UNTDID4451Type:BAX",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "BAX",
             "rdfs:comment": "SIMA security bond"
         },
         {
             "@id": "UNTDID4451Type:BAY",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "BAY",
             "rdfs:comment": "Surtax subject"
         },
         {
             "@id": "UNTDID4451Type:BAZ",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "BAZ",
             "rdfs:comment": "Safeguard applicable"
         },
         {
             "@id": "UNTDID4451Type:BBA",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "BBA",
             "rdfs:comment": "Safeguard applicable"
         },
         {
             "@id": "UNTDID4451Type:BBB",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "BBB",
             "rdfs:comment": "Safeguard subject"
         },
         {
             "@id": "UNTDID4451Type:BLC",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "BLC",
             "rdfs:comment": "Transport contract document clause"
         },
         {
             "@id": "UNTDID4451Type:BLD",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "BLD",
             "rdfs:comment": "Instruction to prepare the patient"
         },
         {
             "@id": "UNTDID4451Type:BLE",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "BLE",
             "rdfs:comment": "Medicine treatment comment"
         },
         {
             "@id": "UNTDID4451Type:BLF",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "BLF",
             "rdfs:comment": "Examination result comment"
         },
         {
             "@id": "UNTDID4451Type:BLG",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "BLG",
             "rdfs:comment": "Service request comment"
         },
         {
             "@id": "UNTDID4451Type:BLH",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "BLH",
             "rdfs:comment": "Prescription reason"
         },
         {
             "@id": "UNTDID4451Type:BLI",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "BLI",
             "rdfs:comment": "Prescription comment"
         },
         {
             "@id": "UNTDID4451Type:BLJ",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "BLJ",
             "rdfs:comment": "Clinical investigation comment"
         },
         {
             "@id": "UNTDID4451Type:BLK",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "BLK",
             "rdfs:comment": "Medicinal specification comment"
         },
         {
             "@id": "UNTDID4451Type:BLL",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "BLL",
             "rdfs:comment": "Economic contribution comment"
         },
         {
             "@id": "UNTDID4451Type:BLM",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "BLM",
             "rdfs:comment": "Status of a plan"
         },
         {
             "@id": "UNTDID4451Type:BLN",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "BLN",
             "rdfs:comment": "Random sample test information"
         },
         {
             "@id": "UNTDID4451Type:BLO",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "BLO",
             "rdfs:comment": "Period of time"
         },
         {
             "@id": "UNTDID4451Type:BLP",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "BLP",
             "rdfs:comment": "Legislation"
         },
         {
             "@id": "UNTDID4451Type:BLQ",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "BLQ",
             "rdfs:comment": "Security measures requested"
         },
         {
             "@id": "UNTDID4451Type:BLR",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "BLR",
             "rdfs:comment": "Transport contract document remark"
         },
         {
             "@id": "UNTDID4451Type:BLS",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "BLS",
             "rdfs:comment": "Previous port of call security information"
         },
         {
             "@id": "UNTDID4451Type:BLT",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "BLT",
             "rdfs:comment": "Security information"
         },
         {
             "@id": "UNTDID4451Type:BLU",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "BLU",
             "rdfs:comment": "Waste information"
         },
         {
             "@id": "UNTDID4451Type:BLV",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "BLV",
             "rdfs:comment": "B2C marketing information, short description"
         },
         {
             "@id": "UNTDID4451Type:BLW",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "BLW",
             "rdfs:comment": "B2B marketing information, long description"
         },
         {
             "@id": "UNTDID4451Type:BLX",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "BLX",
             "rdfs:comment": "B2C marketing information, long description"
         },
         {
             "@id": "UNTDID4451Type:BLY",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "BLY",
             "rdfs:comment": "Product ingredients"
         },
         {
             "@id": "UNTDID4451Type:BLZ",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "BLZ",
             "rdfs:comment": "Location short name"
         },
         {
             "@id": "UNTDID4451Type:BMA",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "BMA",
             "rdfs:comment": "Packaging material information"
         },
         {
             "@id": "UNTDID4451Type:BMB",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "BMB",
             "rdfs:comment": "Filler material information"
         },
         {
             "@id": "UNTDID4451Type:BMC",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "BMC",
             "rdfs:comment": "Ship-to-ship activity information"
         },
         {
             "@id": "UNTDID4451Type:BMD",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "BMD",
             "rdfs:comment": "Package material description"
         },
         {
             "@id": "UNTDID4451Type:BME",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "BME",
             "rdfs:comment": "Consumer level package marking"
         },
         {
             "@id": "UNTDID4451Type:BMF",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "BMF",
             "rdfs:comment": "SIMA measure in force"
         },
         {
             "@id": "UNTDID4451Type:BMG",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "BMG",
             "rdfs:comment": "Pre-CARM"
         },
         {
             "@id": "UNTDID4451Type:BMH",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "BMH",
             "rdfs:comment": "SIMA measure type"
         },
         {
             "@id": "UNTDID4451Type:CCI",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "CCI",
             "rdfs:comment": "Customs clearance instructions"
         },
         {
             "@id": "UNTDID4451Type:CCJ",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "CCJ",
             "rdfs:comment": "Sub Type Code"
         },
         {
             "@id": "UNTDID4451Type:CCK",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "CCK",
             "rdfs:comment": "SIMA information"
         },
         {
             "@id": "UNTDID4451Type:CCL",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "CCL",
             "rdfs:comment": "Time limit end"
         },
         {
             "@id": "UNTDID4451Type:CCM",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "CCM",
             "rdfs:comment": "Time limit start"
         },
         {
             "@id": "UNTDID4451Type:CCN",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "CCN",
             "rdfs:comment": "Warehouse time limit"
         },
         {
             "@id": "UNTDID4451Type:CCO",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "CCO",
             "rdfs:comment": "Value for duty information"
         },
         {
             "@id": "UNTDID4451Type:CEX",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "CEX",
             "rdfs:comment": "Customs clearance instructions export"
         },
         {
             "@id": "UNTDID4451Type:CHG",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "CHG",
             "rdfs:comment": "Change information"
         },
         {
             "@id": "UNTDID4451Type:CIP",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "CIP",
             "rdfs:comment": "Customs clearance instruction import"
         },
         {
             "@id": "UNTDID4451Type:CLP",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "CLP",
             "rdfs:comment": "Clearance place requested"
         },
         {
             "@id": "UNTDID4451Type:CLR",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "CLR",
             "rdfs:comment": "Loading remarks"
         },
         {
             "@id": "UNTDID4451Type:COI",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "COI",
             "rdfs:comment": "Order information"
         },
         {
             "@id": "UNTDID4451Type:CUR",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "CUR",
             "rdfs:comment": "Customer remarks"
         },
         {
             "@id": "UNTDID4451Type:CUS",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "CUS",
             "rdfs:comment": "Customs declaration information"
         },
         {
             "@id": "UNTDID4451Type:DAR",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "DAR",
             "rdfs:comment": "Damage remarks"
         },
         {
             "@id": "UNTDID4451Type:DCL",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "DCL",
             "rdfs:comment": "Document issuer declaration"
         },
         {
             "@id": "UNTDID4451Type:DEL",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "DEL",
             "rdfs:comment": "Delivery information"
         },
         {
             "@id": "UNTDID4451Type:DIN",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "DIN",
             "rdfs:comment": "Delivery instructions"
         },
         {
             "@id": "UNTDID4451Type:DOC",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "DOC",
             "rdfs:comment": "Documentation instructions"
         },
         {
             "@id": "UNTDID4451Type:DUT",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "DUT",
             "rdfs:comment": "Duty declaration"
         },
         {
             "@id": "UNTDID4451Type:EUR",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "EUR",
             "rdfs:comment": "Effective used routing"
         },
         {
             "@id": "UNTDID4451Type:FBC",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "FBC",
             "rdfs:comment": "First block to be printed on the transport contract"
         },
         {
             "@id": "UNTDID4451Type:GBL",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "GBL",
             "rdfs:comment": "Government bill of lading information"
         },
         {
             "@id": "UNTDID4451Type:GEN",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "GEN",
             "rdfs:comment": "Entire transaction set"
         },
         {
             "@id": "UNTDID4451Type:GS7",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "GS7",
             "rdfs:comment": "Further information concerning GGVS par. 7"
         },
         {
             "@id": "UNTDID4451Type:HAN",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "HAN",
             "rdfs:comment": "Consignment handling instruction"
         },
         {
             "@id": "UNTDID4451Type:HAZ",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "HAZ",
             "rdfs:comment": "Hazard information"
         },
         {
             "@id": "UNTDID4451Type:ICN",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ICN",
             "rdfs:comment": "Consignment information for consignee"
         },
         {
             "@id": "UNTDID4451Type:IIN",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "IIN",
             "rdfs:comment": "Insurance instructions"
         },
         {
             "@id": "UNTDID4451Type:IMI",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "IMI",
             "rdfs:comment": "Invoice mailing instructions"
         },
         {
             "@id": "UNTDID4451Type:IND",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "IND",
             "rdfs:comment": "Commercial invoice item description"
         },
         {
             "@id": "UNTDID4451Type:INS",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "INS",
             "rdfs:comment": "Insurance information"
         },
         {
             "@id": "UNTDID4451Type:INV",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "INV",
             "rdfs:comment": "Invoice instruction"
         },
         {
             "@id": "UNTDID4451Type:IRP",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "IRP",
             "rdfs:comment": "Information for railway purpose"
         },
         {
             "@id": "UNTDID4451Type:ITR",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ITR",
             "rdfs:comment": "Inland transport details"
         },
         {
             "@id": "UNTDID4451Type:ITS",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ITS",
             "rdfs:comment": "Testing instructions"
         },
         {
             "@id": "UNTDID4451Type:LAN",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "LAN",
             "rdfs:comment": "Location Alias"
         },
         {
             "@id": "UNTDID4451Type:LIN",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "LIN",
             "rdfs:comment": "Line item"
         },
         {
             "@id": "UNTDID4451Type:LOI",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "LOI",
             "rdfs:comment": "Loading instruction"
         },
         {
             "@id": "UNTDID4451Type:MCO",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "MCO",
             "rdfs:comment": "Miscellaneous charge order"
         },
         {
             "@id": "UNTDID4451Type:MDH",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "MDH",
             "rdfs:comment": "Maritime Declaration of Health"
         },
         {
             "@id": "UNTDID4451Type:MKS",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "MKS",
             "rdfs:comment": "Additional marks/numbers information"
         },
         {
             "@id": "UNTDID4451Type:ORI",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ORI",
             "rdfs:comment": "Order instruction"
         },
         {
             "@id": "UNTDID4451Type:OSI",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "OSI",
             "rdfs:comment": "Other service information"
         },
         {
             "@id": "UNTDID4451Type:PAC",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "PAC",
             "rdfs:comment": "Packing/marking information"
         },
         {
             "@id": "UNTDID4451Type:PAI",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "PAI",
             "rdfs:comment": "Payment instructions information"
         },
         {
             "@id": "UNTDID4451Type:PAY",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "PAY",
             "rdfs:comment": "Payables information"
         },
         {
             "@id": "UNTDID4451Type:PKG",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "PKG",
             "rdfs:comment": "Packaging information"
         },
         {
             "@id": "UNTDID4451Type:PKT",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "PKT",
             "rdfs:comment": "Packaging terms information"
         },
         {
             "@id": "UNTDID4451Type:PMD",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "PMD",
             "rdfs:comment": "Payment detail/remittance information"
         },
         {
             "@id": "UNTDID4451Type:PMT",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "PMT",
             "rdfs:comment": "Payment information"
         },
         {
             "@id": "UNTDID4451Type:PRD",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "PRD",
             "rdfs:comment": "Product information"
         },
         {
             "@id": "UNTDID4451Type:PRF",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "PRF",
             "rdfs:comment": "Price calculation formula"
         },
         {
             "@id": "UNTDID4451Type:PRI",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "PRI",
             "rdfs:comment": "Priority information"
         },
         {
             "@id": "UNTDID4451Type:PUR",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "PUR",
             "rdfs:comment": "Purchasing information"
         },
         {
             "@id": "UNTDID4451Type:QIN",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "QIN",
             "rdfs:comment": "Quarantine instructions"
         },
         {
             "@id": "UNTDID4451Type:QQD",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "QQD",
             "rdfs:comment": "Quality demands/requirements"
         },
         {
             "@id": "UNTDID4451Type:QUT",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "QUT",
             "rdfs:comment": "Quotation instruction/information"
         },
         {
             "@id": "UNTDID4451Type:RAH",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "RAH",
             "rdfs:comment": "Risk and handling information"
         },
         {
             "@id": "UNTDID4451Type:REG",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "REG",
             "rdfs:comment": "Regulatory information"
         },
         {
             "@id": "UNTDID4451Type:RET",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "RET",
             "rdfs:comment": "Return to origin information"
         },
         {
             "@id": "UNTDID4451Type:REV",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "REV",
             "rdfs:comment": "Receivables"
         },
         {
             "@id": "UNTDID4451Type:RQR",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "RQR",
             "rdfs:comment": "Consignment route"
         },
         {
             "@id": "UNTDID4451Type:SAF",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "SAF",
             "rdfs:comment": "Safety information"
         },
         {
             "@id": "UNTDID4451Type:SIC",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "SIC",
             "rdfs:comment": "Consignment documentary instruction"
         },
         {
             "@id": "UNTDID4451Type:SIN",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "SIN",
             "rdfs:comment": "Special instructions"
         },
         {
             "@id": "UNTDID4451Type:SLR",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "SLR",
             "rdfs:comment": "Ship line requested"
         },
         {
             "@id": "UNTDID4451Type:SPA",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "SPA",
             "rdfs:comment": "Special permission for transport, generally"
         },
         {
             "@id": "UNTDID4451Type:SPG",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "SPG",
             "rdfs:comment": "Special permission concerning the goods to be transported"
         },
         {
             "@id": "UNTDID4451Type:SPH",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "SPH",
             "rdfs:comment": "Special handling"
         },
         {
             "@id": "UNTDID4451Type:SPP",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "SPP",
             "rdfs:comment": "Special permission concerning package"
         },
         {
             "@id": "UNTDID4451Type:SPT",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "SPT",
             "rdfs:comment": "Special permission concerning transport means"
         },
         {
             "@id": "UNTDID4451Type:SRN",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "SRN",
             "rdfs:comment": "Subsidiary risk number (IATA/DGR)"
         },
         {
             "@id": "UNTDID4451Type:SSR",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "SSR",
             "rdfs:comment": "Special service request"
         },
         {
             "@id": "UNTDID4451Type:SUR",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "SUR",
             "rdfs:comment": "Supplier remarks"
         },
         {
             "@id": "UNTDID4451Type:TCA",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "TCA",
             "rdfs:comment": "Consignment tariff"
         },
         {
             "@id": "UNTDID4451Type:TDT",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "TDT",
             "rdfs:comment": "Consignment transport"
         },
         {
             "@id": "UNTDID4451Type:TRA",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "TRA",
             "rdfs:comment": "Transportation information"
         },
         {
             "@id": "UNTDID4451Type:TRR",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "TRR",
             "rdfs:comment": "Requested tariff"
         },
         {
             "@id": "UNTDID4451Type:TXD",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "TXD",
             "rdfs:comment": "Tax declaration"
         },
         {
             "@id": "UNTDID4451Type:WHI",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "WHI",
             "rdfs:comment": "Warehouse instruction/information"
         },
         {
             "@id": "UNTDID4451Type:ZZZ",
-            "@type": "unece:SubjectCodeType",
+            "@type": "unece:SubjectCode",
             "rdf:value": "ZZZ",
             "rdfs:comment": "Mutually defined"
         }

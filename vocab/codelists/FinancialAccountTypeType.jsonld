@@ -9,13 +9,13 @@
     "@graph": [
         {
             "@id": "FinancialAccountTypeType:1",
-            "@type": "unece:FinancialAccountTypeCodeType",
+            "@type": "unece:FinancialAccountTypeCode",
             "rdf:value": "1",
             "rdfs:comment": "Saving"
         },
         {
             "@id": "FinancialAccountTypeType:2",
-            "@type": "unece:FinancialAccountTypeCodeType",
+            "@type": "unece:FinancialAccountTypeCode",
             "rdf:value": "2",
             "rdfs:comment": "Checking"
         }

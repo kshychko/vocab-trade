@@ -9,31 +9,31 @@
     "@graph": [
         {
             "@id": "PartyTypeType:BRA",
-            "@type": "unece:PartyTypeCodeType",
+            "@type": "unece:PartyTypeCode",
             "rdf:value": "BRA",
             "rdfs:comment": "Branch"
         },
         {
             "@id": "PartyTypeType:DEP",
-            "@type": "unece:PartyTypeCodeType",
+            "@type": "unece:PartyTypeCode",
             "rdf:value": "DEP",
             "rdfs:comment": "Department"
         },
         {
             "@id": "PartyTypeType:DIR",
-            "@type": "unece:PartyTypeCodeType",
+            "@type": "unece:PartyTypeCode",
             "rdf:value": "DIR",
             "rdfs:comment": "Direction"
         },
         {
             "@id": "PartyTypeType:SEC",
-            "@type": "unece:PartyTypeCodeType",
+            "@type": "unece:PartyTypeCode",
             "rdf:value": "SEC",
             "rdfs:comment": "Section"
         },
         {
             "@id": "PartyTypeType:SER",
-            "@type": "unece:PartyTypeCodeType",
+            "@type": "unece:PartyTypeCode",
             "rdf:value": "SER",
             "rdfs:comment": "Service"
         }

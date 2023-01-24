@@ -9,25 +9,25 @@
     "@graph": [
         {
             "@id": "AccountingPerquisiteType:1",
-            "@type": "unece:AccountingPerquisiteCodeType",
+            "@type": "unece:AccountingPerquisiteCode",
             "rdf:value": "1",
             "rdfs:comment": "Food"
         },
         {
             "@id": "AccountingPerquisiteType:2",
-            "@type": "unece:AccountingPerquisiteCodeType",
+            "@type": "unece:AccountingPerquisiteCode",
             "rdf:value": "2",
             "rdfs:comment": "Accommodation"
         },
         {
             "@id": "AccountingPerquisiteType:3",
-            "@type": "unece:AccountingPerquisiteCodeType",
+            "@type": "unece:AccountingPerquisiteCode",
             "rdf:value": "3",
             "rdfs:comment": "Car"
         },
         {
             "@id": "AccountingPerquisiteType:4",
-            "@type": "unece:AccountingPerquisiteCodeType",
+            "@type": "unece:AccountingPerquisiteCode",
             "rdf:value": "4",
             "rdfs:comment": "Other perquisite"
         }

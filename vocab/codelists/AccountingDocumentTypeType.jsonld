@@ -9,49 +9,49 @@
     "@graph": [
         {
             "@id": "AccountingDocumentTypeType:BC",
-            "@type": "unece:AccountingDocumentTypeCodeType",
+            "@type": "unece:AccountingDocumentTypeCode",
             "rdf:value": "BC",
             "rdfs:comment": "Bundle collection"
         },
         {
             "@id": "AccountingDocumentTypeType:COA",
-            "@type": "unece:AccountingDocumentTypeCodeType",
+            "@type": "unece:AccountingDocumentTypeCode",
             "rdf:value": "COA",
             "rdfs:comment": "Accounting account classification"
         },
         {
             "@id": "AccountingDocumentTypeType:DB",
-            "@type": "unece:AccountingDocumentTypeCodeType",
+            "@type": "unece:AccountingDocumentTypeCode",
             "rdf:value": "DB",
             "rdfs:comment": "Day book"
         },
         {
             "@id": "AccountingDocumentTypeType:JL",
-            "@type": "unece:AccountingDocumentTypeCodeType",
+            "@type": "unece:AccountingDocumentTypeCode",
             "rdf:value": "JL",
             "rdfs:comment": "Journal List"
         },
         {
             "@id": "AccountingDocumentTypeType:JN",
-            "@type": "unece:AccountingDocumentTypeCodeType",
+            "@type": "unece:AccountingDocumentTypeCode",
             "rdf:value": "JN",
             "rdfs:comment": "Journal"
         },
         {
             "@id": "AccountingDocumentTypeType:LG",
-            "@type": "unece:AccountingDocumentTypeCodeType",
+            "@type": "unece:AccountingDocumentTypeCode",
             "rdf:value": "LG",
             "rdfs:comment": "Ledger"
         },
         {
             "@id": "AccountingDocumentTypeType:RP",
-            "@type": "unece:AccountingDocumentTypeCodeType",
+            "@type": "unece:AccountingDocumentTypeCode",
             "rdf:value": "RP",
             "rdfs:comment": "Reporting"
         },
         {
             "@id": "AccountingDocumentTypeType:TR",
-            "@type": "unece:AccountingDocumentTypeCodeType",
+            "@type": "unece:AccountingDocumentTypeCode",
             "rdf:value": "TR",
             "rdfs:comment": "Trial balance"
         }

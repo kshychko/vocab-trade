@@ -9,25 +9,25 @@
     "@graph": [
         {
             "@id": "MeasurementUnitCommonCodeVolumeType:CMQ",
-            "@type": "unece:VolumeUnitCodeType",
+            "@type": "unece:VolumeUnitMeasureCode",
             "rdf:value": "CMQ",
             "rdfs:comment": "cubic centimetre"
         },
         {
             "@id": "MeasurementUnitCommonCodeVolumeType:FTQ",
-            "@type": "unece:VolumeUnitCodeType",
+            "@type": "unece:VolumeUnitMeasureCode",
             "rdf:value": "FTQ",
             "rdfs:comment": "cubic foot"
         },
         {
             "@id": "MeasurementUnitCommonCodeVolumeType:MMQ",
-            "@type": "unece:VolumeUnitCodeType",
+            "@type": "unece:VolumeUnitMeasureCode",
             "rdf:value": "MMQ",
             "rdfs:comment": "cubic millimetre"
         },
         {
             "@id": "MeasurementUnitCommonCodeVolumeType:MTQ",
-            "@type": "unece:VolumeUnitCodeType",
+            "@type": "unece:VolumeUnitMeasureCode",
             "rdf:value": "MTQ",
             "rdfs:comment": "cubic metre"
         }

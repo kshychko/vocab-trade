@@ -9,25 +9,25 @@
     "@graph": [
         {
             "@id": "AccountingEntryLineSourceType:1",
-            "@type": "unece:AccountingEntryLineSourceCodeType",
+            "@type": "unece:AccountingEntryLineSourceCode",
             "rdf:value": "1",
             "rdfs:comment": "Manual Input"
         },
         {
             "@id": "AccountingEntryLineSourceType:2",
-            "@type": "unece:AccountingEntryLineSourceCodeType",
+            "@type": "unece:AccountingEntryLineSourceCode",
             "rdf:value": "2",
             "rdfs:comment": "Import"
         },
         {
             "@id": "AccountingEntryLineSourceType:3",
-            "@type": "unece:AccountingEntryLineSourceCodeType",
+            "@type": "unece:AccountingEntryLineSourceCode",
             "rdf:value": "3",
             "rdfs:comment": "Exchange Profit or Loss"
         },
         {
             "@id": "AccountingEntryLineSourceType:4",
-            "@type": "unece:AccountingEntryLineSourceCodeType",
+            "@type": "unece:AccountingEntryLineSourceCode",
             "rdf:value": "4",
             "rdfs:comment": "Settlement Difference"
         }

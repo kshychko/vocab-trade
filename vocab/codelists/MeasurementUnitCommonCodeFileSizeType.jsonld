@@ -9,19 +9,19 @@
     "@graph": [
         {
             "@id": "MeasurementUnitCommonCodeFileSizeType:4L",
-            "@type": "unece:FileSizeUnitCodeType",
+            "@type": "unece:FileSizeUnitMeasureCode",
             "rdf:value": "4L",
             "rdfs:comment": "megabyte"
         },
         {
             "@id": "MeasurementUnitCommonCodeFileSizeType:E34",
-            "@type": "unece:FileSizeUnitCodeType",
+            "@type": "unece:FileSizeUnitMeasureCode",
             "rdf:value": "E34",
             "rdfs:comment": "gigabyte"
         },
         {
             "@id": "MeasurementUnitCommonCodeFileSizeType:E35",
-            "@type": "unece:FileSizeUnitCodeType",
+            "@type": "unece:FileSizeUnitMeasureCode",
             "rdf:value": "E35",
             "rdfs:comment": "terabyte"
         }

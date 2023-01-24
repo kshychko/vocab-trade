@@ -9,55 +9,55 @@
     "@graph": [
         {
             "@id": "AccountingPeriodFunctionTypeType:246",
-            "@type": "unece:AccountingPeriodFunctionCodeType",
+            "@type": "unece:AccountingPeriodFunctionCode",
             "rdf:value": "246",
             "rdfs:comment": "Accounting year"
         },
         {
             "@id": "AccountingPeriodFunctionTypeType:263",
-            "@type": "unece:AccountingPeriodFunctionCodeType",
+            "@type": "unece:AccountingPeriodFunctionCode",
             "rdf:value": "263",
             "rdfs:comment": "Invoicing period"
         },
         {
             "@id": "AccountingPeriodFunctionTypeType:322",
-            "@type": "unece:AccountingPeriodFunctionCodeType",
+            "@type": "unece:AccountingPeriodFunctionCode",
             "rdf:value": "322",
             "rdfs:comment": "Accounting period"
         },
         {
             "@id": "AccountingPeriodFunctionTypeType:325",
-            "@type": "unece:AccountingPeriodFunctionCodeType",
+            "@type": "unece:AccountingPeriodFunctionCode",
             "rdf:value": "325",
             "rdfs:comment": "Tax period"
         },
         {
             "@id": "AccountingPeriodFunctionTypeType:452",
-            "@type": "unece:AccountingPeriodFunctionCodeType",
+            "@type": "unece:AccountingPeriodFunctionCode",
             "rdf:value": "452",
             "rdfs:comment": "Trial balance period"
         },
         {
             "@id": "AccountingPeriodFunctionTypeType:456",
-            "@type": "unece:AccountingPeriodFunctionCodeType",
+            "@type": "unece:AccountingPeriodFunctionCode",
             "rdf:value": "456",
             "rdfs:comment": "Chart of account period"
         },
         {
             "@id": "AccountingPeriodFunctionTypeType:492",
-            "@type": "unece:AccountingPeriodFunctionCodeType",
+            "@type": "unece:AccountingPeriodFunctionCode",
             "rdf:value": "492",
             "rdfs:comment": "Balance data/time/period"
         },
         {
             "@id": "AccountingPeriodFunctionTypeType:567",
-            "@type": "unece:AccountingPeriodFunctionCodeType",
+            "@type": "unece:AccountingPeriodFunctionCode",
             "rdf:value": "567",
             "rdfs:comment": "Report period"
         },
         {
             "@id": "AccountingPeriodFunctionTypeType:E001",
-            "@type": "unece:AccountingPeriodFunctionCodeType",
+            "@type": "unece:AccountingPeriodFunctionCode",
             "rdf:value": "E001",
             "rdfs:comment": "Fiscal consideration period"
         }

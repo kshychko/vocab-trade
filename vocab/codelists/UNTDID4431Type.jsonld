@@ -9,73 +9,73 @@
     "@graph": [
         {
             "@id": "UNTDID4431Type:1",
-            "@type": "unece:PaymentGuaranteeMeansCodeType",
+            "@type": "unece:PaymentGuaranteeMeansCode",
             "rdf:value": "1",
             "rdfs:comment": "Factor guarantee"
         },
         {
             "@id": "UNTDID4431Type:10",
-            "@type": "unece:PaymentGuaranteeMeansCodeType",
+            "@type": "unece:PaymentGuaranteeMeansCode",
             "rdf:value": "10",
             "rdfs:comment": "Bank guarantee"
         },
         {
             "@id": "UNTDID4431Type:11",
-            "@type": "unece:PaymentGuaranteeMeansCodeType",
+            "@type": "unece:PaymentGuaranteeMeansCode",
             "rdf:value": "11",
             "rdfs:comment": "Public authority guarantee"
         },
         {
             "@id": "UNTDID4431Type:12",
-            "@type": "unece:PaymentGuaranteeMeansCodeType",
+            "@type": "unece:PaymentGuaranteeMeansCode",
             "rdf:value": "12",
             "rdfs:comment": "Third party guarantee"
         },
         {
             "@id": "UNTDID4431Type:13",
-            "@type": "unece:PaymentGuaranteeMeansCodeType",
+            "@type": "unece:PaymentGuaranteeMeansCode",
             "rdf:value": "13",
             "rdfs:comment": "Standby letter of credit"
         },
         {
             "@id": "UNTDID4431Type:14",
-            "@type": "unece:PaymentGuaranteeMeansCodeType",
+            "@type": "unece:PaymentGuaranteeMeansCode",
             "rdf:value": "14",
             "rdfs:comment": "No guarantee"
         },
         {
             "@id": "UNTDID4431Type:20",
-            "@type": "unece:PaymentGuaranteeMeansCodeType",
+            "@type": "unece:PaymentGuaranteeMeansCode",
             "rdf:value": "20",
             "rdfs:comment": "Goods as security"
         },
         {
             "@id": "UNTDID4431Type:21",
-            "@type": "unece:PaymentGuaranteeMeansCodeType",
+            "@type": "unece:PaymentGuaranteeMeansCode",
             "rdf:value": "21",
             "rdfs:comment": "Business as security"
         },
         {
             "@id": "UNTDID4431Type:23",
-            "@type": "unece:PaymentGuaranteeMeansCodeType",
+            "@type": "unece:PaymentGuaranteeMeansCode",
             "rdf:value": "23",
             "rdfs:comment": "Warrant or similar (warehouse receipts)"
         },
         {
             "@id": "UNTDID4431Type:24",
-            "@type": "unece:PaymentGuaranteeMeansCodeType",
+            "@type": "unece:PaymentGuaranteeMeansCode",
             "rdf:value": "24",
             "rdfs:comment": "Mortgage"
         },
         {
             "@id": "UNTDID4431Type:45",
-            "@type": "unece:PaymentGuaranteeMeansCodeType",
+            "@type": "unece:PaymentGuaranteeMeansCode",
             "rdf:value": "45",
             "rdfs:comment": "Insurance certificate"
         },
         {
             "@id": "UNTDID4431Type:ZZZ",
-            "@type": "unece:PaymentGuaranteeMeansCodeType",
+            "@type": "unece:PaymentGuaranteeMeansCode",
             "rdf:value": "ZZZ",
             "rdfs:comment": "Mutually defined"
         }

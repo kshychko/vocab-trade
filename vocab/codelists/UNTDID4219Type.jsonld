@@ -9,25 +9,25 @@
     "@graph": [
         {
             "@id": "UNTDID4219Type:1",
-            "@type": "unece:TransportServicePriorityCodeType",
+            "@type": "unece:TransportServicePriorityCode",
             "rdf:value": "1",
             "rdfs:comment": "Express"
         },
         {
             "@id": "UNTDID4219Type:2",
-            "@type": "unece:TransportServicePriorityCodeType",
+            "@type": "unece:TransportServicePriorityCode",
             "rdf:value": "2",
             "rdfs:comment": "High speed"
         },
         {
             "@id": "UNTDID4219Type:3",
-            "@type": "unece:TransportServicePriorityCodeType",
+            "@type": "unece:TransportServicePriorityCode",
             "rdf:value": "3",
             "rdfs:comment": "Normal speed"
         },
         {
             "@id": "UNTDID4219Type:4",
-            "@type": "unece:TransportServicePriorityCodeType",
+            "@type": "unece:TransportServicePriorityCode",
             "rdf:value": "4",
             "rdfs:comment": "Post service"
         }

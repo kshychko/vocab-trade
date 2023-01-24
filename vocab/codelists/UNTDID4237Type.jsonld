@@ -9,25 +9,25 @@
     "@graph": [
         {
             "@id": "UNTDID4237Type:A",
-            "@type": "unece:TransportServicePaymentArrangementCodeType",
+            "@type": "unece:TransportServicePaymentArrangementCode",
             "rdf:value": "A",
             "rdfs:comment": "Payable elsewhere"
         },
         {
             "@id": "UNTDID4237Type:B",
-            "@type": "unece:TransportServicePaymentArrangementCodeType",
+            "@type": "unece:TransportServicePaymentArrangementCode",
             "rdf:value": "B",
             "rdfs:comment": "Third party to pay"
         },
         {
             "@id": "UNTDID4237Type:C",
-            "@type": "unece:TransportServicePaymentArrangementCodeType",
+            "@type": "unece:TransportServicePaymentArrangementCode",
             "rdf:value": "C",
             "rdfs:comment": "Collect"
         },
         {
             "@id": "UNTDID4237Type:P",
-            "@type": "unece:TransportServicePaymentArrangementCodeType",
+            "@type": "unece:TransportServicePaymentArrangementCode",
             "rdf:value": "P",
             "rdfs:comment": "Prepaid"
         }

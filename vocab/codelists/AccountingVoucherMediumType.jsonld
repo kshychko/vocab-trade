@@ -9,61 +9,61 @@
     "@graph": [
         {
             "@id": "AccountingVoucherMediumType:1",
-            "@type": "unece:AccountingVoucherMediumCodeType",
+            "@type": "unece:AccountingVoucherMediumCode",
             "rdf:value": "1",
             "rdfs:comment": "Photocopy"
         },
         {
             "@id": "AccountingVoucherMediumType:2",
-            "@type": "unece:AccountingVoucherMediumCodeType",
+            "@type": "unece:AccountingVoucherMediumCode",
             "rdf:value": "2",
             "rdfs:comment": "Microfiche"
         },
         {
             "@id": "AccountingVoucherMediumType:3",
-            "@type": "unece:AccountingVoucherMediumCodeType",
+            "@type": "unece:AccountingVoucherMediumCode",
             "rdf:value": "3",
             "rdfs:comment": "Microfilm"
         },
         {
             "@id": "AccountingVoucherMediumType:4",
-            "@type": "unece:AccountingVoucherMediumCodeType",
+            "@type": "unece:AccountingVoucherMediumCode",
             "rdf:value": "4",
             "rdfs:comment": "DVD"
         },
         {
             "@id": "AccountingVoucherMediumType:5",
-            "@type": "unece:AccountingVoucherMediumCodeType",
+            "@type": "unece:AccountingVoucherMediumCode",
             "rdf:value": "5",
             "rdfs:comment": "HDD"
         },
         {
             "@id": "AccountingVoucherMediumType:6",
-            "@type": "unece:AccountingVoucherMediumCodeType",
+            "@type": "unece:AccountingVoucherMediumCode",
             "rdf:value": "6",
             "rdfs:comment": "FDD 3.5\""
         },
         {
             "@id": "AccountingVoucherMediumType:7",
-            "@type": "unece:AccountingVoucherMediumCodeType",
+            "@type": "unece:AccountingVoucherMediumCode",
             "rdf:value": "7",
             "rdfs:comment": "FDD 5.25\""
         },
         {
             "@id": "AccountingVoucherMediumType:8",
-            "@type": "unece:AccountingVoucherMediumCodeType",
+            "@type": "unece:AccountingVoucherMediumCode",
             "rdf:value": "8",
             "rdfs:comment": "DSP"
         },
         {
             "@id": "AccountingVoucherMediumType:9",
-            "@type": "unece:AccountingVoucherMediumCodeType",
+            "@type": "unece:AccountingVoucherMediumCode",
             "rdf:value": "9",
             "rdfs:comment": "FDD 8\""
         },
         {
             "@id": "AccountingVoucherMediumType:10",
-            "@type": "unece:AccountingVoucherMediumCodeType",
+            "@type": "unece:AccountingVoucherMediumCode",
             "rdf:value": "10",
             "rdfs:comment": "USB Key"
         }

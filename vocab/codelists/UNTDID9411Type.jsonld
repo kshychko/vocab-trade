@@ -9,49 +9,49 @@
     "@graph": [
         {
             "@id": "UNTDID9411Type:1",
-            "@type": "unece:ResponsibleGovernmentAgencyInvolvementCodeType",
+            "@type": "unece:ResponsibleGovernmentAgencyInvolvementCode",
             "rdf:value": "1",
             "rdfs:comment": "Carried out as instructed"
         },
         {
             "@id": "UNTDID9411Type:2",
-            "@type": "unece:ResponsibleGovernmentAgencyInvolvementCodeType",
+            "@type": "unece:ResponsibleGovernmentAgencyInvolvementCode",
             "rdf:value": "2",
             "rdfs:comment": "Carried out as amended"
         },
         {
             "@id": "UNTDID9411Type:3",
-            "@type": "unece:ResponsibleGovernmentAgencyInvolvementCodeType",
+            "@type": "unece:ResponsibleGovernmentAgencyInvolvementCode",
             "rdf:value": "3",
             "rdfs:comment": "Completed"
         },
         {
             "@id": "UNTDID9411Type:4",
-            "@type": "unece:ResponsibleGovernmentAgencyInvolvementCodeType",
+            "@type": "unece:ResponsibleGovernmentAgencyInvolvementCode",
             "rdf:value": "4",
             "rdfs:comment": "Not applicable"
         },
         {
             "@id": "UNTDID9411Type:5",
-            "@type": "unece:ResponsibleGovernmentAgencyInvolvementCodeType",
+            "@type": "unece:ResponsibleGovernmentAgencyInvolvementCode",
             "rdf:value": "5",
             "rdfs:comment": "Optimal"
         },
         {
             "@id": "UNTDID9411Type:6",
-            "@type": "unece:ResponsibleGovernmentAgencyInvolvementCodeType",
+            "@type": "unece:ResponsibleGovernmentAgencyInvolvementCode",
             "rdf:value": "6",
             "rdfs:comment": "Required"
         },
         {
             "@id": "UNTDID9411Type:7",
-            "@type": "unece:ResponsibleGovernmentAgencyInvolvementCodeType",
+            "@type": "unece:ResponsibleGovernmentAgencyInvolvementCode",
             "rdf:value": "7",
             "rdfs:comment": "Applicable"
         },
         {
             "@id": "UNTDID9411Type:8",
-            "@type": "unece:ResponsibleGovernmentAgencyInvolvementCodeType",
+            "@type": "unece:ResponsibleGovernmentAgencyInvolvementCode",
             "rdf:value": "8",
             "rdfs:comment": "Export certificate required"
         }

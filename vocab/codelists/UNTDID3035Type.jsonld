@@ -9,3745 +9,3745 @@
     "@graph": [
         {
             "@id": "UNTDID3035Type:AA",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "AA",
             "rdfs:comment": "Party to be billed (AAR Accounting rule 11)"
         },
         {
             "@id": "UNTDID3035Type:AB",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "AB",
             "rdfs:comment": "Buyer's agent/representative"
         },
         {
             "@id": "UNTDID3035Type:AE",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "AE",
             "rdfs:comment": "Declarant's agent/representative"
         },
         {
             "@id": "UNTDID3035Type:AF",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "AF",
             "rdfs:comment": "Transit principal"
         },
         {
             "@id": "UNTDID3035Type:AG",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "AG",
             "rdfs:comment": "Agent"
         },
         {
             "@id": "UNTDID3035Type:AH",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "AH",
             "rdfs:comment": "Transit principal's agent/representative"
         },
         {
             "@id": "UNTDID3035Type:AI",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "AI",
             "rdfs:comment": "Successful job applicant"
         },
         {
             "@id": "UNTDID3035Type:AJ",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "AJ",
             "rdfs:comment": "Party issuing mutually agreed codes"
         },
         {
             "@id": "UNTDID3035Type:AK",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "AK",
             "rdfs:comment": "Acknowledgement recipient"
         },
         {
             "@id": "UNTDID3035Type:AL",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "AL",
             "rdfs:comment": "Principal responsible party"
         },
         {
             "@id": "UNTDID3035Type:AM",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "AM",
             "rdfs:comment": "Authorized official"
         },
         {
             "@id": "UNTDID3035Type:AN",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "AN",
             "rdfs:comment": "Approved importer"
         },
         {
             "@id": "UNTDID3035Type:AO",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "AO",
             "rdfs:comment": "Account of"
         },
         {
             "@id": "UNTDID3035Type:AP",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "AP",
             "rdfs:comment": "Accepting party"
         },
         {
             "@id": "UNTDID3035Type:AQ",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "AQ",
             "rdfs:comment": "Approved consignor"
         },
         {
             "@id": "UNTDID3035Type:AR",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "AR",
             "rdfs:comment": "Authorized exporter"
         },
         {
             "@id": "UNTDID3035Type:AS",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "AS",
             "rdfs:comment": "Account servicing financial institution"
         },
         {
             "@id": "UNTDID3035Type:AT",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "AT",
             "rdfs:comment": "Authorized importer"
         },
         {
             "@id": "UNTDID3035Type:AU",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "AU",
             "rdfs:comment": "Authorized trader (transit)"
         },
         {
             "@id": "UNTDID3035Type:AV",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "AV",
             "rdfs:comment": "Authorizing official"
         },
         {
             "@id": "UNTDID3035Type:AW",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "AW",
             "rdfs:comment": "Applicant's bank"
         },
         {
             "@id": "UNTDID3035Type:AX",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "AX",
             "rdfs:comment": "Authenticating party"
         },
         {
             "@id": "UNTDID3035Type:AY",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "AY",
             "rdfs:comment": "Animal being investigated"
         },
         {
             "@id": "UNTDID3035Type:AZ",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "AZ",
             "rdfs:comment": "Issuing bank"
         },
         {
             "@id": "UNTDID3035Type:B1",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "B1",
             "rdfs:comment": "Contact bank 1"
         },
         {
             "@id": "UNTDID3035Type:B2",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "B2",
             "rdfs:comment": "Contact bank 2"
         },
         {
             "@id": "UNTDID3035Type:BA",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "BA",
             "rdfs:comment": "Booking agent"
         },
         {
             "@id": "UNTDID3035Type:BB",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "BB",
             "rdfs:comment": "Buyer bank identification"
         },
         {
             "@id": "UNTDID3035Type:BC",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "BC",
             "rdfs:comment": "Negotiating bank"
         },
         {
             "@id": "UNTDID3035Type:BD",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "BD",
             "rdfs:comment": "Documentary credit reimbursing bank"
         },
         {
             "@id": "UNTDID3035Type:BE",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "BE",
             "rdfs:comment": "Beneficiary"
         },
         {
             "@id": "UNTDID3035Type:BF",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "BF",
             "rdfs:comment": "Beneficiary's bank"
         },
         {
             "@id": "UNTDID3035Type:BG",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "BG",
             "rdfs:comment": "Employer"
         },
         {
             "@id": "UNTDID3035Type:BH",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "BH",
             "rdfs:comment": "Previous employer"
         },
         {
             "@id": "UNTDID3035Type:BI",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "BI",
             "rdfs:comment": "Buyer's financial institution"
         },
         {
             "@id": "UNTDID3035Type:BJ",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "BJ",
             "rdfs:comment": "Release to party"
         },
         {
             "@id": "UNTDID3035Type:BK",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "BK",
             "rdfs:comment": "Financial institution"
         },
         {
             "@id": "UNTDID3035Type:BL",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "BL",
             "rdfs:comment": "Bill of lading recipient"
         },
         {
             "@id": "UNTDID3035Type:BM",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "BM",
             "rdfs:comment": "Insured"
         },
         {
             "@id": "UNTDID3035Type:BN",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "BN",
             "rdfs:comment": "Insurance beneficiary"
         },
         {
             "@id": "UNTDID3035Type:BO",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "BO",
             "rdfs:comment": "Broker or sales office"
         },
         {
             "@id": "UNTDID3035Type:BP",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "BP",
             "rdfs:comment": "Building site purchaser"
         },
         {
             "@id": "UNTDID3035Type:BQ",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "BQ",
             "rdfs:comment": "Cheque drawn bank"
         },
         {
             "@id": "UNTDID3035Type:BS",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "BS",
             "rdfs:comment": "Bill and ship to"
         },
         {
             "@id": "UNTDID3035Type:BT",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "BT",
             "rdfs:comment": "Party to be billed for other than freight (bill to)"
         },
         {
             "@id": "UNTDID3035Type:BU",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "BU",
             "rdfs:comment": "Service bureau"
         },
         {
             "@id": "UNTDID3035Type:BV",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "BV",
             "rdfs:comment": "Member"
         },
         {
             "@id": "UNTDID3035Type:BW",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "BW",
             "rdfs:comment": "Borrower"
         },
         {
             "@id": "UNTDID3035Type:BX",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "BX",
             "rdfs:comment": "Building site engineer"
         },
         {
             "@id": "UNTDID3035Type:BY",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "BY",
             "rdfs:comment": "Buyer"
         },
         {
             "@id": "UNTDID3035Type:BZ",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "BZ",
             "rdfs:comment": "Building site forwarder"
         },
         {
             "@id": "UNTDID3035Type:C1",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "C1",
             "rdfs:comment": "In care of party no. 1"
         },
         {
             "@id": "UNTDID3035Type:C2",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "C2",
             "rdfs:comment": "In care of party no. 2"
         },
         {
             "@id": "UNTDID3035Type:CA",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "CA",
             "rdfs:comment": "Carrier"
         },
         {
             "@id": "UNTDID3035Type:CB",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "CB",
             "rdfs:comment": "Customs broker"
         },
         {
             "@id": "UNTDID3035Type:CC",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "CC",
             "rdfs:comment": "Claimant"
         },
         {
             "@id": "UNTDID3035Type:CD",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "CD",
             "rdfs:comment": "Agent's bank"
         },
         {
             "@id": "UNTDID3035Type:CE",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "CE",
             "rdfs:comment": "Ceding company"
         },
         {
             "@id": "UNTDID3035Type:CF",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "CF",
             "rdfs:comment": "Container operator/lessee"
         },
         {
             "@id": "UNTDID3035Type:CG",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "CG",
             "rdfs:comment": "Carrier's agent"
         },
         {
             "@id": "UNTDID3035Type:CH",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "CH",
             "rdfs:comment": "Connecting carrier"
         },
         {
             "@id": "UNTDID3035Type:CI",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "CI",
             "rdfs:comment": "Commission processor"
         },
         {
             "@id": "UNTDID3035Type:CJ",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "CJ",
             "rdfs:comment": "Previous member"
         },
         {
             "@id": "UNTDID3035Type:CK",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "CK",
             "rdfs:comment": "Empty equipment despatch party"
         },
         {
             "@id": "UNTDID3035Type:CL",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "CL",
             "rdfs:comment": "Container location party"
         },
         {
             "@id": "UNTDID3035Type:CM",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "CM",
             "rdfs:comment": "Customs"
         },
         {
             "@id": "UNTDID3035Type:CN",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "CN",
             "rdfs:comment": "Consignee"
         },
         {
             "@id": "UNTDID3035Type:CNX",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "CNX",
             "rdfs:comment": "Cash pool top account servicing financial institution"
         },
         {
             "@id": "UNTDID3035Type:CNY",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "CNY",
             "rdfs:comment": "Cash pool level account servicing financial institution"
         },
         {
             "@id": "UNTDID3035Type:CNZ",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "CNZ",
             "rdfs:comment": "Cash pool sub-account servicing financial institution"
         },
         {
             "@id": "UNTDID3035Type:CO",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "CO",
             "rdfs:comment": "Corporate office"
         },
         {
             "@id": "UNTDID3035Type:COA",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "COA",
             "rdfs:comment": "Entity in which a financial interest is held"
         },
         {
             "@id": "UNTDID3035Type:COB",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "COB",
             "rdfs:comment": "Intermediate level parent company"
         },
         {
             "@id": "UNTDID3035Type:COC",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "COC",
             "rdfs:comment": "Transshipment party"
         },
         {
             "@id": "UNTDID3035Type:COD",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "COD",
             "rdfs:comment": "Quotation requesting party"
         },
         {
             "@id": "UNTDID3035Type:COE",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "COE",
             "rdfs:comment": "Party maintaining the codes used in the message"
         },
         {
             "@id": "UNTDID3035Type:COF",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "COF",
             "rdfs:comment": "Party maintaining the identifiers used in the message"
         },
         {
             "@id": "UNTDID3035Type:COG",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "COG",
             "rdfs:comment": "Dispatcher"
         },
         {
             "@id": "UNTDID3035Type:COH",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "COH",
             "rdfs:comment": "Submitter of sample"
         },
         {
             "@id": "UNTDID3035Type:COI",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "COI",
             "rdfs:comment": "Institutional provider"
         },
         {
             "@id": "UNTDID3035Type:COJ",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "COJ",
             "rdfs:comment": "Primary health care provider"
         },
         {
             "@id": "UNTDID3035Type:COK",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "COK",
             "rdfs:comment": "Assistant surgeon"
         },
         {
             "@id": "UNTDID3035Type:COL",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "COL",
             "rdfs:comment": "Admitting health care provider"
         },
         {
             "@id": "UNTDID3035Type:COM",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "COM",
             "rdfs:comment": "Referring health care provider"
         },
         {
             "@id": "UNTDID3035Type:CON",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "CON",
             "rdfs:comment": "Supervising health care provider"
         },
         {
             "@id": "UNTDID3035Type:COO",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "COO",
             "rdfs:comment": "Party providing financing"
         },
         {
             "@id": "UNTDID3035Type:COP",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "COP",
             "rdfs:comment": "Convoying party"
         },
         {
             "@id": "UNTDID3035Type:COQ",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "COQ",
             "rdfs:comment": "Nominated bank"
         },
         {
             "@id": "UNTDID3035Type:COR",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "COR",
             "rdfs:comment": "Family member"
         },
         {
             "@id": "UNTDID3035Type:COS",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "COS",
             "rdfs:comment": "Co-participant"
         },
         {
             "@id": "UNTDID3035Type:COT",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "COT",
             "rdfs:comment": "Involved party"
         },
         {
             "@id": "UNTDID3035Type:COU",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "COU",
             "rdfs:comment": "Assigner"
         },
         {
             "@id": "UNTDID3035Type:COV",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "COV",
             "rdfs:comment": "Registered principal"
         },
         {
             "@id": "UNTDID3035Type:COW",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "COW",
             "rdfs:comment": "Freight payer on behalf of the consignor"
         },
         {
             "@id": "UNTDID3035Type:COX",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "COX",
             "rdfs:comment": "Freight payer on behalf of the consignee"
         },
         {
             "@id": "UNTDID3035Type:COY",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "COY",
             "rdfs:comment": "Party responsible for disinfection"
         },
         {
             "@id": "UNTDID3035Type:COZ",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "COZ",
             "rdfs:comment": "Party responsible for refueling"
         },
         {
             "@id": "UNTDID3035Type:CP",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "CP",
             "rdfs:comment": "Party to receive certificate of compliance"
         },
         {
             "@id": "UNTDID3035Type:CPA",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "CPA",
             "rdfs:comment": "Advising bank"
         },
         {
             "@id": "UNTDID3035Type:CPB",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "CPB",
             "rdfs:comment": "Reimbursing bank"
         },
         {
             "@id": "UNTDID3035Type:CPC",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "CPC",
             "rdfs:comment": "Advise through bank"
         },
         {
             "@id": "UNTDID3035Type:CPD",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "CPD",
             "rdfs:comment": "Charges payer at destination"
         },
         {
             "@id": "UNTDID3035Type:CPE",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "CPE",
             "rdfs:comment": "Transport means master name"
         },
         {
             "@id": "UNTDID3035Type:CPF",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "CPF",
             "rdfs:comment": "Means of transport charterer"
         },
         {
             "@id": "UNTDID3035Type:CPG",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "CPG",
             "rdfs:comment": "Excise party"
         },
         {
             "@id": "UNTDID3035Type:CPH",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "CPH",
             "rdfs:comment": "Copy report to"
         },
         {
             "@id": "UNTDID3035Type:CPI",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "CPI",
             "rdfs:comment": "Related healthcare party"
         },
         {
             "@id": "UNTDID3035Type:CPJ",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "CPJ",
             "rdfs:comment": "Clinical information provider"
         },
         {
             "@id": "UNTDID3035Type:CPK",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "CPK",
             "rdfs:comment": "Service requester"
         },
         {
             "@id": "UNTDID3035Type:CPL",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "CPL",
             "rdfs:comment": "Patient admitted by"
         },
         {
             "@id": "UNTDID3035Type:CPM",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "CPM",
             "rdfs:comment": "Patient discharged to"
         },
         {
             "@id": "UNTDID3035Type:CPN",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "CPN",
             "rdfs:comment": "Patient hosted by"
         },
         {
             "@id": "UNTDID3035Type:CPO",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "CPO",
             "rdfs:comment": "Prescriber's contact person"
         },
         {
             "@id": "UNTDID3035Type:CQ",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "CQ",
             "rdfs:comment": "Cheque order"
         },
         {
             "@id": "UNTDID3035Type:CR",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "CR",
             "rdfs:comment": "Empty equipment return party"
         },
         {
             "@id": "UNTDID3035Type:CS",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "CS",
             "rdfs:comment": "Consolidator"
         },
         {
             "@id": "UNTDID3035Type:CT",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "CT",
             "rdfs:comment": "Consignee to be specified"
         },
         {
             "@id": "UNTDID3035Type:CU",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "CU",
             "rdfs:comment": "Container return company"
         },
         {
             "@id": "UNTDID3035Type:CV",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "CV",
             "rdfs:comment": "Consignee of vessel"
         },
         {
             "@id": "UNTDID3035Type:CW",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "CW",
             "rdfs:comment": "Equipment owner"
         },
         {
             "@id": "UNTDID3035Type:CX",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "CX",
             "rdfs:comment": "Consignee's agent"
         },
         {
             "@id": "UNTDID3035Type:CY",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "CY",
             "rdfs:comment": "Commissionable agent"
         },
         {
             "@id": "UNTDID3035Type:CZ",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "CZ",
             "rdfs:comment": "Consignor"
         },
         {
             "@id": "UNTDID3035Type:DA",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DA",
             "rdfs:comment": "Available with bank (documentary credits)"
         },
         {
             "@id": "UNTDID3035Type:DB",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DB",
             "rdfs:comment": "Distributor branch"
         },
         {
             "@id": "UNTDID3035Type:DC",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DC",
             "rdfs:comment": "Deconsolidator"
         },
         {
             "@id": "UNTDID3035Type:DCP",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DCP",
             "rdfs:comment": "Despatch charge payer"
         },
         {
             "@id": "UNTDID3035Type:DCQ",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DCQ",
             "rdfs:comment": "Prescription database owner"
         },
         {
             "@id": "UNTDID3035Type:DCR",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DCR",
             "rdfs:comment": "Original prescriber"
         },
         {
             "@id": "UNTDID3035Type:DCS",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DCS",
             "rdfs:comment": "Temporary employee"
         },
         {
             "@id": "UNTDID3035Type:DCT",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DCT",
             "rdfs:comment": "Designer"
         },
         {
             "@id": "UNTDID3035Type:DCU",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DCU",
             "rdfs:comment": "Quotation delivered to"
         },
         {
             "@id": "UNTDID3035Type:DCV",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DCV",
             "rdfs:comment": "Developer"
         },
         {
             "@id": "UNTDID3035Type:DCW",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DCW",
             "rdfs:comment": "Test execution party"
         },
         {
             "@id": "UNTDID3035Type:DCX",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DCX",
             "rdfs:comment": "Party to receive refund"
         },
         {
             "@id": "UNTDID3035Type:DCY",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DCY",
             "rdfs:comment": "Authorised issuer of prescription"
         },
         {
             "@id": "UNTDID3035Type:DCZ",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DCZ",
             "rdfs:comment": "Authorised dispenser of medicine"
         },
         {
             "@id": "UNTDID3035Type:DD",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DD",
             "rdfs:comment": "Documentary credit account party's bank"
         },
         {
             "@id": "UNTDID3035Type:DDA",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DDA",
             "rdfs:comment": "Report responsible party"
         },
         {
             "@id": "UNTDID3035Type:DDB",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DDB",
             "rdfs:comment": "Initial sender"
         },
         {
             "@id": "UNTDID3035Type:DDC",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DDC",
             "rdfs:comment": "The party authorising the original prescription"
         },
         {
             "@id": "UNTDID3035Type:DDD",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DDD",
             "rdfs:comment": "Applicant"
         },
         {
             "@id": "UNTDID3035Type:DDE",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DDE",
             "rdfs:comment": "Meter reader"
         },
         {
             "@id": "UNTDID3035Type:DDF",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DDF",
             "rdfs:comment": "Primary electronic business contact"
         },
         {
             "@id": "UNTDID3035Type:DDG",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DDG",
             "rdfs:comment": "Alternate electronic business contact"
         },
         {
             "@id": "UNTDID3035Type:DDH",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DDH",
             "rdfs:comment": "Primary government business contact"
         },
         {
             "@id": "UNTDID3035Type:DDI",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DDI",
             "rdfs:comment": "Alternate government business contact"
         },
         {
             "@id": "UNTDID3035Type:DDJ",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DDJ",
             "rdfs:comment": "Past performance contact"
         },
         {
             "@id": "UNTDID3035Type:DDK",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DDK",
             "rdfs:comment": "Balance responsible party"
         },
         {
             "@id": "UNTDID3035Type:DDL",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DDL",
             "rdfs:comment": "Group of passengers"
         },
         {
             "@id": "UNTDID3035Type:DDM",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DDM",
             "rdfs:comment": "Grid operator"
         },
         {
             "@id": "UNTDID3035Type:DDN",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DDN",
             "rdfs:comment": "First financial institution in the transaction chain"
         },
         {
             "@id": "UNTDID3035Type:DDO",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DDO",
             "rdfs:comment": "Location manager"
         },
         {
             "@id": "UNTDID3035Type:DDP",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DDP",
             "rdfs:comment": "Group leader"
         },
         {
             "@id": "UNTDID3035Type:DDQ",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DDQ",
             "rdfs:comment": "Energy Supplier"
         },
         {
             "@id": "UNTDID3035Type:DDR",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DDR",
             "rdfs:comment": "Consignor's freight forwarder"
         },
         {
             "@id": "UNTDID3035Type:DDS",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DDS",
             "rdfs:comment": "Consignee's freight forwarder"
         },
         {
             "@id": "UNTDID3035Type:DDT",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DDT",
             "rdfs:comment": "In transit crew member"
         },
         {
             "@id": "UNTDID3035Type:DDU",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DDU",
             "rdfs:comment": "In transit passenger"
         },
         {
             "@id": "UNTDID3035Type:DDV",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DDV",
             "rdfs:comment": "Energy consumption imbalance responsible party"
         },
         {
             "@id": "UNTDID3035Type:DDW",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DDW",
             "rdfs:comment": "Energy production imbalance responsible party"
         },
         {
             "@id": "UNTDID3035Type:DDX",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DDX",
             "rdfs:comment": "Imbalance settlement responsible party"
         },
         {
             "@id": "UNTDID3035Type:DDY",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DDY",
             "rdfs:comment": "Transmission capacity allocator"
         },
         {
             "@id": "UNTDID3035Type:DDZ",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DDZ",
             "rdfs:comment": "Metering point administrator"
         },
         {
             "@id": "UNTDID3035Type:DE",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DE",
             "rdfs:comment": "Depositor"
         },
         {
             "@id": "UNTDID3035Type:DEA",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DEA",
             "rdfs:comment": "Metered data aggregator"
         },
         {
             "@id": "UNTDID3035Type:DEB",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DEB",
             "rdfs:comment": "Meter operator"
         },
         {
             "@id": "UNTDID3035Type:DEC",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DEC",
             "rdfs:comment": "Party connected to grid"
         },
         {
             "@id": "UNTDID3035Type:DED",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DED",
             "rdfs:comment": "Profile maintenance party"
         },
         {
             "@id": "UNTDID3035Type:DEE",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DEE",
             "rdfs:comment": "Stowaway"
         },
         {
             "@id": "UNTDID3035Type:DEF",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DEF",
             "rdfs:comment": "Meat cutter"
         },
         {
             "@id": "UNTDID3035Type:DEG",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DEG",
             "rdfs:comment": "Consortium Carrier (maritime)"
         },
         {
             "@id": "UNTDID3035Type:DEH",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DEH",
             "rdfs:comment": "Non-vessel operating carrier"
         },
         {
             "@id": "UNTDID3035Type:DEI",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DEI",
             "rdfs:comment": "Means of transport operator"
         },
         {
             "@id": "UNTDID3035Type:DEJ",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DEJ",
             "rdfs:comment": "Stuffing address"
         },
         {
             "@id": "UNTDID3035Type:DEK",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DEK",
             "rdfs:comment": "Mooring service provider"
         },
         {
             "@id": "UNTDID3035Type:DEL",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DEL",
             "rdfs:comment": "Pilotage service provider"
         },
         {
             "@id": "UNTDID3035Type:DEM",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DEM",
             "rdfs:comment": "Berth towage service provider"
         },
         {
             "@id": "UNTDID3035Type:DEN",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DEN",
             "rdfs:comment": "Agent/representative, direct representation"
         },
         {
             "@id": "UNTDID3035Type:DEO",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DEO",
             "rdfs:comment": "Agent/representative, indirect representation"
         },
         {
             "@id": "UNTDID3035Type:DEP",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DEP",
             "rdfs:comment": "Stevedore"
         },
         {
             "@id": "UNTDID3035Type:DEQ",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DEQ",
             "rdfs:comment": "Shipper"
         },
         {
             "@id": "UNTDID3035Type:DER",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DER",
             "rdfs:comment": "Source data pool"
         },
         {
             "@id": "UNTDID3035Type:DES",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DES",
             "rdfs:comment": "Brand owner"
         },
         {
             "@id": "UNTDID3035Type:DET",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DET",
             "rdfs:comment": "Cockpit crew"
         },
         {
             "@id": "UNTDID3035Type:DEU",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DEU",
             "rdfs:comment": "Cabin crew"
         },
         {
             "@id": "UNTDID3035Type:DEV",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DEV",
             "rdfs:comment": "Airline operations management, not in cockpit"
         },
         {
             "@id": "UNTDID3035Type:DEW",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DEW",
             "rdfs:comment": "Cargo non-cockpit crew and/or non-crew personnel"
         },
         {
             "@id": "UNTDID3035Type:DEX",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DEX",
             "rdfs:comment": "Pilots seated outside cockpit"
         },
         {
             "@id": "UNTDID3035Type:DEY",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DEY",
             "rdfs:comment": "Commercial verifier"
         },
         {
             "@id": "UNTDID3035Type:DEZ",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DEZ",
             "rdfs:comment": "Authorized issuer"
         },
         {
             "@id": "UNTDID3035Type:DF",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DF",
             "rdfs:comment": "Documentary credit applicant"
         },
         {
             "@id": "UNTDID3035Type:DFA",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DFA",
             "rdfs:comment": "Bank for deposit of duties/taxes/fees"
         },
         {
             "@id": "UNTDID3035Type:DFB",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DFB",
             "rdfs:comment": "Company security officer (IMO Circular MSC 1130)"
         },
         {
             "@id": "UNTDID3035Type:DFC",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DFC",
             "rdfs:comment": "Distiller"
         },
         {
             "@id": "UNTDID3035Type:DFD",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DFD",
             "rdfs:comment": "Drayman/lighterman"
         },
         {
             "@id": "UNTDID3035Type:DFE",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DFE",
             "rdfs:comment": "Exhibitor"
         },
         {
             "@id": "UNTDID3035Type:DFF",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DFF",
             "rdfs:comment": "Feedlot"
         },
         {
             "@id": "UNTDID3035Type:DFG",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DFG",
             "rdfs:comment": "Government official"
         },
         {
             "@id": "UNTDID3035Type:DFH",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DFH",
             "rdfs:comment": "Government service requestor"
         },
         {
             "@id": "UNTDID3035Type:DFI",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DFI",
             "rdfs:comment": "Crop grower"
         },
         {
             "@id": "UNTDID3035Type:DFJ",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DFJ",
             "rdfs:comment": "ISPS Responsible Party"
         },
         {
             "@id": "UNTDID3035Type:DFK",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DFK",
             "rdfs:comment": "LPCO authorized party"
         },
         {
             "@id": "UNTDID3035Type:DFL",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DFL",
             "rdfs:comment": "Operator of property, registered"
         },
         {
             "@id": "UNTDID3035Type:DFM",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DFM",
             "rdfs:comment": "Organic growth certifier, accredited"
         },
         {
             "@id": "UNTDID3035Type:DFN",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DFN",
             "rdfs:comment": "Party holding Certificate of Financial Responsibility"
         },
         {
             "@id": "UNTDID3035Type:DFO",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DFO",
             "rdfs:comment": "Port facility security officer"
         },
         {
             "@id": "UNTDID3035Type:DFP",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DFP",
             "rdfs:comment": "Vehicle owner"
         },
         {
             "@id": "UNTDID3035Type:DFQ",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DFQ",
             "rdfs:comment": "Security certificate issuer, recognized"
         },
         {
             "@id": "UNTDID3035Type:DFR",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DFR",
             "rdfs:comment": "Ship Security Officer"
         },
         {
             "@id": "UNTDID3035Type:DFS",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DFS",
             "rdfs:comment": "Certificate issuer, veterinary"
         },
         {
             "@id": "UNTDID3035Type:DFT",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DFT",
             "rdfs:comment": "Assembler"
         },
         {
             "@id": "UNTDID3035Type:DFU",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DFU",
             "rdfs:comment": "Competitor"
         },
         {
             "@id": "UNTDID3035Type:DFV",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DFV",
             "rdfs:comment": "Right holder"
         },
         {
             "@id": "UNTDID3035Type:DFW",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DFW",
             "rdfs:comment": "Authorised Economic Operator (AEO)"
         },
         {
             "@id": "UNTDID3035Type:DFX",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DFX",
             "rdfs:comment": "Manufacturer of equipment"
         },
         {
             "@id": "UNTDID3035Type:DFY",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DFY",
             "rdfs:comment": "Crew other ship"
         },
         {
             "@id": "UNTDID3035Type:DFZ",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DFZ",
             "rdfs:comment": "Article information responsible party"
         },
         {
             "@id": "UNTDID3035Type:DG",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DG",
             "rdfs:comment": "Documentary credit beneficiary"
         },
         {
             "@id": "UNTDID3035Type:DGA",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DGA",
             "rdfs:comment": "Price information responsible party"
         },
         {
             "@id": "UNTDID3035Type:DGB",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DGB",
             "rdfs:comment": "Invoice processing party"
         },
         {
             "@id": "UNTDID3035Type:DGC",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DGC",
             "rdfs:comment": "Logistic service provider"
         },
         {
             "@id": "UNTDID3035Type:DGD",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DGD",
             "rdfs:comment": "Fattener"
         },
         {
             "@id": "UNTDID3035Type:DGE",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DGE",
             "rdfs:comment": "Breeder"
         },
         {
             "@id": "UNTDID3035Type:DGF",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DGF",
             "rdfs:comment": "Calorific Value Responsible"
         },
         {
             "@id": "UNTDID3035Type:DGG",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DGG",
             "rdfs:comment": "Balancing Service Provider"
         },
         {
             "@id": "UNTDID3035Type:DGH",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DGH",
             "rdfs:comment": "Consent Administrator"
         },
         {
             "@id": "UNTDID3035Type:DGI",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DGI",
             "rdfs:comment": "Energy Service Company (ESCO)"
         },
         {
             "@id": "UNTDID3035Type:DGJ",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DGJ",
             "rdfs:comment": "Resource Aggregator"
         },
         {
             "@id": "UNTDID3035Type:DGK",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DGK",
             "rdfs:comment": "Resource Provider"
         },
         {
             "@id": "UNTDID3035Type:DGL",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DGL",
             "rdfs:comment": "Metered Data Administrator"
         },
         {
             "@id": "UNTDID3035Type:DGM",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DGM",
             "rdfs:comment": "Consumer"
         },
         {
             "@id": "UNTDID3035Type:DGN",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DGN",
             "rdfs:comment": "Farmer"
         },
         {
             "@id": "UNTDID3035Type:DGO",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DGO",
             "rdfs:comment": "Recycler"
         },
         {
             "@id": "UNTDID3035Type:DGP",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DGP",
             "rdfs:comment": "Retailer"
         },
         {
             "@id": "UNTDID3035Type:DGQ",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DGQ",
             "rdfs:comment": "Second Party"
         },
         {
             "@id": "UNTDID3035Type:DGR",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DGR",
             "rdfs:comment": "Waste Disposal Provider"
         },
         {
             "@id": "UNTDID3035Type:DGS",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DGS",
             "rdfs:comment": "Tanner"
         },
         {
             "@id": "UNTDID3035Type:DGT",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DGT",
             "rdfs:comment": "Service Provider"
         },
         {
             "@id": "UNTDID3035Type:DGU",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DGU",
             "rdfs:comment": "Ginner"
         },
         {
             "@id": "UNTDID3035Type:DGV",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DGV",
             "rdfs:comment": "Spinner"
         },
         {
             "@id": "UNTDID3035Type:DGW",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DGW",
             "rdfs:comment": "Weaver"
         },
         {
             "@id": "UNTDID3035Type:DH",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DH",
             "rdfs:comment": "Documentary credit account party"
         },
         {
             "@id": "UNTDID3035Type:DI",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DI",
             "rdfs:comment": "Documentary credit second beneficiary"
         },
         {
             "@id": "UNTDID3035Type:DJ",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DJ",
             "rdfs:comment": "Party according to documentary credit transaction"
         },
         {
             "@id": "UNTDID3035Type:DK",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DK",
             "rdfs:comment": "Documentary credit beneficiary's bank"
         },
         {
             "@id": "UNTDID3035Type:DL",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DL",
             "rdfs:comment": "Factor"
         },
         {
             "@id": "UNTDID3035Type:DM",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DM",
             "rdfs:comment": "Party to whom documents are to be presented"
         },
         {
             "@id": "UNTDID3035Type:DN",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DN",
             "rdfs:comment": "Owner of operation"
         },
         {
             "@id": "UNTDID3035Type:DO",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DO",
             "rdfs:comment": "Document recipient"
         },
         {
             "@id": "UNTDID3035Type:DP",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DP",
             "rdfs:comment": "Delivery party"
         },
         {
             "@id": "UNTDID3035Type:DQ",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DQ",
             "rdfs:comment": "Owner's agent"
         },
         {
             "@id": "UNTDID3035Type:DR",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DR",
             "rdfs:comment": "Driver"
         },
         {
             "@id": "UNTDID3035Type:DS",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DS",
             "rdfs:comment": "Distributor"
         },
         {
             "@id": "UNTDID3035Type:DT",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DT",
             "rdfs:comment": "Declarant"
         },
         {
             "@id": "UNTDID3035Type:DU",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DU",
             "rdfs:comment": "Owner's representative"
         },
         {
             "@id": "UNTDID3035Type:DV",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DV",
             "rdfs:comment": "Project management office"
         },
         {
             "@id": "UNTDID3035Type:DW",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DW",
             "rdfs:comment": "Drawee"
         },
         {
             "@id": "UNTDID3035Type:DX",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DX",
             "rdfs:comment": "Engineer (construction)"
         },
         {
             "@id": "UNTDID3035Type:DY",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DY",
             "rdfs:comment": "Engineer, resident (construction)"
         },
         {
             "@id": "UNTDID3035Type:DZ",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "DZ",
             "rdfs:comment": "Architect"
         },
         {
             "@id": "UNTDID3035Type:EA",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "EA",
             "rdfs:comment": "Architect-designer"
         },
         {
             "@id": "UNTDID3035Type:EB",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "EB",
             "rdfs:comment": "Building inspectorate"
         },
         {
             "@id": "UNTDID3035Type:EC",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "EC",
             "rdfs:comment": "Exchanger"
         },
         {
             "@id": "UNTDID3035Type:ED",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "ED",
             "rdfs:comment": "Engineer, consultant"
         },
         {
             "@id": "UNTDID3035Type:EE",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "EE",
             "rdfs:comment": "Location of goods for customs examination before clearance"
         },
         {
             "@id": "UNTDID3035Type:EF",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "EF",
             "rdfs:comment": "Project coordination office"
         },
         {
             "@id": "UNTDID3035Type:EG",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "EG",
             "rdfs:comment": "Surveyor, topographical"
         },
         {
             "@id": "UNTDID3035Type:EH",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "EH",
             "rdfs:comment": "Engineer, measurement"
         },
         {
             "@id": "UNTDID3035Type:EI",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "EI",
             "rdfs:comment": "Controller, quality"
         },
         {
             "@id": "UNTDID3035Type:EJ",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "EJ",
             "rdfs:comment": "Surveyor, quantity"
         },
         {
             "@id": "UNTDID3035Type:EK",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "EK",
             "rdfs:comment": "Surveyor (professional), quantity"
         },
         {
             "@id": "UNTDID3035Type:EL",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "EL",
             "rdfs:comment": "Project"
         },
         {
             "@id": "UNTDID3035Type:EM",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "EM",
             "rdfs:comment": "Party to receive electronic memo of invoice"
         },
         {
             "@id": "UNTDID3035Type:EN",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "EN",
             "rdfs:comment": "Tenderer"
         },
         {
             "@id": "UNTDID3035Type:EO",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "EO",
             "rdfs:comment": "Owner of equipment"
         },
         {
             "@id": "UNTDID3035Type:EP",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "EP",
             "rdfs:comment": "Equipment drop-off party"
         },
         {
             "@id": "UNTDID3035Type:EQ",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "EQ",
             "rdfs:comment": "Empty container responsible party"
         },
         {
             "@id": "UNTDID3035Type:ER",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "ER",
             "rdfs:comment": "Empty container return agent"
         },
         {
             "@id": "UNTDID3035Type:ES",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "ES",
             "rdfs:comment": "Contractor, lead"
         },
         {
             "@id": "UNTDID3035Type:ET",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "ET",
             "rdfs:comment": "Co-contractor"
         },
         {
             "@id": "UNTDID3035Type:EU",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "EU",
             "rdfs:comment": "Contractor, general"
         },
         {
             "@id": "UNTDID3035Type:EV",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "EV",
             "rdfs:comment": "Subcontractor"
         },
         {
             "@id": "UNTDID3035Type:EW",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "EW",
             "rdfs:comment": "Subcontractor with direct payment"
         },
         {
             "@id": "UNTDID3035Type:EX",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "EX",
             "rdfs:comment": "Exporter"
         },
         {
             "@id": "UNTDID3035Type:EY",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "EY",
             "rdfs:comment": "Subcontractor, nominated"
         },
         {
             "@id": "UNTDID3035Type:EZ",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "EZ",
             "rdfs:comment": "Operator, essential services"
         },
         {
             "@id": "UNTDID3035Type:FA",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "FA",
             "rdfs:comment": "Operator, communication channel"
         },
         {
             "@id": "UNTDID3035Type:FB",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "FB",
             "rdfs:comment": "Nominated freight company"
         },
         {
             "@id": "UNTDID3035Type:FC",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "FC",
             "rdfs:comment": "Contractor, main"
         },
         {
             "@id": "UNTDID3035Type:FD",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "FD",
             "rdfs:comment": "Buyer's parent company"
         },
         {
             "@id": "UNTDID3035Type:FE",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "FE",
             "rdfs:comment": "Credit rating agency"
         },
         {
             "@id": "UNTDID3035Type:FF",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "FF",
             "rdfs:comment": "Factor, correspondent"
         },
         {
             "@id": "UNTDID3035Type:FG",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "FG",
             "rdfs:comment": "Buyer as officially registered"
         },
         {
             "@id": "UNTDID3035Type:FH",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "FH",
             "rdfs:comment": "Seller as officially registered"
         },
         {
             "@id": "UNTDID3035Type:FI",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "FI",
             "rdfs:comment": "Copy message to"
         },
         {
             "@id": "UNTDID3035Type:FJ",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "FJ",
             "rdfs:comment": "Trade Union"
         },
         {
             "@id": "UNTDID3035Type:FK",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "FK",
             "rdfs:comment": "Previous Trade Union"
         },
         {
             "@id": "UNTDID3035Type:FL",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "FL",
             "rdfs:comment": "Passenger"
         },
         {
             "@id": "UNTDID3035Type:FM",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "FM",
             "rdfs:comment": "Crew member"
         },
         {
             "@id": "UNTDID3035Type:FN",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "FN",
             "rdfs:comment": "Tariff issuer"
         },
         {
             "@id": "UNTDID3035Type:FO",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "FO",
             "rdfs:comment": "Party performing inspection"
         },
         {
             "@id": "UNTDID3035Type:FP",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "FP",
             "rdfs:comment": "Freight/charges payer"
         },
         {
             "@id": "UNTDID3035Type:FQ",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "FQ",
             "rdfs:comment": "Container survey agent"
         },
         {
             "@id": "UNTDID3035Type:FR",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "FR",
             "rdfs:comment": "Message from"
         },
         {
             "@id": "UNTDID3035Type:FS",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "FS",
             "rdfs:comment": "Party authorized to make definite a contract action"
         },
         {
             "@id": "UNTDID3035Type:FT",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "FT",
             "rdfs:comment": "Financial settlement party"
         },
         {
             "@id": "UNTDID3035Type:FU",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "FU",
             "rdfs:comment": "Hazardous material office"
         },
         {
             "@id": "UNTDID3035Type:FV",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "FV",
             "rdfs:comment": "Party providing government furnished property"
         },
         {
             "@id": "UNTDID3035Type:FW",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "FW",
             "rdfs:comment": "Freight forwarder"
         },
         {
             "@id": "UNTDID3035Type:FX",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "FX",
             "rdfs:comment": "Current receiver"
         },
         {
             "@id": "UNTDID3035Type:FY",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "FY",
             "rdfs:comment": "Current sender"
         },
         {
             "@id": "UNTDID3035Type:FZ",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "FZ",
             "rdfs:comment": "Grouping centre"
         },
         {
             "@id": "UNTDID3035Type:GA",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "GA",
             "rdfs:comment": "Road carrier"
         },
         {
             "@id": "UNTDID3035Type:GB",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "GB",
             "rdfs:comment": "Chamber of commerce"
         },
         {
             "@id": "UNTDID3035Type:GC",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "GC",
             "rdfs:comment": "Goods custodian"
         },
         {
             "@id": "UNTDID3035Type:GD",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "GD",
             "rdfs:comment": "Producer"
         },
         {
             "@id": "UNTDID3035Type:GE",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "GE",
             "rdfs:comment": "Registration tribunal"
         },
         {
             "@id": "UNTDID3035Type:GF",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "GF",
             "rdfs:comment": "Slot charter party"
         },
         {
             "@id": "UNTDID3035Type:GH",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "GH",
             "rdfs:comment": "Applicant for job"
         },
         {
             "@id": "UNTDID3035Type:GI",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "GI",
             "rdfs:comment": "Spouse"
         },
         {
             "@id": "UNTDID3035Type:GJ",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "GJ",
             "rdfs:comment": "Mother"
         },
         {
             "@id": "UNTDID3035Type:GK",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "GK",
             "rdfs:comment": "Father"
         },
         {
             "@id": "UNTDID3035Type:GL",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "GL",
             "rdfs:comment": "Socially insured person"
         },
         {
             "@id": "UNTDID3035Type:GM",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "GM",
             "rdfs:comment": "Inventory controller"
         },
         {
             "@id": "UNTDID3035Type:GN",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "GN",
             "rdfs:comment": "Processor"
         },
         {
             "@id": "UNTDID3035Type:GO",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "GO",
             "rdfs:comment": "Goods owner"
         },
         {
             "@id": "UNTDID3035Type:GP",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "GP",
             "rdfs:comment": "Packer"
         },
         {
             "@id": "UNTDID3035Type:GQ",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "GQ",
             "rdfs:comment": "Slaughterer"
         },
         {
             "@id": "UNTDID3035Type:GR",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "GR",
             "rdfs:comment": "Goods releasing party"
         },
         {
             "@id": "UNTDID3035Type:GS",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "GS",
             "rdfs:comment": "Consignor's representative"
         },
         {
             "@id": "UNTDID3035Type:GT",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "GT",
             "rdfs:comment": "Rail carrier"
         },
         {
             "@id": "UNTDID3035Type:GU",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "GU",
             "rdfs:comment": "Originator of article number"
         },
         {
             "@id": "UNTDID3035Type:GV",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "GV",
             "rdfs:comment": "Procurement responsibility for order"
         },
         {
             "@id": "UNTDID3035Type:GW",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "GW",
             "rdfs:comment": "Party fulfilling all operations"
         },
         {
             "@id": "UNTDID3035Type:GX",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "GX",
             "rdfs:comment": "Central catalogue party"
         },
         {
             "@id": "UNTDID3035Type:GY",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "GY",
             "rdfs:comment": "Inventory reporting party"
         },
         {
             "@id": "UNTDID3035Type:GZ",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "GZ",
             "rdfs:comment": "Substitute supplier"
         },
         {
             "@id": "UNTDID3035Type:HA",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "HA",
             "rdfs:comment": "Party which delivers consignments to the terminal"
         },
         {
             "@id": "UNTDID3035Type:HB",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "HB",
             "rdfs:comment": "Party which picks up consignments from the terminal"
         },
         {
             "@id": "UNTDID3035Type:HC",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "HC",
             "rdfs:comment": "Transit freight forwarder"
         },
         {
             "@id": "UNTDID3035Type:HD",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "HD",
             "rdfs:comment": "Inspection and acceptance party"
         },
         {
             "@id": "UNTDID3035Type:HE",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "HE",
             "rdfs:comment": "Transportation office"
         },
         {
             "@id": "UNTDID3035Type:HF",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "HF",
             "rdfs:comment": "Contract administration office"
         },
         {
             "@id": "UNTDID3035Type:HG",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "HG",
             "rdfs:comment": "Investigator"
         },
         {
             "@id": "UNTDID3035Type:HH",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "HH",
             "rdfs:comment": "Audit office"
         },
         {
             "@id": "UNTDID3035Type:HI",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "HI",
             "rdfs:comment": "Requestor"
         },
         {
             "@id": "UNTDID3035Type:HJ",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "HJ",
             "rdfs:comment": "Foreign disclosure information office"
         },
         {
             "@id": "UNTDID3035Type:HK",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "HK",
             "rdfs:comment": "Mark-for party"
         },
         {
             "@id": "UNTDID3035Type:HL",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "HL",
             "rdfs:comment": "Party to receive reports"
         },
         {
             "@id": "UNTDID3035Type:HM",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "HM",
             "rdfs:comment": "Alternative manufacturer"
         },
         {
             "@id": "UNTDID3035Type:HN",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "HN",
             "rdfs:comment": "Service performer"
         },
         {
             "@id": "UNTDID3035Type:HO",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "HO",
             "rdfs:comment": "Shipper's association"
         },
         {
             "@id": "UNTDID3035Type:HP",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "HP",
             "rdfs:comment": "Final message recipient"
         },
         {
             "@id": "UNTDID3035Type:HQ",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "HQ",
             "rdfs:comment": "Account owner"
         },
         {
             "@id": "UNTDID3035Type:HR",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "HR",
             "rdfs:comment": "Shipping line service"
         },
         {
             "@id": "UNTDID3035Type:HS",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "HS",
             "rdfs:comment": "Creditor"
         },
         {
             "@id": "UNTDID3035Type:HT",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "HT",
             "rdfs:comment": "Clearing house"
         },
         {
             "@id": "UNTDID3035Type:HU",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "HU",
             "rdfs:comment": "Ordering bank"
         },
         {
             "@id": "UNTDID3035Type:HV",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "HV",
             "rdfs:comment": "Receiver of funds"
         },
         {
             "@id": "UNTDID3035Type:HW",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "HW",
             "rdfs:comment": "Sender of funds"
         },
         {
             "@id": "UNTDID3035Type:HX",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "HX",
             "rdfs:comment": "Debtor"
         },
         {
             "@id": "UNTDID3035Type:HY",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "HY",
             "rdfs:comment": "Presenting bank"
         },
         {
             "@id": "UNTDID3035Type:HZ",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "HZ",
             "rdfs:comment": "Work team"
         },
         {
             "@id": "UNTDID3035Type:I1",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "I1",
             "rdfs:comment": "Intermediary bank 1"
         },
         {
             "@id": "UNTDID3035Type:I2",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "I2",
             "rdfs:comment": "Intermediary bank 2"
         },
         {
             "@id": "UNTDID3035Type:IB",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "IB",
             "rdfs:comment": "Intermediary/broker"
         },
         {
             "@id": "UNTDID3035Type:IC",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "IC",
             "rdfs:comment": "Intermediate consignee"
         },
         {
             "@id": "UNTDID3035Type:ID",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "ID",
             "rdfs:comment": "Replacing manufacturer"
         },
         {
             "@id": "UNTDID3035Type:IE",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "IE",
             "rdfs:comment": "Non-resident third party company with whom financial account is held"
         },
         {
             "@id": "UNTDID3035Type:IF",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "IF",
             "rdfs:comment": "Non-resident group company with whom financial account is held"
         },
         {
             "@id": "UNTDID3035Type:IG",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "IG",
             "rdfs:comment": "Non-resident beneficiary"
         },
         {
             "@id": "UNTDID3035Type:IH",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "IH",
             "rdfs:comment": "Resident beneficiary"
         },
         {
             "@id": "UNTDID3035Type:II",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "II",
             "rdfs:comment": "Invoice issuer"
         },
         {
             "@id": "UNTDID3035Type:IJ",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "IJ",
             "rdfs:comment": "Non-resident instructing party"
         },
         {
             "@id": "UNTDID3035Type:IL",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "IL",
             "rdfs:comment": "Resident instructing party"
         },
         {
             "@id": "UNTDID3035Type:IM",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "IM",
             "rdfs:comment": "Importer"
         },
         {
             "@id": "UNTDID3035Type:IN",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "IN",
             "rdfs:comment": "Insurer"
         },
         {
             "@id": "UNTDID3035Type:IO",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "IO",
             "rdfs:comment": "Insurance company"
         },
         {
             "@id": "UNTDID3035Type:IP",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "IP",
             "rdfs:comment": "Insurance claim adjuster"
         },
         {
             "@id": "UNTDID3035Type:IQ",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "IQ",
             "rdfs:comment": "Domestic financial institution"
         },
         {
             "@id": "UNTDID3035Type:IR",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "IR",
             "rdfs:comment": "Non-domestic financial institution"
         },
         {
             "@id": "UNTDID3035Type:IS",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "IS",
             "rdfs:comment": "Party to receive certified inspection report"
         },
         {
             "@id": "UNTDID3035Type:IT",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "IT",
             "rdfs:comment": "Installation on site"
         },
         {
             "@id": "UNTDID3035Type:IU",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "IU",
             "rdfs:comment": "Non-resident debtor"
         },
         {
             "@id": "UNTDID3035Type:IV",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "IV",
             "rdfs:comment": "Invoicee"
         },
         {
             "@id": "UNTDID3035Type:IW",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "IW",
             "rdfs:comment": "Non-resident creditor"
         },
         {
             "@id": "UNTDID3035Type:IX",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "IX",
             "rdfs:comment": "Supplier work team"
         },
         {
             "@id": "UNTDID3035Type:IY",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "IY",
             "rdfs:comment": "Tenant manager"
         },
         {
             "@id": "UNTDID3035Type:IZ",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "IZ",
             "rdfs:comment": "Party mandated to liquidate an enterprise"
         },
         {
             "@id": "UNTDID3035Type:JA",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "JA",
             "rdfs:comment": "Certified accountant"
         },
         {
             "@id": "UNTDID3035Type:JB",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "JB",
             "rdfs:comment": "Goods collection party"
         },
         {
             "@id": "UNTDID3035Type:JC",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "JC",
             "rdfs:comment": "Party at final place of positioning"
         },
         {
             "@id": "UNTDID3035Type:JD",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "JD",
             "rdfs:comment": "Customs office of clearance"
         },
         {
             "@id": "UNTDID3035Type:JE",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "JE",
             "rdfs:comment": "Party from whom customs documents are to be picked up"
         },
         {
             "@id": "UNTDID3035Type:JF",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "JF",
             "rdfs:comment": "Party from whom non-customs documents are to be picked up"
         },
         {
             "@id": "UNTDID3035Type:JG",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "JG",
             "rdfs:comment": "Party to receive customs documents"
         },
         {
             "@id": "UNTDID3035Type:JH",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "JH",
             "rdfs:comment": "Party to receive non-customs documents"
         },
         {
             "@id": "UNTDID3035Type:LA",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "LA",
             "rdfs:comment": "Party designated to provide living animal care"
         },
         {
             "@id": "UNTDID3035Type:LB",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "LB",
             "rdfs:comment": "Co-producer"
         },
         {
             "@id": "UNTDID3035Type:LC",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "LC",
             "rdfs:comment": "Party declaring the Value Added Tax (VAT)"
         },
         {
             "@id": "UNTDID3035Type:LD",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "LD",
             "rdfs:comment": "Party recovering the Value Added Tax (VAT)"
         },
         {
             "@id": "UNTDID3035Type:LE",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "LE",
             "rdfs:comment": "Person on claim"
         },
         {
             "@id": "UNTDID3035Type:LF",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "LF",
             "rdfs:comment": "Buyer's corporate office"
         },
         {
             "@id": "UNTDID3035Type:LG",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "LG",
             "rdfs:comment": "Supplier's corporate office"
         },
         {
             "@id": "UNTDID3035Type:LH",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "LH",
             "rdfs:comment": "Liquidator"
         },
         {
             "@id": "UNTDID3035Type:LI",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "LI",
             "rdfs:comment": "Account coordinator"
         },
         {
             "@id": "UNTDID3035Type:LJ",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "LJ",
             "rdfs:comment": "Inspection leader"
         },
         {
             "@id": "UNTDID3035Type:LK",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "LK",
             "rdfs:comment": "Patient"
         },
         {
             "@id": "UNTDID3035Type:LL",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "LL",
             "rdfs:comment": "Patient companion"
         },
         {
             "@id": "UNTDID3035Type:LM",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "LM",
             "rdfs:comment": "Medical treatment executant"
         },
         {
             "@id": "UNTDID3035Type:LN",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "LN",
             "rdfs:comment": "Lender"
         },
         {
             "@id": "UNTDID3035Type:LO",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "LO",
             "rdfs:comment": "Medical treatment prescriber"
         },
         {
             "@id": "UNTDID3035Type:LP",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "LP",
             "rdfs:comment": "Loading party"
         },
         {
             "@id": "UNTDID3035Type:LQ",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "LQ",
             "rdfs:comment": "Debt payment authorisation party"
         },
         {
             "@id": "UNTDID3035Type:LR",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "LR",
             "rdfs:comment": "Administration centre"
         },
         {
             "@id": "UNTDID3035Type:LS",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "LS",
             "rdfs:comment": "Product services and repairs centre"
         },
         {
             "@id": "UNTDID3035Type:LT",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "LT",
             "rdfs:comment": "Secretariat"
         },
         {
             "@id": "UNTDID3035Type:LU",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "LU",
             "rdfs:comment": "Entry point technical assessment group"
         },
         {
             "@id": "UNTDID3035Type:LV",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "LV",
             "rdfs:comment": "Party assigning a status"
         },
         {
             "@id": "UNTDID3035Type:MA",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "MA",
             "rdfs:comment": "Party for whom item is ultimately intended"
         },
         {
             "@id": "UNTDID3035Type:MAD",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "MAD",
             "rdfs:comment": "Meter administrator"
         },
         {
             "@id": "UNTDID3035Type:MDR",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "MDR",
             "rdfs:comment": "Metered data responsible"
         },
         {
             "@id": "UNTDID3035Type:MF",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "MF",
             "rdfs:comment": "Manufacturer of goods"
         },
         {
             "@id": "UNTDID3035Type:MG",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "MG",
             "rdfs:comment": "Party designated to execute re-icing"
         },
         {
             "@id": "UNTDID3035Type:MI",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "MI",
             "rdfs:comment": "Planning schedule/material release issuer"
         },
         {
             "@id": "UNTDID3035Type:MOP",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "MOP",
             "rdfs:comment": "Market operator"
         },
         {
             "@id": "UNTDID3035Type:MP",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "MP",
             "rdfs:comment": "Manufacturing unit"
         },
         {
             "@id": "UNTDID3035Type:MR",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "MR",
             "rdfs:comment": "Message recipient"
         },
         {
             "@id": "UNTDID3035Type:MS",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "MS",
             "rdfs:comment": "Document/message issuer/sender"
         },
         {
             "@id": "UNTDID3035Type:MT",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "MT",
             "rdfs:comment": "Party designated to execute sanitary procedures"
         },
         {
             "@id": "UNTDID3035Type:N2",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "N2",
             "rdfs:comment": "Notify party no. 2"
         },
         {
             "@id": "UNTDID3035Type:NI",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "NI",
             "rdfs:comment": "Notify party"
         },
         {
             "@id": "UNTDID3035Type:OA",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "OA",
             "rdfs:comment": "Break bulk berth operator"
         },
         {
             "@id": "UNTDID3035Type:OB",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "OB",
             "rdfs:comment": "Ordered by"
         },
         {
             "@id": "UNTDID3035Type:OC",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "OC",
             "rdfs:comment": "Party data responsible party"
         },
         {
             "@id": "UNTDID3035Type:OD",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "OD",
             "rdfs:comment": "Equipment repair party"
         },
         {
             "@id": "UNTDID3035Type:OE",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "OE",
             "rdfs:comment": "Owner of property"
         },
         {
             "@id": "UNTDID3035Type:OF",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "OF",
             "rdfs:comment": "On behalf of"
         },
         {
             "@id": "UNTDID3035Type:OG",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "OG",
             "rdfs:comment": "Owner or lessor's surveyor"
         },
         {
             "@id": "UNTDID3035Type:OH",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "OH",
             "rdfs:comment": "Lessee's surveyor"
         },
         {
             "@id": "UNTDID3035Type:OI",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "OI",
             "rdfs:comment": "Outside inspection agency"
         },
         {
             "@id": "UNTDID3035Type:OJ",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "OJ",
             "rdfs:comment": "Third party"
         },
         {
             "@id": "UNTDID3035Type:OK",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "OK",
             "rdfs:comment": "Receiver's sub-entity"
         },
         {
             "@id": "UNTDID3035Type:OL",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "OL",
             "rdfs:comment": "Case of need party"
         },
         {
             "@id": "UNTDID3035Type:OM",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "OM",
             "rdfs:comment": "Collecting bank"
         },
         {
             "@id": "UNTDID3035Type:ON",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "ON",
             "rdfs:comment": "Remitting bank"
         },
         {
             "@id": "UNTDID3035Type:OO",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "OO",
             "rdfs:comment": "Order of the shipper party"
         },
         {
             "@id": "UNTDID3035Type:OP",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "OP",
             "rdfs:comment": "Operator of property or equipment"
         },
         {
             "@id": "UNTDID3035Type:OQ",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "OQ",
             "rdfs:comment": "Collection principal"
         },
         {
             "@id": "UNTDID3035Type:OR",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "OR",
             "rdfs:comment": "Ordered bank"
         },
         {
             "@id": "UNTDID3035Type:OS",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "OS",
             "rdfs:comment": "Original shipper"
         },
         {
             "@id": "UNTDID3035Type:OT",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "OT",
             "rdfs:comment": "Outside test agency"
         },
         {
             "@id": "UNTDID3035Type:OU",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "OU",
             "rdfs:comment": "Account owner's servicing bank on the sending side"
         },
         {
             "@id": "UNTDID3035Type:OV",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "OV",
             "rdfs:comment": "Transport means owner"
         },
         {
             "@id": "UNTDID3035Type:OW",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "OW",
             "rdfs:comment": "Account owner's servicing bank on the receiving side"
         },
         {
             "@id": "UNTDID3035Type:OX",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "OX",
             "rdfs:comment": "Sender's correspondent bank"
         },
         {
             "@id": "UNTDID3035Type:OY",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "OY",
             "rdfs:comment": "Ordering customer"
         },
         {
             "@id": "UNTDID3035Type:OZ",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "OZ",
             "rdfs:comment": "Receiver's correspondent bank"
         },
         {
             "@id": "UNTDID3035Type:P1",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "P1",
             "rdfs:comment": "Contact party 1"
         },
         {
             "@id": "UNTDID3035Type:P2",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "P2",
             "rdfs:comment": "Contact party 2"
         },
         {
             "@id": "UNTDID3035Type:P3",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "P3",
             "rdfs:comment": "Contact party 3"
         },
         {
             "@id": "UNTDID3035Type:P4",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "P4",
             "rdfs:comment": "Contact party 4"
         },
         {
             "@id": "UNTDID3035Type:PA",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "PA",
             "rdfs:comment": "Party to receive inspection report"
         },
         {
             "@id": "UNTDID3035Type:PAD",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "PAD",
             "rdfs:comment": "Party Administrator"
         },
         {
             "@id": "UNTDID3035Type:PB",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "PB",
             "rdfs:comment": "Paying financial institution"
         },
         {
             "@id": "UNTDID3035Type:PC",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "PC",
             "rdfs:comment": "Actual purchaser's customer"
         },
         {
             "@id": "UNTDID3035Type:PD",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "PD",
             "rdfs:comment": "Purchaser's department buyer"
         },
         {
             "@id": "UNTDID3035Type:PE",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "PE",
             "rdfs:comment": "Payee"
         },
         {
             "@id": "UNTDID3035Type:PF",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "PF",
             "rdfs:comment": "Party to receive freight bill"
         },
         {
             "@id": "UNTDID3035Type:PG",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "PG",
             "rdfs:comment": "Prime contractor"
         },
         {
             "@id": "UNTDID3035Type:PH",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "PH",
             "rdfs:comment": "Payer's financial institution"
         },
         {
             "@id": "UNTDID3035Type:PI",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "PI",
             "rdfs:comment": "Payee's company name/ID"
         },
         {
             "@id": "UNTDID3035Type:PJ",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "PJ",
             "rdfs:comment": "Party to receive correspondence"
         },
         {
             "@id": "UNTDID3035Type:PK",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "PK",
             "rdfs:comment": "Contact party"
         },
         {
             "@id": "UNTDID3035Type:PM",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "PM",
             "rdfs:comment": "Party to receive paper memo of invoice"
         },
         {
             "@id": "UNTDID3035Type:PN",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "PN",
             "rdfs:comment": "Party to receive shipping notice"
         },
         {
             "@id": "UNTDID3035Type:PO",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "PO",
             "rdfs:comment": "Ordering party"
         },
         {
             "@id": "UNTDID3035Type:POA",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "POA",
             "rdfs:comment": "Port Authority"
         },
         {
             "@id": "UNTDID3035Type:PQ",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "PQ",
             "rdfs:comment": "Certifying party"
         },
         {
             "@id": "UNTDID3035Type:PR",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "PR",
             "rdfs:comment": "Payer"
         },
         {
             "@id": "UNTDID3035Type:PS",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "PS",
             "rdfs:comment": "Payer's company name/ID (Check, Draft or Wire)"
         },
         {
             "@id": "UNTDID3035Type:PT",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "PT",
             "rdfs:comment": "Party to receive test report"
         },
         {
             "@id": "UNTDID3035Type:PW",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "PW",
             "rdfs:comment": "Despatch party"
         },
         {
             "@id": "UNTDID3035Type:PX",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "PX",
             "rdfs:comment": "Party to receive all documents"
         },
         {
             "@id": "UNTDID3035Type:PY",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "PY",
             "rdfs:comment": "Checking party"
         },
         {
             "@id": "UNTDID3035Type:PZ",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "PZ",
             "rdfs:comment": "Party to print some document"
         },
         {
             "@id": "UNTDID3035Type:RA",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "RA",
             "rdfs:comment": "Central bank or regulatory authority"
         },
         {
             "@id": "UNTDID3035Type:RB",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "RB",
             "rdfs:comment": "Receiving financial institution"
         },
         {
             "@id": "UNTDID3035Type:RCA",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "RCA",
             "rdfs:comment": "Reconciliation accountable"
         },
         {
             "@id": "UNTDID3035Type:RCR",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "RCR",
             "rdfs:comment": "Reconciliation responsible"
         },
         {
             "@id": "UNTDID3035Type:RE",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "RE",
             "rdfs:comment": "Party to receive commercial invoice remittance"
         },
         {
             "@id": "UNTDID3035Type:RF",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "RF",
             "rdfs:comment": "Received from"
         },
         {
             "@id": "UNTDID3035Type:RH",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "RH",
             "rdfs:comment": "Seller's financial institution"
         },
         {
             "@id": "UNTDID3035Type:RI",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "RI",
             "rdfs:comment": "Reinsurance intermediary/broker"
         },
         {
             "@id": "UNTDID3035Type:RL",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "RL",
             "rdfs:comment": "Reporting carrier (Customs)"
         },
         {
             "@id": "UNTDID3035Type:RM",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "RM",
             "rdfs:comment": "Reporting carrier's nominated agent/representative (Customs)"
         },
         {
             "@id": "UNTDID3035Type:RP",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "RP",
             "rdfs:comment": "Routing party"
         },
         {
             "@id": "UNTDID3035Type:RS",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "RS",
             "rdfs:comment": "Party to receive statement of account"
         },
         {
             "@id": "UNTDID3035Type:RV",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "RV",
             "rdfs:comment": "Receiver of cheque"
         },
         {
             "@id": "UNTDID3035Type:RW",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "RW",
             "rdfs:comment": "Issuer of waybill"
         },
         {
             "@id": "UNTDID3035Type:SB",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "SB",
             "rdfs:comment": "Sales responsibility"
         },
         {
             "@id": "UNTDID3035Type:SE",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "SE",
             "rdfs:comment": "Seller"
         },
         {
             "@id": "UNTDID3035Type:SF",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "SF",
             "rdfs:comment": "Ship from"
         },
         {
             "@id": "UNTDID3035Type:SG",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "SG",
             "rdfs:comment": "Store group"
         },
         {
             "@id": "UNTDID3035Type:SI",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "SI",
             "rdfs:comment": "Shipping schedule issuer"
         },
         {
             "@id": "UNTDID3035Type:SN",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "SN",
             "rdfs:comment": "Store keeper"
         },
         {
             "@id": "UNTDID3035Type:SO",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "SO",
             "rdfs:comment": "Sold to if different than bill to"
         },
         {
             "@id": "UNTDID3035Type:SPC",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "SPC",
             "rdfs:comment": "SOLAS verified gross mass responsible party"
         },
         {
             "@id": "UNTDID3035Type:SR",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "SR",
             "rdfs:comment": "Seller agent"
         },
         {
             "@id": "UNTDID3035Type:SS",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "SS",
             "rdfs:comment": "Social securities collector's office"
         },
         {
             "@id": "UNTDID3035Type:ST",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "ST",
             "rdfs:comment": "Ship to"
         },
         {
             "@id": "UNTDID3035Type:SU",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "SU",
             "rdfs:comment": "Supplier"
         },
         {
             "@id": "UNTDID3035Type:SX",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "SX",
             "rdfs:comment": "Surety for additions"
         },
         {
             "@id": "UNTDID3035Type:SY",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "SY",
             "rdfs:comment": "Surety"
         },
         {
             "@id": "UNTDID3035Type:SZ",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "SZ",
             "rdfs:comment": "Surety for antidumping/countervailing duty"
         },
         {
             "@id": "UNTDID3035Type:TA",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "TA",
             "rdfs:comment": "Legal receiver"
         },
         {
             "@id": "UNTDID3035Type:TB",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "TB",
             "rdfs:comment": "Submitter"
         },
         {
             "@id": "UNTDID3035Type:TC",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "TC",
             "rdfs:comment": "Tax collector's office"
         },
         {
             "@id": "UNTDID3035Type:TCP",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "TCP",
             "rdfs:comment": "Transit charge payer"
         },
         {
             "@id": "UNTDID3035Type:TCR",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "TCR",
             "rdfs:comment": "Transport capacity responsible party"
         },
         {
             "@id": "UNTDID3035Type:TD",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "TD",
             "rdfs:comment": "Party to receive technical documentation"
         },
         {
             "@id": "UNTDID3035Type:TE",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "TE",
             "rdfs:comment": "Bankruptcy referee"
         },
         {
             "@id": "UNTDID3035Type:TF",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "TF",
             "rdfs:comment": "Source of information"
         },
         {
             "@id": "UNTDID3035Type:TG",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "TG",
             "rdfs:comment": "Judge"
         },
         {
             "@id": "UNTDID3035Type:TH",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "TH",
             "rdfs:comment": "Attorney"
         },
         {
             "@id": "UNTDID3035Type:TI",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "TI",
             "rdfs:comment": "Law firm"
         },
         {
             "@id": "UNTDID3035Type:TJ",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "TJ",
             "rdfs:comment": "Trustee"
         },
         {
             "@id": "UNTDID3035Type:TK",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "TK",
             "rdfs:comment": "Signatory"
         },
         {
             "@id": "UNTDID3035Type:TL",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "TL",
             "rdfs:comment": "Occupant"
         },
         {
             "@id": "UNTDID3035Type:TM",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "TM",
             "rdfs:comment": "Co-occupant"
         },
         {
             "@id": "UNTDID3035Type:TN",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "TN",
             "rdfs:comment": "Subject of inquiry"
         },
         {
             "@id": "UNTDID3035Type:TO",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "TO",
             "rdfs:comment": "Lessor"
         },
         {
             "@id": "UNTDID3035Type:TP",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "TP",
             "rdfs:comment": "Owner of residence"
         },
         {
             "@id": "UNTDID3035Type:TQ",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "TQ",
             "rdfs:comment": "Founder"
         },
         {
             "@id": "UNTDID3035Type:TR",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "TR",
             "rdfs:comment": "Terminal operator"
         },
         {
             "@id": "UNTDID3035Type:TS",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "TS",
             "rdfs:comment": "Party to receive certified test results"
         },
         {
             "@id": "UNTDID3035Type:TT",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "TT",
             "rdfs:comment": "Transfer to"
         },
         {
             "@id": "UNTDID3035Type:TU",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "TU",
             "rdfs:comment": "President"
         },
         {
             "@id": "UNTDID3035Type:TV",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "TV",
             "rdfs:comment": "Chairperson"
         },
         {
             "@id": "UNTDID3035Type:TW",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "TW",
             "rdfs:comment": "Legal title holder"
         },
         {
             "@id": "UNTDID3035Type:TX",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "TX",
             "rdfs:comment": "Shareholder"
         },
         {
             "@id": "UNTDID3035Type:TY",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "TY",
             "rdfs:comment": "Provider"
         },
         {
             "@id": "UNTDID3035Type:TZ",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "TZ",
             "rdfs:comment": "Military branch"
         },
         {
             "@id": "UNTDID3035Type:UA",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "UA",
             "rdfs:comment": "Educational institution"
         },
         {
             "@id": "UNTDID3035Type:UB",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "UB",
             "rdfs:comment": "Assignor"
         },
         {
             "@id": "UNTDID3035Type:UC",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "UC",
             "rdfs:comment": "Ultimate consignee"
         },
         {
             "@id": "UNTDID3035Type:UD",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "UD",
             "rdfs:comment": "Ultimate customer"
         },
         {
             "@id": "UNTDID3035Type:UE",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "UE",
             "rdfs:comment": "Advisor"
         },
         {
             "@id": "UNTDID3035Type:UF",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "UF",
             "rdfs:comment": "Co-defendant"
         },
         {
             "@id": "UNTDID3035Type:UG",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "UG",
             "rdfs:comment": "Merged company with retained identity"
         },
         {
             "@id": "UNTDID3035Type:UH",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "UH",
             "rdfs:comment": "Party represented"
         },
         {
             "@id": "UNTDID3035Type:UHP",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "UHP",
             "rdfs:comment": "Unexpected handling party"
         },
         {
             "@id": "UNTDID3035Type:UI",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "UI",
             "rdfs:comment": "Assignee"
         },
         {
             "@id": "UNTDID3035Type:UJ",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "UJ",
             "rdfs:comment": "Key person"
         },
         {
             "@id": "UNTDID3035Type:UK",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "UK",
             "rdfs:comment": "Author"
         },
         {
             "@id": "UNTDID3035Type:UL",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "UL",
             "rdfs:comment": "Ultimate parent company"
         },
         {
             "@id": "UNTDID3035Type:UM",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "UM",
             "rdfs:comment": "Party not to be confused with"
         },
         {
             "@id": "UNTDID3035Type:UN",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "UN",
             "rdfs:comment": "Accountant"
         },
         {
             "@id": "UNTDID3035Type:UO",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "UO",
             "rdfs:comment": "Plaintiff"
         },
         {
             "@id": "UNTDID3035Type:UP",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "UP",
             "rdfs:comment": "Unloading party"
         },
         {
             "@id": "UNTDID3035Type:UQ",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "UQ",
             "rdfs:comment": "Parent company"
         },
         {
             "@id": "UNTDID3035Type:UR",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "UR",
             "rdfs:comment": "Affiliated company"
         },
         {
             "@id": "UNTDID3035Type:US",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "US",
             "rdfs:comment": "Bailiff"
         },
         {
             "@id": "UNTDID3035Type:UT",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "UT",
             "rdfs:comment": "Merged company"
         },
         {
             "@id": "UNTDID3035Type:UU",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "UU",
             "rdfs:comment": "Defendant"
         },
         {
             "@id": "UNTDID3035Type:UV",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "UV",
             "rdfs:comment": "Petitioning creditor"
         },
         {
             "@id": "UNTDID3035Type:UW",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "UW",
             "rdfs:comment": "Guarantee agency"
         },
         {
             "@id": "UNTDID3035Type:UX",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "UX",
             "rdfs:comment": "Organization group"
         },
         {
             "@id": "UNTDID3035Type:UY",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "UY",
             "rdfs:comment": "Subsidiary"
         },
         {
             "@id": "UNTDID3035Type:UZ",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "UZ",
             "rdfs:comment": "Industry association"
         },
         {
             "@id": "UNTDID3035Type:VA",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "VA",
             "rdfs:comment": "Joint owner"
         },
         {
             "@id": "UNTDID3035Type:VB",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "VB",
             "rdfs:comment": "Joint venture"
         },
         {
             "@id": "UNTDID3035Type:VC",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "VC",
             "rdfs:comment": "Filing office"
         },
         {
             "@id": "UNTDID3035Type:VE",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "VE",
             "rdfs:comment": "Court"
         },
         {
             "@id": "UNTDID3035Type:VF",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "VF",
             "rdfs:comment": "Liability holder"
         },
         {
             "@id": "UNTDID3035Type:VG",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "VG",
             "rdfs:comment": "Local government sponsor"
         },
         {
             "@id": "UNTDID3035Type:VH",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "VH",
             "rdfs:comment": "Mortgage company"
         },
         {
             "@id": "UNTDID3035Type:VI",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "VI",
             "rdfs:comment": "Notary public"
         },
         {
             "@id": "UNTDID3035Type:VJ",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "VJ",
             "rdfs:comment": "Officer"
         },
         {
             "@id": "UNTDID3035Type:VK",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "VK",
             "rdfs:comment": "Publisher"
         },
         {
             "@id": "UNTDID3035Type:VL",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "VL",
             "rdfs:comment": "Party manufactured for"
         },
         {
             "@id": "UNTDID3035Type:VM",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "VM",
             "rdfs:comment": "Previous owner"
         },
         {
             "@id": "UNTDID3035Type:VN",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "VN",
             "rdfs:comment": "Vendor"
         },
         {
             "@id": "UNTDID3035Type:VO",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "VO",
             "rdfs:comment": "Purchased company"
         },
         {
             "@id": "UNTDID3035Type:VP",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "VP",
             "rdfs:comment": "Receiver manager"
         },
         {
             "@id": "UNTDID3035Type:VQ",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "VQ",
             "rdfs:comment": "Responsible government agency"
         },
         {
             "@id": "UNTDID3035Type:VR",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "VR",
             "rdfs:comment": "Sole proprietor"
         },
         {
             "@id": "UNTDID3035Type:VS",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "VS",
             "rdfs:comment": "Auctioneer"
         },
         {
             "@id": "UNTDID3035Type:VT",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "VT",
             "rdfs:comment": "Branch"
         },
         {
             "@id": "UNTDID3035Type:VU",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "VU",
             "rdfs:comment": "Business"
         },
         {
             "@id": "UNTDID3035Type:VV",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "VV",
             "rdfs:comment": "Ultimate same country parent company"
         },
         {
             "@id": "UNTDID3035Type:VW",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "VW",
             "rdfs:comment": "Responsible party"
         },
         {
             "@id": "UNTDID3035Type:VX",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "VX",
             "rdfs:comment": "Secured party"
         },
         {
             "@id": "UNTDID3035Type:VY",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "VY",
             "rdfs:comment": "Other related party"
         },
         {
             "@id": "UNTDID3035Type:VZ",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "VZ",
             "rdfs:comment": "Co-debtor"
         },
         {
             "@id": "UNTDID3035Type:WA",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "WA",
             "rdfs:comment": "Company which holds financial interest"
         },
         {
             "@id": "UNTDID3035Type:WB",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "WB",
             "rdfs:comment": "Rating organization"
         },
         {
             "@id": "UNTDID3035Type:WC",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "WC",
             "rdfs:comment": "Information reference agency"
         },
         {
             "@id": "UNTDID3035Type:WD",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "WD",
             "rdfs:comment": "Warehouse depositor"
         },
         {
             "@id": "UNTDID3035Type:WE",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "WE",
             "rdfs:comment": "Compilation agency"
         },
         {
             "@id": "UNTDID3035Type:WF",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "WF",
             "rdfs:comment": "Information maintenance agency"
         },
         {
             "@id": "UNTDID3035Type:WG",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "WG",
             "rdfs:comment": "Information dissemination agency"
         },
         {
             "@id": "UNTDID3035Type:WH",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "WH",
             "rdfs:comment": "Warehouse keeper"
         },
         {
             "@id": "UNTDID3035Type:WI",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "WI",
             "rdfs:comment": "Inspection address"
         },
         {
             "@id": "UNTDID3035Type:WJ",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "WJ",
             "rdfs:comment": "Refusal party"
         },
         {
             "@id": "UNTDID3035Type:WK",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "WK",
             "rdfs:comment": "Value added network provider"
         },
         {
             "@id": "UNTDID3035Type:WL",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "WL",
             "rdfs:comment": "Agency"
         },
         {
             "@id": "UNTDID3035Type:WM",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "WM",
             "rdfs:comment": "Works manager"
         },
         {
             "@id": "UNTDID3035Type:WN",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "WN",
             "rdfs:comment": "Party to receive order to supply"
         },
         {
             "@id": "UNTDID3035Type:WO",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "WO",
             "rdfs:comment": "Party to receive invitation to offer"
         },
         {
             "@id": "UNTDID3035Type:WP",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "WP",
             "rdfs:comment": "Sub-entity"
         },
         {
             "@id": "UNTDID3035Type:WPA",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "WPA",
             "rdfs:comment": "Weighting party"
         },
         {
             "@id": "UNTDID3035Type:WQ",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "WQ",
             "rdfs:comment": "Doing business as"
         },
         {
             "@id": "UNTDID3035Type:WR",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "WR",
             "rdfs:comment": "Party submitting quote"
         },
         {
             "@id": "UNTDID3035Type:WS",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "WS",
             "rdfs:comment": "Wholesaler"
         },
         {
             "@id": "UNTDID3035Type:WT",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "WT",
             "rdfs:comment": "Affiliated party"
         },
         {
             "@id": "UNTDID3035Type:WU",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "WU",
             "rdfs:comment": "Previous name"
         },
         {
             "@id": "UNTDID3035Type:WV",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "WV",
             "rdfs:comment": "Party performing task"
         },
         {
             "@id": "UNTDID3035Type:WW",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "WW",
             "rdfs:comment": "Registering party"
         },
         {
             "@id": "UNTDID3035Type:WX",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "WX",
             "rdfs:comment": "Inland clearance depot operator"
         },
         {
             "@id": "UNTDID3035Type:WY",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "WY",
             "rdfs:comment": "Destination terminal operator"
         },
         {
             "@id": "UNTDID3035Type:WZ",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "WZ",
             "rdfs:comment": "Departure terminal operator"
         },
         {
             "@id": "UNTDID3035Type:ZZZ",
-            "@type": "unece:PartyRoleCodeType",
+            "@type": "unece:PartyRoleCode",
             "rdf:value": "ZZZ",
             "rdfs:comment": "Mutually defined"
         }

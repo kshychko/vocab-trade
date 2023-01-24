@@ -9,55 +9,55 @@
     "@graph": [
         {
             "@id": "UNTDID8101Type:BS",
-            "@type": "unece:TransportMeansDirectionCodeType",
+            "@type": "unece:TransportMeansDirectionCode",
             "rdf:value": "BS",
             "rdfs:comment": "Buyer to seller"
         },
         {
             "@id": "UNTDID8101Type:SB",
-            "@type": "unece:TransportMeansDirectionCodeType",
+            "@type": "unece:TransportMeansDirectionCode",
             "rdf:value": "SB",
             "rdfs:comment": "Seller to buyer"
         },
         {
             "@id": "UNTDID8101Type:SC",
-            "@type": "unece:TransportMeansDirectionCodeType",
+            "@type": "unece:TransportMeansDirectionCode",
             "rdf:value": "SC",
             "rdfs:comment": "Subcontractor to seller"
         },
         {
             "@id": "UNTDID8101Type:SD",
-            "@type": "unece:TransportMeansDirectionCodeType",
+            "@type": "unece:TransportMeansDirectionCode",
             "rdf:value": "SD",
             "rdfs:comment": "Seller to drop ship designated location"
         },
         {
             "@id": "UNTDID8101Type:SF",
-            "@type": "unece:TransportMeansDirectionCodeType",
+            "@type": "unece:TransportMeansDirectionCode",
             "rdf:value": "SF",
             "rdfs:comment": "Seller to freight forwarder"
         },
         {
             "@id": "UNTDID8101Type:SS",
-            "@type": "unece:TransportMeansDirectionCodeType",
+            "@type": "unece:TransportMeansDirectionCode",
             "rdf:value": "SS",
             "rdfs:comment": "Seller to subcontractor"
         },
         {
             "@id": "UNTDID8101Type:ST",
-            "@type": "unece:TransportMeansDirectionCodeType",
+            "@type": "unece:TransportMeansDirectionCode",
             "rdf:value": "ST",
             "rdfs:comment": "Mother vessel to lighter"
         },
         {
             "@id": "UNTDID8101Type:SU",
-            "@type": "unece:TransportMeansDirectionCodeType",
+            "@type": "unece:TransportMeansDirectionCode",
             "rdf:value": "SU",
             "rdfs:comment": "Lighter to mother vessel"
         },
         {
             "@id": "UNTDID8101Type:ZZZ",
-            "@type": "unece:TransportMeansDirectionCodeType",
+            "@type": "unece:TransportMeansDirectionCode",
             "rdf:value": "ZZZ",
             "rdfs:comment": "Mutually defined"
         }

@@ -9,151 +9,151 @@
     "@graph": [
         {
             "@id": "UNTDID4017Type:1",
-            "@type": "unece:CommitmentLevelCodeType",
+            "@type": "unece:CommitmentLevelCode",
             "rdf:value": "1",
             "rdfs:comment": "Firm"
         },
         {
             "@id": "UNTDID4017Type:2",
-            "@type": "unece:CommitmentLevelCodeType",
+            "@type": "unece:CommitmentLevelCode",
             "rdf:value": "2",
             "rdfs:comment": "Commitment for manufacturing and material"
         },
         {
             "@id": "UNTDID4017Type:3",
-            "@type": "unece:CommitmentLevelCodeType",
+            "@type": "unece:CommitmentLevelCode",
             "rdf:value": "3",
             "rdfs:comment": "Commitment for material"
         },
         {
             "@id": "UNTDID4017Type:4",
-            "@type": "unece:CommitmentLevelCodeType",
+            "@type": "unece:CommitmentLevelCode",
             "rdf:value": "4",
             "rdfs:comment": "Planning/forecast"
         },
         {
             "@id": "UNTDID4017Type:5",
-            "@type": "unece:CommitmentLevelCodeType",
+            "@type": "unece:CommitmentLevelCode",
             "rdf:value": "5",
             "rdfs:comment": "Short delivered on previous delivery"
         },
         {
             "@id": "UNTDID4017Type:6",
-            "@type": "unece:CommitmentLevelCodeType",
+            "@type": "unece:CommitmentLevelCode",
             "rdf:value": "6",
             "rdfs:comment": "Capacity available"
         },
         {
             "@id": "UNTDID4017Type:7",
-            "@type": "unece:CommitmentLevelCodeType",
+            "@type": "unece:CommitmentLevelCode",
             "rdf:value": "7",
             "rdfs:comment": "Promotion"
         },
         {
             "@id": "UNTDID4017Type:8",
-            "@type": "unece:CommitmentLevelCodeType",
+            "@type": "unece:CommitmentLevelCode",
             "rdf:value": "8",
             "rdfs:comment": "Special demand"
         },
         {
             "@id": "UNTDID4017Type:9",
-            "@type": "unece:CommitmentLevelCodeType",
+            "@type": "unece:CommitmentLevelCode",
             "rdf:value": "9",
             "rdfs:comment": "User defined"
         },
         {
             "@id": "UNTDID4017Type:10",
-            "@type": "unece:CommitmentLevelCodeType",
+            "@type": "unece:CommitmentLevelCode",
             "rdf:value": "10",
             "rdfs:comment": "Immediate"
         },
         {
             "@id": "UNTDID4017Type:11",
-            "@type": "unece:CommitmentLevelCodeType",
+            "@type": "unece:CommitmentLevelCode",
             "rdf:value": "11",
             "rdfs:comment": "Pilot/Pre-volume"
         },
         {
             "@id": "UNTDID4017Type:12",
-            "@type": "unece:CommitmentLevelCodeType",
+            "@type": "unece:CommitmentLevelCode",
             "rdf:value": "12",
             "rdfs:comment": "Planning"
         },
         {
             "@id": "UNTDID4017Type:13",
-            "@type": "unece:CommitmentLevelCodeType",
+            "@type": "unece:CommitmentLevelCode",
             "rdf:value": "13",
             "rdfs:comment": "Potential order increase"
         },
         {
             "@id": "UNTDID4017Type:14",
-            "@type": "unece:CommitmentLevelCodeType",
+            "@type": "unece:CommitmentLevelCode",
             "rdf:value": "14",
             "rdfs:comment": "Average plant usage"
         },
         {
             "@id": "UNTDID4017Type:15",
-            "@type": "unece:CommitmentLevelCodeType",
+            "@type": "unece:CommitmentLevelCode",
             "rdf:value": "15",
             "rdfs:comment": "First time reported firm"
         },
         {
             "@id": "UNTDID4017Type:16",
-            "@type": "unece:CommitmentLevelCodeType",
+            "@type": "unece:CommitmentLevelCode",
             "rdf:value": "16",
             "rdfs:comment": "Maximum"
         },
         {
             "@id": "UNTDID4017Type:17",
-            "@type": "unece:CommitmentLevelCodeType",
+            "@type": "unece:CommitmentLevelCode",
             "rdf:value": "17",
             "rdfs:comment": "Tooling capacity"
         },
         {
             "@id": "UNTDID4017Type:18",
-            "@type": "unece:CommitmentLevelCodeType",
+            "@type": "unece:CommitmentLevelCode",
             "rdf:value": "18",
             "rdfs:comment": "Normal tooling capacity"
         },
         {
             "@id": "UNTDID4017Type:19",
-            "@type": "unece:CommitmentLevelCodeType",
+            "@type": "unece:CommitmentLevelCode",
             "rdf:value": "19",
             "rdfs:comment": "Prototype"
         },
         {
             "@id": "UNTDID4017Type:20",
-            "@type": "unece:CommitmentLevelCodeType",
+            "@type": "unece:CommitmentLevelCode",
             "rdf:value": "20",
             "rdfs:comment": "Strike protection"
         },
         {
             "@id": "UNTDID4017Type:21",
-            "@type": "unece:CommitmentLevelCodeType",
+            "@type": "unece:CommitmentLevelCode",
             "rdf:value": "21",
             "rdfs:comment": "Required tooling capacity"
         },
         {
             "@id": "UNTDID4017Type:22",
-            "@type": "unece:CommitmentLevelCodeType",
+            "@type": "unece:CommitmentLevelCode",
             "rdf:value": "22",
             "rdfs:comment": "Deliver to schedule"
         },
         {
             "@id": "UNTDID4017Type:23",
-            "@type": "unece:CommitmentLevelCodeType",
+            "@type": "unece:CommitmentLevelCode",
             "rdf:value": "23",
             "rdfs:comment": "Await manual pull"
         },
         {
             "@id": "UNTDID4017Type:24",
-            "@type": "unece:CommitmentLevelCodeType",
+            "@type": "unece:CommitmentLevelCode",
             "rdf:value": "24",
             "rdfs:comment": "Reference to commercial agreement between partners"
         },
         {
             "@id": "UNTDID4017Type:26",
-            "@type": "unece:CommitmentLevelCodeType",
+            "@type": "unece:CommitmentLevelCode",
             "rdf:value": "26",
             "rdfs:comment": "Proposed"
         }

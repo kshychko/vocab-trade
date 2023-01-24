@@ -9,31 +9,31 @@
     "@graph": [
         {
             "@id": "UNTDID9213Type:1",
-            "@type": "unece:CustomsDutyRegimeTypeCodeType",
+            "@type": "unece:CustomsDutyRegimeTypeCode",
             "rdf:value": "1",
             "rdfs:comment": "Origin subject to EC/EFTA preference"
         },
         {
             "@id": "UNTDID9213Type:2",
-            "@type": "unece:CustomsDutyRegimeTypeCodeType",
+            "@type": "unece:CustomsDutyRegimeTypeCode",
             "rdf:value": "2",
             "rdfs:comment": "Origin subject to other preference agreement"
         },
         {
             "@id": "UNTDID9213Type:3",
-            "@type": "unece:CustomsDutyRegimeTypeCodeType",
+            "@type": "unece:CustomsDutyRegimeTypeCode",
             "rdf:value": "3",
             "rdfs:comment": "No preference origin"
         },
         {
             "@id": "UNTDID9213Type:8",
-            "@type": "unece:CustomsDutyRegimeTypeCodeType",
+            "@type": "unece:CustomsDutyRegimeTypeCode",
             "rdf:value": "8",
             "rdfs:comment": "Excluded origin"
         },
         {
             "@id": "UNTDID9213Type:9",
-            "@type": "unece:CustomsDutyRegimeTypeCodeType",
+            "@type": "unece:CustomsDutyRegimeTypeCode",
             "rdf:value": "9",
             "rdfs:comment": "Imposed origin"
         }

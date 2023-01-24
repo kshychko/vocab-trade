@@ -9,19 +9,19 @@
     "@graph": [
         {
             "@id": "AccessRightsTypeType:P",
-            "@type": "unece:AccessRightsTypeCodeType",
+            "@type": "unece:AccessRightsTypeCode",
             "rdf:value": "P",
             "rdfs:comment": "Prohibited"
         },
         {
             "@id": "AccessRightsTypeType:R",
-            "@type": "unece:AccessRightsTypeCodeType",
+            "@type": "unece:AccessRightsTypeCode",
             "rdf:value": "R",
             "rdfs:comment": "Restricted"
         },
         {
             "@id": "AccessRightsTypeType:U",
-            "@type": "unece:AccessRightsTypeCodeType",
+            "@type": "unece:AccessRightsTypeCode",
             "rdf:value": "U",
             "rdfs:comment": "Unlimited"
         }

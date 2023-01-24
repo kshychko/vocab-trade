@@ -9,25 +9,25 @@
     "@graph": [
         {
             "@id": "UNTDID8339Type:1",
-            "@type": "unece:DangerousGoodsPackagingLevelCodeType",
+            "@type": "unece:DangerousGoodsPackagingLevelCode",
             "rdf:value": "1",
             "rdfs:comment": "Great danger"
         },
         {
             "@id": "UNTDID8339Type:2",
-            "@type": "unece:DangerousGoodsPackagingLevelCodeType",
+            "@type": "unece:DangerousGoodsPackagingLevelCode",
             "rdf:value": "2",
             "rdfs:comment": "Medium danger"
         },
         {
             "@id": "UNTDID8339Type:3",
-            "@type": "unece:DangerousGoodsPackagingLevelCodeType",
+            "@type": "unece:DangerousGoodsPackagingLevelCode",
             "rdf:value": "3",
             "rdfs:comment": "Minor danger"
         },
         {
             "@id": "UNTDID8339Type:4",
-            "@type": "unece:DangerousGoodsPackagingLevelCodeType",
+            "@type": "unece:DangerousGoodsPackagingLevelCode",
             "rdf:value": "4",
             "rdfs:comment": "Not assigned"
         }

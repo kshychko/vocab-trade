@@ -9,283 +9,283 @@
     "@graph": [
         {
             "@id": "UNTDID3155Type:AA",
-            "@type": "unece:CommunicationChannelCodeType",
+            "@type": "unece:CommunicationChannelCode",
             "rdf:value": "AA",
             "rdfs:comment": "Circuit switching"
         },
         {
             "@id": "UNTDID3155Type:AB",
-            "@type": "unece:CommunicationChannelCodeType",
+            "@type": "unece:CommunicationChannelCode",
             "rdf:value": "AB",
             "rdfs:comment": "SITA"
         },
         {
             "@id": "UNTDID3155Type:AC",
-            "@type": "unece:CommunicationChannelCodeType",
+            "@type": "unece:CommunicationChannelCode",
             "rdf:value": "AC",
             "rdfs:comment": "ARINC"
         },
         {
             "@id": "UNTDID3155Type:AD",
-            "@type": "unece:CommunicationChannelCodeType",
+            "@type": "unece:CommunicationChannelCode",
             "rdf:value": "AD",
             "rdfs:comment": "AT&T mailbox"
         },
         {
             "@id": "UNTDID3155Type:AE",
-            "@type": "unece:CommunicationChannelCodeType",
+            "@type": "unece:CommunicationChannelCode",
             "rdf:value": "AE",
             "rdfs:comment": "Peripheral device"
         },
         {
             "@id": "UNTDID3155Type:AF",
-            "@type": "unece:CommunicationChannelCodeType",
+            "@type": "unece:CommunicationChannelCode",
             "rdf:value": "AF",
             "rdfs:comment": "U.S. Defense Switched Network"
         },
         {
             "@id": "UNTDID3155Type:AG",
-            "@type": "unece:CommunicationChannelCodeType",
+            "@type": "unece:CommunicationChannelCode",
             "rdf:value": "AG",
             "rdfs:comment": "U.S. federal telecommunications system"
         },
         {
             "@id": "UNTDID3155Type:AH",
-            "@type": "unece:CommunicationChannelCodeType",
+            "@type": "unece:CommunicationChannelCode",
             "rdf:value": "AH",
             "rdfs:comment": "World Wide Web"
         },
         {
             "@id": "UNTDID3155Type:AI",
-            "@type": "unece:CommunicationChannelCodeType",
+            "@type": "unece:CommunicationChannelCode",
             "rdf:value": "AI",
             "rdfs:comment": "International calling country code"
         },
         {
             "@id": "UNTDID3155Type:AJ",
-            "@type": "unece:CommunicationChannelCodeType",
+            "@type": "unece:CommunicationChannelCode",
             "rdf:value": "AJ",
             "rdfs:comment": "Alternate telephone"
         },
         {
             "@id": "UNTDID3155Type:AK",
-            "@type": "unece:CommunicationChannelCodeType",
+            "@type": "unece:CommunicationChannelCode",
             "rdf:value": "AK",
             "rdfs:comment": "Videotex number"
         },
         {
             "@id": "UNTDID3155Type:AL",
-            "@type": "unece:CommunicationChannelCodeType",
+            "@type": "unece:CommunicationChannelCode",
             "rdf:value": "AL",
             "rdfs:comment": "Cellular phone"
         },
         {
             "@id": "UNTDID3155Type:AM",
-            "@type": "unece:CommunicationChannelCodeType",
+            "@type": "unece:CommunicationChannelCode",
             "rdf:value": "AM",
             "rdfs:comment": "International telephone direct line"
         },
         {
             "@id": "UNTDID3155Type:AN",
-            "@type": "unece:CommunicationChannelCodeType",
+            "@type": "unece:CommunicationChannelCode",
             "rdf:value": "AN",
             "rdfs:comment": "O.F.T.P. (ODETTE File Transfer Protocol)"
         },
         {
             "@id": "UNTDID3155Type:AO",
-            "@type": "unece:CommunicationChannelCodeType",
+            "@type": "unece:CommunicationChannelCode",
             "rdf:value": "AO",
             "rdfs:comment": "Uniform Resource Location (URL)"
         },
         {
             "@id": "UNTDID3155Type:AP",
-            "@type": "unece:CommunicationChannelCodeType",
+            "@type": "unece:CommunicationChannelCode",
             "rdf:value": "AP",
             "rdfs:comment": "Very High Frequency (VHF) radio telephone"
         },
         {
             "@id": "UNTDID3155Type:AQ",
-            "@type": "unece:CommunicationChannelCodeType",
+            "@type": "unece:CommunicationChannelCode",
             "rdf:value": "AQ",
             "rdfs:comment": "X.400 address for mail text"
         },
         {
             "@id": "UNTDID3155Type:AR",
-            "@type": "unece:CommunicationChannelCodeType",
+            "@type": "unece:CommunicationChannelCode",
             "rdf:value": "AR",
             "rdfs:comment": "AS1 address"
         },
         {
             "@id": "UNTDID3155Type:AS",
-            "@type": "unece:CommunicationChannelCodeType",
+            "@type": "unece:CommunicationChannelCode",
             "rdf:value": "AS",
             "rdfs:comment": "AS2 address"
         },
         {
             "@id": "UNTDID3155Type:AT",
-            "@type": "unece:CommunicationChannelCodeType",
+            "@type": "unece:CommunicationChannelCode",
             "rdf:value": "AT",
             "rdfs:comment": "AS3 address"
         },
         {
             "@id": "UNTDID3155Type:AU",
-            "@type": "unece:CommunicationChannelCodeType",
+            "@type": "unece:CommunicationChannelCode",
             "rdf:value": "AU",
             "rdfs:comment": "File Transfer Protocol"
         },
         {
             "@id": "UNTDID3155Type:AV",
-            "@type": "unece:CommunicationChannelCodeType",
+            "@type": "unece:CommunicationChannelCode",
             "rdf:value": "AV",
             "rdfs:comment": "Inmarsat call number"
         },
         {
             "@id": "UNTDID3155Type:AW",
-            "@type": "unece:CommunicationChannelCodeType",
+            "@type": "unece:CommunicationChannelCode",
             "rdf:value": "AW",
             "rdfs:comment": "Radio communication call sign"
         },
         {
             "@id": "UNTDID3155Type:CA",
-            "@type": "unece:CommunicationChannelCodeType",
+            "@type": "unece:CommunicationChannelCode",
             "rdf:value": "CA",
             "rdfs:comment": "Cable address"
         },
         {
             "@id": "UNTDID3155Type:EI",
-            "@type": "unece:CommunicationChannelCodeType",
+            "@type": "unece:CommunicationChannelCode",
             "rdf:value": "EI",
             "rdfs:comment": "EDI transmission"
         },
         {
             "@id": "UNTDID3155Type:EM",
-            "@type": "unece:CommunicationChannelCodeType",
+            "@type": "unece:CommunicationChannelCode",
             "rdf:value": "EM",
             "rdfs:comment": "Electronic mail"
         },
         {
             "@id": "UNTDID3155Type:EX",
-            "@type": "unece:CommunicationChannelCodeType",
+            "@type": "unece:CommunicationChannelCode",
             "rdf:value": "EX",
             "rdfs:comment": "Extension"
         },
         {
             "@id": "UNTDID3155Type:FT",
-            "@type": "unece:CommunicationChannelCodeType",
+            "@type": "unece:CommunicationChannelCode",
             "rdf:value": "FT",
             "rdfs:comment": "File transfer access method"
         },
         {
             "@id": "UNTDID3155Type:FX",
-            "@type": "unece:CommunicationChannelCodeType",
+            "@type": "unece:CommunicationChannelCode",
             "rdf:value": "FX",
             "rdfs:comment": "Telefax"
         },
         {
             "@id": "UNTDID3155Type:GM",
-            "@type": "unece:CommunicationChannelCodeType",
+            "@type": "unece:CommunicationChannelCode",
             "rdf:value": "GM",
             "rdfs:comment": "GEIS (General Electric Information Service) mailbox"
         },
         {
             "@id": "UNTDID3155Type:IE",
-            "@type": "unece:CommunicationChannelCodeType",
+            "@type": "unece:CommunicationChannelCode",
             "rdf:value": "IE",
             "rdfs:comment": "IBM information exchange"
         },
         {
             "@id": "UNTDID3155Type:IM",
-            "@type": "unece:CommunicationChannelCodeType",
+            "@type": "unece:CommunicationChannelCode",
             "rdf:value": "IM",
             "rdfs:comment": "Internal mail"
         },
         {
             "@id": "UNTDID3155Type:MA",
-            "@type": "unece:CommunicationChannelCodeType",
+            "@type": "unece:CommunicationChannelCode",
             "rdf:value": "MA",
             "rdfs:comment": "Mail"
         },
         {
             "@id": "UNTDID3155Type:PB",
-            "@type": "unece:CommunicationChannelCodeType",
+            "@type": "unece:CommunicationChannelCode",
             "rdf:value": "PB",
             "rdfs:comment": "Postbox number"
         },
         {
             "@id": "UNTDID3155Type:PS",
-            "@type": "unece:CommunicationChannelCodeType",
+            "@type": "unece:CommunicationChannelCode",
             "rdf:value": "PS",
             "rdfs:comment": "Packet switching"
         },
         {
             "@id": "UNTDID3155Type:SW",
-            "@type": "unece:CommunicationChannelCodeType",
+            "@type": "unece:CommunicationChannelCode",
             "rdf:value": "SW",
             "rdfs:comment": "S.W.I.F.T."
         },
         {
             "@id": "UNTDID3155Type:TE",
-            "@type": "unece:CommunicationChannelCodeType",
+            "@type": "unece:CommunicationChannelCode",
             "rdf:value": "TE",
             "rdfs:comment": "Telephone"
         },
         {
             "@id": "UNTDID3155Type:TG",
-            "@type": "unece:CommunicationChannelCodeType",
+            "@type": "unece:CommunicationChannelCode",
             "rdf:value": "TG",
             "rdfs:comment": "Telegraph"
         },
         {
             "@id": "UNTDID3155Type:TL",
-            "@type": "unece:CommunicationChannelCodeType",
+            "@type": "unece:CommunicationChannelCode",
             "rdf:value": "TL",
             "rdfs:comment": "Telex"
         },
         {
             "@id": "UNTDID3155Type:TM",
-            "@type": "unece:CommunicationChannelCodeType",
+            "@type": "unece:CommunicationChannelCode",
             "rdf:value": "TM",
             "rdfs:comment": "Telemail"
         },
         {
             "@id": "UNTDID3155Type:TT",
-            "@type": "unece:CommunicationChannelCodeType",
+            "@type": "unece:CommunicationChannelCode",
             "rdf:value": "TT",
             "rdfs:comment": "Teletext"
         },
         {
             "@id": "UNTDID3155Type:TX",
-            "@type": "unece:CommunicationChannelCodeType",
+            "@type": "unece:CommunicationChannelCode",
             "rdf:value": "TX",
             "rdfs:comment": "TWX"
         },
         {
             "@id": "UNTDID3155Type:XF",
-            "@type": "unece:CommunicationChannelCodeType",
+            "@type": "unece:CommunicationChannelCode",
             "rdf:value": "XF",
             "rdfs:comment": "X.400 address"
         },
         {
             "@id": "UNTDID3155Type:XG",
-            "@type": "unece:CommunicationChannelCodeType",
+            "@type": "unece:CommunicationChannelCode",
             "rdf:value": "XG",
             "rdfs:comment": "Pager"
         },
         {
             "@id": "UNTDID3155Type:XH",
-            "@type": "unece:CommunicationChannelCodeType",
+            "@type": "unece:CommunicationChannelCode",
             "rdf:value": "XH",
             "rdfs:comment": "International telephone switchboard"
         },
         {
             "@id": "UNTDID3155Type:XI",
-            "@type": "unece:CommunicationChannelCodeType",
+            "@type": "unece:CommunicationChannelCode",
             "rdf:value": "XI",
             "rdfs:comment": "National telephone direct line"
         },
         {
             "@id": "UNTDID3155Type:XJ",
-            "@type": "unece:CommunicationChannelCodeType",
+            "@type": "unece:CommunicationChannelCode",
             "rdf:value": "XJ",
             "rdfs:comment": "National telephone switchboard"
         }

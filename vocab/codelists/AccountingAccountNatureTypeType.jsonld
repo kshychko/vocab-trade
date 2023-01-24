@@ -9,31 +9,31 @@
     "@graph": [
         {
             "@id": "AccountingAccountNatureTypeType:1",
-            "@type": "unece:AccountingAccountNatureTypeCodeType",
+            "@type": "unece:AccountingAccountNatureTypeCode",
             "rdf:value": "1",
             "rdfs:comment": "Receivable Third"
         },
         {
             "@id": "AccountingAccountNatureTypeType:2",
-            "@type": "unece:AccountingAccountNatureTypeCodeType",
+            "@type": "unece:AccountingAccountNatureTypeCode",
             "rdf:value": "2",
             "rdfs:comment": "Payable Third"
         },
         {
             "@id": "AccountingAccountNatureTypeType:3",
-            "@type": "unece:AccountingAccountNatureTypeCodeType",
+            "@type": "unece:AccountingAccountNatureTypeCode",
             "rdf:value": "3",
             "rdfs:comment": "Expense"
         },
         {
             "@id": "AccountingAccountNatureTypeType:4",
-            "@type": "unece:AccountingAccountNatureTypeCodeType",
+            "@type": "unece:AccountingAccountNatureTypeCode",
             "rdf:value": "4",
             "rdfs:comment": "Income"
         },
         {
             "@id": "AccountingAccountNatureTypeType:5",
-            "@type": "unece:AccountingAccountNatureTypeCodeType",
+            "@type": "unece:AccountingAccountNatureTypeCode",
             "rdf:value": "5",
             "rdfs:comment": "Assets"
         }

@@ -9,61 +9,61 @@
     "@graph": [
         {
             "@id": "UNTDID8067Type:0",
-            "@type": "unece:TransportModeCodeType",
+            "@type": "unece:TransportModeCode",
             "rdf:value": "0",
             "rdfs:comment": "Transport mode not specified"
         },
         {
             "@id": "UNTDID8067Type:1",
-            "@type": "unece:TransportModeCodeType",
+            "@type": "unece:TransportModeCode",
             "rdf:value": "1",
             "rdfs:comment": "Maritime transport"
         },
         {
             "@id": "UNTDID8067Type:2",
-            "@type": "unece:TransportModeCodeType",
+            "@type": "unece:TransportModeCode",
             "rdf:value": "2",
             "rdfs:comment": "Rail transport"
         },
         {
             "@id": "UNTDID8067Type:3",
-            "@type": "unece:TransportModeCodeType",
+            "@type": "unece:TransportModeCode",
             "rdf:value": "3",
             "rdfs:comment": "Road transport"
         },
         {
             "@id": "UNTDID8067Type:4",
-            "@type": "unece:TransportModeCodeType",
+            "@type": "unece:TransportModeCode",
             "rdf:value": "4",
             "rdfs:comment": "Air transport"
         },
         {
             "@id": "UNTDID8067Type:5",
-            "@type": "unece:TransportModeCodeType",
+            "@type": "unece:TransportModeCode",
             "rdf:value": "5",
             "rdfs:comment": "Mail"
         },
         {
             "@id": "UNTDID8067Type:6",
-            "@type": "unece:TransportModeCodeType",
+            "@type": "unece:TransportModeCode",
             "rdf:value": "6",
             "rdfs:comment": "Multimodal transport"
         },
         {
             "@id": "UNTDID8067Type:7",
-            "@type": "unece:TransportModeCodeType",
+            "@type": "unece:TransportModeCode",
             "rdf:value": "7",
             "rdfs:comment": "Fixed transport installations"
         },
         {
             "@id": "UNTDID8067Type:8",
-            "@type": "unece:TransportModeCodeType",
+            "@type": "unece:TransportModeCode",
             "rdf:value": "8",
             "rdfs:comment": "Inland water transport"
         },
         {
             "@id": "UNTDID8067Type:9",
-            "@type": "unece:TransportModeCodeType",
+            "@type": "unece:TransportModeCode",
             "rdf:value": "9",
             "rdfs:comment": "Transport mode not applicable"
         }

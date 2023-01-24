@@ -9,13 +9,13 @@
     "@graph": [
         {
             "@id": "MeasurementUnitCommonCodeWeightType:KGM",
-            "@type": "unece:WeightUnitCodeType",
+            "@type": "unece:WeightUnitMeasureCode",
             "rdf:value": "KGM",
             "rdfs:comment": "kilogram"
         },
         {
             "@id": "MeasurementUnitCommonCodeWeightType:TNE",
-            "@type": "unece:WeightUnitCodeType",
+            "@type": "unece:WeightUnitMeasureCode",
             "rdf:value": "TNE",
             "rdfs:comment": "tonne (metric ton)"
         }

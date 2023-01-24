@@ -9,43 +9,43 @@
     "@graph": [
         {
             "@id": "UNTDID9303Type:AA",
-            "@type": "unece:SealingPartyRoleCodeType",
+            "@type": "unece:SealingPartyRoleCode",
             "rdf:value": "AA",
             "rdfs:comment": "Consolidator"
         },
         {
             "@id": "UNTDID9303Type:AB",
-            "@type": "unece:SealingPartyRoleCodeType",
+            "@type": "unece:SealingPartyRoleCode",
             "rdf:value": "AB",
             "rdfs:comment": "Unknown"
         },
         {
             "@id": "UNTDID9303Type:AC",
-            "@type": "unece:SealingPartyRoleCodeType",
+            "@type": "unece:SealingPartyRoleCode",
             "rdf:value": "AC",
             "rdfs:comment": "Quarantine agency"
         },
         {
             "@id": "UNTDID9303Type:CA",
-            "@type": "unece:SealingPartyRoleCodeType",
+            "@type": "unece:SealingPartyRoleCode",
             "rdf:value": "CA",
             "rdfs:comment": "Carrier"
         },
         {
             "@id": "UNTDID9303Type:CU",
-            "@type": "unece:SealingPartyRoleCodeType",
+            "@type": "unece:SealingPartyRoleCode",
             "rdf:value": "CU",
             "rdfs:comment": "Customs"
         },
         {
             "@id": "UNTDID9303Type:SH",
-            "@type": "unece:SealingPartyRoleCodeType",
+            "@type": "unece:SealingPartyRoleCode",
             "rdf:value": "SH",
             "rdfs:comment": "Shipper"
         },
         {
             "@id": "UNTDID9303Type:TO",
-            "@type": "unece:SealingPartyRoleCodeType",
+            "@type": "unece:SealingPartyRoleCode",
             "rdf:value": "TO",
             "rdfs:comment": "Terminal operator"
         }

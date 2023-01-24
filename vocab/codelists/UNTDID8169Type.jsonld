@@ -9,79 +9,79 @@
     "@graph": [
         {
             "@id": "UNTDID8169Type:1",
-            "@type": "unece:TransportEquipmentFullnessCodeType",
+            "@type": "unece:TransportEquipmentFullnessCode",
             "rdf:value": "1",
             "rdfs:comment": "More than one quarter volume available"
         },
         {
             "@id": "UNTDID8169Type:2",
-            "@type": "unece:TransportEquipmentFullnessCodeType",
+            "@type": "unece:TransportEquipmentFullnessCode",
             "rdf:value": "2",
             "rdfs:comment": "More than half volume available"
         },
         {
             "@id": "UNTDID8169Type:3",
-            "@type": "unece:TransportEquipmentFullnessCodeType",
+            "@type": "unece:TransportEquipmentFullnessCode",
             "rdf:value": "3",
             "rdfs:comment": "More than three quarters volume available"
         },
         {
             "@id": "UNTDID8169Type:4",
-            "@type": "unece:TransportEquipmentFullnessCodeType",
+            "@type": "unece:TransportEquipmentFullnessCode",
             "rdf:value": "4",
             "rdfs:comment": "Empty"
         },
         {
             "@id": "UNTDID8169Type:5",
-            "@type": "unece:TransportEquipmentFullnessCodeType",
+            "@type": "unece:TransportEquipmentFullnessCode",
             "rdf:value": "5",
             "rdfs:comment": "Full"
         },
         {
             "@id": "UNTDID8169Type:6",
-            "@type": "unece:TransportEquipmentFullnessCodeType",
+            "@type": "unece:TransportEquipmentFullnessCode",
             "rdf:value": "6",
             "rdfs:comment": "No volume available"
         },
         {
             "@id": "UNTDID8169Type:7",
-            "@type": "unece:TransportEquipmentFullnessCodeType",
+            "@type": "unece:TransportEquipmentFullnessCode",
             "rdf:value": "7",
             "rdfs:comment": "Full, mixed consignment"
         },
         {
             "@id": "UNTDID8169Type:8",
-            "@type": "unece:TransportEquipmentFullnessCodeType",
+            "@type": "unece:TransportEquipmentFullnessCode",
             "rdf:value": "8",
             "rdfs:comment": "Full, single consignment"
         },
         {
             "@id": "UNTDID8169Type:9",
-            "@type": "unece:TransportEquipmentFullnessCodeType",
+            "@type": "unece:TransportEquipmentFullnessCode",
             "rdf:value": "9",
             "rdfs:comment": "Part load"
         },
         {
             "@id": "UNTDID8169Type:10",
-            "@type": "unece:TransportEquipmentFullnessCodeType",
+            "@type": "unece:TransportEquipmentFullnessCode",
             "rdf:value": "10",
             "rdfs:comment": "Part load mixed consignments"
         },
         {
             "@id": "UNTDID8169Type:11",
-            "@type": "unece:TransportEquipmentFullnessCodeType",
+            "@type": "unece:TransportEquipmentFullnessCode",
             "rdf:value": "11",
             "rdfs:comment": "Single invoiced load"
         },
         {
             "@id": "UNTDID8169Type:12",
-            "@type": "unece:TransportEquipmentFullnessCodeType",
+            "@type": "unece:TransportEquipmentFullnessCode",
             "rdf:value": "12",
             "rdfs:comment": "Multi invoiced load"
         },
         {
             "@id": "UNTDID8169Type:13",
-            "@type": "unece:TransportEquipmentFullnessCodeType",
+            "@type": "unece:TransportEquipmentFullnessCode",
             "rdf:value": "13",
             "rdfs:comment": "Full load, multiple bills"
         }

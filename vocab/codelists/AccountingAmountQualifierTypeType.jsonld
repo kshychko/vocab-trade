@@ -9,19 +9,19 @@
     "@graph": [
         {
             "@id": "AccountingAmountQualifierTypeType:EN",
-            "@type": "unece:AccountingAmountQualifierCodeType",
+            "@type": "unece:AccountingAmountQualifierCode",
             "rdf:value": "EN",
             "rdfs:comment": "Entries"
         },
         {
             "@id": "AccountingAmountQualifierTypeType:SB",
-            "@type": "unece:AccountingAmountQualifierCodeType",
+            "@type": "unece:AccountingAmountQualifierCode",
             "rdf:value": "SB",
             "rdfs:comment": "Open balance"
         },
         {
             "@id": "AccountingAmountQualifierTypeType:SE",
-            "@type": "unece:AccountingAmountQualifierCodeType",
+            "@type": "unece:AccountingAmountQualifierCode",
             "rdf:value": "SE",
             "rdfs:comment": "End balance"
         }

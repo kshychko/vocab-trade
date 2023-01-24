@@ -9,7 +9,7 @@
     "@graph": [
         {
             "@id": "UNTDID6131Type:ZZZ",
-            "@type": "unece:LogisticsChargeCalculationBasisCodeType",
+            "@type": "unece:LogisticsChargeCalculationBasisCode",
             "rdf:value": "ZZZ",
             "rdfs:comment": "Mutually defined"
         }

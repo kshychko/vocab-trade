@@ -9,43 +9,43 @@
     "@graph": [
         {
             "@id": "UNTDID4277Type:1",
-            "@type": "unece:PaymentTermsIdType",
+            "@type": "unece:PaymentTermsId",
             "rdf:value": "1",
             "rdfs:comment": "Draft(s) drawn on issuing bank"
         },
         {
             "@id": "UNTDID4277Type:2",
-            "@type": "unece:PaymentTermsIdType",
+            "@type": "unece:PaymentTermsId",
             "rdf:value": "2",
             "rdfs:comment": "Draft(s) drawn on advising bank"
         },
         {
             "@id": "UNTDID4277Type:3",
-            "@type": "unece:PaymentTermsIdType",
+            "@type": "unece:PaymentTermsId",
             "rdf:value": "3",
             "rdfs:comment": "Draft(s) drawn on reimbursing bank"
         },
         {
             "@id": "UNTDID4277Type:4",
-            "@type": "unece:PaymentTermsIdType",
+            "@type": "unece:PaymentTermsId",
             "rdf:value": "4",
             "rdfs:comment": "Draft(s) drawn on applicant"
         },
         {
             "@id": "UNTDID4277Type:5",
-            "@type": "unece:PaymentTermsIdType",
+            "@type": "unece:PaymentTermsId",
             "rdf:value": "5",
             "rdfs:comment": "Draft(s) drawn on any other drawee"
         },
         {
             "@id": "UNTDID4277Type:6",
-            "@type": "unece:PaymentTermsIdType",
+            "@type": "unece:PaymentTermsId",
             "rdf:value": "6",
             "rdfs:comment": "No drafts"
         },
         {
             "@id": "UNTDID4277Type:7",
-            "@type": "unece:PaymentTermsIdType",
+            "@type": "unece:PaymentTermsId",
             "rdf:value": "7",
             "rdfs:comment": "Payment means specified in commercial account summary"
         }

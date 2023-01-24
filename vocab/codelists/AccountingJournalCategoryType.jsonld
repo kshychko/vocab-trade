@@ -9,67 +9,67 @@
     "@graph": [
         {
             "@id": "AccountingJournalCategoryType:1",
-            "@type": "unece:AccountingJournalCategoryCodeType",
+            "@type": "unece:AccountingJournalCategoryCode",
             "rdf:value": "1",
             "rdfs:comment": "Bank"
         },
         {
             "@id": "AccountingJournalCategoryType:2",
-            "@type": "unece:AccountingJournalCategoryCodeType",
+            "@type": "unece:AccountingJournalCategoryCode",
             "rdf:value": "2",
             "rdfs:comment": "Cash"
         },
         {
             "@id": "AccountingJournalCategoryType:3",
-            "@type": "unece:AccountingJournalCategoryCodeType",
+            "@type": "unece:AccountingJournalCategoryCode",
             "rdf:value": "3",
             "rdfs:comment": "Others"
         },
         {
             "@id": "AccountingJournalCategoryType:4",
-            "@type": "unece:AccountingJournalCategoryCodeType",
+            "@type": "unece:AccountingJournalCategoryCode",
             "rdf:value": "4",
             "rdfs:comment": "Purchase"
         },
         {
             "@id": "AccountingJournalCategoryType:5",
-            "@type": "unece:AccountingJournalCategoryCodeType",
+            "@type": "unece:AccountingJournalCategoryCode",
             "rdf:value": "5",
             "rdfs:comment": "Sales"
         },
         {
             "@id": "AccountingJournalCategoryType:6",
-            "@type": "unece:AccountingJournalCategoryCodeType",
+            "@type": "unece:AccountingJournalCategoryCode",
             "rdf:value": "6",
             "rdfs:comment": "Bank cheques remit"
         },
         {
             "@id": "AccountingJournalCategoryType:7",
-            "@type": "unece:AccountingJournalCategoryCodeType",
+            "@type": "unece:AccountingJournalCategoryCode",
             "rdf:value": "7",
             "rdfs:comment": "Miscellaneous"
         },
         {
             "@id": "AccountingJournalCategoryType:8",
-            "@type": "unece:AccountingJournalCategoryCodeType",
+            "@type": "unece:AccountingJournalCategoryCode",
             "rdf:value": "8",
             "rdfs:comment": "Payroll"
         },
         {
             "@id": "AccountingJournalCategoryType:9",
-            "@type": "unece:AccountingJournalCategoryCodeType",
+            "@type": "unece:AccountingJournalCategoryCode",
             "rdf:value": "9",
             "rdfs:comment": "Investments"
         },
         {
             "@id": "AccountingJournalCategoryType:10",
-            "@type": "unece:AccountingJournalCategoryCodeType",
+            "@type": "unece:AccountingJournalCategoryCode",
             "rdf:value": "10",
             "rdfs:comment": "Amortization"
         },
         {
             "@id": "AccountingJournalCategoryType:11",
-            "@type": "unece:AccountingJournalCategoryCodeType",
+            "@type": "unece:AccountingJournalCategoryCode",
             "rdf:value": "11",
             "rdfs:comment": "Depreciation"
         }
