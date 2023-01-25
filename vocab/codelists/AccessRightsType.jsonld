@@ -1,0 +1,29 @@
+
+{
+    "@context": {
+        "unece": "https://vocabulary.uncefact.org/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "AccessRightsType": "https://vocabulary.uncefact.org/codelists/AccessRightsType"
+    },
+    "@graph": [
+        {
+            "@id": "AccessRightsType:P",
+            "@type": "unece:AccessRightsTypeCodeList",
+            "rdf:value": "P",
+            "rdfs:comment": "Prohibited"
+        },
+        {
+            "@id": "AccessRightsType:R",
+            "@type": "unece:AccessRightsTypeCodeList",
+            "rdf:value": "R",
+            "rdfs:comment": "Restricted"
+        },
+        {
+            "@id": "AccessRightsType:U",
+            "@type": "unece:AccessRightsTypeCodeList",
+            "rdf:value": "U",
+            "rdfs:comment": "Unlimited"
+        }
+    ]
+}

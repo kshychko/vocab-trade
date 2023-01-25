@@ -1,0 +1,719 @@
+
+{
+    "@context": {
+        "unece": "https://vocabulary.uncefact.org/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "UNTDID1229": "https://vocabulary.uncefact.org/codelists/UNTDID1229"
+    },
+    "@graph": [
+        {
+            "@id": "UNTDID1229:1",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "1",
+            "rdfs:comment": "Added"
+        },
+        {
+            "@id": "UNTDID1229:2",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "2",
+            "rdfs:comment": "Deleted"
+        },
+        {
+            "@id": "UNTDID1229:3",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "3",
+            "rdfs:comment": "Changed"
+        },
+        {
+            "@id": "UNTDID1229:4",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "4",
+            "rdfs:comment": "No action"
+        },
+        {
+            "@id": "UNTDID1229:5",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "5",
+            "rdfs:comment": "Accepted without amendment"
+        },
+        {
+            "@id": "UNTDID1229:6",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "6",
+            "rdfs:comment": "Accepted with amendment"
+        },
+        {
+            "@id": "UNTDID1229:7",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "7",
+            "rdfs:comment": "Not accepted"
+        },
+        {
+            "@id": "UNTDID1229:8",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "8",
+            "rdfs:comment": "Schedule only"
+        },
+        {
+            "@id": "UNTDID1229:9",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "9",
+            "rdfs:comment": "Amendments"
+        },
+        {
+            "@id": "UNTDID1229:10",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "10",
+            "rdfs:comment": "Not found"
+        },
+        {
+            "@id": "UNTDID1229:11",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "11",
+            "rdfs:comment": "Not amended"
+        },
+        {
+            "@id": "UNTDID1229:12",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "12",
+            "rdfs:comment": "Line item numbers changed"
+        },
+        {
+            "@id": "UNTDID1229:13",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "13",
+            "rdfs:comment": "Buyer has deducted amount"
+        },
+        {
+            "@id": "UNTDID1229:14",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "14",
+            "rdfs:comment": "Buyer claims against invoice"
+        },
+        {
+            "@id": "UNTDID1229:15",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "15",
+            "rdfs:comment": "Charge back by seller"
+        },
+        {
+            "@id": "UNTDID1229:16",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "16",
+            "rdfs:comment": "Seller will issue credit note"
+        },
+        {
+            "@id": "UNTDID1229:17",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "17",
+            "rdfs:comment": "Terms changed for new terms"
+        },
+        {
+            "@id": "UNTDID1229:18",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "18",
+            "rdfs:comment": "Abide outcome of negotiations"
+        },
+        {
+            "@id": "UNTDID1229:19",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "19",
+            "rdfs:comment": "Seller rejects dispute"
+        },
+        {
+            "@id": "UNTDID1229:20",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "20",
+            "rdfs:comment": "Settlement"
+        },
+        {
+            "@id": "UNTDID1229:21",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "21",
+            "rdfs:comment": "No delivery"
+        },
+        {
+            "@id": "UNTDID1229:22",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "22",
+            "rdfs:comment": "Call-off delivery"
+        },
+        {
+            "@id": "UNTDID1229:23",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "23",
+            "rdfs:comment": "Proposed amendment"
+        },
+        {
+            "@id": "UNTDID1229:24",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "24",
+            "rdfs:comment": "Accepted with amendment, no confirmation required"
+        },
+        {
+            "@id": "UNTDID1229:25",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "25",
+            "rdfs:comment": "Equipment provisionally repaired"
+        },
+        {
+            "@id": "UNTDID1229:26",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "26",
+            "rdfs:comment": "Included"
+        },
+        {
+            "@id": "UNTDID1229:27",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "27",
+            "rdfs:comment": "Upon receipt and verification of documents we shall cover you when due as per your instructions"
+        },
+        {
+            "@id": "UNTDID1229:28",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "28",
+            "rdfs:comment": "Upon receipt and verification of documents we shall authorize you to debit our account with you when due"
+        },
+        {
+            "@id": "UNTDID1229:29",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "29",
+            "rdfs:comment": "On receipt of your authenticated advice we shall cover you when due as per your instructions"
+        },
+        {
+            "@id": "UNTDID1229:30",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "30",
+            "rdfs:comment": "On receipt of your authenticated advice we shall authorize you to debit our account with you when due"
+        },
+        {
+            "@id": "UNTDID1229:31",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "31",
+            "rdfs:comment": "On receipt of your authenticated advice we shall credit your account with us when due"
+        },
+        {
+            "@id": "UNTDID1229:32",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "32",
+            "rdfs:comment": "Credit advice requested for direct debit"
+        },
+        {
+            "@id": "UNTDID1229:33",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "33",
+            "rdfs:comment": "Credit advice and acknowledgement for direct debit"
+        },
+        {
+            "@id": "UNTDID1229:34",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "34",
+            "rdfs:comment": "Inquiry"
+        },
+        {
+            "@id": "UNTDID1229:35",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "35",
+            "rdfs:comment": "Checked"
+        },
+        {
+            "@id": "UNTDID1229:36",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "36",
+            "rdfs:comment": "Not checked"
+        },
+        {
+            "@id": "UNTDID1229:37",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "37",
+            "rdfs:comment": "Cancelled"
+        },
+        {
+            "@id": "UNTDID1229:38",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "38",
+            "rdfs:comment": "Replaced"
+        },
+        {
+            "@id": "UNTDID1229:39",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "39",
+            "rdfs:comment": "New"
+        },
+        {
+            "@id": "UNTDID1229:40",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "40",
+            "rdfs:comment": "Agreed"
+        },
+        {
+            "@id": "UNTDID1229:41",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "41",
+            "rdfs:comment": "Proposed"
+        },
+        {
+            "@id": "UNTDID1229:42",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "42",
+            "rdfs:comment": "Already delivered"
+        },
+        {
+            "@id": "UNTDID1229:43",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "43",
+            "rdfs:comment": "Additional subordinate structures will follow"
+        },
+        {
+            "@id": "UNTDID1229:44",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "44",
+            "rdfs:comment": "Additional subordinate structures will not follow"
+        },
+        {
+            "@id": "UNTDID1229:45",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "45",
+            "rdfs:comment": "Result opposed"
+        },
+        {
+            "@id": "UNTDID1229:46",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "46",
+            "rdfs:comment": "Auction held"
+        },
+        {
+            "@id": "UNTDID1229:47",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "47",
+            "rdfs:comment": "Legal action pursued"
+        },
+        {
+            "@id": "UNTDID1229:48",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "48",
+            "rdfs:comment": "Meeting held"
+        },
+        {
+            "@id": "UNTDID1229:49",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "49",
+            "rdfs:comment": "Result set aside"
+        },
+        {
+            "@id": "UNTDID1229:50",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "50",
+            "rdfs:comment": "Result disputed"
+        },
+        {
+            "@id": "UNTDID1229:51",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "51",
+            "rdfs:comment": "Countersued"
+        },
+        {
+            "@id": "UNTDID1229:52",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "52",
+            "rdfs:comment": "Pending"
+        },
+        {
+            "@id": "UNTDID1229:53",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "53",
+            "rdfs:comment": "Court action dismissed"
+        },
+        {
+            "@id": "UNTDID1229:54",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "54",
+            "rdfs:comment": "Referred item, accepted"
+        },
+        {
+            "@id": "UNTDID1229:55",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "55",
+            "rdfs:comment": "Referred item, rejected"
+        },
+        {
+            "@id": "UNTDID1229:56",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "56",
+            "rdfs:comment": "Debit advice statement line"
+        },
+        {
+            "@id": "UNTDID1229:57",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "57",
+            "rdfs:comment": "Credit advice statement line"
+        },
+        {
+            "@id": "UNTDID1229:58",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "58",
+            "rdfs:comment": "Grouped credit advices"
+        },
+        {
+            "@id": "UNTDID1229:59",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "59",
+            "rdfs:comment": "Grouped debit advices"
+        },
+        {
+            "@id": "UNTDID1229:60",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "60",
+            "rdfs:comment": "Registered"
+        },
+        {
+            "@id": "UNTDID1229:61",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "61",
+            "rdfs:comment": "Payment denied"
+        },
+        {
+            "@id": "UNTDID1229:62",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "62",
+            "rdfs:comment": "Approved as amended"
+        },
+        {
+            "@id": "UNTDID1229:63",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "63",
+            "rdfs:comment": "Approved as submitted"
+        },
+        {
+            "@id": "UNTDID1229:64",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "64",
+            "rdfs:comment": "Cancelled, no activity"
+        },
+        {
+            "@id": "UNTDID1229:65",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "65",
+            "rdfs:comment": "Under investigation"
+        },
+        {
+            "@id": "UNTDID1229:66",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "66",
+            "rdfs:comment": "Initial claim received"
+        },
+        {
+            "@id": "UNTDID1229:67",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "67",
+            "rdfs:comment": "Not in process"
+        },
+        {
+            "@id": "UNTDID1229:68",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "68",
+            "rdfs:comment": "Rejected, duplicate"
+        },
+        {
+            "@id": "UNTDID1229:69",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "69",
+            "rdfs:comment": "Rejected, resubmit with corrections"
+        },
+        {
+            "@id": "UNTDID1229:70",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "70",
+            "rdfs:comment": "Pending, incomplete"
+        },
+        {
+            "@id": "UNTDID1229:71",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "71",
+            "rdfs:comment": "Under field office investigation"
+        },
+        {
+            "@id": "UNTDID1229:72",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "72",
+            "rdfs:comment": "Pending, awaiting additional material"
+        },
+        {
+            "@id": "UNTDID1229:73",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "73",
+            "rdfs:comment": "Pending, awaiting review"
+        },
+        {
+            "@id": "UNTDID1229:74",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "74",
+            "rdfs:comment": "Reopened"
+        },
+        {
+            "@id": "UNTDID1229:75",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "75",
+            "rdfs:comment": "Processed by primary, forwarded to additional payer(s)"
+        },
+        {
+            "@id": "UNTDID1229:76",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "76",
+            "rdfs:comment": "Processed by secondary, forwarded to additional payer(s)"
+        },
+        {
+            "@id": "UNTDID1229:77",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "77",
+            "rdfs:comment": "Processed by tertiary, forwarded to additional payer(s)"
+        },
+        {
+            "@id": "UNTDID1229:78",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "78",
+            "rdfs:comment": "Previous payment decision reversed"
+        },
+        {
+            "@id": "UNTDID1229:79",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "79",
+            "rdfs:comment": "Not our claim, forwarded to another payer(s)"
+        },
+        {
+            "@id": "UNTDID1229:80",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "80",
+            "rdfs:comment": "Transferred to correct insurance carrier"
+        },
+        {
+            "@id": "UNTDID1229:81",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "81",
+            "rdfs:comment": "Not paid, predetermination pricing only"
+        },
+        {
+            "@id": "UNTDID1229:82",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "82",
+            "rdfs:comment": "Documentation claim"
+        },
+        {
+            "@id": "UNTDID1229:83",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "83",
+            "rdfs:comment": "Reviewed"
+        },
+        {
+            "@id": "UNTDID1229:84",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "84",
+            "rdfs:comment": "Repriced"
+        },
+        {
+            "@id": "UNTDID1229:85",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "85",
+            "rdfs:comment": "Audited"
+        },
+        {
+            "@id": "UNTDID1229:86",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "86",
+            "rdfs:comment": "Conditionally paid"
+        },
+        {
+            "@id": "UNTDID1229:87",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "87",
+            "rdfs:comment": "On appeal"
+        },
+        {
+            "@id": "UNTDID1229:88",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "88",
+            "rdfs:comment": "Closed"
+        },
+        {
+            "@id": "UNTDID1229:89",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "89",
+            "rdfs:comment": "Reaudited"
+        },
+        {
+            "@id": "UNTDID1229:90",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "90",
+            "rdfs:comment": "Reissued"
+        },
+        {
+            "@id": "UNTDID1229:91",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "91",
+            "rdfs:comment": "Closed after reopening"
+        },
+        {
+            "@id": "UNTDID1229:92",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "92",
+            "rdfs:comment": "Redetermined"
+        },
+        {
+            "@id": "UNTDID1229:93",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "93",
+            "rdfs:comment": "Processed as primary"
+        },
+        {
+            "@id": "UNTDID1229:94",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "94",
+            "rdfs:comment": "Processed as secondary"
+        },
+        {
+            "@id": "UNTDID1229:95",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "95",
+            "rdfs:comment": "Processed as tertiary"
+        },
+        {
+            "@id": "UNTDID1229:96",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "96",
+            "rdfs:comment": "Correction of error"
+        },
+        {
+            "@id": "UNTDID1229:97",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "97",
+            "rdfs:comment": "Single credit item of a group"
+        },
+        {
+            "@id": "UNTDID1229:98",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "98",
+            "rdfs:comment": "Single debit item of a group"
+        },
+        {
+            "@id": "UNTDID1229:99",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "99",
+            "rdfs:comment": "Interim response"
+        },
+        {
+            "@id": "UNTDID1229:100",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "100",
+            "rdfs:comment": "Final response"
+        },
+        {
+            "@id": "UNTDID1229:101",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "101",
+            "rdfs:comment": "Debit advice requested"
+        },
+        {
+            "@id": "UNTDID1229:102",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "102",
+            "rdfs:comment": "Transaction not impacted"
+        },
+        {
+            "@id": "UNTDID1229:103",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "103",
+            "rdfs:comment": "Patient to be notified"
+        },
+        {
+            "@id": "UNTDID1229:104",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "104",
+            "rdfs:comment": "Healthcare provider to be notified"
+        },
+        {
+            "@id": "UNTDID1229:105",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "105",
+            "rdfs:comment": "Usual general practitioner to be notified"
+        },
+        {
+            "@id": "UNTDID1229:106",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "106",
+            "rdfs:comment": "Advice without details"
+        },
+        {
+            "@id": "UNTDID1229:107",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "107",
+            "rdfs:comment": "Advice with details"
+        },
+        {
+            "@id": "UNTDID1229:108",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "108",
+            "rdfs:comment": "Amendment requested"
+        },
+        {
+            "@id": "UNTDID1229:109",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "109",
+            "rdfs:comment": "For information"
+        },
+        {
+            "@id": "UNTDID1229:110",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "110",
+            "rdfs:comment": "Withdraw"
+        },
+        {
+            "@id": "UNTDID1229:111",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "111",
+            "rdfs:comment": "Delivery date change"
+        },
+        {
+            "@id": "UNTDID1229:112",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "112",
+            "rdfs:comment": "Quantity change"
+        },
+        {
+            "@id": "UNTDID1229:113",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "113",
+            "rdfs:comment": "Resale and claim"
+        },
+        {
+            "@id": "UNTDID1229:114",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "114",
+            "rdfs:comment": "Resale"
+        },
+        {
+            "@id": "UNTDID1229:115",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "115",
+            "rdfs:comment": "Prior addition"
+        },
+        {
+            "@id": "UNTDID1229:116",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "116",
+            "rdfs:comment": "Expired"
+        },
+        {
+            "@id": "UNTDID1229:117",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "117",
+            "rdfs:comment": "Hold"
+        },
+        {
+            "@id": "UNTDID1229:118",
+            "@type": "unece:LineStatusCodeList",
+            "rdf:value": "118",
+            "rdfs:comment": "Open"
+        }
+    ]
+}

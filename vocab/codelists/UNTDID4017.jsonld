@@ -1,0 +1,161 @@
+
+{
+    "@context": {
+        "unece": "https://vocabulary.uncefact.org/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "UNTDID4017": "https://vocabulary.uncefact.org/codelists/UNTDID4017"
+    },
+    "@graph": [
+        {
+            "@id": "UNTDID4017:1",
+            "@type": "unece:CommitmentLevelCodeList",
+            "rdf:value": "1",
+            "rdfs:comment": "Firm"
+        },
+        {
+            "@id": "UNTDID4017:2",
+            "@type": "unece:CommitmentLevelCodeList",
+            "rdf:value": "2",
+            "rdfs:comment": "Commitment for manufacturing and material"
+        },
+        {
+            "@id": "UNTDID4017:3",
+            "@type": "unece:CommitmentLevelCodeList",
+            "rdf:value": "3",
+            "rdfs:comment": "Commitment for material"
+        },
+        {
+            "@id": "UNTDID4017:4",
+            "@type": "unece:CommitmentLevelCodeList",
+            "rdf:value": "4",
+            "rdfs:comment": "Planning/forecast"
+        },
+        {
+            "@id": "UNTDID4017:5",
+            "@type": "unece:CommitmentLevelCodeList",
+            "rdf:value": "5",
+            "rdfs:comment": "Short delivered on previous delivery"
+        },
+        {
+            "@id": "UNTDID4017:6",
+            "@type": "unece:CommitmentLevelCodeList",
+            "rdf:value": "6",
+            "rdfs:comment": "Capacity available"
+        },
+        {
+            "@id": "UNTDID4017:7",
+            "@type": "unece:CommitmentLevelCodeList",
+            "rdf:value": "7",
+            "rdfs:comment": "Promotion"
+        },
+        {
+            "@id": "UNTDID4017:8",
+            "@type": "unece:CommitmentLevelCodeList",
+            "rdf:value": "8",
+            "rdfs:comment": "Special demand"
+        },
+        {
+            "@id": "UNTDID4017:9",
+            "@type": "unece:CommitmentLevelCodeList",
+            "rdf:value": "9",
+            "rdfs:comment": "User defined"
+        },
+        {
+            "@id": "UNTDID4017:10",
+            "@type": "unece:CommitmentLevelCodeList",
+            "rdf:value": "10",
+            "rdfs:comment": "Immediate"
+        },
+        {
+            "@id": "UNTDID4017:11",
+            "@type": "unece:CommitmentLevelCodeList",
+            "rdf:value": "11",
+            "rdfs:comment": "Pilot/Pre-volume"
+        },
+        {
+            "@id": "UNTDID4017:12",
+            "@type": "unece:CommitmentLevelCodeList",
+            "rdf:value": "12",
+            "rdfs:comment": "Planning"
+        },
+        {
+            "@id": "UNTDID4017:13",
+            "@type": "unece:CommitmentLevelCodeList",
+            "rdf:value": "13",
+            "rdfs:comment": "Potential order increase"
+        },
+        {
+            "@id": "UNTDID4017:14",
+            "@type": "unece:CommitmentLevelCodeList",
+            "rdf:value": "14",
+            "rdfs:comment": "Average plant usage"
+        },
+        {
+            "@id": "UNTDID4017:15",
+            "@type": "unece:CommitmentLevelCodeList",
+            "rdf:value": "15",
+            "rdfs:comment": "First time reported firm"
+        },
+        {
+            "@id": "UNTDID4017:16",
+            "@type": "unece:CommitmentLevelCodeList",
+            "rdf:value": "16",
+            "rdfs:comment": "Maximum"
+        },
+        {
+            "@id": "UNTDID4017:17",
+            "@type": "unece:CommitmentLevelCodeList",
+            "rdf:value": "17",
+            "rdfs:comment": "Tooling capacity"
+        },
+        {
+            "@id": "UNTDID4017:18",
+            "@type": "unece:CommitmentLevelCodeList",
+            "rdf:value": "18",
+            "rdfs:comment": "Normal tooling capacity"
+        },
+        {
+            "@id": "UNTDID4017:19",
+            "@type": "unece:CommitmentLevelCodeList",
+            "rdf:value": "19",
+            "rdfs:comment": "Prototype"
+        },
+        {
+            "@id": "UNTDID4017:20",
+            "@type": "unece:CommitmentLevelCodeList",
+            "rdf:value": "20",
+            "rdfs:comment": "Strike protection"
+        },
+        {
+            "@id": "UNTDID4017:21",
+            "@type": "unece:CommitmentLevelCodeList",
+            "rdf:value": "21",
+            "rdfs:comment": "Required tooling capacity"
+        },
+        {
+            "@id": "UNTDID4017:22",
+            "@type": "unece:CommitmentLevelCodeList",
+            "rdf:value": "22",
+            "rdfs:comment": "Deliver to schedule"
+        },
+        {
+            "@id": "UNTDID4017:23",
+            "@type": "unece:CommitmentLevelCodeList",
+            "rdf:value": "23",
+            "rdfs:comment": "Await manual pull"
+        },
+        {
+            "@id": "UNTDID4017:24",
+            "@type": "unece:CommitmentLevelCodeList",
+            "rdf:value": "24",
+            "rdfs:comment": "Reference to commercial agreement between partners"
+        },
+        {
+            "@id": "UNTDID4017:26",
+            "@type": "unece:CommitmentLevelCodeList",
+            "rdf:value": "26",
+            "rdfs:comment": "Proposed"
+        }
+    ]
+}

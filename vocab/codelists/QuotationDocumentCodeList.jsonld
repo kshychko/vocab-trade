@@ -1,0 +1,119 @@
+
+{
+    "@context": {
+        "unece": "https://vocabulary.uncefact.org/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "QuotationDocumentCodeList": "https://vocabulary.uncefact.org/codelists/QuotationDocumentCodeList"
+    },
+    "@graph": [
+        {
+            "@id": "QuotationDocumentCodeList:310",
+            "@type": "unece:QuotationDocumentCodeList",
+            "rdf:value": "310",
+            "rdfs:comment": "Offer / quotation"
+        },
+        {
+            "@id": "QuotationDocumentCodeList:311",
+            "@type": "unece:QuotationDocumentCodeList",
+            "rdf:value": "311",
+            "rdfs:comment": "Request for quote"
+        },
+        {
+            "@id": "QuotationDocumentCodeList:312",
+            "@type": "unece:QuotationDocumentCodeList",
+            "rdf:value": "312",
+            "rdfs:comment": "Acknowledgement message"
+        },
+        {
+            "@id": "QuotationDocumentCodeList:360",
+            "@type": "unece:QuotationDocumentCodeList",
+            "rdf:value": "360",
+            "rdfs:comment": "Request for price quote"
+        },
+        {
+            "@id": "QuotationDocumentCodeList:361",
+            "@type": "unece:QuotationDocumentCodeList",
+            "rdf:value": "361",
+            "rdfs:comment": "Price quote"
+        },
+        {
+            "@id": "QuotationDocumentCodeList:362",
+            "@type": "unece:QuotationDocumentCodeList",
+            "rdf:value": "362",
+            "rdfs:comment": "Delivery quote"
+        },
+        {
+            "@id": "QuotationDocumentCodeList:363",
+            "@type": "unece:QuotationDocumentCodeList",
+            "rdf:value": "363",
+            "rdfs:comment": "Price and delivery quote"
+        },
+        {
+            "@id": "QuotationDocumentCodeList:364",
+            "@type": "unece:QuotationDocumentCodeList",
+            "rdf:value": "364",
+            "rdfs:comment": "Contract price quote"
+        },
+        {
+            "@id": "QuotationDocumentCodeList:365",
+            "@type": "unece:QuotationDocumentCodeList",
+            "rdf:value": "365",
+            "rdfs:comment": "Contract price and delivery quote"
+        },
+        {
+            "@id": "QuotationDocumentCodeList:366",
+            "@type": "unece:QuotationDocumentCodeList",
+            "rdf:value": "366",
+            "rdfs:comment": "Price quote, specified end-customer"
+        },
+        {
+            "@id": "QuotationDocumentCodeList:367",
+            "@type": "unece:QuotationDocumentCodeList",
+            "rdf:value": "367",
+            "rdfs:comment": "Price and delivery quote, specified end-customer"
+        },
+        {
+            "@id": "QuotationDocumentCodeList:368",
+            "@type": "unece:QuotationDocumentCodeList",
+            "rdf:value": "368",
+            "rdfs:comment": "Price quote, ship and debit"
+        },
+        {
+            "@id": "QuotationDocumentCodeList:369",
+            "@type": "unece:QuotationDocumentCodeList",
+            "rdf:value": "369",
+            "rdfs:comment": "Price and delivery quote, ship and debit"
+        },
+        {
+            "@id": "QuotationDocumentCodeList:442",
+            "@type": "unece:QuotationDocumentCodeList",
+            "rdf:value": "442",
+            "rdfs:comment": "Request for delivery quote"
+        },
+        {
+            "@id": "QuotationDocumentCodeList:443",
+            "@type": "unece:QuotationDocumentCodeList",
+            "rdf:value": "443",
+            "rdfs:comment": "Request for price and delivery quote"
+        },
+        {
+            "@id": "QuotationDocumentCodeList:444",
+            "@type": "unece:QuotationDocumentCodeList",
+            "rdf:value": "444",
+            "rdfs:comment": "Request for contract price quote"
+        },
+        {
+            "@id": "QuotationDocumentCodeList:445",
+            "@type": "unece:QuotationDocumentCodeList",
+            "rdf:value": "445",
+            "rdfs:comment": "Request for contract price and delivery quote"
+        },
+        {
+            "@id": "QuotationDocumentCodeList:446",
+            "@type": "unece:QuotationDocumentCodeList",
+            "rdf:value": "446",
+            "rdfs:comment": "Request for price quote, specified end-customer"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+
+{
+    "@context": {
+        "unece": "https://vocabulary.uncefact.org/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "MeasurementUnitCommonCodeWeight": "https://vocabulary.uncefact.org/codelists/MeasurementUnitCommonCodeWeight"
+    },
+    "@graph": [
+        {
+            "@id": "MeasurementUnitCommonCodeWeight:KGM",
+            "@type": "unece:WeightUnitMeasureCode",
+            "rdf:value": "KGM",
+            "rdfs:comment": "kilogram"
+        },
+        {
+            "@id": "MeasurementUnitCommonCodeWeight:TNE",
+            "@type": "unece:WeightUnitMeasureCode",
+            "rdf:value": "TNE",
+            "rdfs:comment": "tonne (metric ton)"
+        }
+    ]
+}

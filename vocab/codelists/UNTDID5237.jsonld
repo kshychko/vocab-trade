@@ -1,0 +1,149 @@
+
+{
+    "@context": {
+        "unece": "https://vocabulary.uncefact.org/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "UNTDID5237": "https://vocabulary.uncefact.org/codelists/UNTDID5237"
+    },
+    "@graph": [
+        {
+            "@id": "UNTDID5237:1",
+            "@type": "unece:TransportServiceCategoryCodeList",
+            "rdf:value": "1",
+            "rdfs:comment": "All charges"
+        },
+        {
+            "@id": "UNTDID5237:2",
+            "@type": "unece:TransportServiceCategoryCodeList",
+            "rdf:value": "2",
+            "rdfs:comment": "Additional charges"
+        },
+        {
+            "@id": "UNTDID5237:3",
+            "@type": "unece:TransportServiceCategoryCodeList",
+            "rdf:value": "3",
+            "rdfs:comment": "Transport charges + additional charges"
+        },
+        {
+            "@id": "UNTDID5237:4",
+            "@type": "unece:TransportServiceCategoryCodeList",
+            "rdf:value": "4",
+            "rdfs:comment": "Basic freight"
+        },
+        {
+            "@id": "UNTDID5237:5",
+            "@type": "unece:TransportServiceCategoryCodeList",
+            "rdf:value": "5",
+            "rdfs:comment": "Destination haulage charges"
+        },
+        {
+            "@id": "UNTDID5237:6",
+            "@type": "unece:TransportServiceCategoryCodeList",
+            "rdf:value": "6",
+            "rdfs:comment": "Disbursement"
+        },
+        {
+            "@id": "UNTDID5237:7",
+            "@type": "unece:TransportServiceCategoryCodeList",
+            "rdf:value": "7",
+            "rdfs:comment": "Destination port charges"
+        },
+        {
+            "@id": "UNTDID5237:8",
+            "@type": "unece:TransportServiceCategoryCodeList",
+            "rdf:value": "8",
+            "rdfs:comment": "Miscellaneous charges"
+        },
+        {
+            "@id": "UNTDID5237:9",
+            "@type": "unece:TransportServiceCategoryCodeList",
+            "rdf:value": "9",
+            "rdfs:comment": "Transport charges up to a specified location"
+        },
+        {
+            "@id": "UNTDID5237:10",
+            "@type": "unece:TransportServiceCategoryCodeList",
+            "rdf:value": "10",
+            "rdfs:comment": "Origin port charges"
+        },
+        {
+            "@id": "UNTDID5237:11",
+            "@type": "unece:TransportServiceCategoryCodeList",
+            "rdf:value": "11",
+            "rdfs:comment": "Origin haulage charges"
+        },
+        {
+            "@id": "UNTDID5237:12",
+            "@type": "unece:TransportServiceCategoryCodeList",
+            "rdf:value": "12",
+            "rdfs:comment": "Other charges"
+        },
+        {
+            "@id": "UNTDID5237:13",
+            "@type": "unece:TransportServiceCategoryCodeList",
+            "rdf:value": "13",
+            "rdfs:comment": "Specific amount payable"
+        },
+        {
+            "@id": "UNTDID5237:14",
+            "@type": "unece:TransportServiceCategoryCodeList",
+            "rdf:value": "14",
+            "rdfs:comment": "Transport costs (carriage charges)"
+        },
+        {
+            "@id": "UNTDID5237:15",
+            "@type": "unece:TransportServiceCategoryCodeList",
+            "rdf:value": "15",
+            "rdfs:comment": "All costs up to a specified location"
+        },
+        {
+            "@id": "UNTDID5237:16",
+            "@type": "unece:TransportServiceCategoryCodeList",
+            "rdf:value": "16",
+            "rdfs:comment": "Weight/valuation charge"
+        },
+        {
+            "@id": "UNTDID5237:17",
+            "@type": "unece:TransportServiceCategoryCodeList",
+            "rdf:value": "17",
+            "rdfs:comment": "All costs"
+        },
+        {
+            "@id": "UNTDID5237:19",
+            "@type": "unece:TransportServiceCategoryCodeList",
+            "rdf:value": "19",
+            "rdfs:comment": "Supply of certificate of shipment"
+        },
+        {
+            "@id": "UNTDID5237:20",
+            "@type": "unece:TransportServiceCategoryCodeList",
+            "rdf:value": "20",
+            "rdfs:comment": "Supply of consular formalities or certificate of origin"
+        },
+        {
+            "@id": "UNTDID5237:21",
+            "@type": "unece:TransportServiceCategoryCodeList",
+            "rdf:value": "21",
+            "rdfs:comment": "Supply of non-categorised documentation in paper form"
+        },
+        {
+            "@id": "UNTDID5237:22",
+            "@type": "unece:TransportServiceCategoryCodeList",
+            "rdf:value": "22",
+            "rdfs:comment": "Supply of customs formalities, export"
+        },
+        {
+            "@id": "UNTDID5237:23",
+            "@type": "unece:TransportServiceCategoryCodeList",
+            "rdf:value": "23",
+            "rdfs:comment": "Supply of customs formalities, transit"
+        },
+        {
+            "@id": "UNTDID5237:24",
+            "@type": "unece:TransportServiceCategoryCodeList",
+            "rdf:value": "24",
+            "rdfs:comment": "Supply of customs formalities, import"
+        }
+    ]
+}

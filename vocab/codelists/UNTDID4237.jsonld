@@ -1,0 +1,35 @@
+
+{
+    "@context": {
+        "unece": "https://vocabulary.uncefact.org/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "UNTDID4237": "https://vocabulary.uncefact.org/codelists/UNTDID4237"
+    },
+    "@graph": [
+        {
+            "@id": "UNTDID4237:A",
+            "@type": "unece:TransportServicePaymentArrangementCodeList",
+            "rdf:value": "A",
+            "rdfs:comment": "Payable elsewhere"
+        },
+        {
+            "@id": "UNTDID4237:B",
+            "@type": "unece:TransportServicePaymentArrangementCodeList",
+            "rdf:value": "B",
+            "rdfs:comment": "Third party to pay"
+        },
+        {
+            "@id": "UNTDID4237:C",
+            "@type": "unece:TransportServicePaymentArrangementCodeList",
+            "rdf:value": "C",
+            "rdfs:comment": "Collect"
+        },
+        {
+            "@id": "UNTDID4237:P",
+            "@type": "unece:TransportServicePaymentArrangementCodeList",
+            "rdf:value": "P",
+            "rdfs:comment": "Prepaid"
+        }
+    ]
+}

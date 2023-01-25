@@ -1,0 +1,83 @@
+
+{
+    "@context": {
+        "unece": "https://vocabulary.uncefact.org/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "UNTDID4431": "https://vocabulary.uncefact.org/codelists/UNTDID4431"
+    },
+    "@graph": [
+        {
+            "@id": "UNTDID4431:1",
+            "@type": "unece:PaymentGuaranteeMeansCodeList",
+            "rdf:value": "1",
+            "rdfs:comment": "Factor guarantee"
+        },
+        {
+            "@id": "UNTDID4431:10",
+            "@type": "unece:PaymentGuaranteeMeansCodeList",
+            "rdf:value": "10",
+            "rdfs:comment": "Bank guarantee"
+        },
+        {
+            "@id": "UNTDID4431:11",
+            "@type": "unece:PaymentGuaranteeMeansCodeList",
+            "rdf:value": "11",
+            "rdfs:comment": "Public authority guarantee"
+        },
+        {
+            "@id": "UNTDID4431:12",
+            "@type": "unece:PaymentGuaranteeMeansCodeList",
+            "rdf:value": "12",
+            "rdfs:comment": "Third party guarantee"
+        },
+        {
+            "@id": "UNTDID4431:13",
+            "@type": "unece:PaymentGuaranteeMeansCodeList",
+            "rdf:value": "13",
+            "rdfs:comment": "Standby letter of credit"
+        },
+        {
+            "@id": "UNTDID4431:14",
+            "@type": "unece:PaymentGuaranteeMeansCodeList",
+            "rdf:value": "14",
+            "rdfs:comment": "No guarantee"
+        },
+        {
+            "@id": "UNTDID4431:20",
+            "@type": "unece:PaymentGuaranteeMeansCodeList",
+            "rdf:value": "20",
+            "rdfs:comment": "Goods as security"
+        },
+        {
+            "@id": "UNTDID4431:21",
+            "@type": "unece:PaymentGuaranteeMeansCodeList",
+            "rdf:value": "21",
+            "rdfs:comment": "Business as security"
+        },
+        {
+            "@id": "UNTDID4431:23",
+            "@type": "unece:PaymentGuaranteeMeansCodeList",
+            "rdf:value": "23",
+            "rdfs:comment": "Warrant or similar (warehouse receipts)"
+        },
+        {
+            "@id": "UNTDID4431:24",
+            "@type": "unece:PaymentGuaranteeMeansCodeList",
+            "rdf:value": "24",
+            "rdfs:comment": "Mortgage"
+        },
+        {
+            "@id": "UNTDID4431:45",
+            "@type": "unece:PaymentGuaranteeMeansCodeList",
+            "rdf:value": "45",
+            "rdfs:comment": "Insurance certificate"
+        },
+        {
+            "@id": "UNTDID4431:ZZZ",
+            "@type": "unece:PaymentGuaranteeMeansCodeList",
+            "rdf:value": "ZZZ",
+            "rdfs:comment": "Mutually defined"
+        }
+    ]
+}

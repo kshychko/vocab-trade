@@ -1,0 +1,497 @@
+
+{
+    "@context": {
+        "unece": "https://vocabulary.uncefact.org/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "FinancialAdjustmentReasonCodeList": "https://vocabulary.uncefact.org/codelists/FinancialAdjustmentReasonCodeList"
+    },
+    "@graph": [
+        {
+            "@id": "FinancialAdjustmentReasonCodeList:1",
+            "@type": "unece:FinancialAdjustmentReasonCodeList",
+            "rdf:value": "1",
+            "rdfs:comment": "Agreed settlement"
+        },
+        {
+            "@id": "FinancialAdjustmentReasonCodeList:5",
+            "@type": "unece:FinancialAdjustmentReasonCodeList",
+            "rdf:value": "5",
+            "rdfs:comment": "Price query"
+        },
+        {
+            "@id": "FinancialAdjustmentReasonCodeList:7",
+            "@type": "unece:FinancialAdjustmentReasonCodeList",
+            "rdf:value": "7",
+            "rdfs:comment": "Payment on account"
+        },
+        {
+            "@id": "FinancialAdjustmentReasonCodeList:8",
+            "@type": "unece:FinancialAdjustmentReasonCodeList",
+            "rdf:value": "8",
+            "rdfs:comment": "Returnable container charge included"
+        },
+        {
+            "@id": "FinancialAdjustmentReasonCodeList:9",
+            "@type": "unece:FinancialAdjustmentReasonCodeList",
+            "rdf:value": "9",
+            "rdfs:comment": "Invoice error"
+        },
+        {
+            "@id": "FinancialAdjustmentReasonCodeList:10",
+            "@type": "unece:FinancialAdjustmentReasonCodeList",
+            "rdf:value": "10",
+            "rdfs:comment": "Costs for draft"
+        },
+        {
+            "@id": "FinancialAdjustmentReasonCodeList:11",
+            "@type": "unece:FinancialAdjustmentReasonCodeList",
+            "rdf:value": "11",
+            "rdfs:comment": "Bank charges"
+        },
+        {
+            "@id": "FinancialAdjustmentReasonCodeList:12",
+            "@type": "unece:FinancialAdjustmentReasonCodeList",
+            "rdf:value": "12",
+            "rdfs:comment": "Agent commission"
+        },
+        {
+            "@id": "FinancialAdjustmentReasonCodeList:13",
+            "@type": "unece:FinancialAdjustmentReasonCodeList",
+            "rdf:value": "13",
+            "rdfs:comment": "Counter claim"
+        },
+        {
+            "@id": "FinancialAdjustmentReasonCodeList:19",
+            "@type": "unece:FinancialAdjustmentReasonCodeList",
+            "rdf:value": "19",
+            "rdfs:comment": "Trade discount"
+        },
+        {
+            "@id": "FinancialAdjustmentReasonCodeList:20",
+            "@type": "unece:FinancialAdjustmentReasonCodeList",
+            "rdf:value": "20",
+            "rdfs:comment": "Deduction for late delivery"
+        },
+        {
+            "@id": "FinancialAdjustmentReasonCodeList:21",
+            "@type": "unece:FinancialAdjustmentReasonCodeList",
+            "rdf:value": "21",
+            "rdfs:comment": "Advertising costs"
+        },
+        {
+            "@id": "FinancialAdjustmentReasonCodeList:22",
+            "@type": "unece:FinancialAdjustmentReasonCodeList",
+            "rdf:value": "22",
+            "rdfs:comment": "Customs duties"
+        },
+        {
+            "@id": "FinancialAdjustmentReasonCodeList:23",
+            "@type": "unece:FinancialAdjustmentReasonCodeList",
+            "rdf:value": "23",
+            "rdfs:comment": "Telephone and postal costs"
+        },
+        {
+            "@id": "FinancialAdjustmentReasonCodeList:24",
+            "@type": "unece:FinancialAdjustmentReasonCodeList",
+            "rdf:value": "24",
+            "rdfs:comment": "Repair costs"
+        },
+        {
+            "@id": "FinancialAdjustmentReasonCodeList:25",
+            "@type": "unece:FinancialAdjustmentReasonCodeList",
+            "rdf:value": "25",
+            "rdfs:comment": "Attorney fees"
+        },
+        {
+            "@id": "FinancialAdjustmentReasonCodeList:26",
+            "@type": "unece:FinancialAdjustmentReasonCodeList",
+            "rdf:value": "26",
+            "rdfs:comment": "Taxes"
+        },
+        {
+            "@id": "FinancialAdjustmentReasonCodeList:27",
+            "@type": "unece:FinancialAdjustmentReasonCodeList",
+            "rdf:value": "27",
+            "rdfs:comment": "Reclaimed deduction"
+        },
+        {
+            "@id": "FinancialAdjustmentReasonCodeList:30",
+            "@type": "unece:FinancialAdjustmentReasonCodeList",
+            "rdf:value": "30",
+            "rdfs:comment": "Direct payment to seller"
+        },
+        {
+            "@id": "FinancialAdjustmentReasonCodeList:34",
+            "@type": "unece:FinancialAdjustmentReasonCodeList",
+            "rdf:value": "34",
+            "rdfs:comment": "Quoted as paid to you"
+        },
+        {
+            "@id": "FinancialAdjustmentReasonCodeList:36",
+            "@type": "unece:FinancialAdjustmentReasonCodeList",
+            "rdf:value": "36",
+            "rdfs:comment": "Invoice not received"
+        },
+        {
+            "@id": "FinancialAdjustmentReasonCodeList:37",
+            "@type": "unece:FinancialAdjustmentReasonCodeList",
+            "rdf:value": "37",
+            "rdfs:comment": "Credit note to debtor/not to us"
+        },
+        {
+            "@id": "FinancialAdjustmentReasonCodeList:38",
+            "@type": "unece:FinancialAdjustmentReasonCodeList",
+            "rdf:value": "38",
+            "rdfs:comment": "Deducted bonus"
+        },
+        {
+            "@id": "FinancialAdjustmentReasonCodeList:39",
+            "@type": "unece:FinancialAdjustmentReasonCodeList",
+            "rdf:value": "39",
+            "rdfs:comment": "Deducted discount"
+        },
+        {
+            "@id": "FinancialAdjustmentReasonCodeList:40",
+            "@type": "unece:FinancialAdjustmentReasonCodeList",
+            "rdf:value": "40",
+            "rdfs:comment": "Deducted freight costs"
+        },
+        {
+            "@id": "FinancialAdjustmentReasonCodeList:41",
+            "@type": "unece:FinancialAdjustmentReasonCodeList",
+            "rdf:value": "41",
+            "rdfs:comment": "Deduction against other invoices"
+        },
+        {
+            "@id": "FinancialAdjustmentReasonCodeList:42",
+            "@type": "unece:FinancialAdjustmentReasonCodeList",
+            "rdf:value": "42",
+            "rdfs:comment": "Credit balance(s)"
+        },
+        {
+            "@id": "FinancialAdjustmentReasonCodeList:43",
+            "@type": "unece:FinancialAdjustmentReasonCodeList",
+            "rdf:value": "43",
+            "rdfs:comment": "Reason unknown"
+        },
+        {
+            "@id": "FinancialAdjustmentReasonCodeList:44",
+            "@type": "unece:FinancialAdjustmentReasonCodeList",
+            "rdf:value": "44",
+            "rdfs:comment": "Awaiting message from seller"
+        },
+        {
+            "@id": "FinancialAdjustmentReasonCodeList:45",
+            "@type": "unece:FinancialAdjustmentReasonCodeList",
+            "rdf:value": "45",
+            "rdfs:comment": "Debit note to seller"
+        },
+        {
+            "@id": "FinancialAdjustmentReasonCodeList:46",
+            "@type": "unece:FinancialAdjustmentReasonCodeList",
+            "rdf:value": "46",
+            "rdfs:comment": "Discount beyond terms"
+        },
+        {
+            "@id": "FinancialAdjustmentReasonCodeList:47",
+            "@type": "unece:FinancialAdjustmentReasonCodeList",
+            "rdf:value": "47",
+            "rdfs:comment": "See buyer's letter"
+        },
+        {
+            "@id": "FinancialAdjustmentReasonCodeList:48",
+            "@type": "unece:FinancialAdjustmentReasonCodeList",
+            "rdf:value": "48",
+            "rdfs:comment": "Allowance/charge error"
+        },
+        {
+            "@id": "FinancialAdjustmentReasonCodeList:50",
+            "@type": "unece:FinancialAdjustmentReasonCodeList",
+            "rdf:value": "50",
+            "rdfs:comment": "Terms of sale error"
+        },
+        {
+            "@id": "FinancialAdjustmentReasonCodeList:52",
+            "@type": "unece:FinancialAdjustmentReasonCodeList",
+            "rdf:value": "52",
+            "rdfs:comment": "Wrong invoice"
+        },
+        {
+            "@id": "FinancialAdjustmentReasonCodeList:53",
+            "@type": "unece:FinancialAdjustmentReasonCodeList",
+            "rdf:value": "53",
+            "rdfs:comment": "Duplicate invoice"
+        },
+        {
+            "@id": "FinancialAdjustmentReasonCodeList:54",
+            "@type": "unece:FinancialAdjustmentReasonCodeList",
+            "rdf:value": "54",
+            "rdfs:comment": "Weight error"
+        },
+        {
+            "@id": "FinancialAdjustmentReasonCodeList:55",
+            "@type": "unece:FinancialAdjustmentReasonCodeList",
+            "rdf:value": "55",
+            "rdfs:comment": "Additional charge not authorized"
+        },
+        {
+            "@id": "FinancialAdjustmentReasonCodeList:56",
+            "@type": "unece:FinancialAdjustmentReasonCodeList",
+            "rdf:value": "56",
+            "rdfs:comment": "Incorrect discount"
+        },
+        {
+            "@id": "FinancialAdjustmentReasonCodeList:57",
+            "@type": "unece:FinancialAdjustmentReasonCodeList",
+            "rdf:value": "57",
+            "rdfs:comment": "Price change"
+        },
+        {
+            "@id": "FinancialAdjustmentReasonCodeList:58",
+            "@type": "unece:FinancialAdjustmentReasonCodeList",
+            "rdf:value": "58",
+            "rdfs:comment": "Variation"
+        },
+        {
+            "@id": "FinancialAdjustmentReasonCodeList:59",
+            "@type": "unece:FinancialAdjustmentReasonCodeList",
+            "rdf:value": "59",
+            "rdfs:comment": "Chargeback"
+        },
+        {
+            "@id": "FinancialAdjustmentReasonCodeList:60",
+            "@type": "unece:FinancialAdjustmentReasonCodeList",
+            "rdf:value": "60",
+            "rdfs:comment": "Offset"
+        },
+        {
+            "@id": "FinancialAdjustmentReasonCodeList:61",
+            "@type": "unece:FinancialAdjustmentReasonCodeList",
+            "rdf:value": "61",
+            "rdfs:comment": "Indirect payment"
+        },
+        {
+            "@id": "FinancialAdjustmentReasonCodeList:62",
+            "@type": "unece:FinancialAdjustmentReasonCodeList",
+            "rdf:value": "62",
+            "rdfs:comment": "Financial reassignment"
+        },
+        {
+            "@id": "FinancialAdjustmentReasonCodeList:63",
+            "@type": "unece:FinancialAdjustmentReasonCodeList",
+            "rdf:value": "63",
+            "rdfs:comment": "Reinstatement of chargeback/offset"
+        },
+        {
+            "@id": "FinancialAdjustmentReasonCodeList:64",
+            "@type": "unece:FinancialAdjustmentReasonCodeList",
+            "rdf:value": "64",
+            "rdfs:comment": "Expecting new terms"
+        },
+        {
+            "@id": "FinancialAdjustmentReasonCodeList:65",
+            "@type": "unece:FinancialAdjustmentReasonCodeList",
+            "rdf:value": "65",
+            "rdfs:comment": "Settlement to agent"
+        },
+        {
+            "@id": "FinancialAdjustmentReasonCodeList:66",
+            "@type": "unece:FinancialAdjustmentReasonCodeList",
+            "rdf:value": "66",
+            "rdfs:comment": "Cash discount"
+        },
+        {
+            "@id": "FinancialAdjustmentReasonCodeList:67",
+            "@type": "unece:FinancialAdjustmentReasonCodeList",
+            "rdf:value": "67",
+            "rdfs:comment": "Delcredere costs"
+        },
+        {
+            "@id": "FinancialAdjustmentReasonCodeList:68",
+            "@type": "unece:FinancialAdjustmentReasonCodeList",
+            "rdf:value": "68",
+            "rdfs:comment": "Early payment allowance adjustment"
+        },
+        {
+            "@id": "FinancialAdjustmentReasonCodeList:69",
+            "@type": "unece:FinancialAdjustmentReasonCodeList",
+            "rdf:value": "69",
+            "rdfs:comment": "Incorrect due date for monetary amount"
+        },
+        {
+            "@id": "FinancialAdjustmentReasonCodeList:70",
+            "@type": "unece:FinancialAdjustmentReasonCodeList",
+            "rdf:value": "70",
+            "rdfs:comment": "Wrong monetary amount resulting from incorrect free goods quantity"
+        },
+        {
+            "@id": "FinancialAdjustmentReasonCodeList:73",
+            "@type": "unece:FinancialAdjustmentReasonCodeList",
+            "rdf:value": "73",
+            "rdfs:comment": "Difference in tax rate"
+        },
+        {
+            "@id": "FinancialAdjustmentReasonCodeList:74",
+            "@type": "unece:FinancialAdjustmentReasonCodeList",
+            "rdf:value": "74",
+            "rdfs:comment": "Quantity discount"
+        },
+        {
+            "@id": "FinancialAdjustmentReasonCodeList:75",
+            "@type": "unece:FinancialAdjustmentReasonCodeList",
+            "rdf:value": "75",
+            "rdfs:comment": "Promotion discount"
+        },
+        {
+            "@id": "FinancialAdjustmentReasonCodeList:77",
+            "@type": "unece:FinancialAdjustmentReasonCodeList",
+            "rdf:value": "77",
+            "rdfs:comment": "Pricing discount"
+        },
+        {
+            "@id": "FinancialAdjustmentReasonCodeList:78",
+            "@type": "unece:FinancialAdjustmentReasonCodeList",
+            "rdf:value": "78",
+            "rdfs:comment": "Volume discount"
+        },
+        {
+            "@id": "FinancialAdjustmentReasonCodeList:79",
+            "@type": "unece:FinancialAdjustmentReasonCodeList",
+            "rdf:value": "79",
+            "rdfs:comment": "Sundry discount"
+        },
+        {
+            "@id": "FinancialAdjustmentReasonCodeList:80",
+            "@type": "unece:FinancialAdjustmentReasonCodeList",
+            "rdf:value": "80",
+            "rdfs:comment": "Card holder signature missing"
+        },
+        {
+            "@id": "FinancialAdjustmentReasonCodeList:81",
+            "@type": "unece:FinancialAdjustmentReasonCodeList",
+            "rdf:value": "81",
+            "rdfs:comment": "Card expiry date missing"
+        },
+        {
+            "@id": "FinancialAdjustmentReasonCodeList:82",
+            "@type": "unece:FinancialAdjustmentReasonCodeList",
+            "rdf:value": "82",
+            "rdfs:comment": "Card number error"
+        },
+        {
+            "@id": "FinancialAdjustmentReasonCodeList:83",
+            "@type": "unece:FinancialAdjustmentReasonCodeList",
+            "rdf:value": "83",
+            "rdfs:comment": "Card expired"
+        },
+        {
+            "@id": "FinancialAdjustmentReasonCodeList:84",
+            "@type": "unece:FinancialAdjustmentReasonCodeList",
+            "rdf:value": "84",
+            "rdfs:comment": "Test card transaction"
+        },
+        {
+            "@id": "FinancialAdjustmentReasonCodeList:85",
+            "@type": "unece:FinancialAdjustmentReasonCodeList",
+            "rdf:value": "85",
+            "rdfs:comment": "Permission limit exceeded"
+        },
+        {
+            "@id": "FinancialAdjustmentReasonCodeList:86",
+            "@type": "unece:FinancialAdjustmentReasonCodeList",
+            "rdf:value": "86",
+            "rdfs:comment": "Wrong authorisation code"
+        },
+        {
+            "@id": "FinancialAdjustmentReasonCodeList:87",
+            "@type": "unece:FinancialAdjustmentReasonCodeList",
+            "rdf:value": "87",
+            "rdfs:comment": "Wrong authorised amount"
+        },
+        {
+            "@id": "FinancialAdjustmentReasonCodeList:88",
+            "@type": "unece:FinancialAdjustmentReasonCodeList",
+            "rdf:value": "88",
+            "rdfs:comment": "Authorisation failed"
+        },
+        {
+            "@id": "FinancialAdjustmentReasonCodeList:89",
+            "@type": "unece:FinancialAdjustmentReasonCodeList",
+            "rdf:value": "89",
+            "rdfs:comment": "Card acceptor data error"
+        },
+        {
+            "@id": "FinancialAdjustmentReasonCodeList:90",
+            "@type": "unece:FinancialAdjustmentReasonCodeList",
+            "rdf:value": "90",
+            "rdfs:comment": "Treasury management service charge"
+        },
+        {
+            "@id": "FinancialAdjustmentReasonCodeList:91",
+            "@type": "unece:FinancialAdjustmentReasonCodeList",
+            "rdf:value": "91",
+            "rdfs:comment": "Agreed discount"
+        },
+        {
+            "@id": "FinancialAdjustmentReasonCodeList:92",
+            "@type": "unece:FinancialAdjustmentReasonCodeList",
+            "rdf:value": "92",
+            "rdfs:comment": "Expediting fee"
+        },
+        {
+            "@id": "FinancialAdjustmentReasonCodeList:93",
+            "@type": "unece:FinancialAdjustmentReasonCodeList",
+            "rdf:value": "93",
+            "rdfs:comment": "Invoicing fee"
+        },
+        {
+            "@id": "FinancialAdjustmentReasonCodeList:94",
+            "@type": "unece:FinancialAdjustmentReasonCodeList",
+            "rdf:value": "94",
+            "rdfs:comment": "Freight charge"
+        },
+        {
+            "@id": "FinancialAdjustmentReasonCodeList:95",
+            "@type": "unece:FinancialAdjustmentReasonCodeList",
+            "rdf:value": "95",
+            "rdfs:comment": "Small order processing service charge"
+        },
+        {
+            "@id": "FinancialAdjustmentReasonCodeList:96",
+            "@type": "unece:FinancialAdjustmentReasonCodeList",
+            "rdf:value": "96",
+            "rdfs:comment": "Currency exchange differences"
+        },
+        {
+            "@id": "FinancialAdjustmentReasonCodeList:97",
+            "@type": "unece:FinancialAdjustmentReasonCodeList",
+            "rdf:value": "97",
+            "rdfs:comment": "Insolvency"
+        },
+        {
+            "@id": "FinancialAdjustmentReasonCodeList:98",
+            "@type": "unece:FinancialAdjustmentReasonCodeList",
+            "rdf:value": "98",
+            "rdfs:comment": "Incorrect references"
+        },
+        {
+            "@id": "FinancialAdjustmentReasonCodeList:99",
+            "@type": "unece:FinancialAdjustmentReasonCodeList",
+            "rdf:value": "99",
+            "rdfs:comment": "Incorrect identification of the buyer"
+        },
+        {
+            "@id": "FinancialAdjustmentReasonCodeList:100",
+            "@type": "unece:FinancialAdjustmentReasonCodeList",
+            "rdf:value": "100",
+            "rdfs:comment": "Incorrect product identification"
+        },
+        {
+            "@id": "FinancialAdjustmentReasonCodeList:ZZZ",
+            "@type": "unece:FinancialAdjustmentReasonCodeList",
+            "rdf:value": "ZZZ",
+            "rdfs:comment": "Mutually defined"
+        }
+    ]
+}

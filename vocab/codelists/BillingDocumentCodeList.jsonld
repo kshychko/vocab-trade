@@ -1,0 +1,83 @@
+
+{
+    "@context": {
+        "unece": "https://vocabulary.uncefact.org/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "BillingDocumentCodeList": "https://vocabulary.uncefact.org/codelists/BillingDocumentCodeList"
+    },
+    "@graph": [
+        {
+            "@id": "BillingDocumentCodeList:261",
+            "@type": "unece:BillingDocumentCodeList",
+            "rdf:value": "261",
+            "rdfs:comment": "Self billed credit note"
+        },
+        {
+            "@id": "BillingDocumentCodeList:262",
+            "@type": "unece:BillingDocumentCodeList",
+            "rdf:value": "262",
+            "rdfs:comment": "Consolidated credit note - goods and services"
+        },
+        {
+            "@id": "BillingDocumentCodeList:265",
+            "@type": "unece:BillingDocumentCodeList",
+            "rdf:value": "265",
+            "rdfs:comment": "Transport equipment movement report"
+        },
+        {
+            "@id": "BillingDocumentCodeList:296",
+            "@type": "unece:BillingDocumentCodeList",
+            "rdf:value": "296",
+            "rdfs:comment": "Credit note for price variation"
+        },
+        {
+            "@id": "BillingDocumentCodeList:324",
+            "@type": "unece:BillingDocumentCodeList",
+            "rdf:value": "324",
+            "rdfs:comment": "Transport emergency card"
+        },
+        {
+            "@id": "BillingDocumentCodeList:326",
+            "@type": "unece:BillingDocumentCodeList",
+            "rdf:value": "326",
+            "rdfs:comment": "Partial invoice"
+        },
+        {
+            "@id": "BillingDocumentCodeList:380",
+            "@type": "unece:BillingDocumentCodeList",
+            "rdf:value": "380",
+            "rdfs:comment": "Commercial invoice"
+        },
+        {
+            "@id": "BillingDocumentCodeList:381",
+            "@type": "unece:BillingDocumentCodeList",
+            "rdf:value": "381",
+            "rdfs:comment": "Credit note"
+        },
+        {
+            "@id": "BillingDocumentCodeList:383",
+            "@type": "unece:BillingDocumentCodeList",
+            "rdf:value": "383",
+            "rdfs:comment": "Debit note"
+        },
+        {
+            "@id": "BillingDocumentCodeList:385",
+            "@type": "unece:BillingDocumentCodeList",
+            "rdf:value": "385",
+            "rdfs:comment": "Consolidated invoice"
+        },
+        {
+            "@id": "BillingDocumentCodeList:386",
+            "@type": "unece:BillingDocumentCodeList",
+            "rdf:value": "386",
+            "rdfs:comment": "Prepayment invoice"
+        },
+        {
+            "@id": "BillingDocumentCodeList:389",
+            "@type": "unece:BillingDocumentCodeList",
+            "rdf:value": "389",
+            "rdfs:comment": "Self-billed invoice"
+        }
+    ]
+}

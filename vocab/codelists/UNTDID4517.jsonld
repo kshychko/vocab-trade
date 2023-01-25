@@ -1,0 +1,41 @@
+
+{
+    "@context": {
+        "unece": "https://vocabulary.uncefact.org/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "UNTDID4517": "https://vocabulary.uncefact.org/codelists/UNTDID4517"
+    },
+    "@graph": [
+        {
+            "@id": "UNTDID4517:1",
+            "@type": "unece:SealConditionCodeList",
+            "rdf:value": "1",
+            "rdfs:comment": "In right condition"
+        },
+        {
+            "@id": "UNTDID4517:2",
+            "@type": "unece:SealConditionCodeList",
+            "rdf:value": "2",
+            "rdfs:comment": "Damaged"
+        },
+        {
+            "@id": "UNTDID4517:3",
+            "@type": "unece:SealConditionCodeList",
+            "rdf:value": "3",
+            "rdfs:comment": "Missing"
+        },
+        {
+            "@id": "UNTDID4517:4",
+            "@type": "unece:SealConditionCodeList",
+            "rdf:value": "4",
+            "rdfs:comment": "Broken"
+        },
+        {
+            "@id": "UNTDID4517:5",
+            "@type": "unece:SealConditionCodeList",
+            "rdf:value": "5",
+            "rdfs:comment": "Faulty electronic seal"
+        }
+    ]
+}

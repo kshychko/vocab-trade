@@ -1,0 +1,47 @@
+
+{
+    "@context": {
+        "unece": "https://vocabulary.uncefact.org/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "AmountWeightType": "https://vocabulary.uncefact.org/codelists/AmountWeightType"
+    },
+    "@graph": [
+        {
+            "@id": "AmountWeightType:D",
+            "@type": "unece:AmountWeightTypeCodeList",
+            "rdf:value": "D",
+            "rdfs:comment": "Decimalized amount"
+        },
+        {
+            "@id": "AmountWeightType:MDC",
+            "@type": "unece:AmountWeightTypeCodeList",
+            "rdf:value": "MDC",
+            "rdfs:comment": "Milliard currency amount"
+        },
+        {
+            "@id": "AmountWeightType:MNC",
+            "@type": "unece:AmountWeightTypeCodeList",
+            "rdf:value": "MNC",
+            "rdfs:comment": "Million currency amount"
+        },
+        {
+            "@id": "AmountWeightType:R",
+            "@type": "unece:AmountWeightTypeCodeList",
+            "rdf:value": "R",
+            "rdfs:comment": "Rounded amount"
+        },
+        {
+            "@id": "AmountWeightType:T",
+            "@type": "unece:AmountWeightTypeCodeList",
+            "rdf:value": "T",
+            "rdfs:comment": "Truncated amount"
+        },
+        {
+            "@id": "AmountWeightType:TC",
+            "@type": "unece:AmountWeightTypeCodeList",
+            "rdf:value": "TC",
+            "rdfs:comment": "Thousand currency amount"
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+
+{
+    "@context": {
+        "unece": "https://vocabulary.uncefact.org/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "SchedulingDocumentCodeList": "https://vocabulary.uncefact.org/codelists/SchedulingDocumentCodeList"
+    },
+    "@graph": [
+        {
+            "@id": "SchedulingDocumentCodeList:240",
+            "@type": "unece:SchedulingDocumentCodeList",
+            "rdf:value": "240",
+            "rdfs:comment": "Delivery instructions"
+        },
+        {
+            "@id": "SchedulingDocumentCodeList:241",
+            "@type": "unece:SchedulingDocumentCodeList",
+            "rdf:value": "241",
+            "rdfs:comment": "Delivery schedule"
+        },
+        {
+            "@id": "SchedulingDocumentCodeList:242",
+            "@type": "unece:SchedulingDocumentCodeList",
+            "rdf:value": "242",
+            "rdfs:comment": "Delivery just-in-time"
+        },
+        {
+            "@id": "SchedulingDocumentCodeList:245",
+            "@type": "unece:SchedulingDocumentCodeList",
+            "rdf:value": "245",
+            "rdfs:comment": "Delivery release"
+        },
+        {
+            "@id": "SchedulingDocumentCodeList:288",
+            "@type": "unece:SchedulingDocumentCodeList",
+            "rdf:value": "288",
+            "rdfs:comment": "Kanban schedule"
+        },
+        {
+            "@id": "SchedulingDocumentCodeList:291",
+            "@type": "unece:SchedulingDocumentCodeList",
+            "rdf:value": "291",
+            "rdfs:comment": "Delivery schedule response"
+        }
+    ]
+}

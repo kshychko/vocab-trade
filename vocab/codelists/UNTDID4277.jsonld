@@ -1,0 +1,53 @@
+
+{
+    "@context": {
+        "unece": "https://vocabulary.uncefact.org/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "UNTDID4277": "https://vocabulary.uncefact.org/codelists/UNTDID4277"
+    },
+    "@graph": [
+        {
+            "@id": "UNTDID4277:1",
+            "@type": "unece:PaymentTermsId",
+            "rdf:value": "1",
+            "rdfs:comment": "Draft(s) drawn on issuing bank"
+        },
+        {
+            "@id": "UNTDID4277:2",
+            "@type": "unece:PaymentTermsId",
+            "rdf:value": "2",
+            "rdfs:comment": "Draft(s) drawn on advising bank"
+        },
+        {
+            "@id": "UNTDID4277:3",
+            "@type": "unece:PaymentTermsId",
+            "rdf:value": "3",
+            "rdfs:comment": "Draft(s) drawn on reimbursing bank"
+        },
+        {
+            "@id": "UNTDID4277:4",
+            "@type": "unece:PaymentTermsId",
+            "rdf:value": "4",
+            "rdfs:comment": "Draft(s) drawn on applicant"
+        },
+        {
+            "@id": "UNTDID4277:5",
+            "@type": "unece:PaymentTermsId",
+            "rdf:value": "5",
+            "rdfs:comment": "Draft(s) drawn on any other drawee"
+        },
+        {
+            "@id": "UNTDID4277:6",
+            "@type": "unece:PaymentTermsId",
+            "rdf:value": "6",
+            "rdfs:comment": "No drafts"
+        },
+        {
+            "@id": "UNTDID4277:7",
+            "@type": "unece:PaymentTermsId",
+            "rdf:value": "7",
+            "rdfs:comment": "Payment means specified in commercial account summary"
+        }
+    ]
+}

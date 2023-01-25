@@ -1,0 +1,59 @@
+
+{
+    "@context": {
+        "unece": "https://vocabulary.uncefact.org/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "UNTDID3131": "https://vocabulary.uncefact.org/codelists/UNTDID3131"
+    },
+    "@graph": [
+        {
+            "@id": "UNTDID3131:1",
+            "@type": "unece:AddressTypeCodeList",
+            "rdf:value": "1",
+            "rdfs:comment": "Postal address"
+        },
+        {
+            "@id": "UNTDID3131:2",
+            "@type": "unece:AddressTypeCodeList",
+            "rdf:value": "2",
+            "rdfs:comment": "Fiscal address"
+        },
+        {
+            "@id": "UNTDID3131:3",
+            "@type": "unece:AddressTypeCodeList",
+            "rdf:value": "3",
+            "rdfs:comment": "Physical address"
+        },
+        {
+            "@id": "UNTDID3131:4",
+            "@type": "unece:AddressTypeCodeList",
+            "rdf:value": "4",
+            "rdfs:comment": "Business address"
+        },
+        {
+            "@id": "UNTDID3131:5",
+            "@type": "unece:AddressTypeCodeList",
+            "rdf:value": "5",
+            "rdfs:comment": "Delivery To Address"
+        },
+        {
+            "@id": "UNTDID3131:6",
+            "@type": "unece:AddressTypeCodeList",
+            "rdf:value": "6",
+            "rdfs:comment": "Residential Address"
+        },
+        {
+            "@id": "UNTDID3131:7",
+            "@type": "unece:AddressTypeCodeList",
+            "rdf:value": "7",
+            "rdfs:comment": "Mail To Address"
+        },
+        {
+            "@id": "UNTDID3131:8",
+            "@type": "unece:AddressTypeCodeList",
+            "rdf:value": "8",
+            "rdfs:comment": "Postbox Address"
+        }
+    ]
+}
