@@ -4,29 +4,29 @@
         "unece": "https://vocabulary.uncefact.org/",
         "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
         "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-        "TransportEquipmentMovementStatusCodeList": "https://vocabulary.uncefact.org/codelists/TransportEquipmentMovementStatusCodeList"
+        "TransportEquipmentMovementStatus": "https://vocabulary.uncefact.org/codelists/TransportEquipmentMovementStatus"
     },
     "@graph": [
         {
-            "@id": "TransportEquipmentMovementStatusCodeList:2",
+            "@id": "TransportEquipmentMovementStatus:2",
             "@type": "unece:TransportEquipmentMovementStatusCodeList",
             "rdf:value": "2",
             "rdfs:comment": "Export"
         },
         {
-            "@id": "TransportEquipmentMovementStatusCodeList:3",
+            "@id": "TransportEquipmentMovementStatus:3",
             "@type": "unece:TransportEquipmentMovementStatusCodeList",
             "rdf:value": "3",
             "rdfs:comment": "Import"
         },
         {
-            "@id": "TransportEquipmentMovementStatusCodeList:6",
+            "@id": "TransportEquipmentMovementStatus:6",
             "@type": "unece:TransportEquipmentMovementStatusCodeList",
             "rdf:value": "6",
             "rdfs:comment": "Transhipment"
         },
         {
-            "@id": "TransportEquipmentMovementStatusCodeList:8",
+            "@id": "TransportEquipmentMovementStatus:8",
             "@type": "unece:TransportEquipmentMovementStatusCodeList",
             "rdf:value": "8",
             "rdfs:comment": "Overlanded"
