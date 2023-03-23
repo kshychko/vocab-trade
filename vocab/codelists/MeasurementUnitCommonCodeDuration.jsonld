@@ -1,0 +1,101 @@
+
+{
+    "@context": {
+        "unece": "https://vocabulary.uncefact.org/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "MeasurementUnitCommonCodeDuration": "https://vocabulary.uncefact.org/codelists/MeasurementUnitCommonCodeDuration"
+    },
+    "@graph": [
+        {
+            "@id": "MeasurementUnitCommonCodeDuration:ANN",
+            "@type": "unece:DurationUnitMeasureCode",
+            "rdf:value": "ANN",
+            "rdfs:comment": "year"
+        },
+        {
+            "@id": "MeasurementUnitCommonCodeDuration:B98",
+            "@type": "unece:DurationUnitMeasureCode",
+            "rdf:value": "B98",
+            "rdfs:comment": "microsecond"
+        },
+        {
+            "@id": "MeasurementUnitCommonCodeDuration:C26",
+            "@type": "unece:DurationUnitMeasureCode",
+            "rdf:value": "C26",
+            "rdfs:comment": "millisecond"
+        },
+        {
+            "@id": "MeasurementUnitCommonCodeDuration:C47",
+            "@type": "unece:DurationUnitMeasureCode",
+            "rdf:value": "C47",
+            "rdfs:comment": "nanosecond"
+        },
+        {
+            "@id": "MeasurementUnitCommonCodeDuration:D42",
+            "@type": "unece:DurationUnitMeasureCode",
+            "rdf:value": "D42",
+            "rdfs:comment": "tropical year"
+        },
+        {
+            "@id": "MeasurementUnitCommonCodeDuration:DAD",
+            "@type": "unece:DurationUnitMeasureCode",
+            "rdf:value": "DAD",
+            "rdfs:comment": "ten day"
+        },
+        {
+            "@id": "MeasurementUnitCommonCodeDuration:DAY",
+            "@type": "unece:DurationUnitMeasureCode",
+            "rdf:value": "DAY",
+            "rdfs:comment": "day"
+        },
+        {
+            "@id": "MeasurementUnitCommonCodeDuration:DEC",
+            "@type": "unece:DurationUnitMeasureCode",
+            "rdf:value": "DEC",
+            "rdfs:comment": "decade"
+        },
+        {
+            "@id": "MeasurementUnitCommonCodeDuration:HUR",
+            "@type": "unece:DurationUnitMeasureCode",
+            "rdf:value": "HUR",
+            "rdfs:comment": "hour"
+        },
+        {
+            "@id": "MeasurementUnitCommonCodeDuration:MIN",
+            "@type": "unece:DurationUnitMeasureCode",
+            "rdf:value": "MIN",
+            "rdfs:comment": "minute [unit of time]"
+        },
+        {
+            "@id": "MeasurementUnitCommonCodeDuration:MON",
+            "@type": "unece:DurationUnitMeasureCode",
+            "rdf:value": "MON",
+            "rdfs:comment": "month"
+        },
+        {
+            "@id": "MeasurementUnitCommonCodeDuration:RH",
+            "@type": "unece:DurationUnitMeasureCode",
+            "rdf:value": "RH",
+            "rdfs:comment": "running or operating hour"
+        },
+        {
+            "@id": "MeasurementUnitCommonCodeDuration:SAN",
+            "@type": "unece:DurationUnitMeasureCode",
+            "rdf:value": "SAN",
+            "rdfs:comment": "half year (6 months)"
+        },
+        {
+            "@id": "MeasurementUnitCommonCodeDuration:SEC",
+            "@type": "unece:DurationUnitMeasureCode",
+            "rdf:value": "SEC",
+            "rdfs:comment": "second [unit of time]"
+        },
+        {
+            "@id": "MeasurementUnitCommonCodeDuration:WEE",
+            "@type": "unece:DurationUnitMeasureCode",
+            "rdf:value": "WEE",
+            "rdfs:comment": "week"
+        }
+    ]
+}

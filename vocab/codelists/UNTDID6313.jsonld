@@ -1,0 +1,1763 @@
+
+{
+    "@context": {
+        "unece": "https://vocabulary.uncefact.org/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "UNTDID6313": "https://vocabulary.uncefact.org/codelists/UNTDID6313"
+    },
+    "@graph": [
+        {
+            "@id": "UNTDID6313:A",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "A",
+            "rdfs:comment": "Consolidated weight"
+        },
+        {
+            "@id": "UNTDID6313:AAA",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "AAA",
+            "rdfs:comment": "Net weight"
+        },
+        {
+            "@id": "UNTDID6313:AAB",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "AAB",
+            "rdfs:comment": "Goods item gross weight"
+        },
+        {
+            "@id": "UNTDID6313:AAC",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "AAC",
+            "rdfs:comment": "Total net weight"
+        },
+        {
+            "@id": "UNTDID6313:AAD",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "AAD",
+            "rdfs:comment": "Consignment gross weight"
+        },
+        {
+            "@id": "UNTDID6313:AAF",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "AAF",
+            "rdfs:comment": "Net net weight"
+        },
+        {
+            "@id": "UNTDID6313:AAG",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "AAG",
+            "rdfs:comment": "Stern thrust"
+        },
+        {
+            "@id": "UNTDID6313:AAH",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "AAH",
+            "rdfs:comment": "Bow thrust"
+        },
+        {
+            "@id": "UNTDID6313:AAI",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "AAI",
+            "rdfs:comment": "Hydrate content of an alcoholic product at bottling"
+        },
+        {
+            "@id": "UNTDID6313:AAJ",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "AAJ",
+            "rdfs:comment": "Number of units per pallet"
+        },
+        {
+            "@id": "UNTDID6313:AAK",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "AAK",
+            "rdfs:comment": "Fat content"
+        },
+        {
+            "@id": "UNTDID6313:AAM",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "AAM",
+            "rdfs:comment": "Transport means gross weight"
+        },
+        {
+            "@id": "UNTDID6313:AAN",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "AAN",
+            "rdfs:comment": "Net tonnage of the vessel"
+        },
+        {
+            "@id": "UNTDID6313:AAO",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "AAO",
+            "rdfs:comment": "Humidity"
+        },
+        {
+            "@id": "UNTDID6313:AAP",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "AAP",
+            "rdfs:comment": "Voltage"
+        },
+        {
+            "@id": "UNTDID6313:AAQ",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "AAQ",
+            "rdfs:comment": "Power consumption"
+        },
+        {
+            "@id": "UNTDID6313:AAR",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "AAR",
+            "rdfs:comment": "Heat dissipation"
+        },
+        {
+            "@id": "UNTDID6313:AAS",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "AAS",
+            "rdfs:comment": "Air flow"
+        },
+        {
+            "@id": "UNTDID6313:AAT",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "AAT",
+            "rdfs:comment": "Shock impact"
+        },
+        {
+            "@id": "UNTDID6313:AAU",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "AAU",
+            "rdfs:comment": "Operative temperature"
+        },
+        {
+            "@id": "UNTDID6313:AAV",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "AAV",
+            "rdfs:comment": "Non operative temperature"
+        },
+        {
+            "@id": "UNTDID6313:AAW",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "AAW",
+            "rdfs:comment": "Gross volume"
+        },
+        {
+            "@id": "UNTDID6313:AAX",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "AAX",
+            "rdfs:comment": "Net volume"
+        },
+        {
+            "@id": "UNTDID6313:AAY",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "AAY",
+            "rdfs:comment": "Water content"
+        },
+        {
+            "@id": "UNTDID6313:AAZ",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "AAZ",
+            "rdfs:comment": "Tensile stress"
+        },
+        {
+            "@id": "UNTDID6313:ABA",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "ABA",
+            "rdfs:comment": "Fibrosity"
+        },
+        {
+            "@id": "UNTDID6313:ABB",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "ABB",
+            "rdfs:comment": "Gauge length"
+        },
+        {
+            "@id": "UNTDID6313:ABC",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "ABC",
+            "rdfs:comment": "Radius"
+        },
+        {
+            "@id": "UNTDID6313:ABD",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "ABD",
+            "rdfs:comment": "Straightness"
+        },
+        {
+            "@id": "UNTDID6313:ABE",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "ABE",
+            "rdfs:comment": "Strain"
+        },
+        {
+            "@id": "UNTDID6313:ABF",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "ABF",
+            "rdfs:comment": "Item width when unrolled"
+        },
+        {
+            "@id": "UNTDID6313:ABG",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "ABG",
+            "rdfs:comment": "Item length when unrolled"
+        },
+        {
+            "@id": "UNTDID6313:ABH",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "ABH",
+            "rdfs:comment": "Item area when unrolled"
+        },
+        {
+            "@id": "UNTDID6313:ABI",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "ABI",
+            "rdfs:comment": "Original wort"
+        },
+        {
+            "@id": "UNTDID6313:ABJ",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "ABJ",
+            "rdfs:comment": "Volume"
+        },
+        {
+            "@id": "UNTDID6313:ABK",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "ABK",
+            "rdfs:comment": "Angle"
+        },
+        {
+            "@id": "UNTDID6313:ABL",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "ABL",
+            "rdfs:comment": "Peg hole horizontal distance from package leftmost edge"
+        },
+        {
+            "@id": "UNTDID6313:ABM",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "ABM",
+            "rdfs:comment": "Peg hole vertical distance from package top"
+        },
+        {
+            "@id": "UNTDID6313:ABN",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "ABN",
+            "rdfs:comment": "Number of layers per pallet"
+        },
+        {
+            "@id": "UNTDID6313:ABO",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "ABO",
+            "rdfs:comment": "Product strengh, chemical"
+        },
+        {
+            "@id": "UNTDID6313:ABP",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "ABP",
+            "rdfs:comment": "Product strength basis, chemical"
+        },
+        {
+            "@id": "UNTDID6313:ABS",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "ABS",
+            "rdfs:comment": "Item weight"
+        },
+        {
+            "@id": "UNTDID6313:ABT",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "ABT",
+            "rdfs:comment": "Payload weight, maximum"
+        },
+        {
+            "@id": "UNTDID6313:ABX",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "ABX",
+            "rdfs:comment": "Weight of conveyance"
+        },
+        {
+            "@id": "UNTDID6313:ABY",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "ABY",
+            "rdfs:comment": "Conveyance summer dead weight"
+        },
+        {
+            "@id": "UNTDID6313:ABZ",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "ABZ",
+            "rdfs:comment": "Containerized cargo on vessel's weight"
+        },
+        {
+            "@id": "UNTDID6313:ACA",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "ACA",
+            "rdfs:comment": "Non-containerized cargo on vessel's weight"
+        },
+        {
+            "@id": "UNTDID6313:ACE",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "ACE",
+            "rdfs:comment": "Ascertained weight"
+        },
+        {
+            "@id": "UNTDID6313:ACG",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "ACG",
+            "rdfs:comment": "Chargeable weight"
+        },
+        {
+            "@id": "UNTDID6313:ACN",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "ACN",
+            "rdfs:comment": "Estimated gross weight"
+        },
+        {
+            "@id": "UNTDID6313:ACP",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "ACP",
+            "rdfs:comment": "Estimated volume"
+        },
+        {
+            "@id": "UNTDID6313:ACS",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "ACS",
+            "rdfs:comment": "Vessel overall length"
+        },
+        {
+            "@id": "UNTDID6313:ACV",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "ACV",
+            "rdfs:comment": "Loading meters"
+        },
+        {
+            "@id": "UNTDID6313:ACW",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "ACW",
+            "rdfs:comment": "Number of axles"
+        },
+        {
+            "@id": "UNTDID6313:ACX",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "ACX",
+            "rdfs:comment": "Payload"
+        },
+        {
+            "@id": "UNTDID6313:ADR",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "ADR",
+            "rdfs:comment": "Start position in the length"
+        },
+        {
+            "@id": "UNTDID6313:ADS",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "ADS",
+            "rdfs:comment": "End position in the length"
+        },
+        {
+            "@id": "UNTDID6313:ADT",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "ADT",
+            "rdfs:comment": "Start position in the width"
+        },
+        {
+            "@id": "UNTDID6313:ADU",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "ADU",
+            "rdfs:comment": "End position in the width"
+        },
+        {
+            "@id": "UNTDID6313:ADV",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "ADV",
+            "rdfs:comment": "Start position in the thickness"
+        },
+        {
+            "@id": "UNTDID6313:ADW",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "ADW",
+            "rdfs:comment": "End position in the thickness"
+        },
+        {
+            "@id": "UNTDID6313:ADX",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "ADX",
+            "rdfs:comment": "Transport container actual filling weight"
+        },
+        {
+            "@id": "UNTDID6313:ADY",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "ADY",
+            "rdfs:comment": "Transport container maximum capacity"
+        },
+        {
+            "@id": "UNTDID6313:ADZ",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "ADZ",
+            "rdfs:comment": "Declared net weight"
+        },
+        {
+            "@id": "UNTDID6313:AEA",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "AEA",
+            "rdfs:comment": "Loading height"
+        },
+        {
+            "@id": "UNTDID6313:AEB",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "AEB",
+            "rdfs:comment": "Stacking height"
+        },
+        {
+            "@id": "UNTDID6313:AEC",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "AEC",
+            "rdfs:comment": "Calculated weight"
+        },
+        {
+            "@id": "UNTDID6313:AED",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "AED",
+            "rdfs:comment": "Ferrite"
+        },
+        {
+            "@id": "UNTDID6313:AEE",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "AEE",
+            "rdfs:comment": "Impurity"
+        },
+        {
+            "@id": "UNTDID6313:AEF",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "AEF",
+            "rdfs:comment": "Grain size"
+        },
+        {
+            "@id": "UNTDID6313:AEG",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "AEG",
+            "rdfs:comment": "Lanthanides"
+        },
+        {
+            "@id": "UNTDID6313:AEH",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "AEH",
+            "rdfs:comment": "Elasticity"
+        },
+        {
+            "@id": "UNTDID6313:AEI",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "AEI",
+            "rdfs:comment": "Drained weight"
+        },
+        {
+            "@id": "UNTDID6313:AEJ",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "AEJ",
+            "rdfs:comment": "Gallium"
+        },
+        {
+            "@id": "UNTDID6313:AEK",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "AEK",
+            "rdfs:comment": "Strontium"
+        },
+        {
+            "@id": "UNTDID6313:AEL",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "AEL",
+            "rdfs:comment": "Area"
+        },
+        {
+            "@id": "UNTDID6313:AEM",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "AEM",
+            "rdfs:comment": "Equipment storage limitation"
+        },
+        {
+            "@id": "UNTDID6313:AEN",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "AEN",
+            "rdfs:comment": "Radioactive index of transport"
+        },
+        {
+            "@id": "UNTDID6313:AEO",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "AEO",
+            "rdfs:comment": "Radioactivity"
+        },
+        {
+            "@id": "UNTDID6313:AEP",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "AEP",
+            "rdfs:comment": "Average gross weight"
+        },
+        {
+            "@id": "UNTDID6313:AEQ",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "AEQ",
+            "rdfs:comment": "Forward draft"
+        },
+        {
+            "@id": "UNTDID6313:AER",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "AER",
+            "rdfs:comment": "After draft"
+        },
+        {
+            "@id": "UNTDID6313:AES",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "AES",
+            "rdfs:comment": "Acidity"
+        },
+        {
+            "@id": "UNTDID6313:AET",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "AET",
+            "rdfs:comment": "Transport equipment gross weight"
+        },
+        {
+            "@id": "UNTDID6313:AEU",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "AEU",
+            "rdfs:comment": "Total transport equipment gross weight"
+        },
+        {
+            "@id": "UNTDID6313:AEV",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "AEV",
+            "rdfs:comment": "Acidity of juice"
+        },
+        {
+            "@id": "UNTDID6313:AEW",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "AEW",
+            "rdfs:comment": "Penetrometry"
+        },
+        {
+            "@id": "UNTDID6313:AEX",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "AEX",
+            "rdfs:comment": "Durofel"
+        },
+        {
+            "@id": "UNTDID6313:AEY",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "AEY",
+            "rdfs:comment": "Juice weight per 100 grams"
+        },
+        {
+            "@id": "UNTDID6313:AEZ",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "AEZ",
+            "rdfs:comment": "Fruit skin colour"
+        },
+        {
+            "@id": "UNTDID6313:AF",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "AF",
+            "rdfs:comment": "Angle of bend"
+        },
+        {
+            "@id": "UNTDID6313:AFA",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "AFA",
+            "rdfs:comment": "Fixed incremental measurement"
+        },
+        {
+            "@id": "UNTDID6313:AFB",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "AFB",
+            "rdfs:comment": "Durofel D10"
+        },
+        {
+            "@id": "UNTDID6313:AFC",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "AFC",
+            "rdfs:comment": "Durofel D25"
+        },
+        {
+            "@id": "UNTDID6313:AFD",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "AFD",
+            "rdfs:comment": "Durofel D50"
+        },
+        {
+            "@id": "UNTDID6313:AFE",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "AFE",
+            "rdfs:comment": "Maximum stacking weight"
+        },
+        {
+            "@id": "UNTDID6313:AFF",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "AFF",
+            "rdfs:comment": "Gross measure cube"
+        },
+        {
+            "@id": "UNTDID6313:AFG",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "AFG",
+            "rdfs:comment": "Percentage fat content in dry matter"
+        },
+        {
+            "@id": "UNTDID6313:AFH",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "AFH",
+            "rdfs:comment": "Saccharometric content"
+        },
+        {
+            "@id": "UNTDID6313:AFI",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "AFI",
+            "rdfs:comment": "Hydrate content of an alcoholic product after bottling"
+        },
+        {
+            "@id": "UNTDID6313:AFJ",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "AFJ",
+            "rdfs:comment": "Anhydrous content"
+        },
+        {
+            "@id": "UNTDID6313:AFK",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "AFK",
+            "rdfs:comment": "Certified weight"
+        },
+        {
+            "@id": "UNTDID6313:AFL",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "AFL",
+            "rdfs:comment": "Freeboard"
+        },
+        {
+            "@id": "UNTDID6313:AFM",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "AFM",
+            "rdfs:comment": "Maximum vessel draught"
+        },
+        {
+            "@id": "UNTDID6313:AFN",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "AFN",
+            "rdfs:comment": "Net explosive weight"
+        },
+        {
+            "@id": "UNTDID6313:AFO",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "AFO",
+            "rdfs:comment": "Radioactive criticality safety index"
+        },
+        {
+            "@id": "UNTDID6313:AFP",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "AFP",
+            "rdfs:comment": "Waste currently on board"
+        },
+        {
+            "@id": "UNTDID6313:AFQ",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "AFQ",
+            "rdfs:comment": "Waste to be delivered at waste reception facility"
+        },
+        {
+            "@id": "UNTDID6313:AFR",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "AFR",
+            "rdfs:comment": "Waste to be generated until next port of call, estimated"
+        },
+        {
+            "@id": "UNTDID6313:AFS",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "AFS",
+            "rdfs:comment": "Waste remaining on board at departure"
+        },
+        {
+            "@id": "UNTDID6313:AFT",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "AFT",
+            "rdfs:comment": "Colour depth"
+        },
+        {
+            "@id": "UNTDID6313:AFU",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "AFU",
+            "rdfs:comment": "Colour depth, maximum"
+        },
+        {
+            "@id": "UNTDID6313:AFV",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "AFV",
+            "rdfs:comment": "Image resolution"
+        },
+        {
+            "@id": "UNTDID6313:AFW",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "AFW",
+            "rdfs:comment": "Device resolution, maximum"
+        },
+        {
+            "@id": "UNTDID6313:AFX",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "AFX",
+            "rdfs:comment": "Acoustic absorption coefficient"
+        },
+        {
+            "@id": "UNTDID6313:B",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "B",
+            "rdfs:comment": "Billed weight"
+        },
+        {
+            "@id": "UNTDID6313:BL",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "BL",
+            "rdfs:comment": "Breaking load"
+        },
+        {
+            "@id": "UNTDID6313:BMY",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "BMY",
+            "rdfs:comment": "Platinum"
+        },
+        {
+            "@id": "UNTDID6313:BMZ",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "BMZ",
+            "rdfs:comment": "Silver"
+        },
+        {
+            "@id": "UNTDID6313:BNA",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "BNA",
+            "rdfs:comment": "List"
+        },
+        {
+            "@id": "UNTDID6313:BNB",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "BNB",
+            "rdfs:comment": "Trim"
+        },
+        {
+            "@id": "UNTDID6313:BNC",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "BNC",
+            "rdfs:comment": "Free water"
+        },
+        {
+            "@id": "UNTDID6313:BND",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "BND",
+            "rdfs:comment": "Bands"
+        },
+        {
+            "@id": "UNTDID6313:BNE",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "BNE",
+            "rdfs:comment": "API (American Petroleum Institute) gravity"
+        },
+        {
+            "@id": "UNTDID6313:BNF",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "BNF",
+            "rdfs:comment": "Petroleum gross observed volume"
+        },
+        {
+            "@id": "UNTDID6313:BNG",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "BNG",
+            "rdfs:comment": "Petroleum gross standard volume"
+        },
+        {
+            "@id": "UNTDID6313:BNH",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "BNH",
+            "rdfs:comment": "Volume variance"
+        },
+        {
+            "@id": "UNTDID6313:BNI",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "BNI",
+            "rdfs:comment": "Petroleum net standard volume"
+        },
+        {
+            "@id": "UNTDID6313:BNJ",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "BNJ",
+            "rdfs:comment": "Material on-board quantity, after discharge"
+        },
+        {
+            "@id": "UNTDID6313:BNK",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "BNK",
+            "rdfs:comment": "Petroleum total calculated volume"
+        },
+        {
+            "@id": "UNTDID6313:BNL",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "BNL",
+            "rdfs:comment": "Petroleum total observed volume"
+        },
+        {
+            "@id": "UNTDID6313:BNM",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "BNM",
+            "rdfs:comment": "Innage gauge distance"
+        },
+        {
+            "@id": "UNTDID6313:BNN",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "BNN",
+            "rdfs:comment": "Petroleum net standard weight"
+        },
+        {
+            "@id": "UNTDID6313:BNO",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "BNO",
+            "rdfs:comment": "Sediment and water in petroleum"
+        },
+        {
+            "@id": "UNTDID6313:BNP",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "BNP",
+            "rdfs:comment": "Observed reference height, tank"
+        },
+        {
+            "@id": "UNTDID6313:BNQ",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "BNQ",
+            "rdfs:comment": "Reference height, tank"
+        },
+        {
+            "@id": "UNTDID6313:BNR",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "BNR",
+            "rdfs:comment": "Ullage gauge distance"
+        },
+        {
+            "@id": "UNTDID6313:BNS",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "BNS",
+            "rdfs:comment": "Trim correction"
+        },
+        {
+            "@id": "UNTDID6313:BNT",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "BNT",
+            "rdfs:comment": "Bow to bridge distance"
+        },
+        {
+            "@id": "UNTDID6313:BNU",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "BNU",
+            "rdfs:comment": "Peg hole number"
+        },
+        {
+            "@id": "UNTDID6313:BNV",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "BNV",
+            "rdfs:comment": "Number of inner packs"
+        },
+        {
+            "@id": "UNTDID6313:BNW",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "BNW",
+            "rdfs:comment": "Number of next level trade items within inner pack"
+        },
+        {
+            "@id": "UNTDID6313:BNX",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "BNX",
+            "rdfs:comment": "Number of trade items per pallet layer"
+        },
+        {
+            "@id": "UNTDID6313:BNY",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "BNY",
+            "rdfs:comment": "Packed items layer height"
+        },
+        {
+            "@id": "UNTDID6313:BNZ",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "BNZ",
+            "rdfs:comment": "Packing material weight, skin tight covering"
+        },
+        {
+            "@id": "UNTDID6313:BR",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "BR",
+            "rdfs:comment": "Brightness"
+        },
+        {
+            "@id": "UNTDID6313:BRA",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "BRA",
+            "rdfs:comment": "Brakes"
+        },
+        {
+            "@id": "UNTDID6313:BRB",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "BRB",
+            "rdfs:comment": "Components labelled for recycling percentage"
+        },
+        {
+            "@id": "UNTDID6313:BRC",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "BRC",
+            "rdfs:comment": "Renewable plastic components percentage, by net weight"
+        },
+        {
+            "@id": "UNTDID6313:BRD",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "BRD",
+            "rdfs:comment": "Clamp pressure, required"
+        },
+        {
+            "@id": "UNTDID6313:BRE",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "BRE",
+            "rdfs:comment": "Break"
+        },
+        {
+            "@id": "UNTDID6313:BRF",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "BRF",
+            "rdfs:comment": "Ascertained volume"
+        },
+        {
+            "@id": "UNTDID6313:BRG",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "BRG",
+            "rdfs:comment": "Unit weight"
+        },
+        {
+            "@id": "UNTDID6313:BRH",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "BRH",
+            "rdfs:comment": "Total volume"
+        },
+        {
+            "@id": "UNTDID6313:BRI",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "BRI",
+            "rdfs:comment": "Unit volume"
+        },
+        {
+            "@id": "UNTDID6313:BRJ",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "BRJ",
+            "rdfs:comment": "Vertical center of gravity"
+        },
+        {
+            "@id": "UNTDID6313:BRK",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "BRK",
+            "rdfs:comment": "Maximum allowable transport stacking weight"
+        },
+        {
+            "@id": "UNTDID6313:BRL",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "BRL",
+            "rdfs:comment": "Carbon Dioxide"
+        },
+        {
+            "@id": "UNTDID6313:BRM",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "BRM",
+            "rdfs:comment": "Number of base units per pallet"
+        },
+        {
+            "@id": "UNTDID6313:BRN",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "BRN",
+            "rdfs:comment": "Colony forming unit"
+        },
+        {
+            "@id": "UNTDID6313:BRO",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "BRO",
+            "rdfs:comment": "Diluted liquid volume"
+        },
+        {
+            "@id": "UNTDID6313:BRP",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "BRP",
+            "rdfs:comment": "Energy efficiency"
+        },
+        {
+            "@id": "UNTDID6313:BRQ",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "BRQ",
+            "rdfs:comment": "Number of layers"
+        },
+        {
+            "@id": "UNTDID6313:BRR",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "BRR",
+            "rdfs:comment": "Maximum demand"
+        },
+        {
+            "@id": "UNTDID6313:BRS",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "BRS",
+            "rdfs:comment": "Number of pallet places"
+        },
+        {
+            "@id": "UNTDID6313:BRT",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "BRT",
+            "rdfs:comment": "Package net measurement, cubed"
+        },
+        {
+            "@id": "UNTDID6313:BRU",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "BRU",
+            "rdfs:comment": "Power factor"
+        },
+        {
+            "@id": "UNTDID6313:BRV",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "BRV",
+            "rdfs:comment": "Stacking factor excluding bottom item"
+        },
+        {
+            "@id": "UNTDID6313:BS",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "BS",
+            "rdfs:comment": "Breaking strength"
+        },
+        {
+            "@id": "UNTDID6313:BSW",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "BSW",
+            "rdfs:comment": "Breaking strength wet"
+        },
+        {
+            "@id": "UNTDID6313:BSX",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "BSX",
+            "rdfs:comment": "Step size"
+        },
+        {
+            "@id": "UNTDID6313:BSY",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "BSY",
+            "rdfs:comment": "Number of units per package"
+        },
+        {
+            "@id": "UNTDID6313:BSZ",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "BSZ",
+            "rdfs:comment": "Number of units per layer"
+        },
+        {
+            "@id": "UNTDID6313:BTA",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "BTA",
+            "rdfs:comment": "Weight per running metre"
+        },
+        {
+            "@id": "UNTDID6313:BTB",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "BTB",
+            "rdfs:comment": "Weight per square metre"
+        },
+        {
+            "@id": "UNTDID6313:BTC",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "BTC",
+            "rdfs:comment": "Acidity of meat"
+        },
+        {
+            "@id": "UNTDID6313:BTD",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "BTD",
+            "rdfs:comment": "Slaughtering weight"
+        },
+        {
+            "@id": "UNTDID6313:BTE",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "BTE",
+            "rdfs:comment": "Stacking factor including bottom item"
+        },
+        {
+            "@id": "UNTDID6313:BTF",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "BTF",
+            "rdfs:comment": "Number of units in the width of a layer"
+        },
+        {
+            "@id": "UNTDID6313:BTG",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "BTG",
+            "rdfs:comment": "Number of units in the depth of a layer"
+        },
+        {
+            "@id": "UNTDID6313:BTH",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "BTH",
+            "rdfs:comment": "Nestable percentage"
+        },
+        {
+            "@id": "UNTDID6313:BTI",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "BTI",
+            "rdfs:comment": "Gross weight including carrier's equipment"
+        },
+        {
+            "@id": "UNTDID6313:BTJ",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "BTJ",
+            "rdfs:comment": "Sugar content"
+        },
+        {
+            "@id": "UNTDID6313:BTK",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "BTK",
+            "rdfs:comment": "Self-accelerating polymerization temperature (SAPT)"
+        },
+        {
+            "@id": "UNTDID6313:BTL",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "BTL",
+            "rdfs:comment": "Self-accelerating decomposition temperature (SADT)"
+        },
+        {
+            "@id": "UNTDID6313:BTM",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "BTM",
+            "rdfs:comment": "Control temperature"
+        },
+        {
+            "@id": "UNTDID6313:BW",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "BW",
+            "rdfs:comment": "Basis weight"
+        },
+        {
+            "@id": "UNTDID6313:CHN",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "CHN",
+            "rdfs:comment": "Change"
+        },
+        {
+            "@id": "UNTDID6313:CHO",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "CHO",
+            "rdfs:comment": "Emergency temperature"
+        },
+        {
+            "@id": "UNTDID6313:CM",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "CM",
+            "rdfs:comment": "Colour"
+        },
+        {
+            "@id": "UNTDID6313:CT",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "CT",
+            "rdfs:comment": "Contents of package"
+        },
+        {
+            "@id": "UNTDID6313:CV",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "CV",
+            "rdfs:comment": "Commercial weight"
+        },
+        {
+            "@id": "UNTDID6313:CZ",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "CZ",
+            "rdfs:comment": "Core length"
+        },
+        {
+            "@id": "UNTDID6313:D",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "D",
+            "rdfs:comment": "Destination weight agreement"
+        },
+        {
+            "@id": "UNTDID6313:DI",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "DI",
+            "rdfs:comment": "Diameter"
+        },
+        {
+            "@id": "UNTDID6313:DL",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "DL",
+            "rdfs:comment": "Delta value L"
+        },
+        {
+            "@id": "UNTDID6313:DN",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "DN",
+            "rdfs:comment": "Density"
+        },
+        {
+            "@id": "UNTDID6313:DP",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "DP",
+            "rdfs:comment": "Depth"
+        },
+        {
+            "@id": "UNTDID6313:DR",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "DR",
+            "rdfs:comment": "Denier"
+        },
+        {
+            "@id": "UNTDID6313:DS",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "DS",
+            "rdfs:comment": "Distance between points"
+        },
+        {
+            "@id": "UNTDID6313:DW",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "DW",
+            "rdfs:comment": "Width, boxcar door"
+        },
+        {
+            "@id": "UNTDID6313:E",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "E",
+            "rdfs:comment": "Estimated new weight"
+        },
+        {
+            "@id": "UNTDID6313:EA",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "EA",
+            "rdfs:comment": "Elongation"
+        },
+        {
+            "@id": "UNTDID6313:F",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "F",
+            "rdfs:comment": "Deficit weight"
+        },
+        {
+            "@id": "UNTDID6313:FI",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "FI",
+            "rdfs:comment": "Filament count"
+        },
+        {
+            "@id": "UNTDID6313:FL",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "FL",
+            "rdfs:comment": "Longitudinal flatness"
+        },
+        {
+            "@id": "UNTDID6313:FN",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "FN",
+            "rdfs:comment": "Flatness"
+        },
+        {
+            "@id": "UNTDID6313:FV",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "FV",
+            "rdfs:comment": "Transverse flatness"
+        },
+        {
+            "@id": "UNTDID6313:GG",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "GG",
+            "rdfs:comment": "Gauge"
+        },
+        {
+            "@id": "UNTDID6313:GW",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "GW",
+            "rdfs:comment": "Gross weight, maximum"
+        },
+        {
+            "@id": "UNTDID6313:HF",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "HF",
+            "rdfs:comment": "Hardness"
+        },
+        {
+            "@id": "UNTDID6313:HM",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "HM",
+            "rdfs:comment": "Height, maximum"
+        },
+        {
+            "@id": "UNTDID6313:HT",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "HT",
+            "rdfs:comment": "Height dimension"
+        },
+        {
+            "@id": "UNTDID6313:IB",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "IB",
+            "rdfs:comment": "Impact energy"
+        },
+        {
+            "@id": "UNTDID6313:ID",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "ID",
+            "rdfs:comment": "Inside diameter"
+        },
+        {
+            "@id": "UNTDID6313:L",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "L",
+            "rdfs:comment": "Legal weight"
+        },
+        {
+            "@id": "UNTDID6313:LM",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "LM",
+            "rdfs:comment": "Length, maximum"
+        },
+        {
+            "@id": "UNTDID6313:LN",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "LN",
+            "rdfs:comment": "Length"
+        },
+        {
+            "@id": "UNTDID6313:LND",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "LND",
+            "rdfs:comment": "Lost end"
+        },
+        {
+            "@id": "UNTDID6313:M",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "M",
+            "rdfs:comment": "Minimum weight"
+        },
+        {
+            "@id": "UNTDID6313:MO",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "MO",
+            "rdfs:comment": "Moisture"
+        },
+        {
+            "@id": "UNTDID6313:MW",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "MW",
+            "rdfs:comment": "Maximum weight"
+        },
+        {
+            "@id": "UNTDID6313:N",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "N",
+            "rdfs:comment": "Actual net weight"
+        },
+        {
+            "@id": "UNTDID6313:OD",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "OD",
+            "rdfs:comment": "Outside diameter"
+        },
+        {
+            "@id": "UNTDID6313:PRS",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "PRS",
+            "rdfs:comment": "Pre stretch"
+        },
+        {
+            "@id": "UNTDID6313:PTN",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "PTN",
+            "rdfs:comment": "Per tonne"
+        },
+        {
+            "@id": "UNTDID6313:RA",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "RA",
+            "rdfs:comment": "Relative humidity"
+        },
+        {
+            "@id": "UNTDID6313:RF",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "RF",
+            "rdfs:comment": "Resistivity"
+        },
+        {
+            "@id": "UNTDID6313:RJ",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "RJ",
+            "rdfs:comment": "Rockwell C"
+        },
+        {
+            "@id": "UNTDID6313:RMW",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "RMW",
+            "rdfs:comment": "Ream weight"
+        },
+        {
+            "@id": "UNTDID6313:RP",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "RP",
+            "rdfs:comment": "Reduction of area"
+        },
+        {
+            "@id": "UNTDID6313:RUN",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "RUN",
+            "rdfs:comment": "Run (process)"
+        },
+        {
+            "@id": "UNTDID6313:RY",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "RY",
+            "rdfs:comment": "Ratio"
+        },
+        {
+            "@id": "UNTDID6313:SQ",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "SQ",
+            "rdfs:comment": "Shipped quantity"
+        },
+        {
+            "@id": "UNTDID6313:T",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "T",
+            "rdfs:comment": "Tare weight"
+        },
+        {
+            "@id": "UNTDID6313:TC",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "TC",
+            "rdfs:comment": "Temperature"
+        },
+        {
+            "@id": "UNTDID6313:TH",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "TH",
+            "rdfs:comment": "Thickness"
+        },
+        {
+            "@id": "UNTDID6313:TN",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "TN",
+            "rdfs:comment": "Time period"
+        },
+        {
+            "@id": "UNTDID6313:TT",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "TT",
+            "rdfs:comment": "Time"
+        },
+        {
+            "@id": "UNTDID6313:VGM",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "VGM",
+            "rdfs:comment": "Transport equipment verified gross mass (weight)"
+        },
+        {
+            "@id": "UNTDID6313:VH",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "VH",
+            "rdfs:comment": "Height, van door"
+        },
+        {
+            "@id": "UNTDID6313:VW",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "VW",
+            "rdfs:comment": "Width, van door"
+        },
+        {
+            "@id": "UNTDID6313:WA",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "WA",
+            "rdfs:comment": "Weight per unit of area"
+        },
+        {
+            "@id": "UNTDID6313:WD",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "WD",
+            "rdfs:comment": "Width dimension"
+        },
+        {
+            "@id": "UNTDID6313:WM",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "WM",
+            "rdfs:comment": "Width, maximum"
+        },
+        {
+            "@id": "UNTDID6313:WU",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "WU",
+            "rdfs:comment": "Weight per unit of length"
+        },
+        {
+            "@id": "UNTDID6313:XH",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "XH",
+            "rdfs:comment": "Side height, flat bed with removable sides"
+        },
+        {
+            "@id": "UNTDID6313:XQ",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "XQ",
+            "rdfs:comment": "Squareness"
+        },
+        {
+            "@id": "UNTDID6313:XZ",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "XZ",
+            "rdfs:comment": "Spool size"
+        },
+        {
+            "@id": "UNTDID6313:YS",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "YS",
+            "rdfs:comment": "Yield stress"
+        },
+        {
+            "@id": "UNTDID6313:ZAL",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "ZAL",
+            "rdfs:comment": "Aluminium"
+        },
+        {
+            "@id": "UNTDID6313:ZAS",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "ZAS",
+            "rdfs:comment": "Arsenic"
+        },
+        {
+            "@id": "UNTDID6313:ZB",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "ZB",
+            "rdfs:comment": "Boron"
+        },
+        {
+            "@id": "UNTDID6313:ZBI",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "ZBI",
+            "rdfs:comment": "Bismuth"
+        },
+        {
+            "@id": "UNTDID6313:ZC",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "ZC",
+            "rdfs:comment": "Carbon"
+        },
+        {
+            "@id": "UNTDID6313:ZCA",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "ZCA",
+            "rdfs:comment": "Calcium"
+        },
+        {
+            "@id": "UNTDID6313:ZCB",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "ZCB",
+            "rdfs:comment": "Columbium"
+        },
+        {
+            "@id": "UNTDID6313:ZCE",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "ZCE",
+            "rdfs:comment": "Cerium"
+        },
+        {
+            "@id": "UNTDID6313:ZCL",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "ZCL",
+            "rdfs:comment": "Chlorine"
+        },
+        {
+            "@id": "UNTDID6313:ZCO",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "ZCO",
+            "rdfs:comment": "Cobalt"
+        },
+        {
+            "@id": "UNTDID6313:ZCR",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "ZCR",
+            "rdfs:comment": "Chromium"
+        },
+        {
+            "@id": "UNTDID6313:ZCU",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "ZCU",
+            "rdfs:comment": "Copper"
+        },
+        {
+            "@id": "UNTDID6313:ZFE",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "ZFE",
+            "rdfs:comment": "Iron"
+        },
+        {
+            "@id": "UNTDID6313:ZFS",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "ZFS",
+            "rdfs:comment": "Iron plus silicon"
+        },
+        {
+            "@id": "UNTDID6313:ZGE",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "ZGE",
+            "rdfs:comment": "Germanium"
+        },
+        {
+            "@id": "UNTDID6313:ZH",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "ZH",
+            "rdfs:comment": "Hydrogen"
+        },
+        {
+            "@id": "UNTDID6313:ZK",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "ZK",
+            "rdfs:comment": "Potassium"
+        },
+        {
+            "@id": "UNTDID6313:ZMG",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "ZMG",
+            "rdfs:comment": "Magnesium"
+        },
+        {
+            "@id": "UNTDID6313:ZMN",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "ZMN",
+            "rdfs:comment": "Manganese"
+        },
+        {
+            "@id": "UNTDID6313:ZMO",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "ZMO",
+            "rdfs:comment": "Molybdenum"
+        },
+        {
+            "@id": "UNTDID6313:ZN",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "ZN",
+            "rdfs:comment": "Nitrogen"
+        },
+        {
+            "@id": "UNTDID6313:ZNA",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "ZNA",
+            "rdfs:comment": "Sodium"
+        },
+        {
+            "@id": "UNTDID6313:ZNB",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "ZNB",
+            "rdfs:comment": "Niobium"
+        },
+        {
+            "@id": "UNTDID6313:ZNI",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "ZNI",
+            "rdfs:comment": "Nickel"
+        },
+        {
+            "@id": "UNTDID6313:ZO",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "ZO",
+            "rdfs:comment": "Oxygen"
+        },
+        {
+            "@id": "UNTDID6313:ZP",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "ZP",
+            "rdfs:comment": "Phosphorus"
+        },
+        {
+            "@id": "UNTDID6313:ZPB",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "ZPB",
+            "rdfs:comment": "Lead"
+        },
+        {
+            "@id": "UNTDID6313:ZS",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "ZS",
+            "rdfs:comment": "Sulphur"
+        },
+        {
+            "@id": "UNTDID6313:ZSB",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "ZSB",
+            "rdfs:comment": "Antimony"
+        },
+        {
+            "@id": "UNTDID6313:ZSE",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "ZSE",
+            "rdfs:comment": "Selenium"
+        },
+        {
+            "@id": "UNTDID6313:ZSI",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "ZSI",
+            "rdfs:comment": "Silicon"
+        },
+        {
+            "@id": "UNTDID6313:ZSL",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "ZSL",
+            "rdfs:comment": "Silicium oxyd"
+        },
+        {
+            "@id": "UNTDID6313:ZSN",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "ZSN",
+            "rdfs:comment": "Tin"
+        },
+        {
+            "@id": "UNTDID6313:ZTA",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "ZTA",
+            "rdfs:comment": "Tantalium"
+        },
+        {
+            "@id": "UNTDID6313:ZTE",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "ZTE",
+            "rdfs:comment": "Tellurium"
+        },
+        {
+            "@id": "UNTDID6313:ZTI",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "ZTI",
+            "rdfs:comment": "Titanium"
+        },
+        {
+            "@id": "UNTDID6313:ZV",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "ZV",
+            "rdfs:comment": "Vanadium"
+        },
+        {
+            "@id": "UNTDID6313:ZW",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "ZW",
+            "rdfs:comment": "Tungsten"
+        },
+        {
+            "@id": "UNTDID6313:ZWA",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "ZWA",
+            "rdfs:comment": "Waste content"
+        },
+        {
+            "@id": "UNTDID6313:ZZN",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "ZZN",
+            "rdfs:comment": "Zinc"
+        },
+        {
+            "@id": "UNTDID6313:ZZR",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "ZZR",
+            "rdfs:comment": "Zirconium"
+        },
+        {
+            "@id": "UNTDID6313:ZZZ",
+            "@type": "unece:MeasuredAttributeCodeList",
+            "rdf:value": "ZZZ",
+            "rdfs:comment": "Mutually defined"
+        }
+    ]
+}

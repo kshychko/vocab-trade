@@ -1,0 +1,29 @@
+
+{
+    "@context": {
+        "unece": "https://vocabulary.uncefact.org/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "ScenarioType": "https://vocabulary.uncefact.org/codelists/ScenarioType"
+    },
+    "@graph": [
+        {
+            "@id": "ScenarioType:1",
+            "@type": "unece:ScenarioTypeCodeList",
+            "rdf:value": "1",
+            "rdfs:comment": "Initial scenario"
+        },
+        {
+            "@id": "ScenarioType:2",
+            "@type": "unece:ScenarioTypeCodeList",
+            "rdf:value": "2",
+            "rdfs:comment": "Final scenario"
+        },
+        {
+            "@id": "ScenarioType:3",
+            "@type": "unece:ScenarioTypeCodeList",
+            "rdf:value": "3",
+            "rdfs:comment": "Intermediate"
+        }
+    ]
+}

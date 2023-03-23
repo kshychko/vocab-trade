@@ -1,0 +1,59 @@
+
+{
+    "@context": {
+        "unece": "https://vocabulary.uncefact.org/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "UNTDID4055": "https://vocabulary.uncefact.org/codelists/UNTDID4055"
+    },
+    "@graph": [
+        {
+            "@id": "UNTDID4055:1",
+            "@type": "unece:DeliveryTermsFunctionCodeList",
+            "rdf:value": "1",
+            "rdfs:comment": "Price condition"
+        },
+        {
+            "@id": "UNTDID4055:2",
+            "@type": "unece:DeliveryTermsFunctionCodeList",
+            "rdf:value": "2",
+            "rdfs:comment": "Despatch condition"
+        },
+        {
+            "@id": "UNTDID4055:3",
+            "@type": "unece:DeliveryTermsFunctionCodeList",
+            "rdf:value": "3",
+            "rdfs:comment": "Price and despatch condition"
+        },
+        {
+            "@id": "UNTDID4055:4",
+            "@type": "unece:DeliveryTermsFunctionCodeList",
+            "rdf:value": "4",
+            "rdfs:comment": "Collected by customer"
+        },
+        {
+            "@id": "UNTDID4055:5",
+            "@type": "unece:DeliveryTermsFunctionCodeList",
+            "rdf:value": "5",
+            "rdfs:comment": "Transport condition"
+        },
+        {
+            "@id": "UNTDID4055:6",
+            "@type": "unece:DeliveryTermsFunctionCodeList",
+            "rdf:value": "6",
+            "rdfs:comment": "Delivery condition"
+        },
+        {
+            "@id": "UNTDID4055:7",
+            "@type": "unece:DeliveryTermsFunctionCodeList",
+            "rdf:value": "7",
+            "rdfs:comment": "Delivered by supplier"
+        },
+        {
+            "@id": "UNTDID4055:8",
+            "@type": "unece:DeliveryTermsFunctionCodeList",
+            "rdf:value": "8",
+            "rdfs:comment": "Delivery arranged by logistic service provider"
+        }
+    ]
+}

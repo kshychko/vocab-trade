@@ -1,0 +1,23 @@
+
+{
+    "@context": {
+        "unece": "https://vocabulary.uncefact.org/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "MeasurementUnitCommonCodeTemperature": "https://vocabulary.uncefact.org/codelists/MeasurementUnitCommonCodeTemperature"
+    },
+    "@graph": [
+        {
+            "@id": "MeasurementUnitCommonCodeTemperature:CEL",
+            "@type": "unece:TemperatureUnitMeasureCode",
+            "rdf:value": "CEL",
+            "rdfs:comment": "degree Celsius"
+        },
+        {
+            "@id": "MeasurementUnitCommonCodeTemperature:FAH",
+            "@type": "unece:TemperatureUnitMeasureCode",
+            "rdf:value": "FAH",
+            "rdfs:comment": "degree Fahrenheit"
+        }
+    ]
+}

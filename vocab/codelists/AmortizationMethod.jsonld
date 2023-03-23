@@ -1,0 +1,113 @@
+
+{
+    "@context": {
+        "unece": "https://vocabulary.uncefact.org/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "AmortizationMethod": "https://vocabulary.uncefact.org/codelists/AmortizationMethod"
+    },
+    "@graph": [
+        {
+            "@id": "AmortizationMethod:11",
+            "@type": "unece:AmortizationMethodCodeList",
+            "rdf:value": "11",
+            "rdfs:comment": "Variable amortization"
+        },
+        {
+            "@id": "AmortizationMethod:12",
+            "@type": "unece:AmortizationMethodCodeList",
+            "rdf:value": "12",
+            "rdfs:comment": "Amortization at constant rate"
+        },
+        {
+            "@id": "AmortizationMethod:14",
+            "@type": "unece:AmortizationMethodCodeList",
+            "rdf:value": "14",
+            "rdfs:comment": "Amortization after basic allowance"
+        },
+        {
+            "@id": "AmortizationMethod:20",
+            "@type": "unece:AmortizationMethodCodeList",
+            "rdf:value": "20",
+            "rdfs:comment": "Amortization with not budgeted constant cost"
+        },
+        {
+            "@id": "AmortizationMethod:21",
+            "@type": "unece:AmortizationMethodCodeList",
+            "rdf:value": "21",
+            "rdfs:comment": "Amortization with budgeted constant cost"
+        },
+        {
+            "@id": "AmortizationMethod:22",
+            "@type": "unece:AmortizationMethodCodeList",
+            "rdf:value": "22",
+            "rdfs:comment": "Amortization with unit budgeted constant cost"
+        },
+        {
+            "@id": "AmortizationMethod:31",
+            "@type": "unece:AmortizationMethodCodeList",
+            "rdf:value": "31",
+            "rdfs:comment": "Softy amortization"
+        },
+        {
+            "@id": "AmortizationMethod:32",
+            "@type": "unece:AmortizationMethodCodeList",
+            "rdf:value": "32",
+            "rdfs:comment": "Exponential amortization"
+        },
+        {
+            "@id": "AmortizationMethod:33",
+            "@type": "unece:AmortizationMethodCodeList",
+            "rdf:value": "33",
+            "rdfs:comment": "Amortization at lessening rate"
+        },
+        {
+            "@id": "AmortizationMethod:40",
+            "@type": "unece:AmortizationMethodCodeList",
+            "rdf:value": "40",
+            "rdfs:comment": "Normal progressive amortization"
+        },
+        {
+            "@id": "AmortizationMethod:41",
+            "@type": "unece:AmortizationMethodCodeList",
+            "rdf:value": "41",
+            "rdfs:comment": "Amortization in arithmetic progression"
+        },
+        {
+            "@id": "AmortizationMethod:42",
+            "@type": "unece:AmortizationMethodCodeList",
+            "rdf:value": "42",
+            "rdfs:comment": "Amortization in geometric progression"
+        },
+        {
+            "@id": "AmortizationMethod:43",
+            "@type": "unece:AmortizationMethodCodeList",
+            "rdf:value": "43",
+            "rdfs:comment": "Financial amortization"
+        },
+        {
+            "@id": "AmortizationMethod:44",
+            "@type": "unece:AmortizationMethodCodeList",
+            "rdf:value": "44",
+            "rdfs:comment": "Amortization at increasing rate"
+        },
+        {
+            "@id": "AmortizationMethod:45",
+            "@type": "unece:AmortizationMethodCodeList",
+            "rdf:value": "45",
+            "rdfs:comment": "Amortization with logistic progression"
+        },
+        {
+            "@id": "AmortizationMethod:300",
+            "@type": "unece:AmortizationMethodCodeList",
+            "rdf:value": "300",
+            "rdfs:comment": "Accelerated amortization (Acquired and made fixed asset between 4-12-2008 and 31-12-2009)"
+        },
+        {
+            "@id": "AmortizationMethod:301",
+            "@type": "unece:AmortizationMethodCodeList",
+            "rdf:value": "301",
+            "rdfs:comment": "Accelerated amortization (Acquired and made fixed asset since 1-1-2010)"
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+
+{
+    "@context": {
+        "unece": "https://vocabulary.uncefact.org/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "AccountingDebitCreditStatus": "https://vocabulary.uncefact.org/codelists/AccountingDebitCreditStatus"
+    },
+    "@graph": [
+        {
+            "@id": "AccountingDebitCreditStatus:29",
+            "@type": "unece:AccountingDebitCreditStatusCodeList",
+            "rdf:value": "29",
+            "rdfs:comment": "Debit"
+        },
+        {
+            "@id": "AccountingDebitCreditStatus:30",
+            "@type": "unece:AccountingDebitCreditStatusCodeList",
+            "rdf:value": "30",
+            "rdfs:comment": "Credit"
+        },
+        {
+            "@id": "AccountingDebitCreditStatus:31",
+            "@type": "unece:AccountingDebitCreditStatusCodeList",
+            "rdf:value": "31",
+            "rdfs:comment": "Positive debit"
+        },
+        {
+            "@id": "AccountingDebitCreditStatus:32",
+            "@type": "unece:AccountingDebitCreditStatusCodeList",
+            "rdf:value": "32",
+            "rdfs:comment": "Negative debit"
+        },
+        {
+            "@id": "AccountingDebitCreditStatus:33",
+            "@type": "unece:AccountingDebitCreditStatusCodeList",
+            "rdf:value": "33",
+            "rdfs:comment": "Positive credit"
+        },
+        {
+            "@id": "AccountingDebitCreditStatus:34",
+            "@type": "unece:AccountingDebitCreditStatusCodeList",
+            "rdf:value": "34",
+            "rdfs:comment": "Negative credit"
+        },
+        {
+            "@id": "AccountingDebitCreditStatus:66",
+            "@type": "unece:AccountingDebitCreditStatusCodeList",
+            "rdf:value": "66",
+            "rdfs:comment": "Unsigned amount"
+        }
+    ]
+}

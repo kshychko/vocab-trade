@@ -1,0 +1,311 @@
+
+{
+    "@context": {
+        "unece": "https://vocabulary.uncefact.org/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "UNTDID4233": "https://vocabulary.uncefact.org/codelists/UNTDID4233"
+    },
+    "@graph": [
+        {
+            "@id": "UNTDID4233:1",
+            "@type": "unece:MarkingInstructionCodeList",
+            "rdf:value": "1",
+            "rdfs:comment": "Do not mark suppliers company name"
+        },
+        {
+            "@id": "UNTDID4233:2",
+            "@type": "unece:MarkingInstructionCodeList",
+            "rdf:value": "2",
+            "rdfs:comment": "Mark customers company name"
+        },
+        {
+            "@id": "UNTDID4233:3",
+            "@type": "unece:MarkingInstructionCodeList",
+            "rdf:value": "3",
+            "rdfs:comment": "Mark customers references"
+        },
+        {
+            "@id": "UNTDID4233:4",
+            "@type": "unece:MarkingInstructionCodeList",
+            "rdf:value": "4",
+            "rdfs:comment": "Mark additionally customers article description"
+        },
+        {
+            "@id": "UNTDID4233:5",
+            "@type": "unece:MarkingInstructionCodeList",
+            "rdf:value": "5",
+            "rdfs:comment": "Mark exclusively customers article description"
+        },
+        {
+            "@id": "UNTDID4233:6",
+            "@type": "unece:MarkingInstructionCodeList",
+            "rdf:value": "6",
+            "rdfs:comment": "Mark packages dimensions"
+        },
+        {
+            "@id": "UNTDID4233:7",
+            "@type": "unece:MarkingInstructionCodeList",
+            "rdf:value": "7",
+            "rdfs:comment": "Mark net weight"
+        },
+        {
+            "@id": "UNTDID4233:8",
+            "@type": "unece:MarkingInstructionCodeList",
+            "rdf:value": "8",
+            "rdfs:comment": "Mark gross weight"
+        },
+        {
+            "@id": "UNTDID4233:9",
+            "@type": "unece:MarkingInstructionCodeList",
+            "rdf:value": "9",
+            "rdfs:comment": "Mark tare weight"
+        },
+        {
+            "@id": "UNTDID4233:10",
+            "@type": "unece:MarkingInstructionCodeList",
+            "rdf:value": "10",
+            "rdfs:comment": "Mark batch number"
+        },
+        {
+            "@id": "UNTDID4233:11",
+            "@type": "unece:MarkingInstructionCodeList",
+            "rdf:value": "11",
+            "rdfs:comment": "Mark article number customer"
+        },
+        {
+            "@id": "UNTDID4233:12",
+            "@type": "unece:MarkingInstructionCodeList",
+            "rdf:value": "12",
+            "rdfs:comment": "Mark running number of packages"
+        },
+        {
+            "@id": "UNTDID4233:13",
+            "@type": "unece:MarkingInstructionCodeList",
+            "rdf:value": "13",
+            "rdfs:comment": "Mark date of production"
+        },
+        {
+            "@id": "UNTDID4233:14",
+            "@type": "unece:MarkingInstructionCodeList",
+            "rdf:value": "14",
+            "rdfs:comment": "Mark expiry date"
+        },
+        {
+            "@id": "UNTDID4233:15",
+            "@type": "unece:MarkingInstructionCodeList",
+            "rdf:value": "15",
+            "rdfs:comment": "Mark supplier number"
+        },
+        {
+            "@id": "UNTDID4233:16",
+            "@type": "unece:MarkingInstructionCodeList",
+            "rdf:value": "16",
+            "rdfs:comment": "Buyer's instructions"
+        },
+        {
+            "@id": "UNTDID4233:17",
+            "@type": "unece:MarkingInstructionCodeList",
+            "rdf:value": "17",
+            "rdfs:comment": "Seller's instructions"
+        },
+        {
+            "@id": "UNTDID4233:18",
+            "@type": "unece:MarkingInstructionCodeList",
+            "rdf:value": "18",
+            "rdfs:comment": "Carrier's instructions"
+        },
+        {
+            "@id": "UNTDID4233:19",
+            "@type": "unece:MarkingInstructionCodeList",
+            "rdf:value": "19",
+            "rdfs:comment": "Legal requirements"
+        },
+        {
+            "@id": "UNTDID4233:20",
+            "@type": "unece:MarkingInstructionCodeList",
+            "rdf:value": "20",
+            "rdfs:comment": "Industry instructions"
+        },
+        {
+            "@id": "UNTDID4233:21",
+            "@type": "unece:MarkingInstructionCodeList",
+            "rdf:value": "21",
+            "rdfs:comment": "Line item only"
+        },
+        {
+            "@id": "UNTDID4233:22",
+            "@type": "unece:MarkingInstructionCodeList",
+            "rdf:value": "22",
+            "rdfs:comment": "Pre-marked by buyer"
+        },
+        {
+            "@id": "UNTDID4233:23",
+            "@type": "unece:MarkingInstructionCodeList",
+            "rdf:value": "23",
+            "rdfs:comment": "Entire shipment"
+        },
+        {
+            "@id": "UNTDID4233:24",
+            "@type": "unece:MarkingInstructionCodeList",
+            "rdf:value": "24",
+            "rdfs:comment": "Shipper assigned"
+        },
+        {
+            "@id": "UNTDID4233:25",
+            "@type": "unece:MarkingInstructionCodeList",
+            "rdf:value": "25",
+            "rdfs:comment": "Shipper assigned roll number"
+        },
+        {
+            "@id": "UNTDID4233:26",
+            "@type": "unece:MarkingInstructionCodeList",
+            "rdf:value": "26",
+            "rdfs:comment": "Shipper assigned skid number"
+        },
+        {
+            "@id": "UNTDID4233:27",
+            "@type": "unece:MarkingInstructionCodeList",
+            "rdf:value": "27",
+            "rdfs:comment": "Uniform Code Council (UCC) format"
+        },
+        {
+            "@id": "UNTDID4233:28",
+            "@type": "unece:MarkingInstructionCodeList",
+            "rdf:value": "28",
+            "rdfs:comment": "Mark free text"
+        },
+        {
+            "@id": "UNTDID4233:29",
+            "@type": "unece:MarkingInstructionCodeList",
+            "rdf:value": "29",
+            "rdfs:comment": "Mark case number"
+        },
+        {
+            "@id": "UNTDID4233:30",
+            "@type": "unece:MarkingInstructionCodeList",
+            "rdf:value": "30",
+            "rdfs:comment": "Mark serial shipping container code"
+        },
+        {
+            "@id": "UNTDID4233:31",
+            "@type": "unece:MarkingInstructionCodeList",
+            "rdf:value": "31",
+            "rdfs:comment": "Marked with ISO 10374 (permanent container tag)"
+        },
+        {
+            "@id": "UNTDID4233:32",
+            "@type": "unece:MarkingInstructionCodeList",
+            "rdf:value": "32",
+            "rdfs:comment": "Mark date of packaging"
+        },
+        {
+            "@id": "UNTDID4233:33",
+            "@type": "unece:MarkingInstructionCodeList",
+            "rdf:value": "33",
+            "rdfs:comment": "Mark reference to source entity"
+        },
+        {
+            "@id": "UNTDID4233:34",
+            "@type": "unece:MarkingInstructionCodeList",
+            "rdf:value": "34",
+            "rdfs:comment": "Marked GS1 Global Individual Asset Identifier"
+        },
+        {
+            "@id": "UNTDID4233:35",
+            "@type": "unece:MarkingInstructionCodeList",
+            "rdf:value": "35",
+            "rdfs:comment": "Marked with a product serial number"
+        },
+        {
+            "@id": "UNTDID4233:36",
+            "@type": "unece:MarkingInstructionCodeList",
+            "rdf:value": "36",
+            "rdfs:comment": "Marked with a GS1 Global Identification Number for Consignment (GINC)"
+        },
+        {
+            "@id": "UNTDID4233:37",
+            "@type": "unece:MarkingInstructionCodeList",
+            "rdf:value": "37",
+            "rdfs:comment": "Marked with a GS1 Global Shipment Identification Number (GSIN)"
+        },
+        {
+            "@id": "UNTDID4233:38",
+            "@type": "unece:MarkingInstructionCodeList",
+            "rdf:value": "38",
+            "rdfs:comment": "Marked price"
+        },
+        {
+            "@id": "UNTDID4233:39",
+            "@type": "unece:MarkingInstructionCodeList",
+            "rdf:value": "39",
+            "rdfs:comment": "Marked with Serial Shipping Container Code (SSCC)"
+        },
+        {
+            "@id": "UNTDID4233:40",
+            "@type": "unece:MarkingInstructionCodeList",
+            "rdf:value": "40",
+            "rdfs:comment": "Marked with first freezing date"
+        },
+        {
+            "@id": "UNTDID4233:41",
+            "@type": "unece:MarkingInstructionCodeList",
+            "rdf:value": "41",
+            "rdfs:comment": "Marked with batch number"
+        },
+        {
+            "@id": "UNTDID4233:42",
+            "@type": "unece:MarkingInstructionCodeList",
+            "rdf:value": "42",
+            "rdfs:comment": "Marked with production date"
+        },
+        {
+            "@id": "UNTDID4233:43",
+            "@type": "unece:MarkingInstructionCodeList",
+            "rdf:value": "43",
+            "rdfs:comment": "Marked with expiry date"
+        },
+        {
+            "@id": "UNTDID4233:44",
+            "@type": "unece:MarkingInstructionCodeList",
+            "rdf:value": "44",
+            "rdfs:comment": "Marked with best before date"
+        },
+        {
+            "@id": "UNTDID4233:45",
+            "@type": "unece:MarkingInstructionCodeList",
+            "rdf:value": "45",
+            "rdfs:comment": "Marked with net weight"
+        },
+        {
+            "@id": "UNTDID4233:46",
+            "@type": "unece:MarkingInstructionCodeList",
+            "rdf:value": "46",
+            "rdfs:comment": "Marked with packaging date"
+        },
+        {
+            "@id": "UNTDID4233:47",
+            "@type": "unece:MarkingInstructionCodeList",
+            "rdf:value": "47",
+            "rdfs:comment": "Marked with GS1 Global Returnable Asset Identifier (GRAI)"
+        },
+        {
+            "@id": "UNTDID4233:48",
+            "@type": "unece:MarkingInstructionCodeList",
+            "rdf:value": "48",
+            "rdfs:comment": "Marked with a greeting message"
+        },
+        {
+            "@id": "UNTDID4233:49",
+            "@type": "unece:MarkingInstructionCodeList",
+            "rdf:value": "49",
+            "rdfs:comment": "Price per unit of measure marked on product"
+        },
+        {
+            "@id": "UNTDID4233:ZZZ",
+            "@type": "unece:MarkingInstructionCodeList",
+            "rdf:value": "ZZZ",
+            "rdfs:comment": "Mutually defined"
+        }
+    ]
+}

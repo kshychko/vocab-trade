@@ -1,0 +1,65 @@
+
+{
+    "@context": {
+        "unece": "https://vocabulary.uncefact.org/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "CharacterSetEncodingCode": "https://vocabulary.uncefact.org/codelists/CharacterSetEncodingCode"
+    },
+    "@graph": [
+        {
+            "@id": "CharacterSetEncodingCode:1",
+            "@type": "unece:BinaryObjectEncodingCodeList",
+            "rdf:value": "1",
+            "rdfs:comment": "ASCII 7 bit"
+        },
+        {
+            "@id": "CharacterSetEncodingCode:2",
+            "@type": "unece:BinaryObjectEncodingCodeList",
+            "rdf:value": "2",
+            "rdfs:comment": "ASCII 8 bit"
+        },
+        {
+            "@id": "CharacterSetEncodingCode:3",
+            "@type": "unece:BinaryObjectEncodingCodeList",
+            "rdf:value": "3",
+            "rdfs:comment": "Code page 500 (EBCDIC Multinational No. 5)"
+        },
+        {
+            "@id": "CharacterSetEncodingCode:4",
+            "@type": "unece:BinaryObjectEncodingCodeList",
+            "rdf:value": "4",
+            "rdfs:comment": "Code page 850 (IBM PC Multinational)"
+        },
+        {
+            "@id": "CharacterSetEncodingCode:5",
+            "@type": "unece:BinaryObjectEncodingCodeList",
+            "rdf:value": "5",
+            "rdfs:comment": "UCS-2"
+        },
+        {
+            "@id": "CharacterSetEncodingCode:6",
+            "@type": "unece:BinaryObjectEncodingCodeList",
+            "rdf:value": "6",
+            "rdfs:comment": "UCS-4"
+        },
+        {
+            "@id": "CharacterSetEncodingCode:7",
+            "@type": "unece:BinaryObjectEncodingCodeList",
+            "rdf:value": "7",
+            "rdfs:comment": "UTF-8"
+        },
+        {
+            "@id": "CharacterSetEncodingCode:8",
+            "@type": "unece:BinaryObjectEncodingCodeList",
+            "rdf:value": "8",
+            "rdfs:comment": "UTF-16"
+        },
+        {
+            "@id": "CharacterSetEncodingCode:ZZZ",
+            "@type": "unece:BinaryObjectEncodingCodeList",
+            "rdf:value": "ZZZ",
+            "rdfs:comment": "Mutually agreed"
+        }
+    ]
+}

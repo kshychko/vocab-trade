@@ -1,0 +1,209 @@
+
+{
+    "@context": {
+        "unece": "https://vocabulary.uncefact.org/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "UNTDID8335": "https://vocabulary.uncefact.org/codelists/UNTDID8335"
+    },
+    "@graph": [
+        {
+            "@id": "UNTDID8335:1",
+            "@type": "unece:TransportContractMovementCodeList",
+            "rdf:value": "1",
+            "rdfs:comment": "Breakbulk"
+        },
+        {
+            "@id": "UNTDID8335:2",
+            "@type": "unece:TransportContractMovementCodeList",
+            "rdf:value": "2",
+            "rdfs:comment": "LCL/LCL"
+        },
+        {
+            "@id": "UNTDID8335:3",
+            "@type": "unece:TransportContractMovementCodeList",
+            "rdf:value": "3",
+            "rdfs:comment": "FCL/FCL"
+        },
+        {
+            "@id": "UNTDID8335:4",
+            "@type": "unece:TransportContractMovementCodeList",
+            "rdf:value": "4",
+            "rdfs:comment": "FCL/LCL"
+        },
+        {
+            "@id": "UNTDID8335:5",
+            "@type": "unece:TransportContractMovementCodeList",
+            "rdf:value": "5",
+            "rdfs:comment": "LCL/FCL"
+        },
+        {
+            "@id": "UNTDID8335:6",
+            "@type": "unece:TransportContractMovementCodeList",
+            "rdf:value": "6",
+            "rdfs:comment": "Consolidation"
+        },
+        {
+            "@id": "UNTDID8335:7",
+            "@type": "unece:TransportContractMovementCodeList",
+            "rdf:value": "7",
+            "rdfs:comment": "Parcel post"
+        },
+        {
+            "@id": "UNTDID8335:8",
+            "@type": "unece:TransportContractMovementCodeList",
+            "rdf:value": "8",
+            "rdfs:comment": "Expedited truck"
+        },
+        {
+            "@id": "UNTDID8335:9",
+            "@type": "unece:TransportContractMovementCodeList",
+            "rdf:value": "9",
+            "rdfs:comment": "Consignor determined means"
+        },
+        {
+            "@id": "UNTDID8335:10",
+            "@type": "unece:TransportContractMovementCodeList",
+            "rdf:value": "10",
+            "rdfs:comment": "Private parcel service"
+        },
+        {
+            "@id": "UNTDID8335:11",
+            "@type": "unece:TransportContractMovementCodeList",
+            "rdf:value": "11",
+            "rdfs:comment": "House to house"
+        },
+        {
+            "@id": "UNTDID8335:12",
+            "@type": "unece:TransportContractMovementCodeList",
+            "rdf:value": "12",
+            "rdfs:comment": "House to terminal"
+        },
+        {
+            "@id": "UNTDID8335:13",
+            "@type": "unece:TransportContractMovementCodeList",
+            "rdf:value": "13",
+            "rdfs:comment": "House to pier"
+        },
+        {
+            "@id": "UNTDID8335:14",
+            "@type": "unece:TransportContractMovementCodeList",
+            "rdf:value": "14",
+            "rdfs:comment": "Air charter"
+        },
+        {
+            "@id": "UNTDID8335:15",
+            "@type": "unece:TransportContractMovementCodeList",
+            "rdf:value": "15",
+            "rdfs:comment": "Air express"
+        },
+        {
+            "@id": "UNTDID8335:16",
+            "@type": "unece:TransportContractMovementCodeList",
+            "rdf:value": "16",
+            "rdfs:comment": "Geographic grouped transport"
+        },
+        {
+            "@id": "UNTDID8335:17",
+            "@type": "unece:TransportContractMovementCodeList",
+            "rdf:value": "17",
+            "rdfs:comment": "Less than truck load"
+        },
+        {
+            "@id": "UNTDID8335:18",
+            "@type": "unece:TransportContractMovementCodeList",
+            "rdf:value": "18",
+            "rdfs:comment": "Pooled piggyback"
+        },
+        {
+            "@id": "UNTDID8335:19",
+            "@type": "unece:TransportContractMovementCodeList",
+            "rdf:value": "19",
+            "rdfs:comment": "Consignee transportation provided"
+        },
+        {
+            "@id": "UNTDID8335:20",
+            "@type": "unece:TransportContractMovementCodeList",
+            "rdf:value": "20",
+            "rdfs:comment": "Rail"
+        },
+        {
+            "@id": "UNTDID8335:21",
+            "@type": "unece:TransportContractMovementCodeList",
+            "rdf:value": "21",
+            "rdfs:comment": "Terminal to house"
+        },
+        {
+            "@id": "UNTDID8335:22",
+            "@type": "unece:TransportContractMovementCodeList",
+            "rdf:value": "22",
+            "rdfs:comment": "Terminal to terminal"
+        },
+        {
+            "@id": "UNTDID8335:23",
+            "@type": "unece:TransportContractMovementCodeList",
+            "rdf:value": "23",
+            "rdfs:comment": "Terminal to pier"
+        },
+        {
+            "@id": "UNTDID8335:31",
+            "@type": "unece:TransportContractMovementCodeList",
+            "rdf:value": "31",
+            "rdfs:comment": "Pier to house"
+        },
+        {
+            "@id": "UNTDID8335:32",
+            "@type": "unece:TransportContractMovementCodeList",
+            "rdf:value": "32",
+            "rdfs:comment": "Pier to terminal"
+        },
+        {
+            "@id": "UNTDID8335:33",
+            "@type": "unece:TransportContractMovementCodeList",
+            "rdf:value": "33",
+            "rdfs:comment": "Pier to pier"
+        },
+        {
+            "@id": "UNTDID8335:41",
+            "@type": "unece:TransportContractMovementCodeList",
+            "rdf:value": "41",
+            "rdfs:comment": "Station to station"
+        },
+        {
+            "@id": "UNTDID8335:42",
+            "@type": "unece:TransportContractMovementCodeList",
+            "rdf:value": "42",
+            "rdfs:comment": "House to warehouse"
+        },
+        {
+            "@id": "UNTDID8335:43",
+            "@type": "unece:TransportContractMovementCodeList",
+            "rdf:value": "43",
+            "rdfs:comment": "Warehouse to house"
+        },
+        {
+            "@id": "UNTDID8335:44",
+            "@type": "unece:TransportContractMovementCodeList",
+            "rdf:value": "44",
+            "rdfs:comment": "Station to house"
+        },
+        {
+            "@id": "UNTDID8335:45",
+            "@type": "unece:TransportContractMovementCodeList",
+            "rdf:value": "45",
+            "rdfs:comment": "Geographic grouped transport, multiple origins, multiple destinations"
+        },
+        {
+            "@id": "UNTDID8335:46",
+            "@type": "unece:TransportContractMovementCodeList",
+            "rdf:value": "46",
+            "rdfs:comment": "Geographic grouped transport, multiple origins, single destination"
+        },
+        {
+            "@id": "UNTDID8335:47",
+            "@type": "unece:TransportContractMovementCodeList",
+            "rdf:value": "47",
+            "rdfs:comment": "Geographic receiving"
+        }
+    ]
+}

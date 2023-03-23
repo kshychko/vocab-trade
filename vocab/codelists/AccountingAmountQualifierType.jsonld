@@ -1,0 +1,29 @@
+
+{
+    "@context": {
+        "unece": "https://vocabulary.uncefact.org/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "AccountingAmountQualifierType": "https://vocabulary.uncefact.org/codelists/AccountingAmountQualifierType"
+    },
+    "@graph": [
+        {
+            "@id": "AccountingAmountQualifierType:EN",
+            "@type": "unece:AccountingAmountQualifierCodeList",
+            "rdf:value": "EN",
+            "rdfs:comment": "Entries"
+        },
+        {
+            "@id": "AccountingAmountQualifierType:SB",
+            "@type": "unece:AccountingAmountQualifierCodeList",
+            "rdf:value": "SB",
+            "rdfs:comment": "Open balance"
+        },
+        {
+            "@id": "AccountingAmountQualifierType:SE",
+            "@type": "unece:AccountingAmountQualifierCodeList",
+            "rdf:value": "SE",
+            "rdfs:comment": "End balance"
+        }
+    ]
+}

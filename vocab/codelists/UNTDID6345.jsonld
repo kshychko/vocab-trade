@@ -1,0 +1,1091 @@
+
+{
+    "@context": {
+        "unece": "https://vocabulary.uncefact.org/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "UNTDID6345": "https://vocabulary.uncefact.org/codelists/UNTDID6345"
+    },
+    "@graph": [
+        {
+            "@id": "UNTDID6345:AED",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "AED",
+            "rdfs:comment": "Dirham"
+        },
+        {
+            "@id": "UNTDID6345:AFN",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "AFN",
+            "rdfs:comment": "Afghani"
+        },
+        {
+            "@id": "UNTDID6345:ALL",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "ALL",
+            "rdfs:comment": "Lek"
+        },
+        {
+            "@id": "UNTDID6345:AMD",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "AMD",
+            "rdfs:comment": "Dram"
+        },
+        {
+            "@id": "UNTDID6345:ANG",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "ANG",
+            "rdfs:comment": "Netherlands Antillian Guilder"
+        },
+        {
+            "@id": "UNTDID6345:AOA",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "AOA",
+            "rdfs:comment": "Kwanza"
+        },
+        {
+            "@id": "UNTDID6345:ARS",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "ARS",
+            "rdfs:comment": "Argentine Peso"
+        },
+        {
+            "@id": "UNTDID6345:AUD",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "AUD",
+            "rdfs:comment": "Australian Dollar"
+        },
+        {
+            "@id": "UNTDID6345:AWG",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "AWG",
+            "rdfs:comment": "Aruban Florin"
+        },
+        {
+            "@id": "UNTDID6345:AZN",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "AZN",
+            "rdfs:comment": "Azerbaijan Manat"
+        },
+        {
+            "@id": "UNTDID6345:BAM",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "BAM",
+            "rdfs:comment": "Convertible Mark"
+        },
+        {
+            "@id": "UNTDID6345:BBD",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "BBD",
+            "rdfs:comment": "Barbados Dollar"
+        },
+        {
+            "@id": "UNTDID6345:BDT",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "BDT",
+            "rdfs:comment": "Taka"
+        },
+        {
+            "@id": "UNTDID6345:BGN",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "BGN",
+            "rdfs:comment": "Bulgarian Lev"
+        },
+        {
+            "@id": "UNTDID6345:BHD",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "BHD",
+            "rdfs:comment": "Bahraini Dinar"
+        },
+        {
+            "@id": "UNTDID6345:BIF",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "BIF",
+            "rdfs:comment": "Burundi Franc"
+        },
+        {
+            "@id": "UNTDID6345:BMD",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "BMD",
+            "rdfs:comment": "Bermudian Dollar (customarily: Bermuda Dollar)"
+        },
+        {
+            "@id": "UNTDID6345:BND",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "BND",
+            "rdfs:comment": "Brunei Dollar"
+        },
+        {
+            "@id": "UNTDID6345:BOB",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "BOB",
+            "rdfs:comment": "Boliviano"
+        },
+        {
+            "@id": "UNTDID6345:BOV",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "BOV",
+            "rdfs:comment": "Mvdol"
+        },
+        {
+            "@id": "UNTDID6345:BRL",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "BRL",
+            "rdfs:comment": "Brazilian Real"
+        },
+        {
+            "@id": "UNTDID6345:BSD",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "BSD",
+            "rdfs:comment": "Bahamian Dollar"
+        },
+        {
+            "@id": "UNTDID6345:BTN",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "BTN",
+            "rdfs:comment": "Ngultrum"
+        },
+        {
+            "@id": "UNTDID6345:BWP",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "BWP",
+            "rdfs:comment": "Pula"
+        },
+        {
+            "@id": "UNTDID6345:BYN",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "BYN",
+            "rdfs:comment": "Belarussian Ruble"
+        },
+        {
+            "@id": "UNTDID6345:BZD",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "BZD",
+            "rdfs:comment": "Belize Dollar"
+        },
+        {
+            "@id": "UNTDID6345:CAD",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "CAD",
+            "rdfs:comment": "Canadian Dollar"
+        },
+        {
+            "@id": "UNTDID6345:CDF",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "CDF",
+            "rdfs:comment": "Franc Congolais"
+        },
+        {
+            "@id": "UNTDID6345:CHE",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "CHE",
+            "rdfs:comment": "WIR Euro"
+        },
+        {
+            "@id": "UNTDID6345:CHF",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "CHF",
+            "rdfs:comment": "Swiss Franc"
+        },
+        {
+            "@id": "UNTDID6345:CHW",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "CHW",
+            "rdfs:comment": "WIR Franc"
+        },
+        {
+            "@id": "UNTDID6345:CLF",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "CLF",
+            "rdfs:comment": "Unidad de Fomento"
+        },
+        {
+            "@id": "UNTDID6345:CLP",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "CLP",
+            "rdfs:comment": "Chilean Peso"
+        },
+        {
+            "@id": "UNTDID6345:CNY",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "CNY",
+            "rdfs:comment": "Yuan Renminbi"
+        },
+        {
+            "@id": "UNTDID6345:COP",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "COP",
+            "rdfs:comment": "Colombian Peso"
+        },
+        {
+            "@id": "UNTDID6345:COU",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "COU",
+            "rdfs:comment": "Unidad de Valor Real"
+        },
+        {
+            "@id": "UNTDID6345:CRC",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "CRC",
+            "rdfs:comment": "Costa Rican Colon"
+        },
+        {
+            "@id": "UNTDID6345:CUC",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "CUC",
+            "rdfs:comment": "Peso Convertible"
+        },
+        {
+            "@id": "UNTDID6345:CUP",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "CUP",
+            "rdfs:comment": "Cuban Peso"
+        },
+        {
+            "@id": "UNTDID6345:CVE",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "CVE",
+            "rdfs:comment": "Cabo Verde Escudo"
+        },
+        {
+            "@id": "UNTDID6345:CZK",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "CZK",
+            "rdfs:comment": "Czech Koruna"
+        },
+        {
+            "@id": "UNTDID6345:DJF",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "DJF",
+            "rdfs:comment": "Djibouti Franc"
+        },
+        {
+            "@id": "UNTDID6345:DKK",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "DKK",
+            "rdfs:comment": "Danish Krone"
+        },
+        {
+            "@id": "UNTDID6345:DOP",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "DOP",
+            "rdfs:comment": "Dominican Peso"
+        },
+        {
+            "@id": "UNTDID6345:DZD",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "DZD",
+            "rdfs:comment": "Algerian Dinar"
+        },
+        {
+            "@id": "UNTDID6345:EGP",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "EGP",
+            "rdfs:comment": "Egyptian Pound"
+        },
+        {
+            "@id": "UNTDID6345:ERN",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "ERN",
+            "rdfs:comment": "Nakfa"
+        },
+        {
+            "@id": "UNTDID6345:ETB",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "ETB",
+            "rdfs:comment": "Ethopian Birr"
+        },
+        {
+            "@id": "UNTDID6345:EUR",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "EUR",
+            "rdfs:comment": "Euro"
+        },
+        {
+            "@id": "UNTDID6345:FJD",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "FJD",
+            "rdfs:comment": "Fiji Dollar"
+        },
+        {
+            "@id": "UNTDID6345:FKP",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "FKP",
+            "rdfs:comment": "Falkland Islands Pound"
+        },
+        {
+            "@id": "UNTDID6345:GBP",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "GBP",
+            "rdfs:comment": "Pound Sterling"
+        },
+        {
+            "@id": "UNTDID6345:GEL",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "GEL",
+            "rdfs:comment": "Lari"
+        },
+        {
+            "@id": "UNTDID6345:GHS",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "GHS",
+            "rdfs:comment": "Ghana Cedi"
+        },
+        {
+            "@id": "UNTDID6345:GIP",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "GIP",
+            "rdfs:comment": "Gibraltar Pound"
+        },
+        {
+            "@id": "UNTDID6345:GMD",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "GMD",
+            "rdfs:comment": "Dalasi"
+        },
+        {
+            "@id": "UNTDID6345:GNF",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "GNF",
+            "rdfs:comment": "Guinean Franc"
+        },
+        {
+            "@id": "UNTDID6345:GTQ",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "GTQ",
+            "rdfs:comment": "Quetzal"
+        },
+        {
+            "@id": "UNTDID6345:GYD",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "GYD",
+            "rdfs:comment": "Guyana Dollar"
+        },
+        {
+            "@id": "UNTDID6345:HKD",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "HKD",
+            "rdfs:comment": "Honk Kong Dollar"
+        },
+        {
+            "@id": "UNTDID6345:HNL",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "HNL",
+            "rdfs:comment": "Lempira"
+        },
+        {
+            "@id": "UNTDID6345:HRK",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "HRK",
+            "rdfs:comment": "Kuna"
+        },
+        {
+            "@id": "UNTDID6345:HTG",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "HTG",
+            "rdfs:comment": "Gourde"
+        },
+        {
+            "@id": "UNTDID6345:HUF",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "HUF",
+            "rdfs:comment": "Forint"
+        },
+        {
+            "@id": "UNTDID6345:IDR",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "IDR",
+            "rdfs:comment": "Rupiah"
+        },
+        {
+            "@id": "UNTDID6345:ILS",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "ILS",
+            "rdfs:comment": "New Israeli Sheqel"
+        },
+        {
+            "@id": "UNTDID6345:INR",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "INR",
+            "rdfs:comment": "Indian Rupee"
+        },
+        {
+            "@id": "UNTDID6345:IQD",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "IQD",
+            "rdfs:comment": "Iraqi Dinar"
+        },
+        {
+            "@id": "UNTDID6345:IRR",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "IRR",
+            "rdfs:comment": "Iranian Rial"
+        },
+        {
+            "@id": "UNTDID6345:ISK",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "ISK",
+            "rdfs:comment": "Iceland Krona"
+        },
+        {
+            "@id": "UNTDID6345:JMD",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "JMD",
+            "rdfs:comment": "Jamaican Dollar"
+        },
+        {
+            "@id": "UNTDID6345:JOD",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "JOD",
+            "rdfs:comment": "Jordanian Dinar"
+        },
+        {
+            "@id": "UNTDID6345:JPY",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "JPY",
+            "rdfs:comment": "Yen"
+        },
+        {
+            "@id": "UNTDID6345:KES",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "KES",
+            "rdfs:comment": "Kenyan Shilling"
+        },
+        {
+            "@id": "UNTDID6345:KGS",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "KGS",
+            "rdfs:comment": "Som"
+        },
+        {
+            "@id": "UNTDID6345:KHR",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "KHR",
+            "rdfs:comment": "Riel"
+        },
+        {
+            "@id": "UNTDID6345:KMF",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "KMF",
+            "rdfs:comment": "Comorian Franc"
+        },
+        {
+            "@id": "UNTDID6345:KPW",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "KPW",
+            "rdfs:comment": "North Korean Won"
+        },
+        {
+            "@id": "UNTDID6345:KRW",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "KRW",
+            "rdfs:comment": "Won"
+        },
+        {
+            "@id": "UNTDID6345:KWD",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "KWD",
+            "rdfs:comment": "Kuwaiti Dinar"
+        },
+        {
+            "@id": "UNTDID6345:KYD",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "KYD",
+            "rdfs:comment": "Cayman Islands Dollar"
+        },
+        {
+            "@id": "UNTDID6345:KZT",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "KZT",
+            "rdfs:comment": "Tenge"
+        },
+        {
+            "@id": "UNTDID6345:LAK",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "LAK",
+            "rdfs:comment": "Lao Kip"
+        },
+        {
+            "@id": "UNTDID6345:LBP",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "LBP",
+            "rdfs:comment": "Lebanese Pound"
+        },
+        {
+            "@id": "UNTDID6345:LKR",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "LKR",
+            "rdfs:comment": "Sri Lanka Rupee"
+        },
+        {
+            "@id": "UNTDID6345:LRD",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "LRD",
+            "rdfs:comment": "Liberian Dollar"
+        },
+        {
+            "@id": "UNTDID6345:LSL",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "LSL",
+            "rdfs:comment": "Loti"
+        },
+        {
+            "@id": "UNTDID6345:LYD",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "LYD",
+            "rdfs:comment": "Libyan Dinar"
+        },
+        {
+            "@id": "UNTDID6345:MAD",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "MAD",
+            "rdfs:comment": "Morrocan Dirham"
+        },
+        {
+            "@id": "UNTDID6345:MDL",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "MDL",
+            "rdfs:comment": "Moldovan Leu"
+        },
+        {
+            "@id": "UNTDID6345:MGA",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "MGA",
+            "rdfs:comment": "Ariary"
+        },
+        {
+            "@id": "UNTDID6345:MKD",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "MKD",
+            "rdfs:comment": "Denar"
+        },
+        {
+            "@id": "UNTDID6345:MMK",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "MMK",
+            "rdfs:comment": "Kyat"
+        },
+        {
+            "@id": "UNTDID6345:MNT",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "MNT",
+            "rdfs:comment": "Tugrik"
+        },
+        {
+            "@id": "UNTDID6345:MOP",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "MOP",
+            "rdfs:comment": "Pataca"
+        },
+        {
+            "@id": "UNTDID6345:MRU",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "MRU",
+            "rdfs:comment": "Ouguiya"
+        },
+        {
+            "@id": "UNTDID6345:MUR",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "MUR",
+            "rdfs:comment": "Mauritius Rupee"
+        },
+        {
+            "@id": "UNTDID6345:MVR",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "MVR",
+            "rdfs:comment": "Rufiyaa"
+        },
+        {
+            "@id": "UNTDID6345:MWK",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "MWK",
+            "rdfs:comment": "Malawi Kwacha"
+        },
+        {
+            "@id": "UNTDID6345:MXN",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "MXN",
+            "rdfs:comment": "Mexican Peso"
+        },
+        {
+            "@id": "UNTDID6345:MXV",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "MXV",
+            "rdfs:comment": "Mexican Unidad de Inversion (UDI)"
+        },
+        {
+            "@id": "UNTDID6345:MYR",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "MYR",
+            "rdfs:comment": "Malaysian Ringgit"
+        },
+        {
+            "@id": "UNTDID6345:MZN",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "MZN",
+            "rdfs:comment": "Mozambique Metical"
+        },
+        {
+            "@id": "UNTDID6345:NAD",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "NAD",
+            "rdfs:comment": "Namibia Dollar"
+        },
+        {
+            "@id": "UNTDID6345:NGN",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "NGN",
+            "rdfs:comment": "Naira"
+        },
+        {
+            "@id": "UNTDID6345:NIO",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "NIO",
+            "rdfs:comment": "Cordoba Oro"
+        },
+        {
+            "@id": "UNTDID6345:NOK",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "NOK",
+            "rdfs:comment": "Norwegian Krone"
+        },
+        {
+            "@id": "UNTDID6345:NPR",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "NPR",
+            "rdfs:comment": "Nepalese Rupee"
+        },
+        {
+            "@id": "UNTDID6345:NZD",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "NZD",
+            "rdfs:comment": "New Zealand Dollar"
+        },
+        {
+            "@id": "UNTDID6345:OMR",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "OMR",
+            "rdfs:comment": "Rial Omani"
+        },
+        {
+            "@id": "UNTDID6345:PAB",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "PAB",
+            "rdfs:comment": "Balboa"
+        },
+        {
+            "@id": "UNTDID6345:PEN",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "PEN",
+            "rdfs:comment": "Sol"
+        },
+        {
+            "@id": "UNTDID6345:PGK",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "PGK",
+            "rdfs:comment": "Kina"
+        },
+        {
+            "@id": "UNTDID6345:PHP",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "PHP",
+            "rdfs:comment": "Philippine Piso"
+        },
+        {
+            "@id": "UNTDID6345:PKR",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "PKR",
+            "rdfs:comment": "Pakistan Rupee"
+        },
+        {
+            "@id": "UNTDID6345:PLN",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "PLN",
+            "rdfs:comment": "Zloty"
+        },
+        {
+            "@id": "UNTDID6345:PYG",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "PYG",
+            "rdfs:comment": "Guarani"
+        },
+        {
+            "@id": "UNTDID6345:QAR",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "QAR",
+            "rdfs:comment": "Qatari Rial"
+        },
+        {
+            "@id": "UNTDID6345:RON",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "RON",
+            "rdfs:comment": "Romanian Leu"
+        },
+        {
+            "@id": "UNTDID6345:RSD",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "RSD",
+            "rdfs:comment": "Serbian Dinar"
+        },
+        {
+            "@id": "UNTDID6345:RUB",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "RUB",
+            "rdfs:comment": "Russian Ruble"
+        },
+        {
+            "@id": "UNTDID6345:RWF",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "RWF",
+            "rdfs:comment": "Rwanda Franc"
+        },
+        {
+            "@id": "UNTDID6345:SAR",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "SAR",
+            "rdfs:comment": "Saudi Riyal"
+        },
+        {
+            "@id": "UNTDID6345:SBD",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "SBD",
+            "rdfs:comment": "Solomon Islands Dollar"
+        },
+        {
+            "@id": "UNTDID6345:SCR",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "SCR",
+            "rdfs:comment": "Seychelles Rupee"
+        },
+        {
+            "@id": "UNTDID6345:SDG",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "SDG",
+            "rdfs:comment": "Sudanese Pound"
+        },
+        {
+            "@id": "UNTDID6345:SEK",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "SEK",
+            "rdfs:comment": "Swedish Krona"
+        },
+        {
+            "@id": "UNTDID6345:SGD",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "SGD",
+            "rdfs:comment": "Singapore Dollar"
+        },
+        {
+            "@id": "UNTDID6345:SHP",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "SHP",
+            "rdfs:comment": "St. Helena Pound"
+        },
+        {
+            "@id": "UNTDID6345:SLL",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "SLL",
+            "rdfs:comment": "Leone"
+        },
+        {
+            "@id": "UNTDID6345:SOS",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "SOS",
+            "rdfs:comment": "Somali Shilling"
+        },
+        {
+            "@id": "UNTDID6345:SRD",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "SRD",
+            "rdfs:comment": "Suriname Dollar"
+        },
+        {
+            "@id": "UNTDID6345:SSP",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "SSP",
+            "rdfs:comment": "South Sudanese Pound"
+        },
+        {
+            "@id": "UNTDID6345:STN",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "STN",
+            "rdfs:comment": "Dobra"
+        },
+        {
+            "@id": "UNTDID6345:SVC",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "SVC",
+            "rdfs:comment": "El Salvador Colon"
+        },
+        {
+            "@id": "UNTDID6345:SYP",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "SYP",
+            "rdfs:comment": "Syrian Pound"
+        },
+        {
+            "@id": "UNTDID6345:SZL",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "SZL",
+            "rdfs:comment": "Lilangeni"
+        },
+        {
+            "@id": "UNTDID6345:THB",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "THB",
+            "rdfs:comment": "Baht"
+        },
+        {
+            "@id": "UNTDID6345:TJS",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "TJS",
+            "rdfs:comment": "Somoni"
+        },
+        {
+            "@id": "UNTDID6345:TMT",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "TMT",
+            "rdfs:comment": "Turkmenistan New Manat"
+        },
+        {
+            "@id": "UNTDID6345:TND",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "TND",
+            "rdfs:comment": "Tunisian Dinar"
+        },
+        {
+            "@id": "UNTDID6345:TOP",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "TOP",
+            "rdfs:comment": "Pa'anga"
+        },
+        {
+            "@id": "UNTDID6345:TRY",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "TRY",
+            "rdfs:comment": "Turkish Lira"
+        },
+        {
+            "@id": "UNTDID6345:TTD",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "TTD",
+            "rdfs:comment": "Trinidad and Tobago Dollar"
+        },
+        {
+            "@id": "UNTDID6345:TWD",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "TWD",
+            "rdfs:comment": "New Taiwan Dollar"
+        },
+        {
+            "@id": "UNTDID6345:TZS",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "TZS",
+            "rdfs:comment": "Tanzanian Shilling"
+        },
+        {
+            "@id": "UNTDID6345:UAH",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "UAH",
+            "rdfs:comment": "Hryvnia"
+        },
+        {
+            "@id": "UNTDID6345:UGX",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "UGX",
+            "rdfs:comment": "Uganda Shilling"
+        },
+        {
+            "@id": "UNTDID6345:USD",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "USD",
+            "rdfs:comment": "US Dollar"
+        },
+        {
+            "@id": "UNTDID6345:USN",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "USN",
+            "rdfs:comment": "US Dollar (Next day)"
+        },
+        {
+            "@id": "UNTDID6345:UYI",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "UYI",
+            "rdfs:comment": "Uruguayo Peso en Unidades"
+        },
+        {
+            "@id": "UNTDID6345:UYU",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "UYU",
+            "rdfs:comment": "Peso Uruguayo"
+        },
+        {
+            "@id": "UNTDID6345:UYW",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "UYW",
+            "rdfs:comment": "Unidad Previsional"
+        },
+        {
+            "@id": "UNTDID6345:UZS",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "UZS",
+            "rdfs:comment": "Uzbekistan Sum"
+        },
+        {
+            "@id": "UNTDID6345:VED",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "VED",
+            "rdfs:comment": "Bolívar Soberano"
+        },
+        {
+            "@id": "UNTDID6345:VES",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "VES",
+            "rdfs:comment": "Bolívar Soberano"
+        },
+        {
+            "@id": "UNTDID6345:VND",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "VND",
+            "rdfs:comment": "Dong"
+        },
+        {
+            "@id": "UNTDID6345:VUV",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "VUV",
+            "rdfs:comment": "Vatu"
+        },
+        {
+            "@id": "UNTDID6345:WST",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "WST",
+            "rdfs:comment": "Tala"
+        },
+        {
+            "@id": "UNTDID6345:XAF",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "XAF",
+            "rdfs:comment": "CFA Franc"
+        },
+        {
+            "@id": "UNTDID6345:XAG",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "XAG",
+            "rdfs:comment": "Silver"
+        },
+        {
+            "@id": "UNTDID6345:XAU",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "XAU",
+            "rdfs:comment": "Gold"
+        },
+        {
+            "@id": "UNTDID6345:XBA",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "XBA",
+            "rdfs:comment": "Bond Markets Units European Composite Unit (EURCO)"
+        },
+        {
+            "@id": "UNTDID6345:XBB",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "XBB",
+            "rdfs:comment": "European Monetary Unit (E.M.U.-6)"
+        },
+        {
+            "@id": "UNTDID6345:XBC",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "XBC",
+            "rdfs:comment": "European Unit of Account 9 (E.U.A.-9)"
+        },
+        {
+            "@id": "UNTDID6345:XBD",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "XBD",
+            "rdfs:comment": "European Unit of Account 17 (E.U.A.-17)"
+        },
+        {
+            "@id": "UNTDID6345:XCD",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "XCD",
+            "rdfs:comment": "East Carribean Dollar"
+        },
+        {
+            "@id": "UNTDID6345:XDR",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "XDR",
+            "rdfs:comment": "SDR"
+        },
+        {
+            "@id": "UNTDID6345:XOF",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "XOF",
+            "rdfs:comment": "CFA Franc"
+        },
+        {
+            "@id": "UNTDID6345:XPD",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "XPD",
+            "rdfs:comment": "Palladium"
+        },
+        {
+            "@id": "UNTDID6345:XPF",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "XPF",
+            "rdfs:comment": "CFP Franc"
+        },
+        {
+            "@id": "UNTDID6345:XPT",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "XPT",
+            "rdfs:comment": "Platinum"
+        },
+        {
+            "@id": "UNTDID6345:XSU",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "XSU",
+            "rdfs:comment": "Sucre"
+        },
+        {
+            "@id": "UNTDID6345:XTS",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "XTS",
+            "rdfs:comment": "Codes specifically reserved for testing purposes"
+        },
+        {
+            "@id": "UNTDID6345:XUA",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "XUA",
+            "rdfs:comment": "ADB Unit of Account"
+        },
+        {
+            "@id": "UNTDID6345:XXX",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "XXX",
+            "rdfs:comment": "The codes assigned for transactions where no currency is involved"
+        },
+        {
+            "@id": "UNTDID6345:YER",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "YER",
+            "rdfs:comment": "Yemeni Rial"
+        },
+        {
+            "@id": "UNTDID6345:ZAR",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "ZAR",
+            "rdfs:comment": "Rand"
+        },
+        {
+            "@id": "UNTDID6345:ZMW",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "ZMW",
+            "rdfs:comment": "Zambian Kwacha"
+        },
+        {
+            "@id": "UNTDID6345:ZWL",
+            "@type": "unece:CurrencyCodeList",
+            "rdf:value": "ZWL",
+            "rdfs:comment": "Zimbabwe Dollar"
+        }
+    ]
+}

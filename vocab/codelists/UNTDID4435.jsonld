@@ -1,0 +1,107 @@
+
+{
+    "@context": {
+        "unece": "https://vocabulary.uncefact.org/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "UNTDID4435": "https://vocabulary.uncefact.org/codelists/UNTDID4435"
+    },
+    "@graph": [
+        {
+            "@id": "UNTDID4435:1",
+            "@type": "unece:PaymentMeansChannelCodeList",
+            "rdf:value": "1",
+            "rdfs:comment": "Ordinary post"
+        },
+        {
+            "@id": "UNTDID4435:2",
+            "@type": "unece:PaymentMeansChannelCodeList",
+            "rdf:value": "2",
+            "rdfs:comment": "Air mail"
+        },
+        {
+            "@id": "UNTDID4435:3",
+            "@type": "unece:PaymentMeansChannelCodeList",
+            "rdf:value": "3",
+            "rdfs:comment": "Telegraph"
+        },
+        {
+            "@id": "UNTDID4435:4",
+            "@type": "unece:PaymentMeansChannelCodeList",
+            "rdf:value": "4",
+            "rdfs:comment": "Telex"
+        },
+        {
+            "@id": "UNTDID4435:5",
+            "@type": "unece:PaymentMeansChannelCodeList",
+            "rdf:value": "5",
+            "rdfs:comment": "S.W.I.F.T."
+        },
+        {
+            "@id": "UNTDID4435:6",
+            "@type": "unece:PaymentMeansChannelCodeList",
+            "rdf:value": "6",
+            "rdfs:comment": "Other transmission networks"
+        },
+        {
+            "@id": "UNTDID4435:7",
+            "@type": "unece:PaymentMeansChannelCodeList",
+            "rdf:value": "7",
+            "rdfs:comment": "Networks not defined"
+        },
+        {
+            "@id": "UNTDID4435:8",
+            "@type": "unece:PaymentMeansChannelCodeList",
+            "rdf:value": "8",
+            "rdfs:comment": "Fedwire"
+        },
+        {
+            "@id": "UNTDID4435:9",
+            "@type": "unece:PaymentMeansChannelCodeList",
+            "rdf:value": "9",
+            "rdfs:comment": "Personal (face-to-face)"
+        },
+        {
+            "@id": "UNTDID4435:10",
+            "@type": "unece:PaymentMeansChannelCodeList",
+            "rdf:value": "10",
+            "rdfs:comment": "Registered air mail"
+        },
+        {
+            "@id": "UNTDID4435:11",
+            "@type": "unece:PaymentMeansChannelCodeList",
+            "rdf:value": "11",
+            "rdfs:comment": "Registered mail"
+        },
+        {
+            "@id": "UNTDID4435:12",
+            "@type": "unece:PaymentMeansChannelCodeList",
+            "rdf:value": "12",
+            "rdfs:comment": "Courier"
+        },
+        {
+            "@id": "UNTDID4435:13",
+            "@type": "unece:PaymentMeansChannelCodeList",
+            "rdf:value": "13",
+            "rdfs:comment": "Messenger"
+        },
+        {
+            "@id": "UNTDID4435:14",
+            "@type": "unece:PaymentMeansChannelCodeList",
+            "rdf:value": "14",
+            "rdfs:comment": "National ACH"
+        },
+        {
+            "@id": "UNTDID4435:15",
+            "@type": "unece:PaymentMeansChannelCodeList",
+            "rdf:value": "15",
+            "rdfs:comment": "Other ACH"
+        },
+        {
+            "@id": "UNTDID4435:ZZZ",
+            "@type": "unece:PaymentMeansChannelCodeList",
+            "rdf:value": "ZZZ",
+            "rdfs:comment": "Mutually defined"
+        }
+    ]
+}

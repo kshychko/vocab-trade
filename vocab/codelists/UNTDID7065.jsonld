@@ -1,0 +1,2441 @@
+
+{
+    "@context": {
+        "unece": "https://vocabulary.uncefact.org/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "UNTDID7065": "https://vocabulary.uncefact.org/codelists/UNTDID7065"
+    },
+    "@graph": [
+        {
+            "@id": "UNTDID7065:43",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "43",
+            "rdfs:comment": "Bag, super bulk"
+        },
+        {
+            "@id": "UNTDID7065:44",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "44",
+            "rdfs:comment": "Bag, polybag"
+        },
+        {
+            "@id": "UNTDID7065:1A",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "1A",
+            "rdfs:comment": "Drum, steel"
+        },
+        {
+            "@id": "UNTDID7065:1B",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "1B",
+            "rdfs:comment": "Drum, aluminium"
+        },
+        {
+            "@id": "UNTDID7065:1D",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "1D",
+            "rdfs:comment": "Drum, plywood"
+        },
+        {
+            "@id": "UNTDID7065:1F",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "1F",
+            "rdfs:comment": "Container, flexible"
+        },
+        {
+            "@id": "UNTDID7065:1G",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "1G",
+            "rdfs:comment": "Drum, fibre"
+        },
+        {
+            "@id": "UNTDID7065:1W",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "1W",
+            "rdfs:comment": "Drum, wooden"
+        },
+        {
+            "@id": "UNTDID7065:2C",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "2C",
+            "rdfs:comment": "Barrel, wooden"
+        },
+        {
+            "@id": "UNTDID7065:3A",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "3A",
+            "rdfs:comment": "Jerrican, steel"
+        },
+        {
+            "@id": "UNTDID7065:3H",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "3H",
+            "rdfs:comment": "Jerrican, plastic"
+        },
+        {
+            "@id": "UNTDID7065:4A",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "4A",
+            "rdfs:comment": "Box, steel"
+        },
+        {
+            "@id": "UNTDID7065:4B",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "4B",
+            "rdfs:comment": "Box, aluminium"
+        },
+        {
+            "@id": "UNTDID7065:4C",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "4C",
+            "rdfs:comment": "Box, natural wood"
+        },
+        {
+            "@id": "UNTDID7065:4D",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "4D",
+            "rdfs:comment": "Box, plywood"
+        },
+        {
+            "@id": "UNTDID7065:4F",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "4F",
+            "rdfs:comment": "Box, reconstituted wood"
+        },
+        {
+            "@id": "UNTDID7065:4G",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "4G",
+            "rdfs:comment": "Box, fibreboard"
+        },
+        {
+            "@id": "UNTDID7065:4H",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "4H",
+            "rdfs:comment": "Box, plastic"
+        },
+        {
+            "@id": "UNTDID7065:5H",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "5H",
+            "rdfs:comment": "Bag, woven plastic"
+        },
+        {
+            "@id": "UNTDID7065:5L",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "5L",
+            "rdfs:comment": "Bag, textile"
+        },
+        {
+            "@id": "UNTDID7065:5M",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "5M",
+            "rdfs:comment": "Bag, paper"
+        },
+        {
+            "@id": "UNTDID7065:6H",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "6H",
+            "rdfs:comment": "Composite packaging, plastic receptacle"
+        },
+        {
+            "@id": "UNTDID7065:6P",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "6P",
+            "rdfs:comment": "Composite packaging, glass receptacle"
+        },
+        {
+            "@id": "UNTDID7065:7A",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "7A",
+            "rdfs:comment": "Case, car"
+        },
+        {
+            "@id": "UNTDID7065:7B",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "7B",
+            "rdfs:comment": "Case, wooden"
+        },
+        {
+            "@id": "UNTDID7065:8A",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "8A",
+            "rdfs:comment": "Pallet, wooden"
+        },
+        {
+            "@id": "UNTDID7065:8B",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "8B",
+            "rdfs:comment": "Crate, wooden"
+        },
+        {
+            "@id": "UNTDID7065:8C",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "8C",
+            "rdfs:comment": "Bundle, wooden"
+        },
+        {
+            "@id": "UNTDID7065:AA",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "AA",
+            "rdfs:comment": "Intermediate bulk container, rigid plastic"
+        },
+        {
+            "@id": "UNTDID7065:AB",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "AB",
+            "rdfs:comment": "Receptacle, fibre"
+        },
+        {
+            "@id": "UNTDID7065:AC",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "AC",
+            "rdfs:comment": "Receptacle, paper"
+        },
+        {
+            "@id": "UNTDID7065:AD",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "AD",
+            "rdfs:comment": "Receptacle, wooden"
+        },
+        {
+            "@id": "UNTDID7065:AE",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "AE",
+            "rdfs:comment": "Aerosol"
+        },
+        {
+            "@id": "UNTDID7065:AF",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "AF",
+            "rdfs:comment": "Pallet, modular, collars 80cms × 60cms"
+        },
+        {
+            "@id": "UNTDID7065:AG",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "AG",
+            "rdfs:comment": "Pallet, shrinkwrapped"
+        },
+        {
+            "@id": "UNTDID7065:AH",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "AH",
+            "rdfs:comment": "Pallet, 100cms × 110cms"
+        },
+        {
+            "@id": "UNTDID7065:AI",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "AI",
+            "rdfs:comment": "Clamshell"
+        },
+        {
+            "@id": "UNTDID7065:AJ",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "AJ",
+            "rdfs:comment": "Cone"
+        },
+        {
+            "@id": "UNTDID7065:AL",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "AL",
+            "rdfs:comment": "Ball"
+        },
+        {
+            "@id": "UNTDID7065:AM",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "AM",
+            "rdfs:comment": "Ampoule, non-protected"
+        },
+        {
+            "@id": "UNTDID7065:AP",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "AP",
+            "rdfs:comment": "Ampoule, protected"
+        },
+        {
+            "@id": "UNTDID7065:AT",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "AT",
+            "rdfs:comment": "Atomizer"
+        },
+        {
+            "@id": "UNTDID7065:AV",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "AV",
+            "rdfs:comment": "Capsule"
+        },
+        {
+            "@id": "UNTDID7065:B4",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "B4",
+            "rdfs:comment": "Belt"
+        },
+        {
+            "@id": "UNTDID7065:BA",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "BA",
+            "rdfs:comment": "Barrel"
+        },
+        {
+            "@id": "UNTDID7065:BB",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "BB",
+            "rdfs:comment": "Bobbin"
+        },
+        {
+            "@id": "UNTDID7065:BC",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "BC",
+            "rdfs:comment": "Bottlecrate / bottlerack"
+        },
+        {
+            "@id": "UNTDID7065:BD",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "BD",
+            "rdfs:comment": "Board"
+        },
+        {
+            "@id": "UNTDID7065:BE",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "BE",
+            "rdfs:comment": "Bundle"
+        },
+        {
+            "@id": "UNTDID7065:BF",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "BF",
+            "rdfs:comment": "Balloon, non-protected"
+        },
+        {
+            "@id": "UNTDID7065:BG",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "BG",
+            "rdfs:comment": "Bag"
+        },
+        {
+            "@id": "UNTDID7065:BH",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "BH",
+            "rdfs:comment": "Bunch"
+        },
+        {
+            "@id": "UNTDID7065:BI",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "BI",
+            "rdfs:comment": "Bin"
+        },
+        {
+            "@id": "UNTDID7065:BJ",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "BJ",
+            "rdfs:comment": "Bucket"
+        },
+        {
+            "@id": "UNTDID7065:BK",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "BK",
+            "rdfs:comment": "Basket"
+        },
+        {
+            "@id": "UNTDID7065:BL",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "BL",
+            "rdfs:comment": "Bale, compressed"
+        },
+        {
+            "@id": "UNTDID7065:BM",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "BM",
+            "rdfs:comment": "Basin"
+        },
+        {
+            "@id": "UNTDID7065:BN",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "BN",
+            "rdfs:comment": "Bale, non-compressed"
+        },
+        {
+            "@id": "UNTDID7065:BO",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "BO",
+            "rdfs:comment": "Bottle, non-protected, cylindrical"
+        },
+        {
+            "@id": "UNTDID7065:BP",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "BP",
+            "rdfs:comment": "Balloon, protected"
+        },
+        {
+            "@id": "UNTDID7065:BQ",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "BQ",
+            "rdfs:comment": "Bottle, protected cylindrical"
+        },
+        {
+            "@id": "UNTDID7065:BR",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "BR",
+            "rdfs:comment": "Bar"
+        },
+        {
+            "@id": "UNTDID7065:BS",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "BS",
+            "rdfs:comment": "Bottle, non-protected, bulbous"
+        },
+        {
+            "@id": "UNTDID7065:BT",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "BT",
+            "rdfs:comment": "Bolt"
+        },
+        {
+            "@id": "UNTDID7065:BU",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "BU",
+            "rdfs:comment": "Butt"
+        },
+        {
+            "@id": "UNTDID7065:BV",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "BV",
+            "rdfs:comment": "Bottle, protected bulbous"
+        },
+        {
+            "@id": "UNTDID7065:BW",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "BW",
+            "rdfs:comment": "Box, for liquids"
+        },
+        {
+            "@id": "UNTDID7065:BX",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "BX",
+            "rdfs:comment": "Box"
+        },
+        {
+            "@id": "UNTDID7065:BY",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "BY",
+            "rdfs:comment": "Board, in bundle/bunch/truss"
+        },
+        {
+            "@id": "UNTDID7065:BZ",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "BZ",
+            "rdfs:comment": "Bars, in bundle/bunch/truss"
+        },
+        {
+            "@id": "UNTDID7065:CA",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "CA",
+            "rdfs:comment": "Can, rectangular"
+        },
+        {
+            "@id": "UNTDID7065:CB",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "CB",
+            "rdfs:comment": "Crate, beer"
+        },
+        {
+            "@id": "UNTDID7065:CC",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "CC",
+            "rdfs:comment": "Churn"
+        },
+        {
+            "@id": "UNTDID7065:CD",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "CD",
+            "rdfs:comment": "Can, with handle and spout"
+        },
+        {
+            "@id": "UNTDID7065:CE",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "CE",
+            "rdfs:comment": "Creel"
+        },
+        {
+            "@id": "UNTDID7065:CF",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "CF",
+            "rdfs:comment": "Coffer"
+        },
+        {
+            "@id": "UNTDID7065:CG",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "CG",
+            "rdfs:comment": "Cage"
+        },
+        {
+            "@id": "UNTDID7065:CH",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "CH",
+            "rdfs:comment": "Chest"
+        },
+        {
+            "@id": "UNTDID7065:CI",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "CI",
+            "rdfs:comment": "Canister"
+        },
+        {
+            "@id": "UNTDID7065:CJ",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "CJ",
+            "rdfs:comment": "Coffin"
+        },
+        {
+            "@id": "UNTDID7065:CK",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "CK",
+            "rdfs:comment": "Cask"
+        },
+        {
+            "@id": "UNTDID7065:CL",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "CL",
+            "rdfs:comment": "Coil"
+        },
+        {
+            "@id": "UNTDID7065:CM",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "CM",
+            "rdfs:comment": "Card"
+        },
+        {
+            "@id": "UNTDID7065:CN",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "CN",
+            "rdfs:comment": "Container, not otherwise specified as transport equipment"
+        },
+        {
+            "@id": "UNTDID7065:CO",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "CO",
+            "rdfs:comment": "Carboy, non-protected"
+        },
+        {
+            "@id": "UNTDID7065:CP",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "CP",
+            "rdfs:comment": "Carboy, protected"
+        },
+        {
+            "@id": "UNTDID7065:CQ",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "CQ",
+            "rdfs:comment": "Cartridge"
+        },
+        {
+            "@id": "UNTDID7065:CR",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "CR",
+            "rdfs:comment": "Crate"
+        },
+        {
+            "@id": "UNTDID7065:CS",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "CS",
+            "rdfs:comment": "Case"
+        },
+        {
+            "@id": "UNTDID7065:CT",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "CT",
+            "rdfs:comment": "Carton"
+        },
+        {
+            "@id": "UNTDID7065:CU",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "CU",
+            "rdfs:comment": "Cup"
+        },
+        {
+            "@id": "UNTDID7065:CV",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "CV",
+            "rdfs:comment": "Cover"
+        },
+        {
+            "@id": "UNTDID7065:CW",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "CW",
+            "rdfs:comment": "Cage, roll"
+        },
+        {
+            "@id": "UNTDID7065:CX",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "CX",
+            "rdfs:comment": "Can, cylindrical"
+        },
+        {
+            "@id": "UNTDID7065:CY",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "CY",
+            "rdfs:comment": "Cylinder"
+        },
+        {
+            "@id": "UNTDID7065:CZ",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "CZ",
+            "rdfs:comment": "Canvas"
+        },
+        {
+            "@id": "UNTDID7065:DA",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "DA",
+            "rdfs:comment": "Crate, multiple layer, plastic"
+        },
+        {
+            "@id": "UNTDID7065:DB",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "DB",
+            "rdfs:comment": "Crate, multiple layer, wooden"
+        },
+        {
+            "@id": "UNTDID7065:DC",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "DC",
+            "rdfs:comment": "Crate, multiple layer, cardboard"
+        },
+        {
+            "@id": "UNTDID7065:DG",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "DG",
+            "rdfs:comment": "Cage, Commonwealth Handling Equipment Pool  (CHEP)"
+        },
+        {
+            "@id": "UNTDID7065:DH",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "DH",
+            "rdfs:comment": "Box, Commonwealth Handling Equipment Pool (CHEP), Eurobox"
+        },
+        {
+            "@id": "UNTDID7065:DI",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "DI",
+            "rdfs:comment": "Drum, iron"
+        },
+        {
+            "@id": "UNTDID7065:DJ",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "DJ",
+            "rdfs:comment": "Demijohn, non-protected"
+        },
+        {
+            "@id": "UNTDID7065:DK",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "DK",
+            "rdfs:comment": "Crate, bulk, cardboard"
+        },
+        {
+            "@id": "UNTDID7065:DL",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "DL",
+            "rdfs:comment": "Crate, bulk, plastic"
+        },
+        {
+            "@id": "UNTDID7065:DM",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "DM",
+            "rdfs:comment": "Crate, bulk, wooden"
+        },
+        {
+            "@id": "UNTDID7065:DN",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "DN",
+            "rdfs:comment": "Dispenser"
+        },
+        {
+            "@id": "UNTDID7065:DP",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "DP",
+            "rdfs:comment": "Demijohn, protected"
+        },
+        {
+            "@id": "UNTDID7065:DR",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "DR",
+            "rdfs:comment": "Drum"
+        },
+        {
+            "@id": "UNTDID7065:DS",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "DS",
+            "rdfs:comment": "Tray, one layer no cover, plastic"
+        },
+        {
+            "@id": "UNTDID7065:DT",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "DT",
+            "rdfs:comment": "Tray, one layer no cover, wooden"
+        },
+        {
+            "@id": "UNTDID7065:DU",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "DU",
+            "rdfs:comment": "Tray, one layer no cover, polystyrene"
+        },
+        {
+            "@id": "UNTDID7065:DV",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "DV",
+            "rdfs:comment": "Tray, one layer no cover, cardboard"
+        },
+        {
+            "@id": "UNTDID7065:DW",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "DW",
+            "rdfs:comment": "Tray, two layers no cover, plastic tray"
+        },
+        {
+            "@id": "UNTDID7065:DX",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "DX",
+            "rdfs:comment": "Tray, two layers no cover, wooden"
+        },
+        {
+            "@id": "UNTDID7065:DY",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "DY",
+            "rdfs:comment": "Tray, two layers no cover, cardboard"
+        },
+        {
+            "@id": "UNTDID7065:EC",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "EC",
+            "rdfs:comment": "Bag, plastic"
+        },
+        {
+            "@id": "UNTDID7065:ED",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "ED",
+            "rdfs:comment": "Case, with pallet base"
+        },
+        {
+            "@id": "UNTDID7065:EE",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "EE",
+            "rdfs:comment": "Case, with pallet base, wooden"
+        },
+        {
+            "@id": "UNTDID7065:EF",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "EF",
+            "rdfs:comment": "Case, with pallet base, cardboard"
+        },
+        {
+            "@id": "UNTDID7065:EG",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "EG",
+            "rdfs:comment": "Case, with pallet base, plastic"
+        },
+        {
+            "@id": "UNTDID7065:EH",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "EH",
+            "rdfs:comment": "Case, with pallet base, metal"
+        },
+        {
+            "@id": "UNTDID7065:EI",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "EI",
+            "rdfs:comment": "Case, isothermic"
+        },
+        {
+            "@id": "UNTDID7065:EN",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "EN",
+            "rdfs:comment": "Envelope"
+        },
+        {
+            "@id": "UNTDID7065:FB",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "FB",
+            "rdfs:comment": "Flexibag"
+        },
+        {
+            "@id": "UNTDID7065:FC",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "FC",
+            "rdfs:comment": "Crate, fruit"
+        },
+        {
+            "@id": "UNTDID7065:FD",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "FD",
+            "rdfs:comment": "Crate, framed"
+        },
+        {
+            "@id": "UNTDID7065:FE",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "FE",
+            "rdfs:comment": "Flexitank"
+        },
+        {
+            "@id": "UNTDID7065:FI",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "FI",
+            "rdfs:comment": "Firkin"
+        },
+        {
+            "@id": "UNTDID7065:FL",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "FL",
+            "rdfs:comment": "Flask"
+        },
+        {
+            "@id": "UNTDID7065:FO",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "FO",
+            "rdfs:comment": "Footlocker"
+        },
+        {
+            "@id": "UNTDID7065:FP",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "FP",
+            "rdfs:comment": "Filmpack"
+        },
+        {
+            "@id": "UNTDID7065:FR",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "FR",
+            "rdfs:comment": "Frame"
+        },
+        {
+            "@id": "UNTDID7065:FT",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "FT",
+            "rdfs:comment": "Foodtainer"
+        },
+        {
+            "@id": "UNTDID7065:FW",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "FW",
+            "rdfs:comment": "Cart, flatbed"
+        },
+        {
+            "@id": "UNTDID7065:FX",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "FX",
+            "rdfs:comment": "Bag, flexible container"
+        },
+        {
+            "@id": "UNTDID7065:GB",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "GB",
+            "rdfs:comment": "Bottle, gas"
+        },
+        {
+            "@id": "UNTDID7065:GI",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "GI",
+            "rdfs:comment": "Girder"
+        },
+        {
+            "@id": "UNTDID7065:GL",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "GL",
+            "rdfs:comment": "Container, gallon"
+        },
+        {
+            "@id": "UNTDID7065:GR",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "GR",
+            "rdfs:comment": "Receptacle, glass"
+        },
+        {
+            "@id": "UNTDID7065:GU",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "GU",
+            "rdfs:comment": "Tray, containing horizontally stacked flat items"
+        },
+        {
+            "@id": "UNTDID7065:GY",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "GY",
+            "rdfs:comment": "Bag, gunny"
+        },
+        {
+            "@id": "UNTDID7065:GZ",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "GZ",
+            "rdfs:comment": "Girders, in bundle/bunch/truss"
+        },
+        {
+            "@id": "UNTDID7065:HA",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "HA",
+            "rdfs:comment": "Basket, with handle, plastic"
+        },
+        {
+            "@id": "UNTDID7065:HB",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "HB",
+            "rdfs:comment": "Basket, with handle, wooden"
+        },
+        {
+            "@id": "UNTDID7065:HC",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "HC",
+            "rdfs:comment": "Basket, with handle, cardboard"
+        },
+        {
+            "@id": "UNTDID7065:HG",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "HG",
+            "rdfs:comment": "Hogshead"
+        },
+        {
+            "@id": "UNTDID7065:HN",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "HN",
+            "rdfs:comment": "Hanger"
+        },
+        {
+            "@id": "UNTDID7065:HR",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "HR",
+            "rdfs:comment": "Hamper"
+        },
+        {
+            "@id": "UNTDID7065:IA",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "IA",
+            "rdfs:comment": "Package, display, wooden"
+        },
+        {
+            "@id": "UNTDID7065:IB",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "IB",
+            "rdfs:comment": "Package, display, cardboard"
+        },
+        {
+            "@id": "UNTDID7065:IC",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "IC",
+            "rdfs:comment": "Package, display, plastic"
+        },
+        {
+            "@id": "UNTDID7065:ID",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "ID",
+            "rdfs:comment": "Package, display, metal"
+        },
+        {
+            "@id": "UNTDID7065:IE",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "IE",
+            "rdfs:comment": "Package, show"
+        },
+        {
+            "@id": "UNTDID7065:IF",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "IF",
+            "rdfs:comment": "Package, flow"
+        },
+        {
+            "@id": "UNTDID7065:IG",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "IG",
+            "rdfs:comment": "Package, paper wrapped"
+        },
+        {
+            "@id": "UNTDID7065:IH",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "IH",
+            "rdfs:comment": "Drum, plastic"
+        },
+        {
+            "@id": "UNTDID7065:IK",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "IK",
+            "rdfs:comment": "Package, cardboard, with bottle grip-holes"
+        },
+        {
+            "@id": "UNTDID7065:IL",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "IL",
+            "rdfs:comment": "Tray, rigid, lidded stackable (CEN TS 14482:2002)"
+        },
+        {
+            "@id": "UNTDID7065:IN",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "IN",
+            "rdfs:comment": "Ingot"
+        },
+        {
+            "@id": "UNTDID7065:IZ",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "IZ",
+            "rdfs:comment": "Ingots, in bundle/bunch/truss"
+        },
+        {
+            "@id": "UNTDID7065:JB",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "JB",
+            "rdfs:comment": "Bag, jumbo"
+        },
+        {
+            "@id": "UNTDID7065:JC",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "JC",
+            "rdfs:comment": "Jerrican, rectangular"
+        },
+        {
+            "@id": "UNTDID7065:JG",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "JG",
+            "rdfs:comment": "Jug"
+        },
+        {
+            "@id": "UNTDID7065:JR",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "JR",
+            "rdfs:comment": "Jar"
+        },
+        {
+            "@id": "UNTDID7065:JT",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "JT",
+            "rdfs:comment": "Jutebag"
+        },
+        {
+            "@id": "UNTDID7065:JY",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "JY",
+            "rdfs:comment": "Jerrican, cylindrical"
+        },
+        {
+            "@id": "UNTDID7065:KG",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "KG",
+            "rdfs:comment": "Keg"
+        },
+        {
+            "@id": "UNTDID7065:KI",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "KI",
+            "rdfs:comment": "Kit"
+        },
+        {
+            "@id": "UNTDID7065:LE",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "LE",
+            "rdfs:comment": "Luggage"
+        },
+        {
+            "@id": "UNTDID7065:LG",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "LG",
+            "rdfs:comment": "Log"
+        },
+        {
+            "@id": "UNTDID7065:LT",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "LT",
+            "rdfs:comment": "Lot"
+        },
+        {
+            "@id": "UNTDID7065:LU",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "LU",
+            "rdfs:comment": "Lug"
+        },
+        {
+            "@id": "UNTDID7065:LV",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "LV",
+            "rdfs:comment": "Liftvan"
+        },
+        {
+            "@id": "UNTDID7065:LZ",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "LZ",
+            "rdfs:comment": "Logs, in bundle/bunch/truss"
+        },
+        {
+            "@id": "UNTDID7065:MA",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "MA",
+            "rdfs:comment": "Crate, metal"
+        },
+        {
+            "@id": "UNTDID7065:MB",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "MB",
+            "rdfs:comment": "Bag, multiply"
+        },
+        {
+            "@id": "UNTDID7065:MC",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "MC",
+            "rdfs:comment": "Crate, milk"
+        },
+        {
+            "@id": "UNTDID7065:ME",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "ME",
+            "rdfs:comment": "Container, metal"
+        },
+        {
+            "@id": "UNTDID7065:MR",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "MR",
+            "rdfs:comment": "Receptacle, metal"
+        },
+        {
+            "@id": "UNTDID7065:MS",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "MS",
+            "rdfs:comment": "Sack, multi-wall"
+        },
+        {
+            "@id": "UNTDID7065:MT",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "MT",
+            "rdfs:comment": "Mat"
+        },
+        {
+            "@id": "UNTDID7065:MW",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "MW",
+            "rdfs:comment": "Receptacle, plastic wrapped"
+        },
+        {
+            "@id": "UNTDID7065:MX",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "MX",
+            "rdfs:comment": "Matchbox"
+        },
+        {
+            "@id": "UNTDID7065:NA",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "NA",
+            "rdfs:comment": "Not available"
+        },
+        {
+            "@id": "UNTDID7065:NE",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "NE",
+            "rdfs:comment": "Unpacked or unpackaged"
+        },
+        {
+            "@id": "UNTDID7065:NF",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "NF",
+            "rdfs:comment": "Unpacked or unpackaged, single unit"
+        },
+        {
+            "@id": "UNTDID7065:NG",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "NG",
+            "rdfs:comment": "Unpacked or unpackaged, multiple units"
+        },
+        {
+            "@id": "UNTDID7065:NS",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "NS",
+            "rdfs:comment": "Nest"
+        },
+        {
+            "@id": "UNTDID7065:NT",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "NT",
+            "rdfs:comment": "Net"
+        },
+        {
+            "@id": "UNTDID7065:NU",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "NU",
+            "rdfs:comment": "Net, tube, plastic"
+        },
+        {
+            "@id": "UNTDID7065:NV",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "NV",
+            "rdfs:comment": "Net, tube, textile"
+        },
+        {
+            "@id": "UNTDID7065:O1",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "O1",
+            "rdfs:comment": "Two sided cage on wheels with fixing strap"
+        },
+        {
+            "@id": "UNTDID7065:O2",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "O2",
+            "rdfs:comment": "Trolley"
+        },
+        {
+            "@id": "UNTDID7065:O3",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "O3",
+            "rdfs:comment": "Oneway pallet ISO 0 - 1/2 EURO Pallet"
+        },
+        {
+            "@id": "UNTDID7065:O4",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "O4",
+            "rdfs:comment": "Oneway pallet ISO 1 - 1/1 EURO Pallet"
+        },
+        {
+            "@id": "UNTDID7065:O5",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "O5",
+            "rdfs:comment": "Oneway pallet ISO 2 - 2/1 EURO Pallet"
+        },
+        {
+            "@id": "UNTDID7065:O6",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "O6",
+            "rdfs:comment": "Pallet with exceptional dimensions"
+        },
+        {
+            "@id": "UNTDID7065:O7",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "O7",
+            "rdfs:comment": "Wooden pallet  40 cm x 80 cm"
+        },
+        {
+            "@id": "UNTDID7065:O8",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "O8",
+            "rdfs:comment": "Plastic pallet SRS 60 cm x 80 cm"
+        },
+        {
+            "@id": "UNTDID7065:O9",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "O9",
+            "rdfs:comment": "Plastic pallet SRS 80 cm x 120 cm"
+        },
+        {
+            "@id": "UNTDID7065:OA",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "OA",
+            "rdfs:comment": "Pallet, CHEP 40 cm x 60 cm"
+        },
+        {
+            "@id": "UNTDID7065:OB",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "OB",
+            "rdfs:comment": "Pallet, CHEP 80 cm x 120 cm"
+        },
+        {
+            "@id": "UNTDID7065:OC",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "OC",
+            "rdfs:comment": "Pallet, CHEP 100 cm x 120 cm"
+        },
+        {
+            "@id": "UNTDID7065:OD",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "OD",
+            "rdfs:comment": "Pallet, AS 4068-1993"
+        },
+        {
+            "@id": "UNTDID7065:OE",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "OE",
+            "rdfs:comment": "Pallet, ISO T11"
+        },
+        {
+            "@id": "UNTDID7065:OF",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "OF",
+            "rdfs:comment": "Platform, unspecified weight or dimension"
+        },
+        {
+            "@id": "UNTDID7065:OG",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "OG",
+            "rdfs:comment": "Pallet ISO 0 - 1/2 EURO Pallet"
+        },
+        {
+            "@id": "UNTDID7065:OH",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "OH",
+            "rdfs:comment": "Pallet ISO 1 - 1/1 EURO Pallet"
+        },
+        {
+            "@id": "UNTDID7065:OI",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "OI",
+            "rdfs:comment": "Pallet ISO 2 - 2/1 EURO Pallet"
+        },
+        {
+            "@id": "UNTDID7065:OJ",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "OJ",
+            "rdfs:comment": "1/4 EURO Pallet"
+        },
+        {
+            "@id": "UNTDID7065:OK",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "OK",
+            "rdfs:comment": "Block"
+        },
+        {
+            "@id": "UNTDID7065:OL",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "OL",
+            "rdfs:comment": "1/8 EURO Pallet"
+        },
+        {
+            "@id": "UNTDID7065:OM",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "OM",
+            "rdfs:comment": "Synthetic pallet ISO 1"
+        },
+        {
+            "@id": "UNTDID7065:ON",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "ON",
+            "rdfs:comment": "Synthetic pallet ISO 2"
+        },
+        {
+            "@id": "UNTDID7065:OP",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "OP",
+            "rdfs:comment": "Wholesaler pallet"
+        },
+        {
+            "@id": "UNTDID7065:OQ",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "OQ",
+            "rdfs:comment": "Pallet 80 X 100 cm"
+        },
+        {
+            "@id": "UNTDID7065:OR",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "OR",
+            "rdfs:comment": "Pallet 60 X 100 cm"
+        },
+        {
+            "@id": "UNTDID7065:OS",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "OS",
+            "rdfs:comment": "Oneway pallet"
+        },
+        {
+            "@id": "UNTDID7065:OT",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "OT",
+            "rdfs:comment": "Octabin"
+        },
+        {
+            "@id": "UNTDID7065:OU",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "OU",
+            "rdfs:comment": "Container, outer"
+        },
+        {
+            "@id": "UNTDID7065:OV",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "OV",
+            "rdfs:comment": "Returnable pallet"
+        },
+        {
+            "@id": "UNTDID7065:OW",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "OW",
+            "rdfs:comment": "Large bag, pallet sized"
+        },
+        {
+            "@id": "UNTDID7065:OX",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "OX",
+            "rdfs:comment": "A wheeled pallet with raised rim (81 x 67 x 135)"
+        },
+        {
+            "@id": "UNTDID7065:OY",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "OY",
+            "rdfs:comment": "A wheeled pallet with raised rim (81 x 72 x 135)"
+        },
+        {
+            "@id": "UNTDID7065:OZ",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "OZ",
+            "rdfs:comment": "A wheeled pallet with raised rim (81 x 60 x 16)"
+        },
+        {
+            "@id": "UNTDID7065:P1",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "P1",
+            "rdfs:comment": "CHEP pallet 60 cm x 80 cm"
+        },
+        {
+            "@id": "UNTDID7065:P2",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "P2",
+            "rdfs:comment": "Pan"
+        },
+        {
+            "@id": "UNTDID7065:P3",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "P3",
+            "rdfs:comment": "LPR pallet 60 cm x 80 cm"
+        },
+        {
+            "@id": "UNTDID7065:P4",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "P4",
+            "rdfs:comment": "LPR pallet 80 cm x 120 cm"
+        },
+        {
+            "@id": "UNTDID7065:PA",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "PA",
+            "rdfs:comment": "Packet"
+        },
+        {
+            "@id": "UNTDID7065:PB",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "PB",
+            "rdfs:comment": "Pallet, box"
+        },
+        {
+            "@id": "UNTDID7065:PC",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "PC",
+            "rdfs:comment": "Parcel"
+        },
+        {
+            "@id": "UNTDID7065:PD",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "PD",
+            "rdfs:comment": "Pallet, modular, collars 80cms * 100cms"
+        },
+        {
+            "@id": "UNTDID7065:PE",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "PE",
+            "rdfs:comment": "Pallet, modular, collars 80cms * 120cms"
+        },
+        {
+            "@id": "UNTDID7065:PF",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "PF",
+            "rdfs:comment": "Pen"
+        },
+        {
+            "@id": "UNTDID7065:PG",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "PG",
+            "rdfs:comment": "Plate"
+        },
+        {
+            "@id": "UNTDID7065:PH",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "PH",
+            "rdfs:comment": "Pitcher"
+        },
+        {
+            "@id": "UNTDID7065:PI",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "PI",
+            "rdfs:comment": "Pipe"
+        },
+        {
+            "@id": "UNTDID7065:PJ",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "PJ",
+            "rdfs:comment": "Punnet"
+        },
+        {
+            "@id": "UNTDID7065:PK",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "PK",
+            "rdfs:comment": "Package"
+        },
+        {
+            "@id": "UNTDID7065:PL",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "PL",
+            "rdfs:comment": "Pail"
+        },
+        {
+            "@id": "UNTDID7065:PN",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "PN",
+            "rdfs:comment": "Plank"
+        },
+        {
+            "@id": "UNTDID7065:PO",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "PO",
+            "rdfs:comment": "Pouch"
+        },
+        {
+            "@id": "UNTDID7065:PP",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "PP",
+            "rdfs:comment": "Piece"
+        },
+        {
+            "@id": "UNTDID7065:PR",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "PR",
+            "rdfs:comment": "Receptacle, plastic"
+        },
+        {
+            "@id": "UNTDID7065:PT",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "PT",
+            "rdfs:comment": "Pot"
+        },
+        {
+            "@id": "UNTDID7065:PU",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "PU",
+            "rdfs:comment": "Tray pack"
+        },
+        {
+            "@id": "UNTDID7065:PV",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "PV",
+            "rdfs:comment": "Pipes, in bundle/bunch/truss"
+        },
+        {
+            "@id": "UNTDID7065:PX",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "PX",
+            "rdfs:comment": "Pallet"
+        },
+        {
+            "@id": "UNTDID7065:PY",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "PY",
+            "rdfs:comment": "Plates, in bundle/bunch/truss"
+        },
+        {
+            "@id": "UNTDID7065:PZ",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "PZ",
+            "rdfs:comment": "Planks, in bundle/bunch/truss"
+        },
+        {
+            "@id": "UNTDID7065:QA",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "QA",
+            "rdfs:comment": "Drum, steel, non-removable head"
+        },
+        {
+            "@id": "UNTDID7065:QB",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "QB",
+            "rdfs:comment": "Drum, steel, removable head"
+        },
+        {
+            "@id": "UNTDID7065:QC",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "QC",
+            "rdfs:comment": "Drum, aluminium, non-removable head"
+        },
+        {
+            "@id": "UNTDID7065:QD",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "QD",
+            "rdfs:comment": "Drum, aluminium, removable head"
+        },
+        {
+            "@id": "UNTDID7065:QF",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "QF",
+            "rdfs:comment": "Drum, plastic, non-removable head"
+        },
+        {
+            "@id": "UNTDID7065:QG",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "QG",
+            "rdfs:comment": "Drum, plastic, removable head"
+        },
+        {
+            "@id": "UNTDID7065:QH",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "QH",
+            "rdfs:comment": "Barrel, wooden, bung type"
+        },
+        {
+            "@id": "UNTDID7065:QJ",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "QJ",
+            "rdfs:comment": "Barrel, wooden, removable head"
+        },
+        {
+            "@id": "UNTDID7065:QK",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "QK",
+            "rdfs:comment": "Jerrican, steel, non-removable head"
+        },
+        {
+            "@id": "UNTDID7065:QL",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "QL",
+            "rdfs:comment": "Jerrican, steel, removable head"
+        },
+        {
+            "@id": "UNTDID7065:QM",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "QM",
+            "rdfs:comment": "Jerrican, plastic, non-removable head"
+        },
+        {
+            "@id": "UNTDID7065:QN",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "QN",
+            "rdfs:comment": "Jerrican, plastic, removable head"
+        },
+        {
+            "@id": "UNTDID7065:QP",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "QP",
+            "rdfs:comment": "Box, wooden, natural wood, ordinary"
+        },
+        {
+            "@id": "UNTDID7065:QQ",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "QQ",
+            "rdfs:comment": "Box, wooden, natural wood, with sift proof walls"
+        },
+        {
+            "@id": "UNTDID7065:QR",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "QR",
+            "rdfs:comment": "Box, plastic, expanded"
+        },
+        {
+            "@id": "UNTDID7065:QS",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "QS",
+            "rdfs:comment": "Box, plastic, solid"
+        },
+        {
+            "@id": "UNTDID7065:RD",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "RD",
+            "rdfs:comment": "Rod"
+        },
+        {
+            "@id": "UNTDID7065:RG",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "RG",
+            "rdfs:comment": "Ring"
+        },
+        {
+            "@id": "UNTDID7065:RJ",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "RJ",
+            "rdfs:comment": "Rack, clothing hanger"
+        },
+        {
+            "@id": "UNTDID7065:RK",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "RK",
+            "rdfs:comment": "Rack"
+        },
+        {
+            "@id": "UNTDID7065:RL",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "RL",
+            "rdfs:comment": "Reel"
+        },
+        {
+            "@id": "UNTDID7065:RO",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "RO",
+            "rdfs:comment": "Roll"
+        },
+        {
+            "@id": "UNTDID7065:RT",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "RT",
+            "rdfs:comment": "Rednet"
+        },
+        {
+            "@id": "UNTDID7065:RZ",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "RZ",
+            "rdfs:comment": "Rods, in bundle/bunch/truss"
+        },
+        {
+            "@id": "UNTDID7065:SA",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "SA",
+            "rdfs:comment": "Sack"
+        },
+        {
+            "@id": "UNTDID7065:SB",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "SB",
+            "rdfs:comment": "Slab"
+        },
+        {
+            "@id": "UNTDID7065:SC",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "SC",
+            "rdfs:comment": "Crate, shallow"
+        },
+        {
+            "@id": "UNTDID7065:SD",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "SD",
+            "rdfs:comment": "Spindle"
+        },
+        {
+            "@id": "UNTDID7065:SE",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "SE",
+            "rdfs:comment": "Sea-chest"
+        },
+        {
+            "@id": "UNTDID7065:SH",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "SH",
+            "rdfs:comment": "Sachet"
+        },
+        {
+            "@id": "UNTDID7065:SI",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "SI",
+            "rdfs:comment": "Skid"
+        },
+        {
+            "@id": "UNTDID7065:SK",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "SK",
+            "rdfs:comment": "Case, skeleton"
+        },
+        {
+            "@id": "UNTDID7065:SL",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "SL",
+            "rdfs:comment": "Slipsheet"
+        },
+        {
+            "@id": "UNTDID7065:SM",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "SM",
+            "rdfs:comment": "Sheetmetal"
+        },
+        {
+            "@id": "UNTDID7065:SO",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "SO",
+            "rdfs:comment": "Spool"
+        },
+        {
+            "@id": "UNTDID7065:SP",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "SP",
+            "rdfs:comment": "Sheet, plastic wrapping"
+        },
+        {
+            "@id": "UNTDID7065:SS",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "SS",
+            "rdfs:comment": "Case, steel"
+        },
+        {
+            "@id": "UNTDID7065:ST",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "ST",
+            "rdfs:comment": "Sheet"
+        },
+        {
+            "@id": "UNTDID7065:SU",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "SU",
+            "rdfs:comment": "Suitcase"
+        },
+        {
+            "@id": "UNTDID7065:SV",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "SV",
+            "rdfs:comment": "Envelope, steel"
+        },
+        {
+            "@id": "UNTDID7065:SW",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "SW",
+            "rdfs:comment": "Shrinkwrapped"
+        },
+        {
+            "@id": "UNTDID7065:SY",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "SY",
+            "rdfs:comment": "Sleeve"
+        },
+        {
+            "@id": "UNTDID7065:SZ",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "SZ",
+            "rdfs:comment": "Sheets, in bundle/bunch/truss"
+        },
+        {
+            "@id": "UNTDID7065:T1",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "T1",
+            "rdfs:comment": "Tablet"
+        },
+        {
+            "@id": "UNTDID7065:TB",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "TB",
+            "rdfs:comment": "Tub"
+        },
+        {
+            "@id": "UNTDID7065:TC",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "TC",
+            "rdfs:comment": "Tea-chest"
+        },
+        {
+            "@id": "UNTDID7065:TD",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "TD",
+            "rdfs:comment": "Tube, collapsible"
+        },
+        {
+            "@id": "UNTDID7065:TE",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "TE",
+            "rdfs:comment": "Tyre"
+        },
+        {
+            "@id": "UNTDID7065:TG",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "TG",
+            "rdfs:comment": "Tank container, generic"
+        },
+        {
+            "@id": "UNTDID7065:TI",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "TI",
+            "rdfs:comment": "Tierce TI"
+        },
+        {
+            "@id": "UNTDID7065:TK",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "TK",
+            "rdfs:comment": "Tank, rectangular"
+        },
+        {
+            "@id": "UNTDID7065:TL",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "TL",
+            "rdfs:comment": "Tub, with lid"
+        },
+        {
+            "@id": "UNTDID7065:TN",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "TN",
+            "rdfs:comment": "Tin"
+        },
+        {
+            "@id": "UNTDID7065:TO",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "TO",
+            "rdfs:comment": "Tun"
+        },
+        {
+            "@id": "UNTDID7065:TR",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "TR",
+            "rdfs:comment": "Trunk"
+        },
+        {
+            "@id": "UNTDID7065:TS",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "TS",
+            "rdfs:comment": "Truss"
+        },
+        {
+            "@id": "UNTDID7065:TT",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "TT",
+            "rdfs:comment": "Bag, tote"
+        },
+        {
+            "@id": "UNTDID7065:TU",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "TU",
+            "rdfs:comment": "Tube"
+        },
+        {
+            "@id": "UNTDID7065:TV",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "TV",
+            "rdfs:comment": "Tube, with nozzle"
+        },
+        {
+            "@id": "UNTDID7065:TW",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "TW",
+            "rdfs:comment": "Pallet, triwall"
+        },
+        {
+            "@id": "UNTDID7065:TY",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "TY",
+            "rdfs:comment": "Tank, cylindrical"
+        },
+        {
+            "@id": "UNTDID7065:TZ",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "TZ",
+            "rdfs:comment": "Tubes, in bundle/bunch/truss"
+        },
+        {
+            "@id": "UNTDID7065:UC",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "UC",
+            "rdfs:comment": "Uncaged"
+        },
+        {
+            "@id": "UNTDID7065:UN",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "UN",
+            "rdfs:comment": "Unit"
+        },
+        {
+            "@id": "UNTDID7065:VA",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "VA",
+            "rdfs:comment": "Vat"
+        },
+        {
+            "@id": "UNTDID7065:VG",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "VG",
+            "rdfs:comment": "Bulk, gas (at 1031 mbar and 15 degree C)"
+        },
+        {
+            "@id": "UNTDID7065:VI",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "VI",
+            "rdfs:comment": "Vial"
+        },
+        {
+            "@id": "UNTDID7065:VK",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "VK",
+            "rdfs:comment": "Vanpack"
+        },
+        {
+            "@id": "UNTDID7065:VL",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "VL",
+            "rdfs:comment": "Bulk, liquid"
+        },
+        {
+            "@id": "UNTDID7065:VN",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "VN",
+            "rdfs:comment": "Vehicle"
+        },
+        {
+            "@id": "UNTDID7065:VO",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "VO",
+            "rdfs:comment": "Bulk, solid, large particles (\"nodules\")"
+        },
+        {
+            "@id": "UNTDID7065:VP",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "VP",
+            "rdfs:comment": "Vacuum-packed"
+        },
+        {
+            "@id": "UNTDID7065:VQ",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "VQ",
+            "rdfs:comment": "Bulk, liquefied gas (at abnormal temperature/pressure)"
+        },
+        {
+            "@id": "UNTDID7065:VR",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "VR",
+            "rdfs:comment": "Bulk, solid, granular particles (\"grains\")"
+        },
+        {
+            "@id": "UNTDID7065:VS",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "VS",
+            "rdfs:comment": "Bulk, scrap metal"
+        },
+        {
+            "@id": "UNTDID7065:VY",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "VY",
+            "rdfs:comment": "Bulk, solid, fine particles (\"powders\")"
+        },
+        {
+            "@id": "UNTDID7065:WA",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "WA",
+            "rdfs:comment": "Intermediate bulk container"
+        },
+        {
+            "@id": "UNTDID7065:WB",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "WB",
+            "rdfs:comment": "Wickerbottle"
+        },
+        {
+            "@id": "UNTDID7065:WC",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "WC",
+            "rdfs:comment": "Intermediate bulk container, steel"
+        },
+        {
+            "@id": "UNTDID7065:WD",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "WD",
+            "rdfs:comment": "Intermediate bulk container, aluminium"
+        },
+        {
+            "@id": "UNTDID7065:WF",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "WF",
+            "rdfs:comment": "Intermediate bulk container, metal"
+        },
+        {
+            "@id": "UNTDID7065:WG",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "WG",
+            "rdfs:comment": "Intermediate bulk container, steel, pressurised > 10 kpa"
+        },
+        {
+            "@id": "UNTDID7065:WH",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "WH",
+            "rdfs:comment": "Intermediate bulk container, aluminium, pressurised > 10 kpa"
+        },
+        {
+            "@id": "UNTDID7065:WJ",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "WJ",
+            "rdfs:comment": "Intermediate bulk container, metal, pressure 10 kpa"
+        },
+        {
+            "@id": "UNTDID7065:WK",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "WK",
+            "rdfs:comment": "Intermediate bulk container, steel, liquid"
+        },
+        {
+            "@id": "UNTDID7065:WL",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "WL",
+            "rdfs:comment": "Intermediate bulk container, aluminium, liquid"
+        },
+        {
+            "@id": "UNTDID7065:WM",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "WM",
+            "rdfs:comment": "Intermediate bulk container, metal, liquid"
+        },
+        {
+            "@id": "UNTDID7065:WN",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "WN",
+            "rdfs:comment": "Intermediate bulk container, woven plastic, without coat/liner"
+        },
+        {
+            "@id": "UNTDID7065:WP",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "WP",
+            "rdfs:comment": "Intermediate bulk container, woven plastic, coated"
+        },
+        {
+            "@id": "UNTDID7065:WQ",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "WQ",
+            "rdfs:comment": "Intermediate bulk container, woven plastic, with liner"
+        },
+        {
+            "@id": "UNTDID7065:WR",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "WR",
+            "rdfs:comment": "Intermediate bulk container, woven plastic, coated and liner"
+        },
+        {
+            "@id": "UNTDID7065:WS",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "WS",
+            "rdfs:comment": "Intermediate bulk container, plastic film"
+        },
+        {
+            "@id": "UNTDID7065:WT",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "WT",
+            "rdfs:comment": "Intermediate bulk container, textile with out coat/liner"
+        },
+        {
+            "@id": "UNTDID7065:WU",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "WU",
+            "rdfs:comment": "Intermediate bulk container, natural wood, with inner liner"
+        },
+        {
+            "@id": "UNTDID7065:WV",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "WV",
+            "rdfs:comment": "Intermediate bulk container, textile, coated"
+        },
+        {
+            "@id": "UNTDID7065:WW",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "WW",
+            "rdfs:comment": "Intermediate bulk container, textile, with liner"
+        },
+        {
+            "@id": "UNTDID7065:WX",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "WX",
+            "rdfs:comment": "Intermediate bulk container, textile, coated and liner"
+        },
+        {
+            "@id": "UNTDID7065:WY",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "WY",
+            "rdfs:comment": "Intermediate bulk container, plywood, with inner liner"
+        },
+        {
+            "@id": "UNTDID7065:WZ",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "WZ",
+            "rdfs:comment": "Intermediate bulk container, reconstituted wood, with inner liner"
+        },
+        {
+            "@id": "UNTDID7065:XA",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "XA",
+            "rdfs:comment": "Bag, woven plastic, without inner coat/liner"
+        },
+        {
+            "@id": "UNTDID7065:XB",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "XB",
+            "rdfs:comment": "Bag, woven plastic, sift proof"
+        },
+        {
+            "@id": "UNTDID7065:XC",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "XC",
+            "rdfs:comment": "Bag, woven plastic, water resistant"
+        },
+        {
+            "@id": "UNTDID7065:XD",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "XD",
+            "rdfs:comment": "Bag, plastics film"
+        },
+        {
+            "@id": "UNTDID7065:XF",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "XF",
+            "rdfs:comment": "Bag, textile, without inner coat/liner"
+        },
+        {
+            "@id": "UNTDID7065:XG",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "XG",
+            "rdfs:comment": "Bag, textile, sift proof"
+        },
+        {
+            "@id": "UNTDID7065:XH",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "XH",
+            "rdfs:comment": "Bag, textile, water resistant"
+        },
+        {
+            "@id": "UNTDID7065:XJ",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "XJ",
+            "rdfs:comment": "Bag, paper, multi-wall"
+        },
+        {
+            "@id": "UNTDID7065:XK",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "XK",
+            "rdfs:comment": "Bag, paper, multi-wall, water resistant"
+        },
+        {
+            "@id": "UNTDID7065:YA",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "YA",
+            "rdfs:comment": "Composite packaging, plastic receptacle in steel drum"
+        },
+        {
+            "@id": "UNTDID7065:YB",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "YB",
+            "rdfs:comment": "Composite packaging, plastic receptacle in steel crate box"
+        },
+        {
+            "@id": "UNTDID7065:YC",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "YC",
+            "rdfs:comment": "Composite packaging, plastic receptacle in aluminium drum"
+        },
+        {
+            "@id": "UNTDID7065:YD",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "YD",
+            "rdfs:comment": "Composite packaging, plastic receptacle in aluminium crate"
+        },
+        {
+            "@id": "UNTDID7065:YF",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "YF",
+            "rdfs:comment": "Composite packaging, plastic receptacle in wooden box"
+        },
+        {
+            "@id": "UNTDID7065:YG",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "YG",
+            "rdfs:comment": "Composite packaging, plastic receptacle in plywood drum"
+        },
+        {
+            "@id": "UNTDID7065:YH",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "YH",
+            "rdfs:comment": "Composite packaging, plastic receptacle in plywood box"
+        },
+        {
+            "@id": "UNTDID7065:YJ",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "YJ",
+            "rdfs:comment": "Composite packaging, plastic receptacle in fibre drum"
+        },
+        {
+            "@id": "UNTDID7065:YK",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "YK",
+            "rdfs:comment": "Composite packaging, plastic receptacle in fibreboard box"
+        },
+        {
+            "@id": "UNTDID7065:YL",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "YL",
+            "rdfs:comment": "Composite packaging, plastic receptacle in plastic drum"
+        },
+        {
+            "@id": "UNTDID7065:YM",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "YM",
+            "rdfs:comment": "Composite packaging, plastic receptacle in solid plastic box"
+        },
+        {
+            "@id": "UNTDID7065:YN",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "YN",
+            "rdfs:comment": "Composite packaging, glass receptacle in steel drum"
+        },
+        {
+            "@id": "UNTDID7065:YP",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "YP",
+            "rdfs:comment": "Composite packaging, glass receptacle in steel crate box"
+        },
+        {
+            "@id": "UNTDID7065:YQ",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "YQ",
+            "rdfs:comment": "Composite packaging, glass receptacle in aluminium drum"
+        },
+        {
+            "@id": "UNTDID7065:YR",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "YR",
+            "rdfs:comment": "Composite packaging, glass receptacle in aluminium crate"
+        },
+        {
+            "@id": "UNTDID7065:YS",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "YS",
+            "rdfs:comment": "Composite packaging, glass receptacle in wooden box"
+        },
+        {
+            "@id": "UNTDID7065:YT",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "YT",
+            "rdfs:comment": "Composite packaging, glass receptacle in plywood drum"
+        },
+        {
+            "@id": "UNTDID7065:YV",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "YV",
+            "rdfs:comment": "Composite packaging, glass receptacle in wickerwork hamper"
+        },
+        {
+            "@id": "UNTDID7065:YW",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "YW",
+            "rdfs:comment": "Composite packaging, glass receptacle in fibre drum"
+        },
+        {
+            "@id": "UNTDID7065:YX",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "YX",
+            "rdfs:comment": "Composite packaging, glass receptacle in fibreboard box"
+        },
+        {
+            "@id": "UNTDID7065:YY",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "YY",
+            "rdfs:comment": "Composite packaging, glass receptacle in expandable plastic pack"
+        },
+        {
+            "@id": "UNTDID7065:YZ",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "YZ",
+            "rdfs:comment": "Composite packaging, glass receptacle in solid plastic pack"
+        },
+        {
+            "@id": "UNTDID7065:ZA",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "ZA",
+            "rdfs:comment": "Intermediate bulk container, paper, multi-wall"
+        },
+        {
+            "@id": "UNTDID7065:ZB",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "ZB",
+            "rdfs:comment": "Bag, large"
+        },
+        {
+            "@id": "UNTDID7065:ZC",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "ZC",
+            "rdfs:comment": "Intermediate bulk container, paper, multi-wall, water resistant"
+        },
+        {
+            "@id": "UNTDID7065:ZD",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "ZD",
+            "rdfs:comment": "Intermediate bulk container, rigid plastic, with structural equipment, solids"
+        },
+        {
+            "@id": "UNTDID7065:ZF",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "ZF",
+            "rdfs:comment": "Intermediate bulk container, rigid plastic, freestanding, solids"
+        },
+        {
+            "@id": "UNTDID7065:ZG",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "ZG",
+            "rdfs:comment": "Intermediate bulk container, rigid plastic, with structural equipment, pressurised"
+        },
+        {
+            "@id": "UNTDID7065:ZH",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "ZH",
+            "rdfs:comment": "Intermediate bulk container, rigid plastic, freestanding, pressurised"
+        },
+        {
+            "@id": "UNTDID7065:ZJ",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "ZJ",
+            "rdfs:comment": "Intermediate bulk container, rigid plastic, with structural equipment, liquids"
+        },
+        {
+            "@id": "UNTDID7065:ZK",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "ZK",
+            "rdfs:comment": "Intermediate bulk container, rigid plastic, freestanding, liquids"
+        },
+        {
+            "@id": "UNTDID7065:ZL",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "ZL",
+            "rdfs:comment": "Intermediate bulk container, composite, rigid plastic, solids"
+        },
+        {
+            "@id": "UNTDID7065:ZM",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "ZM",
+            "rdfs:comment": "Intermediate bulk container, composite, flexible plastic, solids"
+        },
+        {
+            "@id": "UNTDID7065:ZN",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "ZN",
+            "rdfs:comment": "Intermediate bulk container, composite, rigid plastic, pressurised"
+        },
+        {
+            "@id": "UNTDID7065:ZP",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "ZP",
+            "rdfs:comment": "Intermediate bulk container, composite, flexible plastic, pressurised"
+        },
+        {
+            "@id": "UNTDID7065:ZQ",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "ZQ",
+            "rdfs:comment": "Intermediate bulk container, composite, rigid plastic, liquids"
+        },
+        {
+            "@id": "UNTDID7065:ZR",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "ZR",
+            "rdfs:comment": "Intermediate bulk container, composite, flexible plastic, liquids"
+        },
+        {
+            "@id": "UNTDID7065:ZS",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "ZS",
+            "rdfs:comment": "Intermediate bulk container, composite"
+        },
+        {
+            "@id": "UNTDID7065:ZT",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "ZT",
+            "rdfs:comment": "Intermediate bulk container, fibreboard"
+        },
+        {
+            "@id": "UNTDID7065:ZU",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "ZU",
+            "rdfs:comment": "Intermediate bulk container, flexible"
+        },
+        {
+            "@id": "UNTDID7065:ZV",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "ZV",
+            "rdfs:comment": "Intermediate bulk container, metal, other than steel"
+        },
+        {
+            "@id": "UNTDID7065:ZW",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "ZW",
+            "rdfs:comment": "Intermediate bulk container, natural wood"
+        },
+        {
+            "@id": "UNTDID7065:ZX",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "ZX",
+            "rdfs:comment": "Intermediate bulk container, plywood"
+        },
+        {
+            "@id": "UNTDID7065:ZY",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "ZY",
+            "rdfs:comment": "Intermediate bulk container, reconstituted wood"
+        },
+        {
+            "@id": "UNTDID7065:ZZ",
+            "@type": "unece:PackageTypeCodeList",
+            "rdf:value": "ZZ",
+            "rdfs:comment": "Mutually defined"
+        }
+    ]
+}

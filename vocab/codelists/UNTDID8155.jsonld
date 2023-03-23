@@ -1,0 +1,263 @@
+
+{
+    "@context": {
+        "unece": "https://vocabulary.uncefact.org/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "UNTDID8155": "https://vocabulary.uncefact.org/codelists/UNTDID8155"
+    },
+    "@graph": [
+        {
+            "@id": "UNTDID8155:1",
+            "@type": "unece:TransportEquipmentSizeTypeCodeList",
+            "rdf:value": "1",
+            "rdfs:comment": "Dime coated tank"
+        },
+        {
+            "@id": "UNTDID8155:2",
+            "@type": "unece:TransportEquipmentSizeTypeCodeList",
+            "rdf:value": "2",
+            "rdfs:comment": "Epoxy coated tank"
+        },
+        {
+            "@id": "UNTDID8155:6",
+            "@type": "unece:TransportEquipmentSizeTypeCodeList",
+            "rdf:value": "6",
+            "rdfs:comment": "Pressurized tank"
+        },
+        {
+            "@id": "UNTDID8155:7",
+            "@type": "unece:TransportEquipmentSizeTypeCodeList",
+            "rdf:value": "7",
+            "rdfs:comment": "Refrigerated tank"
+        },
+        {
+            "@id": "UNTDID8155:9",
+            "@type": "unece:TransportEquipmentSizeTypeCodeList",
+            "rdf:value": "9",
+            "rdfs:comment": "Stainless steel tank"
+        },
+        {
+            "@id": "UNTDID8155:10",
+            "@type": "unece:TransportEquipmentSizeTypeCodeList",
+            "rdf:value": "10",
+            "rdfs:comment": "Nonworking reefer container 40 ft"
+        },
+        {
+            "@id": "UNTDID8155:12",
+            "@type": "unece:TransportEquipmentSizeTypeCodeList",
+            "rdf:value": "12",
+            "rdfs:comment": "Europallet"
+        },
+        {
+            "@id": "UNTDID8155:13",
+            "@type": "unece:TransportEquipmentSizeTypeCodeList",
+            "rdf:value": "13",
+            "rdfs:comment": "Scandinavian pallet"
+        },
+        {
+            "@id": "UNTDID8155:14",
+            "@type": "unece:TransportEquipmentSizeTypeCodeList",
+            "rdf:value": "14",
+            "rdfs:comment": "Trailer"
+        },
+        {
+            "@id": "UNTDID8155:15",
+            "@type": "unece:TransportEquipmentSizeTypeCodeList",
+            "rdf:value": "15",
+            "rdfs:comment": "Nonworking reefer container 20 ft"
+        },
+        {
+            "@id": "UNTDID8155:16",
+            "@type": "unece:TransportEquipmentSizeTypeCodeList",
+            "rdf:value": "16",
+            "rdfs:comment": "Exchangeable pallet"
+        },
+        {
+            "@id": "UNTDID8155:17",
+            "@type": "unece:TransportEquipmentSizeTypeCodeList",
+            "rdf:value": "17",
+            "rdfs:comment": "Semi-trailer"
+        },
+        {
+            "@id": "UNTDID8155:18",
+            "@type": "unece:TransportEquipmentSizeTypeCodeList",
+            "rdf:value": "18",
+            "rdfs:comment": "Tank container 20 feet"
+        },
+        {
+            "@id": "UNTDID8155:19",
+            "@type": "unece:TransportEquipmentSizeTypeCodeList",
+            "rdf:value": "19",
+            "rdfs:comment": "Tank container 30 feet"
+        },
+        {
+            "@id": "UNTDID8155:20",
+            "@type": "unece:TransportEquipmentSizeTypeCodeList",
+            "rdf:value": "20",
+            "rdfs:comment": "Tank container 40 feet"
+        },
+        {
+            "@id": "UNTDID8155:21",
+            "@type": "unece:TransportEquipmentSizeTypeCodeList",
+            "rdf:value": "21",
+            "rdfs:comment": "Container IC 20 feet"
+        },
+        {
+            "@id": "UNTDID8155:22",
+            "@type": "unece:TransportEquipmentSizeTypeCodeList",
+            "rdf:value": "22",
+            "rdfs:comment": "Container IC 30 feet"
+        },
+        {
+            "@id": "UNTDID8155:23",
+            "@type": "unece:TransportEquipmentSizeTypeCodeList",
+            "rdf:value": "23",
+            "rdfs:comment": "Container IC 40 feet"
+        },
+        {
+            "@id": "UNTDID8155:24",
+            "@type": "unece:TransportEquipmentSizeTypeCodeList",
+            "rdf:value": "24",
+            "rdfs:comment": "Refrigerated tank 20 feet"
+        },
+        {
+            "@id": "UNTDID8155:25",
+            "@type": "unece:TransportEquipmentSizeTypeCodeList",
+            "rdf:value": "25",
+            "rdfs:comment": "Refrigerated tank 30 feet"
+        },
+        {
+            "@id": "UNTDID8155:26",
+            "@type": "unece:TransportEquipmentSizeTypeCodeList",
+            "rdf:value": "26",
+            "rdfs:comment": "Refrigerated tank 40 feet"
+        },
+        {
+            "@id": "UNTDID8155:27",
+            "@type": "unece:TransportEquipmentSizeTypeCodeList",
+            "rdf:value": "27",
+            "rdfs:comment": "Tank container IC 20 feet"
+        },
+        {
+            "@id": "UNTDID8155:28",
+            "@type": "unece:TransportEquipmentSizeTypeCodeList",
+            "rdf:value": "28",
+            "rdfs:comment": "Tank container IC 30 feet"
+        },
+        {
+            "@id": "UNTDID8155:29",
+            "@type": "unece:TransportEquipmentSizeTypeCodeList",
+            "rdf:value": "29",
+            "rdfs:comment": "Tank container IC 40 feet"
+        },
+        {
+            "@id": "UNTDID8155:30",
+            "@type": "unece:TransportEquipmentSizeTypeCodeList",
+            "rdf:value": "30",
+            "rdfs:comment": "Refrigerated tank IC 20 feet"
+        },
+        {
+            "@id": "UNTDID8155:31",
+            "@type": "unece:TransportEquipmentSizeTypeCodeList",
+            "rdf:value": "31",
+            "rdfs:comment": "Temperature controlled container 30 ft."
+        },
+        {
+            "@id": "UNTDID8155:32",
+            "@type": "unece:TransportEquipmentSizeTypeCodeList",
+            "rdf:value": "32",
+            "rdfs:comment": "Refrigerated tank IC 40 feet"
+        },
+        {
+            "@id": "UNTDID8155:33",
+            "@type": "unece:TransportEquipmentSizeTypeCodeList",
+            "rdf:value": "33",
+            "rdfs:comment": "Movable case: L < 6,15m"
+        },
+        {
+            "@id": "UNTDID8155:34",
+            "@type": "unece:TransportEquipmentSizeTypeCodeList",
+            "rdf:value": "34",
+            "rdfs:comment": "Movable case: 6,15m < L < 7,82m"
+        },
+        {
+            "@id": "UNTDID8155:35",
+            "@type": "unece:TransportEquipmentSizeTypeCodeList",
+            "rdf:value": "35",
+            "rdfs:comment": "Movable case: 7,82m < L < 9,15m"
+        },
+        {
+            "@id": "UNTDID8155:36",
+            "@type": "unece:TransportEquipmentSizeTypeCodeList",
+            "rdf:value": "36",
+            "rdfs:comment": "Movable case: 9,15m < L < 10,90m"
+        },
+        {
+            "@id": "UNTDID8155:37",
+            "@type": "unece:TransportEquipmentSizeTypeCodeList",
+            "rdf:value": "37",
+            "rdfs:comment": "Movable case: 10,90m < L < 13,75m"
+        },
+        {
+            "@id": "UNTDID8155:38",
+            "@type": "unece:TransportEquipmentSizeTypeCodeList",
+            "rdf:value": "38",
+            "rdfs:comment": "Totebin"
+        },
+        {
+            "@id": "UNTDID8155:39",
+            "@type": "unece:TransportEquipmentSizeTypeCodeList",
+            "rdf:value": "39",
+            "rdfs:comment": "Temperature controlled container 20 ft"
+        },
+        {
+            "@id": "UNTDID8155:40",
+            "@type": "unece:TransportEquipmentSizeTypeCodeList",
+            "rdf:value": "40",
+            "rdfs:comment": "Temperature controlled container 40 ft"
+        },
+        {
+            "@id": "UNTDID8155:41",
+            "@type": "unece:TransportEquipmentSizeTypeCodeList",
+            "rdf:value": "41",
+            "rdfs:comment": "Non working refrigerated (reefer) container 30ft."
+        },
+        {
+            "@id": "UNTDID8155:42",
+            "@type": "unece:TransportEquipmentSizeTypeCodeList",
+            "rdf:value": "42",
+            "rdfs:comment": "Dual trailers"
+        },
+        {
+            "@id": "UNTDID8155:43",
+            "@type": "unece:TransportEquipmentSizeTypeCodeList",
+            "rdf:value": "43",
+            "rdfs:comment": "20 ft IL container (open top)"
+        },
+        {
+            "@id": "UNTDID8155:44",
+            "@type": "unece:TransportEquipmentSizeTypeCodeList",
+            "rdf:value": "44",
+            "rdfs:comment": "20 ft IL container (closed top)"
+        },
+        {
+            "@id": "UNTDID8155:45",
+            "@type": "unece:TransportEquipmentSizeTypeCodeList",
+            "rdf:value": "45",
+            "rdfs:comment": "40 ft IL container (closed top)"
+        },
+        {
+            "@id": "UNTDID8155:46",
+            "@type": "unece:TransportEquipmentSizeTypeCodeList",
+            "rdf:value": "46",
+            "rdfs:comment": "Synthetic pallet ISO 1"
+        },
+        {
+            "@id": "UNTDID8155:47",
+            "@type": "unece:TransportEquipmentSizeTypeCodeList",
+            "rdf:value": "47",
+            "rdfs:comment": "Synthetic pallet ISO 2"
+        }
+    ]
+}

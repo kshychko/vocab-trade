@@ -1,0 +1,29 @@
+
+{
+    "@context": {
+        "unece": "https://vocabulary.uncefact.org/",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "MeasurementUnitCommonCodeFileSize": "https://vocabulary.uncefact.org/codelists/MeasurementUnitCommonCodeFileSize"
+    },
+    "@graph": [
+        {
+            "@id": "MeasurementUnitCommonCodeFileSize:4L",
+            "@type": "unece:FileSizeUnitMeasureCode",
+            "rdf:value": "4L",
+            "rdfs:comment": "megabyte"
+        },
+        {
+            "@id": "MeasurementUnitCommonCodeFileSize:E34",
+            "@type": "unece:FileSizeUnitMeasureCode",
+            "rdf:value": "E34",
+            "rdfs:comment": "gigabyte"
+        },
+        {
+            "@id": "MeasurementUnitCommonCodeFileSize:E35",
+            "@type": "unece:FileSizeUnitMeasureCode",
+            "rdf:value": "E35",
+            "rdfs:comment": "terabyte"
+        }
+    ]
+}
